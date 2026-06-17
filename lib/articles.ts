@@ -1,0 +1,114 @@
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import { remark } from 'remark'
+import remarkHtml from 'remark-html'
+import { format } from 'date-fns'
+import { pt } from 'date-fns/locale'
+
+const ARTICLES_DIR = path.join(process.cwd(), 'content', 'blog')
+
+export interface ArticleMeta {
+  slug: string
+  title: string
+  excerpt: string
+  date: string
+  category: string
+  readTime: number
+  coverImage?: string
+}
+
+export interface Article extends ArticleMeta {
+  content: string // HTML
+}
+
+/** Ensure the directory exists before reading */
+function ensureDir() {
+  if (!fs.existsSync(ARTICLES_DIR)) {
+    fs.mkdirSync(ARTICLES_DIR, { recursive: true })
+  }
+}
+
+/** Parse a single .md file and return ArticleMeta */
+function parseMeta(slug: string): ArticleMeta | null {
+  const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
+  if (!fs.existsSync(filePath)) return null
+
+  const raw = fs.readFileSync(filePath, 'utf8')
+  const { data, content } = matter(raw)
+
+  const wordCount = content.split(/\s+/).length
+  const readTime = Math.max(1, Math.round(wordCount / 200))
+
+  return {
+    slug,
+    title: data.title ?? slug,
+    excerpt: data.excerpt ?? content.slice(0, 160).replace(/[#*_]/g, '') + '…',
+    date: data.date
+      ? format(new Date(data.date), "d 'de' MMMM 'de' yyyy", { locale: pt })
+      : '',
+    category: data.category ?? 'Treino',
+    readTime,
+    coverImage: data.coverImage,
+  }
+}
+
+/** Get all articles sorted by date descending */
+export function getAllArticles(): ArticleMeta[] {
+  ensureDir()
+
+  const files = fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith('.md'))
+
+  const articles = files
+    .map((f) => parseMeta(f.replace(/\.md$/, '')))
+    .filter((a): a is ArticleMeta => a !== null)
+
+  return articles.sort((a, b) => {
+    // Raw date for sort — re-read frontmatter
+    const rawA = matter(fs.readFileSync(path.join(ARTICLES_DIR, `${a.slug}.md`), 'utf8')).data.date
+    const rawB = matter(fs.readFileSync(path.join(ARTICLES_DIR, `${b.slug}.md`), 'utf8')).data.date
+    return new Date(rawB).getTime() - new Date(rawA).getTime()
+  })
+}
+
+/** Get the N most recent articles */
+export async function getLatestArticles(n: number): Promise<ArticleMeta[]> {
+  return getAllArticles().slice(0, n)
+}
+
+/** Get full article (with parsed HTML content) by slug */
+export async function getArticleBySlug(slug: string): Promise<Article | null> {
+  const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
+  if (!fs.existsSync(filePath)) return null
+
+  const raw = fs.readFileSync(filePath, 'utf8')
+  const { data, content: mdContent } = matter(raw)
+
+  const processed = await remark().use(remarkHtml, { sanitize: false }).process(mdContent)
+  const htmlContent = processed.toString()
+
+  const wordCount = mdContent.split(/\s+/).length
+  const readTime = Math.max(1, Math.round(wordCount / 200))
+
+  return {
+    slug,
+    title: data.title ?? slug,
+    excerpt: data.excerpt ?? mdContent.slice(0, 160).replace(/[#*_]/g, '') + '…',
+    date: data.date
+      ? format(new Date(data.date), "d 'de' MMMM 'de' yyyy", { locale: pt })
+      : '',
+    category: data.category ?? 'Treino',
+    readTime,
+    coverImage: data.coverImage,
+    content: htmlContent,
+  }
+}
+
+/** Get all slugs (for generateStaticParams) */
+export function getAllSlugs(): string[] {
+  ensureDir()
+  return fs
+    .readdirSync(ARTICLES_DIR)
+    .filter((f) => f.endsWith('.md'))
+    .map((f) => f.replace(/\.md$/, ''))
+}
