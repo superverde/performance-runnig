@@ -49,18 +49,21 @@ export function BlogClient({ articles, initialCategory = 'Todos' }: Props) {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="pt-28 pb-16 border-b border-white/5 bg-[#0D0D0D]">
+      <section className="pt-28 pb-16 border-b border-white/5 bg-[#080808]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl">
-            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-4">
-              Arquivo · {articles.length} artigos
+          <div className="max-w-3xl">
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">
+              Arquivo · {articles.length} artigos científicos
             </p>
-            <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none mb-5">
-              Base de<br />
-              <span className="text-brand-green">Conhecimento</span>
+            <h1
+              className="font-display text-white leading-none mb-5"
+              style={{ fontSize: 'clamp(3rem, 8vw, 7rem)' }}
+            >
+              BASE DE<br />
+              <span className="text-brand-green">CONHECIMENTO.</span>
             </h1>
-            <p className="text-white/45 text-base leading-relaxed max-w-xl mb-8">
-              Todos os artigos científicos sobre corrida, trail running e atletismo.
+            <p className="text-white/40 text-sm leading-relaxed max-w-lg mb-8">
+              Fisiologia, treino, nutrição, biomecânica, recuperação e psicologia desportiva.
               3 novos artigos publicados todos os dias.
             </p>
 

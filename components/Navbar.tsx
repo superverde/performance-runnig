@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
-import { Menu, X, ChevronRight } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const links = [
   { href: '/metodologias', label: 'Metodologias' },
@@ -17,46 +17,51 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20)
+    const onScroll = () => setScrolled(window.scrollY > 30)
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-black/80 backdrop-blur-xl border-b border-white/5 shadow-[0_1px_0_rgba(255,255,255,0.05)]'
+          ? 'bg-black/85 backdrop-blur-2xl border-b border-white/[0.06] shadow-[0_1px_24px_rgba(0,0,0,0.6)]'
           : 'bg-transparent'
       }`}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-[60px] items-center justify-between">
+
           {/* Logo */}
           <Link href="/" className="group flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-md bg-brand-green flex items-center justify-center">
-              <span className="text-black font-black text-xs">PR</span>
+            {/* PR logomark */}
+            <div className="relative w-8 h-8 flex items-center justify-center">
+              <div className="absolute inset-0 bg-brand-green rounded-lg" />
+              <span className="relative font-display text-black text-[15px] leading-none" style={{ fontStyle: 'italic' }}>
+                PR
+              </span>
             </div>
-            <span className="font-black text-sm tracking-tight">
+            <span className="font-display text-white tracking-tight text-[17px] leading-none" style={{ fontStyle: 'italic' }}>
               PERFORMANCE<span className="text-brand-green">RUNNING</span>
             </span>
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-0.5">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
-                className={`relative px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                className={`relative px-4 py-2 text-[13px] font-semibold rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-white'
-                    : 'text-white/50 hover:text-white'
+                    : 'text-white/45 hover:text-white'
                 }`}
               >
                 {l.label}
                 {pathname === l.href && (
-                  <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-4 h-0.5 rounded-full bg-brand-green" />
+                  <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-3.5 h-0.5 rounded-full bg-brand-green" />
                 )}
               </Link>
             ))}
@@ -66,49 +71,47 @@ export function Navbar() {
           <div className="flex items-center gap-3">
             <Link
               href="/blog"
-              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-full bg-brand-green text-black hover:bg-brand-green/90 transition-all hover:scale-105 active:scale-95"
+              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
             >
               Ler Artigos
-              <ChevronRight size={12} />
             </Link>
 
             <button
-              className="md:hidden w-9 h-9 flex items-center justify-center rounded-md border border-white/10 text-white/70 hover:text-white hover:border-white/20 transition-colors"
+              className="md:hidden w-9 h-9 flex items-center justify-center rounded-lg border border-white/10 text-white/60 hover:text-white hover:border-white/20 transition-all"
               onClick={() => setOpen(!open)}
               aria-label="Menu"
             >
-              {open ? <X size={18} /> : <Menu size={18} />}
+              {open ? <X size={17} /> : <Menu size={17} />}
             </button>
           </div>
         </div>
 
         {/* Mobile menu */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ${
-            open ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-out ${
+            open ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
-          <div className="pb-4 pt-2 border-t border-white/5">
+          <div className="pb-5 pt-2 border-t border-white/5">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className={`flex items-center justify-between px-3 py-3 text-sm rounded-md transition-colors ${
+                className={`flex items-center justify-between px-3 py-3 text-sm rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-brand-green bg-brand-green/5'
-                    : 'text-white/60 hover:text-white'
+                    : 'text-white/55 hover:text-white'
                 }`}
               >
                 {l.label}
-                <ChevronRight size={14} className="opacity-40" />
               </Link>
             ))}
             <div className="px-3 pt-3">
               <Link
                 href="/blog"
                 onClick={() => setOpen(false)}
-                className="flex items-center justify-center gap-2 w-full py-3 text-sm font-bold rounded-full bg-brand-green text-black"
+                className="flex items-center justify-center w-full py-3 text-sm font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
               >
                 Ler Artigos
               </Link>
