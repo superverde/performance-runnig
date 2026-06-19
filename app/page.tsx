@@ -44,21 +44,17 @@ const pillars = [
   },
 ]
 
-const categories = [
-  { name: 'Treino', count: '120+' },
-  { name: 'Fisiologia', count: '80+' },
-  { name: 'Nutrição', count: '60+' },
-  { name: 'Biomecânica', count: '45+' },
-  { name: 'Recuperação', count: '50+' },
-  { name: 'Psicologia', count: '30+' },
-  { name: 'Trail Running', count: '70+' },
-  { name: 'Lesões', count: '40+' },
-]
+const categoryNames = ['Treino', 'Fisiologia', 'Nutrição', 'Biomecânica', 'Recuperação', 'Psicologia', 'Trail Running', 'Lesões']
 
 export default async function HomePage() {
   const articles = await getLatestArticles(3)
   const allArticles = getAllArticles()
   const totalArticles = allArticles.length
+
+  const categories = categoryNames.map((name) => ({
+    name,
+    count: allArticles.filter((a) => a.category === name).length,
+  }))
 
   return (
     <>
