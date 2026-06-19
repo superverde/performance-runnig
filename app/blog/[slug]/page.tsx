@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Clock, Tag, Calendar } from 'lucide-react'
 import { getArticleBySlug, getAllSlugs } from '@/lib/articles'
+import { ViewCounter } from '@/components/ViewCounter'
 
 interface Props {
   params: { slug: string }
@@ -42,7 +43,7 @@ export default async function ArticlePage({ params }: Props) {
             className="inline-flex items-center gap-1.5 text-xs text-brand-text hover:text-brand-green transition-colors mb-8"
           >
             <ArrowLeft size={13} />
-            Voltar ao Blog
+            Voltar ao Arquivo
           </Link>
 
           {/* Category */}
@@ -74,6 +75,8 @@ export default async function ArticlePage({ params }: Props) {
               <Tag size={12} />
               {article.category}
             </span>
+            {/* Contador de visualizações */}
+            <ViewCounter slug={params.slug} />
           </div>
         </div>
       </div>
