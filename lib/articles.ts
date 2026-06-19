@@ -12,7 +12,8 @@ export interface ArticleMeta {
   slug: string
   title: string
   excerpt: string
-  date: string
+  date: string      // formatted: "19 de junho de 2026"
+  rawDate: string   // ISO: "2026-06-19" — use for sitemap / sort
   category: string
   readTime: number
   coverImage?: string
@@ -38,12 +39,14 @@ function parseMeta(slug: string): ArticleMeta | null {
   const { data, content } = matter(raw)
 
   const wordCount = content.split(/\s+/).length
-  const readTime = Math.max(1, Math.round(wordCount / 200))
+  // Respect frontmatter readTime; fallback to word-count estimate
+  const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
 
   return {
     slug,
     title: data.title ?? slug,
     excerpt: data.excerpt ?? content.slice(0, 160).replace(/[#*_]/g, '') + '…',
+    rawDate: data.date ?? '',
     date: data.date
       ? format(new Date(data.date), "d 'de' MMMM 'de' yyyy", { locale: pt })
       : '',
@@ -88,12 +91,14 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const htmlContent = processed.toString()
 
   const wordCount = mdContent.split(/\s+/).length
-  const readTime = Math.max(1, Math.round(wordCount / 200))
+  // Respect frontmatter readTime; fallback to word-count estimate
+  const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
 
   return {
     slug,
     title: data.title ?? slug,
     excerpt: data.excerpt ?? mdContent.slice(0, 160).replace(/[#*_]/g, '') + '…',
+    rawDate: data.date ?? '',
     date: data.date
       ? format(new Date(data.date), "d 'de' MMMM 'de' yyyy", { locale: pt })
       : '',

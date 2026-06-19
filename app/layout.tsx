@@ -16,24 +16,57 @@ const barlowCondensed = Barlow_Condensed({
   display: 'swap',
 })
 
+const SITE_URL = 'https://performance-runnig.vercel.app'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Performance Running — Treino de Corrida, Trail e Atletismo',
     template: '%s | Performance Running',
   },
   description:
-    'A maior base de conhecimento científico sobre corrida em português. Artigos sobre fisiologia, treino, nutrição, biomecânica e trail running — 3 novos artigos todos os dias, totalmente gratuito.',
+    'A maior base de conhecimento científico sobre corrida em português. Fisiologia, treino, nutrição, biomecânica, trail running e prevenção de lesões — 3 novos artigos científicos todos os dias, totalmente gratuito.',
   keywords: [
-    'corrida', 'treino de corrida', 'trail running', 'atletismo', 'maratona',
-    'meia maratona', 'treino maratona', 'performance running', 'fisiologia corrida',
-    'corrida de montanha', 'VO2max', 'periodização', 'nutrição corrida', 'biomecânica corrida',
+    'corrida', 'treino de corrida', 'trail running', 'atletismo', 'maratona portuguesa',
+    'meia maratona', 'treino maratona', 'performance running', 'fisiologia do exercício',
+    'corrida de montanha', 'VO2max', 'periodização treino', 'nutrição corrida',
+    'biomecânica corrida', 'prevenção lesões corrida', 'plano treino corrida',
+    'ultra trail', 'corrida 5km', 'corrida 10km', 'limiar de lactato',
   ],
+  authors: [{ name: 'Performance Running' }],
+  creator: 'Performance Running',
+  publisher: 'Performance Running',
   openGraph: {
     type: 'website',
     locale: 'pt_PT',
+    url: SITE_URL,
     siteName: 'Performance Running',
+    title: 'Performance Running — Treino de Corrida, Trail e Atletismo',
+    description:
+      'A maior base de conhecimento científico sobre corrida em português. Fisiologia, treino, nutrição e biomecânica — 3 artigos novos todos os dias.',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80',
+        width: 1200,
+        height: 630,
+        alt: 'Performance Running — Corrida e Trail Running',
+      },
+    ],
   },
-  robots: { index: true, follow: true },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Performance Running',
+    description: 'Ciência aplicada à corrida. Trail, maratona, atletismo. 3 artigos por dia.',
+    images: ['https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
