@@ -98,7 +98,7 @@ export default async function ArticlePage({ params }: Props) {
             href="/contacto"
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-green text-black font-bold rounded-md hover:bg-brand-green/90 transition-all text-sm"
           >
-            Coaching Online →
+            Sugerir um Tema →
           </Link>
         </div>
       </article>
