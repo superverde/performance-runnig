@@ -16,7 +16,7 @@ const barlowCondensed = Barlow_Condensed({
   display: 'swap',
 })
 
-const SITE_URL = 'https://performance-runnig.vercel.app'
+const SITE_URL = 'https://www.performancerunning.pt'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

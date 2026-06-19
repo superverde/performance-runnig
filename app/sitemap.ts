@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/articles'
 
-const SITE_URL = 'https://performance-runnig.vercel.app'
+const SITE_URL = 'https://www.performancerunning.pt'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles()

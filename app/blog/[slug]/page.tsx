@@ -5,7 +5,7 @@ import { ArrowLeft, Clock, Tag, Calendar } from 'lucide-react'
 import { getArticleBySlug, getAllSlugs } from '@/lib/articles'
 import { ViewCounter } from '@/components/ViewCounter'
 
-const SITE_URL = 'https://performance-runnig.vercel.app'
+const SITE_URL = 'https://www.performancerunning.pt'
 
 /* OG image per category — same mapping as ArticleCard */
 const categoryOgImages: Record<string, string> = {
