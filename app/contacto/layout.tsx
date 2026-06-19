@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contacto',
+  title: 'Sugerir Tema',
   description:
-    'Entra em contacto para coaching online personalizado em corrida, trail running e atletismo. Primeira conversa gratuita.',
+    'Sugere um tema sobre corrida, fisiologia ou treino para ser abordado num artigo científico no Performance Running.',
 }
 
 export default function ContactoLayout({ children }: { children: React.ReactNode }) {

@@ -2,11 +2,10 @@ import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 
 const nav = [
+  { href: '/blog', label: 'Arquivo de Artigos' },
   { href: '/metodologias', label: 'Metodologias' },
-  { href: '/planos', label: 'Planos de Treino' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/sobre', label: 'Sobre' },
-  { href: '/contacto', label: 'Contacto' },
+  { href: '/sobre', label: 'Sobre o Projeto' },
+  { href: '/contacto', label: 'Sugerir Tema' },
 ]
 
 const modalities = [
@@ -36,10 +35,10 @@ export function Footer() {
               Corrida de estrada, trail running e atletismo.
             </p>
             <a
-              href="mailto:coaching@performancerunning.pt"
+              href="mailto:info@performancerunning.pt"
               className="inline-flex items-center gap-1.5 text-xs text-white/35 hover:text-brand-green transition-colors"
             >
-              coaching@performancerunning.pt
+              info@performancerunning.pt
               <ArrowUpRight size={11} />
             </a>
           </div>
