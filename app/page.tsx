@@ -4,14 +4,14 @@ import { ArticleCard } from '@/components/ArticleCard'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 
 const modalities = [
-  { name: '5 km', tag: 'Velocidade', desc: 'Potência anaeróbia e resistência láctica', num: '01' },
-  { name: '10 km', tag: 'Resistência', desc: 'Equilíbrio entre potência e capacidade aeróbia', num: '02' },
-  { name: 'Meia Maratona', tag: '21 km', desc: 'Limiar aeróbio, eficiência e pacing', num: '03' },
-  { name: 'Maratona', tag: '42 km', desc: 'Gestão de energia, periodização e nutrição', num: '04' },
-  { name: 'Trail Running', tag: 'Montanha', desc: 'Técnica, força específica e nutrição em trail', num: '05' },
-  { name: 'Ultra Trail', tag: '> 60 km', desc: 'Preparação mental, logística e gestão de esforço', num: '06' },
-  { name: 'Corrida de Montanha', tag: 'Vertical', desc: 'Força máxima de subida e técnica de descida', num: '07' },
-  { name: 'Meio Fundo', tag: 'Pista', desc: 'VO2max, potência anaeróbia e capacidade láctica', num: '08' },
+  { name: '5 km', tag: 'Velocidade', desc: 'Potência anaeróbia e resistência láctica', num: '01', img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70' },
+  { name: '10 km', tag: 'Resistência', desc: 'Equilíbrio entre potência e capacidade aeróbia', num: '02', img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70' },
+  { name: 'Meia Maratona', tag: '21 km', desc: 'Limiar aeróbio, eficiência e pacing', num: '03', img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70' },
+  { name: 'Maratona', tag: '42 km', desc: 'Gestão de energia, periodização e nutrição', num: '04', img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70' },
+  { name: 'Trail Running', tag: 'Montanha', desc: 'Técnica, força específica e nutrição em trail', num: '05', img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=600&q=70' },
+  { name: 'Ultra Trail', tag: '> 60 km', desc: 'Preparação mental, logística e gestão de esforço', num: '06', img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=70' },
+  { name: 'Corrida de Montanha', tag: 'Vertical', desc: 'Força máxima de subida e técnica de descida', num: '07', img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70' },
+  { name: 'Meio Fundo', tag: 'Pista', desc: 'VO2max, potência anaeróbia e capacidade láctica', num: '08', img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70' },
 ]
 
 const marqueeItems = [
@@ -57,26 +57,22 @@ export default async function HomePage() {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0 bg-brand-dark" />
-        {/* Radial accent top-right */}
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
-        {/* Radial accent bottom-left */}
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-500/4 rounded-full blur-[100px] pointer-events-none" />
-
+      <section
+        className="relative min-h-screen flex flex-col justify-center overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />
+        {/* Bottom fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-brand-dark to-transparent" />
+        {/* Green accent */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-green/5 rounded-full blur-[100px] pointer-events-none" />
         {/* Vertical line accent */}
-        <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-brand-green/20 to-transparent hidden lg:block" />
-
-        {/* Grid */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,1) 1px, transparent 1px),
-              linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)`,
-            backgroundSize: '80px 80px',
-          }}
-        />
+        <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-brand-green/30 to-transparent hidden lg:block" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-28 pb-20 w-full">
           <div className="max-w-4xl">
@@ -168,40 +164,46 @@ export default async function HomePage() {
           </div>
 
           {/* Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 rounded-2xl overflow-hidden border border-white/5">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {modalities.map((m) => (
               <Link
                 key={m.name}
                 href="/metodologias"
-                className="group relative p-6 bg-brand-dark hover:bg-brand-green/5 transition-colors"
+                className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-brand-green/30 transition-all card-hover aspect-[3/4]"
+                style={{
+                  backgroundImage: `url(${m.img})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
               >
-                {/* Number */}
-                <span className="text-xs font-mono text-white/15 group-hover:text-brand-green/40 transition-colors">
-                  {m.num}
-                </span>
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
+                {/* Hover overlay */}
+                <div className="absolute inset-0 bg-brand-green/0 group-hover:bg-brand-green/10 transition-colors duration-300" />
 
-                {/* Tag */}
-                <div className="mt-4 mb-1">
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-brand-green/60 group-hover:text-brand-green transition-colors">
-                    {m.tag}
-                  </span>
+                {/* Content */}
+                <div className="absolute inset-0 p-4 flex flex-col justify-between">
+                  {/* Top */}
+                  <div className="flex items-start justify-between">
+                    <span className="text-[10px] font-mono text-white/40">{m.num}</span>
+                    <ArrowUpRight
+                      size={14}
+                      className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    />
+                  </div>
+                  {/* Bottom */}
+                  <div>
+                    <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">
+                      {m.tag}
+                    </span>
+                    <h3 className="text-sm font-black text-white leading-tight mt-1 mb-1.5">
+                      {m.name}
+                    </h3>
+                    <p className="text-[10px] text-white/40 leading-relaxed group-hover:text-white/70 transition-colors">
+                      {m.desc}
+                    </p>
+                  </div>
                 </div>
-
-                {/* Name */}
-                <h3 className="text-base font-black text-white mb-2 group-hover:text-brand-green transition-colors leading-tight">
-                  {m.name}
-                </h3>
-
-                {/* Desc */}
-                <p className="text-xs text-white/35 leading-relaxed group-hover:text-white/60 transition-colors">
-                  {m.desc}
-                </p>
-
-                {/* Arrow */}
-                <ArrowUpRight
-                  size={14}
-                  className="absolute top-5 right-5 text-white/10 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
               </Link>
             ))}
           </div>
@@ -272,7 +274,16 @@ export default async function HomePage() {
       {/* ── CTA ── */}
       <section className="py-28 bg-[#0D0D0D] border-t border-white/5">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <div className="relative rounded-2xl overflow-hidden border border-brand-green/15 bg-gradient-to-br from-brand-green/8 via-transparent to-transparent p-12 sm:p-16 text-center">
+          <div
+            className="relative rounded-2xl overflow-hidden border border-brand-green/15 p-12 sm:p-16 text-center"
+            style={{
+              backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1400&q=80)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-black/92 via-black/85 to-black/90" />
             {/* Background glow */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-48 bg-brand-green/10 rounded-full blur-[60px] pointer-events-none" />
 
