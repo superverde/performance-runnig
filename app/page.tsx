@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { getLatestArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
-import { ArrowRight, ArrowUpRight } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, BookOpen, FlaskConical, Layers, RefreshCw } from 'lucide-react'
 
-const modalities = [
+const topics = [
   { name: '5 km', tag: 'Velocidade', desc: 'Potência anaeróbia e resistência láctica', num: '01', img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70' },
   { name: '10 km', tag: 'Resistência', desc: 'Equilíbrio entre potência e capacidade aeróbia', num: '02', img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70' },
   { name: 'Meia Maratona', tag: '21 km', desc: 'Limiar aeróbio, eficiência e pacing', num: '03', img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70' },
@@ -15,40 +15,44 @@ const modalities = [
 ]
 
 const marqueeItems = [
-  'CORRIDA DE ESTRADA', 'TRAIL RUNNING', 'ATLETISMO', 'COACHING ONLINE',
-  'PERIODIZAÇÃO', 'VO2MAX', 'CORRIDA DE MONTANHA', 'ULTRA TRAIL',
-  'CORRIDA DE ESTRADA', 'TRAIL RUNNING', 'ATLETISMO', 'COACHING ONLINE',
-  'PERIODIZAÇÃO', 'VO2MAX', 'CORRIDA DE MONTANHA', 'ULTRA TRAIL',
-]
-
-const stats = [
-  { value: '10+', label: 'Anos de experiência' },
-  { value: '8', label: 'Modalidades' },
-  { value: '200+', label: 'Atletas acompanhados' },
-  { value: '100%', label: 'Baseado em ciência' },
+  'BIOMECÂNICA', 'VO2MAX', 'PERIODIZAÇÃO', 'NUTRIÇÃO DESPORTIVA',
+  'PREVENÇÃO DE LESÕES', 'FISIOLOGIA DO EXERCÍCIO', 'TRAIL RUNNING', 'MARATONA',
+  'BIOMECÂNICA', 'VO2MAX', 'PERIODIZAÇÃO', 'NUTRIÇÃO DESPORTIVA',
+  'PREVENÇÃO DE LESÕES', 'FISIOLOGIA DO EXERCÍCIO', 'TRAIL RUNNING', 'MARATONA',
 ]
 
 const pillars = [
   {
-    num: '01',
-    title: 'Fisiologia Aplicada',
-    desc: 'Cada plano é construído sobre zonas de intensidade precisas, VO2max, limiar anaeróbio e economia de corrida. Treina com dados, não com intuição.',
+    icon: <FlaskConical className="w-5 h-5 text-brand-green" />,
+    title: 'Ciência Aplicada',
+    desc: 'Cada artigo é fundamentado em investigação científica publicada. Fisiologia do exercício, biomecânica e metabolismo energético explicados de forma clara.',
   },
   {
-    num: '02',
-    title: 'Periodização Inteligente',
-    desc: 'Ciclos de carga e recuperação estruturados para pico de forma no momento certo. Da base geral à especificidade competitiva.',
+    icon: <Layers className="w-5 h-5 text-brand-green" />,
+    title: 'Todas as Distâncias',
+    desc: 'Do 5 km ao ultra trail, do meio fundo à corrida de montanha. Conteúdo específico para cada modalidade e nível de experiência.',
   },
   {
-    num: '03',
-    title: 'Individualização Total',
-    desc: 'Não existem dois atletas iguais. O plano adapta-se ao teu histórico, disponibilidade, dados de GPS e objetivos específicos.',
+    icon: <RefreshCw className="w-5 h-5 text-brand-green" />,
+    title: '3 Artigos por Dia',
+    desc: 'Publicação diária de novos conteúdos. Treino, nutrição, recuperação, psicologia desportiva e muito mais — sempre atualizado.',
   },
   {
-    num: '04',
-    title: 'Prevenção de Lesões',
-    desc: 'Monitorização da carga de treino, fortalecimento muscular integrado e gestão da fadiga para garantir continuidade e progressão.',
+    icon: <BookOpen className="w-5 h-5 text-brand-green" />,
+    title: 'Arquivo Completo',
+    desc: 'Acesso a todo o historial de artigos. Pesquisa por categoria, tema ou palavra-chave para encontrar exatamente o que precisas.',
   },
+]
+
+const categories = [
+  { name: 'Treino', count: '120+' },
+  { name: 'Fisiologia', count: '80+' },
+  { name: 'Nutrição', count: '60+' },
+  { name: 'Biomecânica', count: '45+' },
+  { name: 'Recuperação', count: '50+' },
+  { name: 'Psicologia', count: '30+' },
+  { name: 'Trail Running', count: '70+' },
+  { name: 'Lesões', count: '40+' },
 ]
 
 export default async function HomePage() {
@@ -65,58 +69,57 @@ export default async function HomePage() {
           backgroundPosition: 'center',
         }}
       >
-        {/* Dark overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />
-        {/* Bottom fade */}
         <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-brand-dark to-transparent" />
-        {/* Green accent */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-green/5 rounded-full blur-[100px] pointer-events-none" />
-        {/* Vertical line accent */}
         <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-brand-green/30 to-transparent hidden lg:block" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-28 pb-20 w-full">
           <div className="max-w-4xl">
-            {/* Live badge */}
+            {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-brand-green/25 bg-brand-green/8 mb-10">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse" />
               <span className="text-brand-green text-xs font-mono font-bold tracking-widest uppercase">
-                Vagas Abertas — Coaching Online 2025
+                3 novos artigos publicados hoje
               </span>
             </div>
 
-            {/* Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-[6rem] font-black leading-[0.9] tracking-tighter mb-8">
-              <span className="block text-white">CORRE MAIS</span>
-              <span className="block text-brand-green">RÁPIDO.</span>
-              <span className="block text-white/30 text-5xl sm:text-6xl lg:text-7xl mt-2">VAI MAIS LONGE.</span>
+              <span className="block text-white">O CONHECIMENTO</span>
+              <span className="block text-brand-green">QUE TE FAZ</span>
+              <span className="block text-white/30 text-5xl sm:text-6xl lg:text-7xl mt-2">CORRER MELHOR.</span>
             </h1>
 
             <p className="text-base sm:text-lg text-white/50 leading-relaxed max-w-lg mb-12">
-              Metodologias científicas de treino para corredores de todos os níveis.
-              Da pista ao ultra trail — cada quilómetro com propósito e dados.
+              A maior base de conhecimento científico sobre corrida em português.
+              Fisiologia, treino, nutrição, biomecânica e recuperação — 3 artigos novos todos os dias.
             </p>
 
-            {/* CTAs */}
             <div className="flex flex-wrap items-center gap-4">
               <Link
-                href="/planos"
+                href="/blog"
                 className="group inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-brand-green/90 transition-all hover:gap-3 hover:scale-105 active:scale-95"
               >
-                Ver Planos de Treino
+                Explorar Artigos
                 <ArrowRight size={15} />
               </Link>
               <Link
                 href="/metodologias"
                 className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/10 text-white/70 text-sm font-semibold rounded-full hover:border-brand-green/40 hover:text-white transition-all"
               >
-                Explorar Metodologias
+                Ver Metodologias
               </Link>
             </div>
           </div>
 
-          {/* Stats row */}
+          {/* Stats */}
           <div className="mt-20 pt-8 border-t border-white/5 grid grid-cols-2 sm:grid-cols-4 gap-8">
-            {stats.map((s) => (
+            {[
+              { value: '500+', label: 'Artigos publicados' },
+              { value: '3/dia', label: 'Novos artigos' },
+              { value: '8', label: 'Modalidades' },
+              { value: '100%', label: 'Baseado em ciência' },
+            ].map((s) => (
               <div key={s.label}>
                 <div className="text-3xl sm:text-4xl font-black text-brand-green tabular-nums">{s.value}</div>
                 <div className="text-xs text-white/40 mt-1.5 uppercase tracking-wider">{s.label}</div>
@@ -130,10 +133,7 @@ export default async function HomePage() {
       <div className="relative py-4 bg-brand-green overflow-hidden">
         <div className="flex animate-marquee whitespace-nowrap">
           {marqueeItems.map((item, i) => (
-            <span
-              key={i}
-              className="inline-flex items-center gap-6 mx-6 text-black text-xs font-black tracking-widest uppercase"
-            >
+            <span key={i} className="inline-flex items-center gap-6 mx-6 text-black text-xs font-black tracking-widest uppercase">
               {item}
               <span className="w-1 h-1 rounded-full bg-black/30 inline-block" />
             </span>
@@ -141,96 +141,57 @@ export default async function HomePage() {
         </div>
       </div>
 
-      {/* ── MODALITIES ── */}
-      <section className="py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Header */}
-          <div className="flex items-end justify-between mb-16">
-            <div>
-              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">
-                Metodologias
-              </p>
-              <h2 className="text-4xl sm:text-5xl font-black tracking-tight leading-none">
-                Treino Específico<br />
-                <span className="text-white/30">para Cada Distância</span>
-              </h2>
-            </div>
-            <Link
-              href="/metodologias"
-              className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/40 hover:text-brand-green transition-colors uppercase tracking-widest"
-            >
-              Ver todas <ArrowUpRight size={12} />
-            </Link>
-          </div>
-
-          {/* Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {modalities.map((m) => (
-              <Link
-                key={m.name}
-                href="/metodologias"
-                className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-brand-green/30 transition-all card-hover aspect-[3/4]"
-                style={{
-                  backgroundImage: `url(${m.img})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              >
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
-                {/* Hover overlay */}
-                <div className="absolute inset-0 bg-brand-green/0 group-hover:bg-brand-green/10 transition-colors duration-300" />
-
-                {/* Content */}
-                <div className="absolute inset-0 p-4 flex flex-col justify-between">
-                  {/* Top */}
-                  <div className="flex items-start justify-between">
-                    <span className="text-[10px] font-mono text-white/40">{m.num}</span>
-                    <ArrowUpRight
-                      size={14}
-                      className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                    />
-                  </div>
-                  {/* Bottom */}
-                  <div>
-                    <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">
-                      {m.tag}
-                    </span>
-                    <h3 className="text-sm font-black text-white leading-tight mt-1 mb-1.5">
-                      {m.name}
-                    </h3>
-                    <p className="text-[10px] text-white/40 leading-relaxed group-hover:text-white/70 transition-colors">
-                      {m.desc}
-                    </p>
-                  </div>
-                </div>
+      {/* ── ÚLTIMOS ARTIGOS ── */}
+      {articles.length > 0 && (
+        <section className="py-28">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex items-end justify-between mb-16">
+              <div>
+                <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">Publicados Hoje</p>
+                <h2 className="text-4xl sm:text-5xl font-black tracking-tight leading-none">
+                  Últimos Artigos<br />
+                  <span className="text-white/30">Científicos</span>
+                </h2>
+              </div>
+              <Link href="/blog" className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/40 hover:text-brand-green transition-colors uppercase tracking-widest">
+                Ver arquivo completo <ArrowUpRight size={12} />
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+            </div>
 
-      {/* ── PILLARS ── */}
+            <div className="grid sm:grid-cols-3 gap-6">
+              {articles.map((a) => (
+                <ArticleCard key={a.slug} article={a} />
+              ))}
+            </div>
+
+            <div className="mt-10 text-center">
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/10 text-white/60 text-sm font-semibold rounded-full hover:border-brand-green/40 hover:text-white transition-all"
+              >
+                Ver todos os artigos <ArrowRight size={14} />
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── PORQUÊ ── */}
       <section className="py-28 bg-[#0D0D0D] border-y border-white/5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
-            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">
-              A Nossa Abordagem
-            </p>
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">A nossa missão</p>
             <h2 className="text-4xl sm:text-5xl font-black tracking-tight leading-none">
-              Treino que Funciona.<br />
-              <span className="text-white/30">Resultados Reais.</span>
+              Informação Científica.<br />
+              <span className="text-white/30">Para Todo o Corredor.</span>
             </h2>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {pillars.map((p) => (
-              <div
-                key={p.num}
-                className="group relative p-6 rounded-xl border border-white/5 hover:border-brand-green/20 bg-white/[0.02] hover:bg-brand-green/3 transition-all card-hover"
-              >
-                <div className="text-4xl font-black text-white/5 group-hover:text-brand-green/10 transition-colors mb-4 font-mono">
-                  {p.num}
+              <div key={p.title} className="group p-6 rounded-xl border border-white/5 hover:border-brand-green/20 bg-white/[0.02] hover:bg-brand-green/3 transition-all card-hover">
+                <div className="w-10 h-10 rounded-lg bg-brand-green/10 flex items-center justify-center mb-5">
+                  {p.icon}
                 </div>
                 <h3 className="font-black text-white mb-3 text-sm leading-snug">{p.title}</h3>
                 <p className="text-white/40 text-xs leading-relaxed group-hover:text-white/60 transition-colors">{p.desc}</p>
@@ -240,39 +201,79 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── BLOG PREVIEW ── */}
-      {articles.length > 0 && (
-        <section className="py-28">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="flex items-end justify-between mb-16">
-              <div>
-                <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">
-                  Blog
-                </p>
-                <h2 className="text-4xl sm:text-5xl font-black tracking-tight leading-none">
-                  Conhecimento de<br />
-                  <span className="text-white/30">Alta Performance</span>
-                </h2>
-              </div>
-              <Link
-                href="/blog"
-                className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/40 hover:text-brand-green transition-colors uppercase tracking-widest"
-              >
-                Ver todos <ArrowUpRight size={12} />
-              </Link>
-            </div>
-
-            <div className="grid sm:grid-cols-3 gap-6">
-              {articles.map((a) => (
-                <ArticleCard key={a.slug} article={a} />
-              ))}
+      {/* ── CATEGORIAS ── */}
+      <section className="py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-end justify-between mb-16">
+            <div>
+              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">Categorias</p>
+              <h2 className="text-4xl sm:text-5xl font-black tracking-tight leading-none">
+                Explora por<br />
+                <span className="text-white/30">Tema</span>
+              </h2>
             </div>
           </div>
-        </section>
-      )}
 
-      {/* ── CTA ── */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {categories.map((c) => (
+              <Link
+                key={c.name}
+                href={`/blog?category=${encodeURIComponent(c.name)}`}
+                className="group flex items-center justify-between p-4 rounded-xl border border-white/5 hover:border-brand-green/30 bg-white/[0.02] hover:bg-brand-green/5 transition-all"
+              >
+                <span className="text-sm font-bold text-white/70 group-hover:text-white transition-colors">{c.name}</span>
+                <span className="text-xs font-mono text-white/25 group-hover:text-brand-green transition-colors">{c.count}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── MODALIDADES ── */}
       <section className="py-28 bg-[#0D0D0D] border-t border-white/5">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-end justify-between mb-16">
+            <div>
+              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">Metodologias</p>
+              <h2 className="text-4xl sm:text-5xl font-black tracking-tight leading-none">
+                Aprende Cada<br />
+                <span className="text-white/30">Modalidade</span>
+              </h2>
+            </div>
+            <Link href="/metodologias" className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/40 hover:text-brand-green transition-colors uppercase tracking-widest">
+              Ver todas <ArrowUpRight size={12} />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {topics.map((m) => (
+              <Link
+                key={m.name}
+                href="/metodologias"
+                className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-brand-green/30 transition-all card-hover aspect-[3/4]"
+                style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
+                <div className="absolute inset-0 bg-brand-green/0 group-hover:bg-brand-green/10 transition-colors duration-300" />
+                <div className="absolute inset-0 p-4 flex flex-col justify-between">
+                  <div className="flex items-start justify-between">
+                    <span className="text-[10px] font-mono text-white/40">{m.num}</span>
+                    <ArrowUpRight size={14} className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </div>
+                  <div>
+                    <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">{m.tag}</span>
+                    <h3 className="text-sm font-black text-white leading-tight mt-1 mb-1.5">{m.name}</h3>
+                    <p className="text-[10px] text-white/40 leading-relaxed group-hover:text-white/70 transition-colors">{m.desc}</p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CTA NEWSLETTER / ARQUIVO ── */}
+      <section className="py-28 border-t border-white/5">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div
             className="relative rounded-2xl overflow-hidden border border-brand-green/15 p-12 sm:p-16 text-center"
@@ -282,38 +283,25 @@ export default async function HomePage() {
               backgroundPosition: 'center',
             }}
           >
-            {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-black/92 via-black/85 to-black/90" />
-            {/* Background glow */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-48 bg-brand-green/10 rounded-full blur-[60px] pointer-events-none" />
 
             <div className="relative">
-              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-5">
-                Coaching Online
-              </p>
+              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-5">Arquivo Completo</p>
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-none mb-6">
-                Pronto para o Teu<br />
-                <span className="text-brand-green">Máximo Potencial?</span>
+                Centenas de Artigos.<br />
+                <span className="text-brand-green">Todos Gratuitos.</span>
               </h2>
               <p className="text-white/45 max-w-lg mx-auto mb-10 leading-relaxed">
-                Plano personalizado, acompanhamento semanal, análise de dados de GPS
-                e ajustes contínuos. Tudo o que precisas para evoluir de forma consistente.
+                Pesquisa por categoria, tema ou palavra-chave. Todo o historial de artigos
+                científicos sobre corrida disponível para consulta a qualquer momento.
               </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <Link
-                  href="/contacto"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-brand-green/90 transition-all hover:scale-105 active:scale-95"
-                >
-                  Iniciar Coaching Online
-                  <ArrowRight size={15} />
-                </Link>
-                <Link
-                  href="/planos"
-                  className="inline-flex items-center gap-2 px-8 py-4 border border-white/10 text-white/60 text-sm font-semibold rounded-full hover:border-white/20 hover:text-white transition-all"
-                >
-                  Ver Planos e Preços
-                </Link>
-              </div>
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-brand-green/90 transition-all hover:scale-105 active:scale-95"
+              >
+                Aceder ao Arquivo <ArrowRight size={15} />
+              </Link>
             </div>
           </div>
         </div>

@@ -7,8 +7,7 @@ import { Menu, X, ChevronRight } from 'lucide-react'
 
 const links = [
   { href: '/metodologias', label: 'Metodologias' },
-  { href: '/planos', label: 'Planos' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/blog', label: 'Arquivo' },
   { href: '/sobre', label: 'Sobre' },
 ]
 
@@ -66,10 +65,10 @@ export function Navbar() {
           {/* CTA + mobile toggle */}
           <div className="flex items-center gap-3">
             <Link
-              href="/contacto"
+              href="/blog"
               className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-full bg-brand-green text-black hover:bg-brand-green/90 transition-all hover:scale-105 active:scale-95"
             >
-              Coaching Online
+              Ler Artigos
               <ChevronRight size={12} />
             </Link>
 
@@ -107,11 +106,11 @@ export function Navbar() {
             ))}
             <div className="px-3 pt-3">
               <Link
-                href="/contacto"
+                href="/blog"
                 onClick={() => setOpen(false)}
                 className="flex items-center justify-center gap-2 w-full py-3 text-sm font-bold rounded-full bg-brand-green text-black"
               >
-                Coaching Online
+                Ler Artigos
               </Link>
             </div>
           </div>
