@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     template: '%s | Performance Running',
   },
   description:
-    'Metodologias científicas de treino para corredores de todos os níveis. 5km, 10km, Maratona, Trail Running e Corrida de Montanha. Coaching online com treinador especializado.',
+    'A maior base de conhecimento científico sobre corrida em português. Artigos sobre fisiologia, treino, nutrição, biomecânica e trail running — 3 novos artigos todos os dias, totalmente gratuito.',
   keywords: [
     'corrida', 'treino de corrida', 'trail running', 'atletismo', 'maratona',
-    'meia maratona', 'planos de treino', 'coaching online', 'performance running',
-    'corrida de montanha', 'VO2max', 'periodização',
+    'meia maratona', 'treino maratona', 'performance running', 'fisiologia corrida',
+    'corrida de montanha', 'VO2max', 'periodização', 'nutrição corrida', 'biomecânica corrida',
   ],
   openGraph: {
     type: 'website',

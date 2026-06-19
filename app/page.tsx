@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getLatestArticles } from '@/lib/articles'
+import { getLatestArticles, getAllArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
 import { ArrowRight, ArrowUpRight, BookOpen, FlaskConical, Layers, RefreshCw } from 'lucide-react'
 
@@ -57,6 +57,8 @@ const categories = [
 
 export default async function HomePage() {
   const articles = await getLatestArticles(3)
+  const allArticles = getAllArticles()
+  const totalArticles = allArticles.length
 
   return (
     <>
@@ -115,7 +117,7 @@ export default async function HomePage() {
           {/* Stats */}
           <div className="mt-20 pt-8 border-t border-white/5 grid grid-cols-2 sm:grid-cols-4 gap-8">
             {[
-              { value: '500+', label: 'Artigos publicados' },
+              { value: `${totalArticles}`, label: 'Artigos publicados' },
               { value: '3/dia', label: 'Novos artigos' },
               { value: '8', label: 'Modalidades' },
               { value: '100%', label: 'Baseado em ciência' },
