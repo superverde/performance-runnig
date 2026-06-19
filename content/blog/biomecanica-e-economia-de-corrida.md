@@ -100,3 +100,15 @@ Registar estes valores ao longo do tempo dá-te dados objectivos sobre a tua evo
 A economia de corrida é uma capacidade treinável. Melhorar a técnica, desenvolver a força específica e trabalhar regularmente a coordenação neuromuscular pode ter um impacto na performance comparável a meses de treino aeróbio.
 
 O corredor mais eficiente não é necessariamente o que tem o motor maior — é o que melhor sabe usá-lo.
+
+## Referências Científicas
+
+Saunders, P. U., Pyne, D. B., Telford, R. D., & Hawley, J. A. (2004). Factors affecting running economy in trained distance runners. *Sports Medicine*, 34(7), 465–485. https://doi.org/10.2165/00007256-200434070-00005
+
+Barnes, K. R., & Kilding, A. E. (2015). Running economy: Measurement, norms, and determining factors. *Sports Medicine — Open*, 1(1), 8. https://doi.org/10.1186/s40798-015-0007-y
+
+Heiderscheit, B. C., Chumanov, E. S., Michalski, M. P., Wille, C. M., & Ryan, M. B. (2011). Effects of step rate manipulation on joint mechanics during running. *Medicine & Science in Sports & Exercise*, 43(2), 296–302. https://doi.org/10.1249/MSS.0b013e3181ebedf4
+
+Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: A systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7
+
+Moore, I. S. (2016). Is there an economical running technique? A review of modifiable biomechanical factors affecting running economy. *Sports Medicine*, 46(6), 793–807. https://doi.org/10.1007/s40279-016-0474-4

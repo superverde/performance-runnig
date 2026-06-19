@@ -124,4 +124,14 @@ Uma fórmula simples: pesa-te antes e depois da corrida. Cada **quilograma perdi
 
 A nutrição para corrida de longa distância não é um detalhe secundário — é parte integrante do treino. Um corredor bem nutrido recupera mais rápido, treina com maior consistência e chega ao dia da prova com o sistema nervoso e muscular prontos para dar o máximo.
 
-Se queres uma estratégia nutricional verdadeiramente personalizada — ajustada ao teu peso, ao teu volume de treino e aos teus objetivos específicos —, o acompanhamento individualizado é o caminho mais eficiente. É exatamente isso que fazemos no coaching Performance Running.
+## Referências Científicas
+
+Burke, L. M., Hawley, J. A., Wong, S. H. S., & Jeukendrup, A. E. (2011). Carbohydrates for training and competition. *Journal of Sports Sciences*, 29(Sup1), S17–S27. https://doi.org/10.1080/02640414.2011.585473
+
+Jeukendrup, A. E. (2011). Nutrition for endurance sports: Marathon, triathlon, and road cycling. *Journal of Sports Sciences*, 29(Sup1), S91–S99. https://doi.org/10.1080/02640414.2011.610348
+
+Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: Nutrition and athletic performance. *Journal of the Academy of Nutrition and Dietetics*, 116(3), 501–528. https://doi.org/10.1016/j.jand.2015.12.006
+
+Ivy, J. L., Goforth, H. W., Damon, B. M., McCauley, T. R., Parsons, E. C., & Price, T. B. (2002). Early postexercise muscle glycogen recovery is enhanced with a carbohydrate-protein supplement. *Journal of Applied Physiology*, 93(4), 1337–1344. https://doi.org/10.1152/japplphysiol.00394.2002
+
+Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand: Exercise and fluid replacement. *Medicine & Science in Sports & Exercise*, 39(2), 377–390. https://doi.org/10.1249/mss.0b013e31802ca597

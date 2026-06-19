@@ -97,3 +97,15 @@ A solução é a distribuição polarizada: treinar bem os extremos (muito fáci
 As zonas de treino são a gramática da periodização. Sem as respeitar, o teu treino é uma frase sem sentido — pode ter palavras correctas, mas a mensagem não chega.
 
 Conhecer as tuas zonas, estruturar as semanas e o ano com inteligência, e respeitar os ciclos de carga e recuperação é o que separa um corredor que estagna de um que evolui continuamente.
+
+## Referências Científicas
+
+Seiler, S., & Tønnessen, E. (2009). Intervals, thresholds, and long slow distance: The role of intensity and duration in endurance training. *Sportscience*, 13, 32–53. https://sportsci.org/2009/ss.htm
+
+Bompa, T. O., & Haff, G. G. (2009). *Periodization: Theory and methodology of training* (5th ed.). Human Kinetics.
+
+Issurin, V. B. (2010). New horizons for the methodology and physiology of training periodization. *Sports Medicine*, 40(3), 189–206. https://doi.org/10.2165/11319770-000000000-00000
+
+Stoggl, T. L., & Sperlich, B. (2015). The training intensity distribution among well-trained and elite endurance athletes. *Frontiers in Physiology*, 6, 295. https://doi.org/10.3389/fphys.2015.00295
+
+Laursen, P. B., & Jenkins, D. G. (2002). The scientific basis for high-intensity interval training. *Sports Medicine*, 32(1), 53–73. https://doi.org/10.2165/00007256-200232010-00003

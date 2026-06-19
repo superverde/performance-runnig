@@ -113,3 +113,15 @@ Durante a semana de recuperação, não estás a "perder forma" — estás a dei
 A longevidade no desporto de resistência não se constrói com mais quilómetros — constrói-se com quilómetros inteligentes, recuperação adequada e um corpo forte o suficiente para os suportar.
 
 O corredor mais avançado é muitas vezes o que aprendeu a descansar bem, não o que treinou mais.
+
+## Referências Científicas
+
+Meeusen, R., Duclos, M., Foster, C., Fry, A., Gleeson, M., Nieman, D., … Urhausen, A. (2013). Prevention, diagnosis, and treatment of the overtraining syndrome. *European Journal of Sport Science*, 13(1), 1–24. https://doi.org/10.1080/17461391.2012.730061
+
+Walker, M. P. (2017). Why we sleep: Unlocking the power of sleep and dreams. Scribner. [Base científica: Van Cauter, E., & Plat, L. (1996). Physiology of growth hormone secretion during sleep. *Journal of Pediatrics*, 128(5), S32–S37. https://doi.org/10.1016/S0022-3476(96)70008-2]
+
+Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: A systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538
+
+Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: A systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7
+
+Halson, S. L. (2014). Monitoring training load to understand fatigue in athletes. *Sports Medicine*, 44(Suppl 2), 139–147. https://doi.org/10.1007/s40279-014-0253-z

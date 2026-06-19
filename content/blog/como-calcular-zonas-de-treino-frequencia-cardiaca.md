@@ -114,4 +114,14 @@ Treinar com zonas de frequência cardíaca não é complicado — é simplesment
 
 Define as tuas zonas hoje. Usa-as durante 8 semanas. Depois olha para os teus dados de ritmo em Zona 2 — vais perceber que estás a correr mais rápido ao mesmo esforço. Isso é fisiologia real.
 
-Se queres estruturar este trabalho dentro de um plano periodizado com objetivos concretos, é exatamente para isso que existe o acompanhamento personalizado — para garantir que cada zona é usada no momento certo do ciclo de treino.
+## Referências Científicas
+
+Karvonen, M. J., Kentala, E., & Mustala, O. (1957). The effects of training on heart rate: A longitudinal study. *Annales Medicinae Experimentalis et Biologiae Fenniae*, 35(3), 307–315.
+
+Tanaka, H., Monahan, K. D., & Seals, D. R. (2001). Age-predicted maximal heart rate revisited. *Journal of the American College of Cardiology*, 37(1), 153–156. https://doi.org/10.1016/S0735-1097(00)01054-8
+
+Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291. https://doi.org/10.1123/ijspp.5.3.276
+
+Stoggl, T. L., & Sperlich, B. (2015). The training intensity distribution among well-trained and elite endurance athletes. *Frontiers in Physiology*, 6, 295. https://doi.org/10.3389/fphys.2015.00295
+
+Faude, O., Kindermann, W., & Meyer, T. (2009). Lactate threshold concepts: How valid are they? *Sports Medicine*, 39(6), 469–490. https://doi.org/10.2165/00007256-200939060-00003

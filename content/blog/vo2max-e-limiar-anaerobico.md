@@ -59,3 +59,15 @@ Treinar muito no meio — no ritmo de "esforço confortável" que nunca é nem f
 VO2max e limiar anaeróbio são complementares. Para corridas até 10km, o VO2max é mais determinante. Para meias maratonas e maratonas, o limiar anaeróbio torna-se progressivamente mais importante.
 
 Treina ambos de forma sistemática, respeita as zonas de intensidade e a progressão virá inevitavelmente.
+
+## Referências Científicas
+
+Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. *Medicine & Science in Sports & Exercise*, 32(1), 70–84. https://doi.org/10.1097/00005768-200001000-00012
+
+Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance: The physiology of champions. *Journal of Physiology*, 586(1), 35–44. https://doi.org/10.1113/jphysiol.2007.143834
+
+Faude, O., Kindermann, W., & Meyer, T. (2009). Lactate threshold concepts: How valid are they? *Sports Medicine*, 39(6), 469–490. https://doi.org/10.2165/00007256-200939060-00003
+
+Seiler, S., & Tønnessen, E. (2009). Intervals, thresholds, and long slow distance: The role of intensity and duration in endurance training. *Sportscience*, 13, 32–53. https://sportsci.org/2009/ss.htm
+
+Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance. *Sports Medicine*, 37(10), 857–880. https://doi.org/10.2165/00007256-200737100-00003
