@@ -14,14 +14,26 @@ export default function ContactoPage() {
 
   return (
     <>
-      <section className="pt-28 pb-16 border-b border-white/5 bg-[#0D0D0D]">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-4">
+      <section
+        className="relative pt-32 pb-24 border-b border-white/5 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 40%',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/88 to-black/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
             Sugestões
           </p>
-          <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none mb-6">
-            Sugere um<br />
-            <span className="text-brand-green">Tema</span>
+          <h1
+            className="font-display text-white leading-none mb-6"
+            style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}
+          >
+            SUGERE UM<br />
+            <span className="text-brand-green">TEMA</span>
           </h1>
           <p className="text-white/45 text-base leading-relaxed max-w-lg">
             Há algum tópico sobre corrida, fisiologia ou treino que gostarias de ver abordado?
@@ -30,7 +42,17 @@ export default function ContactoPage() {
         </div>
       </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16">
+      <div
+        className="relative overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/95" />
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16">
         {submitted ? (
           <div className="text-center py-16 rounded-xl border border-brand-green/20 bg-brand-green/5">
             <Lightbulb size={40} className="text-brand-green mx-auto mb-4" />
@@ -73,6 +95,7 @@ export default function ContactoPage() {
             <Mail size={15} />
             performance.running0224@gmail.com
           </a>
+        </div>
         </div>
       </div>
     </>

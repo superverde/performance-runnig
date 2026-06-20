@@ -17,8 +17,16 @@ export function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="border-t border-white/5 bg-[#080808]">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+    <footer
+      className="relative border-t border-white/5 overflow-hidden"
+      style={{
+        backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center top',
+      }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-b from-black/98 to-black/99" />
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
           {/* Brand */}
           <div className="md:col-span-5">
@@ -89,5 +97,6 @@ export function Footer() {
         </div>
       </div>
     </footer>
+
   )
 }

@@ -42,15 +42,28 @@ export default function SobrePage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-28 pb-20 border-b border-white/5 bg-[#0D0D0D]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative pt-32 pb-24 border-b border-white/5 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 35%',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/88 to-black/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
+        <div className="absolute top-1/2 right-1/4 w-[400px] h-[400px] bg-brand-green/5 rounded-full blur-[100px] pointer-events-none" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-5">
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
               Sobre o Projeto
             </p>
-            <h1 className="text-5xl sm:text-6xl font-black tracking-tight leading-none mb-8">
-              Ciência da Corrida<br />
-              <span className="text-brand-green">Para Todos.</span>
+            <h1
+              className="font-display text-white leading-none mb-8"
+              style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}
+            >
+              CIÊNCIA DA CORRIDA<br />
+              <span className="text-brand-green">PARA TODOS.</span>
             </h1>
             <p className="text-white/50 text-lg leading-relaxed max-w-2xl mb-6">
               O <strong className="text-white">Performance Running</strong> é uma base de conhecimento científico gratuita
@@ -68,14 +81,26 @@ export default function SobrePage() {
       </section>
 
       {/* Pilares */}
-      <section className="py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-24 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/94" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-14">
-            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
               Os Nossos Princípios
             </p>
-            <h2 className="text-4xl font-black tracking-tight leading-none">
-              Como Trabalhamos
+            <h2
+              className="font-display text-white leading-none"
+              style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
+            >
+              COMO TRABALHAMOS
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -93,14 +118,25 @@ export default function SobrePage() {
       </section>
 
       {/* Áreas */}
-      <section className="py-24 bg-[#0D0D0D] border-y border-white/5">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-24 border-y border-white/5 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/93" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-14">
-            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
               Temas Abordados
             </p>
-            <h2 className="text-4xl font-black tracking-tight leading-none">
-              Áreas de Conhecimento
+            <h2
+              className="font-display text-white leading-none"
+              style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
+            >
+              ÁREAS DE CONHECIMENTO
             </h2>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -117,15 +153,27 @@ export default function SobrePage() {
       </section>
 
       {/* Sobre as referências */}
-      <section className="py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-24 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/85" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.2em] uppercase mb-3">
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
               Transparência
             </p>
-            <h2 className="text-4xl font-black tracking-tight leading-none mb-8">
-              Referências em<br />
-              <span className="text-white/30">Cada Artigo</span>
+            <h2
+              className="font-display text-white leading-none mb-8"
+              style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
+            >
+              REFERÊNCIAS EM<br />
+              <span className="text-white/25">CADA ARTIGO</span>
             </h2>
             <div className="space-y-5 text-white/50 leading-relaxed">
               <p>

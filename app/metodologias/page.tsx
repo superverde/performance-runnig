@@ -14,6 +14,7 @@ const modalities = [
     name: '5 km',
     tag: 'VELOCIDADE',
     headline: 'Máxima Potência Aeróbia',
+    img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
     description:
       'O 5km é a distância que mais exige do VO2max e da capacidade láctica. Um corredor de 5km precisa de sustentar entre 95-100% do VO2max durante 15-25 minutos — o que requer uma base aeróbia sólida combinada com sessões de alta intensidade.',
     physiology: 'Predominância aeróbia com contribuição anaeróbia significativa (≈10-15%). A produção de lactato excede a capacidade de remoção nos últimos quilómetros.',
@@ -27,6 +28,7 @@ const modalities = [
     id: '10km',
     name: '10 km',
     tag: 'LIMIAR',
+    img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
     headline: 'Equilíbrio entre Potência e Resistência',
     description:
       'O 10km representa o ponto de equilíbrio perfeito entre velocidade e resistência. É corrido próximo do limiar anaeróbio — o ponto onde a produção de lactato começa a superar a sua remoção. Dominar este limiar é o segredo para melhorar de 5km à maratona.',
@@ -39,6 +41,7 @@ const modalities = [
   },
   {
     id: 'meia-maratona',
+    img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=1200&q=80',
     name: 'Meia Maratona',
     tag: 'EFICIÊNCIA',
     headline: 'Limiar Aeróbio e Economia de Corrida',
@@ -53,6 +56,7 @@ const modalities = [
   },
   {
     id: 'maratona',
+    img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=1200&q=80',
     name: 'Maratona',
     tag: 'PERIODIZAÇÃO',
     headline: 'Gestão de Energia e Resistência à Fadiga',
@@ -67,6 +71,7 @@ const modalities = [
   },
   {
     id: 'trail-running',
+    img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
     name: 'Trail Running',
     tag: 'TÉCNICA',
     headline: 'Técnica de Montanha e Adaptação ao Terreno',
@@ -81,6 +86,7 @@ const modalities = [
   },
   {
     id: 'ultra-trail',
+    img: 'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1200&q=80',
     name: 'Ultra Trail',
     tag: 'MENTAL',
     headline: 'Preparação Mental, Logística e Nutrição',
@@ -95,6 +101,7 @@ const modalities = [
   },
   {
     id: 'corrida-montanha',
+    img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1200&q=80',
     name: 'Corrida de Montanha',
     tag: 'FORÇA',
     headline: 'Explosividade, Técnica e Força Específica',
@@ -109,6 +116,7 @@ const modalities = [
   },
   {
     id: 'meio-fundo',
+    img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=1200&q=80',
     name: 'Meio Fundo',
     tag: 'VO2MAX',
     headline: 'Potência Aeróbia Máxima e Velocidade',
@@ -123,6 +131,7 @@ const modalities = [
   },
   {
     id: 'jovens-atletas',
+    img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
     name: 'Jovens Atletas',
     tag: 'DESENVOLVIMENTO',
     headline: 'Periodização a Longo Prazo para Jovens',
@@ -194,16 +203,25 @@ export default function MethodologiesPage() {
           <section key={m.id} id={m.id} className="scroll-mt-32">
             {/* Header */}
             <div
-              className={`rounded-xl border border-brand-border bg-gradient-to-br ${m.color} to-transparent p-8 mb-8`}
+              className="relative rounded-2xl overflow-hidden border border-white/8 mb-8"
+              style={{
+                backgroundImage: `url(${m.img})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
             >
-              <div className="flex flex-wrap items-start justify-between gap-4">
-                <div>
-                  <span className="inline-block px-2 py-0.5 rounded text-xs font-mono font-bold tracking-wider text-brand-green border border-brand-green/30 bg-brand-green/10 mb-3">
-                    {m.tag}
-                  </span>
-                  <h2 className="text-3xl font-black tracking-tight mb-2">{m.name}</h2>
-                  <p className="text-brand-green font-semibold">{m.headline}</p>
-                </div>
+              <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/80 to-black/50" />
+              <div className="relative p-8 sm:p-10">
+                <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/30 bg-brand-green/10 mb-4">
+                  {m.tag}
+                </span>
+                <h2
+                  className="font-display text-white leading-none mb-2"
+                  style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
+                >
+                  {m.name}
+                </h2>
+                <p className="text-brand-green font-semibold text-sm sm:text-base">{m.headline}</p>
               </div>
             </div>
 
