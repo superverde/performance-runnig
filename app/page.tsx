@@ -145,8 +145,17 @@ export default async function HomePage() {
 
       {/* ─────────────────────── PUBLICADOS HOJE ── */}
       {todayArticles.length > 0 && (
-        <section className="py-16 sm:py-20 border-t border-white/5 bg-[#070707]">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <section
+          className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden"
+          style={{
+            backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center 40%',
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/80" />
+          <div className="absolute inset-0 bg-brand-green/[0.025]" />
+          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
             {/* Header */}
             <div className="flex items-center justify-between mb-10" data-reveal>
@@ -214,8 +223,17 @@ export default async function HomePage() {
 
       {/* ─────────────────────── ÚLTIMOS ARTIGOS ── */}
       {articles.length > 0 && (
-        <section className="py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <section
+          className="relative py-24 sm:py-32 overflow-hidden"
+          style={{
+            backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center 20%',
+            backgroundAttachment: 'fixed',
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-black/98 via-black/93 to-black/98" />
+          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
             {/* Section header */}
             <div className="flex items-end justify-between mb-12" data-reveal>
@@ -275,8 +293,16 @@ export default async function HomePage() {
       )}
 
       {/* ──────────────────── CATEGORIAS GRID ── */}
-      <section className="py-20 border-t border-white/5">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-20 border-t border-white/5 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-black/96 via-black/90 to-black/95" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
           <div className="mb-10" data-reveal>
             <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">Temas</p>

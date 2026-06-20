@@ -141,16 +141,30 @@ export default function MethodologiesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-28 pb-16 bg-gradient-to-b from-brand-gray to-brand-dark">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-brand-green text-xs font-mono font-semibold tracking-widest uppercase mb-4">
+      <section
+        className="relative pt-32 pb-20 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 30%',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/82 to-black" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
+        {/* Green ambient */}
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[100px] bg-brand-green/10 rounded-full blur-[80px] pointer-events-none" />
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
             METODOLOGIAS
           </p>
-          <h1 className="text-4xl sm:text-5xl font-black tracking-tight mb-5">
-            Treino Científico para{' '}
-            <span className="text-brand-green">Cada Distância</span>
+          <h1
+            className="font-display text-white leading-none mb-6"
+            style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}
+          >
+            TREINO CIENTÍFICO<br />
+            <span className="text-brand-green">PARA CADA DISTÂNCIA</span>
           </h1>
-          <p className="text-brand-text text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/50 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
             Da pista ao ultra trail — cada modalidade tem a sua fisiologia, zonas de intensidade
             e estratégia de treino. Aqui encontras a base científica para treinar de forma inteligente.
           </p>
@@ -260,17 +274,31 @@ export default function MethodologiesPage() {
       </div>
 
       {/* CTA */}
-      <section className="py-20 bg-brand-gray">
-        <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl font-black mb-4">
-            Queres um Plano Baseado nesta Metodologia?
+      <section
+        className="relative py-24 overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-black/88 to-black/90" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[150px] bg-brand-green/10 rounded-full blur-[80px] pointer-events-none" />
+        <div className="relative mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">Coaching Online</p>
+          <h2
+            className="font-display text-white leading-none mb-6"
+            style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
+          >
+            QUERES UM PLANO<br />
+            <span className="text-brand-green">PERSONALIZADO?</span>
           </h2>
-          <p className="text-brand-text mb-8">
-            Coaching online personalizado com base na tua fisiologia, disponibilidade e objetivos.
+          <p className="text-white/40 mb-10 text-sm leading-relaxed">
+            Coaching online com base na tua fisiologia, disponibilidade e objetivos.
           </p>
           <Link
             href="/contacto"
-            className="inline-flex items-center gap-2 px-7 py-3 bg-brand-green text-black font-bold rounded-md hover:bg-brand-green/90 transition-all hover:gap-3"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-brand-green text-black font-black rounded-full hover:bg-white transition-all hover:gap-3 text-sm"
           >
             Contactar Treinador <ArrowRight size={15} />
           </Link>

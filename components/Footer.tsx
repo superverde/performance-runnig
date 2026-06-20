@@ -35,10 +35,10 @@ export function Footer() {
               Corrida de estrada, trail running e atletismo.
             </p>
             <a
-              href="mailto:pedronunes5556@gmail.com"
+              href="mailto:performance.running0224@gmail.com"
               className="inline-flex items-center gap-1.5 text-xs text-white/35 hover:text-brand-green transition-colors"
             >
-              pedronunes5556@gmail.com
+              performance.running0224@gmail.com
               <ArrowUpRight size={11} />
             </a>
           </div>

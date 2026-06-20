@@ -67,11 +67,11 @@ export default function ContactoPage() {
         <div className="mt-14 pt-8 border-t border-white/5">
           <p className="text-white/25 text-xs font-mono uppercase tracking-widest mb-4">Contacto</p>
           <a
-            href="mailto:pedronunes5556@gmail.com"
+            href="mailto:performance.running0224@gmail.com"
             className="inline-flex items-center gap-3 text-white/40 hover:text-brand-green transition-colors text-sm"
           >
             <Mail size={15} />
-            pedronunes5556@gmail.com
+            performance.running0224@gmail.com
           </a>
         </div>
       </div>

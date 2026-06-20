@@ -48,15 +48,15 @@ export function Navbar() {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-0.5">
+          <div className="hidden md:flex items-center gap-1">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
-                className={`relative px-4 py-2 text-[13px] font-semibold rounded-lg transition-all ${
+                className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-white'
-                    : 'text-white/45 hover:text-white'
+                    : 'text-white/40 hover:text-white'
                 }`}
               >
                 {l.label}
@@ -98,7 +98,7 @@ export function Navbar() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className={`flex items-center justify-between px-3 py-3 text-sm rounded-lg transition-all ${
+                className={`flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.08em] rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-brand-green bg-brand-green/5'
                     : 'text-white/55 hover:text-white'
