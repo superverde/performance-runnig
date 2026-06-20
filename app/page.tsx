@@ -3,12 +3,6 @@ import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/artic
 import { ArticleCard } from '@/components/ArticleCard'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 
-const marqueeItems = [
-  'BIOMECÂNICA', '·', 'VO2MAX', '·', 'PERIODIZAÇÃO', '·', 'NUTRIÇÃO', '·',
-  'TRAIL RUNNING', '·', 'FISIOLOGIA', '·', 'MARATONA', '·', 'RECUPERAÇÃO', '·',
-  'BIOMECÂNICA', '·', 'VO2MAX', '·', 'PERIODIZAÇÃO', '·', 'NUTRIÇÃO', '·',
-  'TRAIL RUNNING', '·', 'FISIOLOGIA', '·', 'MARATONA', '·', 'RECUPERAÇÃO', '·',
-]
 
 const topics = [
   { name: '5 km', tag: 'Velocidade', num: '01', img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70' },
@@ -66,34 +60,33 @@ export default async function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-28 pb-24 w-full">
 
           {/* Live badge */}
-          <div
-            className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-brand-green/20 bg-brand-green/8 mb-10 animate-fade-up"
-          >
+          <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-brand-green/20 bg-brand-green/8 mb-10 animate-fade-up">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse-dot" />
             <span className="text-brand-green text-[10px] font-mono font-bold tracking-[0.2em] uppercase">
-              3 novos artigos publicados hoje
+              Atualizado hoje · {totalArticles} artigos publicados
             </span>
           </div>
 
           {/* Display headline — Barlow Condensed Italic */}
           <h1 className="font-display text-white mb-8 animate-fade-up delay-100" style={{ opacity: 0 }}>
-            <span className="block text-[clamp(3.5rem,10vw,8.5rem)] leading-none">
-              O CONHECIMENTO
+            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none">
+              CORRE COM
             </span>
             <span
-              className="block text-[clamp(3.5rem,10vw,8.5rem)] leading-none"
+              className="block text-[clamp(3rem,10vw,8.5rem)] leading-none"
               style={{ WebkitTextStroke: '1px #00C896', color: 'transparent' }}
             >
-              QUE TE FAZ
+              CIÊNCIA.
             </span>
-            <span className="block text-[clamp(3.5rem,10vw,8.5rem)] leading-none text-brand-green">
-              CORRER MELHOR.
+            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none text-brand-green">
+              NÃO COM ACHISMOS.
             </span>
           </h1>
 
-          <p className="text-white/50 text-base sm:text-lg leading-relaxed max-w-md mb-10 animate-fade-up delay-200" style={{ opacity: 0 }}>
-            A maior base de conhecimento científico sobre corrida em português.
-            Fisiologia, treino, nutrição e biomecânica.
+          <p className="text-white/50 text-base sm:text-lg leading-relaxed max-w-lg mb-10 animate-fade-up delay-200" style={{ opacity: 0 }}>
+            Todos os dias publicamos 3 novos artigos baseados em investigação científica real.
+            Fisiologia, biomecânica, nutrição e treino — escritos para corredores, não para académicos.
+            Gratuito. Para sempre.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 animate-fade-up delay-300" style={{ opacity: 0 }}>
@@ -101,14 +94,14 @@ export default async function HomePage() {
               href="/blog"
               className="group inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3"
             >
-              Explorar Artigos
+              Ler os artigos de hoje
               <ArrowRight size={15} />
             </Link>
             <Link
-              href="/metodologias"
+              href="/modalidades"
               className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all"
             >
-              Metodologias
+              Metodologias de Treino
             </Link>
           </div>
 
@@ -132,18 +125,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ─────────────────────────────── MARQUEE ── */}
-      <div className="relative py-3 bg-brand-green overflow-hidden">
-        <div className="flex animate-marquee whitespace-nowrap select-none">
-          {marqueeItems.map((item, i) => (
-            <span key={i} className="inline-flex items-center mx-5 text-black text-[11px] font-black tracking-[0.2em] uppercase">
-              {item}
-            </span>
-          ))}
-        </div>
-      </div>
-
-      {/* ─────────────────────── PUBLICADOS HOJE ── */}
+{/* ─────────────────────── PUBLICADOS HOJE ── */}
       {todayArticles.length > 0 && (
         <section
           className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden"
@@ -229,7 +211,7 @@ export default async function HomePage() {
             backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
             backgroundSize: 'cover',
             backgroundPosition: 'center 20%',
-            backgroundAttachment: 'fixed',
+            backgroundAttachment: 'scroll',
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/98 via-black/93 to-black/98" />

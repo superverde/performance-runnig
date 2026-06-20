@@ -87,7 +87,7 @@ export default function SobrePage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1920&q=80)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
+          backgroundAttachment: 'scroll',
         }}
       >
         <div className="absolute inset-0 bg-black/94" />
@@ -159,7 +159,7 @@ export default function SobrePage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
+          backgroundAttachment: 'scroll',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/85" />

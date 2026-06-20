@@ -15,9 +15,12 @@ const ALL_CATEGORIES = [
 interface Props {
   articles: ArticleMeta[]
   initialCategory?: string
+  heroTitle?: string
+  heroDescription?: string
+  heroBg?: string
 }
 
-export function BlogClient({ articles, initialCategory = 'Todos' }: Props) {
+export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, heroDescription, heroBg }: Props) {
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState(initialCategory)
   const [page, setPage] = useState(1)
@@ -49,22 +52,32 @@ export function BlogClient({ articles, initialCategory = 'Todos' }: Props) {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="pt-28 pb-16 border-b border-white/5 bg-[#080808]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative pt-28 pb-16 border-b border-white/5 overflow-hidden"
+        style={heroBg ? {
+          backgroundImage: `url(${heroBg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        } : { background: '#080808' }}
+      >
+        {heroBg && <div className="absolute inset-0 bg-gradient-to-r from-black/96 via-black/88 to-black/60" />}
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">
-              Arquivo · {articles.length} artigos científicos
+              {heroTitle ? `Categoria · ${heroTitle}` : `Arquivo · ${articles.length} artigos científicos`}
             </p>
             <h1
               className="font-display text-white leading-none mb-5"
               style={{ fontSize: 'clamp(3rem, 8vw, 7rem)' }}
             >
-              BASE DE<br />
-              <span className="text-brand-green">CONHECIMENTO.</span>
+              {heroTitle ? (
+                <><span className="text-brand-green">{heroTitle.toUpperCase()}</span><br />NA CORRIDA.</>
+              ) : (
+                <>BASE DE<br /><span className="text-brand-green">CONHECIMENTO.</span></>
+              )}
             </h1>
             <p className="text-white/40 text-sm leading-relaxed max-w-lg mb-8">
-              Fisiologia, treino, nutrição, biomecânica, recuperação e psicologia desportiva.
-              3 novos artigos publicados todos os dias.
+              {heroDescription || 'Fisiologia, treino, nutrição, biomecânica, recuperação e psicologia desportiva. 3 novos artigos publicados todos os dias.'}
             </p>
 
             {/* Search */}

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, Clock, Tag, Calendar } from 'lucide-react'
-import { getArticleBySlug, getAllSlugs } from '@/lib/articles'
+import { ArrowLeft, ArrowRight, Clock, Tag, Calendar } from 'lucide-react'
+import { getArticleBySlug, getAllSlugs, getAllArticles } from '@/lib/articles'
 import { ViewCounter } from '@/components/ViewCounter'
 
 const SITE_URL = 'https://www.performancerunning.pt'
@@ -66,6 +66,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ArticlePage({ params }: Props) {
   const article = await getArticleBySlug(params.slug)
   if (!article) notFound()
+
+  // Related articles — same category, exclude current
+  const related = getAllArticles()
+    .filter((a) => a.category === article.category && a.slug !== params.slug)
+    .slice(0, 3)
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
   const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
@@ -177,6 +182,49 @@ export default async function ArticlePage({ params }: Props) {
           </Link>
         </div>
       </article>
+
+      {/* ── ARTIGOS RELACIONADOS ── */}
+      {related.length > 0 && (
+        <section className="border-t border-white/5 bg-[#080808]">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
+            <div className="flex items-center justify-between mb-8">
+              <div>
+                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-1">
+                  Continua a ler
+                </p>
+                <h2 className="font-display text-white text-3xl leading-none">
+                  MAIS EM {article.category.toUpperCase()}
+                </h2>
+              </div>
+              <Link
+                href={`/blog/${article.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-')}`}
+                className="hidden sm:inline-flex items-center gap-1 text-[10px] font-bold text-white/30 hover:text-brand-green transition-colors uppercase tracking-widest"
+              >
+                Ver todos <ArrowRight size={10} />
+              </Link>
+            </div>
+            <div className="space-y-4">
+              {related.map((rel) => (
+                <Link
+                  key={rel.slug}
+                  href={`/blog/${rel.slug}`}
+                  className="group flex items-start gap-4 p-4 rounded-xl border border-white/5 hover:border-brand-green/20 bg-white/[0.01] hover:bg-brand-green/[0.03] transition-all"
+                >
+                  <div className="flex-1 min-w-0">
+                    <span className="text-[9px] font-mono font-bold text-brand-green/60 uppercase tracking-wider block mb-1">
+                      {rel.category} · {rel.readTime} min
+                    </span>
+                    <h3 className="text-sm font-bold text-white/75 group-hover:text-white transition-colors leading-snug line-clamp-2">
+                      {rel.title}
+                    </h3>
+                  </div>
+                  <ArrowRight size={14} className="text-white/20 group-hover:text-brand-green transition-colors shrink-0 mt-1" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   )
 }

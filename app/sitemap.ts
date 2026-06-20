@@ -3,6 +3,16 @@ import { getAllArticles } from '@/lib/articles'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
+const MODALIDADES_SLUGS = [
+  'maratona', 'meia-maratona', '10km', '5km',
+  'trail-running', 'ultra-trail', 'corrida-montanha', 'meio-fundo',
+]
+
+const BLOG_CATEGORIAS = [
+  'treino', 'fisiologia', 'nutricao', 'biomecanica',
+  'recuperacao', 'psicologia', 'trail-running', 'lesoes', 'vo2max',
+]
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles()
 
@@ -11,6 +21,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: article.rawDate ? new Date(article.rawDate) : new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
+  }))
+
+  const modalidadesUrls: MetadataRoute.Sitemap = MODALIDADES_SLUGS.map((slug) => ({
+    url: `${SITE_URL}/modalidades/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.85,
+  }))
+
+  const categoriaUrls: MetadataRoute.Sitemap = BLOG_CATEGORIAS.map((cat) => ({
+    url: `${SITE_URL}/blog/${cat}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.75,
   }))
 
   return [
@@ -27,10 +51,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${SITE_URL}/modalidades`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
       url: `${SITE_URL}/metodologias`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/sobre`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
     },
     {
       url: `${SITE_URL}/servicos`,
@@ -38,6 +74,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: `${SITE_URL}/contacto`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    },
+    ...modalidadesUrls,
+    ...categoriaUrls,
     ...articleUrls,
   ]
 }
