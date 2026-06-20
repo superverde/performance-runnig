@@ -79,6 +79,12 @@ export async function getLatestArticles(n: number): Promise<ArticleMeta[]> {
   return getAllArticles().slice(0, n)
 }
 
+/** Get articles published today (ISO date match) */
+export function getTodayArticles(): ArticleMeta[] {
+  const today = new Date().toISOString().slice(0, 10) // "2026-06-20"
+  return getAllArticles().filter((a) => a.rawDate === today)
+}
+
 /** Get full article (with parsed HTML content) by slug */
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
