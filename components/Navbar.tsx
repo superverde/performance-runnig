@@ -115,4 +115,10 @@ export function Navbar() {
               >
                 Ler Artigos
               </Link>
-            </di
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  )
+}

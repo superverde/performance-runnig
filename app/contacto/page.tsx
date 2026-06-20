@@ -73,4 +73,31 @@ export default function ContactoPage() {
                 onChange={(e) => setTopic(e.target.value)}
                 rows={4}
                 placeholder="Ex: Como melhorar a economia de corrida, Nutrição antes de um ultra trail, Diferenças entre treino de 5km e maratona..."
-                className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-al
+                className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all resize-none"
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-brand-green/90 transition-all hover:scale-105 active:scale-95"
+            >
+              Enviar Sugestão <ArrowRight size={15} />
+            </button>
+          </form>
+        )}
+
+        <div className="mt-14 pt-8 border-t border-white/5">
+          <p className="text-white/25 text-xs font-mono uppercase tracking-widest mb-4">Contacto</p>
+          <a
+            href="mailto:performance.running0224@gmail.com"
+            className="inline-flex items-center gap-3 text-white/40 hover:text-brand-green transition-colors text-sm"
+          >
+            <Mail size={15} />
+            performance.running0224@gmail.com
+          </a>
+        </div>
+        </div>
+      </div>
+    </>
+  )
+}

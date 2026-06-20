@@ -165,4 +165,45 @@ export default function SobrePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/85" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-b
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
+              Transparência
+            </p>
+            <h2
+              className="font-display text-white leading-none mb-8"
+              style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
+            >
+              REFERÊNCIAS EM<br />
+              <span className="text-white/25">CADA ARTIGO</span>
+            </h2>
+            <div className="space-y-5 text-white/50 leading-relaxed">
+              <p>
+                Todos os artigos publicados no Performance Running incluem uma secção de referências
+                bibliográficas no final. As referências seguem o formato APA e incluem sempre
+                o DOI (Digital Object Identifier) quando disponível, permitindo o acesso direto ao estudo original.
+              </p>
+              <p>
+                As fontes incluem revistas científicas de referência como o <em className="text-white/70">Journal of Applied Physiology</em>,
+                o <em className="text-white/70">Medicine & Science in Sports & Exercise</em>,
+                o <em className="text-white/70">International Journal of Sports Physiology and Performance</em>,
+                entre muitas outras publicações indexadas.
+              </p>
+              <p>
+                Este projeto não tem fins comerciais. É uma iniciativa dedicada à partilha livre
+                e responsável de conhecimento científico sobre corrida e performance desportiva.
+              </p>
+            </div>
+
+            <div className="mt-10">
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-brand-green/90 transition-all hover:scale-105"
+              >
+                Explorar Artigos <ArrowRight size={15} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
