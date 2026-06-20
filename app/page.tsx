@@ -402,18 +402,4 @@ export default async function HomePage() {
               </h2>
               <p className="text-white/40 max-w-md mx-auto mb-10 text-sm leading-relaxed">
                 Treino, fisiologia, nutrição, biomecânica, recuperação e psicologia desportiva.
-                Tudo baseado em ciência. Tudo gratuito.
-              </p>
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-2 px-9 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3"
-              >
-                Aceder ao Arquivo <ArrowRight size={15} />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  )
-}
+                Tudo baseado em ci�

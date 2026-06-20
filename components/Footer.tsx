@@ -87,16 +87,4 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[11px] text-white/20">
-            © {year} Performance Running. Todos os direitos reservados.
-          </p>
-          <p className="text-[11px] text-white/15 font-mono">
-            Next.js · Tailwind CSS · Vercel
-          </p>
-        </div>
-      </div>
-    </footer>
-
-  )
-}
+        <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-c

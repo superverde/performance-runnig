@@ -194,21 +194,4 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                 </div>
 
                 <button
-                  onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-                  disabled={page === totalPages}
-                  className="px-4 py-2 rounded-full text-xs font-bold border border-white/10 text-white/40 hover:border-white/20 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all"
-                >
-                  Próxima →
-                </button>
-              </div>
-            )}
-
-            <p className="text-center text-white/20 text-xs font-mono mt-6">
-              Página {page} de {totalPages} · {articles.length} artigos no total
-            </p>
-          </>
-        )}
-      </main>
-    </>
-  )
-}
+                  onCli
