@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import { getLatestArticles, getAllArticles } from '@/lib/articles'
+import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
-import { ArrowRight, ArrowUpRight } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 
 const marqueeItems = [
   'BIOMECÂNICA', '·', 'VO2MAX', '·', 'PERIODIZAÇÃO', '·', 'NUTRIÇÃO', '·',
@@ -27,6 +27,7 @@ export default async function HomePage() {
   const articles = await getLatestArticles(4)
   const allArticles = getAllArticles()
   const totalArticles = allArticles.length
+  const todayArticles = getTodayArticles()
 
   const [featured, ...rest] = articles
   const sideArticles = rest.slice(0, 2)
@@ -35,6 +36,11 @@ export default async function HomePage() {
     name,
     count: allArticles.filter((a) => a.category === name).length,
   }))
+
+  // Format today's date in Portuguese
+  const todayLabel = new Date().toLocaleDateString('pt-PT', {
+    weekday: 'long', day: 'numeric', month: 'long',
+  })
 
   return (
     <>
@@ -136,6 +142,75 @@ export default async function HomePage() {
           ))}
         </div>
       </div>
+
+      {/* ─────────────────────── PUBLICADOS HOJE ── */}
+      {todayArticles.length > 0 && (
+        <section className="py-16 sm:py-20 border-t border-white/5 bg-[#070707]">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+            {/* Header */}
+            <div className="flex items-center justify-between mb-10" data-reveal>
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-green/10 border border-brand-green/20">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse-dot" />
+                  <Zap size={10} className="text-brand-green" />
+                  <span className="text-brand-green text-[10px] font-mono font-bold tracking-[0.2em] uppercase">
+                    Hoje
+                  </span>
+                </div>
+                <div>
+                  <h2 className="font-display text-white leading-none"
+                      style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
+                    PUBLICADOS HOJE
+                  </h2>
+                  <p className="text-white/30 text-[11px] font-mono mt-0.5 capitalize">{todayLabel}</p>
+                </div>
+              </div>
+              <span className="hidden sm:block text-[10px] font-mono text-white/20 uppercase tracking-widest">
+                {todayArticles.length} {todayArticles.length === 1 ? 'artigo' : 'artigos'}
+              </span>
+            </div>
+
+            {/* Articles list */}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {todayArticles.map((article, i) => (
+                <Link
+                  key={article.slug}
+                  href={`/blog/${article.slug}`}
+                  data-reveal
+                  data-delay={String(i * 80)}
+                  className="group relative flex flex-col gap-3 p-5 rounded-2xl border border-white/[0.06] bg-white/[0.015] hover:border-brand-green/25 hover:bg-brand-green/[0.04] transition-all"
+                >
+                  {/* Category + read time */}
+                  <div className="flex items-center justify-between">
+                    <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/20 bg-brand-green/8">
+                      {article.category}
+                    </span>
+                    <span className="text-[10px] font-mono text-white/20">
+                      {article.readTime} min
+                    </span>
+                  </div>
+
+                  {/* Title */}
+                  <h3 className="text-sm font-black text-white/85 group-hover:text-white transition-colors leading-snug line-clamp-2">
+                    {article.title}
+                  </h3>
+
+                  {/* Excerpt */}
+                  <p className="text-[12px] text-white/35 leading-relaxed line-clamp-2 flex-1">
+                    {article.excerpt}
+                  </p>
+
+                  {/* CTA */}
+                  <div className="flex items-center gap-1 text-[10px] font-bold text-white/25 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
+                    Ler artigo <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ─────────────────────── ÚLTIMOS ARTIGOS ── */}
       {articles.length > 0 && (
