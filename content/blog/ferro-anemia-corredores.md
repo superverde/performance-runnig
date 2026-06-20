@@ -1,8 +1,10 @@
 ---
-title: "Ferro e Anemia em Corredores: Sintomas, Causas e Soluções"
-excerpt: "A deficiência de ferro é uma das causas mais comuns de fadiga e queda de performance em corredores — especialmente mulheres. A ciência explica como identificar e resolver o problema."
-date: "2025-06-29"
-category: "Nutrição"
+title: 'Ferro e Anemia em Corredores: Sintomas, Causas e Soluções'
+excerpt: >-
+  A deficiência de ferro é uma das causas mais comuns de fadiga e queda de
+  performance em corredores — especialmente mulheres. A ciência explica como…
+date: '2025-06-29'
+category: Nutrição
 readTime: 5
 ---
 

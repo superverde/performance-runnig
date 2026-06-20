@@ -1,8 +1,12 @@
 ---
-title: "VO2max e Limiar Anaeróbio: Os Dois Pilares da Performance em Corrida"
-excerpt: "Perceber a diferença entre VO2max e limiar anaeróbio é fundamental para treinar de forma inteligente. Neste artigo, explicamos a fisiologia por detrás destes dois indicadores e como usá-los para melhorar o teu desempenho."
-date: "2025-11-01"
-category: "VO2max"
+title: 'VO2max e Limiar Anaeróbio: Os Dois Pilares da Performance em Corrida'
+excerpt: >-
+  Perceber a diferença entre VO2max e limiar anaeróbio é fundamental para
+  treinar de forma inteligente. Neste artigo, explicamos a fisiologia por
+  detrás…
+date: '2025-11-01'
+category: VO2max
+readTime: 4
 ---
 
 Se alguma vez fizeste um teste de esforço ou usaste um relógio GPS com análise avançada, já deparaste com os termos VO2max e limiar anaeróbio. São dois dos indicadores mais importantes para avaliar e melhorar a performance em corrida — mas muitos atletas confundem-nos ou não sabem como treinar especificamente para cada um.

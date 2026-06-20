@@ -1,8 +1,11 @@
 ---
-title: "Biomecânica e Economia de Corrida: Como Correr com Menos Esforço"
-excerpt: "A economia de corrida é a quantidade de oxigénio que gastas a uma velocidade específica. Melhorá-la pode ser tão eficaz quanto aumentar o VO2max — e é alcançável através de alterações técnicas, treino de força e trabalho neuromuscular."
-date: "2025-11-15"
-category: "Biomecânica"
+title: 'Biomecânica e Economia de Corrida: Como Correr com Menos Esforço'
+excerpt: >-
+  A economia de corrida é a quantidade de oxigénio que gastas a uma velocidade
+  específica. Melhorá-la pode ser tão eficaz quanto aumentar o VO2max — e é…
+date: '2025-11-15'
+category: Biomecânica
+readTime: 5
 ---
 
 Dois corredores com o mesmo VO2max, o mesmo peso e o mesmo historial de treino podem ter tempos de maratona com 15-20 minutos de diferença. A explicação para este paradoxo está na economia de corrida — e na biomecânica que a determina.

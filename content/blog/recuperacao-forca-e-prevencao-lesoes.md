@@ -1,8 +1,13 @@
 ---
-title: "Recuperação, Força e Prevenção de Lesões: O Triângulo Ignorado pelos Corredores"
-excerpt: "Os treinos estão no calendário. A corrida está nos sapatos. Mas a recuperação e o treino de força são frequentemente os primeiros a ser cortados quando o tempo escasseia — e são exactamente esses que mais protegem a tua longevidade como atleta."
-date: "2025-11-22"
-category: "Recuperação"
+title: >-
+  Recuperação, Força e Prevenção de Lesões: O Triângulo Ignorado pelos
+  Corredores
+excerpt: >-
+  Os treinos estão no calendário. A corrida está nos sapatos. Mas a recuperação
+  e o treino de força são frequentemente os primeiros a ser cortados quando o…
+date: '2025-11-22'
+category: Recuperação
+readTime: 6
 ---
 
 Existe um paradoxo bem documentado no mundo da corrida: os atletas que mais precisam de recuperação são muitas vezes os que menos a praticam. A cultura de "mais é melhor" leva muitos corredores a acumular quilómetros sem respeitar os ciclos biológicos de adaptação — e o resultado é inevitável: lesão, fadiga crónica ou estagnação de performance.

@@ -1,8 +1,11 @@
 ---
-title: "Zonas de Treino e Periodização: Como Estruturar um Ano de Corrida"
-excerpt: "As zonas de treino são a linguagem da fisiologia aplicada ao desporto. Saber onde estás, em cada sessão, é o ponto de partida para uma periodização inteligente que maximiza a performance e minimiza o risco de lesão."
-date: "2025-11-08"
-category: "Treino"
+title: 'Zonas de Treino e Periodização: Como Estruturar um Ano de Corrida'
+excerpt: >-
+  As zonas de treino são a linguagem da fisiologia aplicada ao desporto. Saber
+  onde estás, em cada sessão, é o ponto de partida para uma periodização…
+date: '2025-11-08'
+category: Treino
+readTime: 4
 ---
 
 O treino sem estrutura é apenas exercício. Para evoluir de forma consistente — especialmente em corrida de longa distância — precisas de um sistema. Esse sistema começa pelas zonas de treino e culmina numa periodização anual que te coloca no pico de forma na data certa.

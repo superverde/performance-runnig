@@ -1,8 +1,11 @@
 ---
-title: "Fascite Plantar em Corredores: Causas, Prevenção e Tratamento"
-excerpt: "Um estudo prospectivo de 2025 com corredores identificou os fatores biomecânicos que aumentam o risco de fascite plantar — e o que a ciência recomenda para prevenir e tratar."
-date: "2025-06-16"
-category: "Lesões"
+title: 'Fascite Plantar em Corredores: Causas, Prevenção e Tratamento'
+excerpt: >-
+  Um estudo prospectivo de 2025 com corredores identificou os fatores
+  biomecânicos que aumentam o risco de fascite plantar — e o que a ciência
+  recomenda…
+date: '2025-06-16'
+category: Lesões
 readTime: 5
 ---
 

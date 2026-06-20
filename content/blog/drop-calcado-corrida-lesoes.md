@@ -1,8 +1,10 @@
 ---
-title: "Drop do Calçado: Alto, Médio ou Zero? O que a Ciência Diz"
-excerpt: "O drop do calçado — diferença de altura entre calcanhar e antepé — afeta a biomecânica e o risco de lesão. A investigação mostra que a transição é tão importante quanto a escolha."
-date: "2025-06-24"
-category: "Biomecânica"
+title: 'Drop do Calçado: Alto, Médio ou Zero? O que a Ciência Diz'
+excerpt: >-
+  O drop do calçado — diferença de altura entre calcanhar e antepé — afeta a
+  biomecânica e o risco de lesão. A investigação mostra que a transição é tão…
+date: '2025-06-24'
+category: Biomecânica
 readTime: 5
 ---
 

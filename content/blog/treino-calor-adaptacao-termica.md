@@ -1,8 +1,10 @@
 ---
-title: "Treinar no Calor: Adaptações Fisiológicas e Estratégias"
-excerpt: "Treinar em temperaturas elevadas é stressante — mas as adaptações que provoca podem melhorar significativamente a performance, mesmo em condições frias. A ciência explica como."
-date: "2025-07-03"
-category: "Fisiologia"
+title: 'Treinar no Calor: Adaptações Fisiológicas e Estratégias'
+excerpt: >-
+  Treinar em temperaturas elevadas é stressante — mas as adaptações que provoca
+  podem melhorar significativamente a performance, mesmo em condições frias. A…
+date: '2025-07-03'
+category: Fisiologia
 readTime: 5
 ---
 

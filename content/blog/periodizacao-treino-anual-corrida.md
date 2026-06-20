@@ -1,8 +1,10 @@
 ---
-title: "Periodização Anual: Como Estruturar um Ano de Treino"
-excerpt: "Os melhores corredores do mundo não treinam da mesma forma o ano inteiro. A periodização — dividir o ano em fases com objetivos distintos — é a base da progressão a longo prazo."
-date: "2025-06-30"
-category: "Treino"
+title: 'Periodização Anual: Como Estruturar um Ano de Treino'
+excerpt: >-
+  Os melhores corredores do mundo não treinam da mesma forma o ano inteiro. A
+  periodização — dividir o ano em fases com objetivos distintos — é a base da…
+date: '2025-06-30'
+category: Treino
 readTime: 5
 ---
 

@@ -1,8 +1,10 @@
 ---
-title: "Tendinopatia de Aquiles: A Lesão que os Corredores Ignoram até Ser Tarde"
-excerpt: "A tendinopatia de Aquiles afeta 9% dos corredores recreativos. O protocolo de exercício excêntrico continua a ser o tratamento mais eficaz — mas há atualizações importantes da ciência recente."
-date: "2025-06-22"
-category: "Lesões"
+title: 'Tendinopatia de Aquiles: A Lesão que os Corredores Ignoram até Ser Tarde'
+excerpt: >-
+  A tendinopatia de Aquiles afeta 9% dos corredores recreativos. O protocolo de
+  exercício excêntrico continua a ser o tratamento mais eficaz — mas há…
+date: '2025-06-22'
+category: Lesões
 readTime: 5
 ---
 

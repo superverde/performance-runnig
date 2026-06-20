@@ -1,8 +1,10 @@
 ---
-title: "Canelite (Shin Splints): Causas, Tratamento e Prevenção"
-excerpt: "A dor na parte anterior da perna é um dos problemas mais comuns em corredores iniciantes. Sabes distinguir a canelite de stress da fíbula? A ciência tem respostas claras sobre causas e solução."
-date: "2025-07-02"
-category: "Lesões"
+title: 'Canelite (Shin Splints): Causas, Tratamento e Prevenção'
+excerpt: >-
+  A dor na parte anterior da perna é um dos problemas mais comuns em corredores
+  iniciantes. Sabes distinguir a canelite de stress da fíbula? A ciência tem…
+date: '2025-07-02'
+category: Lesões
 readTime: 5
 ---
 

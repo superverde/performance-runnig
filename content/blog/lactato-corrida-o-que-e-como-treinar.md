@@ -1,8 +1,10 @@
 ---
-title: "Lactato: O que É e Por que Não É o Vilão que Pensavas"
-excerpt: "O lactato foi durante décadas culpado pela fadiga muscular. A ciência moderna mostra que é precisamente o oposto — e que entender o lactato pode transformar o teu treino."
-date: "2025-06-19"
-category: "Fisiologia"
+title: 'Lactato: O que É e Por que Não É o Vilão que Pensavas'
+excerpt: >-
+  O lactato foi durante décadas culpado pela fadiga muscular. A ciência moderna
+  mostra que é precisamente o oposto — e que entender o lactato pode…
+date: '2025-06-19'
+category: Fisiologia
 readTime: 5
 ---
 

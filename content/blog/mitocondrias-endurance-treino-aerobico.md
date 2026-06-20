@@ -1,8 +1,10 @@
 ---
-title: "Mitocôndrias: O Motor do Corredor de Endurance"
-excerpt: "A capacidade aeróbica de um corredor depende, em grande parte, das suas mitocôndrias. Entender como o treino as multiplica e melhora é a chave para treinar com propósito."
-date: "2025-07-04"
-category: "Fisiologia"
+title: 'Mitocôndrias: O Motor do Corredor de Endurance'
+excerpt: >-
+  A capacidade aeróbica de um corredor depende, em grande parte, das suas
+  mitocôndrias. Entender como o treino as multiplica e melhora é a chave para…
+date: '2025-07-04'
+category: Fisiologia
 readTime: 5
 ---
 
