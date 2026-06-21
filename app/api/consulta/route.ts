@@ -2,8 +2,9 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export const runtime = 'edge'
 
-const GEMINI_URL =
-  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent'
+// Groq — free tier: 14 400 req/day, 30 req/min, rápido (Llama 3.3 70B)
+const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions'
+const GROQ_MODEL = 'llama-3.3-70b-versatile'
 
 const SYSTEM_PROMPT = `És um especialista em fisiologia do exercício, biomecânica da corrida, metodologias de treino e nutrição desportiva de alta performance. Tens 15 anos de experiência a trabalhar com corredores de todos os níveis, do iniciante ao atleta de elite.
 
@@ -13,7 +14,7 @@ Especialidades: corrida de estrada, maratona, meia-maratona, trail running, ultr
 
 export async function POST(req: NextRequest) {
   try {
-    const apiKey = process.env.GEMINI_API_KEY ?? process.env.gemini_api_key
+    const apiKey = process.env.GROQ_API_KEY
     if (!apiKey) {
       return NextResponse.json(
         { error: 'Serviço de IA não configurado. Contacta o administrador.' },
@@ -28,31 +29,34 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Mensagens inválidas.' }, { status: 400 })
     }
 
-    // Convert to Gemini multi-turn format
-    const contents = messages.map((m: { role: string; content: string }) => ({
-      role: m.role === 'user' ? 'user' : 'model',
-      parts: [{ text: m.content }],
-    }))
+    // Groq usa formato OpenAI: array de {role, content}
+    // role 'model' → 'assistant' para compatibilidade
+    const chatMessages = [
+      { role: 'system', content: SYSTEM_PROMPT },
+      ...messages.map((m: { role: string; content: string }) => ({
+        role: m.role === 'model' ? 'assistant' : 'user',
+        content: m.content,
+      })),
+    ]
 
-    const res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
+    const res = await fetch(GROQ_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
       body: JSON.stringify({
-        system_instruction: {
-          parts: [{ text: SYSTEM_PROMPT }],
-        },
-        contents,
-        generationConfig: {
-          temperature: 0.7,
-          maxOutputTokens: 800,
-          topP: 0.9,
-        },
+        model: GROQ_MODEL,
+        messages: chatMessages,
+        temperature: 0.7,
+        max_tokens: 800,
+        top_p: 0.9,
       }),
     })
 
     if (!res.ok) {
       const err = await res.text()
-      console.error('Gemini error:', err)
+      console.error('Groq error:', err)
       return NextResponse.json(
         { error: 'Erro ao gerar resposta. Tenta novamente.' },
         { status: 502 },
@@ -60,8 +64,7 @@ export async function POST(req: NextRequest) {
     }
 
     const data = await res.json()
-    const text: string | undefined =
-      data?.candidates?.[0]?.content?.parts?.[0]?.text
+    const text: string | undefined = data?.choices?.[0]?.message?.content
 
     if (!text) {
       return NextResponse.json(
