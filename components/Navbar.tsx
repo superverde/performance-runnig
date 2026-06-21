@@ -8,6 +8,7 @@ import { Menu, X } from 'lucide-react'
 const links = [
   { href: '/metodologias', label: 'Metodologias' },
   { href: '/blog', label: 'Arquivo' },
+  { href: '/equipamento', label: 'Equipamento' },
   { href: '/reviews', label: 'Testemunhos' },
   { href: '/sobre', label: 'Sobre' },
 ]
@@ -57,7 +58,7 @@ export function Navbar() {
                 className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-white'
-                    : 'text-white/40 hover:text-white'
+                    : 'text-white/65 hover:text-white'
                 }`}
               >
                 {l.label}

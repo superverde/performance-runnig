@@ -133,7 +133,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
   // ─── FOOTER variant (rodapé compacto) ─────────────────────────────────────
   return (
     <div>
-      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/25 mb-4">Newsletter</p>
+      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/50 mb-4">Newsletter</p>
       {status === 'success' ? (
         <p className="text-brand-green text-sm font-bold">✓ Subscrito!</p>
       ) : (
@@ -144,7 +144,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="flex-1 bg-white/5 border border-white/8 rounded-md px-3 py-2 text-xs text-white placeholder-white/20 focus:outline-none focus:border-brand-green/40 transition-colors min-w-0"
+            className="flex-1 bg-white/5 border border-white/10 rounded-md px-3 py-2 text-xs text-white placeholder-white/40 focus:outline-none focus:border-brand-green/40 transition-colors min-w-0"
           />
           <button
             type="submit"
