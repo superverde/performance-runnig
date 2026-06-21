@@ -5,44 +5,11 @@ export const runtime = 'edge'
 const GEMINI_URL =
   'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent'
 
-function buildPrompt(
-  nome: string,
-  modalidade: string,
-  kmSemana: string,
-  objetivo: string,
-  questao: string,
-): string {
-  return `És um especialista em fisiologia do exercício, biomecânica da corrida, metodologias de treino e nutrição desportiva de alta performance. Tens 15 anos de experiência a trabalhar com corredores de todos os níveis, do iniciante ao atleta de elite. Respondes sempre em português europeu, com rigor técnico e linguagem acessível.
+const SYSTEM_PROMPT = `És um especialista em fisiologia do exercício, biomecânica da corrida, metodologias de treino e nutrição desportiva de alta performance. Tens 15 anos de experiência a trabalhar com corredores de todos os níveis, do iniciante ao atleta de elite.
 
-Um corredor pediu uma análise personalizada. Estes são os dados fornecidos:
+Respondes sempre em português europeu. És direto, técnico e prático. Usas valores numéricos concretos sempre que possível (ex: "aumenta 10% por semana", "2x por semana", "FC entre 140-155 bpm"). As tuas respostas têm entre 150-350 palavras. Nunca inventas dados. Se não souberes algo, diz claramente.
 
-Nome: ${nome}
-Modalidade principal: ${modalidade || 'Não especificada'}
-Volume semanal aproximado: ${kmSemana || 'Não especificado'}
-Objetivo principal: ${objetivo}
-Questão / Situação: ${questao}
-
-Escreve uma análise personalizada e aprofundada que:
-1. Aborde diretamente a situação e questão apresentadas — sem respostas genéricas
-2. Explique o raciocínio fisiológico ou metodológico por trás das recomendações
-3. Apresente 3 ações concretas que ${nome} pode implementar imediatamente
-4. Identifique 1 erro comum para esta situação que deve evitar
-5. Termine com uma frase motivacional curta e específica para o objetivo
-
-Formato obrigatório (usa estes títulos exatamente):
-## Análise da Situação
-## Raciocínio Técnico
-## 3 Ações Para Esta Semana
-## Erro a Evitar
-## Nota Final
-
-Regras:
-- Mínimo 500 palavras, máximo 750 palavras
-- Usa o nome "${nome}" pelo menos 2 vezes na resposta
-- Nunca inventar dados que não foram fornecidos
-- Linguagem direta, sem rodeios
-- Valores numéricos concretos sempre que possível (ex: "aumenta o volume 10% por semana", "faz 2x por semana", etc.)`
-}
+Especialidades: corrida de estrada, maratona, meia-maratona, trail running, ultra trail, 5K/10K, atletismo, treino de força para corredores, nutrição desportiva, recuperação, prevenção de lesões, periodização, zonas de treino, VO2max, limiar anaeróbico.`
 
 export async function POST(req: NextRequest) {
   try {
@@ -55,28 +22,31 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json()
-    const { nome, modalidade, kmSemana, objetivo, questao } = body
+    const { messages } = body
 
-    if (!nome || !objetivo || !questao) {
-      return NextResponse.json({ error: 'Dados incompletos.' }, { status: 400 })
+    if (!messages || !Array.isArray(messages) || messages.length === 0) {
+      return NextResponse.json({ error: 'Mensagens inválidas.' }, { status: 400 })
     }
 
-    const prompt = buildPrompt(nome, modalidade, kmSemana, objetivo, questao)
+    // Convert to Gemini multi-turn format
+    const contents = messages.map((m: { role: string; content: string }) => ({
+      role: m.role === 'user' ? 'user' : 'model',
+      parts: [{ text: m.content }],
+    }))
 
     const res = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
+        system_instruction: {
+          parts: [{ text: SYSTEM_PROMPT }],
+        },
+        contents,
         generationConfig: {
-          temperature: 0.65,
-          maxOutputTokens: 1200,
+          temperature: 0.7,
+          maxOutputTokens: 800,
           topP: 0.9,
         },
-        safetySettings: [
-          { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
-          { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
-        ],
       }),
     })
 
@@ -84,7 +54,7 @@ export async function POST(req: NextRequest) {
       const err = await res.text()
       console.error('Gemini error:', err)
       return NextResponse.json(
-        { error: 'Erro ao gerar análise. Tenta novamente.' },
+        { error: 'Erro ao gerar resposta. Tenta novamente.' },
         { status: 502 },
       )
     }
@@ -100,7 +70,7 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    return NextResponse.json({ analysis: text })
+    return NextResponse.json({ reply: text })
   } catch (err) {
     console.error('Consulta route error:', err)
     return NextResponse.json(
