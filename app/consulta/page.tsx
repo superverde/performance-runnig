@@ -96,14 +96,14 @@ export default function ConsultaPage() {
 
       {/* ── Hero ── */}
       <div
-        className="relative pt-28 pb-16 overflow-hidden"
+        className="relative pt-28 pb-16 overflow-hidden bg-black"
         style={{
           backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=80)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 30%',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black" />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)' }} />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
