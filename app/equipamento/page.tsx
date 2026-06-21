@@ -158,6 +158,99 @@ const sensoresFc = [
   },
 ]
 
+const nutricao = [
+  {
+    name: 'SiS Beta Fuel Gel',
+    tipo: 'Gel de energia',
+    rating: 5,
+    preco: '~€3,5',
+    badge: 'Editor\'s Choice',
+    badgeColor: '#00ff87',
+    img: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80',
+    desc: 'O gel mais avançado do mercado. 40g de carboidratos com tecnologia de duplo transportador (glicose + frutose 2:1). Absorção máxima sem desconforto gastrointestinal. Usado pela elite mundial de trail e maratona.',
+    pros: ['40g CHO por gel', 'Sem problemas GI', 'Sabor neutro', 'Testado em laboratório'],
+    contras: ['Preço elevado por gel', 'Textura espessa para alguns'],
+    link: 'https://www.amazon.es/s?k=sis+beta+fuel+gel&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'Para corridas >90 min, o Beta Fuel é o gel com maior density de carbos e menor risco de problemas de estômago. Indispensável para maratona e ultra.',
+  },
+  {
+    name: 'Maurten Gel 100',
+    tipo: 'Gel de energia',
+    rating: 5,
+    preco: '~€4,5',
+    badge: 'Preferido da Elite',
+    badgeColor: '#3b82f6',
+    img: 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80',
+    desc: 'Tecnologia Hydrogel — forma um gel no estômago que liberta energia de forma constante. Sem cor, sem sabor artificial, sem adoçantes. O gel de Kipchoge e Eliud. 25g de CHO em formato ultra-digerível.',
+    pros: ['Tecnologia Hydrogel patenteada', 'Zero problemas digestivos', 'Limpo (sem aditivos)', 'Absorção contínua'],
+    contras: ['O mais caro do mercado', 'Só 25g CHO por gel'],
+    link: 'https://www.amazon.es/s?k=maurten+gel+100&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'Para quem tem estômago sensível ou quer o que a elite mundial usa. A tecnologia Hydrogel elimina o risco de mal-estar mesmo no calor.',
+  },
+  {
+    name: 'SiS Go Electrolyte',
+    tipo: 'Isotónico em pó',
+    rating: 5,
+    preco: '~€25 (500g)',
+    badge: 'Melhor Valor',
+    badgeColor: '#00ff87',
+    img: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80',
+    desc: 'Bebida isotónica científica com 36g CHO por 500ml + eletrólitos completos (sódio, potássio, cálcio, magnésio). Fórmula isotónica real — não apenas "sais". O favorito dos triatletas e corredores de fundo.',
+    pros: ['Fórmula isotónica equilibrada', 'Eletrólitos completos', '~50 doses por embalagem', 'Vários sabores'],
+    contras: ['Precisa de misturar em pó', 'Volume a transportar'],
+    link: 'https://www.amazon.es/s?k=sis+go+electrolyte+powder&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'A melhor relação qualidade/preço em isotónicos. Cobre hidratação + energia + eletrólitos numa só bebida para treinos >1h ou no calor.',
+  },
+  {
+    name: 'GU Energy Gel',
+    tipo: 'Gel de energia',
+    rating: 4,
+    preco: '~€2,5',
+    badge: 'Melhor Entrada',
+    badgeColor: '#f59e0b',
+    img: 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80',
+    desc: 'O gel mais popular do mundo com 20+ anos de história. 21g CHO, aminoácidos de cadeia ramificada (BCAAs) e opções com cafeína. Textura suave, fácil de ingerir. Disponível em 30+ sabores.',
+    pros: ['Preço acessível', '30+ sabores', 'BCAAs incluídos', 'Com/sem cafeína'],
+    contras: ['21g CHO apenas', 'Pode causar GI em alguns'],
+    link: 'https://www.amazon.es/s?k=gu+energy+gel+running&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'O gel ideal para começar a usar nutrição em corrida. Acessível, eficaz e amplamente disponível em todas as lojas de desporto.',
+  },
+  {
+    name: 'High5 Zero Electrolyte',
+    tipo: 'Comprimidos eletrólitos',
+    rating: 4,
+    preco: '~€8 (20 comprimidos)',
+    badge: 'Hidratação Trail',
+    badgeColor: '#8b5cf6',
+    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
+    desc: 'Comprimidos efervescentes de eletrólitos sem carboidratos. Perfeitos para treinos de baixa intensidade, recuperação hidratante e calor. Sódio, magnésio, potássio e vitamina C num formato ultra-portátil.',
+    pros: ['Ultra-portátil', 'Sem açúcar', 'Dissolve em segundos', 'Cobre cãibras musculares'],
+    contras: ['Sem energia (só sais)', 'Sabor artificial'],
+    link: 'https://www.amazon.es/s?k=high5+zero+electrolyte+tablets&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'Para trail no verão ou após treinos longos. Os comprimidos de eletrólitos previnem cãibras e fadiga prematura causada pela desidratação mineral.',
+  },
+  {
+    name: 'Whey Proteína Isolada',
+    tipo: 'Recuperação muscular',
+    rating: 5,
+    preco: '~€45 (1kg)',
+    badge: 'Essencial Pós-Treino',
+    badgeColor: '#00ff87',
+    img: 'https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=600&q=80',
+    desc: 'Proteína isolada de soro de leite com 90%+ proteína, absorção rápida e aminoácidos completos. Fundamental para reparação muscular após sessões longas ou intensivas. A janela de recuperação: 30-60 min após o treino.',
+    pros: ['Absorção rápida (30 min)', 'BCAA e EAA completos', 'Alto teor proteico (25g/dose)', 'Previne catabolismo muscular'],
+    contras: ['Origem animal (não vegan)', 'Lactose residual na whey concentrada'],
+    link: 'https://www.amazon.es/s?k=whey+protein+isolate+running+recovery&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'Corredores ignoram a proteína pós-treino e pagam em lesões e falta de progressão. 25g de whey nas primeiras horas pós-treino acelera a recuperação muscular em 30-40%.',
+  },
+]
+
 const acessorios = [
   {
     name: 'Coros Pace 3',
@@ -501,10 +594,98 @@ export default function EquipamentoPage() {
           </div>
         </section>
 
+        {/* ── Nutrição ── */}
+        <section className="border-t border-white/5 pt-16">
+          <div className="mb-10">
+            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
+            <h2 className="text-3xl font-black tracking-tight">Nutrição para Corredores</h2>
+            <p className="text-white/50 text-sm mt-2 max-w-2xl">
+              A nutrição é o fator mais negligenciado no treino de corrida. Gels, isotónicos e proteína de recuperação fazem a diferença entre bater um recorde pessoal e morrer ao km 30 de maratona.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
+            {nutricao.map((n) => (
+              <article
+                key={n.name}
+                className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
+              >
+                <div className="relative h-40 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={n.img}
+                    alt={n.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  <div className="absolute top-3 left-3 flex gap-2 flex-wrap">
+                    <span
+                      className="text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
+                      style={{ background: n.badgeColor }}
+                    >
+                      {n.badge}
+                    </span>
+                    <span className="text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-white/10 text-white/70 border border-white/10">
+                      {n.tipo}
+                    </span>
+                  </div>
+                  <div className="absolute bottom-3 left-3">
+                    <Stars n={n.rating} />
+                  </div>
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <div className="flex items-start justify-between mb-2">
+                    <h3 className="font-black text-base tracking-tight">{n.name}</h3>
+                    <span className="text-brand-green font-black text-sm shrink-0 ml-2">{n.preco}</span>
+                  </div>
+                  <p className="text-white/50 text-xs leading-relaxed mb-4">{n.desc}</p>
+
+                  {/* Porque escolher */}
+                  <div className="bg-brand-green/5 border border-brand-green/15 rounded-lg p-3 mb-4">
+                    <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1">Porque usar</p>
+                    <p className="text-[11px] text-white/60 leading-relaxed">{n.porque}</p>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3 mb-4">
+                    <div>
+                      <p className="text-[9px] uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
+                      <ul className="space-y-1">
+                        {n.pros.map((p) => (
+                          <li key={p} className="text-[11px] text-white/50 flex items-start gap-1.5">
+                            <span className="text-brand-green mt-px">+</span>{p}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
+                      <ul className="space-y-1">
+                        {n.contras.map((c) => (
+                          <li key={c} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                            <span className="text-red-400/60 mt-px">−</span>{c}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <a
+                    href={n.link}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="mt-auto inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2.5 rounded-lg hover:bg-white transition-colors justify-center"
+                  >
+                    Ver preço em {n.loja} <ArrowUpRight size={12} />
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
         {/* ── Acessórios ── */}
         <section>
           <div className="mb-8">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">05</p>
             <h2 className="text-3xl font-black tracking-tight">Acessórios Essenciais</h2>
             <p className="text-white/40 text-sm mt-1">O equipamento complementar que faz diferença.</p>
           </div>
