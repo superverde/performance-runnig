@@ -1,410 +1,355 @@
 'use client'
 
-import { useState } from 'react'
-import { ArrowRight, CheckCircle, Clock, Loader2, Mail, MessageSquare, Target, Zap, AlertCircle } from 'lucide-react'
+import { useState, useRef, useEffect } from 'react'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
-const MODALIDADES = ['5km', '10km', 'Meia Maratona', 'Maratona', 'Trail 25–50km', 'Ultra Trail +50km', 'Outra']
-
-const TOPICS = [
-  { icon: Target, label: 'Planeamento de treino', desc: 'Estrutura semanal, periodização, volume e intensidade' },
-  { icon: Zap, label: 'Estratégia de prova', desc: 'Pacing, nutrição em corrida, gestão do esforço' },
-  { icon: MessageSquare, label: 'Prevenção de lesões', desc: 'Carga progressiva, fortalecimento, biomecânica' },
-  { icon: Clock, label: 'Preparação para objetivos', desc: 'PB, primeira maratona, primeiro trail, volta ao ativo' },
-]
-
-const STEPS = [
-  { n: '01', title: 'Preenche o formulário', desc: 'Conta-nos a tua situação atual, objetivos e dúvidas principais. Leva menos de 3 minutos.' },
-  { n: '02', title: 'IA analisa o teu perfil', desc: 'O nosso sistema analisa o teu perfil de corredor e gera uma resposta personalizada.' },
-  { n: '03', title: 'Recebe a análise imediatamente', desc: 'Em segundos tens uma análise técnica completa, baseada na tua situação real.' },
-]
-
-/** Converte markdown simples em JSX */
-function renderMarkdown(text: string) {
-  const blocks = text.split(/\n{2,}/).filter(Boolean)
-  return blocks.map((block, i) => {
-    // Título ## Texto
-    if (block.startsWith('## ')) {
-      return (
-        <h3 key={i} className="font-display text-brand-green text-lg mt-8 mb-3 first:mt-0">
-          {block.slice(3).trim()}
-        </h3>
-      )
-    }
-    // Lista com bullet - ou *
-    if (/^[-*•]\s/.test(block.trim())) {
-      const items = block.split('\n').filter((l) => /^[-*•]\s/.test(l.trim()))
-      return (
-        <ul key={i} className="space-y-2 my-3">
-          {items.map((item, j) => (
-            <li key={j} className="flex gap-2 text-white/70 text-sm leading-relaxed">
-              <span className="text-brand-green mt-0.5 flex-shrink-0">→</span>
-              <span dangerouslySetInnerHTML={{ __html: boldify(item.replace(/^[-*•]\s/, '')) }} />
-            </li>
-          ))}
-        </ul>
-      )
-    }
-    // Lista numerada
-    if (/^\d+\.\s/.test(block.trim())) {
-      const items = block.split('\n').filter((l) => /^\d+\.\s/.test(l.trim()))
-      return (
-        <ol key={i} className="space-y-2 my-3 list-none">
-          {items.map((item, j) => (
-            <li key={j} className="flex gap-3 text-white/70 text-sm leading-relaxed">
-              <span className="text-brand-green font-black text-xs mt-0.5 flex-shrink-0 w-4">
-                {j + 1}.
-              </span>
-              <span dangerouslySetInnerHTML={{ __html: boldify(item.replace(/^\d+\.\s/, '')) }} />
-            </li>
-          ))}
-        </ol>
-      )
-    }
-    // Parágrafo normal
-    return (
-      <p
-        key={i}
-        className="text-white/65 text-sm leading-relaxed my-3"
-        dangerouslySetInnerHTML={{ __html: boldify(block) }}
-      />
-    )
-  })
+interface Message {
+  role: 'user' | 'model'
+  content: string
 }
 
-/** Substitui **bold** por <strong> */
-function boldify(text: string): string {
-  return text.replace(/\*\*([^*]+)\*\*/g, '<strong class="text-white font-bold">$1</strong>')
+const WELCOME: Message = {
+  role: 'model',
+  content:
+    'Olá! Sou especialista em corrida, atletismo e trail. Podes perguntar-me sobre treino, nutrição, lesões, preparação para maratona, técnica de corrida — qualquer dúvida. É gratuito e a resposta é imediata.\n\nPor onde queres começar?',
 }
-
-type FormState = {
-  nome: string
-  email: string
-  modalidade: string
-  kmSemana: string
-  objetivo: string
-  questao: string
-}
-
-type Status = 'idle' | 'loading' | 'success' | 'error'
 
 export default function ConsultaPage() {
-  const [status, setStatus] = useState<Status>('idle')
-  const [analysis, setAnalysis] = useState('')
-  const [errorMsg, setErrorMsg] = useState('')
-  const [form, setForm] = useState<FormState>({
-    nome: '',
-    email: '',
-    modalidade: '',
-    kmSemana: '',
-    objetivo: '',
-    questao: '',
-  })
+  const [messages, setMessages] = useState<Message[]>([WELCOME])
+  const [input, setInput] = useState('')
+  const [loading, setLoading] = useState(false)
+  const bottomRef = useRef<HTMLDivElement>(null)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
-  const set = (k: keyof FormState) =>
-    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
-      setForm((f) => ({ ...f, [k]: e.target.value }))
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [messages, loading])
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setStatus('loading')
-    setErrorMsg('')
+  async function sendMessage() {
+    const text = input.trim()
+    if (!text || loading) return
+
+    const userMsg: Message = { role: 'user', content: text }
+    const updated = [...messages, userMsg]
+    setMessages(updated)
+    setInput('')
+    setLoading(true)
+
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto'
+    }
 
     try {
       const res = await fetch('/api/consulta', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ messages: updated }),
       })
       const data = await res.json()
+
       if (!res.ok || data.error) {
-        setErrorMsg(data.error || 'Erro desconhecido. Tenta novamente.')
-        setStatus('error')
-        return
+        setMessages(prev => [
+          ...prev,
+          { role: 'model', content: `⚠️ ${data.error || 'Erro. Tenta novamente.'}` },
+        ])
+      } else {
+        setMessages(prev => [...prev, { role: 'model', content: data.reply }])
       }
-      setAnalysis(data.analysis)
-      setStatus('success')
     } catch {
-      setErrorMsg('Sem conexão. Verifica a internet e tenta novamente.')
-      setStatus('error')
+      setMessages(prev => [
+        ...prev,
+        { role: 'model', content: '⚠️ Erro de ligação. Tenta novamente.' },
+      ])
+    } finally {
+      setLoading(false)
     }
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault()
+      sendMessage()
+    }
+  }
+
+  function handleInput(e: React.FormEvent<HTMLTextAreaElement>) {
+    const t = e.currentTarget
+    t.style.height = 'auto'
+    t.style.height = Math.min(t.scrollHeight, 120) + 'px'
   }
 
   return (
     <>
-      {/* ── HERO ── */}
-      <section
-        className="relative pt-32 pb-24 border-b border-white/5 overflow-hidden"
+      <Navbar />
+
+      {/* Page header */}
+      <div
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1502904550040-7534597429ae?w=1920&q=80)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center 30%',
+          paddingTop: '90px',
+          paddingBottom: '20px',
+          textAlign: 'center',
+          borderBottom: '1px solid #1a1a1a',
+          background: '#0a0a0a',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/88 to-black/55" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-2 mb-5">
-              <span className="w-2 h-2 rounded-full bg-brand-green animate-pulse" />
-              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase">
-                Gratuito · Resposta imediata por IA
-              </p>
-            </div>
-            <h1
-              className="font-display text-white leading-none mb-6"
-              style={{ fontSize: 'clamp(3rem, 8vw, 7rem)' }}
-            >
-              PEDE UMA<br />
-              <span className="text-brand-green">CONSULTA.</span>
-            </h1>
-            <p className="text-white/45 text-base leading-relaxed max-w-lg mb-8">
-              Descreve a tua situação e em segundos recebes uma análise técnica personalizada —
-              gerada por IA especializada em fisiologia do exercício e treino de corrida.
-              Completamente gratuita.
-            </p>
-            <a
-              href="#formulario"
-              className="inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:scale-105 active:scale-95"
-            >
-              Começar agora <ArrowRight size={15} />
-            </a>
-          </div>
-        </div>
-      </section>
+        <p
+          style={{
+            color: '#00c896',
+            fontSize: '10px',
+            letterSpacing: '3px',
+            fontWeight: 700,
+            textTransform: 'uppercase',
+            marginBottom: '6px',
+          }}
+        >
+          CONSULTA GRATUITA
+        </p>
+        <h1
+          style={{
+            fontFamily: 'Bebas Neue, sans-serif',
+            fontSize: 'clamp(1.8rem, 4vw, 2.6rem)',
+            color: '#fff',
+            letterSpacing: '2px',
+            margin: '0 0 6px',
+          }}
+        >
+          ESPECIALISTA EM CORRIDA
+        </h1>
+        <p style={{ color: '#555', fontSize: '13px', margin: 0 }}>
+          Resposta imediata · 100% gratuito · Powered by Gemini AI
+        </p>
+      </div>
 
-      {/* ── O QUE ABORDAMOS ── */}
-      <section className="py-20 border-b border-white/5" style={{ background: '#080808' }}>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-4">
-            Áreas de consulta
-          </p>
-          <h2 className="font-display text-white text-4xl leading-none mb-12">
-            O QUE PODEMOS<br /><span className="text-brand-green">ANALISAR.</span>
-          </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {TOPICS.map(({ icon: Icon, label, desc }) => (
+      {/* Chat container */}
+      <main
+        style={{
+          background: '#0a0a0a',
+          minHeight: 'calc(100vh - 160px)',
+          paddingBottom: '110px',
+        }}
+      >
+        <div
+          style={{
+            maxWidth: '720px',
+            margin: '0 auto',
+            padding: '24px 16px 8px',
+          }}
+        >
+          {messages.map((msg, i) => (
+            <div
+              key={i}
+              style={{
+                display: 'flex',
+                justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start',
+                marginBottom: '20px',
+                gap: '10px',
+                alignItems: 'flex-start',
+              }}
+            >
+              {msg.role === 'model' && (
+                <div
+                  style={{
+                    width: '34px',
+                    height: '34px',
+                    borderRadius: '50%',
+                    background: '#00c896',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontSize: '11px',
+                    fontWeight: 800,
+                    color: '#000',
+                    flexShrink: 0,
+                    marginTop: '2px',
+                    letterSpacing: '0.5px',
+                  }}
+                >
+                  PR
+                </div>
+              )}
+
               <div
-                key={label}
-                className="p-6 rounded-2xl border border-white/5 bg-white/[0.02] hover:border-brand-green/30 transition-all group"
+                style={{
+                  maxWidth: '78%',
+                  padding: '12px 16px',
+                  borderRadius:
+                    msg.role === 'user'
+                      ? '16px 16px 4px 16px'
+                      : '16px 16px 16px 4px',
+                  background: msg.role === 'user' ? '#1c1c1c' : '#0f1f1a',
+                  border:
+                    msg.role === 'user'
+                      ? '1px solid #2a2a2a'
+                      : '1px solid rgba(0,200,150,0.25)',
+                  color: msg.role === 'user' ? '#ccc' : '#ddd',
+                  fontSize: '15px',
+                  lineHeight: '1.65',
+                  whiteSpace: 'pre-wrap',
+                  wordBreak: 'break-word',
+                }}
               >
-                <Icon size={22} className="text-brand-green mb-4" />
-                <h3 className="text-white font-black text-sm mb-2 group-hover:text-brand-green transition-colors">
-                  {label}
-                </h3>
-                <p className="text-white/35 text-xs leading-relaxed">{desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── COMO FUNCIONA ── */}
-      <section className="py-20 border-b border-white/5" style={{ background: '#050505' }}>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-4">
-            Processo
-          </p>
-          <h2 className="font-display text-white text-4xl leading-none mb-12">
-            COMO<br /><span className="text-brand-green">FUNCIONA.</span>
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {STEPS.map(({ n, title, desc }) => (
-              <div key={n} className="flex flex-col gap-4">
-                <span className="font-display text-brand-green/30 text-6xl leading-none">{n}</span>
-                <div>
-                  <h3 className="text-white font-black text-base mb-2">{title}</h3>
-                  <p className="text-white/35 text-sm leading-relaxed">{desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── FORMULÁRIO ── */}
-      <section id="formulario" className="py-20" style={{ background: '#080808' }}>
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-4">
-            Formulário
-          </p>
-          <h2 className="font-display text-white text-4xl leading-none mb-10">
-            CONTA-NOS A<br /><span className="text-brand-green">TUA SITUAÇÃO.</span>
-          </h2>
-
-          {/* ── LOADING ── */}
-          {status === 'loading' && (
-            <div className="text-center py-24 rounded-2xl border border-white/5 bg-white/[0.015]">
-              <Loader2 size={36} className="text-brand-green mx-auto mb-5 animate-spin" />
-              <h3 className="text-white font-black text-base mb-2">A analisar o teu perfil…</h3>
-              <p className="text-white/35 text-xs font-mono">
-                IA a processar os teus dados de corrida
-              </p>
-            </div>
-          )}
-
-          {/* ── RESULTADO DA IA ── */}
-          {status === 'success' && (
-            <div className="space-y-6">
-              <div className="flex items-center gap-3 pb-5 border-b border-white/5">
-                <CheckCircle size={20} className="text-brand-green flex-shrink-0" />
-                <div>
-                  <p className="text-white font-black text-sm">Análise gerada para {form.nome}</p>
-                  <p className="text-white/30 text-xs font-mono mt-0.5">
-                    Baseada nos dados que forneceste · {form.modalidade} · {form.kmSemana && `${form.kmSemana} km/sem`}
-                  </p>
-                </div>
+                {msg.content}
               </div>
 
-              <div className="p-8 rounded-2xl border border-brand-green/15 bg-brand-green/[0.03]">
-                {renderMarkdown(analysis)}
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4 pt-2">
-                <button
-                  onClick={() => { setStatus('idle'); setAnalysis('') }}
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-white/10 text-white/50 text-sm font-bold rounded-full hover:border-white/20 hover:text-white transition-all"
+              {msg.role === 'user' && (
+                <div
+                  style={{
+                    width: '34px',
+                    height: '34px',
+                    borderRadius: '50%',
+                    background: '#1c1c1c',
+                    border: '1px solid #2a2a2a',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontSize: '16px',
+                    flexShrink: 0,
+                    marginTop: '2px',
+                  }}
                 >
-                  Fazer nova consulta
-                </button>
-                <a
-                  href="/blog"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all"
-                >
-                  Aprofundar no arquivo <ArrowRight size={14} />
-                </a>
-              </div>
+                  🏃
+                </div>
+              )}
             </div>
-          )}
+          ))}
 
-          {/* ── ERRO ── */}
-          {status === 'error' && (
-            <div className="mb-6 flex items-start gap-3 p-5 rounded-xl border border-red-500/20 bg-red-500/5">
-              <AlertCircle size={16} className="text-red-400 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-red-400 text-sm font-bold">Erro</p>
-                <p className="text-red-400/70 text-xs mt-0.5">{errorMsg}</p>
-              </div>
-            </div>
-          )}
-
-          {/* ── FORMULÁRIO ── */}
-          {(status === 'idle' || status === 'error') && (
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid sm:grid-cols-2 gap-5">
-                <div>
-                  <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                    Nome *
-                  </label>
-                  <input
-                    required
-                    type="text"
-                    value={form.nome}
-                    onChange={set('nome')}
-                    placeholder="O teu nome"
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all"
-                  />
-                </div>
-                <div>
-                  <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    value={form.email}
-                    onChange={set('email')}
-                    placeholder="Opcional — para receber uma cópia"
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all"
-                  />
-                </div>
-              </div>
-
-              <div className="grid sm:grid-cols-2 gap-5">
-                <div>
-                  <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                    Modalidade principal *
-                  </label>
-                  <select
-                    required
-                    value={form.modalidade}
-                    onChange={set('modalidade')}
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-brand-green/50 transition-all appearance-none"
-                  >
-                    <option value="" className="bg-black">Selecionar...</option>
-                    {MODALIDADES.map((m) => (
-                      <option key={m} value={m} className="bg-black">{m}</option>
-                    ))}
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                    Km por semana (aproximado)
-                  </label>
-                  <input
-                    type="text"
-                    value={form.kmSemana}
-                    onChange={set('kmSemana')}
-                    placeholder="Ex: 40–50 km"
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                  Objetivo principal *
-                </label>
-                <input
-                  required
-                  type="text"
-                  value={form.objetivo}
-                  onChange={set('objetivo')}
-                  placeholder="Ex: Baixar o PB na maratona para sub-3:30, Terminar o meu primeiro ultra trail 50km..."
-                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all"
-                />
-              </div>
-
-              <div>
-                <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                  A tua questão ou situação *
-                </label>
-                <textarea
-                  required
-                  value={form.questao}
-                  onChange={set('questao')}
-                  rows={5}
-                  placeholder="Descreve a tua situação atual, o que já tentaste, e qual é a dúvida principal. Quanto mais detalhe, melhor a análise."
-                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all resize-none"
-                />
-              </div>
-
-              <div className="flex items-center justify-between pt-2">
-                <p className="text-white/25 text-xs max-w-xs leading-relaxed">
-                  Análise gerada por IA em segundos. 100% gratuito.
-                </p>
-                <button
-                  type="submit"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:scale-105 active:scale-95"
-                >
-                  Obter análise <ArrowRight size={15} />
-                </button>
-              </div>
-            </form>
-          )}
-
-          <div className="mt-12 pt-8 border-t border-white/5 flex items-center gap-3">
-            <Mail size={14} className="text-white/25" />
-            <p className="text-white/25 text-xs">
-              Preferes contacto direto?{' '}
-              <a
-                href="mailto:performance.running0224@gmail.com"
-                className="text-brand-green/70 hover:text-brand-green transition-colors underline"
+          {loading && (
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: '10px',
+                marginBottom: '20px',
+              }}
+            >
+              <div
+                style={{
+                  width: '34px',
+                  height: '34px',
+                  borderRadius: '50%',
+                  background: '#00c896',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '11px',
+                  fontWeight: 800,
+                  color: '#000',
+                  flexShrink: 0,
+                }}
               >
-                performance.running0224@gmail.com
-              </a>
-            </p>
-          </div>
+                PR
+              </div>
+              <div
+                style={{
+                  padding: '14px 18px',
+                  borderRadius: '16px 16px 16px 4px',
+                  background: '#0f1f1a',
+                  border: '1px solid rgba(0,200,150,0.25)',
+                  color: '#555',
+                  fontSize: '14px',
+                  fontStyle: 'italic',
+                }}
+              >
+                A analisar...
+              </div>
+            </div>
+          )}
+
+          <div ref={bottomRef} />
         </div>
-      </section>
+      </main>
+
+      {/* Fixed input bar */}
+      <div
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          background: 'rgba(10,10,10,0.97)',
+          backdropFilter: 'blur(16px)',
+          borderTop: '1px solid #1a1a1a',
+          padding: '12px 16px',
+          zIndex: 50,
+        }}
+      >
+        <div
+          style={{
+            maxWidth: '720px',
+            margin: '0 auto',
+            display: 'flex',
+            gap: '10px',
+            alignItems: 'flex-end',
+          }}
+        >
+          <textarea
+            ref={textareaRef}
+            value={input}
+            onChange={e => setInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+            onInput={handleInput}
+            placeholder="Faz a tua pergunta... (Enter para enviar)"
+            rows={1}
+            style={{
+              flex: 1,
+              background: '#111',
+              border: '1px solid #2a2a2a',
+              borderRadius: '12px',
+              color: '#e0e0e0',
+              padding: '11px 14px',
+              fontSize: '15px',
+              resize: 'none',
+              outline: 'none',
+              fontFamily: 'inherit',
+              lineHeight: '1.5',
+              maxHeight: '120px',
+              overflowY: 'auto',
+              transition: 'border-color 0.2s',
+            }}
+            onFocus={e => {
+              e.currentTarget.style.borderColor = 'rgba(0,200,150,0.4)'
+            }}
+            onBlur={e => {
+              e.currentTarget.style.borderColor = '#2a2a2a'
+            }}
+          />
+          <button
+            onClick={sendMessage}
+            disabled={loading || !input.trim()}
+            style={{
+              background: loading || !input.trim() ? '#111' : '#00c896',
+              color: loading || !input.trim() ? '#333' : '#000',
+              border:
+                '1px solid ' +
+                (loading || !input.trim() ? '#222' : '#00c896'),
+              borderRadius: '12px',
+              padding: '11px 18px',
+              fontSize: '13px',
+              fontWeight: 800,
+              cursor: loading || !input.trim() ? 'not-allowed' : 'pointer',
+              transition: 'all 0.2s',
+              flexShrink: 0,
+              letterSpacing: '1px',
+              textTransform: 'uppercase',
+            }}
+          >
+            {loading ? '···' : 'ENVIAR'}
+          </button>
+        </div>
+        <p
+          style={{
+            textAlign: 'center',
+            color: '#2a2a2a',
+            fontSize: '11px',
+            margin: '6px 0 0',
+          }}
+        >
+          IA pode cometer erros · Para questões médicas consulta um profissional de saúde
+        </p>
+      </div>
+
+      <Footer />
     </>
   )
 }
