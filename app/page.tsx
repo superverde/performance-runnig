@@ -404,12 +404,20 @@ export default async function HomePage() {
                 Treino, fisiologia, nutrição, biomecânica, recuperação e psicologia desportiva.
                 Tudo baseado em ciência. Tudo gratuito.
               </p>
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-2 px-9 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3"
-              >
-                Aceder ao Arquivo <ArrowRight size={15} />
-              </Link>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center gap-2 px-9 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3"
+                >
+                  Aceder ao Arquivo <ArrowRight size={15} />
+                </Link>
+                <Link
+                  href="/consulta"
+                  className="inline-flex items-center gap-2 px-9 py-4 border border-white/15 text-white text-sm font-black rounded-full hover:border-brand-green hover:text-brand-green transition-all"
+                >
+                  Pedir consulta gratuita <ArrowRight size={15} />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

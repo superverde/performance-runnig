@@ -8,6 +8,7 @@ import { Menu, X } from 'lucide-react'
 const links = [
   { href: '/metodologias', label: 'Metodologias' },
   { href: '/blog', label: 'Arquivo' },
+  { href: '/reviews', label: 'Testemunhos' },
   { href: '/sobre', label: 'Sobre' },
 ]
 
@@ -70,10 +71,10 @@ export function Navbar() {
           {/* CTA + mobile toggle */}
           <div className="flex items-center gap-3">
             <Link
-              href="/blog"
+              href="/consulta"
               className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
             >
-              Ler Artigos
+              Consulta Gratuita
             </Link>
 
             <button
@@ -109,11 +110,11 @@ export function Navbar() {
             ))}
             <div className="px-3 pt-3">
               <Link
-                href="/blog"
+                href="/consulta"
                 onClick={() => setOpen(false)}
                 className="flex items-center justify-center w-full py-3 text-sm font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
               >
-                Ler Artigos
+                Consulta Gratuita
               </Link>
             </div>
           </div>
