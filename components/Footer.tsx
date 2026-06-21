@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
+import { NewsletterSignup } from '@/components/NewsletterSignup'
 
 const nav = [
   { href: '/blog', label: 'Arquivo de Artigos' },
@@ -29,7 +30,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
           {/* Brand */}
-          <div className="md:col-span-5">
+          <div className="md:col-span-4">
             <Link href="/" className="flex items-center gap-2.5 mb-5">
               <div className="w-7 h-7 rounded-md bg-brand-green flex items-center justify-center">
                 <span className="text-black font-black text-xs">PR</span>
@@ -51,8 +52,13 @@ export function Footer() {
             </a>
           </div>
 
+          {/* Newsletter */}
+          <div className="md:col-span-4">
+            <NewsletterSignup variant="footer" />
+          </div>
+
           {/* Nav */}
-          <div className="md:col-span-3">
+          <div className="md:col-span-2">
             <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/25 mb-4">Navegação</p>
             <ul className="space-y-2.5">
               {nav.map((l) => (
@@ -69,7 +75,7 @@ export function Footer() {
           </div>
 
           {/* Modalities */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-2">
             <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/25 mb-4">Modalidades</p>
             <ul className="grid grid-cols-2 gap-2">
               {modalities.map((m) => (

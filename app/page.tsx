@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
+import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 
 
@@ -369,6 +370,13 @@ export default async function HomePage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ─────────────────────────────── NEWSLETTER ── */}
+      <section className="py-24 sm:py-32 border-t border-white/5 bg-[#0a0a0a]">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="hero" />
         </div>
       </section>
 

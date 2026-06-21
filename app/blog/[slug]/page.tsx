@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, Clock, Tag, Calendar } from 'lucide-react'
 import { getArticleBySlug, getAllSlugs, getAllArticles } from '@/lib/articles'
 import { ViewCounter } from '@/components/ViewCounter'
 import { BlogClient } from '@/components/BlogClient'
+import { NewsletterSignup } from '@/components/NewsletterSignup'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -227,6 +228,13 @@ export default async function BlogSlugPage({ params }: Props) {
           </Link>
         </div>
       </article>
+
+      {/* ── Newsletter ── */}
+      <section className="border-t border-white/5 bg-[#0a0a0a]">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <NewsletterSignup variant="inline" />
+        </div>
+      </section>
 
       {/* ── Artigos relacionados ── */}
       {related.length > 0 && (
