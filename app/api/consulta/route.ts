@@ -46,7 +46,7 @@ Regras:
 
 export async function POST(req: NextRequest) {
   try {
-    const apiKey = process.env.GEMINI_API_KEY
+    const apiKey = process.env.GEMINI_API_KEY ?? process.env.gemini_api_key
     if (!apiKey) {
       return NextResponse.json(
         { error: 'Serviço de IA não configurado. Contacta o administrador.' },
