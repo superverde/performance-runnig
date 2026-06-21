@@ -46,7 +46,7 @@ const opcoes = [
     titulo: 'Parceria de Afiliado',
     desc: 'Programa de afiliado de longo prazo. Os teus produtos aparecem nas páginas de equipamento e reviews com links tracked. Pagamento por comissão.',
     inclui: ['Presença permanente em /equipamento', 'Links de afiliado tracked', 'Menção em artigos relevantes', 'Sem custo inicial — comissão por venda'],
-    ideal: 'Amazon, Decathlon, lojas de desporto, plataformas SaaS'],
+    ideal: 'Amazon, Decathlon, lojas de desporto, plataformas SaaS',
   },
 ]
 
