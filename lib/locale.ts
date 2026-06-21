@@ -1,4 +1,5 @@
-import { cookies } from 'next/headers'
+// Este ficheiro é seguro para importar em client e server components
+// NÃO importar next/headers aqui
 
 export const LOCALES = ['pt', 'en', 'es', 'fr', 'de', 'zh'] as const
 export type Locale = (typeof LOCALES)[number]
@@ -23,18 +24,4 @@ export async function getMessages(locale: Locale): Promise<Record<string, Record
     const messages = await import('../messages/pt.json')
     return messages.default as Record<string, Record<string, string>>
   }
-}
-
-// Lê o locale atual do cookie (server component)
-export function getLocaleFromCookie(): Locale {
-  try {
-    const cookieStore = cookies()
-    const locale = cookieStore.get('NEXT_LOCALE')?.value
-    if (locale && (LOCALES as readonly string[]).includes(locale)) {
-      return locale as Locale
-    }
-  } catch {
-    // Em contextos sem cookies (middleware, etc.)
-  }
-  return DEFAULT_LOCALE
 }

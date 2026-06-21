@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { LocaleProvider } from '@/components/LocaleProvider'
-import { getLocaleFromCookie, getMessages } from '@/lib/locale'
+import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 
 const inter = Inter({ variable: '--font-geist-sans', subsets: ['latin'] })
 const jetbrainsMono = JetBrains_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
