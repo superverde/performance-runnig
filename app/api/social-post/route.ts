@@ -20,6 +20,11 @@ interface PostResult {
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
+// Verifica se uma credencial está realmente configurada (não é placeholder)
+function isConfigured(value: string | undefined): boolean {
+  return !!value && value !== 'placeholder' && value.length > 10
+}
+
 // Imagens de capa por categoria (para Instagram — requer imagem)
 const CATEGORY_IMAGES: Record<string, string> = {
   'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80',
@@ -198,8 +203,8 @@ async function postToInstagram(caption: string, imageUrl: string): Promise<PostR
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const igAccountId = process.env.META_IG_ACCOUNT_ID
 
-  if (!pageToken || !igAccountId) {
-    return { platform: 'Instagram', success: false, error: 'Credenciais Instagram não configuradas' }
+  if (!isConfigured(pageToken) || !isConfigured(igAccountId)) {
+    return { platform: 'Instagram', success: false, error: 'Credenciais Instagram não configuradas (placeholder)' }
   }
 
   try {
@@ -247,8 +252,8 @@ async function postToThreads(text: string): Promise<PostResult> {
   const accessToken = process.env.THREADS_ACCESS_TOKEN
   const userId = process.env.THREADS_USER_ID
 
-  if (!accessToken || !userId) {
-    return { platform: 'Threads', success: false, error: 'Credenciais Threads não configuradas' }
+  if (!isConfigured(accessToken) || !isConfigured(userId)) {
+    return { platform: 'Threads', success: false, error: 'Credenciais Threads não configuradas (placeholder)' }
   }
 
   try {
