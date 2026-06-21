@@ -180,7 +180,10 @@ async function postToX(text: string): Promise<PostResult> {
     })
 
     const data = await res.json()
-    if (!res.ok) return { platform: 'X', success: false, error: data.detail || JSON.stringify(data) }
+    if (!res.ok) {
+      console.error('[social-post] X erro completo:', JSON.stringify(data))
+      return { platform: 'X', success: false, error: data.detail || data.title || JSON.stringify(data) }
+    }
 
     return { platform: 'X', success: true, id: data.data?.id }
   } catch (err) {
