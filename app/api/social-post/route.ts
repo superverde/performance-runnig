@@ -39,6 +39,22 @@ const CATEGORY_IMAGES: Record<string, string> = {
 }
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80'
 
+// ── HASHTAGS POR CATEGORIA ───────────────────────────────────────────────────
+
+const CATEGORY_HASHTAGS: Record<string, string> = {
+  'Treino':        '#treino #running #treinodecorrida #corridaportugal #runningtraining #entrenamientocorrida #lauftraining #entraînement',
+  'Fisiologia':    '#fisiologia #vo2max #resistencia #running #endurance #ausdauer #physiologie #corredores #runnersworld',
+  'Nutrição':      '#nutricao #nutricaoesportiva #runningfuel #sportsnutrition #ernährung #nutrition #corredores #maratona',
+  'Biomecânica':   '#biomecanica #tecnicadecorrida #runningform #biomechanics #lauftechnik #corridaeficiente #running',
+  'Recuperação':   '#recuperacao #recovery #running #sportrecovery #erholung #récupération #lesaosportiva #corredores',
+  'Psicologia':    '#psicologiaesportiva #mentaltraining #running #mindset #sportpsychologie #psychologiedusport',
+  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #mountainrunning #trailrun #ultrarunning #UTMB #traillife',
+  'Lesões':        '#lesoes #prevencaodelesoes #runninginjury #injuryprevention #laufverletzung #corredores #fisioterapia',
+  'VO2max':        '#vo2max #fisiologia #running #endurance #resistencia #corridaportugal #performancerunning #runnersworld',
+}
+
+const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
+
 // ── GERAÇÃO DE CAPTIONS VIA GROQ ────────────────────────────────────────────
 
 async function generateCaptions(article: ArticlePayload): Promise<{
@@ -48,12 +64,14 @@ async function generateCaptions(article: ArticlePayload): Promise<{
   threads: string
 }> {
   const groqKey = process.env.GROQ_API_KEY
+  const hashtags = CATEGORY_HASHTAGS[article.category] || DEFAULT_HASHTAGS
+  const link = `${SITE_URL}/blog/${article.slug}`
+
   if (!groqKey) {
     // Fallback sem Groq
-    const link = `${SITE_URL}/blog/${article.slug}`
     return {
-      x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n#corrida #running #trail`,
-      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n#corrida #running #trail #maratona #atletismo #treino #fitness #corredores #portugal #performancerunning`,
+      x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
+      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags} #portugal #fitness`,
       facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
       threads: `${article.title}\n\n${article.excerpt.slice(0, 200)}`,
     }
@@ -63,14 +81,15 @@ async function generateCaptions(article: ArticlePayload): Promise<{
 
 TÍTULO: ${article.title}
 RESUMO: ${article.excerpt}
-LINK: ${SITE_URL}/blog/${article.slug}
+LINK: ${link}
 CATEGORIA: ${article.category}
+HASHTAGS OBRIGATÓRIAS (inclui todas no Instagram): ${hashtags}
 
 Gera 4 posts DIFERENTES, cada um otimizado para a sua plataforma. Responde APENAS em JSON válido com este formato:
 {
-  "x": "post para X/Twitter — máx 270 chars, punchy, 1 facto surpreendente, link, 2-3 hashtags relevantes em português",
-  "instagram": "post para Instagram — caption envolvente com emoji, call-to-action 'link na bio', 10 hashtags no fim separados por espaço (mix PT e EN)",
-  "facebook": "post para Facebook — 2-3 frases, tom mais informativo, inclui o link completo",
+  "x": "post para X/Twitter — máx 270 chars, punchy, 1 facto surpreendente, link, 3 hashtags das obrigatórias",
+  "instagram": "post para Instagram — caption envolvente com emoji, call-to-action 'link na bio', TODAS as hashtags obrigatórias no fim + 3 extras PT",
+  "facebook": "post para Facebook — 2-3 frases, tom informativo, inclui o link completo, sem hashtags excessivas",
   "threads": "post para Threads — tom casual e direto, máx 200 chars, sem link (pedir para seguirem para mais)"
 }
 
