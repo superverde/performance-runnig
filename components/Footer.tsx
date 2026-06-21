@@ -18,15 +18,7 @@ export function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer
-      className="relative border-t border-white/5 overflow-hidden"
-      style={{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center top',
-      }}
-    >
-      <div className="absolute inset-0 bg-gradient-to-b from-black/98 to-black/99" />
+    <footer className="relative border-t border-white/10 overflow-hidden bg-black">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
           {/* Brand */}
@@ -39,13 +31,13 @@ export function Footer() {
                 PERFORMANCE<span className="text-brand-green">RUNNING</span>
               </span>
             </Link>
-            <p className="text-white/35 text-sm leading-relaxed max-w-xs mb-6">
+            <p className="text-white/60 text-sm leading-relaxed max-w-xs mb-6">
               Metodologias científicas de treino para corredores de todos os níveis.
               Corrida de estrada, trail running e atletismo.
             </p>
             <a
               href="mailto:performance.running0224@gmail.com"
-              className="inline-flex items-center gap-1.5 text-xs text-white/35 hover:text-brand-green transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs text-white/50 hover:text-brand-green transition-colors"
             >
               performance.running0224@gmail.com
               <ArrowUpRight size={11} />
@@ -59,13 +51,13 @@ export function Footer() {
 
           {/* Nav */}
           <div className="md:col-span-2">
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/25 mb-4">Navegação</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/40 mb-4">Navegação</p>
             <ul className="space-y-2.5">
               {nav.map((l) => (
                 <li key={l.href}>
                   <Link
                     href={l.href}
-                    className="text-sm text-white/40 hover:text-white transition-colors"
+                    className="text-sm text-white/65 hover:text-white transition-colors"
                   >
                     {l.label}
                   </Link>
@@ -76,13 +68,13 @@ export function Footer() {
 
           {/* Modalities */}
           <div className="md:col-span-2">
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/25 mb-4">Modalidades</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/40 mb-4">Modalidades</p>
             <ul className="grid grid-cols-2 gap-2">
               {modalities.map((m) => (
                 <li key={m}>
                   <Link
                     href="/metodologias"
-                    className="text-sm text-white/40 hover:text-white transition-colors"
+                    className="text-sm text-white/65 hover:text-white transition-colors"
                   >
                     {m}
                   </Link>
@@ -93,11 +85,11 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[11px] text-white/20">
+        <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-[11px] text-white/40">
             © {year} Performance Running. Todos os direitos reservados.
           </p>
-          <p className="text-[11px] text-white/15 font-mono">
+          <p className="text-[11px] text-white/30 font-mono">
             Next.js · Tailwind CSS · Vercel
           </p>
         </div>

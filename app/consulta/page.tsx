@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import { ArrowUp, Zap, Shield, Clock } from 'lucide-react'
 
 interface Message {
   role: 'user' | 'model'
@@ -12,13 +13,21 @@ interface Message {
 const WELCOME: Message = {
   role: 'model',
   content:
-    'Olá! Sou especialista em corrida, atletismo e trail. Podes perguntar-me sobre treino, nutrição, lesões, preparação para maratona, técnica de corrida — qualquer dúvida. É gratuito e a resposta é imediata.\n\nPor onde queres começar?',
+    'Olá! Sou especialista em corrida, atletismo e trail. Podes perguntar-me sobre treino, nutrição, lesões, preparação para maratona, técnica de corrida — qualquer dúvida.\n\nÉ gratuito e a resposta é imediata.\n\nPor onde queres começar?',
 }
+
+const SUGGESTIONS = [
+  'Como melhorar o meu VO2max?',
+  'Plano para primeira maratona',
+  'Como evitar lesões no joelho?',
+  'Treino de velocidade para 10km',
+]
 
 export default function ConsultaPage() {
   const [messages, setMessages] = useState<Message[]>([WELCOME])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
+  const [started, setStarted] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
   const textareaRef = useRef<HTMLTextAreaElement>(null)
 
@@ -26,11 +35,13 @@ export default function ConsultaPage() {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages, loading])
 
-  async function sendMessage() {
-    const text = input.trim()
-    if (!text || loading) return
+  async function sendMessage(text?: string) {
+    const msg = (text || input).trim()
+    if (!msg || loading) return
 
-    const userMsg: Message = { role: 'user', content: text }
+    if (!started) setStarted(true)
+
+    const userMsg: Message = { role: 'user', content: msg }
     const updated = [...messages, userMsg]
     setMessages(updated)
     setInput('')
@@ -83,206 +94,128 @@ export default function ConsultaPage() {
     <>
       <Navbar />
 
-      {/* Page header */}
+      {/* ── Hero ── */}
       <div
+        className="relative pt-28 pb-16 overflow-hidden"
         style={{
-          paddingTop: '90px',
-          paddingBottom: '20px',
-          textAlign: 'center',
-          borderBottom: '1px solid #1a1a1a',
-          background: '#0a0a0a',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 30%',
         }}
       >
-        <p
-          style={{
-            color: '#00c896',
-            fontSize: '10px',
-            letterSpacing: '3px',
-            fontWeight: 700,
-            textTransform: 'uppercase',
-            marginBottom: '6px',
-          }}
-        >
-          CONSULTA GRATUITA
-        </p>
-        <h1
-          style={{
-            fontFamily: 'Bebas Neue, sans-serif',
-            fontSize: 'clamp(1.8rem, 4vw, 2.6rem)',
-            color: '#fff',
-            letterSpacing: '2px',
-            margin: '0 0 6px',
-          }}
-        >
-          ESPECIALISTA EM CORRIDA
-        </h1>
-        <p style={{ color: '#555', fontSize: '13px', margin: 0 }}>
-          Resposta imediata · 100% gratuito · Powered by Groq AI
-        </p>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[100px] pointer-events-none" />
+
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
+            Consulta Gratuita · IA Especializada
+          </p>
+          <h1
+            className="font-display text-white leading-none mb-5"
+            style={{ fontSize: 'clamp(2.5rem, 7vw, 5rem)' }}
+          >
+            ESPECIALISTA<br />
+            <span className="text-brand-green">EM CORRIDA.</span>
+          </h1>
+          <p className="text-white/55 max-w-lg mx-auto text-base leading-relaxed mb-10">
+            Treino, nutrição, lesões, periodização — resposta imediata e baseada em ciência.
+          </p>
+
+          {/* Features */}
+          <div className="flex flex-wrap justify-center gap-4 mb-0">
+            {[
+              { icon: Zap, label: 'Resposta imediata' },
+              { icon: Shield, label: '100% gratuito' },
+              { icon: Clock, label: 'Disponível 24/7' },
+            ].map(({ icon: Icon, label }) => (
+              <div key={label} className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-white/60 text-xs">
+                <Icon size={12} className="text-brand-green" />
+                {label}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
-      {/* Chat container */}
-      <main
-        style={{
-          background: '#0a0a0a',
-          minHeight: 'calc(100vh - 160px)',
-          paddingBottom: '110px',
-        }}
-      >
-        <div
-          style={{
-            maxWidth: '720px',
-            margin: '0 auto',
-            padding: '24px 16px 8px',
-          }}
-        >
-          {messages.map((msg, i) => (
-            <div
-              key={i}
-              style={{
-                display: 'flex',
-                justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start',
-                marginBottom: '20px',
-                gap: '10px',
-                alignItems: 'flex-start',
-              }}
-            >
-              {msg.role === 'model' && (
-                <div
-                  style={{
-                    width: '34px',
-                    height: '34px',
-                    borderRadius: '50%',
-                    background: '#00c896',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    fontSize: '11px',
-                    fontWeight: 800,
-                    color: '#000',
-                    flexShrink: 0,
-                    marginTop: '2px',
-                    letterSpacing: '0.5px',
-                  }}
-                >
-                  PR
-                </div>
-              )}
+      {/* ── Chat ── */}
+      <main className="bg-black min-h-screen pb-36">
+        <div className="max-w-3xl mx-auto px-4 pt-10">
 
-              <div
-                style={{
-                  maxWidth: '78%',
-                  padding: '12px 16px',
-                  borderRadius:
-                    msg.role === 'user'
-                      ? '16px 16px 4px 16px'
-                      : '16px 16px 16px 4px',
-                  background: msg.role === 'user' ? '#1c1c1c' : '#0f1f1a',
-                  border:
-                    msg.role === 'user'
-                      ? '1px solid #2a2a2a'
-                      : '1px solid rgba(0,200,150,0.25)',
-                  color: msg.role === 'user' ? '#ccc' : '#ddd',
-                  fontSize: '15px',
-                  lineHeight: '1.65',
-                  whiteSpace: 'pre-wrap',
-                  wordBreak: 'break-word',
-                }}
-              >
-                {msg.content}
-              </div>
-
-              {msg.role === 'user' && (
-                <div
-                  style={{
-                    width: '34px',
-                    height: '34px',
-                    borderRadius: '50%',
-                    background: '#1c1c1c',
-                    border: '1px solid #2a2a2a',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    fontSize: '16px',
-                    flexShrink: 0,
-                    marginTop: '2px',
-                  }}
-                >
-                  🏃
-                </div>
-              )}
-            </div>
-          ))}
-
-          {loading && (
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'flex-start',
-                gap: '10px',
-                marginBottom: '20px',
-              }}
-            >
-              <div
-                style={{
-                  width: '34px',
-                  height: '34px',
-                  borderRadius: '50%',
-                  background: '#00c896',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '11px',
-                  fontWeight: 800,
-                  color: '#000',
-                  flexShrink: 0,
-                }}
-              >
-                PR
-              </div>
-              <div
-                style={{
-                  padding: '14px 18px',
-                  borderRadius: '16px 16px 16px 4px',
-                  background: '#0f1f1a',
-                  border: '1px solid rgba(0,200,150,0.25)',
-                  color: '#555',
-                  fontSize: '14px',
-                  fontStyle: 'italic',
-                }}
-              >
-                A analisar...
+          {/* Sugestões — só antes de começar */}
+          {!started && messages.length === 1 && (
+            <div className="mb-8">
+              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-white/30 font-mono mb-4 text-center">
+                Perguntas frequentes
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {SUGGESTIONS.map((s) => (
+                  <button
+                    key={s}
+                    onClick={() => sendMessage(s)}
+                    className="text-left px-4 py-3 rounded-xl border border-white/8 bg-white/[0.02] text-white/55 text-sm hover:border-brand-green/40 hover:text-white/80 hover:bg-brand-green/5 transition-all"
+                  >
+                    {s}
+                  </button>
+                ))}
               </div>
             </div>
           )}
 
-          <div ref={bottomRef} />
+          {/* Mensagens */}
+          <div className="space-y-5">
+            {messages.map((msg, i) => (
+              <div
+                key={i}
+                className={`flex gap-3 items-start ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}
+              >
+                {/* Avatar */}
+                <div
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-[11px] font-black shrink-0 mt-0.5 ${
+                    msg.role === 'model'
+                      ? 'bg-brand-green text-black'
+                      : 'bg-white/10 text-white/60 border border-white/10'
+                  }`}
+                >
+                  {msg.role === 'model' ? 'PR' : '🏃'}
+                </div>
+
+                {/* Bubble */}
+                <div
+                  className={`max-w-[80%] px-4 py-3 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap ${
+                    msg.role === 'user'
+                      ? 'bg-white/8 border border-white/10 text-white/80 rounded-tr-sm'
+                      : 'bg-[#0a1f18] border border-brand-green/20 text-white/85 rounded-tl-sm'
+                  }`}
+                >
+                  {msg.content}
+                </div>
+              </div>
+            ))}
+
+            {/* Loading */}
+            {loading && (
+              <div className="flex gap-3 items-start">
+                <div className="w-8 h-8 rounded-full bg-brand-green flex items-center justify-center text-[11px] font-black text-black shrink-0">
+                  PR
+                </div>
+                <div className="px-4 py-3 rounded-2xl rounded-tl-sm bg-[#0a1f18] border border-brand-green/20">
+                  <div className="flex gap-1.5 items-center h-5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-green/60 animate-bounce" style={{ animationDelay: '0ms' }} />
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-green/60 animate-bounce" style={{ animationDelay: '150ms' }} />
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-green/60 animate-bounce" style={{ animationDelay: '300ms' }} />
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <div ref={bottomRef} />
+          </div>
         </div>
       </main>
 
-      {/* Fixed input bar */}
-      <div
-        style={{
-          position: 'fixed',
-          bottom: 0,
-          left: 0,
-          right: 0,
-          background: 'rgba(10,10,10,0.97)',
-          backdropFilter: 'blur(16px)',
-          borderTop: '1px solid #1a1a1a',
-          padding: '12px 16px',
-          zIndex: 50,
-        }}
-      >
-        <div
-          style={{
-            maxWidth: '720px',
-            margin: '0 auto',
-            display: 'flex',
-            gap: '10px',
-            alignItems: 'flex-end',
-          }}
-        >
+      {/* ── Input fixo ── */}
+      <div className="fixed bottom-0 left-0 right-0 bg-black/95 backdrop-blur-xl border-t border-white/8 px-4 py-3 z-50">
+        <div className="max-w-3xl mx-auto flex gap-3 items-end">
           <textarea
             ref={textareaRef}
             value={input}
@@ -291,60 +224,18 @@ export default function ConsultaPage() {
             onInput={handleInput}
             placeholder="Faz a tua pergunta... (Enter para enviar)"
             rows={1}
-            style={{
-              flex: 1,
-              background: '#111',
-              border: '1px solid #2a2a2a',
-              borderRadius: '12px',
-              color: '#e0e0e0',
-              padding: '11px 14px',
-              fontSize: '15px',
-              resize: 'none',
-              outline: 'none',
-              fontFamily: 'inherit',
-              lineHeight: '1.5',
-              maxHeight: '120px',
-              overflowY: 'auto',
-              transition: 'border-color 0.2s',
-            }}
-            onFocus={e => {
-              e.currentTarget.style.borderColor = 'rgba(0,200,150,0.4)'
-            }}
-            onBlur={e => {
-              e.currentTarget.style.borderColor = '#2a2a2a'
-            }}
+            className="flex-1 bg-white/5 border border-white/10 rounded-xl text-white/85 placeholder-white/25 px-4 py-3 text-sm resize-none outline-none transition-colors focus:border-brand-green/40 font-sans leading-relaxed"
+            style={{ maxHeight: '120px', overflowY: 'auto' }}
           />
           <button
-            onClick={sendMessage}
+            onClick={() => sendMessage()}
             disabled={loading || !input.trim()}
-            style={{
-              background: loading || !input.trim() ? '#111' : '#00c896',
-              color: loading || !input.trim() ? '#333' : '#000',
-              border:
-                '1px solid ' +
-                (loading || !input.trim() ? '#222' : '#00c896'),
-              borderRadius: '12px',
-              padding: '11px 18px',
-              fontSize: '13px',
-              fontWeight: 800,
-              cursor: loading || !input.trim() ? 'not-allowed' : 'pointer',
-              transition: 'all 0.2s',
-              flexShrink: 0,
-              letterSpacing: '1px',
-              textTransform: 'uppercase',
-            }}
+            className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all disabled:opacity-30 disabled:cursor-not-allowed bg-brand-green hover:bg-white text-black"
           >
-            {loading ? '···' : 'ENVIAR'}
+            <ArrowUp size={16} strokeWidth={2.5} />
           </button>
         </div>
-        <p
-          style={{
-            textAlign: 'center',
-            color: '#2a2a2a',
-            fontSize: '11px',
-            margin: '6px 0 0',
-          }}
-        >
+        <p className="text-center text-white/15 text-[10px] mt-2">
           IA pode cometer erros · Para questões médicas consulta um profissional de saúde
         </p>
       </div>
