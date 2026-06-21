@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "metodologias": "MÉTHODOLOGIES",
+    "arquivo": "ARCHIVE",
+    "equipamento": "ÉQUIPEMENT",
+    "testemunhos": "AVIS",
+    "sobre": "À PROPOS",
+    "cta": "Consultation Gratuite"
+  },
+  "home": {
+    "badge": "Science · Performance · Trail",
+    "headline1": "LA SCIENCE",
+    "headline2": "DE COURIR",
+    "headline3": "MIEUX.",
+    "subtitle": "Méthodologies d'entraînement basées sur des preuves scientifiques. Pour les coureurs sur route, trail et athlétisme qui veulent progresser avec régularité.",
+    "cta_metodologias": "Explorer les Méthodologies",
+    "cta_artigos": "Lire les Derniers Articles",
+    "section_metodologias": "MÉTHODOLOGIES D'ENTRAÎNEMENT",
+    "section_artigos": "DERNIERS ARTICLES",
+    "section_consulta_title": "CONSULTATION GRATUITE IA",
+    "section_consulta_sub": "Spécialiste en course disponible 24h/7j. Entraînement, nutrition, blessures — réponse immédiate basée sur la science.",
+    "section_consulta_cta": "Démarrer la Consultation Gratuite"
+  },
+  "footer": {
+    "description": "Connaissances scientifiques sur la course, le trail et l'athlétisme pour des athlètes sérieux.",
+    "nav_label": "Navigation",
+    "contact_label": "Contact",
+    "newsletter_label": "Newsletter",
+    "newsletter_placeholder": "Votre email",
+    "newsletter_btn": "S'abonner",
+    "copyright": "Performance Running. Fait avec la science.",
+    "disclaimer": "Ce site utilise des liens d'affiliation Amazon."
+  },
+  "blog": {
+    "search_placeholder": "Rechercher des articles...",
+    "read_more": "Lire l'article",
+    "min_read": "min de lecture",
+    "translate_btn": "Traduire l'article",
+    "translating": "Traduction en cours...",
+    "show_original": "Voir l'original"
+  },
+  "consulta": {
+    "badge": "Consultation Gratuite · IA Spécialisée",
+    "headline1": "SPÉCIALISTE",
+    "headline2": "EN COURSE.",
+    "subtitle": "Entraînement, nutrition, blessures, périodisation — réponse immédiate basée sur la science.",
+    "feature1": "Réponse immédiate",
+    "feature2": "100% gratuit",
+    "feature3": "Disponible 24/7",
+    "placeholder": "Posez votre question... (Entrée pour envoyer)",
+    "disclaimer": "L'IA peut faire des erreurs · Pour les questions médicales consultez un professionnel de santé",
+    "welcome": "Bonjour ! Je suis spécialiste en course, athlétisme et trail. Vous pouvez me poser des questions sur l'entraînement, la nutrition, les blessures, la préparation au marathon, la technique de course — toute question.\n\nC'est gratuit et la réponse est immédiate.\n\nPar où voulez-vous commencer ?"
+  },
+  "equipamento": {
+    "badge": "Avis Honnêtes",
+    "headline": "ÉQUIPEMENT",
+    "subtitle": "Nous testons et évaluons l'équipement le plus pertinent pour les coureurs. Sans sponsoring influençant les notes. Les liens d'affiliation aident à maintenir le site gratuit.",
+    "ver_preco": "Voir le prix sur",
+    "pontos_fortes": "Points forts",
+    "limitacoes": "Limitations",
+    "porque_usar": "Pourquoi l'utiliser",
+    "porque_escolher": "Pourquoi le choisir"
+  }
+}

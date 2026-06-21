@@ -6,6 +6,8 @@ import { Footer } from '@/components/Footer'
 import { Analytics } from '@vercel/analytics/react'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { LocaleProvider } from '@/components/LocaleProvider'
+import { getLocaleFromCookie, getMessages } from '@/lib/locale'
 
 const inter = Inter({ variable: '--font-geist-sans', subsets: ['latin'] })
 const jetbrainsMono = JetBrains_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
@@ -105,16 +107,21 @@ const websiteLd = {
   },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = getLocaleFromCookie()
+  const messages = await getMessages(locale)
+
   return (
-    <html lang="pt" className="dark">
+    <html lang={locale} className="dark">
       <body className={`${inter.variable} ${jetbrainsMono.variable} ${barlowCondensed.variable} antialiased bg-brand-dark text-white`}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }} />
-        <ScrollReveal />
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <LocaleProvider locale={locale} messages={messages}>
+          <ScrollReveal />
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </LocaleProvider>
         <Analytics />
         {process.env.NEXT_PUBLIC_GA_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />

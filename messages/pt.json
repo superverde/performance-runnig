@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "metodologias": "METODOLOGIAS",
+    "arquivo": "ARQUIVO",
+    "equipamento": "EQUIPAMENTO",
+    "testemunhos": "TESTEMUNHOS",
+    "sobre": "SOBRE",
+    "cta": "Consulta Gratuita"
+  },
+  "home": {
+    "badge": "Ciência · Performance · Trail",
+    "headline1": "A CIÊNCIA",
+    "headline2": "DE CORRER",
+    "headline3": "MELHOR.",
+    "subtitle": "Metodologias de treino baseadas em evidência científica. Para corredores de estrada, trail e atletismo que querem evoluir com consistência.",
+    "cta_metodologias": "Explorar Metodologias",
+    "cta_artigos": "Ler Últimos Artigos",
+    "section_metodologias": "METODOLOGIAS DE TREINO",
+    "section_artigos": "ÚLTIMOS ARTIGOS",
+    "section_consulta_title": "CONSULTA GRATUITA COM IA",
+    "section_consulta_sub": "Especialista em corrida disponível 24/7. Treino, nutrição, lesões — resposta imediata baseada em ciência.",
+    "section_consulta_cta": "Iniciar Consulta Gratuita"
+  },
+  "footer": {
+    "description": "Conhecimento científico sobre corrida, trail e atletismo para atletas que levam o treino a sério.",
+    "nav_label": "Navegação",
+    "contact_label": "Contacto",
+    "newsletter_label": "Newsletter",
+    "newsletter_placeholder": "O teu email",
+    "newsletter_btn": "Subscrever",
+    "copyright": "Performance Running. Feito com ciência.",
+    "disclaimer": "Este site usa links de afiliado Amazon."
+  },
+  "blog": {
+    "search_placeholder": "Pesquisar artigos...",
+    "read_more": "Ler artigo",
+    "min_read": "min de leitura",
+    "translate_btn": "Traduzir artigo",
+    "translating": "A traduzir...",
+    "show_original": "Ver original"
+  },
+  "consulta": {
+    "badge": "Consulta Gratuita · IA Especializada",
+    "headline1": "ESPECIALISTA",
+    "headline2": "EM CORRIDA.",
+    "subtitle": "Treino, nutrição, lesões, periodização — resposta imediata e baseada em ciência.",
+    "feature1": "Resposta imediata",
+    "feature2": "100% gratuito",
+    "feature3": "Disponível 24/7",
+    "placeholder": "Faz a tua pergunta... (Enter para enviar)",
+    "disclaimer": "IA pode cometer erros · Para questões médicas consulta um profissional de saúde",
+    "welcome": "Olá! Sou especialista em corrida, atletismo e trail. Podes perguntar-me sobre treino, nutrição, lesões, preparação para maratona, técnica de corrida — qualquer dúvida.\n\nÉ gratuito e a resposta é imediata.\n\nPor onde queres começar?"
+  },
+  "equipamento": {
+    "badge": "Reviews Honestas",
+    "headline": "EQUIPAMENTO",
+    "subtitle": "Testamos e avaliamos o equipamento mais relevante para corredores portugueses. Sem patrocínios que influenciem as notas. Links de afiliado ajudam a manter o site gratuito.",
+    "ver_preco": "Ver preço em",
+    "pontos_fortes": "Pontos fortes",
+    "limitacoes": "Limitações",
+    "porque_usar": "Porque usar",
+    "porque_escolher": "Porque escolher"
+  }
+}

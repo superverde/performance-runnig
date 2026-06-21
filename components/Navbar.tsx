@@ -2,27 +2,46 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState, useEffect } from 'react'
-import { Menu, X } from 'lucide-react'
-
-const links = [
-  { href: '/metodologias', label: 'Metodologias' },
-  { href: '/blog', label: 'Arquivo' },
-  { href: '/equipamento', label: 'Equipamento' },
-  { href: '/reviews', label: 'Testemunhos' },
-  { href: '/sobre', label: 'Sobre' },
-]
+import { useState, useEffect, useRef } from 'react'
+import { Menu, X, ChevronDown } from 'lucide-react'
+import { useLocale } from '@/components/LocaleProvider'
+import { LOCALE_LABELS, LOCALES } from '@/lib/locale'
+import type { Locale } from '@/lib/locale'
 
 export function Navbar() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [langOpen, setLangOpen] = useState(false)
+  const langRef = useRef<HTMLDivElement>(null)
+  const { locale, t, changeLocale, isPending } = useLocale()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30)
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  // Fecha dropdown ao clicar fora
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', onClick)
+    return () => document.removeEventListener('mousedown', onClick)
+  }, [])
+
+  const navLinks = [
+    { href: '/metodologias', key: 'metodologias' },
+    { href: '/blog', key: 'arquivo' },
+    { href: '/equipamento', key: 'equipamento' },
+    { href: '/reviews', key: 'testemunhos' },
+    { href: '/sobre', key: 'sobre' },
+  ]
+
+  const current = LOCALE_LABELS[locale]
 
   return (
     <header
@@ -37,7 +56,6 @@ export function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="group flex items-center gap-2.5">
-            {/* PR logomark */}
             <div className="relative w-8 h-8 flex items-center justify-center">
               <div className="absolute inset-0 bg-brand-green rounded-lg" />
               <span className="relative font-display text-black text-[15px] leading-none" style={{ fontStyle: 'italic' }}>
@@ -51,7 +69,7 @@ export function Navbar() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-1">
-            {links.map((l) => (
+            {navLinks.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -61,7 +79,7 @@ export function Navbar() {
                     : 'text-white/65 hover:text-white'
                 }`}
               >
-                {l.label}
+                {t('nav', l.key)}
                 {pathname === l.href && (
                   <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-3.5 h-0.5 rounded-full bg-brand-green" />
                 )}
@@ -69,13 +87,51 @@ export function Navbar() {
             ))}
           </div>
 
-          {/* CTA + mobile toggle */}
-          <div className="flex items-center gap-3">
+          {/* Seletor idioma + CTA + mobile */}
+          <div className="flex items-center gap-2">
+
+            {/* Language switcher */}
+            <div ref={langRef} className="relative hidden md:block">
+              <button
+                onClick={() => setLangOpen(!langOpen)}
+                disabled={isPending}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-white/10 text-white/55 hover:text-white hover:border-white/20 text-[12px] font-bold transition-all"
+              >
+                <span>{current.flag}</span>
+                <span>{current.label}</span>
+                <ChevronDown size={11} className={`transition-transform ${langOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {langOpen && (
+                <div className="absolute right-0 top-full mt-2 bg-black/95 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl min-w-[130px]">
+                  {LOCALES.map((loc) => {
+                    const info = LOCALE_LABELS[loc as Locale]
+                    return (
+                      <button
+                        key={loc}
+                        onClick={() => {
+                          changeLocale(loc as Locale)
+                          setLangOpen(false)
+                        }}
+                        className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-[12px] font-bold transition-colors hover:bg-white/5 ${
+                          locale === loc ? 'text-brand-green' : 'text-white/60'
+                        }`}
+                      >
+                        <span>{info.flag}</span>
+                        <span>{info.label}</span>
+                        {locale === loc && <span className="ml-auto w-1.5 h-1.5 rounded-full bg-brand-green" />}
+                      </button>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
+
             <Link
               href="/consulta"
               className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
             >
-              Consulta Gratuita
+              {t('nav', 'cta')}
             </Link>
 
             <button
@@ -91,11 +147,11 @@ export function Navbar() {
         {/* Mobile menu */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-300 ease-out ${
-            open ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
+            open ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
           <div className="pb-5 pt-2 border-t border-white/5">
-            {links.map((l) => (
+            {navLinks.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -106,16 +162,43 @@ export function Navbar() {
                     : 'text-white/55 hover:text-white'
                 }`}
               >
-                {l.label}
+                {t('nav', l.key)}
               </Link>
             ))}
-            <div className="px-3 pt-3">
+
+            {/* Seletor idioma mobile */}
+            <div className="px-3 pt-3 pb-2">
+              <p className="text-[9px] uppercase tracking-widest text-white/25 font-mono mb-2">Idioma</p>
+              <div className="flex flex-wrap gap-2">
+                {LOCALES.map((loc) => {
+                  const info = LOCALE_LABELS[loc as Locale]
+                  return (
+                    <button
+                      key={loc}
+                      onClick={() => {
+                        changeLocale(loc as Locale)
+                        setOpen(false)
+                      }}
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-bold border transition-all ${
+                        locale === loc
+                          ? 'border-brand-green/40 text-brand-green bg-brand-green/5'
+                          : 'border-white/10 text-white/45 hover:text-white'
+                      }`}
+                    >
+                      {info.flag} {info.label}
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+
+            <div className="px-3 pt-2">
               <Link
                 href="/consulta"
                 onClick={() => setOpen(false)}
                 className="flex items-center justify-center w-full py-3 text-sm font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
               >
-                Consulta Gratuita
+                {t('nav', 'cta')}
               </Link>
             </div>
           </div>

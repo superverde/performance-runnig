@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "metodologias": "METHODOLOGIES",
+    "arquivo": "ARCHIVE",
+    "equipamento": "GEAR",
+    "testemunhos": "REVIEWS",
+    "sobre": "ABOUT",
+    "cta": "Free Consultation"
+  },
+  "home": {
+    "badge": "Science · Performance · Trail",
+    "headline1": "THE SCIENCE",
+    "headline2": "OF RUNNING",
+    "headline3": "BETTER.",
+    "subtitle": "Evidence-based training methodologies. For road runners, trail athletes and track competitors who want to improve with consistency.",
+    "cta_metodologias": "Explore Methodologies",
+    "cta_artigos": "Read Latest Articles",
+    "section_metodologias": "TRAINING METHODOLOGIES",
+    "section_artigos": "LATEST ARTICLES",
+    "section_consulta_title": "FREE AI CONSULTATION",
+    "section_consulta_sub": "Running specialist available 24/7. Training, nutrition, injuries — immediate science-based answers.",
+    "section_consulta_cta": "Start Free Consultation"
+  },
+  "footer": {
+    "description": "Scientific knowledge about running, trail and athletics for athletes who take training seriously.",
+    "nav_label": "Navigation",
+    "contact_label": "Contact",
+    "newsletter_label": "Newsletter",
+    "newsletter_placeholder": "Your email",
+    "newsletter_btn": "Subscribe",
+    "copyright": "Performance Running. Built with science.",
+    "disclaimer": "This site uses Amazon affiliate links."
+  },
+  "blog": {
+    "search_placeholder": "Search articles...",
+    "read_more": "Read article",
+    "min_read": "min read",
+    "translate_btn": "Translate article",
+    "translating": "Translating...",
+    "show_original": "Show original"
+  },
+  "consulta": {
+    "badge": "Free Consultation · AI Specialist",
+    "headline1": "RUNNING",
+    "headline2": "SPECIALIST.",
+    "subtitle": "Training, nutrition, injuries, periodization — immediate science-based answers.",
+    "feature1": "Instant response",
+    "feature2": "100% free",
+    "feature3": "Available 24/7",
+    "placeholder": "Ask your question... (Enter to send)",
+    "disclaimer": "AI can make mistakes · For medical questions consult a healthcare professional",
+    "welcome": "Hello! I'm a specialist in running, athletics and trail. You can ask me about training, nutrition, injuries, marathon preparation, running technique — any question.\n\nIt's free and the answer is immediate.\n\nWhere do you want to start?"
+  },
+  "equipamento": {
+    "badge": "Honest Reviews",
+    "headline": "GEAR",
+    "subtitle": "We test and review the most relevant equipment for runners. No sponsorships influencing our ratings. Affiliate links help keep the site free.",
+    "ver_preco": "See price at",
+    "pontos_fortes": "Strengths",
+    "limitacoes": "Limitations",
+    "porque_usar": "Why use it",
+    "porque_escolher": "Why choose it"
+  }
+}

@@ -6,6 +6,7 @@ import { getArticleBySlug, getAllSlugs, getAllArticles } from '@/lib/articles'
 import { ViewCounter } from '@/components/ViewCounter'
 import { BlogClient } from '@/components/BlogClient'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
+import { ArticleContent } from '@/components/ArticleContent'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -274,7 +275,12 @@ export default async function BlogSlugPage({ params }: Props) {
 
       {/* ── Article content ── */}
       <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
-        <div className="prose" dangerouslySetInnerHTML={{ __html: article.content }} />
+        <ArticleContent
+          slug={params.slug}
+          originalContent={article.content}
+          originalTitle={article.title}
+          originalExcerpt={article.excerpt}
+        />
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-brand-green transition-colors font-medium">
             <ArrowLeft size={13} /> Ver todos os artigos

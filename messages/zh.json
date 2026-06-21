@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "metodologias": "训练方法",
+    "arquivo": "文章库",
+    "equipamento": "装备评测",
+    "testemunhos": "用户评价",
+    "sobre": "关于我们",
+    "cta": "免费咨询"
+  },
+  "home": {
+    "badge": "科学 · 表现 · 越野",
+    "headline1": "跑步更快",
+    "headline2": "的",
+    "headline3": "科学.",
+    "subtitle": "基于科学证据的训练方法。为公路跑者、越野跑者和田径运动员提供系统性提升方案。",
+    "cta_metodologias": "探索训练方法",
+    "cta_artigos": "阅读最新文章",
+    "section_metodologias": "训练方法论",
+    "section_artigos": "最新文章",
+    "section_consulta_title": "免费AI跑步咨询",
+    "section_consulta_sub": "全天候跑步专家在线。训练、营养、损伤——即时科学解答。",
+    "section_consulta_cta": "开始免费咨询"
+  },
+  "footer": {
+    "description": "为认真对待训练的运动员提供跑步、越野和田径的科学知识。",
+    "nav_label": "导航",
+    "contact_label": "联系",
+    "newsletter_label": "订阅邮件",
+    "newsletter_placeholder": "您的邮箱",
+    "newsletter_btn": "订阅",
+    "copyright": "Performance Running. 用科学打造.",
+    "disclaimer": "本站使用亚马逊联盟链接。"
+  },
+  "blog": {
+    "search_placeholder": "搜索文章...",
+    "read_more": "阅读文章",
+    "min_read": "分钟阅读",
+    "translate_btn": "翻译文章",
+    "translating": "翻译中...",
+    "show_original": "查看原文"
+  },
+  "consulta": {
+    "badge": "免费咨询 · AI专家",
+    "headline1": "跑步",
+    "headline2": "专家.",
+    "subtitle": "训练、营养、损伤、周期化——即时科学解答。",
+    "feature1": "即时响应",
+    "feature2": "完全免费",
+    "feature3": "全天候服务",
+    "placeholder": "提问吧... （回车发送）",
+    "disclaimer": "AI可能出错 · 医疗问题请咨询专业医生",
+    "welcome": "你好！我是跑步、田径和越野跑专家。你可以问我关于训练、营养、损伤、马拉松备赛、跑步技术的任何问题。\n\n完全免费，立即回答。\n\n从哪里开始？"
+  },
+  "equipamento": {
+    "badge": "诚实评测",
+    "headline": "跑步装备",
+    "subtitle": "我们测试和评估最适合跑者的装备。评分不受赞助商影响。联盟链接帮助维持网站免费运营。",
+    "ver_preco": "查看价格",
+    "pontos_fortes": "优势",
+    "limitacoes": "局限性",
+    "porque_usar": "为什么使用",
+    "porque_escolher": "为什么选择"
+  }
+}

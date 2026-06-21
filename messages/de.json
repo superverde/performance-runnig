@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "metodologias": "METHODIK",
+    "arquivo": "ARCHIV",
+    "equipamento": "AUSRÜSTUNG",
+    "testemunhos": "ERFAHRUNGEN",
+    "sobre": "ÜBER UNS",
+    "cta": "Kostenlose Beratung"
+  },
+  "home": {
+    "badge": "Wissenschaft · Performance · Trail",
+    "headline1": "DIE WISSENSCHAFT",
+    "headline2": "DES BESSEREN",
+    "headline3": "LAUFENS.",
+    "subtitle": "Evidenzbasierte Trainingsmethoden. Für Straßenläufer, Trailrunner und Leichtathleten, die konsequent besser werden wollen.",
+    "cta_metodologias": "Methoden entdecken",
+    "cta_artigos": "Neueste Artikel lesen",
+    "section_metodologias": "TRAININGSMETHODEN",
+    "section_artigos": "NEUESTE ARTIKEL",
+    "section_consulta_title": "KOSTENLOSE KI-BERATUNG",
+    "section_consulta_sub": "Laufspezialist rund um die Uhr verfügbar. Training, Ernährung, Verletzungen — sofortige wissenschaftliche Antworten.",
+    "section_consulta_cta": "Kostenlose Beratung starten"
+  },
+  "footer": {
+    "description": "Wissenschaftliches Wissen über Laufen, Trail und Leichtathletik für Athleten, die Training ernst nehmen.",
+    "nav_label": "Navigation",
+    "contact_label": "Kontakt",
+    "newsletter_label": "Newsletter",
+    "newsletter_placeholder": "Deine E-Mail",
+    "newsletter_btn": "Abonnieren",
+    "copyright": "Performance Running. Mit Wissenschaft gemacht.",
+    "disclaimer": "Diese Website verwendet Amazon-Affiliate-Links."
+  },
+  "blog": {
+    "search_placeholder": "Artikel suchen...",
+    "read_more": "Artikel lesen",
+    "min_read": "Min. Lesezeit",
+    "translate_btn": "Artikel übersetzen",
+    "translating": "Wird übersetzt...",
+    "show_original": "Original anzeigen"
+  },
+  "consulta": {
+    "badge": "Kostenlose Beratung · KI-Spezialist",
+    "headline1": "LAUF-",
+    "headline2": "SPEZIALIST.",
+    "subtitle": "Training, Ernährung, Verletzungen, Periodisierung — sofortige wissenschaftliche Antworten.",
+    "feature1": "Sofortige Antwort",
+    "feature2": "100% kostenlos",
+    "feature3": "24/7 verfügbar",
+    "placeholder": "Stelle deine Frage... (Enter zum Senden)",
+    "disclaimer": "KI kann Fehler machen · Bei medizinischen Fragen einen Arzt konsultieren",
+    "welcome": "Hallo! Ich bin Spezialist für Laufen, Leichtathletik und Trail. Du kannst mich nach Training, Ernährung, Verletzungen, Marathonvorbereitung, Lauftechnik fragen — jede Frage.\n\nEs ist kostenlos und die Antwort ist sofort.\n\nWomit möchtest du anfangen?"
+  },
+  "equipamento": {
+    "badge": "Ehrliche Tests",
+    "headline": "AUSRÜSTUNG",
+    "subtitle": "Wir testen und bewerten die relevanteste Ausrüstung für Läufer. Keine Sponsoren beeinflussen unsere Bewertungen. Affiliate-Links helfen, die Website kostenlos zu halten.",
+    "ver_preco": "Preis anzeigen bei",
+    "pontos_fortes": "Stärken",
+    "limitacoes": "Einschränkungen",
+    "porque_usar": "Warum nutzen",
+    "porque_escolher": "Warum wählen"
+  }
+}
