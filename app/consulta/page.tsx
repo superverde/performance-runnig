@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowRight, CheckCircle, Clock, Mail, MessageSquare, Target, Zap } from 'lucide-react'
+import { ArrowRight, CheckCircle, Clock, Loader2, Mail, MessageSquare, Target, Zap, AlertCircle } from 'lucide-react'
 
 const MODALIDADES = ['5km', '10km', 'Meia Maratona', 'Maratona', 'Trail 25–50km', 'Ultra Trail +50km', 'Outra']
 
@@ -14,13 +14,84 @@ const TOPICS = [
 
 const STEPS = [
   { n: '01', title: 'Preenche o formulário', desc: 'Conta-nos a tua situação atual, objetivos e dúvidas principais. Leva menos de 3 minutos.' },
-  { n: '02', title: 'Análise em 24–48h', desc: 'Analisamos o teu perfil, historial de treino e questão. Preparamos uma resposta personalizada.' },
-  { n: '03', title: 'Sessão personalizada', desc: 'Podes receber a resposta por email detalhado ou agendar uma videochamada de 30 minutos.' },
+  { n: '02', title: 'IA analisa o teu perfil', desc: 'O nosso sistema analisa o teu perfil de corredor e gera uma resposta personalizada.' },
+  { n: '03', title: 'Recebe a análise imediatamente', desc: 'Em segundos tens uma análise técnica completa, baseada na tua situação real.' },
 ]
 
+/** Converte markdown simples em JSX */
+function renderMarkdown(text: string) {
+  const blocks = text.split(/\n{2,}/).filter(Boolean)
+  return blocks.map((block, i) => {
+    // Título ## Texto
+    if (block.startsWith('## ')) {
+      return (
+        <h3 key={i} className="font-display text-brand-green text-lg mt-8 mb-3 first:mt-0">
+          {block.slice(3).trim()}
+        </h3>
+      )
+    }
+    // Lista com bullet - ou *
+    if (/^[-*•]\s/.test(block.trim())) {
+      const items = block.split('\n').filter((l) => /^[-*•]\s/.test(l.trim()))
+      return (
+        <ul key={i} className="space-y-2 my-3">
+          {items.map((item, j) => (
+            <li key={j} className="flex gap-2 text-white/70 text-sm leading-relaxed">
+              <span className="text-brand-green mt-0.5 flex-shrink-0">→</span>
+              <span dangerouslySetInnerHTML={{ __html: boldify(item.replace(/^[-*•]\s/, '')) }} />
+            </li>
+          ))}
+        </ul>
+      )
+    }
+    // Lista numerada
+    if (/^\d+\.\s/.test(block.trim())) {
+      const items = block.split('\n').filter((l) => /^\d+\.\s/.test(l.trim()))
+      return (
+        <ol key={i} className="space-y-2 my-3 list-none">
+          {items.map((item, j) => (
+            <li key={j} className="flex gap-3 text-white/70 text-sm leading-relaxed">
+              <span className="text-brand-green font-black text-xs mt-0.5 flex-shrink-0 w-4">
+                {j + 1}.
+              </span>
+              <span dangerouslySetInnerHTML={{ __html: boldify(item.replace(/^\d+\.\s/, '')) }} />
+            </li>
+          ))}
+        </ol>
+      )
+    }
+    // Parágrafo normal
+    return (
+      <p
+        key={i}
+        className="text-white/65 text-sm leading-relaxed my-3"
+        dangerouslySetInnerHTML={{ __html: boldify(block) }}
+      />
+    )
+  })
+}
+
+/** Substitui **bold** por <strong> */
+function boldify(text: string): string {
+  return text.replace(/\*\*([^*]+)\*\*/g, '<strong class="text-white font-bold">$1</strong>')
+}
+
+type FormState = {
+  nome: string
+  email: string
+  modalidade: string
+  kmSemana: string
+  objetivo: string
+  questao: string
+}
+
+type Status = 'idle' | 'loading' | 'success' | 'error'
+
 export default function ConsultaPage() {
-  const [submitted, setSubmitted] = useState(false)
-  const [form, setForm] = useState({
+  const [status, setStatus] = useState<Status>('idle')
+  const [analysis, setAnalysis] = useState('')
+  const [errorMsg, setErrorMsg] = useState('')
+  const [form, setForm] = useState<FormState>({
     nome: '',
     email: '',
     modalidade: '',
@@ -29,12 +100,33 @@ export default function ConsultaPage() {
     questao: '',
   })
 
-  const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
-    setForm((f) => ({ ...f, [k]: e.target.value }))
+  const set = (k: keyof FormState) =>
+    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
+      setForm((f) => ({ ...f, [k]: e.target.value }))
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    setSubmitted(true)
+    setStatus('loading')
+    setErrorMsg('')
+
+    try {
+      const res = await fetch('/api/consulta', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      const data = await res.json()
+      if (!res.ok || data.error) {
+        setErrorMsg(data.error || 'Erro desconhecido. Tenta novamente.')
+        setStatus('error')
+        return
+      }
+      setAnalysis(data.analysis)
+      setStatus('success')
+    } catch {
+      setErrorMsg('Sem conexão. Verifica a internet e tenta novamente.')
+      setStatus('error')
+    }
   }
 
   return (
@@ -53,9 +145,9 @@ export default function ConsultaPage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-5">
-              <span className="w-2 h-2 rounded-full bg-brand-green" />
+              <span className="w-2 h-2 rounded-full bg-brand-green animate-pulse" />
               <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase">
-                Gratuito · Sem compromisso
+                Gratuito · Resposta imediata por IA
               </p>
             </div>
             <h1
@@ -66,8 +158,9 @@ export default function ConsultaPage() {
               <span className="text-brand-green">CONSULTA.</span>
             </h1>
             <p className="text-white/45 text-base leading-relaxed max-w-lg mb-8">
-              Tens uma dúvida sobre treino, lesão ou estratégia de prova? Descreve a tua situação
-              e recebemos uma análise personalizada — completamente gratuita.
+              Descreve a tua situação e em segundos recebes uma análise técnica personalizada —
+              gerada por IA especializada em fisiologia do exercício e treino de corrida.
+              Completamente gratuita.
             </p>
             <a
               href="#formulario"
@@ -129,11 +222,7 @@ export default function ConsultaPage() {
       </section>
 
       {/* ── FORMULÁRIO ── */}
-      <section
-        id="formulario"
-        className="py-20"
-        style={{ background: '#080808' }}
-      >
+      <section id="formulario" className="py-20" style={{ background: '#080808' }}>
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-4">
             Formulário
@@ -142,23 +231,65 @@ export default function ConsultaPage() {
             CONTA-NOS A<br /><span className="text-brand-green">TUA SITUAÇÃO.</span>
           </h2>
 
-          {submitted ? (
-            <div className="text-center py-20 rounded-2xl border border-brand-green/20 bg-brand-green/5">
-              <CheckCircle size={48} className="text-brand-green mx-auto mb-5" />
-              <h3 className="text-white font-black text-xl mb-3">Consulta Recebida!</h3>
-              <p className="text-white/40 text-sm max-w-sm mx-auto leading-relaxed">
-                Vamos analisar a tua situação e responder em 24–48 horas com uma análise personalizada.
+          {/* ── LOADING ── */}
+          {status === 'loading' && (
+            <div className="text-center py-24 rounded-2xl border border-white/5 bg-white/[0.015]">
+              <Loader2 size={36} className="text-brand-green mx-auto mb-5 animate-spin" />
+              <h3 className="text-white font-black text-base mb-2">A analisar o teu perfil…</h3>
+              <p className="text-white/35 text-xs font-mono">
+                IA a processar os teus dados de corrida
               </p>
-              <a
-                href="/blog"
-                className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all"
-              >
-                Ler artigos enquanto esperas <ArrowRight size={14} />
-              </a>
             </div>
-          ) : (
+          )}
+
+          {/* ── RESULTADO DA IA ── */}
+          {status === 'success' && (
+            <div className="space-y-6">
+              <div className="flex items-center gap-3 pb-5 border-b border-white/5">
+                <CheckCircle size={20} className="text-brand-green flex-shrink-0" />
+                <div>
+                  <p className="text-white font-black text-sm">Análise gerada para {form.nome}</p>
+                  <p className="text-white/30 text-xs font-mono mt-0.5">
+                    Baseada nos dados que forneceste · {form.modalidade} · {form.kmSemana && `${form.kmSemana} km/sem`}
+                  </p>
+                </div>
+              </div>
+
+              <div className="p-8 rounded-2xl border border-brand-green/15 bg-brand-green/[0.03]">
+                {renderMarkdown(analysis)}
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4 pt-2">
+                <button
+                  onClick={() => { setStatus('idle'); setAnalysis('') }}
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-white/10 text-white/50 text-sm font-bold rounded-full hover:border-white/20 hover:text-white transition-all"
+                >
+                  Fazer nova consulta
+                </button>
+                <a
+                  href="/blog"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all"
+                >
+                  Aprofundar no arquivo <ArrowRight size={14} />
+                </a>
+              </div>
+            </div>
+          )}
+
+          {/* ── ERRO ── */}
+          {status === 'error' && (
+            <div className="mb-6 flex items-start gap-3 p-5 rounded-xl border border-red-500/20 bg-red-500/5">
+              <AlertCircle size={16} className="text-red-400 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="text-red-400 text-sm font-bold">Erro</p>
+                <p className="text-red-400/70 text-xs mt-0.5">{errorMsg}</p>
+              </div>
+            </div>
+          )}
+
+          {/* ── FORMULÁRIO ── */}
+          {(status === 'idle' || status === 'error') && (
             <form onSubmit={handleSubmit} className="space-y-6">
-              {/* Row: Nome + Email */}
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
@@ -175,20 +306,18 @@ export default function ConsultaPage() {
                 </div>
                 <div>
                   <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
-                    Email *
+                    Email
                   </label>
                   <input
-                    required
                     type="email"
                     value={form.email}
                     onChange={set('email')}
-                    placeholder="para@onde.enviamos"
+                    placeholder="Opcional — para receber uma cópia"
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all"
                   />
                 </div>
               </div>
 
-              {/* Row: Modalidade + Km/semana */}
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
@@ -220,7 +349,6 @@ export default function ConsultaPage() {
                 </div>
               </div>
 
-              {/* Objetivo */}
               <div>
                 <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
                   Objetivo principal *
@@ -235,7 +363,6 @@ export default function ConsultaPage() {
                 />
               </div>
 
-              {/* Questão */}
               <div>
                 <label className="block text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">
                   A tua questão ou situação *
@@ -245,30 +372,29 @@ export default function ConsultaPage() {
                   value={form.questao}
                   onChange={set('questao')}
                   rows={5}
-                  placeholder="Descreve a tua situação atual, o que já tentaste, e qual é a dúvida principal. Quanto mais detalhe, melhor a análise que conseguimos dar."
+                  placeholder="Descreve a tua situação atual, o que já tentaste, e qual é a dúvida principal. Quanto mais detalhe, melhor a análise."
                   className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/20 text-sm focus:outline-none focus:border-brand-green/50 transition-all resize-none"
                 />
               </div>
 
               <div className="flex items-center justify-between pt-2">
                 <p className="text-white/25 text-xs max-w-xs leading-relaxed">
-                  100% gratuito. Respondemos por email em 24–48 horas.
+                  Análise gerada por IA em segundos. 100% gratuito.
                 </p>
                 <button
                   type="submit"
                   className="inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:scale-105 active:scale-95"
                 >
-                  Enviar <ArrowRight size={15} />
+                  Obter análise <ArrowRight size={15} />
                 </button>
               </div>
             </form>
           )}
 
-          {/* Email directo */}
           <div className="mt-12 pt-8 border-t border-white/5 flex items-center gap-3">
             <Mail size={14} className="text-white/25" />
             <p className="text-white/25 text-xs">
-              Preferes email direto?{' '}
+              Preferes contacto direto?{' '}
               <a
                 href="mailto:performance.running0224@gmail.com"
                 className="text-brand-green/70 hover:text-brand-green transition-colors underline"
