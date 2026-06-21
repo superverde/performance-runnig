@@ -5,6 +5,7 @@ import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { Analytics } from '@vercel/analytics/react'
 import { ScrollReveal } from '@/components/ScrollReveal'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ variable: '--font-geist-sans', subsets: ['latin'] })
 const jetbrainsMono = JetBrains_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
@@ -72,15 +73,52 @@ export const metadata: Metadata = {
   },
 }
 
+const organizationLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Performance Running',
+  url: SITE_URL,
+  logo: `${SITE_URL}/favicon.ico`,
+  sameAs: [
+    'https://www.instagram.com/performancerunningpt',
+    'https://www.facebook.com/performancerunningpt',
+  ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'performance.running0224@gmail.com',
+    contactType: 'customer support',
+    availableLanguage: 'Portuguese',
+  },
+}
+
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Performance Running',
+  url: SITE_URL,
+  description: 'A maior base de conhecimento científico sobre corrida em português.',
+  inLanguage: 'pt-PT',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/blog?q={search_term_string}` },
+    'query-input': 'required name=search_term_string',
+  },
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt" className="dark">
       <body className={`${inter.variable} ${jetbrainsMono.variable} ${barlowCondensed.variable} antialiased bg-brand-dark text-white`}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }} />
         <ScrollReveal />
         <Navbar />
         <main>{children}</main>
         <Footer />
         <Analytics />
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
       </body>
     </html>
   )

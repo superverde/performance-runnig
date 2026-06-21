@@ -142,14 +142,45 @@ export default async function BlogSlugPage({ params }: Props) {
         a.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-') === params.slug ||
         a.category.toLowerCase() === cat.label.toLowerCase()
     )
+
+    const catUrl = `${SITE_URL}/blog/${params.slug}`
+    const catBreadcrumbLd = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Início', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Arquivo', item: `${SITE_URL}/blog` },
+        { '@type': 'ListItem', position: 3, name: cat.label, item: catUrl },
+      ],
+    }
+    const collectionLd = {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: `${cat.label} — Performance Running`,
+      description: cat.description,
+      url: catUrl,
+      inLanguage: 'pt-PT',
+      numberOfItems: categoryArticles.length,
+      hasPart: categoryArticles.slice(0, 10).map((a) => ({
+        '@type': 'Article',
+        headline: a.title,
+        url: `${SITE_URL}/blog/${a.slug}`,
+        datePublished: a.date,
+      })),
+    }
+
     return (
-      <BlogClient
-        articles={categoryArticles}
-        initialCategory={cat.label}
-        heroTitle={cat.label}
-        heroDescription={cat.description}
-        heroBg={cat.hero}
-      />
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(catBreadcrumbLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }} />
+        <BlogClient
+          articles={categoryArticles}
+          initialCategory={cat.label}
+          heroTitle={cat.label}
+          heroDescription={cat.description}
+          heroBg={cat.hero}
+        />
+      </>
     )
   }
 
@@ -163,6 +194,11 @@ export default async function BlogSlugPage({ params }: Props) {
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
   const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
+
+  const categorySlug = article.category
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/\s+/g, '-')
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -181,12 +217,25 @@ export default async function BlogSlugPage({ params }: Props) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
     articleSection: article.category,
     inLanguage: 'pt-PT',
-    keywords: `corrida, ${article.category}, treino, performance running`,
+    keywords: `corrida, ${article.category}, treino, performance running, corrida portugal`,
+    wordCount: article.content.replace(/<[^>]+>/g, '').split(/\s+/).length,
+  }
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Arquivo', item: `${SITE_URL}/blog` },
+      { '@type': 'ListItem', position: 3, name: article.category, item: `${SITE_URL}/blog/${categorySlug}` },
+      { '@type': 'ListItem', position: 4, name: article.title, item: canonicalUrl },
+    ],
   }
 
   return (
     <div className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
       {/* ── Hero banner ── */}
       <div
@@ -195,9 +244,16 @@ export default async function BlogSlugPage({ params }: Props) {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/80 to-black" />
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <Link href="/blog" className="inline-flex items-center gap-1.5 text-[11px] text-white/40 hover:text-brand-green transition-colors mb-8 font-mono uppercase tracking-widest">
-            <ArrowLeft size={12} /> Arquivo
-          </Link>
+          {/* Breadcrumbs */}
+          <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-[11px] text-white/30 font-mono uppercase tracking-widest mb-8 flex-wrap">
+            <Link href="/" className="hover:text-brand-green transition-colors">Início</Link>
+            <span>/</span>
+            <Link href="/blog" className="hover:text-brand-green transition-colors">Arquivo</Link>
+            <span>/</span>
+            <Link href={`/blog/${categorySlug}`} className="hover:text-brand-green transition-colors">{article.category}</Link>
+            <span>/</span>
+            <span className="text-white/20 truncate max-w-[200px]">{article.title}</span>
+          </nav>
           <div className="mb-4">
             <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/25 bg-brand-green/10">
               {article.category}
@@ -223,9 +279,32 @@ export default async function BlogSlugPage({ params }: Props) {
           <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-brand-green transition-colors font-medium">
             <ArrowLeft size={13} /> Ver todos os artigos
           </Link>
-          <Link href="/blog" className="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-green text-black font-black rounded-full hover:bg-white transition-all text-sm">
-            Mais artigos →
+          <Link href={`/blog/${categorySlug}`} className="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-green text-black font-black rounded-full hover:bg-white transition-all text-sm">
+            Mais sobre {article.category} →
           </Link>
+        </div>
+
+        {/* ── Links internos SEO ── */}
+        <div className="mt-10 p-5 rounded-xl border border-white/6 bg-white/[0.015]">
+          <p className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/20 mb-3">Explorar mais</p>
+          <div className="flex flex-wrap gap-2">
+            <Link href={`/blog/${categorySlug}`}
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              Arquivo · {article.category}
+            </Link>
+            <Link href="/metodologias"
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              Metodologias de Treino
+            </Link>
+            <Link href="/consulta"
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              Consulta Gratuita com IA
+            </Link>
+            <Link href="/blog"
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              Todos os Artigos
+            </Link>
+          </div>
         </div>
       </article>
 
