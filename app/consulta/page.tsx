@@ -117,7 +117,7 @@ export default function ConsultaPage() {
           ESPECIALISTA EM CORRIDA
         </h1>
         <p style={{ color: '#555', fontSize: '13px', margin: 0 }}>
-          Resposta imediata · 100% gratuito · Powered by Gemini AI
+          Resposta imediata · 100% gratuito · Powered by Groq AI
         </p>
       </div>
 
