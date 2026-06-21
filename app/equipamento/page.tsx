@@ -110,6 +110,54 @@ const relogios = [
   },
 ]
 
+const sensoresFc = [
+  {
+    name: 'Polar H10',
+    tipo: 'Cinta peitoral',
+    rating: 5,
+    preco: '~€90',
+    badge: 'Padrão Ouro',
+    badgeColor: '#00ff87',
+    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
+    desc: 'O monitor de FC mais preciso do mercado. Recomendado por laboratórios de fisiologia e usado em estudos científicos. Conectividade Bluetooth + ANT+. Compatível com Garmin, Wahoo, Suunto e todos os relógios GPS.',
+    pros: ['Precisão clínica (±1 bpm)', 'Bluetooth + ANT+ dual', 'Bateria 400h', 'Compatível com todos os relógios'],
+    contras: ['Cinta peitoral (menos confortável que pulso)', 'Requer gel de condução no início'],
+    link: 'https://www.amazon.es/s?k=polar+h10+monitor+cardiaco&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'Se treinas por zonas de FC ou fazes testes de VO2max, o H10 é insubstituível. Os sensores de pulso têm erro de ±5-10% — o H10 tem ±1 bpm.',
+  },
+  {
+    name: 'Polar Verity Sense',
+    tipo: 'Sensor de braço',
+    rating: 4,
+    preco: '~€65',
+    badge: 'Melhor Sensor Ótico',
+    badgeColor: '#3b82f6',
+    img: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&q=80',
+    desc: 'Sensor ótico de braço com precisão muito superior aos sensores de pulso. Ideal para natação (IPX7), ciclismo e treino funcional. Usa luz verde de 6 LEDs para máxima precisão.',
+    pros: ['Sem cinta peitoral', 'Impermeável (natação)', 'Confortável em qualquer posição', 'Memória interna 600h'],
+    contras: ['Menos preciso que H10 em intervalados', 'Precisa de posicionamento correto no braço'],
+    link: 'https://www.amazon.es/s?k=polar+verity+sense&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'A alternativa ao H10 para quem não quer cinta peitoral. Excelente para trail (movimento irregular) e natação.',
+  },
+  {
+    name: 'Polar Pacer Pro',
+    tipo: 'Relógio GPS',
+    rating: 4,
+    preco: '~€300',
+    badge: 'Melhor Polar Corrida',
+    badgeColor: '#f59e0b',
+    img: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80',
+    desc: 'O melhor relógio Polar para corredores. Leve (45g), GPS preciso, Running Power sem acessórios externos, análise de recuperação Nightly Recharge e estimativa de VO2max. Ecrã MIP excelente em pleno sol.',
+    pros: ['Levíssimo (45g)', 'Running Power integrado', 'Nightly Recharge (HRV nocturno)', 'Excelente autonomia 35h GPS'],
+    contras: ['Sem mapas', 'Ecrã não AMOLED', 'App menos rica que Garmin Connect'],
+    link: 'https://www.amazon.es/s?k=polar+pacer+pro&tag=performancerun-21',
+    loja: 'Amazon ES',
+    porque: 'Para quem prefere o ecossistema Polar e quer Running Power + HRV num relógio leve e acessível.',
+  },
+]
+
 const acessorios = [
   {
     name: 'Coros Pace 3',
@@ -365,10 +413,98 @@ export default function EquipamentoPage() {
           </div>
         </section>
 
+        {/* ── Monitores FC Polar ── */}
+        <section className="border-t border-white/5 pt-16">
+          <div className="mb-10">
+            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">03</p>
+            <h2 className="text-3xl font-black tracking-tight">Bracelets e Sensores de Frequência Cardíaca</h2>
+            <p className="text-white/50 text-sm mt-2 max-w-2xl">
+              Treinar por zonas de FC exige precisão. Os sensores de pulso dos relógios GPS têm erros de ±5-10% em intensidades elevadas — os monitores dedicados Polar são a solução usada em laboratórios de fisiologia.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
+            {sensoresFc.map((s) => (
+              <article
+                key={s.name}
+                className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={s.img}
+                    alt={s.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  <div className="absolute top-3 left-3 flex gap-2 flex-wrap">
+                    <span
+                      className="text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
+                      style={{ background: s.badgeColor }}
+                    >
+                      {s.badge}
+                    </span>
+                    <span className="text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-white/10 text-white/70 border border-white/10">
+                      {s.tipo}
+                    </span>
+                  </div>
+                  <div className="absolute bottom-3 left-3">
+                    <Stars n={s.rating} />
+                  </div>
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <div className="flex items-start justify-between mb-2">
+                    <h3 className="font-black text-lg tracking-tight">{s.name}</h3>
+                    <span className="text-brand-green font-black text-sm shrink-0 ml-2">{s.preco}</span>
+                  </div>
+                  <p className="text-white/50 text-xs leading-relaxed mb-4">{s.desc}</p>
+
+                  {/* Porque escolher */}
+                  <div className="bg-brand-green/5 border border-brand-green/15 rounded-lg p-3 mb-4">
+                    <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1">Porque escolher</p>
+                    <p className="text-[11px] text-white/60 leading-relaxed">{s.porque}</p>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3 mb-4">
+                    <div>
+                      <p className="text-[9px] uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
+                      <ul className="space-y-1">
+                        {s.pros.map((p) => (
+                          <li key={p} className="text-[11px] text-white/50 flex items-start gap-1.5">
+                            <span className="text-brand-green mt-px">+</span>{p}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
+                      <ul className="space-y-1">
+                        {s.contras.map((c) => (
+                          <li key={c} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                            <span className="text-red-400/60 mt-px">−</span>{c}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <a
+                    href={s.link}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="mt-auto inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2.5 rounded-lg hover:bg-white transition-colors justify-center"
+                  >
+                    Ver preço em {s.loja} <ArrowUpRight size={12} />
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
         {/* ── Acessórios ── */}
         <section>
           <div className="mb-8">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">03</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
             <h2 className="text-3xl font-black tracking-tight">Acessórios Essenciais</h2>
             <p className="text-white/40 text-sm mt-1">O equipamento complementar que faz diferença.</p>
           </div>
