@@ -1,5 +1,6 @@
-// Este ficheiro é seguro para importar em client e server components
-// NÃO importar next/headers aqui
+// CLIENT-SAFE: seguro para importar em client e server components
+// NUNCA importar next/headers, cookies, ou headers() aqui
+// Para aceder ao locale em server components, usar lib/locale-server.ts
 
 export const LOCALES = ['pt', 'en', 'es', 'fr', 'de', 'zh'] as const
 export type Locale = (typeof LOCALES)[number]
