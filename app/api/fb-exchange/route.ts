@@ -65,20 +65,5 @@ export async function GET(req: NextRequest) {
       })
     }
 
-    // Nenhuma página — verificar que permissões o token TEM mesmo
-    const rdebug = await fetch(
-      `https://graph.facebook.com/debug_token?input_token=${userToken}&access_token=${appId}|${appSecret}`
-    )
-    const ddebug = await rdebug.json()
-
-    return NextResponse.json({
-      error: 'Página não encontrada — token não tem pages_show_list ou não és admin da página',
-      token_scopes: ddebug.data?.scopes ?? ddebug,
-      token_is_valid: ddebug.data?.is_valid,
-      token_user_id: ddebug.data?.user_id,
-      solution: 'Gera um novo token no Explorer — tem de aparecer um POPUP do Facebook a pedir autorização. Se não apareceu popup, as permissões não foram autorizadas.'
-    }, { status: 403 })
-  } catch (err) {
-    return NextResponse.json({ error: String(err) }, { status: 500 })
-  }
-}
+    // Tentar obter page token diretamente via /{page-id}?fields=access_token
+   
