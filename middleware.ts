@@ -55,19 +55,21 @@ export function middleware(request: NextRequest) {
   }
 
   const locale = detectLocale(request)
-  const response = NextResponse.next()
 
-  // Passa o locale como header (lido pelo layout server component)
-  response.headers.set('x-locale', locale)
+  // Passa locale como REQUEST header — lido por headers() em Server Components na primeira visita
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-locale', locale)
 
-  // Guarda em cookie por 1 ano se veio do browser (não de cookie)
-  if (!request.cookies.get('NEXT_LOCALE')) {
-    response.cookies.set('NEXT_LOCALE', locale, {
-      maxAge: 60 * 60 * 24 * 365,
-      path: '/',
-      sameSite: 'lax',
-    })
-  }
+  const response = NextResponse.next({
+    request: { headers: requestHeaders },
+  })
+
+  // Guarda em cookie por 1 ano (usado em visitas seguintes)
+  response.cookies.set('NEXT_LOCALE', locale, {
+    maxAge: 60 * 60 * 24 * 365,
+    path: '/',
+    sameSite: 'lax',
+  })
 
   return response
 }

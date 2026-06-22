@@ -3,22 +3,26 @@ import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/artic
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
+import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 
-
-const topics = [
-  { name: '5 km', tag: 'Velocidade', num: '01', img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70' },
-  { name: '10 km', tag: 'Resistência', num: '02', img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70' },
-  { name: 'Meia Maratona', tag: '21 km', num: '03', img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70' },
-  { name: 'Maratona', tag: '42 km', num: '04', img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70' },
-  { name: 'Trail Running', tag: 'Montanha', num: '05', img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=600&q=70' },
-  { name: 'Ultra Trail', tag: '> 60 km', num: '06', img: 'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=600&q=70' },
-  { name: 'Corrida Montanha', tag: 'Vertical', num: '07', img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70' },
-  { name: 'Meio Fundo', tag: 'Pista', num: '08', img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70' },
+const topicImages = [
+  'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70',
+  'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70',
+  'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70',
+  'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70',
+  'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=600&q=70',
+  'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=600&q=70',
+  'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70',
+  'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70',
 ]
 
 const categoryNames = ['Treino', 'Fisiologia', 'Nutrição', 'Biomecânica', 'Recuperação', 'Psicologia', 'Trail Running', 'Lesões']
 
 export default async function HomePage() {
+  const locale = getLocaleFromCookie()
+  const messages = await getMessages(locale)
+  const t = (section: string, key: string) => (messages as Record<string, Record<string, string>>)?.[section]?.[key] ?? key
+
   const articles = await getLatestArticles(4)
   const allArticles = getAllArticles()
   const totalArticles = allArticles.length
@@ -32,93 +36,66 @@ export default async function HomePage() {
     count: allArticles.filter((a) => a.category === name).length,
   }))
 
-  // Format today's date in Portuguese
-  const todayLabel = new Date().toLocaleDateString('pt-PT', {
-    weekday: 'long', day: 'numeric', month: 'long',
-  })
+  const dateLocale = locale === 'zh' ? 'zh-CN' : locale === 'pt' ? 'pt-PT' : locale === 'es' ? 'es-ES' : locale === 'fr' ? 'fr-FR' : locale === 'de' ? 'de-DE' : 'en-GB'
+  const todayLabel = new Date().toLocaleDateString(dateLocale, { weekday: 'long', day: 'numeric', month: 'long' })
+
+  const topicLocales: Record<string, { topics: string[]; tags: string[] }> = {
+    pt: { topics: ['5 km','10 km','Meia Maratona','Maratona','Trail Running','Ultra Trail','Corrida Montanha','Meio Fundo'], tags: ['Velocidade','Resistência','21 km','42 km','Montanha','> 60 km','Vertical','Pista'] },
+    en: { topics: ['5 km','10 km','Half Marathon','Marathon','Trail Running','Ultra Trail','Mountain Running','Middle Distance'], tags: ['Speed','Endurance','21 km','42 km','Mountain','> 60 km','Vertical','Track'] },
+    es: { topics: ['5 km','10 km','Media Maratón','Maratón','Trail Running','Ultra Trail','Carrera Montaña','Medio Fondo'], tags: ['Velocidad','Resistencia','21 km','42 km','Montaña','> 60 km','Vertical','Pista'] },
+    fr: { topics: ['5 km','10 km','Semi-Marathon','Marathon','Trail Running','Ultra Trail','Course Montagne','Demi-Fond'], tags: ['Vitesse','Endurance','21 km','42 km','Montagne','> 60 km','Vertical','Piste'] },
+    de: { topics: ['5 km','10 km','Halbmarathon','Marathon','Trail Running','Ultra Trail','Berglauf','Mittelstrecke'], tags: ['Geschwindigkeit','Ausdauer','21 km','42 km','Berg','> 60 km','Vertikal','Bahn'] },
+    zh: { topics: ['5公里','10公里','半程马拉松','马拉松','越野跑','超级越野','山地跑','中长跑'], tags: ['速度','耐力','21公里','42公里','山地','> 60公里','垂直','田径'] },
+  }
+  const tl = topicLocales[locale] ?? topicLocales['en']
+  const topics = tl.topics.map((name, i) => ({ name, tag: tl.tags[i], num: String(i + 1).padStart(2, '0'), img: topicImages[i] }))
 
   return (
     <>
-      {/* ─────────────────────────────────── HERO ── */}
-      <section
-        className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-        style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=85)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center 30%',
-        }}
-      >
-        {/* Overlays */}
+      {/* HERO */}
+      <section className="relative min-h-screen flex flex-col justify-center overflow-hidden"
+        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-
-        {/* Green ambient glow */}
         <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
-
-        {/* Vertical line accent */}
         <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-brand-green/25 to-transparent hidden lg:block" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-28 pb-24 w-full">
-
-          {/* Live badge */}
           <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-brand-green/20 bg-brand-green/8 mb-10 animate-fade-up">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse-dot" />
             <span className="text-brand-green text-[10px] font-mono font-bold tracking-[0.2em] uppercase">
-              Atualizado hoje · {totalArticles} artigos publicados
+              {t('hp', 'badge_updated').replace('{n}', String(totalArticles))}
             </span>
           </div>
 
-          {/* Display headline — Barlow Condensed Italic */}
           <h1 className="font-display text-white mb-8 animate-fade-up delay-100" style={{ opacity: 0 }}>
-            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none">
-              CORRE COM
-            </span>
-            <span
-              className="block text-[clamp(3rem,10vw,8.5rem)] leading-none"
-              style={{ WebkitTextStroke: '1px #00C896', color: 'transparent' }}
-            >
-              CIÊNCIA.
-            </span>
-            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none text-brand-green">
-              NÃO COM ACHISMOS.
-            </span>
+            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none">{t('hp', 'headline1')}</span>
+            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none" style={{ WebkitTextStroke: '1px #00C896', color: 'transparent' }}>{t('hp', 'headline2')}</span>
+            <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none text-brand-green">{t('hp', 'headline3')}</span>
           </h1>
 
           <p className="text-white/50 text-base sm:text-lg leading-relaxed max-w-lg mb-10 animate-fade-up delay-200" style={{ opacity: 0 }}>
-            Todos os dias publicamos 3 novos artigos baseados em investigação científica real.
-            Fisiologia, biomecânica, nutrição e treino — escritos para corredores, não para académicos.
-            Gratuito. Para sempre.
+            {t('hp', 'subtitle')}
           </p>
 
           <div className="flex flex-wrap items-center gap-4 animate-fade-up delay-300" style={{ opacity: 0 }}>
-            <Link
-              href="/blog"
-              className="group inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3"
-            >
-              Ler os artigos de hoje
-              <ArrowRight size={15} />
+            <Link href="/blog" className="group inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3">
+              {t('hp', 'cta_today')} <ArrowRight size={15} />
             </Link>
-            <Link
-              href="/modalidades"
-              className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all"
-            >
-              Metodologias de Treino
+            <Link href="/modalidades" className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all">
+              {t('hp', 'cta_methodologies')}
             </Link>
           </div>
 
-          {/* Stats — large Barlow Condensed numbers */}
           <div className="mt-20 pt-8 border-t border-white/5 grid grid-cols-2 sm:grid-cols-4 gap-8 animate-fade-up delay-400" style={{ opacity: 0 }}>
             {[
-              { value: `${totalArticles}`, label: 'Artigos' },
-              { value: '3/dia', label: 'Publicação' },
-              { value: '9', label: 'Categorias' },
-              { value: '100%', label: 'Gratuito' },
+              { value: `${totalArticles}`, label: t('hp', 'stat_articles') },
+              { value: '3/dia', label: t('hp', 'stat_publish') },
+              { value: '9', label: t('hp', 'stat_categories') },
+              { value: '100%', label: t('hp', 'stat_free') },
             ].map((s) => (
               <div key={s.label}>
-                <div className="font-display text-brand-green leading-none mb-1"
-                     style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}>
-                  {s.value}
-                </div>
+                <div className="font-display text-brand-green leading-none mb-1" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}>{s.value}</div>
                 <div className="text-[10px] text-white/35 uppercase tracking-[0.15em] font-mono">{s.label}</div>
               </div>
             ))}
@@ -126,76 +103,37 @@ export default async function HomePage() {
         </div>
       </section>
 
-{/* ─────────────────────── PUBLICADOS HOJE ── */}
+      {/* PUBLICADOS HOJE */}
       {todayArticles.length > 0 && (
-        <section
-          className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center 40%',
-          }}
-        >
+        <section className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center 40%' }}>
           <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/80" />
           <div className="absolute inset-0 bg-brand-green/[0.025]" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-            {/* Header */}
             <div className="flex items-center justify-between mb-10" data-reveal>
               <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-green/10 border border-brand-green/20">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse-dot" />
                   <Zap size={10} className="text-brand-green" />
-                  <span className="text-brand-green text-[10px] font-mono font-bold tracking-[0.2em] uppercase">
-                    Hoje
-                  </span>
                 </div>
                 <div>
-                  <h2 className="font-display text-white leading-none"
-                      style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
-                    PUBLICADOS HOJE
-                  </h2>
+                  <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>{t('hp', 'today_section')}</h2>
                   <p className="text-white/30 text-[11px] font-mono mt-0.5 capitalize">{todayLabel}</p>
                 </div>
               </div>
-              <span className="hidden sm:block text-[10px] font-mono text-white/20 uppercase tracking-widest">
-                {todayArticles.length} {todayArticles.length === 1 ? 'artigo' : 'artigos'}
-              </span>
             </div>
-
-            {/* Articles list */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {todayArticles.map((article, i) => (
-                <Link
-                  key={article.slug}
-                  href={`/blog/${article.slug}`}
-                  data-reveal
-                  data-delay={String(i * 80)}
-                  className="group relative flex flex-col gap-3 p-5 rounded-2xl border border-white/[0.06] bg-white/[0.015] hover:border-brand-green/25 hover:bg-brand-green/[0.04] transition-all"
-                >
-                  {/* Category + read time */}
+                <Link key={article.slug} href={`/blog/${article.slug}`} data-reveal data-delay={String(i * 80)}
+                  className="group relative flex flex-col gap-3 p-5 rounded-2xl border border-white/[0.06] bg-white/[0.015] hover:border-brand-green/25 hover:bg-brand-green/[0.04] transition-all">
                   <div className="flex items-center justify-between">
-                    <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/20 bg-brand-green/8">
-                      {article.category}
-                    </span>
-                    <span className="text-[10px] font-mono text-white/20">
-                      {article.readTime} min
-                    </span>
+                    <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/20 bg-brand-green/8">{article.category}</span>
+                    <span className="text-[10px] font-mono text-white/20">{article.readTime} min</span>
                   </div>
-
-                  {/* Title */}
-                  <h3 className="text-sm font-black text-white/85 group-hover:text-white transition-colors leading-snug line-clamp-2">
-                    {article.title}
-                  </h3>
-
-                  {/* Excerpt */}
-                  <p className="text-[12px] text-white/35 leading-relaxed line-clamp-2 flex-1">
-                    {article.excerpt}
-                  </p>
-
-                  {/* CTA */}
+                  <h3 className="text-sm font-black text-white/85 group-hover:text-white transition-colors leading-snug line-clamp-2">{article.title}</h3>
+                  <p className="text-[12px] text-white/35 leading-relaxed line-clamp-2 flex-1">{article.excerpt}</p>
                   <div className="flex items-center gap-1 text-[10px] font-bold text-white/25 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
-                    Ler artigo <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
+                    {t('hp', 'read_article')} <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>
               ))}
@@ -204,106 +142,57 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* ─────────────────────── ÚLTIMOS ARTIGOS ── */}
+      {/* ÚLTIMOS ARTIGOS */}
       {articles.length > 0 && (
-        <section
-          className="relative py-24 sm:py-32 overflow-hidden"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center 20%',
-            backgroundAttachment: 'scroll',
-          }}
-        >
+        <section className="relative py-24 sm:py-32 overflow-hidden"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center 20%', backgroundAttachment: 'scroll' }}>
           <div className="absolute inset-0 bg-gradient-to-b from-black/98 via-black/93 to-black/98" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-            {/* Section header */}
             <div className="flex items-end justify-between mb-12" data-reveal>
               <div>
-                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">
-                  Publicados Recentemente
-                </p>
-                <h2 className="font-display text-white leading-none"
-                    style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>
-                  ÚLTIMOS ARTIGOS
-                </h2>
+                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'recent_label')}</p>
+                <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>{t('hp', 'recent_section')}</h2>
               </div>
-              <Link
-                href="/blog"
-                className="hidden sm:inline-flex items-center gap-1.5 text-[10px] font-bold text-white/35 hover:text-brand-green transition-colors uppercase tracking-widest"
-              >
-                Ver arquivo <ArrowUpRight size={12} />
+              <Link href="/blog" className="hidden sm:inline-flex items-center gap-1.5 text-[10px] font-bold text-white/35 hover:text-brand-green transition-colors uppercase tracking-widest">
+                {t('hp', 'see_archive')} <ArrowUpRight size={12} />
               </Link>
             </div>
 
-            {/* Editorial layout: featured left + 2 stacked right */}
             {featured && (
               <div className="grid lg:grid-cols-[3fr_2fr] gap-4 mb-4">
-                {/* Featured card */}
-                <div data-reveal>
-                  <ArticleCard article={featured} featured />
-                </div>
-
-                {/* 2 smaller cards */}
+                <div data-reveal><ArticleCard article={featured} featured /></div>
                 <div className="flex flex-col gap-4">
                   {sideArticles.map((a, i) => (
-                    <div key={a.slug} data-reveal data-delay={String((i + 1) * 100)}>
-                      <ArticleCard article={a} />
-                    </div>
+                    <div key={a.slug} data-reveal data-delay={String((i + 1) * 100)}><ArticleCard article={a} /></div>
                   ))}
                 </div>
               </div>
             )}
 
-            {/* 4th article if exists */}
-            {articles[3] && (
-              <div className="mt-4" data-reveal>
-                <ArticleCard article={articles[3]} />
-              </div>
-            )}
+            {articles[3] && (<div className="mt-4" data-reveal><ArticleCard article={articles[3]} /></div>)}
 
             <div className="mt-10 text-center" data-reveal>
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-2 px-8 py-3.5 border border-white/10 text-white/55 text-sm font-bold rounded-full hover:border-brand-green/40 hover:text-white transition-all"
-              >
-                Ver todos os {totalArticles} artigos <ArrowRight size={14} />
+              <Link href="/blog" className="inline-flex items-center gap-2 px-8 py-3.5 border border-white/10 text-white/55 text-sm font-bold rounded-full hover:border-brand-green/40 hover:text-white transition-all">
+                {t('hp', 'see_all').replace('{n}', String(totalArticles))} <ArrowRight size={14} />
               </Link>
             </div>
           </div>
         </section>
       )}
 
-      {/* ──────────────────── CATEGORIAS GRID ── */}
-      <section
-        className="relative py-20 border-t border-white/5 overflow-hidden"
-        style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1920&q=80)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      {/* CATEGORIAS */}
+      <section className="relative py-20 border-t border-white/5 overflow-hidden"
+        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-black/96 via-black/90 to-black/95" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
           <div className="mb-10" data-reveal>
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">Temas</p>
-            <h2 className="font-display text-white leading-none"
-                style={{ fontSize: 'clamp(2rem, 5vw, 4rem)' }}>
-              EXPLORA POR CATEGORIA
-            </h2>
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'categories_label')}</p>
+            <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2rem, 5vw, 4rem)' }}>{t('hp', 'categories_section')}</h2>
           </div>
-
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
             {categories.map((c, i) => (
-              <Link
-                key={c.name}
-                href={`/blog?category=${encodeURIComponent(c.name)}`}
-                data-reveal
-                data-delay={String(Math.min(i * 50, 400))}
-                className="group relative flex items-center justify-between p-4 rounded-xl border border-white/5 hover:border-brand-green/25 bg-white/[0.015] hover:bg-brand-green/5 transition-all"
-              >
+              <Link key={c.name} href={`/blog?category=${encodeURIComponent(c.name)}`} data-reveal data-delay={String(Math.min(i * 50, 400))}
+                className="group relative flex items-center justify-between p-4 rounded-xl border border-white/5 hover:border-brand-green/25 bg-white/[0.015] hover:bg-brand-green/5 transition-all">
                 <span className="text-sm font-bold text-white/65 group-hover:text-white transition-colors">{c.name}</span>
                 <span className="text-xs font-mono text-white/20 group-hover:text-brand-green transition-colors">{c.count}</span>
               </Link>
@@ -312,58 +201,35 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ─────────────────────── MODALIDADES ── */}
+      {/* MODALIDADES */}
       <section className="py-24 sm:py-32 bg-[#0a0a0a] border-t border-white/5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
           <div className="flex items-end justify-between mb-12" data-reveal>
             <div>
-              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">Metodologias</p>
-              <h2 className="font-display text-white leading-none"
-                  style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>
-                CADA DISTÂNCIA.<br />
-                <span className="text-white/25">CADA SEGREDO.</span>
+              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'methods_label')}</p>
+              <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>
+                {t('hp', 'methods_section')}<br />
+                <span className="text-white/25">{t('hp', 'methods_sub')}</span>
               </h2>
             </div>
             <Link href="/metodologias" className="hidden sm:inline-flex items-center gap-1.5 text-[10px] font-bold text-white/35 hover:text-brand-green transition-colors uppercase tracking-widest">
-              Ver todas <ArrowUpRight size={12} />
+              {t('hp', 'see_all_methods')} <ArrowUpRight size={12} />
             </Link>
           </div>
-
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {topics.map((m, i) => (
-              <Link
-                key={m.name}
-                href="/metodologias"
-                data-reveal
-                data-delay={String(Math.min(i * 50, 400))}
-                className="group relative rounded-2xl overflow-hidden border border-white/5 hover:border-white/15 transition-all card-hover"
-                style={{ aspectRatio: '3/4' }}
-              >
-                {/* Photo */}
-                <div
-                  className="absolute inset-0 photo-card-img"
-                  style={{
-                    backgroundImage: `url(${m.img})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                  }}
-                />
+              <Link key={m.name} href="/metodologias" data-reveal data-delay={String(Math.min(i * 50, 400))}
+                className="group relative rounded-2xl overflow-hidden border border-white/5 hover:border-white/15 transition-all card-hover" style={{ aspectRatio: '3/4' }}>
+                <div className="absolute inset-0 photo-card-img" style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
                 <div className="absolute inset-0 bg-brand-green/0 group-hover:bg-brand-green/8 transition-colors duration-500" />
-
                 <div className="absolute inset-0 p-4 flex flex-col justify-between">
                   <div className="flex items-start justify-between">
                     <span className="text-[9px] font-mono text-white/30">{m.num}</span>
-                    <ArrowUpRight
-                      size={14}
-                      className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                    />
+                    <ArrowUpRight size={14} className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </div>
                   <div>
-                    <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">
-                      {m.tag}
-                    </span>
+                    <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">{m.tag}</span>
                     <h3 className="text-sm font-black text-white leading-tight mt-1">{m.name}</h3>
                   </div>
                 </div>
@@ -373,57 +239,34 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ─────────────────────────────── NEWSLETTER ── */}
+      {/* NEWSLETTER */}
       <section className="py-24 sm:py-32 border-t border-white/5 bg-[#0a0a0a]">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <NewsletterSignup variant="hero" />
         </div>
       </section>
 
-      {/* ─────────────────────────────── CTA ── */}
+      {/* CTA FINAL */}
       <section className="py-24 sm:py-32 border-t border-white/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div
-            className="relative rounded-3xl overflow-hidden border border-white/5 p-10 sm:p-16 lg:p-20"
-            style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1600&q=80)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }}
-            data-reveal
-          >
-            {/* Overlay */}
+          <div className="relative rounded-3xl overflow-hidden border border-white/5 p-10 sm:p-16 lg:p-20"
+            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+            data-reveal>
             <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-black/88 to-black/85" />
-            {/* Green glow */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[80px] pointer-events-none" />
-
             <div className="relative text-center">
-              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-6">
-                Arquivo Completo
-              </p>
-              <h2
-                className="font-display text-white leading-none mb-6"
-                style={{ fontSize: 'clamp(3rem, 8vw, 7rem)' }}
-              >
-                {totalArticles} ARTIGOS.<br />
-                <span className="text-brand-green">TODOS GRÁTIS.</span>
+              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-6">{t('hp', 'cta_label')}</p>
+              <h2 className="font-display text-white leading-none mb-6" style={{ fontSize: 'clamp(3rem, 8vw, 7rem)' }}>
+                {totalArticles} {t('hp', 'stat_articles').toUpperCase()}.<br />
+                <span className="text-brand-green">{t('hp', 'cta_section_free')}</span>
               </h2>
-              <p className="text-white/40 max-w-md mx-auto mb-10 text-sm leading-relaxed">
-                Treino, fisiologia, nutrição, biomecânica, recuperação e psicologia desportiva.
-                Tudo baseado em ciência. Tudo gratuito.
-              </p>
+              <p className="text-white/40 max-w-md mx-auto mb-10 text-sm leading-relaxed">{t('hp', 'cta_desc')}</p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link
-                  href="/blog"
-                  className="inline-flex items-center gap-2 px-9 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3"
-                >
-                  Aceder ao Arquivo <ArrowRight size={15} />
+                <Link href="/blog" className="inline-flex items-center gap-2 px-9 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3">
+                  {t('hp', 'cta_access')} <ArrowRight size={15} />
                 </Link>
-                <Link
-                  href="/consulta"
-                  className="inline-flex items-center gap-2 px-9 py-4 border border-white/15 text-white text-sm font-black rounded-full hover:border-brand-green hover:text-brand-green transition-all"
-                >
-                  Pedir consulta gratuita <ArrowRight size={15} />
+                <Link href="/consulta" className="inline-flex items-center gap-2 px-9 py-4 border border-white/15 text-white text-sm font-black rounded-full hover:border-brand-green hover:text-brand-green transition-all">
+                  {t('hp', 'cta_consult')} <ArrowRight size={15} />
                 </Link>
               </div>
             </div>
