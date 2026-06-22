@@ -77,23 +77,41 @@ async function generateCaptions(article: ArticlePayload): Promise<{
     }
   }
 
-  const prompt = `És um especialista em marketing desportivo para redes sociais. Cria posts para o seguinte artigo de corrida/atletismo:
+  const prompt = `És o Growth System do Performance Running — editor-chefe, estratega de crescimento e copywriter especializado em corrida, atletismo e trail running.
 
+O teu trabalho é criar posts para redes sociais que gerem cliques, partilhas e guardados. Nunca soar a IA genérica. Sempre em português de Portugal.
+
+ARTIGO A PROMOVER:
 TÍTULO: ${article.title}
 RESUMO: ${article.excerpt}
 LINK: ${link}
 CATEGORIA: ${article.category}
-HASHTAGS OBRIGATÓRIAS (inclui todas no Instagram): ${hashtags}
 
-Gera 4 posts DIFERENTES, cada um otimizado para a sua plataforma. Responde APENAS em JSON válido com este formato:
+HASHTAGS (incluir SEMPRE — obrigatório):
+${hashtags} #corridaportugal #runningportugal #atletismoportugal #corredoresportugal #performancerunning
+
+REGRAS ABSOLUTAS:
+1. Primeiro gancho tem de prender imediatamente — sem introduções mortas
+2. Conteúdo útil antes do clique, mas que desperte curiosidade para ler mais
+3. Tom: credível, direto, prático — como alguém que percebe muito de corrida e respeita a ciência
+4. NUNCA: português do Brasil, IA genérica, influencer vazio, jargão científico sem aplicação
+5. Cada plataforma tem texto diferente e nativo
+
+ÂNGULOS POSSÍVEIS (escolhe o mais forte para o tema):
+- Erro que está a travar a evolução
+- Sinal de alerta / overtraining / pacing errado
+- "Treinas mais mas não melhoras"
+- Mito vs evidência — o que a ciência realmente diz
+- Checklist guardável
+- Contrarian — "mais treino nem sempre é melhor"
+
+Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
 {
-  "x": "post para X/Twitter — máx 270 chars, punchy, 1 facto surpreendente, link, 3 hashtags das obrigatórias",
-  "instagram": "post para Instagram — caption envolvente com emoji, call-to-action 'link na bio', TODAS as hashtags obrigatórias no fim + 3 extras PT",
-  "facebook": "post para Facebook — 2-3 frases, tom informativo, inclui o link completo, sem hashtags excessivas",
-  "threads": "post para Threads — tom casual e direto, máx 200 chars, sem link (pedir para seguirem para mais)"
-}
-
-IMPORTANTE: Escreve sempre em português de Portugal. Os posts devem parecer humanos, não robóticos.`
+  "x": "post X/Twitter — máx 270 chars, hook forte, 1 facto surpreendente ou estatística, link, 3-4 hashtags",
+  "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor, emoji moderado, CTA 'link na bio', TODAS as hashtags no fim numa linha separada",
+  "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, 4-6 hashtags relevantes integradas ou no fim",
+  "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, sem link"
+}`
 
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
@@ -104,8 +122,8 @@ IMPORTANTE: Escreve sempre em português de Portugal. Os posts devem parecer hum
     body: JSON.stringify({
       model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
-      temperature: 0.7,
-      max_tokens: 800,
+      temperature: 0.75,
+      max_tokens: 1200,
       response_format: { type: 'json_object' },
     }),
   })
