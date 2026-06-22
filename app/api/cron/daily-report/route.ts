@@ -57,8 +57,10 @@ async function getGoogleAccessToken(): Promise<string | null> {
     )
 
     const sigBuffer = await crypto.subtle.sign('RSASSA-PKCS1-v1_5', cryptoKey, new TextEncoder().encode(signing))
-    const sig = btoa(String.fromCharCode(...new Uint8Array(sigBuffer)))
-      .replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_')
+    const sigBytes = new Uint8Array(sigBuffer)
+    let sigStr = ''
+    for (let i = 0; i < sigBytes.length; i++) sigStr += String.fromCharCode(sigBytes[i])
+    const sig = btoa(sigStr).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_')
 
     const jwt = `${signing}.${sig}`
 
