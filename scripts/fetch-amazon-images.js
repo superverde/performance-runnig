@@ -1,80 +1,98 @@
 /**
  * fetch-amazon-images.js
- * ─────────────────────
- * Sempre que adicionares um novo produto à página /equipamento,
- * adiciona-o ao array PRODUTOS abaixo e corre:
+ * ──────────────────────
+ * PROCESSO OBRIGATÓRIO ao adicionar um produto novo à página /equipamento:
  *
- *   node scripts/fetch-amazon-images.js
+ *   1. Adiciona o produto ao array PRODUTOS abaixo
+ *   2. Corre: node scripts/fetch-amazon-images.js
+ *   3. Verifica que o TÍTULO impresso corresponde ao produto correto
+ *   4. Só depois copia o URL de imagem para o page.tsx
  *
- * O script imprime o URL da imagem real da Amazon para cada produto.
- * Cola o URL no campo `img:` do produto em app/equipamento/page.tsx.
+ * ⚠️  NUNCA uses a imagem sem confirmar o título — a pesquisa pode retornar
+ *     produtos de outras marcas com nomes parecidos.
+ *
+ * PRODUTOS ATUALMENTE NA PÁGINA (imagens confirmadas — não alterar sem reverificar):
+ * ──────────────────────────────────────────────────────────────────────────────────
+ * HOKA Clifton 9         51M3xzUi6qL  ✅ confirmado
+ * On Cloudmonster 2      71BIO86CufL  ✅ confirmado
+ * Salomon Speedcross 6   71vRj0oHa1L  ✅ confirmado
+ * Nike Vaporfly 3        714NpSlEF-L  ✅ confirmado
+ * Garmin Forerunner 265  71rp-pRCpRL  ✅ confirmado
+ * Garmin Forerunner 955  51UPjlUVQBL  ✅ confirmado
+ * Polar H10              71BEqJ5XfKL  ✅ confirmado
+ * Polar Verity Sense     81Fh813r3vL  ✅ confirmado
+ * Polar Pacer Pro        71ZHVSNV+LL  ✅ confirmado
+ * SiS Beta Fuel Gel      51Fm2ion7tL  ✅ confirmado
+ * Maurten Gel 100        710vQKAUK4L  ✅ confirmado (via Amazon.co.uk)
+ * SiS Go Electrolyte     51MbTHkesML  ✅ confirmado
+ * GU Energy Gel          61vYkvVMeTL  ✅ confirmado
+ * High5 Zero Electrolyte 71h2CgX35JL  ✅ confirmado
+ * Optimum Nutrition Whey 71UJkg2rO2L  ✅ confirmado
+ * Coros Pace 3           61HE8zhwT7L  ✅ confirmado
+ * Compressport Socks     71MaXjnAbtL  ✅ confirmado
+ * Nathan SpeedDraw Plus  61VtZS9Jw0L  ✅ confirmado
+ * Salomon Active Skin 8  81+6ITtBijL  ✅ confirmado
  */
 
-const PRODUTOS = [
-  // Sapatos
-  { nome: 'HOKA Clifton 9',        q: 'hoka+clifton+9' },
-  { nome: 'On Cloudmonster 2',     q: 'on+cloudmonster+2+running' },
-  { nome: 'Salomon Speedcross 6',  q: 'salomon+speedcross+6' },
-  { nome: 'Nike Vaporfly 3',       q: 'nike+vaporfly+3' },
-  // Relógios
-  { nome: 'Garmin Forerunner 265', q: 'garmin+forerunner+265' },
-  { nome: 'Garmin Forerunner 955', q: 'garmin+forerunner+955' },
-  // Sensores FC
-  { nome: 'Polar H10',             q: 'polar+h10+monitor+cardiaco' },
-  { nome: 'Polar Verity Sense',    q: 'polar+verity+sense' },
-  { nome: 'Polar Pacer Pro',       q: 'polar+pacer+pro' },
-  // Nutrição
-  { nome: 'SiS Beta Fuel Gel',     q: 'sis+beta+fuel+gel' },
-  { nome: 'Maurten Gel 100',       q: 'maurten+gel+100' },
-  { nome: 'SiS Go Electrolyte',    q: 'sis+go+electrolyte+powder' },
-  { nome: 'GU Energy Gel',         q: 'gu+energy+gel+running' },
-  { nome: 'High5 Zero Electrolyte',q: 'high5+zero+electrolyte+tablets' },
-  { nome: 'Whey Proteína Isolada', q: 'whey+protein+isolate+running+recovery' },
-  // Acessórios
-  { nome: 'Coros Pace 3',          q: 'coros+pace+3' },
-  { nome: 'Craft ADV Endurance',   q: 'craft+running+socks' },
-  { nome: 'Nathan SpeedDraw Plus', q: 'nathan+speeddraw+handheld' },
-  { nome: 'Salomon Active Skin 8', q: 'salomon+active+skin+8' },
-
-  // ── ADICIONA NOVOS PRODUTOS AQUI ──────────────────────────────────
-  // { nome: 'Nome do Produto', q: 'nome+do+produto+amazon' },
-  // ──────────────────────────────────────────────────────────────────
+// ── ADICIONA NOVOS PRODUTOS AQUI ──────────────────────────────────────────────
+const NOVOS_PRODUTOS = [
+  // { nome: 'Nome do Produto', q: 'pesquisa+amazon+especifica', marketplace: 'es' },
+  // Exemplos:
+  // { nome: 'Hoka Mach 6', q: 'hoka+mach+6+running+shoe', marketplace: 'es' },
+  // { nome: 'Garmin Forerunner 165', q: 'garmin+forerunner+165+gps+running', marketplace: 'es' },
 ]
+// ─────────────────────────────────────────────────────────────────────────────
 
-async function fetchAmazonImage(q) {
-  const url = `https://www.amazon.es/s?k=${q}`
+async function fetchAmazonImage(q, marketplace = 'es') {
+  const url = `https://www.amazon.${marketplace}/s?k=${q}`
   const res = await fetch(url, {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
       'Accept-Language': 'pt-PT,pt;q=0.9',
-      'Accept': 'text/html',
+      Accept: 'text/html',
     },
   })
   const html = await res.text()
-  const match = html.match(/s-image[^>]+src="(https:\/\/m\.media-amazon\.com\/images\/I\/[^"]+)"/)
-  if (!match) return null
-  // Usa tamanho 600px — bom equilíbrio qualidade/velocidade
-  return match[1].replace(/_AC_UL\d+_/, '_AC_UL600_')
+
+  // Extrair os primeiros 3 resultados com título + imagem
+  const titleRe = /class="a-size-medium[^>]*>([^<]{5,100})</g
+  const imgRe = /s-image[^>]+src="(https:\/\/m\.media-amazon\.com\/images\/I\/[^"]+)"/g
+
+  const titles = [...html.matchAll(titleRe)].map(m => m[1].trim()).slice(0, 3)
+  const imgs = [...html.matchAll(imgRe)].map(m => m[1].replace(/_AC_UL\d+_/, '_AC_UL600_')).slice(0, 3)
+
+  return imgs.map((img, i) => ({ title: titles[i] ?? '(título não lido)', img }))
 }
 
 async function main() {
-  console.log('\n📦 A buscar imagens reais da Amazon...\n')
-  for (const p of PRODUTOS) {
+  if (NOVOS_PRODUTOS.length === 0) {
+    console.log('\n✅ Nenhum produto novo para verificar.')
+    console.log('   Adiciona produtos ao array NOVOS_PRODUTOS e corre novamente.\n')
+    return
+  }
+
+  console.log('\n🔍 A verificar imagens na Amazon...\n')
+
+  for (const p of NOVOS_PRODUTOS) {
+    console.log(`\n══ ${p.nome} ══`)
     try {
-      const img = await fetchAmazonImage(p.q)
-      if (img) {
-        console.log(`✅ ${p.nome}`)
-        console.log(`   img: '${img}',\n`)
-      } else {
-        console.log(`❌ ${p.nome} — imagem não encontrada. Tenta ajustar a query.\n`)
-      }
+      const results = await fetchAmazonImage(p.q, p.marketplace ?? 'es')
+      results.forEach((r, i) => {
+        console.log(`  [${i + 1}] Título: ${r.title}`)
+        console.log(`       img: '${r.img}',`)
+      })
+      console.log()
+      console.log('  ⚠️  Confirma que o título [1] corresponde ao produto antes de usar a imagem!')
     } catch (e) {
-      console.log(`💥 ${p.nome} — erro: ${e.message}\n`)
+      console.log(`  ❌ Erro: ${e.message}`)
+      console.log('  → Tenta com marketplace: "co.uk" ou "de"')
     }
-    // Pequena pausa para não sobrecarregar a Amazon
     await new Promise(r => setTimeout(r, 800))
   }
-  console.log('Concluído. Cola os URLs acima no app/equipamento/page.tsx.\n')
+
+  console.log('\n──────────────────────────────────────────────')
+  console.log('Feito. Copia o URL da imagem confirmada para app/equipamento/page.tsx')
+  console.log('e atualiza também a lista de produtos confirmados neste ficheiro.\n')
 }
 
 main()
