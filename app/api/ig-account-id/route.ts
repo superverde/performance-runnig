@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 /**
  * GET /api/ig-account-id?key=INTERNAL_API_KEY
- * Usa o token permanente do Vercel para buscar o Instagram Account ID
+ * Tenta múltiplos métodos para encontrar o Instagram Business Account ID
  * ligado à página Facebook do Performance Running.
  */
 export async function GET(req: NextRequest) {
@@ -18,34 +18,70 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'META_PAGE_ACCESS_TOKEN não configurado' }, { status: 500 })
   }
 
+  const results: Record<string, unknown> = {}
+
+  // Método 1: instagram_business_account (requer instagram_basic)
   try {
-    const res = await fetch(
+    const r1 = await fetch(
       `https://graph.facebook.com/v25.0/${pageId}?fields=instagram_business_account,name&access_token=${pageToken}`
     )
-    const data = await res.json()
-
-    if (data.error) {
-      return NextResponse.json({ error: data.error }, { status: 400 })
-    }
-
-    const igId = data.instagram_business_account?.id
-
-    if (!igId) {
+    const d1 = await r1.json()
+    results.method1_instagram_business_account = d1
+    if (d1.instagram_business_account?.id) {
       return NextResponse.json({
-        page_name: data.name,
-        instagram_business_account: null,
-        note: 'Nenhuma conta Instagram Business ligada a esta página. Vai a business.facebook.com → Definições → Instagram e liga a conta.',
+        success: true,
+        method: 'instagram_business_account',
+        ig_account_id: d1.instagram_business_account.id,
+        page_name: d1.name,
+        note: 'Copia ig_account_id para META_IG_ACCOUNT_ID no Vercel.',
       })
     }
-
-    return NextResponse.json({
-      success: true,
-      page_name: data.name,
-      page_id: pageId,
-      ig_account_id: igId,
-      note: 'Copia ig_account_id para META_IG_ACCOUNT_ID no Vercel.',
-    })
-  } catch (err) {
-    return NextResponse.json({ error: String(err) }, { status: 500 })
+  } catch (e) {
+    results.method1_error = String(e)
   }
+
+  // Método 2: /page/instagram_accounts
+  try {
+    const r2 = await fetch(
+      `https://graph.facebook.com/v25.0/${pageId}/instagram_accounts?access_token=${pageToken}`
+    )
+    const d2 = await r2.json()
+    results.method2_instagram_accounts = d2
+    if (d2.data?.[0]?.id) {
+      return NextResponse.json({
+        success: true,
+        method: 'instagram_accounts',
+        ig_account_id: d2.data[0].id,
+        note: 'Copia ig_account_id para META_IG_ACCOUNT_ID no Vercel.',
+      })
+    }
+  } catch (e) {
+    results.method2_error = String(e)
+  }
+
+  // Método 3: /page/connected_instagram_account
+  try {
+    const r3 = await fetch(
+      `https://graph.facebook.com/v25.0/${pageId}?fields=connected_instagram_account&access_token=${pageToken}`
+    )
+    const d3 = await r3.json()
+    results.method3_connected_instagram = d3
+    if (d3.connected_instagram_account?.id) {
+      return NextResponse.json({
+        success: true,
+        method: 'connected_instagram_account',
+        ig_account_id: d3.connected_instagram_account.id,
+        note: 'Copia ig_account_id para META_IG_ACCOUNT_ID no Vercel.',
+      })
+    }
+  } catch (e) {
+    results.method3_error = String(e)
+  }
+
+  // Nenhum método funcionou — o token não tem permissões Instagram
+  return NextResponse.json({
+    success: false,
+    all_results: results,
+    fix: 'O token não tem permissões Instagram. Gera um novo token em: https://developers.facebook.com/tools/explorer/ com permissões: pages_show_list, pages_manage_posts, pages_read_engagement, instagram_basic, instagram_content_publish — e chama /api/fb-exchange?user_token=NOVO_TOKEN para obter token permanente com Instagram.',
+  })
 }
