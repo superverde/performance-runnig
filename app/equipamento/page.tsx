@@ -2,6 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight, Star } from 'lucide-react'
 
+// Regenera a página no máximo de 12 em 12 horas (ISR)
+// Garante que a rotação de produtos de 2 em 2 dias é aplicada
+export const revalidate = 43200
+
 export const metadata: Metadata = {
   title: 'Equipamento de Corrida — Reviews e Recomendações',
   description:
@@ -20,6 +24,23 @@ export const metadata: Metadata = {
 }
 
 const SITE_URL = 'https://www.performancerunning.pt'
+
+/** Converte um link de afiliado num URL de tracking interno */
+function trackedLink(productName: string, affiliateUrl: string): string {
+  const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+  return `/api/track-click?product=${encodeURIComponent(slug)}&url=${encodeURIComponent(affiliateUrl)}`
+}
+
+/**
+ * Roda o array de forma determinística a cada 2 dias.
+ * Garante que os visitantes veem sempre produtos diferentes em destaque.
+ */
+function rotateEvery2Days<T>(arr: T[]): T[] {
+  if (arr.length === 0) return arr
+  const bucket = Math.floor(Date.now() / (2 * 24 * 60 * 60 * 1000))
+  const offset = bucket % arr.length
+  return [...arr.slice(offset), ...arr.slice(0, offset)]
+}
 
 /* ── DADOS DE REVIEWS ─────────────────────────────────────────────── */
 const sapatos = [
@@ -301,6 +322,13 @@ function Stars({ n }: { n: number }) {
 }
 
 export default function EquipamentoPage() {
+  // Rotação de 2 em 2 dias: o produto em destaque (primeiro) muda automaticamente
+  const sapatos_r = rotateEvery2Days(sapatos)
+  const relogios_r = rotateEvery2Days(relogios)
+  const sensoresFc_r = rotateEvery2Days(sensoresFc)
+  const nutricao_r = rotateEvery2Days(nutricao)
+  const acessorios_r = rotateEvery2Days(acessorios)
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -358,7 +386,7 @@ export default function EquipamentoPage() {
             <p className="text-white/40 text-sm mt-1">Testados em estrada, pista e trilho. Avaliação independente.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {sapatos.map((s) => (
+            {sapatos_r.map((s) => (
               <article
                 key={s.name}
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
@@ -418,7 +446,7 @@ export default function EquipamentoPage() {
                     </div>
                   </div>
                   <a
-                    href={s.link}
+                    href={trackedLink(s.name, s.link)}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2 rounded-lg hover:bg-white transition-colors"
@@ -439,7 +467,7 @@ export default function EquipamentoPage() {
             <p className="text-white/40 text-sm mt-1">A ferramenta mais importante de um corredor sério.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {relogios.map((r) => (
+            {relogios_r.map((r) => (
               <article
                 key={r.name}
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
@@ -493,7 +521,7 @@ export default function EquipamentoPage() {
                     </div>
                   </div>
                   <a
-                    href={r.link}
+                    href={trackedLink(r.name, r.link)}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2 rounded-lg hover:bg-white transition-colors"
@@ -516,7 +544,7 @@ export default function EquipamentoPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
-            {sensoresFc.map((s) => (
+            {sensoresFc_r.map((s) => (
               <article
                 key={s.name}
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
@@ -581,7 +609,7 @@ export default function EquipamentoPage() {
                   </div>
 
                   <a
-                    href={s.link}
+                    href={trackedLink(s.name, s.link)}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="mt-auto inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2.5 rounded-lg hover:bg-white transition-colors justify-center"
@@ -604,7 +632,7 @@ export default function EquipamentoPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
-            {nutricao.map((n) => (
+            {nutricao_r.map((n) => (
               <article
                 key={n.name}
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
@@ -669,7 +697,7 @@ export default function EquipamentoPage() {
                   </div>
 
                   <a
-                    href={n.link}
+                    href={trackedLink(n.name, n.link)}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="mt-auto inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2.5 rounded-lg hover:bg-white transition-colors justify-center"
@@ -690,7 +718,7 @@ export default function EquipamentoPage() {
             <p className="text-white/40 text-sm mt-1">O equipamento complementar que faz diferença.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {acessorios.map((a) => (
+            {acessorios_r.map((a) => (
               <article
                 key={a.name}
                 className="group border border-white/6 rounded-xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
@@ -709,7 +737,7 @@ export default function EquipamentoPage() {
                   <div className="flex items-center justify-between">
                     <span className="text-brand-green text-xs font-bold">{a.preco}</span>
                     <a
-                      href={a.link}
+                      href={trackedLink(a.name, a.link)}
                       target="_blank"
                       rel="noopener noreferrer nofollow"
                       className="inline-flex items-center gap-1 text-[10px] font-bold text-white/40 hover:text-brand-green transition-colors"
