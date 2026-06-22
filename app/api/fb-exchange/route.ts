@@ -65,13 +65,5 @@ export async function GET(req: NextRequest) {
       })
     }
 
-    // Nenhuma página encontrada — mostrar debug completo
-    return NextResponse.json({
-      error: 'Página não encontrada',
-      all_pages: allPages.map((p: { id: string; name: string }) => ({ id: p.id, name: p.name })),
-      raw_response: d1
-    }, { status: 404 })
-  } catch (err) {
-    return NextResponse.json({ error: String(err) }, { status: 500 })
-  }
-}
+    // Nenhuma página — verificar que permissões o token TEM mesmo
+    const 
