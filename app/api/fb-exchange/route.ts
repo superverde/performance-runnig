@@ -37,11 +37,23 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ step: 'me/accounts', error: d2.error }, { status: 400 })
     }
 
-    const page = d2.data?.find((p: { id: string }) => p.id === pageId)
+    // Debug: mostrar o que veio do /me/accounts
+    const rawPages = d2.data ?? []
+    const page = rawPages.find((p: { id: string }) => p.id === pageId)
+
     if (!page) {
+      // Tentar também com o token original (sem exchange)
+      const r3 = await fetch(`https://graph.facebook.com/me/accounts?access_token=${userToken}`)
+      const d3 = await r3.json()
+
       return NextResponse.json({
-        error: 'Página não encontrada',
-        pages: d2.data?.map((p: { id: string; name: string }) => ({ id: p.id, name: p.name }))
+        error: 'Página não encontrada em /me/accounts',
+        debug: {
+          long_lived_token_length: longLivedToken?.length,
+          long_lived_token_prefix: longLivedToken?.slice(0, 20),
+          pages_with_long_lived: rawPages.map((p: { id: string; name: string }) => ({ id: p.id, name: p.name })),
+          pages_with_original_token: d3.data?.map((p: { id: string; name: string }) => ({ id: p.id, name: p.name })) ?? d3,
+        }
       }, { status: 404 })
     }
 
