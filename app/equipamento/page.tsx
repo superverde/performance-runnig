@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight, Star } from 'lucide-react'
+import { Redis } from '@upstash/redis'
 
-// Regenera a página no máximo de 12 em 12 horas (ISR)
-// Garante que a rotação de produtos de 2 em 2 dias é aplicada
-export const revalidate = 43200
+// Regenera a cada 6 horas — garante que a ordenação por clicks fica atualizada
+export const revalidate = 21600
 
 export const metadata: Metadata = {
   title: 'Equipamento de Corrida — Reviews e Recomendações',
@@ -25,21 +25,29 @@ export const metadata: Metadata = {
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
+/** Slug idêntico ao usado no track-click — tem de ser consistente */
+function toSlug(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+}
+
 /** Converte um link de afiliado num URL de tracking interno */
 function trackedLink(productName: string, affiliateUrl: string): string {
-  const slug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-  return `/api/track-click?product=${encodeURIComponent(slug)}&url=${encodeURIComponent(affiliateUrl)}`
+  return `/api/track-click?product=${encodeURIComponent(toSlug(productName))}&url=${encodeURIComponent(affiliateUrl)}`
 }
 
 /**
- * Roda o array de forma determinística a cada 2 dias.
- * Garante que os visitantes veem sempre produtos diferentes em destaque.
+ * Ordena os produtos pelo número de clicks reais (mais clicado primeiro).
+ * Produtos sem clicks mantêm a ordem original entre si (sort estável).
  */
-function rotateEvery2Days<T>(arr: T[]): T[] {
-  if (arr.length === 0) return arr
-  const bucket = Math.floor(Date.now() / (2 * 24 * 60 * 60 * 1000))
-  const offset = bucket % arr.length
-  return [...arr.slice(offset), ...arr.slice(0, offset)]
+function sortByClicks<T extends { name: string }>(
+  arr: T[],
+  clicks: Record<string, number>
+): T[] {
+  return [...arr].sort((a, b) => {
+    const ca = clicks[toSlug(a.name)] ?? 0
+    const cb = clicks[toSlug(b.name)] ?? 0
+    return cb - ca // decrescente; empate → ordem original (sort estável)
+  })
 }
 
 /* ── DADOS DE REVIEWS ─────────────────────────────────────────────── */
@@ -321,13 +329,22 @@ function Stars({ n }: { n: number }) {
   )
 }
 
-export default function EquipamentoPage() {
-  // Rotação de 2 em 2 dias: o produto em destaque (primeiro) muda automaticamente
-  const sapatos_r = rotateEvery2Days(sapatos)
-  const relogios_r = rotateEvery2Days(relogios)
-  const sensoresFc_r = rotateEvery2Days(sensoresFc)
-  const nutricao_r = rotateEvery2Days(nutricao)
-  const acessorios_r = rotateEvery2Days(acessorios)
+export default async function EquipamentoPage() {
+  // Lê clicks totais do Redis — ordena produtos pelo que os utilizadores mais clicam
+  let clicks: Record<string, number> = {}
+  try {
+    const redis = Redis.fromEnv()
+    const raw = await redis.hgetall('clicks:total')
+    if (raw) clicks = raw as Record<string, number>
+  } catch {
+    // Redis indisponível → mantém ordem original sem quebrar a página
+  }
+
+  const sapatos_r = sortByClicks(sapatos, clicks)
+  const relogios_r = sortByClicks(relogios, clicks)
+  const sensoresFc_r = sortByClicks(sensoresFc, clicks)
+  const nutricao_r = sortByClicks(nutricao, clicks)
+  const acessorios_r = sortByClicks(acessorios, clicks)
 
   const jsonLd = {
     '@context': 'https://schema.org',
