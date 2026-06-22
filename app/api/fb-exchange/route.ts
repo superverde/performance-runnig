@@ -19,52 +19,51 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    // 1. Trocar user token curto por long-lived (60 dias)
-    const r1 = await fetch(
-      `https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=${appId}&client_secret=${appSecret}&fb_exchange_token=${userToken}`
-    )
+    // Passo 1: /me/accounts com o user token diretamente
+    const r1 = await fetch(`https://graph.facebook.com/me/accounts?access_token=${userToken}`)
     const d1 = await r1.json()
+
     if (d1.error) {
-      return NextResponse.json({ step: 'exchange', error: d1.error }, { status: 400 })
+      return NextResponse.json({ step: 'me/accounts direto', error: d1.error }, { status: 400 })
     }
 
-    const longLivedToken = d1.access_token
+    const allPages = d1.data ?? []
+    const page = allPages.find((p: { id: string }) => p.id === pageId)
 
-    // 2. Obter page token permanente via /me/accounts
-    const r2 = await fetch(`https://graph.facebook.com/me/accounts?access_token=${longLivedToken}`)
-    const d2 = await r2.json()
-    if (d2.error) {
-      return NextResponse.json({ step: 'me/accounts', error: d2.error }, { status: 400 })
-    }
-
-    // Debug: mostrar o que veio do /me/accounts
-    const rawPages = d2.data ?? []
-    const page = rawPages.find((p: { id: string }) => p.id === pageId)
-
-    if (!page) {
-      // Tentar também com o token original (sem exchange)
-      const r3 = await fetch(`https://graph.facebook.com/me/accounts?access_token=${userToken}`)
-      const d3 = await r3.json()
-
-      return NextResponse.json({
-        error: 'Página não encontrada em /me/accounts',
-        debug: {
-          long_lived_token_length: longLivedToken?.length,
-          long_lived_token_prefix: longLivedToken?.slice(0, 20),
-          pages_with_long_lived: rawPages.map((p: { id: string; name: string }) => ({ id: p.id, name: p.name })),
-          pages_with_original_token: d3.data?.map((p: { id: string; name: string }) => ({ id: p.id, name: p.name })) ?? d3,
+    if (page) {
+      // Temos o page token — tentar agora obter versão permanente via exchange
+      try {
+        const rx = await fetch(
+          `https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=${appId}&client_secret=${appSecret}&fb_exchange_token=${userToken}`
+        )
+        const dx = await rx.json()
+        if (!dx.error && dx.access_token) {
+          const ry = await fetch(`https://graph.facebook.com/me/accounts?access_token=${dx.access_token}`)
+          const dy = await ry.json()
+          const permanentPage = dy.data?.find((p: { id: string }) => p.id === pageId)
+          if (permanentPage) {
+            return NextResponse.json({
+              success: true,
+              type: 'permanent',
+              page_name: permanentPage.name,
+              page_id: permanentPage.id,
+              page_token: permanentPage.access_token,
+              note: 'Token permanente (nunca expira). Atualiza META_PAGE_ACCESS_TOKEN no Vercel.'
+            })
+          }
         }
-      }, { status: 404 })
+      } catch { /* fallback para token curto */ }
+
+      // Fallback: page token de curta duração (mas funciona para testar)
+      return NextResponse.json({
+        success: true,
+        type: 'short_lived',
+        page_name: page.name,
+        page_id: page.id,
+        page_token: page.access_token,
+        note: 'Token de curta duração (~1h). Atualiza META_PAGE_ACCESS_TOKEN no Vercel e testa o post.'
+      })
     }
 
-    return NextResponse.json({
-      success: true,
-      page_name: page.name,
-      page_id: page.id,
-      page_token: page.access_token,
-      note: 'Este token nunca expira. Copia page_token para META_PAGE_ACCESS_TOKEN no Vercel.'
-    })
-  } catch (err) {
-    return NextResponse.json({ error: String(err) }, { status: 500 })
-  }
-}
+    // Nenhuma página encontrada — mostrar debug completo
+    return NextRespo
