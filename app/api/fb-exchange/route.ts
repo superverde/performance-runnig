@@ -66,4 +66,28 @@ export async function GET(req: NextRequest) {
     }
 
     // Tentar obter page token diretamente via /{page-id}?fields=access_token
-   
+    const rdirect = await fetch(
+      `https://graph.facebook.com/${pageId}?fields=access_token,name&access_token=${userToken}`
+    )
+    const ddirect = await rdirect.json()
+
+    if (ddirect.access_token) {
+      return NextResponse.json({
+        success: true,
+        type: 'direct',
+        page_name: ddirect.name,
+        page_id: pageId,
+        page_token: ddirect.access_token,
+        note: 'Atualiza META_PAGE_ACCESS_TOKEN no Vercel com este token.'
+      })
+    }
+
+    return NextResponse.json({
+      error: 'Não foi possível obter page token',
+      me_accounts_result: d1,
+      direct_page_result: ddirect,
+    }, { status: 403 })
+  } catch (err) {
+    return NextResponse.json({ error: String(err) }, { status: 500 })
+  }
+}
