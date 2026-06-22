@@ -19,7 +19,8 @@
     "react-dom": "^18",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "@next/third-parties": "latest"
+    "@next/third-parties": "latest",
+    "twitter-api-v2": "^1.17.0"
   },
   "devDependencies": {
     "@types/node": "^20",

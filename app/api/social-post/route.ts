@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import crypto from 'crypto'
+import { TwitterApi } from 'twitter-api-v2'
 
 // ── TIPOS ────────────────────────────────────────────────────────────────────
 
@@ -117,13 +117,7 @@ IMPORTANTE: Escreve sempre em português de Portugal. Os posts devem parecer hum
   return JSON.parse(content)
 }
 
-// ── X (TWITTER) — OAuth 1.0a ─────────────────────────────────────────────────
-
-function percentEncode(str: string): string {
-  return encodeURIComponent(str)
-    .replace(/!/g, '%21').replace(/'/g, '%27')
-    .replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/\*/g, '%2A')
-}
+// ── X (TWITTER) — via twitter-api-v2 ─────────────────────────────────────────
 
 async function postToX(text: string): Promise<PostResult> {
   const apiKey = process.env.X_API_KEY
@@ -136,58 +130,19 @@ async function postToX(text: string): Promise<PostResult> {
   }
 
   try {
-    const url = 'https://api.twitter.com/2/tweets'
-    const method = 'POST'
-    const timestamp = Math.floor(Date.now() / 1000).toString()
-    const nonce = crypto.randomBytes(16).toString('hex')
-
-    const oauthParams: Record<string, string> = {
-      oauth_consumer_key: apiKey,
-      oauth_nonce: nonce,
-      oauth_signature_method: 'HMAC-SHA1',
-      oauth_timestamp: timestamp,
-      oauth_token: accessToken,
-      oauth_version: '1.0',
-    }
-
-    // Gera assinatura OAuth 1.0a
-    const allParams = { ...oauthParams }
-    const sortedParams = Object.keys(allParams).sort()
-      .map(k => `${percentEncode(k)}=${percentEncode(allParams[k])}`)
-      .join('&')
-
-    const baseString = [
-      method.toUpperCase(),
-      percentEncode(url),
-      percentEncode(sortedParams),
-    ].join('&')
-
-    const signingKey = `${percentEncode(apiSecret)}&${percentEncode(accessTokenSecret)}`
-    const signature = crypto.createHmac('sha1', signingKey).update(baseString).digest('base64')
-
-    const authHeader = 'OAuth ' + [
-      ...Object.entries(oauthParams),
-      ['oauth_signature', signature],
-    ].map(([k, v]) => `${percentEncode(k)}="${percentEncode(v)}"`).join(', ')
-
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: {
-        Authorization: authHeader,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ text }),
+    const client = new TwitterApi({
+      appKey: apiKey,
+      appSecret: apiSecret,
+      accessToken: accessToken,
+      accessSecret: accessTokenSecret,
     })
 
-    const data = await res.json()
-    if (!res.ok) {
-      console.error('[social-post] X erro completo:', JSON.stringify(data))
-      return { platform: 'X', success: false, error: data.detail || data.title || JSON.stringify(data) }
-    }
-
-    return { platform: 'X', success: true, id: data.data?.id }
-  } catch (err) {
-    return { platform: 'X', success: false, error: String(err) }
+    const tweet = await client.v2.tweet(text)
+    return { platform: 'X', success: true, id: tweet.data.id }
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : JSON.stringify(err)
+    console.error('[social-post] X erro:', msg)
+    return { platform: 'X', success: false, error: msg }
   }
 }
 
