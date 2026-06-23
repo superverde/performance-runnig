@@ -335,7 +335,7 @@ export async function GET(req: NextRequest) {
 
   const [ga4, clicks, subscribers] = await Promise.all([
     getGA4Stats(yesterday),
-    getClickSta    getClickStats(yesterday),
+    getClickStats(yesterday),
     redis.scard('newsletter:subscribers'),
   ])
 
