@@ -239,7 +239,7 @@ Começa com uma introdução forte de 2-3 parágrafos sem cabeçalho, depois usa
 function buildMdx(topic, content, date) {
   return `---
 title: "${topic.title.replace(/"/g, '\\"')}"
-date: ${date}
+date: '${date}'
 category: "${topic.category}"
 excerpt: "${extractExcerpt(content)}"
 readTime: ${estimateReadTime(content)}
@@ -322,4 +322,4 @@ async function main() {
 main().catch(err => {
   console.error('❌ Erro fatal:', err)
   process.exit(1)
-})
+}

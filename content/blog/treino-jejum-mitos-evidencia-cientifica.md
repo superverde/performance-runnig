@@ -1,6 +1,6 @@
 ---
 title: "Treino em Jejum: Mitos, Evidência Científica e Quando Faz Sentido para Corredores"
-date: 2026-06-23
+date: '2026-06-23'
 category: "Nutrição"
 excerpt: "Treinar em jejum promete melhorar a queima de gordura e a performance. Mas o que diz realmente a ciência? Descobre o que funciona, o que é mito e para que tipo de corredor esta estratégia tem valor."
 readTime: 7

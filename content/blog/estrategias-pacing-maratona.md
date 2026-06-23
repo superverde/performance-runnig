@@ -1,6 +1,6 @@
 ---
 title: "Estratégias de Pacing em Maratona: Como Distribuir o Esforço para Correr o Teu Melhor Tempo"
-date: 2026-06-21
+date: '2026-06-21'
 category: "Treino"
 excerpt: "O pacing em maratona é a diferença entre uma prova brilhante e um colapso no quilómetro 32. Aprende a ciência por detrás da distribuição do esforço e escolhe a estratégia certa para o teu nível."
 readTime: 10

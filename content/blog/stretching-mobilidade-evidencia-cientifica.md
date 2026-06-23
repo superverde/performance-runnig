@@ -1,6 +1,6 @@
 ---
 title: "Stretching e Mobilidade em Corredores: O Que a Ciência Realmente Diz"
-date: 2026-06-21
+date: '2026-06-21'
 category: "Recuperação"
 excerpt: "Durante décadas, o stretching estático foi apresentado como obrigatório para corredores. A investigação científica atual conta uma história muito diferente — e mais nuançada — sobre quando e como o alongamento beneficia realmente a performance e a prevenção de lesões."
 readTime: 10

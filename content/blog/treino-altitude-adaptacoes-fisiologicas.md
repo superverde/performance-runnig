@@ -1,6 +1,6 @@
 ---
 title: "Treino em Altitude: Adaptações Fisiológicas e Como Replicar os Benefícios"
-date: 2026-06-21
+date: '2026-06-21'
 category: "Fisiologia"
 excerpt: "A altitude é a ferramenta mais poderosa na preparação de atletas de endurance de elite. Compreende as adaptações fisiológicas, os protocolos usados pelos campeões e como o corredor amador pode beneficiar desta estratégia."
 readTime: 11

@@ -1,6 +1,6 @@
 ---
 title: "Overtraining: Sinais, Causas e Como Evitar o Síndrome de Sobretreinamento"
-date: 2026-06-22
+date: '2026-06-22'
 category: "Recuperação"
 excerpt: "O overtraining é uma das armadilhas mais perigosas para corredores ambiciosos. Aprende a identificar os sinais precoces, compreender as causas fisiológicas e implementar estratégias para o prevenir."
 readTime: 9

@@ -1,6 +1,6 @@
 ---
 title: "Long Run: A Função Fisiológica do Treino Longo e Como Estruturá-lo Corretamente"
-date: 2026-06-23
+date: '2026-06-23'
 category: "Treino"
 excerpt: "O long run é o alicerce do treino de fundo e maratona, mas poucos corredores sabem exatamente o que está a acontecer no seu organismo durante essas horas de corrida. Descobre a fisiologia por detrás do treino longo e como tirares o máximo proveito."
 readTime: 8

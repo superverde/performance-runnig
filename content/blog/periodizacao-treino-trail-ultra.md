@@ -1,6 +1,6 @@
 ---
 title: "Periodização do Treino de Trail Ultra: Como Estruturar Semanas de 80 a 100 km"
-date: 2026-06-22
+date: '2026-06-22'
 category: "Trail Running"
 excerpt: "Treinar para um ultra trail exige muito mais do que acumular quilómetros. Descobre como periodizar correctamente semanas de alto volume, gerir a carga e preparar o corpo para os desafios extremos da montanha."
 readTime: 10
