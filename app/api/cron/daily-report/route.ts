@@ -335,19 +335,4 @@ export async function GET(req: NextRequest) {
 
   const [ga4, clicks, subscribers] = await Promise.all([
     getGA4Stats(yesterday),
-    getClickStats(yesterday),
-    redis.scard('newsletter:subscribers').catch(() => 0),
-  ])
-
-  const html = buildEmailHtml({ date: yesterday, ga4, clicks, subscribers: subscribers as number })
-  const sent = await sendReport(yesterday, html)
-
-  return NextResponse.json({
-    ok: true,
-    date: yesterday,
-    sent,
-    ga4: ga4 ? { sessions: ga4.sessions, users: ga4.activeUsers, pageviews: ga4.pageviews } : null,
-    totalClicksYesterday: Object.values(clicks.yesterday).reduce((a, b) => a + b, 0),
-    newsletterSubscribers: subscribers,
-  })
-}
+    getClickSta

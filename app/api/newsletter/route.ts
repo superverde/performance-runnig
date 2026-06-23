@@ -48,7 +48,7 @@ function buildWelcomeHtml(email: string): string {
         <tr><td style="padding:24px 0 0 0;">
           <p style="color:rgba(255,255,255,0.2);font-size:11px;line-height:1.6;margin:0;text-align:center;">
             Recebeste este email porque subscreveste em performancerunning.pt<br>
-            <a href="${unsubUrl}" style="color:rgba(255,255,255,0.3);text-decoration:underline;">Cancelar subscricao</a>
+            <a href="${unsubUrl}" style="color:rgba(255,255,255,0.3);text-decoration:underline;">Cancelar subscri&#231;&#227;o</a>
           </p>
         </td></tr>
       </table>
@@ -97,4 +97,5 @@ export async function GET(req: NextRequest) {
   }
   const count = await redis.scard('newsletter:subscribers')
   const log = await redis.lrange('newsletter:log', 0, 49)
-  return NextResponse.json({ count, recent: 
+  return NextResponse.json({ count, recent: log })
+}
