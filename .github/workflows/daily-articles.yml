@@ -1,0 +1,58 @@
+name: Gerar Artigos Diários
+
+on:
+  schedule:
+    # Corre às 05:30 UTC todos os dias (06:30 hora de Portugal no inverno, 06:30 no verão)
+    - cron: '30 5 * * *'
+  # Permite correr manualmente no GitHub → Actions → Run workflow
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # necessário para fazer commit e push
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependências do script
+        run: |
+          # O script usa apenas módulos nativos + fetch (Node 18+), sem npm install necessário
+          echo "Node $(node --version) pronto"
+
+      - name: Gerar 3 artigos do dia
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node scripts/generate-articles.mjs
+
+      - name: Verificar se há artigos novos
+        id: check
+        run: |
+          git diff --name-only HEAD
+          CHANGED=$(git status --porcelain content/blog/ | wc -l)
+          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Artigos novos: $CHANGED"
+
+      - name: Commit e push dos artigos
+        if: steps.check.outputs.changed != '0'
+        run: |
+          git config user.name "Performance Running Bot"
+          git config user.email "newsletter@performancerunning.pt"
+          git add content/blog/
+          TODAY=$(date +%Y-%m-%d)
+          git commit -m "feat(artigos): 3 novos artigos para $TODAY [skip ci]"
+          git push origin main
+          echo "✅ Push feito — Vercel irá fazer deploy automaticamente"
+
+      - name: Sem artigos novos
+        if: steps.check.outputs.changed == '0'
+        run: echo "ℹ️  Nenhum artigo novo gerado (todos os tópicos já publicados?)"
