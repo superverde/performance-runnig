@@ -184,20 +184,23 @@ export async function GET(req: NextRequest) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
     body: JSON.stringify({
-      from: 'Performance Running <newsletter@performancerunning.pt>',
+      from: 'Performance Running <onboarding@resend.dev>',
       to: [REPORT_TO],
       subject: `📊 [TESTE] Relatório ${todayStr} — Performance Running`,
       html,
     }),
   })
 
-  const resBody = await res.json() as { id?: string; error?: { message: string } }
+  const resBody = await res.json() as { id?: string; message?: string; name?: string; statusCode?: number; error?: { message: string } }
 
   if (!res.ok) {
     return NextResponse.json({
       ok: false,
-      error: resBody.error?.message ?? 'Erro desconhecido do Resend',
+      resendStatus: res.status,
+      error: resBody.message ?? resBody.error?.message ?? 'Erro desconhecido do Resend',
+      resendError: resBody.name,
       hint: 'Verifica se o domínio performancerunning.pt está verificado no Resend',
+      rawResend: resBody,
     }, { status: 500 })
   }
 
