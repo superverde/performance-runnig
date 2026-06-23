@@ -37,8 +37,11 @@ async function sendWelcomeEmail(email: string): Promise<void> {
              style="display: inline-block; background: #00ff87; color: #000; font-weight: 900; font-size: 14px; padding: 14px 28px; border-radius: 6px; text-decoration: none; letter-spacing: 0.5px;">
             VER ARQUIVO →
           </a>
-          <p style="color: #444; font-size: 12px; margin-top: 40px;">
-            Podes cancelar a qualquer momento. Performance Running · performancerunning.pt
+          <hr style="border: none; border-top: 1px solid #1a1a1a; margin: 40px 0 20px;" />
+          <p style="color: #444; font-size: 11px; line-height: 1.6; margin: 0;">
+            Recebeste este email porque subscreveste em performancerunning.pt<br>
+            <a href="https://www.performancerunning.pt/api/newsletter/unsubscribe?email=${encodeURIComponent(normalized)}"
+               style="color: #555; text-decoration: underline;">Cancelar subscrição</a>
           </p>
         </div>
       `,

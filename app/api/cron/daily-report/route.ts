@@ -309,7 +309,7 @@ async function sendReport(date: string, html: string): Promise<boolean> {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
     body: JSON.stringify({
-      from: 'Performance Running <onboarding@resend.dev>',
+      from: 'Performance Running <newsletter@performancerunning.pt>',
       to: [REPORT_TO],
       subject: `📊 Relatório ${date} — Performance Running`,
       html,

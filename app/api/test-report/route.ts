@@ -184,7 +184,7 @@ export async function GET(req: NextRequest) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
     body: JSON.stringify({
-      from: 'Performance Running <onboarding@resend.dev>',
+      from: 'Performance Running <newsletter@performancerunning.pt>',
       to: [REPORT_TO],
       subject: `📊 [TESTE] Relatório ${todayStr} — Performance Running`,
       html,
