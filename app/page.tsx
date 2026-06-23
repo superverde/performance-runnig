@@ -107,8 +107,8 @@ export default async function HomePage() {
       {todayArticles.length > 0 && (
         <section className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden"
           style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center 40%' }}>
-          <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/80" />
-          <div className="absolute inset-0 bg-brand-green/[0.025]" />
+          <div className="absolute inset-0 bg-black/95" />
+          <div className="absolute inset-0 bg-brand-green/[0.02]" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-10" data-reveal>
               <div className="flex items-center gap-4">
@@ -118,21 +118,21 @@ export default async function HomePage() {
                 </div>
                 <div>
                   <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>{t('hp', 'today_section')}</h2>
-                  <p className="text-white/30 text-[11px] font-mono mt-0.5 capitalize">{todayLabel}</p>
+                  <p className="text-white/55 text-[11px] font-mono mt-0.5 capitalize">{todayLabel}</p>
                 </div>
               </div>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {todayArticles.map((article, i) => (
                 <Link key={article.slug} href={`/blog/${article.slug}`} data-reveal data-delay={String(i * 80)}
-                  className="group relative flex flex-col gap-3 p-5 rounded-2xl border border-white/[0.06] bg-white/[0.015] hover:border-brand-green/25 hover:bg-brand-green/[0.04] transition-all">
+                  className="group relative flex flex-col gap-3 p-5 rounded-2xl border border-white/10 bg-white/[0.06] hover:border-brand-green/40 hover:bg-white/[0.09] transition-all">
                   <div className="flex items-center justify-between">
-                    <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/20 bg-brand-green/8">{article.category}</span>
-                    <span className="text-[10px] font-mono text-white/20">{article.readTime} min</span>
+                    <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/30 bg-brand-green/10">{article.category}</span>
+                    <span className="text-[10px] font-mono text-white/50">{article.readTime} min</span>
                   </div>
-                  <h3 className="text-sm font-black text-white/85 group-hover:text-white transition-colors leading-snug line-clamp-2">{article.title}</h3>
-                  <p className="text-[12px] text-white/35 leading-relaxed line-clamp-2 flex-1">{article.excerpt}</p>
-                  <div className="flex items-center gap-1 text-[10px] font-bold text-white/25 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
+                  <h3 className="text-sm font-black text-white group-hover:text-brand-green transition-colors leading-snug line-clamp-2">{article.title}</h3>
+                  <p className="text-[12px] text-white/65 leading-relaxed line-clamp-2 flex-1">{article.excerpt}</p>
+                  <div className="flex items-center gap-1 text-[10px] font-bold text-white/45 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
                     {t('hp', 'read_article')} <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>
