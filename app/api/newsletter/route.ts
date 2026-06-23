@@ -1,12 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { redis } from '@/lib/redis'
 
-export const runtime = 'edge'
-
-// Envia email de boas-vindas via Resend (se API key configurada)
+// Envia email de boas-vindas via Resend
 async function sendWelcomeEmail(email: string): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY
-  if (!apiKey) return // sem key → só guarda, não envia
+  if (!apiKey) return
 
   await fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -17,65 +15,72 @@ async function sendWelcomeEmail(email: string): Promise<void> {
     body: JSON.stringify({
       from: 'Performance Running <newsletter@performancerunning.pt>',
       to: [email],
-      subject: 'Bem-vindo ao Performance Running 🏃',
-      html: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #0a0a0a; color: #fff; padding: 40px;">
-          <div style="margin-bottom: 32px;">
-            <span style="background: #00ff87; color: #000; font-weight: 900; font-size: 12px; padding: 4px 10px; border-radius: 4px;">PR</span>
-            <span style="font-weight: 900; font-size: 14px; margin-left: 8px; letter-spacing: -0.5px;">PERFORMANCE<span style="color: #00ff87;">RUNNING</span></span>
-          </div>
-          <h1 style="font-size: 28px; font-weight: 900; margin: 0 0 16px; letter-spacing: -1px;">
-            Estás dentro. 🎯
-          </h1>
-          <p style="color: #aaa; font-size: 15px; line-height: 1.6; margin: 0 0 24px;">
-            A partir de agora recebes os melhores artigos sobre corrida, trail e atletismo — baseados em ciência, escritos para atletas a sério.
-          </p>
-          <p style="color: #aaa; font-size: 15px; line-height: 1.6; margin: 0 0 32px;">
-            VO2máx, periodização, nutrição de precisão, prevenção de lesões. Sem ruído, só o que importa.
-          </p>
-          <a href="https://performancerunning.pt/blog"
-             style="display: inline-block; background: #00ff87; color: #000; font-weight: 900; font-size: 14px; padding: 14px 28px; border-radius: 6px; text-decoration: none; letter-spacing: 0.5px;">
-            VER ARQUIVO →
-          </a>
-          <hr style="border: none; border-top: 1px solid #1a1a1a; margin: 40px 0 20px;" />
-          <p style="color: #444; font-size: 11px; line-height: 1.6; margin: 0;">
-            Recebeste este email porque subscreveste em performancerunning.pt<br>
-            <a href="https://www.performancerunning.pt/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}"
-               style="color: #555; text-decoration: underline;">Cancelar subscrição</a>
-          </p>
-        </div>
-      `,
+      subject: 'Bem-vindo ao Performance Running',
+      html: buildWelcomeHtml(email),
     }),
   })
+}
+
+function buildWelcomeHtml(email: string): string {
+  const unsubUrl = `https://www.performancerunning.pt/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}`
+  return `<!DOCTYPE html>
+<html lang="pt">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#0a0a0a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#0a0a0a;padding:40px 20px;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+        <tr><td style="padding:0 0 32px 0;">
+          <span style="background:#22c55e;color:#000;font-weight:900;font-size:11px;padding:4px 8px;border-radius:4px;">PR</span>
+          <span style="color:#fff;font-weight:900;font-size:13px;margin-left:8px;">PERFORMANCE<span style="color:#22c55e;">RUNNING</span></span>
+        </td></tr>
+        <tr><td style="background:#111;border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:40px 36px;">
+          <p style="color:#22c55e;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin:0 0 16px 0;">Bem-vindo</p>
+          <h1 style="color:#fff;font-size:30px;font-weight:900;letter-spacing:-1px;margin:0 0 16px 0;line-height:1.1;">ESTAES DENTRO.</h1>
+          <p style="color:rgba(255,255,255,0.55);font-size:15px;line-height:1.7;margin:0 0 24px 0;">
+            A partir de agora recebes os melhores artigos sobre corrida, trail e atletismo. Ciencia aplicada. Sem spam.
+          </p>
+          <a href="https://www.performancerunning.pt/blog"
+             style="display:inline-block;background:#22c55e;color:#000;font-weight:900;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:13px 26px;border-radius:8px;text-decoration:none;">
+            VER ARQUIVO
+          </a>
+        </td></tr>
+        <tr><td style="padding:24px 0 0 0;">
+          <p style="color:rgba(255,255,255,0.2);font-size:11px;line-height:1.6;margin:0;text-align:center;">
+            Recebeste este email porque subscreveste em performancerunning.pt<br>
+            <a href="${unsubUrl}" style="color:rgba(255,255,255,0.3);text-decoration:underline;">Cancelar subscricao</a>
+          </p>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`
 }
 
 export async function POST(req: NextRequest) {
   try {
     const { email } = await req.json()
 
-    // Validação básica
     if (!email || typeof email !== 'string') {
-      return NextResponse.json({ error: 'Email inválido.' }, { status: 400 })
+      return NextResponse.json({ error: 'Email invalido.' }, { status: 400 })
     }
     const normalized = email.toLowerCase().trim()
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalized)) {
-      return NextResponse.json({ error: 'Email inválido.' }, { status: 400 })
+      return NextResponse.json({ error: 'Email invalido.' }, { status: 400 })
     }
 
-    // Verificar duplicado
     const exists = await redis.sismember('newsletter:subscribers', normalized)
     if (exists) {
       return NextResponse.json({ message: 'already_subscribed' })
     }
 
-    // Guardar no Redis
     await redis.sadd('newsletter:subscribers', normalized)
     await redis.lpush('newsletter:log', JSON.stringify({
       email: normalized,
       date: new Date().toISOString(),
     }))
 
-    // Enviar email de boas-vindas (silencioso se falhar — não bloqueia)
     await sendWelcomeEmail(normalized).catch(() => {})
 
     return NextResponse.json({ message: 'subscribed' })
@@ -85,6 +90,12 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// Admin: ver total de subscritores (protegido por secret)
 export async function GET(req: NextRequest) {
-  const secret = req.nextUrl.searchParams.get(
+  const secret = req.nextUrl.searchParams.get('secret')
+  if (secret !== process.env.ADMIN_SECRET) {
+    return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
+  }
+  const count = await redis.scard('newsletter:subscribers')
+  const log = await redis.lrange('newsletter:log', 0, 49)
+  return NextResponse.json({ count, recent: log })
+}
