@@ -36,6 +36,7 @@ export function Navbar() {
   const navLinks = [
     { href: '/metodologias', key: 'metodologias' },
     { href: '/blog', key: 'arquivo' },
+    { href: '/ferramentas', key: 'ferramentas' },
     { href: '/equipamento', key: 'equipamento' },
     { href: '/reviews', key: 'testemunhos' },
     { href: '/sobre', key: 'sobre' },
@@ -130,7 +131,7 @@ export function Navbar() {
             {/* Redes sociais desktop */}
             <div className="hidden md:flex items-center gap-1.5">
               <a
-                href="https://www.facebook.com/performancerunningpt"
+                href="https://www.facebook.com/profile.php?id=61591235338834"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -141,7 +142,7 @@ export function Navbar() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/performancerunningpt"
+                href="https://www.instagram.com/performance.running0224/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -221,9 +222,9 @@ export function Navbar() {
             </div>
 
             {/* Redes sociais mobile */}
-            <div className="px-3 pt-2 pb-1 flex items-center gap-3">
+            <div className="px-3 pt-2 pb-1 flex items-center gap-4">
               <a
-                href="https://www.facebook.com/performancerunningpt"
+                href="https://www.facebook.com/profile.php?id=61591235338834"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"
@@ -234,7 +235,7 @@ export function Navbar() {
                 Facebook
               </a>
               <a
-                href="https://www.instagram.com/performancerunningpt"
+                href="https://www.instagram.com/performance.running0224/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"

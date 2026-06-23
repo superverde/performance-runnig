@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono, Barlow_Condensed } from 'next/font/google'
 import './globals.css'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import { SocialBanner } from '@/components/SocialBanner'
 import { Analytics } from '@vercel/analytics/react'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -82,8 +83,8 @@ const organizationLd = {
   url: SITE_URL,
   logo: `${SITE_URL}/favicon.ico`,
   sameAs: [
-    'https://www.instagram.com/performancerunningpt',
-    'https://www.facebook.com/performancerunningpt',
+    'https://www.instagram.com/performance.running0224/',
+    'https://www.facebook.com/profile.php?id=61591235338834',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
@@ -118,6 +119,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }} />
         <LocaleProvider locale={locale} messages={messages}>
           <ScrollReveal />
+          <SocialBanner />
           <Navbar />
           <main>{children}</main>
           <Footer />
