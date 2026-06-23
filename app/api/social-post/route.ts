@@ -78,6 +78,47 @@ const CATEGORY_HASHTAGS: Record<string, string> = {
 
 const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
 
+// ── CORREÇÃO PT-PT (pós-processamento determinístico, custo zero) ────────────
+
+function fixPtPt(text: string): string {
+  const replacements: [RegExp, string][] = [
+    // Pronomes / tratamento
+    [/\bvocê\b/gi, 'tu'],
+    [/\bvocês\b/gi, 'vós'],
+    [/\ba gente\b/gi, 'nós'],
+    [/\bseus\b/gi, 'teus'],
+    [/\bsuas\b/gi, 'tuas'],
+    [/\bseu\b/gi, 'teu'],
+    [/\bsua\b/gi, 'tua'],
+    // Imperativo BR → PT-PT (formas mais comuns)
+    [/\bNão perca\b/gi, 'Não percas'],
+    [/\bNão deixe\b/gi, 'Não deixes'],
+    [/\bNão perca\b/gi, 'Não percas'],
+    [/\bConheça\b/gi, 'Descobre'],
+    [/\bSaiba\b/gi, 'Descobre'],
+    [/\bVeja\b/gi, 'Vê'],
+    [/\bAproveite\b/gi, 'Aproveita'],
+    [/\bAcesse\b/gi, 'Acede'],
+    [/\bClique\b/gi, 'Clica'],
+    [/\bLeia\b/gi, 'Lê'],
+    [/\bComece\b/gi, 'Começa'],
+    [/\bDescubra\b/gi, 'Descobre'],
+    [/\bAcompanhe\b/gi, 'Acompanha'],
+    [/\bEntenda\b/gi, 'Percebe'],
+    // Vocabulário BR
+    [/\blegal\b/gi, 'fixe'],
+    [/\bbacana\b/gi, 'fixe'],
+    [/\balavancar\b/gi, 'potenciar'],
+    [/\bperformar\b/gi, 'render'],
+    [/\bdiferenciado\b/gi, 'diferente'],
+  ]
+  let out = text
+  for (const [pattern, replacement] of replacements) {
+    out = out.replace(pattern, replacement)
+  }
+  return out
+}
+
 // ── GERAÇÃO DE CAPTIONS VIA GROQ ────────────────────────────────────────────
 
 async function generateCaptions(article: ArticlePayload): Promise<{
@@ -163,7 +204,7 @@ Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
       Authorization: `Bearer ${groqKey}`,
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.75,
       max_tokens: 1200,
@@ -175,7 +216,14 @@ Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
   const content = data.choices?.[0]?.message?.content
   if (!content) throw new Error('Groq não respondeu')
 
-  return JSON.parse(content)
+  const parsed = JSON.parse(content)
+  // Garantir PT-PT independentemente do que a IA gerar
+  return {
+    x: fixPtPt(parsed.x ?? ''),
+    instagram: fixPtPt(parsed.instagram ?? ''),
+    facebook: fixPtPt(parsed.facebook ?? ''),
+    threads: fixPtPt(parsed.threads ?? ''),
+  }
 }
 
 // ── X (TWITTER) — via twitter-api-v2 ─────────────────────────────────────────
