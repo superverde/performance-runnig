@@ -36,9 +36,9 @@ function buildWelcomeHtml(email: string): string {
         </td></tr>
         <tr><td style="background:#111;border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:40px 36px;">
           <p style="color:#22c55e;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin:0 0 16px 0;">Bem-vindo</p>
-          <h1 style="color:#fff;font-size:30px;font-weight:900;letter-spacing:-1px;margin:0 0 16px 0;line-height:1.1;">ESTAES DENTRO.</h1>
+          <h1 style="color:#fff;font-size:30px;font-weight:900;letter-spacing:-1px;margin:0 0 16px 0;line-height:1.1;">EST&#193;S DENTRO.</h1>
           <p style="color:rgba(255,255,255,0.55);font-size:15px;line-height:1.7;margin:0 0 24px 0;">
-            A partir de agora recebes os melhores artigos sobre corrida, trail e atletismo. Ciencia aplicada. Sem spam.
+            A partir de agora recebes os melhores artigos sobre corrida, trail e atletismo. Ci&#234;ncia aplicada. Sem spam.
           </p>
           <a href="https://www.performancerunning.pt/blog"
              style="display:inline-block;background:#22c55e;color:#000;font-weight:900;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:13px 26px;border-radius:8px;text-decoration:none;">
@@ -97,5 +97,4 @@ export async function GET(req: NextRequest) {
   }
   const count = await redis.scard('newsletter:subscribers')
   const log = await redis.lrange('newsletter:log', 0, 49)
-  return NextResponse.json({ count, recent: log })
-}
+  return NextResponse.json({ count, recent: 

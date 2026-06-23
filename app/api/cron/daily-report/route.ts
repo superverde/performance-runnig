@@ -171,8 +171,9 @@ function buildEmailHtml(params: {
   date: string
   ga4: GA4Stats | null
   clicks: ClickStats
+  subscribers: number
 }): string {
-  const { date, ga4, clicks } = params
+  const { date, ga4, clicks, subscribers } = params
 
   const fmtDate = new Date(date + 'T00:00:00Z').toLocaleDateString('pt-PT', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
@@ -231,15 +232,19 @@ function buildEmailHtml(params: {
 
   const clicksSection = `
     <div style="margin-bottom:32px;">
-      <h2 style="font-size:14px;font-weight:900;letter-spacing:0.2em;color:#00ff87;text-transform:uppercase;margin:0 0 16px;">🔗 Cliques em Afiliados</h2>
+      <h2 style="font-size:14px;font-weight:900;letter-spacing:0.2em;color:#00ff87;text-transform:uppercase;margin:0 0 16px;">📊 Resumo do Dia</h2>
       <div style="display:flex;gap:12px;margin-bottom:16px;">
         <div style="flex:1;background:#111;border:1px solid #1e1e1e;border-radius:8px;padding:16px;text-align:center;">
           <div style="font-size:28px;font-weight:900;color:#fff;">${totalClicksYd}</div>
-          <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Cliques ontem</div>
+          <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Cliques afiliados ontem</div>
         </div>
         <div style="flex:1;background:#111;border:1px solid #1e1e1e;border-radius:8px;padding:16px;text-align:center;">
           <div style="font-size:28px;font-weight:900;color:#fff;">${totalClicksTot}</div>
           <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Total acumulado</div>
+        </div>
+        <div style="flex:1;background:#111;border:1px solid #1e1e1e;border-radius:8px;padding:16px;text-align:center;">
+          <div style="font-size:28px;font-weight:900;color:#00ff87;">${subscribers}</div>
+          <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Subscritores newsletter</div>
         </div>
       </div>
       ${clickRows ? `
@@ -328,19 +333,6 @@ export async function GET(req: NextRequest) {
   // Data de ontem
   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
 
-  const [ga4, clicks] = await Promise.all([
+  const [ga4, clicks, subscribers] = await Promise.all([
     getGA4Stats(yesterday),
-    getClickStats(yesterday),
-  ])
-
-  const html = buildEmailHtml({ date: yesterday, ga4, clicks })
-  const sent = await sendReport(yesterday, html)
-
-  return NextResponse.json({
-    ok: true,
-    date: yesterday,
-    sent,
-    ga4: ga4 ? { sessions: ga4.sessions, users: ga4.activeUsers, pageviews: ga4.pageviews } : null,
-    totalClicksYesterday: Object.values(clicks.yesterday).reduce((a, b) => a + b, 0),
-  })
-}
+    getClickSta
