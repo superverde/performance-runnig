@@ -40,7 +40,7 @@ async function sendWelcomeEmail(email: string): Promise<void> {
           <hr style="border: none; border-top: 1px solid #1a1a1a; margin: 40px 0 20px;" />
           <p style="color: #444; font-size: 11px; line-height: 1.6; margin: 0;">
             Recebeste este email porque subscreveste em performancerunning.pt<br>
-            <a href="https://www.performancerunning.pt/api/newsletter/unsubscribe?email=${encodeURIComponent(normalized)}"
+            <a href="https://www.performancerunning.pt/api/newsletter/unsubscribe?email=${encodeURIComponent(email)}"
                style="color: #555; text-decoration: underline;">Cancelar subscrição</a>
           </p>
         </div>
@@ -87,11 +87,4 @@ export async function POST(req: NextRequest) {
 
 // Admin: ver total de subscritores (protegido por secret)
 export async function GET(req: NextRequest) {
-  const secret = req.nextUrl.searchParams.get('secret')
-  if (secret !== process.env.ADMIN_SECRET) {
-    return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
-  }
-  const count = await redis.scard('newsletter:subscribers')
-  const log = await redis.lrange('newsletter:log', 0, 49)
-  return NextResponse.json({ count, recent: log })
-}
+  const secret = req.nextUrl.searchParams.get(
