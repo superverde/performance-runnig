@@ -80,8 +80,6 @@ function getPhoto(category: string, slug: string): string {
   return photos[hashSlug(slug) % photos.length]
 }
 
-const defaultPhoto = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=700&q=75'
-
 const categoryAccent: Record<string, string> = {
   'Treino':       '#00C896',
   'Fisiologia':   '#6366f1',
