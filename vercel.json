@@ -13,3 +13,12 @@
       "schedule": "0 8 * * 1"
     },
     {
+      "path": "/api/cron/midday-tip",
+      "schedule": "0 12 * * *"
+    },
+    {
+      "path": "/api/cron/evening-social",
+      "schedule": "30 17 * * *"
+    }
+  ]
+}
