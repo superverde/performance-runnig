@@ -25,15 +25,15 @@
       "schedule": "30 17 * * *"
     },
     {
-      "path": "/api/cron/pinterest-pin",
+      "path": "/api/cron/pinterest-manha",
       "schedule": "0 8 * * *"
     },
     {
-      "path": "/api/cron/pinterest-pin",
+      "path": "/api/cron/pinterest-tarde",
       "schedule": "0 13 * * *"
     },
     {
-      "path": "/api/cron/pinterest-pin",
+      "path": "/api/cron/pinterest-noite",
       "schedule": "0 18 * * *"
     }
   ]
