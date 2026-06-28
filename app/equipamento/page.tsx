@@ -56,7 +56,7 @@ const sapatos = [
     name: 'HOKA Clifton 9',
     categoria: 'Estrada',
     rating: 5,
-    preco: '~€140',
+    preco: 'desde ~€100',
     badge: 'Editor\'s Choice',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/51M3xzUi6qL._AC_UL600_.jpg',
@@ -70,7 +70,7 @@ const sapatos = [
     name: 'On Cloudmonster 2',
     categoria: 'Estrada',
     rating: 4,
-    preco: '~€170',
+    preco: 'desde ~€112',
     badge: 'Premium Pick',
     badgeColor: '#3b82f6',
     img: 'https://m.media-amazon.com/images/I/71BIO86CufL._AC_UL600_.jpg',
@@ -114,7 +114,7 @@ const relogios = [
   {
     name: 'Garmin Forerunner 265',
     rating: 5,
-    preco: '~€450',
+    preco: 'desde ~€380',
     badge: 'Melhor Custo/Benefício',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/71rp-pRCpRL._AC_UL600_.jpg',
@@ -329,7 +329,24 @@ function Stars({ n }: { n: number }) {
   )
 }
 
+// Rotação semanal: cada semana destaca uma categoria diferente
+const ROTACAO_SEMANAL = [
+  { semana: 0, titulo: 'Sapatos de Estrada', subtitulo: 'Esta semana em destaque', ancora: '#sapatos', emoji: '👟', cor: '#00ff87' },
+  { semana: 1, titulo: 'Relógios GPS', subtitulo: 'Esta semana em destaque', ancora: '#relogios', emoji: '⌚', cor: '#3b82f6' },
+  { semana: 2, titulo: 'Nutrição Desportiva', subtitulo: 'Esta semana em destaque', ancora: '#nutricao', emoji: '⚡', cor: '#f59e0b' },
+  { semana: 3, titulo: 'Acessórios Essenciais', subtitulo: 'Esta semana em destaque', ancora: '#acessorios', emoji: '🎽', cor: '#8b5cf6' },
+]
+
+function getDestaqueSemanul() {
+  const now = new Date()
+  const startOfYear = new Date(now.getFullYear(), 0, 1)
+  const weekNumber = Math.floor((now.getTime() - startOfYear.getTime()) / (7 * 86_400_000))
+  return ROTACAO_SEMANAL[weekNumber % ROTACAO_SEMANAL.length]
+}
+
 export default async function EquipamentoPage() {
+  const destaque = getDestaqueSemanul()
+
   // Lê clicks totais do Redis — ordena produtos pelo que os utilizadores mais clicam
   let clicks: Record<string, number> = {}
   try {
@@ -395,8 +412,27 @@ export default async function EquipamentoPage() {
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 space-y-20">
 
+        {/* ── Destaque da Semana ── */}
+        <a href={destaque.ancora} className="block group">
+          <div
+            className="rounded-2xl p-6 sm:p-8 border flex items-center justify-between gap-4 transition-all hover:scale-[1.01]"
+            style={{ borderColor: destaque.cor + '30', background: destaque.cor + '08' }}
+          >
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-[0.3em] mb-1 font-mono" style={{ color: destaque.cor }}>
+                {destaque.subtitulo}
+              </p>
+              <h2 className="text-2xl sm:text-3xl font-black text-white">
+                {destaque.emoji} {destaque.titulo}
+              </h2>
+              <p className="text-white/40 text-sm mt-1">Ver produtos em destaque esta semana →</p>
+            </div>
+            <ArrowUpRight size={32} className="shrink-0 opacity-30 group-hover:opacity-80 transition-opacity" style={{ color: destaque.cor }} />
+          </div>
+        </a>
+
         {/* ── Sapatos ── */}
-        <section>
+        <section id="sapatos">
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">01</p>
             <h2 className="text-3xl font-black tracking-tight">Sapatos de Corrida</h2>
@@ -477,7 +513,7 @@ export default async function EquipamentoPage() {
         </section>
 
         {/* ── Relógios GPS ── */}
-        <section>
+        <section id="relogios">
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">02</p>
             <h2 className="text-3xl font-black tracking-tight">Relógios GPS</h2>
@@ -640,7 +676,7 @@ export default async function EquipamentoPage() {
         </section>
 
         {/* ── Nutrição ── */}
-        <section className="border-t border-white/5 pt-16">
+        <section id="nutricao" className="border-t border-white/5 pt-16">
           <div className="mb-10">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
             <h2 className="text-3xl font-black tracking-tight">Nutrição para Corredores</h2>
@@ -728,7 +764,7 @@ export default async function EquipamentoPage() {
         </section>
 
         {/* ── Acessórios ── */}
-        <section>
+        <section id="acessorios">
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">05</p>
             <h2 className="text-3xl font-black tracking-tight">Acessórios Essenciais</h2>
