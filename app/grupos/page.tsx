@@ -4,14 +4,13 @@ import { useEffect, useState } from 'react'
 import { Copy, Check, ExternalLink } from 'lucide-react'
 
 const GRUPOS = [
-  { nome: 'Corredores de Portugal', url: 'https://www.facebook.com/groups/corredoresportugal', membros: '40k' },
-  { nome: 'Trail Running Portugal', url: 'https://www.facebook.com/groups/trailrunningportugal', membros: '25k' },
-  { nome: 'Maratona Lisboa — Grupo Oficial', url: 'https://www.facebook.com/groups/maratonalisboa', membros: '15k' },
-  { nome: 'Atletismo Português', url: 'https://www.facebook.com/groups/atletismoportugues', membros: '12k' },
-  { nome: 'Runners Porto', url: 'https://www.facebook.com/groups/runnersporto', membros: '8k' },
-  { nome: 'Corrida em Lisboa', url: 'https://www.facebook.com/groups/corridaemLisboa', membros: '6k' },
-  { nome: 'Ultra Trail Portugal', url: 'https://www.facebook.com/groups/ultratrailportugal', membros: '10k' },
-  { nome: 'Atletismo e Corrida PT', url: 'https://www.facebook.com/groups/atletismocorrida', membros: '5k' },
+  { nome: 'Portugal Running', url: 'https://www.facebook.com/groups/93652494209/', membros: '' },
+  { nome: 'Trail Running — Portugal', url: 'https://www.facebook.com/groups/1454687917950266/', membros: '' },
+  { nome: 'Apaixonados por Corrida', url: 'https://www.facebook.com/groups/apaixonadosporcorridaoficial/', membros: '' },
+  { nome: 'Maratona Clube de Portugal', url: 'https://www.facebook.com/groups/96171969973/', membros: '' },
+  { nome: 'Correr Lisboa', url: 'https://www.facebook.com/groups/correrlisboa/', membros: '' },
+  { nome: 'UP Running', url: 'https://www.facebook.com/groups/UPRunningCDUP/', membros: '' },
+  { nome: 'Tutti Sporting — Corrida de Rua', url: 'https://www.facebook.com/groups/689316968306672/', membros: '' },
 ]
 
 type Post = { slot: number; hora: string; titulo: string; texto: string; link: string; categoria: string }
@@ -82,7 +81,7 @@ function PostCard({ post }: { post: Post }) {
               </button>
               <a href={g.url} target="_blank" rel="noopener noreferrer"
                 className="text-xs text-white/60 hover:text-white transition-colors truncate">
-                {g.nome}<span className="text-white/30 ml-1">·{g.membros}</span>
+                {g.nome}{g.membros && <span className="text-white/30 ml-1">·{g.membros}</span>}
               </a>
             </div>
           ))}
