@@ -9,6 +9,8 @@ const BATCH_SIZE = 50
 function isAuthorized(req: NextRequest): boolean {
   const auth   = req.headers.get('authorization')
   const secret = process.env.CRON_SECRET
+  const internalKey = process.env.INTERNAL_API_KEY
+  if (auth && internalKey && auth === `Bearer ${internalKey}`) return true
   if (!secret) return false
   return auth === `Bearer ${secret}`
 }
