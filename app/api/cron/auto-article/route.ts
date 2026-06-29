@@ -155,7 +155,7 @@ async function pushToGitHub(slug: string, content: string): Promise<boolean> {
   }
 
   const owner = 'superverde'
-  const repo = 'performance-running'
+  const repo = 'performance-runnig'
   const path = `content/blog/${slug}.md`
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
 
