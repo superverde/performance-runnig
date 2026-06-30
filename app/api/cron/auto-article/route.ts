@@ -40,6 +40,59 @@ function fixPtPt(text: string): string {
 }
 
 // ─── Banco de tópicos (60 temas únicos — cobre 20 dias de 3 artigos) ───────────
+// Imagens Unsplash específicas por tópico (índice corresponde ao TOPICS)
+const TOPIC_IMAGES: string[] = [
+  // TREINO
+  'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80', // Periodização
+  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80', // Altitude
+  'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80', // Corridas Longas
+  'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80', // Treino de Força
+  'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80', // Método Norueguês
+  'https://images.unsplash.com/photo-1538485399081-7c8272b27daa?w=1200&q=80', // Tapering
+  'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80', // HIIT
+  // FISIOLOGIA
+  'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1200&q=80', // Economia de Corrida
+  'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&q=80', // Sistema Energético
+  'https://images.unsplash.com/photo-1628348070889-cb656235b4eb?w=1200&q=80', // Adaptações Cardíacas
+  'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200&q=80', // Mitocôndrias
+  'https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?w=1200&q=80', // Hemoglobina
+  // NUTRIÇÃO
+  'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=1200&q=80', // Carboidratos
+  'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=1200&q=80', // Proteína
+  'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80', // Gorduras
+  'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1200&q=80', // Suplementos
+  'https://images.unsplash.com/photo-1559181567-c3190ca9d823?w=1200&q=80', // Hidratação
+  // BIOMECÂNICA
+  'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1200&q=80', // Cadência
+  'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80', // Pisada
+  'https://images.unsplash.com/photo-1580087256394-dc596e1c8f4f?w=1200&q=80', // Braços
+  'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80', // Postura
+  // RECUPERAÇÃO
+  'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80', // Sono
+  'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80', // Recuperação Ativa
+  'https://images.unsplash.com/photo-1560347876-aeef00ee58a1?w=1200&q=80', // Água Fria
+  'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1200&q=80', // Overreaching
+  // VO2MAX
+  'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&q=80', // Melhorar VO2max
+  'https://images.unsplash.com/photo-1486218119243-13301429a4d3?w=1200&q=80', // VO2max Genético
+  'https://images.unsplash.com/photo-1523475496153-3567a3a7fc7b?w=1200&q=80', // Limiares
+  // TRAIL RUNNING
+  'https://images.unsplash.com/photo-1489659639091-8b687bc4386e?w=1200&q=80', // Subida Trail
+  'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=80', // Descidas Trail
+  'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80', // Nutrição Ultra
+  'https://images.unsplash.com/photo-1502224562085-639556652f33?w=1200&q=80', // Bastões Trail
+  'https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=1200&q=80', // Mental Ultra
+  // LESÕES
+  'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1200&q=80', // Banda Iliotibial
+  'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80', // Aquiles
+  'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80', // Stress Fractures
+  'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80', // Patelofemoral
+  // PSICOLOGIA
+  'https://images.unsplash.com/photo-1552072092-7f9b8d63efcb?w=1200&q=80', // Mindset
+  'https://images.unsplash.com/photo-1529516222410-a269d812f22e?w=1200&q=80', // Ansiedade
+  'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80', // Motivação
+]
+
 const TOPICS: { title: string; category: string; angle: string }[] = [
   // TREINO
   { title: 'Periodização em Bloco para Corredores de Estrada', category: 'Treino', angle: 'Como estruturar fases de volume, intensidade e peak em ciclos de 3-4 semanas para maximizar a adaptação sem overtraining' },
@@ -93,7 +146,7 @@ const TOPICS: { title: string; category: string; angle: string }[] = [
 ]
 
 // ─── Gerar artigo via Groq ─────────────────────────────────────────────────────
-async function generateArticle(topic: { title: string; category: string; angle: string }, date: string): Promise<{ md: string; slug: string; title: string } | null> {
+async function generateArticle(topic: { title: string; category: string; angle: string }, date: string, coverImage: string): Promise<{ md: string; slug: string; title: string } | null> {
   const groqKey = process.env.GROQ_API_KEY
   if (!groqKey) return null
 
@@ -121,6 +174,7 @@ excerpt: "[escreve um resumo atraente de 1-2 frases]"
 date: '${date}'
 category: "${topic.category}"
 readTime: [estima o tempo de leitura em minutos]
+coverImage: "${coverImage}"
 ---
 
 Escreve o artigo completo agora:`
@@ -206,18 +260,18 @@ async function pushToGitHub(slug: string, content: string): Promise<boolean> {
 }
 
 // ─── Selecionar 3 tópicos para hoje ────────────────────────────────────────────
-function selectTopics(date: string): typeof TOPICS {
-  // Usa o número do dia do ano como índice base — rotação cíclica pelo banco
+function selectTopics(date: string): { topic: typeof TOPICS[0]; image: string }[] {
   const [y, m, d] = date.split('-').map(Number)
   const start = new Date(y, 0, 0)
   const now = new Date(y, m - 1, d)
   const dayOfYear = Math.floor((now.getTime() - start.getTime()) / 86_400_000)
 
   const base = (dayOfYear * 3) % TOPICS.length
-  const selected: typeof TOPICS = []
+  const selected: { topic: typeof TOPICS[0]; image: string }[] = []
 
   for (let i = 0; i < 3; i++) {
-    selected.push(TOPICS[(base + i) % TOPICS.length])
+    const idx = (base + i) % TOPICS.length
+    selected.push({ topic: TOPICS[idx], image: TOPIC_IMAGES[idx] })
   }
 
   return selected
@@ -230,15 +284,15 @@ export async function GET(req: NextRequest) {
   }
 
   const today = new Date().toISOString().slice(0, 10)
-  const topics = selectTopics(today)
+  const selected = selectTopics(today)
 
-  console.log(`[auto-article] ${today} — a gerar ${topics.length} artigos: ${topics.map(t => t.title).join(' | ')}`)
+  console.log(`[auto-article] ${today} — a gerar ${selected.length} artigos: ${selected.map(s => s.topic.title).join(' | ')}`)
 
   const results: { title: string; slug: string; pushed: boolean; error?: string }[] = []
 
-  for (const topic of topics) {
+  for (const { topic, image } of selected) {
     try {
-      const article = await generateArticle(topic, today)
+      const article = await generateArticle(topic, today, image)
       if (!article) {
         results.push({ title: topic.title, slug: '', pushed: false, error: 'Groq falhou' })
         continue
