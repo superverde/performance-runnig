@@ -52,9 +52,9 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* HERO */}
+      {/* HERO — backgroundColor garante que nunca aparece branco enquanto a imagem carrega */}
       <section className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
+        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
@@ -106,7 +106,7 @@ export default async function HomePage() {
       {/* PUBLICADOS HOJE */}
       {todayArticles.length > 0 && (
         <section className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden"
-          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center 40%' }}>
+          style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center 40%' }}>
           <div className="absolute inset-0 bg-black/95" />
           <div className="absolute inset-0 bg-brand-green/[0.02]" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

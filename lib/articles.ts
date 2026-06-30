@@ -57,21 +57,30 @@ function parseMeta(slug: string): ArticleMeta | null {
 }
 
 /** Get all articles sorted by date descending */
+// Cache em memória — evita ler todos os ficheiros a cada request
+// A instância serverless fica warm 5-15 min; artigos novos aparecem no próximo cold start
+let _articlesCache: { data: ArticleMeta[]; ts: number } | null = null
+const ARTICLES_CACHE_TTL = 60_000 // 60 segundos
+
 export function getAllArticles(): ArticleMeta[] {
+  if (_articlesCache && Date.now() - _articlesCache.ts < ARTICLES_CACHE_TTL) {
+    return _articlesCache.data
+  }
+
   ensureDir()
-
   const files = fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith('.md'))
-
   const articles = files
     .map((f) => parseMeta(f.replace(/\.md$/, '')))
     .filter((a): a is ArticleMeta => a !== null)
 
-  return articles.sort((a, b) => {
-    // Raw date for sort — re-read frontmatter
+  const sorted = articles.sort((a, b) => {
     const rawA = matter(fs.readFileSync(path.join(ARTICLES_DIR, `${a.slug}.md`), 'utf8')).data.date
     const rawB = matter(fs.readFileSync(path.join(ARTICLES_DIR, `${b.slug}.md`), 'utf8')).data.date
     return new Date(rawB).getTime() - new Date(rawA).getTime()
   })
+
+  _articlesCache = { data: sorted, ts: Date.now() }
+  return sorted
 }
 
 /** Get the N most recent articles */
