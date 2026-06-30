@@ -116,3 +116,13 @@ Se fazes ultra trail, provas acima de 12h ou precisas de mapas offline: **Foreru
 A diferença de €100 é real, mas as funcionalidades extra do 955 só fazem sentido para um perfil específico. Para a maioria dos corredores, o 265 é o relógio mais inteligente do mercado neste momento.
 
 [Ver preços actualizados e reviews completas →](/equipamento)
+
+## Referências
+
+Gilgen-Ammann, R., Schweizer, T., & Wyss, T. (2019). RR interval signal quality of a heart rate monitor and an ECG Holter at rest and during exercise. *European Journal of Applied Physiology*, 119(7), 1525–1532.
+
+Gorny, A. W., et al. (2017). Wrist-based heart rate monitors: Are they accurate? *Circulation*, 136(Suppl 1), A17576.
+
+Navalta, J. W., et al. (2020). Accuracy of heart rate derived from a wrist-worn accelerometer and optical sensor during yoga, resistance exercise and aerobic exercise. *Journal of Sports Science & Medicine*, 19(2), 352–360.
+
+Staudenmayer, J., et al. (2009). An artificial neural network to estimate physical activity energy expenditure and identify physical activity type from an accelerometer. *Journal of Applied Physiology*, 107(4), 1300–1307.

@@ -71,3 +71,15 @@ Para maximizar o desenvolvimento do VO2max:
 ## Em Suma
 
 Melhorar o VO2max requer especificidade e precisão — não apenas mais volume ou mais sofrimento. O protocolo 4x4 norueguês e os intervalados ao vVO2max de Billat têm a evidência mais robusta. Mas ambos funcionam melhor quando inseridos numa estrutura de treino maioritariamente aeróbia, com dois dias de alta intensidade bem definidos e o resto do volume a intensidade genuinamente baixa. É a combinação — não o extremo — que produz resultados.
+
+## Referências
+
+Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671.
+
+Billat, V. L. (2001). Interval training for performance: A scientific and empirical practice. *Sports Medicine*, 31(1), 13–31.
+
+Bouchard, C., et al. (1999). Familial aggregation of VO2max response to exercise training: Results from the HERITAGE Family Study. *Journal of Applied Physiology*, 87(3), 1003–1008.
+
+Seiler, S., & Tønnessen, E. (2009). Intervals, thresholds, and long slow distance: The role of intensity and duration in endurance training. *Sportscience*, 13, 32–53.
+
+Midgley, A. W., McNaughton, L. R., & Wilkinson, M. (2006). Is there an optimal training intensity for enhancing the maximal oxygen uptake of distance runners? *Sports Medicine*, 36(2), 117–132.

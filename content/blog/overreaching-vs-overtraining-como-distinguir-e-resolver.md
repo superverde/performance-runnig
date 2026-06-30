@@ -69,3 +69,15 @@ Em todos os casos, a nutrição é crítica: défice calórico crónico — espe
 ## Em Suma
 
 Overreaching funcional é uma ferramenta. Overreaching não-funcional é um erro. Overtraining síndrome é uma crise. A diferença está na capacidade de ler os sinais que o corpo envia e agir antes de atravessares para o estado seguinte. Os melhores atletas não são os que treinam mais — são os que recuperam melhor.
+
+## Referências
+
+Meeusen, R., et al. (2013). Prevention, diagnosis and treatment of the overtraining syndrome. *European Journal of Sport Science*, 13(1), 1–24.
+
+Kreher, J. B., & Schwartz, J. B. (2012). Overtraining syndrome: A practical guide. *Sports Health*, 4(2), 128–138.
+
+Morgan, W. P., et al. (1987). Psychological monitoring of overtraining and staleness. *British Journal of Sports Medicine*, 21(3), 107–114.
+
+Urhausen, A., & Kindermann, W. (2002). Diagnosis of overtraining: What tools do we have? *Sports Medicine*, 32(2), 95–102.
+
+Halson, S. L., & Jeukendrup, A. E. (2004). Does overtraining exist? An analysis of overreaching and overtraining research. *Sports Medicine*, 34(14), 967–981.

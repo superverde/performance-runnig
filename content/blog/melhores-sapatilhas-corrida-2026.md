@@ -125,3 +125,15 @@ A lógica é simples: sapatilhas diferentes ativam padrões de carga muscular li
 Não existe a "melhor sapatilha" — existe a melhor sapatilha para o teu objetivo. Se treinas mais de 60 km/semana com foco na durabilidade e na prevenção de lesões, a HOKA é a escolha mais inteligente. Se queres velocidade em prova, o Vaporfly é imbatível. Se fazes trail, a Salomon Speedcross 6 vai fazer-te passar terrenos onde outros desistem.
 
 [Vê as nossas reviews completas com preços actualizados na página de equipamento →](/equipamento)
+
+## Referências
+
+Hoogkamer, W., et al. (2018). A comparison of the energetic cost of running in marathon racing shoes. *Sports Medicine*, 48(4), 1009–1019.
+
+Kulmala, J. P., et al. (2018). Running in highly cushioned shoes increases leg stiffness and amplifies impact loading. *Scientific Reports*, 8(1), 17496.
+
+Taunton, J. E., et al. (2003). A prospective study of running injuries: The Vancouver Sun Run "In Training" clinics. *British Journal of Sports Medicine*, 37(3), 239–244.
+
+Nigg, B. M., et al. (2015). The preferred movement path paradigm: Influence of running shoes on joint movement. *Medicine & Science in Sports & Exercise*, 47(11), 2419–2427.
+
+Luo, G., Stergiou, P., Worobets, J., Nigg, B., & Stefanyshyn, D. (2009). Improved footwear comfort reduces oxygen consumption during running. *Footwear Science*, 1(1), 25–29.

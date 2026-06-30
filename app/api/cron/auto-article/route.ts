@@ -1,8 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // ─── Auth ──────────────────────────────────────────────────────────────────────
-function isAuthorized(_req: NextRequest): boolean {
-  return true // temporário: auth desativada para publicar artigos manualmente
+function isAuthorized(req: NextRequest): boolean {
+  const auth = req.headers.get('authorization')
+  const secret = process.env.CRON_SECRET
+  if (!secret) return true // sem secret configurado, permite acesso (desenvolvimento)
+  return auth === `Bearer ${secret}`
 }
 
 // ─── Slugify ───────────────────────────────────────────────────────────────────
@@ -109,6 +112,7 @@ REGRAS OBRIGATÓRIAS:
 6. Não incluis links externos
 7. Começa diretamente com o conteúdo após o frontmatter — sem "Introdução:" como heading inicial
 8. Termina com uma secção "## Conclusão" ou "## Em Suma"
+9. OBRIGATÓRIO: inclui sempre uma secção final "## Referências" com 4-6 fontes reais (estudos, livros, investigadores citados no texto) em formato: Apelido, A. (ano). *Título*. Revista/Editora.
 
 FRONTMATTER a incluir no início (mantém EXATAMENTE este formato):
 ---

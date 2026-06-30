@@ -132,3 +132,15 @@ O taper não é o fim do treino. É a fase final — e talvez a mais importante.
 Confia no trabalho que fizeste. Reduz o volume, mantém a intensidade, dorme bem, come bem. Deixa o corpo fazer o que sabe fazer: preparar-se para dar o máximo.
 
 A maratona começa 3 semanas antes do dia da prova.
+
+## Referências
+
+Mujika, I., & Padilla, S. (2003). Scientific bases for precompetition tapering strategies. *Medicine & Science in Sports & Exercise*, 35(7), 1182–1187.
+
+Bosquet, L., et al. (2007). Effects of tapering on performance: A meta-analysis. *Medicine & Science in Sports & Exercise*, 39(8), 1358–1365.
+
+Mujika, I. (2011). The alphabet of tapering. *International Journal of Sports Physiology and Performance*, 6(2), 289–292.
+
+Houmard, J. A., et al. (1994). The effects of taper on performance in distance runners. *Medicine & Science in Sports & Exercise*, 26(5), 624–631.
+
+Zarkadas, P. C., Carter, J. B., & Banister, E. W. (1995). Modelling the effect of taper on performance, maximal oxygen uptake, and the anaerobic threshold in endurance triathletes. *Advances in Experimental Medicine and Biology*, 393, 179–186.

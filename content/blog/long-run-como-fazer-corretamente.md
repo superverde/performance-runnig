@@ -126,3 +126,15 @@ Nas longas corridas, há momentos onde as pernas ficam pesadas, a motivação ca
 O atleta que treinou bem as longas chega à maratona tendo já vivido aquele estado mental dezenas de vezes. Não é surpresa. É terreno conhecido.
 
 Essa é, talvez, a adaptação mais valiosa de todas.
+
+## Referências
+
+Daniels, J. (2005). *Daniels' Running Formula* (2nd ed.). Human Kinetics.
+
+Pfitzinger, P., & Douglas, S. (2009). *Advanced Marathoning* (2nd ed.). Human Kinetics.
+
+Achten, J., & Jeukendrup, A. E. (2004). Optimizing fat oxidation through exercise and diet. *Nutrition*, 20(7–8), 716–727.
+
+Kenefick, R. W., et al. (2010). Dehydration and rehydration. In N. A. S. Taylor & H. Groeller (Eds.), *Physiological Bases of Human Performance During Work and Exercise*. Churchill Livingstone.
+
+Fitzgerald, M. (2014). *80/20 Running: Run Stronger and Race Faster by Training Slower*. New American Library.

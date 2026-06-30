@@ -243,3 +243,15 @@ Com este plano e treino consistente, um corredor de nível intermédio pode espe
 - Chegar à linha de chegada em melhor estado do que na prova anterior
 
 A meia maratona recompensa quem se prepara bem. 12 semanas de trabalho inteligente fazem toda a diferença.
+
+## Referências
+
+Pfitzinger, P., & Douglas, S. (2009). *Advanced Marathoning* (2nd ed.). Human Kinetics.
+
+Daniels, J. (2005). *Daniels' Running Formula* (2nd ed.). Human Kinetics.
+
+Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671.
+
+Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance. *Sports Medicine*, 37(10), 857–880.
+
+Tanaka, H., & Seals, D. R. (2008). Endurance exercise performance in masters athletes: Age-associated changes and underlying physiological mechanisms. *Journal of Physiology*, 586(1), 55–63.

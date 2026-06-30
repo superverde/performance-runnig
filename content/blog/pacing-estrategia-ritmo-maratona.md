@@ -106,3 +106,15 @@ O melhor pacing não é o mais dramático — é o mais chato. É correr o km 5 
 Os corredores que chegam ao km 40 ainda a correr bem não são super-heróis. São corredores que foram pacientes nos primeiros 30 km quando toda a gente ao redor estava a ir mais rápido.
 
 A maratona recompensa quem espera. Sempre.
+
+## Referências
+
+Abbiss, C. R., & Laursen, P. B. (2008). Describing and understanding pacing strategies during athletic competition. *Sports Medicine*, 38(3), 239–252.
+
+Hanley, B. (2016). Pacing, packing and sex-based differences in Olympic and IAAF World Championship marathons. *Journal of Sports Sciences*, 34(17), 1675–1681.
+
+Tucker, R., & Noakes, T. D. (2009). The anticipatory regulation of performance: The physiological basis for pacing strategies and the development of a perception-based model for exercise performance. *British Journal of Sports Medicine*, 43(6), 392–400.
+
+Santos-Lozano, A., et al. (2014). Pacing strategy of the best performersNT in the world half-marathon record. *Journal of Strength and Conditioning Research*, 28(4), 1143–1150.
+
+Renfree, A., & Gibson, A. S. C. (2013). Influence of different performance levels on pacing strategy during the women's world championship marathon race. *International Journal of Sports Physiology and Performance*, 8(3), 267–273.

@@ -101,3 +101,15 @@ Se te convém correr de manhã antes do pequeno-almoço por razões logísticas,
 Se estás a forçar o jejum na esperança de uma transformação metabólica dramática, os dados não suportam essa expectativa.
 
 Como sempre em fisiologia: o contexto importa mais do que a regra.
+
+## Referências
+
+Volek, J. S., et al. (2016). Metabolic characteristics of keto-adapted ultra-endurance runners. *Metabolism*, 65(3), 100–110.
+
+Burke, L. M., et al. (2017). Low carbohydrate, high fat diet impairs exercise economy and negates the performance benefit from intensified training in elite race walkers. *Journal of Physiology*, 595(9), 2785–2807.
+
+Van Proeyen, K., et al. (2011). Beneficial metabolic adaptations due to endurance exercise training in the fasted state. *Journal of Applied Physiology*, 110(1), 236–245.
+
+Impey, S. G., et al. (2018). Fuel for the work required: A theoretical framework for carbohydrate periodization and the glycogen threshold hypothesis. *Sports Medicine*, 48(5), 1031–1048.
+
+Jeukendrup, A. E. (2017). Periodized nutrition for athletes. *Sports Medicine*, 47(Suppl 1), 51–63.

@@ -77,3 +77,15 @@ Estudos com atletas de elite mostram que aumentar o sono para 9-10 horas por noi
 A recuperação ativa e passiva não são opostos — são ferramentas complementares com indicações distintas. O movimento leve acelera a limpeza de metabolitos e reduz a rigidez quando a fadiga é normal e localizada. O repouso total é a resposta certa quando o corpo sinaliza sobrecarga sistémica, lesão ou privação de sono.
 
 Aprender a ler estes sinais é uma competência que separa os atletas que progridem continuamente dos que ficam presos em ciclos de fadiga crónica. O corpo fala — a questão é saber ouvir.
+
+## Referências
+
+Hermansen, L., & Stensvold, I. (1972). Production and removal of lactate during exercise in man. *Acta Physiologica Scandinavica*, 86(2), 191–201.
+
+Menzies, P., et al. (2010). Blood lactate clearance during active recovery after an intense running bout depends on the intensity of the active recovery. *Journal of Sports Sciences*, 28(9), 975–982.
+
+Dupont, G., et al. (2004). Effect of 2 soccer matches in a week on physical performance and injury rate. *American Journal of Sports Medicine*, 38(9), 1752–1758.
+
+Kellmann, M. (2010). Preventing overtraining in athletes in high-intensity sports and stress/recovery monitoring. *Scandinavian Journal of Medicine & Science in Sports*, 20(Suppl 2), 95–102.
+
+Walker, M. P. (2017). *Why We Sleep: Unlocking the Power of Sleep and Dreams*. Scribner.

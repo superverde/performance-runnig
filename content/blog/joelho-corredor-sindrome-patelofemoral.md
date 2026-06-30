@@ -137,3 +137,15 @@ Consulta um profissional se:
 A síndrome patelofemoral não é uma sentença. Com a abordagem correta — identificar a causa, fortalecer os elos fracos da cadeia, reintroduzir a corrida progressivamente — a grande maioria dos corredores recupera completamente e corre sem dor.
 
 O segredo está em perceber que o problema raramente está onde dói.
+
+## Referências
+
+Crossley, K. M., et al. (2016). 2016 Patellofemoral pain consensus statement from the 4th International Patellofemoral Pain Research Retreat: Part 1. *British Journal of Sports Medicine*, 50(14), 839–843.
+
+Willy, R. W., & Davis, I. S. (2011). The effect of a hip-strengthening program on mechanics during running and during a single-leg squat. *Journal of Orthopaedic & Sports Physical Therapy*, 41(9), 625–632.
+
+Noehren, B., Davis, I., & Hamill, J. (2007). ASB clinical biomechanics award winner 2006 prospective study of the biomechanical factors associated with iliotibial band syndrome. *Clinical Biomechanics*, 22(9), 951–956.
+
+Powers, C. M. (2010). The influence of abnormal hip mechanics on knee injury: A biomechanical perspective. *Journal of Orthopaedic & Sports Physical Therapy*, 40(2), 42–51.
+
+Neal, B. S., et al. (2019). Running retraining to treat lower limb injuries: A mixed-methods study of practitioners' beliefs and practices. *British Journal of Sports Medicine*, 53(13), 840–847.

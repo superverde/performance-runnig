@@ -131,3 +131,15 @@ As 7 estratégias acima funcionam. Mas nenhuma delas funciona em 3 semanas. O si
 O corredor que treina regularmente com intensidade moderada durante 2 anos bate o corredor que treina intensivamente durante 3 meses e para. Sempre.
 
 A velocidade é construída, não encontrada. E constrói-se tijolo a tijolo, semana a semana, com paciência e método.
+
+## Referências
+
+Daniels, J. (2005). *Daniels' Running Formula* (2nd ed.). Human Kinetics.
+
+Barnes, K. R., & Kilding, A. E. (2015). Running economy: Measurement, norms, and determining factors. *Sports Medicine Open*, 1(1), 8.
+
+Saunders, P. U., et al. (2004). Factors affecting running economy in trained distance runners. *Sports Medicine*, 34(7), 465–485.
+
+Storen, O., et al. (2008). Maximal strength training improves running economy in distance runners. *Medicine & Science in Sports & Exercise*, 40(6), 1087–1092.
+
+Seiler, S., & Tønnessen, E. (2009). Intervals, thresholds, and long slow distance: The role of intensity and duration in endurance training. *Sportscience*, 13, 32–53.

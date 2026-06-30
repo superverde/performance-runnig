@@ -65,3 +65,15 @@ A duração ótima situa-se entre 10 e 15 minutos. Abaixo de 5 minutos o efeito 
 ## Em Suma
 
 A imersão em água fria funciona — mas não da forma absoluta que os seus defensores mais entusiastas proclamam. Reduz a dor muscular percebida e pode acelerar a recuperação funcional em contextos específicos. Mas usada indiscriminadamente após todos os treinos, pode comprometer as adaptações de longo prazo que o treino visa induzir. Usa-a estrategicamente, quando a recuperação rápida importa mais do que a adaptação máxima — e poupa os banhos de gelo para quando realmente precisas deles.
+
+## Referências
+
+Bleakley, C., et al. (2012). Cold-water immersion (cryotherapy) for preventing and treating muscle soreness after exercise. *Cochrane Database of Systematic Reviews*, 2, CD008262.
+
+Roberts, L. A., et al. (2015). Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training. *Journal of Physiology*, 593(18), 4285–4301.
+
+Hohenauer, E., et al. (2015). The effect of post-exercise cryotherapy on recovery characteristics: A systematic review and meta-analysis. *PLOS ONE*, 10(9), e0139028.
+
+Versey, N. G., Halson, S. L., & Dawson, B. T. (2013). Water immersion recovery for athletes: Effect on exercise performance and practical recommendations. *Sports Medicine*, 43(11), 1101–1130.
+
+Ihsan, M., Watson, G., & Abbiss, C. R. (2016). What are the physiological mechanisms for post-exercise cold water immersion in the recovery from prolonged endurance and intermittent exercise? *Sports Medicine*, 46(8), 1095–1109.

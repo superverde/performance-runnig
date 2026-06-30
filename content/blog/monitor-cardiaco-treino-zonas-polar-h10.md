@@ -125,3 +125,15 @@ Se treinas por zonas de FC a sério, a **Polar H10** a €90 é o melhor investi
 Se a cinta peitoral não é uma opção, o **Polar Verity Sense** a €65 é a melhor alternativa disponível.
 
 [Ver ambas as opções com preços actualizados e onde comprar →](/equipamento)
+
+## Referências
+
+Gilgen-Ammann, R., Schweizer, T., & Wyss, T. (2019). RR interval signal quality of a heart rate monitor and an ECG Holter at rest and during exercise. *European Journal of Applied Physiology*, 119(7), 1525–1532.
+
+Stahl, S. E., et al. (2016). A 6-month study of low-intensity exercise or stretching alters the gut microbiota and serum metabolome in sedentary adults. *Medicine & Science in Sports & Exercise*, 48(5), 947–955.
+
+Achten, J., & Jeukendrup, A. E. (2003). Heart rate monitoring: Applications and limitations. *Sports Medicine*, 33(7), 517–538.
+
+Seiler, S., & Kjerland, G. Ø. (2006). Quantifying training intensity distribution in elite endurance athletes: Is there evidence for an "optimal" distribution? *Scandinavian Journal of Medicine & Science in Sports*, 16(1), 49–56.
+
+Polar Electro. (2020). *Polar H10 Heart Rate Sensor — Technical Specifications*. Polar Electro Oy.
