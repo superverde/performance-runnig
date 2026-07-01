@@ -48,31 +48,52 @@ function ensureDir() {
   }
 }
 
-/** Parse a single .md file and return ArticleMeta */
+/**
+ * Parse a single .md file e devolve ArticleMeta.
+ *
+ * Envolvido em try/catch de propósito: um único ficheiro com frontmatter
+ * inválido (ex.: YAML truncado a meio por uma escrita incompleta) NÃO deve
+ * derrubar a listagem inteira do blog, o sitemap ou o RSS feed — só esse
+ * artigo é ignorado (com aviso na consola) e os restantes continuam a
+ * funcionar normalmente. Isto aconteceu em 2026-07-01 com lib/articles.ts
+ * (não um artigo, mas o mesmo tipo de escrita truncada) e partiu o build;
+ * esta blindagem existe para que um artigo malformado nunca tenha o mesmo
+ * impacto.
+ */
 function parseMeta(slug: string): ArticleMeta | null {
   const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
   if (!fs.existsSync(filePath)) return null
 
-  const raw = fs.readFileSync(filePath, 'utf8')
-  const { data, content } = matter(raw)
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8')
+    const { data, content } = matter(raw)
 
-  const wordCount = content.split(/\s+/).length
-  // Respect frontmatter readTime; fallback to word-count estimate
-  const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
+    if (!data.title || !data.date) {
+      console.error(`[articles] "${slug}.md" sem title/date no frontmatter — ignorado`)
+      return null
+    }
 
-  const rawDate = toISODate(data.date)
+    const wordCount = content.split(/\s+/).length
+    // Respect frontmatter readTime; fallback to word-count estimate
+    const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
 
-  return {
-    slug,
-    title: data.title ?? slug,
-    excerpt: data.excerpt ?? content.slice(0, 160).replace(/[#*_]/g, '') + '…',
-    rawDate,
-    date: rawDate
-      ? format(new Date(rawDate), "d 'de' MMMM 'de' yyyy", { locale: pt })
-      : '',
-    category: data.category ?? 'Treino',
-    readTime,
-    coverImage: data.coverImage,
+    const rawDate = toISODate(data.date)
+
+    return {
+      slug,
+      title: data.title ?? slug,
+      excerpt: data.excerpt ?? content.slice(0, 160).replace(/[#*_]/g, '') + '…',
+      rawDate,
+      date: rawDate
+        ? format(new Date(rawDate), "d 'de' MMMM 'de' yyyy", { locale: pt })
+        : '',
+      category: data.category ?? 'Treino',
+      readTime,
+      coverImage: data.coverImage,
+    }
+  } catch (err) {
+    console.error(`[articles] Falha ao processar "${slug}.md" — artigo ignorado:`, err)
+    return null
   }
 }
 
@@ -115,30 +136,35 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
   if (!fs.existsSync(filePath)) return null
 
-  const raw = fs.readFileSync(filePath, 'utf8')
-  const { data, content: mdContent } = matter(raw)
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8')
+    const { data, content: mdContent } = matter(raw)
 
-  const processed = await remark().use(remarkHtml, { sanitize: false }).process(mdContent)
-  const htmlContent = processed.toString()
+    const processed = await remark().use(remarkHtml, { sanitize: false }).process(mdContent)
+    const htmlContent = processed.toString()
 
-  const wordCount = mdContent.split(/\s+/).length
-  // Respect frontmatter readTime; fallback to word-count estimate
-  const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
+    const wordCount = mdContent.split(/\s+/).length
+    // Respect frontmatter readTime; fallback to word-count estimate
+    const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
 
-  const rawDate = toISODate(data.date)
+    const rawDate = toISODate(data.date)
 
-  return {
-    slug,
-    title: data.title ?? slug,
-    excerpt: data.excerpt ?? mdContent.slice(0, 160).replace(/[#*_]/g, '') + '…',
-    rawDate,
-    date: rawDate
-      ? format(new Date(rawDate), "d 'de' MMMM 'de' yyyy", { locale: pt })
-      : '',
-    category: data.category ?? 'Treino',
-    readTime,
-    coverImage: data.coverImage,
-    content: htmlContent,
+    return {
+      slug,
+      title: data.title ?? slug,
+      excerpt: data.excerpt ?? mdContent.slice(0, 160).replace(/[#*_]/g, '') + '…',
+      rawDate,
+      date: rawDate
+        ? format(new Date(rawDate), "d 'de' MMMM 'de' yyyy", { locale: pt })
+        : '',
+      category: data.category ?? 'Treino',
+      readTime,
+      coverImage: data.coverImage,
+      content: htmlContent,
+    }
+  } catch (err) {
+    console.error(`[articles] Falha ao renderizar "${slug}.md":`, err)
+    return null
   }
 }
 
