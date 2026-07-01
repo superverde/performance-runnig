@@ -1,6 +1,6 @@
 ---
 title: "Placa de Carbono nas Sapatilhas: O Que a Ciência Diz Sobre os Super Sapatos"
-date: 2026-07-01
+date: '2026-07-01'
 category: "Biomecânica"
 excerpt: "As sapatilhas com placa de carbono revolucionaram os recordes de maratona. Analisamos os mecanismos fisiológicos e biomecânicos por trás do ganho real de performance."
 readTime: 9
@@ -43,4 +43,4 @@ Barnes, K. R., & Kilding, A. E. (2019). A randomized crossover study investigati
 
 Hunter, I., McLeod, A., Valentine, D., Low, T., Ward, J., & Hager, R. (2019). Running economy, mechanics, and marathon racing shoes. *Journal of Sports Sciences*, 37(20), 2367–2373. https://doi.org/10.1080/02640414.2019.1633837
 
-Nigg, B. M., Cigoja, S., & Nigg, S. R. (2020). Effects of running shoe construction on performance in long distance running. *Footwear Science*, 12(3), 133–138. https://doi.org/10.1080/19424280.2020.1773936
+Nigg, B. M., Cigoja, S., & Nigg, S. R. (2020). Effects of running shoe construction on performance in long distance running. *Footwear Science*, 12(3), 133–138. https://doi.org/10.1080/19424280.2020.177393

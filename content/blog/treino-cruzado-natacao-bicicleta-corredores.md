@@ -1,6 +1,6 @@
 ---
 title: "Treino Cruzado para Corredores: Natação, Bicicleta e Elíptica na Prática"
-date: 2026-07-01
+date: '2026-07-01'
 category: "Treino"
 excerpt: "Como usar natação, ciclismo e elíptica para manter e até melhorar a capacidade aeróbia sem sobrecarregar as estruturas que absorvem o impacto da corrida."
 readTime: 8
@@ -48,4 +48,4 @@ Foster, C., Hector, L. L., Welsh, R., Schrager, M., Green, M. A., & Snyder, A. C
 
 Mutton, D. L., Loy, S. F., Rogers, D. M., Holland, G. J., Vincent, W. J., & Heng, M. (1993). Effect of run vs combined cycle/run training on VO2max and running performance. *Medicine & Science in Sports & Exercise*, 25(12), 1393–1397. https://doi.org/10.1249/00005768-199312000-00013
 
-Loy, S. F., Hoffmann, J. J., & Holland, G. J. (1995). Benefits and practical use of cross-training in sports. *Sports Medicine*, 19(1), 1–8. https://doi.org/10.2165/00007256-199519010-00001
+Loy, S. F., Hoffmann, J. J., & Holland, G. J. (1995). Benefits and practical use of cross-training in sports. *Sports Medicine*, 19(1), 1–8. https://doi.org/10.2165/00007256-199519010-0000

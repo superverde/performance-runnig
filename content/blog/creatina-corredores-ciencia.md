@@ -1,6 +1,6 @@
 ---
 title: "Creatina para Corredores: O Que a Ciência Realmente Diz"
-date: 2026-06-27
+date: '2026-06-27'
 category: "Nutrição"
 excerpt: "A creatina é o suplemento mais estudado em desporto, mas a maioria dos corredores não a usa. Será que faz sentido? A ciência tem uma resposta mais interessante do que imaginas."
 readTime: 7

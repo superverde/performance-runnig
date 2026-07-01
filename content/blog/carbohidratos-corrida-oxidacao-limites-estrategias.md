@@ -1,6 +1,6 @@
 ---
 title: "Carbohidratos em Corrida: Oxidação, Limites Fisiológicos e Estratégias para Ir Mais Rápido"
-date: 2026-06-27
+date: '2026-06-27'
 category: "Nutrição"
 excerpt: "O corpo tem limites bem definidos na capacidade de oxidar carbohidratos durante o exercício — e a maioria dos corredores ignora-os completamente. Aprende a ciência por detrás da nutrição em corrida e como maximizar a energia disponível."
 readTime: 9

@@ -1,6 +1,6 @@
 ---
 title: "Gel Energético vs. Alimentos Sólidos em Corrida: O Que a Ciência Diz"
-date: 2026-06-27
+date: '2026-06-27'
 category: "Nutrição"
 excerpt: "Gel energético ou comida sólida? A resposta depende da duração da prova, da tolerância gastrointestinal e da velocidade de oxidação dos hidratos. Aqui tens a ciência aplicada."
 readTime: 8

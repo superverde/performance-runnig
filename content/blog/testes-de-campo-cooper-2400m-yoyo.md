@@ -1,6 +1,6 @@
 ---
 title: "Testes de Campo para Corredores: Cooper, 2400m e Yo-Yo Explicados"
-date: 2026-07-01
+date: '2026-07-01'
 category: "Treino"
 excerpt: "Sem laboratório, sem lactímetro: descubra como os testes de campo permitem estimar o VO2max, calibrar zonas de treino e acompanhar a evolução com rigor científico."
 readTime: 8
@@ -48,4 +48,4 @@ Léger, L. A., Mercier, D., Gadoury, C., & Lambert, J. (1988). The multistage 20
 
 Krustrup, P., Mohr, M., Amstrup, T., Rysgaard, T., Johansen, J., Steensberg, A., Pedersen, P. K., & Bangsbo, J. (2003). The yo-yo intermittent recovery test: Physiological response, reliability, and validity. *Medicine & Science in Sports & Exercise*, 35(4), 697–705. https://doi.org/10.1249/01.MSS.0000058441.94520.32
 
-Bundle, M. W., Hoyt, R. W., & Weyand, P. G. (2003). High-speed running performance: A new approach to assessment and prediction. *Journal of Applied Physiology*, 95(5), 1955–1962. https://doi.org/10.1152/japplphysiol.00506.2003
+Bundle, M. W., Hoyt, R. W., & Weyand, P. G. (2003). High-speed running performance: A new approach to assessment and prediction. *Journal of Applied Physiology*, 95(5), 1955–1962. https://doi.org/10.1152/japplphysiol.00506.200

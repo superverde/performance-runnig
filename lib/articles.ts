@@ -8,6 +8,24 @@ import { pt } from 'date-fns/locale'
 
 const ARTICLES_DIR = path.join(process.cwd(), 'content', 'blog')
 
+/**
+ * Normaliza o campo `date` do frontmatter para uma string ISO "YYYY-MM-DD".
+ *
+ * gray-matter usa js-yaml para fazer parse do frontmatter. Em YAML, um valor
+ * de data SEM aspas (ex.: `date: 2026-07-01`) é interpretado como um timestamp
+ * YAML e chega aqui como objeto `Date`, enquanto um valor COM aspas
+ * (ex.: `date: '2026-07-01'`) chega como `string`. Sem esta normalização,
+ * comparações de igualdade como `rawDate === today` falhavam silenciosamente
+ * sempre que um artigo era escrito com a data sem aspas — foi o que aconteceu
+ * em 2026-07-01, onde 3 de 4 artigos do dia desapareceram do filtro
+ * "Publicados Hoje" por terem `date` sem aspas no frontmatter.
+ */
+function toISODate(value: unknown): string {
+  if (!value) return ''
+  if (value instanceof Date) return value.toISOString().slice(0, 10)
+  return String(value).slice(0, 10)
+}
+
 export interface ArticleMeta {
   slug: string
   title: string
@@ -42,13 +60,15 @@ function parseMeta(slug: string): ArticleMeta | null {
   // Respect frontmatter readTime; fallback to word-count estimate
   const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
 
+  const rawDate = toISODate(data.date)
+
   return {
     slug,
     title: data.title ?? slug,
     excerpt: data.excerpt ?? content.slice(0, 160).replace(/[#*_]/g, '') + '…',
-    rawDate: data.date ?? '',
-    date: data.date
-      ? format(new Date(data.date), "d 'de' MMMM 'de' yyyy", { locale: pt })
+    rawDate,
+    date: rawDate
+      ? format(new Date(rawDate), "d 'de' MMMM 'de' yyyy", { locale: pt })
       : '',
     category: data.category ?? 'Treino',
     readTime,
@@ -73,11 +93,7 @@ export function getAllArticles(): ArticleMeta[] {
     .map((f) => parseMeta(f.replace(/\.md$/, '')))
     .filter((a): a is ArticleMeta => a !== null)
 
-  const sorted = articles.sort((a, b) => {
-    const rawA = matter(fs.readFileSync(path.join(ARTICLES_DIR, `${a.slug}.md`), 'utf8')).data.date
-    const rawB = matter(fs.readFileSync(path.join(ARTICLES_DIR, `${b.slug}.md`), 'utf8')).data.date
-    return new Date(rawB).getTime() - new Date(rawA).getTime()
-  })
+  const sorted = articles.sort((a, b) => new Date(b.rawDate).getTime() - new Date(a.rawDate).getTime())
 
   _articlesCache = { data: sorted, ts: Date.now() }
   return sorted
@@ -109,13 +125,15 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
   // Respect frontmatter readTime; fallback to word-count estimate
   const readTime = data.readTime ?? Math.max(1, Math.round(wordCount / 200))
 
+  const rawDate = toISODate(data.date)
+
   return {
     slug,
     title: data.title ?? slug,
     excerpt: data.excerpt ?? mdContent.slice(0, 160).replace(/[#*_]/g, '') + '…',
-    rawDate: data.date ?? '',
-    date: data.date
-      ? format(new Date(data.date), "d 'de' MMMM 'de' yyyy", { locale: pt })
+    rawDate,
+    date: rawDate
+      ? format(new Date(rawDate), "d 'de' MMMM 'de' yyyy", { locale: pt })
       : '',
     category: data.category ?? 'Treino',
     readTime,

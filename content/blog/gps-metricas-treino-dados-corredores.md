@@ -1,6 +1,6 @@
 ---
 title: "GPS e Métricas de Treino: Os Dados que Realmente Importam para Corredores"
-date: 2026-06-30
+date: '2026-06-30'
 category: "Treino"
 excerpt: "Os relógios GPS modernos geram dezenas de métricas por sessão — mas quais têm realmente valor científico? Aprenda a filtrar o ruído e a usar os dados que impactam a sua performance."
 readTime: 10
