@@ -57,6 +57,11 @@ const CATEGORIAS: Record<string, { label: string; description: string; hero: str
     description: 'VO2max — o que é, como se mede, como melhorar e qual a sua relação com a performance em corrida de fundo e trail running.',
     hero: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1920&q=80',
   },
+  equipamento: {
+    label: 'Equipamento',
+    description: 'Guias de compra e comparativos de equipamento de corrida — sapatilhas, relógios GPS, mochilas de trail e acessórios testados e analisados.',
+    hero: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1920&q=80',
+  },
 }
 
 /* OG image per category */
@@ -70,6 +75,7 @@ const categoryOgImages: Record<string, string> = {
   'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
   'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1200&q=80',
   'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&q=80',
+  'Equipamento':   'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1200&q=80',
 }
 const defaultOgImage = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'
 

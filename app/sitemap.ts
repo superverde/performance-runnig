@@ -11,6 +11,7 @@ const MODALIDADES_SLUGS = [
 const BLOG_CATEGORIAS = [
   'treino', 'fisiologia', 'nutricao', 'biomecanica',
   'recuperacao', 'psicologia', 'trail-running', 'lesoes', 'vo2max',
+  'equipamento',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
