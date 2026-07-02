@@ -1,5 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+// Tempo máximo de execução: gerar 3 artigos (Groq + GitHub) demora ~30s.
+// Sem isto, o Vercel mata a função ao fim de ~10s e só 1 artigo é publicado.
+export const maxDuration = 60
+export const dynamic = 'force-dynamic'
+
 // ─── Auth ──────────────────────────────────────────────────────────────────────
 function isAuthorized(req: NextRequest): boolean {
   const auth = req.headers.get('authorization')
@@ -205,11 +210,11 @@ Escreve o artigo completo agora:`
 }
 
 // ─── Push para GitHub via API ──────────────────────────────────────────────────
-async function pushToGitHub(slug: string, content: string): Promise<boolean> {
+async function pushToGitHub(slug: string, content: string): Promise<'created' | 'exists' | 'error'> {
   const token = process.env.GITHUB_TOKEN
   if (!token) {
     console.error('[auto-article] GITHUB_TOKEN não definido')
-    return false
+    return 'error'
   }
 
   const owner = 'superverde'
@@ -229,7 +234,7 @@ async function pushToGitHub(slug: string, content: string): Promise<boolean> {
   if (checkRes.ok) {
     // Ficheiro já existe — não sobrescrever
     console.warn(`[auto-article] Ficheiro já existe: ${slug}.md — a saltar`)
-    return false
+    return 'exists'
   }
 
   // Criar ficheiro novo
@@ -253,66 +258,109 @@ async function pushToGitHub(slug: string, content: string): Promise<boolean> {
   if (!res.ok) {
     const err = await res.text()
     console.error(`[auto-article] GitHub API erro (${res.status}): ${err}`)
-    return false
+    return 'error'
   }
 
-  return true
+  return 'created'
 }
 
-// ─── Selecionar 3 tópicos para hoje ────────────────────────────────────────────
-function selectTopics(date: string): { topic: typeof TOPICS[0]; image: string }[] {
+// ─── Verificar se o artigo já existe no GitHub (barato — evita gastar Groq) ────
+async function articleExists(slug: string): Promise<boolean> {
+  const token = process.env.GITHUB_TOKEN
+  if (!token) return false
+
+  const url = `https://api.github.com/repos/superverde/performance-runnig/contents/content/blog/${slug}.md`
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'PerformanceRunning-AutoArticle',
+    },
+  })
+  return res.ok
+}
+
+// ─── Ordenar o banco de tópicos a partir do dia ────────────────────────────────
+// Devolve TODOS os tópicos por ordem, começando no índice do dia. O handler
+// percorre a lista até conseguir publicar 3 — se um slug já existir no GitHub,
+// avança para o tópico seguinte em vez de perder a publicação do dia.
+function orderedTopics(date: string): { topic: typeof TOPICS[0]; image: string }[] {
   const [y, m, d] = date.split('-').map(Number)
   const start = new Date(y, 0, 0)
   const now = new Date(y, m - 1, d)
   const dayOfYear = Math.floor((now.getTime() - start.getTime()) / 86_400_000)
 
   const base = (dayOfYear * 3) % TOPICS.length
-  const selected: { topic: typeof TOPICS[0]; image: string }[] = []
+  const ordered: { topic: typeof TOPICS[0]; image: string }[] = []
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < TOPICS.length; i++) {
     const idx = (base + i) % TOPICS.length
-    selected.push({ topic: TOPICS[idx], image: TOPIC_IMAGES[idx] })
+    ordered.push({ topic: TOPICS[idx], image: TOPIC_IMAGES[idx % TOPIC_IMAGES.length] })
   }
 
-  return selected
+  return ordered
 }
 
 // ─── Handler principal ─────────────────────────────────────────────────────────
+const DAILY_TARGET = 3 // artigos obrigatórios por dia — 3x/dia sempre
+
 export async function GET(req: NextRequest) {
   if (!isAuthorized(req)) {
     return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
   }
 
   const today = new Date().toISOString().slice(0, 10)
-  const selected = selectTopics(today)
+  const candidates = orderedTopics(today)
 
-  console.log(`[auto-article] ${today} — a gerar ${selected.length} artigos: ${selected.map(s => s.topic.title).join(' | ')}`)
+  console.log(`[auto-article] ${today} — objetivo: ${DAILY_TARGET} artigos`)
 
-  const results: { title: string; slug: string; pushed: boolean; error?: string }[] = []
+  const results: { title: string; slug: string; pushed: boolean; skipped?: boolean; error?: string }[] = []
+  let pushed = 0
 
-  for (const { topic, image } of selected) {
+  for (const { topic, image } of candidates) {
+    if (pushed >= DAILY_TARGET) break
+
     try {
+      // Verificação barata antes de gastar tokens Groq
+      const slug = slugify(topic.title)
+      if (await articleExists(slug)) {
+        results.push({ title: topic.title, slug, pushed: false, skipped: true })
+        continue
+      }
+
       const article = await generateArticle(topic, today, image)
       if (!article) {
         results.push({ title: topic.title, slug: '', pushed: false, error: 'Groq falhou' })
         continue
       }
 
-      const pushed = await pushToGitHub(article.slug, article.md)
-      results.push({ title: article.title, slug: article.slug, pushed })
+      const status = await pushToGitHub(article.slug, article.md)
 
-      // Pausa entre chamadas à API
-      await new Promise((r) => setTimeout(r, 2000))
+      if (status === 'created') {
+        pushed++
+        results.push({ title: article.title, slug: article.slug, pushed: true })
+      } else if (status === 'exists') {
+        // Já publicado noutro dia — tentar o próximo tópico do banco
+        results.push({ title: article.title, slug: article.slug, pushed: false, skipped: true })
+      } else {
+        results.push({ title: article.title, slug: article.slug, pushed: false, error: 'GitHub falhou' })
+      }
+
+      // Pausa curta entre chamadas à API (rate limiting)
+      await new Promise((r) => setTimeout(r, 500))
     } catch (err) {
       results.push({ title: topic.title, slug: '', pushed: false, error: String(err) })
     }
   }
 
-  const pushed = results.filter(r => r.pushed).length
-  const skipped = results.filter(r => !r.pushed && !r.error).length
+  const skipped = results.filter(r => r.skipped).length
   const errors = results.filter(r => r.error).length
 
-  console.log(`[auto-article] Concluído — ${pushed} publicados, ${skipped} saltados, ${errors} erros`)
+  if (pushed < DAILY_TARGET) {
+    console.error(`[auto-article] ATENÇÃO: só ${pushed}/${DAILY_TARGET} artigos publicados`)
+  }
+
+  console.log(`[auto-article] Concluído — ${pushed}/${DAILY_TARGET} publicados, ${skipped} saltados, ${errors} erros`)
 
   return NextResponse.json({
     date: today,
