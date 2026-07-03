@@ -211,4 +211,6 @@ export async function GET(req: NextRequest) {
     date: yesterday,
     totalClicksYesterday: Object.values(clicks.yesterday).reduce((a, b) => a + b, 0),
     totalClicksToday: Object.values(clicks.today).reduce((a, b) => a + b, 0),
-    totalAccumulated: Object
+    totalAccumulated: Object.values(clicks.total).reduce((a, b) => a + b, 0),
+  })
+}
