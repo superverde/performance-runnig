@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 import { Redis } from '@upstash/redis'
 
 // ── Constantes ────────────────────────────────────────────────────────────────
-const GA4_PROPERTY_ID = '542465280'
 const REPORT_TO       = 'pedronunes5556@gmail.com'
 const SITE_URL        = 'https://www.performancerunning.pt'
 
@@ -17,129 +16,63 @@ function isAuthorized(req: NextRequest): boolean {
   return auth === `Bearer ${secret}`
 }
 
-// ── GA4 REST API (service account JWT) ───────────────────────────────────────
-/**
- * Cria um JWT assinado RS256 para autenticar no Google API.
- * Usa Web Crypto nativo — funciona no Edge Runtime e no Node.
- */
-async function getGoogleAccessToken(): Promise<string | null> {
-  const keyJson = process.env.GA4_SERVICE_ACCOUNT_KEY
-  if (!keyJson) return null
-
-  try {
-    const sa = JSON.parse(keyJson)
-    const now = Math.floor(Date.now() / 1000)
-
-    const header  = btoa(JSON.stringify({ alg: 'RS256', typ: 'JWT' })).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_')
-    const payload = btoa(JSON.stringify({
-      iss: sa.client_email,
-      scope: 'https://www.googleapis.com/auth/analytics.readonly',
-      aud: 'https://oauth2.googleapis.com/token',
-      iat: now,
-      exp: now + 3600,
-    })).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_')
-
-    const signing = `${header}.${payload}`
-
-    // Importa a chave privada PEM
-    const pemBody = sa.private_key
-      .replace(/-----BEGIN PRIVATE KEY-----/g, '')
-      .replace(/-----END PRIVATE KEY-----/g, '')
-      .replace(/\n/g, '')
-
-    const keyDer = Uint8Array.from(atob(pemBody), c => c.charCodeAt(0))
-    const cryptoKey = await crypto.subtle.importKey(
-      'pkcs8',
-      keyDer,
-      { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' },
-      false,
-      ['sign'],
-    )
-
-    const sigBuffer = await crypto.subtle.sign('RSASSA-PKCS1-v1_5', cryptoKey, new TextEncoder().encode(signing))
-    const sigBytes = new Uint8Array(sigBuffer)
-    let sigStr = ''
-    for (let i = 0; i < sigBytes.length; i++) sigStr += String.fromCharCode(sigBytes[i])
-    const sig = btoa(sigStr).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_')
-
-    const jwt = `${signing}.${sig}`
-
-    // Troca o JWT por um access token
-    const res = await fetch('https://oauth2.googleapis.com/token', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams({
-        grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer',
-        assertion: jwt,
-      }),
-    })
-    const data = await res.json() as { access_token?: string }
-    return data.access_token ?? null
-  } catch (err) {
-    console.error('[daily-report] Erro JWT GA4:', err)
-    return null
-  }
-}
-
-interface GA4Stats {
-  sessions: number
-  activeUsers: number
+// ── Vercel Web Analytics API ─────────────────────────────────────────────────
+// Substitui o GA4 — não precisa de Google Cloud/service account, só de um
+// Access Token da própria Vercel. Docs: https://vercel.com/docs/analytics/web-analytics-api
+interface AnalyticsStats {
   pageviews: number
+  visitors: number
   topPages: { path: string; views: number }[]
 }
 
-async function getGA4Stats(yesterday: string): Promise<GA4Stats | null> {
-  const token = await getGoogleAccessToken()
-  if (!token) return null
+async function vercelAnalyticsQuery(endpoint: string, params: Record<string, string>) {
+  const token = process.env.VERCEL_ANALYTICS_TOKEN
+  const projectId = process.env.VERCEL_PROJECT_ID
+  const teamId = process.env.VERCEL_TEAM_ID
+  if (!token || !projectId) return null
+
+  const search = new URLSearchParams({ projectId, ...params })
+  if (teamId) search.set('teamId', teamId)
+
+  const res = await fetch(`https://api.vercel.com/v1/query/web-analytics/${endpoint}?${search.toString()}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+  if (!res.ok) {
+    console.error(`[daily-report] Erro Vercel Analytics (${endpoint}):`, await res.text())
+    return null
+  }
+  return res.json()
+}
+
+async function getVercelAnalyticsStats(yesterday: string): Promise<AnalyticsStats | null> {
+  if (!process.env.VERCEL_ANALYTICS_TOKEN || !process.env.VERCEL_PROJECT_ID) return null
 
   try {
-    const res = await fetch(
-      `https://analyticsdata.googleapis.com/v1beta/properties/${GA4_PROPERTY_ID}:runReport`,
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          dateRanges: [{ startDate: yesterday, endDate: yesterday }],
-          dimensions: [{ name: 'pagePath' }],
-          metrics: [
-            { name: 'sessions' },
-            { name: 'activeUsers' },
-            { name: 'screenPageViews' },
-          ],
-          orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
-          limit: 10,
-        }),
-      },
-    )
-    const data = await res.json() as {
-      rows?: { dimensionValues: { value: string }[]; metricValues: { value: string }[] }[]
-      totals?: { metricValues: { value: string }[] }[]
-    }
+    // Totais do dia (agrupado por dia — devolve uma linha para "yesterday")
+    const totals = await vercelAnalyticsQuery('visits/aggregate', {
+      since: yesterday,
+      until: yesterday,
+      by: 'day',
+    })
+    const dayRow = totals?.data?.[0]
+    const pageviews = dayRow?.pageviews ?? 0
+    const visitors = dayRow?.visitors ?? 0
 
-    if (!data.rows) return null
+    // Páginas mais vistas do dia
+    const top = await vercelAnalyticsQuery('visits/aggregate', {
+      since: yesterday,
+      until: yesterday,
+      by: 'requestPath',
+      limit: '5',
+    })
+    const topPages: { path: string; views: number }[] = (top?.data ?? []).map((row: { requestPath?: string; pageviews?: number }) => ({
+      path: row.requestPath ?? '',
+      views: row.pageviews ?? 0,
+    }))
 
-    // Totais da propriedade (soma de todas as linhas)
-    let totalSessions  = 0
-    let totalUsers     = 0
-    let totalPageviews = 0
-    const topPages: { path: string; views: number }[] = []
-
-    for (const row of data.rows) {
-      const sessions  = parseInt(row.metricValues[0].value)
-      const users     = parseInt(row.metricValues[1].value)
-      const views     = parseInt(row.metricValues[2].value)
-      totalSessions  += sessions
-      totalUsers     += users
-      totalPageviews += views
-      topPages.push({ path: row.dimensionValues[0].value, views })
-    }
-
-    return { sessions: totalSessions, activeUsers: totalUsers, pageviews: totalPageviews, topPages }
+    return { pageviews, visitors, topPages }
   } catch (err) {
-    console.error('[daily-report] Erro GA4 runReport:', err)
+    console.error('[daily-report] Erro Vercel Analytics:', err)
     return null
   }
 }
@@ -169,11 +102,11 @@ async function getClickStats(yesterday: string): Promise<ClickStats> {
 // ── Email HTML ────────────────────────────────────────────────────────────────
 function buildEmailHtml(params: {
   date: string
-  ga4: GA4Stats | null
+  analytics: AnalyticsStats | null
   clicks: ClickStats
   subscribers: number
 }): string {
-  const { date, ga4, clicks, subscribers } = params
+  const { date, analytics, clicks, subscribers } = params
 
   const fmtDate = new Date(date + 'T00:00:00Z').toLocaleDateString('pt-PT', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
@@ -192,26 +125,22 @@ function buildEmailHtml(params: {
       </tr>`)
     .join('')
 
-  const topPageRows = (ga4?.topPages ?? []).slice(0, 5).map(p => `
+  const topPageRows = (analytics?.topPages ?? []).slice(0, 5).map(p => `
     <tr>
       <td style="padding:10px 12px;font-size:13px;color:#ccc;border-bottom:1px solid #1a1a1a;">${p.path}</td>
       <td style="padding:10px 12px;font-size:13px;font-weight:700;color:#fff;text-align:right;border-bottom:1px solid #1a1a1a;">${p.views.toLocaleString('pt-PT')}</td>
     </tr>`).join('')
 
-  const gaSection = ga4 ? `
+  const gaSection = analytics ? `
     <div style="margin-bottom:32px;">
-      <h2 style="font-size:14px;font-weight:900;letter-spacing:0.2em;color:#00ff87;text-transform:uppercase;margin:0 0 16px;">📊 Google Analytics</h2>
+      <h2 style="font-size:14px;font-weight:900;letter-spacing:0.2em;color:#00ff87;text-transform:uppercase;margin:0 0 16px;">📊 Vercel Analytics</h2>
       <div style="display:flex;gap:12px;margin-bottom:16px;">
         <div style="flex:1;background:#111;border:1px solid #1e1e1e;border-radius:8px;padding:16px;text-align:center;">
-          <div style="font-size:28px;font-weight:900;color:#fff;">${ga4.sessions.toLocaleString('pt-PT')}</div>
-          <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Sessões</div>
+          <div style="font-size:28px;font-weight:900;color:#fff;">${analytics.visitors.toLocaleString('pt-PT')}</div>
+          <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Visitantes</div>
         </div>
         <div style="flex:1;background:#111;border:1px solid #1e1e1e;border-radius:8px;padding:16px;text-align:center;">
-          <div style="font-size:28px;font-weight:900;color:#fff;">${ga4.activeUsers.toLocaleString('pt-PT')}</div>
-          <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Utilizadores</div>
-        </div>
-        <div style="flex:1;background:#111;border:1px solid #1e1e1e;border-radius:8px;padding:16px;text-align:center;">
-          <div style="font-size:28px;font-weight:900;color:#fff;">${ga4.pageviews.toLocaleString('pt-PT')}</div>
+          <div style="font-size:28px;font-weight:900;color:#fff;">${analytics.pageviews.toLocaleString('pt-PT')}</div>
           <div style="font-size:11px;color:#555;text-transform:uppercase;letter-spacing:0.1em;">Pageviews</div>
         </div>
       </div>
@@ -227,7 +156,7 @@ function buildEmailHtml(params: {
       </table>` : ''}
     </div>` : `
     <div style="margin-bottom:32px;padding:16px;background:#111;border:1px solid #1e1e1e;border-radius:8px;">
-      <p style="margin:0;color:#555;font-size:13px;">⚠️ GA4 não disponível — configura <code>GA4_SERVICE_ACCOUNT_KEY</code> no Vercel para ativar.</p>
+      <p style="margin:0;color:#555;font-size:13px;">⚠️ Vercel Analytics não disponível — configura <code>VERCEL_ANALYTICS_TOKEN</code> e <code>VERCEL_PROJECT_ID</code> no Vercel para ativar.</p>
     </div>`
 
   const clicksSection = `
@@ -333,21 +262,22 @@ export async function GET(req: NextRequest) {
   // Data de ontem
   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
 
-  const [ga4, clicks, subscribers] = await Promise.all([
-    getGA4Stats(yesterday),
+  const [analytics, clicks, subscribers] = await Promise.all([
+    getVercelAnalyticsStats(yesterday),
     getClickStats(yesterday),
     redis.scard('newsletter:subscribers'),
   ])
 
-  const html = buildEmailHtml({ date: yesterday, ga4, clicks, subscribers: subscribers as number })
+  const html = buildEmailHtml({ date: yesterday, analytics, clicks, subscribers: subscribers as number })
   const sent = await sendReport(yesterday, html)
 
   return NextResponse.json({
     date: yesterday,
-    ga4: ga4 ? { sessions: ga4.sessions, activeUsers: ga4.activeUsers, pageviews: ga4.pageviews } : null,
+    analytics: analytics ? { visitors: analytics.visitors, pageviews: analytics.pageviews } : null,
     affiliateClicksYesterday: Object.values(clicks.yesterday).reduce((a, b) => a + b, 0),
     affiliateClicksTotal: Object.values(clicks.total).reduce((a, b) => a + b, 0),
     newsletterSubscribers: subscribers,
     emailSent: sent,
   })
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

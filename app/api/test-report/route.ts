@@ -134,10 +134,10 @@ function buildEmailHtml(params: {
       </table>
     </div>` : ''}
 
-    <!-- Note GA4 -->
+    <!-- Note Vercel Analytics -->
     <div style="margin-bottom:32px;padding:16px;background:#111;border:1px solid #1e1e1e;border-radius:8px;">
       <p style="margin:0;color:#555;font-size:13px;">
-        📊 Para dados do Google Analytics no relatório automático, configura <code style="color:#aaa;">GA4_SERVICE_ACCOUNT_KEY</code> no Vercel.
+        📊 Para dados de tráfego no relatório automático, configura <code style="color:#aaa;">VERCEL_ANALYTICS_TOKEN</code> e <code style="color:#aaa;">VERCEL_PROJECT_ID</code> no Vercel.
       </p>
     </div>
 
@@ -211,6 +211,4 @@ export async function GET(req: NextRequest) {
     date: yesterday,
     totalClicksYesterday: Object.values(clicks.yesterday).reduce((a, b) => a + b, 0),
     totalClicksToday: Object.values(clicks.today).reduce((a, b) => a + b, 0),
-    totalAccumulated: Object.values(clicks.total).reduce((a, b) => a + b, 0),
-  })
-}
+    totalAccumulated: Object
