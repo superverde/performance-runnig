@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 
 const FB_URL = 'https://www.facebook.com/profile.php?id=61591235338834'
-const IG_URL = 'https://www.instagram.com/performance.running0224/'
+const IG_URL = 'https://www.instagram.com/performancerunning.pt/'
 
 export function SocialBanner() {
   const [visible, setVisible] = useState(false)

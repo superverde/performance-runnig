@@ -142,7 +142,7 @@ export function Navbar() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/performance.running0224/"
+                href="https://www.instagram.com/performancerunning.pt/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -235,7 +235,7 @@ export function Navbar() {
                 Facebook
               </a>
               <a
-                href="https://www.instagram.com/performance.running0224/"
+                href="https://www.instagram.com/performancerunning.pt/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"

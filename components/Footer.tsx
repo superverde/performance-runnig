@@ -57,7 +57,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/performance.running0224/"
+                href="https://www.instagram.com/performancerunning.pt/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"

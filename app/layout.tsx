@@ -86,7 +86,7 @@ const organizationLd = {
   url: SITE_URL,
   logo: `${SITE_URL}/favicon.ico`,
   sameAs: [
-    'https://www.instagram.com/performance.running0224/',
+    'https://www.instagram.com/performancerunning.pt/',
     'https://www.facebook.com/profile.php?id=61591235338834',
   ],
   contactPoint: {
