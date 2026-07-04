@@ -37,6 +37,7 @@ export function Navbar() {
     { href: '/metodologias', key: 'metodologias' },
     { href: '/blog', key: 'arquivo' },
     { href: '/ferramentas', key: 'ferramentas' },
+    { href: '/calendario', key: 'calendario' },
     { href: '/equipamento', key: 'equipamento' },
     { href: '/reviews', key: 'testemunhos' },
     { href: '/sobre', key: 'sobre' },
