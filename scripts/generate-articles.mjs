@@ -291,7 +291,13 @@ function saveCounter(index, date, slug) {
   fs.writeFileSync(COUNTER_FILE, JSON.stringify({ lastIndex: index, lastDate: date, lastSlug: slug }, null, 2))
 }
 
-async function callGroq(prompt) {
+// A conta Groq gratuita ("on_demand") tem um limite de tokens por minuto (TPM)
+// baixo (6000 TPM à data de escrita). Com prompts mais longos (banco de
+// referências incluído), uma única chamada já usa perto do limite — por isso
+// esta função faz retry com backoff quando apanha um 429 rate_limit_exceeded,
+// em vez de abortar a publicação do dia inteiro.
+async function callGroq(prompt, attempt = 1) {
+  const MAX_ATTEMPTS = 3
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: {
@@ -302,13 +308,23 @@ async function callGroq(prompt) {
       model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.7,
-      max_tokens: 3500,
+      max_tokens: 2200,
     }),
   })
 
   if (!res.ok) {
-    const err = await res.text()
-    throw new Error(`Groq API error ${res.status}: ${err}`)
+    const errText = await res.text()
+
+    if (res.status === 429 && attempt < MAX_ATTEMPTS) {
+      const match = errText.match(/try again in ([\d.]+)s/i)
+      const suggested = match ? parseFloat(match[1]) : 30
+      const waitMs = Math.ceil((suggested + 5) * 1000) // +5s de margem
+      console.log(`  ⏳ Rate limit (429). A aguardar ${Math.round(waitMs / 1000)}s antes de tentar novamente (tentativa ${attempt + 1}/${MAX_ATTEMPTS})...`)
+      await new Promise(r => setTimeout(r, waitMs))
+      return callGroq(prompt, attempt + 1)
+    }
+
+    throw new Error(`Groq API error ${res.status}: ${errText}`)
   }
 
   const data = await res.json()
@@ -417,46 +433,81 @@ async function main() {
     process.exit(0)
   }
 
-  const toGenerate = [
-    ...remainingTechnical.slice(0, TECHNICAL_PER_RUN).map(t => ({ ...t, kind: 'technical' })),
-    ...remainingCommercial.slice(0, COMMERCIAL_PER_RUN).map(t => ({ ...t, kind: 'commercial' })),
-  ]
+  // Pausa generosa entre chamadas à Groq — a conta gratuita tem um limite de
+  // tokens/minuto (TPM) baixo, e os prompts com banco de referências usam
+  // bastante margem desse limite numa só chamada. Esperar aqui em vez de só
+  // confiar no retry reduz a probabilidade de sequer bater no rate limit.
+  const PAUSE_BETWEEN_CALLS_MS = 25000
 
   let lastIndex = counter.lastIndex
   let lastSlug = counter.lastSlug
   const publishedTitles = []
+  let isFirstCall = true
 
-  for (const topic of toGenerate) {
-    console.log(`\n✍️  A gerar (${topic.kind}): ${topic.title}`)
+  // Gera um artigo de uma "fila" de candidatos, avançando para o próximo
+  // candidato se um tópico falhar mesmo depois do retry em callGroq — isto
+  // garante que continuamos a tentar chegar aos 3 artigos do dia em vez de
+  // abortar a publicação inteira por causa de UM tópico problemático.
+  async function generateFromQueue(queue, kind, countNeeded) {
+    let generated = 0
+    let queueIndex = 0
 
-    try {
-      const relatedSlugs = Array.from(existingSlugs).sort(() => Math.random() - 0.5)
-      const prompt = topic.kind === 'commercial'
-        ? buildCommercialPrompt(topic, relatedSlugs)
-        : buildTechnicalPrompt(topic)
+    while (generated < countNeeded && queueIndex < queue.length) {
+      const topic = queue[queueIndex]
+      queueIndex++
 
-      const content = await callGroq(prompt)
-      const mdx = buildMdx(topic, content, today)
-      const filePath = path.join(ARTICLES_DIR, `${topic.slug}.md`)
+      console.log(`\n✍️  A gerar (${kind}): ${topic.title}`)
 
-      fs.writeFileSync(filePath, mdx, 'utf8')
-      console.log(`✅ Guardado: ${filePath}`)
+      if (!isFirstCall) {
+        console.log(`  ⏸  A aguardar ${PAUSE_BETWEEN_CALLS_MS / 1000}s antes da próxima chamada à Groq...`)
+        await new Promise(r => setTimeout(r, PAUSE_BETWEEN_CALLS_MS))
+      }
+      isFirstCall = false
 
-      lastIndex++
-      lastSlug = topic.slug
-      publishedTitles.push(topic.title)
-      existingSlugs.add(topic.slug) // evita reutilizar como "relacionado" duplicado
+      try {
+        const relatedSlugs = Array.from(existingSlugs).sort(() => Math.random() - 0.5)
+        const prompt = kind === 'commercial'
+          ? buildCommercialPrompt(topic, relatedSlugs)
+          : buildTechnicalPrompt(topic)
 
-      // Pausa entre chamadas à API
-      await new Promise(r => setTimeout(r, 1500))
-    } catch (err) {
-      console.error(`❌ Erro ao gerar ${topic.slug}:`, err.message)
-      process.exit(1)
+        const content = await callGroq(prompt)
+        const mdx = buildMdx(topic, content, today)
+        const filePath = path.join(ARTICLES_DIR, `${topic.slug}.md`)
+
+        fs.writeFileSync(filePath, mdx, 'utf8')
+        console.log(`✅ Guardado: ${filePath}`)
+
+        lastIndex++
+        lastSlug = topic.slug
+        publishedTitles.push(topic.title)
+        existingSlugs.add(topic.slug) // evita reutilizar como "relacionado" duplicado
+        generated++
+      } catch (err) {
+        console.error(`❌ Erro ao gerar ${topic.slug} (a saltar para o próximo tópico):`, err.message)
+      }
     }
+
+    return generated
   }
 
+  const technicalDone = await generateFromQueue(remainingTechnical, 'technical', TECHNICAL_PER_RUN)
+  const commercialDone = await generateFromQueue(remainingCommercial, 'commercial', COMMERCIAL_PER_RUN)
+  const totalDone = technicalDone + commercialDone
+
   saveCounter(lastIndex, today, lastSlug)
-  console.log(`\n🎉 ${toGenerate.length} artigos gerados para ${today}: ${publishedTitles.join(', ')}`)
+
+  if (totalDone < TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN) {
+    console.log(`\n⚠️  Só foi possível gerar ${totalDone} de ${TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN} artigos hoje (falhas repetidas na Groq). Publicados: ${publishedTitles.join(', ') || '(nenhum)'}`)
+  } else {
+    console.log(`\n🎉 ${totalDone} artigos gerados para ${today}: ${publishedTitles.join(', ')}`)
+  }
+
+  // Só falha o job (e portanto não faz commit/push) se NENHUM artigo tiver
+  // sido gerado — parcial é melhor do que zero, dado que os artigos "têm de
+  // entrar" mesmo em dias com problemas pontuais na API.
+  if (totalDone === 0) {
+    process.exit(1)
+  }
 }
 
 main().catch(err => {
