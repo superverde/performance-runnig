@@ -1,10 +1,17 @@
 /**
  * generate-articles.mjs
- * Gera 3 artigos por dia usando a API Groq (llama-3.1-8b-instant)
- * Corre via GitHub Actions todos os dias às 5:30h UTC
+ * Gera e publica os 3 artigos diários do blog Performance Running:
+ * 2 artigos TÉCNICOS + 1 artigo COMERCIAL de equipamento.
+ * Corre via GitHub Actions todos os dias, de forma totalmente independente
+ * do computador do utilizador ou de qualquer sessão do Claude.
  *
  * Uso: node scripts/generate-articles.mjs
  * Requer: GROQ_API_KEY como variável de ambiente
+ *
+ * IMPORTANTE: este é o ÚNICO sistema automático de publicação de artigos.
+ * O cron do Vercel (/api/cron/auto-article) e a tarefa agendada do Claude
+ * Cowork foram desativados para evitar duplicação — ver commit que
+ * introduziu este ficheiro para contexto.
  */
 
 import fs from 'fs'
@@ -15,7 +22,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ARTICLES_DIR = path.join(__dirname, '..', 'content', 'blog')
 const COUNTER_FILE = path.join(ARTICLES_DIR, '_topic_counter.json')
 const GROQ_API_KEY = process.env.GROQ_API_KEY
-const ARTICLES_PER_RUN = 3
+const TECHNICAL_PER_RUN = 2
+const COMMERCIAL_PER_RUN = 1
 
 if (!GROQ_API_KEY) {
   console.error('❌ GROQ_API_KEY não definida')
@@ -23,7 +31,7 @@ if (!GROQ_API_KEY) {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// BANCO DE TÓPICOS — 150+ tópicos únicos sobre corrida, trail e atletismo
+// BANCO DE TÓPICOS TÉCNICOS — 150+ tópicos únicos sobre corrida, trail e atletismo
 // ─────────────────────────────────────────────────────────────────────────────
 const ALL_TOPICS = [
   // TREINO
@@ -137,7 +145,7 @@ const ALL_TOPICS = [
   { slug: 'core-corredores-exercicios-eficazes', title: 'Core para Corredores: Os Exercícios Que Realmente Importam', category: 'Treino' },
   { slug: 'hip-stability-quadril-corrida', title: 'Estabilidade do Quadril: A Base de Uma Corrida Sem Lesões', category: 'Biomecânica' },
   { slug: 'musculação-corrida-perder-velocidade', title: 'Musculação Torna os Corredores Mais Lentos? A Evidência Diz o Contrário', category: 'Treino' },
-  // EQUIPAMENTO E TECNOLOGIA
+  // EQUIPAMENTO E TECNOLOGIA (técnico, não confundir com o pool comercial)
   { slug: 'relógio-gps-metricas-corrida-importantes', title: 'As 7 Métricas do Relógio GPS Que Todo o Corredor Deve Monitorizar', category: 'Treino' },
   { slug: 'carbono-placa-sapatos-benefícios-riscos', title: 'Sapatos com Placa de Carbono: Vale o Investimento?', category: 'Treino' },
   { slug: 'potencia-running-power-garmin', title: 'Running Power: A Métrica que Vai Substituir o Pace?', category: 'Treino' },
@@ -153,6 +161,106 @@ const ALL_TOPICS = [
   { slug: '5km-treino-velocidade-sub20', title: '5km Sub-20 Minutos: O Plano de Treino e os Blocos Chave', category: 'Treino' },
   { slug: '10km-sub-45-minutos-treino', title: '10km Sub-45 Minutos: Estrutura de Treino para Corredores Intermédios', category: 'Treino' },
   { slug: 'ultramarathon-primeiro-100k-guia', title: 'Primeiro Ultramaratona de 100km: Tudo o que Precisas de Saber', category: 'Trail Running' },
+]
+
+// ─────────────────────────────────────────────────────────────────────────────
+// BANCO DE TÓPICOS COMERCIAIS — 30 temas com intenção de compra (categoria Equipamento)
+// ─────────────────────────────────────────────────────────────────────────────
+const COMMERCIAL_TOPICS = [
+  { slug: 'melhores-sapatilhas-corrida-maratona-2026', title: 'Melhores Sapatilhas de Corrida para Maratona em 2026', category: 'Equipamento' },
+  { slug: 'sapatilhas-placa-carbono-vale-a-pena-comparativo', title: 'Sapatilhas com Placa de Carbono: Valem o Preço? Comparativo', category: 'Equipamento' },
+  { slug: 'melhores-relogios-gps-corrida-trail-2026', title: 'Melhores Relógios GPS para Corrida e Trail em 2026', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-trail-terrenos-tecnicos', title: 'Melhores Sapatilhas de Trail Running para Terrenos Técnicos', category: 'Equipamento' },
+  { slug: 'sapatilhas-corrida-melhor-relacao-qualidade-preco', title: 'Sapatilhas de Corrida com Melhor Relação Qualidade/Preço', category: 'Equipamento' },
+  { slug: 'melhores-mochilas-coletes-hidratacao-trail-2026', title: 'Melhores Mochilas e Coletes de Hidratação para Trail', category: 'Equipamento' },
+  { slug: 'garmin-vs-coros-vs-suunto-relogio-trail-2026', title: 'Garmin vs. Coros vs. Suunto: Que Relógio Escolher para Trail', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-corredores-pesados-80kg', title: 'Melhores Sapatilhas para Corredores Pesados (+80kg)', category: 'Equipamento' },
+  { slug: 'melhores-geis-energeticos-maratona-comparativo', title: 'Melhores Géis Energéticos para Maratona: Comparativo', category: 'Equipamento' },
+  { slug: 'como-escolher-sapatilhas-corrida-guia-pisada', title: 'Como Escolher Sapatilhas de Corrida: Guia Completo por Tipo de Pisada', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-treino-diario-daily-trainers-2026', title: 'Melhores Sapatilhas de Treino Diário (Daily Trainers) 2026', category: 'Equipamento' },
+  { slug: 'bastoes-trail-running-quando-usar-quais-escolher', title: 'Bastões de Trail Running: Quando Usar e Quais Escolher', category: 'Equipamento' },
+  { slug: 'melhores-fones-para-correr-osso-vs-in-ear', title: 'Melhores Fones para Correr: Osso vs. In-Ear', category: 'Equipamento' },
+  { slug: 'roupa-corrida-inverno-guia-camadas', title: 'Roupa de Corrida para Inverno: Guia de Camadas', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-5km-10km-rapidos', title: 'Melhores Sapatilhas para 5km e 10km Rápidos', category: 'Equipamento' },
+  { slug: 'frontais-lanternas-trail-noturno-guia-compra', title: 'Frontais (Lanternas) para Trail Noturno: Guia de Compra', category: 'Equipamento' },
+  { slug: 'melhores-meias-corrida-prevencao-bolhas-conforto', title: 'Melhores Meias de Corrida: Prevenção de Bolhas e Conforto', category: 'Equipamento' },
+  { slug: 'cintos-porta-dorsais-corrida-o-que-usar-prova', title: 'Cintos e Porta-Dorsais de Corrida: O Que Usar em Prova', category: 'Equipamento' },
+  { slug: 'smartwatches-baratos-comecar-correr-ate-250', title: 'Smartwatches Baratos para Começar a Correr: Até 250€', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-meia-maratona-2026', title: 'Melhores Sapatilhas de Meia Maratona 2026', category: 'Equipamento' },
+  { slug: 'oculos-sol-corrida-trail-o-que-importa', title: 'Óculos de Sol para Corrida e Trail: O Que Importa', category: 'Equipamento' },
+  { slug: 'rolo-espuma-pistolas-massagem-valem-a-pena', title: 'Rolo de Espuma e Pistolas de Massagem: Valem a Pena?', category: 'Equipamento' },
+  { slug: 'melhores-barras-alimentos-solidos-ultra-trail', title: 'Melhores Barras e Alimentos Sólidos para Ultra Trail', category: 'Equipamento' },
+  { slug: 'passadeiras-treinar-em-casa-guia-compra', title: 'Passadeiras para Treinar em Casa: Guia de Compra', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-maximalistas-amortecimento-alto', title: 'Melhores Sapatilhas Maximalistas (Amortecimento Alto)', category: 'Equipamento' },
+  { slug: 'impermeaveis-corta-ventos-trail-gore-tex-alternativas', title: 'Impermeáveis e Corta-Ventos para Trail: Guia GORE-TEX vs. Alternativas', category: 'Equipamento' },
+  { slug: 'medidores-potencia-corrida-stryd-vale-a-pena', title: 'Medidores de Potência de Corrida (Stryd): Vale a Pena?', category: 'Equipamento' },
+  { slug: 'melhores-apps-treino-corrida-2026-gratis-vs-pagas', title: 'Melhores Apps de Treino de Corrida em 2026: Grátis vs. Pagas', category: 'Equipamento' },
+  { slug: 'equipamento-obrigatorio-ultra-trail-checklist', title: 'Equipamento Obrigatório para Ultra Trail: Checklist Completo', category: 'Equipamento' },
+  { slug: 'prendas-corredores-melhores-ideias-orcamento', title: 'Prendas para Corredores: As Melhores Ideias por Orçamento', category: 'Equipamento' },
+]
+
+// ─────────────────────────────────────────────────────────────────────────────
+// BANCO DE REFERÊNCIAS CIENTÍFICAS REAIS (por categoria) — usado para garantir
+// que a secção de Referências nunca cita estudos inventados. O modelo é
+// instruído a ESCOLHER destas listas, nunca a inventar DOIs novos.
+// ─────────────────────────────────────────────────────────────────────────────
+const REFERENCE_BANK = {
+  'Fisiologia': [
+    'Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. Medicine & Science in Sports & Exercise, 32(1), 70-84. https://doi.org/10.1097/00005768-200001000-00012',
+    'Jones, A. M., & Carter, H. (2000). The effect of endurance training on parameters of aerobic fitness. Sports Medicine, 29(6), 373-386. https://doi.org/10.2165/00007256-200029060-00001',
+    'Saltin, B., & Astrand, P. O. (1967). Maximal oxygen uptake in athletes. Journal of Applied Physiology, 23(3), 353-358. https://doi.org/10.1152/jappl.1967.23.3.353',
+    'Midgley, A. W., McNaughton, L. R., & Wilkinson, M. (2006). Is there an optimal training intensity for enhancing the maximal oxygen uptake in distance runners? Sports Medicine, 36(2), 117-132. https://doi.org/10.2165/00007256-200636020-00003',
+  ],
+  'Treino': [
+    'Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276',
+    'Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x',
+    'Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle. Sports Medicine, 43(5), 313-338. https://doi.org/10.1007/s40279-013-0029-x',
+    'Bompa, T. O., & Buzzichelli, C. (2018). Periodization: Theory and Methodology of Training (6th ed.). Human Kinetics.',
+  ],
+  'Nutrição': [
+    'Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Medicine, 44(Suppl 1), 25-33. https://doi.org/10.1007/s40279-014-0148-z',
+    'Burke, L. M., Hawley, J. A., Wong, S. H., & Jeukendrup, A. E. (2011). Carbohydrates for training and competition. Journal of Sports Sciences, 29(sup1), S17-S27. https://doi.org/10.1080/02640414.2011.585473',
+    'Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement: Nutrition and Athletic Performance. Medicine & Science in Sports & Exercise, 48(3), 543-568. https://doi.org/10.1249/MSS.0000000000000852',
+    'Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. Scandinavian Journal of Medicine & Science in Sports, 20(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x',
+  ],
+  'Biomecânica': [
+    'Moore, I. S. (2016). Is there an economical running technique? A review of modifiable biomechanical factors affecting running economy. Sports Medicine, 46(6), 793-807. https://doi.org/10.1007/s40279-016-0474-4',
+    'Lieberman, D. E., Venkadesan, M., Werbel, W. A., Daoud, A. I., D\'Andrea, S., Davis, I. S., Mang\'eni, R. O., & Pitsiladis, Y. (2010). Foot strike patterns and collision forces in habitually barefoot versus shod runners. Nature, 463(7280), 531-535. https://doi.org/10.1038/nature08723',
+    'Daoud, A. I., Geissler, G. J., Wang, F., Saretsky, J., Daoud, Y. A., & Lieberman, D. E. (2012). Foot strike and injury rates in endurance runners: a retrospective study. Medicine & Science in Sports & Exercise, 44(7), 1325-1334. https://doi.org/10.1249/MSS.0b013e3182465115',
+    'Novacheck, T. F. (1998). The biomechanics of running. Gait & Posture, 7(1), 77-95. https://doi.org/10.1016/S0966-6362(97)00038-6',
+  ],
+  'Recuperação': [
+    'Kellmann, M., Bertollo, M., Bosquet, L., et al. (2018). Recovery and Performance in Sport: Consensus Statement. International Journal of Sports Physiology and Performance, 13(2), 240-245. https://doi.org/10.1123/ijspp.2017-0759',
+    'Halson, S. L. (2014). Monitoring training load to understand fatigue in athletes. Sports Medicine, 44(Suppl 2), 139-147. https://doi.org/10.1007/s40279-014-0253-z',
+    'Bishop, P. A., Jones, E., & Woods, A. K. (2008). Recovery from training: a brief review. Journal of Strength and Conditioning Research, 22(3), 1015-1024. https://doi.org/10.1519/JSC.0b013e31816eb518',
+    'Vitale, K. C., Owens, R., Hopkins, S. R., & Malhotra, A. (2019). Sleep hygiene for optimizing recovery in athletes: review and recommendations. International Journal of Sports Medicine, 40(8), 535-543. https://doi.org/10.1055/a-0905-3103',
+  ],
+  'Lesões': [
+    'van Gent, R. N., Siem, D., van Middelkoop, M., van Os, A. G., Bierma-Zeinstra, S. M. A., & Koes, B. W. (2007). Incidence and determinants of lower extremity running injuries in long distance runners. British Journal of Sports Medicine, 41(8), 469-480. https://doi.org/10.1136/bjsm.2006.033548',
+    'Lopes, A. D., Hespanhol Júnior, L. C., Yeung, S. S., & Costa, L. O. P. (2012). What are the main running-related musculoskeletal injuries? Sports Medicine, 42(10), 891-905. https://doi.org/10.1007/BF03262301',
+    'Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. Journal of Orthopaedic & Sports Physical Therapy, 44(10), 749-765. https://doi.org/10.2519/jospt.2014.5334',
+    'Taunton, J. E., Ryan, M. B., Clement, D. B., McKenzie, D. C., Lloyd-Smith, D. R., & Zumbo, B. D. (2002). A retrospective case-control analysis of 2002 running injuries. British Journal of Sports Medicine, 36(2), 95-101. https://doi.org/10.1136/bjsm.36.2.95',
+  ],
+  'Psicologia': [
+    'Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554',
+    'Tenenbaum, G., & Eklund, R. C. (Eds.). (2007). Handbook of Sport Psychology (3rd ed.). John Wiley & Sons.',
+    'Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082',
+    'McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6',
+  ],
+  'Trail Running': [
+    'Vernillo, G., Giandolini, M., Edwards, W. B., Morin, J. B., Samozino, P., Horvais, N., & Millet, G. Y. (2017). Biomechanics and physiology of uphill and downhill running. Sports Medicine, 47(4), 615-629. https://doi.org/10.1007/s40279-016-0605-y',
+    'Millet, G. Y., Tomazin, K., Verges, S., et al. (2011). Neuromuscular consequences of an extreme mountain ultra-marathon. PLoS ONE, 6(2), e17059. https://doi.org/10.1371/journal.pone.0017059',
+    'Scheer, V., Basset, P., Giovanelli, N., Vernillo, G., Millet, G. P., & Costa, R. J. S. (2020). Defining off-road running: a position statement. Sports Medicine, 50(3), 1-13. https://doi.org/10.1007/s40279-019-01237-0',
+    'Balducci, P., Clémençon, M., Trama, R., Blache, Y., & Hautier, C. (2017). Performance factors in a mountain ultramarathon. International Journal of Sports Medicine, 38(11), 819-825. https://doi.org/10.1055/s-0043-112339',
+  ],
+}
+
+// Referências transversais (equipamento/biomecânica de calçado) usadas no artigo comercial
+const COMMERCIAL_REFERENCE_BANK = [
+  'Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054',
+  'Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2',
+  'Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929',
+  'Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6',
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -183,16 +291,6 @@ function saveCounter(index, date, slug) {
   fs.writeFileSync(COUNTER_FILE, JSON.stringify({ lastIndex: index, lastDate: date, lastSlug: slug }, null, 2))
 }
 
-function slugify(text) {
-  return text.toLowerCase()
-    .replace(/[àáâãä]/g, 'a').replace(/[èéêë]/g, 'e')
-    .replace(/[ìíîï]/g, 'i').replace(/[òóôõö]/g, 'o')
-    .replace(/[ùúûü]/g, 'u').replace(/[ç]/g, 'c')
-    .replace(/[ñ]/g, 'n').replace(/ê/g, 'e')
-    .replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-')
-    .trim()
-}
-
 async function callGroq(prompt) {
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
@@ -204,7 +302,7 @@ async function callGroq(prompt) {
       model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.7,
-      max_tokens: 2500,
+      max_tokens: 3500,
     }),
   })
 
@@ -217,7 +315,10 @@ async function callGroq(prompt) {
   return data.choices[0].message.content
 }
 
-function buildPrompt(topic) {
+function buildTechnicalPrompt(topic) {
+  const refs = REFERENCE_BANK[topic.category] || REFERENCE_BANK['Treino']
+  const refsList = refs.map((r, i) => `${i + 1}. ${r}`).join('\n')
+
   return `Escreve um artigo completo em português de Portugal (não brasileiro) sobre corrida para o site performancerunning.pt.
 
 Tópico: "${topic.title}"
@@ -226,14 +327,57 @@ Categoria: ${topic.category}
 REGRAS OBRIGATÓRIAS:
 1. Tom profissional, técnico mas acessível — como um treinador de elite a explicar ciência
 2. Nunca soar a IA genérica. Sem frases como "Neste artigo vamos explorar..."
-3. Português de Portugal — nunca brasileirismos (usa "treino" não "treinamento", "evidência" não "evidência científica" em excesso, etc.)
-4. Citar estudos reais quando possível (ex: "Helgerud et al., 2007")
-5. Incluir exemplos práticos e aplicáveis
-6. Estrutura com H2 (##) e H3 (###), listas quando útil
-7. Comprimento: 800-1200 palavras de corpo (sem contar frontmatter)
+3. Português de Portugal — nunca brasileirismos (usa "treino" não "treinamento", "fixe" não "legal", etc.)
+4. Incluir exemplos práticos e aplicáveis, com valores numéricos e protocolos quando fizer sentido
+5. Estrutura com ## para secções principais (Base Científica, Aplicação Prática, Erros Comuns, Protocolo/Conclusão)
+6. Comprimento: 800-1200 palavras de corpo (sem contar frontmatter nem referências)
+7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências Científicas" citando PELO MENOS 4 das referências da lista abaixo (as que forem mais relevantes ao tópico). Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
 
-Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo).
+REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 4, podes usar todas se fizer sentido):
+${refsList}
+
+Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo a secção final de Referências Científicas).
 Começa com uma introdução forte de 2-3 parágrafos sem cabeçalho, depois usa ## para as secções principais.`
+}
+
+function buildCommercialPrompt(topic, relatedSlugs) {
+  const refsList = COMMERCIAL_REFERENCE_BANK.map((r, i) => `${i + 1}. ${r}`).join('\n')
+  const related = relatedSlugs.slice(0, 2).map(s => `/blog/${s}`)
+
+  return `Escreve um artigo de compra completo em português de Portugal (não brasileiro) sobre equipamento de corrida para o site performancerunning.pt.
+
+Título: "${topic.title}"
+Categoria: Equipamento
+
+REGRAS OBRIGATÓRIAS:
+1. Tom de especialista/reviewer de equipamento de alta performance — nunca genérico ou tipo "loja online"
+2. Português de Portugal — nunca brasileirismos
+3. Estrutura com ## para secções: Introdução (sem cabeçalho, 100-150 palavras), "## Como Escolher: Critérios Que Importam" (250-350 palavras, critérios técnicos com base científica), "## As Melhores Opções em 2026" (4-6 produtos reais e atuais: nome, para quem é, pontos fortes/fracos, faixa de preço — NUNCA preços exatos, usa faixas como "entre 150€ e 200€"), "## Veredicto: Qual Comprar" (150-200 palavras, recomendação por perfil: iniciante, competidor, orçamento limitado)
+4. Incluir no mínimo 3 links internos no corpo do texto: um para [Equipamento](/equipamento), e links para estes dois artigos relacionados: [artigo relacionado 1](${related[0] || '/equipamento'}) e [artigo relacionado 2](${related[1] || '/equipamento'})
+5. Terminar o corpo (antes das referências) com a linha: "👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**"
+6. Comprimento: 900-1200 palavras de corpo (sem contar frontmatter nem referências)
+7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 3 das referências da lista abaixo. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
+
+REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 3):
+${refsList}
+
+Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo a secção final de Referências).`
+}
+
+function extractExcerpt(content) {
+  const lines = content.split('\n')
+  for (const line of lines) {
+    const clean = line.replace(/[#*_`>👉]/g, '').trim()
+    if (clean.length > 80) {
+      return clean.slice(0, 200).replace(/"/g, '\\"') + '…'
+    }
+  }
+  return ''
+}
+
+function estimateReadTime(content) {
+  const words = content.split(/\s+/).length
+  return Math.max(4, Math.round(words / 200))
 }
 
 function buildMdx(topic, content, date) {
@@ -249,23 +393,6 @@ ${content.trim()}
 `
 }
 
-function extractExcerpt(content) {
-  // Pega o primeiro parágrafo não vazio sem markdown
-  const lines = content.split('\n')
-  for (const line of lines) {
-    const clean = line.replace(/[#*_`>]/g, '').trim()
-    if (clean.length > 80) {
-      return clean.slice(0, 200).replace(/"/g, '\\"') + '…'
-    }
-  }
-  return ''
-}
-
-function estimateReadTime(content) {
-  const words = content.split(/\s+/).length
-  return Math.max(4, Math.round(words / 200))
-}
-
 // ─────────────────────────────────────────────────────────────────────────────
 // MAIN
 // ─────────────────────────────────────────────────────────────────────────────
@@ -279,25 +406,36 @@ async function main() {
   console.log(`📚 Artigos existentes: ${existingSlugs.size}`)
   console.log(`📍 Último índice: ${counter.lastIndex}`)
 
-  // Filtra tópicos ainda não publicados
-  const remaining = ALL_TOPICS.filter(t => !existingSlugs.has(t.slug))
-  console.log(`📋 Tópicos disponíveis: ${remaining.length}`)
+  const remainingTechnical = ALL_TOPICS.filter(t => !existingSlugs.has(t.slug))
+  const remainingCommercial = COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(t.slug))
 
-  if (remaining.length === 0) {
-    console.log('⚠️  Todos os tópicos já foram publicados. Adiciona mais ao array ALL_TOPICS.')
+  console.log(`📋 Tópicos técnicos disponíveis: ${remainingTechnical.length}`)
+  console.log(`🛒 Tópicos comerciais disponíveis: ${remainingCommercial.length}`)
+
+  if (remainingTechnical.length === 0 && remainingCommercial.length === 0) {
+    console.log('⚠️  Todos os tópicos já foram publicados. Adiciona mais aos arrays.')
     process.exit(0)
   }
 
-  // Pega os próximos N tópicos
-  const toGenerate = remaining.slice(0, ARTICLES_PER_RUN)
+  const toGenerate = [
+    ...remainingTechnical.slice(0, TECHNICAL_PER_RUN).map(t => ({ ...t, kind: 'technical' })),
+    ...remainingCommercial.slice(0, COMMERCIAL_PER_RUN).map(t => ({ ...t, kind: 'commercial' })),
+  ]
+
   let lastIndex = counter.lastIndex
   let lastSlug = counter.lastSlug
+  const publishedTitles = []
 
   for (const topic of toGenerate) {
-    console.log(`\n✍️  A gerar: ${topic.title}`)
+    console.log(`\n✍️  A gerar (${topic.kind}): ${topic.title}`)
 
     try {
-      const content = await callGroq(buildPrompt(topic))
+      const relatedSlugs = Array.from(existingSlugs).sort(() => Math.random() - 0.5)
+      const prompt = topic.kind === 'commercial'
+        ? buildCommercialPrompt(topic, relatedSlugs)
+        : buildTechnicalPrompt(topic)
+
+      const content = await callGroq(prompt)
       const mdx = buildMdx(topic, content, today)
       const filePath = path.join(ARTICLES_DIR, `${topic.slug}.md`)
 
@@ -306,6 +444,8 @@ async function main() {
 
       lastIndex++
       lastSlug = topic.slug
+      publishedTitles.push(topic.title)
+      existingSlugs.add(topic.slug) // evita reutilizar como "relacionado" duplicado
 
       // Pausa entre chamadas à API
       await new Promise(r => setTimeout(r, 1500))
@@ -316,10 +456,10 @@ async function main() {
   }
 
   saveCounter(lastIndex, today, lastSlug)
-  console.log(`\n🎉 ${toGenerate.length} artigos gerados para ${today}`)
+  console.log(`\n🎉 ${toGenerate.length} artigos gerados para ${today}: ${publishedTitles.join(', ')}`)
 }
 
 main().catch(err => {
   console.error('❌ Erro fatal:', err)
   process.exit(1)
-}
+})
