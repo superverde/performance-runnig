@@ -16,6 +16,26 @@ const MESES_PT = [
   'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro',
 ]
 
+/** Separador de procura por distância — pedido explícito do Pedro. */
+const DISTANCIA_FILTROS = ['Todas', '10km', 'Meia Maratona', 'Maratona'] as const
+type DistanciaFiltro = (typeof DISTANCIA_FILTROS)[number]
+
+/**
+ * Verifica se alguma das distâncias de uma prova corresponde ao filtro
+ * escolhido. Usa regex sobre o texto livre de `distancias` (ex: "21km",
+ * "42.195km", "6km (mini-maratona)") em vez de um campo estruturado,
+ * porque o array de distâncias é texto livre por design (ver lib/provas.ts).
+ */
+function distanciaCorresponde(distancias: string[], filtro: DistanciaFiltro): boolean {
+  if (filtro === 'Todas') return true
+  return distancias.some((d) => {
+    if (filtro === '10km') return /\b10\s?km\b/i.test(d)
+    if (filtro === 'Meia Maratona') return /\b21(\.\d+)?\s?km\b/i.test(d) || /meia[\s-]?maratona/i.test(d)
+    if (filtro === 'Maratona') return /\b42(\.\d+)?\s?km\b/i.test(d) || (/\bmaratona\b/i.test(d) && !/meia/i.test(d))
+    return false
+  })
+}
+
 function formatarData(prova: Prova): string {
   const d = new Date(prova.dataInicio + 'T00:00:00')
   const dia = d.getDate()
@@ -109,6 +129,7 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
 export function CalendarioClient() {
   const [tipo, setTipo] = useState<(typeof TIPOS_PROVA)[number]>('Todas')
   const [regiao, setRegiao] = useState<(typeof REGIOES)[number]>('Todas')
+  const [distancia, setDistancia] = useState<DistanciaFiltro>('Todas')
   const [mostrarTodas, setMostrarTodas] = useState(false)
 
   const hoje = useMemo(() => {
@@ -120,9 +141,10 @@ export function CalendarioClient() {
     return [...PROVAS]
       .filter((p) => (tipo === 'Todas' ? true : p.tipo === tipo))
       .filter((p) => (regiao === 'Todas' ? true : p.regiao === regiao))
+      .filter((p) => distanciaCorresponde(p.distancias, distancia))
       .filter((p) => (mostrarTodas ? true : new Date(p.dataInicio + 'T00:00:00') >= hoje))
       .sort((a, b) => a.dataInicio.localeCompare(b.dataInicio))
-  }, [tipo, regiao, mostrarTodas, hoje])
+  }, [tipo, regiao, distancia, mostrarTodas, hoje])
 
   // Agrupar por mês para navegação mais fácil
   const grupos = useMemo(() => {
@@ -166,6 +188,22 @@ export function CalendarioClient() {
 
         {/* ── Filtros ── */}
         <div className="flex flex-col gap-4 mb-10 sticky top-[60px] z-10 bg-black/90 backdrop-blur-xl py-4 -mx-4 px-4 sm:-mx-6 sm:px-6 border-b border-white/5">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-[10px] uppercase tracking-widest text-white/30 font-mono mr-1">Distância</span>
+            {DISTANCIA_FILTROS.map((d) => (
+              <button
+                key={d}
+                onClick={() => setDistancia(d)}
+                className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all ${
+                  distancia === d
+                    ? 'bg-brand-green text-black border-brand-green'
+                    : 'border-white/10 text-white/50 hover:text-white'
+                }`}
+              >
+                {d}
+              </button>
+            ))}
+          </div>
           <div className="flex items-center gap-2 flex-wrap">
             <span className="text-[10px] uppercase tracking-widest text-white/30 font-mono mr-1">Tipo</span>
             {TIPOS_PROVA.map((t) => (
