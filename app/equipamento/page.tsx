@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowUpRight, Star } from 'lucide-react'
+import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, type LucideIcon } from 'lucide-react'
 import { Redis } from '@upstash/redis'
+import { sapatos, relogios, sensoresFc, nutricao, acessorios } from '@/lib/products'
+import { selectRotatingProducts, getCurrentRotationBucket } from '@/lib/rotation'
 
-// Regenera a cada 6 horas — garante que a ordenação por clicks fica atualizada
+// Regenera a cada 6 horas — garante que a ordenação por clicks e a rotação de produtos ficam atualizadas
 export const revalidate = 21600
 
 export const metadata: Metadata = {
@@ -24,6 +26,19 @@ export const metadata: Metadata = {
 }
 
 const SITE_URL = 'https://www.performancerunning.pt'
+
+/**
+ * Quantos produtos mostrar por categoria em cada ciclo de rotação (múltiplo
+ * das colunas da grid, para não deixar filas incompletas) e quantos dos
+ * mais clicados ficam sempre fixos ("pinned") independentemente da rotação.
+ */
+const ROTATION_CONFIG = {
+  sapatos: { visibleCount: 6, pinnedCount: 2 },
+  relogios: { visibleCount: 4, pinnedCount: 2 },
+  sensoresFc: { visibleCount: 3, pinnedCount: 1 },
+  nutricao: { visibleCount: 6, pinnedCount: 2 },
+  acessorios: { visibleCount: 8, pinnedCount: 2 },
+} as const
 
 /** Slug idêntico ao usado no track-click — tem de ser consistente */
 function toSlug(name: string): string {
@@ -50,271 +65,6 @@ function sortByClicks<T extends { name: string }>(
   })
 }
 
-/* ── DADOS DE REVIEWS ─────────────────────────────────────────────── */
-const sapatos = [
-  {
-    name: 'HOKA Clifton 9',
-    categoria: 'Estrada',
-    rating: 5,
-    preco: 'desde ~€100',
-    badge: 'Editor\'s Choice',
-    badgeColor: '#00ff87',
-    img: 'https://m.media-amazon.com/images/I/51M3xzUi6qL._AC_UL600_.jpg',
-    desc: 'O sapato de estrada mais confortável do mercado. Stack height máxima com controlo surpreendente. Ideal para corredores de longa distância e recuperação ativa.',
-    pros: ['Amortecimento excepcional', 'Durável (800+ km)', 'Bom para lesionados'],
-    contras: ['Pesado para velocidade', 'Preço elevado'],
-    link: 'https://www.amazon.es/s?k=hoka+clifton+9&tag=performancerun-21',
-    loja: 'Amazon ES',
-  },
-  {
-    name: 'On Cloudmonster 2',
-    categoria: 'Estrada',
-    rating: 4,
-    preco: 'desde ~€112',
-    badge: 'Premium Pick',
-    badgeColor: '#3b82f6',
-    img: 'https://m.media-amazon.com/images/I/71BIO86CufL._AC_UL600_.jpg',
-    desc: 'Tecnologia CloudTec de nova geração. Transição suave com retorno energético elevado. Perfeito para treinos longos e semi-maratona.',
-    pros: ['Retorno energético elevado', 'Design premium', 'Respirabilidade'],
-    contras: ['Adaptação necessária', 'Caro'],
-    link: 'https://www.amazon.es/s?k=on+cloudmonster+2&tag=performancerun-21',
-    loja: 'Amazon ES',
-  },
-  {
-    name: 'Salomon Speedcross 6',
-    categoria: 'Trail',
-    rating: 5,
-    preco: 'desde ~€100',
-    badge: 'Trail Best',
-    badgeColor: '#f59e0b',
-    img: 'https://m.media-amazon.com/images/I/71vRj0oHa1L._AC_UL600_.jpg',
-    desc: 'O rei do trail técnico. Grip agressivo para terrenos enlameados e pedregosos. Proteção superior com leveza competitiva.',
-    pros: ['Grip imbatível em lama', 'Proteção da sola', 'Cabedal resistente'],
-    contras: ['Firme em alcatrão', 'Stack baixa'],
-    link: 'https://www.amazon.es/s?k=salomon+speedcross+6&tag=performancerun-21',
-    loja: 'Amazon ES',
-  },
-  {
-    name: 'Nike Vaporfly 3',
-    categoria: 'Competição',
-    rating: 5,
-    preco: 'desde ~€195',
-    badge: 'Mais Rápido',
-    badgeColor: '#ef4444',
-    img: 'https://m.media-amazon.com/images/I/714NpSlEF-L._AC_UL600_.jpg',
-    desc: 'A placa de carbono mais eficiente do mercado. Sub-4:00/km com conforto. O sapato dos recordes mundiais de maratona.',
-    pros: ['Velocidade máxima', 'Placa de carbono ZoomX', 'Leve (238g)'],
-    contras: ['Exclusivo para competição', 'Durabilidade limitada (300 km)', 'Preço proibitivo'],
-    link: 'https://www.amazon.es/s?k=nike+vaporfly+3&tag=performancerun-21',
-    loja: 'Amazon ES',
-  },
-]
-
-const relogios = [
-  {
-    name: 'Garmin Forerunner 265',
-    rating: 5,
-    preco: 'desde ~€380',
-    badge: 'Melhor Custo/Benefício',
-    badgeColor: '#00ff87',
-    img: 'https://m.media-amazon.com/images/I/71rp-pRCpRL._AC_UL600_.jpg',
-    desc: 'O melhor relógio para corredores sérios sem gastar €700+. AMOLED, GPS dual-frequency, HRV avançado, planos de treino Garmin Coach.',
-    pros: ['AMOLED vibrante', 'GPS preciso (L1+L5)', 'Autonomia 13h GPS', 'Dados HRV completos'],
-    contras: ['Sem mapas topográficos', 'Sem música integrada'],
-    link: 'https://www.amazon.es/s?k=garmin+forerunner+265&tag=performancerun-21',
-    loja: 'Amazon ES',
-  },
-  {
-    name: 'Garmin Forerunner 955',
-    rating: 5,
-    preco: 'desde ~€430',
-    badge: 'Para Triatletas',
-    badgeColor: '#3b82f6',
-    img: 'https://m.media-amazon.com/images/I/51UPjlUVQBL._AC_UL600_.jpg',
-    desc: 'Mapas topográficos, 20h autonomia GPS, métricas de trail, HeatSync e AltitudeAcclim. O relógio definitivo para ultra trail e triathlon.',
-    pros: ['Mapas offline', 'Autonomia 20h GPS', 'Métricas de trail avançadas', 'Modo expedição 48h'],
-    contras: ['Ecrã MIP (não AMOLED)', 'Pesado (52g)'],
-    link: 'https://www.amazon.es/s?k=garmin+forerunner+955&tag=performancerun-21',
-    loja: 'Amazon ES',
-  },
-]
-
-const sensoresFc = [
-  {
-    name: 'Polar H10',
-    tipo: 'Cinta peitoral',
-    rating: 5,
-    preco: 'desde ~€72',
-    badge: 'Padrão Ouro',
-    badgeColor: '#00ff87',
-    img: 'https://m.media-amazon.com/images/I/71BEqJ5XfKL._AC_UL600_.jpg',
-    desc: 'O monitor de FC mais preciso do mercado. Recomendado por laboratórios de fisiologia e usado em estudos científicos. Conectividade Bluetooth + ANT+. Compatível com Garmin, Wahoo, Suunto e todos os relógios GPS.',
-    pros: ['Precisão clínica (±1 bpm)', 'Bluetooth + ANT+ dual', 'Bateria 400h', 'Compatível com todos os relógios'],
-    contras: ['Cinta peitoral (menos confortável que pulso)', 'Requer gel de condução no início'],
-    link: 'https://www.amazon.es/s?k=polar+h10+monitor+cardiaco&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'Se treinas por zonas de FC ou fazes testes de VO2max, o H10 é insubstituível. Os sensores de pulso têm erro de ±5-10% — o H10 tem ±1 bpm.',
-  },
-  {
-    name: 'Polar Verity Sense',
-    tipo: 'Sensor de braço',
-    rating: 4,
-    preco: '~€102',
-    badge: 'Melhor Sensor Ótico',
-    badgeColor: '#3b82f6',
-    img: 'https://m.media-amazon.com/images/I/81Fh813r3vL._AC_UL600_.jpg',
-    desc: 'Sensor ótico de braço com precisão muito superior aos sensores de pulso. Ideal para natação (IPX7), ciclismo e treino funcional. Usa luz verde de 6 LEDs para máxima precisão.',
-    pros: ['Sem cinta peitoral', 'Impermeável (natação)', 'Confortável em qualquer posição', 'Memória interna 600h'],
-    contras: ['Menos preciso que H10 em intervalados', 'Precisa de posicionamento correto no braço'],
-    link: 'https://www.amazon.es/s?k=polar+verity+sense&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'A alternativa ao H10 para quem não quer cinta peitoral. Excelente para trail (movimento irregular) e natação.',
-  },
-  {
-    name: 'Polar Pacer Pro',
-    tipo: 'Relógio GPS',
-    rating: 4,
-    preco: 'desde ~€176',
-    badge: 'Melhor Polar Corrida',
-    badgeColor: '#f59e0b',
-    img: 'https://m.media-amazon.com/images/I/71ZHVSNV+LL._AC_UL600_.jpg',
-    desc: 'O melhor relógio Polar para corredores. Leve (45g), GPS preciso, Running Power sem acessórios externos, análise de recuperação Nightly Recharge e estimativa de VO2max. Ecrã MIP excelente em pleno sol.',
-    pros: ['Levíssimo (45g)', 'Running Power integrado', 'Nightly Recharge (HRV nocturno)', 'Excelente autonomia 35h GPS'],
-    contras: ['Sem mapas', 'Ecrã não AMOLED', 'App menos rica que Garmin Connect'],
-    link: 'https://www.amazon.es/s?k=polar+pacer+pro&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'Para quem prefere o ecossistema Polar e quer Running Power + HRV num relógio leve e acessível.',
-  },
-]
-
-const nutricao = [
-  {
-    name: 'SiS Beta Fuel Gel',
-    tipo: 'Gel de energia',
-    rating: 5,
-    preco: '~€3,5',
-    badge: 'Editor\'s Choice',
-    badgeColor: '#00ff87',
-    img: 'https://m.media-amazon.com/images/I/51Fm2ion7tL._AC_UL600_.jpg',
-    desc: 'O gel mais avançado do mercado. 40g de carboidratos com tecnologia de duplo transportador (glicose + frutose 2:1). Absorção máxima sem desconforto gastrointestinal. Usado pela elite mundial de trail e maratona.',
-    pros: ['40g CHO por gel', 'Sem problemas GI', 'Sabor neutro', 'Testado em laboratório'],
-    contras: ['Preço elevado por gel', 'Textura espessa para alguns'],
-    link: 'https://www.amazon.es/s?k=sis+beta+fuel+gel&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'Para corridas >90 min, o Beta Fuel é o gel com maior density de carbos e menor risco de problemas de estômago. Indispensável para maratona e ultra.',
-  },
-  {
-    name: 'Maurten Gel 100',
-    tipo: 'Gel de energia',
-    rating: 5,
-    preco: '~€4,5',
-    badge: 'Preferido da Elite',
-    badgeColor: '#3b82f6',
-    img: 'https://m.media-amazon.com/images/I/710vQKAUK4L._AC_UL600_.jpg',
-    desc: 'Tecnologia Hydrogel — forma um gel no estômago que liberta energia de forma constante. Sem cor, sem sabor artificial, sem adoçantes. O gel de Kipchoge e Eliud. 25g de CHO em formato ultra-digerível.',
-    pros: ['Tecnologia Hydrogel patenteada', 'Zero problemas digestivos', 'Limpo (sem aditivos)', 'Absorção contínua'],
-    contras: ['O mais caro do mercado', 'Só 25g CHO por gel'],
-    link: 'https://www.amazon.es/s?k=maurten+gel+100&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'Para quem tem estômago sensível ou quer o que a elite mundial usa. A tecnologia Hydrogel elimina o risco de mal-estar mesmo no calor.',
-  },
-  {
-    name: 'SiS Go Electrolyte',
-    tipo: 'Isotónico em pó',
-    rating: 5,
-    preco: '~€25 (500g)',
-    badge: 'Melhor Valor',
-    badgeColor: '#00ff87',
-    img: 'https://m.media-amazon.com/images/I/51MbTHkesML._AC_UL600_.jpg',
-    desc: 'Bebida isotónica científica com 36g CHO por 500ml + eletrólitos completos (sódio, potássio, cálcio, magnésio). Fórmula isotónica real — não apenas "sais". O favorito dos triatletas e corredores de fundo.',
-    pros: ['Fórmula isotónica equilibrada', 'Eletrólitos completos', '~50 doses por embalagem', 'Vários sabores'],
-    contras: ['Precisa de misturar em pó', 'Volume a transportar'],
-    link: 'https://www.amazon.es/s?k=sis+go+electrolyte+powder&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'A melhor relação qualidade/preço em isotónicos. Cobre hidratação + energia + eletrólitos numa só bebida para treinos >1h ou no calor.',
-  },
-  {
-    name: 'GU Energy Gel',
-    tipo: 'Gel de energia',
-    rating: 4,
-    preco: '~€2,5',
-    badge: 'Melhor Entrada',
-    badgeColor: '#f59e0b',
-    img: 'https://m.media-amazon.com/images/I/61vYkvVMeTL._AC_UL600_.jpg',
-    desc: 'O gel mais popular do mundo com 20+ anos de história. 21g CHO, aminoácidos de cadeia ramificada (BCAAs) e opções com cafeína. Textura suave, fácil de ingerir. Disponível em 30+ sabores.',
-    pros: ['Preço acessível', '30+ sabores', 'BCAAs incluídos', 'Com/sem cafeína'],
-    contras: ['21g CHO apenas', 'Pode causar GI em alguns'],
-    link: 'https://www.amazon.es/s?k=gu+energy+gel+running&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'O gel ideal para começar a usar nutrição em corrida. Acessível, eficaz e amplamente disponível em todas as lojas de desporto.',
-  },
-  {
-    name: 'High5 Zero Electrolyte',
-    tipo: 'Comprimidos eletrólitos',
-    rating: 4,
-    preco: '~€8 (20 comprimidos)',
-    badge: 'Hidratação Trail',
-    badgeColor: '#8b5cf6',
-    img: 'https://m.media-amazon.com/images/I/71h2CgX35JL._AC_UL600_.jpg',
-    desc: 'Comprimidos efervescentes de eletrólitos sem carboidratos. Perfeitos para treinos de baixa intensidade, recuperação hidratante e calor. Sódio, magnésio, potássio e vitamina C num formato ultra-portátil.',
-    pros: ['Ultra-portátil', 'Sem açúcar', 'Dissolve em segundos', 'Cobre cãibras musculares'],
-    contras: ['Sem energia (só sais)', 'Sabor artificial'],
-    link: 'https://www.amazon.es/s?k=high5+zero+electrolyte+tablets&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'Para trail no verão ou após treinos longos. Os comprimidos de eletrólitos previnem cãibras e fadiga prematura causada pela desidratação mineral.',
-  },
-  {
-    name: 'Whey Proteína Isolada',
-    tipo: 'Recuperação muscular',
-    rating: 5,
-    preco: '~€45 (1kg)',
-    badge: 'Essencial Pós-Treino',
-    badgeColor: '#00ff87',
-    img: 'https://m.media-amazon.com/images/I/71UJkg2rO2L._AC_UL600_.jpg',
-    desc: 'Proteína isolada de soro de leite com 90%+ proteína, absorção rápida e aminoácidos completos. Fundamental para reparação muscular após sessões longas ou intensivas. A janela de recuperação: 30-60 min após o treino.',
-    pros: ['Absorção rápida (30 min)', 'BCAA e EAA completos', 'Alto teor proteico (25g/dose)', 'Previne catabolismo muscular'],
-    contras: ['Origem animal (não vegan)', 'Lactose residual na whey concentrada'],
-    link: 'https://www.amazon.es/s?k=whey+protein+isolate+running+recovery&tag=performancerun-21',
-    loja: 'Amazon ES',
-    porque: 'Corredores ignoram a proteína pós-treino e pagam em lesões e falta de progressão. 25g de whey nas primeiras horas pós-treino acelera a recuperação muscular em 30-40%.',
-  },
-]
-
-const acessorios = [
-  {
-    name: 'Coros Pace 3',
-    tipo: 'Relógio',
-    preco: '~€230',
-    img: 'https://m.media-amazon.com/images/I/61HE8zhwT7L._AC_UL600_.jpg',
-    desc: 'Melhor entrada no mundo dos GPS de performance. Levíssimo (30g), 38h autonomia GPS.',
-    link: 'https://www.amazon.es/s?k=coros+pace+3&tag=performancerun-21',
-  },
-  {
-    name: 'Compressport Pro Racing Socks',
-    tipo: 'Meias técnicas',
-    preco: '~€20',
-    img: 'https://m.media-amazon.com/images/I/71MaXjnAbtL._AC_UL600_.jpg',
-    desc: 'Meias de corrida da marca suíça de referência no trail e maratona. Anti-bolhas, compressão progressiva, secagem rápida. Usadas por atletas de elite.',
-    link: 'https://www.amazon.es/s?k=compressport+calcetines+running+trail&tag=performancerun-21',
-  },
-  {
-    name: 'Nathan SpeedDraw Plus',
-    tipo: 'Garrafa de mão',
-    preco: '~€25',
-    img: 'https://m.media-amazon.com/images/I/61VtZS9Jw0L._AC_UL600_.jpg',
-    desc: '530ml com bolso para gel e telemóvel. Indispensável para trail curto e treinos >1h.',
-    link: 'https://www.amazon.es/s?k=nathan+speeddraw+handheld&tag=performancerun-21',
-  },
-  {
-    name: 'Salomon Active Skin 8',
-    tipo: 'Mochila hidratação',
-    preco: 'desde ~€84',
-    img: 'https://m.media-amazon.com/images/I/81+6ITtBijL._AC_UL600_.jpg',
-    desc: '8L com 1.5L de hidratação. Ajuste perfeito sem movimento. A escolha dos pros no trail.',
-    link: 'https://www.amazon.es/s?k=salomon+active+skin+8&tag=performancerun-21',
-  },
-]
-
 function Stars({ n }: { n: number }) {
   return (
     <span className="flex gap-0.5">
@@ -326,6 +76,39 @@ function Stars({ n }: { n: number }) {
         />
       ))}
     </span>
+  )
+}
+
+/**
+ * Imagem de produto com fallback estilizado.
+ * Produtos novos ainda sem imagem Amazon confirmada (`img: ''`) mostram um
+ * placeholder consistente com o tema do site em vez de uma imagem partida
+ * ou incorreta — ver nota em lib/products.ts sobre o processo de confirmação.
+ */
+function ProductImage({
+  src,
+  alt,
+  icon: Icon,
+}: {
+  src: string
+  alt: string
+  icon: LucideIcon
+}) {
+  if (!src) {
+    return (
+      <div className="w-full h-full flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-white/[0.06] to-white/[0.01] text-white/20">
+        <Icon size={30} strokeWidth={1.5} />
+        <span className="text-[9px] font-bold uppercase tracking-widest">Imagem em breve</span>
+      </div>
+    )
+  }
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
+      alt={alt}
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+    />
   )
 }
 
@@ -346,6 +129,7 @@ function getDestaqueSemanul() {
 
 export default async function EquipamentoPage() {
   const destaque = getDestaqueSemanul()
+  const bucket = getCurrentRotationBucket()
 
   // Lê clicks totais do Redis — ordena produtos pelo que os utilizadores mais clicam
   let clicks: Record<string, number> = {}
@@ -357,11 +141,27 @@ export default async function EquipamentoPage() {
     // Redis indisponível → mantém ordem original sem quebrar a página
   }
 
-  const sapatos_r = sortByClicks(sapatos, clicks)
-  const relogios_r = sortByClicks(relogios, clicks)
-  const sensoresFc_r = sortByClicks(sensoresFc, clicks)
-  const nutricao_r = sortByClicks(nutricao, clicks)
-  const acessorios_r = sortByClicks(acessorios, clicks)
+  // 1) ordena por clicks reais, 2) seleciona o subconjunto do ciclo de rotação atual
+  const sapatos_r = selectRotatingProducts(
+    sortByClicks(sapatos, clicks), clicks, toSlug,
+    ROTATION_CONFIG.sapatos.visibleCount, ROTATION_CONFIG.sapatos.pinnedCount, 'sapatos', bucket
+  )
+  const relogios_r = selectRotatingProducts(
+    sortByClicks(relogios, clicks), clicks, toSlug,
+    ROTATION_CONFIG.relogios.visibleCount, ROTATION_CONFIG.relogios.pinnedCount, 'relogios', bucket
+  )
+  const sensoresFc_r = selectRotatingProducts(
+    sortByClicks(sensoresFc, clicks), clicks, toSlug,
+    ROTATION_CONFIG.sensoresFc.visibleCount, ROTATION_CONFIG.sensoresFc.pinnedCount, 'sensoresFc', bucket
+  )
+  const nutricao_r = selectRotatingProducts(
+    sortByClicks(nutricao, clicks), clicks, toSlug,
+    ROTATION_CONFIG.nutricao.visibleCount, ROTATION_CONFIG.nutricao.pinnedCount, 'nutricao', bucket
+  )
+  const acessorios_r = selectRotatingProducts(
+    sortByClicks(acessorios, clicks), clicks, toSlug,
+    ROTATION_CONFIG.acessorios.visibleCount, ROTATION_CONFIG.acessorios.pinnedCount, 'acessorios', bucket
+  )
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -445,12 +245,8 @@ export default async function EquipamentoPage() {
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
               >
                 <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={s.img}
-                    alt={s.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  <ProductImage src={s.img} alt={s.name} icon={Footprints} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3">
                     <span
                       className="text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-full"
@@ -526,12 +322,8 @@ export default async function EquipamentoPage() {
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
               >
                 <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={r.img}
-                    alt={r.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  <ProductImage src={r.img} alt={r.name} icon={Watch} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3">
                     <span
                       className="text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-full"
@@ -587,13 +379,13 @@ export default async function EquipamentoPage() {
           </div>
         </section>
 
-        {/* ── Monitores FC Polar ── */}
+        {/* ── Monitores FC ── */}
         <section className="border-t border-white/5 pt-16">
           <div className="mb-10">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">03</p>
             <h2 className="text-3xl font-black tracking-tight">Bracelets e Sensores de Frequência Cardíaca</h2>
             <p className="text-white/50 text-sm mt-2 max-w-2xl">
-              Treinar por zonas de FC exige precisão. Os sensores de pulso dos relógios GPS têm erros de ±5-10% em intensidades elevadas — os monitores dedicados Polar são a solução usada em laboratórios de fisiologia.
+              Treinar por zonas de FC exige precisão. Os sensores de pulso dos relógios GPS têm erros de ±5-10% em intensidades elevadas — os monitores dedicados são a solução usada em laboratórios de fisiologia.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
@@ -603,13 +395,8 @@ export default async function EquipamentoPage() {
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
               >
                 <div className="relative h-48 overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={s.img}
-                    alt={s.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  <ProductImage src={s.img} alt={s.name} icon={HeartPulse} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3 flex gap-2 flex-wrap">
                     <span
                       className="text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
@@ -691,13 +478,8 @@ export default async function EquipamentoPage() {
                 className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
               >
                 <div className="relative h-40 overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={n.img}
-                    alt={n.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                  <ProductImage src={n.img} alt={n.name} icon={Zap} />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3 flex gap-2 flex-wrap">
                     <span
                       className="text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
@@ -777,11 +559,7 @@ export default async function EquipamentoPage() {
                 className="group border border-white/6 rounded-xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
               >
                 <div className="h-36 overflow-hidden">
-                  <img
-                    src={a.img}
-                    alt={a.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  <ProductImage src={a.img} alt={a.name} icon={Package} />
                 </div>
                 <div className="p-4">
                   <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70">{a.tipo}</span>

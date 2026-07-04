@@ -35,11 +35,46 @@
  */
 
 // ── ADICIONA NOVOS PRODUTOS AQUI ──────────────────────────────────────────────
+// Lista gerada ao expandir o inventário de lib/products.ts (rotação de produtos).
+// Corre `node scripts/fetch-amazon-images.js`, confirma cada título, e cola os
+// URLs de imagem confirmados nos campos `img: ''` correspondentes em lib/products.ts.
 const NOVOS_PRODUTOS = [
-  // { nome: 'Nome do Produto', q: 'pesquisa+amazon+especifica', marketplace: 'es' },
-  // Exemplos:
-  // { nome: 'Hoka Mach 6', q: 'hoka+mach+6+running+shoe', marketplace: 'es' },
-  // { nome: 'Garmin Forerunner 165', q: 'garmin+forerunner+165+gps+running', marketplace: 'es' },
+  // Sapatos
+  { nome: 'ASICS Novablast 5', q: 'asics+novablast+5+running', marketplace: 'es' },
+  { nome: 'Nike Vomero Plus', q: 'nike+vomero+plus+running', marketplace: 'es' },
+  { nome: 'Nike Pegasus 41', q: 'nike+pegasus+41+running', marketplace: 'es' },
+  { nome: 'Brooks Ghost Max 2', q: 'brooks+ghost+max+2+running', marketplace: 'es' },
+  { nome: 'HOKA Mafate 5', q: 'hoka+mafate+5+trail', marketplace: 'es' },
+  { nome: 'La Sportiva Bushido III', q: 'la+sportiva+bushido+3+trail', marketplace: 'es' },
+  { nome: 'New Balance Fresh Foam X Hierro v9', q: 'new+balance+fresh+foam+x+hierro+v9', marketplace: 'es' },
+  { nome: 'Nike Alphafly 3', q: 'nike+alphafly+3+running', marketplace: 'es' },
+  { nome: 'Adidas Adizero Adios Pro 4', q: 'adidas+adizero+adios+pro+4', marketplace: 'es' },
+  // Relógios
+  { nome: 'Garmin Forerunner 165', q: 'garmin+forerunner+165+gps+running', marketplace: 'es' },
+  { nome: 'Garmin Forerunner 970', q: 'garmin+forerunner+970+gps+running', marketplace: 'es' },
+  { nome: 'Coros Apex 2', q: 'coros+apex+2+gps+watch', marketplace: 'es' },
+  { nome: 'Suunto Race 2', q: 'suunto+race+2+gps+watch', marketplace: 'es' },
+  { nome: 'Garmin Instinct 3', q: 'garmin+instinct+3+gps+watch', marketplace: 'es' },
+  // Sensores FC
+  { nome: 'Garmin HRM-Pro Plus', q: 'garmin+hrm-pro+plus+heart+rate', marketplace: 'es' },
+  { nome: 'Wahoo TICKR', q: 'wahoo+tickr+heart+rate', marketplace: 'es' },
+  { nome: 'Scosche Rhythm24', q: 'scosche+rhythm24+heart+rate', marketplace: 'es' },
+  // Nutrição
+  { nome: 'Neversecond C30 Gel', q: 'neversecond+c30+energy+gel', marketplace: 'es' },
+  { nome: 'Precision Fuel & Hydration PF 30 Gel', q: 'precision+fuel+hydration+pf30+gel', marketplace: 'es' },
+  { nome: 'Honey Stinger Organic Gel', q: 'honey+stinger+organic+energy+gel', marketplace: 'es' },
+  { nome: 'Nuun Sport Electrolyte Tablets', q: 'nuun+sport+electrolyte+tablets', marketplace: 'es' },
+  { nome: 'Clif Bloks Energy Chews', q: 'clif+bloks+energy+chews', marketplace: 'es' },
+  { nome: 'Creatina Monohidratada', q: 'creatina+monohidratada+running', marketplace: 'es' },
+  // Acessórios
+  { nome: 'Buff Original', q: 'buff+original+running', marketplace: 'es' },
+  { nome: 'TriggerPoint GRID Foam Roller', q: 'triggerpoint+grid+foam+roller', marketplace: 'es' },
+  { nome: 'Theragun Prime Plus', q: 'theragun+prime+plus', marketplace: 'es' },
+  { nome: 'Varta Indestructible H20 Pro', q: 'varta+indestructible+h20+pro+lanterna', marketplace: 'es' },
+  { nome: 'Camelbak Flash Belt', q: 'camelbak+flash+belt+running', marketplace: 'es' },
+  { nome: 'Oakley Radar EV Path', q: 'oakley+radar+ev+path', marketplace: 'es' },
+  { nome: 'Black Diamond Distance Carbon Z', q: 'black+diamond+distance+carbon+z', marketplace: 'es' },
+  { nome: 'BodyGlide Original Anti-Chafe', q: 'bodyglide+original+anti+chafe', marketplace: 'es' },
 ]
 // ─────────────────────────────────────────────────────────────────────────────
 
