@@ -7,14 +7,18 @@
  *   2. Rotação periódica do subconjunto mostrado (ver lib/rotation.ts),
  *      em vez de mostrar sempre os mesmos produtos.
  *
- * IMPORTANTE — IMAGENS PENDENTES:
- * Produtos novos (adicionados nesta expansão) têm `img: ''` até que a
- * imagem real da Amazon seja confirmada. NUNCA inventes um URL de imagem
- * — segue o processo em scripts/fetch-amazon-images.js (já preparado com
- * estes produtos) e cola aqui o URL confirmado depois de verificares que
- * o título corresponde ao produto certo. Enquanto `img` estiver vazio, a
- * página mostra um placeholder estilizado em vez de uma imagem partida
- * ou incorreta.
+ * IMPORTANTE — IMAGENS E PREÇOS PENDENTES:
+ * Produtos novos (adicionados nesta expansão) têm `img: ''` e
+ * `precoVerificado: false` até que a imagem e o preço reais da Amazon
+ * sejam confirmados. NUNCA inventes um URL de imagem nem apresentes um
+ * preço estimado como se fosse verificado — segue o processo em
+ * scripts/fetch-amazon-images.js (já preparado com estes produtos, e já
+ * também extrai o preço atual) e atualiza aqui `img`, `preco` e
+ * `precoVerificado: true` depois de confirmares que o título corresponde
+ * ao produto certo. Enquanto `img` estiver vazio, a página mostra um
+ * placeholder estilizado; enquanto `precoVerificado` for false, a página
+ * mostra o preço com uma etiqueta "a confirmar" em vez de o apresentar
+ * como facto.
  */
 
 export interface SapatoProduto {
@@ -22,6 +26,7 @@ export interface SapatoProduto {
   categoria: 'Estrada' | 'Trail' | 'Competição'
   rating: number
   preco: string
+  precoVerificado: boolean
   badge: string
   badgeColor: string
   img: string
@@ -37,6 +42,7 @@ export interface RelogioProduto {
   name: string
   rating: number
   preco: string
+  precoVerificado: boolean
   badge: string
   badgeColor: string
   img: string
@@ -53,6 +59,7 @@ export interface SensorFcProduto {
   tipo: string
   rating: number
   preco: string
+  precoVerificado: boolean
   badge: string
   badgeColor: string
   img: string
@@ -70,6 +77,7 @@ export interface NutricaoProduto {
   tipo: string
   rating: number
   preco: string
+  precoVerificado: boolean
   badge: string
   badgeColor: string
   img: string
@@ -86,6 +94,7 @@ export interface AcessorioProduto {
   name: string
   tipo: string
   preco: string
+  precoVerificado: boolean
   img: string
   desc: string
   link: string
@@ -99,6 +108,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Estrada',
     rating: 5,
     preco: 'desde ~€100',
+    precoVerificado: true,
     badge: "Editor's Choice",
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/51M3xzUi6qL._AC_UL600_.jpg',
@@ -113,6 +123,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Estrada',
     rating: 4,
     preco: 'desde ~€112',
+    precoVerificado: true,
     badge: 'Premium Pick',
     badgeColor: '#3b82f6',
     img: 'https://m.media-amazon.com/images/I/71BIO86CufL._AC_UL600_.jpg',
@@ -127,6 +138,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Estrada',
     rating: 5,
     preco: 'desde ~€150',
+    precoVerificado: false,
     badge: 'Mais Vendido',
     badgeColor: '#00ff87',
     img: '',
@@ -142,6 +154,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Estrada',
     rating: 5,
     preco: 'desde ~€170',
+    precoVerificado: false,
     badge: 'Tendência 2026',
     badgeColor: '#f59e0b',
     img: '',
@@ -157,6 +170,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Estrada',
     rating: 4,
     preco: 'desde ~€140',
+    precoVerificado: false,
     badge: 'Clássico Versátil',
     badgeColor: '#3b82f6',
     img: '',
@@ -171,6 +185,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Estrada',
     rating: 4,
     preco: 'desde ~€150',
+    precoVerificado: false,
     badge: 'Conforto Máximo',
     badgeColor: '#8b5cf6',
     img: '',
@@ -185,6 +200,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Trail',
     rating: 5,
     preco: 'desde ~€100',
+    precoVerificado: true,
     badge: 'Trail Best',
     badgeColor: '#f59e0b',
     img: 'https://m.media-amazon.com/images/I/71vRj0oHa1L._AC_UL600_.jpg',
@@ -199,6 +215,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Trail',
     rating: 5,
     preco: 'desde ~€180',
+    precoVerificado: false,
     badge: 'Líder de Vendas Trail',
     badgeColor: '#00ff87',
     img: '',
@@ -214,6 +231,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Trail',
     rating: 4,
     preco: 'desde ~€145',
+    precoVerificado: false,
     badge: 'Precisão Técnica',
     badgeColor: '#3b82f6',
     img: '',
@@ -228,6 +246,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Trail',
     rating: 4,
     preco: 'desde ~€150',
+    precoVerificado: false,
     badge: 'Em Alta',
     badgeColor: '#8b5cf6',
     img: '',
@@ -242,6 +261,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Competição',
     rating: 5,
     preco: 'desde ~€195',
+    precoVerificado: true,
     badge: 'Mais Rápido',
     badgeColor: '#ef4444',
     img: 'https://m.media-amazon.com/images/I/714NpSlEF-L._AC_UL600_.jpg',
@@ -256,6 +276,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Competição',
     rating: 5,
     preco: 'desde ~€280',
+    precoVerificado: false,
     badge: 'Topo de Gama',
     badgeColor: '#ef4444',
     img: '',
@@ -271,6 +292,7 @@ export const sapatos: SapatoProduto[] = [
     categoria: 'Competição',
     rating: 5,
     preco: 'desde ~€250',
+    precoVerificado: false,
     badge: 'Grip Superior',
     badgeColor: '#3b82f6',
     img: '',
@@ -288,6 +310,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Garmin Forerunner 265',
     rating: 5,
     preco: 'desde ~€380',
+    precoVerificado: true,
     badge: 'Melhor Custo/Benefício',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/71rp-pRCpRL._AC_UL600_.jpg',
@@ -301,6 +324,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Garmin Forerunner 955',
     rating: 5,
     preco: 'desde ~€430',
+    precoVerificado: true,
     badge: 'Para Triatletas',
     badgeColor: '#3b82f6',
     img: 'https://m.media-amazon.com/images/I/51UPjlUVQBL._AC_UL600_.jpg',
@@ -314,6 +338,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Garmin Forerunner 165',
     rating: 4,
     preco: 'desde ~€270',
+    precoVerificado: false,
     badge: 'Melhor Entrada AMOLED',
     badgeColor: '#00ff87',
     img: '',
@@ -328,6 +353,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Garmin Forerunner 970',
     rating: 5,
     preco: 'desde ~€750',
+    precoVerificado: false,
     badge: 'Topo de Gama 2026',
     badgeColor: '#ef4444',
     img: '',
@@ -341,6 +367,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Coros Pace 3',
     rating: 5,
     preco: 'desde ~€230',
+    precoVerificado: true,
     badge: 'Melhor Relação Peso/Preço',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/61HE8zhwT7L._AC_UL600_.jpg',
@@ -354,6 +381,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Coros Apex 2',
     rating: 4,
     preco: 'desde ~€400',
+    precoVerificado: false,
     badge: 'Titânio Premium',
     badgeColor: '#3b82f6',
     img: '',
@@ -367,6 +395,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Suunto Race 2',
     rating: 4,
     preco: 'desde ~€460',
+    precoVerificado: false,
     badge: 'Regresso em Força',
     badgeColor: '#f59e0b',
     img: '',
@@ -380,6 +409,7 @@ export const relogios: RelogioProduto[] = [
     name: 'Garmin Instinct 3',
     rating: 4,
     preco: 'desde ~€350',
+    precoVerificado: false,
     badge: 'Robusto e Solar',
     badgeColor: '#8b5cf6',
     img: '',
@@ -398,6 +428,7 @@ export const sensoresFc: SensorFcProduto[] = [
     tipo: 'Cinta peitoral',
     rating: 5,
     preco: 'desde ~€72',
+    precoVerificado: true,
     badge: 'Padrão Ouro',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/71BEqJ5XfKL._AC_UL600_.jpg',
@@ -413,6 +444,7 @@ export const sensoresFc: SensorFcProduto[] = [
     tipo: 'Sensor de braço',
     rating: 4,
     preco: '~€102',
+    precoVerificado: true,
     badge: 'Melhor Sensor Ótico',
     badgeColor: '#3b82f6',
     img: 'https://m.media-amazon.com/images/I/81Fh813r3vL._AC_UL600_.jpg',
@@ -428,6 +460,7 @@ export const sensoresFc: SensorFcProduto[] = [
     tipo: 'Relógio GPS',
     rating: 4,
     preco: 'desde ~€176',
+    precoVerificado: true,
     badge: 'Melhor Polar Corrida',
     badgeColor: '#f59e0b',
     img: 'https://m.media-amazon.com/images/I/71ZHVSNV+LL._AC_UL600_.jpg',
@@ -443,6 +476,7 @@ export const sensoresFc: SensorFcProduto[] = [
     tipo: 'Cinta peitoral',
     rating: 5,
     preco: '~€130',
+    precoVerificado: false,
     badge: 'Melhor com Garmin',
     badgeColor: '#00ff87',
     img: '',
@@ -458,6 +492,7 @@ export const sensoresFc: SensorFcProduto[] = [
     tipo: 'Cinta peitoral',
     rating: 4,
     preco: '~€50',
+    precoVerificado: false,
     badge: 'Melhor Custo/Benefício',
     badgeColor: '#3b82f6',
     img: '',
@@ -474,6 +509,7 @@ export const sensoresFc: SensorFcProduto[] = [
     tipo: 'Sensor de braço',
     rating: 4,
     preco: '~€80',
+    precoVerificado: false,
     badge: 'Alternativa Sem Cinta',
     badgeColor: '#8b5cf6',
     img: '',
@@ -493,6 +529,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gel de energia',
     rating: 5,
     preco: '~€3,5',
+    precoVerificado: true,
     badge: "Editor's Choice",
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/51Fm2ion7tL._AC_UL600_.jpg',
@@ -508,6 +545,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gel de energia',
     rating: 5,
     preco: '~€4,5',
+    precoVerificado: true,
     badge: 'Preferido da Elite',
     badgeColor: '#3b82f6',
     img: 'https://m.media-amazon.com/images/I/710vQKAUK4L._AC_UL600_.jpg',
@@ -523,6 +561,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Isotónico em pó',
     rating: 5,
     preco: '~€25 (500g)',
+    precoVerificado: true,
     badge: 'Melhor Valor',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/51MbTHkesML._AC_UL600_.jpg',
@@ -538,6 +577,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gel de energia',
     rating: 4,
     preco: '~€2,5',
+    precoVerificado: true,
     badge: 'Melhor Entrada',
     badgeColor: '#f59e0b',
     img: 'https://m.media-amazon.com/images/I/61vYkvVMeTL._AC_UL600_.jpg',
@@ -553,6 +593,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Comprimidos eletrólitos',
     rating: 4,
     preco: '~€8 (20 comprimidos)',
+    precoVerificado: true,
     badge: 'Hidratação Trail',
     badgeColor: '#8b5cf6',
     img: 'https://m.media-amazon.com/images/I/71h2CgX35JL._AC_UL600_.jpg',
@@ -568,6 +609,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Recuperação muscular',
     rating: 5,
     preco: '~€45 (1kg)',
+    precoVerificado: true,
     badge: 'Essencial Pós-Treino',
     badgeColor: '#00ff87',
     img: 'https://m.media-amazon.com/images/I/71UJkg2rO2L._AC_UL600_.jpg',
@@ -583,6 +625,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gel de energia',
     rating: 5,
     preco: '~€3',
+    precoVerificado: false,
     badge: 'Alto Sódio',
     badgeColor: '#ef4444',
     img: '',
@@ -599,6 +642,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gel de energia',
     rating: 5,
     preco: '~€3,2',
+    precoVerificado: false,
     badge: 'Baseado em Dados',
     badgeColor: '#3b82f6',
     img: '',
@@ -614,6 +658,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gel de energia',
     rating: 4,
     preco: '~€2,2',
+    precoVerificado: false,
     badge: 'Opção Natural',
     badgeColor: '#8b5cf6',
     img: '',
@@ -629,6 +674,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Comprimidos eletrólitos',
     rating: 5,
     preco: '~€7,5 (10 comprimidos)',
+    precoVerificado: false,
     badge: 'Mais Vendido Amazon',
     badgeColor: '#00ff87',
     img: '',
@@ -645,6 +691,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Gomas energéticas',
     rating: 4,
     preco: '~€2,8',
+    precoVerificado: false,
     badge: 'Alternativa ao Gel',
     badgeColor: '#f59e0b',
     img: '',
@@ -660,6 +707,7 @@ export const nutricao: NutricaoProduto[] = [
     tipo: 'Suplemento de força',
     rating: 5,
     preco: '~€20 (500g)',
+    precoVerificado: false,
     badge: 'Recuperação e Força',
     badgeColor: '#3b82f6',
     img: '',
@@ -678,6 +726,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Compressport Pro Racing Socks',
     tipo: 'Meias técnicas',
     preco: '~€20',
+    precoVerificado: true,
     img: 'https://m.media-amazon.com/images/I/71MaXjnAbtL._AC_UL600_.jpg',
     desc: 'Meias de corrida da marca suíça de referência no trail e maratona. Anti-bolhas, compressão progressiva, secagem rápida. Usadas por atletas de elite.',
     link: 'https://www.amazon.es/s?k=compressport+calcetines+running+trail&tag=performancerun-21',
@@ -686,6 +735,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Nathan SpeedDraw Plus',
     tipo: 'Garrafa de mão',
     preco: '~€25',
+    precoVerificado: true,
     img: 'https://m.media-amazon.com/images/I/61VtZS9Jw0L._AC_UL600_.jpg',
     desc: '530ml com bolso para gel e telemóvel. Indispensável para trail curto e treinos >1h.',
     link: 'https://www.amazon.es/s?k=nathan+speeddraw+handheld&tag=performancerun-21',
@@ -694,6 +744,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Salomon Active Skin 8',
     tipo: 'Mochila hidratação',
     preco: 'desde ~€84',
+    precoVerificado: true,
     img: 'https://m.media-amazon.com/images/I/81+6ITtBijL._AC_UL600_.jpg',
     desc: '8L com 1.5L de hidratação. Ajuste perfeito sem movimento. A escolha dos pros no trail.',
     link: 'https://www.amazon.es/s?k=salomon+active+skin+8&tag=performancerun-21',
@@ -702,6 +753,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Buff Original',
     tipo: 'Bandana multifunções',
     preco: '~€18',
+    precoVerificado: false,
     img: '',
     desc: 'A bandana tubular mais vendida do mundo do outdoor. Protege do sol, do frio e do vento em 12+ formas de uso diferentes.',
     link: 'https://www.amazon.es/s?k=buff+original+running&tag=performancerun-21',
@@ -711,6 +763,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'TriggerPoint GRID Foam Roller',
     tipo: 'Recuperação muscular',
     preco: '~€35',
+    precoVerificado: false,
     img: '',
     desc: 'O foam roller de referência para libertação miofascial. Núcleo rígido com espuma texturizada que simula as mãos de um massagista.',
     link: 'https://www.amazon.es/s?k=triggerpoint+grid+foam+roller&tag=performancerun-21',
@@ -719,6 +772,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Theragun Prime Plus',
     tipo: 'Massajador percussivo',
     preco: '~€299',
+    precoVerificado: false,
     img: '',
     desc: 'Eleito o melhor massajador percussivo de 2026. Reduz a rigidez muscular pós-treino e acelera a recuperação entre sessões duras.',
     link: 'https://www.amazon.es/s?k=theragun+prime+plus&tag=performancerun-21',
@@ -727,6 +781,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Varta Indestructible H20 Pro',
     tipo: 'Lanterna frontal',
     preco: '~€30',
+    precoVerificado: false,
     img: '',
     desc: '350 lúmens com dois níveis de iluminação — essencial para treinos de trail ao amanhecer, ao final do dia ou em provas noturnas.',
     link: 'https://www.amazon.es/s?k=varta+indestructible+h20+pro+lanterna&tag=performancerun-21',
@@ -735,6 +790,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Camelbak Flash Belt',
     tipo: 'Cinto de hidratação',
     preco: '~€35',
+    precoVerificado: false,
     img: '',
     desc: 'Cinto leve com flask incluído e bolsos para gel e telemóvel. Alternativa mais discreta à mochila para treinos até 90 minutos.',
     link: 'https://www.amazon.es/s?k=camelbak+flash+belt+running&tag=performancerun-21',
@@ -743,6 +799,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Oakley Radar EV Path',
     tipo: 'Óculos de sol desportivos',
     preco: '~€180',
+    precoVerificado: false,
     img: '',
     desc: 'Os óculos mais usados pela elite do atletismo mundial. Lente Prizm de alta definição e encaixe que não desliza mesmo com transpiração intensa.',
     link: 'https://www.amazon.es/s?k=oakley+radar+ev+path&tag=performancerun-21',
@@ -751,6 +808,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'Black Diamond Distance Carbon Z',
     tipo: 'Bastões de trekking',
     preco: '~€150',
+    precoVerificado: false,
     img: '',
     desc: 'Bastões de carbono ultraleves e dobráveis, essenciais em ultra trail com muito desnível — poupam energia significativa nas subidas longas.',
     link: 'https://www.amazon.es/s?k=black+diamond+distance+carbon+z&tag=performancerun-21',
@@ -759,6 +817,7 @@ export const acessorios: AcessorioProduto[] = [
     name: 'BodyGlide Original Anti-Chafe',
     tipo: 'Anti-atrito',
     preco: '~€12',
+    precoVerificado: false,
     img: '',
     desc: 'O bálsamo anti-atrito de referência mundial. Previne assaduras e bolhas em longas distâncias — indispensável em maratona e ultra trail.',
     link: 'https://www.amazon.es/s?k=bodyglide+original+anti+chafe&tag=performancerun-21',

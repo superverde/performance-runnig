@@ -112,6 +112,35 @@ function ProductImage({
   )
 }
 
+/**
+ * Preço do produto. Se `verified` for false (ver `precoVerificado` em
+ * lib/products.ts), mostra uma etiqueta "Preço a confirmar" — nunca
+ * apresenta uma estimativa de pesquisa como se fosse um preço confirmado
+ * na Amazon.
+ */
+function PriceTag({
+  preco,
+  verified,
+  className = 'text-brand-green font-bold text-sm whitespace-nowrap',
+  wrapperClassName = '',
+}: {
+  preco: string
+  verified: boolean
+  className?: string
+  wrapperClassName?: string
+}) {
+  return (
+    <span className={`flex flex-col items-end shrink-0 ${wrapperClassName}`}>
+      <span className={className}>{preco}</span>
+      {!verified && (
+        <span className="text-[8px] uppercase tracking-widest text-white/30 font-bold mt-0.5 whitespace-nowrap">
+          Preço a confirmar
+        </span>
+      )}
+    </span>
+  )
+}
+
 // Rotação semanal: cada semana destaca uma categoria diferente
 const ROTACAO_SEMANAL = [
   { semana: 0, titulo: 'Sapatos de Estrada', subtitulo: 'Esta semana em destaque', ancora: '#sapatos', emoji: '👟', cor: '#00ff87' },
@@ -265,7 +294,7 @@ export default async function EquipamentoPage() {
                 <div className="p-5">
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <h3 className="font-black text-lg tracking-tight">{s.name}</h3>
-                    <span className="text-brand-green font-bold text-sm whitespace-nowrap">{s.preco}</span>
+                    <PriceTag preco={s.preco} verified={s.precoVerificado} />
                   </div>
                   <div className="flex items-center gap-2 mb-3">
                     <Stars n={s.rating} />
@@ -336,7 +365,7 @@ export default async function EquipamentoPage() {
                 <div className="p-5">
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <h3 className="font-black text-lg tracking-tight">{r.name}</h3>
-                    <span className="text-brand-green font-bold text-sm whitespace-nowrap">{r.preco}</span>
+                    <PriceTag preco={r.preco} verified={r.precoVerificado} />
                   </div>
                   <div className="flex items-center gap-2 mb-3">
                     <Stars n={r.rating} />
@@ -415,7 +444,7 @@ export default async function EquipamentoPage() {
                 <div className="p-5 flex flex-col flex-1">
                   <div className="flex items-start justify-between mb-2">
                     <h3 className="font-black text-lg tracking-tight">{s.name}</h3>
-                    <span className="text-brand-green font-black text-sm shrink-0 ml-2">{s.preco}</span>
+                    <PriceTag preco={s.preco} verified={s.precoVerificado} className="text-brand-green font-black text-sm" wrapperClassName="ml-2" />
                   </div>
                   <p className="text-white/50 text-xs leading-relaxed mb-4">{s.desc}</p>
 
@@ -498,7 +527,7 @@ export default async function EquipamentoPage() {
                 <div className="p-5 flex flex-col flex-1">
                   <div className="flex items-start justify-between mb-2">
                     <h3 className="font-black text-base tracking-tight">{n.name}</h3>
-                    <span className="text-brand-green font-black text-sm shrink-0 ml-2">{n.preco}</span>
+                    <PriceTag preco={n.preco} verified={n.precoVerificado} className="text-brand-green font-black text-sm" wrapperClassName="ml-2" />
                   </div>
                   <p className="text-white/50 text-xs leading-relaxed mb-4">{n.desc}</p>
 
@@ -566,7 +595,7 @@ export default async function EquipamentoPage() {
                   <h3 className="font-bold text-sm mt-1 mb-1">{a.name}</h3>
                   <p className="text-white/35 text-xs leading-relaxed mb-3">{a.desc}</p>
                   <div className="flex items-center justify-between">
-                    <span className="text-brand-green text-xs font-bold">{a.preco}</span>
+                    <PriceTag preco={a.preco} verified={a.precoVerificado} className="text-brand-green text-xs font-bold" />
                     <a
                       href={trackedLink(a.name, a.link)}
                       target="_blank"
