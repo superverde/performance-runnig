@@ -147,7 +147,6 @@ const ALL_TOPICS = [
   { slug: 'musculação-corrida-perder-velocidade', title: 'Musculação Torna os Corredores Mais Lentos? A Evidência Diz o Contrário', category: 'Treino' },
   // EQUIPAMENTO E TECNOLOGIA (técnico, não confundir com o pool comercial)
   { slug: 'relógio-gps-metricas-corrida-importantes', title: 'As 7 Métricas do Relógio GPS Que Todo o Corredor Deve Monitorizar', category: 'Treino' },
-  { slug: 'carbono-placa-sapatos-benefícios-riscos', title: 'Sapatos com Placa de Carbono: Vale o Investimento?', category: 'Treino' },
   { slug: 'potencia-running-power-garmin', title: 'Running Power: A Métrica que Vai Substituir o Pace?', category: 'Treino' },
   { slug: 'training-load-stress-score-vercel', title: 'Training Load e ATL/CTL: Como Gerir a Carga de Treino com Dados', category: 'Treino' },
   // JOVENS E VETERANOS
@@ -168,7 +167,6 @@ const ALL_TOPICS = [
 // ─────────────────────────────────────────────────────────────────────────────
 const COMMERCIAL_TOPICS = [
   { slug: 'melhores-sapatilhas-corrida-maratona-2026', title: 'Melhores Sapatilhas de Corrida para Maratona em 2026', category: 'Equipamento' },
-  { slug: 'sapatilhas-placa-carbono-vale-a-pena-comparativo', title: 'Sapatilhas com Placa de Carbono: Valem o Preço? Comparativo', category: 'Equipamento' },
   { slug: 'melhores-relogios-gps-corrida-trail-2026', title: 'Melhores Relógios GPS para Corrida e Trail em 2026', category: 'Equipamento' },
   { slug: 'melhores-sapatilhas-trail-terrenos-tecnicos', title: 'Melhores Sapatilhas de Trail Running para Terrenos Técnicos', category: 'Equipamento' },
   { slug: 'sapatilhas-corrida-melhor-relacao-qualidade-preco', title: 'Sapatilhas de Corrida com Melhor Relação Qualidade/Preço', category: 'Equipamento' },
