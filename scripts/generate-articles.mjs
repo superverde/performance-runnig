@@ -147,6 +147,7 @@ const ALL_TOPICS = [
   { slug: 'musculação-corrida-perder-velocidade', title: 'Musculação Torna os Corredores Mais Lentos? A Evidência Diz o Contrário', category: 'Treino' },
   // EQUIPAMENTO E TECNOLOGIA (técnico, não confundir com o pool comercial)
   { slug: 'relógio-gps-metricas-corrida-importantes', title: 'As 7 Métricas do Relógio GPS Que Todo o Corredor Deve Monitorizar', category: 'Treino' },
+  { slug: 'carbono-placa-sapatos-benefícios-riscos', title: 'Sapatos com Placa de Carbono: Vale o Investimento?', category: 'Treino' },
   { slug: 'potencia-running-power-garmin', title: 'Running Power: A Métrica que Vai Substituir o Pace?', category: 'Treino' },
   { slug: 'training-load-stress-score-vercel', title: 'Training Load e ATL/CTL: Como Gerir a Carga de Treino com Dados', category: 'Treino' },
   // JOVENS E VETERANOS
@@ -167,6 +168,7 @@ const ALL_TOPICS = [
 // ─────────────────────────────────────────────────────────────────────────────
 const COMMERCIAL_TOPICS = [
   { slug: 'melhores-sapatilhas-corrida-maratona-2026', title: 'Melhores Sapatilhas de Corrida para Maratona em 2026', category: 'Equipamento' },
+  { slug: 'sapatilhas-placa-carbono-vale-a-pena-comparativo', title: 'Sapatilhas com Placa de Carbono: Valem o Preço? Comparativo', category: 'Equipamento' },
   { slug: 'melhores-relogios-gps-corrida-trail-2026', title: 'Melhores Relógios GPS para Corrida e Trail em 2026', category: 'Equipamento' },
   { slug: 'melhores-sapatilhas-trail-terrenos-tecnicos', title: 'Melhores Sapatilhas de Trail Running para Terrenos Técnicos', category: 'Equipamento' },
   { slug: 'sapatilhas-corrida-melhor-relacao-qualidade-preco', title: 'Sapatilhas de Corrida com Melhor Relação Qualidade/Preço', category: 'Equipamento' },
@@ -275,6 +277,23 @@ function getExistingSlugs() {
       .filter(f => f.endsWith('.md'))
       .map(f => f.replace('.md', ''))
   )
+}
+
+// Conta quantos artigos já têm a data de hoje no frontmatter. Usado como
+// trava de idempotência: se o workflow for disparado duas vezes no mesmo dia
+// (ex: o cron original atrasado + a rede de segurança da Vercel a disparar
+// via workflow_dispatch), a segunda execução não deve gerar mais 3 artigos
+// a somar aos já publicados — deve simplesmente não fazer nada.
+function countTodayArticles(today) {
+  if (!fs.existsSync(ARTICLES_DIR)) return 0
+  let count = 0
+  for (const f of fs.readdirSync(ARTICLES_DIR)) {
+    if (!f.endsWith('.md')) continue
+    const content = fs.readFileSync(path.join(ARTICLES_DIR, f), 'utf8')
+    const match = content.match(/^date:\s*['"]?(\d{4}-\d{2}-\d{2})/m)
+    if (match && match[1] === today) count++
+  }
+  return count
 }
 
 function loadCounter() {
@@ -419,6 +438,14 @@ async function main() {
   console.log(`📅 Data: ${today}`)
   console.log(`📚 Artigos existentes: ${existingSlugs.size}`)
   console.log(`📍 Último índice: ${counter.lastIndex}`)
+
+  const alreadyToday = countTodayArticles(today)
+  const NEEDED_PER_DAY = TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN
+  console.log(`📰 Artigos já publicados hoje: ${alreadyToday}/${NEEDED_PER_DAY}`)
+  if (alreadyToday >= NEEDED_PER_DAY) {
+    console.log('✅ Hoje já tem os artigos todos publicados — a sair sem gerar mais (evita duplicar entre disparos).')
+    process.exit(0)
+  }
 
   const remainingTechnical = ALL_TOPICS.filter(t => !existingSlugs.has(t.slug))
   const remainingCommercial = COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(t.slug))

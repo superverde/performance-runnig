@@ -2,10 +2,27 @@ name: Gerar Artigos Diários
 
 on:
   schedule:
-    # Corre às 05:30 UTC todos os dias (06:30 hora de Portugal no inverno, 06:30 no verão)
-    - cron: '30 5 * * *'
+    # GitHub Actions só agenda em UTC, e Portugal muda de fuso horário (WET/UTC+0
+    # no inverno, WEST/UTC+1 no verão). Para publicar sempre por volta das 6:07
+    # hora de Portugal durante o ano todo, definimos os dois horários UTC
+    # possíveis e o primeiro passo do job decide qual dos dois disparos é o
+    # "certo" para a estação atual, saltando o outro sem publicar nada.
+    #
+    # O minuto 07 (em vez de 00/15/30/45) é deliberado: são os minutos redondos
+    # que mais concorridos ficam no agendador do GitHub Actions a nível global,
+    # o que aumenta a probabilidade de atraso ou do disparo simplesmente não
+    # acontecer em períodos de carga alta. Ver [[project_github_action_atraso_e_duplicados]].
+    - cron: '7 5 * * *'  # ~06:07 em Portugal no verão (WEST, UTC+1)
+    - cron: '7 6 * * *'  # ~06:07 em Portugal no inverno (WET, UTC+0)
   # Permite correr manualmente no GitHub → Actions → Run workflow
   workflow_dispatch:
+
+concurrency:
+  # Impede duas execuções em paralelo (ex: o cron original atrasado + o
+  # disparo manual da rede de segurança da Vercel a coincidirem no tempo).
+  # Não cancela a que já está a correr — só faz a segunda esperar.
+  group: daily-articles-generation
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -14,28 +31,67 @@ jobs:
       contents: write   # necessário para fazer commit e push
 
     steps:
+      - name: Confirmar que este é o cron certo para a estação atual
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            echo "Disparo manual — a continuar sem verificar a hora."
+            exit 0
+          fi
+
+          # Em vez de comparar a hora local exata no momento em que o job
+          # arranca (frágil: se o GitHub atrasar o disparo, a hora local já
+          # não bate certo e o job seria saltado por engano), usamos o
+          # offset de fuso horário de Lisboa para decidir qual dos dois
+          # crons é o correto na estação atual, e comparamos com qual cron
+          # disparou mesmo este evento (github.event.schedule). Isto
+          # funciona corretamente mesmo que o job só arranque horas depois
+          # do agendado.
+          OFFSET=$(TZ="Europe/Lisbon" date +%z)
+          echo "Offset de Lisboa agora: $OFFSET"
+          if [ "$OFFSET" = "+0100" ]; then
+            CRON_CORRETO="7 5 * * *"
+          else
+            CRON_CORRETO="7 6 * * *"
+          fi
+          echo "Cron correto para esta estação: $CRON_CORRETO"
+          echo "Cron que disparou este job: ${{ github.event.schedule }}"
+
+          if [ "${{ github.event.schedule }}" = "$CRON_CORRETO" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Este é o cron da outra estação do ano — a sair sem publicar."
+          fi
+
       - name: Checkout repositório
+        if: steps.gate.outputs.proceed == 'true'
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Instalar Node.js
+        if: steps.gate.outputs.proceed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Instalar dependências do script
+        if: steps.gate.outputs.proceed == 'true'
         run: |
           # O script usa apenas módulos nativos + fetch (Node 18+), sem npm install necessário
           echo "Node $(node --version) pronto"
 
       - name: Gerar 3 artigos do dia
+        if: steps.gate.outputs.proceed == 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/generate-articles.mjs
 
       - name: Verificar se há artigos novos
         id: check
+        if: steps.gate.outputs.proceed == 'true'
         run: |
           git diff --name-only HEAD
           CHANGED=$(git status --porcelain content/blog/ | wc -l)
