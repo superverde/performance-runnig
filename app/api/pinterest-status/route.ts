@@ -17,17 +17,19 @@ export async function GET(req: NextRequest) {
   const token = await getPinterestAccessToken()
   const boardId = process.env.PINTEREST_BOARD_ID
 
-  if (!token || !boardId) {
+  if (!token) {
     return NextResponse.json({
       configured: false,
-      hasToken: !!token,
+      hasToken: false,
       hasBoardId: !!boardId,
       refreshConfigured,
-      diagnosis: 'PINTEREST_ACCESS_TOKEN (ou PINTEREST_APP_ID/PINTEREST_APP_SECRET/PINTEREST_REFRESH_TOKEN) ou PINTEREST_BOARD_ID não estão definidos no Vercel. A app continua sem token válido.',
+      diagnosis: 'Sem access token válido. Define PINTEREST_ACCESS_TOKEN, ou PINTEREST_APP_ID + PINTEREST_APP_SECRET + PINTEREST_REFRESH_TOKEN no Vercel.',
     })
   }
 
-  const results: Record<string, unknown> = { hasToken: true, hasBoardId: true, refreshConfigured, boardIdConfigured: boardId }
+  // Mesmo sem PINTEREST_BOARD_ID definido, lista os boards disponíveis
+  // abaixo para facilitar copiar o ID certo.
+  const results: Record<string, unknown> = { hasToken: true, hasBoardId: !!boardId, refreshConfigured, boardIdConfigured: boardId ?? null }
 
   // Verifica se o token é válido (conta associada)
   try {
@@ -49,10 +51,6 @@ export async function GET(req: NextRequest) {
     results.boards_status = boardsRes.status
     results.boards = boardsData
     const ids = (boardsData.items ?? []).map((b: { id: string }) => b.id)
-    results.boardIdMatchesAnyBoard = ids.includes(boardId)
+    results.boardIdMatchesAnyBoard = boardId ? ids.includes(boardId) : null
   } catch (e) {
-    results.boards_error = String(e)
-  }
-
-  return NextResponse.json({ configured: true, ...results })
-}
+    results.
