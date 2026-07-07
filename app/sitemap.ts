@@ -1,6 +1,11 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/articles'
 
+// Mesma razão do app/blog/page.tsx: sem isto, o sitemap fica congelado com os
+// artigos que existiam no último build/deploy em vez de refletir os artigos
+// publicados diariamente pelo GitHub Action.
+export const dynamic = 'force-dynamic'
+
 const SITE_URL = 'https://www.performancerunning.pt'
 
 const MODALIDADES_SLUGS = [

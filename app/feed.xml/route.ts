@@ -1,6 +1,11 @@
 import { NextResponse } from 'next/server'
 import { getAllArticles } from '@/lib/articles'
 
+// Mesma razao de app/blog/page.tsx e app/sitemap.ts: sem isto, este route
+// handler é gerado como estático no build e fica com os artigos de nesse
+// momento em vez dos artigos publicados diariamente.
+export const dynamic = 'force-dynamic'
+
 const SITE_URL = 'https://www.performancerunning.pt'
 const SITE_NAME = 'Performance Running'
 const SITE_DESC = 'Ciência aplicada à corrida, trail running e atletismo'
