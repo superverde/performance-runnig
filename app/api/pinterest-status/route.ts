@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { getPinterestAccessToken, pinterestRefreshConfigured } from '@/lib/pinterest'
 
 /**
  * GET /api/pinterest-status?key=INTERNAL_API_KEY
  * Diagnóstico read-only — não publica nenhum pin. Verifica se
- * PINTEREST_ACCESS_TOKEN / PINTEREST_BOARD_ID estão configurados e válidos.
+ * PINTEREST_ACCESS_TOKEN (ou refresh automático) / PINTEREST_BOARD_ID
+ * estão configurados e válidos.
  */
 export async function GET(req: NextRequest) {
   const key = req.nextUrl.searchParams.get('key')
@@ -11,7 +13,8 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
   }
 
-  const token = process.env.PINTEREST_ACCESS_TOKEN
+  const refreshConfigured = pinterestRefreshConfigured()
+  const token = await getPinterestAccessToken()
   const boardId = process.env.PINTEREST_BOARD_ID
 
   if (!token || !boardId) {
@@ -19,11 +22,12 @@ export async function GET(req: NextRequest) {
       configured: false,
       hasToken: !!token,
       hasBoardId: !!boardId,
-      diagnosis: 'PINTEREST_ACCESS_TOKEN ou PINTEREST_BOARD_ID não estão definidos no Vercel. A app continua sem token válido.',
+      refreshConfigured,
+      diagnosis: 'PINTEREST_ACCESS_TOKEN (ou PINTEREST_APP_ID/PINTEREST_APP_SECRET/PINTEREST_REFRESH_TOKEN) ou PINTEREST_BOARD_ID não estão definidos no Vercel. A app continua sem token válido.',
     })
   }
 
-  const results: Record<string, unknown> = { hasToken: true, hasBoardId: true, boardIdConfigured: boardId }
+  const results: Record<string, unknown> = { hasToken: true, hasBoardId: true, refreshConfigured, boardIdConfigured: boardId }
 
   // Verifica se o token é válido (conta associada)
   try {

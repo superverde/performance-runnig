@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAllArticles } from '@/lib/articles'
+import { getPinterestAccessToken } from '@/lib/pinterest'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -53,11 +54,11 @@ function selectArticle(slotIndex: number) {
 async function createPin(article: {
   title: string; excerpt: string; slug: string; category: string
 }, slotIndex: number): Promise<{ success: boolean; pinId?: string; error?: string }> {
-  const token = process.env.PINTEREST_ACCESS_TOKEN
+  const token = await getPinterestAccessToken()
   const boardId = process.env.PINTEREST_BOARD_ID
 
   if (!token || !boardId) {
-    return { success: false, error: 'PINTEREST_ACCESS_TOKEN ou PINTEREST_BOARD_ID não definidos' }
+    return { success: false, error: 'Sem access token válido (verifica PINTEREST_ACCESS_TOKEN ou PINTEREST_APP_ID/PINTEREST_APP_SECRET/PINTEREST_REFRESH_TOKEN) ou PINTEREST_BOARD_ID não definido' }
   }
 
   const imageUrl = CATEGORY_IMAGES[article.category] ?? DEFAULT_IMAGE
