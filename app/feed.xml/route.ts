@@ -2,15 +2,15 @@ import { NextResponse } from 'next/server'
 import { getAllArticles } from '@/lib/articles'
 
 // Mesma razao de app/blog/page.tsx e app/sitemap.ts: sem isto, este route
-// handler é gerado como estático no build e fica com os artigos de nesse
+// handler e gerado como estatico no build e fica com os artigos de nesse
 // momento em vez dos artigos publicados diariamente.
 export const dynamic = 'force-dynamic'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 const SITE_NAME = 'Performance Running'
-const SITE_DESC = 'Ciência aplicada à corrida, trail running e atletismo'
+const SITE_DESC = 'Ciencia aplicada a corrida, trail running e atletismo'
 
-// Imagens por slug de artigo (específicas por tema)
+// Imagens por slug de artigo (especificas por tema)
 const ARTICLE_IMAGES: Record<string, string> = {
   'como-correr-mais-rapido': 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
   'corrida-jejum-fat-adaptation': 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
@@ -43,6 +43,20 @@ const CATEGORY_IMAGES: Record<string, string> = {
 }
 const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'
 
+// Escapa caracteres especiais XML em valores usados dentro de atributos
+// (url="...") ou de texto fora de CDATA. Sem isto, um "&" literal (ex: nos
+// query params das imagens do Unsplash, "?w=1200&q=80") produz XML invalido
+// ("EntityRef: expecting ';'") e o feed fica ilegivel para leitores de RSS
+// (ex: a publicacao automatica do Pinterest, que rejeita o feed inteiro).
+function escapeXml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;')
+}
+
 export async function GET() {
   const articles = getAllArticles().slice(0, 50)
 
@@ -57,12 +71,12 @@ export async function GET() {
       return `
     <item>
       <title><![CDATA[${a.title}]]></title>
-      <link>${url}</link>
-      <guid isPermaLink="true">${url}</guid>
+      <link>${escapeXml(url)}</link>
+      <guid isPermaLink="true">${escapeXml(url)}</guid>
       <description><![CDATA[${a.excerpt}]]></description>
       <pubDate>${pubDate}</pubDate>
       <category><![CDATA[${a.category}]]></category>
-      <enclosure url="${imageUrl}" type="image/jpeg" length="0"/>
+      <enclosure url="${escapeXml(imageUrl)}" type="image/jpeg" length="0"/>
     </item>`
     })
     .join('')
