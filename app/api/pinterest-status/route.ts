@@ -3,14 +3,14 @@ import { getPinterestAccessToken, pinterestRefreshConfigured } from '@/lib/pinte
 
 /**
  * GET /api/pinterest-status?key=INTERNAL_API_KEY
- * Diagnóstico read-only — não publica nenhum pin. Verifica se
- * PINTEREST_ACCESS_TOKEN (ou refresh automático) / PINTEREST_BOARD_ID
- * estão configurados e válidos.
+ * Diagnostico read-only -- nao publica nenhum pin. Verifica se
+ * PINTEREST_ACCESS_TOKEN (ou refresh automatico) / PINTEREST_BOARD_ID
+ * estao configurados e validos.
  */
 export async function GET(req: NextRequest) {
   const key = req.nextUrl.searchParams.get('key')
   if (key !== process.env.INTERNAL_API_KEY) {
-    return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
+    return NextResponse.json({ error: 'Nao autorizado' }, { status: 401 })
   }
 
   const refreshConfigured = pinterestRefreshConfigured()
@@ -23,15 +23,15 @@ export async function GET(req: NextRequest) {
       hasToken: false,
       hasBoardId: !!boardId,
       refreshConfigured,
-      diagnosis: 'Sem access token válido. Define PINTEREST_ACCESS_TOKEN, ou PINTEREST_APP_ID + PINTEREST_APP_SECRET + PINTEREST_REFRESH_TOKEN no Vercel.',
+      diagnosis: 'Sem access token valido. Define PINTEREST_ACCESS_TOKEN, ou PINTEREST_APP_ID + PINTEREST_APP_SECRET + PINTEREST_REFRESH_TOKEN no Vercel.',
     })
   }
 
-  // Mesmo sem PINTEREST_BOARD_ID definido, lista os boards disponíveis
+  // Mesmo sem PINTEREST_BOARD_ID definido, lista os boards disponiveis
   // abaixo para facilitar copiar o ID certo.
   const results: Record<string, unknown> = { hasToken: true, hasBoardId: !!boardId, refreshConfigured, boardIdConfigured: boardId ?? null }
 
-  // Verifica se o token é válido (conta associada)
+  // Verifica se o token e valido (conta associada)
   try {
     const accRes = await fetch('https://api.pinterest.com/v5/user_account', {
       headers: { Authorization: `Bearer ${token}` },
@@ -42,7 +42,7 @@ export async function GET(req: NextRequest) {
     results.user_account_error = String(e)
   }
 
-  // Lista os boards acessíveis com este token
+  // Lista os boards acessiveis com este token
   try {
     const boardsRes = await fetch('https://api.pinterest.com/v5/boards', {
       headers: { Authorization: `Bearer ${token}` },
@@ -53,4 +53,8 @@ export async function GET(req: NextRequest) {
     const ids = (boardsData.items ?? []).map((b: { id: string }) => b.id)
     results.boardIdMatchesAnyBoard = boardId ? ids.includes(boardId) : null
   } catch (e) {
-    results.
+    results.boards_error = String(e)
+  }
+
+  return NextResponse.json({ configured: true, ...results })
+}
