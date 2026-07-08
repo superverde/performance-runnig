@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/articles'
 
-// Mesma razão do app/blog/page.tsx: sem isto, o sitemap fica congelado com os
-// artigos que existiam no último build/deploy em vez de refletir os artigos
+// Mesma razao do app/blog/page.tsx: sem isto, o sitemap fica congelado com os
+// artigos que existiam no ultimo build/deploy em vez de refletir os artigos
 // publicados diariamente pelo GitHub Action.
 export const dynamic = 'force-dynamic'
 
@@ -73,12 +73,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
-    },
-    {
-      url: `${SITE_URL}/servicos`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
     },
     {
       url: `${SITE_URL}/patrocinios`,
