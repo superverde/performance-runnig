@@ -210,7 +210,7 @@ export default function MethodologiesPage() {
                 backgroundPosition: 'center',
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/80 to-black/50" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/88 to-black/78" />
               <div className="relative p-8 sm:p-10">
                 <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/30 bg-brand-green/10 mb-4">
                   {m.tag}
@@ -291,11 +291,15 @@ export default function MethodologiesPage() {
         ))}
       </div>
 
-      {/* CTA */}
+      {/* CTA — a foto anterior (photo-1590012314607) era, confirmado
+          visualmente na sessão de correção da homepage, uma cerimónia de
+          formatura académica, sem nenhuma relação com corrida. Trocada
+          pela mesma foto já confirmada e usada no CTA final da homepage
+          (corredores em silhueta ao pôr do sol). */}
       <section
         className="relative py-24 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
