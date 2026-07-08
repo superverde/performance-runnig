@@ -7,19 +7,19 @@ import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 
-// Índices 5 e 6 usavam as mesmas fotos das secções "Últimos Artigos" e
-// "Categorias" mais abaixo nesta mesma página — a mesma imagem repetida
-// duas vezes na mesma página. Trocadas por fotos de trail/montanha (ainda
-// não usadas nesta página), o que também reforça a identidade de trail e
-// montanha na homepage, não só estrada.
+// Cada URL abaixo foi carregada e confirmada visualmente (via browser) antes
+// de entrar aqui — o código antigo tinha vários IDs do Unsplash com
+// comentários que não correspondiam ao conteúdo real da foto (ex: um ID
+// "trail running" que era na verdade uma foto de fruta, ou "mountain trail"
+// que era dois corredores numa estrada ao pôr do sol).
 const topicImages = [
   'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70',
   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70',
   'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70',
   'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70',
-  'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=600&q=70',
-  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=70',
-  'https://images.unsplash.com/photo-1538485399081-7c8272b27daa?w=600&q=70',
+  'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=70',
+  'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=70',
+  'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70',
   'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70',
 ]
 
@@ -61,11 +61,13 @@ export default async function HomePage() {
   return (
     <>
       {/* HERO — backgroundColor garante que nunca aparece branco enquanto a imagem carrega.
-          Imagem trocada de "corredor em estrada" para trail de montanha: o site cobre
+          Imagem trocada de "corredor em estrada" para corredor de trail em
+          crista de montanha (confirmada visualmente: atleta com colete de
+          hidratação, trilho rochoso, pico nevado ao fundo) — o site cobre
           estrada, trail e montanha com o mesmo peso, mas a primeira impressão só
           mostrava estrada. */}
       <section className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
+        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
@@ -93,7 +95,7 @@ export default async function HomePage() {
             <Link href="/blog" className="group inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3">
               {t('hp', 'cta_today')} <ArrowRight size={15} />
             </Link>
-            <Link href="/modalidades" className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all">
+            <Link href="/metodologias" className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all">
               {t('hp', 'cta_methodologies')}
             </Link>
           </div>
@@ -263,11 +265,14 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* CTA FINAL */}
+      {/* CTA FINAL — a foto anterior (photo-1590012314607) era, confirmado
+          visualmente, uma cerimónia de formatura académica — não tinha
+          nenhuma relação com corrida. Substituída por corredores ao
+          pôr do sol, também confirmada visualmente. */}
       <section className="py-24 sm:py-32 border-t border-white/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-3xl overflow-hidden border border-white/5 p-10 sm:p-16 lg:p-20"
-            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
             data-reveal>
             <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-black/88 to-black/85" />
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[80px] pointer-events-none" />
