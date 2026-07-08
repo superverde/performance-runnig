@@ -279,21 +279,33 @@ function getExistingSlugs() {
   )
 }
 
-// Conta quantos artigos já têm a data de hoje no frontmatter. Usado como
-// trava de idempotência: se o workflow for disparado duas vezes no mesmo dia
-// (ex: o cron original atrasado + a rede de segurança da Vercel a disparar
-// via workflow_dispatch), a segunda execução não deve gerar mais 3 artigos
-// a somar aos já publicados — deve simplesmente não fazer nada.
-function countTodayArticles(today) {
-  if (!fs.existsSync(ARTICLES_DIR)) return 0
-  let count = 0
+// Conta quantos artigos já têm a data de hoje no frontmatter, separados por
+// tipo (comercial = categoria "Equipamento", técnico = todas as outras).
+//
+// Usado como trava de idempotência: se o workflow for disparado mais do que
+// uma vez no mesmo dia (ex: o cron original atrasado + a rede de segurança da
+// Vercel a disparar via workflow_dispatch), a segunda execução NÃO pode voltar
+// a tentar gerar TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN do zero — isso somaria
+// aos artigos já publicados e produziria dias com 4-8 artigos em vez de 3
+// (foi exatamente o que aconteceu em 2026-07-04/07-05: um disparo duplicado
+// gerou um artigo comercial quase-repetido que teve de ser removido à mão).
+// Em vez disso, cada execução calcula quantos técnicos/comerciais FALTAM para
+// chegar a 3, e só gera esses — nunca mais do que isso, seja qual for o
+// número de disparos nesse dia.
+function countTodayByType(today) {
+  let technical = 0
+  let commercial = 0
+  if (!fs.existsSync(ARTICLES_DIR)) return { technical, commercial }
   for (const f of fs.readdirSync(ARTICLES_DIR)) {
     if (!f.endsWith('.md')) continue
     const content = fs.readFileSync(path.join(ARTICLES_DIR, f), 'utf8')
-    const match = content.match(/^date:\s*['"]?(\d{4}-\d{2}-\d{2})/m)
-    if (match && match[1] === today) count++
+    const dateMatch = content.match(/^date:\s*['"]?(\d{4}-\d{2}-\d{2})/m)
+    if (!dateMatch || dateMatch[1] !== today) continue
+    const catMatch = content.match(/^category:\s*['"]?([^'"\n]+)/m)
+    if (catMatch && catMatch[1].trim() === 'Equipamento') commercial++
+    else technical++
   }
-  return count
+  return { technical, commercial }
 }
 
 function loadCounter() {
@@ -439,10 +451,16 @@ async function main() {
   console.log(`📚 Artigos existentes: ${existingSlugs.size}`)
   console.log(`📍 Último índice: ${counter.lastIndex}`)
 
-  const alreadyToday = countTodayArticles(today)
+  const { technical: todayTechnical, commercial: todayCommercial } = countTodayByType(today)
+  const alreadyToday = todayTechnical + todayCommercial
   const NEEDED_PER_DAY = TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN
-  console.log(`📰 Artigos já publicados hoje: ${alreadyToday}/${NEEDED_PER_DAY}`)
-  if (alreadyToday >= NEEDED_PER_DAY) {
+  // Faltam para hoje, por tipo — NUNCA os valores fixos de novo, para que um
+  // segundo disparo no mesmo dia (rede de segurança da Vercel, retry manual,
+  // etc.) só complete o que falta em vez de duplicar o que já foi publicado.
+  const neededTechnical = Math.max(0, TECHNICAL_PER_RUN - todayTechnical)
+  const neededCommercial = Math.max(0, COMMERCIAL_PER_RUN - todayCommercial)
+  console.log(`📰 Artigos já publicados hoje: ${alreadyToday}/${NEEDED_PER_DAY} (técnicos: ${todayTechnical}/${TECHNICAL_PER_RUN}, comerciais: ${todayCommercial}/${COMMERCIAL_PER_RUN})`)
+  if (neededTechnical === 0 && neededCommercial === 0) {
     console.log('✅ Hoje já tem os artigos todos publicados — a sair sem gerar mais (evita duplicar entre disparos).')
     process.exit(0)
   }
@@ -515,14 +533,15 @@ async function main() {
     return generated
   }
 
-  const technicalDone = await generateFromQueue(remainingTechnical, 'technical', TECHNICAL_PER_RUN)
-  const commercialDone = await generateFromQueue(remainingCommercial, 'commercial', COMMERCIAL_PER_RUN)
+  const technicalDone = await generateFromQueue(remainingTechnical, 'technical', neededTechnical)
+  const commercialDone = await generateFromQueue(remainingCommercial, 'commercial', neededCommercial)
   const totalDone = technicalDone + commercialDone
+  const totalNeeded = neededTechnical + neededCommercial
 
   saveCounter(lastIndex, today, lastSlug)
 
-  if (totalDone < TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN) {
-    console.log(`\n⚠️  Só foi possível gerar ${totalDone} de ${TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN} artigos hoje (falhas repetidas na Groq). Publicados: ${publishedTitles.join(', ') || '(nenhum)'}`)
+  if (totalDone < totalNeeded) {
+    console.log(`\n⚠️  Só foi possível gerar ${totalDone} de ${totalNeeded} artigos em falta hoje (falhas repetidas na Groq). Publicados nesta execução: ${publishedTitles.join(', ') || '(nenhum)'}`)
   } else {
     console.log(`\n🎉 ${totalDone} artigos gerados para ${today}: ${publishedTitles.join(', ')}`)
   }
