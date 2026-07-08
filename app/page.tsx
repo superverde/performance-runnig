@@ -7,14 +7,19 @@ import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 
+// Índices 5 e 6 usavam as mesmas fotos das secções "Últimos Artigos" e
+// "Categorias" mais abaixo nesta mesma página — a mesma imagem repetida
+// duas vezes na mesma página. Trocadas por fotos de trail/montanha (ainda
+// não usadas nesta página), o que também reforça a identidade de trail e
+// montanha na homepage, não só estrada.
 const topicImages = [
   'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70',
   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70',
   'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70',
   'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70',
   'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=600&q=70',
-  'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=600&q=70',
-  'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70',
+  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=70',
+  'https://images.unsplash.com/photo-1538485399081-7c8272b27daa?w=600&q=70',
   'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70',
 ]
 
@@ -55,9 +60,12 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* HERO — backgroundColor garante que nunca aparece branco enquanto a imagem carrega */}
+      {/* HERO — backgroundColor garante que nunca aparece branco enquanto a imagem carrega.
+          Imagem trocada de "corredor em estrada" para trail de montanha: o site cobre
+          estrada, trail e montanha com o mesmo peso, mas a primeira impressão só
+          mostrava estrada. */}
       <section className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
+        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
