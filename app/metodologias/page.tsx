@@ -210,7 +210,7 @@ export default function MethodologiesPage() {
                 backgroundPosition: 'center',
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/88 to-black/78" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/92 to-black/88" />
               <div className="relative p-8 sm:p-10">
                 <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/30 bg-brand-green/10 mb-4">
                   {m.tag}
