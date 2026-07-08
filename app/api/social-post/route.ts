@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
+import { pickCategoryImage } from '@/lib/images'
 
 // ── TIPOS ────────────────────────────────────────────────────────────────────
 
@@ -25,42 +26,14 @@ function isConfigured(value: string | undefined): boolean {
   return !!value && value !== 'placeholder' && value.length > 10
 }
 
-// Imagens de capa por categoria — contextualizadas para cada tema
-const CATEGORY_IMAGES: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80', // corredor em treino intenso
-  'Fisiologia':    'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1080&q=80', // corredor com monitor cardíaco
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80', // comida saudável para desportistas
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1080&q=80', // corredor em análise de passada
-  'Recuperação':   'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80', // corredor a descansar pós treino
-  'Psicologia':    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1080&q=80', // corredor concentrado
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80', // trail em montanha
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80', // fisioterapia / joelho
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80', // corredor em esforço máximo
+// Seleção de imagem de capa: ver lib/images.ts. Antes havia aqui 1 imagem
+// fixa por categoria (repetida em todos os posts da mesma categoria, há
+// meses) — agora usa uma pool de 50 imagens, escolhida de forma
+// determinística pelo slug do artigo (mesmo artigo = mesma imagem em todas
+// as redes, artigos diferentes da mesma categoria já não colidem).
+function selectImage(slug: string, category: string): string {
+  return pickCategoryImage(category, slug, 1080)
 }
-
-// Palavras-chave no título → imagem mais específica
-const KEYWORD_IMAGES: { keywords: string[]; url: string }[] = [
-  { keywords: ['gelo', 'frio', 'banho', 'crioterapia', 'cold'], url: 'https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=1080&q=80' },
-  { keywords: ['maratona', 'marathon'], url: 'https://images.unsplash.com/photo-1530137073521-58f5bd474c49?w=1080&q=80' },
-  { keywords: ['trail', 'montanha', 'mountain', 'ultra'], url: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80' },
-  { keywords: ['nutri', 'carboidrat', 'proteína', 'dieta', 'gel'], url: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80' },
-  { keywords: ['sono', 'descanso', 'recupera'], url: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1080&q=80' },
-  { keywords: ['lesão', 'lesao', 'dor', 'joelho', 'plantar', 'tendão'], url: 'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80' },
-  { keywords: ['vo2', 'oxigénio', 'oxigenio', 'limiar', 'lactato'], url: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80' },
-  { keywords: ['força', 'forca', 'muscula', 'gin', 'weight'], url: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1080&q=80' },
-  { keywords: ['5km', '10km', 'prova', 'corrida de rua', 'competição'], url: 'https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?w=1080&q=80' },
-  { keywords: ['pace', 'ritmo', 'pacing', 'velocidade'], url: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80' },
-]
-
-function selectImage(title: string, category: string): string {
-  const lower = title.toLowerCase()
-  for (const entry of KEYWORD_IMAGES) {
-    if (entry.keywords.some(kw => lower.includes(kw))) return entry.url
-  }
-  return CATEGORY_IMAGES[category] ?? DEFAULT_IMAGE
-}
-
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80'
 
 // ── HASHTAGS POR CATEGORIA ───────────────────────────────────────────────────
 
@@ -398,7 +371,7 @@ export async function POST(req: NextRequest) {
     }
 
     const articleUrl = `${SITE_URL}/blog/${slug}`
-    const image = coverImage || selectImage(title, category)
+    const image = coverImage || selectImage(slug, category)
 
     // Gera captions para todas as plataformas
     const captions = await generateCaptions(article)

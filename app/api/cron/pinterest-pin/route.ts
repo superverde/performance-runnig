@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAllArticles } from '@/lib/articles'
 import { getPinterestAccessToken } from '@/lib/pinterest'
+import { pickCategoryImage } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -10,19 +11,6 @@ function isAuthorized(req: NextRequest): boolean {
   if (!secret) return false
   return auth === `Bearer ${secret}`
 }
-
-const CATEGORY_IMAGES: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1000&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=1000&q=80',
-  'Nutrição':      'https://images.unsplash.com/photo-1547592180-85f173990554?w=1000&q=80',
-  'Biomecânica':   'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1000&q=80',
-  'Recuperação':   'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1000&q=80',
-  'VO2max':        'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1000&q=80',
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1000&q=80',
-  'Lesões':        'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=1000&q=80',
-  'Psicologia':    'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1000&q=80',
-}
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1000&q=80'
 
 function buildDescription(article: { title: string; excerpt: string; category: string }): string {
   const tags: Record<string, string> = {
@@ -61,7 +49,7 @@ async function createPin(article: {
     return { success: false, error: 'Sem access token válido (verifica PINTEREST_ACCESS_TOKEN ou PINTEREST_APP_ID/PINTEREST_APP_SECRET/PINTEREST_REFRESH_TOKEN) ou PINTEREST_BOARD_ID não definido' }
   }
 
-  const imageUrl = CATEGORY_IMAGES[article.category] ?? DEFAULT_IMAGE
+  const imageUrl = pickCategoryImage(article.category, article.slug, 1000)
   const articleUrl = `${SITE_URL}/blog/${article.slug}`
   const suffixes = ['', ' | Performance Running', ' — Ciência da Corrida']
   const title = `${article.title}${suffixes[slotIndex] ?? ''}`.slice(0, 100)

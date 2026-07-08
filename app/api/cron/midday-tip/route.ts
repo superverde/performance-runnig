@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
+import { allPoolImages } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -143,16 +144,11 @@ async function postToX(text: string): Promise<boolean> {
   } catch { return false }
 }
 
-// Imagem genérica para posts sem artigo (tema visual de corrida)
-const TIP_IMAGES = [
-  'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80',
-  'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1080&q=80',
-  'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80',
-  'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80',
-  'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1080&q=80',
-  'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80',
-  'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80',
-]
+// Imagem genérica para posts sem artigo (tema visual de corrida).
+// Antes tinha só 7 imagens (uma por dia da semana, repetindo toda semana
+// para sempre). Agora usa a pool completa de 50 e roda por dia do ano —
+// só repete ao fim de ~50 dias em vez de 7.
+const TIP_IMAGES = allPoolImages(1080)
 
 export async function GET(req: NextRequest) {
   if (!isAuthorized(req)) {
@@ -162,7 +158,10 @@ export async function GET(req: NextRequest) {
   const diaSemana = new Date().getDay() // 0=Dom, 1=Seg, ..., 6=Sab
   const tema = TEMAS_POR_DIA[diaSemana]
   const hashtags = HASHTAGS_POR_DIA[diaSemana]
-  const image = TIP_IMAGES[diaSemana]
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000
+  )
+  const image = TIP_IMAGES[dayOfYear % TIP_IMAGES.length]
 
   const captions = await generateTip(tema, hashtags)
 

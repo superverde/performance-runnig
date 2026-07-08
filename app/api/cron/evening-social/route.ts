@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
 import { getAllArticles } from '@/lib/articles'
+import { pickCategoryImage } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -24,18 +25,6 @@ function fixPtPt(text: string): string {
   for (const [p, r] of replacements) out = out.replace(p, r)
   return out
 }
-
-const CATEGORY_IMAGES: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1080&q=80',
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80',
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1080&q=80',
-  'Recuperação':   'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80',
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80',
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80',
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80',
-}
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80'
 
 const CATEGORY_HASHTAGS: Record<string, string> = {
   'Treino':        '#treino #running #treinodecorrida #corridaportugal #performancerunning #corredores',
@@ -173,7 +162,7 @@ export async function GET(req: NextRequest) {
     (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000
   )
   const article = allArticles[(dayOfYear + 1) % allArticles.length]
-  const image = article.coverImage ?? CATEGORY_IMAGES[article.category] ?? DEFAULT_IMAGE
+  const image = article.coverImage ?? pickCategoryImage(article.category, article.slug, 1080)
   const link = `${SITE_URL}/blog/${article.slug}`
 
   const captions = await generateEveningCaptions(article)
