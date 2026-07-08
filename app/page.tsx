@@ -11,16 +11,19 @@ import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 // de entrar aqui — o código antigo tinha vários IDs do Unsplash com
 // comentários que não correspondiam ao conteúdo real da foto (ex: um ID
 // "trail running" que era na verdade uma foto de fruta, ou "mountain trail"
-// que era dois corredores numa estrada ao pôr do sol).
+// que era dois corredores numa estrada ao pôr do sol). Índices 2, 3 e 7
+// foram corrigidos numa segunda verificação: o índice 2 devolvia um 404
+// real (imagem partida em produção), o índice 3 era uma estrada rural sem
+// nenhum corredor, e o índice 7 era uma foto de microscópio.
 const topicImages = [
   'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70',
   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70',
-  'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70',
-  'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70',
+  'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=600&q=70',
+  'https://images.unsplash.com/photo-1519703936-c4a3b3eb88e4?w=600&q=70',
   'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=70',
   'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=70',
   'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70',
-  'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70',
+  'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=70',
 ]
 
 const categoryNames = ['Treino', 'Fisiologia', 'Nutrição', 'Biomecânica', 'Recuperação', 'Psicologia', 'Trail Running', 'Lesões']
