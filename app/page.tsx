@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Link from 'next/link'
 import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
@@ -23,13 +25,14 @@ export default async function HomePage() {
   const messages = await getMessages(locale)
   const t = (section: string, key: string) => (messages as Record<string, Record<string, string>>)?.[section]?.[key] ?? key
 
-  const articles = await getLatestArticles(4)
+  const articles = await getLatestArticles(7)
   const allArticles = getAllArticles()
   const totalArticles = allArticles.length
   const todayArticles = getTodayArticles()
 
   const [featured, ...rest] = articles
   const sideArticles = rest.slice(0, 2)
+  const moreArticles = rest.slice(2, 6)
 
   const categories = categoryNames.map((name) => ({
     name,
@@ -169,7 +172,13 @@ export default async function HomePage() {
               </div>
             )}
 
-            {articles[3] && (<div className="mt-4" data-reveal><ArticleCard article={articles[3]} /></div>)}
+            {moreArticles.length > 0 && (
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+                {moreArticles.map((a, i) => (
+                  <div key={a.slug} data-reveal data-delay={String((i + 3) * 100)}><ArticleCard article={a} /></div>
+                ))}
+              </div>
+            )}
 
             <div className="mt-10 text-center" data-reveal>
               <Link href="/blog" className="inline-flex items-center gap-2 px-8 py-3.5 border border-white/10 text-white/55 text-sm font-bold rounded-full hover:border-brand-green/40 hover:text-white transition-all">
