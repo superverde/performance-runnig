@@ -105,7 +105,7 @@ jobs:
           git config user.email "newsletter@performancerunning.pt"
           git add content/blog/
           TODAY=$(date +%Y-%m-%d)
-          git commit -m "feat(artigos): 3 novos artigos para $TODAY [skip ci]"
+          git commit -m "feat(artigos): 3 novos artigos para $TODAY"
           git push origin main
           echo "✅ Push feito — Vercel irá fazer deploy automaticamente"
 
