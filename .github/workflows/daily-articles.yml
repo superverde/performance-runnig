@@ -3,17 +3,25 @@ name: Gerar Artigos Diários
 on:
   schedule:
     # GitHub Actions só agenda em UTC, e Portugal muda de fuso horário (WET/UTC+0
-    # no inverno, WEST/UTC+1 no verão). Para publicar sempre por volta das 6:07
+    # no inverno, WEST/UTC+1 no verão). Para publicar sempre por volta das 3:07
     # hora de Portugal durante o ano todo, definimos os dois horários UTC
     # possíveis e o primeiro passo do job decide qual dos dois disparos é o
     # "certo" para a estação atual, saltando o outro sem publicar nada.
     #
+    # Alterado de ~06:07 para ~03:07 (2026-07-09, pedido do Pedro): os artigos
+    # têm de estar publicados com garantia até às 06:00, hora do pequeno-almoço.
+    # O atraso histórico máximo já observado no agendador do GitHub foi de ~3h
+    # (ver [[project_github_action_atraso_e_duplicados]]) — correr às 03:07 dá
+    # margem para absorver esse atraso e ainda assim terminar antes das 06:00.
+    # A rede de segurança da Vercel (/api/cron/ensure-articles, ~05:12 Portugal)
+    # continua a existir como segundo nível de proteção.
+    #
     # O minuto 07 (em vez de 00/15/30/45) é deliberado: são os minutos redondos
     # que mais concorridos ficam no agendador do GitHub Actions a nível global,
     # o que aumenta a probabilidade de atraso ou do disparo simplesmente não
-    # acontecer em períodos de carga alta. Ver [[project_github_action_atraso_e_duplicados]].
-    - cron: '7 5 * * *'  # ~06:07 em Portugal no verão (WEST, UTC+1)
-    - cron: '7 6 * * *'  # ~06:07 em Portugal no inverno (WET, UTC+0)
+    # acontecer em períodos de carga alta.
+    - cron: '7 2 * * *'  # ~03:07 em Portugal no verão (WEST, UTC+1)
+    - cron: '7 3 * * *'  # ~03:07 em Portugal no inverno (WET, UTC+0)
   # Permite correr manualmente no GitHub → Actions → Run workflow
   workflow_dispatch:
 
@@ -51,9 +59,9 @@ jobs:
           OFFSET=$(TZ="Europe/Lisbon" date +%z)
           echo "Offset de Lisboa agora: $OFFSET"
           if [ "$OFFSET" = "+0100" ]; then
-            CRON_CORRETO="7 5 * * *"
+            CRON_CORRETO="7 2 * * *"
           else
-            CRON_CORRETO="7 6 * * *"
+            CRON_CORRETO="7 3 * * *"
           fi
           echo "Cron correto para esta estação: $CRON_CORRETO"
           echo "Cron que disparou este job: ${{ github.event.schedule }}"
@@ -105,7 +113,7 @@ jobs:
           git config user.email "newsletter@performancerunning.pt"
           git add content/blog/
           TODAY=$(date +%Y-%m-%d)
-          git commit -m "feat(artigos): 3 novos artigos para $TODAY"
+          git commit -m "feat(artigos): 3 novos artigos para $TODAY [skip ci]"
           git push origin main
           echo "✅ Push feito — Vercel irá fazer deploy automaticamente"
 
