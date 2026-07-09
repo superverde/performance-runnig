@@ -3,30 +3,43 @@ import fs from 'fs'
 import path from 'path'
 
 /**
- * Rede de segurança para a publicação diária de artigos.
+ * Rede de segurança para a publicação diária de artigos — e, na prática, o
+ * mecanismo que REALMENTE garante o horário, não só um backup.
  *
- * O GitHub Action "Gerar Artigos Diários" (.github/workflows/daily-articles.yml)
- * corre por agendamento próprio às ~03:07 hora de Portugal, mas o agendador do
- * GitHub Actions é "best effort" — pode atrasar horas ou, em casos raros,
- * simplesmente não disparar num dado dia (já aconteceu — ver memória
- * project_github_action_atraso_e_duplicados).
+ * IMPORTANTE (descoberto em 2026-07-09): o "schedule:" nativo do GitHub
+ * Actions (.github/workflows/daily-articles.yml) mostrou-se sistematicamente
+ * pouco fiável para este repositório — o histórico real de execuções (não
+ * apenas incidentes pontuais) mostra atrasos consistentes de 2 a 5 horas
+ * face à hora nominal, todos os dias, mesmo antes de qualquer alteração feita
+ * hoje (ver [[project_github_action_atraso_e_duplicados]] e
+ * [[project_agendamento_artigos_horario]]). Ou seja: não dá para confiar que
+ * o cron nativo do GitHub dispara perto da hora configurada.
  *
- * Este endpoint corre num cron da Vercel (infraestrutura independente do
- * GitHub) por volta das 05:12 hora de Portugal — antes das 06:00, hora a que
- * os artigos têm de estar garantidamente publicados (pedido do Pedro,
- * 2026-07-09, para estarem prontos à hora do pequeno-almoço). Se detetar que
- * ainda não existem os 3 artigos de hoje, dispara o workflow diretamente pela
- * API do GitHub (workflow_dispatch), que normalmente arranca em segundos.
+ * Em contraste, o `workflow_dispatch` (disparo via API, usado por este
+ * endpoint) NÃO sofre desse atraso — arranca em segundos, como confirmado em
+ * testes reais. Por isso este endpoint, correndo num cron da Vercel (infra-
+ * estrutura independente do GitHub, com janela de imprecisão documentada de
+ * até 1h no plano Hobby — bem mais previsível que os 2-5h do GitHub), é o
+ * que garante de facto que os artigos existem antes das 06:00 hora de
+ * Portugal (pedido do Pedro, 2026-07-09, para estarem prontos ao pequeno-
+ * almoço). O cron nativo do GitHub (~03:07 PT) continua a existir como
+ * tentativa "bónus" — se disparar a tempo, ótimo; se não, este endpoint
+ * cobre.
+ *
+ * Horário: cron nominal ~04:12 hora de Portugal, com margem de segurança
+ * para a janela de imprecisão de 1h da Vercel — mesmo no pior caso (dispara
+ * às 05:12 PT), a geração demora ~1-2 min, terminando por volta das 05:14 PT,
+ * quase 45 min antes do deadline das 06:00.
  *
  * Portugal muda de fuso horário ao longo do ano (WET/UTC+0 no inverno,
  * WEST/UTC+1 no verão), e o vercel.json não suporta agendamento condicional
  * por estação como o GitHub Actions — por isso há DOIS crons fixos em UTC
- * ("12 4 * * *" e "12 5 * * *", um por estação) que apontam para este mesmo
+ * ("12 3 * * *" e "12 4 * * *", um por estação) que apontam para este mesmo
  * endpoint todos os dias. A Vercel envia o header `x-vercel-cron-schedule`
  * com o cron exato que disparou o pedido (equivalente ao `github.event.schedule`
  * usado no gate do GitHub Action) — o gate abaixo usa esse header para saber
  * qual dos dois disparos é o "certo" para a estação atual e ignora o outro,
- * mantendo a verificação sempre por volta das 05:12 hora de Portugal, ano todo.
+ * mantendo a verificação sempre por volta das 04:12 hora de Portugal, ano todo.
  *
  * É seguro correr isto mesmo que o workflow original já tenha corrido: o
  * próprio script (scripts/generate-articles.mjs) verifica quantos artigos já
@@ -53,7 +66,7 @@ function getLisbonOffsetHours(date: Date): number {
   return Math.round((asLisbon.getTime() - asUtc.getTime()) / (60 * 60 * 1000))
 }
 
-// Dos dois crons diários definidos em vercel.json (04:12 UTC e 05:12 UTC),
+// Dos dois crons diários definidos em vercel.json (03:12 UTC e 04:12 UTC),
 // só o que corresponde à estação atual deve de facto verificar/disparar —
 // o outro é o cron "da outra estação" e deve ser ignorado, tal como no gate
 // do GitHub Action. A Vercel identifica qual cron disparou o pedido através
@@ -65,7 +78,7 @@ function isCorrectSeasonInvocation(req: NextRequest, now: Date): boolean {
   if (!triggeredBy) return true // não é um disparo de cron (ex: teste manual) — deixa passar
 
   const offset = getLisbonOffsetHours(now)
-  const correctCron = offset === 1 ? '12 4 * * *' : '12 5 * * *' // verão (+1) → 04:12 UTC, inverno (+0) → 05:12 UTC
+  const correctCron = offset === 1 ? '12 3 * * *' : '12 4 * * *' // verão (+1) → 03:12 UTC, inverno (+0) → 04:12 UTC
   return triggeredBy === correctCron
 }
 
