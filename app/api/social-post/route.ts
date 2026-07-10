@@ -231,6 +231,32 @@ async function postToX(text: string): Promise<PostResult> {
 
 // ── FACEBOOK PAGE ─────────────────────────────────────────────────────────────
 
+// A Graph API do Facebook por vezes devolve erro (ex: "Please reduce the
+// amount of data you're asking for, then retry your request") mesmo depois
+// de já ter criado o post do lado deles — falso negativo conhecido sob
+// rate-limit/carga. Antes de declarar falha, confirma-se via GET ao feed da
+// página se um post com a mesma mensagem apareceu nos últimos minutos.
+async function verifyFacebookPost(pageId: string, pageToken: string, expectedMessage: string): Promise<string | null> {
+  try {
+    const url = `https://graph.facebook.com/v19.0/${pageId}/feed?fields=id,message,created_time&limit=5&access_token=${encodeURIComponent(pageToken)}`
+    const res = await fetch(url)
+    const data = await res.json()
+    if (!res.ok || data.error || !Array.isArray(data.data)) return null
+
+    const now = Date.now()
+    for (const post of data.data) {
+      const created = new Date(post.created_time).getTime()
+      const isRecent = now - created < 5 * 60 * 1000 // 5 minutos
+      if (isRecent && typeof post.message === 'string' && post.message.trim() === expectedMessage.trim()) {
+        return post.id
+      }
+    }
+    return null
+  } catch {
+    return null
+  }
+}
+
 async function postToFacebook(message: string, link: string): Promise<PostResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
@@ -248,7 +274,19 @@ async function postToFacebook(message: string, link: string): Promise<PostResult
 
     const data = await res.json()
     if (!res.ok || data.error) {
-      return { platform: 'Facebook', success: false, error: data.error?.message || 'Erro Facebook' }
+      const errMsg = data.error?.message || 'Erro Facebook'
+
+      // Confirma se o post foi mesmo criado apesar do erro na resposta,
+      // antes de o marcar como falha (evita falsos negativos no log e
+      // evita reenviar/duplicar se houver retry a montante).
+      await new Promise(r => setTimeout(r, 1500))
+      const verifiedId = await verifyFacebookPost(pageId, pageToken, message)
+      if (verifiedId) {
+        console.warn(`[social-post] Facebook: resposta de erro ("${errMsg}") mas post confirmado criado (id ${verifiedId}) — tratado como sucesso`)
+        return { platform: 'Facebook', success: true, id: verifiedId }
+      }
+
+      return { platform: 'Facebook', success: false, error: errMsg }
     }
 
     return { platform: 'Facebook', success: true, id: data.id }
