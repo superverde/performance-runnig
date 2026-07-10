@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
 import { pickCategoryImage } from '@/lib/images'
+import { redis } from '@/lib/redis'
 
 // ── TIPOS ────────────────────────────────────────────────────────────────────
 
@@ -353,6 +354,35 @@ async function postToThreads(text: string): Promise<PostResult> {
   }
 }
 
+// ── REGISTO DURADOURO DE RESULTADOS (Redis) ──────────────────────────────────
+//
+// Os logs da Vercel (plano Hobby) só guardam a última 1 hora — insuficiente
+// para diagnosticar falhas intermitentes (ex: Facebook a falhar silenciosamente
+// enquanto Instagram continua a funcionar, só detetado dias depois). Isto
+// grava cada resultado (sucesso ou erro) numa lista Redis por dia, com TTL de
+// 30 dias, para ficar consultável via /api/social-log muito depois de a janela
+// de logs da Vercel expirar. Nunca deve bloquear nem falhar a publicação em si.
+async function logSocialResults(article: { title: string; slug: string }, results: PostResult[]) {
+  try {
+    const today = new Date().toISOString().slice(0, 10)
+    const key = `social-log:${today}`
+    const timestamp = new Date().toISOString()
+    for (const r of results) {
+      await redis.rpush(key, JSON.stringify({
+        timestamp,
+        article: { title: article.title, slug: article.slug },
+        platform: r.platform,
+        success: r.success,
+        error: r.error ?? null,
+      }))
+    }
+    await redis.expire(key, 60 * 60 * 24 * 30) // 30 dias
+  } catch (err) {
+    // Falha a gravar o log não pode impedir a resposta normal do endpoint
+    console.error('[social-post] Erro ao gravar social-log no Redis:', err)
+  }
+}
+
 // ── HANDLER PRINCIPAL ─────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
@@ -393,6 +423,8 @@ export async function POST(req: NextRequest) {
 
     console.log(`[social-post] ${title} — ${success.length} sucesso, ${failed.length} erro`)
     failed.forEach(f => console.error(`[social-post] ${f.platform}: ${f.error}`))
+
+    await logSocialResults({ title, slug }, postResults)
 
     return NextResponse.json({
       article: { title, slug },
