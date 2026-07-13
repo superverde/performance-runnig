@@ -63,28 +63,28 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
         {/* glow decorativo atrás do cartão */}
         <div className="absolute -inset-x-10 -inset-y-6 bg-brand-green/8 rounded-full blur-[90px] pointer-events-none" />
 
-        <div className="relative rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-transparent p-8 sm:p-12 text-center overflow-hidden">
+        <div className="relative rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-transparent p-10 sm:p-16 text-center overflow-hidden">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-40 bg-brand-green/10 rounded-full blur-[60px] pointer-events-none" />
 
-          <div className="relative inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-brand-green/10 border border-brand-green/20 mb-5">
-            <Mail size={20} className="text-brand-green" />
+          <div className="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-brand-green/10 border border-brand-green/20 mb-6">
+            <Mail size={26} className="text-brand-green" />
           </div>
 
-          <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green mb-3">
+          <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green mb-4">
             Newsletter Gratuita
           </p>
-          <h2 className="text-3xl sm:text-4xl font-black tracking-tighter mb-3 leading-none">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter mb-4 leading-none">
             TREINA COM CIÊNCIA.
           </h2>
-          <p className="text-white/40 text-sm mb-8 max-w-sm mx-auto">
+          <p className="text-white/50 text-base sm:text-lg mb-10 max-w-md mx-auto">
             Os melhores artigos sobre fisiologia, periodização e performance — direto para o teu email. Sem spam, para sempre grátis.
           </p>
 
           {/* Benefícios */}
-          <ul className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 mb-8">
+          <ul className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-10">
             {benefits.map(({ icon: Icon, text }) => (
-              <li key={text} className="flex items-center gap-2 text-white/55 text-xs">
-                <Icon size={14} className="text-brand-green shrink-0" />
+              <li key={text} className="flex items-center gap-2.5 text-white/65 text-sm font-medium">
+                <Icon size={18} className="text-brand-green shrink-0" />
                 <span>{text}</span>
               </li>
             ))}
@@ -103,17 +103,17 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-white/25 focus:outline-none focus:border-brand-green/50 transition-colors"
+                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-5 py-4 text-base text-white placeholder-white/25 focus:outline-none focus:border-brand-green/50 transition-colors"
                 />
                 <button
                   type="submit"
                   disabled={status === 'loading'}
-                  className="bg-brand-green text-black font-black text-xs tracking-widest px-6 py-3 rounded-lg hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
+                  className="bg-brand-green text-black font-black text-sm tracking-widest px-7 py-4 rounded-lg hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
                 >
                   {status === 'loading' ? '...' : 'QUERO RECEBER'}
                 </button>
               </form>
-              <p className="text-white/25 text-[11px] mt-3">
+              <p className="text-white/35 text-sm mt-4">
                 Grátis para sempre. Cancela quando quiseres, num clique.
               </p>
             </>
