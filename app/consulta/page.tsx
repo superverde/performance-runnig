@@ -1,8 +1,6 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
 import { ArrowUp, Zap, Shield, Clock } from 'lucide-react'
 
 interface Message {
@@ -92,7 +90,6 @@ export default function ConsultaPage() {
 
   return (
     <>
-      <Navbar />
 
       {/* ── Hero ── */}
       <div
@@ -240,7 +237,6 @@ export default function ConsultaPage() {
         </p>
       </div>
 
-      <Footer />
     </>
   )
 }

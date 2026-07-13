@@ -9,9 +9,18 @@ const nav = [
   { href: '/contacto', label: 'Sugerir Tema' },
 ]
 
+// Cada modalidade liga à sua página dedicada /modalidades/<slug> — antes
+// todos os links apontavam genericamente para /metodologias, o que deixava
+// as páginas de modalidade órfãs de links internos (mau para SEO).
 const modalities = [
-  '5 km', '10 km', 'Meia Maratona', 'Maratona',
-  'Trail Running', 'Ultra Trail', 'Corrida de Montanha', 'Meio Fundo',
+  { label: '5 km', slug: '5km' },
+  { label: '10 km', slug: '10km' },
+  { label: 'Meia Maratona', slug: 'meia-maratona' },
+  { label: 'Maratona', slug: 'maratona' },
+  { label: 'Trail Running', slug: 'trail-running' },
+  { label: 'Ultra Trail', slug: 'ultra-trail' },
+  { label: 'Corrida de Montanha', slug: 'corrida-montanha' },
+  { label: 'Meio Fundo', slug: 'meio-fundo' },
 ]
 
 export function Footer() {
@@ -99,12 +108,12 @@ export function Footer() {
             <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/40 mb-4">Modalidades</p>
             <ul className="grid grid-cols-2 gap-2">
               {modalities.map((m) => (
-                <li key={m}>
+                <li key={m.slug}>
                   <Link
-                    href="/metodologias"
+                    href={`/modalidades/${m.slug}`}
                     className="text-sm text-white/65 hover:text-white transition-colors"
                   >
-                    {m}
+                    {m.label}
                   </Link>
                 </li>
               ))}

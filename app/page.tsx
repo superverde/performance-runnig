@@ -6,6 +6,14 @@ import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
+import type { Metadata } from 'next'
+
+// Canonical próprio — o canonical global no layout foi removido porque fazia
+// TODAS as páginas sem canonical próprio (ex: /blog) apontar para a homepage,
+// o que diz ao Google para as ignorar como duplicados.
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.performancerunning.pt' },
+}
 
 // Cada URL abaixo foi carregada e confirmada visualmente (via browser) antes
 // de entrar aqui — o código antigo tinha vários IDs do Unsplash com
@@ -59,7 +67,9 @@ export default async function HomePage() {
     zh: { topics: ['5公里','10公里','半程马拉松','马拉松','越野跑','超级越野','山地跑','中长跑'], tags: ['速度','耐力','21公里','42公里','山地','> 60公里','垂直','田径'] },
   }
   const tl = topicLocales[locale] ?? topicLocales['en']
-  const topics = tl.topics.map((name, i) => ({ name, tag: tl.tags[i], num: String(i + 1).padStart(2, '0'), img: topicImages[i] }))
+  // Slugs das páginas dedicadas /modalidades/<slug> — mesma ordem dos topics
+  const topicSlugs = ['5km', '10km', 'meia-maratona', 'maratona', 'trail-running', 'ultra-trail', 'corrida-montanha', 'meio-fundo']
+  const topics = tl.topics.map((name, i) => ({ name, tag: tl.tags[i], num: String(i + 1).padStart(2, '0'), img: topicImages[i], slug: topicSlugs[i] }))
 
   return (
     <>
@@ -249,7 +259,7 @@ export default async function HomePage() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {topics.map((m, i) => (
-              <Link key={m.name} href="/metodologias" data-reveal data-delay={String(Math.min(i * 50, 400))}
+              <Link key={m.name} href={`/modalidades/${m.slug}`} data-reveal data-delay={String(Math.min(i * 50, 400))}
                 className="group relative rounded-2xl overflow-hidden border border-white/5 hover:border-white/15 transition-all card-hover" style={{ aspectRatio: '3/4' }}>
                 <div className="absolute inset-0 photo-card-img" style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />

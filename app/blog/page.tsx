@@ -11,6 +11,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Arquivo de Artigos',
+  alternates: { canonical: 'https://www.performancerunning.pt/blog' },
   description:
     'Base de conhecimento científico sobre corrida, trail running e atletismo. Fisiologia, treino, nutrição, biomecânica e recuperação. 3 novos artigos publicados todos os dias.',
 }
