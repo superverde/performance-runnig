@@ -1,14 +1,32 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { Mail, Zap, ShieldCheck, TrendingUp } from 'lucide-react'
 
 interface Props {
   variant?: 'hero' | 'inline' | 'footer'
 }
 
+const benefits = [
+  { icon: Zap, text: '3 artigos científicos por semana, em resumo' },
+  { icon: TrendingUp, text: 'Estudos e novidades antes de saírem no site' },
+  { icon: ShieldCheck, text: 'Zero spam — cancela com um clique' },
+]
+
 export function NewsletterSignup({ variant = 'inline' }: Props) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'duplicate' | 'error'>('idle')
+  const [subscriberCount, setSubscriberCount] = useState<number | null>(null)
+
+  useEffect(() => {
+    if (variant !== 'hero') return
+    fetch('/api/newsletter/count')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.count && data.count > 0) setSubscriberCount(data.count)
+      })
+      .catch(() => {})
+  }, [variant])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -39,47 +57,79 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
   // ─── HERO variant (homepage, secção grande) ───────────────────────────────
   if (variant === 'hero') {
     return (
-      <div className="w-full max-w-xl mx-auto text-center">
-        <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green mb-3">
-          Newsletter Gratuita
-        </p>
-        <h2 className="text-3xl sm:text-4xl font-black tracking-tighter mb-3 leading-none">
-          TREINA COM CIÊNCIA.
-        </h2>
-        <p className="text-white/40 text-sm mb-8 max-w-sm mx-auto">
-          Artigos sobre fisiologia, periodização e performance — direto para o teu email, sem spam.
-        </p>
+      <div className="relative w-full max-w-2xl mx-auto">
+        {/* glow decorativo atrás do cartão */}
+        <div className="absolute -inset-x-10 -inset-y-6 bg-brand-green/8 rounded-full blur-[90px] pointer-events-none" />
 
-        {status === 'success' ? (
-          <div className="flex items-center justify-center gap-2 text-brand-green font-bold text-sm">
-            <span>✓</span> Subscrito! Verifica o teu email.
+        <div className="relative rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-transparent p-8 sm:p-12 text-center overflow-hidden">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-40 bg-brand-green/10 rounded-full blur-[60px] pointer-events-none" />
+
+          <div className="relative inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-brand-green/10 border border-brand-green/20 mb-5">
+            <Mail size={20} className="text-brand-green" />
           </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="o.teu@email.com"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-white/25 focus:outline-none focus:border-brand-green/50 transition-colors"
-            />
-            <button
-              type="submit"
-              disabled={status === 'loading'}
-              className="bg-brand-green text-black font-black text-xs tracking-widest px-6 py-3 rounded-lg hover:bg-brand-green/90 transition-colors disabled:opacity-50 whitespace-nowrap"
-            >
-              {status === 'loading' ? '...' : 'SUBSCREVER'}
-            </button>
-          </form>
-        )}
 
-        {status === 'duplicate' && (
-          <p className="text-white/40 text-xs mt-3">Já estás na lista. Obrigado!</p>
-        )}
-        {status === 'error' && (
-          <p className="text-red-400 text-xs mt-3">Erro. Tenta novamente.</p>
-        )}
+          <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green mb-3">
+            Newsletter Gratuita
+          </p>
+          <h2 className="text-3xl sm:text-4xl font-black tracking-tighter mb-3 leading-none">
+            TREINA COM CIÊNCIA.
+          </h2>
+          <p className="text-white/40 text-sm mb-8 max-w-sm mx-auto">
+            Os melhores artigos sobre fisiologia, periodização e performance — direto para o teu email. Sem spam, para sempre grátis.
+          </p>
+
+          {/* Benefícios */}
+          <ul className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 mb-8">
+            {benefits.map(({ icon: Icon, text }) => (
+              <li key={text} className="flex items-center gap-2 text-white/55 text-xs">
+                <Icon size={14} className="text-brand-green shrink-0" />
+                <span>{text}</span>
+              </li>
+            ))}
+          </ul>
+
+          {status === 'success' ? (
+            <div className="flex items-center justify-center gap-2 text-brand-green font-bold text-sm">
+              <span>✓</span> Subscrito! Verifica o teu email.
+            </div>
+          ) : (
+            <>
+              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+                <input
+                  type="email"
+                  placeholder="o.teu@email.com"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-white/25 focus:outline-none focus:border-brand-green/50 transition-colors"
+                />
+                <button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="bg-brand-green text-black font-black text-xs tracking-widest px-6 py-3 rounded-lg hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
+                >
+                  {status === 'loading' ? '...' : 'QUERO RECEBER'}
+                </button>
+              </form>
+              <p className="text-white/25 text-[11px] mt-3">
+                Grátis para sempre. Cancela quando quiseres, num clique.
+              </p>
+            </>
+          )}
+
+          {status === 'duplicate' && (
+            <p className="text-white/40 text-xs mt-3">Já estás na lista. Obrigado!</p>
+          )}
+          {status === 'error' && (
+            <p className="text-red-400 text-xs mt-3">Erro. Tenta novamente.</p>
+          )}
+
+          {subscriberCount !== null && status !== 'success' && (
+            <p className="text-white/30 text-[11px] mt-5 font-mono">
+              Junta-te a {subscriberCount.toLocaleString('pt-PT')}+ corredores que já treinam com ciência
+            </p>
+          )}
+        </div>
       </div>
     )
   }
@@ -94,9 +144,17 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
         <h3 className="text-xl font-black tracking-tight mb-1">
           Mais artigos como este.
         </h3>
-        <p className="text-white/40 text-sm mb-5">
-          Ciência do treino direto no teu email. Grátis, sem spam.
+        <p className="text-white/40 text-sm mb-4">
+          Ciência do treino direto no teu email — grátis, sem spam, cancela quando quiseres.
         </p>
+
+        <ul className="flex flex-wrap gap-x-5 gap-y-1.5 mb-5">
+          {benefits.map(({ text }) => (
+            <li key={text} className="flex items-center gap-1.5 text-white/45 text-xs">
+              <span className="text-brand-green">✓</span> {text}
+            </li>
+          ))}
+        </ul>
 
         {status === 'success' ? (
           <p className="text-brand-green font-bold text-sm">✓ Subscrito! Verifica o teu email.</p>
@@ -113,7 +171,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
             <button
               type="submit"
               disabled={status === 'loading'}
-              className="bg-brand-green text-black font-black text-xs tracking-widest px-5 py-2.5 rounded-lg hover:bg-brand-green/90 transition-colors disabled:opacity-50 whitespace-nowrap"
+              className="bg-brand-green text-black font-black text-xs tracking-widest px-5 py-2.5 rounded-lg hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
             >
               {status === 'loading' ? '...' : 'SUBSCREVER →'}
             </button>
@@ -133,7 +191,8 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
   // ─── FOOTER variant (rodapé compacto) ─────────────────────────────────────
   return (
     <div>
-      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/50 mb-4">Newsletter</p>
+      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/50 mb-1">Newsletter</p>
+      <p className="text-white/35 text-xs mb-3">3x/semana. Grátis. Zero spam.</p>
       {status === 'success' ? (
         <p className="text-brand-green text-sm font-bold">✓ Subscrito!</p>
       ) : (
@@ -149,7 +208,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="bg-brand-green text-black font-black text-[10px] tracking-wider px-3 py-2 rounded-md hover:bg-brand-green/90 transition-colors disabled:opacity-50 whitespace-nowrap"
+            className="bg-brand-green text-black font-black text-[10px] tracking-wider px-3 py-2 rounded-md hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
           >
             {status === 'loading' ? '…' : 'OK'}
           </button>
