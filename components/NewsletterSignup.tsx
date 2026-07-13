@@ -23,7 +23,9 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
     fetch('/api/newsletter/count')
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
-        if (data?.count && data.count > 0) setSubscriberCount(data.count)
+        // só mostra a prova social a partir de um número que reforça
+        // confiança — com poucos subscritores o efeito é o oposto
+        if (data?.count && data.count >= 50) setSubscriberCount(data.count)
       })
       .catch(() => {})
   }, [variant])
