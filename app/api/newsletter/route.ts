@@ -1,6 +1,29 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { redis } from '@/lib/redis'
 
+// Notifica o Pedro sempre que entra um subscritor novo — pedido de 2026-07-13.
+// Nunca falha a subscrição em si (chamada com .catch no handler).
+async function notifyOwner(email: string, total: number): Promise<void> {
+  const apiKey = process.env.RESEND_API_KEY
+  if (!apiKey) return
+
+  await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      from: 'Performance Running <newsletter@performancerunning.pt>',
+      to: ['pedronunes5556@gmail.com'],
+      subject: `Novo subscritor: ${email} (total: ${total})`,
+      html: `<p><b>${email}</b> subscreveu a newsletter do Performance Running.</p>
+             <p>Total de subscritores: <b>${total}</b></p>
+             <p style="color:#888;font-size:12px">${new Date().toLocaleString('pt-PT', { timeZone: 'Europe/Lisbon' })}</p>`,
+    }),
+  })
+}
+
 // Envia email de boas-vindas via Resend
 async function sendWelcomeEmail(email: string): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY
@@ -82,6 +105,9 @@ export async function POST(req: NextRequest) {
     }))
 
     await sendWelcomeEmail(normalized).catch(() => {})
+
+    const total = await redis.scard('newsletter:subscribers').catch(() => 0)
+    await notifyOwner(normalized, Number(total)).catch(() => {})
 
     return NextResponse.json({ message: 'subscribed' })
   } catch (err) {
