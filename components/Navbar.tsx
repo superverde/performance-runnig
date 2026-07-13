@@ -11,7 +11,9 @@ import type { Locale } from '@/lib/locale'
 const TOOLS_SUBLINKS = [
   { href: '/ferramentas', label: 'VDOT & Pace', isNew: false },
   { href: '/ferramentas/idade', label: 'Classificação por Idade', isNew: true },
-  { href: '/ferramentas/comparador-sapatilhas', label: 'Comparador de Sapatilhas', isNew: true },
+  { href: '/ferramentas/comparador-sapatilhas', label: 'Comparador de Sapatilhas', isNew: false },
+  { href: '/ferramentas/zonas-fc', label: 'Zonas de Frequência Cardíaca', isNew: true },
+  { href: '/ferramentas/splits', label: 'Tabela de Passagens (Splits)', isNew: true },
 ]
 
 export function Navbar() {

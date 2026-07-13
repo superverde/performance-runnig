@@ -161,6 +161,35 @@ const ALL_TOPICS = [
   { slug: '5km-treino-velocidade-sub20', title: '5km Sub-20 Minutos: O Plano de Treino e os Blocos Chave', category: 'Treino' },
   { slug: '10km-sub-45-minutos-treino', title: '10km Sub-45 Minutos: Estrutura de Treino para Corredores Intermédios', category: 'Treino' },
   { slug: 'ultramarathon-primeiro-100k-guia', title: 'Primeiro Ultramaratona de 100km: Tudo o que Precisas de Saber', category: 'Trail Running' },
+
+  // ── KEYWORDS DE PESQUISA (2026-07-13) ─────────────────────────────────────
+  // Títulos orientados a pesquisas reais no Google em PT — perguntas que
+  // corredores fazem, não títulos "de revista". Objetivo: tráfego orgânico
+  // longtail. Manter o formato pergunta/guia sempre que possível.
+  { slug: 'quanto-tempo-demora-correr-5km-medias', title: 'Quanto Tempo Demora a Correr 5 km? Tempos Médios por Idade e Nível', category: 'Treino' },
+  { slug: 'quanto-tempo-demora-correr-10km-medias', title: 'Quanto Tempo Demora a Correr 10 km? Tempos Médios e Como Melhorar', category: 'Treino' },
+  { slug: 'tempo-medio-meia-maratona-por-nivel', title: 'Tempo Médio na Meia Maratona: O Que É um Bom Tempo para Ti?', category: 'Treino' },
+  { slug: 'como-comecar-a-correr-do-zero-plano', title: 'Como Começar a Correr do Zero: Plano Progressivo para as Primeiras 6 Semanas', category: 'Treino' },
+  { slug: 'correr-todos-os-dias-beneficios-riscos', title: 'Correr Todos os Dias: Benefícios, Riscos e Quem Deve (e Não Deve) Fazê-lo', category: 'Treino' },
+  { slug: 'quantos-km-correr-por-semana-nivel', title: 'Quantos Quilómetros Correr por Semana? Volumes por Objetivo e Nível', category: 'Treino' },
+  { slug: 'correr-emagrece-ciencia-perda-peso', title: 'Correr Emagrece? O Que a Ciência Diz Sobre Corrida e Perda de Peso', category: 'Fisiologia' },
+  { slug: 'como-respirar-ao-correr-tecnica', title: 'Como Respirar ao Correr: Técnica, Ritmo Respiratório e Erros Comuns', category: 'Biomecânica' },
+  { slug: 'dor-nas-canelas-ao-correr-canelite', title: 'Dor nas Canelas ao Correr (Canelite): Causas, Tratamento e Prevenção', category: 'Lesões' },
+  { slug: 'dor-no-joelho-ao-correr-causas', title: 'Dor no Joelho ao Correr: As 5 Causas Mais Comuns e Como Resolver', category: 'Lesões' },
+  { slug: 'flato-dor-lateral-ao-correr', title: 'Flato: Porque Aparece a Dor Lateral ao Correr e Como a Evitar', category: 'Fisiologia' },
+  { slug: 'o-que-comer-antes-de-correr', title: 'O Que Comer Antes de Correr: Guia por Distância e Hora do Dia', category: 'Nutrição' },
+  { slug: 'o-que-comer-depois-de-correr-recuperacao', title: 'O Que Comer Depois de Correr para Recuperar Mais Depressa', category: 'Nutrição' },
+  { slug: 'passadeira-vs-correr-na-rua-diferencas', title: 'Passadeira vs. Correr na Rua: Diferenças Reais e Como Ajustar o Treino', category: 'Treino' },
+  { slug: 'alongamentos-antes-depois-correr', title: 'Alongamentos Antes e Depois de Correr: O Que a Evidência Recomenda', category: 'Recuperação' },
+  { slug: 'frequencia-cardiaca-normal-ao-correr', title: 'Frequência Cardíaca Normal ao Correr: Valores de Referência por Idade', category: 'Fisiologia' },
+  { slug: 'correr-com-calor-cuidados-hidratacao', title: 'Correr com Calor: Adaptação, Hidratação e Sinais de Alerta', category: 'Fisiologia' },
+  { slug: 'correr-com-frio-inverno-guia', title: 'Correr no Inverno: Como Vestir, Aquecer e Treinar com Frio e Chuva', category: 'Treino' },
+  { slug: 'cadencia-corrida-passos-por-minuto', title: 'Cadência na Corrida: Os 180 Passos por Minuto São Mesmo Obrigatórios?', category: 'Biomecânica' },
+  { slug: 'plano-treino-meia-maratona-iniciantes', title: 'Plano de Treino para a Primeira Meia Maratona: 12 Semanas Explicadas', category: 'Treino' },
+  { slug: 'plano-treino-maratona-iniciantes-16-semanas', title: 'Plano de Treino para a Primeira Maratona: 16 Semanas Passo a Passo', category: 'Treino' },
+  { slug: 'correr-de-manha-ou-a-noite-melhor-hora', title: 'Correr de Manhã ou à Noite? A Melhor Hora Segundo a Cronobiologia', category: 'Fisiologia' },
+  { slug: 'vo2max-bom-por-idade-tabela', title: 'O Que É um Bom VO2max? Tabela de Valores por Idade e Sexo', category: 'VO2max' },
+  { slug: 'recuperar-entre-treinos-quantas-horas', title: 'Quanto Tempo Recuperar Entre Treinos de Corrida? Guia por Tipo de Sessão', category: 'Recuperação' },
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────

@@ -1,13 +1,14 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Mail, Zap, ShieldCheck, TrendingUp } from 'lucide-react'
+import { Mail, Zap, ShieldCheck, TrendingUp, Gift, Download } from 'lucide-react'
 
 interface Props {
   variant?: 'hero' | 'inline' | 'footer'
 }
 
 const benefits = [
+  { icon: Gift, text: 'Oferta: Plano de Treino 10 km em 8 Semanas (PDF)' },
   { icon: Zap, text: '3 artigos científicos por semana, em resumo' },
   { icon: TrendingUp, text: 'Estudos e novidades antes de saírem no site' },
   { icon: ShieldCheck, text: 'Zero spam — cancela com um clique' },
@@ -91,8 +92,14 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
           </ul>
 
           {status === 'success' ? (
-            <div className="flex items-center justify-center gap-2 text-brand-green font-bold text-sm">
-              <span>✓</span> Subscrito! Verifica o teu email.
+            <div className="space-y-4">
+              <div className="flex items-center justify-center gap-2 text-brand-green font-bold text-sm">
+                <span>✓</span> Subscrito! Verifica o teu email.
+              </div>
+              <a href="/plano-10km-performance-running.pdf" download
+                className="inline-flex items-center gap-2 px-6 py-3 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all">
+                <Download size={15} /> Descarregar o Plano de 10 km (PDF)
+              </a>
             </div>
           ) : (
             <>
@@ -159,7 +166,13 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
         </ul>
 
         {status === 'success' ? (
-          <p className="text-brand-green font-bold text-sm">✓ Subscrito! Verifica o teu email.</p>
+          <div className="space-y-3">
+            <p className="text-brand-green font-bold text-sm">✓ Subscrito! Verifica o teu email.</p>
+            <a href="/plano-10km-performance-running.pdf" download
+              className="inline-flex items-center gap-2 px-4 py-2 bg-brand-green text-black text-xs font-black rounded-full hover:bg-white transition-all">
+              <Download size={13} /> O teu Plano de 10 km (PDF)
+            </a>
+          </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
             <input
@@ -196,7 +209,10 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/50 mb-1">Newsletter</p>
       <p className="text-white/35 text-xs mb-3">3x/semana. Grátis. Zero spam.</p>
       {status === 'success' ? (
-        <p className="text-brand-green text-sm font-bold">✓ Subscrito!</p>
+        <div>
+          <p className="text-brand-green text-sm font-bold">✓ Subscrito!</p>
+          <a href="/plano-10km-performance-running.pdf" download className="text-brand-green text-xs underline hover:text-white transition-colors">Plano de 10 km grátis (PDF)</a>
+        </div>
       ) : (
         <form onSubmit={handleSubmit} className="flex gap-2">
           <input
