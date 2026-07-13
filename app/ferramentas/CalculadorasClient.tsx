@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 
 // ─── Matemática VDOT (Jack Daniels) ──────────────────────────────────────────
 
@@ -499,6 +500,31 @@ export function CalculadorasClient() {
             <p className="text-white/50 text-xs leading-relaxed">
               A previsão de prova usa a fórmula T₂ = T₁ × (D₂/D₁)^1.06, onde o expoente 1.06 reflete o aumento de fadiga com a distância. É mais precisa entre distâncias próximas — prever uma maratona a partir de um 5km tem margem de erro maior.
             </p>
+          </div>
+        </div>
+
+        {/* Mais ferramentas */}
+        <div className="mt-10">
+          <p className="text-[11px] uppercase tracking-[0.25em] text-white/40 font-bold mb-4">Mais Ferramentas</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link
+              href="/ferramentas/idade"
+              className="group bg-white/[0.02] border border-white/10 hover:border-brand-green/40 rounded-xl p-5 transition-all"
+            >
+              <h3 className="text-sm font-bold text-white mb-2 group-hover:text-brand-green transition-colors">Classificação por Idade (Age Grading) →</h3>
+              <p className="text-white/50 text-xs leading-relaxed">
+                Compara a tua performance com corredores de qualquer idade e sexo através da percentagem de age grading.
+              </p>
+            </Link>
+            <Link
+              href="/ferramentas/comparador-sapatilhas"
+              className="group bg-white/[0.02] border border-white/10 hover:border-brand-green/40 rounded-xl p-5 transition-all"
+            >
+              <h3 className="text-sm font-bold text-white mb-2 group-hover:text-brand-green transition-colors">Comparador de Sapatilhas →</h3>
+              <p className="text-white/50 text-xs leading-relaxed">
+                Compara até 3 sapatilhas de corrida lado a lado — preço, prós, contras e para que tipo de corredor é cada uma.
+              </p>
+            </Link>
           </div>
         </div>
 
