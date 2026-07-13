@@ -50,10 +50,10 @@ export const metadata: Metadata = {
       'A maior base de conhecimento científico sobre corrida em português. Fisiologia, treino, nutrição e biomecânica — 3 artigos novos todos os dias.',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80',
+        url: `${SITE_URL}/og.png`,
         width: 1200,
         height: 630,
-        alt: 'Performance Running — Corrida e Trail Running',
+        alt: 'Performance Running — Corre com Ciência',
       },
     ],
   },
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Performance Running',
     description: 'Ciência aplicada à corrida. Trail, maratona, atletismo. 3 artigos por dia.',
-    images: ['https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'],
+    images: [`${SITE_URL}/og.png`],
   },
   robots: {
     index: true,
@@ -81,7 +81,7 @@ const organizationLd = {
   '@type': 'Organization',
   name: 'Performance Running',
   url: SITE_URL,
-  logo: `${SITE_URL}/favicon.ico`,
+  logo: `${SITE_URL}/logo.png`,
   sameAs: [
     'https://www.instagram.com/performancerunning.pt/',
     'https://www.facebook.com/profile.php?id=61591235338834',
