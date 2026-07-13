@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { Users, Footprints, ArrowRight } from 'lucide-react'
 
 // ─── Matemática VDOT (Jack Daniels) ──────────────────────────────────────────
 
@@ -462,6 +463,51 @@ export function CalculadorasClient() {
           </p>
         </div>
 
+        {/* Mais ferramentas — banners grandes */}
+        <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <Link
+            href="/ferramentas/idade"
+            className="group relative overflow-hidden bg-gradient-to-br from-brand-green/15 via-white/[0.03] to-transparent border-2 border-brand-green/30 hover:border-brand-green rounded-2xl p-7 transition-all hover:scale-[1.02]"
+          >
+            <span className="absolute top-4 right-4 px-2.5 py-1 bg-brand-green text-black text-[10px] font-black uppercase tracking-widest rounded-full">
+              Novo
+            </span>
+            <div className="w-14 h-14 rounded-xl bg-brand-green/15 flex items-center justify-center mb-5 group-hover:bg-brand-green/25 transition-colors">
+              <Users size={28} className="text-brand-green" strokeWidth={2} />
+            </div>
+            <h3 className="text-2xl font-display font-black text-white mb-2 tracking-tight" style={{ fontStyle: 'italic' }}>
+              CLASSIFICAÇÃO POR IDADE
+            </h3>
+            <p className="text-white/60 text-sm leading-relaxed mb-4">
+              Compara a tua performance com corredores de qualquer idade e sexo através do age grading.
+            </p>
+            <span className="inline-flex items-center gap-1.5 text-brand-green font-black text-sm uppercase tracking-wide">
+              Calcular agora <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </span>
+          </Link>
+
+          <Link
+            href="/ferramentas/comparador-sapatilhas"
+            className="group relative overflow-hidden bg-gradient-to-br from-brand-green/15 via-white/[0.03] to-transparent border-2 border-brand-green/30 hover:border-brand-green rounded-2xl p-7 transition-all hover:scale-[1.02]"
+          >
+            <span className="absolute top-4 right-4 px-2.5 py-1 bg-brand-green text-black text-[10px] font-black uppercase tracking-widest rounded-full">
+              Novo
+            </span>
+            <div className="w-14 h-14 rounded-xl bg-brand-green/15 flex items-center justify-center mb-5 group-hover:bg-brand-green/25 transition-colors">
+              <Footprints size={28} className="text-brand-green" strokeWidth={2} />
+            </div>
+            <h3 className="text-2xl font-display font-black text-white mb-2 tracking-tight" style={{ fontStyle: 'italic' }}>
+              COMPARADOR DE SAPATILHAS
+            </h3>
+            <p className="text-white/60 text-sm leading-relaxed mb-4">
+              Compara até 3 sapatilhas lado a lado — preço, prós, contras e para que tipo de corredor é cada uma.
+            </p>
+            <span className="inline-flex items-center gap-1.5 text-brand-green font-black text-sm uppercase tracking-wide">
+              Comparar agora <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </span>
+          </Link>
+        </div>
+
         {/* Tab selector */}
         <div className="flex gap-3 mb-8 border-b border-white/10 pb-0">
           {([
@@ -500,31 +546,6 @@ export function CalculadorasClient() {
             <p className="text-white/50 text-xs leading-relaxed">
               A previsão de prova usa a fórmula T₂ = T₁ × (D₂/D₁)^1.06, onde o expoente 1.06 reflete o aumento de fadiga com a distância. É mais precisa entre distâncias próximas — prever uma maratona a partir de um 5km tem margem de erro maior.
             </p>
-          </div>
-        </div>
-
-        {/* Mais ferramentas */}
-        <div className="mt-10">
-          <p className="text-[11px] uppercase tracking-[0.25em] text-white/40 font-bold mb-4">Mais Ferramentas</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link
-              href="/ferramentas/idade"
-              className="group bg-white/[0.02] border border-white/10 hover:border-brand-green/40 rounded-xl p-5 transition-all"
-            >
-              <h3 className="text-sm font-bold text-white mb-2 group-hover:text-brand-green transition-colors">Classificação por Idade (Age Grading) →</h3>
-              <p className="text-white/50 text-xs leading-relaxed">
-                Compara a tua performance com corredores de qualquer idade e sexo através da percentagem de age grading.
-              </p>
-            </Link>
-            <Link
-              href="/ferramentas/comparador-sapatilhas"
-              className="group bg-white/[0.02] border border-white/10 hover:border-brand-green/40 rounded-xl p-5 transition-all"
-            >
-              <h3 className="text-sm font-bold text-white mb-2 group-hover:text-brand-green transition-colors">Comparador de Sapatilhas →</h3>
-              <p className="text-white/50 text-xs leading-relaxed">
-                Compara até 3 sapatilhas de corrida lado a lado — preço, prós, contras e para que tipo de corredor é cada uma.
-              </p>
-            </Link>
           </div>
         </div>
 

@@ -8,12 +8,21 @@ import { useLocale } from '@/components/LocaleProvider'
 import { LOCALE_LABELS, LOCALES } from '@/lib/locale'
 import type { Locale } from '@/lib/locale'
 
+const TOOLS_SUBLINKS = [
+  { href: '/ferramentas', label: 'VDOT & Pace', isNew: false },
+  { href: '/ferramentas/idade', label: 'Classificação por Idade', isNew: true },
+  { href: '/ferramentas/comparador-sapatilhas', label: 'Comparador de Sapatilhas', isNew: true },
+]
+
 export function Navbar() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [langOpen, setLangOpen] = useState(false)
+  const [toolsOpen, setToolsOpen] = useState(false)
+  const [mobileToolsOpen, setMobileToolsOpen] = useState(false)
   const langRef = useRef<HTMLDivElement>(null)
+  const toolsRef = useRef<HTMLDivElement>(null)
   const { locale, t, changeLocale, isPending } = useLocale()
 
   useEffect(() => {
@@ -22,11 +31,14 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // Fecha dropdown ao clicar fora
+  // Fecha dropdowns ao clicar fora
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       if (langRef.current && !langRef.current.contains(e.target as Node)) {
         setLangOpen(false)
+      }
+      if (toolsRef.current && !toolsRef.current.contains(e.target as Node)) {
+        setToolsOpen(false)
       }
     }
     document.addEventListener('mousedown', onClick)
@@ -36,12 +48,13 @@ export function Navbar() {
   const navLinks = [
     { href: '/metodologias', key: 'metodologias' },
     { href: '/blog', key: 'arquivo' },
-    { href: '/ferramentas', key: 'ferramentas' },
     { href: '/calendario', key: 'calendario' },
     { href: '/equipamento', key: 'equipamento' },
     { href: '/reviews', key: 'testemunhos' },
     { href: '/sobre', key: 'sobre' },
   ]
+
+  const isToolsActive = pathname.startsWith('/ferramentas')
 
   const current = LOCALE_LABELS[locale]
 
@@ -71,7 +84,69 @@ export function Navbar() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-1">
-            {navLinks.map((l) => (
+            <Link
+              href="/metodologias"
+              className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
+                pathname === '/metodologias' ? 'text-white' : 'text-white/65 hover:text-white'
+              }`}
+            >
+              {t('nav', 'metodologias')}
+              {pathname === '/metodologias' && (
+                <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-3.5 h-0.5 rounded-full bg-brand-green" />
+              )}
+            </Link>
+            <Link
+              href="/blog"
+              className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
+                pathname === '/blog' ? 'text-white' : 'text-white/65 hover:text-white'
+              }`}
+            >
+              {t('nav', 'arquivo')}
+              {pathname === '/blog' && (
+                <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-3.5 h-0.5 rounded-full bg-brand-green" />
+              )}
+            </Link>
+
+            {/* Ferramentas — dropdown */}
+            <div ref={toolsRef} className="relative">
+              <button
+                onClick={() => setToolsOpen(!toolsOpen)}
+                className={`relative flex items-center gap-1.5 px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
+                  isToolsActive ? 'text-white' : 'text-white/65 hover:text-white'
+                }`}
+              >
+                {t('nav', 'ferramentas')}
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse" />
+                <ChevronDown size={12} className={`transition-transform ${toolsOpen ? 'rotate-180' : ''}`} />
+                {isToolsActive && (
+                  <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-3.5 h-0.5 rounded-full bg-brand-green" />
+                )}
+              </button>
+
+              {toolsOpen && (
+                <div className="absolute left-0 top-full mt-2 bg-black/95 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl min-w-[260px]">
+                  {TOOLS_SUBLINKS.map((tool) => (
+                    <Link
+                      key={tool.href}
+                      href={tool.href}
+                      onClick={() => setToolsOpen(false)}
+                      className={`flex items-center justify-between gap-2 px-4 py-3 text-[13px] font-bold transition-colors hover:bg-white/5 ${
+                        pathname === tool.href ? 'text-brand-green' : 'text-white/70'
+                      }`}
+                    >
+                      {tool.label}
+                      {tool.isNew && (
+                        <span className="px-1.5 py-0.5 bg-brand-green text-black text-[9px] font-black uppercase tracking-wide rounded-full">
+                          Novo
+                        </span>
+                      )}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {navLinks.slice(2).map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -181,7 +256,55 @@ export function Navbar() {
           }`}
         >
           <div className="pb-5 pt-2 border-t border-white/5">
-            {navLinks.map((l) => (
+            {navLinks.slice(0, 2).map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                onClick={() => setOpen(false)}
+                className={`flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.08em] rounded-lg transition-all ${
+                  pathname === l.href
+                    ? 'text-brand-green bg-brand-green/5'
+                    : 'text-white/55 hover:text-white'
+                }`}
+              >
+                {t('nav', l.key)}
+              </Link>
+            ))}
+
+            {/* Ferramentas — grupo expansível */}
+            <button
+              onClick={() => setMobileToolsOpen(!mobileToolsOpen)}
+              className={`w-full flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.08em] rounded-lg transition-all ${
+                isToolsActive ? 'text-brand-green bg-brand-green/5' : 'text-white/55 hover:text-white'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                {t('nav', 'ferramentas')}
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse" />
+              </span>
+              <ChevronDown size={16} className={`transition-transform ${mobileToolsOpen ? 'rotate-180' : ''}`} />
+            </button>
+            <div className={`overflow-hidden transition-all duration-300 ease-out ${mobileToolsOpen ? 'max-h-48 opacity-100' : 'max-h-0 opacity-0'}`}>
+              {TOOLS_SUBLINKS.map((tool) => (
+                <Link
+                  key={tool.href}
+                  href={tool.href}
+                  onClick={() => { setOpen(false); setMobileToolsOpen(false) }}
+                  className={`flex items-center justify-between gap-2 px-6 py-2.5 text-sm font-bold rounded-lg transition-all ${
+                    pathname === tool.href ? 'text-brand-green' : 'text-white/50 hover:text-white'
+                  }`}
+                >
+                  {tool.label}
+                  {tool.isNew && (
+                    <span className="px-1.5 py-0.5 bg-brand-green text-black text-[9px] font-black uppercase tracking-wide rounded-full">
+                      Novo
+                    </span>
+                  )}
+                </Link>
+              ))}
+            </div>
+
+            {navLinks.slice(2).map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
