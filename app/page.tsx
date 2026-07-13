@@ -98,7 +98,7 @@ export default async function HomePage() {
             <Link href="/blog" className="group inline-flex items-center gap-2 px-7 py-3.5 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3">
               {t('hp', 'cta_today')} <ArrowRight size={15} />
             </Link>
-            <Link href="/metodologias" className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all">
+            <Link href="/modalidades" className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white/60 text-sm font-semibold rounded-full hover:border-white/30 hover:text-white transition-all">
               {t('hp', 'cta_methodologies')}
             </Link>
           </div>
@@ -116,6 +116,15 @@ export default async function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* NEWSLETTER — movida para logo a seguir ao hero, antes do resto do
+          conteúdo, para captar subscritores enquanto a atenção ainda está
+          alta (pedido do Pedro: "devia estar logo na 1ª página"). */}
+      <section className="py-20 sm:py-28 border-t border-white/5 bg-[#0a0a0a]">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="hero" />
         </div>
       </section>
 
@@ -258,13 +267,6 @@ export default async function HomePage() {
               </Link>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* NEWSLETTER */}
-      <section className="py-24 sm:py-32 border-t border-white/5 bg-[#0a0a0a]">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <NewsletterSignup variant="hero" />
         </div>
       </section>
 
