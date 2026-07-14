@@ -10,6 +10,17 @@ import { ArticleContent } from '@/components/ArticleContent'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
+/* O Next.js entrega o segmento dinâmico percent-encoded (ex.: slugs com
+ * acentos chegam como "cora%C3%A7%C3%A3o-..."). Sem descodificar, o lookup
+ * do ficheiro .md falha e a página devolve 404. */
+function safeDecodeSlug(raw: string): string {
+  try {
+    return decodeURIComponent(raw)
+  } catch {
+    return raw
+  }
+}
+
 /* ── CATEGORY MAP ─────────────────────────────────────────────────── */
 const CATEGORIAS: Record<string, { label: string; description: string; hero: string }> = {
   treino: {
@@ -92,8 +103,9 @@ export async function generateStaticParams() {
 
 /* ── METADATA ─────────────────────────────────────────────────────── */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const slug = safeDecodeSlug(params.slug)
   // Category page?
-  const cat = CATEGORIAS[params.slug]
+  const cat = CATEGORIAS[slug]
   if (cat) {
     return {
       title: `Artigos de ${cat.label} | Performance Running`,
@@ -103,16 +115,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: cat.description,
         images: [{ url: cat.hero, width: 1200, height: 630 }],
       },
-      alternates: { canonical: `${SITE_URL}/blog/${params.slug}` },
+      alternates: { canonical: `${SITE_URL}/blog/${slug}` },
     }
   }
 
   // Article page
-  const article = await getArticleBySlug(params.slug)
+  const article = await getArticleBySlug(slug)
   if (!article) return {}
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
-  const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
+  const canonicalUrl = `${SITE_URL}/blog/${article.slug}`
 
   return {
     title: article.title,
@@ -140,17 +152,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /* ── PAGE COMPONENT ───────────────────────────────────────────────── */
 export default async function BlogSlugPage({ params }: Props) {
+  const slug = safeDecodeSlug(params.slug)
   // ── CATEGORY PAGE ──────────────────────────────────────────────────
-  const cat = CATEGORIAS[params.slug]
+  const cat = CATEGORIAS[slug]
   if (cat) {
     const allArticles = getAllArticles()
     const categoryArticles = allArticles.filter(
       (a) =>
-        a.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-') === params.slug ||
+        a.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-') === slug ||
         a.category.toLowerCase() === cat.label.toLowerCase()
     )
 
-    const catUrl = `${SITE_URL}/blog/${params.slug}`
+    const catUrl = `${SITE_URL}/blog/${slug}`
     const catBreadcrumbLd = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
@@ -192,15 +205,15 @@ export default async function BlogSlugPage({ params }: Props) {
   }
 
   // ── ARTICLE PAGE ───────────────────────────────────────────────────
-  const article = await getArticleBySlug(params.slug)
+  const article = await getArticleBySlug(slug)
   if (!article) notFound()
 
   const related = getAllArticles()
-    .filter((a) => a.category === article.category && a.slug !== params.slug)
+    .filter((a) => a.category === article.category && a.slug !== slug)
     .slice(0, 3)
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
-  const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
+  const canonicalUrl = `${SITE_URL}/blog/${article.slug}`
 
   const categorySlug = article.category
     .toLowerCase()
@@ -274,7 +287,7 @@ export default async function BlogSlugPage({ params }: Props) {
             <span className="flex items-center gap-1.5"><Calendar size={11} />{article.date}</span>
             <span className="flex items-center gap-1.5"><Clock size={11} />{article.readTime} min de leitura</span>
             <span className="flex items-center gap-1.5"><Tag size={11} />{article.category}</span>
-            <ViewCounter slug={params.slug} />
+            <ViewCounter slug={slug} />
           </div>
         </div>
       </div>
@@ -282,7 +295,7 @@ export default async function BlogSlugPage({ params }: Props) {
       {/* ── Article content ── */}
       <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
         <ArticleContent
-          slug={params.slug}
+          slug={slug}
           originalContent={article.content}
           originalTitle={article.title}
           originalExcerpt={article.excerpt}

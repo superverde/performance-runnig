@@ -25,6 +25,10 @@ const GROQ_API_KEY = process.env.GROQ_API_KEY
 const TECHNICAL_PER_RUN = 2
 const COMMERCIAL_PER_RUN = 1
 
+// Slugs têm de ser ASCII puro: slugs com acentos geravam ficheiros cujo URL
+// percent-encoded dava 404 (ex.: coração-atleta-adaptações-cardiaca, 2026-07-14).
+const deaccent = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
 if (!GROQ_API_KEY) {
   console.error('❌ GROQ_API_KEY não definida')
   process.exit(1)
@@ -304,7 +308,7 @@ function getExistingSlugs() {
   return new Set(
     fs.readdirSync(ARTICLES_DIR)
       .filter(f => f.endsWith('.md'))
-      .map(f => f.replace('.md', ''))
+      .map(f => deaccent(f.replace('.md', '')))
   )
 }
 
@@ -494,8 +498,8 @@ async function main() {
     process.exit(0)
   }
 
-  const remainingTechnical = ALL_TOPICS.filter(t => !existingSlugs.has(t.slug))
-  const remainingCommercial = COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(t.slug))
+  const remainingTechnical = ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug)))
+  const remainingCommercial = COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug)))
 
   console.log(`📋 Tópicos técnicos disponíveis: ${remainingTechnical.length}`)
   console.log(`🛒 Tópicos comerciais disponíveis: ${remainingCommercial.length}`)
@@ -544,15 +548,16 @@ async function main() {
 
         const content = await callGroq(prompt)
         const mdx = buildMdx(topic, content, today)
-        const filePath = path.join(ARTICLES_DIR, `${topic.slug}.md`)
+        const fileSlug = deaccent(topic.slug)
+        const filePath = path.join(ARTICLES_DIR, `${fileSlug}.md`)
 
         fs.writeFileSync(filePath, mdx, 'utf8')
         console.log(`✅ Guardado: ${filePath}`)
 
         lastIndex++
-        lastSlug = topic.slug
+        lastSlug = fileSlug
         publishedTitles.push(topic.title)
-        existingSlugs.add(topic.slug) // evita reutilizar como "relacionado" duplicado
+        existingSlugs.add(fileSlug) // evita reutilizar como "relacionado" duplicado
         generated++
       } catch (err) {
         console.error(`❌ Erro ao gerar ${topic.slug} (a saltar para o próximo tópico):`, err.message)

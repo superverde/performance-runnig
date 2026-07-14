@@ -131,9 +131,21 @@ export function getTodayArticles(): ArticleMeta[] {
   return getAllArticles().filter((a) => a.rawDate === today)
 }
 
+/** Remove acentos/diacríticos — slugs canónicos são sempre ASCII */
+export function deaccentSlug(s: string): string {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+}
+
 /** Get full article (with parsed HTML content) by slug */
-export async function getArticleBySlug(slug: string): Promise<Article | null> {
-  const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
+export async function getArticleBySlug(rawSlug: string): Promise<Article | null> {
+  // Aceita tanto o slug ASCII como variantes antigas com acentos
+  // (URLs partilhados antes da normalização) — resolve para o mesmo ficheiro.
+  let slug = rawSlug
+  let filePath = path.join(ARTICLES_DIR, `${slug}.md`)
+  if (!fs.existsSync(filePath)) {
+    slug = deaccentSlug(rawSlug)
+    filePath = path.join(ARTICLES_DIR, `${slug}.md`)
+  }
   if (!fs.existsSync(filePath)) return null
 
   try {
