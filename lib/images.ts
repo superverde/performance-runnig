@@ -1,17 +1,35 @@
 /**
  * Pool centralizado de imagens de capa para publicações (Facebook, Instagram,
- * Threads, X, Pinterest) e conteúdo social genérico (dica do meio-dia, etc.).
+ * Threads, X, Pinterest), conteúdo social genérico (dica do meio-dia, etc.)
+ * e páginas do próprio site (cards de artigo, hero, RSS).
  *
- * ANTES: 4 ficheiros diferentes (social-post, evening-social, midday-tip,
+ * ANTES (v1): 4 ficheiros diferentes (social-post, evening-social, midday-tip,
  * pinterest-pin) tinham cada um o seu próprio mapa de "1 imagem fixa por
  * categoria" — resultado: todos os posts de "Treino", por exemplo, mostravam
- * sempre a mesma foto, há meses, em todas as redes. Este ficheiro substitui
- * essa lógica: cada categoria tem uma pool de 5-6 imagens (50 no total, todas
- * já validadas em produção noutras partes do site), e a escolha dentro da
- * pool é determinística por artigo (via `seed`, normalmente o slug) — o
- * mesmo artigo mostra sempre a mesma imagem em todas as plataformas onde é
- * publicado, mas artigos diferentes da mesma categoria já não colidem.
+ * sempre a mesma foto, há meses, em todas as redes. Ver [[project_imagens_publicacoes_pool_50]].
+ *
+ * ANTES (v2): cada categoria tinha uma pool de 5-6 imagens (50 no total)
+ * apontando diretamente para `images.unsplash.com/<id>`. Em 2026-07-15
+ * descobriu-se que 7 desses 50 IDs tinham deixado de existir no Unsplash
+ * (404) — o Unsplash pode remover fotos a qualquer momento, sem aviso, e
+ * isso mostrava cards pretos no site (não só nas redes sociais). Ver
+ * [[project_imagens_unsplash_ids_mortos]].
+ *
+ * AGORA (v3): as imagens são uma cópia local, descarregada uma única vez
+ * e commitada em `public/pool-images/<id>.jpg` — já não há dependência
+ * nenhuma da disponibilidade do Unsplash a longo prazo. `pickCategoryImage`
+ * devolve sempre um URL absoluto no próprio domínio (necessário porque o
+ * mesmo valor é usado tanto em CSS `background-image` das páginas como em
+ * `image_url` enviado às APIs do Facebook/Instagram/Pinterest, que exigem
+ * um URL público).
+ *
+ * A escolha dentro da pool continua determinística por artigo (via `seed`,
+ * normalmente o slug) — o mesmo artigo mostra sempre a mesma imagem em
+ * todas as plataformas onde é publicado, mas artigos diferentes da mesma
+ * categoria já não colidem sempre na mesma foto.
  */
+
+const SITE_URL = 'https://www.performancerunning.pt'
 
 export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
   'Treino': [
@@ -102,27 +120,11 @@ function hashString(input: string): number {
   return hash
 }
 
-/**
- * Escolhe uma imagem da pool da categoria, de forma determinística por
- * `seed` (usar o slug do artigo). O mesmo `seed` devolve sempre a mesma
- * imagem — importante para que o mesmo artigo não mude de imagem entre
- * Facebook, Instagram, Threads e Pinterest — mas artigos diferentes da
- * mesma categoria já não colidem sempre na mesma foto.
- *
- * @param category categoria do artigo (ex: "Treino", "Nutrição")
- * @param seed normalmente o slug do artigo; pode ser qualquer string estável
- * @param size largura pedida ao Unsplash (w=...) — cada rede tem o seu ideal
- */
-export function pickCategoryImage(category: string, seed: string, size = 1080): string {
-  const pool = CATEGORY_IMAGE_POOLS[category] ?? FALLBACK_POOL
-  const photoId = pool.length > 0
-    ? pool[hashString(seed) % pool.length]
-    : DEFAULT_IMAGE
-  return `https://images.unsplash.com/${photoId}?w=${size}&q=80`
+/** Constrói o URL absoluto da cópia local de um ID da pool. */
+function localImageUrl(photoId: string): string {
+  return `${SITE_URL}/pool-images/${photoId}.jpg`
 }
 
-/** Todas as imagens da pool, achatadas — útil para rotação por dia/índice sem repetir a mesma sequência todos os dias. */
-export function allPoolImages(size = 1080): string[] {
-  const ids = Object.values(CATEGORY_IMAGE_POOLS).flat()
-  return ids.map((id) => `https://images.unsplash.com/${id}?w=${size}&q=80`)
-}
+/**
+ * Escolhe uma imagem da pool da categoria, de forma determinística por
+ * `seed` (usar o slug do artigo). O mesmo `seed

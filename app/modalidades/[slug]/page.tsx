@@ -61,7 +61,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Como evitar o "muro" nos 30 km?', a: 'O "muro" é uma realidade bioquímica causada pela depleção de glicogénio. Para o evitar: (1) não começar mais rápido do que o ritmo treino, (2) ingerir 60-90g de carboidratos por hora a partir do km 10, (3) treinar o organismo a usar mais gorduras com long runs em zona 2.' },
       { q: 'Quando devo fazer o taper antes da maratona?', a: 'O taper começa 2-3 semanas antes da prova. Na primeira semana de taper reduz 30-40% do volume; na segunda, 50-60%; na semana da prova, mantém apenas corridas curtas de ativação. Não reduza a intensidade, apenas o volume.' },
     ],
-    img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg',
     category: 'Treino',
   },
   {
@@ -99,7 +99,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Qual é o ritmo ideal para treinar para uma meia maratona?', a: 'Os treinos fáceis (Z2) devem ser feitos a um ritmo onde consegues manter uma conversa completa — geralmente 60-90 segundos/km mais lento do que o teu ritmo de competição de 10 km. Os treinos de limiar são feitos a ritmo de meia maratona ou ligeiramente mais rápido.' },
       { q: 'Preciso de comer durante uma meia maratona?', a: 'Para atletas que terminam abaixo de 1h45, a nutrição em corrida tem impacto limitado. Acima de 1h45-2h, recomendam-se 1-2 géis de carboidratos (30-60g) entre o km 8 e o km 15. A hidratação com água é importante em provas com temperaturas acima de 15°C.' },
     ],
-    img: 'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1613936360976-8f35cf0e5461.jpg',
     category: 'Treino',
   },
   {
@@ -136,7 +136,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Como melhorar o tempo nos 10 km?', a: 'Os dois fatores mais determináveis por treino são o limiar anaeróbico e a economia de corrida. Inclui 1-2 sessões de limiar por semana (tempo runs), mantém 70-80% dos treinos em Z2, e adiciona treino de força 2x/semana. Em 12-16 semanas de treino consistente, a maioria dos atletas melhora 1-3 minutos.' },
       { q: 'Qual é a cadência ideal para correr 10 km?', a: 'A cadência ótima situa-se entre 170-180 passos por minuto para a maioria dos corredores a ritmo de 10 km. Cadências baixas (abaixo de 160) aumentam o risco de lesão e reduzem a economia de corrida. Aumentar a cadência gradualmente (5-10% por semana) é uma das intervenções biomecânicas com melhor evidência científica.' },
     ],
-    img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
     category: 'Treino',
   },
   {
@@ -172,7 +172,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Quanto tempo demora a melhorar significativamente o 5 km?', a: 'Com treino consistente e bem estruturado, a maioria dos atletas vê melhorias mensuráveis em 8-12 semanas. Uma melhoria de 30 segundos a 1 minuto por cada bloco de 12 semanas é realista para corredores com bases entre 25-45 min.' },
       { q: 'É melhor fazer muitos treinos de velocidade ou focar na base aeróbia?', a: 'A investigação científica é clara: 80% do treino deve ser em zona 2 (fácil/conversa) e apenas 20% em alta intensidade. O modelo polarizado — base + velocidade, com pouco trabalho de limiar — é o que melhor resultados produz para os 5 km segundo a literatura atual.' },
     ],
-    img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
     category: 'Treino',
   },
   {
@@ -208,7 +208,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Como treinar as subidas para trail running?', a: 'As subidas intensas (uphill repeats) são o exercício mais eficaz para desenvolver a capacidade de subida. 6-10 repetições de 3-8 minutos a ritmo de esforço elevado (Z4-Z5), com descida em recuperação ativa. Adiciona treino de força — especialmente glúteos e quadricípites — 2-3 vezes por semana.' },
       { q: 'O desnível conta para o volume semanal?', a: 'Sim, e de forma muito significativa. A regra mais utilizada na literatura é adicionar 1 km por cada 100m de desnível positivo (e 0.5 km por cada 100m de negativo). Assim, 10 km com 1000m D+ equivalem a cerca de 20 km de corrida plana em termos de carga.' },
     ],
-    img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
     category: 'Trail Running',
   },
   {
@@ -244,7 +244,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Como escolher o primeiro ultra trail?', a: 'Para um primeiro ultra, escolhe uma prova com 50-65 km e desnível máximo de 2500-3500m D+. Garante que tens pelo menos um ano de experiência em trail running e que já completaste provas de 25-35 km. O primeiro ultra deve ser de finalização, não de performance.' },
       { q: 'O que comer durante um ultra trail?', a: 'A regra científica é ingerir 60-90g de carboidratos por hora a partir das 2-3 primeiras horas. Em ultras acima de 8-10h, incluir alimentos sólidos é essencial — banana, batata cozida, frutos secos, arroz. Testar TUDO durante o treino é obrigatório, pois o sistema digestivo comporta-se de forma diferente sob fadiga extrema.' },
     ],
-    img: 'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg',
     category: 'Trail Running',
   },
   {
@@ -276,7 +276,7 @@ const MODALIDADES: Modalidade[] = [
     faq: [
       { q: 'Como treinar para um Vertical Kilometer?', a: 'O VK exige especificidade máxima: treina as subidas a alta intensidade. 10-15 semanas de preparação com uphill repeats progressivos (de 4 min a 10+ min), força de membros inferiores 3x/semana, e corridas de base para manter a capacidade aeróbia. Na semana da prova, reduz 60% do volume mas mantém 1-2 sessões de intensidade curta.' },
     ],
-    img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
     category: 'Trail Running',
   },
   {
@@ -311,7 +311,7 @@ const MODALIDADES: Modalidade[] = [
     faq: [
       { q: 'Como melhorar o VO2max para o meio fundo?', a: 'Os intervalos de alta intensidade (Z5) a 95-105% do VO2max são o estímulo mais eficaz: 5-8 × 1000m a ritmo de 5 km, ou 6-10 × 800m. Reduz o descanso progressivamente ao longo do mesociclo. A melhoria do VO2max é mais rápida em atletas menos treinados — iniciantes podem ver ganhos de 15-20% em 8-12 semanas.' },
     ],
-    img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=1920&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1567427018141-0584cfcbf1b8.jpg',
     category: 'Treino',
   },
 ]

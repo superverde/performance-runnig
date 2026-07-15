@@ -4,7 +4,6 @@ import { ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Metodologias de Treino',
-  alternates: { canonical: 'https://www.performancerunning.pt/metodologias' },
   description:
     'Metodologias científicas de treino para 5km, 10km, Meia Maratona, Maratona, Trail Running, Ultra Trail e mais. Fisiologia do exercício aplicada à corrida.',
 }
@@ -15,7 +14,7 @@ const modalities = [
     name: '5 km',
     tag: 'VELOCIDADE',
     headline: 'Máxima Potência Aeróbia',
-    img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
     description:
       'O 5km é a distância que mais exige do VO2max e da capacidade láctica. Um corredor de 5km precisa de sustentar entre 95-100% do VO2max durante 15-25 minutos — o que requer uma base aeróbia sólida combinada com sessões de alta intensidade.',
     physiology: 'Predominância aeróbia com contribuição anaeróbia significativa (≈10-15%). A produção de lactato excede a capacidade de remoção nos últimos quilómetros.',
@@ -29,7 +28,7 @@ const modalities = [
     id: '10km',
     name: '10 km',
     tag: 'LIMIAR',
-    img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
     headline: 'Equilíbrio entre Potência e Resistência',
     description:
       'O 10km representa o ponto de equilíbrio perfeito entre velocidade e resistência. É corrido próximo do limiar anaeróbio — o ponto onde a produção de lactato começa a superar a sua remoção. Dominar este limiar é o segredo para melhorar de 5km à maratona.',
@@ -42,7 +41,7 @@ const modalities = [
   },
   {
     id: 'meia-maratona',
-    img: 'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1613936360976-8f35cf0e5461.jpg',
     name: 'Meia Maratona',
     tag: 'EFICIÊNCIA',
     headline: 'Limiar Aeróbio e Economia de Corrida',
@@ -57,7 +56,7 @@ const modalities = [
   },
   {
     id: 'maratona',
-    img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg',
     name: 'Maratona',
     tag: 'PERIODIZAÇÃO',
     headline: 'Gestão de Energia e Resistência à Fadiga',
@@ -72,7 +71,7 @@ const modalities = [
   },
   {
     id: 'trail-running',
-    img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
     name: 'Trail Running',
     tag: 'TÉCNICA',
     headline: 'Técnica de Montanha e Adaptação ao Terreno',
@@ -87,7 +86,7 @@ const modalities = [
   },
   {
     id: 'ultra-trail',
-    img: 'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg',
     name: 'Ultra Trail',
     tag: 'MENTAL',
     headline: 'Preparação Mental, Logística e Nutrição',
@@ -102,7 +101,7 @@ const modalities = [
   },
   {
     id: 'corrida-montanha',
-    img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
     name: 'Corrida de Montanha',
     tag: 'FORÇA',
     headline: 'Explosividade, Técnica e Força Específica',
@@ -117,7 +116,7 @@ const modalities = [
   },
   {
     id: 'meio-fundo',
-    img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1567427018141-0584cfcbf1b8.jpg',
     name: 'Meio Fundo',
     tag: 'VO2MAX',
     headline: 'Potência Aeróbia Máxima e Velocidade',
@@ -132,7 +131,7 @@ const modalities = [
   },
   {
     id: 'jovens-atletas',
-    img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1571019614242-c5c5dee9f50b.jpg',
     name: 'Jovens Atletas',
     tag: 'DESENVOLVIMENTO',
     headline: 'Periodização a Longo Prazo para Jovens',
@@ -154,7 +153,7 @@ export default function MethodologiesPage() {
       <section
         className="relative pt-32 pb-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 30%',
         }}
@@ -300,7 +299,7 @@ export default function MethodologiesPage() {
       <section
         className="relative py-24 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

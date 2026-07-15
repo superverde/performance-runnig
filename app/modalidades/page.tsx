@@ -15,7 +15,7 @@ const MODALIDADES = [
     dist: '42.195 km',
     tag: 'Resistência',
     desc: 'Gestão de energia, periodização e nutrição em prova para os 42 km.',
-    img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg',
     color: 'from-orange-500/20 to-red-500/5',
   },
   {
@@ -24,7 +24,7 @@ const MODALIDADES = [
     dist: '21.097 km',
     tag: 'Limiar',
     desc: 'Economia de corrida e resistência de limiar para os 21 km perfeitos.',
-    img: 'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1613936360976-8f35cf0e5461.jpg',
     color: 'from-blue-500/20 to-indigo-500/5',
   },
   {
@@ -33,7 +33,7 @@ const MODALIDADES = [
     dist: '10 km',
     tag: 'Velocidade-Resistência',
     desc: 'O equilíbrio perfeito entre potência aeróbia e resistência de limiar.',
-    img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
     color: 'from-green-500/20 to-teal-500/5',
   },
   {
@@ -42,7 +42,7 @@ const MODALIDADES = [
     dist: '5 km',
     tag: 'VO2max',
     desc: 'Máxima potência aeróbia e capacidade láctica para a prova mais popular.',
-    img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
     color: 'from-yellow-500/20 to-amber-500/5',
   },
   {
@@ -51,7 +51,7 @@ const MODALIDADES = [
     dist: '15–80 km',
     tag: 'Técnica',
     desc: 'Técnica de montanha, força específica e adaptação ao terreno natural.',
-    img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
     color: 'from-emerald-500/20 to-green-500/5',
   },
   {
@@ -60,7 +60,7 @@ const MODALIDADES = [
     dist: '42 km+',
     tag: 'Mental',
     desc: 'Preparação física, mental, nutricional e logística para ultramaratonas.',
-    img: 'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg',
     color: 'from-purple-500/20 to-violet-500/5',
   },
   {
@@ -69,7 +69,7 @@ const MODALIDADES = [
     dist: 'VK / Sky',
     tag: 'Força',
     desc: 'Explosividade, relação peso/potência e técnica de subida para sky races.',
-    img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
     color: 'from-stone-500/20 to-gray-500/5',
   },
   {
@@ -78,7 +78,7 @@ const MODALIDADES = [
     dist: '800m–3000m',
     tag: 'Velocidade',
     desc: 'VO2max, capacidade láctica e velocidade para as provas de pista.',
-    img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=800&q=75',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1567427018141-0584cfcbf1b8.jpg',
     color: 'from-red-500/20 to-rose-500/5',
   },
 ]
@@ -90,7 +90,7 @@ export default function ModalidadesPage() {
       <section
         className="relative pt-32 pb-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 40%',
         }}
@@ -169,7 +169,7 @@ export default function ModalidadesPage() {
       <section
         className="relative py-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1590012314607-cda9d9b699ae.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

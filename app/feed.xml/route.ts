@@ -12,36 +12,36 @@ const SITE_DESC = 'Ciencia aplicada a corrida, trail running e atletismo'
 
 // Imagens por slug de artigo (especificas por tema)
 const ARTICLE_IMAGES: Record<string, string> = {
-  'como-correr-mais-rapido': 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
-  'corrida-jejum-fat-adaptation': 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
-  'hidratacao-corrida-guia-cientifico': 'https://images.unsplash.com/photo-1467453678174-768ec283a940?w=1200&q=80',
-  'joelho-corredor-sindrome-patelofemoral': 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80',
-  'long-run-como-fazer-corretamente': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
-  'melhor-relogio-gps-corrida-2026': 'https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?w=1200&q=80',
-  'melhores-sapatilhas-corrida-2026': 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80',
-  'monitor-cardiaco-treino-zonas-polar-h10': 'https://images.unsplash.com/photo-1557800636-894a64c1696f?w=1200&q=80',
-  'pacing-estrategia-ritmo-maratona': 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1200&q=80',
-  'plano-treino-meia-maratona': 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
-  'taper-maratona-semana-final': 'https://images.unsplash.com/photo-1456613820599-bfe244172af5?w=1200&q=80',
-  'recuperacao-ativa-vs-passiva-quando-descansar-e-quando-mover': 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80',
-  'overreaching-vs-overtraining-como-distinguir-e-resolver': 'https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1200&q=80',
-  'imersao-em-agua-fria-beneficios-reais-e-limitacoes': 'https://images.unsplash.com/photo-1560347876-aeef00ee58a1?w=1200&q=80',
-  'como-melhorar-o-vo2max-protocolos-com-evidencia-cientifica': 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&q=80',
+  'como-correr-mais-rapido': 'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
+  'corrida-jejum-fat-adaptation': 'https://www.performancerunning.pt/pool-images/photo-1490645935967-10de6ba17061.jpg',
+  'hidratacao-corrida-guia-cientifico': 'https://www.performancerunning.pt/pool-images/photo-1467453678174-768ec283a940.jpg',
+  'joelho-corredor-sindrome-patelofemoral': 'https://www.performancerunning.pt/pool-images/photo-1571008887538-b36bb32f4571.jpg',
+  'long-run-como-fazer-corretamente': 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
+  'melhor-relogio-gps-corrida-2026': 'https://www.performancerunning.pt/pool-images/photo-1549896869-ca27eeffe4fb.jpg',
+  'melhores-sapatilhas-corrida-2026': 'https://www.performancerunning.pt/pool-images/photo-1542291026-7eec264c27ff.jpg',
+  'monitor-cardiaco-treino-zonas-polar-h10': 'https://www.performancerunning.pt/pool-images/photo-1557800636-894a64c1696f.jpg',
+  'pacing-estrategia-ritmo-maratona': 'https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
+  'plano-treino-meia-maratona': 'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
+  'taper-maratona-semana-final': 'https://www.performancerunning.pt/pool-images/photo-1456613820599-bfe244172af5.jpg',
+  'recuperacao-ativa-vs-passiva-quando-descansar-e-quando-mover': 'https://www.performancerunning.pt/pool-images/photo-1544367567-0f2fcb009e0b.jpg',
+  'overreaching-vs-overtraining-como-distinguir-e-resolver': 'https://www.performancerunning.pt/pool-images/photo-1727094141271-9bea5bc8c757.jpg',
+  'imersao-em-agua-fria-beneficios-reais-e-limitacoes': 'https://www.performancerunning.pt/pool-images/photo-1560347876-aeef00ee58a1.jpg',
+  'como-melhorar-o-vo2max-protocolos-com-evidencia-cientifica': 'https://www.performancerunning.pt/pool-images/photo-1541534741688-6078c6bfb5c5.jpg',
 }
 
 // Imagens por categoria (fallback)
 const CATEGORY_IMAGES: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1200&q=80',
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
-  'Recuperação':   'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80',
-  'Psicologia':    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1200&q=80',
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&q=80',
+  'Treino':        'https://www.performancerunning.pt/pool-images/photo-1571019614242-c5c5dee9f50b.jpg',
+  'Fisiologia':    'https://www.performancerunning.pt/pool-images/photo-1727094141271-9bea5bc8c757.jpg',
+  'Biomecânica':   'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
+  'Nutrição':      'https://www.performancerunning.pt/pool-images/photo-1490645935967-10de6ba17061.jpg',
+  'Recuperação':   'https://www.performancerunning.pt/pool-images/photo-1544367567-0f2fcb009e0b.jpg',
+  'Psicologia':    'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
+  'Trail Running': 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
+  'Lesões':        'https://www.performancerunning.pt/pool-images/photo-1562771379-eafdca7a02f8.jpg',
+  'VO2max':        'https://www.performancerunning.pt/pool-images/photo-1541534741688-6078c6bfb5c5.jpg',
 }
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'
+const DEFAULT_IMAGE = 'https://www.performancerunning.pt/pool-images/photo-1571008887538-b36bb32f4571.jpg'
 
 // Escapa caracteres especiais XML em valores usados dentro de atributos
 // (url="...") ou de texto fora de CDATA. Sem isto, um "&" literal (ex: nos

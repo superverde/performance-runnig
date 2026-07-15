@@ -10,85 +10,80 @@ import { ArticleContent } from '@/components/ArticleContent'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
-/* O Next.js entrega o segmento dinâmico percent-encoded (ex.: slugs com
- * acentos chegam como "cora%C3%A7%C3%A3o-..."). Sem descodificar, o lookup
- * do ficheiro .md falha e a página devolve 404. */
-function safeDecodeSlug(raw: string): string {
-  try {
-    return decodeURIComponent(raw)
-  } catch {
-    return raw
-  }
-}
+// Imagens locais em public/pool-images/ (ver lib/images.ts) — antes apontavam
+// para images.unsplash.com, que pode remover fotos sem aviso (ver
+// [[project_imagens_unsplash_ids_mortos]]). Uma cópia local elimina essa
+// dependência.
+const poolImg = (id: string) => `${SITE_URL}/pool-images/${id}.jpg`
 
 /* ── CATEGORY MAP ─────────────────────────────────────────────────── */
 const CATEGORIAS: Record<string, { label: string; description: string; hero: string }> = {
   treino: {
     label: 'Treino',
     description: 'Metodologias científicas de treino para corrida — periodização, zonas de intensidade, volume semanal e tipos de sessão para todos os níveis.',
-    hero: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1920&q=80',
+    hero: poolImg('photo-1571019614242-c5c5dee9f50b'),
   },
   fisiologia: {
     label: 'Fisiologia',
     description: 'Fisiologia do exercício aplicada à corrida — VO2max, limiar anaeróbico, adaptações cardiovasculares e metabolismo energético.',
-    hero: 'https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1920&q=80',
+    hero: poolImg('photo-1727094141271-9bea5bc8c757'),
   },
   nutricao: {
     label: 'Nutrição',
     description: 'Nutrição desportiva para corredores — estratégias de hidratação, carboidratos, proteína e suplementação baseadas em evidência científica.',
-    hero: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1920&q=80',
+    hero: poolImg('photo-1490645935967-10de6ba17061'),
   },
   biomecanica: {
     label: 'Biomecânica',
     description: 'Biomecânica da corrida — técnica de passada, economia de corrida, cadência, apoio e como correr de forma mais eficiente e segura.',
-    hero: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1920&q=80',
+    hero: poolImg('photo-1476480862126-209bfaa8edc8'),
   },
   recuperacao: {
     label: 'Recuperação',
     description: 'Recuperação desportiva baseada em ciência — sono, nutrição pós-treino, terapias de recuperação e gestão da fadiga para corredores.',
-    hero: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1920&q=80',
+    hero: poolImg('photo-1544367567-0f2fcb009e0b'),
   },
   psicologia: {
     label: 'Psicologia',
     description: 'Psicologia desportiva para corredores — mentalidade de performance, gestão da dor, motivação e estratégias cognitivas em prova.',
-    hero: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1920&q=80',
+    hero: poolImg('photo-1552674605-db6ffd4facb5'),
   },
   'trail-running': {
     label: 'Trail Running',
     description: 'Tudo sobre trail running — técnica de montanha, preparação para provas de trail, equipamento e gestão de desnível.',
-    hero: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=80',
+    hero: poolImg('photo-1504025468847-0e438279542c'),
   },
   lesoes: {
     label: 'Lesões',
     description: 'Prevenção e tratamento de lesões em corredores — causas, recuperação, exercícios de reforço e regresso ao treino baseados em evidência.',
-    hero: 'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1920&q=80',
+    hero: poolImg('photo-1562771379-eafdca7a02f8'),
   },
   vo2max: {
     label: 'VO2max',
     description: 'VO2max — o que é, como se mede, como melhorar e qual a sua relação com a performance em corrida de fundo e trail running.',
-    hero: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1920&q=80',
+    hero: poolImg('photo-1541534741688-6078c6bfb5c5'),
   },
   equipamento: {
     label: 'Equipamento',
     description: 'Guias de compra e comparativos de equipamento de corrida — sapatilhas, relógios GPS, mochilas de trail e acessórios testados e analisados.',
-    hero: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1920&q=80',
+    hero: poolImg('photo-1595950653106-6c9ebd614d3a'),
   },
 }
 
 /* OG image per category */
 const categoryOgImages: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1200&q=80',
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
-  'Recuperação':   'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80',
-  'Psicologia':    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1200&q=80',
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&q=80',
-  'Equipamento':   'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1200&q=80',
+  'Treino':        poolImg('photo-1571019614242-c5c5dee9f50b'),
+  'Fisiologia':    poolImg('photo-1727094141271-9bea5bc8c757'),
+  'Biomecânica':   poolImg('photo-1476480862126-209bfaa8edc8'),
+  'Nutrição':      poolImg('photo-1490645935967-10de6ba17061'),
+  'Recuperação':   poolImg('photo-1544367567-0f2fcb009e0b'),
+  'Psicologia':    poolImg('photo-1552674605-db6ffd4facb5'),
+  'Trail Running': poolImg('photo-1504025468847-0e438279542c'),
+  'Lesões':        poolImg('photo-1562771379-eafdca7a02f8'),
+  'VO2max':        poolImg('photo-1541534741688-6078c6bfb5c5'),
+  'Equipamento':   poolImg('photo-1595950653106-6c9ebd614d3a'),
 }
-const defaultOgImage = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'
+const defaultOgImage = poolImg('photo-1571008887538-b36bb32f4571')
 
 interface Props {
   params: { slug: string }
@@ -103,9 +98,8 @@ export async function generateStaticParams() {
 
 /* ── METADATA ─────────────────────────────────────────────────────── */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const slug = safeDecodeSlug(params.slug)
   // Category page?
-  const cat = CATEGORIAS[slug]
+  const cat = CATEGORIAS[params.slug]
   if (cat) {
     return {
       title: `Artigos de ${cat.label} | Performance Running`,
@@ -115,16 +109,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: cat.description,
         images: [{ url: cat.hero, width: 1200, height: 630 }],
       },
-      alternates: { canonical: `${SITE_URL}/blog/${slug}` },
+      alternates: { canonical: `${SITE_URL}/blog/${params.slug}` },
     }
   }
 
   // Article page
-  const article = await getArticleBySlug(slug)
+  const article = await getArticleBySlug(params.slug)
   if (!article) return {}
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
-  const canonicalUrl = `${SITE_URL}/blog/${article.slug}`
+  const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
 
   return {
     title: article.title,
@@ -152,18 +146,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /* ── PAGE COMPONENT ───────────────────────────────────────────────── */
 export default async function BlogSlugPage({ params }: Props) {
-  const slug = safeDecodeSlug(params.slug)
   // ── CATEGORY PAGE ──────────────────────────────────────────────────
-  const cat = CATEGORIAS[slug]
+  const cat = CATEGORIAS[params.slug]
   if (cat) {
     const allArticles = getAllArticles()
     const categoryArticles = allArticles.filter(
       (a) =>
-        a.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-') === slug ||
+        a.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-') === params.slug ||
         a.category.toLowerCase() === cat.label.toLowerCase()
     )
 
-    const catUrl = `${SITE_URL}/blog/${slug}`
+    const catUrl = `${SITE_URL}/blog/${params.slug}`
     const catBreadcrumbLd = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
@@ -205,15 +198,15 @@ export default async function BlogSlugPage({ params }: Props) {
   }
 
   // ── ARTICLE PAGE ───────────────────────────────────────────────────
-  const article = await getArticleBySlug(slug)
+  const article = await getArticleBySlug(params.slug)
   if (!article) notFound()
 
   const related = getAllArticles()
-    .filter((a) => a.category === article.category && a.slug !== slug)
+    .filter((a) => a.category === article.category && a.slug !== params.slug)
     .slice(0, 3)
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
-  const canonicalUrl = `${SITE_URL}/blog/${article.slug}`
+  const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
 
   const categorySlug = article.category
     .toLowerCase()
@@ -287,7 +280,7 @@ export default async function BlogSlugPage({ params }: Props) {
             <span className="flex items-center gap-1.5"><Calendar size={11} />{article.date}</span>
             <span className="flex items-center gap-1.5"><Clock size={11} />{article.readTime} min de leitura</span>
             <span className="flex items-center gap-1.5"><Tag size={11} />{article.category}</span>
-            <ViewCounter slug={slug} />
+            <ViewCounter slug={params.slug} />
           </div>
         </div>
       </div>
@@ -295,7 +288,7 @@ export default async function BlogSlugPage({ params }: Props) {
       {/* ── Article content ── */}
       <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
         <ArticleContent
-          slug={slug}
+          slug={params.slug}
           originalContent={article.content}
           originalTitle={article.title}
           originalExcerpt={article.excerpt}

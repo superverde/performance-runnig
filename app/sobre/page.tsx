@@ -4,7 +4,6 @@ import { ArrowRight, BookOpen, FlaskConical, RefreshCw, Globe } from 'lucide-rea
 
 export const metadata: Metadata = {
   title: 'Sobre o Projeto',
-  alternates: { canonical: 'https://www.performancerunning.pt/sobre' },
   description:
     'Performance Running é uma base de conhecimento científico gratuita sobre corrida, trail running e atletismo. Artigos fundamentados em investigação científica publicada.',
 }
@@ -46,7 +45,7 @@ export default function SobrePage() {
       <section
         className="relative pt-32 pb-24 border-b border-white/5 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1571008887538-b36bb32f4571.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 35%',
         }}
@@ -85,7 +84,7 @@ export default function SobrePage() {
       <section
         className="relative py-24 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1727094141271-9bea5bc8c757.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll',
@@ -122,7 +121,7 @@ export default function SobrePage() {
       <section
         className="relative py-24 border-y border-white/5 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -157,7 +156,7 @@ export default function SobrePage() {
       <section
         className="relative py-24 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1590012314607-cda9d9b699ae.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll',
