@@ -85,7 +85,7 @@ export default function SobrePage() {
       <section
         className="relative py-24 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1920&q=80)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1920&q=80)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll',

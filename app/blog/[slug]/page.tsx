@@ -31,7 +31,7 @@ const CATEGORIAS: Record<string, { label: string; description: string; hero: str
   fisiologia: {
     label: 'Fisiologia',
     description: 'Fisiologia do exercício aplicada à corrida — VO2max, limiar anaeróbico, adaptações cardiovasculares e metabolismo energético.',
-    hero: 'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1920&q=80',
+    hero: 'https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1920&q=80',
   },
   nutricao: {
     label: 'Nutrição',
@@ -78,7 +78,7 @@ const CATEGORIAS: Record<string, { label: string; description: string; hero: str
 /* OG image per category */
 const categoryOgImages: Record<string, string> = {
   'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1200&q=80',
+  'Fisiologia':    'https://images.unsplash.com/photo-1727094141271-9bea5bc8c757?w=1200&q=80',
   'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
   'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
   'Recuperação':   'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80',

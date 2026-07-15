@@ -42,7 +42,7 @@ const modalities = [
   },
   {
     id: 'meia-maratona',
-    img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=1200&q=80',
+    img: 'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=1200&q=80',
     name: 'Meia Maratona',
     tag: 'EFICIÊNCIA',
     headline: 'Limiar Aeróbio e Economia de Corrida',

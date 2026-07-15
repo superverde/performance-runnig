@@ -24,7 +24,7 @@ const MODALIDADES = [
     dist: '21.097 km',
     tag: 'Limiar',
     desc: 'Economia de corrida e resistência de limiar para os 21 km perfeitos.',
-    img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=800&q=75',
+    img: 'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=800&q=75',
     color: 'from-blue-500/20 to-indigo-500/5',
   },
   {

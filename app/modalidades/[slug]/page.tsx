@@ -99,7 +99,7 @@ const MODALIDADES: Modalidade[] = [
       { q: 'Qual é o ritmo ideal para treinar para uma meia maratona?', a: 'Os treinos fáceis (Z2) devem ser feitos a um ritmo onde consegues manter uma conversa completa — geralmente 60-90 segundos/km mais lento do que o teu ritmo de competição de 10 km. Os treinos de limiar são feitos a ritmo de meia maratona ou ligeiramente mais rápido.' },
       { q: 'Preciso de comer durante uma meia maratona?', a: 'Para atletas que terminam abaixo de 1h45, a nutrição em corrida tem impacto limitado. Acima de 1h45-2h, recomendam-se 1-2 géis de carboidratos (30-60g) entre o km 8 e o km 15. A hidratação com água é importante em provas com temperaturas acima de 15°C.' },
     ],
-    img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=1920&q=80',
+    img: 'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=1920&q=80',
     category: 'Treino',
   },
   {

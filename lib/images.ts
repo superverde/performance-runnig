@@ -18,13 +18,13 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1571019614242-c5c5dee9f50b',
     'photo-1534438327276-14e5300c3a48',
     'photo-1571019613454-1cb2f99b2d8b',
-    'photo-1523475496153-3567a3a7fc7b',
+    'photo-1549896869-ca27eeffe4fb',
     'photo-1533560904424-a0c61dc306fc',
     'photo-1512621776951-a57141f2eefd',
   ],
   'Fisiologia': [
-    'photo-1526676037777-05a232554f77',
-    'photo-1530137073521-1b3f5d2e8aef',
+    'photo-1727094141271-9bea5bc8c757',
+    'photo-1613936360976-8f35cf0e5461',
     'photo-1557800636-894a64c1696f',
     'photo-1559757148-5c350d0d3c56',
     'photo-1559757175-5700dde675bc',
@@ -33,9 +33,9 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
   'Nutrição': [
     'photo-1490645935967-10de6ba17061',
     'photo-1547592180-85f173990554',
-    'photo-1559181567-c3190ca9d823',
+    'photo-1467453678174-768ec283a940',
     'photo-1506126613408-eca07ce68773',
-    'photo-1486218119243-13301ef4b7b2',
+    'photo-1490818387583-1baba5e638af',
     'photo-1452626038306-9aae5e071dd3',
   ],
   'Biomecânica': [
@@ -56,7 +56,7 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
   'Trail Running': [
     'photo-1504025468847-0e438279542c',
     'photo-1464822759023-fed622ff2c3b',
-    'photo-1538485399081-7c8272b27daa',
+    'photo-1456613820599-bfe244172af5',
     'photo-1530026405186-ed1f139313f8',
     'photo-1590012314607-cda9d9b699ae',
     'photo-1610832958506-aa56368176cf',
@@ -77,7 +77,7 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
   ],
   'VO2max': [
     'photo-1541534741688-6078c6bfb5c5',
-    'photo-1530137073521-58f5bd474c49',
+    'photo-1648995361141-30676a75fd27',
     'photo-1542291026-7eec264c27ff',
     'photo-1538481199705-c710c4e965fc',
     'photo-1600334089648-b0d9d3028eb2',
