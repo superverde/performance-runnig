@@ -127,4 +127,28 @@ function localImageUrl(photoId: string): string {
 
 /**
  * Escolhe uma imagem da pool da categoria, de forma determinística por
- * `seed` (usar o slug do artigo). O mesmo `seed
+ * `seed` (usar o slug do artigo). O mesmo `seed` devolve sempre a mesma
+ * imagem — importante para que o mesmo artigo não mude de imagem entre
+ * Facebook, Instagram, Threads e Pinterest — mas artigos diferentes da
+ * mesma categoria já não colidem sempre na mesma foto.
+ *
+ * @param category categoria do artigo (ex: "Treino", "Nutrição")
+ * @param seed normalmente o slug do artigo; pode ser qualquer string estável
+ * @param size vestigial (largura antes pedida ao Unsplash via `?w=`); a
+ *   cópia local é servida a uma única resolução fixa (1200px), por isso
+ *   este parâmetro já não tem efeito. Mantido só para não partir os
+ *   call-sites existentes — pode ser removido numa limpeza futura.
+ */
+export function pickCategoryImage(category: string, seed: string, size = 1080): string {
+  const pool = CATEGORY_IMAGE_POOLS[category] ?? FALLBACK_POOL
+  const photoId = pool.length > 0
+    ? pool[hashString(seed) % pool.length]
+    : DEFAULT_IMAGE
+  return localImageUrl(photoId)
+}
+
+/** Todas as imagens da pool, achatadas — útil para rotação por dia/índice sem repetir a mesma sequência todos os dias. */
+export function allPoolImages(size = 1080): string[] {
+  const ids = Object.values(CATEGORY_IMAGE_POOLS).flat()
+  return ids.map(localImageUrl)
+}

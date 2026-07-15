@@ -4,6 +4,7 @@ import { ArrowRight, BookOpen, FlaskConical, RefreshCw, Globe } from 'lucide-rea
 
 export const metadata: Metadata = {
   title: 'Sobre o Projeto',
+  alternates: { canonical: 'https://www.performancerunning.pt/sobre' },
   description:
     'Performance Running é uma base de conhecimento científico gratuita sobre corrida, trail running e atletismo. Artigos fundamentados em investigação científica publicada.',
 }
