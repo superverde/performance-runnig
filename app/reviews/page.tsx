@@ -148,7 +148,7 @@ export default function ReviewsPage() {
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
                 <p className="font-display text-brand-green text-3xl md:text-4xl leading-none mb-2">{value}</p>
-                <p className="text-white/30 text-xs font-mono uppercase tracking-widest">{label}</p>
+                <p className="text-white/55 text-xs font-mono uppercase tracking-widest">{label}</p>
               </div>
             ))}
           </div>
@@ -214,7 +214,7 @@ export default function ReviewsPage() {
             QUAL É O TEU<br />
             <span className="text-brand-green">OBJETIVO?</span>
           </h2>
-          <p className="text-white/40 text-sm leading-relaxed max-w-md mx-auto mb-10">
+          <p className="text-white/60 text-sm leading-relaxed max-w-md mx-auto mb-10">
             Uma análise personalizada pode ser o ponto de viragem que procuras.
             Gratuita, sem compromisso, baseada na tua situação real.
           </p>

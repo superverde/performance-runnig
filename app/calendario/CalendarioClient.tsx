@@ -96,7 +96,7 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
             </span>
           </div>
 
-          <p className="text-white/45 text-xs leading-relaxed mb-3">{prova.desc}</p>
+          <p className="text-white/65 text-xs leading-relaxed mb-3">{prova.desc}</p>
 
           <div className="flex items-center justify-between flex-wrap gap-2">
             <div className="flex gap-1.5 flex-wrap">
@@ -229,7 +229,7 @@ export function CalendarioClient() {
                 className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all ${
                   regiao === r
                     ? 'bg-white/10 text-white border-white/25'
-                    : 'border-white/10 text-white/40 hover:text-white'
+                    : 'border-white/10 text-white/60 hover:text-white'
                 }`}
               >
                 {r}
@@ -247,7 +247,7 @@ export function CalendarioClient() {
 
         {/* ── Lista agrupada por mês ── */}
         {grupos.length === 0 && (
-          <p className="text-white/30 text-sm py-12 text-center">Nenhuma prova encontrada com estes filtros.</p>
+          <p className="text-white/55 text-sm py-12 text-center">Nenhuma prova encontrada com estes filtros.</p>
         )}
 
         <div className="space-y-12">
@@ -269,19 +269,19 @@ export function CalendarioClient() {
 
         {/* ── Nota + navegação ── */}
         <div className="border-t border-white/5 pt-8 mt-16">
-          <p className="text-xs text-white/40 leading-relaxed max-w-2xl">
-            <strong className="text-white/30">Nota:</strong> as datas são recolhidas junto das organizações
+          <p className="text-sm text-white/60 leading-relaxed max-w-2xl">
+            <strong className="text-white/70">Nota:</strong> as datas são recolhidas junto das organizações
             e podem sofrer pequenos ajustes. Confirma sempre a data e inscrições no site oficial da prova
             antes de planeares a tua época.
           </p>
           <div className="mt-4 flex gap-3 flex-wrap">
-            <Link href="/ferramentas" className="text-xs text-white/30 hover:text-brand-green transition-colors">
+            <Link href="/ferramentas" className="text-xs text-white/55 hover:text-brand-green transition-colors">
               Calculadora de Previsão de Tempos →
             </Link>
-            <Link href="/metodologias" className="text-xs text-white/30 hover:text-brand-green transition-colors">
+            <Link href="/metodologias" className="text-xs text-white/55 hover:text-brand-green transition-colors">
               Metodologias de Treino
             </Link>
-            <Link href="/consulta" className="text-xs text-white/30 hover:text-brand-green transition-colors">
+            <Link href="/consulta" className="text-xs text-white/55 hover:text-brand-green transition-colors">
               Consulta Gratuita com IA
             </Link>
           </div>

@@ -428,7 +428,7 @@ export default function ModalidadePage({ params }: Props) {
                 </li>
               ))}
             </ul>
-            <div className="mt-5 pt-4 border-t border-white/5 text-xs text-white/40">
+            <div className="mt-5 pt-4 border-t border-white/5 text-xs text-white/60">
               <span className="text-white/60 font-semibold">Volume: </span>{m.volume}
             </div>
           </section>
@@ -494,7 +494,7 @@ export default function ModalidadePage({ params }: Props) {
 
         {/* Nav para outras modalidades */}
         <section className="pt-8 border-t border-white/5">
-          <Link href="/modalidades" className="inline-flex items-center gap-2 text-sm text-white/35 hover:text-brand-green transition-colors font-medium">
+          <Link href="/modalidades" className="inline-flex items-center gap-2 text-sm text-white/60 hover:text-brand-green transition-colors font-medium">
             <ArrowLeft size={13} /> Ver todas as modalidades
           </Link>
         </section>

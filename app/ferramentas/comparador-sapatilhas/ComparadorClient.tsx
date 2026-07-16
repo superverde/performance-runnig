@@ -163,7 +163,7 @@ export function ComparadorClient() {
 
         {/* Comparação */}
         {selected.length === 0 ? (
-          <p className="text-white/40 text-sm">Escolhe pelo menos uma sapatilha acima para comparar.</p>
+          <p className="text-white/60 text-sm">Escolhe pelo menos uma sapatilha acima para comparar.</p>
         ) : (
           <div className={`grid grid-cols-1 sm:grid-cols-2 gap-5 ${selected.length === 3 ? 'lg:grid-cols-3' : ''}`}>
             {selected.map(shoe => <ShoeCard key={shoe.name} shoe={shoe} />)}
@@ -178,7 +178,7 @@ export function ComparadorClient() {
           </p>
         </div>
 
-        <p className="text-[11px] text-white/30 mt-6">
+        <p className="text-xs text-white/55 mt-6">
           Este site pode receber uma comissão de afiliado em compras feitas através dos links acima, sem custo adicional para ti.
         </p>
 

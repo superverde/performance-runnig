@@ -111,7 +111,7 @@ export default function ModalidadesPage() {
             Cada distância tem a sua fisiologia, as suas zonas de treino, os seus erros específicos.
             Escolhe a tua modalidade e descobre o que a ciência diz sobre como treinar para ela.
           </p>
-          <div className="flex items-center gap-3 text-xs text-white/25 font-mono">
+          <div className="flex items-center gap-3 text-xs text-white/50 font-mono">
             <span>{MODALIDADES.length} modalidades</span>
             <span>·</span>
             <span>Do 800m ao Ultra Trail</span>
@@ -154,7 +154,7 @@ export default function ModalidadesPage() {
                   <h2 className="font-display text-white text-3xl leading-none mb-2 group-hover:text-brand-green transition-colors">
                     {m.name.toUpperCase()}
                   </h2>
-                  <p className="text-white/40 text-xs leading-relaxed mb-4 line-clamp-2">{m.desc}</p>
+                  <p className="text-white/60 text-xs leading-relaxed mb-4 line-clamp-2">{m.desc}</p>
                   <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-white/50 group-hover:text-brand-green transition-colors uppercase tracking-widest">
                     Ver guia <ArrowRight size={10} />
                   </div>
@@ -186,7 +186,7 @@ export default function ModalidadesPage() {
             APROFUNDA O<br />
             <span className="text-brand-green">CONHECIMENTO</span>
           </h2>
-          <p className="text-white/40 text-sm leading-relaxed max-w-xl mx-auto mb-8">
+          <p className="text-white/60 text-sm leading-relaxed max-w-xl mx-auto mb-8">
             3 novos artigos publicados todos os dias — fisiologia, treino, nutrição,
             biomecânica e psicologia desportiva aplicados à corrida.
           </p>

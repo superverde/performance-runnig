@@ -137,9 +137,9 @@ export function SplitsClient() {
         </div>
 
         <div className="mt-10 flex flex-wrap gap-2">
-          <Link href="/ferramentas" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Calculadora VDOT</Link>
-          <Link href="/ferramentas/zonas-fc" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Zonas de FC</Link>
-          <Link href="/calendario" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Calendário de Provas</Link>
+          <Link href="/ferramentas" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Calculadora VDOT</Link>
+          <Link href="/ferramentas/zonas-fc" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Zonas de FC</Link>
+          <Link href="/calendario" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Calendário de Provas</Link>
         </div>
       </div>
     </section>

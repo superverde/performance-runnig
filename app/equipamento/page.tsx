@@ -96,7 +96,7 @@ function ProductImage({
 }) {
   if (!src) {
     return (
-      <div className="w-full h-full flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-white/[0.06] to-white/[0.01] text-white/20">
+      <div className="w-full h-full flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-white/[0.06] to-white/[0.01] text-white/45">
         <Icon size={30} strokeWidth={1.5} />
         <span className="text-[9px] font-bold uppercase tracking-widest">Imagem em breve</span>
       </div>
@@ -133,7 +133,7 @@ function PriceTag({
     <span className={`flex flex-col items-end shrink-0 ${wrapperClassName}`}>
       <span className={className}>{preco}</span>
       {!verified && (
-        <span className="text-[8px] uppercase tracking-widest text-white/30 font-bold mt-0.5 whitespace-nowrap">
+        <span className="text-[10px] uppercase tracking-widest text-white/55 font-bold mt-0.5 whitespace-nowrap">
           Preço a confirmar
         </span>
       )}
@@ -254,7 +254,7 @@ export default async function EquipamentoPage() {
               <h2 className="text-2xl sm:text-3xl font-black text-white">
                 {destaque.emoji} {destaque.titulo}
               </h2>
-              <p className="text-white/40 text-sm mt-1">Ver produtos em destaque esta semana →</p>
+              <p className="text-white/60 text-sm mt-1">Ver produtos em destaque esta semana →</p>
             </div>
             <ArrowUpRight size={32} className="shrink-0 opacity-30 group-hover:opacity-80 transition-opacity" style={{ color: destaque.cor }} />
           </div>
@@ -265,7 +265,7 @@ export default async function EquipamentoPage() {
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">01</p>
             <h2 className="text-3xl font-black tracking-tight">Sapatos de Corrida</h2>
-            <p className="text-white/40 text-sm mt-1">Testados em estrada, pista e trilho. Avaliação independente.</p>
+            <p className="text-white/60 text-sm mt-1">Testados em estrada, pista e trilho. Avaliação independente.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {sapatos_r.map((s) => (
@@ -342,7 +342,7 @@ export default async function EquipamentoPage() {
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">02</p>
             <h2 className="text-3xl font-black tracking-tight">Relógios GPS</h2>
-            <p className="text-white/40 text-sm mt-1">A ferramenta mais importante de um corredor sério.</p>
+            <p className="text-white/60 text-sm mt-1">A ferramenta mais importante de um corredor sério.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {relogios_r.map((r) => (
@@ -579,7 +579,7 @@ export default async function EquipamentoPage() {
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">05</p>
             <h2 className="text-3xl font-black tracking-tight">Acessórios Essenciais</h2>
-            <p className="text-white/40 text-sm mt-1">O equipamento complementar que faz diferença.</p>
+            <p className="text-white/60 text-sm mt-1">O equipamento complementar que faz diferença.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {acessorios_r.map((a) => (
@@ -600,7 +600,7 @@ export default async function EquipamentoPage() {
                       href={trackedLink(a.name, a.link)}
                       target="_blank"
                       rel="noopener noreferrer nofollow"
-                      className="inline-flex items-center gap-1 text-[10px] font-bold text-white/40 hover:text-brand-green transition-colors"
+                      className="inline-flex items-center gap-1 text-xs font-bold text-white/60 hover:text-brand-green transition-colors"
                     >
                       Amazon <ArrowUpRight size={10} />
                     </a>
@@ -613,15 +613,15 @@ export default async function EquipamentoPage() {
 
         {/* ── Disclaimer ── */}
         <div className="border-t border-white/5 pt-8">
-          <p className="text-xs text-white/40 leading-relaxed max-w-2xl">
-            <strong className="text-white/30">Transparência:</strong> Esta página contém links de afiliado Amazon.
+          <p className="text-sm text-white/60 leading-relaxed max-w-2xl">
+            <strong className="text-white/70">Transparência:</strong> Esta página contém links de afiliado Amazon.
             Quando compras através destes links, recebemos uma pequena comissão sem custo adicional para ti.
             As avaliações são independentes e baseadas em testes reais — nenhuma marca paga para aparecer aqui.
           </p>
           <div className="mt-4 flex gap-3 flex-wrap">
-            <Link href="/blog" className="text-xs text-white/30 hover:text-brand-green transition-colors">← Arquivo de Artigos</Link>
-            <Link href="/metodologias" className="text-xs text-white/30 hover:text-brand-green transition-colors">Metodologias de Treino</Link>
-            <Link href="/consulta" className="text-xs text-white/30 hover:text-brand-green transition-colors">Consulta Gratuita com IA</Link>
+            <Link href="/blog" className="text-xs text-white/55 hover:text-brand-green transition-colors">← Arquivo de Artigos</Link>
+            <Link href="/metodologias" className="text-xs text-white/55 hover:text-brand-green transition-colors">Metodologias de Treino</Link>
+            <Link href="/consulta" className="text-xs text-white/55 hover:text-brand-green transition-colors">Consulta Gratuita com IA</Link>
           </div>
         </div>
 

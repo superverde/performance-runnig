@@ -72,7 +72,7 @@ export default function SobrePage() {
               tornar a investigação científica sobre corrida acessível a qualquer atleta,
               em português, de forma clara e rigorosa.
             </p>
-            <p className="text-white/40 leading-relaxed max-w-2xl">
+            <p className="text-white/60 leading-relaxed max-w-2xl">
               Cada artigo é fundamentado em estudos publicados em revistas científicas internacionais.
               As referências estão sempre incluídas — para que possas verificar, aprofundar
               e desenvolver o teu próprio pensamento crítico sobre treino e performance.
@@ -111,7 +111,7 @@ export default function SobrePage() {
                   {p.icon}
                 </div>
                 <h3 className="font-black text-white mb-3 text-sm">{p.title}</h3>
-                <p className="text-white/40 text-xs leading-relaxed group-hover:text-white/60 transition-colors">{p.desc}</p>
+                <p className="text-white/60 text-xs leading-relaxed group-hover:text-white/75 transition-colors">{p.desc}</p>
               </div>
             ))}
           </div>
@@ -174,7 +174,7 @@ export default function SobrePage() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
             >
               REFERÊNCIAS EM<br />
-              <span className="text-white/25">CADA ARTIGO</span>
+              <span className="text-white/35">CADA ARTIGO</span>
             </h2>
             <div className="space-y-5 text-white/70 text-base leading-relaxed">
               <p>

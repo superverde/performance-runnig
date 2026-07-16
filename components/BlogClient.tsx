@@ -171,7 +171,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                 className={`whitespace-nowrap px-4 py-1.5 text-xs rounded-full transition-all font-bold ${
                   category === c
                     ? 'bg-brand-green text-black'
-                    : 'text-white/40 hover:text-white border border-white/5 hover:border-white/20'
+                    : 'text-white/60 hover:text-white border border-white/5 hover:border-white/20'
                 }`}
               >
                 {c}
@@ -185,7 +185,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         {/* Info / limpar */}
         <div className="flex items-center justify-between mb-8">
-          <p className="text-white/30 text-xs font-mono">
+          <p className="text-white/55 text-xs font-mono">
             {filtered.length === 0
               ? isHoje ? 'Nenhum artigo publicado hoje ainda' : 'Nenhum artigo encontrado'
               : `${filtered.length} artigo${filtered.length !== 1 ? 's' : ''}`}
@@ -206,7 +206,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
             <p className="text-white font-bold mb-2">
               {isHoje ? 'Ainda sem artigos hoje' : 'Nenhum artigo encontrado'}
             </p>
-            <p className="text-white/40 text-sm mb-6">
+            <p className="text-white/60 text-sm mb-6">
               {isHoje
                 ? 'Os artigos de hoje ainda não foram publicados. Volta mais tarde!'
                 : 'Tenta pesquisar com outras palavras.'}
@@ -242,7 +242,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                 <button
                   onClick={() => setPage((p) => Math.max(1, p - 1))}
                   disabled={page === 1}
-                  className="px-4 py-2 rounded-full text-xs font-bold border border-white/10 text-white/40 hover:border-white/20 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all"
+                  className="px-4 py-2 rounded-full text-xs font-bold border border-white/10 text-white/60 hover:border-white/20 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all"
                 >
                   ← Anterior
                 </button>
@@ -261,7 +261,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                         className={`w-8 h-8 rounded-full text-xs font-bold transition-all ${
                           pageNum === page
                             ? 'bg-brand-green text-black'
-                            : 'text-white/40 hover:text-white border border-white/5 hover:border-white/20'
+                            : 'text-white/60 hover:text-white border border-white/5 hover:border-white/20'
                         }`}
                       >
                         {pageNum}
@@ -273,14 +273,14 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                 <button
                   onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                   disabled={page === totalPages}
-                  className="px-4 py-2 rounded-full text-xs font-bold border border-white/10 text-white/40 hover:border-white/20 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all"
+                  className="px-4 py-2 rounded-full text-xs font-bold border border-white/10 text-white/60 hover:border-white/20 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all"
                 >
                   Próxima →
                 </button>
               </div>
             )}
 
-            <p className="text-center text-white/20 text-xs font-mono mt-6">
+            <p className="text-center text-white/45 text-xs font-mono mt-6">
               Página {page} de {totalPages} · {articles.length} artigos no total
             </p>
           </>

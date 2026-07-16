@@ -120,14 +120,14 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
                   {status === 'loading' ? '...' : 'QUERO RECEBER'}
                 </button>
               </form>
-              <p className="text-white/35 text-sm mt-4">
+              <p className="text-white/60 text-sm mt-4">
                 Grátis para sempre. Cancela quando quiseres, num clique.
               </p>
             </>
           )}
 
           {status === 'duplicate' && (
-            <p className="text-white/40 text-xs mt-3">Já estás na lista. Obrigado!</p>
+            <p className="text-white/60 text-xs mt-3">Já estás na lista. Obrigado!</p>
           )}
           {status === 'error' && (
             <p className="text-red-400 text-xs mt-3">Erro. Tenta novamente.</p>
@@ -153,13 +153,13 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
         <h3 className="text-xl font-black tracking-tight mb-1">
           Mais artigos como este.
         </h3>
-        <p className="text-white/40 text-sm mb-4">
+        <p className="text-white/60 text-sm mb-4">
           Ciência do treino direto no teu email — grátis, sem spam, cancela quando quiseres.
         </p>
 
         <ul className="flex flex-wrap gap-x-5 gap-y-1.5 mb-5">
           {benefits.map(({ text }) => (
-            <li key={text} className="flex items-center gap-1.5 text-white/45 text-xs">
+            <li key={text} className="flex items-center gap-1.5 text-white/65 text-xs">
               <span className="text-brand-green">✓</span> {text}
             </li>
           ))}
@@ -194,7 +194,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
         )}
 
         {status === 'duplicate' && (
-          <p className="text-white/40 text-xs mt-2">Já estás na lista!</p>
+          <p className="text-white/60 text-xs mt-2">Já estás na lista!</p>
         )}
         {status === 'error' && (
           <p className="text-red-400 text-xs mt-2">Erro. Tenta novamente.</p>
@@ -207,7 +207,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
   return (
     <div>
       <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/50 mb-1">Newsletter</p>
-      <p className="text-white/35 text-xs mb-3">3x/semana. Grátis. Zero spam.</p>
+      <p className="text-white/60 text-xs mb-3">3x/semana. Grátis. Zero spam.</p>
       {status === 'success' ? (
         <div>
           <p className="text-brand-green text-sm font-bold">✓ Subscrito!</p>
@@ -232,7 +232,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
           </button>
         </form>
       )}
-      {status === 'duplicate' && <p className="text-white/30 text-xs mt-1.5">Já estás na lista!</p>}
+      {status === 'duplicate' && <p className="text-white/55 text-xs mt-1.5">Já estás na lista!</p>}
       {status === 'error' && <p className="text-red-400 text-xs mt-1.5">Erro. Tenta novamente.</p>}
     </div>
   )

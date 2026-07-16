@@ -265,7 +265,7 @@ export default async function BlogSlugPage({ params }: Props) {
             <span>/</span>
             <Link href={`/blog/${categorySlug}`} className="hover:text-brand-green transition-colors">{article.category}</Link>
             <span>/</span>
-            <span className="text-white/20 truncate max-w-[200px]">{article.title}</span>
+            <span className="text-white/50 truncate max-w-[200px]">{article.title}</span>
           </nav>
           <div className="mb-4">
             <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/25 bg-brand-green/10">
@@ -294,7 +294,7 @@ export default async function BlogSlugPage({ params }: Props) {
           originalExcerpt={article.excerpt}
         />
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-brand-green transition-colors font-medium">
+          <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-white/60 hover:text-brand-green transition-colors font-medium">
             <ArrowLeft size={13} /> Ver todos os artigos
           </Link>
           <Link href={`/blog/${categorySlug}`} className="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-green text-black font-black rounded-full hover:bg-white transition-all text-sm">
@@ -304,22 +304,22 @@ export default async function BlogSlugPage({ params }: Props) {
 
         {/* ── Links internos SEO ── */}
         <div className="mt-10 p-5 rounded-xl border border-white/6 bg-white/[0.015]">
-          <p className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/20 mb-3">Explorar mais</p>
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-white/50 mb-3">Explorar mais</p>
           <div className="flex flex-wrap gap-2">
             <Link href={`/blog/${categorySlug}`}
-              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
               Arquivo · {article.category}
             </Link>
             <Link href="/metodologias"
-              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
               Metodologias de Treino
             </Link>
             <Link href="/consulta"
-              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
               Consulta Gratuita com IA
             </Link>
             <Link href="/blog"
-              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
               Todos os Artigos
             </Link>
           </div>

@@ -59,12 +59,12 @@ export function ZonasFcClient() {
                 className="w-20 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono focus:outline-none focus:border-brand-green transition-colors" />
             </div>
             <div>
-              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">FC máx real <span className="text-white/20 normal-case">(opcional)</span></label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">FC máx real <span className="text-white/45 normal-case">(opcional)</span></label>
               <input type="number" value={fcMax} onChange={e => setFcMax(e.target.value)} placeholder="ex: 188" min={120} max={230}
                 className="w-24 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono placeholder-white/20 focus:outline-none focus:border-brand-green transition-colors" />
             </div>
             <div>
-              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">FC repouso <span className="text-white/20 normal-case">(opcional)</span></label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">FC repouso <span className="text-white/45 normal-case">(opcional)</span></label>
               <input type="number" value={fcRep} onChange={e => setFcRep(e.target.value)} placeholder="ex: 55" min={30} max={100}
                 className="w-24 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono placeholder-white/20 focus:outline-none focus:border-brand-green transition-colors" />
             </div>
@@ -79,12 +79,12 @@ export function ZonasFcClient() {
               <div className="flex flex-wrap gap-6 p-5 rounded-xl border border-brand-green/20 bg-brand-green/5">
                 <div>
                   <div className="text-[10px] uppercase tracking-widest text-brand-green/70 font-bold mb-1">FC Máxima {result.estimada ? '(estimada — Tanaka)' : '(medida)'}</div>
-                  <div className="font-display text-4xl text-brand-green leading-none">{result.max} <span className="text-sm text-white/40">bpm</span></div>
+                  <div className="font-display text-4xl text-brand-green leading-none">{result.max} <span className="text-sm text-white/60">bpm</span></div>
                 </div>
                 {result.rep && (
                   <div>
                     <div className="text-[10px] uppercase tracking-widest text-brand-green/70 font-bold mb-1">FC de Reserva</div>
-                    <div className="font-display text-4xl text-white leading-none">{result.max - result.rep} <span className="text-sm text-white/40">bpm</span></div>
+                    <div className="font-display text-4xl text-white leading-none">{result.max - result.rep} <span className="text-sm text-white/60">bpm</span></div>
                   </div>
                 )}
               </div>
@@ -113,7 +113,7 @@ export function ZonasFcClient() {
                           </td>
                           <td className="py-3 pr-4 font-mono text-white/80">{lo}–{hi} bpm</td>
                           {result.rep && <td className="py-3 pr-4 font-mono text-brand-green">{kLo}–{kHi} bpm</td>}
-                          <td className="py-3 text-white/40 text-xs hidden sm:table-cell">{zn.desc}</td>
+                          <td className="py-3 text-white/60 text-xs hidden sm:table-cell">{zn.desc}</td>
                         </tr>
                       )
                     })}
@@ -129,10 +129,10 @@ export function ZonasFcClient() {
         </div>
 
         <div className="mt-10 flex flex-wrap gap-2">
-          <Link href="/ferramentas" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Calculadora VDOT</Link>
-          <Link href="/ferramentas/splits" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Tabela de Passagens</Link>
-          <Link href="/blog/frequencia-cardiaca-maxima-calcular" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Artigo: FC Máxima</Link>
-          <Link href="/blog/treino-base-aerobia-importancia" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/40 hover:border-brand-green/40 hover:text-brand-green transition-all">Artigo: Base Aeróbia</Link>
+          <Link href="/ferramentas" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Calculadora VDOT</Link>
+          <Link href="/ferramentas/splits" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Tabela de Passagens</Link>
+          <Link href="/blog/frequencia-cardiaca-maxima-calcular" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Artigo: FC Máxima</Link>
+          <Link href="/blog/treino-base-aerobia-importancia" className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">Artigo: Base Aeróbia</Link>
         </div>
       </div>
     </section>

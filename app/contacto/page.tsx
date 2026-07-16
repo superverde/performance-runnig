@@ -57,14 +57,14 @@ export default function ContactoPage() {
           <div className="text-center py-16 rounded-xl border border-brand-green/20 bg-brand-green/5">
             <Lightbulb size={40} className="text-brand-green mx-auto mb-4" />
             <h2 className="text-xl font-black mb-2 text-white">Sugestão Recebida!</h2>
-            <p className="text-white/40 text-sm max-w-xs mx-auto">
+            <p className="text-white/60 text-sm max-w-xs mx-auto">
               Obrigado. Vamos analisar o tema e incluí-lo na programação de artigos.
             </p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-5 max-w-lg">
             <div>
-              <label className="block text-xs font-bold text-white/40 uppercase tracking-widest mb-2">
+              <label className="block text-xs font-bold text-white/60 uppercase tracking-widest mb-2">
                 Que tema queres ver abordado? *
               </label>
               <textarea
@@ -90,7 +90,7 @@ export default function ContactoPage() {
           <p className="text-white/50 text-xs font-mono uppercase tracking-widest mb-4">Contacto</p>
           <a
             href="mailto:performance.running0224@gmail.com"
-            className="inline-flex items-center gap-3 text-white/40 hover:text-brand-green transition-colors text-sm"
+            className="inline-flex items-center gap-3 text-white/60 hover:text-brand-green transition-colors text-sm"
           >
             <Mail size={15} />
             performance.running0224@gmail.com

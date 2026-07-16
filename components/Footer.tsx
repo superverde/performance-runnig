@@ -126,7 +126,7 @@ export function Footer() {
           <p className="text-xs text-white/55">
             © {year} Performance Running. Todos os direitos reservados.
           </p>
-          <p className="text-xs text-white/45 font-mono">
+          <p className="text-xs text-white/60 font-mono">
             Next.js · Tailwind CSS · Vercel
           </p>
         </div>

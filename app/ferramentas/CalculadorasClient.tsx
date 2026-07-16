@@ -205,14 +205,14 @@ function VDOTCalc() {
                       <span className="font-mono font-bold text-white">{z.hi}</span>
                     </td>
                     <td className="px-4 py-3 text-white/55 hidden sm:table-cell">{z.desc}</td>
-                    <td className="px-4 py-3 text-white/40 text-xs hidden md:table-cell">{z.ex}</td>
+                    <td className="px-4 py-3 text-white/60 text-xs hidden md:table-cell">{z.ex}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          <p className="text-[11px] text-white/30">
+          <p className="text-xs text-white/55">
             Fórmula de Jack Daniels (Running Formula, 3ª ed.). Os ritmos são orientações — ajusta sempre ao teu estado de forma e condições do dia.
           </p>
         </div>
@@ -430,7 +430,7 @@ function PaceCalc() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-[11px] text-white/30">
+              <p className="text-xs text-white/55">
                 Baseado na fórmula de Riegel (expoente 1.06). Previsões para distâncias muito diferentes do resultado base têm menor precisão.
               </p>
             </div>
@@ -520,7 +520,7 @@ export function CalculadorasClient() {
               className={`pb-3 px-1 text-sm font-bold border-b-2 transition-all -mb-px ${
                 tool === t.key
                   ? 'border-brand-green text-white'
-                  : 'border-transparent text-white/40 hover:text-white/70'
+                  : 'border-transparent text-white/55 hover:text-white/80'
               }`}
             >
               {t.label}

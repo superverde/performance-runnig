@@ -113,7 +113,7 @@ export default function PatrociniosPage() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-white/40 text-center mt-3">
+          <p className="text-xs text-white/60 text-center mt-3">
             *Métricas atualizadas mensalmente. Relatório detalhado disponível a pedido.
           </p>
         </section>
@@ -124,11 +124,11 @@ export default function PatrociniosPage() {
             <div>
               <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-3">O Projeto</p>
               <h2 className="text-3xl font-black tracking-tight mb-4">A maior base de conhecimento científico de corrida em Portugal.</h2>
-              <p className="text-white/45 text-sm leading-relaxed mb-4">
+              <p className="text-white/65 text-sm leading-relaxed mb-4">
                 Publicamos 3 artigos científicos por dia sobre fisiologia do exercício, periodização, nutrição, biomecânica e trail running.
                 Todo o conteúdo é gratuito, sem paywall, em português europeu.
               </p>
-              <p className="text-white/45 text-sm leading-relaxed">
+              <p className="text-white/65 text-sm leading-relaxed">
                 O nosso leitor típico é um corredor entre 25-45 anos, comprometido com a melhoria da performance, com poder de compra acima da média.
                 Investe em equipamento de qualidade — o cliente certo para as marcas certas.
               </p>
@@ -162,7 +162,7 @@ export default function PatrociniosPage() {
                   <span className="text-[10px] font-mono font-bold text-brand-green/50 uppercase tracking-widest">{o.num}</span>
                 </div>
                 <h3 className="font-black text-xl tracking-tight mb-2">{o.titulo}</h3>
-                <p className="text-white/45 text-sm leading-relaxed mb-4">{o.desc}</p>
+                <p className="text-white/65 text-sm leading-relaxed mb-4">{o.desc}</p>
                 <div className="mb-4">
                   <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-2">Inclui</p>
                   <ul className="space-y-1.5">
@@ -174,8 +174,8 @@ export default function PatrociniosPage() {
                     ))}
                   </ul>
                 </div>
-                <p className="text-xs text-white/45 border-t border-white/5 pt-3 mt-3">
-                  <span className="text-white/35 font-bold">Ideal para: </span>{o.ideal}
+                <p className="text-xs text-white/65 border-t border-white/5 pt-3 mt-3">
+                  <span className="text-white/60 font-bold">Ideal para: </span>{o.ideal}
                 </p>
               </div>
             ))}
@@ -192,7 +192,7 @@ export default function PatrociniosPage() {
                 <span>{m.name}</span>
               </div>
             ))}
-            <div className="flex items-center gap-2 border border-white/8 rounded-full px-4 py-2 text-sm text-white/30 border-dashed">
+            <div className="flex items-center gap-2 border border-white/8 rounded-full px-4 py-2 text-sm text-white/55 border-dashed">
               + a tua marca
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function PatrociniosPage() {
               <h2 className="font-display text-white leading-none mb-3" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}>
                 VAMOS TRABALHAR JUNTOS?
               </h2>
-              <p className="text-white/40 max-w-md mx-auto text-sm mb-8">
+              <p className="text-white/60 max-w-md mx-auto text-sm mb-8">
                 Envia-nos um email com a tua proposta. Respondemos em 48h com disponibilidade e condições.
               </p>
               <a
@@ -225,7 +225,7 @@ export default function PatrociniosPage() {
                 performance.running0224@gmail.com
                 <ArrowUpRight size={13} />
               </a>
-              <p className="text-xs text-white/40 mt-5">
+              <p className="text-xs text-white/60 mt-5">
                 Resposta garantida em 48h · Media kit detalhado disponível a pedido
               </p>
             </div>
@@ -234,10 +234,10 @@ export default function PatrociniosPage() {
 
         {/* ── Links internos ── */}
         <div className="border-t border-white/5 pt-8 flex gap-4 flex-wrap">
-          <Link href="/blog" className="text-xs text-white/30 hover:text-brand-green transition-colors">← Arquivo de Artigos</Link>
-          <Link href="/equipamento" className="text-xs text-white/30 hover:text-brand-green transition-colors">Equipamento · Reviews</Link>
-          <Link href="/consulta" className="text-xs text-white/30 hover:text-brand-green transition-colors">Consulta Gratuita com IA</Link>
-          <Link href="/sobre" className="text-xs text-white/30 hover:text-brand-green transition-colors">Sobre o Projeto</Link>
+          <Link href="/blog" className="text-xs text-white/55 hover:text-brand-green transition-colors">← Arquivo de Artigos</Link>
+          <Link href="/equipamento" className="text-xs text-white/55 hover:text-brand-green transition-colors">Equipamento · Reviews</Link>
+          <Link href="/consulta" className="text-xs text-white/55 hover:text-brand-green transition-colors">Consulta Gratuita com IA</Link>
+          <Link href="/sobre" className="text-xs text-white/55 hover:text-brand-green transition-colors">Sobre o Projeto</Link>
         </div>
       </div>
     </div>

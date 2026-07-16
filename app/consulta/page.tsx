@@ -141,7 +141,7 @@ export default function ConsultaPage() {
           {/* Sugestões — só antes de começar */}
           {!started && messages.length === 1 && (
             <div className="mb-8">
-              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-white/30 font-mono mb-4 text-center">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-white/55 font-mono mb-4 text-center">
                 Perguntas frequentes
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -232,7 +232,7 @@ export default function ConsultaPage() {
             <ArrowUp size={16} strokeWidth={2.5} />
           </button>
         </div>
-        <p className="text-center text-white/40 text-xs mt-2">
+        <p className="text-center text-white/55 text-xs mt-2">
           IA pode cometer erros · Para questões médicas consulta um profissional de saúde
         </p>
       </div>

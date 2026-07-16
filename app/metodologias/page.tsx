@@ -316,7 +316,7 @@ export default function MethodologiesPage() {
             QUERES UM PLANO<br />
             <span className="text-brand-green">PERSONALIZADO?</span>
           </h2>
-          <p className="text-white/40 mb-10 text-sm leading-relaxed">
+          <p className="text-white/60 mb-10 text-sm leading-relaxed">
             Coaching online com base na tua fisiologia, disponibilidade e objetivos.
           </p>
           <Link

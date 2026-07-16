@@ -167,7 +167,7 @@ export default async function HomePage() {
                   </div>
                   <h3 className="text-sm font-black text-white group-hover:text-brand-green transition-colors leading-snug line-clamp-2">{article.title}</h3>
                   <p className="text-[12px] text-white/65 leading-relaxed line-clamp-2 flex-1">{article.excerpt}</p>
-                  <div className="flex items-center gap-1 text-[10px] font-bold text-white/45 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
+                  <div className="flex items-center gap-1 text-xs font-bold text-white/60 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
                     {t('hp', 'read_article')} <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>
@@ -235,7 +235,7 @@ export default async function HomePage() {
               <Link key={c.name} href={`/blog?category=${encodeURIComponent(c.name)}`} data-reveal data-delay={String(Math.min(i * 50, 400))}
                 className="group relative flex items-center justify-between p-4 rounded-xl border border-white/5 hover:border-brand-green/25 bg-white/[0.015] hover:bg-brand-green/5 transition-all">
                 <span className="text-sm font-bold text-white/65 group-hover:text-white transition-colors">{c.name}</span>
-                <span className="text-xs font-mono text-white/20 group-hover:text-brand-green transition-colors">{c.count}</span>
+                <span className="text-xs font-mono text-white/50 group-hover:text-brand-green transition-colors">{c.count}</span>
               </Link>
             ))}
           </div>
@@ -250,7 +250,7 @@ export default async function HomePage() {
               <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'methods_label')}</p>
               <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>
                 {t('hp', 'methods_section')}<br />
-                <span className="text-white/25">{t('hp', 'methods_sub')}</span>
+                <span className="text-white/55">{t('hp', 'methods_sub')}</span>
               </h2>
             </div>
             <Link href="/metodologias" className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/55 hover:text-brand-green transition-colors uppercase tracking-widest">
@@ -297,7 +297,7 @@ export default async function HomePage() {
                 {totalArticles} {t('hp', 'stat_articles').toUpperCase()}.<br />
                 <span className="text-brand-green">{t('hp', 'cta_section_free')}</span>
               </h2>
-              <p className="text-white/40 max-w-md mx-auto mb-10 text-sm leading-relaxed">{t('hp', 'cta_desc')}</p>
+              <p className="text-white/60 max-w-md mx-auto mb-10 text-sm leading-relaxed">{t('hp', 'cta_desc')}</p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link href="/blog" className="inline-flex items-center gap-2 px-9 py-4 bg-brand-green text-black text-sm font-black rounded-full hover:bg-white transition-all hover:gap-3">
                   {t('hp', 'cta_access')} <ArrowRight size={15} />

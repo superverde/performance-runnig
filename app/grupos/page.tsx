@@ -39,7 +39,7 @@ function PostCard({ post }: { post: Post }) {
   return (
     <div className={`bg-white/5 border ${cores[post.slot]} rounded-2xl p-6 space-y-4`}>
       <div className="flex items-center justify-between">
-        <span className="text-xs font-mono font-bold text-white/40 uppercase tracking-widest">
+        <span className="text-xs font-mono font-bold text-white/60 uppercase tracking-widest">
           {slots[post.slot]} · {post.hora}
         </span>
         <span className="text-xs bg-white/10 text-white/60 px-3 py-1 rounded-full">{post.categoria}</span>
@@ -65,7 +65,7 @@ function PostCard({ post }: { post: Post }) {
       </a>
 
       <div>
-        <p className="text-white/40 text-xs font-mono mb-3 uppercase tracking-widest">
+        <p className="text-white/60 text-xs font-mono mb-3 uppercase tracking-widest">
           Partilhar nos grupos · {gruposConcluidos.size}/{GRUPOS.length} feitos
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -81,7 +81,7 @@ function PostCard({ post }: { post: Post }) {
               </button>
               <a href={g.url} target="_blank" rel="noopener noreferrer"
                 className="text-xs text-white/60 hover:text-white transition-colors truncate">
-                {g.nome}{g.membros && <span className="text-white/30 ml-1">·{g.membros}</span>}
+                {g.nome}{g.membros && <span className="text-white/55 ml-1">·{g.membros}</span>}
               </a>
             </div>
           ))}
