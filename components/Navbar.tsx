@@ -79,7 +79,7 @@ export function Navbar() {
                 PR
               </span>
             </div>
-            <span className="font-display text-white tracking-tight text-[17px] leading-none" style={{ fontStyle: 'italic' }}>
+            <span className="font-display text-white tracking-tight text-[19px] leading-none" style={{ fontStyle: 'italic' }}>
               PERFORMANCE<span className="text-brand-green">RUNNING</span>
             </span>
           </Link>
@@ -88,8 +88,8 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-1">
             <Link
               href="/metodologias"
-              className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
-                pathname === '/metodologias' ? 'text-white' : 'text-white/65 hover:text-white'
+              className={`relative px-4 py-2 font-display text-[16px] tracking-[0.06em] uppercase rounded-lg transition-all ${
+                pathname === '/metodologias' ? 'text-white' : 'text-white/80 hover:text-white'
               }`}
             >
               {t('nav', 'metodologias')}
@@ -99,8 +99,8 @@ export function Navbar() {
             </Link>
             <Link
               href="/blog"
-              className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
-                pathname === '/blog' ? 'text-white' : 'text-white/65 hover:text-white'
+              className={`relative px-4 py-2 font-display text-[16px] tracking-[0.06em] uppercase rounded-lg transition-all ${
+                pathname === '/blog' ? 'text-white' : 'text-white/80 hover:text-white'
               }`}
             >
               {t('nav', 'arquivo')}
@@ -113,8 +113,8 @@ export function Navbar() {
             <div ref={toolsRef} className="relative">
               <button
                 onClick={() => setToolsOpen(!toolsOpen)}
-                className={`relative flex items-center gap-1.5 px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
-                  isToolsActive ? 'text-white' : 'text-white/65 hover:text-white'
+                className={`relative flex items-center gap-1.5 px-4 py-2 font-display text-[16px] tracking-[0.06em] uppercase rounded-lg transition-all ${
+                  isToolsActive ? 'text-white' : 'text-white/80 hover:text-white'
                 }`}
               >
                 {t('nav', 'ferramentas')}
@@ -132,8 +132,8 @@ export function Navbar() {
                       key={tool.href}
                       href={tool.href}
                       onClick={() => setToolsOpen(false)}
-                      className={`flex items-center justify-between gap-2 px-4 py-3 text-[13px] font-bold transition-colors hover:bg-white/5 ${
-                        pathname === tool.href ? 'text-brand-green' : 'text-white/70'
+                      className={`flex items-center justify-between gap-2 px-4 py-3 text-sm font-bold transition-colors hover:bg-white/5 ${
+                        pathname === tool.href ? 'text-brand-green' : 'text-white/80'
                       }`}
                     >
                       {tool.label}
@@ -152,10 +152,10 @@ export function Navbar() {
               <Link
                 key={l.href}
                 href={l.href}
-                className={`relative px-4 py-2 font-display text-[15px] tracking-[0.08em] uppercase rounded-lg transition-all ${
+                className={`relative px-4 py-2 font-display text-[16px] tracking-[0.06em] uppercase rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-white'
-                    : 'text-white/65 hover:text-white'
+                    : 'text-white/80 hover:text-white'
                 }`}
               >
                 {t('nav', l.key)}
@@ -174,7 +174,7 @@ export function Navbar() {
               <button
                 onClick={() => setLangOpen(!langOpen)}
                 disabled={isPending}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-white/10 text-white/55 hover:text-white hover:border-white/20 text-[12px] font-bold transition-all"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-white/10 text-white/70 hover:text-white hover:border-white/20 text-[13px] font-bold transition-all"
               >
                 <span>{current.flag}</span>
                 <span>{current.label}</span>
@@ -192,8 +192,8 @@ export function Navbar() {
                           changeLocale(loc as Locale)
                           setLangOpen(false)
                         }}
-                        className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-[12px] font-bold transition-colors hover:bg-white/5 ${
-                          locale === loc ? 'text-brand-green' : 'text-white/60'
+                        className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-[13px] font-bold transition-colors hover:bg-white/5 ${
+                          locale === loc ? 'text-brand-green' : 'text-white/75'
                         }`}
                       >
                         <span>{info.flag}</span>
@@ -236,7 +236,7 @@ export function Navbar() {
 
             <Link
               href="/consulta"
-              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
+              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
             >
               {t('nav', 'cta')}
             </Link>
@@ -263,10 +263,10 @@ export function Navbar() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className={`flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.08em] rounded-lg transition-all ${
+                className={`flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.06em] rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-brand-green bg-brand-green/5'
-                    : 'text-white/55 hover:text-white'
+                    : 'text-white/75 hover:text-white'
                 }`}
               >
                 {t('nav', l.key)}
@@ -276,8 +276,8 @@ export function Navbar() {
             {/* Ferramentas — grupo expansível */}
             <button
               onClick={() => setMobileToolsOpen(!mobileToolsOpen)}
-              className={`w-full flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.08em] rounded-lg transition-all ${
-                isToolsActive ? 'text-brand-green bg-brand-green/5' : 'text-white/55 hover:text-white'
+              className={`w-full flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.06em] rounded-lg transition-all ${
+                isToolsActive ? 'text-brand-green bg-brand-green/5' : 'text-white/75 hover:text-white'
               }`}
             >
               <span className="flex items-center gap-2">
@@ -293,7 +293,7 @@ export function Navbar() {
                   href={tool.href}
                   onClick={() => { setOpen(false); setMobileToolsOpen(false) }}
                   className={`flex items-center justify-between gap-2 px-6 py-2.5 text-sm font-bold rounded-lg transition-all ${
-                    pathname === tool.href ? 'text-brand-green' : 'text-white/50 hover:text-white'
+                    pathname === tool.href ? 'text-brand-green' : 'text-white/70 hover:text-white'
                   }`}
                 >
                   {tool.label}
@@ -311,10 +311,10 @@ export function Navbar() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className={`flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.08em] rounded-lg transition-all ${
+                className={`flex items-center justify-between px-3 py-3 font-display text-base uppercase tracking-[0.06em] rounded-lg transition-all ${
                   pathname === l.href
                     ? 'text-brand-green bg-brand-green/5'
-                    : 'text-white/55 hover:text-white'
+                    : 'text-white/75 hover:text-white'
                 }`}
               >
                 {t('nav', l.key)}
@@ -323,7 +323,7 @@ export function Navbar() {
 
             {/* Seletor idioma mobile */}
             <div className="px-3 pt-3 pb-2">
-              <p className="text-[9px] uppercase tracking-widest text-white/25 font-mono mb-2">Idioma</p>
+              <p className="text-xs uppercase tracking-widest text-white/50 font-mono mb-2">Idioma</p>
               <div className="flex flex-wrap gap-2">
                 {LOCALES.map((loc) => {
                   const info = LOCALE_LABELS[loc as Locale]
@@ -334,10 +334,10 @@ export function Navbar() {
                         changeLocale(loc as Locale)
                         setOpen(false)
                       }}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-bold border transition-all ${
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold border transition-all ${
                         locale === loc
                           ? 'border-brand-green/40 text-brand-green bg-brand-green/5'
-                          : 'border-white/10 text-white/45 hover:text-white'
+                          : 'border-white/10 text-white/65 hover:text-white'
                       }`}
                     >
                       {info.flag} {info.label}
@@ -353,7 +353,7 @@ export function Navbar() {
                 href="https://www.facebook.com/profile.php?id=61591235338834"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
@@ -364,7 +364,7 @@ export function Navbar() {
                 href="https://www.instagram.com/performancerunning.pt/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
