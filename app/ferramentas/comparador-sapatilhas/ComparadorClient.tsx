@@ -49,7 +49,7 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={shoe.img} alt={shoe.name} className="w-full h-full object-contain p-3" />
         <span
-          className="absolute top-2 left-2 text-[9px] font-black uppercase tracking-wide px-2 py-1 rounded-full text-black"
+          className="absolute top-2 left-2 text-xs font-black uppercase tracking-wide px-2 py-1 rounded-full text-black"
           style={{ background: shoe.badgeColor }}
         >
           {shoe.badge}
@@ -64,11 +64,11 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
 
       <div className="text-2xl font-black font-mono text-brand-green mb-3">{shoe.preco}</div>
 
-      <p className="text-white/65 text-xs leading-relaxed mb-4">{shoe.desc}</p>
+      <p className="text-white/65 text-sm leading-relaxed mb-4">{shoe.desc}</p>
 
       <div className="space-y-3 mb-4 flex-1">
         <div>
-          <p className="text-[10px] uppercase tracking-widest text-brand-green/80 font-bold mb-1.5">Prós</p>
+          <p className="text-xs uppercase tracking-widest text-brand-green/80 font-bold mb-1.5">Prós</p>
           <ul className="space-y-1">
             {shoe.pros.map(p => (
               <li key={p} className="text-white/70 text-xs flex gap-1.5">
@@ -124,7 +124,7 @@ export function ComparadorClient() {
 
         {/* Header */}
         <div className="mb-10">
-          <Link href="/ferramentas" className="text-[11px] uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
+          <Link href="/ferramentas" className="text-xs uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
             ← Ferramentas
           </Link>
           <h1 className="text-4xl sm:text-5xl font-display font-black text-white tracking-tight mb-4" style={{ fontStyle: 'italic' }}>

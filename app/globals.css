@@ -159,8 +159,9 @@ body {
 
 /* ── Prose styles for blog articles ── */
 .prose {
-  color: #c8c8c8;
+  color: #d0d0d0;
   max-width: 72ch;
+  font-size: 1.0625rem; /* 17px — leitura confortável de artigos longos */
 }
 .prose h1, .prose h2, .prose h3, .prose h4 {
   color: #ffffff;

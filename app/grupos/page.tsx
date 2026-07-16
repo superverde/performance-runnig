@@ -115,7 +115,7 @@ export default function GruposPage() {
     <div className="min-h-screen bg-[#080808] text-white pt-24 pb-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <div className="mb-10">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-3">
             Painel de grupos · {hoje}
           </p>
           <h1 className="font-display text-5xl font-black text-white mb-3">

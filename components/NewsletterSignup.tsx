@@ -147,7 +147,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
   if (variant === 'inline') {
     return (
       <div className="border border-white/8 rounded-xl p-6 sm:p-8 bg-white/2">
-        <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green mb-2">
+        <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green mb-2">
           Newsletter
         </p>
         <h3 className="text-xl font-black tracking-tight mb-1">
@@ -206,7 +206,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
   // ─── FOOTER variant (rodapé compacto) ─────────────────────────────────────
   return (
     <div>
-      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/50 mb-1">Newsletter</p>
+      <p className="text-xs font-bold uppercase tracking-[0.2em] text-white/50 mb-1">Newsletter</p>
       <p className="text-white/60 text-xs mb-3">3x/semana. Grátis. Zero spam.</p>
       {status === 'success' ? (
         <div>
@@ -226,7 +226,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="bg-brand-green text-black font-black text-[10px] tracking-wider px-3 py-2 rounded-md hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
+            className="bg-brand-green text-black font-black text-xs tracking-wider px-3 py-2 rounded-md hover:bg-white transition-colors disabled:opacity-50 whitespace-nowrap"
           >
             {status === 'loading' ? '…' : 'OK'}
           </button>

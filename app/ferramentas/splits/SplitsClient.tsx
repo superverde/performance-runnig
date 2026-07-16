@@ -62,7 +62,7 @@ export function SplitsClient() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
 
         <div className="mb-10">
-          <Link href="/ferramentas" className="text-[11px] uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
+          <Link href="/ferramentas" className="text-xs uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
             ← Ferramentas
           </Link>
           <h1 className="text-4xl sm:text-5xl font-display font-black text-white tracking-tight mb-4" style={{ fontStyle: 'italic' }}>
@@ -121,9 +121,9 @@ export function SplitsClient() {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-h-[480px] overflow-y-auto pr-1">
                 {rows.map((r) => (
                   <div key={r.km} className="p-3 rounded-xl border border-white/5 bg-white/[0.02]">
-                    <div className="text-[10px] font-mono text-brand-green/70 uppercase tracking-wider mb-1">Km {r.km}</div>
+                    <div className="text-xs font-mono text-brand-green/70 uppercase tracking-wider mb-1">Km {r.km}</div>
                     <div className="font-mono text-white text-lg leading-none">{r.acumulado}</div>
-                    <div className="text-[10px] font-mono text-white/30 mt-1">parcial {r.split}</div>
+                    <div className="text-xs font-mono text-white/30 mt-1">parcial {r.split}</div>
                   </div>
                 ))}
               </div>

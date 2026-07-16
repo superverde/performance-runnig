@@ -268,7 +268,7 @@ export default async function BlogSlugPage({ params }: Props) {
             <span className="text-white/50 truncate max-w-[200px]">{article.title}</span>
           </nav>
           <div className="mb-4">
-            <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/25 bg-brand-green/10">
+            <span className="inline-block px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-brand-green border border-brand-green/25 bg-brand-green/10">
               {article.category}
             </span>
           </div>
@@ -339,7 +339,7 @@ export default async function BlogSlugPage({ params }: Props) {
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
             <div className="flex items-center justify-between mb-8">
               <div>
-                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-1">Continua a ler</p>
+                <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-1">Continua a ler</p>
                 <h2 className="font-display text-white text-3xl leading-none">MAIS EM {article.category.toUpperCase()}</h2>
               </div>
               <Link
@@ -355,7 +355,7 @@ export default async function BlogSlugPage({ params }: Props) {
                   className="group flex items-start gap-4 p-4 rounded-xl border border-white/5 hover:border-brand-green/20 bg-white/[0.01] hover:bg-brand-green/[0.03] transition-all"
                 >
                   <div className="flex-1 min-w-0">
-                    <span className="text-[9px] font-mono font-bold text-brand-green/60 uppercase tracking-wider block mb-1">
+                    <span className="text-xs font-mono font-bold text-brand-green/60 uppercase tracking-wider block mb-1">
                       {rel.category} · {rel.readTime} min
                     </span>
                     <h3 className="text-sm font-bold text-white/75 group-hover:text-white transition-colors leading-snug line-clamp-2">{rel.title}</h3>

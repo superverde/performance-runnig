@@ -35,7 +35,7 @@ export function SocialBanner() {
             href={FB_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-white/10 text-white/60 hover:text-white hover:border-white/25 text-[11px] font-bold transition-all"
+            className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-white/10 text-white/60 hover:text-white hover:border-white/25 text-xs font-bold transition-all"
           >
             <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
@@ -48,7 +48,7 @@ export function SocialBanner() {
             href={IG_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-white/10 text-white/60 hover:text-white hover:border-white/25 text-[11px] font-bold transition-all"
+            className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-white/10 text-white/60 hover:text-white hover:border-white/25 text-xs font-bold transition-all"
           >
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />

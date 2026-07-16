@@ -98,7 +98,7 @@ function ProductImage({
     return (
       <div className="w-full h-full flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-white/[0.06] to-white/[0.01] text-white/45">
         <Icon size={30} strokeWidth={1.5} />
-        <span className="text-[9px] font-bold uppercase tracking-widest">Imagem em breve</span>
+        <span className="text-xs font-bold uppercase tracking-widest">Imagem em breve</span>
       </div>
     )
   }
@@ -133,7 +133,7 @@ function PriceTag({
     <span className={`flex flex-col items-end shrink-0 ${wrapperClassName}`}>
       <span className={className}>{preco}</span>
       {!verified && (
-        <span className="text-[10px] uppercase tracking-widest text-white/55 font-bold mt-0.5 whitespace-nowrap">
+        <span className="text-xs uppercase tracking-widest text-white/55 font-bold mt-0.5 whitespace-nowrap">
           Preço a confirmar
         </span>
       )}
@@ -226,7 +226,7 @@ export default async function EquipamentoPage() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black" />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
             Reviews Honestas
           </p>
           <h1 className="font-display text-white leading-none mb-4" style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}>
@@ -248,7 +248,7 @@ export default async function EquipamentoPage() {
             style={{ borderColor: destaque.cor + '30', background: destaque.cor + '08' }}
           >
             <div>
-              <p className="text-[10px] font-bold uppercase tracking-[0.3em] mb-1 font-mono" style={{ color: destaque.cor }}>
+              <p className="text-xs font-bold uppercase tracking-[0.3em] mb-1 font-mono" style={{ color: destaque.cor }}>
                 {destaque.subtitulo}
               </p>
               <h2 className="text-2xl sm:text-3xl font-black text-white">
@@ -263,7 +263,7 @@ export default async function EquipamentoPage() {
         {/* ── Sapatos ── */}
         <section id="sapatos">
           <div className="mb-8">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">01</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">01</p>
             <h2 className="text-3xl font-black tracking-tight">Sapatos de Corrida</h2>
             <p className="text-white/60 text-sm mt-1">Testados em estrada, pista e trilho. Avaliação independente.</p>
           </div>
@@ -278,7 +278,7 @@ export default async function EquipamentoPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3">
                     <span
-                      className="text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-full"
+                      className="text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded-full"
                       style={{ background: s.badgeColor, color: '#000' }}
                     >
                       {s.badge}
@@ -303,7 +303,7 @@ export default async function EquipamentoPage() {
                   <p className="text-white/65 text-sm leading-relaxed mb-4">{s.desc}</p>
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1.5">Pontos fortes</p>
+                      <p className="text-xs uppercase tracking-widest text-brand-green font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {s.pros.map((p) => (
                           <li key={p} className="text-xs text-white/60 flex items-start gap-1.5">
@@ -313,7 +313,7 @@ export default async function EquipamentoPage() {
                       </ul>
                     </div>
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
+                      <p className="text-xs uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {s.contras.map((c) => (
                           <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
@@ -340,7 +340,7 @@ export default async function EquipamentoPage() {
         {/* ── Relógios GPS ── */}
         <section id="relogios">
           <div className="mb-8">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">02</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">02</p>
             <h2 className="text-3xl font-black tracking-tight">Relógios GPS</h2>
             <p className="text-white/60 text-sm mt-1">A ferramenta mais importante de um corredor sério.</p>
           </div>
@@ -355,7 +355,7 @@ export default async function EquipamentoPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3">
                     <span
-                      className="text-[9px] font-black uppercase tracking-widest px-2.5 py-1 rounded-full"
+                      className="text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded-full"
                       style={{ background: r.badgeColor, color: '#000' }}
                     >
                       {r.badge}
@@ -374,7 +374,7 @@ export default async function EquipamentoPage() {
                   <p className="text-white/65 text-sm leading-relaxed mb-3">{r.desc}</p>
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1.5">Pontos fortes</p>
+                      <p className="text-xs uppercase tracking-widest text-brand-green font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {r.pros.map((p) => (
                           <li key={p} className="text-xs text-white/60 flex items-start gap-1.5">
@@ -384,7 +384,7 @@ export default async function EquipamentoPage() {
                       </ul>
                     </div>
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
+                      <p className="text-xs uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {r.contras.map((c) => (
                           <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
@@ -411,7 +411,7 @@ export default async function EquipamentoPage() {
         {/* ── Monitores FC ── */}
         <section className="border-t border-white/5 pt-16">
           <div className="mb-10">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">03</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">03</p>
             <h2 className="text-3xl font-black tracking-tight">Bracelets e Sensores de Frequência Cardíaca</h2>
             <p className="text-white/50 text-sm mt-2 max-w-2xl">
               Treinar por zonas de FC exige precisão. Os sensores de pulso dos relógios GPS têm erros de ±5-10% em intensidades elevadas — os monitores dedicados são a solução usada em laboratórios de fisiologia.
@@ -428,12 +428,12 @@ export default async function EquipamentoPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3 flex gap-2 flex-wrap">
                     <span
-                      className="text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
+                      className="text-xs font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
                       style={{ background: s.badgeColor }}
                     >
                       {s.badge}
                     </span>
-                    <span className="text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-white/10 text-white/70 border border-white/10">
+                    <span className="text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-white/10 text-white/70 border border-white/10">
                       {s.tipo}
                     </span>
                   </div>
@@ -450,13 +450,13 @@ export default async function EquipamentoPage() {
 
                   {/* Porque escolher */}
                   <div className="bg-brand-green/5 border border-brand-green/15 rounded-lg p-3 mb-4">
-                    <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1">Porque escolher</p>
+                    <p className="text-xs uppercase tracking-widest text-brand-green font-bold mb-1">Porque escolher</p>
                     <p className="text-xs text-white/75 leading-relaxed">{s.porque}</p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
+                      <p className="text-xs uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {s.pros.map((p) => (
                           <li key={p} className="text-xs text-white/65 flex items-start gap-1.5">
@@ -466,7 +466,7 @@ export default async function EquipamentoPage() {
                       </ul>
                     </div>
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
+                      <p className="text-xs uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {s.contras.map((c) => (
                           <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
@@ -494,7 +494,7 @@ export default async function EquipamentoPage() {
         {/* ── Nutrição ── */}
         <section id="nutricao" className="border-t border-white/5 pt-16">
           <div className="mb-10">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
             <h2 className="text-3xl font-black tracking-tight">Nutrição para Corredores</h2>
             <p className="text-white/50 text-sm mt-2 max-w-2xl">
               A nutrição é o fator mais negligenciado no treino de corrida. Gels, isotónicos e proteína de recuperação fazem a diferença entre bater um recorde pessoal e morrer ao km 30 de maratona.
@@ -511,12 +511,12 @@ export default async function EquipamentoPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
                   <div className="absolute top-3 left-3 flex gap-2 flex-wrap">
                     <span
-                      className="text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
+                      className="text-xs font-black px-2 py-0.5 rounded-full uppercase tracking-wider text-black"
                       style={{ background: n.badgeColor }}
                     >
                       {n.badge}
                     </span>
-                    <span className="text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-white/10 text-white/70 border border-white/10">
+                    <span className="text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wider bg-white/10 text-white/70 border border-white/10">
                       {n.tipo}
                     </span>
                   </div>
@@ -533,13 +533,13 @@ export default async function EquipamentoPage() {
 
                   {/* Porque escolher */}
                   <div className="bg-brand-green/5 border border-brand-green/15 rounded-lg p-3 mb-4">
-                    <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1">Porque usar</p>
+                    <p className="text-xs uppercase tracking-widest text-brand-green font-bold mb-1">Porque usar</p>
                     <p className="text-xs text-white/75 leading-relaxed">{n.porque}</p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
+                      <p className="text-xs uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {n.pros.map((p) => (
                           <li key={p} className="text-xs text-white/65 flex items-start gap-1.5">
@@ -549,7 +549,7 @@ export default async function EquipamentoPage() {
                       </ul>
                     </div>
                     <div>
-                      <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
+                      <p className="text-xs uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {n.contras.map((c) => (
                           <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
@@ -577,7 +577,7 @@ export default async function EquipamentoPage() {
         {/* ── Acessórios ── */}
         <section id="acessorios">
           <div className="mb-8">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">05</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">05</p>
             <h2 className="text-3xl font-black tracking-tight">Acessórios Essenciais</h2>
             <p className="text-white/60 text-sm mt-1">O equipamento complementar que faz diferença.</p>
           </div>
@@ -591,9 +591,9 @@ export default async function EquipamentoPage() {
                   <ProductImage src={a.img} alt={a.name} icon={Package} />
                 </div>
                 <div className="p-4">
-                  <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70">{a.tipo}</span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-brand-green/70">{a.tipo}</span>
                   <h3 className="font-bold text-sm mt-1 mb-1">{a.name}</h3>
-                  <p className="text-white/55 text-xs leading-relaxed mb-3">{a.desc}</p>
+                  <p className="text-white/55 text-sm leading-relaxed mb-3">{a.desc}</p>
                   <div className="flex items-center justify-between">
                     <PriceTag preco={a.preco} verified={a.precoVerificado} className="text-brand-green text-xs font-bold" />
                     <a

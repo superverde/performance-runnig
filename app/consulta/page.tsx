@@ -104,7 +104,7 @@ export default function ConsultaPage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
             Consulta Gratuita · IA Especializada
           </p>
           <h1
@@ -167,7 +167,7 @@ export default function ConsultaPage() {
               >
                 {/* Avatar */}
                 <div
-                  className={`w-8 h-8 rounded-full flex items-center justify-center text-[11px] font-black shrink-0 mt-0.5 ${
+                  className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-black shrink-0 mt-0.5 ${
                     msg.role === 'model'
                       ? 'bg-brand-green text-black'
                       : 'bg-white/10 text-white/60 border border-white/10'
@@ -192,7 +192,7 @@ export default function ConsultaPage() {
             {/* Loading */}
             {loading && (
               <div className="flex gap-3 items-start">
-                <div className="w-8 h-8 rounded-full bg-brand-green flex items-center justify-center text-[11px] font-black text-black shrink-0">
+                <div className="w-8 h-8 rounded-full bg-brand-green flex items-center justify-center text-xs font-black text-black shrink-0">
                   PR
                 </div>
                 <div className="px-4 py-3 rounded-2xl rounded-tl-sm bg-[#0a1f18] border border-brand-green/20">

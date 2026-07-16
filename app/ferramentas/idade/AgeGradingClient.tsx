@@ -146,7 +146,7 @@ export function AgeGradingClient() {
 
         {/* Header */}
         <div className="mb-10">
-          <Link href="/ferramentas" className="text-[11px] uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
+          <Link href="/ferramentas" className="text-xs uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
             ← Ferramentas
           </Link>
           <h1 className="text-4xl sm:text-5xl font-display font-black text-white tracking-tight mb-4" style={{ fontStyle: 'italic' }}>
@@ -229,7 +229,7 @@ export function AgeGradingClient() {
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 p-5 rounded-xl border" style={{ background: `${result.tier.color}14`, borderColor: `${result.tier.color}33` }}>
                 <div className="text-center sm:text-left">
                   <div className="text-5xl font-black font-mono" style={{ color: result.tier.color }}>{result.grade}%</div>
-                  <div className="text-[10px] uppercase tracking-widest font-bold mt-1" style={{ color: result.tier.color }}>Age Grade</div>
+                  <div className="text-xs uppercase tracking-widest font-bold mt-1" style={{ color: result.tier.color }}>Age Grade</div>
                 </div>
                 <div className="sm:border-l sm:border-white/10 sm:pl-4">
                   <div className="text-lg font-bold text-white">{result.tier.label}</div>

@@ -78,7 +78,7 @@ export default function PatrociniosPage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] bg-brand-green/6 rounded-full blur-[100px] pointer-events-none" />
 
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
             Media Kit · Parcerias
           </p>
           <h1 className="font-display text-white leading-none mb-5" style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}>
@@ -122,7 +122,7 @@ export default function PatrociniosPage() {
         <section className="border-t border-white/5 pt-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-3">O Projeto</p>
+              <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-3">O Projeto</p>
               <h2 className="text-3xl font-black tracking-tight mb-4">A maior base de conhecimento científico de corrida em Portugal.</h2>
               <p className="text-white/65 text-sm leading-relaxed mb-4">
                 Publicamos 3 artigos científicos por dia sobre fisiologia do exercício, periodização, nutrição, biomecânica e trail running.
@@ -152,19 +152,19 @@ export default function PatrociniosPage() {
         {/* ── Opções de Parceria ── */}
         <section className="border-t border-white/5 pt-16">
           <div className="mb-10">
-            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-2">Oportunidades</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-2">Oportunidades</p>
             <h2 className="text-3xl font-black tracking-tight">Formatos de Parceria</h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {opcoes.map((o) => (
               <div key={o.num} className="border border-white/6 rounded-2xl p-6 bg-white/[0.01] hover:border-white/12 transition-colors">
                 <div className="flex items-start justify-between mb-3">
-                  <span className="text-[10px] font-mono font-bold text-brand-green/50 uppercase tracking-widest">{o.num}</span>
+                  <span className="text-xs font-mono font-bold text-brand-green/50 uppercase tracking-widest">{o.num}</span>
                 </div>
                 <h3 className="font-black text-xl tracking-tight mb-2">{o.titulo}</h3>
                 <p className="text-white/65 text-sm leading-relaxed mb-4">{o.desc}</p>
                 <div className="mb-4">
-                  <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-2">Inclui</p>
+                  <p className="text-xs uppercase tracking-widest text-brand-green font-bold mb-2">Inclui</p>
                   <ul className="space-y-1.5">
                     {o.inclui.map((item) => (
                       <li key={item} className="flex items-start gap-2 text-xs text-white/60">
@@ -184,7 +184,7 @@ export default function PatrociniosPage() {
 
         {/* ── Marcas ideais ── */}
         <section className="border-t border-white/5 pt-16">
-          <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-6">Marcas com fit perfeito</p>
+          <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-6">Marcas com fit perfeito</p>
           <div className="flex flex-wrap gap-3">
             {marcas.map((m) => (
               <div key={m.name} className="flex items-center gap-2 border border-white/8 rounded-full px-4 py-2 text-sm text-white/50">

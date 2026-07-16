@@ -171,7 +171,7 @@ function VDOTCalc() {
           <div className="flex items-center gap-4 p-4 bg-brand-green/10 border border-brand-green/20 rounded-xl">
             <div className="text-center">
               <div className="text-4xl font-black text-brand-green font-mono">{result.vdot}</div>
-              <div className="text-[10px] uppercase tracking-widest text-brand-green/70 font-bold">VDOT</div>
+              <div className="text-xs uppercase tracking-widest text-brand-green/70 font-bold">VDOT</div>
             </div>
             <div className="text-sm text-white/60 leading-relaxed">
               O teu VDOT estima o teu VO₂máx funcional e define os ritmos de treino ideais para cada zona de esforço.
@@ -196,7 +196,7 @@ function VDOTCalc() {
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: z.color }} />
                         <span className="font-bold text-white">{z.label}</span>
-                        <span className="text-[10px] font-mono text-white/30 ml-1">{z.key}</span>
+                        <span className="text-xs font-mono text-white/30 ml-1">{z.key}</span>
                       </div>
                     </td>
                     <td className="px-4 py-3">
@@ -454,7 +454,7 @@ export function CalculadorasClient() {
 
         {/* Header */}
         <div className="mb-10">
-          <p className="text-[11px] uppercase tracking-[0.25em] text-brand-green font-bold mb-3">Ferramentas</p>
+          <p className="text-xs uppercase tracking-[0.25em] text-brand-green font-bold mb-3">Ferramentas</p>
           <h1 className="text-4xl sm:text-5xl font-display font-black text-white tracking-tight mb-4" style={{ fontStyle: 'italic' }}>
             CALCULADORAS
           </h1>
@@ -469,7 +469,7 @@ export function CalculadorasClient() {
             href="/ferramentas/idade"
             className="group relative overflow-hidden bg-gradient-to-br from-brand-green/15 via-white/[0.03] to-transparent border-2 border-brand-green/30 hover:border-brand-green rounded-2xl p-7 transition-all hover:scale-[1.02]"
           >
-            <span className="absolute top-4 right-4 px-2.5 py-1 bg-brand-green text-black text-[10px] font-black uppercase tracking-widest rounded-full">
+            <span className="absolute top-4 right-4 px-2.5 py-1 bg-brand-green text-black text-xs font-black uppercase tracking-widest rounded-full">
               Novo
             </span>
             <div className="w-14 h-14 rounded-xl bg-brand-green/15 flex items-center justify-center mb-5 group-hover:bg-brand-green/25 transition-colors">
@@ -490,7 +490,7 @@ export function CalculadorasClient() {
             href="/ferramentas/comparador-sapatilhas"
             className="group relative overflow-hidden bg-gradient-to-br from-brand-green/15 via-white/[0.03] to-transparent border-2 border-brand-green/30 hover:border-brand-green rounded-2xl p-7 transition-all hover:scale-[1.02]"
           >
-            <span className="absolute top-4 right-4 px-2.5 py-1 bg-brand-green text-black text-[10px] font-black uppercase tracking-widest rounded-full">
+            <span className="absolute top-4 right-4 px-2.5 py-1 bg-brand-green text-black text-xs font-black uppercase tracking-widest rounded-full">
               Novo
             </span>
             <div className="w-14 h-14 rounded-xl bg-brand-green/15 flex items-center justify-center mb-5 group-hover:bg-brand-green/25 transition-colors">

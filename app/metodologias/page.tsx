@@ -164,7 +164,7 @@ export default function MethodologiesPage() {
         {/* Green ambient */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[100px] bg-brand-green/10 rounded-full blur-[80px] pointer-events-none" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-5">
             METODOLOGIAS
           </p>
           <h1
@@ -213,7 +213,7 @@ export default function MethodologiesPage() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/92 to-black/88" />
               <div className="relative p-8 sm:p-10">
-                <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/30 bg-brand-green/10 mb-4">
+                <span className="inline-block px-2.5 py-1 rounded-full text-xs font-mono font-bold tracking-widest text-brand-green border border-brand-green/30 bg-brand-green/10 mb-4">
                   {m.tag}
                 </span>
                 <h2
@@ -308,7 +308,7 @@ export default function MethodologiesPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-black/88 to-black/90" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[150px] bg-brand-green/10 rounded-full blur-[80px] pointer-events-none" />
         <div className="relative mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">Coaching Online</p>
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-5">Coaching Online</p>
           <h2
             className="font-display text-white leading-none mb-6"
             style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}

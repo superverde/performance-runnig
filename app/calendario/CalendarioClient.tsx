@@ -71,7 +71,7 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
           className="shrink-0 w-16 h-16 rounded-xl flex flex-col items-center justify-center border"
           style={{ borderColor: cor + '30', background: cor + '0a' }}
         >
-          <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: cor }}>
+          <span className="text-xs font-bold uppercase tracking-widest" style={{ color: cor }}>
             {MESES_PT[d.getMonth()].slice(0, 3)}
           </span>
           <span className="text-xl font-black text-white leading-none mt-0.5">{d.getDate()}</span>
@@ -81,7 +81,7 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
           <div className="flex items-start justify-between gap-2 mb-1">
             <h3 className="font-black text-base tracking-tight leading-snug">{prova.nome}</h3>
             {prova.destaque && (
-              <span className="shrink-0 text-[8px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full bg-brand-green text-black">
+              <span className="shrink-0 text-xs font-black uppercase tracking-widest px-2 py-0.5 rounded-full bg-brand-green text-black">
                 Destaque
               </span>
             )}
@@ -96,14 +96,14 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
             </span>
           </div>
 
-          <p className="text-white/65 text-xs leading-relaxed mb-3">{prova.desc}</p>
+          <p className="text-white/65 text-sm leading-relaxed mb-3">{prova.desc}</p>
 
           <div className="flex items-center justify-between flex-wrap gap-2">
             <div className="flex gap-1.5 flex-wrap">
               {prova.distancias.map((dist) => (
                 <span
                   key={dist}
-                  className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-white/5 text-white/50 border border-white/10"
+                  className="text-xs font-bold px-2 py-0.5 rounded-full bg-white/5 text-white/50 border border-white/10"
                 >
                   {dist}
                 </span>
@@ -171,7 +171,7 @@ export function CalendarioClient() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black" />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-brand-green mb-4 font-mono">
             Calendário Nacional
           </p>
           <h1 className="font-display text-white leading-none mb-4" style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}>
@@ -194,7 +194,7 @@ export function CalendarioClient() {
               <button
                 key={d}
                 onClick={() => setDistancia(d)}
-                className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all ${
+                className={`px-3 py-1.5 rounded-full text-xs font-bold border transition-all ${
                   distancia === d
                     ? 'bg-brand-green text-black border-brand-green'
                     : 'border-white/10 text-white/50 hover:text-white'
@@ -210,7 +210,7 @@ export function CalendarioClient() {
               <button
                 key={t}
                 onClick={() => setTipo(t)}
-                className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all ${
+                className={`px-3 py-1.5 rounded-full text-xs font-bold border transition-all ${
                   tipo === t
                     ? 'bg-brand-green text-black border-brand-green'
                     : 'border-white/10 text-white/50 hover:text-white'
@@ -226,7 +226,7 @@ export function CalendarioClient() {
               <button
                 key={r}
                 onClick={() => setRegiao(r)}
-                className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all ${
+                className={`px-3 py-1.5 rounded-full text-xs font-bold border transition-all ${
                   regiao === r
                     ? 'bg-white/10 text-white border-white/25'
                     : 'border-white/10 text-white/60 hover:text-white'

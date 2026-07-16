@@ -25,7 +25,7 @@ export default function ContactoPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/88 to-black/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-5">
             Sugestões
           </p>
           <h1

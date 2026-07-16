@@ -40,7 +40,7 @@ export function ZonasFcClient() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
 
         <div className="mb-10">
-          <Link href="/ferramentas" className="text-[11px] uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
+          <Link href="/ferramentas" className="text-xs uppercase tracking-[0.25em] text-brand-green font-bold mb-3 inline-block hover:text-white transition-colors">
             ← Ferramentas
           </Link>
           <h1 className="text-4xl sm:text-5xl font-display font-black text-white tracking-tight mb-4" style={{ fontStyle: 'italic' }}>
@@ -78,12 +78,12 @@ export function ZonasFcClient() {
             <div className="space-y-5 animate-fade-in">
               <div className="flex flex-wrap gap-6 p-5 rounded-xl border border-brand-green/20 bg-brand-green/5">
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-brand-green/70 font-bold mb-1">FC Máxima {result.estimada ? '(estimada — Tanaka)' : '(medida)'}</div>
+                  <div className="text-xs uppercase tracking-widest text-brand-green/70 font-bold mb-1">FC Máxima {result.estimada ? '(estimada — Tanaka)' : '(medida)'}</div>
                   <div className="font-display text-4xl text-brand-green leading-none">{result.max} <span className="text-sm text-white/60">bpm</span></div>
                 </div>
                 {result.rep && (
                   <div>
-                    <div className="text-[10px] uppercase tracking-widest text-brand-green/70 font-bold mb-1">FC de Reserva</div>
+                    <div className="text-xs uppercase tracking-widest text-brand-green/70 font-bold mb-1">FC de Reserva</div>
                     <div className="font-display text-4xl text-white leading-none">{result.max - result.rep} <span className="text-sm text-white/60">bpm</span></div>
                   </div>
                 )}

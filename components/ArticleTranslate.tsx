@@ -97,7 +97,7 @@ export function ArticleTranslate({
       <button
         onClick={handleTranslate}
         disabled={loading}
-        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-[11px] font-bold uppercase tracking-wider border transition-all ${
+        className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider border transition-all ${
           isTranslated
             ? 'border-brand-green/40 text-brand-green bg-brand-green/5 hover:bg-brand-green/10'
             : 'border-white/15 text-white/50 hover:border-brand-green/40 hover:text-brand-green hover:bg-brand-green/5'
@@ -122,7 +122,7 @@ export function ArticleTranslate({
       </button>
 
       {error && (
-        <p className="text-red-400/70 text-[11px]">{error}</p>
+        <p className="text-red-400/70 text-xs">{error}</p>
       )}
 
       {isTranslated && (

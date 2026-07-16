@@ -373,7 +373,7 @@ export default function ModalidadePage({ params }: Props) {
           <Link href="/modalidades" className="inline-flex items-center gap-1.5 text-xs text-white/55 hover:text-brand-green transition-colors mb-8 font-mono uppercase tracking-widest">
             <ArrowLeft size={11} /> Todas as Modalidades
           </Link>
-          <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/25 bg-brand-green/10 mb-5">
+          <span className="inline-block px-2.5 py-1 rounded-full text-xs font-mono font-bold tracking-widest text-brand-green border border-brand-green/25 bg-brand-green/10 mb-5">
             {m.tag}
           </span>
           <h1 className="font-display text-white leading-none mb-4" style={{ fontSize: 'clamp(3.5rem, 10vw, 7rem)' }}>
@@ -389,7 +389,7 @@ export default function ModalidadePage({ params }: Props) {
 
         {/* Introdução */}
         <section>
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">Visão Geral</p>
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">Visão Geral</p>
           <p className="text-white/75 leading-relaxed text-lg">{m.intro}</p>
         </section>
 
@@ -398,7 +398,7 @@ export default function ModalidadePage({ params }: Props) {
           style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="absolute inset-0 bg-black/88" />
           <div className="relative p-8">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">Fisiologia</p>
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-3">Fisiologia</p>
             <h2 className="font-display text-white text-3xl leading-none mb-4">BASE CIENTÍFICA</h2>
             <p className="text-white/60 leading-relaxed">{m.physiology}</p>
           </div>
@@ -407,7 +407,7 @@ export default function ModalidadePage({ params }: Props) {
         {/* Grid: zonas + treinos */}
         <div className="grid sm:grid-cols-2 gap-5">
           <section className="p-6 rounded-xl border border-white/8 bg-white/[0.02]">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">Zonas de Intensidade</p>
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">Zonas de Intensidade</p>
             <ul className="space-y-3">
               {m.zones.map((z) => (
                 <li key={z} className="flex items-start gap-2.5 text-sm text-white/60">
@@ -419,7 +419,7 @@ export default function ModalidadePage({ params }: Props) {
           </section>
 
           <section className="p-6 rounded-xl border border-white/8 bg-white/[0.02]">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">Tipos de Treino</p>
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">Tipos de Treino</p>
             <ul className="space-y-3">
               {m.trainings.map((t) => (
                 <li key={t} className="flex items-start gap-2.5 text-sm text-white/60">
@@ -435,7 +435,7 @@ export default function ModalidadePage({ params }: Props) {
 
           {/* Erros comuns */}
           <section className="p-6 rounded-xl border border-red-500/10 bg-red-500/[0.02] sm:col-span-2">
-            <p className="text-red-400 text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">Erros Comuns</p>
+            <p className="text-red-400 text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">Erros Comuns</p>
             <div className="grid sm:grid-cols-2 gap-3">
               {m.errors.map((e) => (
                 <div key={e} className="flex items-start gap-2.5 text-sm text-white/55">
@@ -450,7 +450,7 @@ export default function ModalidadePage({ params }: Props) {
         {/* FAQ */}
         {m.faq.length > 0 && (
           <section>
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-6">Perguntas Frequentes</p>
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-6">Perguntas Frequentes</p>
             <div className="space-y-4">
               {m.faq.map((f) => (
                 <div key={f.q} className="p-6 rounded-xl border border-white/8 bg-white/[0.015]">
@@ -467,7 +467,7 @@ export default function ModalidadePage({ params }: Props) {
           <section>
             <div className="flex items-center justify-between mb-6">
               <div>
-                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-1">Aprofunda o Conhecimento</p>
+                <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-1">Aprofunda o Conhecimento</p>
                 <h2 className="font-display text-white text-3xl leading-none">ARTIGOS RELACIONADOS</h2>
               </div>
               <Link href="/blog" className="hidden sm:inline-flex items-center gap-1 text-xs font-bold text-white/50 hover:text-brand-green transition-colors uppercase tracking-widest">
@@ -480,7 +480,7 @@ export default function ModalidadePage({ params }: Props) {
                   className="group flex items-start gap-4 p-4 rounded-xl border border-white/5 hover:border-brand-green/20 bg-white/[0.01] hover:bg-brand-green/[0.03] transition-all"
                 >
                   <div className="flex-1 min-w-0">
-                    <span className="text-[9px] font-mono text-brand-green/60 uppercase tracking-wider block mb-1">
+                    <span className="text-xs font-mono text-brand-green/60 uppercase tracking-wider block mb-1">
                       {a.category} · {a.readTime} min
                     </span>
                     <h3 className="text-sm font-bold text-white/70 group-hover:text-white transition-colors leading-snug line-clamp-2">{a.title}</h3>

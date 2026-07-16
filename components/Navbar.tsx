@@ -138,7 +138,7 @@ export function Navbar() {
                     >
                       {tool.label}
                       {tool.isNew && (
-                        <span className="px-1.5 py-0.5 bg-brand-green text-black text-[9px] font-black uppercase tracking-wide rounded-full">
+                        <span className="px-1.5 py-0.5 bg-brand-green text-black text-xs font-black uppercase tracking-wide rounded-full">
                           Novo
                         </span>
                       )}
@@ -174,7 +174,7 @@ export function Navbar() {
               <button
                 onClick={() => setLangOpen(!langOpen)}
                 disabled={isPending}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-white/10 text-white/70 hover:text-white hover:border-white/20 text-[13px] font-bold transition-all"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-white/10 text-white/70 hover:text-white hover:border-white/20 text-sm font-bold transition-all"
               >
                 <span>{current.flag}</span>
                 <span>{current.label}</span>
@@ -192,7 +192,7 @@ export function Navbar() {
                           changeLocale(loc as Locale)
                           setLangOpen(false)
                         }}
-                        className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-[13px] font-bold transition-colors hover:bg-white/5 ${
+                        className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-sm font-bold transition-colors hover:bg-white/5 ${
                           locale === loc ? 'text-brand-green' : 'text-white/75'
                         }`}
                       >
@@ -236,7 +236,7 @@ export function Navbar() {
 
             <Link
               href="/consulta"
-              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
+              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 text-sm font-black rounded-full bg-brand-green text-black hover:bg-white transition-all"
             >
               {t('nav', 'cta')}
             </Link>
@@ -298,7 +298,7 @@ export function Navbar() {
                 >
                   {tool.label}
                   {tool.isNew && (
-                    <span className="px-1.5 py-0.5 bg-brand-green text-black text-[9px] font-black uppercase tracking-wide rounded-full">
+                    <span className="px-1.5 py-0.5 bg-brand-green text-black text-xs font-black uppercase tracking-wide rounded-full">
                       Novo
                     </span>
                   )}

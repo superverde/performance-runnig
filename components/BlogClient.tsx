@@ -84,7 +84,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
               <>
                 <div className="flex items-center gap-2 mb-4">
                   <span className="w-2 h-2 rounded-full bg-brand-green animate-pulse" />
-                  <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase">
+                  <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase">
                     Publicados hoje · {formatDatePT(todayISO())}
                   </p>
                 </div>
@@ -102,7 +102,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
               </>
             ) : (
               <>
-                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">
+                <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">
                   {heroTitle ? `Categoria · ${heroTitle}` : `Arquivo · ${articles.length} artigos científicos`}
                 </p>
                 <h1
@@ -222,7 +222,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
               <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/5">
                 <div className="w-1 h-10 bg-brand-green rounded-full" />
                 <div>
-                  <p className="text-brand-green text-[10px] font-mono font-bold tracking-widest uppercase">
+                  <p className="text-brand-green text-xs font-mono font-bold tracking-widest uppercase">
                     Publicados hoje
                   </p>
                   <p className="text-white/60 text-sm font-medium">{formatDatePT(todayISO())}</p>

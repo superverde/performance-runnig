@@ -65,7 +65,7 @@ export function ArticleCard({ article, featured = false }: Props) {
 
         {/* Category */}
         <span
-          className="absolute top-5 left-5 text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full backdrop-blur-sm border border-white/20 text-white"
+          className="absolute top-5 left-5 text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full backdrop-blur-sm border border-white/20 text-white"
           style={{ background: `${accent}22` }}
         >
           {article.category}
@@ -120,7 +120,7 @@ export function ArticleCard({ article, featured = false }: Props) {
 
       {/* Category */}
       <span
-        className="absolute top-4 left-4 text-[9px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/15 text-white/90"
+        className="absolute top-4 left-4 text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/15 text-white/90"
         style={{ background: `${accent}20` }}
       >
         {article.category}

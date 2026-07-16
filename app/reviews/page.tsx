@@ -118,7 +118,7 @@ export default function ReviewsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-5">
               Testemunhos · Resultados reais
             </p>
             <h1
@@ -182,7 +182,7 @@ export default function ReviewsPage() {
                 </div>
 
                 {/* Tag */}
-                <span className="inline-block self-start px-2.5 py-1 rounded-full text-[9px] font-bold font-mono uppercase tracking-widest text-brand-green border border-brand-green/25 bg-brand-green/5 mb-4">
+                <span className="inline-block self-start px-2.5 py-1 rounded-full text-xs font-bold font-mono uppercase tracking-widest text-brand-green border border-brand-green/25 bg-brand-green/5 mb-4">
                   {r.tag}
                 </span>
 
@@ -204,7 +204,7 @@ export default function ReviewsPage() {
       {/* ── CTA ── */}
       <section className="py-20 border-t border-white/5" style={{ background: '#080808' }}>
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-5">
             A tua vez
           </p>
           <h2

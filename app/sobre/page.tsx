@@ -56,7 +56,7 @@ export default function SobrePage() {
         <div className="absolute top-1/2 right-1/4 w-[400px] h-[400px] bg-brand-green/5 rounded-full blur-[100px] pointer-events-none" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-5">
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-5">
               Sobre o Projeto
             </p>
             <h1
@@ -94,7 +94,7 @@ export default function SobrePage() {
         <div className="absolute inset-0 bg-black/94" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-14">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-3">
               Os Nossos Princípios
             </p>
             <h2
@@ -111,7 +111,7 @@ export default function SobrePage() {
                   {p.icon}
                 </div>
                 <h3 className="font-black text-white mb-3 text-sm">{p.title}</h3>
-                <p className="text-white/60 text-xs leading-relaxed group-hover:text-white/75 transition-colors">{p.desc}</p>
+                <p className="text-white/60 text-sm leading-relaxed group-hover:text-white/75 transition-colors">{p.desc}</p>
               </div>
             ))}
           </div>
@@ -130,7 +130,7 @@ export default function SobrePage() {
         <div className="absolute inset-0 bg-black/93" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-14">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-3">
               Temas Abordados
             </p>
             <h2
@@ -166,7 +166,7 @@ export default function SobrePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/85" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-3">
               Transparência
             </p>
             <h2

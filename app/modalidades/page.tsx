@@ -98,7 +98,7 @@ export default function ModalidadesPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/90 to-black/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">
             Ciência da Performance
           </p>
           <h1
@@ -144,7 +144,7 @@ export default function ModalidadesPage() {
               {/* Content */}
               <div className="relative h-full flex flex-col justify-between p-5">
                 <div className="flex items-start justify-between">
-                  <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/20 bg-brand-green/10">
+                  <span className="inline-block px-2 py-0.5 rounded-full text-xs font-mono font-bold tracking-widest text-brand-green border border-brand-green/20 bg-brand-green/10">
                     {m.tag}
                   </span>
                   <span className="text-xs font-mono text-white/50">{m.dist}</span>
@@ -154,7 +154,7 @@ export default function ModalidadesPage() {
                   <h2 className="font-display text-white text-3xl leading-none mb-2 group-hover:text-brand-green transition-colors">
                     {m.name.toUpperCase()}
                   </h2>
-                  <p className="text-white/60 text-xs leading-relaxed mb-4 line-clamp-2">{m.desc}</p>
+                  <p className="text-white/60 text-sm leading-relaxed mb-4 line-clamp-2">{m.desc}</p>
                   <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-white/50 group-hover:text-brand-green transition-colors uppercase tracking-widest">
                     Ver guia <ArrowRight size={10} />
                   </div>
@@ -176,7 +176,7 @@ export default function ModalidadesPage() {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/92 to-black/70" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">
+          <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-4">
             Base de Conhecimento
           </p>
           <h2

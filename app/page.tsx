@@ -153,7 +153,7 @@ export default async function HomePage() {
                 </div>
                 <div>
                   <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>{t('hp', 'today_section')}</h2>
-                  <p className="text-white/55 text-[11px] font-mono mt-0.5 capitalize">{todayLabel}</p>
+                  <p className="text-white/55 text-xs font-mono mt-0.5 capitalize">{todayLabel}</p>
                 </div>
               </div>
             </div>
@@ -162,11 +162,11 @@ export default async function HomePage() {
                 <Link key={article.slug} href={`/blog/${article.slug}`} data-reveal data-delay={String(i * 80)}
                   className="group relative flex flex-col gap-3 p-5 rounded-2xl border border-white/10 bg-white/[0.06] hover:border-brand-green/40 hover:bg-white/[0.09] transition-all">
                   <div className="flex items-center justify-between">
-                    <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider text-brand-green border border-brand-green/30 bg-brand-green/10">{article.category}</span>
-                    <span className="text-[10px] font-mono text-white/50">{article.readTime} min</span>
+                    <span className="inline-block px-2 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider text-brand-green border border-brand-green/30 bg-brand-green/10">{article.category}</span>
+                    <span className="text-xs font-mono text-white/50">{article.readTime} min</span>
                   </div>
                   <h3 className="text-sm font-black text-white group-hover:text-brand-green transition-colors leading-snug line-clamp-2">{article.title}</h3>
-                  <p className="text-[12px] text-white/65 leading-relaxed line-clamp-2 flex-1">{article.excerpt}</p>
+                  <p className="text-xs text-white/65 leading-relaxed line-clamp-2 flex-1">{article.excerpt}</p>
                   <div className="flex items-center gap-1 text-xs font-bold text-white/60 group-hover:text-brand-green transition-colors uppercase tracking-widest mt-1">
                     {t('hp', 'read_article')} <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
                   </div>
@@ -185,7 +185,7 @@ export default async function HomePage() {
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-end justify-between mb-12" data-reveal>
               <div>
-                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'recent_label')}</p>
+                <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'recent_label')}</p>
                 <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>{t('hp', 'recent_section')}</h2>
               </div>
               <Link href="/blog" className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/55 hover:text-brand-green transition-colors uppercase tracking-widest">
@@ -227,7 +227,7 @@ export default async function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-black/96 via-black/90 to-black/95" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-10" data-reveal>
-            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'categories_label')}</p>
+            <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'categories_label')}</p>
             <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2rem, 5vw, 4rem)' }}>{t('hp', 'categories_section')}</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
@@ -247,7 +247,7 @@ export default async function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-end justify-between mb-12" data-reveal>
             <div>
-              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'methods_label')}</p>
+              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'methods_label')}</p>
               <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>
                 {t('hp', 'methods_section')}<br />
                 <span className="text-white/55">{t('hp', 'methods_sub')}</span>
@@ -270,7 +270,7 @@ export default async function HomePage() {
                     <ArrowUpRight size={14} className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </div>
                   <div>
-                    <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">{m.tag}</span>
+                    <span className="text-xs font-bold uppercase tracking-widest text-brand-green/70 group-hover:text-brand-green transition-colors">{m.tag}</span>
                     <h3 className="text-sm font-black text-white leading-tight mt-1">{m.name}</h3>
                   </div>
                 </div>
@@ -292,7 +292,7 @@ export default async function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-black/88 to-black/85" />
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[80px] pointer-events-none" />
             <div className="relative text-center">
-              <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-6">{t('hp', 'cta_label')}</p>
+              <p className="text-brand-green text-xs font-mono font-bold tracking-[0.3em] uppercase mb-6">{t('hp', 'cta_label')}</p>
               <h2 className="font-display text-white leading-none mb-6" style={{ fontSize: 'clamp(3rem, 8vw, 7rem)' }}>
                 {totalArticles} {t('hp', 'stat_articles').toUpperCase()}.<br />
                 <span className="text-brand-green">{t('hp', 'cta_section_free')}</span>
