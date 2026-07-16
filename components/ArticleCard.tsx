@@ -50,7 +50,7 @@ export function ArticleCard({ article, featured = false }: Props) {
           }}
         />
         {/* Deep gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/85 to-black/30" />
         {/* Subtle tint from accent */}
         <div
           className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500"
@@ -76,10 +76,10 @@ export function ArticleCard({ article, featured = false }: Props) {
           <h3 className="font-black text-white text-xl sm:text-2xl leading-snug mb-3 group-hover:text-brand-green transition-colors">
             {article.title}
           </h3>
-          <p className="text-white/55 text-sm leading-relaxed line-clamp-2 mb-4">
+          <p className="text-white/80 text-sm sm:text-base leading-relaxed line-clamp-2 mb-4">
             {article.excerpt}
           </p>
-          <div className="flex items-center gap-3 text-white/35 text-[11px] font-mono">
+          <div className="flex items-center gap-3 text-white/60 text-xs font-mono">
             <Clock size={11} />
             <span>{article.readTime} min leitura</span>
             <span className="text-white/15">·</span>
@@ -105,7 +105,7 @@ export function ArticleCard({ article, featured = false }: Props) {
         }}
       />
       {/* Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/10" />
       {/* Hover tint */}
       <div
         className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500"
@@ -131,7 +131,7 @@ export function ArticleCard({ article, featured = false }: Props) {
         <h3 className="font-black text-white text-sm leading-snug mb-2 group-hover:text-brand-green transition-colors line-clamp-2">
           {article.title}
         </h3>
-        <div className="flex items-center gap-2 text-white/35 text-[10px] font-mono">
+        <div className="flex items-center gap-2 text-white/60 text-xs font-mono">
           <Clock size={10} />
           <span>{article.readTime} min</span>
           <span className="text-white/15">·</span>

@@ -9,7 +9,7 @@ export default function NotFound() {
           404
         </p>
         <h1 className="text-5xl font-black mb-4">Página não encontrada</h1>
-        <p className="text-brand-text mb-8 max-w-sm mx-auto">
+        <p className="text-white/70 mb-8 max-w-sm mx-auto">
           A página que procuras não existe ou foi movida.
         </p>
         <Link

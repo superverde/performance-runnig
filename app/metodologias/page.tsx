@@ -189,7 +189,7 @@ export default function MethodologiesPage() {
               <a
                 key={m.id}
                 href={`#${m.id}`}
-                className="whitespace-nowrap px-3 py-1.5 text-xs text-brand-text hover:text-brand-green hover:bg-brand-muted rounded-md transition-colors font-medium"
+                className="whitespace-nowrap px-3 py-1.5 text-sm text-white/65 hover:text-brand-green hover:bg-brand-muted rounded-md transition-colors font-semibold"
               >
                 {m.name}
               </a>
@@ -227,7 +227,7 @@ export default function MethodologiesPage() {
             </div>
 
             {/* Description */}
-            <p className="text-brand-text leading-relaxed mb-8 text-base">{m.description}</p>
+            <p className="text-white/75 leading-relaxed mb-8 text-base">{m.description}</p>
 
             {/* Grid: fisiologia + zonas + treinos + erros */}
             <div className="grid sm:grid-cols-2 gap-5">
@@ -236,7 +236,7 @@ export default function MethodologiesPage() {
                 <h3 className="text-xs font-mono font-bold tracking-widest text-brand-green uppercase mb-3">
                   FISIOLOGIA
                 </h3>
-                <p className="text-sm text-brand-text leading-relaxed">{m.physiology}</p>
+                <p className="text-sm text-white/75 leading-relaxed">{m.physiology}</p>
               </div>
 
               {/* Zonas */}
@@ -246,7 +246,7 @@ export default function MethodologiesPage() {
                 </h3>
                 <ul className="space-y-2">
                   {m.zones.map((z) => (
-                    <li key={z} className="text-sm text-brand-text flex items-start gap-2">
+                    <li key={z} className="text-sm text-white/75 flex items-start gap-2">
                       <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-green shrink-0" />
                       {z}
                     </li>
@@ -261,13 +261,13 @@ export default function MethodologiesPage() {
                 </h3>
                 <ul className="space-y-2">
                   {m.trainings.map((t) => (
-                    <li key={t} className="text-sm text-brand-text flex items-start gap-2">
+                    <li key={t} className="text-sm text-white/75 flex items-start gap-2">
                       <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brand-green shrink-0" />
                       {t}
                     </li>
                   ))}
                 </ul>
-                <div className="mt-4 pt-4 border-t border-brand-border text-xs text-brand-text">
+                <div className="mt-4 pt-4 border-t border-brand-border text-sm text-white/65">
                   <span className="text-white font-semibold">Volume: </span>
                   {m.volume}
                 </div>
@@ -280,7 +280,7 @@ export default function MethodologiesPage() {
                 </h3>
                 <ul className="space-y-2">
                   {m.errors.map((e) => (
-                    <li key={e} className="text-sm text-brand-text flex items-start gap-2">
+                    <li key={e} className="text-sm text-white/75 flex items-start gap-2">
                       <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-400 shrink-0" />
                       {e}
                     </li>
