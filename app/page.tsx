@@ -122,7 +122,7 @@ export default async function HomePage() {
             ].map((s) => (
               <div key={s.label}>
                 <div className="font-display text-brand-green leading-none mb-1" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}>{s.value}</div>
-                <div className="text-[10px] text-white/35 uppercase tracking-[0.15em] font-mono">{s.label}</div>
+                <div className="text-xs text-white/55 uppercase tracking-[0.15em] font-mono">{s.label}</div>
               </div>
             ))}
           </div>
@@ -188,7 +188,7 @@ export default async function HomePage() {
                 <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'recent_label')}</p>
                 <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>{t('hp', 'recent_section')}</h2>
               </div>
-              <Link href="/blog" className="hidden sm:inline-flex items-center gap-1.5 text-[10px] font-bold text-white/35 hover:text-brand-green transition-colors uppercase tracking-widest">
+              <Link href="/blog" className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/55 hover:text-brand-green transition-colors uppercase tracking-widest">
                 {t('hp', 'see_archive')} <ArrowUpRight size={12} />
               </Link>
             </div>
@@ -253,7 +253,7 @@ export default async function HomePage() {
                 <span className="text-white/25">{t('hp', 'methods_sub')}</span>
               </h2>
             </div>
-            <Link href="/metodologias" className="hidden sm:inline-flex items-center gap-1.5 text-[10px] font-bold text-white/35 hover:text-brand-green transition-colors uppercase tracking-widest">
+            <Link href="/metodologias" className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-white/55 hover:text-brand-green transition-colors uppercase tracking-widest">
               {t('hp', 'see_all_methods')} <ArrowUpRight size={12} />
             </Link>
           </div>
@@ -266,7 +266,7 @@ export default async function HomePage() {
                 <div className="absolute inset-0 bg-brand-green/0 group-hover:bg-brand-green/8 transition-colors duration-500" />
                 <div className="absolute inset-0 p-4 flex flex-col justify-between">
                   <div className="flex items-start justify-between">
-                    <span className="text-[9px] font-mono text-white/30">{m.num}</span>
+                    <span className="text-xs font-mono text-white/50">{m.num}</span>
                     <ArrowUpRight size={14} className="text-white/0 group-hover:text-brand-green transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </div>
                   <div>

@@ -127,9 +127,9 @@ export default function GruposPage() {
         </div>
 
         {loading ? (
-          <div className="text-center py-20 text-white/30 text-sm font-mono">A carregar posts...</div>
+          <div className="text-center py-20 text-white/55 text-sm font-mono">A carregar posts...</div>
         ) : posts.length === 0 ? (
-          <div className="text-center py-20 text-white/30 text-sm font-mono">Sem posts disponíveis</div>
+          <div className="text-center py-20 text-white/55 text-sm font-mono">Sem posts disponíveis</div>
         ) : (
           <div className="space-y-6">
             {posts.map((post, i) => <PostCard key={i} post={post} />)}

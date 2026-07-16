@@ -88,7 +88,7 @@ export function Footer() {
 
           {/* Nav */}
           <div className="md:col-span-2">
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/40 mb-4">Navegação</p>
+            <p className="text-xs font-bold uppercase tracking-[0.15em] text-white/55 mb-4">Navegação</p>
             <ul className="space-y-2.5">
               {nav.map((l) => (
                 <li key={l.href}>
@@ -105,7 +105,7 @@ export function Footer() {
 
           {/* Modalities */}
           <div className="md:col-span-2">
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/40 mb-4">Modalidades</p>
+            <p className="text-xs font-bold uppercase tracking-[0.15em] text-white/55 mb-4">Modalidades</p>
             <ul className="grid grid-cols-2 gap-2">
               {modalities.map((m) => (
                 <li key={m.slug}>
@@ -123,10 +123,10 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[11px] text-white/40">
+          <p className="text-xs text-white/55">
             © {year} Performance Running. Todos os direitos reservados.
           </p>
-          <p className="text-[11px] text-white/30 font-mono">
+          <p className="text-xs text-white/45 font-mono">
             Next.js · Tailwind CSS · Vercel
           </p>
         </div>

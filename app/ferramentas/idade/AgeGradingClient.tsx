@@ -161,7 +161,7 @@ export function AgeGradingClient() {
         <div className="bg-white/[0.02] border border-white/10 rounded-2xl p-6 sm:p-8 space-y-6">
           <div className="flex flex-wrap gap-4 items-end">
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Distância</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Distância</label>
               <select
                 value={dist}
                 onChange={e => setDist(e.target.value as DistKey)}
@@ -174,7 +174,7 @@ export function AgeGradingClient() {
             </div>
 
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Sexo</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Sexo</label>
               <div className="flex gap-2">
                 {(['M', 'F'] as Gender[]).map(g => (
                   <button
@@ -191,7 +191,7 @@ export function AgeGradingClient() {
             </div>
 
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Idade</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Idade</label>
               <input
                 type="number"
                 min={5}
@@ -203,7 +203,7 @@ export function AgeGradingClient() {
             </div>
 
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Tempo (h : mm : ss)</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Tempo (h : mm : ss)</label>
               <div className="flex items-center gap-2">
                 <NumInput value={h} onChange={setH} max={9} placeholder="h" />
                 <span className="text-white/30 font-bold">:</span>
@@ -242,9 +242,9 @@ export function AgeGradingClient() {
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b border-white/10 bg-white/[0.02]">
-                      <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Classe</th>
-                      <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Age Grade</th>
-                      <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Tempo necessário (à tua idade)</th>
+                      <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Classe</th>
+                      <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Age Grade</th>
+                      <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Tempo necessário (à tua idade)</th>
                     </tr>
                   </thead>
                   <tbody>

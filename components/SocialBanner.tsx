@@ -25,7 +25,7 @@ export function SocialBanner() {
     <div className="relative z-[60] w-full bg-[#0a0a0a] border-b border-white/[0.06]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-9 flex items-center justify-center gap-3">
 
-        <span className="text-[11px] text-white/50 font-medium tracking-wide hidden sm:inline">
+        <span className="text-xs text-white/65 font-medium tracking-wide hidden sm:inline">
           Segue-nos nas redes sociais
         </span>
 

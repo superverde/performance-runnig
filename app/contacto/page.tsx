@@ -87,7 +87,7 @@ export default function ContactoPage() {
         )}
 
         <div className="mt-14 pt-8 border-t border-white/5">
-          <p className="text-white/25 text-xs font-mono uppercase tracking-widest mb-4">Contacto</p>
+          <p className="text-white/50 text-xs font-mono uppercase tracking-widest mb-4">Contacto</p>
           <a
             href="mailto:performance.running0224@gmail.com"
             className="inline-flex items-center gap-3 text-white/40 hover:text-brand-green transition-colors text-sm"

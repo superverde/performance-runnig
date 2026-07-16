@@ -87,7 +87,7 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
             )}
           </div>
 
-          <div className="flex items-center gap-3 text-[11px] text-white/40 mb-2 flex-wrap">
+          <div className="flex items-center gap-3 text-xs text-white/60 mb-2 flex-wrap">
             <span className="flex items-center gap-1">
               <MapPin size={11} /> {prova.local}
             </span>
@@ -114,7 +114,7 @@ function ProvaCard({ prova, passada }: { prova: Prova; passada: boolean }) {
                 href={prova.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[11px] font-bold text-white/40 hover:text-brand-green transition-colors"
+                className="inline-flex items-center gap-1 text-xs font-bold text-white/55 hover:text-brand-green transition-colors"
               >
                 Site oficial <ArrowUpRight size={11} />
               </a>
@@ -189,7 +189,7 @@ export function CalendarioClient() {
         {/* ── Filtros ── */}
         <div className="flex flex-col gap-4 mb-10 sticky top-[60px] z-10 bg-black/90 backdrop-blur-xl py-4 -mx-4 px-4 sm:-mx-6 sm:px-6 border-b border-white/5">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] uppercase tracking-widest text-white/30 font-mono mr-1">Distância</span>
+            <span className="text-xs uppercase tracking-widest text-white/55 font-mono mr-1">Distância</span>
             {DISTANCIA_FILTROS.map((d) => (
               <button
                 key={d}
@@ -205,7 +205,7 @@ export function CalendarioClient() {
             ))}
           </div>
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] uppercase tracking-widest text-white/30 font-mono mr-1">Tipo</span>
+            <span className="text-xs uppercase tracking-widest text-white/55 font-mono mr-1">Tipo</span>
             {TIPOS_PROVA.map((t) => (
               <button
                 key={t}
@@ -221,7 +221,7 @@ export function CalendarioClient() {
             ))}
           </div>
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] uppercase tracking-widest text-white/30 font-mono mr-1">Região</span>
+            <span className="text-xs uppercase tracking-widest text-white/55 font-mono mr-1">Região</span>
             {REGIOES.map((r) => (
               <button
                 key={r}
@@ -238,7 +238,7 @@ export function CalendarioClient() {
           </div>
           <button
             onClick={() => setMostrarTodas(!mostrarTodas)}
-            className="self-start text-[11px] font-bold text-white/40 hover:text-brand-green transition-colors flex items-center gap-1.5"
+            className="self-start text-xs font-bold text-white/55 hover:text-brand-green transition-colors flex items-center gap-1.5"
           >
             <Calendar size={12} />
             {mostrarTodas ? 'Mostrar só próximas provas' : 'Mostrar também provas já realizadas este ano'}
@@ -269,7 +269,7 @@ export function CalendarioClient() {
 
         {/* ── Nota + navegação ── */}
         <div className="border-t border-white/5 pt-8 mt-16">
-          <p className="text-[11px] text-white/20 leading-relaxed max-w-2xl">
+          <p className="text-xs text-white/40 leading-relaxed max-w-2xl">
             <strong className="text-white/30">Nota:</strong> as datas são recolhidas junto das organizações
             e podem sofrer pequenos ajustes. Confirma sempre a data e inscrições no site oficial da prova
             antes de planeares a tua época.

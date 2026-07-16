@@ -258,7 +258,7 @@ export default async function BlogSlugPage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/80 to-black" />
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* Breadcrumbs */}
-          <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-[11px] text-white/30 font-mono uppercase tracking-widest mb-8 flex-wrap">
+          <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-xs text-white/50 font-mono uppercase tracking-widest mb-8 flex-wrap">
             <Link href="/" className="hover:text-brand-green transition-colors">Início</Link>
             <span>/</span>
             <Link href="/blog" className="hover:text-brand-green transition-colors">Arquivo</Link>
@@ -276,7 +276,7 @@ export default async function BlogSlugPage({ params }: Props) {
             {article.title}
           </h1>
           <p className="text-white/70 text-lg leading-relaxed mb-7 max-w-2xl">{article.excerpt}</p>
-          <div className="flex flex-wrap items-center gap-4 text-[11px] text-white/35 font-mono">
+          <div className="flex flex-wrap items-center gap-4 text-xs text-white/55 font-mono">
             <span className="flex items-center gap-1.5"><Calendar size={11} />{article.date}</span>
             <span className="flex items-center gap-1.5"><Clock size={11} />{article.readTime} min de leitura</span>
             <span className="flex items-center gap-1.5"><Tag size={11} />{article.category}</span>
@@ -344,7 +344,7 @@ export default async function BlogSlugPage({ params }: Props) {
               </div>
               <Link
                 href={`/blog/${article.category.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, '-')}`}
-                className="hidden sm:inline-flex items-center gap-1 text-[10px] font-bold text-white/30 hover:text-brand-green transition-colors uppercase tracking-widest"
+                className="hidden sm:inline-flex items-center gap-1 text-xs font-bold text-white/50 hover:text-brand-green transition-colors uppercase tracking-widest"
               >
                 Ver todos <ArrowRight size={10} />
               </Link>

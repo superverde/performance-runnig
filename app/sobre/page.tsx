@@ -176,7 +176,7 @@ export default function SobrePage() {
               REFERÊNCIAS EM<br />
               <span className="text-white/25">CADA ARTIGO</span>
             </h2>
-            <div className="space-y-5 text-white/50 leading-relaxed">
+            <div className="space-y-5 text-white/70 text-base leading-relaxed">
               <p>
                 Todos os artigos publicados no Performance Running incluem uma secção de referências
                 bibliográficas no final. As referências seguem o formato APA e incluem sempre

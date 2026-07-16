@@ -126,7 +126,7 @@ export function ArticleTranslate({
       )}
 
       {isTranslated && (
-        <p className="text-[10px] text-white/25 font-mono">
+        <p className="text-xs text-white/45 font-mono">
           Traduzido automaticamente · Pode conter imprecisões
         </p>
       )}

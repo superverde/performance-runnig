@@ -285,7 +285,7 @@ export default async function EquipamentoPage() {
                     </span>
                   </div>
                   <div className="absolute bottom-3 left-3">
-                    <span className="text-[10px] text-white/50 font-mono uppercase tracking-wider border border-white/20 px-2 py-0.5 rounded">
+                    <span className="text-xs text-white/65 font-mono uppercase tracking-wider border border-white/20 px-2 py-0.5 rounded">
                       {s.categoria}
                     </span>
                   </div>
@@ -298,7 +298,7 @@ export default async function EquipamentoPage() {
                   </div>
                   <div className="flex items-center gap-2 mb-3">
                     <Stars n={s.rating} />
-                    <span className="text-[11px] text-white/30">{s.rating}/5</span>
+                    <span className="text-xs text-white/55">{s.rating}/5</span>
                   </div>
                   <p className="text-white/65 text-sm leading-relaxed mb-4">{s.desc}</p>
                   <div className="grid grid-cols-2 gap-3 mb-4">
@@ -369,7 +369,7 @@ export default async function EquipamentoPage() {
                   </div>
                   <div className="flex items-center gap-2 mb-3">
                     <Stars n={r.rating} />
-                    <span className="text-[11px] text-white/30">{r.rating}/5</span>
+                    <span className="text-xs text-white/55">{r.rating}/5</span>
                   </div>
                   <p className="text-white/65 text-sm leading-relaxed mb-3">{r.desc}</p>
                   <div className="grid grid-cols-2 gap-3 mb-4">
@@ -613,7 +613,7 @@ export default async function EquipamentoPage() {
 
         {/* ── Disclaimer ── */}
         <div className="border-t border-white/5 pt-8">
-          <p className="text-[11px] text-white/20 leading-relaxed max-w-2xl">
+          <p className="text-xs text-white/40 leading-relaxed max-w-2xl">
             <strong className="text-white/30">Transparência:</strong> Esta página contém links de afiliado Amazon.
             Quando compras através destes links, recebemos uma pequena comissão sem custo adicional para ti.
             As avaliações são independentes e baseadas em testes reais — nenhuma marca paga para aparecer aqui.

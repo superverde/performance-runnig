@@ -232,7 +232,7 @@ export default function ConsultaPage() {
             <ArrowUp size={16} strokeWidth={2.5} />
           </button>
         </div>
-        <p className="text-center text-white/15 text-[10px] mt-2">
+        <p className="text-center text-white/40 text-xs mt-2">
           IA pode cometer erros · Para questões médicas consulta um profissional de saúde
         </p>
       </div>

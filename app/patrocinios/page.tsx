@@ -109,11 +109,11 @@ export default function PatrociniosPage() {
                   {m.valor}
                 </p>
                 <p className="font-bold text-sm text-white/80">{m.label}</p>
-                <p className="text-[11px] text-white/30 mt-1">{m.sub}</p>
+                <p className="text-xs text-white/50 mt-1">{m.sub}</p>
               </div>
             ))}
           </div>
-          <p className="text-[11px] text-white/20 text-center mt-3">
+          <p className="text-xs text-white/40 text-center mt-3">
             *Métricas atualizadas mensalmente. Relatório detalhado disponível a pedido.
           </p>
         </section>
@@ -142,7 +142,7 @@ export default function PatrociniosPage() {
               ].map((s) => (
                 <div key={s.label} className="border border-white/6 rounded-xl p-5 bg-white/[0.01]">
                   <p className="text-2xl font-black text-brand-green">{s.val}</p>
-                  <p className="text-[11px] text-white/35 mt-1">{s.label}</p>
+                  <p className="text-xs text-white/55 mt-1">{s.label}</p>
                 </div>
               ))}
             </div>
@@ -167,14 +167,14 @@ export default function PatrociniosPage() {
                   <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-2">Inclui</p>
                   <ul className="space-y-1.5">
                     {o.inclui.map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-[11px] text-white/40">
+                      <li key={item} className="flex items-start gap-2 text-xs text-white/60">
                         <ArrowRight size={10} className="text-brand-green mt-0.5 shrink-0" />
                         {item}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <p className="text-[10px] text-white/25 border-t border-white/5 pt-3 mt-3">
+                <p className="text-xs text-white/45 border-t border-white/5 pt-3 mt-3">
                   <span className="text-white/35 font-bold">Ideal para: </span>{o.ideal}
                 </p>
               </div>
@@ -225,7 +225,7 @@ export default function PatrociniosPage() {
                 performance.running0224@gmail.com
                 <ArrowUpRight size={13} />
               </a>
-              <p className="text-[11px] text-white/20 mt-5">
+              <p className="text-xs text-white/40 mt-5">
                 Resposta garantida em 48h · Media kit detalhado disponível a pedido
               </p>
             </div>

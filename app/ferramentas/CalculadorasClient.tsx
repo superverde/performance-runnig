@@ -132,7 +132,7 @@ function VDOTCalc() {
         {/* Inputs */}
         <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
           <div>
-            <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Distância</label>
+            <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Distância</label>
             <select
               value={dist}
               onChange={e => setDist(Number(e.target.value))}
@@ -143,7 +143,7 @@ function VDOTCalc() {
           </div>
 
           <div>
-            <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Tempo (h : mm : ss)</label>
+            <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Tempo (h : mm : ss)</label>
             <div className="flex items-center gap-2">
               <NumInput value={h} onChange={setH} max={9} placeholder="h" />
               <span className="text-white/30 font-bold">:</span>
@@ -183,10 +183,10 @@ function VDOTCalc() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-white/10 bg-white/[0.02]">
-                  <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Zona</th>
-                  <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Ritmo /km</th>
-                  <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold hidden sm:table-cell">Tipo de treino</th>
-                  <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold hidden md:table-cell">Exemplo</th>
+                  <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Zona</th>
+                  <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Ritmo /km</th>
+                  <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold hidden sm:table-cell">Tipo de treino</th>
+                  <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold hidden md:table-cell">Exemplo</th>
                 </tr>
               </thead>
               <tbody>
@@ -307,14 +307,14 @@ function PaceCalc() {
           <p className="text-white/50 text-sm">Insere a distância e o tempo de prova para calcular o ritmo médio por km.</p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Distância</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Distância</label>
               <select value={tpDist} onChange={e => setTpDist(Number(e.target.value))}
                 className="bg-white/5 border border-white/10 rounded-lg px-3 py-2.5 text-white text-sm focus:outline-none focus:border-brand-green transition-colors cursor-pointer">
                 {DISTANCES.map(d => <option key={d.value} value={d.value} className="bg-black">{d.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Tempo (h : mm : ss)</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Tempo (h : mm : ss)</label>
               <div className="flex items-center gap-2">
                 <NumInput value={tpH} onChange={setTpH} max={9} placeholder="h" />
                 <span className="text-white/30 font-bold">:</span>
@@ -330,15 +330,15 @@ function PaceCalc() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 animate-fade-in">
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                 <div className="text-2xl font-black font-mono text-brand-green">{tpResult.paceKm}</div>
-                <div className="text-[10px] uppercase tracking-widest text-white/40 mt-1">min/km</div>
+                <div className="text-xs uppercase tracking-widest text-white/60 mt-1">min/km</div>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                 <div className="text-2xl font-black font-mono text-white">{tpResult.paceMi}</div>
-                <div className="text-[10px] uppercase tracking-widest text-white/40 mt-1">min/milha</div>
+                <div className="text-xs uppercase tracking-widest text-white/60 mt-1">min/milha</div>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center col-span-2 sm:col-span-1">
                 <div className="text-2xl font-black font-mono text-white/70">{fmtTime(tpResult.totalSec)}</div>
-                <div className="text-[10px] uppercase tracking-widest text-white/40 mt-1">tempo total</div>
+                <div className="text-xs uppercase tracking-widest text-white/60 mt-1">tempo total</div>
               </div>
             </div>
           )}
@@ -351,14 +351,14 @@ function PaceCalc() {
           <p className="text-white/50 text-sm">Insere o pace objetivo (min/km) e a distância para calcular o tempo de chegada.</p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Distância</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Distância</label>
               <select value={ptDist} onChange={e => setPtDist(Number(e.target.value))}
                 className="bg-white/5 border border-white/10 rounded-lg px-3 py-2.5 text-white text-sm focus:outline-none focus:border-brand-green transition-colors cursor-pointer">
                 {DISTANCES.map(d => <option key={d.value} value={d.value} className="bg-black">{d.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Pace (mm : ss /km)</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Pace (mm : ss /km)</label>
               <div className="flex items-center gap-2">
                 <NumInput value={ptPaceM} onChange={setPtPaceM} max={59} placeholder="mm" />
                 <span className="text-white/30 font-bold">:</span>
@@ -372,11 +372,11 @@ function PaceCalc() {
             <div className="grid grid-cols-2 gap-4 animate-fade-in">
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                 <div className="text-2xl font-black font-mono text-brand-green">{ptResult.total}</div>
-                <div className="text-[10px] uppercase tracking-widest text-white/40 mt-1">tempo de chegada</div>
+                <div className="text-xs uppercase tracking-widest text-white/60 mt-1">tempo de chegada</div>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                 <div className="text-2xl font-black font-mono text-white">{ptResult.paceKm}</div>
-                <div className="text-[10px] uppercase tracking-widest text-white/40 mt-1">min/km</div>
+                <div className="text-xs uppercase tracking-widest text-white/60 mt-1">min/km</div>
               </div>
             </div>
           )}
@@ -389,14 +389,14 @@ function PaceCalc() {
           <p className="text-white/50 text-sm">Com base num resultado recente, prevê os teus tempos para outras distâncias (fórmula de Riegel).</p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Distância conhecida</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Distância conhecida</label>
               <select value={prDist} onChange={e => setPrDist(Number(e.target.value))}
                 className="bg-white/5 border border-white/10 rounded-lg px-3 py-2.5 text-white text-sm focus:outline-none focus:border-brand-green transition-colors cursor-pointer">
                 {RACES.map(d => <option key={d.value} value={d.value} className="bg-black">{d.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Tempo (h : mm : ss)</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Tempo (h : mm : ss)</label>
               <div className="flex items-center gap-2">
                 <NumInput value={prH} onChange={setPrH} max={9} placeholder="h" />
                 <span className="text-white/30 font-bold">:</span>
@@ -414,9 +414,9 @@ function PaceCalc() {
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b border-white/10 bg-white/[0.02]">
-                      <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Distância</th>
-                      <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Tempo previsto</th>
-                      <th className="text-left px-4 py-3 text-[10px] uppercase tracking-widest text-white/40 font-bold">Pace /km</th>
+                      <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Distância</th>
+                      <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Tempo previsto</th>
+                      <th className="text-left px-4 py-3 text-xs uppercase tracking-widest text-white/60 font-bold">Pace /km</th>
                     </tr>
                   </thead>
                   <tbody>

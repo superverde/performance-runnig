@@ -175,7 +175,7 @@ export default function ReviewsPage() {
                     </div>
                     <div>
                       <p className="text-white font-black text-sm">{r.name}</p>
-                      <p className="text-white/30 text-[11px]">{r.age} anos · {r.city}</p>
+                      <p className="text-white/55 text-xs">{r.age} anos · {r.city}</p>
                     </div>
                   </div>
                   <Stars n={r.stars} />
@@ -193,7 +193,7 @@ export default function ReviewsPage() {
                 {/* Result */}
                 <div className="pt-4 border-t border-white/5">
                   <p className="text-brand-green font-black text-base">{r.result}</p>
-                  <p className="text-white/25 text-[11px] font-mono mt-0.5">{r.distance} · {r.period}</p>
+                  <p className="text-white/55 text-xs font-mono mt-0.5">{r.distance} · {r.period}</p>
                 </div>
               </article>
             ))}

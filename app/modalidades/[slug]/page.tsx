@@ -370,7 +370,7 @@ export default function ModalidadePage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/85 to-black/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <Link href="/modalidades" className="inline-flex items-center gap-1.5 text-[11px] text-white/35 hover:text-brand-green transition-colors mb-8 font-mono uppercase tracking-widest">
+          <Link href="/modalidades" className="inline-flex items-center gap-1.5 text-xs text-white/55 hover:text-brand-green transition-colors mb-8 font-mono uppercase tracking-widest">
             <ArrowLeft size={11} /> Todas as Modalidades
           </Link>
           <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/25 bg-brand-green/10 mb-5">
@@ -470,7 +470,7 @@ export default function ModalidadePage({ params }: Props) {
                 <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-1">Aprofunda o Conhecimento</p>
                 <h2 className="font-display text-white text-3xl leading-none">ARTIGOS RELACIONADOS</h2>
               </div>
-              <Link href="/blog" className="hidden sm:inline-flex items-center gap-1 text-[10px] font-bold text-white/30 hover:text-brand-green transition-colors uppercase tracking-widest">
+              <Link href="/blog" className="hidden sm:inline-flex items-center gap-1 text-xs font-bold text-white/50 hover:text-brand-green transition-colors uppercase tracking-widest">
                 Ver todos <ArrowRight size={10} />
               </Link>
             </div>

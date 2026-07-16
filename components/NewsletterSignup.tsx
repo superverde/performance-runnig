@@ -134,7 +134,7 @@ export function NewsletterSignup({ variant = 'inline' }: Props) {
           )}
 
           {subscriberCount !== null && status !== 'success' && (
-            <p className="text-white/30 text-[11px] mt-5 font-mono">
+            <p className="text-white/50 text-xs mt-5 font-mono">
               Junta-te a {subscriberCount.toLocaleString('pt-PT')}+ corredores que já treinam com ciência
             </p>
           )}

@@ -25,7 +25,7 @@ function ShoeSelect({ label, value, onChange, options, disabledValue }: {
 }) {
   return (
     <div>
-      <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">{label}</label>
+      <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">{label}</label>
       <select
         value={value}
         onChange={e => onChange(e.target.value)}
@@ -59,7 +59,7 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
       <h3 className="text-white font-bold text-base mb-1">{shoe.name}</h3>
       <div className="flex items-center justify-between mb-3">
         <Stars rating={shoe.rating} />
-        <span className="text-[10px] uppercase tracking-widest text-white/40 font-bold">{shoe.categoria}</span>
+        <span className="text-xs uppercase tracking-widest text-white/60 font-bold">{shoe.categoria}</span>
       </div>
 
       <div className="text-2xl font-black font-mono text-brand-green mb-3">{shoe.preco}</div>
@@ -78,7 +78,7 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
           </ul>
         </div>
         <div>
-          <p className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1.5">Contras</p>
+          <p className="text-xs uppercase tracking-widest text-white/60 font-bold mb-1.5">Contras</p>
           <ul className="space-y-1">
             {shoe.contras.map(c => (
               <li key={c} className="text-white/50 text-xs flex gap-1.5">

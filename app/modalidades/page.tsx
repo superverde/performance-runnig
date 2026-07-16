@@ -147,7 +147,7 @@ export default function ModalidadesPage() {
                   <span className="inline-block px-2 py-0.5 rounded-full text-[9px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/20 bg-brand-green/10">
                     {m.tag}
                   </span>
-                  <span className="text-[10px] font-mono text-white/25">{m.dist}</span>
+                  <span className="text-xs font-mono text-white/50">{m.dist}</span>
                 </div>
 
                 <div>
@@ -155,7 +155,7 @@ export default function ModalidadesPage() {
                     {m.name.toUpperCase()}
                   </h2>
                   <p className="text-white/40 text-xs leading-relaxed mb-4 line-clamp-2">{m.desc}</p>
-                  <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold text-white/25 group-hover:text-brand-green transition-colors uppercase tracking-widest">
+                  <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-white/50 group-hover:text-brand-green transition-colors uppercase tracking-widest">
                     Ver guia <ArrowRight size={10} />
                   </div>
                 </div>

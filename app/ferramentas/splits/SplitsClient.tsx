@@ -76,7 +76,7 @@ export function SplitsClient() {
         <div className="bg-white/[0.02] border border-white/10 rounded-2xl p-6 sm:p-8 space-y-6">
           <div className="flex flex-wrap gap-4 items-end">
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Distância</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Distância</label>
               <select value={dist} onChange={e => setDist(e.target.value as DistKey)}
                 className="bg-white/5 border border-white/10 rounded-lg px-3 py-2.5 text-white text-sm focus:outline-none focus:border-brand-green transition-colors cursor-pointer">
                 {(Object.keys(DISTS) as DistKey[]).map(k => (
@@ -85,7 +85,7 @@ export function SplitsClient() {
               </select>
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Tempo alvo (h : min : s)</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Tempo alvo (h : min : s)</label>
               <div className="flex gap-1.5 items-center">
                 <input type="number" value={hh} onChange={e => setHh(e.target.value)} min={0} max={9}
                   className="w-14 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono focus:outline-none focus:border-brand-green transition-colors" />
@@ -98,7 +98,7 @@ export function SplitsClient() {
               </div>
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Estratégia</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Estratégia</label>
               <div className="flex gap-2">
                 {([['uniforme', 'Uniforme'], ['negativo', 'Negative Split']] as [Estrategia, string][]).map(([v, l]) => (
                   <button key={v} onClick={() => setEstrategia(v)}

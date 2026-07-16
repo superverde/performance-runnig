@@ -54,17 +54,17 @@ export function ZonasFcClient() {
         <div className="bg-white/[0.02] border border-white/10 rounded-2xl p-6 sm:p-8 space-y-6">
           <div className="flex flex-wrap gap-4 items-end">
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">Idade</label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">Idade</label>
               <input type="number" value={idade} onChange={e => setIdade(e.target.value)} min={10} max={100}
                 className="w-20 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono focus:outline-none focus:border-brand-green transition-colors" />
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">FC máx real <span className="text-white/20 normal-case">(opcional)</span></label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">FC máx real <span className="text-white/20 normal-case">(opcional)</span></label>
               <input type="number" value={fcMax} onChange={e => setFcMax(e.target.value)} placeholder="ex: 188" min={120} max={230}
                 className="w-24 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono placeholder-white/20 focus:outline-none focus:border-brand-green transition-colors" />
             </div>
             <div>
-              <label className="text-[10px] uppercase tracking-widest text-white/40 font-bold block mb-2">FC repouso <span className="text-white/20 normal-case">(opcional)</span></label>
+              <label className="text-xs uppercase tracking-widest text-white/60 font-bold block mb-2">FC repouso <span className="text-white/20 normal-case">(opcional)</span></label>
               <input type="number" value={fcRep} onChange={e => setFcRep(e.target.value)} placeholder="ex: 55" min={30} max={100}
                 className="w-24 text-center bg-white/5 border border-white/10 rounded-lg px-2 py-2.5 text-white text-sm font-mono placeholder-white/20 focus:outline-none focus:border-brand-green transition-colors" />
             </div>
@@ -92,7 +92,7 @@ export function ZonasFcClient() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="text-[10px] uppercase tracking-widest text-white/40 border-b border-white/10">
+                    <tr className="text-xs uppercase tracking-widest text-white/60 border-b border-white/10">
                       <th className="text-left py-3 pr-4">Zona</th>
                       <th className="text-left py-3 pr-4">% FCmáx</th>
                       {result.rep && <th className="text-left py-3 pr-4">Karvonen (FCR)</th>}
