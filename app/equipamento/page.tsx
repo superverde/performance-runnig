@@ -232,7 +232,7 @@ export default async function EquipamentoPage() {
           <h1 className="font-display text-white leading-none mb-4" style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}>
             EQUIPAMENTO
           </h1>
-          <p className="text-white/50 max-w-xl text-sm leading-relaxed">
+          <p className="text-white/70 max-w-xl text-base leading-relaxed">
             Testamos e avaliamos o equipamento mais relevante para corredores portugueses.
             Sem patrocínios que influenciem as notas. Links de afiliado ajudam a manter o site gratuito.
           </p>
@@ -300,13 +300,13 @@ export default async function EquipamentoPage() {
                     <Stars n={s.rating} />
                     <span className="text-[11px] text-white/30">{s.rating}/5</span>
                   </div>
-                  <p className="text-white/50 text-sm leading-relaxed mb-4">{s.desc}</p>
+                  <p className="text-white/65 text-sm leading-relaxed mb-4">{s.desc}</p>
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div>
                       <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {s.pros.map((p) => (
-                          <li key={p} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                          <li key={p} className="text-xs text-white/60 flex items-start gap-1.5">
                             <span className="text-brand-green mt-px">+</span>{p}
                           </li>
                         ))}
@@ -316,7 +316,7 @@ export default async function EquipamentoPage() {
                       <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {s.contras.map((c) => (
-                          <li key={c} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                          <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
                             <span className="text-red-400/60 mt-px">−</span>{c}
                           </li>
                         ))}
@@ -371,13 +371,13 @@ export default async function EquipamentoPage() {
                     <Stars n={r.rating} />
                     <span className="text-[11px] text-white/30">{r.rating}/5</span>
                   </div>
-                  <p className="text-white/50 text-sm leading-relaxed mb-3">{r.desc}</p>
+                  <p className="text-white/65 text-sm leading-relaxed mb-3">{r.desc}</p>
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div>
                       <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {r.pros.map((p) => (
-                          <li key={p} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                          <li key={p} className="text-xs text-white/60 flex items-start gap-1.5">
                             <span className="text-brand-green mt-px">+</span>{p}
                           </li>
                         ))}
@@ -387,7 +387,7 @@ export default async function EquipamentoPage() {
                       <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {r.contras.map((c) => (
-                          <li key={c} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                          <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
                             <span className="text-red-400/60 mt-px">−</span>{c}
                           </li>
                         ))}
@@ -451,7 +451,7 @@ export default async function EquipamentoPage() {
                   {/* Porque escolher */}
                   <div className="bg-brand-green/5 border border-brand-green/15 rounded-lg p-3 mb-4">
                     <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1">Porque escolher</p>
-                    <p className="text-[11px] text-white/60 leading-relaxed">{s.porque}</p>
+                    <p className="text-xs text-white/75 leading-relaxed">{s.porque}</p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 mb-4">
@@ -459,7 +459,7 @@ export default async function EquipamentoPage() {
                       <p className="text-[9px] uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {s.pros.map((p) => (
-                          <li key={p} className="text-[11px] text-white/50 flex items-start gap-1.5">
+                          <li key={p} className="text-xs text-white/65 flex items-start gap-1.5">
                             <span className="text-brand-green mt-px">+</span>{p}
                           </li>
                         ))}
@@ -469,7 +469,7 @@ export default async function EquipamentoPage() {
                       <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {s.contras.map((c) => (
-                          <li key={c} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                          <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
                             <span className="text-red-400/60 mt-px">−</span>{c}
                           </li>
                         ))}
@@ -534,7 +534,7 @@ export default async function EquipamentoPage() {
                   {/* Porque escolher */}
                   <div className="bg-brand-green/5 border border-brand-green/15 rounded-lg p-3 mb-4">
                     <p className="text-[9px] uppercase tracking-widest text-brand-green font-bold mb-1">Porque usar</p>
-                    <p className="text-[11px] text-white/60 leading-relaxed">{n.porque}</p>
+                    <p className="text-xs text-white/75 leading-relaxed">{n.porque}</p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 mb-4">
@@ -542,7 +542,7 @@ export default async function EquipamentoPage() {
                       <p className="text-[9px] uppercase tracking-widest text-brand-green/70 font-bold mb-1.5">Pontos fortes</p>
                       <ul className="space-y-1">
                         {n.pros.map((p) => (
-                          <li key={p} className="text-[11px] text-white/50 flex items-start gap-1.5">
+                          <li key={p} className="text-xs text-white/65 flex items-start gap-1.5">
                             <span className="text-brand-green mt-px">+</span>{p}
                           </li>
                         ))}
@@ -552,7 +552,7 @@ export default async function EquipamentoPage() {
                       <p className="text-[9px] uppercase tracking-widest text-red-400/60 font-bold mb-1.5">Limitações</p>
                       <ul className="space-y-1">
                         {n.contras.map((c) => (
-                          <li key={c} className="text-[11px] text-white/40 flex items-start gap-1.5">
+                          <li key={c} className="text-xs text-white/60 flex items-start gap-1.5">
                             <span className="text-red-400/60 mt-px">−</span>{c}
                           </li>
                         ))}
@@ -593,7 +593,7 @@ export default async function EquipamentoPage() {
                 <div className="p-4">
                   <span className="text-[9px] font-bold uppercase tracking-widest text-brand-green/70">{a.tipo}</span>
                   <h3 className="font-bold text-sm mt-1 mb-1">{a.name}</h3>
-                  <p className="text-white/35 text-xs leading-relaxed mb-3">{a.desc}</p>
+                  <p className="text-white/55 text-xs leading-relaxed mb-3">{a.desc}</p>
                   <div className="flex items-center justify-between">
                     <PriceTag preco={a.preco} verified={a.precoVerificado} className="text-brand-green text-xs font-bold" />
                     <a

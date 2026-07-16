@@ -127,7 +127,7 @@ export function SplitsClient() {
                   </div>
                 ))}
               </div>
-              <p className="text-white/30 text-xs leading-relaxed">
+              <p className="text-white/55 text-sm leading-relaxed">
                 {estrategia === 'negativo'
                   ? 'Negative split: começa ~2% mais lento que o ritmo médio e acaba ~2% mais rápido — a estratégia usada na maioria dos recordes do mundo de fundo.'
                   : 'Ritmo uniforme: o mesmo parcial em todos os quilómetros. Em provas com desnível, ajusta mentalmente ±5-10 s/km nas subidas e descidas.'}

@@ -390,7 +390,7 @@ export default function ModalidadePage({ params }: Props) {
         {/* Introdução */}
         <section>
           <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">Visão Geral</p>
-          <p className="text-white/65 leading-relaxed text-base">{m.intro}</p>
+          <p className="text-white/75 leading-relaxed text-lg">{m.intro}</p>
         </section>
 
         {/* Fisiologia */}
@@ -455,7 +455,7 @@ export default function ModalidadePage({ params }: Props) {
               {m.faq.map((f) => (
                 <div key={f.q} className="p-6 rounded-xl border border-white/8 bg-white/[0.015]">
                   <h3 className="text-white font-bold text-sm mb-3">{f.q}</h3>
-                  <p className="text-white/50 text-sm leading-relaxed">{f.a}</p>
+                  <p className="text-white/65 text-sm leading-relaxed">{f.a}</p>
                 </div>
               ))}
             </div>

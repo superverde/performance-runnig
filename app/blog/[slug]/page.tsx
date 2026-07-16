@@ -275,7 +275,7 @@ export default async function BlogSlugPage({ params }: Props) {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-5 text-white">
             {article.title}
           </h1>
-          <p className="text-white/55 text-base leading-relaxed mb-7 max-w-2xl">{article.excerpt}</p>
+          <p className="text-white/70 text-lg leading-relaxed mb-7 max-w-2xl">{article.excerpt}</p>
           <div className="flex flex-wrap items-center gap-4 text-[11px] text-white/35 font-mono">
             <span className="flex items-center gap-1.5"><Calendar size={11} />{article.date}</span>
             <span className="flex items-center gap-1.5"><Clock size={11} />{article.readTime} min de leitura</span>

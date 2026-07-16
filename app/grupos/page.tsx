@@ -121,7 +121,7 @@ export default function GruposPage() {
           <h1 className="font-display text-5xl font-black text-white mb-3">
             GRUPOS<br /><span className="text-brand-green">DO DIA.</span>
           </h1>
-          <p className="text-white/40 text-sm max-w-lg">
+          <p className="text-white/65 text-sm sm:text-base max-w-lg">
             Copia cada texto e partilha nos grupos de corrida. 3 posts × 8 grupos = potencial de +120k corredores por dia.
           </p>
         </div>

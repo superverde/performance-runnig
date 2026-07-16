@@ -266,13 +266,13 @@ export function AgeGradingClient() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
           <div className="bg-white/[0.02] border border-white/10 rounded-xl p-5">
             <h3 className="text-sm font-bold text-white mb-2">O que é o Age Grading?</h3>
-            <p className="text-white/50 text-xs leading-relaxed">
+            <p className="text-white/65 text-sm leading-relaxed">
               O age grading traduz o teu tempo de prova numa percentagem face ao nível de recorde do mundo ajustado à tua idade e sexo, permitindo comparar performances entre atletas de idades diferentes de forma justa.
             </p>
           </div>
           <div className="bg-white/[0.02] border border-white/10 rounded-xl p-5">
             <h3 className="text-sm font-bold text-white mb-2">Nota sobre a precisão</h3>
-            <p className="text-white/50 text-xs leading-relaxed">
+            <p className="text-white/65 text-sm leading-relaxed">
               Esta calculadora usa uma curva de declínio aproximada, não a tabela oficial exata da World Masters Athletics (WMA), que tabula milhares de valores por idade e prova. Para competição oficial de masters, consulta sempre a tabela publicada pela WMA.
             </p>
           </div>

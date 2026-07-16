@@ -107,7 +107,7 @@ export default function ModalidadesPage() {
           >
             MODALIDADES
           </h1>
-          <p className="text-white/45 text-sm sm:text-base leading-relaxed max-w-2xl mb-8">
+          <p className="text-white/70 text-base sm:text-lg leading-relaxed max-w-2xl mb-8">
             Cada distância tem a sua fisiologia, as suas zonas de treino, os seus erros específicos.
             Escolhe a tua modalidade e descobre o que a ciência diz sobre como treinar para ela.
           </p>

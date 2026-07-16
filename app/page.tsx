@@ -89,7 +89,7 @@ export default async function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-28 pb-24 w-full">
           <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-brand-green/20 bg-brand-green/8 mb-10 animate-fade-up">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse-dot" />
-            <span className="text-brand-green text-[10px] font-mono font-bold tracking-[0.2em] uppercase">
+            <span className="text-brand-green text-xs font-mono font-bold tracking-[0.15em] uppercase">
               {t('hp', 'badge_updated').replace('{n}', String(totalArticles))}
             </span>
           </div>
@@ -100,7 +100,7 @@ export default async function HomePage() {
             <span className="block text-[clamp(3rem,10vw,8.5rem)] leading-none text-brand-green">{t('hp', 'headline3')}</span>
           </h1>
 
-          <p className="text-white/50 text-base sm:text-lg leading-relaxed max-w-lg mb-10 animate-fade-up delay-200" style={{ opacity: 0 }}>
+          <p className="text-white/70 text-lg sm:text-xl leading-relaxed max-w-lg mb-10 animate-fade-up delay-200" style={{ opacity: 0 }}>
             {t('hp', 'subtitle')}
           </p>
 

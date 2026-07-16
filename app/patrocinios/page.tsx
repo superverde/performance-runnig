@@ -85,7 +85,7 @@ export default function PatrociniosPage() {
             ALCANÇA<br />
             <span className="text-brand-green">CORREDORES.</span>
           </h1>
-          <p className="text-white/50 max-w-xl text-base leading-relaxed mb-8">
+          <p className="text-white/70 max-w-xl text-lg leading-relaxed mb-8">
             Performance Running é o maior arquivo científico de corrida em Portugal.
             Audiência segmentada, conteúdo de alta qualidade, crescimento orgânico.
           </p>

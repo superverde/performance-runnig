@@ -125,7 +125,7 @@ function VDOTCalc() {
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-white/50 text-sm leading-relaxed mb-6">
+        <p className="text-white/70 text-base leading-relaxed mb-6">
           Insere um resultado recente de prova para calcular o teu VDOT e obter os ritmos ideais para cada zona de treino, com base na metodologia de Jack Daniels.
         </p>
 
@@ -537,13 +537,13 @@ export function CalculadorasClient() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
           <div className="bg-white/[0.02] border border-white/10 rounded-xl p-5">
             <h3 className="text-sm font-bold text-white mb-2">O que é o VDOT?</h3>
-            <p className="text-white/50 text-xs leading-relaxed">
+            <p className="text-white/65 text-sm leading-relaxed">
               O VDOT é uma estimativa do VO₂máx funcional desenvolvida por Jack Daniels. Não mede diretamente o consumo de oxigénio — reflete a tua capacidade de corrida em prova. Dois atletas com o mesmo VDOT devem correr a ritmos semelhantes, independentemente do peso ou altura.
             </p>
           </div>
           <div className="bg-white/[0.02] border border-white/10 rounded-xl p-5">
             <h3 className="text-sm font-bold text-white mb-2">Fórmula de Riegel</h3>
-            <p className="text-white/50 text-xs leading-relaxed">
+            <p className="text-white/65 text-sm leading-relaxed">
               A previsão de prova usa a fórmula T₂ = T₁ × (D₂/D₁)^1.06, onde o expoente 1.06 reflete o aumento de fadiga com a distância. É mais precisa entre distâncias próximas — prever uma maratona a partir de um 5km tem margem de erro maior.
             </p>
           </div>

@@ -94,7 +94,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                 >
                   ARTIGOS<br /><span className="text-brand-green">DE HOJE.</span>
                 </h1>
-                <p className="text-white/40 text-sm leading-relaxed max-w-lg mb-8">
+                <p className="text-white/70 text-base leading-relaxed max-w-lg mb-8">
                   {filtered.length > 0
                     ? `${filtered.length} artigo${filtered.length !== 1 ? 's' : ''} publicado${filtered.length !== 1 ? 's' : ''} hoje. Novos artigos todos os dias.`
                     : 'Ainda não foram publicados artigos hoje. Volta mais tarde — publicamos 3 artigos por dia.'}
@@ -115,7 +115,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
                     <>BASE DE<br /><span className="text-brand-green">CONHECIMENTO.</span></>
                   )}
                 </h1>
-                <p className="text-white/40 text-sm leading-relaxed max-w-lg mb-8">
+                <p className="text-white/70 text-base leading-relaxed max-w-lg mb-8">
                   {heroDescription || 'Fisiologia, treino, nutrição, biomecânica, recuperação e psicologia desportiva. 3 novos artigos publicados todos os dias.'}
                 </p>
               </>

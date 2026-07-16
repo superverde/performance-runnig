@@ -177,7 +177,7 @@ export function CalendarioClient() {
           <h1 className="font-display text-white leading-none mb-4" style={{ fontSize: 'clamp(3rem, 8vw, 6rem)' }}>
             PROVAS EM PORTUGAL
           </h1>
-          <p className="text-white/50 max-w-xl text-sm leading-relaxed">
+          <p className="text-white/70 max-w-xl text-base leading-relaxed">
             Maratonas, meias maratonas, trail e ultra trail em Portugal. Datas, locais e
             distâncias das principais provas de estrada e montanha do calendário nacional.
           </p>

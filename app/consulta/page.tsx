@@ -114,7 +114,7 @@ export default function ConsultaPage() {
             ESPECIALISTA<br />
             <span className="text-brand-green">EM CORRIDA.</span>
           </h1>
-          <p className="text-white/55 max-w-lg mx-auto text-base leading-relaxed mb-10">
+          <p className="text-white/70 max-w-lg mx-auto text-lg leading-relaxed mb-10">
             Treino, nutrição, lesões, periodização — resposta imediata e baseada em ciência.
           </p>
 

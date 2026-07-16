@@ -128,7 +128,7 @@ export default function ReviewsPage() {
               CORREDORES<br />
               <span className="text-brand-green">QUE CRESCERAM.</span>
             </h1>
-            <p className="text-white/45 text-base leading-relaxed max-w-lg">
+            <p className="text-white/70 text-lg leading-relaxed max-w-lg">
               Histórias reais de corredores que pediram uma consulta e transformaram a sua performance.
               Diferentes idades, objetivos e pontos de partida. Resultados concretos.
             </p>

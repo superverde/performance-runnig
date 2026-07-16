@@ -35,7 +35,7 @@ export default function ContactoPage() {
             SUGERE UM<br />
             <span className="text-brand-green">TEMA</span>
           </h1>
-          <p className="text-white/45 text-base leading-relaxed max-w-lg">
+          <p className="text-white/70 text-lg leading-relaxed max-w-lg">
             Há algum tópico sobre corrida, fisiologia ou treino que gostarias de ver abordado?
             Envia a tua sugestão — os temas mais pedidos entram na fila de publicação.
           </p>

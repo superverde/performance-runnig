@@ -121,7 +121,7 @@ export function ZonasFcClient() {
                 </table>
               </div>
 
-              <p className="text-white/30 text-xs leading-relaxed">
+              <p className="text-white/55 text-sm leading-relaxed">
                 A FC máxima estimada usa a fórmula de Tanaka (208 − 0,7 × idade), mais precisa que a clássica 220 − idade. O método de Karvonen calcula cada zona sobre a FC de reserva (FCmáx − FC repouso), refletindo melhor a tua condição física atual. Para valores exatos, mede a FCmáx num teste de terreno ou de laboratório.
               </p>
             </div>

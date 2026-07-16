@@ -64,7 +64,7 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
 
       <div className="text-2xl font-black font-mono text-brand-green mb-3">{shoe.preco}</div>
 
-      <p className="text-white/50 text-xs leading-relaxed mb-4">{shoe.desc}</p>
+      <p className="text-white/65 text-xs leading-relaxed mb-4">{shoe.desc}</p>
 
       <div className="space-y-3 mb-4 flex-1">
         <div>
@@ -173,7 +173,7 @@ export function ComparadorClient() {
         {/* Info */}
         <div className="mt-10 bg-white/[0.02] border border-white/10 rounded-xl p-5">
           <h3 className="text-sm font-bold text-white mb-2">Como escolher a sapatilha certa</h3>
-          <p className="text-white/50 text-xs leading-relaxed">
+          <p className="text-white/65 text-sm leading-relaxed">
             Sapatilhas de <strong className="text-white/70">Estrada</strong> priorizam amortecimento e durabilidade para o treino diário. As de <strong className="text-white/70">Trail</strong> têm grip agressivo e proteção para terreno técnico. As de <strong className="text-white/70">Competição</strong> usam placas de carbono e espumas leves para maximizar velocidade em prova — mas têm durabilidade reduzida e não são pensadas para o treino de todos os dias.
           </p>
         </div>

@@ -174,7 +174,7 @@ export default function MethodologiesPage() {
             TREINO CIENTÍFICO<br />
             <span className="text-brand-green">PARA CADA DISTÂNCIA</span>
           </h1>
-          <p className="text-white/50 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/70 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Da pista ao ultra trail — cada modalidade tem a sua fisiologia, zonas de intensidade
             e estratégia de treino. Aqui encontras a base científica para treinar de forma inteligente.
           </p>

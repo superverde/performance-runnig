@@ -66,7 +66,7 @@ export default function SobrePage() {
               CIÊNCIA DA CORRIDA<br />
               <span className="text-brand-green">PARA TODOS.</span>
             </h1>
-            <p className="text-white/50 text-lg leading-relaxed max-w-2xl mb-6">
+            <p className="text-white/70 text-lg sm:text-xl leading-relaxed max-w-2xl mb-6">
               O <strong className="text-white">Performance Running</strong> é uma base de conhecimento científico gratuita
               dedicada à corrida, trail running e atletismo. O nosso objetivo é simples:
               tornar a investigação científica sobre corrida acessível a qualquer atleta,
