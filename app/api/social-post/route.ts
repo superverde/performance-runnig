@@ -38,19 +38,22 @@ function selectImage(slug: string, category: string): string {
 
 // ── HASHTAGS POR CATEGORIA ───────────────────────────────────────────────────
 
+// Estratégia PT/BR (auditoria 2026-07-17): 47% do tráfego vinha dos EUA com bounce
+// de 64% — hashtags DE/FR/ES/EN removidas para focar audiência lusófona (PT + BR).
+// Tags BR de alto volume: #corridaderua #vidadecorredor #corredoresderua
 const CATEGORY_HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #running #treinodecorrida #corridaportugal #runningtraining #entrenamientocorrida #lauftraining #entraînement',
-  'Fisiologia':    '#fisiologia #vo2max #resistencia #running #endurance #ausdauer #physiologie #corredores #runnersworld',
-  'Nutrição':      '#nutricao #nutricaoesportiva #runningfuel #sportsnutrition #ernährung #nutrition #corredores #maratona',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #runningform #biomechanics #lauftechnik #corridaeficiente #running',
-  'Recuperação':   '#recuperacao #recovery #running #sportrecovery #erholung #récupération #lesaosportiva #corredores',
-  'Psicologia':    '#psicologiaesportiva #mentaltraining #running #mindset #sportpsychologie #psychologiedusport',
-  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #mountainrunning #trailrun #ultrarunning #UTMB #traillife',
-  'Lesões':        '#lesoes #prevencaodelesoes #runninginjury #injuryprevention #laufverletzung #corredores #fisioterapia',
-  'VO2max':        '#vo2max #fisiologia #running #endurance #resistencia #corridaportugal #performancerunning #runnersworld',
+  'Treino':        '#treino #treinodecorrida #corrida #corridaderua #vidadecorredor #corridaportugal #corredores #performancerunning',
+  'Fisiologia':    '#fisiologia #vo2max #resistencia #corrida #corredores #vidadecorredor #corridaportugal #performancerunning',
+  'Nutrição':      '#nutricao #nutricaoesportiva #corrida #corredores #maratona #vidadecorredor #corridaportugal #performancerunning',
+  'Biomecânica':   '#biomecanica #tecnicadecorrida #corrida #corredores #corridaderua #vidadecorredor #performancerunning',
+  'Recuperação':   '#recuperacao #corrida #corredores #vidadecorredor #corridaportugal #descanso #performancerunning',
+  'Psicologia':    '#psicologiadoesporte #mentalidade #corrida #corredores #vidadecorredor #corridaportugal #performancerunning',
+  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #trailbrasil #corridademontanha #corredores #performancerunning',
+  'Lesões':        '#lesoes #prevencaodelesoes #corrida #corredores #fisioterapia #vidadecorredor #performancerunning',
+  'VO2max':        '#vo2max #fisiologia #corrida #resistencia #corredores #corridaportugal #vidadecorredor #performancerunning',
 }
 
-const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
+const DEFAULT_HASHTAGS = '#corrida #corridaderua #treinodecorrida #atletismo #corredores #vidadecorredor #corridaportugal #performancerunning'
 
 // ── CORREÇÃO PT-PT (pós-processamento determinístico, custo zero) ────────────
 

@@ -153,3 +153,22 @@ What's your go-to downhill drill?
 | Semana 2 | Repetir rotação com novos temas | — |
 
 Nota Reddit: contas novas com karma baixo são filtradas. Antes de postar, passa 2-3 dias a comentar genuinamente noutros threads. Nunca postes o link nos primeiros posts da conta.
+
+---
+
+## Estratégia PT/BR (desde 2026-07-17)
+
+A auditoria de tráfego mostrou 47% de visitantes dos EUA (via hashtags EN/DE/FR) com bounce de 64% — audiência que não lê português. O foco passa a ser 100% lusófono: Portugal + Brasil. O Brasil tem uma comunidade de corrida de rua enorme e lê o nosso conteúdo sem barreira de língua.
+
+### Grupos Facebook Brasil (pesquisar e pedir entrada)
+- "Corrida de Rua" e variantes — os maiores grupos BR de corrida
+- "Corredores Iniciantes"
+- "Maratonistas do Brasil" / grupos de maratona SP e Rio
+- "Treino de Corrida" / "Planilhas de Corrida"
+- Grupos de trail: "Trail Run Brasil", "Corrida de Montanha Brasil"
+
+### Regras específicas BR
+- O conteúdo do site está em PT-PT; nos posts para grupos BR usar vocabulário neutro (evitar "sapatilhas" → usar "tênis de corrida" no texto do post; "prova" funciona nos dois)
+- Horários de pico BR: 12h-14h e 19h-22h de Brasília (16h-18h e 23h-02h em Lisboa) — agendar posts BR para o slot da tarde PT
+- Hashtags BR de alto volume já integradas na automação: #corridaderua #vidadecorredor #corredoresderua
+- Não usar hashtags EN/DE/FR/ES — foram removidas da automação a 2026-07-17
