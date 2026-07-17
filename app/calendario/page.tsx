@@ -4,9 +4,9 @@ import { CalendarioClient } from './CalendarioClient'
 const SITE_URL = 'https://www.performancerunning.pt'
 
 export const metadata: Metadata = {
-  title: 'Calendário de Provas de Corrida e Trail em Portugal 2026',
+  title: 'Calendário de Corridas 2026: Maratonas, Meias e Trails em Portugal',
   description:
-    'Calendário completo de maratonas, meias maratonas, trail e ultra trail em Portugal em 2026. Datas, locais e distâncias das principais provas nacionais.',
+    'Todas as provas de corrida e trail em Portugal em 2026 num só calendário: datas, locais e distâncias. Atualizado mensalmente — encontra a tua próxima prova.',
   keywords: [
     'calendário provas corrida portugal', 'maratonas portugal 2026', 'meias maratonas portugal',
     'calendário trail running portugal', 'ultra trail portugal', 'provas de atletismo 2026',

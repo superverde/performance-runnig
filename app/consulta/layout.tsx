@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Consulta Gratuita de Treino',
+  title: 'Treinador de Corrida Online Grátis — Tira Dúvidas 24/7',
   description:
-    'Faz perguntas sobre treino de corrida, fisiologia, nutrição e prevenção de lesões e recebe respostas baseadas em ciência — gratuito.',
+    'Pergunta sobre treino, lesões, nutrição ou preparação de maratona e recebe resposta imediata baseada em ciência. Sem registo, sem custos, disponível 24/7.',
   alternates: { canonical: 'https://www.performancerunning.pt/consulta' },
 }
 

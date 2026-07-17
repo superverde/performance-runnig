@@ -23,6 +23,16 @@ const modalities = [
   { label: 'Meio Fundo', slug: 'meio-fundo' },
 ]
 
+// Artigos que já geram impressões no Google (auditoria GSC 2026-07-17).
+// Links sitewide no footer reforçam-nos para subirem da página 2 para a 1.
+const popularGuides = [
+  { label: 'Como Escolher Sapatilhas', slug: 'como-escolher-sapatilhas-corrida-guia-pisada' },
+  { label: 'Sapatilhas de Trail', slug: 'melhores-sapatilhas-trail-terrenos-tecnicos' },
+  { label: 'Strides: Guia Completo', slug: 'strides-corrida-eficiencia-velocidade' },
+  { label: 'Sapatilhas de Corrida 2026', slug: 'melhores-sapatilhas-corrida-2026' },
+  { label: 'Treino em Altitude', slug: 'treino-altitude-adaptacoes-fisiologicas' },
+]
+
 export function Footer() {
   const year = new Date().getFullYear()
 
@@ -31,7 +41,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
           {/* Brand */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-3">
             <Link href="/" className="flex items-center gap-2.5 mb-5">
               <div className="w-7 h-7 rounded-md bg-brand-green flex items-center justify-center">
                 <span className="text-black font-black text-xs">PR</span>
@@ -82,7 +92,7 @@ export function Footer() {
           </div>
 
           {/* Newsletter */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-3">
             <NewsletterSignup variant="footer" />
           </div>
 
@@ -97,6 +107,23 @@ export function Footer() {
                     className="text-sm text-white/65 hover:text-white transition-colors"
                   >
                     {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Guias populares */}
+          <div className="md:col-span-2">
+            <p className="text-xs font-bold uppercase tracking-[0.15em] text-white/55 mb-4">Guias Populares</p>
+            <ul className="space-y-2.5">
+              {popularGuides.map((g) => (
+                <li key={g.slug}>
+                  <Link
+                    href={`/blog/${g.slug}`}
+                    className="text-sm text-white/65 hover:text-white transition-colors"
+                  >
+                    {g.label}
                   </Link>
                 </li>
               ))}
