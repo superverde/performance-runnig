@@ -21,6 +21,19 @@ const SUGGESTIONS = [
   'Treino de velocidade para 10km',
 ]
 
+/**
+ * Renderiza markdown leve nas respostas do modelo: converte `**texto**` em
+ * <strong> e transforma "* item" no início de linha em "• item". Sem isto os
+ * asteriscos apareciam literalmente no chat (reportado por Pedro 2026-07-17).
+ * Não usa dangerouslySetInnerHTML — devolve nós React, sem risco de XSS.
+ */
+function renderLite(content: string): React.ReactNode[] {
+  const withBullets = content.replace(/^\s*\* /gm, '\u2022 ')
+  return withBullets.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+    i % 2 === 1 ? <strong key={i} className="font-bold text-white">{part}</strong> : part
+  )
+}
+
 export default function ConsultaPage() {
   const [messages, setMessages] = useState<Message[]>([WELCOME])
   const [input, setInput] = useState('')
@@ -178,13 +191,13 @@ export default function ConsultaPage() {
 
                 {/* Bubble */}
                 <div
-                  className={`max-w-[80%] px-4 py-3 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap ${
+                  className={`max-w-[80%] px-4 py-3 rounded-2xl text-base leading-relaxed whitespace-pre-wrap ${
                     msg.role === 'user'
                       ? 'bg-white/8 border border-white/10 text-white/80 rounded-tr-sm'
                       : 'bg-[#0a1f18] border border-brand-green/20 text-white/85 rounded-tl-sm'
                   }`}
                 >
-                  {msg.content}
+                  {msg.role === 'model' ? renderLite(msg.content) : msg.content}
                 </div>
               </div>
             ))}
@@ -221,7 +234,7 @@ export default function ConsultaPage() {
             onInput={handleInput}
             placeholder="Faz a tua pergunta... (Enter para enviar)"
             rows={1}
-            className="flex-1 bg-white/5 border border-white/10 rounded-xl text-white/85 placeholder-white/25 px-4 py-3 text-sm resize-none outline-none transition-colors focus:border-brand-green/40 font-sans leading-relaxed"
+            className="flex-1 bg-white/5 border border-white/10 rounded-xl text-white/85 placeholder-white/25 px-4 py-3 text-base resize-none outline-none transition-colors focus:border-brand-green/40 font-sans leading-relaxed"
             style={{ maxHeight: '120px', overflowY: 'auto' }}
           />
           <button
