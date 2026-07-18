@@ -54,6 +54,27 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
+  // Redirect 301: URLs de artigos com acentos no slug (partilhados/indexados
+  // antes da normalização ASCII de 2026-07-14) → slug ASCII canónico.
+  // O Google tinha estes URLs antigos marcados como Soft 404 na Search
+  // Console: o slug chega percent-encoded (ex: eletr%C3%B3litos-...) e a
+  // página respondia "não encontrado". O 301 consolida o sinal SEO no
+  // artigo real em vez de deixar o URL antigo morrer.
+  if (pathname.startsWith('/blog/')) {
+    let decoded = pathname
+    try {
+      decoded = decodeURIComponent(pathname)
+    } catch {
+      // percent-encoding inválido — segue sem redirect
+    }
+    const ascii = decoded.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    if (ascii !== decoded) {
+      const url = request.nextUrl.clone()
+      url.pathname = ascii
+      return NextResponse.redirect(url, 301)
+    }
+  }
+
   const locale = detectLocale(request)
 
   // Passa locale como REQUEST header — lido por headers() em Server Components na primeira visita

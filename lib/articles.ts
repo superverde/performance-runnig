@@ -143,7 +143,16 @@ export async function getArticleBySlug(rawSlug: string): Promise<Article | null>
   let slug = rawSlug
   let filePath = path.join(ARTICLES_DIR, `${slug}.md`)
   if (!fs.existsSync(filePath)) {
-    slug = deaccentSlug(rawSlug)
+    // O App Router entrega o slug percent-encoded (ex: eletr%C3%B3litos-…)
+    // — sem decode, o deaccent não fazia nada e a variante acentuada dava
+    // sempre "não encontrado" apesar do fallback existir.
+    let decoded = rawSlug
+    try {
+      decoded = decodeURIComponent(rawSlug)
+    } catch {
+      // encoding inválido — mantém o original
+    }
+    slug = deaccentSlug(decoded)
     filePath = path.join(ARTICLES_DIR, `${slug}.md`)
   }
   if (!fs.existsSync(filePath)) return null
