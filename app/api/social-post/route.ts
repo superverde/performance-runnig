@@ -120,7 +120,7 @@ REGRAS ABSOLUTAS:
 4. NUNCA: português do Brasil, IA genérica, influencer vazio, jargão científico sem aplicação
 5. Cada plataforma tem texto diferente e nativo
 6. Hashtags NÃO aumentam alcance no Instagram (só categorizam o conteúdo) — o que gera alcance é a legenda escrita com palavras-chave reais ("treino de corrida", "meia maratona", "VO2max") na frase, não uma lista de tags. Nunca usar mais do que as 4 hashtags dadas acima.
-6. PORTUGUÊS DE PORTUGAL — REGRA ABSOLUTA. Nunca usar português do Brasil. Substitui SEMPRE:
+7. PORTUGUÊS DE PORTUGAL — REGRA ABSOLUTA. Nunca usar português do Brasil. Substitui SEMPRE:
    PRONOMES/TRATAMENTO:
    ❌ "você" → ✅ "tu"
    ❌ "seus corredores" → ✅ "os teus treinos"
