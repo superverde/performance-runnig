@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
 import { pickCategoryImage } from '@/lib/images'
+import { hashtagsFor } from '@/lib/hashtags'
 import { redis } from '@/lib/redis'
 
 // ── TIPOS ────────────────────────────────────────────────────────────────────
@@ -35,25 +36,6 @@ function isConfigured(value: string | undefined): boolean {
 function selectImage(slug: string, category: string): string {
   return pickCategoryImage(category, slug, 1080)
 }
-
-// ── HASHTAGS POR CATEGORIA ───────────────────────────────────────────────────
-
-// Estratégia PT/BR (auditoria 2026-07-17): 47% do tráfego vinha dos EUA com bounce
-// de 64% — hashtags DE/FR/ES/EN removidas para focar audiência lusófona (PT + BR).
-// Tags BR de alto volume: #corridaderua #vidadecorredor #corredoresderua
-const CATEGORY_HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #treinodecorrida #corrida #corridaderua #vidadecorredor #corridaportugal #corredores #performancerunning',
-  'Fisiologia':    '#fisiologia #vo2max #resistencia #corrida #corredores #vidadecorredor #corridaportugal #performancerunning',
-  'Nutrição':      '#nutricao #nutricaoesportiva #corrida #corredores #maratona #vidadecorredor #corridaportugal #performancerunning',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #corrida #corredores #corridaderua #vidadecorredor #performancerunning',
-  'Recuperação':   '#recuperacao #corrida #corredores #vidadecorredor #corridaportugal #descanso #performancerunning',
-  'Psicologia':    '#psicologiadoesporte #mentalidade #corrida #corredores #vidadecorredor #corridaportugal #performancerunning',
-  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #trailbrasil #corridademontanha #corredores #performancerunning',
-  'Lesões':        '#lesoes #prevencaodelesoes #corrida #corredores #fisioterapia #vidadecorredor #performancerunning',
-  'VO2max':        '#vo2max #fisiologia #corrida #resistencia #corredores #corridaportugal #vidadecorredor #performancerunning',
-}
-
-const DEFAULT_HASHTAGS = '#corrida #corridaderua #treinodecorrida #atletismo #corredores #vidadecorredor #corridaportugal #performancerunning'
 
 // ── CORREÇÃO PT-PT (pós-processamento determinístico, custo zero) ────────────
 
@@ -105,14 +87,14 @@ async function generateCaptions(article: ArticlePayload): Promise<{
   threads: string
 }> {
   const groqKey = process.env.GROQ_API_KEY
-  const hashtags = CATEGORY_HASHTAGS[article.category] || DEFAULT_HASHTAGS
+  const hashtags = hashtagsFor(article.category)
   const link = `${SITE_URL}/blog/${article.slug}`
 
   if (!groqKey) {
     // Fallback sem Groq
     return {
       x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
-      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags} #portugal #fitness`,
+      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags}`,
       facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
       threads: `${article.title}\n\n${article.excerpt.slice(0, 200)}`,
     }
@@ -128,8 +110,8 @@ RESUMO: ${article.excerpt}
 LINK: ${link}
 CATEGORIA: ${article.category}
 
-HASHTAGS (incluir SEMPRE — obrigatório):
-${hashtags} #corridaportugal #runningportugal #atletismoportugal #corredoresportugal #performancerunning
+HASHTAGS (usar EXATAMENTE estas 4 — nunca inventar mais, nunca juntar outras):
+${hashtags}
 
 REGRAS ABSOLUTAS:
 1. Primeiro gancho tem de prender imediatamente — sem introduções mortas
@@ -137,6 +119,7 @@ REGRAS ABSOLUTAS:
 3. Tom: credível, direto, prático — como alguém que percebe muito de corrida e respeita a ciência
 4. NUNCA: português do Brasil, IA genérica, influencer vazio, jargão científico sem aplicação
 5. Cada plataforma tem texto diferente e nativo
+6. Hashtags NÃO aumentam alcance no Instagram (só categorizam o conteúdo) — o que gera alcance é a legenda escrita com palavras-chave reais ("treino de corrida", "meia maratona", "VO2max") na frase, não uma lista de tags. Nunca usar mais do que as 4 hashtags dadas acima.
 6. PORTUGUÊS DE PORTUGAL — REGRA ABSOLUTA. Nunca usar português do Brasil. Substitui SEMPRE:
    PRONOMES/TRATAMENTO:
    ❌ "você" → ✅ "tu"
@@ -169,8 +152,8 @@ REGRAS ABSOLUTAS:
 Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
 {
   "x": "post X/Twitter — máx 270 chars, hook forte, 1 facto surpreendente ou estatística, link, 3-4 hashtags",
-  "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor, emoji moderado, CTA 'link na bio', TODAS as hashtags no fim numa linha separada",
-  "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, 4-6 hashtags relevantes integradas ou no fim",
+  "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor com palavras-chave do tema escritas no texto (não só nas hashtags), emoji moderado, CTA 'link na bio', as 4 hashtags dadas no fim numa linha separada",
+  "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, as 4 hashtags dadas no fim",
   "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, sem link"
 }`
 

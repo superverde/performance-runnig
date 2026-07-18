@@ -22,14 +22,18 @@ const TEMAS_POR_DIA = [
   'fisiologia e VO2max',                               // Domingo
 ]
 
+// Reduzido para 4 hashtags específicos por dia — ver [[lib/hashtags.ts]].
+// Hashtags não aumentam alcance no Instagram (só categorizam o conteúdo);
+// mais de 4 hashtags genéricos por post é tratado como sinal de spam pelo
+// algoritmo em vez de sinal de relevância.
 const HASHTAGS_POR_DIA = [
-  '#treino #running #treinodecorrida #corridaportugal #performancerunning #corredores',
-  '#pacing #overtraining #running #corridaportugal #performancerunning #corredores',
-  '#nutricao #runningfuel #corridaportugal #performancerunning #corredores #maratona',
-  '#biomecanica #tecnicadecorrida #running #performancerunning #corredores',
-  '#running #maratona #corridaportugal #performancerunning #corredores #prova',
-  '#recuperacao #recovery #running #performancerunning #corredores #sono',
-  '#vo2max #fisiologia #running #endurance #performancerunning #corredores',
+  '#treino #treinodecorrida #planosemanal #corredores',
+  '#pacing #overtraining #treino #corredores',
+  '#nutricaodesportiva #runningfuel #hidratacao #corredores',
+  '#biomecanica #tecnicadecorrida #posturadecorrida #corredores',
+  '#maratona #estrategiadecorrida #corridaportugal #corredores',
+  '#recuperacao #recovery #sono #corredores',
+  '#vo2max #fisiologia #resistenciaaerobica #corredores',
 ]
 
 function fixPtPt(text: string): string {
@@ -61,12 +65,13 @@ REGRAS:
 3. SEMPRE em português de Portugal (tu, treinas, corres — nunca você, seus, Não perca)
 4. Não inclui link — é conteúdo standalone para gerar alcance e partilhas
 5. Tom: autoridade científica + linguagem acessível
+6. Hashtags: usa APENAS estas 4 — nunca inventes mais: ${hashtags}. Hashtags não aumentam alcance no Instagram (só categorizam); o alcance vem das palavras-chave escritas na frase.
 
 Responde em JSON:
 {
-  "facebook": "post Facebook: facto + 1-2 frases de contexto + hashtags no fim",
-  "instagram": "post Instagram: facto + 1-2 frases + hashtags no fim",
-  "x": "post X: máx 270 chars, só o facto + 2-3 hashtags"
+  "facebook": "post Facebook: facto + 1-2 frases de contexto + as 4 hashtags dadas no fim",
+  "instagram": "post Instagram: facto + 1-2 frases + as 4 hashtags dadas no fim",
+  "x": "post X: máx 270 chars, só o facto + 2 das 4 hashtags dadas"
 }`
 
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {

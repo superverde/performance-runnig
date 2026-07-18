@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
 import { getAllArticles } from '@/lib/articles'
 import { pickCategoryImage } from '@/lib/images'
+import { hashtagsFor } from '@/lib/hashtags'
 import { redis } from '@/lib/redis'
 
 const SITE_URL = 'https://www.performancerunning.pt'
@@ -27,24 +28,12 @@ function fixPtPt(text: string): string {
   return out
 }
 
-const CATEGORY_HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #running #treinodecorrida #corridaportugal #performancerunning #corredores',
-  'Fisiologia':    '#fisiologia #vo2max #running #endurance #performancerunning #corredores',
-  'Nutrição':      '#nutricao #runningfuel #corridaportugal #performancerunning #corredores',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #running #performancerunning #corredores',
-  'Recuperação':   '#recuperacao #recovery #running #performancerunning #corredores',
-  'Trail Running': '#trailrunning #trail #trailportugal #mountainrunning #performancerunning',
-  'Lesões':        '#lesoes #prevencaodelesoes #runninginjury #performancerunning #corredores',
-  'VO2max':        '#vo2max #fisiologia #running #endurance #performancerunning #corredores',
-}
-const DEFAULT_HASHTAGS = '#corrida #running #corridaportugal #performancerunning #corredores'
-
 async function generateEveningCaptions(article: {
   title: string; excerpt: string; slug: string; category: string
 }): Promise<{ facebook: string; instagram: string; x: string }> {
   const groqKey = process.env.GROQ_API_KEY
   const link = `${SITE_URL}/blog/${article.slug}`
-  const hashtags = CATEGORY_HASHTAGS[article.category] ?? DEFAULT_HASHTAGS
+  const hashtags = hashtagsFor(article.category)
 
   if (!groqKey) {
     return {
@@ -60,14 +49,14 @@ ARTIGO:
 TÍTULO: ${article.title}
 RESUMO: ${article.excerpt}
 LINK: ${link}
-HASHTAGS: ${hashtags}
+HASHTAGS (usar EXATAMENTE estas 4 — nunca inventar mais): ${hashtags}
 
 REGRAS:
 1. Ângulo de engagement: termina com uma pergunta directa à audiência ("E tu?", "Já tentaste?", "Qual é o teu maior erro em X?")
 2. Tom mais casual e próximo do que o post da manhã — final do dia, comunidade
 3. SEMPRE português de Portugal (tu, treinas, corres — nunca você, seus, Não perca)
 4. Cada plataforma com texto diferente e nativo
-5. Hashtags obrigatórias no fim
+5. As 4 hashtags no fim — nunca mais do que isso. Hashtags só categorizam, não aumentam alcance; o alcance vem das palavras-chave escritas na frase (ex: "treino de corrida", "meia maratona")
 
 Responde em JSON:
 {
