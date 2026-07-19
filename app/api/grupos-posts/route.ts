@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
-import { getAllArticles } from '@/lib/articles'
+import { getAllArticles, getTodayArticles, type ArticleMeta } from '@/lib/articles'
+import { hashtagsFor } from '@/lib/hashtags'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -15,58 +16,56 @@ function fixPtPt(text: string): string {
   return out
 }
 
-// Regra: hashtags PT + 3-4 internacionais (EN/ES/FR/DE) para alcance em grupos
-// globais, não só portugueses — ver memória "hashtags-comunidades-globais".
-// Estratégia PT/BR (auditoria 2026-07-17) — ver comentário em social-post/route.ts
-const HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #treinodecorrida #corrida #corridaderua #corredores #vidadecorredor #corridaportugal #performancerunning',
-  'Fisiologia':    '#fisiologia #vo2max #resistencia #corrida #corredores #vidadecorredor #corridaportugal #performancerunning',
-  'Nutrição':      '#nutricao #nutricaoesportiva #corrida #corredores #maratona #vidadecorredor #corridaportugal #performancerunning',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #corrida #corredores #corridaderua #vidadecorredor #performancerunning',
-  'Recuperação':   '#recuperacao #corrida #corredores #vidadecorredor #corridaportugal #descanso #performancerunning',
-  'VO2max':        '#vo2max #fisiologia #corrida #resistencia #corredores #corridaportugal #vidadecorredor #performancerunning',
-  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #trailbrasil #corridademontanha #corredores #performancerunning',
-  'Lesões':        '#lesoes #prevencaodelesoes #corrida #corredores #fisioterapia #vidadecorredor #performancerunning',
-  'Psicologia':    '#psicologia #mindset #running #corredores #performancerunning #sportpsychologie #psicologiadeportiva',
+// Corta o excerto na primeira frase e trunca a ~110 chars, terminando em
+// reticências — o post NÃO deve contar o artigo todo, só abrir a curiosidade
+// (curiosity gap). O valor completo fica atrás do clique.
+function teaseFrom(excerpt: string): string {
+  const firstSentence = excerpt.split(/(?<=[.!?])\s+/)[0] ?? excerpt
+  const cut = firstSentence.length > 110 ? `${firstSentence.slice(0, 110).trimEnd()}` : firstSentence
+  // remove pontuação final e fecha com reticências para deixar em aberto
+  return `${cut.replace(/[.!?…\s]+$/, '')}…`
 }
 
-const DEFAULT_HASHTAGS = '#corrida #corridaderua #treinodecorrida #atletismo #corredores #vidadecorredor #corridaportugal #performancerunning'
-
-function buildGroupPost(
-  article: { title: string; excerpt: string; slug: string; category: string },
-  slot: number
-): string {
+// Templates teaser por slot do dia: gancho + curiosidade + link. Nunca colar o
+// excerto completo — se o post responde à pergunta, ninguém clica.
+function buildGroupPost(article: ArticleMeta, slot: number): string {
   const link = `${SITE_URL}/blog/${article.slug}`
-  const tags = HASHTAGS[article.category] ?? DEFAULT_HASHTAGS
+  const tags = hashtagsFor(article.category)
+  const tease = teaseFrom(article.excerpt)
   const templates = [
-    `🔬 ${article.title}\n\n${article.excerpt}\n\nLê o artigo completo → ${link}\n\n${tags}`,
-    `Sabias que...\n\n${article.excerpt}\n\n📖 ${article.title}\n\n${link}\n\n${tags}`,
-    `💡 ${article.title}\n\n${article.excerpt}\n\nVê a análise completa → ${link}\n\n${tags}`,
+    // Manhã — facto que intriga
+    `🔬 ${tease}\n\nA maioria dos corredores só descobre isto depois de perder meses de progresso. Publicámos hoje a explicação completa, com base científica:\n\n👉 ${link}\n\n${tags}`,
+    // Tarde — desafio/erro comum
+    `Pergunta séria para quem treina: ${tease}\n\nO artigo de hoje mostra o que a ciência diz — e provavelmente não é o que estás a fazer.\n\n📖 ${article.title}\n👉 ${link}\n\n${tags}`,
+    // Noite — pergunta à comunidade (engagement)
+    `💬 ${tease}\n\nSaiu hoje no site a análise completa. Antes de leres: qual é a tua experiência com isto? Conta nos comentários 👇\n\n👉 ${link}\n\n${tags}`,
   ]
   return fixPtPt(templates[slot] ?? templates[0])
 }
 
 export async function GET() {
-  const articles = getAllArticles()
-  if (articles.length === 0) return NextResponse.json({ posts: [] })
+  // Prioridade: os artigos publicados HOJE no site (3/dia). Se por alguma
+  // razão ainda não houver 3 (ex: manhã cedo, atraso do GitHub Action),
+  // completa com os mais recentes do arquivo — nunca mostra a página vazia.
+  const today = getTodayArticles()
+  const all = getAllArticles()
+  if (all.length === 0) return NextResponse.json({ posts: [] })
+
+  const chosen: ArticleMeta[] = [...today]
+  for (const a of all) {
+    if (chosen.length >= 3) break
+    if (!chosen.some((c) => c.slug === a.slug)) chosen.push(a)
+  }
 
   const now = new Date()
-  const dayOfYear = Math.floor(
-    (now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86_400_000
-  )
-
-  const posts = [0, 1, 2].map((slot) => {
-    const index = (dayOfYear * 3 + slot) % articles.length
-    const article = articles[index]
-    return {
-      slot,
-      hora: ['08:00', '13:00', '19:00'][slot],
-      titulo: article.title,
-      categoria: article.category,
-      link: `${SITE_URL}/blog/${article.slug}`,
-      texto: buildGroupPost(article, slot),
-    }
-  })
+  const posts = chosen.slice(0, 3).map((article, slot) => ({
+    slot,
+    hora: ['08:00', '13:00', '19:00'][slot],
+    titulo: article.title,
+    categoria: article.category,
+    link: `${SITE_URL}/blog/${article.slug}`,
+    texto: buildGroupPost(article, slot),
+  }))
 
   return NextResponse.json({ posts, date: now.toISOString().slice(0, 10) })
 }
