@@ -48,13 +48,34 @@ async function getVercelAnalyticsStats(yesterday: string): Promise<AnalyticsStat
   if (!process.env.VERCEL_ANALYTICS_TOKEN || !process.env.VERCEL_PROJECT_ID) return null
 
   try {
-    // Totais do dia (agrupado por dia — devolve uma linha para "yesterday")
+    // Janela alargada (3 dias) em vez de since=until=ontem: a API de Web
+    // Analytics da Vercel por vezes ainda não tem o dia mais recente
+    // totalmente agregado no momento em que o cron corre (07h UTC) e devolve
+    // `data: []` mesmo havendo tráfego real nesse dia — foi o que aconteceu
+    // no relatório de 22/07 (dashboard mostrava ~35 visitantes, API devolveu 0).
+    // Pedimos um intervalo maior por dia e escolhemos a linha certa, com
+    // fallback para a mais recente disponível.
+    const since = new Date(new Date(yesterday + 'T00:00:00Z').getTime() - 2 * 86400000)
+      .toISOString().slice(0, 10)
+
     const totals = await vercelAnalyticsQuery('visits/aggregate', {
-      since: yesterday,
+      since,
       until: yesterday,
       by: 'day',
     })
-    const dayRow = totals?.data?.[0]
+
+    const rows: { timestamp?: string; pageviews?: number; visitors?: number }[] = totals?.data ?? []
+    const dayRow =
+      rows.find(r => (r.timestamp ?? '').slice(0, 10) === yesterday) ??
+      rows[rows.length - 1]
+
+    if (!dayRow) {
+      console.error(
+        `[daily-report] Sem dados de Vercel Analytics para ${since}..${yesterday}. Resposta bruta:`,
+        JSON.stringify(totals),
+      )
+    }
+
     const pageviews = dayRow?.pageviews ?? 0
     const visitors = dayRow?.visitors ?? 0
 
