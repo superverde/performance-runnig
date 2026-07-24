@@ -129,6 +129,32 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* VÍDEO — apresentação em vídeo (gerado com Synthesia) da filosofia de
+          treino, logo a seguir ao hero para reforçar a credibilidade antes
+          da newsletter. Vídeo servido diretamente do CDN da Synthesia (o
+          mesmo ficheiro usado no og:video da página de partilha). */}
+      <section className="relative py-20 sm:py-28 border-t border-white/5 bg-[#0a0a0a] overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-brand-green/5 rounded-full blur-[140px] pointer-events-none" />
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10" data-reveal>
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'video_label')}</p>
+            <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2rem, 5vw, 4rem)' }}>{t('hp', 'video_title')}</h2>
+            <p className="text-white/55 text-sm sm:text-base max-w-xl mx-auto mt-4 leading-relaxed">{t('hp', 'video_desc')}</p>
+          </div>
+          <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl" data-reveal style={{ aspectRatio: '16 / 9' }}>
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="https://69jr5v75rc.execute-api.eu-west-1.amazonaws.com/prod/e410220a-6b09-44d4-a8f1-5d092a173b4a/thumbnail.jpg"
+              className="absolute inset-0 w-full h-full object-cover bg-black"
+            >
+              <source src="https://synthesia-ttv-data.s3-eu-west-1.amazonaws.com/video_data/e410220a-6b09-44d4-a8f1-5d092a173b4a/transfers/rendered_video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* NEWSLETTER — movida para logo a seguir ao hero, antes do resto do
           conteúdo, para captar subscritores enquanto a atenção ainda está
           alta (pedido do Pedro: "devia estar logo na 1ª página"). */}
