@@ -2,39 +2,36 @@
 title: "Cadência de Corrida: A Regra dos 180 SPM É Real?"
 date: '2026-07-24'
 category: "Biomecânica"
-excerpt: "A corrida é um esporte que exige uma combinação ideal de força, velocidade e agilidade. No entanto, a forma como corremos é fundamental para evitar lesões e alcançar os nossos objetivos. Uma das regra…"
+excerpt: "A regra dos 180 passos por minuto tem origem numa observação informal de 1984 e continua a ser tratada como lei — mas a cadência ideal depende da altura, da velocidade e da técnica de cada corredor."
 readTime: 4
 ---
 
-A corrida é um esporte que exige uma combinação ideal de força, velocidade e agilidade. No entanto, a forma como corremos é fundamental para evitar lesões e alcançar os nossos objetivos. Uma das regras mais comuns na corrida é a cadência de corrida, que se refere à frequência com que os pés batem no chão. Uma das regras mais comuns é a de que a cadência ideal é de 180 passos por minuto (SPM). Mas é verdade que a regra dos 180 SPM é real?
+A cadência de corrida — o número de passos que dás por minuto — tornou-se um dos números mais discutidos no treino de corrida desde que se popularizou a ideia de que os 180 passos por minuto (SPM) seriam o valor "ideal" para qualquer corredor. Esta regra teve origem numa observação informal do treinador Jack Daniels durante os Jogos Olímpicos de 1984, ao contar a cadência dos corredores de fundo em prova: a maioria rondava os 180 SPM, independentemente do ritmo. Mais de quarenta anos depois, esse número continua a circular como se fosse uma lei biomecânica universal.
 
-A ideia de que a cadência de corrida é fundamental para a eficiência e a segurança é amplamente aceita entre os corredores e os treinadores. No entanto, a questão é: qual é a cadência ideal? A resposta não é simples e depende de vários fatores, incluindo a distância, a velocidade e o estilo de corrida. Além disso, a ideia de que a cadência de corrida é uma regra rígida pode ser limitante para os corredores que buscam optimizar sua forma de corrida.
+Não é. A cadência é uma variável real e mensurável, com implicações genuínas na economia de corrida e no risco de lesão, mas tratá-la como um alvo fixo para toda a gente ignora um facto simples: a cadência ideal depende da altura, do comprimento de perna, da velocidade e da técnica individual de cada corredor. Um corredor de 1,60m e outro de 1,90m não vão correr de forma eficiente à mesma cadência, mesmo ao mesmo ritmo.
 
 ## Base Científica
 
-A corrida é um movimento complexo que envolve a interação de múltiplos sistemas do corpo, incluindo os músculos, os ossos e a coluna vertebral. A cadência de corrida é influenciada por vários fatores, incluindo a velocidade, a distância e o estilo de corrida. De acordo com a teoria da biomecânica, a cadência de corrida é determinada pela frequência com que os pés batem no chão e pela amplitude do movimento do pé.
+A cadência está diretamente ligada a duas variáveis que a biomecânica da corrida tenta otimizar: o tempo de contacto com o solo e a amplitude do movimento vertical do centro de massa. Cadências demasiado baixas para a velocidade em causa tendem a associar-se a passadas mais longas e a um contacto do pé mais à frente do centro de massa — o padrão conhecido como overstriding, que aumenta as forças de impacto no momento do contacto inicial (Lieberman et al., 2010).
 
-A frequência cardíaca e a respiração também são influenciadas pela cadência de corrida. De acordo com um estudo publicado na revista Sports Medicine, a frequência cardíaca aumenta com a velocidade da corrida e a frequência respiratória também aumenta com a cadência de corrida (Moore, 2016). No entanto, a amplitude do movimento do pé também é importante para a eficiência e a segurança da corrida.
+Moore (2016), numa revisão sistemática sobre os fatores biomecânicos modificáveis que influenciam a economia de corrida, identifica a cadência como uma das variáveis com evidência mais consistente: aumentos moderados de cadência (na ordem dos 5-10%) tendem a reduzir a amplitude vertical e o tempo de contacto com o solo, sem custo relevante no consumo de oxigénio. Ou seja, existe margem real para otimizar a cadência em corredores com valores muito baixos para a sua velocidade — mas isso é diferente de impor um número fixo a todos.
 
 ## Aplicação Prática
 
-A aplicação prática da cadência de corrida é importante para os corredores que buscam optimizar sua forma de corrida. A ideia de que a cadência de corrida é uma regra rígida pode ser limitante para os corredores que buscam adaptar sua forma de corrida às suas necessidades individuais. Além disso, a cadência de corrida pode variar dependendo da distância e da velocidade da corrida.
+Na prática, o valor de referência mais útil não é "180 para todos", mas sim a tua própria cadência habitual medida em ritmo confortável — a maioria dos relógios GPS mede isto automaticamente. Se estiveres claramente abaixo do que seria expectável para a tua velocidade (por exemplo, sub-160 SPM a um ritmo de 10 km), há margem de manobra. Se já estiveres entre 172-185 SPM, forçar os 180 exatos não traz benefício adicional.
 
-Por exemplo, durante uma corrida de longa distância, a cadência de corrida pode ser mais lenta para evitar o esgotamento muscular. Já durante uma corrida de curta distância, a cadência de corrida pode ser mais rápida para alcançar a velocidade necessária. Além disso, a amplitude do movimento do pé também é importante para a eficiência e a segurança da corrida.
+O protocolo mais seguro para quem precisa de ajustar é o aumento gradual: 3 a 5% acima da cadência habitual, sustentado durante blocos de 3 a 5 minutos dentro de um treino fácil, com progressão ao longo de 3 a 4 semanas. Um metrónomo ou a função de cadência-alvo do relógio ajudam a manter o estímulo constante sem exigir pensamento consciente em todos os passos.
 
 ## Erros Comuns
 
-Alguns dos erros comuns que os corredores cometem ao se referir à cadência de corrida incluem:
-
-* Acreditar que a cadência de corrida é uma regra rígida que deve ser seguida em todas as situações.
-* Ignorar a amplitude do movimento do pé e a velocidade da corrida ao se referir à cadência de corrida.
-* Não adaptar a forma de corrida às necessidades individuais do corredor.
+- Perseguir os 180 SPM como número absoluto, ignorando altura, comprimento de perna e velocidade de corrida.
+- Aumentar a cadência de forma abrupta (mais de 10% de um dia para o outro), sobrecarregando gémeos e tendão de Aquiles, que passam a trabalhar com maior frequência de contração.
+- Confundir cadência com comprimento de passada: os dois compensam-se mutuamente, e mexer só num sem considerar o outro distorce a mecânica de corrida.
+- Aplicar a mesma cadência-alvo a todos os ritmos de treino, quando a cadência sobe naturalmente com a velocidade.
 
 ## Protocolo/Conclusão
 
-A cadência de corrida é um fator importante para a eficiência e a segurança da corrida. No entanto, a ideia de que a cadência de corrida é uma regra rígida pode ser limitante para os corredores que buscam optimizar sua forma de corrida. A amplitude do movimento do pé e a velocidade da corrida também são importantes para a eficiência e a segurança da corrida.
-
-Portanto, é importante que os corredores sejam flexíveis e adaptem sua forma de corrida às suas necessidades individuais. Além disso, é importante que os corredores tenham uma visão holística da corrida e considerem todos os fatores que influenciam a eficiência e a segurança da corrida.
+A regra dos 180 SPM não é um mito completo, mas também não é uma lei biomecânica: é uma média populacional observada num grupo específico de atletas de elite, em 1984, a um ritmo de competição. Usa a tua cadência habitual como ponto de partida, ajusta apenas se houver sinais claros de overstriding (passada muito longa, impacto forte no calcanhar, lesões recorrentes de sobrecarga) e faz qualquer alteração de forma gradual, monitorizada ao longo de várias semanas — nunca como um interruptor que se liga de um treino para o outro.
 
 ## Referências Científicas
 

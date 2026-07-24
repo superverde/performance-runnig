@@ -405,7 +405,7 @@ Categoria: ${topic.category}
 REGRAS OBRIGATÓRIAS:
 1. Tom profissional, técnico mas acessível — como um treinador de elite a explicar ciência
 2. Nunca soar a IA genérica. Sem frases como "Neste artigo vamos explorar..."
-3. Português de Portugal — nunca brasileirismos (usa "treino" não "treinamento", "fixe" não "legal", etc.)
+3. Português de Portugal — nunca brasileirismos. Palavras PROIBIDAS e o equivalente PT-PT a usar: "esporte"→"desporto", "esportivo/esportiva"→"desportivo/desportiva", "treinamento"→"treino", "estresse"/"estressante"→"stress"/"tensão", "você"→"tu", "contato"→"contacto", "equipe"→"equipa", "tênis" (calçado)→"sapatilhas" ou "ténis", "suco"→"sumo", "celular"→"telemóvel", "ônibus"→"autocarro", "geladeira"→"frigorífico", "banheiro"→"casa de banho", "registrar/registro"→"registar/registo", "garoto/garota"→"rapaz/rapariga", "camiseta"→"t-shirt" ou "camisola". Relê o texto antes de responder e corrige qualquer uma destas palavras.
 4. Incluir exemplos práticos e aplicáveis, com valores numéricos e protocolos quando fizer sentido
 5. Estrutura com ## para secções principais (Base Científica, Aplicação Prática, Erros Comuns, Protocolo/Conclusão)
 6. Comprimento: 800-1200 palavras de corpo (sem contar frontmatter nem referências)
@@ -429,7 +429,7 @@ Categoria: Equipamento
 
 REGRAS OBRIGATÓRIAS:
 1. Tom de especialista/reviewer de equipamento de alta performance — nunca genérico ou tipo "loja online"
-2. Português de Portugal — nunca brasileirismos
+2. Português de Portugal — nunca brasileirismos. Palavras PROIBIDAS e o equivalente PT-PT a usar: "esporte"→"desporto", "esportivo/esportiva"→"desportivo/desportiva", "treinamento"→"treino", "estresse"/"estressante"→"stress"/"tensão", "você"→"tu", "contato"→"contacto", "equipe"→"equipa", "tênis" (calçado)→"sapatilhas" ou "ténis", "suco"→"sumo", "celular"→"telemóvel", "ônibus"→"autocarro", "geladeira"→"frigorífico", "banheiro"→"casa de banho", "registrar/registro"→"registar/registo", "garoto/garota"→"rapaz/rapariga", "camiseta"→"t-shirt" ou "camisola". Relê o texto antes de responder e corrige qualquer uma destas palavras.
 3. Estrutura com ## para secções: Introdução (sem cabeçalho, 100-150 palavras), "## Como Escolher: Critérios Que Importam" (250-350 palavras, critérios técnicos com base científica), "## As Melhores Opções em 2026" (4-6 produtos reais e atuais: nome, para quem é, pontos fortes/fracos, faixa de preço — NUNCA preços exatos, usa faixas como "entre 150€ e 200€"), "## Veredicto: Qual Comprar" (150-200 palavras, recomendação por perfil: iniciante, competidor, orçamento limitado)
 4. Incluir no mínimo 3 links internos no corpo do texto: um para [Equipamento](/equipamento), e links para estes dois artigos relacionados: [artigo relacionado 1](${related[0] || '/equipamento'}) e [artigo relacionado 2](${related[1] || '/equipamento'})
 5. Terminar o corpo (antes das referências) com a linha: "👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**"
@@ -440,6 +440,53 @@ REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 3):
 ${refsList}
 
 Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo a secção final de Referências).`
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// GATE DE IDIOMA — bloqueia publicação de artigos em português do Brasil
+//
+// O prompt já pede explicitamente PT-PT, mas o modelo (llama-3.1-8b-instant,
+// tier gratuito da Groq) nem sempre obedece — em 2026-07-24 publicaram-se 3
+// artigos com "esporte", "você" e "estresse" apesar da instrução. Regra do
+// Pedro: os artigos NUNCA, em circunstância nenhuma, podem sair em PT-BR.
+// Por isso a instrução no prompt deixou de ser suficiente por si só — este
+// gate corre DEPOIS da geração e impede fisicamente que texto com marcadores
+// de PT-BR chegue a ser escrito em content/blog/.
+// ─────────────────────────────────────────────────────────────────────────────
+// Nota técnica: \b do JS baseia-se em \w (só ASCII), pelo que uma fronteira
+// logo a seguir a uma vogal acentuada (ex.: o "ê" de "você") nunca é
+// detetada como fronteira de palavra e o \b falha silenciosamente. Por isso
+// usamos (?<!\p{L})...(?!\p{L}) com a flag /u, que reconhece qualquer letra
+// Unicode (incluindo acentuadas) como parte de uma "palavra".
+function wordMarker(term) {
+  return new RegExp(`(?<![\\p{L}])${term}(?![\\p{L}])`, 'iu')
+}
+
+const BR_PT_MARKERS = [
+  'esporte', 'esportiv[oa]s?',
+  'treinamento',
+  'estresse', 'estressante',
+  'você',
+  'contato',
+  'equipe',
+  'tênis',
+  'suco',
+  'celular',
+  'ônibus',
+  'geladeira',
+  'banheiro',
+  'registrar', 'registro',
+  'garot[oa]',
+  'camiseta',
+].map(wordMarker)
+
+function findBrazilianMarkers(text) {
+  const found = []
+  for (const re of BR_PT_MARKERS) {
+    const m = text.match(re)
+    if (m) found.push(m[0])
+  }
+  return found
 }
 
 function extractExcerpt(content) {
@@ -546,7 +593,38 @@ async function main() {
           ? buildCommercialPrompt(topic, relatedSlugs)
           : buildTechnicalPrompt(topic)
 
-        const content = await callGroq(prompt)
+        // Gate de idioma: até 2 tentativas extra se o texto sair em PT-BR.
+        // Nunca escrevemos ficheiro nenhum enquanto o conteúdo tiver
+        // marcadores de português do Brasil — falha fechada, não aberta.
+        const MAX_LANGUAGE_ATTEMPTS = 3
+        let content = null
+        let brMarkers = []
+        for (let langAttempt = 1; langAttempt <= MAX_LANGUAGE_ATTEMPTS; langAttempt++) {
+          const attemptPrompt = langAttempt === 1
+            ? prompt
+            : `${prompt}\n\nATENÇÃO: a tua resposta anterior continha português do Brasil (palavras como: ${brMarkers.join(', ')}). Reescreve TUDO em português de Portugal correto, sem nenhuma dessas palavras nem equivalentes brasileiros.`
+
+          if (langAttempt > 1) {
+            console.log(`  ⏸  A aguardar ${PAUSE_BETWEEN_CALLS_MS / 1000}s antes de repetir por causa de PT-BR (tentativa ${langAttempt}/${MAX_LANGUAGE_ATTEMPTS})...`)
+            await new Promise(r => setTimeout(r, PAUSE_BETWEEN_CALLS_MS))
+          }
+
+          const draft = await callGroq(attemptPrompt)
+          brMarkers = findBrazilianMarkers(draft)
+
+          if (brMarkers.length === 0) {
+            content = draft
+            break
+          }
+
+          console.warn(`  🇧🇷 PT-BR detetado (tentativa ${langAttempt}/${MAX_LANGUAGE_ATTEMPTS}): ${brMarkers.join(', ')}`)
+        }
+
+        if (!content) {
+          console.error(`❌ ${topic.slug}: manteve português do Brasil após ${MAX_LANGUAGE_ATTEMPTS} tentativas — NÃO publicado (a saltar para o próximo tópico).`)
+          continue
+        }
+
         const mdx = buildMdx(topic, content, today)
         const fileSlug = deaccent(topic.slug)
         const filePath = path.join(ARTICLES_DIR, `${fileSlug}.md`)

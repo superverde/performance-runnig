@@ -2,42 +2,38 @@
 title: "Overstriding: O Erro de Passada Que Causa 80% das Lesões"
 date: '2026-07-24'
 category: "Biomecânica"
-excerpt: "Quando falamos de corrida, é comum ouvir falar sobre a importância da técnica. No entanto, muitos corredores não sabem que a principal causa de lesões é a overstriding, ou seja, o erro de passada que …"
+excerpt: "Overstriding — aterrar com o pé bem à frente do centro de massa — transforma cada passada num pequeno travão. Percebe porque é um dos padrões mais associados a lesões de sobrecarga e como corrigi-lo sem criar um problema novo."
 readTime: 4
 ---
 
-Quando falamos de corrida, é comum ouvir falar sobre a importância da técnica. No entanto, muitos corredores não sabem que a principal causa de lesões é a overstriding, ou seja, o erro de passada que causa 80% das lesões em corredores de endurance. A overstriding é caracterizada por uma passada longa e pesada, onde o pé toca o solo com força, o que pode levar a lesões nos tornozelos, panturrilhas e joelhos.
+Overstriding é o termo técnico para um erro de passada muito específico: o pé toca o solo bem à frente do centro de massa do corpo, em vez de aterrar próximo dele. O resultado é um contacto inicial que atua como um travão a cada passo — em vez de propulsão, gera-se uma força de frenagem que o corpo tem de absorver antes de conseguir avançar. É um dos padrões de passada mais associados a lesões de sobrecarga em corredores de fundo, precisamente porque multiplica o número de vezes que essa força de impacto é aplicada ao longo de um treino ou de uma prova.
 
-A overstriding é um problema comum em corredores que começam a treinar com frequência ou que aumentam a intensidade do seu treino. Muitos corredores acreditam que a corrida deve ser feita com longas passadas, mas na realidade, a corrida é uma atividade que requer uma técnica eficiente e econômica. Quando a técnica é inadequada, o corpo começa a se adaptar de forma inadequada, levando a lesões e problemas de longo prazo.
-
-A overstriding é mais comum em corredores que têm uma postura mais vertical, com os ombros mais para trás e o pescoço mais retraído. Além disso, a overstriding é mais comum em corredores que têm uma falta de força e controle nos músculos da perna e do pé.
+O problema raramente aparece isolado. Overstriding tende a associar-se a cadências baixas para a velocidade em causa, a uma postura mais vertical com o tronco recuado e a défices de força nos glúteos e na cadeia posterior, que deveriam controlar a queda do centro de massa a cada apoio. Corredores que aumentam volume ou intensidade de forma rápida, sem trabalho de técnica ou de força em paralelo, são os mais suscetíveis a desenvolver ou agravar este padrão.
 
 ## Base Científica
 
-A overstriding é um problema que está profundamente relacionado com a biomecânica da corrida. Quando um corredor tem uma passada longa e pesada, o pé toca o solo com força, o que pode levar a uma série de problemas. O pé é projetado para absorver impactos suaves e distribuir a força de forma uniforme, mas quando a overstriding é utilizada, o pé começa a sofrer com o impacto excessivo.
+Lieberman et al. (2010) demonstraram que o padrão de contacto do pé — e a distância a que esse contacto ocorre relativamente ao centro de massa — determina a magnitude do pico de força de impacto transmitido à perna nos primeiros milissegundos após o apoio. Quanto mais à frente o pé aterra, maior tende a ser esse pico, sobretudo em corredores que aterram de calcanhar com o joelho quase em extensão total.
 
-Um estudo publicado na revista Nature em 2010 mostrou que os corredores que utilizam a overstriding têm uma frequência de impacto três vezes maior do que os corredores que utilizam uma técnica mais eficiente. Além disso, o estudo mostrou que a overstriding pode levar a uma perda de eficiência da corrida, o que pode resultar em uma perda de tempo e energia.
+Num estudo retrospetivo com mais de 50 corredores de longa distância, Daoud et al. (2012) associaram o padrão de aterragem ao histórico de lesões de sobrecarga, reforçando que a forma como o pé contacta o solo — e não apenas o volume de treino — é uma variável relevante na equação da lesão. Novacheck (1998), numa revisão de referência sobre a biomecânica da corrida, situa este mecanismo dentro da cadeia cinética completa: overstriding raramente é apenas um "problema do pé", é normalmente o sintoma visível de défices mais acima, na anca e no tronco.
 
 ## Aplicação Prática
 
-Então, como podemos evitar a overstriding e melhorar nossa técnica de corrida? Aqui estão algumas dicas práticas que podem ajudar:
+Corrigir overstriding não passa por forçar um novo padrão de aterragem de um dia para o outro — isso troca um problema por outro (tipicamente sobrecarga no tricípite sural e no tendão de Aquiles). A abordagem com melhor relação risco-benefício trabalha três frentes em simultâneo:
 
-* **Treine a corrida curta**: Em vez de correr com longas passadas, tente correr com passadas curtas e rápidas. Isso ajudará a desenvolver a sua capacidade de absorver impactos e a melhorar a sua eficiência de corrida.
-* **Use a corrida leve**: Tente correr com uma passada leve e eficiente, sem esforço excessivo. Isso ajudará a desenvolver a sua resistência e a melhorar a sua capacidade de absorver impactos.
-* **Treine a força**: A força é fundamental para a corrida. Tente treinar a força dos músculos da perna e do pé com exercícios como o squats, os lunges e os calcanharadas.
-* **Use a corrida de velocidade**: A corrida de velocidade pode ajudar a desenvolver a sua capacidade de absorver impactos e a melhorar a sua eficiência de corrida.
+- **Cadência**: aumentar a cadência em 5-8% tende a encurtar naturalmente a passada e a aproximar o ponto de contacto do centro de massa, sem exigir uma reeducação consciente do padrão de aterragem (Moore, 2016).
+- **Postura em corrida**: procurar uma ligeira inclinação do tronco a partir do tornozelo (não da cintura), com o objetivo de "cair para a frente" a cada passo em vez de travar o avanço.
+- **Força específica**: trabalho de glúteos e isquiotibiais — pontes de glúteo unilaterais, peso morto romeno, step-ups — para dar à cadeia posterior a capacidade de controlar a fase de apoio em vez de deixar o impacto ser absorvido passivamente pela articulação do joelho.
 
 ## Erros Comuns
 
-Aqui estão alguns erros comuns que podem levar a overstriding:
-
-* **Treinar demais**: Treinar demais pode levar a uma falta de força e controle nos músculos da perna e do pé, o que pode resultar em overstriding.
-* **Treinar com passadas longas**: Treinar com passadas longas pode levar a uma falta de eficiência e a uma perda de tempo e energia.
-* **Não ter uma técnica eficiente**: Não ter uma técnica eficiente pode levar a uma perda de eficiência e a uma perda de tempo e energia.
+- Tentar corrigir a aterragem do pé isoladamente (por exemplo, forçar apoio de antepé) sem mexer em cadência ou postura — o resultado mais comum é sobrecarga do gémeo e do tendão de Aquiles em poucas semanas.
+- Ignorar o trabalho de força de anca e glúteos, tratando o overstriding como um problema puramente técnico quando muitas vezes tem origem numa cadeia posterior fraca.
+- Fazer a correção de forma abrupta em vez de progressiva — qualquer mudança de padrão de movimento precisa de semanas de adaptação tecidular, não de uma sessão.
+- Avaliar a passada apenas a olho nu: uma análise de vídeo simples (mesmo com telemóvel, a câmara lenta, de lado) revela muito mais do que a perceção subjetiva durante a corrida.
 
 ## Protocolo/Conclusão
 
-A overstriding é um problema comum em corredores que começam a treinar com frequência ou que aumentam a intensidade do seu treino. A overstriding é caracterizada por uma passada longa e pesada, onde o pé toca o solo com força, o que pode levar a lesões nos tornozelos, panturrilas e joelhos. Para evitar a overstriding, é fundamental treinar a corrida curta, usar a corrida leve, treinar a força e usar a corrida de velocidade. Além disso, é fundamental evitar erros comuns como treinar demais, treinar com passadas longas e não ter uma técnica eficiente.
+Overstriding não se resolve com uma correção pontual — resolve-se tratando-o como o sintoma de um sistema (cadência, postura e força) que precisa de ajuste coordenado ao longo de várias semanas. Começa por perceber se o padrão está mesmo presente (vídeo lateral a ritmo de treino habitual), introduz um aumento moderado de cadência como primeira alavanca, e associa trabalho de força de glúteos e cadeia posterior duas a três vezes por semana. É uma correção gradual, não um interruptor — mas é também uma das intervenções técnicas com melhor evidência de redução do risco de lesão de sobrecarga em corredores de fundo.
 
 ## Referências Científicas
 
