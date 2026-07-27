@@ -4,6 +4,7 @@ import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, type L
 import { Redis } from '@upstash/redis'
 import { sapatos, relogios, sensoresFc, nutricao, acessorios } from '@/lib/products'
 import { selectRotatingProducts, getCurrentRotationBucket } from '@/lib/rotation'
+import { trackedLink, toSlug } from '@/lib/tracking'
 
 // Regenera a cada 6 horas — garante que a ordenação por clicks e a rotação de produtos ficam atualizadas
 export const revalidate = 21600
@@ -40,15 +41,6 @@ const ROTATION_CONFIG = {
   acessorios: { visibleCount: 8, pinnedCount: 2 },
 } as const
 
-/** Slug idêntico ao usado no track-click — tem de ser consistente */
-function toSlug(name: string): string {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-}
-
-/** Converte um link de afiliado num URL de tracking interno */
-function trackedLink(productName: string, affiliateUrl: string): string {
-  return `/api/track-click?product=${encodeURIComponent(toSlug(productName))}&url=${encodeURIComponent(affiliateUrl)}`
-}
 
 /**
  * Ordena os produtos pelo número de clicks reais (mais clicado primeiro).

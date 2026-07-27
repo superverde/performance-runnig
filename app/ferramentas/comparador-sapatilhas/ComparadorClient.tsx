@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { sapatos, type SapatoProduto } from '@/lib/products'
+import { trackedLink } from '@/lib/tracking'
 
 type Categoria = 'Todas' | SapatoProduto['categoria']
 
@@ -90,7 +91,7 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
       </div>
 
       <a
-        href={shoe.link}
+        href={trackedLink(shoe.name, shoe.link)}
         target="_blank"
         rel="noopener noreferrer sponsored"
         className="mt-auto block text-center px-4 py-2.5 bg-brand-green text-black font-black text-xs uppercase tracking-wide rounded-lg hover:bg-white transition-all"
