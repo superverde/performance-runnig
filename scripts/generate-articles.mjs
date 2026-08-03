@@ -29,6 +29,15 @@ const COMMERCIAL_PER_RUN = 1
 // percent-encoded dava 404 (ex.: coração-atleta-adaptações-cardiaca, 2026-07-14).
 const deaccent = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 
+// console.warn sozinho fica enterrado nos logs em bruto do GitHub Actions —
+// ninguem repara ate ser tarde demais (foi o que aconteceu com COMMERCIAL_TOPICS).
+// O formato "::warning::" e um workflow command reconhecido pelo GitHub Actions:
+// aparece destacado no resumo da run, na aba Actions, sem precisar abrir o log.
+function ghWarning(msg) {
+  console.warn(`⚠️  ${msg}`)
+  console.log(`::warning::${msg}`)
+}
+
 if (!GROQ_API_KEY) {
   console.error('❌ GROQ_API_KEY não definida')
   process.exit(1)
@@ -579,11 +588,11 @@ async function main() {
   // o dia ficou só com 2 artigos em vez de 3, e o job seguinte falhou com exit 1
   // sem explicação clara). Threshold de 5 dá ~5 dias de antecedência a 1/dia.
   const LOW_POOL_THRESHOLD = 5
-  if (neededTechnical > 0 && remainingTechnical.length <= LOW_POOL_THRESHOLD) {
-    console.warn(`⚠️  ALERTA: só restam ${remainingTechnical.length} tópicos técnicos por publicar. Adiciona mais a ALL_TOPICS antes que se esgotem.`)
+  if (remainingTechnical.length <= LOW_POOL_THRESHOLD) {
+    ghWarning(`Só restam ${remainingTechnical.length} tópicos técnicos por publicar em ALL_TOPICS. Adiciona mais em breve.`)
   }
-  if (neededCommercial > 0 && remainingCommercial.length <= LOW_POOL_THRESHOLD) {
-    console.warn(`⚠️  ALERTA: só restam ${remainingCommercial.length} tópicos comerciais por publicar. Adiciona mais a COMMERCIAL_TOPICS antes que se esgotem.`)
+  if (remainingCommercial.length <= LOW_POOL_THRESHOLD) {
+    ghWarning(`Só restam ${remainingCommercial.length} tópicos comerciais por publicar em COMMERCIAL_TOPICS. Adiciona mais em breve.`)
   }
 
   if (remainingTechnical.length === 0 && remainingCommercial.length === 0) {
@@ -680,10 +689,35 @@ async function main() {
     return generated
   }
 
-  const technicalDone = await generateFromQueue(remainingTechnical, 'technical', neededTechnical)
-  const commercialDone = await generateFromQueue(remainingCommercial, 'commercial', neededCommercial)
-  const totalDone = technicalDone + commercialDone
+  let technicalDone = await generateFromQueue(remainingTechnical, 'technical', neededTechnical)
+  let commercialDone = await generateFromQueue(remainingCommercial, 'commercial', neededCommercial)
+  let totalDone = technicalDone + commercialDone
   const totalNeeded = neededTechnical + neededCommercial
+
+  // Fallback entre categorias — a causa direta do incidente de 2026-08-03: quando
+  // COMMERCIAL_TOPICS esgotou, o dia ficou preso em 2/3 para sempre (todos os dias
+  // seguintes), porque nada tentava compensar a falta de comerciais com mais
+  // tecnicos. O contrato real com o Pedro é "3 artigos/dia", não "2 técnicos + 1
+  // comercial sempre à risca" — por isso, se uma categoria não consegue preencher
+  // a sua quota (esgotada ou com falhas) e a OUTRA ainda tem candidatos por
+  // tentar, usamos esses candidatos extra para não publicar menos de 3 no total.
+  if (totalDone < totalNeeded) {
+    const freshTechnical = remainingTechnical.filter(t => !existingSlugs.has(deaccent(t.slug)))
+    const freshCommercial = remainingCommercial.filter(t => !existingSlugs.has(deaccent(t.slug)))
+
+    let stillNeeded = totalNeeded - totalDone
+    if (stillNeeded > 0 && freshTechnical.length > 0) {
+      const extra = await generateFromQueue(freshTechnical, 'technical (fallback)', stillNeeded)
+      technicalDone += extra
+      totalDone += extra
+      stillNeeded = totalNeeded - totalDone
+    }
+    if (stillNeeded > 0 && freshCommercial.length > 0) {
+      const extra = await generateFromQueue(freshCommercial, 'commercial (fallback)', stillNeeded)
+      commercialDone += extra
+      totalDone += extra
+    }
+  }
 
   saveCounter(lastIndex, today, lastSlug)
 
@@ -706,9 +740,13 @@ async function main() {
   //   alarmes repetidos sem nova informação — por isso termina com exit 0.
   // - "falha real": havia candidatos na fila mas todos falharam a gerar (erro da
   //   API, PT-BR persistente, etc.) — isso sim deve falhar o job e alertar.
-  const technicalRealFailure = neededTechnical > technicalDone && remainingTechnical.length > 0
-  const commercialRealFailure = neededCommercial > commercialDone && remainingCommercial.length > 0
-  const missingDueToRealFailure = technicalRealFailure || commercialRealFailure
+  // Recalcula "sobra candidatos" DEPOIS do fallback entre categorias acima —
+  // só é uma falha real de geração se, mesmo somando as duas filas, ainda havia
+  // candidatos por tentar e mesmo assim não chegámos a totalNeeded.
+  const anyCandidatesLeft =
+    remainingTechnical.filter(t => !existingSlugs.has(deaccent(t.slug))).length > 0 ||
+    remainingCommercial.filter(t => !existingSlugs.has(deaccent(t.slug))).length > 0
+  const missingDueToRealFailure = totalDone < totalNeeded && anyCandidatesLeft
 
   if (totalDone === 0 && missingDueToRealFailure) {
     process.exit(1)
