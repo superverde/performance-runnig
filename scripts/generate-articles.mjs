@@ -326,6 +326,7 @@ const COMMERCIAL_REFERENCE_BANK = [
   'Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand: Exercise and fluid replacement. Medicine & Science in Sports & Exercise, 39(2), 377-390. https://doi.org/10.1249/mss.0b013e31802ca597',
   'Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. Scandinavian Journal of Medicine & Science in Sports, 20(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x',
   'Heitkamp, H. C. (2020). The optimal weight carriage system for runners: comparison between handheld water bottles, waist belts, and backpacks. Frontiers in Physiology, 11, 571221. https://doi.org/10.3389/fphys.2020.571221',
+  'Hill, J., Howatson, G., van Someren, K., Leeder, J., & Pedlar, C. (2014). Compression garments and recovery from exercise-induced muscle damage: a meta-analysis. British Journal of Sports Medicine, 48(18), 1340-1346. https://doi.org/10.1136/bjsports-2013-092456',
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
