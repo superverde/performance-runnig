@@ -230,6 +230,26 @@ const COMMERCIAL_TOPICS = [
   { slug: 'melhores-apps-treino-corrida-2026-gratis-vs-pagas', title: 'Melhores Apps de Treino de Corrida em 2026: Grátis vs. Pagas', category: 'Equipamento' },
   { slug: 'equipamento-obrigatorio-ultra-trail-checklist', title: 'Equipamento Obrigatório para Ultra Trail: Checklist Completo', category: 'Equipamento' },
   { slug: 'prendas-corredores-melhores-ideias-orcamento', title: 'Prendas para Corredores: As Melhores Ideias por Orçamento', category: 'Equipamento' },
+  // Lote adicionado em 2026-08-03 — a lista original esgotou-se (30/30 publicados),
+  // o que causou publicacao de so 2 artigos/dia em vez de 3 (ver commit deste lote).
+  // IMPORTANTE: quando esta lista voltar a aproximar-se do fim, adicionar mais topicos
+  // com a mesma antecedencia — o aviso "COMMERCIAL_TOPICS quase esgotados" no log do
+  // GitHub Action avisa quando restam 5 ou menos.
+  { slug: 'cintos-hidratacao-vs-coletes-qual-escolher-distancia', title: 'Cintos de Hidratação vs Coletes: Qual Escolher Para Cada Distância', category: 'Equipamento' },
+  { slug: 'meias-compressao-recuperacao-pos-corrida', title: 'Meias de Compressão para Recuperação: O Que Diz a Ciência', category: 'Equipamento' },
+  { slug: 'calcas-leggings-compressao-corredores-guia', title: 'Calças e Leggings de Compressão para Corredores: Guia de Compra', category: 'Equipamento' },
+  { slug: 'sapatilhas-controlo-movimento-pronacao-guia', title: 'Sapatilhas com Controlo de Movimento: Guia para Pronação Acentuada', category: 'Equipamento' },
+  { slug: 'sutias-desportivos-corredoras-guia-compra', title: 'Sutiãs Desportivos para Corredoras: Guia de Compra e Impacto', category: 'Equipamento' },
+  { slug: 'bones-viseiras-corrida-sol-protecao', title: 'Bonés e Viseiras para Corrida ao Sol: O Que Realmente Protege', category: 'Equipamento' },
+  { slug: 'anti-friccao-vaselina-produtos-prevenir-bolhas-assaduras', title: 'Anti-Fricção e Vaselina: Produtos para Prevenir Bolhas e Assaduras', category: 'Equipamento' },
+  { slug: 'aneis-inteligentes-vs-relogios-gps-recuperacao', title: 'Anéis Inteligentes (Smart Rings) vs Relógios GPS: Qual Escolher', category: 'Equipamento' },
+  { slug: 'sapatilhas-corrida-criancas-jovens-atletas-guia', title: 'Sapatilhas de Corrida para Crianças e Jovens Atletas: Guia de Compra', category: 'Equipamento' },
+  { slug: 'mantas-termicas-pos-prova-recuperacao', title: 'Mantas Térmicas Pós-Prova: Por Que São Essenciais na Recuperação', category: 'Equipamento' },
+  { slug: 'camisolas-tecnicas-corrida-inverno-termicas', title: 'Melhores Camisolas Térmicas para Correr no Frio', category: 'Equipamento' },
+  { slug: 'luvas-corrida-inverno-guia-compra', title: 'Melhores Luvas de Corrida para o Inverno: Guia de Compra', category: 'Equipamento' },
+  { slug: 'garrafas-soft-flask-vs-rigidas-trail-guia', title: 'Soft Flasks vs Garrafas Rígidas: Qual Escolher para Trail', category: 'Equipamento' },
+  { slug: 'cameras-acao-filmar-treinos-corrida-trail', title: 'Melhores Câmaras de Ação para Filmar Treinos e Provas de Trail', category: 'Equipamento' },
+  { slug: 'suplemento-colagenio-corredores-evidencia-cientifica', title: 'Colagénio para Corredores: O Que Diz a Evidência Científica', category: 'Equipamento' },
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -294,6 +314,9 @@ const COMMERCIAL_REFERENCE_BANK = [
   'Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2',
   'Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929',
   'Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6',
+  'Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand: Exercise and fluid replacement. Medicine & Science in Sports & Exercise, 39(2), 377-390. https://doi.org/10.1249/mss.0b013e31802ca597',
+  'Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. Scandinavian Journal of Medicine & Science in Sports, 20(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x',
+  'Heitkamp, H. C. (2020). The optimal weight carriage system for runners: comparison between handheld water bottles, waist belts, and backpacks. Frontiers in Physiology, 11, 571221. https://doi.org/10.3389/fphys.2020.571221',
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -551,6 +574,18 @@ async function main() {
   console.log(`📋 Tópicos técnicos disponíveis: ${remainingTechnical.length}`)
   console.log(`🛒 Tópicos comerciais disponíveis: ${remainingCommercial.length}`)
 
+  // Avisa cedo quando um dos bancos de tópicos está perto do fim — isto é o que
+  // causou o incidente de 2026-08-03 (COMMERCIAL_TOPICS esgotou-se em silêncio,
+  // o dia ficou só com 2 artigos em vez de 3, e o job seguinte falhou com exit 1
+  // sem explicação clara). Threshold de 5 dá ~5 dias de antecedência a 1/dia.
+  const LOW_POOL_THRESHOLD = 5
+  if (neededTechnical > 0 && remainingTechnical.length <= LOW_POOL_THRESHOLD) {
+    console.warn(`⚠️  ALERTA: só restam ${remainingTechnical.length} tópicos técnicos por publicar. Adiciona mais a ALL_TOPICS antes que se esgotem.`)
+  }
+  if (neededCommercial > 0 && remainingCommercial.length <= LOW_POOL_THRESHOLD) {
+    console.warn(`⚠️  ALERTA: só restam ${remainingCommercial.length} tópicos comerciais por publicar. Adiciona mais a COMMERCIAL_TOPICS antes que se esgotem.`)
+  }
+
   if (remainingTechnical.length === 0 && remainingCommercial.length === 0) {
     console.log('⚠️  Todos os tópicos já foram publicados. Adiciona mais aos arrays.')
     process.exit(0)
@@ -653,16 +688,34 @@ async function main() {
   saveCounter(lastIndex, today, lastSlug)
 
   if (totalDone < totalNeeded) {
-    console.log(`\n⚠️  Só foi possível gerar ${totalDone} de ${totalNeeded} artigos em falta hoje (falhas repetidas na Groq). Publicados nesta execução: ${publishedTitles.join(', ') || '(nenhum)'}`)
+    console.log(`\n⚠️  Só foi possível gerar ${totalDone} de ${totalNeeded} artigos em falta hoje. Publicados nesta execução: ${publishedTitles.join(', ') || '(nenhum)'}`)
   } else {
     console.log(`\n🎉 ${totalDone} artigos gerados para ${today}: ${publishedTitles.join(', ')}`)
   }
 
-  // Só falha o job (e portanto não faz commit/push) se NENHUM artigo tiver
-  // sido gerado — parcial é melhor do que zero, dado que os artigos "têm de
-  // entrar" mesmo em dias com problemas pontuais na API.
-  if (totalDone === 0) {
+  // Distingue duas causas bem diferentes para "faltam artigos", porque tratá-las
+  // da mesma forma foi o que causou o incidente de 2026-08-03: um job que gerou
+  // 2/3 artigos (porque COMMERCIAL_TOPICS esgotou) ficou silenciosamente incompleto,
+  // e um disparo SEGUINTE no mesmo dia (0/1 em falta, também por esgotamento) falhou
+  // com exit 1 e mandou um email de alarme sem nenhuma ação possível a não ser
+  // adicionar tópicos — o que já tinha sido avisado, sem sucesso, pelos logs.
+  //
+  // - "esgotado": o banco de tópicos daquele tipo não tem mais candidatos. Não é
+  //   uma falha de infraestrutura, é um problema de conteúdo (já avisado acima via
+  //   LOW_POOL_THRESHOLD). Falhar o job todos os dias a partir daqui só gera
+  //   alarmes repetidos sem nova informação — por isso termina com exit 0.
+  // - "falha real": havia candidatos na fila mas todos falharam a gerar (erro da
+  //   API, PT-BR persistente, etc.) — isso sim deve falhar o job e alertar.
+  const technicalRealFailure = neededTechnical > technicalDone && remainingTechnical.length > 0
+  const commercialRealFailure = neededCommercial > commercialDone && remainingCommercial.length > 0
+  const missingDueToRealFailure = technicalRealFailure || commercialRealFailure
+
+  if (totalDone === 0 && missingDueToRealFailure) {
     process.exit(1)
+  }
+
+  if (totalDone < totalNeeded && !missingDueToRealFailure) {
+    console.log('\nℹ️  A diferença é por banco(s) de tópicos esgotado(s), não por falha da API — a terminar com sucesso (exit 0) para não repetir alertas. Ver avisos ⚠️ acima.')
   }
 }
 

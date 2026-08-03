@@ -113,9 +113,15 @@ jobs:
           git config user.email "newsletter@performancerunning.pt"
           git add content/blog/
           TODAY=$(date +%Y-%m-%d)
-          git commit -m "feat(artigos): 3 novos artigos para $TODAY [skip ci]"
+          # A mensagem de commit costumava dizer sempre "3 novos artigos", mesmo
+          # quando só 1 ou 2 tinham sido gerados (ex.: banco de tópicos comerciais
+          # esgotado em 2026-08-03) — o que escondia o problema em vez de o
+          # sinalizar. Agora conta os ficheiros reais e lista-os no commit.
+          N=$(git diff --cached --name-only -- content/blog/ | grep -c '\.md$' || true)
+          FILES=$(git diff --cached --name-only -- content/blog/ | grep '\.md$' | xargs -n1 basename | sed 's/\.md$//' | paste -sd ', ' -)
+          git commit -m "feat(artigos): $N artigo(s) para $TODAY: $FILES [skip ci]"
           git push origin main
-          echo "✅ Push feito — Vercel irá fazer deploy automaticamente"
+          echo "✅ Push feito ($N artigo(s)) — Vercel irá fazer deploy automaticamente"
 
       - name: Sem artigos novos
         if: steps.check.outputs.changed == '0'
