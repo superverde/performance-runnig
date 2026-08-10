@@ -1,5 +1,4 @@
 name: Gerar Artigos Diários
-
 on:
   schedule:
     # GitHub Actions só agenda em UTC, e Portugal muda de fuso horário (WET/UTC+0
@@ -24,20 +23,17 @@ on:
     - cron: '7 3 * * *'  # ~03:07 em Portugal no inverno (WET, UTC+0)
   # Permite correr manualmente no GitHub → Actions → Run workflow
   workflow_dispatch:
-
 concurrency:
   # Impede duas execuções em paralelo (ex: o cron original atrasado + o
   # disparo manual da rede de segurança da Vercel a coincidirem no tempo).
   # Não cancela a que já está a correr — só faz a segunda esperar.
   group: daily-articles-generation
   cancel-in-progress: false
-
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write   # necessário para fazer commit e push
-
     steps:
       - name: Confirmar que este é o cron certo para a estação atual
         id: gate
@@ -47,7 +43,6 @@ jobs:
             echo "Disparo manual — a continuar sem verificar a hora."
             exit 0
           fi
-
           # Em vez de comparar a hora local exata no momento em que o job
           # arranca (frágil: se o GitHub atrasar o disparo, a hora local já
           # não bate certo e o job seria saltado por engano), usamos o
@@ -65,38 +60,32 @@ jobs:
           fi
           echo "Cron correto para esta estação: $CRON_CORRETO"
           echo "Cron que disparou este job: ${{ github.event.schedule }}"
-
           if [ "${{ github.event.schedule }}" = "$CRON_CORRETO" ]; then
             echo "proceed=true" >> "$GITHUB_OUTPUT"
           else
             echo "proceed=false" >> "$GITHUB_OUTPUT"
             echo "Este é o cron da outra estação do ano — a sair sem publicar."
           fi
-
       - name: Checkout repositório
         if: steps.gate.outputs.proceed == 'true'
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Instalar Node.js
         if: steps.gate.outputs.proceed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Instalar dependências do script
         if: steps.gate.outputs.proceed == 'true'
         run: |
           # O script usa apenas módulos nativos + fetch (Node 18+), sem npm install necessário
           echo "Node $(node --version) pronto"
-
       - name: Gerar 3 artigos do dia
         if: steps.gate.outputs.proceed == 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/generate-articles.mjs
-
       - name: Verificar se há artigos novos
         id: check
         if: steps.gate.outputs.proceed == 'true'
@@ -105,7 +94,6 @@ jobs:
           CHANGED=$(git status --porcelain content/blog/ | wc -l)
           echo "changed=$CHANGED" >> $GITHUB_OUTPUT
           echo "Artigos novos: $CHANGED"
-
       - name: Commit e push dos artigos
         if: steps.check.outputs.changed != '0'
         run: |
@@ -117,12 +105,23 @@ jobs:
           # quando só 1 ou 2 tinham sido gerados (ex.: banco de tópicos comerciais
           # esgotado em 2026-08-03) — o que escondia o problema em vez de o
           # sinalizar. Agora conta os ficheiros reais e lista-os no commit.
+          #
+          # CORREÇÃO (2026-08-10): a linha de baixo (FILES) não tinha o mesmo
+          # "|| true" de proteção que a linha N já tinha. Quando "Verificar se
+          # há artigos novos" detetava alterações em content/blog/ que não eram
+          # ficheiros .md (ex: um ficheiro auxiliar), o "grep '\.md$'" abaixo não
+          # encontrava nada, devolvia código de saída 1, e com "pipefail" ativado
+          # isso derrubava o step inteiro com exit code 1 — sem nunca chegar a
+          # fazer commit/push. Envolver o grep em "{ ... || true; }" resolve isto.
           N=$(git diff --cached --name-only -- content/blog/ | grep -c '\.md$' || true)
-          FILES=$(git diff --cached --name-only -- content/blog/ | grep '\.md$' | xargs -n1 basename | sed 's/\.md$//' | paste -sd ', ' -)
+          FILES=$(git diff --cached --name-only -- content/blog/ | { grep '\.md$' || true; } | xargs -n1 basename | sed 's/\.md$//' | paste -sd ', ' -)
           git commit -m "feat(artigos): $N artigo(s) para $TODAY: $FILES [skip ci]"
+          # Proteção extra: se entretanto tiver havido outro commit em main
+          # (ex: disparo manual + cron a coincidir, ou push direto de alguém),
+          # rebase antes do push em vez de simplesmente falhar com "rejected".
+          git pull --rebase origin main
           git push origin main
           echo "✅ Push feito ($N artigo(s)) — Vercel irá fazer deploy automaticamente"
-
       - name: Sem artigos novos
         if: steps.check.outputs.changed == '0'
         run: echo "ℹ️  Nenhum artigo novo gerado (todos os tópicos já publicados?)"
