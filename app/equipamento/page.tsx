@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, type LucideIcon } from 'lucide-react'
+import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, TrendingUp, type LucideIcon } from 'lucide-react'
 import { Redis } from '@upstash/redis'
 import { sapatos, relogios, sensoresFc, nutricao, acessorios } from '@/lib/products'
 import { selectRotatingProducts, getCurrentRotationBucket } from '@/lib/rotation'
@@ -27,6 +27,17 @@ export const metadata: Metadata = {
 }
 
 const SITE_URL = 'https://www.performancerunning.pt'
+
+/** Cor de destaque por secção — usada nos números/títulos para dar mais variedade visual à página. */
+const SECTION_COLORS = {
+  sapatos: '#00ff87',
+  relogios: '#3b82f6',
+  sensores: '#f43f5e',
+  nutricao: '#f59e0b',
+  acessorios: '#8b5cf6',
+} as const
+
+const TOTAL_PRODUTOS = sapatos.length + relogios.length + sensoresFc.length + nutricao.length + acessorios.length
 
 /**
  * Quantos produtos mostrar por categoria em cada ciclo de rotação (múltiplo
@@ -68,6 +79,15 @@ function Stars({ n }: { n: number }) {
         />
       ))}
     </span>
+  )
+}
+
+/** Ribbon "Mais Popular" — mostra-se apenas no primeiro item de cada grelha (já ordenada por clicks reais). */
+function PopularBadge() {
+  return (
+    <div className="absolute top-3 right-3 z-10 flex items-center gap-1 bg-gradient-to-r from-brand-green to-emerald-400 text-black text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full shadow-lg shadow-brand-green/30">
+      <TrendingUp size={11} /> Mais Popular
+    </div>
   )
 }
 
@@ -228,6 +248,31 @@ export default async function EquipamentoPage() {
             Testamos e avaliamos o equipamento mais relevante para corredores portugueses.
             Sem patrocínios que influenciem as notas. Links de afiliado ajudam a manter o site gratuito.
           </p>
+          <div className="flex flex-wrap gap-8 mt-8">
+            <div>
+              <p className="text-2xl sm:text-3xl font-black text-white">{TOTAL_PRODUTOS}+</p>
+              <p className="text-xs text-white/50 uppercase tracking-wider font-mono">Produtos testados</p>
+            </div>
+            <div>
+              <p className="text-2xl sm:text-3xl font-black text-white">100%</p>
+              <p className="text-xs text-white/50 uppercase tracking-wider font-mono">Reviews independentes</p>
+            </div>
+            <div>
+              <p className="text-2xl sm:text-3xl font-black text-white">6h</p>
+              <p className="text-xs text-white/50 uppercase tracking-wider font-mono">Frequência de atualização</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ── Navegação rápida ── */}
+      <div className="sticky top-0 z-30 backdrop-blur-md bg-black/75 border-b border-white/10">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-3 flex gap-2 overflow-x-auto">
+          <a href="#sapatos" className="shrink-0 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/50 hover:text-brand-green transition-all">👟 Sapatos</a>
+          <a href="#relogios" className="shrink-0 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/50 hover:text-brand-green transition-all">⌚ Relógios</a>
+          <a href="#sensores" className="shrink-0 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/50 hover:text-brand-green transition-all">❤️ Sensores FC</a>
+          <a href="#nutricao" className="shrink-0 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/50 hover:text-brand-green transition-all">⚡ Nutrição</a>
+          <a href="#acessorios" className="shrink-0 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/50 hover:text-brand-green transition-all">🎒 Acessórios</a>
         </div>
       </div>
 
@@ -255,15 +300,15 @@ export default async function EquipamentoPage() {
         {/* ── Sapatos ── */}
         <section id="sapatos">
           <div className="mb-8">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">01</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-mono mb-1" style={{ color: SECTION_COLORS.sapatos }}>01</p>
             <h2 className="text-3xl font-black tracking-tight">Sapatos de Corrida</h2>
             <p className="text-white/60 text-sm mt-1">Testados em estrada, pista e trilho. Avaliação independente.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {sapatos_r.map((s) => (
+            {sapatos_r.map((s, i) => (
               <article
                 key={s.name}
-                className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
+                className="group relative border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-brand-green/30 hover:shadow-lg hover:shadow-brand-green/5 hover:-translate-y-0.5 transition-all"
               >
                 <div className="relative h-44 overflow-hidden">
                   <ProductImage src={s.img} alt={s.name} icon={Footprints} />
@@ -281,6 +326,7 @@ export default async function EquipamentoPage() {
                       {s.categoria}
                     </span>
                   </div>
+                  {i === 0 && <PopularBadge />}
                 </div>
 
                 <div className="p-5">
@@ -332,15 +378,15 @@ export default async function EquipamentoPage() {
         {/* ── Relógios GPS ── */}
         <section id="relogios">
           <div className="mb-8">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">02</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-mono mb-1" style={{ color: SECTION_COLORS.relogios }}>02</p>
             <h2 className="text-3xl font-black tracking-tight">Relógios GPS</h2>
             <p className="text-white/60 text-sm mt-1">A ferramenta mais importante de um corredor sério.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {relogios_r.map((r) => (
+            {relogios_r.map((r, i) => (
               <article
                 key={r.name}
-                className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
+                className="group relative border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-brand-green/30 hover:shadow-lg hover:shadow-brand-green/5 hover:-translate-y-0.5 transition-all"
               >
                 <div className="relative h-44 overflow-hidden">
                   <ProductImage src={r.img} alt={r.name} icon={Watch} />
@@ -353,6 +399,7 @@ export default async function EquipamentoPage() {
                       {r.badge}
                     </span>
                   </div>
+                  {i === 0 && <PopularBadge />}
                 </div>
                 <div className="p-5">
                   <div className="flex items-start justify-between gap-2 mb-2">
@@ -401,19 +448,19 @@ export default async function EquipamentoPage() {
         </section>
 
         {/* ── Monitores FC ── */}
-        <section className="border-t border-white/5 pt-16">
+        <section id="sensores" className="border-t border-white/5 pt-16">
           <div className="mb-10">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">03</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-mono mb-1" style={{ color: SECTION_COLORS.sensores }}>03</p>
             <h2 className="text-3xl font-black tracking-tight">Bracelets e Sensores de Frequência Cardíaca</h2>
             <p className="text-white/50 text-sm mt-2 max-w-2xl">
               Treinar por zonas de FC exige precisão. Os sensores de pulso dos relógios GPS têm erros de ±5-10% em intensidades elevadas — os monitores dedicados são a solução usada em laboratórios de fisiologia.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
-            {sensoresFc_r.map((s) => (
+            {sensoresFc_r.map((s, i) => (
               <article
                 key={s.name}
-                className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
+                className="group relative border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-brand-green/30 hover:shadow-lg hover:shadow-brand-green/5 hover:-translate-y-0.5 transition-all flex flex-col"
               >
                 <div className="relative h-48 overflow-hidden">
                   <ProductImage src={s.img} alt={s.name} icon={HeartPulse} />
@@ -432,6 +479,7 @@ export default async function EquipamentoPage() {
                   <div className="absolute bottom-3 left-3">
                     <Stars n={s.rating} />
                   </div>
+                  {i === 0 && <PopularBadge />}
                 </div>
                 <div className="p-5 flex flex-col flex-1">
                   <div className="flex items-start justify-between mb-2">
@@ -486,17 +534,17 @@ export default async function EquipamentoPage() {
         {/* ── Nutrição ── */}
         <section id="nutricao" className="border-t border-white/5 pt-16">
           <div className="mb-10">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">04</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-mono mb-1" style={{ color: SECTION_COLORS.nutricao }}>04</p>
             <h2 className="text-3xl font-black tracking-tight">Nutrição para Corredores</h2>
             <p className="text-white/50 text-sm mt-2 max-w-2xl">
               A nutrição é o fator mais negligenciado no treino de corrida. Gels, isotónicos e proteína de recuperação fazem a diferença entre bater um recorde pessoal e morrer ao km 30 de maratona.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
-            {nutricao_r.map((n) => (
+            {nutricao_r.map((n, i) => (
               <article
                 key={n.name}
-                className="group border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all flex flex-col"
+                className="group relative border border-white/6 rounded-2xl overflow-hidden bg-white/[0.01] hover:border-brand-green/30 hover:shadow-lg hover:shadow-brand-green/5 hover:-translate-y-0.5 transition-all flex flex-col"
               >
                 <div className="relative h-40 overflow-hidden">
                   <ProductImage src={n.img} alt={n.name} icon={Zap} />
@@ -515,6 +563,7 @@ export default async function EquipamentoPage() {
                   <div className="absolute bottom-3 left-3">
                     <Stars n={n.rating} />
                   </div>
+                  {i === 0 && <PopularBadge />}
                 </div>
                 <div className="p-5 flex flex-col flex-1">
                   <div className="flex items-start justify-between mb-2">
@@ -569,7 +618,7 @@ export default async function EquipamentoPage() {
         {/* ── Acessórios ── */}
         <section id="acessorios">
           <div className="mb-8">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">05</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-mono mb-1" style={{ color: SECTION_COLORS.acessorios }}>05</p>
             <h2 className="text-3xl font-black tracking-tight">Acessórios Essenciais</h2>
             <p className="text-white/60 text-sm mt-1">O equipamento complementar que faz diferença.</p>
           </div>
@@ -577,7 +626,7 @@ export default async function EquipamentoPage() {
             {acessorios_r.map((a) => (
               <article
                 key={a.name}
-                className="group border border-white/6 rounded-xl overflow-hidden bg-white/[0.01] hover:border-white/15 transition-all"
+                className="group border border-white/6 rounded-xl overflow-hidden bg-white/[0.01] hover:border-brand-green/30 hover:shadow-lg hover:shadow-brand-green/5 hover:-translate-y-0.5 transition-all"
               >
                 <div className="h-36 overflow-hidden">
                   <ProductImage src={a.img} alt={a.name} icon={Package} />
