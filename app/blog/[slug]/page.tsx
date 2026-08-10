@@ -7,6 +7,7 @@ import { ViewCounter } from '@/components/ViewCounter'
 import { BlogClient } from '@/components/BlogClient'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArticleContent } from '@/components/ArticleContent'
+import { ArticleProductCTA } from '@/components/ArticleProductCTA'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -293,6 +294,9 @@ export default async function BlogSlugPage({ params }: Props) {
           originalTitle={article.title}
           originalExcerpt={article.excerpt}
         />
+
+        <ArticleProductCTA categorySlug={categorySlug} />
+
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-white/60 hover:text-brand-green transition-colors font-medium">
             <ArrowLeft size={13} /> Ver todos os artigos
@@ -313,6 +317,10 @@ export default async function BlogSlugPage({ params }: Props) {
             <Link href="/metodologias"
               className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
               Metodologias de Treino
+            </Link>
+            <Link href="/equipamento"
+              className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
+              Equipamento Testado
             </Link>
             <Link href="/consulta"
               className="text-xs px-3 py-1.5 rounded-full border border-white/10 text-white/60 hover:border-brand-green/40 hover:text-brand-green transition-all">
