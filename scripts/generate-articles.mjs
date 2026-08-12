@@ -374,6 +374,49 @@ function countTodayByType(today) {
   return { technical, commercial }
 }
 
+// Baralha um array (Fisher-Yates) sem alterar o original.
+function shuffle(arr) {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+// Reordena os tópicos por categoria em "ronda-robin" (um de cada categoria
+// de cada vez, em vez de esgotar uma categoria inteira antes de passar à
+// seguinte). O ALL_TOPICS está agrupado por categoria (Treino, Fisiologia,
+// Nutrição, ... Trail Running, ...) e generateFromQueue consome a fila pela
+// ordem em que chega — sem isto, uma categoria só "aparece" depois de todas
+// as anteriores no array estarem esgotadas, o que produz dias inteiros só
+// com uma categoria (foi o que aconteceu em 2026-08-10 a 2026-08-12: só
+// saíram artigos de Trail Running, porque a categoria Psicologia tinha
+// acabado de esgotar mesmo antes). Com o round-robin, cada categoria
+// contribui com um tópico por "volta", pelo que os artigos de um mesmo dia
+// (e de dias consecutivos) ficam distribuídos por categorias diferentes.
+function interleaveByCategory(topics) {
+  const groups = {}
+  for (const t of topics) {
+    ;(groups[t.category] ??= []).push(t)
+  }
+  const categories = shuffle(Object.keys(groups))
+  for (const c of categories) groups[c] = shuffle(groups[c])
+
+  const result = []
+  let added = true
+  while (added) {
+    added = false
+    for (const c of categories) {
+      if (groups[c].length > 0) {
+        result.push(groups[c].shift())
+        added = true
+      }
+    }
+  }
+  return result
+}
+
 function loadCounter() {
   if (fs.existsSync(COUNTER_FILE)) {
     try { return JSON.parse(fs.readFileSync(COUNTER_FILE, 'utf8')) }
@@ -578,8 +621,11 @@ async function main() {
     process.exit(0)
   }
 
-  const remainingTechnical = ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug)))
-  const remainingCommercial = COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug)))
+  // Round-robin por categoria (técnicos) e ordem aleatória (comerciais) —
+  // evita que dias seguidos publiquem sempre a mesma categoria só porque o
+  // array ALL_TOPICS está agrupado por assunto. Ver interleaveByCategory.
+  const remainingTechnical = interleaveByCategory(ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))))
+  const remainingCommercial = shuffle(COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))))
 
   console.log(`📋 Tópicos técnicos disponíveis: ${remainingTechnical.length}`)
   console.log(`🛒 Tópicos comerciais disponíveis: ${remainingCommercial.length}`)

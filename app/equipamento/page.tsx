@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, TrendingUp, type LucideIcon } from 'lucide-react'
+import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, TrendingUp, Sparkles, type LucideIcon } from 'lucide-react'
 import { Redis } from '@upstash/redis'
-import { sapatos, relogios, sensoresFc, nutricao, acessorios } from '@/lib/products'
+import { sapatos, relogios, sensoresFc, nutricao, acessorios, type SapatoProduto } from '@/lib/products'
 import { selectRotatingProducts, getCurrentRotationBucket } from '@/lib/rotation'
 import { trackedLink, toSlug } from '@/lib/tracking'
 
@@ -153,23 +153,25 @@ function PriceTag({
   )
 }
 
-// Rotação semanal: cada semana destaca uma categoria diferente
-const ROTACAO_SEMANAL = [
-  { semana: 0, titulo: 'Sapatos de Estrada', subtitulo: 'Esta semana em destaque', ancora: '#sapatos', emoji: '👟', cor: '#00ff87' },
-  { semana: 1, titulo: 'Relógios GPS', subtitulo: 'Esta semana em destaque', ancora: '#relogios', emoji: '⌚', cor: '#3b82f6' },
-  { semana: 2, titulo: 'Nutrição Desportiva', subtitulo: 'Esta semana em destaque', ancora: '#nutricao', emoji: '⚡', cor: '#f59e0b' },
-  { semana: 3, titulo: 'Acessórios Essenciais', subtitulo: 'Esta semana em destaque', ancora: '#acessorios', emoji: '🎽', cor: '#8b5cf6' },
-]
-
-function getDestaqueSemanul() {
+/**
+ * "Novidade do Dia" — spotlight grande no topo da página com um lançamento
+ * de sapatilha por dia, escolhido do grupo com badge "Novo 2026" (ver
+ * lib/products.ts — sapatilhas verificadas na Amazon em 2026-07-16).
+ * Rotação determinística por dia do ano — muda todos os dias à meia-noite,
+ * mas mantém-se estável entre pedidos no mesmo dia (e entre revalidações
+ * dos 6h da página) sem precisar de estado em Redis.
+ */
+function getNovidadeDoDia(): SapatoProduto {
+  const candidatos = sapatos.filter((s) => s.badge === 'Novo 2026')
+  const pool = candidatos.length > 0 ? candidatos : sapatos
   const now = new Date()
   const startOfYear = new Date(now.getFullYear(), 0, 1)
-  const weekNumber = Math.floor((now.getTime() - startOfYear.getTime()) / (7 * 86_400_000))
-  return ROTACAO_SEMANAL[weekNumber % ROTACAO_SEMANAL.length]
+  const dayNumber = Math.floor((now.getTime() - startOfYear.getTime()) / 86_400_000)
+  return pool[dayNumber % pool.length]
 }
 
 export default async function EquipamentoPage() {
-  const destaque = getDestaqueSemanul()
+  const novidade = getNovidadeDoDia()
   const bucket = getCurrentRotationBucket()
 
   // Lê clicks totais do Redis — ordena produtos pelo que os utilizadores mais clicam
@@ -278,24 +280,69 @@ export default async function EquipamentoPage() {
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 space-y-20">
 
-        {/* ── Destaque da Semana ── */}
-        <a href={destaque.ancora} className="block group">
+        {/* ── Novidade do Dia ── */}
+        <section className="relative rounded-3xl overflow-hidden border border-white/10 bg-white/[0.02]">
           <div
-            className="rounded-2xl p-6 sm:p-8 border flex items-center justify-between gap-4 transition-all hover:scale-[1.01]"
-            style={{ borderColor: destaque.cor + '30', background: destaque.cor + '08' }}
-          >
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.3em] mb-1 font-mono" style={{ color: destaque.cor }}>
-                {destaque.subtitulo}
-              </p>
-              <h2 className="text-2xl sm:text-3xl font-black text-white">
-                {destaque.emoji} {destaque.titulo}
-              </h2>
-              <p className="text-white/60 text-sm mt-1">Ver produtos em destaque esta semana →</p>
+            className="absolute inset-0 pointer-events-none opacity-70"
+            style={{ background: `radial-gradient(80% 60% at 85% 30%, ${novidade.badgeColor}20, transparent 65%)` }}
+          />
+          <div className="relative grid md:grid-cols-2 items-center">
+            {/* Imagem grande */}
+            <div className="order-1 md:order-2 relative h-64 sm:h-80 md:h-[28rem] overflow-hidden bg-gradient-to-br from-white/[0.03] to-transparent">
+              <img
+                src={novidade.img}
+                alt={novidade.name}
+                className="w-full h-full object-contain p-8 sm:p-10 md:p-14 drop-shadow-[0_25px_60px_rgba(0,0,0,0.6)]"
+              />
             </div>
-            <ArrowUpRight size={32} className="shrink-0 opacity-30 group-hover:opacity-80 transition-opacity" style={{ color: destaque.cor }} />
+
+            {/* Texto */}
+            <div className="order-2 md:order-1 p-8 sm:p-10 md:p-14">
+              <div className="flex items-center gap-2.5 flex-wrap mb-5">
+                <span
+                  className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-[0.25em] font-mono px-3 py-1.5 rounded-full"
+                  style={{ background: novidade.badgeColor, color: '#000' }}
+                >
+                  <Sparkles size={11} /> Novidade do Dia
+                </span>
+                <span className="text-xs font-bold uppercase tracking-widest text-white/60 border border-white/15 px-2.5 py-1 rounded-full">
+                  {novidade.badge}
+                </span>
+              </div>
+
+              <h2
+                className="font-display text-white leading-[0.95] mb-4"
+                style={{ fontSize: 'clamp(2.1rem, 5vw, 3.4rem)' }}
+              >
+                {novidade.name}
+              </h2>
+
+              <div className="flex items-center gap-3 mb-4">
+                <Stars n={novidade.rating} />
+                <span className="text-xs text-white/55">{novidade.rating}/5</span>
+                <span className="text-white/25">•</span>
+                <span className="text-xs text-white/55 font-mono uppercase tracking-wider">{novidade.categoria}</span>
+              </div>
+
+              <p className="text-white/70 text-sm sm:text-base leading-relaxed mb-7 max-w-md">
+                {novidade.desc}
+              </p>
+
+              <div className="flex items-center gap-6 flex-wrap">
+                <a
+                  href={trackedLink(novidade.name, novidade.link)}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="group/cta inline-flex items-center gap-2.5 text-sm font-black uppercase tracking-wider text-black bg-brand-green px-6 py-3.5 rounded-xl hover:bg-white transition-colors"
+                >
+                  Ver em {novidade.loja}
+                  <ArrowUpRight size={16} className="transition-transform group-hover/cta:translate-x-0.5 group-hover/cta:-translate-y-0.5" />
+                </a>
+                <PriceTag preco={novidade.preco} verified={novidade.precoVerificado} className="text-brand-green font-black text-xl" />
+              </div>
+            </div>
           </div>
-        </a>
+        </section>
 
         {/* ── Sapatos ── */}
         <section id="sapatos">
