@@ -152,17 +152,24 @@ export default function SobrePage() {
         </div>
       </section>
 
-      {/* Sobre as referências */}
+      {/* Sobre as referências — backgroundColor de reserva (mesmo padrão do
+          hero da homepage) para a secção nunca ficar clara/ilegível enquanto
+          a foto carrega ou se a foto falhar; texto reportado como
+          "não vejo as letras" quando o degradê escuro não estava a
+          renderizar a tempo. Overlay reforçado (era /97 /90 /85, agora
+          /97 /94 /92) e "CADA ARTIGO" já não usa opacidade quase invisível
+          (/25) — passou para /55, legível em qualquer condição. */}
       <section
         className="relative py-24 overflow-hidden"
         style={{
+          backgroundColor: '#0a0a0a',
           backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1590012314607-cda9d9b699ae.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/90 to-black/85" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/94 to-black/92" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
@@ -173,7 +180,7 @@ export default function SobrePage() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}
             >
               REFERÊNCIAS EM<br />
-              <span className="text-white/25">CADA ARTIGO</span>
+              <span className="text-white/55">CADA ARTIGO</span>
             </h2>
             <div className="space-y-5 text-white/50 leading-relaxed">
               <p>
