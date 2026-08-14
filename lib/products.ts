@@ -7,18 +7,12 @@
  *   2. Rotação periódica do subconjunto mostrado (ver lib/rotation.ts),
  *      em vez de mostrar sempre os mesmos produtos.
  *
-<<<<<<< HEAD
- * IMAGENS E PREÇOS — TODOS CONFIRMADOS (2026-07-04):
- * Todos os 50 produtos têm `img` e `preco` reais extraídos diretamente
- * da Amazon.es (via navegação real no browser), com `precoVerificado: true`.
-=======
  * IMAGENS E PREÇOS — TODOS CONFIRMADOS (2026-07-04; +7 sapatilhas 2026-07-16):
  * Todos os produtos têm `img` e `preco` reais extraídos diretamente
  * da Amazon.es (via navegação real no browser), com `precoVerificado: true`.
  * 2026-07-16: adicionadas 7 sapatilhas lançadas em 2026 (badge "Novo 2026"):
  * Novablast 6, Pegasus 42, Gel-Nimbus 28, Cloudmonster 3, Speedgoat 7,
  * Peregrine 16, Endorphin Pro 5 — todas verificadas na Amazon.es no dia.
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
  * 7 produtos da expansão original não estavam à venda na Amazon.es/de sob
  * o nome inicialmente previsto e foram substituídos por um produto real e
  * disponível equivalente (mesma categoria/uso): Garmin HRM-Pro Plus →
@@ -48,7 +42,6 @@ export interface SapatoProduto {
   link: string
   loja: string
   bestseller?: boolean
-<<<<<<< HEAD
   /**
    * Marca este sapato como elegível para o bloco "Novidade do Dia" da
    * página /equipamento — lançamentos ou modelos em forte tendência em
@@ -56,8 +49,6 @@ export interface SapatoProduto {
    * O texto é a etiqueta curta mostrada no hero (ex: "Lançamento 2026").
    */
   novidade?: string
-=======
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
 }
 
 export interface RelogioProduto {
@@ -170,10 +161,7 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://www.amazon.es/s?k=asics+novablast+5&tag=performancerun-21',
     loja: 'Amazon ES',
     bestseller: true,
-<<<<<<< HEAD
     novidade: 'Mais Vendido 2026',
-=======
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
   },
   {
     name: 'Nike Vomero Plus',
@@ -190,10 +178,7 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://www.amazon.es/s?k=nike+vomero+plus&tag=performancerun-21',
     loja: 'Amazon ES',
     bestseller: true,
-<<<<<<< HEAD
     novidade: 'Lançamento 2026',
-=======
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
   },
   {
     name: 'Nike Pegasus 41',
@@ -255,10 +240,7 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://www.amazon.es/s?k=hoka+mafate+5&tag=performancerun-21',
     loja: 'Amazon ES',
     bestseller: true,
-<<<<<<< HEAD
     novidade: 'Líder Trail 2026',
-=======
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
   },
   {
     name: 'La Sportiva Bushido III',
@@ -289,10 +271,7 @@ export const sapatos: SapatoProduto[] = [
     contras: ['Menos agressiva em lama profunda', 'Durabilidade da sola mediana'],
     link: 'https://www.amazon.es/s?k=new+balance+fresh+foam+x+hierro+v9&tag=performancerun-21',
     loja: 'Amazon ES',
-<<<<<<< HEAD
     novidade: 'Em Alta 2026',
-=======
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
   },
   {
     name: 'Nike Vaporfly 3',
@@ -324,10 +303,7 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://www.amazon.es/s?k=nike+alphafly+3&tag=performancerun-21',
     loja: 'Amazon ES',
     bestseller: true,
-<<<<<<< HEAD
     novidade: 'Topo de Gama 2026',
-=======
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
   },
   {
     name: 'Adidas Adizero Adios Pro 4',
@@ -343,9 +319,7 @@ export const sapatos: SapatoProduto[] = [
     contras: ['Amortecimento mais firme que rivais', 'Preço elevado'],
     link: 'https://www.amazon.es/s?k=adidas+adizero+adios+pro+4&tag=performancerun-21',
     loja: 'Amazon ES',
-<<<<<<< HEAD
     novidade: 'Nova Geração 2026',
-=======
   },
   {
     name: 'ASICS Novablast 6',
@@ -451,7 +425,6 @@ export const sapatos: SapatoProduto[] = [
     contras: ['Menos explosiva que Alphafly', 'Durabilidade típica de super shoe (~300 km)'],
     link: 'https://www.amazon.es/s?k=saucony+endorphin+pro+5&tag=performancerun-21',
     loja: 'Amazon ES',
->>>>>>> 8c828c08c94c0f6129bb8ef54326211a5273da2d
   },
 ]
 
