@@ -41,16 +41,25 @@ const areas = [
 export default function SobrePage() {
   return (
     <>
-      {/* Hero */}
+      {/* Hero — backgroundColor de reserva + gradiente com valores rgba() entre
+          parêntesis retos em vez do modificador "/97" do Tailwind: confirmado
+          via inspeção do CSS compilado do site ao vivo que "from-black/97",
+          "via-black/88" etc. (opacidades fora da escala por defeito do
+          Tailwind) NÃO estavam a ser geradas — a regra `background-image`
+          resultante ficava `none`, ou seja, esta secção (e a de baixo) nunca
+          estiveram realmente escurecidas em produção, apesar do código
+          "parecer" correto. Os valores rgba() explícitos entre colchetes
+          contornam esse problema por completo. */}
       <section
         className="relative pt-32 pb-24 border-b border-white/5 overflow-hidden"
         style={{
+          backgroundColor: '#0a0a0a',
           backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1571008887538-b36bb32f4571.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 35%',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/88 to-black/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[rgba(0,0,0,0.97)] via-[rgba(0,0,0,0.88)] to-[rgba(0,0,0,0.6)]" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="absolute top-1/2 right-1/4 w-[400px] h-[400px] bg-brand-green/5 rounded-full blur-[100px] pointer-events-none" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -152,13 +161,14 @@ export default function SobrePage() {
         </div>
       </section>
 
-      {/* Sobre as referências — backgroundColor de reserva (mesmo padrão do
-          hero da homepage) para a secção nunca ficar clara/ilegível enquanto
-          a foto carrega ou se a foto falhar; texto reportado como
-          "não vejo as letras" quando o degradê escuro não estava a
-          renderizar a tempo. Overlay reforçado (era /97 /90 /85, agora
-          /97 /94 /92) e "CADA ARTIGO" já não usa opacidade quase invisível
-          (/25) — passou para /55, legível em qualquer condição. */}
+      {/* Sobre as referências — causa raiz real encontrada por inspeção direta
+          do CSS compilado no site ao vivo: as classes de degradê do Tailwind
+          com opacidade fora da escala por defeito (from-black/97, via-black/94,
+          to-black/92) nunca chegavam a gerar `background-image` nenhum —
+          ficava `none`, ou seja, esta secção NUNCA esteve realmente escurecida
+          em produção. Corrigido com valores rgba() explícitos entre colchetes,
+          que contornam esse problema. "CADA ARTIGO" também deixou de usar
+          opacidade quase invisível (/25) — passou para /55. */}
       <section
         className="relative py-24 overflow-hidden"
         style={{
@@ -169,7 +179,7 @@ export default function SobrePage() {
           backgroundAttachment: 'scroll',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/94 to-black/92" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,0,0,0.97)] via-[rgba(0,0,0,0.94)] to-[rgba(0,0,0,0.92)]" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.3em] uppercase mb-3">
