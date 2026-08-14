@@ -6,6 +6,12 @@ excerpt: "A refeição pré-prova é um componente crucial na preparação para 
 readTime: 4
 ---
 
+<div style="display:flex;justify-content:center;margin:8px 0 32px;">
+  <video controls playsinline style="width:100%;max-width:380px;border-radius:16px;">
+    <source src="/videos/dia-de-prova.mp4" type="video/mp4" />
+  </video>
+</div>
+
 A refeição pré-prova é um componente crucial na preparação para uma corrida. A escolha certa de alimentos e hidratação pode impulsionar o desempenho e reduzir o risco de lesões. No entanto, muitos corredores não sabem como preparar-se corretamente para a corrida. Neste artigo, vamos explorar a base científica e aplicar princípios práticos para ajudar os corredores a se preparar melhor para a corrida.
 
 A base científica é clara: a refeição pré-prova deve ser rica em carboidratos complexos, que fornecem energia para o corpo. De acordo com um estudo publicado no Journal of Sports Sciences, os carboidratos complexos são mais eficazes do que os carboidratos simples para fornecer energia durante a atividade física (Burke et al., 2011). Além disso, é fundamental evitar alimentos pesados e gordurosos, que podem causar desconforto e reduzir a performance.

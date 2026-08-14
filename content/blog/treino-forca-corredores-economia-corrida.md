@@ -6,6 +6,12 @@ category: "Treino"
 readTime: 5
 ---
 
+<div style="display:flex;justify-content:center;margin:8px 0 32px;">
+  <video controls playsinline style="width:100%;max-width:380px;border-radius:16px;">
+    <source src="/videos/core.mp4" type="video/mp4" />
+  </video>
+</div>
+
 Muitos corredores evitam o ginásio com medo de "ganhar massa" ou "ficar pesados". A investigação diz exactamente o oposto: o treino de força certo melhora directamente o rendimento na corrida.
 
 ## O que descobriu a ciência?

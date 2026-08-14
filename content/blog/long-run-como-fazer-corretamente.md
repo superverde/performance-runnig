@@ -7,6 +7,12 @@ category: Treino
 readTime: 7
 ---
 
+<div style="display:flex;justify-content:center;margin:8px 0 32px;">
+  <video controls playsinline style="width:100%;max-width:380px;border-radius:16px;">
+    <source src="/videos/longao.mp4" type="video/mp4" />
+  </video>
+</div>
+
 A corrida longa semanal — o famoso "long run" — é o alicerce de qualquer plano de treino para fundo. É o treino que mais adaptações aeróbias provoca, que mais prepara o sistema musculoesquelético para a distância e que mais simula as exigências de uma prova.
 
 É também o treino que mais corredores fazem mal.

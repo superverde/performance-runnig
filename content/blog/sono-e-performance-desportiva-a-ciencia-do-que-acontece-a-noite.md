@@ -6,6 +6,12 @@ category: "Recuperação"
 readTime: 12
 ---
 
+<div style="display:flex;justify-content:center;margin:8px 0 32px;">
+  <video controls playsinline style="width:100%;max-width:380px;border-radius:16px;">
+    <source src="/videos/sono.mp4" type="video/mp4" />
+  </video>
+</div>
+
 ## Sono e Performance Desportiva: A Relação Clave
 
 O sono é um componente fundamental da recuperação desportiva, pois contribui para a reparação e a adaptação muscular, a regulação hormonal e a consolidação da memória motora. A privação do sono pode ter consequências negativas na performance desportiva, incluindo a perda de força, a redução da velocidade e a diminuição da resistência.

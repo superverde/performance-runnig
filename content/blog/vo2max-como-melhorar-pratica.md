@@ -6,6 +6,12 @@ excerpt: "O VO2max, ou capacidade aeróbica máxima, é um parâmetro fundamenta
 readTime: 4
 ---
 
+<div style="display:flex;justify-content:center;margin:8px 0 32px;">
+  <video controls playsinline style="width:100%;max-width:380px;border-radius:16px;">
+    <source src="/videos/vo2max.mp4" type="video/mp4" />
+  </video>
+</div>
+
 ## Base Científica
 
 O VO2max, ou capacidade aeróbica máxima, é um parâmetro fundamental para avaliar o desempenho aeróbico em atividades de resistência prolongada, como corrida, ciclismo e natação. É definido como a maior taxa de oxigênio consumido pelo corpo durante um esforço máximo e está diretamente relacionado à capacidade de transportar oxigênio para as células musculares. Diversos estudos têm investigado os mecanismos que influenciam a obtenção e manutenção de um VO2max elevado, destacando a importância do treino de alta intensidade e volume adequado.
