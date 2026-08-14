@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
+import { allPoolImages } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -21,14 +22,18 @@ const TEMAS_POR_DIA = [
   'fisiologia e VO2max',                               // Domingo
 ]
 
+// Reduzido para 4 hashtags específicos por dia — ver [[lib/hashtags.ts]].
+// Hashtags não aumentam alcance no Instagram (só categorizam o conteúdo);
+// mais de 4 hashtags genéricos por post é tratado como sinal de spam pelo
+// algoritmo em vez de sinal de relevância.
 const HASHTAGS_POR_DIA = [
-  '#treino #running #treinodecorrida #corridaportugal #performancerunning #corredores',
-  '#pacing #overtraining #running #corridaportugal #performancerunning #corredores',
-  '#nutricao #runningfuel #corridaportugal #performancerunning #corredores #maratona',
-  '#biomecanica #tecnicadecorrida #running #performancerunning #corredores',
-  '#running #maratona #corridaportugal #performancerunning #corredores #prova',
-  '#recuperacao #recovery #running #performancerunning #corredores #sono',
-  '#vo2max #fisiologia #running #endurance #performancerunning #corredores',
+  '#treino #treinodecorrida #planosemanal #corredores',
+  '#pacing #overtraining #treino #corredores',
+  '#nutricaodesportiva #runningfuel #hidratacao #corredores',
+  '#biomecanica #tecnicadecorrida #posturadecorrida #corredores',
+  '#maratona #estrategiadecorrida #corridaportugal #corredores',
+  '#recuperacao #recovery #sono #corredores',
+  '#vo2max #fisiologia #resistenciaaerobica #corredores',
 ]
 
 function fixPtPt(text: string): string {
@@ -60,12 +65,13 @@ REGRAS:
 3. SEMPRE em português de Portugal (tu, treinas, corres — nunca você, seus, Não perca)
 4. Não inclui link — é conteúdo standalone para gerar alcance e partilhas
 5. Tom: autoridade científica + linguagem acessível
+6. Hashtags: usa APENAS estas 4 — nunca inventes mais: ${hashtags}. Hashtags não aumentam alcance no Instagram (só categorizam); o alcance vem das palavras-chave escritas na frase.
 
 Responde em JSON:
 {
-  "facebook": "post Facebook: facto + 1-2 frases de contexto + hashtags no fim",
-  "instagram": "post Instagram: facto + 1-2 frases + hashtags no fim",
-  "x": "post X: máx 270 chars, só o facto + 2-3 hashtags"
+  "facebook": "post Facebook: facto + 1-2 frases de contexto + as 4 hashtags dadas no fim",
+  "instagram": "post Instagram: facto + 1-2 frases + as 4 hashtags dadas no fim",
+  "x": "post X: máx 270 chars, só o facto + 2 das 4 hashtags dadas"
 }`
 
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
@@ -143,16 +149,11 @@ async function postToX(text: string): Promise<boolean> {
   } catch { return false }
 }
 
-// Imagem genérica para posts sem artigo (tema visual de corrida)
-const TIP_IMAGES = [
-  'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80',
-  'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1080&q=80',
-  'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80',
-  'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80',
-  'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1080&q=80',
-  'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80',
-  'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80',
-]
+// Imagem genérica para posts sem artigo (tema visual de corrida).
+// Antes tinha só 7 imagens (uma por dia da semana, repetindo toda semana
+// para sempre). Agora usa a pool completa de 50 e roda por dia do ano —
+// só repete ao fim de ~50 dias em vez de 7.
+const TIP_IMAGES = allPoolImages(1080)
 
 export async function GET(req: NextRequest) {
   if (!isAuthorized(req)) {
@@ -162,7 +163,10 @@ export async function GET(req: NextRequest) {
   const diaSemana = new Date().getDay() // 0=Dom, 1=Seg, ..., 6=Sab
   const tema = TEMAS_POR_DIA[diaSemana]
   const hashtags = HASHTAGS_POR_DIA[diaSemana]
-  const image = TIP_IMAGES[diaSemana]
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000
+  )
+  const image = TIP_IMAGES[dayOfYear % TIP_IMAGES.length]
 
   const captions = await generateTip(tema, hashtags)
 

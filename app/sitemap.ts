@@ -1,6 +1,11 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/articles'
 
+// Mesma razao do app/blog/page.tsx: sem isto, o sitemap fica congelado com os
+// artigos que existiam no ultimo build/deploy em vez de refletir os artigos
+// publicados diariamente pelo GitHub Action.
+export const dynamic = 'force-dynamic'
+
 const SITE_URL = 'https://www.performancerunning.pt'
 
 const MODALIDADES_SLUGS = [
@@ -11,6 +16,7 @@ const MODALIDADES_SLUGS = [
 const BLOG_CATEGORIAS = [
   'treino', 'fisiologia', 'nutricao', 'biomecanica',
   'recuperacao', 'psicologia', 'trail-running', 'lesoes', 'vo2max',
+  'equipamento',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -69,12 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${SITE_URL}/servicos`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
       url: `${SITE_URL}/patrocinios`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -82,6 +82,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/equipamento`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${SITE_URL}/calendario`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/ferramentas`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/ferramentas/idade`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${SITE_URL}/ferramentas/comparador-sapatilhas`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.75,

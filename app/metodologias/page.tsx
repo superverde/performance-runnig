@@ -14,7 +14,7 @@ const modalities = [
     name: '5 km',
     tag: 'VELOCIDADE',
     headline: 'Máxima Potência Aeróbia',
-    img: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
     description:
       'O 5km é a distância que mais exige do VO2max e da capacidade láctica. Um corredor de 5km precisa de sustentar entre 95-100% do VO2max durante 15-25 minutos — o que requer uma base aeróbia sólida combinada com sessões de alta intensidade.',
     physiology: 'Predominância aeróbia com contribuição anaeróbia significativa (≈10-15%). A produção de lactato excede a capacidade de remoção nos últimos quilómetros.',
@@ -28,7 +28,7 @@ const modalities = [
     id: '10km',
     name: '10 km',
     tag: 'LIMIAR',
-    img: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
     headline: 'Equilíbrio entre Potência e Resistência',
     description:
       'O 10km representa o ponto de equilíbrio perfeito entre velocidade e resistência. É corrido próximo do limiar anaeróbio — o ponto onde a produção de lactato começa a superar a sua remoção. Dominar este limiar é o segredo para melhorar de 5km à maratona.',
@@ -41,7 +41,7 @@ const modalities = [
   },
   {
     id: 'meia-maratona',
-    img: 'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1613936360976-8f35cf0e5461.jpg',
     name: 'Meia Maratona',
     tag: 'EFICIÊNCIA',
     headline: 'Limiar Aeróbio e Economia de Corrida',
@@ -56,7 +56,7 @@ const modalities = [
   },
   {
     id: 'maratona',
-    img: 'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg',
     name: 'Maratona',
     tag: 'PERIODIZAÇÃO',
     headline: 'Gestão de Energia e Resistência à Fadiga',
@@ -71,7 +71,7 @@ const modalities = [
   },
   {
     id: 'trail-running',
-    img: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
     name: 'Trail Running',
     tag: 'TÉCNICA',
     headline: 'Técnica de Montanha e Adaptação ao Terreno',
@@ -86,7 +86,7 @@ const modalities = [
   },
   {
     id: 'ultra-trail',
-    img: 'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg',
     name: 'Ultra Trail',
     tag: 'MENTAL',
     headline: 'Preparação Mental, Logística e Nutrição',
@@ -101,7 +101,7 @@ const modalities = [
   },
   {
     id: 'corrida-montanha',
-    img: 'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
     name: 'Corrida de Montanha',
     tag: 'FORÇA',
     headline: 'Explosividade, Técnica e Força Específica',
@@ -116,7 +116,7 @@ const modalities = [
   },
   {
     id: 'meio-fundo',
-    img: 'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1567427018141-0584cfcbf1b8.jpg',
     name: 'Meio Fundo',
     tag: 'VO2MAX',
     headline: 'Potência Aeróbia Máxima e Velocidade',
@@ -131,7 +131,7 @@ const modalities = [
   },
   {
     id: 'jovens-atletas',
-    img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
+    img: 'https://www.performancerunning.pt/pool-images/photo-1571019614242-c5c5dee9f50b.jpg',
     name: 'Jovens Atletas',
     tag: 'DESENVOLVIMENTO',
     headline: 'Periodização a Longo Prazo para Jovens',
@@ -153,7 +153,7 @@ export default function MethodologiesPage() {
       <section
         className="relative pt-32 pb-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center 30%',
         }}
@@ -210,7 +210,7 @@ export default function MethodologiesPage() {
                 backgroundPosition: 'center',
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/80 to-black/50" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/92 to-black/88" />
               <div className="relative p-8 sm:p-10">
                 <span className="inline-block px-2.5 py-1 rounded-full text-[10px] font-mono font-bold tracking-widest text-brand-green border border-brand-green/30 bg-brand-green/10 mb-4">
                   {m.tag}
@@ -291,11 +291,15 @@ export default function MethodologiesPage() {
         ))}
       </div>
 
-      {/* CTA */}
+      {/* CTA — a foto anterior (photo-1590012314607) era, confirmado
+          visualmente na sessão de correção da homepage, uma cerimónia de
+          formatura académica, sem nenhuma relação com corrida. Trocada
+          pela mesma foto já confirmada e usada no CTA final da homepage
+          (corredores em silhueta ao pôr do sol). */}
       <section
         className="relative py-24 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1920&q=80)',
+          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

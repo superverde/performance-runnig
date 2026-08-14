@@ -1,5 +1,21 @@
+import type { Metadata } from 'next'
 import { ArrowRight, Quote, Star } from 'lucide-react'
 import Link from 'next/link'
+
+// Sem isto, a página herdava o título/descrição genéricos da homepage —
+// perdia SEO específico para quem procura "testemunhos performance running"
+// ou resultados reais de corredores.
+export const metadata: Metadata = {
+  title: 'Testemunhos — Corredores que Cresceram',
+  description:
+    'Histórias reais de corredores que pediram uma consulta e transformaram a sua performance: maratona, trail e prevenção de lesões, com resultados concretos.',
+  alternates: { canonical: 'https://www.performancerunning.pt/reviews' },
+  openGraph: {
+    title: 'Testemunhos — Corredores que Cresceram | Performance Running',
+    description: 'Resultados reais de corredores que treinaram com acompanhamento científico.',
+    images: [{ url: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80', width: 1200, height: 630 }],
+  },
+}
 
 const REVIEWS = [
   {

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checklist Comunidades — Performance Running</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; padding: 20px; }
+  h1 { font-size: 1.6rem; color: #fff; margin-bottom: 4px; }
+  .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 24px; }
+  .progress-bar { background: #1a1a1a; border-radius: 8px; height: 8px; margin-bottom: 8px; overflow: hidden; }
+  .progress-fill { background: linear-gradient(90deg, #22c55e, #16a34a); height: 100%; transition: width 0.3s; border-radius: 8px; }
+  .progress-text { font-size: 0.85rem; color: #888; margin-bottom: 28px; }
+  .section { margin-bottom: 28px; }
+  .section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; cursor: pointer; user-select: none; }
+  .section-header h2 { font-size: 1rem; font-weight: 600; color: #fff; }
+  .flag { font-size: 1.2rem; }
+  .badge { font-size: 0.75rem; background: #1a1a1a; color: #666; padding: 2px 8px; border-radius: 20px; margin-left: auto; }
+  .badge.done { background: #14532d; color: #22c55e; }
+  .items { display: flex; flex-direction: column; gap: 6px; }
+  .item { display: flex; align-items: flex-start; gap: 10px; background: #111; border: 1px solid #1e1e1e; border-radius: 8px; padding: 10px 14px; cursor: pointer; transition: border-color 0.2s; }
+  .item:hover { border-color: #333; }
+  .item.checked { border-color: #14532d; background: #0a1a0f; }
+  .item.checked .item-name { color: #22c55e; }
+  .item.checked .item-desc { color: #166534; }
+  .checkbox { width: 18px; height: 18px; border: 2px solid #333; border-radius: 4px; flex-shrink: 0; margin-top: 1px; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .item.checked .checkbox { background: #22c55e; border-color: #22c55e; }
+  .checkmark { color: #0a0a0a; font-size: 12px; font-weight: bold; display: none; }
+  .item.checked .checkmark { display: block; }
+  .item-content { flex: 1; }
+  .item-name { font-size: 0.9rem; font-weight: 500; color: #d0d0d0; }
+  .item-desc { font-size: 0.78rem; color: #555; margin-top: 2px; }
+  .link { font-size: 0.75rem; color: #3b82f6; text-decoration: none; margin-top: 4px; display: inline-block; }
+  .link:hover { text-decoration: underline; }
+  .hashtags { font-size: 0.75rem; color: #6366f1; margin-top: 4px; font-family: monospace; }
+  .reset-btn { background: #1a1a1a; color: #666; border: 1px solid #333; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; margin-top: 20px; }
+  .reset-btn:hover { color: #999; }
+</style>
+</head>
+<body>
+
+<h1>🌍 Comunidades Performance Running</h1>
+<p class="subtitle">Marca cada grupo/conta à medida que te conectas. O progresso fica guardado.</p>
+
+<div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+<p class="progress-text" id="progressText">0 de 0 concluídos</p>
+
+<div id="sections"></div>
+
+<button class="reset-btn" onclick="resetAll()">↺ Recomeçar checklist</button>
+
+<script>
+const data = [
+  {
+    flag: '🇵🇹', lang: 'Portugal', items: [
+      { name: 'Grupo FB: Corredores de Portugal', desc: '40k+ membros — entra com a tua Page e apresenta o site', link: 'https://www.facebook.com/search/groups/?q=corredores+de+portugal' },
+      { name: 'Grupo FB: Trail Running Portugal', desc: 'Comunidade de trail ativa', link: 'https://www.facebook.com/search/groups/?q=trail+running+portugal' },
+      { name: 'Grupo FB: Runners Porto', desc: 'Comunidade local do Porto', link: 'https://www.facebook.com/search/groups/?q=runners+porto' },
+      { name: 'Grupo FB: Corrida em Lisboa', desc: 'Comunidade de Lisboa', link: 'https://www.facebook.com/search/groups/?q=corrida+lisboa' },
+      { name: 'Seguir @FPatletismo no X', desc: 'Federação Portuguesa de Atletismo', link: 'https://x.com/FPatletismo' },
+      { name: 'Seguir @saramoreiracorrida', desc: 'Atleta portuguesa de referência', link: 'https://www.instagram.com/saramoreiracorrida' },
+    ]
+  },
+  {
+    flag: '🇬🇧🇺🇸', lang: 'English (UK / USA)', items: [
+      { name: 'Subreddit r/running', desc: '3M+ membros — comenta com expertise, nunca faz spam', link: 'https://www.reddit.com/r/running' },
+      { name: 'Subreddit r/AdvancedRunning', desc: 'Atletas sérios — ideal para artigos técnicos', link: 'https://www.reddit.com/r/AdvancedRunning' },
+      { name: 'Subreddit r/trailrunning', desc: 'Comunidade de trail global', link: 'https://www.reddit.com/r/trailrunning' },
+      { name: 'Grupo FB: Marathon Runners', desc: '200k+ membros globais', link: 'https://www.facebook.com/search/groups/?q=marathon+runners' },
+      { name: 'Grupo FB: Runners World Community', desc: 'Comunidade mais ativa em inglês', link: 'https://www.facebook.com/search/groups/?q=runners+world+community' },
+      { name: 'Seguir @usatf no X', desc: 'USA Track & Field — grande audiência', link: 'https://x.com/usatf' },
+      { name: 'Seguir @EliudKipchoge no X', desc: 'O corredor mais seguido do mundo', link: 'https://x.com/EliudKipchoge' },
+      { name: 'Seguir @kilianjornet no Instagram', desc: 'Referência mundial em trail', link: 'https://www.instagram.com/kilianjornet' },
+    ]
+  },
+  {
+    flag: '🇪🇸', lang: 'Espanhol (ES/MX/AR)', items: [
+      { name: 'Grupo FB: Running España', desc: '50k+ membros — partilha artigos em espanhol', link: 'https://www.facebook.com/search/groups/?q=running+españa' },
+      { name: 'Grupo FB: Trail Running España', desc: 'Comunidade de trail em Espanha', link: 'https://www.facebook.com/search/groups/?q=trail+running+españa' },
+      { name: 'Grupo FB: Runners México', desc: 'Mercado hispano enorme', link: 'https://www.facebook.com/search/groups/?q=runners+mexico' },
+      { name: 'Seguir @RFEAtletismo no X', desc: 'Federação Espanhola de Atletismo', link: 'https://x.com/RFEAtletismo' },
+      { name: 'Hashtags a usar', desc: '#correr #atletismo #maratón #trailrunning #corredores', hashtags: true },
+    ]
+  },
+  {
+    flag: '🇫🇷', lang: 'Francês', items: [
+      { name: 'Grupo FB: Trail Running France', desc: '80k+ membros', link: 'https://www.facebook.com/search/groups/?q=trail+running+france' },
+      { name: 'Grupo FB: Running France Communauté', desc: 'Comunidade geral francesa', link: 'https://www.facebook.com/search/groups/?q=running+france' },
+      { name: 'Seguir @FFAthlétisme no X', desc: 'Federação Francesa de Atletismo', link: 'https://x.com/FFAthlétisme' },
+      { name: 'UTMB Community', desc: 'A maior prova de trail do mundo — comunidade global', link: 'https://www.facebook.com/search/groups/?q=UTMB+ultra+trail' },
+      { name: 'Hashtags a usar', desc: '#courir #trail #marathon #trailrunning #athletisme', hashtags: true },
+    ]
+  },
+  {
+    flag: '🇩🇪', lang: 'Alemão', items: [
+      { name: 'Grupo FB: Laufcommunity Deutschland', desc: '100k+ membros', link: 'https://www.facebook.com/search/groups/?q=laufcommunity+deutschland' },
+      { name: 'Grupo FB: Trail Running Deutschland', desc: 'Comunidade de trail alemã', link: 'https://www.facebook.com/search/groups/?q=trail+running+deutschland' },
+      { name: 'Seguir @DLV_Athletics no X', desc: 'Federação Alemã — grande audiência', link: 'https://x.com/DLV_Athletics' },
+      { name: 'Hashtags a usar', desc: '#laufen #laufcommunity #marathon #trailrunning #leichtathletik', hashtags: true },
+    ]
+  },
+  {
+    flag: '🇨🇳', lang: 'Mandarim (China/Taiwan/HK)', items: [
+      { name: 'Criar conta Xiaohongshu (小红书)', desc: 'O Instagram chinês — enorme para corrida. Regista com email.', link: 'https://www.xiaohongshu.com' },
+      { name: 'Criar conta Weibo', desc: 'O Twitter chinês — regista em weibo.com', link: 'https://weibo.com' },
+      { name: 'Seguir 中国田径协会 no Weibo', desc: 'Federação Chinesa de Atletismo', link: 'https://weibo.com/search?q=中国田径协会' },
+      { name: 'Publicar no Xiaohongshu com #跑步', desc: 'Hashtag principal para corrida na China — 500M+ posts', hashtags: true },
+      { name: 'Grupo FB: Hong Kong Runners', desc: 'Para utilizadores de Hong Kong/Singapura', link: 'https://www.facebook.com/search/groups/?q=hong+kong+runners' },
+      { name: 'Grupo FB: Singapore Runners', desc: 'Comunidade ativa em SG', link: 'https://www.facebook.com/search/groups/?q=singapore+runners' },
+      { name: 'Hashtags Xiaohongshu a usar', desc: '#跑步 #马拉松 #越野跑 #长跑 #跑步训练 #半马', hashtags: true },
+    ]
+  },
+  {
+    flag: '🌍', lang: 'Global', items: [
+      { name: 'Strava Club — criar e promover', desc: 'Cria um Strava Club "Performance Running" e promove nos artigos', link: 'https://www.strava.com/clubs' },
+      { name: 'Parkrun Community', desc: 'Comunidade global com milhões de corredores', link: 'https://www.facebook.com/parkrun' },
+      { name: 'Seguir @WorldAthletics no X', desc: 'Federação Mundial de Atletismo — retweet e menções', link: 'https://x.com/WorldAthletics' },
+      { name: 'Abbott World Marathon Majors', desc: 'Comunidade dos 6 Major Marathons', link: 'https://www.facebook.com/AbbottWMMajors' },
+    ]
+  },
+]
+
+// Carrega estado guardado
+const saved = JSON.parse(localStorage.getItem('pr_checklist') || '{}')
+
+function saveState() {
+  const state = {}
+  document.querySelectorAll('.item').forEach(el => {
+    state[el.dataset.id] = el.classList.contains('checked')
+  })
+  localStorage.setItem('pr_checklist', JSON.stringify(state))
+  updateProgress()
+}
+
+function updateProgress() {
+  const all = document.querySelectorAll('.item')
+  const done = document.querySelectorAll('.item.checked')
+  const pct = all.length ? Math.round(done.length / all.length * 100) : 0
+  document.getElementById('progressFill').style.width = pct + '%'
+  document.getElementById('progressText').textContent = `${done.length} de ${all.length} concluídos (${pct}%)`
+
+  // Atualiza badges por secção
+  document.querySelectorAll('.section').forEach(sec => {
+    const secItems = sec.querySelectorAll('.item')
+    const secDone = sec.querySelectorAll('.item.checked')
+    const badge = sec.querySelector('.badge')
+    if (badge) {
+      badge.textContent = `${secDone.length}/${secItems.length}`
+      badge.className = 'badge' + (secDone.length === secItems.length ? ' done' : '')
+    }
+  })
+}
+
+function resetAll() {
+  if (!confirm('Tens a certeza? O progresso será apagado.')) return
+  localStorage.removeItem('pr_checklist')
+  document.querySelectorAll('.item').forEach(el => el.classList.remove('checked'))
+  updateProgress()
+}
+
+// Renderiza
+const container = document.getElementById('sections')
+let idCounter = 0
+
+data.forEach(section => {
+  const sec = document.createElement('div')
+  sec.className = 'section'
+
+  const header = document.createElement('div')
+  header.className = 'section-header'
+  header.innerHTML = `<span class="flag">${section.flag}</span><h2>${section.lang}</h2><span class="badge">0/${section.items.length}</span>`
+  sec.appendChild(header)
+
+  const items = document.createElement('div')
+  items.className = 'items'
+
+  section.items.forEach(item => {
+    const id = 'item_' + (idCounter++)
+    const el = document.createElement('div')
+    el.className = 'item' + (saved[id] ? ' checked' : '')
+    el.dataset.id = id
+
+    let extra = ''
+    if (item.link) extra += `<a class="link" href="${item.link}" target="_blank" onclick="event.stopPropagation()">🔗 Abrir →</a>`
+    if (item.hashtags) extra = `<div class="hashtags">${item.desc}</div>`
+
+    el.innerHTML = `
+      <div class="checkbox"><span class="checkmark">✓</span></div>
+      <div class="item-content">
+        <div class="item-name">${item.name}</div>
+        ${!item.hashtags ? `<div class="item-desc">${item.desc}</div>` : ''}
+        ${extra}
+      </div>`
+
+    el.addEventListener('click', () => {
+      el.classList.toggle('checked')
+      saveState()
+    })
+
+    items.appendChild(el)
+  })
+
+  sec.appendChild(items)
+  container.appendChild(sec)
+})
+
+updateProgress()
+</script>
+</body>
+</html>

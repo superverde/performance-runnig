@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
+import { pickCategoryImage } from '@/lib/images'
+import { hashtagsFor } from '@/lib/hashtags'
+import { redis } from '@/lib/redis'
 
 // ── TIPOS ────────────────────────────────────────────────────────────────────
 
@@ -25,58 +28,14 @@ function isConfigured(value: string | undefined): boolean {
   return !!value && value !== 'placeholder' && value.length > 10
 }
 
-// Imagens de capa por categoria — contextualizadas para cada tema
-const CATEGORY_IMAGES: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80', // corredor em treino intenso
-  'Fisiologia':    'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1080&q=80', // corredor com monitor cardíaco
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80', // comida saudável para desportistas
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1080&q=80', // corredor em análise de passada
-  'Recuperação':   'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80', // corredor a descansar pós treino
-  'Psicologia':    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1080&q=80', // corredor concentrado
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80', // trail em montanha
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80', // fisioterapia / joelho
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80', // corredor em esforço máximo
+// Seleção de imagem de capa: ver lib/images.ts. Antes havia aqui 1 imagem
+// fixa por categoria (repetida em todos os posts da mesma categoria, há
+// meses) — agora usa uma pool de 50 imagens, escolhida de forma
+// determinística pelo slug do artigo (mesmo artigo = mesma imagem em todas
+// as redes, artigos diferentes da mesma categoria já não colidem).
+function selectImage(slug: string, category: string): string {
+  return pickCategoryImage(category, slug, 1080)
 }
-
-// Palavras-chave no título → imagem mais específica
-const KEYWORD_IMAGES: { keywords: string[]; url: string }[] = [
-  { keywords: ['gelo', 'frio', 'banho', 'crioterapia', 'cold'], url: 'https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=1080&q=80' },
-  { keywords: ['maratona', 'marathon'], url: 'https://images.unsplash.com/photo-1530137073521-58f5bd474c49?w=1080&q=80' },
-  { keywords: ['trail', 'montanha', 'mountain', 'ultra'], url: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80' },
-  { keywords: ['nutri', 'carboidrat', 'proteína', 'dieta', 'gel'], url: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80' },
-  { keywords: ['sono', 'descanso', 'recupera'], url: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1080&q=80' },
-  { keywords: ['lesão', 'lesao', 'dor', 'joelho', 'plantar', 'tendão'], url: 'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80' },
-  { keywords: ['vo2', 'oxigénio', 'oxigenio', 'limiar', 'lactato'], url: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80' },
-  { keywords: ['força', 'forca', 'muscula', 'gin', 'weight'], url: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1080&q=80' },
-  { keywords: ['5km', '10km', 'prova', 'corrida de rua', 'competição'], url: 'https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?w=1080&q=80' },
-  { keywords: ['pace', 'ritmo', 'pacing', 'velocidade'], url: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80' },
-]
-
-function selectImage(title: string, category: string): string {
-  const lower = title.toLowerCase()
-  for (const entry of KEYWORD_IMAGES) {
-    if (entry.keywords.some(kw => lower.includes(kw))) return entry.url
-  }
-  return CATEGORY_IMAGES[category] ?? DEFAULT_IMAGE
-}
-
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80'
-
-// ── HASHTAGS POR CATEGORIA ───────────────────────────────────────────────────
-
-const CATEGORY_HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #running #treinodecorrida #corridaportugal #runningtraining #entrenamientocorrida #lauftraining #entraînement',
-  'Fisiologia':    '#fisiologia #vo2max #resistencia #running #endurance #ausdauer #physiologie #corredores #runnersworld',
-  'Nutrição':      '#nutricao #nutricaoesportiva #runningfuel #sportsnutrition #ernährung #nutrition #corredores #maratona',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #runningform #biomechanics #lauftechnik #corridaeficiente #running',
-  'Recuperação':   '#recuperacao #recovery #running #sportrecovery #erholung #récupération #lesaosportiva #corredores',
-  'Psicologia':    '#psicologiaesportiva #mentaltraining #running #mindset #sportpsychologie #psychologiedusport',
-  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #mountainrunning #trailrun #ultrarunning #UTMB #traillife',
-  'Lesões':        '#lesoes #prevencaodelesoes #runninginjury #injuryprevention #laufverletzung #corredores #fisioterapia',
-  'VO2max':        '#vo2max #fisiologia #running #endurance #resistencia #corridaportugal #performancerunning #runnersworld',
-}
-
-const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
 
 // ── CORREÇÃO PT-PT (pós-processamento determinístico, custo zero) ────────────
 
@@ -128,14 +87,14 @@ async function generateCaptions(article: ArticlePayload): Promise<{
   threads: string
 }> {
   const groqKey = process.env.GROQ_API_KEY
-  const hashtags = CATEGORY_HASHTAGS[article.category] || DEFAULT_HASHTAGS
+  const hashtags = hashtagsFor(article.category)
   const link = `${SITE_URL}/blog/${article.slug}`
 
   if (!groqKey) {
     // Fallback sem Groq
     return {
       x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
-      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags} #portugal #fitness`,
+      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags}`,
       facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
       threads: `${article.title}\n\n${article.excerpt.slice(0, 200)}`,
     }
@@ -151,8 +110,8 @@ RESUMO: ${article.excerpt}
 LINK: ${link}
 CATEGORIA: ${article.category}
 
-HASHTAGS (incluir SEMPRE — obrigatório):
-${hashtags} #corridaportugal #runningportugal #atletismoportugal #corredoresportugal #performancerunning
+HASHTAGS (usar EXATAMENTE estas 4 — nunca inventar mais, nunca juntar outras):
+${hashtags}
 
 REGRAS ABSOLUTAS:
 1. Primeiro gancho tem de prender imediatamente — sem introduções mortas
@@ -160,7 +119,8 @@ REGRAS ABSOLUTAS:
 3. Tom: credível, direto, prático — como alguém que percebe muito de corrida e respeita a ciência
 4. NUNCA: português do Brasil, IA genérica, influencer vazio, jargão científico sem aplicação
 5. Cada plataforma tem texto diferente e nativo
-6. PORTUGUÊS DE PORTUGAL — REGRA ABSOLUTA. Nunca usar português do Brasil. Substitui SEMPRE:
+6. Hashtags NÃO aumentam alcance no Instagram (só categorizam o conteúdo) — o que gera alcance é a legenda escrita com palavras-chave reais ("treino de corrida", "meia maratona", "VO2max") na frase, não uma lista de tags. Nunca usar mais do que as 4 hashtags dadas acima.
+7. PORTUGUÊS DE PORTUGAL — REGRA ABSOLUTA. Nunca usar português do Brasil. Substitui SEMPRE:
    PRONOMES/TRATAMENTO:
    ❌ "você" → ✅ "tu"
    ❌ "seus corredores" → ✅ "os teus treinos"
@@ -192,8 +152,8 @@ REGRAS ABSOLUTAS:
 Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
 {
   "x": "post X/Twitter — máx 270 chars, hook forte, 1 facto surpreendente ou estatística, link, 3-4 hashtags",
-  "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor, emoji moderado, CTA 'link na bio', TODAS as hashtags no fim numa linha separada",
-  "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, 4-6 hashtags relevantes integradas ou no fim",
+  "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor com palavras-chave do tema escritas no texto (não só nas hashtags), emoji moderado, CTA 'link na bio', as 4 hashtags dadas no fim numa linha separada",
+  "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, as 4 hashtags dadas no fim",
   "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, sem link"
 }`
 
@@ -257,6 +217,32 @@ async function postToX(text: string): Promise<PostResult> {
 
 // ── FACEBOOK PAGE ─────────────────────────────────────────────────────────────
 
+// A Graph API do Facebook por vezes devolve erro (ex: "Please reduce the
+// amount of data you're asking for, then retry your request") mesmo depois
+// de já ter criado o post do lado deles — falso negativo conhecido sob
+// rate-limit/carga. Antes de declarar falha, confirma-se via GET ao feed da
+// página se um post com a mesma mensagem apareceu nos últimos minutos.
+async function verifyFacebookPost(pageId: string, pageToken: string, expectedMessage: string): Promise<string | null> {
+  try {
+    const url = `https://graph.facebook.com/v19.0/${pageId}/feed?fields=id,message,created_time&limit=5&access_token=${encodeURIComponent(pageToken)}`
+    const res = await fetch(url)
+    const data = await res.json()
+    if (!res.ok || data.error || !Array.isArray(data.data)) return null
+
+    const now = Date.now()
+    for (const post of data.data) {
+      const created = new Date(post.created_time).getTime()
+      const isRecent = now - created < 5 * 60 * 1000 // 5 minutos
+      if (isRecent && typeof post.message === 'string' && post.message.trim() === expectedMessage.trim()) {
+        return post.id
+      }
+    }
+    return null
+  } catch {
+    return null
+  }
+}
+
 async function postToFacebook(message: string, link: string): Promise<PostResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
@@ -274,7 +260,19 @@ async function postToFacebook(message: string, link: string): Promise<PostResult
 
     const data = await res.json()
     if (!res.ok || data.error) {
-      return { platform: 'Facebook', success: false, error: data.error?.message || 'Erro Facebook' }
+      const errMsg = data.error?.message || 'Erro Facebook'
+
+      // Confirma se o post foi mesmo criado apesar do erro na resposta,
+      // antes de o marcar como falha (evita falsos negativos no log e
+      // evita reenviar/duplicar se houver retry a montante).
+      await new Promise(r => setTimeout(r, 1500))
+      const verifiedId = await verifyFacebookPost(pageId, pageToken, message)
+      if (verifiedId) {
+        console.warn(`[social-post] Facebook: resposta de erro ("${errMsg}") mas post confirmado criado (id ${verifiedId}) — tratado como sucesso`)
+        return { platform: 'Facebook', success: true, id: verifiedId }
+      }
+
+      return { platform: 'Facebook', success: false, error: errMsg }
     }
 
     return { platform: 'Facebook', success: true, id: data.id }
@@ -380,6 +378,35 @@ async function postToThreads(text: string): Promise<PostResult> {
   }
 }
 
+// ── REGISTO DURADOURO DE RESULTADOS (Redis) ──────────────────────────────────
+//
+// Os logs da Vercel (plano Hobby) só guardam a última 1 hora — insuficiente
+// para diagnosticar falhas intermitentes (ex: Facebook a falhar silenciosamente
+// enquanto Instagram continua a funcionar, só detetado dias depois). Isto
+// grava cada resultado (sucesso ou erro) numa lista Redis por dia, com TTL de
+// 30 dias, para ficar consultável via /api/social-log muito depois de a janela
+// de logs da Vercel expirar. Nunca deve bloquear nem falhar a publicação em si.
+async function logSocialResults(article: { title: string; slug: string }, results: PostResult[]) {
+  try {
+    const today = new Date().toISOString().slice(0, 10)
+    const key = `social-log:${today}`
+    const timestamp = new Date().toISOString()
+    for (const r of results) {
+      await redis.rpush(key, JSON.stringify({
+        timestamp,
+        article: { title: article.title, slug: article.slug },
+        platform: r.platform,
+        success: r.success,
+        error: r.error ?? null,
+      }))
+    }
+    await redis.expire(key, 60 * 60 * 24 * 30) // 30 dias
+  } catch (err) {
+    // Falha a gravar o log não pode impedir a resposta normal do endpoint
+    console.error('[social-post] Erro ao gravar social-log no Redis:', err)
+  }
+}
+
 // ── HANDLER PRINCIPAL ─────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
@@ -398,7 +425,7 @@ export async function POST(req: NextRequest) {
     }
 
     const articleUrl = `${SITE_URL}/blog/${slug}`
-    const image = coverImage || selectImage(title, category)
+    const image = coverImage || selectImage(slug, category)
 
     // Gera captions para todas as plataformas
     const captions = await generateCaptions(article)
@@ -420,6 +447,8 @@ export async function POST(req: NextRequest) {
 
     console.log(`[social-post] ${title} — ${success.length} sucesso, ${failed.length} erro`)
     failed.forEach(f => console.error(`[social-post] ${f.platform}: ${f.error}`))
+
+    await logSocialResults({ title, slug }, postResults)
 
     return NextResponse.json({
       article: { title, slug },

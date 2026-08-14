@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
 import { getAllArticles } from '@/lib/articles'
+import { pickCategoryImage } from '@/lib/images'
+import { hashtagsFor } from '@/lib/hashtags'
+import { redis } from '@/lib/redis'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -25,36 +28,12 @@ function fixPtPt(text: string): string {
   return out
 }
 
-const CATEGORY_IMAGES: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1080&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1080&q=80',
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1080&q=80',
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1080&q=80',
-  'Recuperação':   'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80',
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1080&q=80',
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1080&q=80',
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1080&q=80',
-}
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1080&q=80'
-
-const CATEGORY_HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #running #treinodecorrida #corridaportugal #performancerunning #corredores',
-  'Fisiologia':    '#fisiologia #vo2max #running #endurance #performancerunning #corredores',
-  'Nutrição':      '#nutricao #runningfuel #corridaportugal #performancerunning #corredores',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #running #performancerunning #corredores',
-  'Recuperação':   '#recuperacao #recovery #running #performancerunning #corredores',
-  'Trail Running': '#trailrunning #trail #trailportugal #mountainrunning #performancerunning',
-  'Lesões':        '#lesoes #prevencaodelesoes #runninginjury #performancerunning #corredores',
-  'VO2max':        '#vo2max #fisiologia #running #endurance #performancerunning #corredores',
-}
-const DEFAULT_HASHTAGS = '#corrida #running #corridaportugal #performancerunning #corredores'
-
 async function generateEveningCaptions(article: {
   title: string; excerpt: string; slug: string; category: string
 }): Promise<{ facebook: string; instagram: string; x: string }> {
   const groqKey = process.env.GROQ_API_KEY
   const link = `${SITE_URL}/blog/${article.slug}`
-  const hashtags = CATEGORY_HASHTAGS[article.category] ?? DEFAULT_HASHTAGS
+  const hashtags = hashtagsFor(article.category)
 
   if (!groqKey) {
     return {
@@ -70,14 +49,14 @@ ARTIGO:
 TÍTULO: ${article.title}
 RESUMO: ${article.excerpt}
 LINK: ${link}
-HASHTAGS: ${hashtags}
+HASHTAGS (usar EXATAMENTE estas 4 — nunca inventar mais): ${hashtags}
 
 REGRAS:
 1. Ângulo de engagement: termina com uma pergunta directa à audiência ("E tu?", "Já tentaste?", "Qual é o teu maior erro em X?")
 2. Tom mais casual e próximo do que o post da manhã — final do dia, comunidade
 3. SEMPRE português de Portugal (tu, treinas, corres — nunca você, seus, Não perca)
 4. Cada plataforma com texto diferente e nativo
-5. Hashtags obrigatórias no fim
+5. As 4 hashtags no fim — nunca mais do que isso. Hashtags só categorizam, não aumentam alcance; o alcance vem das palavras-chave escritas na frase (ex: "treino de corrida", "meia maratona")
 
 Responde em JSON:
 {
@@ -108,45 +87,72 @@ Responde em JSON:
   }
 }
 
-async function postToFacebook(message: string, link: string): Promise<boolean> {
+interface PlatformResult {
+  success: boolean
+  error?: string
+}
+
+async function postToFacebook(message: string, link: string): Promise<PlatformResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
-  if (!pageToken || !pageId) return false
+  if (!pageToken || !pageId) return { success: false, error: 'Credenciais Meta não configuradas' }
 
-  const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message, link, access_token: pageToken }),
-  })
-  return res.ok
+  try {
+    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message, link, access_token: pageToken }),
+    })
+    const data = await res.json()
+    if (!res.ok || data.error) {
+      return { success: false, error: data.error?.message || `HTTP ${res.status}` }
+    }
+    return { success: true }
+  } catch (err) {
+    return { success: false, error: String(err) }
+  }
 }
 
-async function postToInstagram(caption: string, imageUrl: string): Promise<boolean> {
+async function postToInstagram(caption: string, imageUrl: string): Promise<PlatformResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const igId = process.env.META_IG_ACCOUNT_ID
-  if (!pageToken || !igId || igId === 'placeholder') return false
+  if (!pageToken || !igId || igId === 'placeholder') {
+    return { success: false, error: 'Credenciais Instagram não configuradas (placeholder)' }
+  }
 
-  const containerRes = await fetch(`https://graph.facebook.com/v19.0/${igId}/media`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ image_url: imageUrl, caption, access_token: pageToken }),
-  })
-  const container = await containerRes.json()
-  if (!container.id) return false
+  try {
+    const containerRes = await fetch(`https://graph.facebook.com/v19.0/${igId}/media`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ image_url: imageUrl, caption, access_token: pageToken }),
+    })
+    const container = await containerRes.json()
+    if (!containerRes.ok || container.error || !container.id) {
+      return { success: false, error: container.error?.message || 'Erro criar container' }
+    }
 
-  await new Promise(r => setTimeout(r, 2000))
+    await new Promise(r => setTimeout(r, 2000))
 
-  const publishRes = await fetch(`https://graph.facebook.com/v19.0/${igId}/media_publish`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ creation_id: container.id, access_token: pageToken }),
-  })
-  return publishRes.ok
+    const publishRes = await fetch(`https://graph.facebook.com/v19.0/${igId}/media_publish`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ creation_id: container.id, access_token: pageToken }),
+    })
+    const publishData = await publishRes.json()
+    if (!publishRes.ok || publishData.error) {
+      return { success: false, error: publishData.error?.message || 'Erro publicar Instagram' }
+    }
+    return { success: true }
+  } catch (err) {
+    return { success: false, error: String(err) }
+  }
 }
 
-async function postToX(text: string): Promise<boolean> {
+async function postToX(text: string): Promise<PlatformResult> {
   const { X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET } = process.env
-  if (!X_API_KEY || !X_API_SECRET || !X_ACCESS_TOKEN || !X_ACCESS_TOKEN_SECRET) return false
+  if (!X_API_KEY || !X_API_SECRET || !X_ACCESS_TOKEN || !X_ACCESS_TOKEN_SECRET) {
+    return { success: false, error: 'Chaves X não configuradas' }
+  }
 
   try {
     const client = new TwitterApi({
@@ -154,8 +160,39 @@ async function postToX(text: string): Promise<boolean> {
       accessToken: X_ACCESS_TOKEN, accessSecret: X_ACCESS_TOKEN_SECRET,
     })
     await client.v2.tweet(text)
-    return true
-  } catch { return false }
+    return { success: true }
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : JSON.stringify(err)
+    return { success: false, error: msg }
+  }
+}
+
+// Mesmo mecanismo de registo duradouro usado em app/api/social-post/route.ts —
+// ver [[project_social_log_diagnostico]]. O evening-social tinha o seu próprio
+// código de publicação (duplicado do social-post) que descartava a mensagem de
+// erro real (só guardava true/false) e nunca gravava nada consultável depois
+// da janela de 1h dos logs da Vercel. Isto alinha-o com o mesmo /api/social-log.
+async function logSocialResults(
+  article: { title: string; slug: string },
+  results: { platform: string; success: boolean; error?: string }[]
+) {
+  try {
+    const today = new Date().toISOString().slice(0, 10)
+    const key = `social-log:${today}`
+    const timestamp = new Date().toISOString()
+    for (const r of results) {
+      await redis.rpush(key, JSON.stringify({
+        timestamp,
+        article: { title: article.title, slug: article.slug },
+        platform: r.platform,
+        success: r.success,
+        error: r.error ?? null,
+      }))
+    }
+    await redis.expire(key, 60 * 60 * 24 * 30)
+  } catch (err) {
+    console.error('[evening-social] Erro ao gravar social-log no Redis:', err)
+  }
 }
 
 export async function GET(req: NextRequest) {
@@ -173,7 +210,7 @@ export async function GET(req: NextRequest) {
     (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000
   )
   const article = allArticles[(dayOfYear + 1) % allArticles.length]
-  const image = article.coverImage ?? CATEGORY_IMAGES[article.category] ?? DEFAULT_IMAGE
+  const image = article.coverImage ?? pickCategoryImage(article.category, article.slug, 1080)
   const link = `${SITE_URL}/blog/${article.slug}`
 
   const captions = await generateEveningCaptions(article)
@@ -184,13 +221,32 @@ export async function GET(req: NextRequest) {
     postToX(captions.x),
   ])
 
+  const toResult = (r: PromiseSettledResult<PlatformResult>): PlatformResult =>
+    r.status === 'fulfilled' ? r.value : { success: false, error: String(r.reason) }
+
+  const fbResult = toResult(fb)
+  const igResult = toResult(ig)
+  const xFinal = toResult(xResult)
+
   const results = {
-    facebook: fb.status === 'fulfilled' ? fb.value : false,
-    instagram: ig.status === 'fulfilled' ? ig.value : false,
-    x: xResult.status === 'fulfilled' ? xResult.value : false,
+    facebook: fbResult.success,
+    instagram: igResult.success,
+    x: xFinal.success,
   }
 
   console.log(`[evening-social] ${article.slug} | FB:${results.facebook} IG:${results.instagram} X:${results.x}`)
+  if (!fbResult.success) console.error(`[evening-social] Facebook: ${fbResult.error}`)
+  if (!igResult.success) console.error(`[evening-social] Instagram: ${igResult.error}`)
+  if (!xFinal.success) console.error(`[evening-social] X: ${xFinal.error}`)
+
+  await logSocialResults(
+    { title: article.title, slug: article.slug },
+    [
+      { platform: 'Facebook', ...fbResult },
+      { platform: 'Instagram', ...igResult },
+      { platform: 'X', ...xFinal },
+    ]
+  )
 
   return NextResponse.json({ article: article.slug, results })
 }

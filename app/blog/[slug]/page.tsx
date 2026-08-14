@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, ArrowRight, Clock, Tag, Calendar } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Clock, Tag, Calendar, User } from 'lucide-react'
 import { getArticleBySlug, getAllSlugs, getAllArticles } from '@/lib/articles'
 import { ViewCounter } from '@/components/ViewCounter'
 import { BlogClient } from '@/components/BlogClient'
@@ -10,68 +10,80 @@ import { ArticleContent } from '@/components/ArticleContent'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
+// Imagens locais em public/pool-images/ (ver lib/images.ts) — antes apontavam
+// para images.unsplash.com, que pode remover fotos sem aviso (ver
+// [[project_imagens_unsplash_ids_mortos]]). Uma cópia local elimina essa
+// dependência.
+const poolImg = (id: string) => `${SITE_URL}/pool-images/${id}.jpg`
+
 /* ── CATEGORY MAP ─────────────────────────────────────────────────── */
 const CATEGORIAS: Record<string, { label: string; description: string; hero: string }> = {
   treino: {
     label: 'Treino',
     description: 'Metodologias científicas de treino para corrida — periodização, zonas de intensidade, volume semanal e tipos de sessão para todos os níveis.',
-    hero: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1920&q=80',
+    hero: poolImg('photo-1571019614242-c5c5dee9f50b'),
   },
   fisiologia: {
     label: 'Fisiologia',
     description: 'Fisiologia do exercício aplicada à corrida — VO2max, limiar anaeróbico, adaptações cardiovasculares e metabolismo energético.',
-    hero: 'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1920&q=80',
+    hero: poolImg('photo-1727094141271-9bea5bc8c757'),
   },
   nutricao: {
     label: 'Nutrição',
     description: 'Nutrição desportiva para corredores — estratégias de hidratação, carboidratos, proteína e suplementação baseadas em evidência científica.',
-    hero: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1920&q=80',
+    hero: poolImg('photo-1490645935967-10de6ba17061'),
   },
   biomecanica: {
     label: 'Biomecânica',
     description: 'Biomecânica da corrida — técnica de passada, economia de corrida, cadência, apoio e como correr de forma mais eficiente e segura.',
-    hero: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1920&q=80',
+    hero: poolImg('photo-1476480862126-209bfaa8edc8'),
   },
   recuperacao: {
     label: 'Recuperação',
     description: 'Recuperação desportiva baseada em ciência — sono, nutrição pós-treino, terapias de recuperação e gestão da fadiga para corredores.',
-    hero: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1920&q=80',
+    hero: poolImg('photo-1544367567-0f2fcb009e0b'),
   },
   psicologia: {
     label: 'Psicologia',
     description: 'Psicologia desportiva para corredores — mentalidade de performance, gestão da dor, motivação e estratégias cognitivas em prova.',
-    hero: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1920&q=80',
+    hero: poolImg('photo-1552674605-db6ffd4facb5'),
   },
   'trail-running': {
     label: 'Trail Running',
     description: 'Tudo sobre trail running — técnica de montanha, preparação para provas de trail, equipamento e gestão de desnível.',
-    hero: 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=80',
+    hero: poolImg('photo-1504025468847-0e438279542c'),
   },
   lesoes: {
     label: 'Lesões',
     description: 'Prevenção e tratamento de lesões em corredores — causas, recuperação, exercícios de reforço e regresso ao treino baseados em evidência.',
-    hero: 'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1920&q=80',
+    hero: poolImg('photo-1562771379-eafdca7a02f8'),
   },
   vo2max: {
     label: 'VO2max',
     description: 'VO2max — o que é, como se mede, como melhorar e qual a sua relação com a performance em corrida de fundo e trail running.',
-    hero: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1920&q=80',
+    hero: poolImg('photo-1541534741688-6078c6bfb5c5'),
+  },
+  equipamento: {
+    label: 'Equipamento',
+    description: 'Guias de compra e comparativos de equipamento de corrida — sapatilhas, relógios GPS, mochilas de trail e acessórios testados e analisados.',
+    hero: poolImg('photo-1595950653106-6c9ebd614d3a'),
   },
 }
 
 /* OG image per category */
 const categoryOgImages: Record<string, string> = {
-  'Treino':        'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80',
-  'Fisiologia':    'https://images.unsplash.com/photo-1526676037777-05a232554f77?w=1200&q=80',
-  'Biomecânica':   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80',
-  'Nutrição':      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
-  'Recuperação':   'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80',
-  'Psicologia':    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1200&q=80',
-  'Trail Running': 'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1200&q=80',
-  'Lesões':        'https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=1200&q=80',
-  'VO2max':        'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&q=80',
+  'Treino':        poolImg('photo-1571019614242-c5c5dee9f50b'),
+  'Fisiologia':    poolImg('photo-1727094141271-9bea5bc8c757'),
+  'Biomecânica':   poolImg('photo-1476480862126-209bfaa8edc8'),
+  'Nutrição':      poolImg('photo-1490645935967-10de6ba17061'),
+  'Recuperação':   poolImg('photo-1544367567-0f2fcb009e0b'),
+  'Psicologia':    poolImg('photo-1552674605-db6ffd4facb5'),
+  'Trail Running': poolImg('photo-1504025468847-0e438279542c'),
+  'Lesões':        poolImg('photo-1562771379-eafdca7a02f8'),
+  'VO2max':        poolImg('photo-1541534741688-6078c6bfb5c5'),
+  'Equipamento':   poolImg('photo-1595950653106-6c9ebd614d3a'),
 }
-const defaultOgImage = 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'
+const defaultOgImage = poolImg('photo-1571008887538-b36bb32f4571')
 
 interface Props {
   params: { slug: string }
@@ -209,7 +221,7 @@ export default async function BlogSlugPage({ params }: Props) {
     image: ogImage,
     datePublished: article.date,
     dateModified: article.date,
-    author: { '@type': 'Organization', name: 'Performance Running', url: SITE_URL },
+    author: { '@type': 'Person', name: 'Rui Cardoso', url: `${SITE_URL}/sobre/autor` },
     publisher: {
       '@type': 'Organization',
       name: 'Performance Running',
@@ -265,6 +277,9 @@ export default async function BlogSlugPage({ params }: Props) {
           </h1>
           <p className="text-white/55 text-base leading-relaxed mb-7 max-w-2xl">{article.excerpt}</p>
           <div className="flex flex-wrap items-center gap-4 text-[11px] text-white/35 font-mono">
+            <Link href="/sobre/autor" className="flex items-center gap-1.5 hover:text-brand-green transition-colors">
+              <User size={11} />Rui Cardoso
+            </Link>
             <span className="flex items-center gap-1.5"><Calendar size={11} />{article.date}</span>
             <span className="flex items-center gap-1.5"><Clock size={11} />{article.readTime} min de leitura</span>
             <span className="flex items-center gap-1.5"><Tag size={11} />{article.category}</span>

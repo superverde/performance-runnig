@@ -15,24 +15,28 @@ function fixPtPt(text: string): string {
   return out
 }
 
+// Regra: hashtags PT + 3-4 internacionais (EN/ES/FR/DE) para alcance em grupos
+// globais, não só portugueses — ver memória "hashtags-comunidades-globais".
 const HASHTAGS: Record<string, string> = {
-  'Treino':        '#treino #running #treinodecorrida #corridaportugal #corredores #performancerunning',
-  'Fisiologia':    '#fisiologia #running #endurance #corredores #vo2max #performancerunning',
-  'Nutrição':      '#nutricao #running #sportsnutrition #corredores #maratona #performancerunning',
-  'Biomecânica':   '#biomecanica #tecnicadecorrida #running #corredores #performancerunning',
-  'Recuperação':   '#recuperacao #recovery #running #corredores #performancerunning',
-  'VO2max':        '#vo2max #fisiologia #running #endurance #corredores #performancerunning',
-  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #performancerunning',
-  'Lesões':        '#lesoes #prevencaodelesoes #running #corredores #performancerunning',
-  'Psicologia':    '#psicologia #mindset #running #corredores #performancerunning',
+  'Treino':        '#treino #running #treinodecorrida #corridaportugal #corredores #performancerunning #runningcommunity #marathontraining #correr #laufen',
+  'Fisiologia':    '#fisiologia #running #endurance #corredores #vo2max #performancerunning #runnersworld #resistencia #ausdauer',
+  'Nutrição':      '#nutricao #running #sportsnutrition #corredores #maratona #performancerunning #runningfuel #nutricion #ernährung',
+  'Biomecânica':   '#biomecanica #tecnicadecorrida #running #corredores #performancerunning #runningform #biomechanics #lauftechnik',
+  'Recuperação':   '#recuperacao #recovery #running #corredores #performancerunning #erholung #récupération #sportrecovery',
+  'VO2max':        '#vo2max #fisiologia #running #endurance #corredores #performancerunning #runnersworld #resistencia',
+  'Trail Running': '#trailrunning #trail #ultratrail #trailportugal #performancerunning #ultrarunning #UTMB #mountainrunning #trailfrance',
+  'Lesões':        '#lesoes #prevencaodelesoes #running #corredores #performancerunning #runninginjury #laufverletzung #prevenciondelesiones',
+  'Psicologia':    '#psicologia #mindset #running #corredores #performancerunning #sportpsychologie #psicologiadeportiva',
 }
+
+const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
 
 function buildGroupPost(
   article: { title: string; excerpt: string; slug: string; category: string },
   slot: number
 ): string {
   const link = `${SITE_URL}/blog/${article.slug}`
-  const tags = HASHTAGS[article.category] ?? '#running #corredores #performancerunning'
+  const tags = HASHTAGS[article.category] ?? DEFAULT_HASHTAGS
   const templates = [
     `🔬 ${article.title}\n\n${article.excerpt}\n\nLê o artigo completo → ${link}\n\n${tags}`,
     `Sabias que...\n\n${article.excerpt}\n\n📖 ${article.title}\n\n${link}\n\n${tags}`,

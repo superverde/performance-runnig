@@ -6,10 +6,17 @@
  *   1. Adiciona o produto ao array PRODUTOS abaixo
  *   2. Corre: node scripts/fetch-amazon-images.js
  *   3. Verifica que o TÍTULO impresso corresponde ao produto correto
- *   4. Só depois copia o URL de imagem para o page.tsx
+ *   4. Copia o URL de imagem E o preço confirmados para lib/products.ts,
+ *      nos campos `img` e `preco` do produto correspondente
+ *   5. Muda `precoVerificado: false` para `precoVerificado: true` nesse
+ *      produto — só depois disso o preço deixa de aparecer com a
+ *      etiqueta "Preço a confirmar" no site
  *
- * ⚠️  NUNCA uses a imagem sem confirmar o título — a pesquisa pode retornar
- *     produtos de outras marcas com nomes parecidos.
+ * ⚠️  NUNCA uses a imagem nem o preço sem confirmar que correspondem ao
+ *     produto certo — a pesquisa pode devolver variantes, tamanhos ou
+ *     marcas diferentes com nomes parecidos. O preço da Amazon também
+ *     varia com frequência (promoções, stock) — o valor aqui é uma
+ *     fotografia do momento em que correste o script, não um preço fixo.
  *
  * PRODUTOS ATUALMENTE NA PÁGINA (imagens confirmadas — não alterar sem reverificar):
  * ──────────────────────────────────────────────────────────────────────────────────
@@ -35,11 +42,46 @@
  */
 
 // ── ADICIONA NOVOS PRODUTOS AQUI ──────────────────────────────────────────────
+// Lista gerada ao expandir o inventário de lib/products.ts (rotação de produtos).
+// Corre `node scripts/fetch-amazon-images.js`, confirma cada título, e cola os
+// URLs de imagem confirmados nos campos `img: ''` correspondentes em lib/products.ts.
 const NOVOS_PRODUTOS = [
-  // { nome: 'Nome do Produto', q: 'pesquisa+amazon+especifica', marketplace: 'es' },
-  // Exemplos:
-  // { nome: 'Hoka Mach 6', q: 'hoka+mach+6+running+shoe', marketplace: 'es' },
-  // { nome: 'Garmin Forerunner 165', q: 'garmin+forerunner+165+gps+running', marketplace: 'es' },
+  // Sapatos
+  { nome: 'ASICS Novablast 5', q: 'asics+novablast+5+running', marketplace: 'es' },
+  { nome: 'Nike Vomero Plus', q: 'nike+vomero+plus+running', marketplace: 'es' },
+  { nome: 'Nike Pegasus 41', q: 'nike+pegasus+41+running', marketplace: 'es' },
+  { nome: 'Brooks Ghost Max 2', q: 'brooks+ghost+max+2+running', marketplace: 'es' },
+  { nome: 'HOKA Mafate 5', q: 'hoka+mafate+5+trail', marketplace: 'es' },
+  { nome: 'La Sportiva Bushido III', q: 'la+sportiva+bushido+3+trail', marketplace: 'es' },
+  { nome: 'New Balance Fresh Foam X Hierro v9', q: 'new+balance+fresh+foam+x+hierro+v9', marketplace: 'es' },
+  { nome: 'Nike Alphafly 3', q: 'nike+alphafly+3+running', marketplace: 'es' },
+  { nome: 'Adidas Adizero Adios Pro 4', q: 'adidas+adizero+adios+pro+4', marketplace: 'es' },
+  // Relógios
+  { nome: 'Garmin Forerunner 165', q: 'garmin+forerunner+165+gps+running', marketplace: 'es' },
+  { nome: 'Garmin Forerunner 970', q: 'garmin+forerunner+970+gps+running', marketplace: 'es' },
+  { nome: 'Coros Apex 2', q: 'coros+apex+2+gps+watch', marketplace: 'es' },
+  { nome: 'Suunto Race 2', q: 'suunto+race+2+gps+watch', marketplace: 'es' },
+  { nome: 'Garmin Instinct 3', q: 'garmin+instinct+3+gps+watch', marketplace: 'es' },
+  // Sensores FC
+  { nome: 'Garmin HRM-Pro Plus', q: 'garmin+hrm-pro+plus+heart+rate', marketplace: 'es' },
+  { nome: 'Wahoo TICKR', q: 'wahoo+tickr+heart+rate', marketplace: 'es' },
+  { nome: 'Scosche Rhythm24', q: 'scosche+rhythm24+heart+rate', marketplace: 'es' },
+  // Nutrição
+  { nome: 'Neversecond C30 Gel', q: 'neversecond+c30+energy+gel', marketplace: 'es' },
+  { nome: 'Precision Fuel & Hydration PF 30 Gel', q: 'precision+fuel+hydration+pf30+gel', marketplace: 'es' },
+  { nome: 'Honey Stinger Organic Gel', q: 'honey+stinger+organic+energy+gel', marketplace: 'es' },
+  { nome: 'Nuun Sport Electrolyte Tablets', q: 'nuun+sport+electrolyte+tablets', marketplace: 'es' },
+  { nome: 'Clif Bloks Energy Chews', q: 'clif+bloks+energy+chews', marketplace: 'es' },
+  { nome: 'Creatina Monohidratada', q: 'creatina+monohidratada+running', marketplace: 'es' },
+  // Acessórios
+  { nome: 'Buff Original', q: 'buff+original+running', marketplace: 'es' },
+  { nome: 'TriggerPoint GRID Foam Roller', q: 'triggerpoint+grid+foam+roller', marketplace: 'es' },
+  { nome: 'Theragun Prime Plus', q: 'theragun+prime+plus', marketplace: 'es' },
+  { nome: 'Varta Indestructible H20 Pro', q: 'varta+indestructible+h20+pro+lanterna', marketplace: 'es' },
+  { nome: 'Camelbak Flash Belt', q: 'camelbak+flash+belt+running', marketplace: 'es' },
+  { nome: 'Oakley Radar EV Path', q: 'oakley+radar+ev+path', marketplace: 'es' },
+  { nome: 'Black Diamond Distance Carbon Z', q: 'black+diamond+distance+carbon+z', marketplace: 'es' },
+  { nome: 'BodyGlide Original Anti-Chafe', q: 'bodyglide+original+anti+chafe', marketplace: 'es' },
 ]
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -54,14 +96,22 @@ async function fetchAmazonImage(q, marketplace = 'es') {
   })
   const html = await res.text()
 
-  // Extrair os primeiros 3 resultados com título + imagem
+  // Extrair os primeiros 3 resultados com título + imagem + preço
   const titleRe = /class="a-size-medium[^>]*>([^<]{5,100})</g
   const imgRe = /s-image[^>]+src="(https:\/\/m\.media-amazon\.com\/images\/I\/[^"]+)"/g
+  // "a-offscreen" contém o preço já formatado (ex: "149,99 €") para leitores de ecrã —
+  // é o valor mais fiável de extrair via regex simples desta página de resultados.
+  const priceRe = /class="a-offscreen">([^<]+)</g
 
   const titles = [...html.matchAll(titleRe)].map(m => m[1].trim()).slice(0, 3)
   const imgs = [...html.matchAll(imgRe)].map(m => m[1].replace(/_AC_UL\d+_/, '_AC_UL600_')).slice(0, 3)
+  const prices = [...html.matchAll(priceRe)].map(m => m[1].trim()).slice(0, 3)
 
-  return imgs.map((img, i) => ({ title: titles[i] ?? '(título não lido)', img }))
+  return imgs.map((img, i) => ({
+    title: titles[i] ?? '(título não lido)',
+    img,
+    preco: prices[i] ?? '(preço não lido — confirma manualmente na página do produto)',
+  }))
 }
 
 async function main() {
@@ -79,10 +129,12 @@ async function main() {
       const results = await fetchAmazonImage(p.q, p.marketplace ?? 'es')
       results.forEach((r, i) => {
         console.log(`  [${i + 1}] Título: ${r.title}`)
-        console.log(`       img: '${r.img}',`)
+        console.log(`       img:   '${r.img}',`)
+        console.log(`       preco: '${r.preco}',  precoVerificado: true,`)
       })
       console.log()
-      console.log('  ⚠️  Confirma que o título [1] corresponde ao produto antes de usar a imagem!')
+      console.log('  ⚠️  Confirma que o título [1] corresponde ao produto (marca, modelo, tamanho/variante)')
+      console.log('      antes de usar a imagem E o preço. Abre o link do produto se tiveres dúvidas.')
     } catch (e) {
       console.log(`  ❌ Erro: ${e.message}`)
       console.log('  → Tenta com marketplace: "co.uk" ou "de"')
@@ -91,7 +143,9 @@ async function main() {
   }
 
   console.log('\n──────────────────────────────────────────────')
-  console.log('Feito. Copia o URL da imagem confirmada para app/equipamento/page.tsx')
+  console.log('Feito. Para cada produto confirmado, em lib/products.ts:')
+  console.log('  1. cola o img e o preco confirmados')
+  console.log('  2. muda precoVerificado para true')
   console.log('e atualiza também a lista de produtos confirmados neste ficheiro.\n')
 }
 

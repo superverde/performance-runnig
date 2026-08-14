@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Link from 'next/link'
 import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
@@ -5,15 +7,23 @@ import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 
+// Cada URL abaixo foi carregada e confirmada visualmente (via browser) antes
+// de entrar aqui — o código antigo tinha vários IDs do Unsplash com
+// comentários que não correspondiam ao conteúdo real da foto (ex: um ID
+// "trail running" que era na verdade uma foto de fruta, ou "mountain trail"
+// que era dois corredores numa estrada ao pôr do sol). Índices 2, 3 e 7
+// foram corrigidos numa segunda verificação: o índice 2 devolvia um 404
+// real (imagem partida em produção), o índice 3 era uma estrada rural sem
+// nenhum corredor, e o índice 7 era uma foto de microscópio.
 const topicImages = [
   'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=70',
   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=70',
-  'https://images.unsplash.com/photo-1530137073521-1b3f5d2e8aef?w=600&q=70',
-  'https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?w=600&q=70',
-  'https://images.unsplash.com/photo-1504025468847-0e438279542c?w=600&q=70',
-  'https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=600&q=70',
+  'https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=600&q=70',
+  'https://images.unsplash.com/photo-1519703936-c4a3b3eb88e4?w=600&q=70',
+  'https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=70',
+  'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=70',
   'https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&q=70',
-  'https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?w=600&q=70',
+  'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=70',
 ]
 
 const categoryNames = ['Treino', 'Fisiologia', 'Nutrição', 'Biomecânica', 'Recuperação', 'Psicologia', 'Trail Running', 'Lesões']
@@ -23,13 +33,14 @@ export default async function HomePage() {
   const messages = await getMessages(locale)
   const t = (section: string, key: string) => (messages as Record<string, Record<string, string>>)?.[section]?.[key] ?? key
 
-  const articles = await getLatestArticles(4)
+  const articles = await getLatestArticles(7)
   const allArticles = getAllArticles()
   const totalArticles = allArticles.length
   const todayArticles = getTodayArticles()
 
   const [featured, ...rest] = articles
   const sideArticles = rest.slice(0, 2)
+  const moreArticles = rest.slice(2, 6)
 
   const categories = categoryNames.map((name) => ({
     name,
@@ -52,9 +63,14 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* HERO — backgroundColor garante que nunca aparece branco enquanto a imagem carrega */}
+      {/* HERO — backgroundColor garante que nunca aparece branco enquanto a imagem carrega.
+          Imagem trocada de "corredor em estrada" para corredor de trail em
+          crista de montanha (confirmada visualmente: atleta com colete de
+          hidratação, trilho rochoso, pico nevado ao fundo) — o site cobre
+          estrada, trail e montanha com o mesmo peso, mas a primeira impressão só
+          mostrava estrada. */}
       <section className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
+        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
@@ -100,6 +116,41 @@ export default async function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* VÍDEO — apresentação em vídeo (gerado com Synthesia) da filosofia de
+          treino, logo a seguir ao hero para reforçar a credibilidade antes
+          da newsletter. Vídeo servido diretamente do CDN da Synthesia (o
+          mesmo ficheiro usado no og:video da página de partilha). */}
+      <section className="relative py-20 sm:py-28 border-t border-white/5 bg-[#0a0a0a] overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-brand-green/5 rounded-full blur-[140px] pointer-events-none" />
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10" data-reveal>
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">{t('hp', 'video_label')}</p>
+            <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(2rem, 5vw, 4rem)' }}>{t('hp', 'video_title')}</h2>
+            <p className="text-white/55 text-sm sm:text-base max-w-xl mx-auto mt-4 leading-relaxed">{t('hp', 'video_desc')}</p>
+          </div>
+          <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl" data-reveal style={{ aspectRatio: '16 / 9' }}>
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="https://69jr5v75rc.execute-api.eu-west-1.amazonaws.com/prod/e410220a-6b09-44d4-a8f1-5d092a173b4a/thumbnail.jpg"
+              className="absolute inset-0 w-full h-full object-cover bg-black"
+            >
+              <source src="https://synthesia-ttv-data.s3-eu-west-1.amazonaws.com/video_data/e410220a-6b09-44d4-a8f1-5d092a173b4a/transfers/rendered_video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      {/* NEWSLETTER — movida para logo a seguir ao hero, antes do resto do
+          conteúdo, para captar subscritores enquanto a atenção ainda está
+          alta (pedido do Pedro: "devia estar logo na 1ª página"). */}
+      <section className="py-20 sm:py-28 border-t border-white/5 bg-[#0a0a0a]">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="hero" />
         </div>
       </section>
 
@@ -169,7 +220,13 @@ export default async function HomePage() {
               </div>
             )}
 
-            {articles[3] && (<div className="mt-4" data-reveal><ArticleCard article={articles[3]} /></div>)}
+            {moreArticles.length > 0 && (
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+                {moreArticles.map((a, i) => (
+                  <div key={a.slug} data-reveal data-delay={String((i + 3) * 100)}><ArticleCard article={a} /></div>
+                ))}
+              </div>
+            )}
 
             <div className="mt-10 text-center" data-reveal>
               <Link href="/blog" className="inline-flex items-center gap-2 px-8 py-3.5 border border-white/10 text-white/55 text-sm font-bold rounded-full hover:border-brand-green/40 hover:text-white transition-all">
@@ -239,18 +296,14 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* NEWSLETTER */}
-      <section className="py-24 sm:py-32 border-t border-white/5 bg-[#0a0a0a]">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <NewsletterSignup variant="hero" />
-        </div>
-      </section>
-
-      {/* CTA FINAL */}
+      {/* CTA FINAL — a foto anterior (photo-1590012314607) era, confirmado
+          visualmente, uma cerimónia de formatura académica — não tinha
+          nenhuma relação com corrida. Substituída por corredores ao
+          pôr do sol, também confirmada visualmente. */}
       <section className="py-24 sm:py-32 border-t border-white/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-3xl overflow-hidden border border-white/5 p-10 sm:p-16 lg:p-20"
-            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
             data-reveal>
             <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-black/88 to-black/85" />
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-brand-green/8 rounded-full blur-[80px] pointer-events-none" />
