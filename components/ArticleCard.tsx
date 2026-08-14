@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowUpRight, Clock } from 'lucide-react'
+import { ArrowUpRight, Clock, Play } from 'lucide-react'
 import type { ArticleMeta } from '@/lib/articles'
 import { pickCategoryImage } from '@/lib/images'
 
@@ -71,6 +71,16 @@ export function ArticleCard({ article, featured = false }: Props) {
           {article.category}
         </span>
 
+        {/* Vídeo — círculo de play centrado sobre a foto, padrão reconhecível
+            de "esta card tem vídeo" sem colidir com a seta/categoria dos cantos. */}
+        {article.hasVideo && (
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="w-14 h-14 rounded-full bg-black/40 backdrop-blur-sm border border-white/30 flex items-center justify-center group-hover:bg-brand-green/80 group-hover:border-brand-green transition-all duration-300 group-hover:scale-110">
+              <Play size={20} className="text-white ml-0.5" fill="currentColor" />
+            </div>
+          </div>
+        )}
+
         {/* Content */}
         <div className="relative p-6 sm:p-8">
           <h3 className="font-black text-white text-xl sm:text-2xl leading-snug mb-3 group-hover:text-brand-green transition-colors">
@@ -125,6 +135,15 @@ export function ArticleCard({ article, featured = false }: Props) {
       >
         {article.category}
       </span>
+
+      {/* Vídeo — círculo de play centrado, versão pequena */}
+      {article.hasVideo && (
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="w-10 h-10 rounded-full bg-black/40 backdrop-blur-sm border border-white/30 flex items-center justify-center group-hover:bg-brand-green/80 group-hover:border-brand-green transition-all duration-300 group-hover:scale-110">
+            <Play size={14} className="text-white ml-0.5" fill="currentColor" />
+          </div>
+        </div>
+      )}
 
       {/* Content */}
       <div className="relative p-4 sm:p-5">

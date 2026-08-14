@@ -4,6 +4,7 @@ excerpt: "A descanso noturno é fundamental para a recuperação e a melhoria da
 date: '2026-06-29'
 category: "Recuperação"
 readTime: 12
+hasVideo: true
 ---
 
 <div style="display:flex;justify-content:center;margin:8px 0 32px;">

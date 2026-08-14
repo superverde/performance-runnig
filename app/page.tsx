@@ -1,10 +1,10 @@
 export const dynamic = 'force-dynamic'
 
 import Link from 'next/link'
-import { getLatestArticles, getAllArticles, getTodayArticles } from '@/lib/articles'
+import { getLatestArticles, getAllArticles, getTodayArticles, getVideoArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
-import { ArrowRight, ArrowUpRight, Zap } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, Zap, Play } from 'lucide-react'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 
 // Cada URL abaixo foi carregada e confirmada visualmente (via browser) antes
@@ -37,6 +37,7 @@ export default async function HomePage() {
   const allArticles = getAllArticles()
   const totalArticles = allArticles.length
   const todayArticles = getTodayArticles()
+  const videoArticles = getVideoArticles()
 
   const [featured, ...rest] = articles
   const sideArticles = rest.slice(0, 2)
@@ -187,6 +188,35 @@ export default async function HomePage() {
                     {t('hp', 'read_article')} <ArrowRight size={10} className="group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ARTIGOS EM VÍDEO — destaque na homepage para os artigos que têm vídeo
+          embutido (independente da data de publicação, ao contrário de
+          "PUBLICADOS HOJE" e "ÚLTIMOS ARTIGOS"). Pedido do Pedro para dar mais
+          visibilidade a estes artigos e ajudar no tempo de permanência
+          (baixo, ~11s, segundo o GA4). */}
+      {videoArticles.length > 0 && (
+        <section className="relative py-16 sm:py-20 border-t border-white/5 overflow-hidden bg-[#0a0a0a]">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-brand-green/[0.04] rounded-full blur-[120px] pointer-events-none" />
+          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-3 mb-10" data-reveal>
+              <div className="flex items-center justify-center w-9 h-9 rounded-full bg-brand-green/10 border border-brand-green/25">
+                <Play size={14} className="text-brand-green ml-0.5" fill="currentColor" />
+              </div>
+              <div>
+                <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-1">{t('hp', 'video_articles_label')}</p>
+                <h2 className="font-display text-white leading-none" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>{t('hp', 'video_articles_section')}</h2>
+              </div>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {videoArticles.map((article, i) => (
+                <div key={article.slug} data-reveal data-delay={String(i * 80)}>
+                  <ArticleCard article={article} />
+                </div>
               ))}
             </div>
           </div>

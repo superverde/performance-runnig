@@ -5,6 +5,7 @@ excerpt: >-
 date: '2026-06-22'
 category: Treino
 readTime: 7
+hasVideo: true
 ---
 
 <div style="display:flex;justify-content:center;margin:8px 0 32px;">

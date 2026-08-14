@@ -94,6 +94,8 @@
     "cta_consult": "免费咨询",
     "video_label": "简介",
     "video_title": "我们的训练理念",
-    "video_desc": "用2分钟了解我们如何把运动科学转化为真正有效的训练计划。"
+    "video_desc": "用2分钟了解我们如何把运动科学转化为真正有效的训练计划。",
+    "video_articles_label": "视频内容",
+    "video_articles_section": "含视频文章"
   }
 }

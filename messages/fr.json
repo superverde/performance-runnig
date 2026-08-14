@@ -94,6 +94,8 @@
     "cta_consult": "Consultation gratuite",
     "video_label": "Présentation",
     "video_title": "NOTRE PHILOSOPHIE D'ENTRAÎNEMENT",
-    "video_desc": "En 2 minutes, découvrez comment nous transformons la science du sport en plans d'entraînement qui fonctionnent vraiment."
+    "video_desc": "En 2 minutes, découvrez comment nous transformons la science du sport en plans d'entraînement qui fonctionnent vraiment.",
+    "video_articles_label": "Contenu Vidéo",
+    "video_articles_section": "Articles avec Vidéo"
   }
 }

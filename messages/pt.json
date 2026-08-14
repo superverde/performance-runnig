@@ -94,6 +94,8 @@
     "cta_consult": "Pedir consulta gratuita",
     "video_label": "Apresentação",
     "video_title": "A NOSSA FILOSOFIA DE TREINO",
-    "video_desc": "Em 2 minutos, percebe como transformamos ciência do desporto em planos de treino que funcionam de verdade."
+    "video_desc": "Em 2 minutos, percebe como transformamos ciência do desporto em planos de treino que funcionam de verdade.",
+    "video_articles_label": "Conteúdo em Vídeo",
+    "video_articles_section": "Artigos com Vídeo"
   }
 }

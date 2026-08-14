@@ -4,6 +4,7 @@ date: '2026-07-19'
 category: "Nutrição"
 excerpt: "A refeição pré-prova é um componente crucial na preparação para uma corrida. A escolha certa de alimentos e hidratação pode impulsionar o desempenho e reduzir o risco de lesões. No entanto, muitos cor…"
 readTime: 4
+hasVideo: true
 ---
 
 <div style="display:flex;justify-content:center;margin:8px 0 32px;">

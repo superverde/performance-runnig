@@ -4,6 +4,7 @@ excerpt: "Uma meta-análise de 2024 com 31 estudos confirma: musculação pesada
 date: "2025-06-11"
 category: "Treino"
 readTime: 5
+hasVideo: true
 ---
 
 <div style="display:flex;justify-content:center;margin:8px 0 32px;">

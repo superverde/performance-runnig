@@ -35,6 +35,14 @@ export interface ArticleMeta {
   category: string
   readTime: number
   coverImage?: string
+  /**
+   * true quando o artigo tem um vídeo embutido no conteúdo (ver
+   * `content/blog/*.md` — bloco `<video>` logo após o frontmatter).
+   * Vem do campo `hasVideo: true` no frontmatter. Usado para destacar
+   * estes artigos na homepage (ver `getVideoArticles`) — pedido do Pedro
+   * para aumentar o tempo de permanência (baixo, ~11s, segundo o GA4).
+   */
+  hasVideo?: boolean
 }
 
 export interface Article extends ArticleMeta {
@@ -90,6 +98,7 @@ function parseMeta(slug: string): ArticleMeta | null {
       category: data.category ?? 'Treino',
       readTime,
       coverImage: data.coverImage,
+      hasVideo: data.hasVideo === true,
     }
   } catch (err) {
     console.error(`[articles] Falha ao processar "${slug}.md" — artigo ignorado:`, err)
@@ -131,6 +140,16 @@ export function getTodayArticles(): ArticleMeta[] {
   return getAllArticles().filter((a) => a.rawDate === today)
 }
 
+/**
+ * Artigos com vídeo embutido (`hasVideo: true` no frontmatter) — usado para
+ * os destacar na homepage em vez de dependerem só da data de publicação
+ * (o long run e o VO2max, por exemplo, já não estariam nos "últimos 7"
+ * meses depois de saírem, apesar de terem o vídeo mais recente do site).
+ */
+export function getVideoArticles(): ArticleMeta[] {
+  return getAllArticles().filter((a) => a.hasVideo === true)
+}
+
 /** Get full article (with parsed HTML content) by slug */
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
   const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
@@ -160,6 +179,7 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
       category: data.category ?? 'Treino',
       readTime,
       coverImage: data.coverImage,
+      hasVideo: data.hasVideo === true,
       content: htmlContent,
     }
   } catch (err) {

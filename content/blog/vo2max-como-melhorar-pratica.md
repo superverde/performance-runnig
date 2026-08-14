@@ -4,6 +4,7 @@ date: '2026-07-04'
 category: "Fisiologia"
 excerpt: "O VO2max, ou capacidade aeróbica máxima, é um parâmetro fundamental para avaliar o desempenho aeróbico em atividades de resistência prolongada, como corrida, ciclismo e natação. É definido como a maio…"
 readTime: 4
+hasVideo: true
 ---
 
 <div style="display:flex;justify-content:center;margin:8px 0 32px;">
