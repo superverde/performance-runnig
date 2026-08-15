@@ -197,6 +197,49 @@ const COMMERCIAL_TOPICS = [
   { slug: 'melhores-apps-treino-corrida-2026-gratis-vs-pagas', title: 'Melhores Apps de Treino de Corrida em 2026: Grátis vs. Pagas', category: 'Equipamento' },
   { slug: 'equipamento-obrigatorio-ultra-trail-checklist', title: 'Equipamento Obrigatório para Ultra Trail: Checklist Completo', category: 'Equipamento' },
   { slug: 'prendas-corredores-melhores-ideias-orcamento', title: 'Prendas para Corredores: As Melhores Ideias por Orçamento', category: 'Equipamento' },
+  // LOTE 2026-08-15 — banco original (30) esgotou-se por completo neste dia
+  // (ver memória "Reserva de Tópicos Comerciais Baixa"); lote maior (40) desta
+  // vez para dar mais margem do que os lotes anteriores de ~15.
+  { slug: 'melhores-sapatilhas-corrida-mulher-2026', title: 'Melhores Sapatilhas de Corrida para Mulher em 2026', category: 'Equipamento' },
+  { slug: 'sapatilhas-corrida-largura-extra-pes-largos', title: 'Sapatilhas de Corrida para Pés Largos: As Melhores Opções', category: 'Equipamento' },
+  { slug: 'sapatilhas-corrida-pronacao-como-escolher', title: 'Sapatilhas para Pronação: Como Escolher a Certa', category: 'Equipamento' },
+  { slug: 'sapatilhas-corrida-supinacao-guia-compra', title: 'Sapatilhas para Supinação: Guia de Compra', category: 'Equipamento' },
+  { slug: 'relogios-corrida-bateria-longa-duracao-ultra', title: 'Relógios com Bateria de Longa Duração para Ultra Trail', category: 'Equipamento' },
+  { slug: 'melhores-auriculares-bluetooth-corrida-impermeaveis', title: 'Melhores Auriculares Bluetooth Impermeáveis para Corrida', category: 'Equipamento' },
+  { slug: 'cintos-vs-mochilas-hidratacao-qual-escolher', title: 'Cintos vs. Mochilas de Hidratação: Qual Escolher', category: 'Equipamento' },
+  { slug: 'melhores-soft-flasks-garrafas-trail-running', title: 'Melhores Soft Flasks para Trail Running', category: 'Equipamento' },
+  { slug: 'meias-mangas-compressao-corrida-beneficios', title: 'Meias e Mangas de Compressão: Valem a Pena para Corredores?', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-atletismo-pista-treino', title: 'Melhores Sapatilhas para Treino de Pista', category: 'Equipamento' },
+  { slug: 'spikes-atletismo-como-escolher-guia', title: 'Spikes de Atletismo: Como Escolher os Certos', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-corrida-chuva-aderencia', title: 'Melhores Sapatilhas de Corrida para Chuva e Pisos Molhados', category: 'Equipamento' },
+  { slug: 'roupa-tecnica-verao-corrida-guia-compra', title: 'Roupa Técnica de Verão para Corrida: Guia de Compra', category: 'Equipamento' },
+  { slug: 'melhores-toucas-gorros-corrida-inverno', title: 'Melhores Toucas e Gorros para Correr no Frio', category: 'Equipamento' },
+  { slug: 'melhores-luvas-corrida-inverno', title: 'Melhores Luvas de Corrida para o Inverno', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-recuperacao-pos-treino', title: 'Melhores Sapatilhas de Recuperação Pós-Treino', category: 'Equipamento' },
+  { slug: 'protetor-solar-desportivo-corredores-resistente-suor', title: 'Protetor Solar Desportivo Resistente ao Suor: Guia de Compra', category: 'Equipamento' },
+  { slug: 'mantas-termicas-emergencia-kit-seguranca-trail', title: 'Manta Térmica de Emergência: Equipamento de Segurança para Trail', category: 'Equipamento' },
+  { slug: 'gps-portateis-dedicados-vs-relogio-trail', title: 'GPS Portátil Dedicado vs. Relógio: Qual Escolher para Trail', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-zero-drop-corrida-natural', title: 'Melhores Sapatilhas Zero Drop para Corrida Natural', category: 'Equipamento' },
+  { slug: 'drop-alto-vs-baixo-sapatilhas-diferenca-guia', title: 'Drop Alto vs. Baixo nas Sapatilhas: O Que Muda no Teu Treino', category: 'Equipamento' },
+  { slug: 'melhores-palmilhas-ortopedicas-corredores', title: 'Melhores Palmilhas para Corredores: Guia de Escolha', category: 'Equipamento' },
+  { slug: 'joelheiras-tornozeleiras-corrida-prevencao-lesoes', title: 'Joelheiras e Tornozeleiras para Corrida: Prevenção de Lesões', category: 'Equipamento' },
+  { slug: 'sacos-organizadores-transporte-sapatilhas-viagem', title: 'Melhores Sacos de Transporte para Sapatilhas de Corrida', category: 'Equipamento' },
+  { slug: 'melhores-relogios-corrida-baratos-entrada', title: 'Melhores Relógios de Corrida Económicos para Começar', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-corrida-inverno-impermeaveis', title: 'Melhores Sapatilhas Impermeáveis para Correr no Inverno', category: 'Equipamento' },
+  { slug: 'camelbak-vs-salomon-mochilas-hidratacao-comparativo', title: 'CamelBak vs. Salomon: Comparativo de Mochilas de Hidratação', category: 'Equipamento' },
+  { slug: 'melhores-power-banks-portateis-ultra-trail', title: 'Melhores Power Banks Portáteis para Ultra Trail', category: 'Equipamento' },
+  { slug: 'melhores-relogios-multisport-triatlo-corrida', title: 'Melhores Relógios Multisport para Triatlo e Corrida', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-corrida-recuperacao-ativa', title: 'Sapatilhas para Recuperação Ativa: As Melhores Opções', category: 'Equipamento' },
+  { slug: 'melhores-cremes-anti-atrito-corredores', title: 'Melhores Cremes Anti-Atrito para Corredores (Anti-Bolhas)', category: 'Equipamento' },
+  { slug: 'fita-kinesiologia-corredores-como-quando-usar', title: 'Fita de Kinesiologia para Corredores: Como e Quando Usar', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-longa-distancia-conforto', title: 'Melhores Sapatilhas para Longas Distâncias: Foco no Conforto', category: 'Equipamento' },
+  { slug: 'melhores-cronometros-desportivos-treino-intervalado', title: 'Melhores Cronómetros Desportivos para Treino Intervalado', category: 'Equipamento' },
+  { slug: 'melhores-suportes-telemovel-corrida-braco', title: 'Melhores Suportes de Telemóvel para Correr no Braço', category: 'Equipamento' },
+  { slug: 'melhores-viseiras-bones-corrida-sol', title: 'Melhores Viseiras e Bonés para Correr ao Sol', category: 'Equipamento' },
+  { slug: 'melhores-fatos-triatlo-corredores-multisport', title: 'Melhores Fatos de Triatlo para Corredores Multisport', category: 'Equipamento' },
+  { slug: 'melhores-sapatilhas-hibridas-caminho-misto', title: 'Melhores Sapatilhas Híbridas para Caminho Misto (Estrada + Trail)', category: 'Equipamento' },
+  { slug: 'melhores-tapetes-yoga-mobilidade-corredores', title: 'Melhores Tapetes de Yoga e Mobilidade para Corredores', category: 'Equipamento' },
+  { slug: 'sapatilhas-corrida-quando-trocar-guia-pratico', title: 'Quando Trocar as Tuas Sapatilhas de Corrida: Guia Prático', category: 'Equipamento' },
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -517,6 +560,21 @@ async function main() {
   console.log(`📋 Tópicos técnicos disponíveis: ${remainingTechnical.length}`)
   console.log(`🛒 Tópicos comerciais disponíveis: ${remainingCommercial.length}`)
 
+  // Aviso antecipado e bem visível (aparece destacado no resumo da run do
+  // GitHub Actions, não só enterrado no log em bruto) quando um banco de
+  // tópicos está a ficar curto — reintroduzido em 2026-08-15 depois de o
+  // banco comercial ter esgotado silenciosamente outra vez (ver memória
+  // "Reserva de Tópicos Comerciais Baixa"). Isto tem de disparar em TODOS os
+  // dias em que o pool estiver baixo, não só nos dias em que essa categoria
+  // é necessária, para dar semanas de antecedência antes do esgotamento.
+  const LOW_POOL_THRESHOLD = 5
+  if (remainingTechnical.length <= LOW_POOL_THRESHOLD) {
+    console.log(`::warning::Banco de tópicos TÉCNICOS com apenas ${remainingTechnical.length} tópicos por publicar — adiciona mais a ALL_TOPICS em scripts/generate-articles.mjs.`)
+  }
+  if (remainingCommercial.length <= LOW_POOL_THRESHOLD) {
+    console.log(`::warning::Banco de tópicos COMERCIAIS com apenas ${remainingCommercial.length} tópicos por publicar — adiciona mais a COMMERCIAL_TOPICS em scripts/generate-articles.mjs.`)
+  }
+
   if (remainingTechnical.length === 0 && remainingCommercial.length === 0) {
     console.log('⚠️  Todos os tópicos já foram publicados. Adiciona mais aos arrays.')
     process.exit(0)
@@ -555,7 +613,10 @@ async function main() {
 
       try {
         const relatedSlugs = Array.from(existingSlugs).sort(() => Math.random() - 0.5)
-        const prompt = kind === 'commercial'
+        // O tipo de prompt segue sempre a categoria REAL do tópico (não o
+        // "kind" da fila) — importante para a fila de compensação abaixo,
+        // que mistura tópicos técnicos e comerciais numa só fila.
+        const prompt = topic.category === 'Equipamento'
           ? buildCommercialPrompt(topic, relatedSlugs)
           : buildTechnicalPrompt(topic)
 
@@ -581,8 +642,28 @@ async function main() {
 
   const technicalDone = await generateFromQueue(remainingTechnical, 'technical', neededTechnical)
   const commercialDone = await generateFromQueue(remainingCommercial, 'commercial', neededCommercial)
-  const totalDone = technicalDone + commercialDone
+  let totalDone = technicalDone + commercialDone
   const totalNeeded = neededTechnical + neededCommercial
+
+  // FALLBACK ENTRE BANCOS — reintroduzido em 2026-08-15 (tinha sido perdido
+  // numa reescrita manual do script a 2026-08-14). Se um dos dois bancos não
+  // tiver tópicos suficientes para a SUA quota (ex: comercial esgotado), o
+  // outro banco compensa a diferença, para que o alvo real seja sempre
+  // "3 artigos/dia no total" e nunca fique preso em 2/3 só porque UM banco
+  // esgotou. Usa o que sobrar de qualquer um dos dois bancos, ignorando a
+  // separação técnico/comercial nesta fase de compensação.
+  if (totalDone < totalNeeded) {
+    const shortfall = totalNeeded - totalDone
+    const compensationPool = shuffle([
+      ...ALL_TOPICS.filter(t => !existingSlugs.has(t.slug)),
+      ...COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(t.slug)),
+    ])
+    if (compensationPool.length > 0) {
+      console.log(`\n🔁 Faltam ${shortfall} artigo(s) para o total do dia — a compensar com o outro banco de tópicos (${compensationPool.length} candidatos disponíveis).`)
+      const compensated = await generateFromQueue(compensationPool, 'compensação', shortfall)
+      totalDone += compensated
+    }
+  }
 
   saveCounter(lastIndex, today, lastSlug)
 
