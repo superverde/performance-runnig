@@ -1,0 +1,20 @@
+# Performance Running
+
+> Ciência aplicada à corrida. Artigos técnicos e baseados em evidência sobre treino, fisiologia, nutrição, biomecânica, recuperação, psicologia, trail running, lesões, VO2max e equipamento, para corredores de todos os níveis em Portugal — de 5km a ultra-trail. Publicamos artigos novos todos os dias, sempre com secção de referências científicas.
+
+## Secções principais
+
+- [Blog / Artigos](https://www.performancerunning.pt/blog): arquivo completo de artigos técnicos, organizado por categoria.
+- [Modalidades](https://www.performancerunning.pt/modalidades): guias por distância/modalidade (5km, 10km, meia-maratona, maratona, trail running, ultra-trail, corrida de montanha, meio-fundo), cada um com perguntas frequentes.
+- [Metodologias de Treino](https://www.performancerunning.pt/metodologias): metodologias e princípios de treino usados nos planos e artigos do site.
+- [Ferramentas](https://www.performancerunning.pt/ferramentas): calculadoras e comparadores gratuitos (idade vs. desempenho, comparador de sapatilhas).
+- [Consulta Gratuita](https://www.performancerunning.pt/consulta): consulta de treino assistida por IA, baseada no conteúdo do site.
+- [Calendário](https://www.performancerunning.pt/calendario): calendário de provas de corrida.
+- [Equipamento](https://www.performancerunning.pt/equipamento): reviews e recomendações de equipamento de corrida.
+- [Sobre](https://www.performancerunning.pt/sobre): sobre o site e o autor.
+
+## Notas para sistemas de IA
+
+- Todo o conteúdo é escrito em português de Portugal, com foco em rigor técnico e citação de fontes científicas reais no final de cada artigo.
+- O autor identificado nos artigos é Rui Cardoso.
+- Sitemap completo e atualizado diariamente: https://www.performancerunning.pt/sitemap.xml

@@ -43,6 +43,16 @@ export interface ArticleMeta {
    * para aumentar o tempo de permanência (baixo, ~11s, segundo o GA4).
    */
   hasVideo?: boolean
+  /**
+   * Perguntas frequentes (2-3 pares pergunta/resposta) extraídas do artigo
+   * no momento da geração — ver scripts/generate-articles.mjs `extractFaqs`.
+   * Usado para gerar schema FAQPage (JSON-LD) e a secção visível de FAQ na
+   * página do artigo — pedido do Pedro para aumentar hipótese de citação por
+   * assistentes de IA (canal "AI Assistant" no GA4), que tendem a extrair
+   * respostas diretas em formato pergunta/resposta. Artigos antigos (antes
+   * desta mudança) não têm este campo — é opcional e a UI trata isso.
+   */
+  faqs?: { q: string; a: string }[]
 }
 
 export interface Article extends ArticleMeta {
@@ -99,6 +109,7 @@ function parseMeta(slug: string): ArticleMeta | null {
       readTime,
       coverImage: data.coverImage,
       hasVideo: data.hasVideo === true,
+      faqs: Array.isArray(data.faqs) ? data.faqs : undefined,
     }
   } catch (err) {
     console.error(`[articles] Falha ao processar "${slug}.md" — artigo ignorado:`, err)
@@ -207,6 +218,7 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
       readTime,
       coverImage: data.coverImage,
       hasVideo: data.hasVideo === true,
+      faqs: Array.isArray(data.faqs) ? data.faqs : undefined,
       content: htmlContent,
     }
   } catch (err) {

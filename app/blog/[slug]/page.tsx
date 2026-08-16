@@ -251,10 +251,28 @@ export default async function BlogSlugPage({ params }: Props) {
     ],
   }
 
+  // Schema FAQPage — só para artigos que têm `faqs` no frontmatter (gerados
+  // a partir de 2026-08-16 em diante, ver scripts/generate-articles.mjs
+  // `extractFaqs`). Pedido do Pedro para melhorar o canal "AI Assistant" no
+  // GA4: conteúdo em formato pergunta/resposta com este schema é o que os
+  // assistentes de IA mais citam quando respondem a perguntas de utilizadores.
+  const faqSchema = article.faqs && article.faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  } : null
+
   return (
     <div className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
 
       {/* ── Hero banner ── */}
       <div className="relative pt-24 pb-14 overflow-hidden">
@@ -338,6 +356,20 @@ export default async function BlogSlugPage({ params }: Props) {
             </Link>
           </div>
         </div>
+        {/* ── FAQ ── */}
+        {article.faqs && article.faqs.length > 0 && (
+          <section className="mt-14 pt-8 border-t border-white/5">
+            <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-6">Perguntas Frequentes</p>
+            <div className="space-y-4">
+              {article.faqs.map((f) => (
+                <div key={f.q} className="p-6 rounded-xl border border-white/8 bg-white/[0.015]">
+                  <h3 className="text-white font-bold text-sm mb-3">{f.q}</h3>
+                  <p className="text-white/50 text-sm leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
       </article>
 
       {/* ── Newsletter ── */}

@@ -475,12 +475,24 @@ REGRAS OBRIGATÓRIAS:
 5. Estrutura com ## para secções principais (Base Científica, Aplicação Prática, Erros Comuns, Protocolo/Conclusão)
 6. Comprimento: 800-1200 palavras de corpo (sem contar frontmatter nem referências)
 7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências Científicas" citando PELO MENOS 4 das referências da lista abaixo (as que forem mais relevantes ao tópico). Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
+8. OBRIGATÓRIO — logo antes da secção de Referências, inclui uma secção "## Perguntas Frequentes" com EXATAMENTE 3 pares pergunta/resposta, no formato exato abaixo (cada resposta com 1-3 frases diretas e objetivas, sem introduções tipo "Boa pergunta"):
+
+## Perguntas Frequentes
+
+**Pergunta 1 completa, terminada em ponto de interrogação?**
+Resposta direta e objetiva, 1-3 frases.
+
+**Pergunta 2 completa, terminada em ponto de interrogação?**
+Resposta direta e objetiva, 1-3 frases.
+
+**Pergunta 3 completa, terminada em ponto de interrogação?**
+Resposta direta e objetiva, 1-3 frases.
 
 REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 4, podes usar todas se fizer sentido):
 ${refsList}
 
-Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo a secção final de Referências Científicas).
-Começa com uma introdução forte de 2-3 parágrafos sem cabeçalho, depois usa ## para as secções principais.`
+Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências Científicas, por esta ordem).
+O PRIMEIRO parágrafo (sem cabeçalho) tem de responder de forma direta e objetiva à pergunta implícita no título, em 1-2 frases claras, antes de desenvolver — isto é importante para o artigo poder ser citado por assistentes de IA (ChatGPT, Gemini, Copilot) que extraem respostas diretas. Depois desse parágrafo de abertura, continua com mais 1-2 parágrafos de contexto, e só depois usa ## para as secções principais.`
 }
 
 function buildCommercialPrompt(topic, relatedSlugs) {
@@ -500,11 +512,24 @@ REGRAS OBRIGATÓRIAS:
 5. Terminar o corpo (antes das referências) com a linha: "👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**"
 6. Comprimento: 900-1200 palavras de corpo (sem contar frontmatter nem referências)
 7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 3 das referências da lista abaixo. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
+8. OBRIGATÓRIO — logo antes da secção de Referências, inclui uma secção "## Perguntas Frequentes" com EXATAMENTE 3 pares pergunta/resposta, no formato exato abaixo (cada resposta com 1-3 frases diretas e objetivas, sem introduções tipo "Boa pergunta"):
+
+## Perguntas Frequentes
+
+**Pergunta 1 completa, terminada em ponto de interrogação?**
+Resposta direta e objetiva, 1-3 frases.
+
+**Pergunta 2 completa, terminada em ponto de interrogação?**
+Resposta direta e objetiva, 1-3 frases.
+
+**Pergunta 3 completa, terminada em ponto de interrogação?**
+Resposta direta e objetiva, 1-3 frases.
 
 REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 3):
 ${refsList}
 
-Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo a secção final de Referências).`
+Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências, por esta ordem).
+O parágrafo de introdução (sem cabeçalho) tem de responder de forma direta ao que o leitor procura no título em 1-2 frases claras antes de desenvolver — importante para o artigo poder ser citado por assistentes de IA.`
 }
 
 function extractExcerpt(content) {
@@ -523,16 +548,55 @@ function estimateReadTime(content) {
   return Math.max(4, Math.round(words / 200))
 }
 
+// Extrai os pares pergunta/resposta da secção "## Perguntas Frequentes" que o
+// prompt agora exige em todos os artigos (ver buildTechnicalPrompt /
+// buildCommercialPrompt) — pedido do Pedro para melhorar o canal "AI
+// Assistant" no GA4: assistentes de IA (ChatGPT, Gemini, Copilot) tendem a
+// citar conteúdo com respostas diretas em formato pergunta/resposta, e isto
+// também alimenta o schema FAQPage (JSON-LD) na página do artigo — ver
+// app/blog/[slug]/page.tsx. Devolve [] se o modelo não seguiu o formato
+// pedido (não bloqueia a publicação — degrada graciosamente).
+function extractFaqs(content) {
+  const match = content.match(/##\s*Perguntas Frequentes\s*\n([\s\S]*?)(?=\n##\s|$)/i)
+  if (!match) return { faqs: [], contentWithoutFaqs: content }
+
+  const block = match[1]
+  const pairRe = /\*\*(.+?)\?\*\*\s*\n+([^\n]+(?:\n(?!\*\*)[^\n]+)*)/g
+  const faqs = []
+  let m
+  while ((m = pairRe.exec(block)) !== null) {
+    const q = m[1].trim().replace(/\s+/g, ' ') + '?'
+    const a = m[2].trim().replace(/\s+/g, ' ')
+    if (q.length > 5 && a.length > 5) faqs.push({ q, a })
+  }
+
+  // Remove a secção do corpo — as FAQs são renderizadas à parte na página
+  // (secção dedicada + schema), não faz sentido duplicá-las no texto corrido.
+  const contentWithoutFaqs = content.replace(match[0], '').trim()
+
+  return { faqs: faqs.slice(0, 3), contentWithoutFaqs }
+}
+
+function yamlFaqs(faqs) {
+  if (!faqs.length) return ''
+  const esc = (s) => s.replace(/"/g, '\\"')
+  const lines = faqs.map(
+    (f) => `  - q: "${esc(f.q)}"\n    a: "${esc(f.a)}"`
+  )
+  return `faqs:\n${lines.join('\n')}\n`
+}
+
 function buildMdx(topic, content, date) {
+  const { faqs, contentWithoutFaqs } = extractFaqs(content)
   return `---
 title: "${topic.title.replace(/"/g, '\\"')}"
 date: '${date}'
 category: "${topic.category}"
 excerpt: "${extractExcerpt(content)}"
 readTime: ${estimateReadTime(content)}
----
+${yamlFaqs(faqs)}---
 
-${content.trim()}
+${contentWithoutFaqs.trim()}
 `
 }
 
