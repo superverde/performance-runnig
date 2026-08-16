@@ -5,6 +5,7 @@ import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { SocialBanner } from '@/components/SocialBanner'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { ScrollReveal } from '@/components/ScrollReveal'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { LocaleProvider } from '@/components/LocaleProvider'
@@ -128,6 +129,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <Footer />
         </LocaleProvider>
         <Analytics />
+        <SpeedInsights />
         {process.env.NEXT_PUBLIC_GA_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         )}
