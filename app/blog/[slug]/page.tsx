@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight, Clock, Tag, Calendar, User } from 'lucide-react'
@@ -206,6 +207,11 @@ export default async function BlogSlugPage({ params }: Props) {
     .slice(0, 3)
 
   const ogImage = categoryOgImages[article.category] ?? defaultOgImage
+  // Caminho relativo (mesmo ficheiro local em public/pool-images/) para o
+  // <Image> do Next: sem isto, o Next trata o URL absoluto como uma imagem
+  // remota e não a passa pelo otimizador (resize + AVIF/WebP automáticos).
+  // Ver [[project_blog_lcp_hero_otimizacao]].
+  const heroImgSrc = ogImage.replace(SITE_URL, '')
   const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
 
   const categorySlug = article.category
@@ -251,10 +257,15 @@ export default async function BlogSlugPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
       {/* ── Hero banner ── */}
-      <div
-        className="relative pt-24 pb-14 overflow-hidden"
-        style={{ backgroundImage: `url(${ogImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-      >
+      <div className="relative pt-24 pb-14 overflow-hidden">
+        <Image
+          src={heroImgSrc}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/80 to-black" />
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* Breadcrumbs */}
