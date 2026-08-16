@@ -150,10 +150,37 @@ export function getVideoArticles(): ArticleMeta[] {
   return getAllArticles().filter((a) => a.hasVideo === true)
 }
 
-/** Get full article (with parsed HTML content) by slug */
+/**
+ * Remove acentos/diacríticos — mesma lógica do middleware.ts. Duplicada
+ * aqui (em vez de importada) porque middleware.ts corre no Edge Runtime e
+ * este ficheiro corre em Node; manter os dois em sincronia se um mudar.
+ */
+function deaccentSlug(value: string): string {
+  return value.normalize('NFD').replace(/[̀-ͯ]/g, '')
+}
+
+/**
+ * Get full article (with parsed HTML content) by slug.
+ *
+ * Faz decodeURIComponent + deaccent como segunda linha de defesa para
+ * slugs com acentos, mesmo que o middleware (primeira linha de defesa,
+ * ver middleware.ts) já devesse ter redirecionado antes de chegar aqui —
+ * ver [[project_slugs_acentos_404]] (sequela de 2026-07-18: esta camada
+ * já existiu, foi perdida numa reescrita, e sozinha não chegava porque
+ * recebia o slug ainda percent-encoded).
+ */
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
-  const filePath = path.join(ARTICLES_DIR, `${slug}.md`)
-  if (!fs.existsSync(filePath)) return null
+  let filePath = path.join(ARTICLES_DIR, `${slug}.md`)
+  if (!fs.existsSync(filePath)) {
+    const decoded = deaccentSlug(decodeURIComponent(slug))
+    const fallbackPath = path.join(ARTICLES_DIR, `${decoded}.md`)
+    if (fs.existsSync(fallbackPath)) {
+      filePath = fallbackPath
+      slug = decoded // usar o slug ASCII canónico no objeto devolvido (URL canónica, schema, etc.)
+    } else {
+      return null
+    }
+  }
 
   try {
     const raw = fs.readFileSync(filePath, 'utf8')

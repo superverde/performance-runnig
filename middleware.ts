@@ -1,5 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+/**
+ * Remove acentos/diacríticos (NFD + remove combining marks). Usado para
+ * redirecionar URLs de artigos com acentos (ex. /blog/coração-atleta) para
+ * o slug ASCII canónico (/blog/coracao-atleta) — ver
+ * [[project_slugs_acentos_404]]. Esta lógica já existiu no middleware
+ * (commit a220f2c/3c4f538, jul/2026) mas foi perdida numa reescrita
+ * posterior (provavelmente ao adicionar a deteção de idioma); repor aqui
+ * corrige tanto URLs antigos indexados no Google como duplicados
+ * acidentais que a automação de artigos ainda pode gerar.
+ */
+function deaccent(value: string): string {
+  return value.normalize('NFD').replace(/[̀-ͯ]/g, '')
+}
+
 // Estas constantes são duplicadas de lib/locale.ts para evitar import circular no middleware
 const LOCALES = ['pt', 'en', 'es', 'fr', 'de', 'zh'] as const
 type Locale = (typeof LOCALES)[number]
@@ -52,6 +66,16 @@ export function middleware(request: NextRequest) {
     pathname.includes('.') // ficheiros com extensão
   ) {
     return NextResponse.next()
+  }
+
+  // Redirect 301 de URLs com acentos para o slug ASCII canónico (ex.
+  // /blog/coração-atleta -> /blog/coracao-atleta). O Next entrega o
+  // pathname já decoded aqui, por isso comparar com deaccent() é seguro.
+  const deaccented = deaccent(pathname)
+  if (deaccented !== pathname) {
+    const redirectUrl = request.nextUrl.clone()
+    redirectUrl.pathname = deaccented
+    return NextResponse.redirect(redirectUrl, 301)
   }
 
   const locale = detectLocale(request)
