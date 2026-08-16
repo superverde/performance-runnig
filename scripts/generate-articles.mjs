@@ -310,6 +310,18 @@ const COMMERCIAL_REFERENCE_BANK = [
 // FUNÇÕES AUXILIARES
 // ─────────────────────────────────────────────────────────────────────────────
 
+// Remove acentos/diacríticos (NFD + remove combining marks) — mesma lógica
+// usada em app/blog/[slug]/page.tsx e middleware.ts para normalizar slugs.
+// Sem isto, "bolhas-pés-..." e "bolhas-pes-..." são tratados como tópicos
+// DIFERENTES pela deduplicação abaixo, e a automação publica o mesmo tema
+// outra vez com um slug ligeiramente diferente — ver
+// [[project_duplicados_slugs_acentuados]] (descoberto 2026-08-15,
+// confirmado a acontecer de novo em 2026-08-16 com pelo menos 2 dos "3
+// artigos novos" do dia a serem duplicados disfarçados).
+function deaccent(value) {
+  return value.normalize('NFD').replace(/[̀-ͯ]/g, '')
+}
+
 function getExistingSlugs() {
   if (!fs.existsSync(ARTICLES_DIR)) {
     fs.mkdirSync(ARTICLES_DIR, { recursive: true })
@@ -318,7 +330,7 @@ function getExistingSlugs() {
   return new Set(
     fs.readdirSync(ARTICLES_DIR)
       .filter(f => f.endsWith('.md'))
-      .map(f => f.replace('.md', ''))
+      .map(f => deaccent(f.replace('.md', '')))
   )
 }
 
@@ -554,8 +566,8 @@ async function main() {
   // Round-robin por categoria (técnicos) e ordem aleatória (comerciais) —
   // evita que dias seguidos publiquem sempre a mesma categoria só porque o
   // array ALL_TOPICS está agrupado por assunto. Ver interleaveByCategory.
-  const remainingTechnical = interleaveByCategory(ALL_TOPICS.filter(t => !existingSlugs.has(t.slug)))
-  const remainingCommercial = shuffle(COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(t.slug)))
+  const remainingTechnical = interleaveByCategory(ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))))
+  const remainingCommercial = shuffle(COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))))
 
   console.log(`📋 Tópicos técnicos disponíveis: ${remainingTechnical.length}`)
   console.log(`🛒 Tópicos comerciais disponíveis: ${remainingCommercial.length}`)
@@ -622,15 +634,19 @@ async function main() {
 
         const content = await callGroq(prompt)
         const mdx = buildMdx(topic, content, today)
-        const filePath = path.join(ARTICLES_DIR, `${topic.slug}.md`)
+        // Slug do FICHEIRO sempre ASCII, mesmo que topic.slug em ALL_TOPICS/
+        // COMMERCIAL_TOPICS tenha acentos por engano — garante que a URL
+        // do artigo nunca fica presa atrás do redirect do middleware.
+        const fileSlug = deaccent(topic.slug)
+        const filePath = path.join(ARTICLES_DIR, `${fileSlug}.md`)
 
         fs.writeFileSync(filePath, mdx, 'utf8')
         console.log(`✅ Guardado: ${filePath}`)
 
         lastIndex++
-        lastSlug = topic.slug
+        lastSlug = fileSlug
         publishedTitles.push(topic.title)
-        existingSlugs.add(topic.slug) // evita reutilizar como "relacionado" duplicado
+        existingSlugs.add(fileSlug) // evita reutilizar como "relacionado" duplicado
         generated++
       } catch (err) {
         console.error(`❌ Erro ao gerar ${topic.slug} (a saltar para o próximo tópico):`, err.message)
@@ -655,8 +671,8 @@ async function main() {
   if (totalDone < totalNeeded) {
     const shortfall = totalNeeded - totalDone
     const compensationPool = shuffle([
-      ...ALL_TOPICS.filter(t => !existingSlugs.has(t.slug)),
-      ...COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(t.slug)),
+      ...ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
+      ...COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
     ])
     if (compensationPool.length > 0) {
       console.log(`\n🔁 Faltam ${shortfall} artigo(s) para o total do dia — a compensar com o outro banco de tópicos (${compensationPool.length} candidatos disponíveis).`)
