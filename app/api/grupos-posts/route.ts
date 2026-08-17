@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { getAllArticles } from '@/lib/articles'
+import { getAllArticles, getTodayArticles } from '@/lib/articles'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -46,26 +46,45 @@ function buildGroupPost(
 }
 
 export async function GET() {
-  const articles = getAllArticles()
-  if (articles.length === 0) return NextResponse.json({ posts: [] })
+  const allArticles = getAllArticles()
+  if (allArticles.length === 0) return NextResponse.json({ posts: [] })
 
   const now = new Date()
-  const dayOfYear = Math.floor(
-    (now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86_400_000
-  )
 
-  const posts = [0, 1, 2].map((slot) => {
-    const index = (dayOfYear * 3 + slot) % articles.length
-    const article = articles[index]
-    return {
-      slot,
-      hora: ['08:00', '13:00', '19:00'][slot],
-      titulo: article.title,
-      categoria: article.category,
-      link: `${SITE_URL}/blog/${article.slug}`,
-      texto: buildGroupPost(article, slot),
+  // Prioridade máxima: os artigos publicados HOJE. Antes disto, os posts
+  // sugeridos para os grupos eram escolhidos só por rotação de dia-do-ano
+  // sobre TODO o arquivo (~200+ artigos), o que fazia os textos e links
+  // mostrados em /grupos não corresponderem aos artigos novos do dia — este
+  // é o bug reportado ("publicações nas páginas dos grupos não coincidem
+  // com as publicações de hoje"). app/api/cron/daily-social/route.ts já
+  // usava este padrão (hoje primeiro, arquivo só como fallback); esta rota
+  // tinha ficado com a lógica antiga e desalinhada.
+  const todayArticles = getTodayArticles()
+  const selected = [...todayArticles]
+
+  if (selected.length < 3) {
+    // Fallback (só quando não há 3 artigos publicados hoje — ex. antes de o
+    // cron diário correr, ou a geração falhou): completa com o arquivo por
+    // rotação de dia-do-ano, sem repetir artigos já escolhidos.
+    const dayOfYear = Math.floor(
+      (now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86_400_000
+    )
+    let offset = 0
+    while (selected.length < 3 && offset < allArticles.length) {
+      const candidate = allArticles[(dayOfYear + offset) % allArticles.length]
+      if (!selected.some((a) => a.slug === candidate.slug)) selected.push(candidate)
+      offset++
     }
-  })
+  }
+
+  const posts = selected.slice(0, 3).map((article, slot) => ({
+    slot,
+    hora: ['08:00', '13:00', '19:00'][slot],
+    titulo: article.title,
+    categoria: article.category,
+    link: `${SITE_URL}/blog/${article.slug}`,
+    texto: buildGroupPost(article, slot),
+  }))
 
   return NextResponse.json({ posts, date: now.toISOString().slice(0, 10) })
 }
