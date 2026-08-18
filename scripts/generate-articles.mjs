@@ -432,7 +432,7 @@ async function callGroq(prompt, attempt = 1) {
       'Authorization': `Bearer ${GROQ_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: 'openai/gpt-oss-20b',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.7,
       max_tokens: 2200,
@@ -671,9 +671,23 @@ async function main() {
   // candidato se um tópico falhar mesmo depois do retry em callGroq — isto
   // garante que continuamos a tentar chegar aos 3 artigos do dia em vez de
   // abortar a publicação inteira por causa de UM tópico problemático.
+  // Disjuntor: se a Groq estiver sistemicamente incapaz de responder (ex:
+  // model_not_found por um ID de modelo descontinuado, chave inválida, outage
+  // da API) cada tópico falhava e o loop continuava a tentar TODOS os
+  // restantes — com 25s de pausa entre chamadas, isso significa percorrer a
+  // fila inteira (60+ tópicos) e queimar quase 1h antes de desistir. Isso
+  // aconteceu em 2026-08-18 (llama-3.1-8b-instant foi descontinuado pela
+  // Groq) e bloqueou também o disparo manual de recuperação, porque o
+  // workflow usa um lock de concorrência que só liberta quando esta run
+  // termina. Agora: se FAILURE_CIRCUIT_BREAKER falhas seguidas acontecerem
+  // (sem nenhum sucesso a interromper a sequência), a fila desiste de
+  // imediato em vez de continuar a tentar tópico a tópico.
+  const FAILURE_CIRCUIT_BREAKER = 3
+
   async function generateFromQueue(queue, kind, countNeeded) {
     let generated = 0
     let queueIndex = 0
+    let consecutiveFailures = 0
 
     while (generated < countNeeded && queueIndex < queue.length) {
       const topic = queue[queueIndex]
@@ -712,8 +726,14 @@ async function main() {
         publishedTitles.push(topic.title)
         existingSlugs.add(fileSlug) // evita reutilizar como "relacionado" duplicado
         generated++
+        consecutiveFailures = 0
       } catch (err) {
         console.error(`❌ Erro ao gerar ${topic.slug} (a saltar para o próximo tópico):`, err.message)
+        consecutiveFailures++
+        if (consecutiveFailures >= FAILURE_CIRCUIT_BREAKER) {
+          console.error(`::error::${consecutiveFailures} falhas seguidas na Groq — a desistir desta fila em vez de percorrer os restantes ${queue.length - queueIndex} tópicos. Verifica a GROQ_API_KEY e se o modelo configurado ainda existe (https://console.groq.com/docs/models).`)
+          break
+        }
       }
     }
 
