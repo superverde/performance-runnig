@@ -75,6 +75,20 @@ Quem corre a próxima maratona? Digam qual 👇
 
 ---
 
+### Post 5 — Newsletter (grupo: qualquer grupo de corrida/geral)
+
+📬 A maioria dos corredores treina às cegas — não por preguiça, mas porque a informação está toda espalhada e contraditória.
+
+Todas as semanas mandamos um resumo direto ao ponto: fisiologia, periodização, prevenção de lesões — sem achismo, sem jargão académico a mais. 3 artigos científicos por semana, grátis, e cancelas quando quiseres.
+
+👉 www.performancerunning.pt
+
+Já perderam tempo a seguir um conselho que não fazia sentido para o vosso treino? Contem aí 👇
+
+#corridaportugal #runningportugal #corredoresportugal #performancerunning #running #runningcommunity #treinodecorrida #correr
+
+---
+
 ## REDDIT (inglês — valor primeiro, link como fonte)
 
 ### r/running — texto útil + ferramenta
