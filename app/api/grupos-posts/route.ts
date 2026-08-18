@@ -86,5 +86,28 @@ export async function GET() {
     texto: buildGroupPost(article, slot),
   }))
 
+  // Post evergreen (slot 3) — não depende dos artigos do dia, fica sempre
+  // disponível no painel para captar subscritores da newsletter. Pedido do
+  // Pedro em 2026-08-18 para ter sempre um post de newsletter pronto a
+  // copiar, a par dos 3 posts diários de artigos.
+  posts.push({
+    slot: 3,
+    hora: 'Sempre disponível',
+    titulo: 'Newsletter — Porque a Maioria dos Corredores Estagna',
+    categoria: 'Newsletter',
+    link: SITE_URL,
+    texto: fixPtPt(
+      `📬 A maioria dos corredores treina às cegas — não por preguiça, mas porque a informação está toda espalhada e contraditória.
+
+Todas as semanas mandamos um resumo direto ao ponto: fisiologia, periodização, prevenção de lesões — sem achismo, sem jargão académico a mais. 3 artigos científicos por semana, grátis, e cancelas quando quiseres.
+
+👉 ${SITE_URL}
+
+Já perderam tempo a seguir um conselho que não fazia sentido para o vosso treino? Contem aí 👇
+
+#corridaportugal #runningportugal #corredoresportugal #performancerunning #running #runningcommunity #treinodecorrida #correr`
+    ),
+  })
+
   return NextResponse.json({ posts, date: now.toISOString().slice(0, 10) })
 }

@@ -33,8 +33,8 @@ function PostCard({ post }: { post: Post }) {
     })
   }
 
-  const slots = ['🌅 Manhã', '☀️ Tarde', '🌙 Noite']
-  const cores = ['border-yellow-500/40', 'border-blue-500/40', 'border-purple-500/40']
+  const slots = ['🌅 Manhã', '☀️ Tarde', '🌙 Noite', '📬 Newsletter']
+  const cores = ['border-yellow-500/40', 'border-blue-500/40', 'border-purple-500/40', 'border-brand-green/40']
 
   return (
     <div className={`bg-white/5 border ${cores[post.slot]} rounded-2xl p-6 space-y-4`}>
