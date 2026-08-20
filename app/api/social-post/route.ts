@@ -80,6 +80,22 @@ function fixPtPt(text: string): string {
 
 // ── GERAÇÃO DE CAPTIONS VIA GROQ ────────────────────────────────────────────
 
+function buildFallbackCaptions(article: ArticlePayload): {
+  x: string
+  instagram: string
+  facebook: string
+  threads: string
+} {
+  const hashtags = hashtagsFor(article.category)
+  const link = `${SITE_URL}/blog/${article.slug}`
+  return {
+    x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
+    instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags}`,
+    facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
+    threads: `${article.title}\n\n${article.excerpt.slice(0, 200)}`,
+  }
+}
+
 async function generateCaptions(article: ArticlePayload): Promise<{
   x: string
   instagram: string
@@ -87,17 +103,12 @@ async function generateCaptions(article: ArticlePayload): Promise<{
   threads: string
 }> {
   const groqKey = process.env.GROQ_API_KEY
+  const fallback = buildFallbackCaptions(article)
   const hashtags = hashtagsFor(article.category)
   const link = `${SITE_URL}/blog/${article.slug}`
 
   if (!groqKey) {
-    // Fallback sem Groq
-    return {
-      x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
-      instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags}`,
-      facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
-      threads: `${article.title}\n\n${article.excerpt.slice(0, 200)}`,
-    }
+    return fallback
   }
 
   const prompt = `És o Growth System do Performance Running — editor-chefe, estratega de crescimento e copywriter especializado em corrida, atletismo e trail running.
@@ -157,32 +168,50 @@ Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
   "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, sem link"
 }`
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${groqKey}`,
-    },
-    body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.75,
-      max_tokens: 1200,
-      response_format: { type: 'json_object' },
-    }),
-  })
+  // MIN_LEN + pick(): nunca deixar passar uma legenda vazia/curta demais
+  // para publicação — se a IA falhar a gerar um campo específico (acontece
+  // de vez em quando com llama-3.1-8b-instant), usa o texto de reserva desse
+  // campo em vez de publicar uma legenda vazia (bug real: post do Instagram
+  // publicado sem legenda nenhuma em 2026-08, ver memória do projeto).
+  const MIN_LEN = 20
+  const pick = (value: unknown, fallbackText: string): string => {
+    const cleaned = fixPtPt(typeof value === 'string' ? value : '')
+    return cleaned.trim().length >= MIN_LEN ? cleaned : fallbackText
+  }
 
-  const data = await res.json()
-  const content = data.choices?.[0]?.message?.content
-  if (!content) throw new Error('Groq não respondeu')
+  try {
+    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${groqKey}`,
+      },
+      body: JSON.stringify({
+        model: 'llama-3.1-8b-instant',
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.75,
+        max_tokens: 1600,
+        response_format: { type: 'json_object' },
+      }),
+    })
 
-  const parsed = JSON.parse(content)
-  // Garantir PT-PT independentemente do que a IA gerar
-  return {
-    x: fixPtPt(parsed.x ?? ''),
-    instagram: fixPtPt(parsed.instagram ?? ''),
-    facebook: fixPtPt(parsed.facebook ?? ''),
-    threads: fixPtPt(parsed.threads ?? ''),
+    const data = await res.json()
+    const content = data.choices?.[0]?.message?.content
+    if (!content) throw new Error('Groq não respondeu')
+
+    const parsed = JSON.parse(content)
+    // Garantir PT-PT independentemente do que a IA gerar.
+    return {
+      x: pick(parsed.x, fallback.x),
+      instagram: pick(parsed.instagram, fallback.instagram),
+      facebook: pick(parsed.facebook, fallback.facebook),
+      threads: pick(parsed.threads, fallback.threads),
+    }
+  } catch (err) {
+    // Groq indisponível, JSON inválido/truncado, etc. — nunca falhar a
+    // publicação toda por causa disto, usa o texto de reserva determinístico.
+    console.error('[social-post] Groq falhou, a usar fallback determinístico:', err)
+    return fallback
   }
 }
 
