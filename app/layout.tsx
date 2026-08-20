@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Inter, JetBrains_Mono, Barlow_Condensed } from 'next/font/google'
 import './globals.css'
 import { Navbar } from '@/components/Navbar'
@@ -130,6 +131,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         </LocaleProvider>
         <Analytics />
         <SpeedInsights />
+        {/* Impact.com (Adidas affiliate) tracking tag */}
+        <Script
+          id="impact-radius-tracking"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A7648766-bb73-4d1d-8150-8bc8700793121.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');`,
+          }}
+        />
         {process.env.NEXT_PUBLIC_GA_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         )}
