@@ -6,6 +6,13 @@ import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap, Play } from 'lucide-react'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
+import type { Metadata } from 'next'
+
+// O canonical da homepage vive aqui (e nao no root layout) para nao ser
+// herdado por todas as outras paginas do site.
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.performancerunning.pt' },
+}
 
 // Cada URL abaixo foi carregada e confirmada visualmente (via browser) antes
 // de entrar aqui — o código antigo tinha vários IDs do Unsplash com

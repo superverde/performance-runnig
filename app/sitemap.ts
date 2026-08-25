@@ -110,6 +110,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.75,
     },
+    // Estas duas calculadoras existiam desde 2026-07-13 mas nunca tinham
+    // entrado no sitemap — foram construidas precisamente para captar
+    // pesquisas e o Google nao tinha como as descobrir a partir daqui.
+    {
+      url: `${SITE_URL}/ferramentas/zonas-fc`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${SITE_URL}/ferramentas/splits`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${SITE_URL}/sobre/autor`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
     {
       url: `${SITE_URL}/consulta`,
       lastModified: new Date(),

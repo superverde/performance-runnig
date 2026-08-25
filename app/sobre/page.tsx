@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Sobre o Projeto',
   description:
     'Performance Running é uma base de conhecimento científico gratuita sobre corrida, trail running e atletismo. Artigos fundamentados em investigação científica publicada.',
+  alternates: { canonical: 'https://www.performancerunning.pt/sobre' },
 }
 
 const pillars = [

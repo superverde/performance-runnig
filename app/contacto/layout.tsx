@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: 'Sugerir Tema',
   description:
     'Sugere um tema sobre corrida, fisiologia ou treino para ser abordado num artigo científico no Performance Running.',
+  alternates: { canonical: 'https://www.performancerunning.pt/contacto' },
 }
 
 export default function ContactoLayout({ children }: { children: React.ReactNode }) {

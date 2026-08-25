@@ -70,9 +70,12 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
-  alternates: {
-    canonical: SITE_URL,
-  },
+  // NAO declarar canonical aqui. Em Next.js o metadata do root layout e
+  // herdado por todas as paginas que nao definam o seu proprio canonical, o
+  // que fazia com que /blog, /metodologias, /sobre, /contacto e /grupos
+  // dissessem ao Google "a versao canonica desta pagina e a homepage" — e o
+  // Google deixava de as indexar como paginas proprias. O canonical da
+  // homepage esta agora em app/page.tsx e cada pagina declara o seu.
   verification: {
     google: 'qaoSCD-Z9YLteHyX-gwAkmujpnz6jxHssRFxNX9wATU',
     other: {

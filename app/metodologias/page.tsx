@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Metodologias de Treino',
   description:
     'Metodologias científicas de treino para 5km, 10km, Meia Maratona, Maratona, Trail Running, Ultra Trail e mais. Fisiologia do exercício aplicada à corrida.',
+  alternates: { canonical: 'https://www.performancerunning.pt/metodologias' },
 }
 
 const modalities = [

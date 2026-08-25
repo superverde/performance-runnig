@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: 'Arquivo de Artigos',
   description:
     'Base de conhecimento cientifico sobre corrida, trail running e atletismo. Fisiologia, treino, nutricao, biomecanica e recuperacao. 3 novos artigos publicados todos os dias.',
+  alternates: { canonical: 'https://www.performancerunning.pt/blog' },
 }
 
 export default function BlogPage() {
