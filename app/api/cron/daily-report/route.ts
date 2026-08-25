@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Redis } from '@upstash/redis'
+import { getStoredThreadsToken } from '@/lib/threads-token'
 
 // ── Constantes ────────────────────────────────────────────────────────────────
 const REPORT_TO       = 'pedronunes5556@gmail.com'
@@ -126,8 +127,10 @@ function buildEmailHtml(params: {
   analytics: AnalyticsStats | null
   clicks: ClickStats
   subscribers: number
+  threadsDaysLeft: number | null
+  threadsError: string | null
 }): string {
-  const { date, analytics, clicks, subscribers } = params
+  const { date, analytics, clicks, subscribers, threadsDaysLeft, threadsError } = params
 
   const fmtDate = new Date(date + 'T00:00:00Z').toLocaleDateString('pt-PT', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
@@ -151,6 +154,18 @@ function buildEmailHtml(params: {
       <td style="padding:10px 12px;font-size:13px;color:#ccc;border-bottom:1px solid #1a1a1a;">${p.path}</td>
       <td style="padding:10px 12px;font-size:13px;font-weight:700;color:#fff;text-align:right;border-bottom:1px solid #1a1a1a;">${p.views.toLocaleString('pt-PT')}</td>
     </tr>`).join('')
+
+  // Aviso do token do Threads: se expirar (60 dias) NAO pode ser renovado e a
+  // publicacao automatica para em silencio. So aparece quando ha problema.
+  const threadsWarning = (threadsDaysLeft !== null && threadsDaysLeft <= 14) || threadsError ? `
+    <div style="margin-bottom:32px;padding:16px 18px;background:#2a1a00;border:1px solid #7a4f00;border-left:4px solid #ffb300;border-radius:8px;">
+      <p style="margin:0 0 6px;font-size:12px;font-weight:900;color:#ffb300;text-transform:uppercase;letter-spacing:0.15em;">Token do Threads</p>
+      <p style="margin:0;font-size:13px;color:#ddd;">
+        ${threadsError
+          ? `A ultima renovacao automatica falhou: ${threadsError}`
+          : `Expira daqui a ${threadsDaysLeft} dia(s). A renovacao automatica corre segundas e quintas — se este aviso persistir, algo esta a falhar.`}
+      </p>
+    </div>` : ''
 
   const gaSection = analytics ? `
     <div style="margin-bottom:32px;">
@@ -230,6 +245,9 @@ function buildEmailHtml(params: {
       <p style="margin:8px 0 0;font-size:13px;color:#555;">Resumo de ontem — ${date}</p>
     </div>
 
+    <!-- Avisos -->
+    ${threadsWarning}
+
     <!-- GA4 -->
     ${gaSection}
 
@@ -283,13 +301,25 @@ export async function GET(req: NextRequest) {
   // Data de ontem
   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
 
-  const [analytics, clicks, subscribers] = await Promise.all([
+  const [analytics, clicks, subscribers, threadsToken] = await Promise.all([
     getVercelAnalyticsStats(yesterday),
     getClickStats(yesterday),
     redis.scard('newsletter:subscribers'),
+    getStoredThreadsToken(),
   ])
 
-  const html = buildEmailHtml({ date: yesterday, analytics, clicks, subscribers: subscribers as number })
+  const threadsDaysLeft = threadsToken?.expiresAt
+    ? Math.floor((threadsToken.expiresAt - Date.now()) / 86400000)
+    : null
+
+  const html = buildEmailHtml({
+    date: yesterday,
+    analytics,
+    clicks,
+    subscribers: subscribers as number,
+    threadsDaysLeft,
+    threadsError: threadsToken?.lastError ?? null,
+  })
   const sent = await sendReport(yesterday, html)
 
   return NextResponse.json({
@@ -298,6 +328,7 @@ export async function GET(req: NextRequest) {
     affiliateClicksYesterday: Object.values(clicks.yesterday).reduce((a, b) => a + b, 0),
     affiliateClicksTotal: Object.values(clicks.total).reduce((a, b) => a + b, 0),
     newsletterSubscribers: subscribers,
+    threadsTokenDaysLeft: threadsDaysLeft,
     emailSent: sent,
   })
 }

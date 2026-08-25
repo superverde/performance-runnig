@@ -3,6 +3,7 @@ import { TwitterApi } from 'twitter-api-v2'
 import { pickCategoryImage } from '@/lib/images'
 import { hashtagsFor } from '@/lib/hashtags'
 import { redis } from '@/lib/redis'
+import { getThreadsAccessToken } from '@/lib/threads-token'
 
 // ── TIPOS ────────────────────────────────────────────────────────────────────
 
@@ -362,7 +363,10 @@ async function postToInstagram(caption: string, imageUrl: string): Promise<PostR
 // ── THREADS ───────────────────────────────────────────────────────────────────
 
 async function postToThreads(text: string): Promise<PostResult> {
-  const accessToken = process.env.THREADS_ACCESS_TOKEN
+  // O token vem do Redis (renovado automaticamente pelo cron threads-refresh) e
+  // so cai para a variavel de ambiente se ainda nao houver nada gravado.
+  // Ver lib/threads-token.ts para o porque.
+  const accessToken = await getThreadsAccessToken()
   const userId = process.env.THREADS_USER_ID
 
   if (!isConfigured(accessToken) || !isConfigured(userId)) {

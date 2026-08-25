@@ -39,6 +39,10 @@
     {
       "path": "/api/cron/pinterest-noite",
       "schedule": "0 18 * * *"
+    },
+    {
+      "path": "/api/cron/threads-refresh",
+      "schedule": "0 5 * * 1,4"
     }
   ]
 }
