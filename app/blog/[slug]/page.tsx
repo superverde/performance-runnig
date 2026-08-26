@@ -8,6 +8,8 @@ import { ViewCounter } from '@/components/ViewCounter'
 import { BlogClient } from '@/components/BlogClient'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArticleContent } from '@/components/ArticleContent'
+import { Sondagem } from '@/components/Sondagem'
+import { sondagemParaCategoria } from '@/lib/sondagens'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -370,6 +372,8 @@ export default async function BlogSlugPage({ params }: Props) {
             </div>
           </section>
         )}
+        {/* ── Sondagem: dados originais sobre corredores lusofonos ── */}
+        <Sondagem sondagem={sondagemParaCategoria(article.category)} />
       </article>
 
       {/* ── Newsletter ── */}
