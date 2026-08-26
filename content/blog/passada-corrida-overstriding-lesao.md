@@ -1,8 +1,8 @@
 ---
-title: "Overstriding: O Erro de Passada Que Causa 80% das Lesões"
+title: "Overstriding: O Que É e Como Corrigir a Passada"
 date: '2026-07-24'
 category: "Biomecânica"
-excerpt: "Overstriding — aterrar com o pé bem à frente do centro de massa — transforma cada passada num pequeno travão. Percebe porque é um dos padrões mais associados a lesões de sobrecarga e como corrigi-lo sem criar um problema novo."
+excerpt: "Aterrar à frente do centro de massa trava-te a cada passo e sobrecarrega as articulações. Como identificar overstriding e corrigi-lo em segurança."
 readTime: 4
 ---
 

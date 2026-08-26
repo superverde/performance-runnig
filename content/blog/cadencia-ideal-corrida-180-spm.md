@@ -1,8 +1,8 @@
 ---
-title: "Cadência de Corrida: A Regra dos 180 SPM É Real?"
+title: "Cadência na Corrida: A Regra dos 180 SPM É Mito?"
 date: '2026-07-24'
 category: "Biomecânica"
-excerpt: "A regra dos 180 passos por minuto tem origem numa observação informal de 1984 e continua a ser tratada como lei — mas a cadência ideal depende da altura, da velocidade e da técnica de cada corredor."
+excerpt: "Os 180 passos por minuto vêm de uma observação de 1984, não de uma lei. Qual é a tua cadência ideal e como ajustá-la sem criar uma lesão nova."
 readTime: 4
 ---
 

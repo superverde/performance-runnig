@@ -1,8 +1,8 @@
 ---
-title: "Melhores Sapatilhas para 5km e 10km Rápidos"
+title: "Melhores Sapatilhas para 5 km e 10 km Rápidos em 2026"
 date: '2026-07-17'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida de curta e média distância, a escolha certa das sapatilhas pode ser a diferença entre um tempo de corrida rápido e um desempenho abaixo do esperado. As sapatilhas devem ser …"
+excerpt: "As sapatilhas certas para ritmos rápidos em 5 e 10 km: os critérios que importam, as melhores opções de 2026 e o veredicto sobre qual comprar."
 readTime: 4
 ---
 

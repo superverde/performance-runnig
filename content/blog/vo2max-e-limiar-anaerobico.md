@@ -1,9 +1,6 @@
 ---
-title: 'VO2max e Limiar Anaeróbio: Os Dois Pilares da Performance em Corrida'
-excerpt: >-
-  Perceber a diferença entre VO2max e limiar anaeróbio é fundamental para
-  treinar de forma inteligente. Neste artigo, explicamos a fisiologia por
-  detrás…
+title: "VO2max e Limiar Anaeróbio: Qual é a Diferença?"
+excerpt: "O VO2max é o teto, o limiar é o que consegues sustentar. Percebe a diferença, descobre qual limita o teu ritmo e treina o que te faz mesmo melhorar."
 date: '2025-11-01'
 category: VO2max
 readTime: 4

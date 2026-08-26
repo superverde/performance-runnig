@@ -2,7 +2,7 @@
 title: "Rolo de Espuma e Pistolas de Massagem: Valem a Pena?"
 date: '2026-07-24'
 category: "Equipamento"
-excerpt: "Rolos de espuma e pistolas de massagem prometem menos dor muscular e recuperação mais rápida. Vê o que a evidência diz realmente, que critérios técnicos separam um bom equipamento de um mau, e qual escolher consoante o teu perfil e orçamento."
+excerpt: "O que a ciência mostra sobre foam rollers e pistolas de massagem na recuperação e na dor muscular, e quando são mesmo dinheiro bem gasto."
 readTime: 4
 ---
 

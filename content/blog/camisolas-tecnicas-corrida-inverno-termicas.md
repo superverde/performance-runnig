@@ -1,8 +1,8 @@
 ---
-title: "Melhores Camisolas Térmicas para Correr no Frio"
+title: "Camisolas Térmicas para Correr no Inverno: Como Escolher"
 date: '2026-08-13'
 category: "Equipamento"
-excerpt: "Ao correr em condições frias, é fundamental ter uma camisola que te proteja do frio e mantenha a temperatura corporal estável. Uma camisola térmica é essencial para evitar a perda de calor e manter a …"
+excerpt: "Que camisola térmica usar para correr no frio, como funcionam as camadas e os tecidos, e as melhores opções para não passar frio nem suar demais."
 readTime: 4
 ---
 

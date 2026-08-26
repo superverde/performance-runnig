@@ -1,8 +1,8 @@
 ---
-title: "Mantas Térmicas Pós-Prova: Por Que São Essenciais na Recuperação"
+title: "Mantas Térmicas Pós-Prova: Para Que Servem Mesmo?"
 date: '2026-08-11'
 category: "Equipamento"
-excerpt: "Depois de uma corrida intensa, o corpo começa a sentir o efeito do stress físico e a necessidade de recuperação aumenta. Aprender a gerir esse stress é fundamental para evitar lesões e garantir um des…"
+excerpt: "Porque te dão uma manta térmica no fim da prova, o que ela faz de facto pela recuperação e em que situações não vale a pena contar com ela."
 readTime: 4
 ---
 

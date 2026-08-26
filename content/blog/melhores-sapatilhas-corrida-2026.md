@@ -1,6 +1,6 @@
 ---
-title: "Melhores Sapatilhas de Corrida 2026: Guia Completo por Objetivo"
-excerpt: "HOKA, On Running, Salomon ou Nike Vaporfly? Depende do teu objetivo. Este guia explica qual a sapatilha certa para cada corredor — baseado em biomecânica e dados reais."
+title: "Melhores Sapatilhas de Corrida 2026: Guia por Objetivo"
+excerpt: "Estrada, competição ou trail: qual a sapatilha certa para o teu objetivo. Análise por biomecânica, durabilidade e uso real, não por opinião."
 date: "2026-06-23"
 category: "Treino"
 readTime: 8

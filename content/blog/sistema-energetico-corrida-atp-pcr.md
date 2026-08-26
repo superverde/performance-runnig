@@ -1,8 +1,8 @@
 ---
-title: "Os Três Sistemas Energéticos da Corrida: Do Sprint ao Ultra"
+title: "Os 3 Sistemas Energéticos da Corrida: do Sprint ao Ultra"
 date: '2026-07-13'
 category: "Fisiologia"
-excerpt: "A corrida é um esporte que desafia nossa capacidade física e mental, exigindo uma combinação de força, agilidade e resistência. Ao longo de uma competição, nossos sistemas energéticos são constantemen…"
+excerpt: "ATP-PCr, glicolítico e oxidativo: que sistema alimenta cada ritmo, do sprint ao ultra, e como treinar cada um sem desperdiçar sessões."
 readTime: 4
 ---
 

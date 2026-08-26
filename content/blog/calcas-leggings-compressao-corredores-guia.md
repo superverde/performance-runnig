@@ -1,8 +1,8 @@
 ---
-title: "Calças e Leggings de Compressão para Corredores: Guia de Compra"
+title: "Calças de Compressão para Corrida: Valem a Pena?"
 date: '2026-08-04'
 category: "Equipamento"
-excerpt: "As calças e leggings de compressão tornaram-se uma peça fundamental no arsenal de muitos corredores. Eles oferecem benefícios como redução da tensão, aumento da circulação sanguínea e melhoria da recu…"
+excerpt: "O que a compressão faz mesmo pela performance e pela recuperação, como escolher a pressão certa e que calças e leggings compensam para correr."
 readTime: 4
 ---
 

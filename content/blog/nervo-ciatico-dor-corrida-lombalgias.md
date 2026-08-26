@@ -1,8 +1,8 @@
 ---
-title: "Dor Lombar e Ciática em Corredores: Causas e Abordagem"
+title: "Dor Ciática e Lombar em Corredores: Causas e Solução"
 date: '2026-08-04'
 category: "Lesões"
-excerpt: "A corrida é um dos desportos mais populares e exigentes para o corpo humano. No entanto, a prática regular de corrida pode levantar um conjunto de problemas de saúde, incluindo dor lombar e ciática. E…"
+excerpt: "Porque aparece a dor lombar e ciática em corredores, como distinguir as causas e o protocolo prático para voltar a correr sem a agravar."
 readTime: 4
 ---
 

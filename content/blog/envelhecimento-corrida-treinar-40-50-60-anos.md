@@ -1,8 +1,8 @@
 ---
-title: "Envelhecimento e Corrida: Como Treinar aos 40, 50 e 60 Anos"
+title: "Correr Depois dos 40: O Que Muda e Como Treinar"
 date: 2026-07-02
 category: "Treino"
-excerpt: "O declínio da performance com a idade é real, mas muito mais lento e maleável do que se pensa. Descobre o que muda fisiologicamente após os 40 e como adaptar o treino para continuar rápido durante décadas."
+excerpt: "O declínio depois dos 40 é mais lento do que pensas. O que muda na fisiologia, como ajustar volume e intensidade e os erros que travam a progressão."
 readTime: 9
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "O Que É um Bom VO2max? Tabela de Valores por Idade e Sexo"
+title: "VO2max por Idade: Tabela de Referência e Como Ler"
 date: '2026-08-13'
 category: "VO2max"
-excerpt: "O VO2max é um conceito fundamental no desporto, especialmente nos desportos de resistência, como a corrida de fundo, ciclismo e natação. É uma medida da capacidade aeróbica do corpo, refletindo a sua …"
+excerpt: "Que VO2max é bom para a tua idade e sexo, com tabelas de referência, e o que o número diz (e não diz) sobre o teu potencial na corrida."
 readTime: 4
 ---
 
