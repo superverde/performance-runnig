@@ -99,9 +99,9 @@ export async function GET() {
     texto: fixPtPt(
       `📬 A maioria dos corredores treina às cegas — não por preguiça, mas porque a informação está toda espalhada e contraditória.
 
-Todas as semanas mandamos um resumo direto ao ponto: fisiologia, periodização, prevenção de lesões — sem achismo, sem jargão académico a mais. 3 artigos científicos por semana, grátis, e cancelas quando quiseres.
+Todas as semanas resumimos o que interessa: fisiologia, periodização, prevenção de lesões — sem achismo, sem jargão académico a mais. 3 artigos científicos por semana, grátis.
 
-👉 ${SITE_URL}
+👉 Assina a newsletter: ${SITE_URL} (cancelas quando quiseres)
 
 Já perderam tempo a seguir um conselho que não fazia sentido para o vosso treino? Contem aí 👇
 
