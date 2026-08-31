@@ -11,13 +11,16 @@ function isAuthorized(req: NextRequest): boolean {
   return auth === `Bearer ${cronSecret}`
 }
 
-async function publishArticle(article: {
-  title: string
-  excerpt: string
-  slug: string
-  category: string
-  coverImage?: string
-}) {
+async function publishArticle(
+  article: {
+    title: string
+    excerpt: string
+    slug: string
+    category: string
+    coverImage?: string
+  },
+  platform: string | null
+) {
   const res = await fetch(`${SITE_URL}/api/social-post`, {
     method: 'POST',
     headers: {
@@ -30,6 +33,11 @@ async function publishArticle(article: {
       slug: article.slug,
       category: article.category,
       coverImage: article.coverImage,
+      // Cada horário do cron (ver vercel.json) chama esta rota com um
+      // ?platform= diferente, para as redes não publicarem todas ao mesmo
+      // minuto — sem o parâmetro, mantém o comportamento antigo (publica
+      // em todas de uma vez).
+      ...(platform ? { platforms: [platform] } : {}),
     }),
   })
   return res.json()
@@ -40,6 +48,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
   }
 
+  const platform = req.nextUrl.searchParams.get('platform')
   const todayArticles = getTodayArticles()
   const results = []
 
@@ -48,7 +57,7 @@ export async function GET(req: NextRequest) {
     console.log(`[cron/daily-social] ${todayArticles.length} artigo(s) de hoje para publicar.`)
     for (const article of todayArticles) {
       try {
-        const data = await publishArticle(article)
+        const data = await publishArticle(article, platform)
         results.push({ slug: article.slug, source: 'today', ...data })
         console.log(`[cron/daily-social] ${article.slug} — ${data.summary?.success ?? 0} sucesso`)
       } catch (err) {
@@ -72,7 +81,7 @@ export async function GET(req: NextRequest) {
     console.log(`[cron/daily-social] Sem artigos hoje — arquivo: ${randomArticle.slug}`)
 
     try {
-      const data = await publishArticle(randomArticle)
+      const data = await publishArticle(randomArticle, platform)
       results.push({ slug: randomArticle.slug, source: 'archive', ...data })
       console.log(`[cron/daily-social] ${randomArticle.slug} (arquivo) — ${data.summary?.success ?? 0} sucesso`)
     } catch (err) {

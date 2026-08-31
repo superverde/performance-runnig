@@ -93,7 +93,7 @@ function buildFallbackCaptions(article: ArticlePayload): {
     x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
     instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags}`,
     facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
-    threads: `${article.title}\n\n${article.excerpt.slice(0, 200)}`,
+    threads: `${article.title}\n\n${article.excerpt.slice(0, 170)}\n\n🔗 Link na bio`,
   }
 }
 
@@ -166,7 +166,7 @@ Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
   "x": "post X/Twitter — máx 270 chars, hook forte, 1 facto surpreendente ou estatística, link, 3-4 hashtags",
   "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor com palavras-chave do tema escritas no texto (não só nas hashtags), emoji moderado, CTA 'link na bio', as 4 hashtags dadas no fim numa linha separada",
   "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, as 4 hashtags dadas no fim",
-  "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, sem link"
+  "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, termina sempre com '🔗 Link na bio' (nunca escrever o URL nem o domínio por extenso)"
 }`
 
   // MIN_LEN + pick(): nunca deixar passar uma legenda vazia/curta demais
@@ -381,6 +381,7 @@ async function postToThreads(text: string): Promise<PostResult> {
       body: JSON.stringify({
         media_type: 'TEXT',
         text,
+        topic_tag: 'Running Threads',
         access_token: accessToken,
       }),
     })
@@ -450,8 +451,11 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const article: ArticlePayload = await req.json()
-    const { title, excerpt, slug, category, coverImage } = article
+    const body = await req.json()
+    const { title, excerpt, slug, category, coverImage, platforms } = body as ArticlePayload & {
+      platforms?: string[]
+    }
+    const article: ArticlePayload = { title, excerpt, slug, category, coverImage }
 
     if (!title || !slug) {
       return NextResponse.json({ error: 'title e slug são obrigatórios' }, { status: 400 })
@@ -460,16 +464,24 @@ export async function POST(req: NextRequest) {
     const articleUrl = `${SITE_URL}/blog/${slug}`
     const image = coverImage || selectImage(slug, category)
 
-    // Gera captions para todas as plataformas
+    // Gera captions para todas as plataformas (barato manter mesmo quando só
+    // publicamos numa, uma única chamada Groq já devolve as 4)
     const captions = await generateCaptions(article)
 
-    // Publica em paralelo em todas as plataformas configuradas
-    const results = await Promise.allSettled([
-      postToX(captions.x),
-      postToFacebook(captions.facebook, articleUrl),
-      postToInstagram(captions.instagram, image),
-      postToThreads(captions.threads),
-    ])
+    // `platforms`, quando indicado (pelos crons escalonados por hora — ver
+    // vercel.json), restringe a publicação a essa plataforma só. Sem o
+    // parâmetro, mantém o comportamento antigo: publica em todas — usado por
+    // qualquer chamador que não passe `platforms`.
+    const wants = (name: string) => !platforms || platforms.includes(name)
+
+    const jobs: Promise<PostResult>[] = []
+    if (wants('x')) jobs.push(postToX(captions.x))
+    if (wants('facebook')) jobs.push(postToFacebook(captions.facebook, articleUrl))
+    if (wants('instagram')) jobs.push(postToInstagram(captions.instagram, image))
+    if (wants('threads')) jobs.push(postToThreads(captions.threads))
+
+    // Publica em paralelo só as plataformas pedidas nesta chamada
+    const results = await Promise.allSettled(jobs)
 
     const postResults: PostResult[] = results.map(r =>
       r.status === 'fulfilled' ? r.value : { platform: 'unknown', success: false, error: String(r.reason) }

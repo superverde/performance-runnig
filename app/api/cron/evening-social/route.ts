@@ -200,6 +200,12 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
   }
 
+  // Cada horário do cron (ver vercel.json) chama esta rota com um
+  // ?platform= diferente, para não publicar em FB/IG/X todos ao mesmo
+  // minuto. Sem o parâmetro, publica nas três (comportamento antigo).
+  const platform = req.nextUrl.searchParams.get('platform')
+  const wants = (name: string) => !platform || platform === name
+
   const allArticles = getAllArticles()
   if (allArticles.length === 0) {
     return NextResponse.json({ message: 'Sem artigos no arquivo' })
@@ -215,38 +221,26 @@ export async function GET(req: NextRequest) {
 
   const captions = await generateEveningCaptions(article)
 
-  const [fb, ig, xResult] = await Promise.allSettled([
-    postToFacebook(captions.facebook, link),
-    postToInstagram(captions.instagram, image),
-    postToX(captions.x),
-  ])
-
   const toResult = (r: PromiseSettledResult<PlatformResult>): PlatformResult =>
     r.status === 'fulfilled' ? r.value : { success: false, error: String(r.reason) }
 
-  const fbResult = toResult(fb)
-  const igResult = toResult(ig)
-  const xFinal = toResult(xResult)
+  const jobs: { platform: string; job: Promise<PlatformResult> }[] = []
+  if (wants('facebook')) jobs.push({ platform: 'Facebook', job: postToFacebook(captions.facebook, link) })
+  if (wants('instagram')) jobs.push({ platform: 'Instagram', job: postToInstagram(captions.instagram, image) })
+  if (wants('x')) jobs.push({ platform: 'X', job: postToX(captions.x) })
 
-  const results = {
-    facebook: fbResult.success,
-    instagram: igResult.success,
-    x: xFinal.success,
+  const settled = await Promise.allSettled(jobs.map(j => j.job))
+  const named = jobs.map((j, i) => ({ platform: j.platform, ...toResult(settled[i]) }))
+
+  const results: Record<string, boolean> = {}
+  for (const r of named) {
+    results[r.platform.toLowerCase()] = r.success
+    if (!r.success) console.error(`[evening-social] ${r.platform}: ${r.error}`)
   }
 
-  console.log(`[evening-social] ${article.slug} | FB:${results.facebook} IG:${results.instagram} X:${results.x}`)
-  if (!fbResult.success) console.error(`[evening-social] Facebook: ${fbResult.error}`)
-  if (!igResult.success) console.error(`[evening-social] Instagram: ${igResult.error}`)
-  if (!xFinal.success) console.error(`[evening-social] X: ${xFinal.error}`)
+  console.log(`[evening-social] ${article.slug} | ${named.map(r => `${r.platform}:${r.success}`).join(' ')}`)
 
-  await logSocialResults(
-    { title: article.title, slug: article.slug },
-    [
-      { platform: 'Facebook', ...fbResult },
-      { platform: 'Instagram', ...igResult },
-      { platform: 'X', ...xFinal },
-    ]
-  )
+  await logSocialResults({ title: article.title, slug: article.slug }, named)
 
   return NextResponse.json({ article: article.slug, results })
 }

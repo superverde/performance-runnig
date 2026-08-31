@@ -13,20 +13,12 @@
       "schedule": "12 4 * * *"
     },
     {
-      "path": "/api/cron/daily-social",
-      "schedule": "30 8 * * *"
-    },
-    {
       "path": "/api/cron/weekly-newsletter",
       "schedule": "0 7 * * 0"
     },
     {
       "path": "/api/cron/midday-tip",
       "schedule": "0 12 * * *"
-    },
-    {
-      "path": "/api/cron/evening-social",
-      "schedule": "30 17 * * *"
     },
     {
       "path": "/api/cron/pinterest-manha",
@@ -43,6 +35,34 @@
     {
       "path": "/api/cron/threads-refresh",
       "schedule": "0 5 * * 1,4"
+    },
+    {
+      "path": "/api/cron/daily-social?platform=x",
+      "schedule": "30 8 * * *"
+    },
+    {
+      "path": "/api/cron/daily-social?platform=facebook",
+      "schedule": "45 8 * * *"
+    },
+    {
+      "path": "/api/cron/daily-social?platform=instagram",
+      "schedule": "0 9 * * *"
+    },
+    {
+      "path": "/api/cron/daily-social?platform=threads",
+      "schedule": "15 9 * * *"
+    },
+    {
+      "path": "/api/cron/evening-social?platform=facebook",
+      "schedule": "30 17 * * *"
+    },
+    {
+      "path": "/api/cron/evening-social?platform=x",
+      "schedule": "45 17 * * *"
+    },
+    {
+      "path": "/api/cron/evening-social?platform=instagram",
+      "schedule": "0 18 * * *"
     }
   ]
 }
