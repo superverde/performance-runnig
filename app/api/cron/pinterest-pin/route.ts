@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getAllArticles } from '@/lib/articles'
 import { getPinterestAccessToken } from '@/lib/pinterest'
-import { pickCategoryImage } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -49,7 +48,10 @@ async function createPin(article: {
     return { success: false, error: 'Sem access token válido (verifica PINTEREST_ACCESS_TOKEN ou PINTEREST_APP_ID/PINTEREST_APP_SECRET/PINTEREST_REFRESH_TOKEN) ou PINTEREST_BOARD_ID não definido' }
   }
 
-  const imageUrl = pickCategoryImage(article.category, article.slug, 1000)
+  // Imagem gerada sob medida para o Pinterest (2:3, com titulo e marca
+  // sobrepostos) em vez da foto de stock nua -- ver app/api/pinterest-pin-image
+  // para o porque. pickCategoryImage fica como fallback caso a geracao falhe.
+  const imageUrl = `${SITE_URL}/api/pinterest-pin-image?slug=${encodeURIComponent(article.slug)}`
   const articleUrl = `${SITE_URL}/blog/${article.slug}`
   const suffixes = ['', ' | Performance Running', ' — Ciência da Corrida']
   const title = `${article.title}${suffixes[slotIndex] ?? ''}`.slice(0, 100)
