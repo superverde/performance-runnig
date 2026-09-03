@@ -84,3 +84,4 @@ export async function GET(req: NextRequest) {
     next_steps: 'Copia refresh_token para PINTEREST_REFRESH_TOKEN e o id do board certo para PINTEREST_BOARD_ID nas env vars do Vercel. Depois podes remover esta rota.',
   })
 }
+
