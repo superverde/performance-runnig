@@ -70,10 +70,37 @@ async function createPin(article: {
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
     })
-    const data = await res.json()
-    if (!res.ok) return { success: false, error: data.message ?? `HTTP ${res.status}` }
-    return { success: true, pinId: data.id }
+    const raw = await res.text()
+    let data: Record<string, unknown> = {}
+    try {
+      data = JSON.parse(raw)
+    } catch {
+      // resposta não-JSON (ex. HTML de erro de um proxy) -- o texto cru fica no log
+    }
+    if (!res.ok) {
+      // Log obrigatorio: durante semanas o cron devolveu 200 e nao publicava nada
+      // porque o erro real do Pinterest nunca chegava a lado nenhum (o detalhe de
+      // chamadas externas na Vercel esta atras do Observability Plus). Os logs de
+      // consola sao gratuitos e ficam visiveis em vercel.com -> Logs.
+      console.error(
+        '[pinterest-pin] Pinterest recusou o pin',
+        JSON.stringify({
+          status: res.status,
+          body: raw.slice(0, 800),
+          imageUrl,
+          articleUrl,
+          boardId,
+        })
+      )
+      const message =
+        (typeof data.message === 'string' && data.message) ||
+        raw.slice(0, 300) ||
+        `HTTP ${res.status}`
+      return { success: false, error: `HTTP ${res.status}: ${message}` }
+    }
+    return { success: true, pinId: typeof data.id === 'string' ? data.id : undefined }
   } catch (err) {
+    console.error('[pinterest-pin] Excecao ao publicar', String(err))
     return { success: false, error: String(err) }
   }
 }
@@ -87,5 +114,11 @@ export async function GET(req: NextRequest) {
   const article = selectArticle(slot)
   if (!article) return NextResponse.json({ error: 'Sem artigos' }, { status: 404 })
   const result = await createPin(article, slot)
+  if (!result.success) {
+    // Estado de erro real em vez de 200: um cron que falha tem de aparecer
+    // como falha nos Logs/alertas da Vercel, senao passa semanas despercebido.
+    return NextResponse.json({ slot, article: article.slug, ...result }, { status: 502 })
+  }
+  console.log('[pinterest-pin] Pin publicado', JSON.stringify({ slot, article: article.slug, pinId: result.pinId }))
   return NextResponse.json({ slot, article: article.slug, ...result })
 }
