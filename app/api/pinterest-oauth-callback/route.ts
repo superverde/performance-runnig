@@ -64,23 +64,84 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ step: 'token_exchange', status: tokenRes.status, error: tokenData }, { status: 502 })
   }
 
-  let boards: unknown = null
-  try {
-    const boardsRes = await fetch('https://api.pinterest.com/v5/boards', {
-      headers: { Authorization: `Bearer ${tokenData.access_token}` },
-    })
-    boards = await boardsRes.json()
-  } catch (e) {
-    boards = { error: String(e) }
-  }
+  const refreshToken: string = tokenData.refresh_token ?? ''
+  const scope: string = tokenData.scope ?? ''
+  const temBoardsWrite = scope.includes('boards:write')
 
-  return NextResponse.json({
-    success: true,
-    access_token: tokenData.access_token,
-    refresh_token: tokenData.refresh_token,
-    scope: tokenData.scope,
-    expires_in: tokenData.expires_in,
-    boards,
-    next_steps: 'Copia refresh_token para PINTEREST_REFRESH_TOKEN e o id do board certo para PINTEREST_BOARD_ID nas env vars do Vercel. Depois podes remover esta rota.',
+  // Pagina HTML em vez de JSON cru: a resposta JSON do Pinterest e uma parede
+  // de texto onde access_token (pina_...) e refresh_token (pinr_...) sao quase
+  // indistinguiveis -- copiar o campo errado ja custou uma volta inteira de
+  // deploy + reautorizacao. Aqui aparece so o valor certo, com botao de copiar.
+  const esc = (v: string) =>
+    v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+
+  const html = `<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pinterest ligado — copiar refresh token</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:40px 20px; background:#0d0d0d; color:#f2f2f2;
+         font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; }
+  h1 { font-size:24px; margin:0 0 8px; }
+  .sub { color:#9a9a9a; margin:0 0 28px; }
+  .ok { color:#3ddc84; } .bad { color:#ff6b6b; }
+  .card { background:#171717; border:1px solid #2a2a2a; border-radius:12px; padding:20px; margin-bottom:20px; }
+  label { display:block; font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:#9a9a9a; margin-bottom:10px; }
+  textarea { width:100%; box-sizing:border-box; height:110px; resize:vertical; padding:12px;
+             background:#0d0d0d; color:#f2f2f2; border:1px solid #333; border-radius:8px;
+             font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace; word-break:break-all; }
+  button { margin-top:12px; padding:12px 20px; font-size:15px; font-weight:600; cursor:pointer;
+           background:#0B2A4A; color:#fff; border:none; border-radius:8px; }
+  button:hover { background:#12406f; }
+  ol { padding-left:20px; } li { margin-bottom:8px; }
+  a { color:#6ba8ff; }
+  code { background:#0d0d0d; padding:2px 6px; border-radius:4px; font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Pinterest autorizado</h1>
+  <p class="sub">Permissões recebidas: <code>${esc(scope)}</code><br>
+  ${temBoardsWrite
+    ? '<span class="ok">boards:write incluído — é o que faltava para publicar pins.</span>'
+    : '<span class="bad">Falta boards:write! Repete a autorização com esse scope, senão os pins continuam a ser recusados.</span>'}</p>
+
+  <div class="card">
+    <label>Refresh token — é este o valor a copiar</label>
+    <textarea id="tok" readonly onclick="this.select()">${esc(refreshToken)}</textarea>
+    <button onclick="copiar()">Copiar refresh token</button>
+    <span id="msg" style="margin-left:12px;color:#3ddc84"></span>
+  </div>
+
+  <div class="card">
+    <label>O que fazer a seguir</label>
+    <ol>
+      <li>Abre <a href="https://vercel.com/pn4/performance-runnig/settings/environment-variables" target="_blank" rel="noopener">as Environment Variables do Vercel</a></li>
+      <li>Edita <code>PINTEREST_REFRESH_TOKEN</code> e cola o valor acima (sem aspas nem espaços)</li>
+      <li>Grava e faz <strong>Redeploy</strong> — as variáveis só chegam às funções num deployment novo</li>
+    </ol>
+  </div>
+</div>
+<script>
+function copiar() {
+  var t = document.getElementById('tok');
+  t.select(); t.setSelectionRange(0, 999999);
+  navigator.clipboard.writeText(t.value).then(function () {
+    document.getElementById('msg').textContent = 'Copiado!';
+  }, function () {
+    document.execCommand('copy');
+    document.getElementById('msg').textContent = 'Copiado!';
+  });
+}
+</script>
+</body>
+</html>`
+
+  return new NextResponse(html, {
+    headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' },
   })
 }
