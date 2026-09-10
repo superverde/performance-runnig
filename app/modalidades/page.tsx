@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
@@ -15,7 +16,7 @@ const MODALIDADES = [
     dist: '42.195 km',
     tag: 'Resistência',
     desc: 'Gestão de energia, periodização e nutrição em prova para os 42 km.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg',
+    img: '/pool-images/photo-1543051932-6ef9fecfbc80.jpg',
     color: 'from-orange-500/20 to-red-500/5',
   },
   {
@@ -24,7 +25,7 @@ const MODALIDADES = [
     dist: '21.097 km',
     tag: 'Limiar',
     desc: 'Economia de corrida e resistência de limiar para os 21 km perfeitos.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1613936360976-8f35cf0e5461.jpg',
+    img: '/pool-images/photo-1613936360976-8f35cf0e5461.jpg',
     color: 'from-blue-500/20 to-indigo-500/5',
   },
   {
@@ -33,7 +34,7 @@ const MODALIDADES = [
     dist: '10 km',
     tag: 'Velocidade-Resistência',
     desc: 'O equilíbrio perfeito entre potência aeróbia e resistência de limiar.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
+    img: '/pool-images/photo-1476480862126-209bfaa8edc8.jpg',
     color: 'from-green-500/20 to-teal-500/5',
   },
   {
@@ -42,7 +43,7 @@ const MODALIDADES = [
     dist: '5 km',
     tag: 'VO2max',
     desc: 'Máxima potência aeróbia e capacidade láctica para a prova mais popular.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1552674605-db6ffd4facb5.jpg',
+    img: '/pool-images/photo-1552674605-db6ffd4facb5.jpg',
     color: 'from-yellow-500/20 to-amber-500/5',
   },
   {
@@ -51,7 +52,7 @@ const MODALIDADES = [
     dist: '15–80 km',
     tag: 'Técnica',
     desc: 'Técnica de montanha, força específica e adaptação ao terreno natural.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1504025468847-0e438279542c.jpg',
+    img: '/pool-images/photo-1504025468847-0e438279542c.jpg',
     color: 'from-emerald-500/20 to-green-500/5',
   },
   {
@@ -60,7 +61,7 @@ const MODALIDADES = [
     dist: '42 km+',
     tag: 'Mental',
     desc: 'Preparação física, mental, nutricional e logística para ultramaratonas.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1513593771513-7b58b6c4af38.jpg',
+    img: '/pool-images/photo-1513593771513-7b58b6c4af38.jpg',
     color: 'from-purple-500/20 to-violet-500/5',
   },
   {
@@ -69,7 +70,7 @@ const MODALIDADES = [
     dist: 'VK / Sky',
     tag: 'Força',
     desc: 'Explosividade, relação peso/potência e técnica de subida para sky races.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
+    img: '/pool-images/photo-1461897104016-0b3b00cc81ee.jpg',
     color: 'from-stone-500/20 to-gray-500/5',
   },
   {
@@ -78,7 +79,7 @@ const MODALIDADES = [
     dist: '800m–3000m',
     tag: 'Velocidade',
     desc: 'VO2max, capacidade láctica e velocidade para as provas de pista.',
-    img: 'https://www.performancerunning.pt/pool-images/photo-1567427018141-0584cfcbf1b8.jpg',
+    img: '/pool-images/photo-1567427018141-0584cfcbf1b8.jpg',
     color: 'from-red-500/20 to-rose-500/5',
   },
 ]
@@ -87,14 +88,16 @@ export default function ModalidadesPage() {
   return (
     <div className="min-h-screen">
       {/* ── HERO ── */}
-      <section
-        className="relative pt-32 pb-20 overflow-hidden"
-        style={{
-          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1543051932-6ef9fecfbc80.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center 40%',
-        }}
-      >
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        <Image
+          src="/pool-images/photo-1543051932-6ef9fecfbc80.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          style={{ objectPosition: 'center 40%' }}
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/90 to-black/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -130,13 +133,12 @@ export default function ModalidadesPage() {
               style={{ minHeight: '280px' }}
             >
               {/* Background image */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  backgroundImage: `url(${m.img})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
+              <Image
+                src={m.img}
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-black/30 group-hover:from-black/90 transition-all" />
               <div className={`absolute inset-0 bg-gradient-to-br ${m.color} opacity-0 group-hover:opacity-100 transition-all`} />
@@ -166,14 +168,14 @@ export default function ModalidadesPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section
-        className="relative py-20 overflow-hidden"
-        style={{
-          backgroundImage: 'url(https://www.performancerunning.pt/pool-images/photo-1590012314607-cda9d9b699ae.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      <section className="relative py-20 overflow-hidden">
+        <Image
+          src="/pool-images/photo-1590012314607-cda9d9b699ae.jpg"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/97 via-black/92 to-black/70" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-4">

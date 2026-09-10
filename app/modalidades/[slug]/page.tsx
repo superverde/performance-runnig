@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
@@ -343,6 +344,10 @@ export default function ModalidadePage({ params }: Props) {
   const m = MODALIDADES.find((x) => x.slug === params.slug)
   if (!m) notFound()
 
+  // <Image> do Next: caminho relativo para o next/image otimizar o ficheiro local
+  // em vez de o tratar como URL remota (o mesmo padrão de app/blog/[slug]/page.tsx)
+  const heroImgSrc = m.img.replace(SITE_URL, '')
+
   const related = getAllArticles()
     .filter((a) => a.category === m.category)
     .slice(0, 4)
@@ -363,10 +368,16 @@ export default function ModalidadePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* ── HERO ── */}
-      <section
-        className="relative pt-32 pb-20 overflow-hidden"
-        style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center 30%' }}
-      >
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        <Image
+          src={heroImgSrc}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          style={{ objectPosition: 'center 30%' }}
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/85 to-black/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
         <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
@@ -394,8 +405,14 @@ export default function ModalidadePage({ params }: Props) {
         </section>
 
         {/* Fisiologia */}
-        <section className="relative rounded-2xl overflow-hidden border border-white/8"
-          style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section className="relative rounded-2xl overflow-hidden border border-white/8">
+          <Image
+            src={heroImgSrc}
+            alt=""
+            fill
+            sizes="(max-width: 1024px) 100vw, 896px"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-black/88" />
           <div className="relative p-8">
             <p className="text-brand-green text-[10px] font-mono font-bold tracking-[0.25em] uppercase mb-3">Fisiologia</p>
