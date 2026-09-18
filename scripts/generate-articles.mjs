@@ -295,7 +295,6 @@ const ALL_TOPICS = [
   { slug: 'periodizacao-ondulatoria-corredores', title: 'Periodização Ondulatória para Corredores', category: 'Treino' },
   { slug: 'off-season-corredor-o-que-fazer', title: 'Off-Season do Corredor: O Que Fazer', category: 'Treino' },
   { slug: 'retorno-treino-apos-ferias', title: 'Voltar aos Treinos Depois de Férias', category: 'Treino' },
-  { slug: 'correr-com-carrinho-bebe-adaptar', title: 'Correr com Carrinho de Bebé: Como Adaptar', category: 'Treino' },
   { slug: 'inclinacao-passadeira-1-porcento', title: 'Inclinação de 1% na Passadeira: Porquê?', category: 'Treino' },
   { slug: 'treinar-por-potencia-corrida-zonas', title: 'Treinar por Potência: Guia de Zonas', category: 'Treino' },
   { slug: 'duas-maratonas-por-ano-periodizar', title: 'Duas Maratonas por Ano: Como Periodizar', category: 'Treino' },
@@ -319,7 +318,6 @@ const ALL_TOPICS = [
   { slug: 'correr-todos-os-dias-run-streak', title: 'Correr Todos os Dias: Benefícios e Riscos', category: 'Treino' },
   { slug: 'eliptica-remo-alternativas-impacto', title: 'Elíptica e Remo: Alternativas ao Impacto', category: 'Treino' },
   { slug: 'correr-de-manha-ou-a-noite', title: 'Manhã ou Noite: Quando Rendes Mais', category: 'Treino' },
-  { slug: 'treinar-por-turnos-adaptar-plano', title: 'Treinar Por Turnos: Como Adaptar o Plano', category: 'Treino' },
   { slug: 'treinar-bem-com-4-horas-semana', title: 'Treinar Bem com 4 Horas por Semana', category: 'Treino' },
   { slug: 'monitorizar-treino-sem-complicar', title: 'Como Monitorizar o Treino Sem Complicar', category: 'Treino' },
 
@@ -841,6 +839,41 @@ async function callGroq(prompt, attempt = 1) {
   return data.choices[0].message.content
 }
 
+// ── Validação: o artigo cita mesmo as referências do banco? ──────────────────
+// O modelo ignora com alguma frequência a regra "cita pelo menos N referências
+// da lista" e devolve um artigo sem secção de referências nenhuma. Antes desta
+// verificação o script publicava à mesma: a 2026-09-18 havia 13 dos últimos 30
+// artigos abaixo do mínimo, vários com ZERO referências — o que contraria a
+// premissa do site (conteúdo baseado em estudos reais). Agora contamos as
+// referências do banco que aparecem mesmo no texto e repetimos a geração se
+// ficarem abaixo do mínimo; se continuar a falhar, o tópico é saltado e NÃO é
+// publicado (melhor não publicar do que publicar sem fundamento científico).
+function extractDoiFromRef(ref) {
+  const m = ref.match(/https:\/\/doi\.org\/(\S+)\s*$/)
+  return m ? m[1].toLowerCase() : null
+}
+
+function countBankReferences(content, refsBank) {
+  const texto = content.toLowerCase()
+  let n = 0
+  for (const ref of refsBank) {
+    const doi = extractDoiFromRef(ref)
+    if (doi) {
+      if (texto.includes(doi)) n++
+      continue
+    }
+    // Referências sem DOI (position stands, livros): casa por 1.º autor + ano.
+    const autor = (ref.match(/^([A-Za-zÀ-ÿ'-]+)/) || [])[1]
+    const ano = (ref.match(/\((\d{4})\)/) || [])[1]
+    if (autor && ano && texto.includes(autor.toLowerCase()) && texto.includes(ano)) n++
+  }
+  return n
+}
+
+const REFORCO_REFERENCIAS = `
+
+ATENÇÃO — a resposta anterior foi REJEITADA por não cumprir a regra das referências. Reescreve o artigo COMPLETO e garante que a secção final de referências cita, copiadas LETRA A LETRA da lista fornecida acima (incluindo o URL https://doi.org/...), pelo menos o número mínimo exigido. Não inventes referências, não alteres autores, títulos ou DOIs, e não cites nada que não esteja na lista.`
+
 function buildTechnicalPrompt(topic) {
   const refs = REFERENCE_BANK[topic.category] || REFERENCE_BANK['Treino']
   const refsList = refs.map((r, i) => `${i + 1}. ${r}`).join('\n')
@@ -1045,6 +1078,11 @@ async function main() {
   // confiar no retry reduz a probabilidade de sequer bater no rate limit.
   const PAUSE_BETWEEN_CALLS_MS = 25000
 
+  // Tentativas por tópico até o artigo cumprir o mínimo de referências do
+  // banco, e quantos tópicos seguidos podem ser saltados antes de desistir.
+  const MAX_REF_ATTEMPTS = 2
+  const MAX_SKIPPED = 4
+
   let lastIndex = counter.lastIndex
   let lastSlug = counter.lastSlug
   const publishedTitles = []
@@ -1071,6 +1109,7 @@ async function main() {
     let generated = 0
     let queueIndex = 0
     let consecutiveFailures = 0
+    let skipped = 0
 
     while (generated < countNeeded && queueIndex < queue.length) {
       const topic = queue[queueIndex]
@@ -1093,7 +1132,42 @@ async function main() {
           ? buildCommercialPrompt(topic, relatedSlugs)
           : buildTechnicalPrompt(topic)
 
-        const content = await callGroq(prompt)
+        const refsBank = topic.category === 'Equipamento'
+          ? COMMERCIAL_REFERENCE_BANK
+          : (REFERENCE_BANK[topic.category] || REFERENCE_BANK['Treino'])
+        const minRefs = topic.category === 'Equipamento' ? 3 : 4
+
+        let content = null
+        for (let tentativa = 1; tentativa <= MAX_REF_ATTEMPTS; tentativa++) {
+          const candidato = await callGroq(tentativa === 1 ? prompt : prompt + REFORCO_REFERENCIAS)
+          const citadas = countBankReferences(candidato, refsBank)
+          if (citadas >= minRefs) {
+            content = candidato
+            break
+          }
+          console.log(`  ⚠️  Tentativa ${tentativa}/${MAX_REF_ATTEMPTS}: só ${citadas} de ${minRefs} referências do banco citadas.`)
+          if (tentativa < MAX_REF_ATTEMPTS) {
+            console.log(`  ⏸  A aguardar ${PAUSE_BETWEEN_CALLS_MS / 1000}s antes de repetir...`)
+            await new Promise(r => setTimeout(r, PAUSE_BETWEEN_CALLS_MS))
+          }
+        }
+
+        if (!content) {
+          skipped++
+          console.log(`::warning::Tópico "${topic.title}" NÃO publicado: o modelo não citou o mínimo de ${minRefs} referências do banco em ${MAX_REF_ATTEMPTS} tentativas. Se um tópico falhar sempre, é sinal de que não tem literatura correspondente no REFERENCE_BANK — acrescenta referências dessa categoria ou remove o tópico.`)
+          if (skipped >= MAX_SKIPPED) {
+            console.log(`::warning::${skipped} tópicos seguidos saltados por falta de referências — a parar esta fila.`)
+            break
+          }
+          continue
+        }
+        skipped = 0
+
+        const { faqs: faqsGeradas } = extractFaqs(content)
+        if (faqsGeradas.length < 3) {
+          console.log(`::warning::"${topic.title}" publicado com apenas ${faqsGeradas.length} FAQ (o prompt pede 3) — schema FAQPage fica incompleto.`)
+        }
+
         const mdx = buildMdx(topic, content, today)
         // Slug do FICHEIRO sempre ASCII, mesmo que topic.slug em ALL_TOPICS/
         // COMMERCIAL_TOPICS tenha acentos por engano — garante que a URL
