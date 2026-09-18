@@ -52,7 +52,11 @@ export const metadata: Metadata = {
       'A maior base de conhecimento científico sobre corrida em português. Fisiologia, treino, nutrição e biomecânica — 3 artigos novos todos os dias.',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80',
+        // Antes apontava para uma foto do Unsplash (photo-1571008887538) em
+        // vez da imagem OG dedicada que já existe no projeto
+        // (public/og.png, 1200x630 — dimensão exata recomendada pelo
+        // Facebook/LinkedIn/Twitter). Resolvida contra metadataBase.
+        url: '/og.png',
         width: 1200,
         height: 630,
         alt: 'Performance Running — Corrida e Trail Running',
@@ -63,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Performance Running',
     description: 'Ciência aplicada à corrida. Trail, maratona, atletismo. 3 artigos por dia.',
-    images: ['https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80'],
+    images: ['/og.png'],
   },
   robots: {
     index: true,
@@ -90,7 +94,11 @@ const organizationLd = {
   '@type': 'Organization',
   name: 'Performance Running',
   url: SITE_URL,
-  logo: `${SITE_URL}/favicon.ico`,
+  // Era favicon.ico (multi-resolução, pensado para a aba do browser) — o
+  // Google Rich Results exige um logótipo a sério (idealmente quadrado,
+  // min. ~112x112px) para validar o Organization schema. public/logo.png
+  // já existia no projeto (512x512) e não estava a ser usado aqui.
+  logo: `${SITE_URL}/logo.png`,
   sameAs: [
     'https://www.instagram.com/performancerunning.pt/',
     'https://www.facebook.com/profile.php?id=61591235338834',

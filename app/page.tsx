@@ -1,6 +1,7 @@
 export const dynamic = 'force-dynamic'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { getLatestArticles, getAllArticles, getTodayArticles, getVideoArticles } from '@/lib/articles'
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
@@ -77,8 +78,19 @@ export default async function HomePage() {
           hidratação, trilho rochoso, pico nevado ao fundo) — o site cobre
           estrada, trail e montanha com o mesmo peso, mas a primeira impressão só
           mostrava estrada. */}
-      <section className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-        style={{ backgroundColor: '#0a0a0a', backgroundImage: 'url(https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=85)', backgroundSize: 'cover', backgroundPosition: 'center 30%' }}>
+      <section className="relative min-h-screen flex flex-col justify-center overflow-hidden" style={{ backgroundColor: '#0a0a0a' }}>
+        {/* Antes era backgroundImage em CSS — sem alt (mau para
+            acessibilidade/SEO de imagem) e sem otimização automática do
+            Next (sem srcset responsivo, sempre a 1920px mesmo em telemóvel).
+            next/image com priority porque é o LCP da homepage. */}
+        <Image
+          src="https://images.unsplash.com/photo-1504025468847-0e438279542c?w=1920&q=85"
+          alt="Corredor de trail running numa crista de montanha rochosa, com colete de hidratação e pico nevado ao fundo"
+          fill
+          priority
+          sizes="100vw"
+          style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-black/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         <div className="absolute top-1/3 right-1/4 w-[600px] h-[600px] bg-brand-green/5 rounded-full blur-[120px] pointer-events-none" />
@@ -314,7 +326,7 @@ export default async function HomePage() {
             {topics.map((m, i) => (
               <Link key={m.name} href="/metodologias" data-reveal data-delay={String(Math.min(i * 50, 400))}
                 className="group relative rounded-2xl overflow-hidden border border-white/5 hover:border-white/15 transition-all card-hover" style={{ aspectRatio: '3/4' }}>
-                <div className="absolute inset-0 photo-card-img" style={{ backgroundImage: `url(${m.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                <Image src={m.img} alt={`Metodologia de treino: ${m.name}`} fill sizes="(max-width: 640px) 50vw, 25vw" className="photo-card-img object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
                 <div className="absolute inset-0 bg-brand-green/0 group-hover:bg-brand-green/8 transition-colors duration-500" />
                 <div className="absolute inset-0 p-4 flex flex-col justify-between">

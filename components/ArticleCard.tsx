@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowUpRight, Clock, Play } from 'lucide-react'
 import type { ArticleMeta } from '@/lib/articles'
 import { pickCategoryImage } from '@/lib/images'
@@ -41,13 +42,12 @@ export function ArticleCard({ article, featured = false }: Props) {
         style={{ minHeight: '420px' }}
       >
         {/* Photo */}
-        <div
-          className="absolute inset-0 photo-card-img"
-          style={{
-            backgroundImage: `url(${photo})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
+        <Image
+          src={photo}
+          alt={article.title}
+          fill
+          sizes="(max-width: 1024px) 100vw, 60vw"
+          className="photo-card-img object-cover"
         />
         {/* Deep gradient */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/10" />
@@ -106,13 +106,12 @@ export function ArticleCard({ article, featured = false }: Props) {
       className="group relative flex flex-col justify-end overflow-hidden rounded-2xl border border-white/5 hover:border-white/10 transition-all card-hover aspect-[4/3]"
     >
       {/* Photo */}
-      <div
-        className="absolute inset-0 photo-card-img"
-        style={{
-          backgroundImage: `url(${photo})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
+      <Image
+        src={photo}
+        alt={article.title}
+        fill
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+        className="photo-card-img object-cover"
       />
       {/* Gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
