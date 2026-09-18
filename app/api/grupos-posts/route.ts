@@ -31,16 +31,24 @@ const HASHTAGS: Record<string, string> = {
 
 const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
 
+// Pedido do Pedro (2026-09-02): o Facebook passou a restringir contas
+// pessoais a só 2 publicações/mês com links externos — isto rebentou com
+// a partilha manual diária nos 7 grupos (3 posts/dia × grupos, todos com
+// link direto no texto). Os textos copiados para os grupos deixam de ter
+// qualquer URL; o CTA passa a ser "pesquisa no Google", que não conta como
+// link externo e continua a levar o leitor ao artigo. O campo `link` que a
+// rota devolve mantém-se só para o botão de pré-visualização em /grupos
+// (não faz parte do texto copiado para os grupos).
 function buildGroupPost(
   article: { title: string; excerpt: string; slug: string; category: string },
   slot: number
 ): string {
-  const link = `${SITE_URL}/blog/${article.slug}`
   const tags = HASHTAGS[article.category] ?? DEFAULT_HASHTAGS
+  const cta = 'Pesquisa "Performance Running" no Google para leres o artigo completo.'
   const templates = [
-    `🔬 ${article.title}\n\n${article.excerpt}\n\nLê o artigo completo → ${link}\n\n${tags}`,
-    `Sabias que...\n\n${article.excerpt}\n\n📖 ${article.title}\n\n${link}\n\n${tags}`,
-    `💡 ${article.title}\n\n${article.excerpt}\n\nVê a análise completa → ${link}\n\n${tags}`,
+    `🔬 ${article.title}\n\n${article.excerpt}\n\n${cta}\n\n${tags}`,
+    `Sabias que...\n\n${article.excerpt}\n\n📖 ${article.title}\n\n${cta}\n\n${tags}`,
+    `💡 ${article.title}\n\n${article.excerpt}\n\n${cta}\n\n${tags}`,
   ]
   return fixPtPt(templates[slot] ?? templates[0])
 }
@@ -101,7 +109,7 @@ export async function GET() {
 
 Todas as semanas resumimos o que interessa: fisiologia, periodização, prevenção de lesões — sem achismo, sem jargão académico a mais. 3 artigos científicos por semana, grátis.
 
-👉 Assina a newsletter: ${SITE_URL} (cancelas quando quiseres)
+👉 Pesquisa "Performance Running" no Google e assina a newsletter (cancelas quando quiseres)
 
 Já perderam tempo a seguir um conselho que não fazia sentido para o vosso treino? Contem aí 👇
 
