@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { CalendarioClient } from './CalendarioClient'
+import { provasFuturas } from '@/lib/provas'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -39,10 +40,41 @@ export default function CalendarioPage() {
     ],
   }
 
+  // Pedido do Pedro (2026-09-18, via auditoria de CTR de 2026-08-26): /calendario
+  // era a única página de listagem sem schema Event, o que a deixa fora dos
+  // rich results de eventos do Google (as outras já tinham Organization/
+  // WebSite/CollectionPage/BreadcrumbList). Espelha exatamente o que a
+  // CalendarioClient mostra por omissão (provasFuturas() == mesmo filtro
+  // "mostrarTodas=false" do cliente) para o schema nunca descrever provas
+  // que não estão visíveis na página.
+  const eventsLd = provasFuturas().map((prova) => ({
+    '@context': 'https://schema.org',
+    '@type': 'SportsEvent',
+    name: prova.nome,
+    startDate: prova.dataInicio,
+    ...(prova.dataFim ? { endDate: prova.dataFim } : {}),
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: {
+      '@type': 'Place',
+      name: prova.local,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: prova.local,
+        addressRegion: prova.regiao,
+        addressCountry: 'PT',
+      },
+    },
+    description: prova.desc,
+    url: prova.link || `${SITE_URL}/calendario`,
+    sport: 'Running',
+  }))
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventsLd) }} />
       <CalendarioClient />
     </>
   )
