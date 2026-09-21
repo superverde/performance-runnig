@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Copy, Check, ExternalLink } from 'lucide-react'
+import { Copy, Check, ExternalLink, Download } from 'lucide-react'
 
 const GRUPOS = [
   { nome: 'Portugal Running', url: 'https://www.facebook.com/groups/93652494209/', membros: '' },
@@ -13,7 +13,7 @@ const GRUPOS = [
   { nome: 'Tutti Sporting — Corrida de Rua', url: 'https://www.facebook.com/groups/689316968306672/', membros: '' },
 ]
 
-type Post = { slot: number; hora: string; titulo: string; texto: string; link: string; categoria: string }
+type Post = { slot: number; hora: string; titulo: string; texto: string; link: string; categoria: string; imagem: string }
 
 function PostCard({ post }: { post: Post }) {
   const [copied, setCopied] = useState(false)
@@ -46,6 +46,26 @@ function PostCard({ post }: { post: Post }) {
       </div>
 
       <h3 className="text-white font-bold text-lg leading-snug">{post.titulo}</h3>
+
+      {post.imagem && (
+        <div className="relative group rounded-xl overflow-hidden bg-black/30">
+          <img
+            src={post.imagem}
+            alt={post.titulo}
+            loading="lazy"
+            className="w-full h-40 object-cover"
+          />
+          <a
+            href={post.imagem}
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-2 right-2 flex items-center gap-1.5 text-[11px] font-mono bg-black/70 hover:bg-black/90 text-white/80 hover:text-white px-2.5 py-1.5 rounded-lg transition-all"
+          >
+            <Download size={12} />Guardar imagem
+          </a>
+        </div>
+      )}
 
       <div className="relative">
         <pre className="text-white/70 text-sm whitespace-pre-wrap font-sans leading-relaxed bg-black/30 rounded-xl p-4 pr-12 max-h-48 overflow-y-auto">
@@ -143,6 +163,7 @@ export default function GruposPage() {
             <li><span className="text-brand-green font-bold">2.</span> Abre cada grupo e cola o texto</li>
             <li><span className="text-brand-green font-bold">3.</span> Marca o grupo como ✓ concluído</li>
             <li><span className="text-brand-green font-bold">4.</span> Repete à tarde e à noite</li>
+            <li><span className="text-brand-green font-bold">5.</span> Em cada post, clica "Guardar imagem" e anexa-a também no grupo</li>
           </ol>
         </div>
       </div>

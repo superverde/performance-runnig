@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getAllArticles, getTodayArticles } from '@/lib/articles'
+import { pickCategoryImage } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -92,6 +93,12 @@ export async function GET() {
     categoria: article.category,
     link: `${SITE_URL}/blog/${article.slug}`,
     texto: buildGroupPost(article, slot),
+    // Mesma imagem que já é usada na publicação automática (Facebook Page,
+    // Instagram, Threads) para este artigo — pickCategoryImage é
+    // determinística por slug, por isso a imagem sugerida aqui para
+    // partilha manual nos grupos é sempre a mesma que já foi publicada
+    // automaticamente para o mesmo artigo. Ver [[project_imagens_publicacoes_pool_50]].
+    imagem: pickCategoryImage(article.category, article.slug),
   }))
 
   // Post evergreen (slot 3) — não depende dos artigos do dia, fica sempre
@@ -104,6 +111,9 @@ export async function GET() {
     titulo: 'Newsletter — Porque a Maioria dos Corredores Estagna',
     categoria: 'Newsletter',
     link: SITE_URL,
+    // Post evergreen não tem artigo/categoria associados — usa o OG image
+    // da marca em vez de uma foto de categoria.
+    imagem: `${SITE_URL}/og.png`,
     texto: fixPtPt(
       `📬 A maioria dos corredores treina às cegas — não por preguiça, mas porque a informação está toda espalhada e contraditória.
 
