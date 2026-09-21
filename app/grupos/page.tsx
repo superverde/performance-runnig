@@ -28,15 +28,44 @@ function triggerImageDownload(url: string, filename: string) {
   a.remove()
 }
 
+// Converte a imagem para um data URI base64, para poder ser EMBUTIDA
+// dentro do HTML copiado (<img src="data:image/...">) em vez de ir como
+// ficheiro solto no clipboard. Pedido do Pedro (2026-09-21): "insere a
+// imagem dentro do texto". A diferença é decisiva: quando o clipboard tem
+// um ficheiro de imagem, o Facebook trata a colagem inteira como "anexar
+// foto" e deita fora o texto; quando recebe HTML com a imagem lá dentro,
+// segue o caminho normal de colagem de texto formatado — se o sanitizador
+// do Facebook preservar a <img>, vem tudo numa única colagem.
+function imageUrlToDataUri(url: string): Promise<string> {
+  return fetch(url)
+    .then((r) => r.blob())
+    .then(
+      (blob) =>
+        new Promise<string>((resolve, reject) => {
+          const reader = new FileReader()
+          reader.onload = () => resolve(String(reader.result))
+          reader.onerror = () => reject(new Error('falha a ler a imagem como data URI'))
+          reader.readAsDataURL(blob)
+        })
+    )
+}
+
+// Escapa o texto para poder ir dentro do HTML sem partir a marcação, e
+// converte as quebras de linha em <br> para o post manter os parágrafos.
+function textoParaHtml(texto: string): string {
+  return texto
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\n/g, '<br>')
+}
+
 // Converte a imagem (pool local é .jpg) para PNG num canvas — a Clipboard
 // API tem suporte mais fiável a 'image/png' entre browsers do que a
-// outros formatos. Usada só para copiar a IMAGEM sozinha (ver copyImage):
-// pedido do Pedro (2026-09-21) depois de confirmar que antes conseguia
-// colar a imagem diretamente no post do Facebook (Ctrl/Cmd+V anexava a
-// foto) — isso só deixou de funcionar quando passámos a juntar texto no
-// mesmo clipboard (o Facebook, ao ver imagem no clipboard, descarta o
-// texto). Repor a cópia de imagem pura restaura esse fluxo, agora como
-// ação separada de "Copiar texto".
+// outros formatos. Usada só pelo botão "Copiar imagem", que copia a
+// imagem SOZINHA para o clipboard: é o caminho que faz o Facebook anexar
+// mesmo a foto (à custa de descartar qualquer texto), e serve de recurso
+// quando a imagem embutida no HTML não sobrevive à colagem.
 function imageUrlToPngBlob(url: string): Promise<Blob> {
   return new Promise((resolve, reject) => {
     fetch(url)
@@ -76,17 +105,37 @@ function PostCard({ post }: { post: Post }) {
   const [imgCopyState, setImgCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
   const [gruposConcluidos, setGruposConcluidos] = useState<Set<number>>(new Set())
 
-  // Copia só o TEXTO — o clipboard não pode ter texto+imagem ao mesmo
-  // tempo de forma útil (ver copyImage abaixo para o porquê), por isso
-  // este botão fica dedicado só ao texto, sempre fiável.
+  // Copia o texto COM a imagem embutida dentro dele (text/html), para uma
+  // única colagem levar as duas coisas. Não escrevemos aqui nenhuma
+  // representação 'image/png': é precisamente essa que faz o Facebook
+  // tratar a colagem como "anexar foto" e descartar o texto. Com HTML, a
+  // colagem segue o caminho de texto formatado — se o Facebook preservar a
+  // <img>, vem tudo junto; se a remover, fica pelo menos o texto completo
+  // (nunca fica pior do que copiar só texto). Para anexar a foto à força,
+  // continua a existir o botão "Copiar imagem" ao lado da imagem.
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(post.texto)
+      const html = post.imagem
+        ? `<div><img src="${await imageUrlToDataUri(post.imagem)}" width="500"><br><br>${textoParaHtml(post.texto)}</div>`
+        : `<div>${textoParaHtml(post.texto)}</div>`
+      await navigator.clipboard.write([
+        new ClipboardItem({
+          'text/html': new Blob([html], { type: 'text/html' }),
+          'text/plain': new Blob([post.texto], { type: 'text/plain' }),
+        }),
+      ])
       setCopyState('done')
     } catch {
-      // Clipboard bloqueado (ex: permissão negada pelo browser/SO) — nunca
-      // deixar isto por resolver em silêncio.
-      setCopyState('failed')
+      // Browser sem suporte a clipboard multi-formato, ou falha a obter a
+      // imagem — copia pelo menos o texto, como sempre funcionou.
+      try {
+        await navigator.clipboard.writeText(post.texto)
+        setCopyState('done')
+      } catch {
+        // Clipboard bloqueado (ex: permissão negada pelo browser/SO) —
+        // nunca deixar isto por resolver em silêncio.
+        setCopyState('failed')
+      }
     }
     setTimeout(() => setCopyState('idle'), 3000)
   }
@@ -185,7 +234,7 @@ function PostCard({ post }: { post: Post }) {
         </pre>
         <button
           onClick={handleCopy}
-          title="Copiar texto"
+          title="Copiar texto com a imagem lá dentro"
           className="absolute top-3 right-3 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white/60 hover:text-white transition-all"
         >
           {copyState === 'done' ? <Check size={14} className="text-green-400" /> : <Copy size={14} />}
@@ -194,7 +243,7 @@ function PostCard({ post }: { post: Post }) {
 
       {copyState === 'done' && (
         <p className="text-[11px] font-mono text-green-400/80">
-          ✓ Texto copiado — cola no grupo (Ctrl/Cmd+V)
+          ✓ Copiado com a imagem dentro do texto — cola no grupo (Ctrl/Cmd+V). Se a imagem não aparecer, usa "Copiar imagem" acima e cola outra vez.
         </p>
       )}
       {copyState === 'failed' && (
@@ -283,8 +332,8 @@ export default function GruposPage() {
         <div className="mt-10 bg-white/5 border border-white/10 rounded-2xl p-6">
           <p className="text-white/60 text-xs font-mono uppercase tracking-widest mb-3">Como usar · 5 min/dia</p>
           <ol className="space-y-2 text-sm text-white/50">
-            <li><span className="text-brand-green font-bold">1.</span> No grupo, cola primeiro a imagem: clica "Copiar imagem" no post e cola (Ctrl/Cmd+V) — fica anexada</li>
-            <li><span className="text-brand-green font-bold">2.</span> Depois clica "Copiar texto" e cola por cima, na legenda</li>
+            <li><span className="text-brand-green font-bold">1.</span> Clica no botão de copiar do post — leva o texto com a imagem lá dentro — e cola no grupo (Ctrl/Cmd+V)</li>
+            <li><span className="text-brand-green font-bold">2.</span> Se a imagem não aparecer na colagem, clica "Copiar imagem" e cola outra vez para a anexar</li>
             <li><span className="text-brand-green font-bold">3.</span> Marca o grupo como ✓ concluído</li>
             <li><span className="text-brand-green font-bold">4.</span> Repete à tarde e à noite</li>
           </ol>
