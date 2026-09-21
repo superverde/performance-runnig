@@ -273,6 +273,47 @@ async function verifyFacebookPost(pageId: string, pageToken: string, expectedMes
   }
 }
 
+// Verificação PRÉVIA de duplicado — acrescentada em 2026-09-21 depois de
+// Pedro encontrar publicações idênticas na página, a poucos segundos umas das
+// outras. Até aqui havia duas rotas independentes a escrever no feed da
+// página (esta, chamada pelo cron daily-social, e a cópia do código dentro de
+// evening-social) e NENHUMA verificava, antes de publicar, se aquele artigo
+// já lá estava. Bastava o cron disparar duas vezes (rede de segurança da
+// Vercel, retry, ou os dois crons a escolherem o mesmo artigo do dia) para
+// sair o mesmo post duas vezes. O guard que existia só corria DEPOIS de um
+// erro, o que não cobre o caso em que as duas chamadas correm bem.
+//
+// Compara pelo link do artigo, que vai sempre dentro da mensagem e é único
+// por artigo — mais fiável do que comparar o texto todo, que pode ter
+// pequenas variações.
+async function jaPublicadoRecentemente(
+  pageId: string,
+  pageToken: string,
+  link: string,
+  horas = 20
+): Promise<string | null> {
+  try {
+    const url = `https://graph.facebook.com/v19.0/${pageId}/feed?fields=id,message,created_time&limit=25&access_token=${encodeURIComponent(pageToken)}`
+    const res = await fetch(url)
+    const data = await res.json()
+    if (!res.ok || data.error || !Array.isArray(data.data)) return null
+
+    const limite = Date.now() - horas * 60 * 60 * 1000
+    for (const post of data.data) {
+      const criado = new Date(post.created_time).getTime()
+      if (criado < limite) continue
+      if (typeof post.message === 'string' && post.message.includes(link)) return post.id
+    }
+    return null
+  } catch {
+    // Em caso de falha da verificação preferimos NÃO publicar às cegas? Não:
+    // devolver null deixa seguir a publicação normal, porque falhar a
+    // verificação não deve impedir a publicação do dia. O risco de duplicado
+    // fica coberto pelo guard pós-erro que já existia.
+    return null
+  }
+}
+
 async function postToFacebook(message: string, link: string): Promise<PostResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
@@ -282,6 +323,13 @@ async function postToFacebook(message: string, link: string): Promise<PostResult
   }
 
   try {
+    // Não voltar a publicar o mesmo artigo no mesmo dia.
+    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, link)
+    if (duplicado) {
+      console.warn(`[social-post] Facebook: artigo já publicado hoje (post ${duplicado}) — publicação ignorada para não duplicar`)
+      return { platform: 'Facebook', success: true, id: duplicado }
+    }
+
     const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

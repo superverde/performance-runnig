@@ -92,12 +92,44 @@ interface PlatformResult {
   error?: string
 }
 
+// Mesma verificação prévia de duplicado do app/api/social-post/route.ts —
+// esta rota tem a sua própria cópia do código de publicação, por isso sem
+// isto continuaria a poder publicar por cima do que o cron da manhã já
+// publicou. Ver o comentário longo nesse ficheiro para o contexto.
+async function jaPublicadoRecentemente(
+  pageId: string,
+  pageToken: string,
+  link: string,
+  horas = 20
+): Promise<string | null> {
+  try {
+    const url = `https://graph.facebook.com/v19.0/${pageId}/feed?fields=id,message,created_time&limit=25&access_token=${encodeURIComponent(pageToken)}`
+    const res = await fetch(url)
+    const data = await res.json()
+    if (!res.ok || data.error || !Array.isArray(data.data)) return null
+    const limite = Date.now() - horas * 60 * 60 * 1000
+    for (const post of data.data) {
+      if (new Date(post.created_time).getTime() < limite) continue
+      if (typeof post.message === 'string' && post.message.includes(link)) return post.id
+    }
+    return null
+  } catch {
+    return null
+  }
+}
+
 async function postToFacebook(message: string, link: string): Promise<PlatformResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
   if (!pageToken || !pageId) return { success: false, error: 'Credenciais Meta não configuradas' }
 
   try {
+    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, link)
+    if (duplicado) {
+      console.warn(`[evening-social] Facebook: artigo já publicado hoje (post ${duplicado}) — ignorado para não duplicar`)
+      return { success: true }
+    }
+
     const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
