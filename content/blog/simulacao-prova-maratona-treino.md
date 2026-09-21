@@ -2,7 +2,7 @@
 title: "Simular a Maratona em Treino: Os Blocos de Corrida Específica"
 date: '2026-08-23'
 category: "Treino"
-excerpt: "Para simular a maratona em treino, divide o volume em blocos de corrida específica, combinando longos, tempo, intervalos e recuperação, ajustados a zonas de frequência cardíaca e VO2max.…"
+excerpt: "Para simular a maratona em treino, divide o volume em blocos de corrida específica, combinando longos, tempo, intervalos e recuperação, ajustados a zonas de."
 readTime: 5
 faqs:
   - q: "Quanto tempo deve durar um bloco de longos em um programa de maratona?"

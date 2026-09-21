@@ -2,7 +2,7 @@
 title: "Training Load e ATL/CTL: Como Gerir a Carga de Treino com Dados"
 date: '2026-08-29'
 category: "Treino"
-excerpt: "Para gerir a carga de treino com dados, combina‑se o monitoramento da carga absoluta (Training Load) com a análise dos parâmetros de adaptação (ATL e CTL) para ajustar volume e intensidade em ciclos d…"
+excerpt: "Para gerir a carga de treino com dados, combina‑se o monitoramento da carga absoluta (Training Load) com a análise dos parâmetros de adaptação (ATL e CTL)."
 readTime: 6
 faqs:
   - q: "Como calcular o TSS de uma corrida de 10 km?"
@@ -17,7 +17,7 @@ Para gerir a carga de treino com dados, combina‑se o monitoramento da carga ab
 A sinergia entre esses indicadores permite identificar quando o atleta está a acumular adaptação, quando está a saturar ou a entrar num estado de sobre‑carga, e, assim, planeia‑se o volume, a intensidade e o descanso de forma científica.
 
 A ciência do treino de endurance evoluiu rapidamente nos últimos anos, passando de meros registos de quilómetros a métricas baseadas em fisiologia e estatística. Os modelos de Training Stress Score (TSS) e os parâmetros de Acute Training Load (ATL) e Chronic Training Load (CTL) surgiram como ferramentas que traduzem a complexidade do esforço físico em números que podem ser comparados, monitorizados e ajustados ao longo do tempo.  
-Para corredores de elite e amadores avançados, compreender esses indicadores não é apenas um exercício acadêmico: é a chave para evitar lesões, maximizar a performance e planejar ciclos de competição de forma racional.
+Para corredores de elite e amadores avançados, compreender esses indicadores não é apenas um exercício académico: é a chave para evitar lesões, maximizar a performance e planejar ciclos de competição de forma racional.
 
 ## Base Científica
 

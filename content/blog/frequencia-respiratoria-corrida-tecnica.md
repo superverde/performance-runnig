@@ -2,13 +2,13 @@
 title: "Respiração na Corrida: Ritmo, Técnica e Impacto na Performance"
 date: '2026-07-17'
 category: "Fisiologia"
-excerpt: "A corrida é um esporte que exige um alto nível de condicionamento físico, especialmente em relação à respiração. A capacidade de oxigenar os músculos durante a corrida é fundamental para a performance…"
+excerpt: "A corrida é um desporto que exige um alto nível de condicionamento físico, especialmente em relação à respiração."
 readTime: 5
 ---
 
 ### Respiração na Corrida: Ritmo, Técnica e Impacto na Performance
 
-A corrida é um esporte que exige um alto nível de condicionamento físico, especialmente em relação à respiração. A capacidade de oxigenar os músculos durante a corrida é fundamental para a performance e evitar a fadiga. No entanto, muitos corredores ainda não compreendem a importância da respiração e como ela pode ser melhorada. Neste artigo, vamos explorar a base científica da respiração na corrida, aplicação prática e erros comuns para que você possa melhorar sua performance.
+A corrida é um desporto que exige um alto nível de condicionamento físico, especialmente em relação à respiração. A capacidade de oxigenar os músculos durante a corrida é fundamental para a performance e evitar a fadiga. No entanto, muitos corredores ainda não compreendem a importância da respiração e como ela pode ser melhorada. Neste artigo, vamos explorar a base científica da respiração na corrida, aplicação prática e erros comuns para que possas melhorar sua performance.
 
 A respiração é um processo complexo que envolve a troca de gases entre o ar que respiramos e o sangue. Durante a corrida, o corpo precisa oxigenar os músculos para produzir energia. A capacidade de oxigenar os músculos é limitada pela capacidade do coração de bombear sangue e pela capacidade dos pulmões de absorver oxigênio. Além disso, a respiração também é influenciada pelo ritmo e pela técnica da corrida.
 

@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas para Corredores Pesados (+80kg)"
 date: '2026-07-10'
 category: "Equipamento"
-excerpt: "Os corredores pesados (+80kg) enfrentam desafios únicos quando se trata de escolher o equipamento adequado para suas necessidades. As sapatilhas de corrida devem proporcionar suporte, estabilidade e c…"
+excerpt: "Os corredores pesados (+80kg) enfrentam desafios únicos quando se trata de escolher o equipamento adequado para suas necessidades."
 readTime: 4
 ---
 
@@ -31,7 +31,7 @@ Aqui estão as melhores opções de sapatilhas de corrida para corredores pesado
 
 ## Veredicto: Qual Comprar
 
-Ao escolher sapatilhas de corrida para corredores pesados, é fundamental considerar os critérios técnicos mencionados anteriormente. Dependendo do seu estilo de corrida e do seu orçamento, as opções mencionadas acima podem ser uma boa escolha. Se você é um iniciante, a New Balance Fresh Foam pode ser uma boa opção devido à sua construção leve e aerodinâmica. Se você é um competidor, a Nike Air Zoom Pegasus ou a Asics Gel-Kayano podem ser uma boa escolha devido ao seu suporte e estabilidade. Se você tem um orçamento limitado, a Brooks Ghost ou a Saucony Freedom podem ser uma boa opção devido à sua construção leve e aerodinâmica.
+Ao escolher sapatilhas de corrida para corredores pesados, é fundamental considerar os critérios técnicos mencionados anteriormente. Dependendo do seu estilo de corrida e do seu orçamento, as opções mencionadas acima podem ser uma boa escolha. Se és um iniciante, a New Balance Fresh Foam pode ser uma boa opção devido à sua construção leve e aerodinâmica. Se és um competidor, a Nike Air Zoom Pegasus ou a Asics Gel-Kayano podem ser uma boa escolha devido ao seu suporte e estabilidade. Se tens um orçamento limitado, a Brooks Ghost ou a Saucony Freedom podem ser uma boa opção devido à sua construção leve e aerodinâmica.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 
@@ -41,6 +41,6 @@ Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., e Buckley, J. D. (2
 
 Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., e Kram, R. (2018). Uma comparação do custo energético de correr em sapatos de corrida para maratona. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2
 
-Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., e Theisen, D. (2016). Risco de lesão em corredores que usam calçados padrão ou de controle de movimento: um ensaio clínico randomizado. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
+Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., e Theisen, D. (2016). Risco de lesão em corredores que usam calçados padrão ou de controlo de movimento: um ensaio clínico randomizado. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
 
 Nigg, B. M., Baltich, J., Hoerzer, S., e Enders, H. (2015). Sapatos de corrida e lesões de corrida: mito ou realidade? British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054

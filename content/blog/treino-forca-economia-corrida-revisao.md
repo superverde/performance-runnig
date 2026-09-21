@@ -2,7 +2,7 @@
 title: "Treino de Força e Economia de Corrida: O Que Diz a Revisão Sistemática"
 date: '2026-09-09'
 category: "Treino"
-excerpt: "A revisão sistemática demonstra que o treino de força, quando adequadamente integrado ao regime de corrida, melhora a eficiência biomecânica e a velocidade, reduzindo a carga mecânica e a fadiga muscu…"
+excerpt: "A revisão sistemática demonstra que o treino de força, quando adequadamente integrado ao regime de corrida, melhora a eficiência biomecânica e a velocidade."
 readTime: 5
 faqs:
   - q: "Qual a frequência ideal de treino de força para corredores de maratona?"

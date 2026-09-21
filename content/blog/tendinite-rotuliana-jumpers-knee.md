@@ -2,7 +2,7 @@
 title: "Tendinopatia Rotuliana: Diagnóstico e Protocolo de Recuperação"
 date: '2026-08-04'
 category: "Lesões"
-excerpt: "A tendinopatia rotuliana é uma das lesões mais comuns em corredores de longa distância. Pode causar dor crônica, inflamação e perda de função no joelho, afetando a capacidade de realizar atividades fí…"
+excerpt: "A tendinopatia rotuliana é uma das lesões mais comuns em corredores de longa distância."
 readTime: 4
 ---
 

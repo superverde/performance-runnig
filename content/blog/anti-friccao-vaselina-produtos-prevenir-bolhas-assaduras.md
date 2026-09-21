@@ -2,7 +2,7 @@
 title: "Anti-Fricção e Vaselina: Produtos para Prevenir Bolhas e Assaduras"
 date: '2026-08-09'
 category: "Equipamento"
-excerpt: "Como desportista de corrida, sabes que a prevenção de lesões é fundamental para um treino eficaz e seguro. Algumas das lesões mais comuns em corrida são as bolhas e as assaduras, que podem ser evitada…"
+excerpt: "Como desportista de corrida, sabes que a prevenção de lesões é fundamental para um treino eficaz e seguro."
 readTime: 4
 ---
 

@@ -2,7 +2,7 @@
 title: "Beta-Alanina e Bicarbonato: Os Suplementos de Alta Intensidade"
 date: '2026-07-21'
 category: "Nutrição"
-excerpt: "A corrida é uma atividade que exige uma alta intensidade física, exigindo que os atletas sejam capazes de produzir energia rapidamente para realizar movimentos rápidos e intensos. A fim de alcançar es…"
+excerpt: "A corrida é uma atividade que exige uma alta intensidade física, exigindo que os atletas sejam capazes de produzir energia rapidamente para realizar."
 readTime: 4
 ---
 

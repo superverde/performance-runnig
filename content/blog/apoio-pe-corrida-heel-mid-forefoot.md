@@ -2,7 +2,7 @@
 title: "Apoio do Pé na Corrida: Calcanhar, Médio ou Antepé?"
 date: '2026-07-25'
 category: "Biomecânica"
-excerpt: "A corrida de longa distância é um desporto que exige grande força e resistência muscular, sendo também altamente dependente da biomecânica do atleta. O apoio do pé é um dos aspectos mais importantes d…"
+excerpt: "A corrida de longa distância é um desporto que exige grande força e resistência muscular, sendo também altamente dependente da biomecânica do atleta."
 readTime: 5
 ---
 

@@ -2,7 +2,7 @@
 title: "Roupas de Compressão: Evidência Científica para Corredores"
 date: '2026-07-30'
 category: "Recuperação"
-excerpt: "Quando falamos em recuperação, é comum pensar em técnicas como alongamento, massagem, hidratação e sono. No entanto, um componente importante, mas frequentemente subestimado, é a roupa de compressão. …"
+excerpt: "Quando falamos em recuperação, é comum pensar em técnicas como alongamento, massagem, hidratação e sono."
 readTime: 4
 ---
 

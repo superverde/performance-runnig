@@ -2,7 +2,7 @@
 title: "Caminhar em Trail Não é Fraqueza — É Estratégia"
 date: '2026-08-12'
 category: "Trail Running"
-excerpt: "O desporto do trail running ganhou crescente popularidade nos últimos anos, com muitos corredores a optar por esta modalidade como forma de se desafiar e melhorar a resistência. No entanto, muitos acr…"
+excerpt: "O desporto do trail running ganhou crescente popularidade nos últimos anos, com muitos corredores a optar por esta modalidade como forma de se desafiar e."
 readTime: 4
 ---
 

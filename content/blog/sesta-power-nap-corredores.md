@@ -2,7 +2,7 @@
 title: "Sesta para Corredores: Duração, Timing e Efeito no Treino"
 date: '2026-08-25'
 category: "Recuperação"
-excerpt: "Uma sesta de 20‑30 minutos, tomada 2‑4 h após o treino, pode reduzir a sensação de fadiga muscular e acelerar a recuperação, mas não substitui a noite de sono completa.…"
+excerpt: "Uma sesta de 20‑30 minutos, tomada 2‑4 h após o treino, pode reduzir a sensação de fadiga muscular e acelerar a recuperação, mas não substitui a noite de."
 readTime: 5
 faqs:
   - q: "Qual a duração ideal de uma sesta para corredores?"
@@ -10,7 +10,7 @@ faqs:
   - q: "Quando devo tomar a sesta após um treino intenso?"
     a: "Recomenda‑se esperar 2‑4 h após o treino, permitindo que a temperatura corporal retorne ao normal e que os marcadores de fadiga comecem a diminuir, facilitando o adormecer."
   - q: "A sesta pode substituir o sono noturno?"
-    a: "Não; a sesta é uma ferramenta de recuperação complementar. O sono noturno continua sendo essencial para a síntese proteica, consolidação de memória e regulação hormonal."
+    a: "Não; a sesta é uma ferramenta de recuperação complementar. O sono noturno continua a ser essencial para a síntese proteica, consolidação de memória e regulação hormonal."
 ---
 
 Uma sesta de 20‑30 minutos, tomada 2‑4 h após o treino, pode reduzir a sensação de fadiga muscular e acelerar a recuperação, mas não substitui a noite de sono completa.  
@@ -24,7 +24,7 @@ A literatura indica que a sesta curta (≤30 min) favorece a redução da cort
 
 Bishop, Jones e Woods (2008) apontam que a recuperação de 20 min após exercícios de alta intensidade reduz a percepção de esforço e melhora a capacidade de executar a próxima sessão com menor fadiga. Duas pesquisas de Dupuy et al. (2018) confirmam que a sesta curta diminui marcadores de dano muscular (CK, IL‑6) sem comprometer as adaptações de longo prazo.  
 
-Walsh et al. (2021) recomendam que a sesta seja incorporada quando há deficiências de sono noturno, mas enfatizam que a duração ideal varia de 20 a 60 min, dependendo da carga de treino e da idade do atleta. Howatson et al. (2010) demonstraram que uma sesta de 20 min após um maratona reduziu significativamente a dor muscular tardia (DOMS) em 18 % quando comparada a um controle sem sesta.
+Walsh et al. (2021) recomendam que a sesta seja incorporada quando há deficiências de sono noturno, mas enfatizam que a duração ideal varia de 20 a 60 min, dependendo da carga de treino e da idade do atleta. Howatson et al. (2010) demonstraram que uma sesta de 20 min após um maratona reduziu significativamente a dor muscular tardia (DOMS) em 18 % quando comparada a um controlo sem sesta.
 
 ## Aplicação Prática
 

@@ -2,7 +2,7 @@
 title: "Meia Maratona Sub-1h30: O Plano e os Treinos Chave"
 date: '2026-08-25'
 category: "Treino"
-excerpt: "Para correr a meia maratona em menos de 1 h 30 min, o plano deve combinar volume moderado, treino de velocidade e força, e um período de tapering de 10 dias, totalizando cerca de 12‑14 semanas de prep…"
+excerpt: "Para correr a meia maratona em menos de 1 h 30 min, o plano deve combinar volume moderado, treino de velocidade e força, e um período de tapering de 10 dias."
 readTime: 5
 faqs:
   - q: "Qual é a diferença entre treino de tempo run e HIIT para a meia maratona?"
@@ -23,7 +23,7 @@ O desempenho numa meia maratona é principalmente determinado por três fatores 
 
 A distribuição de intensidades deve seguir a regra 80/20: 80 % do volume em treinos de baixa intensidade (zone 2) e 20 % em treinos de alta intensidade (zones 4‑5). Laursen (2010) demonstra que, para atletas de elite, o volume de treino de alta intensidade pode ser reduzido sem perda de performance, desde que o volume total permaneça estável. Assim, um plano de 12 semanas pode incluir 2 semanas de “taper” onde o volume total diminui em 30 % e a intensidade aumenta ligeiramente.
 
-A força muscular, especialmente no quadríceps, glúteos e panturrilhas, reduz a fadiga mecânica e melhora a economia de corrida (Blagrove et al., 2018). Exercícios de resistência com carga moderada (70‑80 % da 1RM) e 3‑4 séries de 8‑10 repetições, 2‑3 vezes por semana, são recomendados.
+A força muscular, especialmente no quadríceps, glúteos e barrigas das pernas, reduz a fadiga mecânica e melhora a economia de corrida (Blagrove et al., 2018). Exercícios de resistência com carga moderada (70‑80 % da 1RM) e 3‑4 séries de 8‑10 repetições, 2‑3 vezes por semana, são recomendados.
 
 ## Aplicação Prática
 

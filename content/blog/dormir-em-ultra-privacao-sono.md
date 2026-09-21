@@ -2,7 +2,7 @@
 title: "Dormir em Ultras: Gerir a Privação"
 date: '2026-09-20'
 category: "Trail Running"
-excerpt: "Dormir em ultras é inevitável; a privação de sono afeta a recuperação muscular, a tomada de decisão e a performance. Para gerir eficazmente a privação, combine estratégias de recuperação ativa, ciclos…"
+excerpt: "Dormir em ultras é inevitável; a privação de sono afeta a recuperação muscular, a tomada de decisão e a performance."
 readTime: 4
 faqs:
   - q: "Qual é a duração ideal de uma soneca durante um ultramaratón?"

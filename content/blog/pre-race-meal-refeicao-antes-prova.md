@@ -2,7 +2,7 @@
 title: "Refeição Pré-Prova: O Que Comer nas 24h Antes da Corrida"
 date: '2026-07-19'
 category: "Nutrição"
-excerpt: "A refeição pré-prova é um componente crucial na preparação para uma corrida. A escolha certa de alimentos e hidratação pode impulsionar o desempenho e reduzir o risco de lesões. No entanto, muitos cor…"
+excerpt: "<div style='display:flex;justify-content:center;margin:8px 0 32px;' <video controls playsinline style='width:100%;max-width:380px;border-radius:16px;'."
 readTime: 4
 hasVideo: true
 ---

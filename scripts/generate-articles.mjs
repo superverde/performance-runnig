@@ -870,6 +870,27 @@ function countBankReferences(content, refsBank) {
   return n
 }
 
+// Regras partilhadas pelos dois prompts, criadas em 2026-09-21 depois de uma
+// auditoria aos 326 artigos publicados encontrar o problema mais grave do
+// site: referências científicas coladas a afirmações que os estudos não
+// fazem (ex: Hoogkamer 2018, que é sobre sapatilhas Vaporfly, usado para
+// justificar a "eficiência energética" de um relógio GPS; Nigg, biomecânica
+// de calçado, usado para falhas do sensor de pulsação), especificações de
+// produto inventadas (IP57 atribuído ao COROS Pace, que é 5ATM; "sensor de
+// ≥200 Hz"; "resistência a impactos de 2,4 m") e funcionalidades que a marca
+// não tem ("sincroniza com a nossa app dedicada"). Isto é pior do que não ter
+// referências nenhumas: dá aparência de rigor sem rigor, precisamente ao
+// contrário da promessa do site, e nos artigos de equipamento (que têm links
+// de afiliado) pode levar alguém a comprar com base num número errado.
+const REGRAS_ANTI_INVENCAO = `
+REGRAS DE VERACIDADE (as mais importantes de todas — um artigo que as viole é inútil):
+- NUNCA inventes especificações técnicas de produtos: peso, autonomia de bateria, certificações (IP__, __ATM), resistência a impactos, frequências de sensor, alcance, materiais. Se não tens a certeza absoluta de um número, NÃO o escrevas — descreve a característica em termos qualitativos ("autonomia longa, suficiente para um ultra de um dia").
+- NUNCA atribuas a um estudo uma conclusão que ele não tem. Só cita uma referência quando o estudo é mesmo sobre o assunto da frase. É PROIBIDO usar um estudo sobre calçado, fisiologia ou treino para sustentar uma afirmação sobre eletrónica, relógios, sensores ou acessórios — nesses casos escreve a frase sem referência nenhuma.
+- NUNCA inventes nomes de apps, ferramentas, protocolos, marcas ou modelos. Usa apenas produtos e ferramentas que existem mesmo e que reconheces com segurança.
+- NUNCA atribuas ao Performance Running serviços que não existem: não há app própria, não há loja, não há laboratório de testes, não há programa de coaching presencial.
+- Prefere sempre a afirmação mais cautelosa: "varia conforme o atleta" é melhor do que um número inventado com aparência de precisão.
+- Português de Portugal SEMPRE. Palavras proibidas (são brasileirismos): "você", "vocês", "treinamento", "panturrilha", "esteira", "esportivo", "esporte", "celular", "time", "acadêmico", "econômico", "eletrônico", "fenômeno", "tênis", "goniômetro", "controle" (usa "controlo"), "gerúndio" à brasileira ("está correndo" — escreve "está a correr").`
+
 const REFORCO_REFERENCIAS = `
 
 ATENÇÃO — a resposta anterior foi REJEITADA por não cumprir a regra das referências. Reescreve o artigo COMPLETO e garante que a secção final de referências cita, copiadas LETRA A LETRA da lista fornecida acima (incluindo o URL https://doi.org/...), pelo menos o número mínimo exigido. Não inventes referências, não alteres autores, títulos ou DOIs, e não cites nada que não esteja na lista.`
@@ -907,8 +928,30 @@ Resposta direta e objetiva, 1-3 frases.
 REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 4, podes usar todas se fizer sentido):
 ${refsList}
 
-Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências Científicas, por esta ordem).
+${REGRAS_ANTI_INVENCAO}
+
+Começa a resposta com UMA linha exatamente neste formato, antes de qualquer outra coisa:
+META: <descrição para o Google, 120 a 158 caracteres, frase completa e apelativa que diga o que o leitor ganha ao ler — NÃO é o primeiro parágrafo copiado, NÃO acaba em reticências>
+
+Depois dessa linha, responde com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências Científicas, por esta ordem).
 O PRIMEIRO parágrafo (sem cabeçalho) tem de responder de forma direta e objetiva à pergunta implícita no título, em 1-2 frases claras, antes de desenvolver — isto é importante para o artigo poder ser citado por assistentes de IA (ChatGPT, Gemini, Copilot) que extraem respostas diretas. Depois desse parágrafo de abertura, continua com mais 1-2 parágrafos de contexto, e só depois usa ## para as secções principais.`
+}
+
+// Nem todos os artigos comerciais têm literatura científica aplicável, e foi
+// daí que veio o pior problema de credibilidade do site: o prompt exigia 3
+// referências do banco a TODOS os artigos de Equipamento, incluindo os de
+// relógios, sensores e acessórios. Sem estudos sobre eletrónica no banco, o
+// modelo agarrava no que havia — Hoogkamer (sapatilhas de competição), Nigg
+// (biomecânica de calçado) — e colava-o a afirmações sobre GPS e sensores de
+// pulsação. Agora só se exigem referências científicas quando o tema é mesmo
+// coberto por literatura (calçado, palmilhas, compressão, nutrição,
+// hidratação); nos restantes, o artigo termina numa secção de Fontes que
+// aponta para as páginas oficiais dos fabricantes, que é a fonte honesta para
+// especificações de produto.
+const TEMAS_COM_LITERATURA = /sapatilh|calcado|calçado|palmilha|drop|amortec|placa|carbono|meias|compress|nutric|nutrição|gel|gél|hidrat|bebida|barrita|creatina|cafein|cafeín|proteina|proteína/i
+
+function precisaReferenciasCientificas(topic) {
+  return TEMAS_COM_LITERATURA.test(`${topic.slug} ${topic.title}`)
 }
 
 function buildCommercialPrompt(topic, relatedSlugs) {
@@ -927,7 +970,9 @@ REGRAS OBRIGATÓRIAS:
 4. Incluir no mínimo 3 links internos no corpo do texto: um para [Equipamento](/equipamento), e links para estes dois artigos relacionados: [artigo relacionado 1](${related[0] || '/equipamento'}) e [artigo relacionado 2](${related[1] || '/equipamento'})
 5. Terminar o corpo (antes das referências) com a linha: "👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**"
 6. Comprimento: 900-1200 palavras de corpo (sem contar frontmatter nem referências)
-7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 3 das referências da lista abaixo. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
+7. ${precisaReferenciasCientificas(topic)
+    ? 'OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 3 das referências da lista abaixo, e SÓ onde forem mesmo aplicáveis ao que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.'
+    : 'OBRIGATÓRIO — este tema (eletrónica, acessórios) NÃO tem literatura científica aplicável, por isso NÃO cites estudos nenhuns: seria desonesto colar ciência do desporto a especificações de produto. Em vez disso, termina com uma secção "## Fontes" com 2-4 linhas a dizer ao leitor onde confirmar a informação — páginas oficiais dos fabricantes dos produtos mencionados e a ficha do revendedor — e a lembrar que preços e especificações mudam a cada geração.'}
 8. OBRIGATÓRIO — logo antes da secção de Referências, inclui uma secção "## Perguntas Frequentes" com EXATAMENTE 3 pares pergunta/resposta, no formato exato abaixo (cada resposta com 1-3 frases diretas e objetivas, sem introduções tipo "Boa pergunta"):
 
 ## Perguntas Frequentes
@@ -941,19 +986,51 @@ Resposta direta e objetiva, 1-3 frases.
 **Pergunta 3 completa, terminada em ponto de interrogação?**
 Resposta direta e objetiva, 1-3 frases.
 
-REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 3):
-${refsList}
+${precisaReferenciasCientificas(topic) ? `REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 3, só onde forem aplicáveis):
+${refsList}` : 'NÃO uses referências científicas neste artigo — ver regra 7.'}
 
-Responde APENAS com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências, por esta ordem).
+${REGRAS_ANTI_INVENCAO}
+
+Começa a resposta com UMA linha exatamente neste formato, antes de qualquer outra coisa:
+META: <descrição para o Google, 120 a 158 caracteres, frase completa e apelativa que diga o que o leitor ganha ao ler — NÃO é o primeiro parágrafo copiado, NÃO acaba em reticências>
+
+Depois dessa linha, responde com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências, por esta ordem).
 O parágrafo de introdução (sem cabeçalho) tem de responder de forma direta ao que o leitor procura no título em 1-2 frases claras antes de desenvolver — importante para o artigo poder ser citado por assistentes de IA.`
 }
 
+// A meta description do artigo. Antes disto devolvia os primeiros 200
+// caracteres do 1.º parágrafo + '…' — resultado: 228 dos 326 artigos
+// publicados tinham a descrição cortada a meio de uma frase, o Google
+// truncava-a outra vez, e isso alimentava o problema de CTR já identificado
+// na auditoria de 2026-08-26. Agora usa-se a linha META: que o modelo é
+// obrigado a escrever; só se ela faltar é que se recorre ao texto, e mesmo
+// aí corta-se sempre no fim de uma frase, nunca a meio de uma palavra.
 function extractExcerpt(content) {
+  const meta = content.match(/^\s*META:\s*(.+)$/m)
+  if (meta) {
+    const limpa = meta[1].trim().replace(/^["']|["']$/g, '')
+    if (limpa.length >= 80 && limpa.length <= 180) return limpa.replace(/"/g, '\\"')
+  }
+  return fraseCompletaAte(stripMetaLine(content), 158).replace(/"/g, '\\"')
+}
+
+// Remove a linha META: do conteúdo, para não aparecer no corpo do artigo.
+function stripMetaLine(content) {
+  return content.replace(/^\s*META:.*$/m, '').trimStart()
+}
+
+// Devolve texto até ao limite, sempre terminado numa frase completa.
+function fraseCompletaAte(content, limite) {
   const lines = content.split('\n')
   for (const line of lines) {
     const clean = line.replace(/[#*_`>👉]/g, '').trim()
     if (clean.length > 80) {
-      return clean.slice(0, 200).replace(/"/g, '\\"') + '…'
+      if (clean.length <= limite) return clean
+      const corte = clean.slice(0, limite)
+      const fim = Math.max(corte.lastIndexOf('. '), corte.lastIndexOf('! '), corte.lastIndexOf('? '))
+      if (fim > 60) return corte.slice(0, fim + 1).trim()
+      const espaco = corte.lastIndexOf(' ')
+      return (espaco > 60 ? corte.slice(0, espaco) : corte).trim() + '.'
     }
   }
   return ''
@@ -1002,8 +1079,52 @@ function yamlFaqs(faqs) {
   return `faqs:\n${lines.join('\n')}\n`
 }
 
+// Porta de qualidade — criada em 2026-09-21. Até aqui o script publicava o
+// que a Groq devolvesse desde que citasse N referências do banco: foi assim
+// que entrou no site um artigo COMPLETAMENTE VAZIO
+// (melhores-carregadores-portateis-relogio-gps, 18/09, zero palavras de
+// corpo), 24 artigos sem secção de referências e dezenas com brasileirismos.
+// Com três artigos por dia, cada defeito que passa fica no site para sempre,
+// e a política de "scaled content abuse" do Google mira exatamente páginas
+// publicadas em massa sem supervisão editorial. Um artigo reprovado aqui NÃO
+// é publicado: o gerador salta para o tópico seguinte da fila, por isso a
+// regra dos 3 artigos por dia continua a ser cumprida com outro tema.
+// ATENÇÃO à fronteira de palavra: o \b do JavaScript só conhece [A-Za-z0-9_],
+// por isso /\bvocê\b/ NUNCA encontra "você" (o "ê" final não é word char e
+// não cria fronteira com o espaço seguinte). Foi exatamente esse o erro na
+// primeira versão desta lista — os 26 artigos com "você" passavam incólumes.
+// Daí as fronteiras explícitas abaixo, que incluem o intervalo dos acentuados.
+const NB = '[^\\wÀ-ÖØ-öø-ÿ]'
+const br = (corpo) => new RegExp(`(?<=^|${NB})(?:${corpo})(?=${NB}|$)`, 'i')
+const BRASILEIRISMOS = [
+  br('vocês?'), br('treinamento'), br('panturrilhas?'), br('esteiras?'),
+  br('esportiv[oa]s?'), br('esportes?'), br('celular'), br('acadêmic[oa]s?'),
+  br('econômic[oa]s?'), br('eletrônic[oa]s?'), br('fenômenos?'),
+  br('goniômetros?'), br('tênis'), br('umidade'), br('bunda'),
+  br('(?:está|estão|estava|estavam)\\s+\\wÀ-ÖØ-öø-ÿ]*ndo'),
+]
+
+function validarArtigo(content, topic) {
+  const problemas = []
+  const corpo = stripMetaLine(content)
+  const palavras = corpo.split(/\s+/).filter(Boolean).length
+
+  if (palavras < 600) problemas.push(`corpo com só ${palavras} palavras (mínimo 600)`)
+  if (!/##\s*(Referências|Fontes)/i.test(corpo)) problemas.push('sem secção de Referências nem de Fontes')
+  if (!/##\s*Perguntas Frequentes/i.test(corpo)) problemas.push('sem secção de Perguntas Frequentes')
+
+  const excerpt = extractExcerpt(content)
+  if (!excerpt || excerpt.length < 80) problemas.push('sem meta description utilizável')
+  if (/…\s*"?$/.test(excerpt)) problemas.push('meta description cortada em reticências')
+
+  const brs = BRASILEIRISMOS.filter(re => re.test(corpo)).map(re => String(re))
+  if (brs.length) problemas.push(`brasileirismos detetados (${brs.length}): ${brs.slice(0, 3).join(', ')}`)
+
+  return problemas
+}
+
 function buildMdx(topic, content, date) {
-  const { faqs, contentWithoutFaqs } = extractFaqs(content)
+  const { faqs, contentWithoutFaqs } = extractFaqs(stripMetaLine(content))
   return `---
 title: "${topic.title.replace(/"/g, '\\"')}"
 date: '${date}'
@@ -1135,17 +1256,26 @@ async function main() {
         const refsBank = topic.category === 'Equipamento'
           ? COMMERCIAL_REFERENCE_BANK
           : (REFERENCE_BANK[topic.category] || REFERENCE_BANK['Treino'])
-        const minRefs = topic.category === 'Equipamento' ? 3 : 4
+        const minRefs = topic.category === 'Equipamento'
+          ? (precisaReferenciasCientificas(topic) ? 3 : 0)
+          : 4
 
         let content = null
+        let ultimosProblemas = []
         for (let tentativa = 1; tentativa <= MAX_REF_ATTEMPTS; tentativa++) {
           const candidato = await callGroq(tentativa === 1 ? prompt : prompt + REFORCO_REFERENCIAS)
           const citadas = countBankReferences(candidato, refsBank)
-          if (citadas >= minRefs) {
+          // Porta de qualidade: referências do banco E as restantes regras
+          // (dimensão, secções, meta description, português de Portugal).
+          ultimosProblemas = validarArtigo(candidato, topic)
+          if (citadas >= minRefs && ultimosProblemas.length === 0) {
             content = candidato
             break
           }
-          console.log(`  ⚠️  Tentativa ${tentativa}/${MAX_REF_ATTEMPTS}: só ${citadas} de ${minRefs} referências do banco citadas.`)
+          if (ultimosProblemas.length) {
+            console.log(`  ⚠️  Tentativa ${tentativa}/${MAX_REF_ATTEMPTS} reprovada na qualidade: ${ultimosProblemas.join('; ')}`)
+          }
+          if (citadas < minRefs) console.log(`  ⚠️  Tentativa ${tentativa}/${MAX_REF_ATTEMPTS}: só ${citadas} de ${minRefs} referências do banco citadas.`)
           if (tentativa < MAX_REF_ATTEMPTS) {
             console.log(`  ⏸  A aguardar ${PAUSE_BETWEEN_CALLS_MS / 1000}s antes de repetir...`)
             await new Promise(r => setTimeout(r, PAUSE_BETWEEN_CALLS_MS))
@@ -1154,7 +1284,7 @@ async function main() {
 
         if (!content) {
           skipped++
-          console.log(`::warning::Tópico "${topic.title}" NÃO publicado: o modelo não citou o mínimo de ${minRefs} referências do banco em ${MAX_REF_ATTEMPTS} tentativas. Se um tópico falhar sempre, é sinal de que não tem literatura correspondente no REFERENCE_BANK — acrescenta referências dessa categoria ou remove o tópico.`)
+          console.log(`::warning::Tópico "${topic.title}" NÃO publicado após ${MAX_REF_ATTEMPTS} tentativas${ultimosProblemas.length ? ` — problemas de qualidade: ${ultimosProblemas.join('; ')}` : ': não citou o mínimo de ' + minRefs + ' referências do banco'}. Se um tópico falhar sempre, é sinal de que não tem literatura correspondente no REFERENCE_BANK — acrescenta referências dessa categoria ou remove o tópico.`)
           if (skipped >= MAX_SKIPPED) {
             console.log(`::warning::${skipped} tópicos seguidos saltados por falta de referências — a parar esta fila.`)
             break

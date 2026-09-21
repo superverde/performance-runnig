@@ -2,7 +2,7 @@
 title: "Massagem Desportiva: Quando Ajuda e Quando é Perda de Tempo"
 date: '2026-07-29'
 category: "Recuperação"
-excerpt: "A massagem desportiva tem sido largamente utilizada pelos atletas e treinadores como uma ferramenta para melhorar a recuperação pós-entreno e potencializar o desempenho desportivo. No entanto, é impor…"
+excerpt: "A massagem desportiva tem sido largamente utilizada pelos atletas e treinadores como uma ferramenta para melhorar a recuperação pós-entreno e potencializar o."
 readTime: 4
 ---
 

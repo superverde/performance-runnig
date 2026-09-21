@@ -2,7 +2,7 @@
 title: "Comparação Social no Strava: Impacto na Relação com a Corrida"
 date: '2026-09-19'
 category: "Psicologia"
-excerpt: "A comparação social no Strava pode alterar a motivação, o bem‑estar e o desempenho dos corredores, dependendo de como a informação é interpretada e utilizada.…"
+excerpt: "A comparação social no Strava pode alterar a motivação, o bem‑estar e o desempenho dos corredores, dependendo de como a informação é interpretada e."
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"
@@ -16,7 +16,7 @@ faqs:
 A comparação social no Strava pode alterar a motivação, o bem‑estar e o desempenho dos corredores, dependendo de como a informação é interpretada e utilizada.  
 Em termos práticos, quando a comparação é feita de forma estruturada e consciente, pode funcionar como um estímulo positivo; se, por outro lado, for feita de forma indiscriminada, pode gerar ansiedade, desmotivação e até risco de lesões.
 
-O Strava tornou‑se uma ferramenta dominante para partilhar e comparar resultados de corrida. Os seus recursos de “Followers”, “Clubs” e “Heatmap” permitem que os utilizadores vejam instantaneamente como se situam em relação a outros corredores. Contudo, a psicologia do esporte mostra que a comparação social não é neutra: pode activar emoções de inveja, superioridade, ou auto‑desvalorização, alterando o foco atencional e a regulação emocional durante o treino.
+O Strava tornou‑se uma ferramenta dominante para partilhar e comparar resultados de corrida. Os seus recursos de “Followers”, “Clubs” e “Heatmap” permitem que os utilizadores vejam instantaneamente como se situam em relação a outros corredores. Contudo, a psicologia do desporto mostra que a comparação social não é neutra: pode activar emoções de inveja, superioridade, ou auto‑desvalorização, alterando o foco atencional e a regulação emocional durante o treino.
 
 ## Base Científica
 

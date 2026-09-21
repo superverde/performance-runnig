@@ -2,7 +2,7 @@
 title: "Melhores Toucas e Gorros para Correr no Frio"
 date: '2026-09-15'
 category: "Equipamento"
-excerpt: "Nas corridas de inverno, a escolha da touca ou gorro pode determinar a diferença entre manter a temperatura corporal e sentir-se congelado. Este artigo vai guiar‑te na seleção do melhor equipamento de…"
+excerpt: "Nas corridas de inverno, a escolha da touca ou gorro pode determinar a diferença entre manter a temperatura corporal e sentir-se congelado."
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre touca de merino e touca sintética?"
@@ -21,7 +21,7 @@ Nas corridas de inverno, a escolha da touca ou gorro pode determinar a diferenç
    As toucas de merino e de fibras sintéticas de alta densidade, como o Polartec Power‑Dry, oferecem isolamento térmico sem sobrecarregar a cabeça. Estudos demonstram que tecidos com maior capacidade de retenção de calor reduzem a perda de temperatura até 20 % em ambientes de –10 °C (Fuller et al., 2015).  
 
 2. **Transpirabilidade e Gerenciamento de Umidade**  
-   Um design com micro‑poros e revestimento anti‑umidade mantém a pele seca, evitando a sensação de “muito frio” que ocorre quando a umidade se condensa. A tecnologia de micro‑canais do Power‑Dry, por exemplo, permite que a suor escape enquanto bloqueia o vento.  
+   Um design com micro‑poros e revestimento anti‑humidade mantém a pele seca, evitando a sensação de “muito frio” que ocorre quando a humidade se condensa. A tecnologia de micro‑canais do Power‑Dry, por exemplo, permite que a suor escape enquanto bloqueia o vento.  
 
 3. **Ajuste e Ergonomia**  
    Toucas com elástico de alta elasticidade e estrutura de ajuste de “snug fit” evitam que o equipamento deslize e mantém a posição correta sobre os fios de cabelo, reduzindo a perda de calor pela cabeça.  

@@ -2,7 +2,7 @@
 title: "Melhores Tapetes de Yoga e Mobilidade para Corredores"
 date: '2026-09-09'
 category: "Equipamento"
-excerpt: "A procura por tapetes que combinem conforto, estabilidade e durabilidade é essencial para corredores que desejam otimizar a sua rotina de mobilidade e prevenção de lesões. Este artigo apresenta uma an…"
+excerpt: "A procura por tapetes que combinem conforto, estabilidade e durabilidade é essencial para corredores que desejam otimizar a sua rotina de mobilidade e."
 readTime: 4
 faqs:
   - q: "Qual a espessura ideal para um tapete de yoga que será usado para corrida?"

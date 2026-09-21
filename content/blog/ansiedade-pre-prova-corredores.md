@@ -2,7 +2,7 @@
 title: "Ansiedade Pré-Corrida: Transformar Nervosismo em Combustível"
 date: '2026-08-07'
 category: "Psicologia"
-excerpt: "Quando o dia da corrida se aproxima, muitos atletas começam a sentir um nível crescente de ansiedade. O nervosismo pode ser um grande obstáculo para o desempenho, fazendo com que os atletas sejam inca…"
+excerpt: "Quando o dia da corrida se aproxima, muitos atletas começam a sentir um nível crescente de ansiedade."
 readTime: 4
 ---
 
@@ -10,7 +10,7 @@ Ansiedade Pré-Corrida: Transformar Nervosismo em Combustível
 
 Quando o dia da corrida se aproxima, muitos atletas começam a sentir um nível crescente de ansiedade. O nervosismo pode ser um grande obstáculo para o desempenho, fazendo com que os atletas sejam incapazes de alcançar seus objetivos. No entanto, é possível transformar a ansiedade em combustível para a corrida. Com a ajuda da psicologia e da ciência do desporto, é possível compreender as causas da ansiedade pré-corrida e encontrar estratégias para lidar com ela.
 
-A ansiedade pré-corrida é um fenômeno comum entre os atletas de corrida. Estudos têm demonstrado que a ansiedade pode afetar significativamente o desempenho dos atletas, levando a uma redução da velocidade e da eficiência. Além disso, a ansiedade pode causar sintomas físicos, como dor muscular e respiratória, que podem agravar a situação. No entanto, é importante notar que a ansiedade não é um inimigo, mas sim uma oportunidade para melhorar o desempenho.
+A ansiedade pré-corrida é um fenómeno comum entre os atletas de corrida. Estudos têm demonstrado que a ansiedade pode afetar significativamente o desempenho dos atletas, levando a uma redução da velocidade e da eficiência. Além disso, a ansiedade pode causar sintomas físicos, como dor muscular e respiratória, que podem agravar a situação. No entanto, é importante notar que a ansiedade não é um inimigo, mas sim uma oportunidade para melhorar o desempenho.
 
 ## Base Científica
 
@@ -28,7 +28,7 @@ Existem vários erros comuns que os atletas podem cometer ao lidar com a ansieda
 
 ## Protocolo/Conclusão
 
-Em resumo, a ansiedade pré-corrida é um fenômeno comum entre os atletas de corrida, mas pode ser transformada em combustível para a corrida com a ajuda da psicologia e da ciência do desporto. Existem várias estratégias que os atletas podem utilizar para lidar com a ansiedade pré-corrida, incluindo a prática da relaxação progressiva, a meditação e a visualização. Além disso, a prática do treino de alta intensidade e de resistência pode ajudar a aumentar a confiança e a reduzir a ansiedade.
+Em resumo, a ansiedade pré-corrida é um fenómeno comum entre os atletas de corrida, mas pode ser transformada em combustível para a corrida com a ajuda da psicologia e da ciência do desporto. Existem várias estratégias que os atletas podem utilizar para lidar com a ansiedade pré-corrida, incluindo a prática da relaxação progressiva, a meditação e a visualização. Além disso, a prática do treino de alta intensidade e de resistência pode ajudar a aumentar a confiança e a reduzir a ansiedade.
 
 ## Referências Científicas
 

@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas de Treino Diário (Daily Trainers) 2026"
 date: '2026-07-13'
 category: "Equipamento"
-excerpt: "As sapatilhas de treino diário são uma peça fundamental no arsenal de qualquer corredor. Elas devem ser adequadas para corridas curtas e longas, e fornecer confort, suporte e amortecimento adequados p…"
+excerpt: "As sapatilhas de treino diário são uma peça fundamental no arsenal de qualquer corredor."
 readTime: 4
 ---
 
@@ -18,7 +18,7 @@ Ao escolher uma sapatilha de treino diário, é importante considerar alguns cri
 
 Outro critério importante é a suporte ao arco do pé. De acordo com Malisoux et al. (2016), as sapatilhas devem fornecer suporte adequado ao arco do pé para evitar lesões e melhorar o desempenho. Isso pode ser alcançado com a utilização de materiais rígidos ou com a inclusão de elementos de suporte, como o "heel-to-toe" ou o "midfoot strike".
 
-Além disso, é importante considerar a respirabilidade e a transpirabilidade da sapatilha. Segundo Fuller et al. (2015), as sapatilhas devem ser capazes de permitir a circulação de ar e a evaporação da umidade para evitar a formação de úlceras e melhorar o desempenho. Isso pode ser alcançado com a utilização de materiais permeáveis ou com a inclusão de elementos de respirabilidade, como os orifícios de respiração.
+Além disso, é importante considerar a respirabilidade e a transpirabilidade da sapatilha. Segundo Fuller et al. (2015), as sapatilhas devem ser capazes de permitir a circulação de ar e a evaporação da humidade para evitar a formação de úlceras e melhorar o desempenho. Isso pode ser alcançado com a utilização de materiais permeáveis ou com a inclusão de elementos de respirabilidade, como os orifícios de respiração.
 
 Finalmente, é importante considerar o peso e a rigidez da sapatilha. Segundo Hoogkamer et al. (2018), as sapatilhas devem ser leves e flexíveis para evitar o excesso de peso e melhorar o desempenho. Isso pode ser alcançado com a utilização de materiais leves e flexíveis, como o nylon ou o poliéster.
 

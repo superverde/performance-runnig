@@ -17,7 +17,7 @@ As calças e leggings de compressão tornaram-se uma peça fundamental no arsena
 Ao escolher calças e leggings de compressão, há vários critérios técnicos que devem ser considerados. Aqui estão os mais importantes:
 
 * **Material**: O material é fundamental para a eficácia da compressão. Os materiais mais comuns são a poliester, a viscosa e a elastane. A poliester é uma boa opção para a compressão de baixa a moderada, enquanto a viscosa é mais adequada para a compressão moderada a alta.
-* **Nível de Compressão**: O nível de compressão é medida em mmHg (milímetros de mercúrio). O nível de compressão é mais elevado em áreas como a coxa e a panturrilha, onde a tensão é maior.
+* **Nível de Compressão**: O nível de compressão é medida em mmHg (milímetros de mercúrio). O nível de compressão é mais elevado em áreas como a coxa e a barriga da perna, onde a tensão é maior.
 * **Fita de Cintura**: A fita de cintura é importante para manter a compressão em lugar. Busque por uma fita de cintura ajustável e confortável.
 * **Drenagem de Suor**: Alguns produtos oferecem drenagem de suor, o que é fundamental para manter a pele seca e confortável durante o treino.
 * **Custo-Eficácia**: O custo-eficácia é importante para corredores que buscam economizar sem comprometer a qualidade.

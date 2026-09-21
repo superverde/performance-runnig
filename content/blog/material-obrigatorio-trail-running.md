@@ -2,7 +2,7 @@
 title: "Material Obrigatório em Trail: O Que Levar e Por Quê"
 date: '2026-08-11'
 category: "Trail Running"
-excerpt: "Ao enfrentar uma corrida de trail, é fundamental estar preparado para as condições que se apresentam ao longo da competição. Além de uma boa forma física e mental, é crucial levar consigo o material c…"
+excerpt: "Ao enfrentar uma corrida de trail, é fundamental estar preparado para as condições que se apresentam ao longo da competição."
 readTime: 4
 ---
 
@@ -16,7 +16,7 @@ Um erro comum é subestimar a importância de levar o material correto. Em muito
 
 ## Base Científica
 
-A biomecânica e a fisiologia do atleta são fundamentais para entender as necessidades do equipamento em trail. De acordo com Vernillo et al. (2017), a corrida em terrenos acidentados exige uma maior atividade muscular e uma maior transferência de força entre os membros inferiores. Isso significa que o equipamento deve ser projetado para absorver as impactos e proporcionar confort e estabilidade ao atleta.
+A biomecânica e a fisiologia do atleta são fundamentais para entender as necessidades do equipamento em trail. De acordo com Vernillo et al. (2017), a corrida em terrenos acidentados exige uma maior atividade muscular e uma maior transferência de força entre os membros inferiores. Isso significa que o equipamento deve ser concebido para absorver as impactos e proporcionar confort e estabilidade ao atleta.
 
 A fisiologia do atleta também é importante para entender as necessidades de hidratação e alimentação. De acordo com Millet et al. (2011), a corrida em altitudes elevadas exige uma maior hidratação e uma maior ingestão de carboidratos para evitar a fadiga muscular. Além disso, a escolha de alimentos leve e rápido é crucial para evitar a desidratação e a fadiga.
 

@@ -2,15 +2,15 @@
 title: "Glúteos Fracos: A Causa Oculta de Lesões em Corredores"
 date: '2026-07-26'
 category: "Biomecânica"
-excerpt: "Quando pensamos em lesões em corredores, tendemos a associar a causa a problemas de flexibilidade, força ou técnica. No entanto, existem muitos corredores que apresentam glúteos fracos sem sequer perc…"
+excerpt: "Quando pensamos em lesões em corredores, tendemos a associar a causa a problemas de flexibilidade, força ou técnica."
 readTime: 4
 ---
 
 Glúteos Fracos: A Causa Oculta de Lesões em Corredores
 
-Quando pensamos em lesões em corredores, tendemos a associar a causa a problemas de flexibilidade, força ou técnica. No entanto, existem muitos corredores que apresentam glúteos fracos sem sequer perceber que isso pode estar contribuindo para as suas lesões. Os glúteos são responsáveis por muitas funções importantes, como a contração da pelve e a estabilização do corpo durante a corrida. Se estes músculos não estão funcionando corretamente, podem levar a uma série de problemas que podem afetar a corrida de forma significativa.
+Quando pensamos em lesões em corredores, tendemos a associar a causa a problemas de flexibilidade, força ou técnica. No entanto, existem muitos corredores que apresentam glúteos fracos sem sequer perceber que isso pode estar contribuindo para as suas lesões. Os glúteos são responsáveis por muitas funções importantes, como a contração da pelve e a estabilização do corpo durante a corrida. Se estes músculos não estão a funcionar corretamente, podem levar a uma série de problemas que podem afetar a corrida de forma significativa.
 
-Um estudo publicado no Journal of Strength and Conditioning Research (2015) encontrou que 70% dos corredores apresentavam glúteos fracos, o que pode estar relacionado a uma série de fatores, incluindo a falta de treino específico para os glúteos, a postura inadequada durante a corrida e a sobrecarga do músculo. Além disso, os glúteos são responsáveis por muitas funções importantes durante a corrida, como a contração da pelve e a estabilização do corpo. Se estes músculos não estão funcionando corretamente, podem levar a uma série de problemas que podem afetar a corrida de forma significativa.
+Um estudo publicado no Journal of Strength and Conditioning Research (2015) encontrou que 70% dos corredores apresentavam glúteos fracos, o que pode estar relacionado a uma série de fatores, incluindo a falta de treino específico para os glúteos, a postura inadequada durante a corrida e a sobrecarga do músculo. Além disso, os glúteos são responsáveis por muitas funções importantes durante a corrida, como a contração da pelve e a estabilização do corpo. Se estes músculos não estão a funcionar corretamente, podem levar a uma série de problemas que podem afetar a corrida de forma significativa.
 
 É importante notar que a falta de glúteos fortes pode levar a uma série de problemas, incluindo dor lombar, dor nos joelhos e lesões nos tendões. Além disso, os glúteos também desempenham um papel importante na estabilização do corpo durante a corrida, o que pode ajudar a reduzir o risco de lesões.
 

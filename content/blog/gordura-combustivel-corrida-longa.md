@@ -2,7 +2,7 @@
 title: "Gordura como Combustível: Fat Adaptation na Corrida de Fundo"
 date: '2026-07-19'
 category: "Nutrição"
-excerpt: "A corrida de fundo é um desporto que requer uma combinação de resistência, força e resistência ao cansaço. Para alcançar um desempenho ótimo, os atletas precisam ter uma boa adaptação ao treino e ao u…"
+excerpt: "A corrida de fundo é um desporto que requer uma combinação de resistência, força e resistência ao cansaço."
 readTime: 4
 ---
 

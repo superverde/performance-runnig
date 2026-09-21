@@ -2,7 +2,7 @@
 title: "Ferro para Corredores: Fontes Alimentares e Como Maximizar Absorção"
 date: '2026-07-22'
 category: "Nutrição"
-excerpt: "Os corredores são conhecidos por suas exigências físicas e nutricionais altas, tornando a escolha da alimentação adequada fundamental para o desempenho e a recuperação. A absorção de nutrientes é um p…"
+excerpt: "Os corredores são conhecidos por suas exigências físicas e nutricionais altas, tornando a escolha da alimentação adequada fundamental para o desempenho e a."
 readTime: 4
 ---
 

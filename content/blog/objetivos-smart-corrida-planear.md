@@ -2,7 +2,7 @@
 title: "Definir Objetivos em Corrida: O Sistema SMART Aplicado ao Atletismo"
 date: '2026-08-08'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação perfeita de condicionamento físico, técnica e mental. Embora muitos atletas concentrem-se em melhorar a sua forma física e técnica, é fundamental não e…"
+excerpt: "A corrida é um desporto que exige uma combinação perfeita de condicionamento físico, técnica e mental."
 readTime: 4
 ---
 

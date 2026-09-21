@@ -2,7 +2,7 @@
 title: "Aclimatação ao Calor: O Protocolo de 10 Dias Que Também Melhora em Fresco"
 date: '2026-08-27'
 category: "Fisiologia"
-excerpt: "Sim, um protocolo de 10 dias de aclimatação ao calor pode melhorar o desempenho em ambientes frescos, pois estimula adaptações cardiovasculares, musculares e de regulação térmica que permanecem ativas…"
+excerpt: "Sim, um protocolo de 10 dias de aclimatação ao calor pode melhorar o desempenho em ambientes frescos, pois estimula adaptações cardiovasculares, musculares e."
 readTime: 5
 faqs:
   - q: "O protocolo de 10 dias pode ser usado por corredores de elite apenas?"
@@ -16,7 +16,7 @@ faqs:
 Sim, um protocolo de 10 dias de aclimatação ao calor pode melhorar o desempenho em ambientes frescos, pois estimula adaptações cardiovasculares, musculares e de regulação térmica que permanecem ativas mesmo quando a temperatura ambiente diminui.  
 Nos próximos parágrafos, detalharemos a base fisiológica, a aplicação prática e um plano de treino específico que pode ser usado tanto em clima quente como em clima frio, evitando erros comuns e maximizando os ganhos de forma segura.
 
-A aclimatação ao calor não é apenas uma preparação para corridas em condições de calor extremo; é um método de treinamento que aumenta a capacidade do corpo de gerir a temperatura interna, reduzindo a frequência cardíaca em esforço, melhorando a distribuição sanguínea e favorecendo a eficiência metabólica. Estudos mostram que, após apenas 10 dias de exposição moderada a calor, há um aumento de 5–10 % no volume sistólico e uma redução de 8–12 % na frequência cardíaca em ritmo de 70 % do VO₂máx, efeitos que persistem por até duas semanas após a última sessão de calor.  
+A aclimatação ao calor não é apenas uma preparação para corridas em condições de calor extremo; é um método de treino que aumenta a capacidade do corpo de gerir a temperatura interna, reduzindo a frequência cardíaca em esforço, melhorando a distribuição sanguínea e favorecendo a eficiência metabólica. Estudos mostram que, após apenas 10 dias de exposição moderada a calor, há um aumento de 5–10 % no volume sistólico e uma redução de 8–12 % na frequência cardíaca em ritmo de 70 % do VO₂máx, efeitos que persistem por até duas semanas após a última sessão de calor.  
 Essas adaptações, quando combinadas com treinos em temperatura fresca, resultam num desempenho superior em provas de longa distância, graças a um melhor uso de glicogênio e a uma maior tolerância ao lactato.
 
 ## Base Científica

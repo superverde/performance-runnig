@@ -2,7 +2,7 @@
 title: "Sapatilhas para Recuperação Ativa: As Melhores Opções"
 date: '2026-08-25'
 category: "Equipamento"
-excerpt: "A procura por sapatilhas que promovam a recuperação ativa não se limita a meros confortos; trata‑se de equipamentos que reduzam o risco de lesões, melhorem a economia de energia e ofereçam suporte ada…"
+excerpt: "Sapatilhas para Recuperação Ativa: As Melhores Opções A procura por sapatilhas que promovam a recuperação ativa não se limita a meros confortos; trata‑se de."
 readTime: 4
 faqs:
   - q: "Qual a diferença entre amortização e retorno de energia nas sapatilhas?"
@@ -18,9 +18,9 @@ A procura por sapatilhas que promovam a recuperação ativa não se limita a mer
 
 ## Como Escolher: Critérios Que Importam  
 
-Para uma escolha informada, é fundamental considerar três pilares que a literatura de medicina do esporte confirma como determinantes para a recuperação ativa:  
+Para uma escolha informada, é fundamental considerar três pilares que a literatura de medicina do desporto confirma como determinantes para a recuperação ativa:  
 1. **Amortização e retorno de energia** – Estudos mostram que a entressola com amortização moderada reduz o impacto nos ossos e articulações, enquanto a capacidade de retorno de energia (measured by vertical oscillation) favorece a eficiência aeróbica. O uso de materiais como EVA de densidade média ou poliuretano de alta resiliencia tem sido associado a menores custos energéticos em maratona (Hoogkamer et al., 2018).  
-2. **Estabilidade e controle de movimento** – Sapatilhas com design de apoio medial ou sistemas de controle de pronação ajudam a prevenir lesões em corredores com tendência a overpronation. Contudo, a adoção de modelos “motion control” deve ser balanceada, pois excessiva restrição pode aumentar a carga muscular (Malisoux et al., 2016).  
+2. **Estabilidade e controle de movimento** – Sapatilhas com design de apoio medial ou sistemas de controlo de pronação ajudam a prevenir lesões em corredores com tendência a overpronation. Contudo, a adoção de modelos “motion control” deve ser balanceada, pois excessiva restrição pode aumentar a carga muscular (Malisoux et al., 2016).  
 3. **Peso e distribuição de carga** – O peso total e a distribuição de massa influenciam a fadiga muscular. Pesos abaixo de 250 g por par têm sido associados a menores esforços musculares na fase de propulsão (Fuller et al., 2015).  
 Além destes, a ventilação, a flexibilidade do cabedal e o ajuste personalizado (tamanho, largura, fit) são variáveis que afetam a sensação de conforto e a prevenção de irritações cutâneas.
 

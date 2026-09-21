@@ -2,7 +2,7 @@
 title: "Identidade de Corredor: Como o Propósito Sustenta a Consistência"
 date: '2026-08-10'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação de habilidade física e mental. Apesar de a capacidade física ser fundamental, o componente psicológico é igualmente importante para alcançar o sucesso …"
+excerpt: "A corrida é um desporto que exige uma combinação de habilidade física e mental."
 readTime: 4
 ---
 

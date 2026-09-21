@@ -2,7 +2,7 @@
 title: "Desnível Equivalente: Como Planear o Pace em Trail Running"
 date: '2026-08-16'
 category: "Trail Running"
-excerpt: "O trail running é um tipo de corrida que se desenrola em terrenos irregulares, exigindo uma combinação de força, agilidade e resistência. Para alcançar o sucesso nessa modalidade, é fundamental entend…"
+excerpt: "O trail running é um tipo de corrida que se desenrola em terrenos irregulares, exigindo uma combinação de força, agilidade e resistência."
 readTime: 4
 ---
 

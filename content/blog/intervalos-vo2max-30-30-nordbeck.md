@@ -2,7 +2,7 @@
 title: "30/30 e 60/60: Os Intervalos Que Mais Aumentam o VO2max"
 date: '2026-09-09'
 category: "Treino"
-excerpt: "Os intervalos 30 s de esforço máximo seguidos de 30 s de recuperação, e os 60 s de esforço máximo seguidos de 60 s de recuperação, são os protocolos que mais elevam o VO₂max, pois maximizam a carga ca…"
+excerpt: "Os intervalos 30 s de esforço máximo seguidos de 30 s de recuperação, e os 60 s de esforço máximo seguidos de 60 s de recuperação, são os protocolos que mais."
 readTime: 5
 faqs:
   - q: "Quanto tempo devo dedicar ao aquecimento antes de começar os intervalos 30/30?"

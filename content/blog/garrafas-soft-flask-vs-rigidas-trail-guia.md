@@ -2,7 +2,7 @@
 title: "Soft Flasks vs Garrafas Rígidas: Qual Escolher para Trail"
 date: '2026-08-14'
 category: "Equipamento"
-excerpt: "A escolha do equipamento certo é fundamental para uma corrida desportiva eficaz e segura. Entre os vários elementos que compõem o nosso kit de corrida, as garrafas de sumo e os soft flasks são dois do…"
+excerpt: "A escolha do equipamento certo é fundamental para uma corrida desportiva eficaz e segura."
 readTime: 4
 ---
 

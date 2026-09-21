@@ -2,7 +2,7 @@
 title: "Roupa de Corrida para Inverno: Guia de Camadas"
 date: '2026-07-16'
 category: "Equipamento"
-excerpt: "O inverno é uma época do ano em que a temperatura cai e a umidade aumenta, tornando as condições de corrida mais desafiantes. Para se manter confortável e evitar resfriados, é fundamental ter uma roup…"
+excerpt: "O inverno é uma época do ano em que a temperatura cai e a humidade aumenta, tornando as condições de corrida mais desafiantes."
 readTime: 4
 ---
 
@@ -10,7 +10,7 @@ readTime: 4
 
 ### Introdução
 
-O inverno é uma época do ano em que a temperatura cai e a umidade aumenta, tornando as condições de corrida mais desafiantes. Para se manter confortável e evitar resfriados, é fundamental ter uma roupa de corrida adequada. No entanto, a escolha da roupa certa pode ser confusa, especialmente para os iniciantes. Neste artigo, vamos explorar os critérios técnicos que importam ao escolher a roupa de corrida para o inverno e apresentar as melhores opções em 2026.
+O inverno é uma época do ano em que a temperatura cai e a humidade aumenta, tornando as condições de corrida mais desafiantes. Para se manter confortável e evitar resfriados, é fundamental ter uma roupa de corrida adequada. No entanto, a escolha da roupa certa pode ser confusa, especialmente para os iniciantes. Neste artigo, vamos explorar os critérios técnicos que importam ao escolher a roupa de corrida para o inverno e apresentar as melhores opções em 2026.
 
 ### Como Escolher: Critérios Que Importam
 
@@ -33,7 +33,7 @@ Aqui estão algumas das melhores opções de roupa de corrida para o inverno em 
 
 ### Veredicto: Qual Comprar
 
-A escolha da roupa de corrida para o inverno depende do seu perfil e das suas necessidades. Se você é um iniciante, a Nike Zoom Fly 4 ou a Asics Gel-Nimbus 25 pode ser uma boa opção. Se você é um competidor, a Adidas Ultraboost 21 ou a Under Armour Curry 7 pode ser uma boa opção. Se você tem um orçamento limitado, a New Balance Fresh Foam pode ser uma boa opção.
+A escolha da roupa de corrida para o inverno depende do seu perfil e das suas necessidades. Se és um iniciante, a Nike Zoom Fly 4 ou a Asics Gel-Nimbus 25 pode ser uma boa opção. Se és um competidor, a Adidas Ultraboost 21 ou a Under Armour Curry 7 pode ser uma boa opção. Se tens um orçamento limitado, a New Balance Fresh Foam pode ser uma boa opção.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

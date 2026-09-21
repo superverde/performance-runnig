@@ -2,7 +2,7 @@
 title: "Corrida Durante e Após a Gravidez: O Guia Baseado em Evidência"
 date: '2026-09-13'
 category: "Treino"
-excerpt: "A mulher grávida pode continuar a correr, mas o volume, a intensidade e a frequência têm de ser ajustados de forma a proteger a mãe e o bebé. Durante a gravidez, a prática deve ser moderada, com atenç…"
+excerpt: "A mulher grávida pode continuar a correr, mas o volume, a intensidade e a frequência têm de ser ajustados de forma a proteger a mãe e o bebé."
 readTime: 5
 faqs:
   - q: "Como saber se a minha frequência cardíaca está a ficar demasiado alta durante a corrida na gravidez?"

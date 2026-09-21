@@ -2,7 +2,7 @@
 title: "Navegação em Trail: Mapa, Bússola e GPS — Quando Usar Cada Um"
 date: '2026-08-10'
 category: "Trail Running"
-excerpt: "Quando se trata de corrida em terreno variado, a navegação é um aspecto crucial para evitar erros e maximizar o desempenho. Em particular, o uso de mapas, bússolas e GPS é uma questão frequente entre …"
+excerpt: "Navegação em Trail: Mapa, Bússola e GPS — Quando Usar Cada Um ==========================================================="
 readTime: 4
 ---
 

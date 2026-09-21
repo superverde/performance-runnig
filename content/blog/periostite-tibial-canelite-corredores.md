@@ -2,7 +2,7 @@
 title: "Periostite Tibial (Canelite): Causas Reais e Como Resolver"
 date: '2026-08-02'
 category: "Lesões"
-excerpt: "A corrida é um desporto exigente que pode levar a uma variedade de lesões, incluindo a periostite tibial, também conhecida como canelite. Esta lesão é comum em corredores que realizam treinos intensos…"
+excerpt: "A corrida é um desporto exigente que pode levar a uma variedade de lesões, incluindo a periostite tibial, também conhecida como canelite."
 readTime: 4
 ---
 

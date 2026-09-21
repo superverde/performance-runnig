@@ -2,12 +2,12 @@
 title: "Correr com Dor: Quando Parar Mesmo"
 date: '2026-09-21'
 category: "Lesões"
-excerpt: "Correr com dor não é sinal de superação, mas de alerta: quando a dor ultrapassar 4 / 10 na escala numérica e persistir por mais de 48 h, o ideal é suspender a atividade imediatamente e procurar avalia…"
+excerpt: "Correr com dor não é sinal de superação, mas de alerta: quando a dor ultrapassar 4 / 10 na escala numérica e persistir por mais de 48 h, o ideal é suspender."
 readTime: 4
 faqs:
   - q: "Quando devo suspender a corrida se a dor não for aguda?"
     a: "Se a dor permanecer > 4 / 10 e não melhorar após 48 h, é prudente suspender a corrida imediatamente."
-  - q: "Posso continuar a treinar em outros esportes durante a pausa?"
+  - q: "Posso continuar a treinar em outros desportos durante a pausa?"
     a: "Sim, pode praticar atividades de baixo impacto, mas deve evitar qualquer exercício que aumente a dor no local afetado."
   - q: "Quanto tempo leva para voltar a correr após uma lesão de tendinopatia?"
     a: "Normalmente, o retorno seguro ocorre entre 6 a 8 semanas, dependendo da gravidade e da adesão ao protocolo de reabilitação."

@@ -2,7 +2,7 @@
 title: "Associação vs Dissociação: Estratégias Mentais para Aguentar a Dor"
 date: '2026-08-09'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação de resistência, força e técnica, mas também envolve uma componente mental importante. A capacidade de lidar com a dor e a fadiga é fundamental para rea…"
+excerpt: "A corrida é um desporto que exige uma combinação de resistência, força e técnica, mas também envolve uma componente mental importante."
 readTime: 4
 ---
 

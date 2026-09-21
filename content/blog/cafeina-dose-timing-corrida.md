@@ -2,7 +2,7 @@
 title: "Cafeína no Desporto: Dose Certa, Timing Perfeito, Resultados Reais"
 date: '2026-07-21'
 category: "Nutrição"
-excerpt: "A cafeína é uma substância amplamente utilizada no desporto para melhorar a performance e aumentar a resistência. No entanto, sua utilização deve ser feita de forma controlada e estratégica, pois em e…"
+excerpt: "A cafeína é uma substância amplamente utilizada no desporto para melhorar a performance e aumentar a resistência."
 readTime: 4
 ---
 

@@ -2,7 +2,7 @@
 title: "Quantas Horas Deve Dormir um Corredor? O Consenso Internacional de 2021"
 date: '2026-09-01'
 category: "Recuperação"
-excerpt: "O corredor ideal deve descansar entre 7 e 9 horas por noite, com maior ênfase na qualidade do sono que na quantidade.…"
+excerpt: "O corredor ideal deve descansar entre 7 e 9 horas por noite, com maior ênfase na qualidade do sono que na quantidade."
 readTime: 5
 faqs:
   - q: "Quanto tempo de sono é suficiente para um corredor que treina 6 dias por semana?"

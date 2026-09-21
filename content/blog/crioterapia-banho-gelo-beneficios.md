@@ -2,7 +2,7 @@
 title: "Crioterapia: O Que a Ciência Diz Sobre Banhos de Gelo"
 date: '2026-07-29'
 category: "Recuperação"
-excerpt: "O desporto moderno exige um nível de condicionamento físico elevado, o que pode levar a uma grande tensão nos músculos e articulações. Para ajudar a aliviar essa tensão e promover a recuperação, muito…"
+excerpt: "O desporto moderno exige um nível de condicionamento físico elevado, o que pode levar a uma grande tensão nos músculos e articulações."
 readTime: 4
 ---
 

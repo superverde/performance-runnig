@@ -2,7 +2,7 @@
 title: "Estratégia de Abastecimento em Ultra Trail: O Que Comer em Cada Posto"
 date: '2026-08-12'
 category: "Trail Running"
-excerpt: "A corrida de ultra trail é um desporto de resistência em que os atletas precisam lidar com desafios extremos, incluindo distâncias longas, elevações significativas e condições climáticas adversas. Nes…"
+excerpt: "A corrida de ultra trail é um desporto de resistência em que os atletas precisam lidar com desafios extremos, incluindo distâncias longas, elevações."
 readTime: 4
 ---
 

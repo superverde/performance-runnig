@@ -2,7 +2,7 @@
 title: "Otimizar o Sono como Atleta: O Guia Baseado em Evidência"
 date: '2026-08-01'
 category: "Recuperação"
-excerpt: "A recuperação é uma parte fundamental do processo de treino para os atletas. Ao longo de um dia de treino, o corpo acumula lesões musculares, inflamação e stress oxidativo, que precisam ser reparados …"
+excerpt: "A recuperação é uma parte fundamental do processo de treino para os atletas."
 readTime: 4
 ---
 
@@ -25,7 +25,7 @@ Para otimizar o sono como atleta, é importante estabelecer uma rotina de sono r
 * **Estabeleça uma rotina de sono regular**: Vá para a cama e acorde ao mesmo tempo todos os dias, mesmo nos fins de semana.
 * **Crie um ambiente de sono favorável**: Certifique-se de que a sua cama seja confortável e que a sua sala esteja escura e silenciosa.
 * **Evite a ingestão de cafeína e álcool antes de dormir**: A cafeína pode interferir com a qualidade do sono e o álcool pode dificultar a queda do sono.
-* **Evite o uso de tecnologias eletrônicas antes de dormir**: A luz azul das telas de telemóvel e computador pode interferir com a produção de melatonina, o hormônio que regula o sono.
+* **Evite o uso de tecnologias eletrónicas antes de dormir**: A luz azul das telas de telemóvel e computador pode interferir com a produção de melatonina, o hormônio que regula o sono.
 
 ## Erros Comuns
 
@@ -37,7 +37,7 @@ Existem alguns erros comuns que os atletas cometem em relação ao sono. Aqui es
 
 ## Protocolo/Conclusão
 
-O sono é fundamental para a recuperação do atleta. Para otimizar o sono, é importante estabelecer uma rotina de sono regular, criar um ambiente de sono favorável e evitar a ingestão de cafeína e álcool antes de dormir. Além disso, é importante evitar o uso de tecnologias eletrônicas antes de dormir e não ficar acordado até tarde. Com essas dicas, os atletas podem melhorar a qualidade do sono e reduzir o risco de lesões.
+O sono é fundamental para a recuperação do atleta. Para otimizar o sono, é importante estabelecer uma rotina de sono regular, criar um ambiente de sono favorável e evitar a ingestão de cafeína e álcool antes de dormir. Além disso, é importante evitar o uso de tecnologias eletrónicas antes de dormir e não ficar acordado até tarde. Com essas dicas, os atletas podem melhorar a qualidade do sono e reduzir o risco de lesões.
 
 ## Referências Científicas
 

@@ -9,7 +9,7 @@ coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=
 
 ### Stress Fractures em Corredores: Uma Visão Geral
 
-Os stress fractures (SF) são lesões comuns em corredores, causadas por micro-transtornos nas estruturas ósseas. Essas lesões podem ser causadas por uma combinação de fatores, incluindo a sobrecarga de treinamento, a falta de adaptação ao novo treinamento, a inadequação da dieta e a falta de repouso adequado. Os SF podem afetar qualquer parte do corpo, mas são mais comuns em áreas de estresse mecânico elevado, como a tíbia, os metatarsos e o navicular.
+Os stress fractures (SF) são lesões comuns em corredores, causadas por micro-transtornos nas estruturas ósseas. Essas lesões podem ser causadas por uma combinação de fatores, incluindo a sobrecarga de treino, a falta de adaptação ao novo treino, a inadequação da dieta e a falta de repouso adequado. Os SF podem afetar qualquer parte do corpo, mas são mais comuns em áreas de estresse mecânico elevado, como a tíbia, os metatarsos e o navicular.
 
 #### Prevalência dos SF em Corredores
 
@@ -59,13 +59,13 @@ O protocolo de retorno ao treino é crucial para evitar lesões e promover a rec
 
 A fase de repouso é a primeira fase do protocolo de retorno ao treino. Durante essa fase, o corredor deve evitar qualquer atividade que possa causar dor ou desconforto (9).
 
-#### Fase de Treinamento Progressivo
+#### Fase de treino Progressivo
 
-A fase de treinamento progressivo é a segunda fase do protocolo de retorno ao treino. Durante essa fase, o corredor deve realizar treinamento progressivo, aumentando gradualmente a intensidade e a duração do treinamento (10).
+A fase de treino progressivo é a segunda fase do protocolo de retorno ao treino. Durante essa fase, o corredor deve realizar treino progressivo, aumentando gradualmente a intensidade e a duração do treino (10).
 
-#### Fase de Treinamento de Força
+#### Fase de treino de Força
 
-A fase de treinamento de força é a terceira fase do protocolo de retorno ao treino. Durante essa fase, o corredor deve realizar treinamento de força para melhorar a resistência e a força muscular (11).
+A fase de treino de força é a terceira fase do protocolo de retorno ao treino. Durante essa fase, o corredor deve realizar treino de força para melhorar a resistência e a força muscular (11).
 
 ### Conclusão
 

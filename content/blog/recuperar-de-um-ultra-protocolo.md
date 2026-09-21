@@ -2,7 +2,7 @@
 title: "Recuperar de um Ultra: Protocolo Completo"
 date: '2026-09-18'
 category: "Recuperação"
-excerpt: "Recuperar de um ultra exige uma combinação de intervenções fisiológicas, nutricionais, de sono e de monitorização de carga, todas coordenadas num plano de 48–72 h pós‑corrida.…"
+excerpt: "Recuperar de um ultra exige uma combinação de intervenções fisiológicas, nutricionais, de sono e de monitorização de carga, todas coordenadas num plano de."
 readTime: 5
 faqs:
   - q: "Qual a duração ideal da imersão em água fria após um ultra?"

@@ -2,13 +2,13 @@
 title: "Pliometria e Rigidez Tendínea: Força Reativa ao Serviço da Economia"
 date: '2026-09-08'
 category: "Treino"
-excerpt: "Apliquemos a pliometria e a rigidez tendínea para maximizar a força reativa do atleta, reduzindo o custo energético e melhorando a eficiência de corrida em 5‑10 % em distâncias de 5 km a maratona.…"
+excerpt: "Apliquemos a pliometria e a rigidez tendínea para maximizar a força reativa do atleta, reduzindo o custo energético e melhorando a eficiência de corrida em."
 readTime: 5
 faqs:
   - q: "Qual é o tempo de contato ideal em saltos em profundidade para corredores?"
     a: "O tempo de contato deve ficar abaixo de 200 ms para garantir uma transição rápida de exciplexo‑contraction, minimizando a perda de energia."
   - q: "Com que frequência devo medir a rigidez tendínea?"
-    a: "Recomenda‑se uma avaliação a cada 8 semanas para ajustar o volume de treinamento isométrico e prevenir sobrecarga tendínea."
+    a: "Recomenda‑se uma avaliação a cada 8 semanas para ajustar o volume de treino isométrico e prevenir sobrecarga tendínea."
   - q: "Posso fazer pliometria se já tiver lesões de tendão?"
     a: "Não. Se houver histórico de tendinite ou rupturas, é necessário primeiro estabilizar e fortalecer o tendão com exercícios isométricos antes de introduzir pliometria."
 ---
@@ -19,7 +19,7 @@ A pliometria, ao potenciar a capacidade de contracção explosiva, e o fortaleci
 
 ## Base Científica
 
-A transferência de energia entre tendão e músculo é governada pela lei de Hooke: a força (F) é proporcional à deformação (Δx) e à rigidez (k). A rigidez tendínea aumenta com treinamento de resistência e carga isométrica, reduzindo a amplitude de deformação e, portanto, a dissipação de energia. Estudos mostram que corredores com tendões mais rígidos apresentam menor tempo de contato e maior propulsão (Buchheit & Laursen, 2013).
+A transferência de energia entre tendão e músculo é governada pela lei de Hooke: a força (F) é proporcional à deformação (Δx) e à rigidez (k). A rigidez tendínea aumenta com treino de resistência e carga isométrica, reduzindo a amplitude de deformação e, portanto, a dissipação de energia. Estudos mostram que corredores com tendões mais rígidos apresentam menor tempo de contato e maior propulsão (Buchheit & Laursen, 2013).
 
 A pliometria, por outro lado, explora o ciclo exciplexo‑contraction (Ecc‑Con). Ao combinar uma fase exciplexo rápida com uma fase de contração isométrica seguida de uma contração concêntrica, aumenta-se a capacidade de gerar força em menos tempo. A capacidade de amortecer rapidamente a carga exciplexa (Δt ≈ 100 ms) reduz o gasto metabólico por passo e melhora a eficiência de corrida (Blagrove, Howatson & Hayes, 2018).
 

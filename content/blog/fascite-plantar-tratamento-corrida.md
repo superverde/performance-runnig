@@ -2,7 +2,7 @@
 title: "Fascite Plantar: Tratamento, Retorno ao Treino e Prevenção"
 date: '2026-08-01'
 category: "Lesões"
-excerpt: "O fascite plantar é uma condição comum em corredores, caracterizada por dor e inflamação no fundo do pé, especialmente na parte do arco plantar. É uma lesão que afeta cerca de 10 a 15% dos corredores,…"
+excerpt: "Fascite Plantar: Tratamento, Retorno ao Treino e Prevenção =========================================================="
 readTime: 4
 ---
 

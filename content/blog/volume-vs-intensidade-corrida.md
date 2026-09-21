@@ -2,11 +2,11 @@
 title: "Volume vs Intensidade: O Eterno Debate na Corrida de Fundo"
 date: '2026-07-11'
 category: "Treino"
-excerpt: "A corrida de fundo é uma atividade que requer uma combinação perfeita de volume de treino e intensidade. No entanto, muitos corredores se perguntam: qual é a melhor abordagem? Deve-se priorizar o volu…"
+excerpt: "A corrida de fundo é uma atividade que requer uma combinação perfeita de volume de treino e intensidade."
 readTime: 4
 ---
 
-A corrida de fundo é uma atividade que requer uma combinação perfeita de volume de treino e intensidade. No entanto, muitos corredores se perguntam: qual é a melhor abordagem? Deve-se priorizar o volume de treino ou a intensidade? A resposta não é simples, pois depende de muitos fatores, incluindo o nível de treinamento, a distância da corrida e as objetivos individuais. Neste artigo, vamos explorar a relação entre volume e intensidade no treino de corrida de fundo e como aplicar essa compreensão para melhorar o desempenho.
+A corrida de fundo é uma atividade que requer uma combinação perfeita de volume de treino e intensidade. No entanto, muitos corredores se perguntam: qual é a melhor abordagem? Deve-se priorizar o volume de treino ou a intensidade? A resposta não é simples, pois depende de muitos fatores, incluindo o nível de treino, a distância da corrida e as objetivos individuais. Neste artigo, vamos explorar a relação entre volume e intensidade no treino de corrida de fundo e como aplicar essa compreensão para melhorar o desempenho.
 
 O volume de treino refere-se ao número de dias de treino por semana, ao número de quilómetros corridos e ao tempo gasto no treino. A intensidade, por outro lado, é medida pela duração e a intensidade dos treinos. É importante notar que ambas as variáveis são importantes para o desenvolvimento de uma corrida de fundo bem sucedida. Um volume de treino excessivo pode levar a lesões e à fadiga, enquanto uma intensidade excessiva pode não permitir que o corpo se recupere adequadamente.
 
@@ -20,9 +20,9 @@ Por outro lado, a intensidade é crucial para o desenvolvimento da capacidade an
 
 Então, como aplicar essa compreensão no treino de corrida de fundo? Aqui estão algumas dicas:
 
-* **Defina seus objetivos**: Antes de começar a planejar seu treino, é importante definir seus objetivos. Se você está treinando para uma corrida de longa distância, é provável que você precise focar no volume de treino e na resistência cardiovascular. Se você está treinando para uma corrida de curta distância, é provável que você precise focar na intensidade e na capacidade anaeróbica.
+* **Defina seus objetivos**: Antes de começar a planejar seu treino, é importante definir seus objetivos. Se estás a treinar para uma corrida de longa distância, é provável que precises focar no volume de treino e na resistência cardiovascular. Se estás a treinar para uma corrida de curta distância, é provável que precises focar na intensidade e na capacidade anaeróbica.
 * **Crie um plano de treino**: Um plano de treino deve incluir uma combinação de treinos de baixa, moderada e alta intensidade. O treino de baixa intensidade deve ser feito com frequência para ajudar a aumentar a resistência cardiovascular e a capacidade anaeróbica. O treino de moderada intensidade deve ser feito com menos frequência para ajudar a aumentar a capacidade aeróbica. O treino de alta intensidade deve ser feito com menos frequência para ajudar a aumentar a capacidade anaeróbica.
-* **Monitore seu progresso**: É importante monitorar seu progresso e ajustar o plano de treino conforme necessário. Se você está sentindo fadiga ou lesões, é provável que você precise reduzir o volume de treino ou a intensidade.
+* **Monitore seu progresso**: É importante monitorar seu progresso e ajustar o plano de treino conforme necessário. Se estás a sentir fadiga ou lesões, é provável que precises reduzir o volume de treino ou a intensidade.
 
 ## Erros Comuns
 

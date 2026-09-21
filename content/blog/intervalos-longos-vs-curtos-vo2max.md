@@ -2,7 +2,7 @@
 title: "Intervalos Longos vs Curtos: Qual Desenvolve Mais o VO2max"
 date: '2026-09-12'
 category: "Treino"
-excerpt: "Os intervalos mais longos (4‑6 min) são geralmente mais eficazes para elevar o VO₂max, enquanto os curtos (30‑60 s) favorecem a velocidade e a potência anaeróbica.…"
+excerpt: "Os intervalos mais longos (4‑6 min) são geralmente mais eficazes para elevar o VO₂max, enquanto os curtos (30‑60 s) favorecem a velocidade e a potência."
 readTime: 5
 faqs:
   - q: "Qual a diferença entre intervalos longos e curtos em termos de VO₂max?"

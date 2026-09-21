@@ -2,13 +2,13 @@
 title: "Economia de Corrida: Como Gastar Menos Energia a Cada Passada"
 date: '2026-07-13'
 category: "Fisiologia"
-excerpt: "A corrida é um esporte que exige uma combinação de força muscular, flexibilidade e capacidade aeróbica. No entanto, muitos corredores ainda não entendem a importância da economia de corrida, que é fun…"
+excerpt: "A corrida é um desporto que exige uma combinação de força muscular, flexibilidade e capacidade aeróbica."
 readTime: 4
 ---
 
 ### Economia de Corrida: Como Gastar Menos Energia a Cada Passada
 
-A corrida é um esporte que exige uma combinação de força muscular, flexibilidade e capacidade aeróbica. No entanto, muitos corredores ainda não entendem a importância da economia de corrida, que é fundamental para alcançar o máximo potencial de desempenho. A economia de corrida refere-se à capacidade de mover o corpo com a menor quantidade possível de energia, o que ajuda a reduzir o esforço e a prevenir lesões. Neste artigo, exploraremos a base científica da economia de corrida, suas implicações práticas e como aplicá-la no treino.
+A corrida é um desporto que exige uma combinação de força muscular, flexibilidade e capacidade aeróbica. No entanto, muitos corredores ainda não entendem a importância da economia de corrida, que é fundamental para alcançar o máximo potencial de desempenho. A economia de corrida refere-se à capacidade de mover o corpo com a menor quantidade possível de energia, o que ajuda a reduzir o esforço e a prevenir lesões. Neste artigo, exploraremos a base científica da economia de corrida, suas implicações práticas e como aplicá-la no treino.
 
 A capacidade de economizar energia durante a corrida é influenciada por vários fatores, incluindo a postura corporal, a técnica de corrida e a capacidade aeróbica. De acordo com um estudo publicado no Journal of Applied Physiology, a postura corporal é um fator importante na economia de corrida. Os corredores com uma postura mais vertical e uma redução da inclinação da cabeça e do pescoço consomem menos energia em comparação com os corredores com uma postura mais inclinada (Saltin & Astrand, 1967).
 
@@ -30,7 +30,7 @@ Um exemplo prático de como aplicar a economia de corrida em seu treino é o seg
 
 ### Erros Comuns
 
-Um erro comum que os corredores cometem é não entender a importância da economia de corrida. Muitos corredores acreditam que a corrida é apenas sobre a quantidade de quilômetros que você pode correr, e não sobre a técnica e a economia de energia. Além disso, muitos corredores também cometem o erro de não treinar a técnica de corrida e a capacidade aeróbica, o que pode levar a lesões e a uma redução do desempenho.
+Um erro comum que os corredores cometem é não entender a importância da economia de corrida. Muitos corredores acreditam que a corrida é apenas sobre a quantidade de quilômetros que podes correr, e não sobre a técnica e a economia de energia. Além disso, muitos corredores também cometem o erro de não treinar a técnica de corrida e a capacidade aeróbica, o que pode levar a lesões e a uma redução do desempenho.
 
 ### Protocolo/Conclusão
 

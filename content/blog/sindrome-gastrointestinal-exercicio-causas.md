@@ -2,7 +2,7 @@
 title: "Síndrome Gastrointestinal do Exercício: Porque é Que o Estômago Falha nos Ultras"
 date: '2026-09-05'
 category: "Nutrição"
-excerpt: "O estômago falha nos ultras porque, durante percursos de mais de 50 km, o corpo redireciona a maior parte do fluxo sanguíneo para os músculos, deixando o trato gastrointestinal com fluxo insuficiente,…"
+excerpt: "O estômago falha nos ultras porque, durante percursos de mais de 50 km, o corpo redireciona a maior parte do fluxo sanguíneo para os músculos, deixando o."
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

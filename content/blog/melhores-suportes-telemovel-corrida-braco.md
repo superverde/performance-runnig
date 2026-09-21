@@ -2,7 +2,7 @@
 title: "Melhores Suportes de Telemóvel para Correr no Braço"
 date: '2026-09-17'
 category: "Equipamento"
-excerpt: "Se procuras o melhor suporte de telemóvel para correr no braço, este artigo vai guiar‑te na escolha de equipamentos que combinam conforto, segurança e desempenho, baseando‑se em dados científicos e te…"
+excerpt: "Se procuras o melhor suporte de telemóvel para correr no braço, este artigo vai guiar‑te na escolha de equipamentos que combinam conforto, segurança e."
 readTime: 4
 faqs:
   - q: "O suporte de telemóvel pode aumentar o risco de lesões?"

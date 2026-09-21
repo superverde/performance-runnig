@@ -2,7 +2,7 @@
 title: "Melhores Barras e Alimentos Sólidos para Ultra Trail"
 date: '2026-07-25'
 category: "Equipamento"
-excerpt: "Correr ultra trail é um desafio extremamente exigente, tanto física como mentalmente. A longa duração da prova e o terreno acidentado requerem uma combinação de resistência cardiovascular, flexibilida…"
+excerpt: "Correr ultra trail é um desafio extremamente exigente, tanto física como mentalmente."
 readTime: 4
 ---
 

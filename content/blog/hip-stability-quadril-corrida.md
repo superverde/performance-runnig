@@ -2,7 +2,7 @@
 title: "Estabilidade do Quadril: A Base de Uma Corrida Sem Lesões"
 date: '2026-08-20'
 category: "Biomecânica"
-excerpt: "A estabilidade do quadril é a pedra angular de uma corrida livre de lesões, pois controla a distribuição de cargas laterais e evita compensações que sobrecarregam joelhos, tornozelos e coluna. Quando …"
+excerpt: "A estabilidade do quadril é a pedra angular de uma corrida livre de lesões, pois controla a distribuição de cargas laterais e evita compensações que."
 readTime: 5
 faqs:
   - q: "Qual a diferença entre estabilidade do quadril e força do quadril?"
@@ -15,11 +15,11 @@ faqs:
 
 A estabilidade do quadril é a pedra angular de uma corrida livre de lesões, pois controla a distribuição de cargas laterais e evita compensações que sobrecarregam joelhos, tornozelos e coluna. Quando os músculos glúteo máximo, medius e minimus trabalham em sincronia, a perna mantém alinhamento e a energia é transferida de forma eficiente para a propulsão.
 
-Para os corredores de elite e amadores, compreender a biomecânica do quadril significa reconhecer que a sua função não se limita apenas ao movimento de extensão, mas também à rotação interna, externa e à estabilização mediolateral. A falta de controle nesses movimentos pode resultar em hipertrofia muscular, tendinite e, em casos extremos, fraturas por estresse. Assim, a intervenção precoce na estabilidade do quadril torna‑se um investimento na longevidade da carreira atlética.
+Para os corredores de elite e amadores, compreender a biomecânica do quadril significa reconhecer que a sua função não se limita apenas ao movimento de extensão, mas também à rotação interna, externa e à estabilização mediolateral. A falta de controlo nesses movimentos pode resultar em hipertrofia muscular, tendinite e, em casos extremos, fraturas por estresse. Assim, a intervenção precoce na estabilidade do quadril torna‑se um investimento na longevidade da carreira atlética.
 
 ## Base Científica
 
-A literatura biomecânica demonstra que a postura do quadril influencia diretamente a eficiência de corrida. Novacheck (1998) descreve que a desvio mediolateral do centro de massa aumenta a carga sobre a articulação do joelho em até 30 % durante a fase de apoio. Estudos de Lieberman et al. (2010) apontam que corredores com maior estabilidade do quadril apresentam menor impacto de colisão no pé, reduzindo o risco de lesões por sobrecarga. Moore (2016) destaca que a técnica econômica de corrida depende de fatores modifiáveis, entre eles a estabilidade do quadril, que permite a redução da amplitude de movimento excessiva e, consequentemente, da energia desperdiçada.
+A literatura biomecânica demonstra que a postura do quadril influencia diretamente a eficiência de corrida. Novacheck (1998) descreve que a desvio mediolateral do centro de massa aumenta a carga sobre a articulação do joelho em até 30 % durante a fase de apoio. Estudos de Lieberman et al. (2010) apontam que corredores com maior estabilidade do quadril apresentam menor impacto de colisão no pé, reduzindo o risco de lesões por sobrecarga. Moore (2016) destaca que a técnica económica de corrida depende de fatores modifiáveis, entre eles a estabilidade do quadril, que permite a redução da amplitude de movimento excessiva e, consequentemente, da energia desperdiçada.
 
 A força dos abductores do quadril deve ultrapassar 80 % da força do quadríceps para manter a estabilidade durante a corrida (Daoud et al., 2012). Quando essa relação é comprometida, a perna tende a adotar um padrão de “valgus” que aumenta a carga medial no joelho e a tensão sobre a banda iliotibial, fatores associados a lesões de tendão patelar e síndrome da banda iliotibial.
 

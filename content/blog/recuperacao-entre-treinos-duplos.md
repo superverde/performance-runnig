@@ -2,7 +2,7 @@
 title: "Recuperar Entre Treinos Duplos: Janela, Nutrição e Sono"
 date: '2026-09-06'
 category: "Recuperação"
-excerpt: "Para maximizar a recuperação entre treinos duplos, a janela de 24 a 48 h é crítica e a combinação de carboidratos, proteína, hidratação adequada e sono de 7–9 h garante a restauração muscular e cognit…"
+excerpt: "Para maximizar a recuperação entre treinos duplos, a janela de 24 a 48 h é crítica e a combinação de carboidratos, proteína, hidratação adequada e sono de."
 readTime: 5
 faqs:
   - q: "Qual é a quantidade ideal de proteína a ingerir imediatamente após o treino?"

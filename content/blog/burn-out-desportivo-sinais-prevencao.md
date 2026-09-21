@@ -2,7 +2,7 @@
 title: "Burnout Desportivo em Corredores: Sinais e Como Prevenir"
 date: '2026-08-09'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação de capacidade física e mental. Embora a fadiga física seja um fator importante, o burnout desportivo é um problema cada vez mais comum entre corredores…"
+excerpt: "A corrida é um desporto que exige uma combinação de capacidade física e mental."
 readTime: 4
 ---
 

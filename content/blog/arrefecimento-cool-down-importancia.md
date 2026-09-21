@@ -2,7 +2,7 @@
 title: "Cool Down: O Que Acontece se Parares a Correr de Repente"
 date: '2026-08-16'
 category: "Recuperação"
-excerpt: "Correr é uma atividade física intensa que exige um grande esforço muscular, cardíaco e respiratório. Quando parás de correr de repente, o seu corpo entra em um processo chamado \"cool down\", que é esse…"
+excerpt: "Correr é uma atividade física intensa que exige um grande esforço muscular, cardíaco e respiratório."
 readTime: 4
 ---
 
@@ -16,7 +16,7 @@ A parada repentina da corrida pode ter consequências negativas para a recupera�
 
 ## Aplicação Prática
 
-Então, o que você pode fazer para evitar os erros comuns durante o cool down? Aqui estão algumas dicas práticas:
+Então, o que podes fazer para evitar os erros comuns durante o cool down? Aqui estão algumas dicas práticas:
 
 * **Parar gradualmente**: em vez de parar de repente, tente diminuir gradualmente a intensidade da corrida antes de parar completamente. Isso ajudará a evitar a sobrecarga muscular e a reduzir a acumulação de substâncias tóxicas.
 * **Estirar**: um breve período de estiramento após a corrida pode ajudar a reduzir a tensão muscular e a melhorar a circulação sanguínea.

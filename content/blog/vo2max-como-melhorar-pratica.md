@@ -2,7 +2,7 @@
 title: "Como Melhorar o VO2max: Métodos Práticos e Cientificamente Validados"
 date: '2026-07-04'
 category: "Fisiologia"
-excerpt: "O VO2max, ou capacidade aeróbica máxima, é um parâmetro fundamental para avaliar o desempenho aeróbico em atividades de resistência prolongada, como corrida, ciclismo e natação. É definido como a maio…"
+excerpt: "<div style='display:flex;justify-content:center;margin:8px 0 32px;' <video controls playsinline style='width:100%;max-width:380px;border-radius:16px;'."
 readTime: 4
 hasVideo: true
 ---
@@ -23,7 +23,7 @@ De acordo com Bassett e Howley (2000), o VO2max é limitado pela capacidade de o
 
 ### Treino de Alta Intensidade
 
-O treino de alta intensidade é uma ferramenta eficaz para melhorar o VO2max. De acordo com Midgley, McNaughton e Wilkinson (2006), o treino de alta intensidade pode ser realizado em diferentes intensidades e volumes, dependendo do objetivo do treinamento. Para melhorar o VO2max, é recomendável realizar treinos de alta intensidade com frequência e volume moderado, seguidos de períodos de recuperação. Por exemplo, um treino de alta intensidade pode consistir em 4-6 intervalos de 400m a uma velocidade de 90% da velocidade máxima, com 200m de recuperação entre cada intervalo.
+O treino de alta intensidade é uma ferramenta eficaz para melhorar o VO2max. De acordo com Midgley, McNaughton e Wilkinson (2006), o treino de alta intensidade pode ser realizado em diferentes intensidades e volumes, dependendo do objetivo do treino. Para melhorar o VO2max, é recomendável realizar treinos de alta intensidade com frequência e volume moderado, seguidos de períodos de recuperação. Por exemplo, um treino de alta intensidade pode consistir em 4-6 intervalos de 400m a uma velocidade de 90% da velocidade máxima, com 200m de recuperação entre cada intervalo.
 
 ### Treino de Intervalos
 

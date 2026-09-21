@@ -2,7 +2,7 @@
 title: "Fita de Kinesiologia para Corredores: Como e Quando Usar"
 date: '2026-09-11'
 category: "Equipamento"
-excerpt: "A fita de kinesiologia para corredores é mais do que um simples acessório de moda; trata‑se de um material elástico que, quando aplicado corretamente, pode melhorar a circulação, reduzir a fadiga musc…"
+excerpt: "A fita de kinesiologia para corredores é mais do que um simples acessório de moda; trata‑se de um material elástico que, quando aplicado corretamente, pode."
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"
@@ -19,7 +19,7 @@ A fita de kinesiologia para corredores é mais do que um simples acessório de m
 
 Quando se trata de fita de kinesiologia, a qualidade do material, a aderência, a elasticidade e a durabilidade são os principais fatores que determinam o seu desempenho. Estudos científicos indicam que a fita deve ter um grau de elasticidade que permita a amplitude de movimento natural do músculo, ao mesmo tempo que oferece suporte suficiente para reduzir a carga mecânica nas articulações (Nigg et al., 2015). A composição da fita, geralmente um poliéster com adesivo de silicone, influencia diretamente a sua resistência ao suor e à temperatura ambiente, fatores críticos durante a corrida de longa distância.
 
-A aderência é outro critério fundamental. Uma fita que perde rapidamente a sua cola pode causar desconforto e até agravar a tensão muscular. Por isso, a escolha de marcas que utilizam adesivos de alta performance, testados em condições de alta umidade, é essencial. A espessura da fita também deve ser considerada: fitas mais finas (3 mm) são ideais para áreas sensíveis como tornozelos e joelhos, enquanto fitas mais grossas (5–10 mm) proporcionam maior suporte para músculos maiores como quadríceps e glúteos.
+A aderência é outro critério fundamental. Uma fita que perde rapidamente a sua cola pode causar desconforto e até agravar a tensão muscular. Por isso, a escolha de marcas que utilizam adesivos de alta performance, testados em condições de alta humidade, é essencial. A espessura da fita também deve ser considerada: fitas mais finas (3 mm) são ideais para áreas sensíveis como tornozelos e joelhos, enquanto fitas mais grossas (5–10 mm) proporcionam maior suporte para músculos maiores como quadríceps e glúteos.
 
 Além disso, a aplicação correta é tão importante quanto a qualidade do produto. Técnicas de corte e posicionamento, baseadas em direções anatómicas específicas, garantem que a fita trabalhe em sinergia com a biomecânica do corredor. A literatura destaca que a aplicação em linhas paralelas ao músculo pode reduzir a tensão intramuscular e melhorar a circulação sanguínea, contribuindo para a recuperação (Hoogkamer et al., 2018).
 

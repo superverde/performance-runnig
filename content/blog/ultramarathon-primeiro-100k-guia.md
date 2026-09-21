@@ -2,7 +2,7 @@
 title: "Primeiro Ultramaratona de 100km: Tudo o que Precisas de Saber"
 date: '2026-08-19'
 category: "Trail Running"
-excerpt: "Para completar a primeira ultramaratona de 100 km, é necessário planeamento rigoroso, treino específico, nutrição adequada e recuperação estruturada, bem como compreender as exigências fisiológicas e …"
+excerpt: "Para completar a primeira ultramaratona de 100 km, é necessário planeamento rigoroso, treino específico, nutrição adequada e recuperação estruturada, bem."
 readTime: 5
 faqs:
   - q: "Qual a carga de trabalho ideal em termos de frequência cardíaca para treinos de subida em uma ultramaratona de 100 km?"
@@ -37,7 +37,7 @@ Balducci et al. (2017) identificaram que a percentagem de calorias proveniente
 ### Treino de Volume e Intensidade  
 - **Volume semanal**: 80–120 km, com um pico de 200 km no pré‑evento (últimas 3 semanas).  
 - **Treinos de subida**: 2×30 min a 70 % da FCmáx, com 3 min de descanso.  
-- **Treinos de descida**: 4×15 min a 60 % FCmáx, focando na técnica de controle de velocidade.  
+- **Treinos de descida**: 4×15 min a 60 % FCmáx, focando na técnica de controlo de velocidade.  
 
 ### Periodização  
 1. **Fase de Base (8 sem)**: 60 km/sem, 70 % FCmáx.  

@@ -8,7 +8,7 @@ readTime: 12 minutos
 
 ## Introdução
 
-A corrida é um dos exercícios mais populares e eficazes para melhorar a saúde e o condicionamento físico. No entanto, a postura e a inclinação do tronco durante a corrida podem ter um impacto significativo no desempenho, no custo energético e no risco de lesão. A esteira de corrida é uma área de estudo ativa na biomecânica do desporto, e vários estudos têm investigado a relação entre a postura e a inclinação do tronco e o desempenho corrida.
+A corrida é um dos exercícios mais populares e eficazes para melhorar a saúde e o condicionamento físico. No entanto, a postura e a inclinação do tronco durante a corrida podem ter um impacto significativo no desempenho, no custo energético e no risco de lesão. A passadeira de corrida é uma área de estudo ativa na biomecânica do desporto, e vários estudos têm investigado a relação entre a postura e a inclinação do tronco e o desempenho corrida.
 
 ## O ângulo correto de inclinação
 

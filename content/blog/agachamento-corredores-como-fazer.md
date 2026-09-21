@@ -2,7 +2,7 @@
 title: "Agachamento para Corredores: Técnica, Variantes e Progressão"
 date: '2026-09-10'
 category: "Treino"
-excerpt: "O agachamento, quando corretamente executado, fortalece quadríceps, glúteos e core, melhorando a eficiência biomecânica e a resistência à fadiga em corredores.…"
+excerpt: "O agachamento, quando corretamente executado, fortalece quadríceps, glúteos e core, melhorando a eficiência biomecânica e a resistência à fadiga em."
 readTime: 5
 faqs:
   - q: "Qual a carga ideal de início para um corredor sem experiência prévia em agachamento?"

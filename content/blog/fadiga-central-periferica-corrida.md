@@ -2,7 +2,7 @@
 title: "Fadiga Central vs Periférica: Por Que o Cérebro Para Antes dos Músculos"
 date: '2026-07-17'
 category: "Fisiologia"
-excerpt: "A corrida de longa distância é um desporto que exige uma combinação de força, resistência e estratégia. No entanto, um dos aspectos mais intrigantes desta disciplina é a relação entre a fadiga central…"
+excerpt: "A corrida de longa distância é um desporto que exige uma combinação de força, resistência e estratégia."
 readTime: 4
 ---
 

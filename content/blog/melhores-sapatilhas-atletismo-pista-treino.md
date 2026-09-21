@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas para Treino de Pista"
 date: '2026-09-02'
 category: "Equipamento"
-excerpt: "A procura por melhores sapatilhas de pista não deve ser apenas uma questão de estética ou de marca: o objetivo é escolher um calçado que optimiza a eficiência, protege contra lesões e se adapta ao teu…"
+excerpt: "A procura por melhores sapatilhas de pista não deve ser apenas uma questão de estética ou de marca: o objetivo é escolher um calçado que optimiza a."
 readTime: 5
 faqs:
   - q: "Qual é o melhor drop para corridas de pista?"
@@ -39,7 +39,7 @@ Ao ponderar estes fatores, é essencial alinhar o calçado ao teu estilo de corr
 |------|-------------|---------------|---------------|----------------|
 | **Nike Air Zoom Victory 3** | Corredores de 1500 m a 3000 m que buscam velocidade | Amortização de Zoom Air no antepé, drop 4 mm, leveza | Cabedal pode ser apertado para pés largos | entre 180 € e 220 € |
 | **Adidas Adizero Boston 10** | Atletas que competem em 800 m a 1500 m | Plataforma de Boost de 12 mm, suporte lateral, drop 5 mm | Solado pode perder aderência em pistas de areia | entre 160 € e 200 € |
-| **New Balance 860v12** | Corredores que precisam de controle medial | Tecnologia Fresh Foam com suporte, drop 8 mm, boa estabilidade | Peso ligeiramente maior que modelos “speed” | entre 170 € e 210 € |
+| **New Balance 860v12** | Corredores que precisam de controlo medial | Tecnologia Fresh Foam com suporte, drop 8 mm, boa estabilidade | Peso ligeiramente maior que modelos “speed” | entre 170 € e 210 € |
 | **ASICS Gel-Kayano 28** | Corredores com histórico de lesões ou que precisam de amortização | Gel Duo na zona posterior, suporte de estabilidade, drop 9 mm | Pode ser demasiado rígido para corredores de velocidade | entre 190 € e 230 € |
 | **Saucony Endorphin Pro 12** | Competidores de 400 m a 800 m que exigem resposta rápida | Solado de EVA de alta densidade, drop 3 mm, resposta instantânea | Cabedal pode não ser ideal para pés largos | entre 150 € e 190 € |
 

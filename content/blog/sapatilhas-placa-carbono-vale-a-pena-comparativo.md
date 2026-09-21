@@ -2,7 +2,7 @@
 title: "Sapatilhas com Placa de Carbono: Valem o Preço? Comparativo"
 date: '2026-07-06'
 category: "Equipamento"
-excerpt: "As sapatilhas com placa de carbono são uma opção popular entre os corredores de alta performance, prometendo uma vantagem competitiva e uma experiência de corrida mais eficiente. No entanto, o preço d…"
+excerpt: "As sapatilhas com placa de carbono são uma opção popular entre os corredores de alta performance, prometendo uma vantagem competitiva e uma experiência de."
 readTime: 4
 ---
 

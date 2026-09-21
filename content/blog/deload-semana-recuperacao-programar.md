@@ -2,7 +2,7 @@
 title: "Semana de Deload: Como e Quando Programar o Descanso Ativo"
 date: '2026-07-31'
 category: "Recuperação"
-excerpt: "A semana de deload é uma ferramenta fundamental para os atletas de desporto que buscam melhorar a sua performance e reduzir o stress. Embora muitos treinadores e atletas achem que o deload é apenas um…"
+excerpt: "A semana de deload é uma ferramenta fundamental para os atletas de desporto que buscam melhorar a sua performance e reduzir o stress."
 readTime: 4
 ---
 
@@ -14,7 +14,7 @@ No entanto, muitos atletas não sabem como programar o deload de forma eficaz, o
 
 A semana de deload é uma estratégia de treino que visa reduzir a carga de treino e permitir que o corpo se recupere dos danos musculares e osteoarticulares causados pelo treino intenso. Durante o deload, o objetivo é reduzir a intensidade do treino e aumentar o tempo de descanso entre as sessões de treino. Isso permite que o corpo se recupere dos danos musculares e osteoarticulares causados pelo treino intenso e se adapte às exigências do treino.
 
-Um estudo publicado no International Journal of Sports Physiology and Performance (Kellmann et al., 2018) encontrou que a semana de deload reduziu a perda de força muscular em 37% em comparação com um grupo de controle que não realizou deload. Além disso, o estudo encontrou que a semana de deload também reduziu a inflamação muscular em 25% em comparação com o grupo de controle.
+Um estudo publicado no International Journal of Sports Physiology and Performance (Kellmann et al., 2018) encontrou que a semana de deload reduziu a perda de força muscular em 37% em comparação com um grupo de controlo que não realizou deload. Além disso, o estudo encontrou que a semana de deload também reduziu a inflamação muscular em 25% em comparação com o grupo de controlo.
 
 ## Aplicação Prática
 
@@ -34,7 +34,7 @@ Aqui estão alguns erros comuns que os atletas devem evitar ao programar o deloa
 1. **Não reduzir a carga de treino**: Se a carga de treino não for reduzida, o corpo não terá tempo para se recuperar e o deload será ineficaz.
 2. **Não aumentar o tempo de descanso**: Se o tempo de descanso não for aumentado, o corpo não terá tempo para se recuperar e o deload será ineficaz.
 3. **Não reduzir a frequência do treino**: Se a frequência do treino não for reduzida, o corpo não terá tempo para se recuperar e o deload será ineficaz.
-4. **Não monitorar a recuperação**: Se a recuperação não for monitorada, é difícil determinar se o deload está funcionando ou não.
+4. **Não monitorar a recuperação**: Se a recuperação não for monitorada, é difícil determinar se o deload está a funcionar ou não.
 
 ## Protocolo
 

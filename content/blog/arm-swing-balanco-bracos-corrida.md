@@ -2,7 +2,7 @@
 title: "Balanço de Braços: Como os Membros Superiores Afetam a Corrida"
 date: '2026-07-26'
 category: "Biomecânica"
-excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e coordenação. Embora a maioria das pessoas se concentre nos movimentos dos membros inferiores, os membros superiores desempenham…"
+excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e coordenação."
 readTime: 4
 ---
 

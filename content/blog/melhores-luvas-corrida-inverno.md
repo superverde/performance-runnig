@@ -2,7 +2,7 @@
 title: "Melhores Luvas de Corrida para o Inverno"
 date: '2026-08-30'
 category: "Equipamento"
-excerpt: "A corrida no inverno pode transformar a sua experiência de treino, mas a falta de calor nas mãos pode rapidamente reduzir a sua performance. As luvas de corrida para o inverno são, portanto, um elemen…"
+excerpt: "A corrida no inverno pode transformar a sua experiência de treino, mas a falta de calor nas mãos pode rapidamente reduzir a sua performance."
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre lã merino e poliuretano no isolamento térmico?"
@@ -17,7 +17,7 @@ A corrida no inverno pode transformar a sua experiência de treino, mas a falta 
 
 ## Como Escolher: Critérios Que Importam
 
-Para garantir que a luva cumpra o seu papel, é fundamental avaliar três dimensões técnicas: **isolamento térmico, ventilação e aderência**. O isolamento térmico deve ser suficiente para manter as mãos a uma temperatura entre 20 °C e 25 °C, mesmo em ventos de 30 km/h; materiais como a lã merino combinada com espuma de poliuretano de alta densidade oferecem essa proteção sem sobrecarregar o peso. A ventilação, embora menos crítica, evita a acumulação de suor que pode causar escorregamento; a maioria dos modelos modernos incorpora micro‑ventilação nas palmas, permitindo a troca de ar sem comprometer o isolamento. Por fim, a aderência é essencial para evitar a perda de controle das mãos, especialmente em superfícies molhadas; superfícies de silicone de alta tração nas palmas garantem segurança e estabilidade.
+Para garantir que a luva cumpra o seu papel, é fundamental avaliar três dimensões técnicas: **isolamento térmico, ventilação e aderência**. O isolamento térmico deve ser suficiente para manter as mãos a uma temperatura entre 20 °C e 25 °C, mesmo em ventos de 30 km/h; materiais como a lã merino combinada com espuma de poliuretano de alta densidade oferecem essa proteção sem sobrecarregar o peso. A ventilação, embora menos crítica, evita a acumulação de suor que pode causar escorregamento; a maioria dos modelos modernos incorpora micro‑ventilação nas palmas, permitindo a troca de ar sem comprometer o isolamento. Por fim, a aderência é essencial para evitar a perda de controlo das mãos, especialmente em superfícies molhadas; superfícies de silicone de alta tração nas palmas garantem segurança e estabilidade.
 
 Outro critério científico relevante é a **economia de energia**. Estudos como o de Hoogkamer et al. (2018) mostram que equipamentos que reduzem a carga térmica nas extremidades podem diminuir o gasto energético em até 3 %. Além disso, a pesquisa de Fuller et al. (2015) destaca que o conforto térmico influencia diretamente na eficiência muscular, reduzindo a fadiga precoce. Portanto, a escolha de luvas que mantêm as mãos em temperatura ideal pode ter um impacto direto na sua performance ao longo de longas distâncias.
 

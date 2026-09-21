@@ -2,7 +2,7 @@
 title: "Envelhecimento e Performance: Quanto Podemos Travar o Declínio?"
 date: '2026-08-19'
 category: "Fisiologia"
-excerpt: "É possível travar o declínio da performance em corredores de meia‑idade em até 30 – 40 % se mantivermos um volume de treino consistente, intensidades bem definidas e um regime de recuperação controlad…"
+excerpt: "É possível travar o declínio da performance em corredores de meia‑idade em até 30 – 40 % se mantivermos um volume de treino consistente, intensidades bem."
 readTime: 4
 ---
 

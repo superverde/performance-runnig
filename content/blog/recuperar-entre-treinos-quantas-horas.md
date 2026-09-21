@@ -2,7 +2,7 @@
 title: "Quanto Tempo Recuperar Entre Treinos de Corrida? Guia por Tipo de Sessão"
 date: '2026-08-13'
 category: "Recuperação"
-excerpt: "A recuperação é um conceito fundamental no desporto, especialmente quando se trata de corrida. Muitos atletas subestimam a importância da recuperação entre treinos, acreditando que basta correr e trei…"
+excerpt: "A recuperação é um conceito fundamental no desporto, especialmente quando se trata de corrida."
 readTime: 4
 ---
 

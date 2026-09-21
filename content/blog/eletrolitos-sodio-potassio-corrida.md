@@ -2,7 +2,7 @@
 title: "Eletrólitos na Corrida: Sódio, Potássio e Como Evitar Cãibras"
 date: '2026-07-20'
 category: "Nutrição"
-excerpt: "O treino de corrida é uma atividade intensa que exige uma combinação de força, agilidade e resistência. No entanto, muitos corredores não têm em mente a importância dos eletrólitos, como sódio e potás…"
+excerpt: "O treino de corrida é uma atividade intensa que exige uma combinação de força, agilidade e resistência."
 readTime: 4
 ---
 
@@ -13,9 +13,9 @@ A perda de sódio e potássio durante o treino é mais acentuada do que se pensa
 A falta de sódio e potássio pode levar a uma série de sintomas, incluindo cãibras, fadiga muscular, dor de cabeça e problemas cardíacos. Além disso, a perda de eletrólitos pode afetar a sua capacidade de se recuperar após o treino, o que pode levar a uma série de problemas de longo prazo, incluindo lesões musculares e doenças cardíacas.
 
 ## Base Científica
-A perda de sódio e potássio durante o treino é um fenômeno bem estabelecido na literatura científica. De acordo com um estudo publicado no Journal of Applied Physiology, a perda de sódio e potássio durante o exercício é mais acentuada do que a perda de água (1). Outro estudo publicado no European Journal of Applied Physiology encontrou que a perda de sódio e potássio durante o exercício é mais significativa em corredores que realizam treinos de alta intensidade (2).
+A perda de sódio e potássio durante o treino é um fenómeno bem estabelecido na literatura científica. De acordo com um estudo publicado no Journal of Applied Physiology, a perda de sódio e potássio durante o exercício é mais acentuada do que a perda de água (1). Outro estudo publicado no European Journal of Applied Physiology encontrou que a perda de sódio e potássio durante o exercício é mais significativa em corredores que realizam treinos de alta intensidade (2).
 
-A perda de sódio e potássio durante o exercício é causada por uma combinação de fatores, incluindo a transpiração, a perda de eletrólitos na urina e a perda de eletrólitos na saliva. Além disso, a perda de sódio e potássio também pode ser afetada por fatores como a temperatura ambiente, a umidade e a intensidade do exercício.
+A perda de sódio e potássio durante o exercício é causada por uma combinação de fatores, incluindo a transpiração, a perda de eletrólitos na urina e a perda de eletrólitos na saliva. Além disso, a perda de sódio e potássio também pode ser afetada por fatores como a temperatura ambiente, a humidade e a intensidade do exercício.
 
 ## Aplicação Prática
 Para evitar cãibras e outros problemas relacionados à perda de sódio e potássio, é importante que os corredores sejam conscientes da sua necessidade nutricional. Aqui estão algumas dicas práticas para ajudar a prevenir a perda de eletrólitos durante o treino:

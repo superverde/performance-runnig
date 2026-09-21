@@ -2,7 +2,7 @@
 title: "Cafeína: O Protocolo de Dose e Timing da Position Stand da ISSN"
 date: '2026-09-03'
 category: "Nutrição"
-excerpt: "A dose ideal de cafeína para atletas de corrida é de 3–6 mg/kg, ingerida 45–60 min antes da competição, segundo a Position Stand da International Society of Sports Nutrition (ISSN). Este intervalo max…"
+excerpt: "A dose ideal de cafeína para atletas de corrida é de 3–6 mg/kg, ingerida 45–60 min antes da competição, segundo a Position Stand da International Society of."
 readTime: 5
 faqs:
   - q: "Qual a dose mínima de cafeína que já mostra efeito ergogénico em corredores?"

@@ -2,7 +2,7 @@
 title: "Estado de Flow na Corrida: Como Entrar na Zona"
 date: '2026-08-07'
 category: "Psicologia"
-excerpt: "O estado de flow é um conceito psicológico que nos permite entender como nos sentimos plenamente envolvidos e absorvidos em uma atividade. No contexto do desporto, o estado de flow é particularmente i…"
+excerpt: "O estado de flow é um conceito psicológico que nos permite entender como nos sentimos plenamente envolvidos e absorvidos em uma atividade."
 readTime: 4
 ---
 
@@ -10,7 +10,7 @@ readTime: 4
 
 O estado de flow é um conceito psicológico que nos permite entender como nos sentimos plenamente envolvidos e absorvidos em uma atividade. No contexto do desporto, o estado de flow é particularmente interessante, pois pode influenciar significativamente o desempenho e a satisfação dos atletas. Na corrida, especificamente, o estado de flow pode ser um factor crucial para alcançar os objetivos e superar os limites.
 
-Quando estamos em estado de flow, sentimo-nos completamente conectados com a atividade, sem pensar nas distrações ou preocupações do dia a dia. É um estado de plena concentração, onde a mente está livre de pensamentos negativos e a pessoa se sente completamente à vontade para se dedicar ao que está fazendo. No caso da corrida, isso significa estar completamente imerso na sensação de movimento, respiração e ritmo cardíaco, sem pensar nas dificuldades ou nos obstáculos que se apresentam.
+Quando estamos em estado de flow, sentimo-nos completamente conectados com a atividade, sem pensar nas distrações ou preocupações do dia a dia. É um estado de plena concentração, onde a mente está livre de pensamentos negativos e a pessoa se sente completamente à vontade para se dedicar ao que está a fazer. No caso da corrida, isso significa estar completamente imerso na sensação de movimento, respiração e ritmo cardíaco, sem pensar nas dificuldades ou nos obstáculos que se apresentam.
 
 Mas como podemos alcançar esse estado de flow na corrida? Qual são os fatores que influenciam essa experiência e como podemos aplicá-los em nossos treinos e competições?
 
@@ -21,7 +21,7 @@ O estado de flow foi originalmente descrito pelo psicólogo Mihaly Csikszentmiha
 * Nível de desafio: A atividade deve ser desafiadora, mas não impossível de realizar.
 * Nível de habilidade: A pessoa deve ter as habilidades necessárias para realizar a atividade com sucesso.
 * Concentração: A pessoa deve estar completamente concentrada na atividade.
-* Perda de consciência do tempo: A pessoa não se dá conta do tempo que está passando.
+* Perda de consciência do tempo: A pessoa não se dá conta do tempo que está a passar.
 * Perda de consciência das distrações: A pessoa não se dá conta das distrações ao seu redor.
 
 No contexto da corrida, esses fatores podem ser influenciados por várias variáveis, incluindo a intensidade do treino, a distância a correr, a condição física do corredor e a experiência pessoal.
@@ -34,7 +34,7 @@ Então, como podemos aplicar esses fatores para alcançar o estado de flow na co
 * **Treinos de longa distância**: Os treinos de longa distância podem ajudar a criar um desafio de durabilidade, o que pode levar ao estado de flow.
 * **Corrida em áreas novas**: Correr em áreas novas pode ajudar a criar um desafio de adaptação, o que pode levar ao estado de flow.
 * **Concentração no movimento**: Concentrar-se no movimento e no ritmo cardíaco pode ajudar a criar uma mente focada e a perder a consciência das distrações.
-* **Perda de consciência do tempo**: Tente não se dar conta do tempo que está passando durante a corrida. Isso pode ajudar a criar uma sensação de fluidez e a perder a consciência das distrações.
+* **Perda de consciência do tempo**: Tente não se dar conta do tempo que está a passar durante a corrida. Isso pode ajudar a criar uma sensação de fluidez e a perder a consciência das distrações.
 
 ## Erros Comuns
 

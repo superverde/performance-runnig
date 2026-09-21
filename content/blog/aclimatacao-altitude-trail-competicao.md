@@ -2,7 +2,7 @@
 title: "Aclimatação à Altitude para Provas de Trail de Montanha"
 date: '2026-08-17'
 category: "Trail Running"
-excerpt: "A aclimatação à altitude é uma estratégia fundamental para os trail runners que pretendem realizar provas de grande altitude. Isso porque a altitude pode afetar significativamente a capacidade de oxig…"
+excerpt: "A aclimatação à altitude é uma estratégia fundamental para os trail runners que pretendem realizar provas de grande altitude."
 readTime: 4
 ---
 

@@ -2,7 +2,7 @@
 title: "Dor nas Canelas ao Correr (Canelite): Causas, Tratamento e Prevenção"
 date: '2026-08-14'
 category: "Lesões"
-excerpt: "A corrida é um desporto extremamente popular em todo o mundo, sendo uma ótima forma de manter a forma física e promover a saúde geral. No entanto, a corrida pode também ser um desporto de alto risco d…"
+excerpt: "A corrida é um desporto extremamente popular em todo o mundo, sendo uma ótima forma de manter a forma física e promover a saúde geral."
 readTime: 4
 ---
 

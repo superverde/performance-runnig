@@ -2,7 +2,7 @@
 title: "RED-S: A Baixa Disponibilidade Energética Que Trava o Corredor"
 date: '2026-09-01'
 category: "Nutrição"
-excerpt: "A deficiência energética relativa (RED‑S) acontece quando a ingestão calórica diária não cobre as necessidades energéticas do corpo, levando a prejuízos no desempenho e na saúde do corredor.…"
+excerpt: "A deficiência energética relativa (RED‑S) acontece quando a ingestão calórica diária não cobre as necessidades energéticas do corpo, levando a prejuízos no."
 readTime: 5
 faqs:
   - q: "Qual é o menor déficit calórico que já pode afetar o desempenho de um corredor?"

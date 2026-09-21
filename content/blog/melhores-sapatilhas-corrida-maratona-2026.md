@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas de Corrida para Maratona em 2026"
 date: '2026-07-04'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida, especialmente em eventos longos como a maratona, a escolha do equipamento adequado é fundamental para evitar lesões e maximizar o desempenho. As sapatilhas de corrida são u…"
+excerpt: "Quando se trata de corrida, especialmente em eventos longos como a maratona, a escolha do equipamento adequado é fundamental para evitar lesões e maximizar o."
 readTime: 4
 ---
 

@@ -2,7 +2,7 @@
 title: "Melhores Apps de Treino de Corrida em 2026: Grátis vs. Pagas"
 date: '2026-07-30'
 category: "Equipamento"
-excerpt: "Os treinos de corrida tornaram-se uma parte importante da vida de muitos atletas, seja para fins de entretenimento, competitividade ou bem-estar geral. No entanto, a escolha do equipamento certo pode …"
+excerpt: "Os treinos de corrida tornaram-se uma parte importante da vida de muitos atletas, seja para fins de entretenimento, competitividade ou bem-estar geral."
 readTime: 4
 ---
 

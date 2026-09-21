@@ -2,11 +2,11 @@
 title: "Carboidratos no Treino de Base: Quanto, Quando e Porquê"
 date: '2026-07-18'
 category: "Nutrição"
-excerpt: "O consumo de carboidratos durante o treino de base é uma prática amplamente difundida entre os atletas de corrida. No entanto, muitos não sabem como calcular a quantidade adequada de carboidratos para…"
+excerpt: "O consumo de carboidratos durante o treino de base é uma prática amplamente difundida entre os atletas de corrida."
 readTime: 4
 ---
 
-O consumo de carboidratos durante o treino de base é uma prática amplamente difundida entre os atletas de corrida. No entanto, muitos não sabem como calcular a quantidade adequada de carboidratos para se alimentar de forma otimizada. A ciência da nutrição esportiva fornece ferramentas valiosas para ajudar os atletas a se alimentar de forma eficaz e a alcançar os seus objetivos. Neste artigo, vamos explorar a importância dos carboidratos no treino de base, como calcular a quantidade adequada e quais são os erros comuns que os atletas devem evitar.
+O consumo de carboidratos durante o treino de base é uma prática amplamente difundida entre os atletas de corrida. No entanto, muitos não sabem como calcular a quantidade adequada de carboidratos para se alimentar de forma otimizada. A ciência da nutrição desportiva fornece ferramentas valiosas para ajudar os atletas a se alimentar de forma eficaz e a alcançar os seus objetivos. Neste artigo, vamos explorar a importância dos carboidratos no treino de base, como calcular a quantidade adequada e quais são os erros comuns que os atletas devem evitar.
 
 ### Base Científica
 

@@ -2,7 +2,7 @@
 title: "Dormir Mais Melhora a Performance: A Evidência da Extensão de Sono"
 date: '2026-08-28'
 category: "Recuperação"
-excerpt: "Sim, aumentar a duração do sono melhora a performance atlética: estudos mostram que estender a noite em até 1 h pode elevar a velocidade de corrida em 2‑3 % e reduzir a fadiga muscular em 20 %.…"
+excerpt: "Sim, aumentar a duração do sono melhora a performance atlética: estudos mostram que estender a noite em até 1 h pode elevar a velocidade de corrida em 2‑3 %."
 readTime: 6
 faqs:
   - q: "Como saber se estou a dormir o suficiente?"
@@ -68,7 +68,7 @@ Esses estudos convergem para três mecanismos principais:
 2. **Ignorar a fase de “tempo de adaptação”** – mudanças de horário de sono exigem 3‑5 dias para estabilizar.  
 3. **Subestimar a influência da alimentação** – refeições pesadas antes de dormir reduzem a fase de sono profundo.  
 4. **Usar dispositivos eletrónicos** – a luz azul altera a produção de melatonina, comprometendo a indução do sono.  
-5. **Não monitorizar a variabilidade da frequência cardíaca** – HRV baixa indica que o corpo ainda está recuperando e pode precisar de mais descanso.
+5. **Não monitorizar a variabilidade da frequência cardíaca** – HRV baixa indica que o corpo ainda está a recuperar e pode precisar de mais descanso.
 
 ## Protocolo/Conclusão
 

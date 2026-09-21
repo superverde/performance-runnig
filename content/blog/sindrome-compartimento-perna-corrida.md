@@ -2,7 +2,7 @@
 title: "Síndrome de Compartimento Crónico: A Lesão Mal Diagnosticada"
 date: '2026-08-05'
 category: "Lesões"
-excerpt: "A corrida é um desporto altamente exigeante, que requer uma combinação de força, agilidade e resistência. No entanto, apesar dos benefícios físicos e mentais que a prática da corrida pode trazer, tamb…"
+excerpt: "A corrida é um desporto altamente exigeante, que requer uma combinação de força, agilidade e resistência."
 readTime: 4
 ---
 

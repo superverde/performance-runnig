@@ -2,7 +2,7 @@
 title: "Impermeáveis e Corta-Ventos para Trail: Guia GORE-TEX vs. Alternativas"
 date: '2026-07-29'
 category: "Equipamento"
-excerpt: "Quando se trata de desporto de ultra-distância, o equipamento é fundamental para garantir a segurança e a eficiência do atleta. Entre os produtos mais cruciais estão os impermeáveis e corta-ventos, qu…"
+excerpt: "Quando se trata de desporto de ultra-distância, o equipamento é fundamental para garantir a segurança e a eficiência do atleta."
 readTime: 4
 ---
 
@@ -12,7 +12,7 @@ Quando se trata de desporto de ultra-distância, o equipamento é fundamental pa
 
 ## Como Escolher: Critérios Que Importam
 
-Ao escolher um impermeável ou corta-vento para o desporto de ultra-distância, há vários critérios técnicos que devem ser considerados. A primeira coisa a ter em conta é a impermeabilidade, que deve ser suficiente para proteger o corredor do excesso de chuva ou neve. No entanto, é importante evitar a utilização de materiais excessivamente impermeáveis, que podem causar um efeito "peneira" e manter a umidade no tecido.
+Ao escolher um impermeável ou corta-vento para o desporto de ultra-distância, há vários critérios técnicos que devem ser considerados. A primeira coisa a ter em conta é a impermeabilidade, que deve ser suficiente para proteger o corredor do excesso de chuva ou neve. No entanto, é importante evitar a utilização de materiais excessivamente impermeáveis, que podem causar um efeito "peneira" e manter a humidade no tecido.
 
 Outro critério importante é a transpiração. O equipamento deve ser capaz de ajudar a controlar a temperatura corporal e evitar a acumulação de suor. Isso é especialmente importante em corridas de ultra-distância, onde a temperatura corporal pode aumentar significativamente.
 
@@ -28,10 +28,10 @@ Finalmente, é importante considerar a sua hidratação durante as corridas. Con
 
 Aqui estão algumas das melhores opções de impermeáveis e corta-ventos disponíveis no mercado em 2026:
 
-* **GORE-TEX Paclite Jacket**: Este impermeável é projetado para ser leve e compacto, tornando-o ideal para corridas de ultra-distância. A sua impermeabilidade é suficiente para proteger o corredor do excesso de chuva ou neve, e a sua transpiração é alta para controlar a temperatura corporal. (Faixa de preço: entre 150€ e 200€)
-* **The North Face Venture 2 Jacket**: Este corta-vento é projetado para ser resistente ao vento e úmido, tornando-o ideal para corridas de ultra-distância em condições adversas. A sua transpiração é alta para controlar a temperatura corporal, e a sua durabilidade é excelente. (Faixa de preço: entre 120€ e 180€)
-* **Patagonia Tres 3-in-1 Parka**: Este impermeável é projetado para ser capaz de se adaptar às condições climáticas, tornando-o ideal para corridas de ultra-distância em condições adversas. A sua impermeabilidade é suficiente para proteger o corredor do excesso de chuva ou neve, e a sua transpiração é alta para controlar a temperatura corporal. (Faixa de preço: entre 180€ e 250€)
-* **Mammut Fortex Shell Jacket**: Este corta-vento é projetado para ser resistente ao vento e úmido, tornando-o ideal para corridas de ultra-distância em condições adversas. A sua transpiração é alta para controlar a temperatura corporal, e a sua durabilidade é excelente. (Faixa de preço: entre 150€ e 200€)
+* **GORE-TEX Paclite Jacket**: Este impermeável é concebido para ser leve e compacto, tornando-o ideal para corridas de ultra-distância. A sua impermeabilidade é suficiente para proteger o corredor do excesso de chuva ou neve, e a sua transpiração é alta para controlar a temperatura corporal. (Faixa de preço: entre 150€ e 200€)
+* **The North Face Venture 2 Jacket**: Este corta-vento é concebido para ser resistente ao vento e úmido, tornando-o ideal para corridas de ultra-distância em condições adversas. A sua transpiração é alta para controlar a temperatura corporal, e a sua durabilidade é excelente. (Faixa de preço: entre 120€ e 180€)
+* **Patagonia Tres 3-in-1 Parka**: Este impermeável é concebido para ser capaz de se adaptar às condições climáticas, tornando-o ideal para corridas de ultra-distância em condições adversas. A sua impermeabilidade é suficiente para proteger o corredor do excesso de chuva ou neve, e a sua transpiração é alta para controlar a temperatura corporal. (Faixa de preço: entre 180€ e 250€)
+* **Mammut Fortex Shell Jacket**: Este corta-vento é concebido para ser resistente ao vento e úmido, tornando-o ideal para corridas de ultra-distância em condições adversas. A sua transpiração é alta para controlar a temperatura corporal, e a sua durabilidade é excelente. (Faixa de preço: entre 150€ e 200€)
 
 ## Veredicto: Qual Comprar
 

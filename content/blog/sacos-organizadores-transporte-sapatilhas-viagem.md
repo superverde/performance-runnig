@@ -2,7 +2,7 @@
 title: "Melhores Sacos de Transporte para Sapatilhas de Corrida"
 date: '2026-08-18'
 category: "Equipamento"
-excerpt: "Corrida não é apenas sobre velocidade, mas também sobre proteger o teu equipamento. Se tens de transportar as tuas sapatilhas de corrida para o ginásio, a maratona ou a próxima competição, um saco de …"
+excerpt: "Corrida não é apenas sobre velocidade, mas também sobre proteger o teu equipamento."
 readTime: 6
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"
@@ -21,7 +21,7 @@ Ao selecionar um saco de transporte para sapatilhas, considera os seguintes fato
 
 1. **Proteção contra impactos** – Estudos de biomecânica mostram que a absorção de choque pode reduzir o desgaste dos materiais da sola (Nigg et al., 2015). Um saco com acolchoamento interno de EVA de alta densidade ou espuma de memória assegura amortecimento uniforme, evitando deformações que alteram a biomecânica do corredor.
 
-2. **Ventilação e secagem** – A umidade acumulada pode acelerar a degradação do caucho e promover o crescimento de fungos. Sacos com forro de micro‑fibras permeáveis ou painéis de mesh nas laterais garantem circulação de ar, mantendo as sapatilhas secas e livres de odores.
+2. **Ventilação e secagem** – A humidade acumulada pode acelerar a degradação do caucho e promover o crescimento de fungos. Sacos com forro de micro‑fibras permeáveis ou painéis de mesh nas laterais garantem circulação de ar, mantendo as sapatilhas secas e livres de odores.
 
 3. **Peso e volume** – Em corridas de longa distância, o peso adicional pode afetar a economia de energia (Hoogkamer et al., 2018). Escolhe um saco que pese menos de 200 g e que não aumente o volume em mais do que 10 % do espaço ocupado pelas sapatilhas.
 

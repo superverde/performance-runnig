@@ -103,6 +103,7 @@ function imageUrlToPngBlob(url: string): Promise<Blob> {
 function PostCard({ post }: { post: Post }) {
   const [copyState, setCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
   const [imgCopyState, setImgCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
+  const [linkCopyState, setLinkCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
   const [gruposConcluidos, setGruposConcluidos] = useState<Set<number>>(new Set())
 
   // Copia o texto COM a imagem embutida dentro dele (text/html), para uma
@@ -163,6 +164,24 @@ function PostCard({ post }: { post: Post }) {
       setImgCopyState('failed')
     }
     setTimeout(() => setImgCopyState('idle'), 3000)
+  }
+
+  // Copia só o link do artigo, para colar no PRIMEIRO COMENTÁRIO em vez do
+  // corpo da publicação. Motivo (pesquisa de 2026-09-21): o Facebook reduz o
+  // alcance de publicações com links externos (≈0,06% de engagement contra
+  // ≈0,24% nas de imagem) e limita páginas e perfis em Modo Profissional a
+  // duas publicações orgânicas com link por mês — foi esse limite que levou
+  // Pedro a mandar tirar os links dos textos dos grupos a 2026-09-02. A
+  // orientação atual do próprio Facebook é pôr o link no primeiro comentário:
+  // a publicação não leva penalização e o link continua acessível.
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(post.link)
+      setLinkCopyState('done')
+    } catch {
+      setLinkCopyState('failed')
+    }
+    setTimeout(() => setLinkCopyState('idle'), 3000)
   }
 
   const toggleGrupo = (i: number) => {
@@ -252,10 +271,31 @@ function PostCard({ post }: { post: Post }) {
         </p>
       )}
 
-      <a href={post.link} target="_blank" rel="noopener noreferrer"
-        className="flex items-center gap-2 text-xs text-brand-green hover:underline font-mono">
-        <ExternalLink size={12} />{post.link}
-      </a>
+      <div className="flex items-center gap-3 flex-wrap">
+        <a href={post.link} target="_blank" rel="noopener noreferrer"
+          className="flex items-center gap-2 text-xs text-brand-green hover:underline font-mono">
+          <ExternalLink size={12} />{post.link}
+        </a>
+        <button
+          onClick={copyLink}
+          title="Copiar o link para colar no primeiro comentário (sem penalizar o alcance)"
+          className="flex items-center gap-1.5 text-[11px] font-mono bg-white/10 hover:bg-white/20 text-white/70 hover:text-white px-2.5 py-1 rounded-lg transition-all"
+        >
+          {linkCopyState === 'done' ? <Check size={12} className="text-green-400" /> : <Copy size={12} />}
+          Copiar link para 1.º comentário
+        </button>
+      </div>
+
+      {linkCopyState === 'done' && (
+        <p className="text-[11px] font-mono text-green-400/80">
+          ✓ Link copiado — publica primeiro o post sem link e cola isto no primeiro comentário
+        </p>
+      )}
+      {linkCopyState === 'failed' && (
+        <p className="text-[11px] font-mono text-red-400/80">
+          ✗ Não foi possível copiar o link — copia-o à mão a partir do endereço acima
+        </p>
+      )}
 
       <div>
         <p className="text-white/40 text-xs font-mono mb-3 uppercase tracking-widest">
@@ -334,8 +374,9 @@ export default function GruposPage() {
           <ol className="space-y-2 text-sm text-white/50">
             <li><span className="text-brand-green font-bold">1.</span> Clica no botão de copiar do post — leva o texto com a imagem lá dentro — e cola no grupo (Ctrl/Cmd+V)</li>
             <li><span className="text-brand-green font-bold">2.</span> Se a imagem não aparecer na colagem, clica "Copiar imagem" e cola outra vez para a anexar</li>
-            <li><span className="text-brand-green font-bold">3.</span> Marca o grupo como ✓ concluído</li>
-            <li><span className="text-brand-green font-bold">4.</span> Repete à tarde e à noite</li>
+            <li><span className="text-brand-green font-bold">3.</span> Publica sem link no texto e cola o link no primeiro comentário ("Copiar link") — não penaliza o alcance</li>
+            <li><span className="text-brand-green font-bold">4.</span> Marca o grupo como ✓ concluído</li>
+            <li><span className="text-brand-green font-bold">5.</span> Repete à tarde e à noite</li>
           </ol>
         </div>
       </div>

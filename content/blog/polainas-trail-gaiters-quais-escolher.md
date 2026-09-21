@@ -2,7 +2,7 @@
 title: "Polainas de Trail: Quais Escolher"
 date: '2026-09-20'
 category: "Equipamento"
-excerpt: "Para quem corre em trilhos, as polainas não são apenas um acessório de moda, mas um elemento crucial de prevenção de lesões e de otimização do desempenho. Neste artigo, vamos analisar os fatores técni…"
+excerpt: "Polainas de Trail: Quais Escolher Para quem corre em trilhos, as polainas não são apenas um acessório de moda, mas um elemento crucial de prevenção de lesões."
 readTime: 4
 faqs:
   - q: "Qual o material mais indicado para polainas de trail?"

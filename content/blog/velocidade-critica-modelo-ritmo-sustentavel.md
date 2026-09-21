@@ -2,7 +2,7 @@
 title: "Velocidade Crítica: O Modelo Que Prevê o Teu Ritmo Sustentável"
 date: '2026-08-28'
 category: "Fisiologia"
-excerpt: "A velocidade crítica é a velocidade que podes manter indefinidamente sem acumular lactato, definindo o teu ritmo sustentável para provas de 5‑10 km. Em termos práticos, é o ponto de equilíbrio entre a…"
+excerpt: "A velocidade crítica é a velocidade que podes manter indefinidamente sem acumular lactato, definindo o teu ritmo sustentável para provas de 5‑10 km."
 readTime: 6
 faqs:
   - q: "Qual é a diferença entre velocidade crítica e limiar de lactato?"
@@ -33,7 +33,7 @@ onde \(V_3\) e \(V_6\) são as velocidades médias dos testes de 3 km e 6 km
 
 ### Relação com VO₂máx e Fisiologia Muscular
 
-A velocidade crítica está intimamente ligada ao VO₂máx, pois ambos refletem a capacidade aeróbica máxima. Estudos como Bassett & Howley (2000) demonstram que a VO₂máx é um dos principais determinantes da performance em provas de média distância. Contudo, a VC também depende da eficiência metabólica e da capacidade de tolerar lactato, fatores que melhoram com treinamento de resistência de alta intensidade (Jones & Carter, 2000).
+A velocidade crítica está intimamente ligada ao VO₂máx, pois ambos refletem a capacidade aeróbica máxima. Estudos como Bassett & Howley (2000) demonstram que a VO₂máx é um dos principais determinantes da performance em provas de média distância. Contudo, a VC também depende da eficiência metabólica e da capacidade de tolerar lactato, fatores que melhoram com treino de resistência de alta intensidade (Jones & Carter, 2000).
 
 A fisiologia do músculo também desempenha um papel crucial. A capacidade de reabsorver lactato e de manter o pH muscular próximo ao normal permite manter a VC durante períodos mais longos. A adaptação neuromuscular, evidenciada por um aumento da capacidade de recrutamento de fibras tipo I, é outro fator que sustenta a VC.
 

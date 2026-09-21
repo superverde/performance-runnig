@@ -2,7 +2,7 @@
 title: "Limiar de Lactato: O Indicador Mais Importante para Corredores de Fundo"
 date: '2026-07-04'
 category: "Fisiologia"
-excerpt: "A corrida de fundo é uma atividade que exige uma combinação de força muscular, resistência e eficiência cardiorrespiratória. Para alcançar o nível máximo de desempenho, é fundamental entender os conce…"
+excerpt: "A corrida de fundo é uma atividade que exige uma combinação de força muscular, resistência e eficiência cardiorrespiratória."
 readTime: 4
 ---
 
@@ -10,7 +10,7 @@ A corrida de fundo é uma atividade que exige uma combinação de força muscula
 
 O limiar de lactato é o nível de intensidade de exercício em que o metabolismo anaeróbico começa a contribuir significativamente para a produção de energia muscular. Isso ocorre quando o oxigênio disponível não é suficiente para sustentar a demanda de energia muscular, levando ao acúmulo de lactato no sangue. O limiar de lactato é uma medida importante para avaliar a capacidade de resistência de um corredor e determinar a intensidade ótima para o treino.
 
-Um nível de lactato elevado pode indicar que o corredor está operando abaixo do seu limiar efetivo, o que pode levar a uma corrida menos eficiente e mais propensa a lesões. Por outro lado, um nível de lactato baixo pode indicar que o corredor está operando acima do seu limiar efetivo, o que pode levar a uma corrida mais intensa, mas também mais propensa a lesões.
+Um nível de lactato elevado pode indicar que o corredor está a operar abaixo do seu limiar efetivo, o que pode levar a uma corrida menos eficiente e mais propensa a lesões. Por outro lado, um nível de lactato baixo pode indicar que o corredor está a operar acima do seu limiar efetivo, o que pode levar a uma corrida mais intensa, mas também mais propensa a lesões.
 
 ## Base Científica
 

@@ -2,7 +2,7 @@
 title: "Monitorizar a Recuperação: Questionários Subjetivos vs HRV"
 date: '2026-09-05'
 category: "Recuperação"
-excerpt: "Avaliando a recuperação de corredores, a combinação de questionários subjetivos e a variabilidade da frequência cardíaca (HRV) oferece uma visão holística: a HRV fornece dados fisiológicos instantâneo…"
+excerpt: "Avaliando a recuperação de corredores, a combinação de questionários subjetivos e a variabilidade da frequência cardíaca (HRV) oferece uma visão holística: a."
 readTime: 5
 faqs:
   - q: "Qual é a diferença principal entre HRV e questionários de recuperação?"
@@ -19,7 +19,7 @@ A recuperação é um dos pilares mais críticos da performance em corrida. Enqu
 
 ## Base Científica
 
-A HRV reflete a dinâmica entre o sistema nervoso simpático e parassimpático. Estudos mostram que valores de HRV RMSSD inferiores a 30 ms indicam sobrecarga e necessidade de descanso adicional (Kellmann et al., 2018). Em contraste, questionários como o “Rate of Perceived Exertion” (RPE) ou o “Recovery-Stress Questionnaire for Athletes” (RESTQ) medem a carga subjetiva de stress e a sensação de recuperação. A validade desses instrumentos foi confirmada em diversos esportes, incluindo corrida de longa distância (Bishop et al., 2008).
+A HRV reflete a dinâmica entre o sistema nervoso simpático e parassimpático. Estudos mostram que valores de HRV RMSSD inferiores a 30 ms indicam sobrecarga e necessidade de descanso adicional (Kellmann et al., 2018). Em contraste, questionários como o “Rate of Perceived Exertion” (RPE) ou o “Recovery-Stress Questionnaire for Athletes” (RESTQ) medem a carga subjetiva de stress e a sensação de recuperação. A validade desses instrumentos foi confirmada em diversos desportos, incluindo corrida de longa distância (Bishop et al., 2008).
 
 A complementaridade surge quando a HRV permanece estável, mas o atleta reporta alta fadiga ou dor muscular. Isso pode indicar um desequilíbrio entre adaptação fisiológica e percepção de esforço, potencialmente sinal de sobre‑treino. Assim, a integração de ambos os métodos permite detectar descompensações que poderiam passar despercebidas se apenas um método fosse usado.
 
@@ -59,7 +59,7 @@ A complementaridade surge quando a HRV permanece estável, mas o atleta reporta 
 ## Protocolo/Conclusão
 
 1. **Estabelecer um Benchmark Individual**  
-   - Registar a HRV e os questionários durante 2‑3 semanas de treinamento estável para determinar valores de referência.
+   - Registar a HRV e os questionários durante 2‑3 semanas de treino estável para determinar valores de referência.
 
 2. **Monitorizar Diário**  
    - Coletar HRV de manhã e questionários antes do treino. Registrar em planilha.

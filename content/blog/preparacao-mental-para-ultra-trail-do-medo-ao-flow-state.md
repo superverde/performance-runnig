@@ -27,7 +27,7 @@ Existem várias estratégias cognitivas que os atletas podem usar para gerir o m
 
 ## O Flow State no Ultra Trail
 
-O flow state é um estado de consciência em que os atletas se sentem completamente absorvidos e comprometidos com a atividade. De acordo com o investigador Mihaly Csikszentmihalyi, o flow state é caracterizado por uma sensação de controle, concentração e prazer (Csikszentmihalyi, 1990). No ultra trail, o flow state pode ajudar os atletas a se sentir mais confiantes e motivados, e a superar os obstáculos.
+O flow state é um estado de consciência em que os atletas se sentem completamente absorvidos e comprometidos com a atividade. De acordo com o investigador Mihaly Csikszentmihalyi, o flow state é caracterizado por uma sensação de controlo, concentração e prazer (Csikszentmihalyi, 1990). No ultra trail, o flow state pode ajudar os atletas a se sentir mais confiantes e motivados, e a superar os obstáculos.
 
 ## Como Alcançar o Flow State no Ultra Trail
 

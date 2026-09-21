@@ -2,7 +2,7 @@
 title: "Foam Roller para Corredores: Ciência e Protocolo Eficaz"
 date: '2026-07-28'
 category: "Recuperação"
-excerpt: "O desporto é uma atividade que exige um esforço físico intenso, levando a stress, cansaço e, consequentemente, à perda de desempenho. A recuperação pós-exercício é um processo fundamental para o reapa…"
+excerpt: "O desporto é uma atividade que exige um esforço físico intenso, levando a stress, cansaço e, consequentemente, à perda de desempenho."
 readTime: 4
 ---
 
@@ -11,7 +11,7 @@ O desporto é uma atividade que exige um esforço físico intenso, levando a str
 O foam roller é uma ferramenta de apoio que utiliza uma superfície rígida e de borracha para massajar e aliviar a tensão muscular, especialmente nas áreas mais afetadas pelo desporto. A utilização do foam roller ajuda a reduzir a tensão muscular, melhorar a circulação sanguínea e reduzir a dor. A ciência por trás do foam roller reside na aplicação de pressão localizada sobre as áreas afetadas, o que ativa os receptores mecanorreceptores e promove a liberação de substâncias químicas que ajudam a reduzir a dor e a inflamação.
 
 ## Base Científica
-A utilização do foam roller é baseada em princípios de ciência de exercício. A aplicação de pressão sobre as áreas musculares afetadas ativa os receptores mecanorreceptores, que são responsáveis por detectar a pressão e a tensão muscular. A ativação desses receptores leva à liberação de substâncias químicas, como a bradicinina, que ajudam a reduzir a dor e a inflamação (Kellmann et al., 2018). Além disso, a utilização do foam roller melhorou a circulação sanguínea e reduziu a tensão muscular em comparação com o controle (Bishop et al., 2008).
+A utilização do foam roller é baseada em princípios de ciência de exercício. A aplicação de pressão sobre as áreas musculares afetadas ativa os receptores mecanorreceptores, que são responsáveis por detectar a pressão e a tensão muscular. A ativação desses receptores leva à liberação de substâncias químicas, como a bradicinina, que ajudam a reduzir a dor e a inflamação (Kellmann et al., 2018). Além disso, a utilização do foam roller melhorou a circulação sanguínea e reduziu a tensão muscular em comparação com o controlo (Bishop et al., 2008).
 
 ## Aplicação Prática
 Para aplicar o foam roller de forma eficaz, é importante seguir alguns passos básicos. Primeiramente, é fundamental identificar as áreas musculares mais afetadas pelo desporto. Em corredores, as áreas mais comuns de tensão muscular incluem os músculos da perna, especialmente os isquiotibiais, quadríceps e gastrocnêmio. Uma vez identificadas as áreas afetadas, é importante aplicar pressão localizada sobre essas áreas utilizando o foam roller. A pressão deve ser aplicada de forma suave, aumentando gradualmente a intensidade à medida que se torna mais confortável para o usuário (Halson, 2014). A duração da aplicação da pressão pode variar de 30 segundos a 1 minuto, dependendo da área muscular e do nível de tensão.

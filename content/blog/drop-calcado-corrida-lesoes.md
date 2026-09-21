@@ -50,7 +50,7 @@ Se tens lesões recorrentes no joelho ou em estruturas superiores, experimentar 
 2. Nas primeiras 4 semanas, mantém o calçado antigo nos treinos longos
 3. Semana a semana, aumenta a proporção do novo calçado
 4. Espera 3-4 meses antes de usar exclusivamente o drop baixo
-5. Monitoriza sinais de sobrecarga no tendão de Aquiles e na panturrilha
+5. Monitoriza sinais de sobrecarga no tendão de Aquiles e na barriga da perna
 
 ## A questão do amortecimento
 

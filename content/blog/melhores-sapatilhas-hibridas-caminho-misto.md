@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas Híbridas para Caminho Misto (Estrada + Trail)"
 date: '2026-08-29'
 category: "Equipamento"
-excerpt: "Para quem procura a combinação perfeita entre desempenho em estrada e robustez para trail, as sapatilhas híbridas oferecem o melhor dos dois mundos. Neste artigo analisaremos os modelos que, em 2026, …"
+excerpt: "Para quem procura a combinação perfeita entre desempenho em estrada e robustez para trail, as sapatilhas híbridas oferecem o melhor dos dois mundos."
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"
@@ -25,7 +25,7 @@ Ao avaliar sapatilhas híbridas, é essencial considerar fatores que afetam a bi
 
 3. **Peso e Flutuabilidade** – Um peso entre 220 g e 260 g por sapatilha é ideal para corredores que desejam velocidade sem sacrificar estabilidade. O design de “flutuabilidade” (câmara de ar interna) ajuda a manter a leveza sem comprometer a rigidez necessária em subidas técnicas.
 
-4. **Estabilidade e Controle de Movimento** – A presença de um sistema de controle lateral (por ex., “Dynamic Stability Frame”) reduz a pronação excessiva, minimizando o risco de lesões musculoesqueléticas (Malisoux et al., 2016). Contudo, corredores com pés neutros podem preferir modelos com menor suporte, favorecendo a naturalidade do passo.
+4. **Estabilidade e Controle de Movimento** – A presença de um sistema de controlo lateral (por ex., “Dynamic Stability Frame”) reduz a pronação excessiva, minimizando o risco de lesões musculoesqueléticas (Malisoux et al., 2016). Contudo, corredores com pés neutros podem preferir modelos com menor suporte, favorecendo a naturalidade do passo.
 
 5. **Durabilidade do Cabedal** – Materiais como nylon balístico ou mesh com reforço de TPU garantem resistência a abrasões em trilhos rochosos. A cobertura de couro sintético na zona de contato com o pé melhora a retenção de calor em condições frias.
 

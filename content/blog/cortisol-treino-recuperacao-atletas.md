@@ -2,7 +2,7 @@
 title: "Cortisol e Treino: O Hormona do Stress Que Controla a Recuperação"
 date: '2026-07-31'
 category: "Recuperação"
-excerpt: "O cortisol é um hormona esteróide produzido pela glândula adrenal, localizada acima do rim esquerdo. Ele desempenha um papel fundamental no controlo da resposta ao stress, regulando o metabolismo de g…"
+excerpt: "Cortisol e Treino: O Hormona do Stress Que Controla a Recuperação ================================================================"
 readTime: 4
 ---
 
@@ -26,8 +26,8 @@ Um estudo publicado no International Journal of Sports Physiology and Performanc
 Para melhorar a recuperação muscular, é fundamental controlar o cortisol e reduzir a tensão e o stress. Isso pode ser feito através de várias estratégias, incluindo:
 
 * **Treino de recuperação**: Incluir treinos de recuperação, como alongamentos e estiramientos, para ajudar a reduzir a tensão e o stress.
-* **Dormir o suficiente**: Dormir o suficiente é fundamental para a recuperação muscular e para o controle do cortisol.
-* **Comer correctamente**: Comer uma dieta equilibrada e rica em nutrientes é fundamental para a recuperação muscular e para o controle do cortisol.
+* **Dormir o suficiente**: Dormir o suficiente é fundamental para a recuperação muscular e para o controlo do cortisol.
+* **Comer correctamente**: Comer uma dieta equilibrada e rica em nutrientes é fundamental para a recuperação muscular e para o controlo do cortisol.
 * **Práticas de relaxamento**: Incluir práticas de relaxamento, como meditação e respiração profunda, para ajudar a reduzir a tensão e o stress.
 
 Um exemplo de como essas estratégias podem ser aplicadas em uma rotina de treino é o caso de um atleta de correr que realiza uma corrida de 10 km por semana. Para melhorar a recuperação muscular, o atleta pode incluir alongamentos e estiramientos após cada corrida, dormir pelo menos 7 horas por noite e comer uma dieta equilibrada rica em nutrientes. Além disso, o atleta pode incluir práticas de relaxamento, como meditação e respiração profunda, para ajudar a reduzir a tensão e o stress.

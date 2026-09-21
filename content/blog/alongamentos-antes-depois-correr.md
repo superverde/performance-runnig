@@ -2,7 +2,7 @@
 title: "Alongamentos Antes e Depois de Correr: O Que a Evidência Recomenda"
 date: '2026-08-14'
 category: "Recuperação"
-excerpt: "O alongamento é uma prática comum entre corredores para ajudar a preparar os músculos para uma corrida e facilitar a recuperação após ela. No entanto, muitos corredores ainda não sabem como alongar co…"
+excerpt: "O alongamento é uma prática comum entre corredores para ajudar a preparar os músculos para uma corrida e facilitar a recuperação após ela."
 readTime: 5
 ---
 
@@ -25,7 +25,7 @@ No entanto, os alongamentos devem ser feitos de forma segura e eficaz. A duraç�
 Os alongamentos antes de correr devem ser feitos de forma segura e eficaz. Aqui estão alguns passos para ajudar a aplicar os alongamentos de forma eficaz:
 
 1. **Duração e intensidade**: A duração e a intensidade dos alongamentos devem variar dependendo do tipo de corrida e do nível de treino do corredor. Por exemplo, os corredores que realizam corridas de longa distância podem precisar de alongamentos mais longos e intensos do que os corredores que realizam corridas de curta distância.
-2. **Exercícios**: Os exercícios de alongamento devem incluir movimentos que ajudem a esticar os músculos dos joelhos, panturrilhas e quadríceps. Alguns exemplos de exercícios incluem a flexão de joelho, a extensão de joelho e a flexão de panturrilha.
+2. **Exercícios**: Os exercícios de alongamento devem incluir movimentos que ajudem a esticar os músculos dos joelhos, barrigas das pernas e quadríceps. Alguns exemplos de exercícios incluem a flexão de joelho, a extensão de joelho e a flexão de barriga da perna.
 3. **Frequência**: Os alongamentos devem ser feitos regularmente, mas não exageradamente. A frequência dos alongamentos pode variar dependendo do tipo de corrida e do nível de treino do corredor.
 4. **Combinação com outros exercícios**: Os alongamentos devem ser feitos em conjunto com outros exercícios de treino, como o treino de força e a condicionamento cardiovascular.
 
@@ -43,7 +43,7 @@ Muitos corredores cometem erros comuns ao realizar alongamentos, como:
 Os alongamentos antes de correr são uma prática comum entre os corredores, mas a evidência científica sobre sua eficácia é mista. No entanto, a evidência sugere que os alongamentos podem ajudar a prevenir lesões e melhorar o desempenho quando feitos de forma segura e eficaz. Aqui estão alguns passos para ajudar a aplicar os alongamentos de forma eficaz:
 
 1. **Duração e intensidade**: A duração e a intensidade dos alongamentos devem variar dependendo do tipo de corrida e do nível de treino do corredor.
-2. **Exercícios**: Os exercícios de alongamento devem incluir movimentos que ajudem a esticar os músculos dos joelhos, panturrilhas e quadríceps.
+2. **Exercícios**: Os exercícios de alongamento devem incluir movimentos que ajudem a esticar os músculos dos joelhos, barrigas das pernas e quadríceps.
 3. **Frequência**: Os alongamentos devem ser feitos regularmente, mas não exageradamente.
 4. **Combinação com outros exercícios**: Os alongamentos devem ser feitos em conjunto com outros exercícios de treino, como o treino de força e a condicionamento cardiovascular.
 

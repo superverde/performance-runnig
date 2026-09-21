@@ -2,7 +2,7 @@
 title: "Sapatilhas de Corrida para Crianças e Jovens Atletas: Guia de Compra"
 date: '2026-08-10'
 category: "Equipamento"
-excerpt: "As sapatilhas de corrida são uma peça fundamental para qualquer corredor, independentemente da idade ou do nível de experiência. Para os jovens atletas, o equipamento de corrida é crucial para uma prá…"
+excerpt: "As sapatilhas de corrida são uma peça fundamental para qualquer corredor, independentemente da idade ou do nível de experiência."
 readTime: 4
 ---
 

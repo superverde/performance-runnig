@@ -2,7 +2,7 @@
 title: "Bonés e Viseiras para Corrida ao Sol: O Que Realmente Protege"
 date: '2026-08-08'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida ao sol, é fundamental ter equipamento adequado para proteger a pele e os olhos. Os bonés e viseiras são dois dos componentes mais importantes do nosso guarda-sol, mas qual é…"
+excerpt: "Quando se trata de corrida ao sol, é fundamental ter equipamento adequado para proteger a pele e os olhos."
 readTime: 4
 ---
 

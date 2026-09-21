@@ -2,7 +2,7 @@
 title: "Core para Corredores: Os Exercícios Que Realmente Importam"
 date: '2026-08-21'
 category: "Treino"
-excerpt: "Para corredores, os exercícios de core que realmente importam são aqueles que melhoram a estabilidade da coluna, a transferência de potência e a eficiência de corrida, como planchas, pranchas laterais…"
+excerpt: "Para corredores, os exercícios de core que realmente importam são aqueles que melhoram a estabilidade da coluna, a transferência de potência e a eficiência."
 readTime: 5
 faqs:
   - q: "Quais são os exercícios de core que mais beneficiam corredores de longa distância?"
@@ -23,7 +23,7 @@ Estudos sobre biomecânica e fisiologia da corrida demonstram que a ativação m
 
 Laursen (2010) e Buchheit & Laursen (2013) mostram que exercícios de alta intensidade, quando incorporados ao core, aumentam a capacidade de tolerar esforços intensos e melhoram a capacidade de recuperação entre intervalos. A combinação de exercícios de estabilidade (planchas) e de força dinâmica (abdominais oblíquos em movimento) cria um “ponto de apoio” que reduz a carga na coluna lombar durante a fase de propulsão, conforme evidenciado em estudos de biomecânica de corrida de elite.
 
-Além disso, a periodização do core, conforme delineada por Bompa & Buzzichelli (2018), permite a progressão estruturada de volume e intensidade, evitando sobrecarga e maximizando os ganhos de força e estabilidade ao longo de um ciclo de treinamento de 12 semanas.
+Além disso, a periodização do core, conforme delineada por Bompa & Buzzichelli (2018), permite a progressão estruturada de volume e intensidade, evitando sobrecarga e maximizando os ganhos de força e estabilidade ao longo de um ciclo de treino de 12 semanas.
 
 ## Aplicação Prática
 

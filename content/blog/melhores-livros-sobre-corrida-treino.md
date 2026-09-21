@@ -2,11 +2,11 @@
 title: "Melhores Livros Sobre Corrida e Treino"
 date: '2026-09-19'
 category: "Equipamento"
-excerpt: "Para quem procura aprofundar o seu conhecimento sobre equipamentos de corrida e treino, este artigo oferece uma análise crítica e fundamentada em evidências científicas, apresentando as melhores opçõe…"
+excerpt: "Para quem procura aprofundar o seu conhecimento sobre equipamentos de corrida e treino, este artigo oferece uma análise crítica e fundamentada em evidências."
 readTime: 6
 faqs:
   - q: "Qual a diferença entre amortização neutra e controle de movimento?"
-    a: "A amortização neutra mantém o pé em posição natural, enquanto o controle de movimento adiciona rigidez para reduzir a pronação excessiva, sendo indicado apenas se houver necessidade de correção."
+    a: "A amortização neutra mantém o pé em posição natural, enquanto o controlo de movimento adiciona rigidez para reduzir a pronação excessiva, sendo indicado apenas se houver necessidade de correção."
   - q: "Quanto tempo dura um calçado de corrida de alta performance?"
     a: "A vida útil varia entre 300 km e 800 km, dependendo do material da sola, do peso do corredor e do tipo de terreno em que se corre."
   - q: "É melhor usar um calçado mais leve para corridas de velocidade?"
@@ -19,7 +19,7 @@ Para quem procura aprofundar o seu conhecimento sobre equipamentos de corrida e 
 
 Quando se trata de equipamentos de corrida, a escolha não deve basear‑se apenas em marketing ou na estética. A ciência do movimento humano oferece parâmetros concretos que ajudam a determinar o ajuste, a eficiência e a segurança de cada peça.  
 1. **Economia de Energia** – A biomecânica mostra que a amortização e o retorno de energia do calçado podem reduzir o consumo de energia em até 5 % (Fuller et al., 2015). Procure modelos que apresentem um perfil de amortização equilibrado, sem sobre‑ou sub‑amortização que altere o ciclo de corrida.  
-2. **Estabilidade e Controle de Movimento** – Estudos comparativos revelam que o uso de calçados com controle de movimento pode aumentar o risco de lesões em corredores que não apresentam sobre‑própria pronação (Malisoux et al., 2016). Opte por calçados neutros se a sua biomecânica for estável, ou por modelos de controle moderado se houver necessidade de correção leve.  
+2. **Estabilidade e Controle de Movimento** – Estudos comparativos revelam que o uso de calçados com controle de movimento pode aumentar o risco de lesões em corredores que não apresentam sobre‑própria pronação (Malisoux et al., 2016). Opte por calçados neutros se a sua biomecânica for estável, ou por modelos de controlo moderado se houver necessidade de correção leve.  
 3. **Peso e Distribuição** – O peso total do calçado influencia diretamente a carga sobre os músculos de apoio. Pesos abaixo de 250 g por par são recomendados para corredores de longa distância (Hoogkamer et al., 2018). Além disso, a distribuição de peso deve ser uniforme para evitar pontos de tensão.  
 4. **Respirabilidade e Secagem** – A temperatura corporal aumenta em 2–3 °C durante uma corrida de 10 km. Tecidos que permitem a evaporação rápida reduzem o risco de hipertermia e desconforto (Nigg et al., 2015).  
 5. **Durabilidade e Custo‑benefício** – A vida útil de um calçado pode variar entre 300–800 km, dependendo do material e do uso. Calçados com sola de EVA de alta densidade tendem a manter a performance por mais tempo. Avalie o custo por quilómetro para garantir um investimento sustentável.  

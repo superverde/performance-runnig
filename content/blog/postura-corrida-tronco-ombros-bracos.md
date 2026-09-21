@@ -2,7 +2,7 @@
 title: "Postura na Corrida: Tronco, Ombros e Braços Corretos"
 date: '2026-07-25'
 category: "Biomecânica"
-excerpt: "A postura na corrida é um aspecto fundamental para os corredores que buscam melhorar a sua performance e reduzir o risco de lesões. Ao longo dos anos, a ciência do desporto tem avançado significativam…"
+excerpt: "A postura na corrida é um aspecto fundamental para os corredores que buscam melhorar a sua performance e reduzir o risco de lesões."
 readTime: 4
 ---
 
@@ -16,7 +16,7 @@ Um dos aspectos mais importantes da postura na corrida é a alinhamento do tronc
 
 A biomecânica da corrida é um campo de estudo que tem sido amplamente explorado na literatura científica. Segundo Novacheck (1998), a corrida pode ser dividida em três fases principais: a de contacto, a de elevação e a de impacto. Durante estas fases, o corredor executa uma série de movimentos cíclicos que envolvem a flexão e extensão de diferentes segmentos do corpo, incluindo o tronco, os ombros e os braços.
 
-A postura correcta é fundamental para que o corredor possa aproveitar ao máximo a sua potência e eficiência. Segundo Moore (2016), a corrida econômica é aquela que utiliza a menor quantidade de energia possível para alcançar uma determinada velocidade. A postura correcta é um dos principais fatores que afetam a corrida econômica, pois permite que o corredor utilize a sua potência de maneira mais eficiente.
+A postura correcta é fundamental para que o corredor possa aproveitar ao máximo a sua potência e eficiência. Segundo Moore (2016), a corrida económica é aquela que utiliza a menor quantidade de energia possível para alcançar uma determinada velocidade. A postura correcta é um dos principais fatores que afetam a corrida económica, pois permite que o corredor utilize a sua potência de maneira mais eficiente.
 
 ## Aplicação Prática
 

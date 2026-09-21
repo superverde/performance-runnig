@@ -2,7 +2,7 @@
 title: "Carga Interna vs Carga Externa: O Que Deves Mesmo Monitorizar"
 date: '2026-09-14'
 category: "Treino"
-excerpt: "Para otimizar o desempenho e evitar lesões, o que deves monitorizar é a carga interna, pois ela reflete a resposta fisiológica individual ao esforço, enquanto a carga externa mede apenas a quantidade …"
+excerpt: "Para otimizar o desempenho e evitar lesões, o que deves monitorizar é a carga interna, pois ela reflete a resposta fisiológica individual ao esforço."
 readTime: 5
 faqs:
   - q: "Como posso medir a carga interna sem equipamento caro?"

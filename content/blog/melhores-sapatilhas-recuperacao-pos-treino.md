@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas de Recuperação Pós-Treino"
 date: '2026-09-13'
 category: "Equipamento"
-excerpt: "A escolha das sapatilhas de recuperação pós‑treino pode parecer simples, mas na verdade envolve nuances técnicas que afetam a tua recuperação, a prevenção de lesões e o desempenho futuro. Este guia va…"
+excerpt: "A escolha das sapatilhas de recuperação pós‑treino pode parecer simples, mas na verdade envolve nuances técnicas que afetam a tua recuperação, a prevenção de."
 readTime: 5
 faqs:
   - q: "Qual a diferença entre amortecimento responsivo e amortecimento tradicional?"

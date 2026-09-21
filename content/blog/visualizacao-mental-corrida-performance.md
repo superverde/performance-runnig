@@ -2,7 +2,7 @@
 title: "Visualização Mental: A Técnica dos Atletas de Elite Funciona?"
 date: '2026-08-06'
 category: "Psicologia"
-excerpt: "A corrida é um desporto de resistência que exige uma combinação de habilidades físicas e mentais. Além de treinar regularmente e ter um corpo saudável, os atletas de elite sabem que a mentalidade tamb…"
+excerpt: "A corrida é um desporto de resistência que exige uma combinação de habilidades físicas e mentais."
 readTime: 4
 ---
 

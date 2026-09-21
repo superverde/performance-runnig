@@ -2,7 +2,7 @@
 title: "A Bioquímica do Muro: O Que Acontece Quando o Glicogénio Acaba"
 date: '2026-07-16'
 category: "Fisiologia"
-excerpt: "O treino de longa distância é um desafio físico e mental que exige uma combinação perfeita de força, resistência e eficiência. No entanto, existe um limiar que todos os atletas devem superar: o pico d…"
+excerpt: "O treino de longa distância é um desafio físico e mental que exige uma combinação perfeita de força, resistência e eficiência."
 readTime: 4
 ---
 
@@ -32,13 +32,13 @@ Entender o pico do glicogénio é fundamental para qualquer atleta que queira me
 
 Existem alguns erros comuns que podem acontecer quando o glicogénio se esgota:
 
-* **Falta de treino de alta intensidade**: O treino de alta intensidade é fundamental para aumentar a capacidade do corpo para armazenar glicogênio. Se você não treina com alta intensidade, você pode não estar preparado para o pico do glicogénio.
-* **Falta de alimentação adequada**: A alimentação é fundamental para a recuperação e o armazenamento de glicogênio. Se você não se alimenta adequadamente, você pode não estar preparado para o pico do glicogénio.
-* **Falta de hidratação**: A hidratação é fundamental para a recuperação e o armazenamento de glicogênio. Se você não se hidrata adequadamente, você pode não estar preparado para o pico do glicogénio.
+* **Falta de treino de alta intensidade**: O treino de alta intensidade é fundamental para aumentar a capacidade do corpo para armazenar glicogênio. Se não treina com alta intensidade, podes não estar preparado para o pico do glicogénio.
+* **Falta de alimentação adequada**: A alimentação é fundamental para a recuperação e o armazenamento de glicogênio. Se não se alimenta adequadamente, podes não estar preparado para o pico do glicogénio.
+* **Falta de hidratação**: A hidratação é fundamental para a recuperação e o armazenamento de glicogênio. Se não se hidrata adequadamente, podes não estar preparado para o pico do glicogénio.
 
 ## **Protocolo/Conclusão**
 
-O pico do glicogénio é uma condição crítica que todos os atletas devem entender. É o momento em que o corpo se encontra no limite, com os níveis de glicogénio se esgotando rapidamente. Neste momento, a performance começa a diminuir significativamente, e o risco de colapso aumenta. Por isso, é fundamental entender como o corpo se comporta durante o treino e como o glicogénio é armazenado e queimado. Com o uso de treino de alta intensidade, alimentação adequada e hidratação adequada, você pode superar o muro do glicogênio e alcançar seu potencial máximo.
+O pico do glicogénio é uma condição crítica que todos os atletas devem entender. É o momento em que o corpo se encontra no limite, com os níveis de glicogénio se esgotando rapidamente. Neste momento, a performance começa a diminuir significativamente, e o risco de colapso aumenta. Por isso, é fundamental entender como o corpo se comporta durante o treino e como o glicogénio é armazenado e queimado. Com o uso de treino de alta intensidade, alimentação adequada e hidratação adequada, podes superar o muro do glicogênio e alcançar seu potencial máximo.
 
 ## **Referências Científicas**
 

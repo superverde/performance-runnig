@@ -2,13 +2,13 @@
 title: "Os Três Pilares da Performance: VO2max, Limiar e Economia de Corrida"
 date: '2026-08-24'
 category: "Fisiologia"
-excerpt: "A performance de corredor de longa distância depende de três pilares: VO₂max, limiar de lactato e economia de corrida. O domínio destes três parâmetros determina a capacidade de manter um ritmo compet…"
+excerpt: "A performance de corredor de longa distância depende de três pilares: VO₂max, limiar de lactato e economia de corrida."
 readTime: 5
 faqs:
   - q: "Quais são os valores típicos de VO₂max para corredores de elite?"
     a: "Valores entre 70–80 ml kg⁻¹ min⁻¹ são comuns em atletas de elite, enquanto corredores amadores ficam em torno de 45–55 ml kg⁻¹ min⁻¹."
   - q: "Como medir o limiar de lactato sem equipamento caro?"
-    a: "Um teste de esforço incremental simples em esteira, registando a frequência cardíaca e a percepção de esforço, pode aproximar o limiar; a medição de lactato por porta de sangue oferece maior precisão."
+    a: "Um teste de esforço incremental simples em passadeira, registando a frequência cardíaca e a percepção de esforço, pode aproximar o limiar; a medição de lactato por porta de sangue oferece maior precisão."
   - q: "Qual é a importância da economia de corrida?"
     a: "A economia determina quão eficiente é o corredor em usar oxigénio a uma velocidade dada; melhorias de 5–10 % podem significar reduções de tempo de 1–2 min em provas de 10 km."
 ---
@@ -23,7 +23,7 @@ Aumentar o VO₂max aumenta a quantidade máxima de oxigénio que o corpo pode t
 O VO₂max (consumo máximo de oxigénio) representa o limite superior da capacidade aeróbica. Os atletas de elite têm valores entre 70–80 ml kg⁻¹ min⁻¹, enquanto corredores amadores ficam em torno de 45–55 ml kg⁻¹ min⁻¹. Aumentar o VO₂max envolve treinos de alta intensidade (HIIT) e intervalados, mas também a adaptação cardiovascular a longo prazo (aumento de volume sanguíneo, capilarização). Segundo Bassett & Howley (2000) a diferença entre atletas de elite e amadores está, em grande parte, na capacidade de transportar oxigénio.
 
 ### Limiar de Lactato
-O limiar de lactato (LT) é a intensidade em que a produção de lactato começa a superar a sua eliminação. A medição típica envolve testes de esforço incremental em esteira ou bicicleta, registando a concentração de lactato a cada 3 min. Um LT em 75 % do VO₂max é considerado alto; atletas de elite frequentemente têm LT entre 80–85 % do VO₂max. Midgley et al. (2006) demonstraram que treinos em torno de 85–95 % da frequência cardíaca máxima (FCM) melhoram o LT sem aumentar excessivamente a carga.
+O limiar de lactato (LT) é a intensidade em que a produção de lactato começa a superar a sua eliminação. A medição típica envolve testes de esforço incremental em passadeira ou bicicleta, registando a concentração de lactato a cada 3 min. Um LT em 75 % do VO₂max é considerado alto; atletas de elite frequentemente têm LT entre 80–85 % do VO₂max. Midgley et al. (2006) demonstraram que treinos em torno de 85–95 % da frequência cardíaca máxima (FCM) melhoram o LT sem aumentar excessivamente a carga.
 
 ### Economia de Corrida
 A economia de corrida (EC) refere‑se à quantidade de oxigénio consumida a uma velocidade constante. Valores de 4–5 ml kg⁻¹ min⁻¹ a 10 km h⁻¹ são típicos para corredores de elite. A economia é influenciada por biomecânica, técnica de corrida, distribuição de carga muscular e eficiência neuromuscular. Joyner & Coyle (2008) salientam que a economia pode melhorar em 5–10 % com treino de técnica e fortalecimento específico.

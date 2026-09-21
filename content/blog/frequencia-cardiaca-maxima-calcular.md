@@ -2,7 +2,7 @@
 title: "Frequência Cardíaca Máxima: Como Calcular e Usar no Treino"
 date: '2026-07-05'
 category: "Treino"
-excerpt: "A frequência cardíaca máxima (FCM) é um conceito fundamental no treino de corrida, pois permite aos atletas entenderem os seus limites de esforço e programarem o seu treino de forma eficaz. No entanto…"
+excerpt: "A frequência cardíaca máxima (FCM) é um conceito fundamental no treino de corrida, pois permite aos atletas entenderem os seus limites de esforço e."
 readTime: 4
 ---
 
@@ -12,7 +12,7 @@ A FCM é o valor máximo de batimentos cardíacos que um coração humano pode a
 
 ## Base Científica
 
-A FCM é um conceito importante na área da fisiologia esportiva, pois permite aos atletas entenderem os seus limites de esforço e programarem o seu treino de forma eficaz. Segundo Seiler (2010), a FCM é um valor que varia entre 170 e 200 bpm, dependendo da idade e do nível de condicionamento físico. Além disso, Laursen (2010) mostrou que a FCM é influenciada pela intensidade do treino, com valores mais altos sendo alcançados durante treinos de alta intensidade.
+A FCM é um conceito importante na área da fisiologia desportiva, pois permite aos atletas entenderem os seus limites de esforço e programarem o seu treino de forma eficaz. Segundo Seiler (2010), a FCM é um valor que varia entre 170 e 200 bpm, dependendo da idade e do nível de condicionamento físico. Além disso, Laursen (2010) mostrou que a FCM é influenciada pela intensidade do treino, com valores mais altos sendo alcançados durante treinos de alta intensidade.
 
 ## Aplicação Prática
 

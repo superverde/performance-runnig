@@ -2,7 +2,7 @@
 title: "Recuperação Ativa vs Passiva: Quando Escolher Cada Uma"
 date: '2026-07-28'
 category: "Recuperação"
-excerpt: "A recuperação é um aspecto fundamental do treino desportivo, permitindo que os atletas se recuperem da tensão física e mental associada às sessões de treino. Existem duas abordagens principais para a …"
+excerpt: "A recuperação é um aspecto fundamental do treino desportivo, permitindo que os atletas se recuperem da tensão física e mental associada às sessões de treino."
 readTime: 4
 ---
 

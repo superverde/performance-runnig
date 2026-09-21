@@ -29,7 +29,7 @@ As causas identificadas pela investigação incluem:
 - **Calçado inadequado ou gasto**: perde amortecimento e suporte
 - **Pé pronado** (vira muito para dentro): aumenta as forças torsionais sobre a tíbia
 - **Fraqueza do core e glúteos**: altera a biomecânica e sobrecarrega a perna
-- **Pouca flexibilidade das panturrilhas**: aumenta o stress sobre a tíbia
+- **Pouca flexibilidade das barrigas das pernas**: aumenta o stress sobre a tíbia
 
 ## Tratamento: o que funciona
 
@@ -45,7 +45,7 @@ A boa notícia: a SSTM resolve-se bem com tratamento conservador.
 - Reintroduz a corrida progressivamente em superfície mole
 - Fortalece o tibial anterior: extensões do tornozelo com banda elástica
 - Fortalece o core e os glúteos: pontes, agachamentos unilaterais
-- Alonga as panturrilhas diariamente
+- Alonga as barrigas das pernas diariamente
 
 **Quando retornar**: podes retomar volume normal quando estiveres 2 semanas sem dor durante ou após a corrida, e o toque na tíbia não provocar dor.
 

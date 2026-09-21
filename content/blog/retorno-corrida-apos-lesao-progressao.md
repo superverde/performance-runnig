@@ -2,7 +2,7 @@
 title: "Retorno ao Treino Após Lesão: Protocolo Baseado em Evidência"
 date: '2026-08-06'
 category: "Lesões"
-excerpt: "A lesão é um desafio comum para os corredores de desporto, especialmente durante o período de treino intensivo. De acordo com o estudo de Lopes et al. (2012), cerca de 79,4% dos corredores sofreram al…"
+excerpt: "A lesão é um desafio comum para os corredores de desporto, especialmente durante o período de treino intensivo. De acordo com o estudo de Lopes et al."
 readTime: 4
 ---
 

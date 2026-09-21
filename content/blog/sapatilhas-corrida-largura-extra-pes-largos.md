@@ -2,7 +2,7 @@
 title: "Sapatilhas de Corrida para Pés Largos: As Melhores Opções"
 date: '2026-08-20'
 category: "Equipamento"
-excerpt: "Para quem tem os pés mais largos, encontrar sapatilhas que ofereçam conforto, estabilidade e desempenho pode parecer um desafio. Este artigo reúne, de forma técnica e baseada em evidências, as melhore…"
+excerpt: "Para quem tem os pés mais largos, encontrar sapatilhas que ofereçam conforto, estabilidade e desempenho pode parecer um desafio."
 readTime: 5
 faqs:
   - q: "Qual é a largura recomendada para sapatilhas de pés largos?"
@@ -43,7 +43,7 @@ Quando se trata de sapatilhas para pés largos, os fatores que realmente influen
 | **Brooks Glycerin 2026** | Corredores com tendência a sobrecarga medial | Amortização de alta densidade, suporte lateral reforçado, cabedal em nylon leve | Peso um pouco elevado, pode ser menos adequado para sprints | Entre 180€ e 220€ |
 | **Saucony Triumph 2026** | Corrida de maratona com foco em economia de energia | Entressola PWRRUN+ com 30 % de densidade reduzida, boa resposta ao impacto | Cabedal pode não ser tão respirável em climas húmidos | Entre 170€ e 210€ |
 | **ASICS Gel-Kayano 2026** | Corredores que preferem estabilidade | Gel DuoZoom na zona da língua, sistema de estabilidade Dynamic DuoMax, cabedal em mesh de alta durabilidade | Peso mais elevado, pode não ser ideal para corredores ultra | Entre 190€ e 230€ |
-| **New Balance Fresh Foam 860 2026** | Corredores com pés largos que buscam conforto sem perder performance | Entressola Fresh Foam com tecnologia de densidade variável, cabedal em mesh respirável | Não possui sistema de controle de movimento, pode não ser adequado para pronadores severos | Entre 160€ e 200€ |
+| **New Balance Fresh Foam 860 2026** | Corredores com pés largos que buscam conforto sem perder performance | Entressola Fresh Foam com tecnologia de densidade variável, cabedal em mesh respirável | Não possui sistema de controlo de movimento, pode não ser adequado para pronadores severos | Entre 160€ e 200€ |
 
 > **Nota**: Todas as sapatilhas listadas foram testadas em corredores com pés largos de 44 mm a 46 mm na escala US/UK, e apresentam avaliações positivas em termos de conforto, amortização e estabilidade.
 

@@ -2,7 +2,7 @@
 title: "Spikes de Atletismo: Como Escolher os Certos"
 date: '2026-08-27'
 category: "Equipamento"
-excerpt: "A escolha do spike ideal pode transformar a tua performance numa prova de 100 m, 400 m ou 1500 m. Este artigo desvenda os critérios técnicos, apresenta as melhores opções de 2026 e recomenda‑os segund…"
+excerpt: "A escolha do spike ideal pode transformar a tua performance numa prova de 100 m, 400 m ou 1500 m."
 readTime: 5
 faqs:
   - q: "Qual é a diferença entre spikes de carbono e spikes de plástico?"

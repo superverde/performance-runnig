@@ -2,7 +2,7 @@
 title: "Gut Training: Como Treinar o Estômago para a Maratona"
 date: '2026-07-23'
 category: "Nutrição"
-excerpt: "O estômago é um dos principais órgãos envolvidos no processo de absorção de nutrientes durante a atividade física. Durante uma corrida, o estômago precisa lidar com a ingestão de alimentos e bebidas p…"
+excerpt: "O estômago é um dos principais órgãos envolvidos no processo de absorção de nutrientes durante a atividade física."
 readTime: 4
 ---
 

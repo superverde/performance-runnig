@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas para Longas Distâncias: Foco no Conforto"
 date: '2026-09-16'
 category: "Equipamento"
-excerpt: "A procura por sapatilhas que ofereçam conforto sem sacrificar a performance é um dos maiores desafios para quem corre longas distâncias. Este artigo explora, de forma técnica e prática, os critérios q…"
+excerpt: "Melhores Sapatilhas para Longas Distâncias: Foco no Conforto ==========================================================="
 readTime: 5
 faqs:
   - q: "Qual a diferença entre “neutral” e “motion‑control” em sapatilhas de corrida?"

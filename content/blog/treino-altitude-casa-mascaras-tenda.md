@@ -2,11 +2,11 @@
 title: "Simular Altitude em Casa: Tendas Hipóxicas e Alternativas"
 date: '2026-07-12'
 category: "Treino"
-excerpt: "A corrida é um esporte que exige uma grande resistência cardiovascular e muscular. Para atletas que buscam melhorar sua performance, a simulacão de altitude é uma técnica útil para aumentar a eficiênc…"
+excerpt: "A corrida é um desporto que exige uma grande resistência cardiovascular e muscular."
 readTime: 4
 ---
 
-A corrida é um esporte que exige uma grande resistência cardiovascular e muscular. Para atletas que buscam melhorar sua performance, a simulacão de altitude é uma técnica útil para aumentar a eficiência do treino. A altitude alta é conhecida por reduzir a oxigenação do sangue, o que força o organismo a adaptar-se e melhorar a entrega de oxigênio aos músculos. No entanto, a altitude real é difícil de encontrar e pode ser um obstáculo para muitos atletas. Neste artigo, exploraremos as tendas hipóxicas e alternativas para simular altitude em casa, tornando-a mais acessível e prática para os treinadores.
+A corrida é um desporto que exige uma grande resistência cardiovascular e muscular. Para atletas que buscam melhorar sua performance, a simulacão de altitude é uma técnica útil para aumentar a eficiência do treino. A altitude alta é conhecida por reduzir a oxigenação do sangue, o que força o organismo a adaptar-se e melhorar a entrega de oxigênio aos músculos. No entanto, a altitude real é difícil de encontrar e pode ser um obstáculo para muitos atletas. Neste artigo, exploraremos as tendas hipóxicas e alternativas para simular altitude em casa, tornando-a mais acessível e prática para os treinadores.
 
 ### Base Científica
 
@@ -16,7 +16,7 @@ A tenda hipóxicas é um dispositivo que simula a redução da oxigenação do a
 
 ### Aplicação Prática
 
-Para aplicar a técnica da tenda hipóxicas em casa, é necessário investir em um dispositivo específico. Existem vários modelos disponíveis no mercado, com preços variando de acordo com a qualidade e funcionalidade. Alguns modelos mais avançados podem incluir recursos como controle de temperatura e umidade, além de monitoramento da pressão parcial de oxigênio.
+Para aplicar a técnica da tenda hipóxicas em casa, é necessário investir em um dispositivo específico. Existem vários modelos disponíveis no mercado, com preços variando de acordo com a qualidade e funcionalidade. Alguns modelos mais avançados podem incluir recursos como controle de temperatura e humidade, além de monitoramento da pressão parcial de oxigênio.
 
 Um exemplo prático é o seguinte protocolo: durante 30 minutos, a pressão parcial de oxigênio é reduzida em 10% em relação à atmosfera normal. Isso é equivalente a treinar em uma altitude de cerca de 1.500 metros acima do nível do mar. Após 30 minutos, a pressão parcial de oxigênio é restaurada à normalidade. Este protocolo pode ser repetido várias vezes ao longo do treino.
 

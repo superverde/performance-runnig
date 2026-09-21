@@ -2,7 +2,7 @@
 title: "Como Calcular a Tua Taxa de Suor e Construir um Plano de Hidratação"
 date: '2026-08-29'
 category: "Nutrição"
-excerpt: "A taxa de suor pode ser calculada medindo a perda de peso antes e depois de um treino, dividindo‑a pelo tempo e pela temperatura ambiental, e esta medida permite‑lhe ajustar a ingestão hídrica de form…"
+excerpt: "A taxa de suor pode ser calculada medindo a perda de peso antes e depois de um treino, dividindo‑a pelo tempo e pela temperatura ambiental, e esta medida."
 readTime: 5
 faqs:
   - q: "Qual é a melhor forma de medir a taxa de suor de forma prática?"
@@ -23,7 +23,7 @@ Em ambientes de corrida, a perda de fluidos não se limita apenas à água; elet
 
 A relação entre taxa de suor, temperatura corporal e desempenho foi amplamente estudada.  Maughan e Shirreffs (2010) demonstraram que a perda de 2 % do peso corporal pode reduzir a potência e a velocidade de corrida em 5 % a 10 %, dependendo da duração do exercício.  O estudo de Jeukendrup (2014) reforça a necessidade de personalizar a ingestão de carboidratos e líquidos de acordo com a taxa de suor individual, pois a taxa de absorção gastrointestinal pode ser saturada se a ingestão for excessiva.  
 
-A reidratação não se resume apenas a substituir água; a perda de sódio pode chegar a 1 g por hora em condições quentes, exigindo soluções isotónicas ou bebidas esportivas com 6‑8 g L⁻¹ de sódio para evitar hiponatremia (Maughan & Shirreffs, 2010).  A temperatura ambiental aumenta a taxa de suor em 0,5 % por grau Celsius acima de 20 °C, o que deve ser considerado ao planejar a hidratação em maratonas de verão.
+A reidratação não se resume apenas a substituir água; a perda de sódio pode chegar a 1 g por hora em condições quentes, exigindo soluções isotónicas ou bebidas desportivas com 6‑8 g L⁻¹ de sódio para evitar hiponatremia (Maughan & Shirreffs, 2010).  A temperatura ambiental aumenta a taxa de suor em 0,5 % por grau Celsius acima de 20 °C, o que deve ser considerado ao planejar a hidratação em maratonas de verão.
 
 ## Aplicação Prática
 

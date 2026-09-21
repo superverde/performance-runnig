@@ -2,7 +2,7 @@
 title: "Positive vs Negative Split em Maratona: Qual é Mais Rápido?"
 date: '2026-09-06'
 category: "Treino"
-excerpt: "A resposta curta é: para a maioria dos corredores, um negative split (a segunda metade da prova mais rápida que a primeira) leva a tempos finais mais rápidos do que um positive split, porque permite u…"
+excerpt: "A resposta curta é: para a maioria dos corredores, um negative split (a segunda metade da prova mais rápida que a primeira) leva a tempos finais mais rápidos."
 readTime: 6
 faqs:
   - q: "Qual é a diferença prática entre um positive e um negative split?"
@@ -21,7 +21,7 @@ Quando se planifica a estratégia de ritmo, o objetivo principal é maximizar a 
 
 A fisiologia do corredor revela que a produção de ATP durante a corrida é sustentada por três fontes: fosfato de creatina, glicogeno muscular e glicose plasmática. Quando a velocidade ultrapassa o limiar anaeróbico, a produção de lactato aumenta, provocando uma diminuição do pH muscular e, consequentemente, uma redução da potência. Estudos de Seiler (2010) demonstram que a distribuição de intensidade (intensidade de treino versus volume) influencia diretamente a capacidade de manter ritmos próximos ao limiar, sendo o negative split uma extensão natural desse princípio.  
 
-Laursen (2010) argumenta que o treinamento de alta intensidade (HIIT) melhora a capacidade de tolerar lactato, mas se a primeira metade da prova for demasiado rápida, a acumulação de lactato pode ultrapassar a capacidade de remoção, resultando numa desaceleração no fim da prova. A pesquisa de Buchheit & Laursen (2013) reforça que a capacidade de recuperação entre esforços de alta intensidade determina a capacidade de manter ritmos consistentes.  
+Laursen (2010) argumenta que o treino de alta intensidade (HIIT) melhora a capacidade de tolerar lactato, mas se a primeira metade da prova for demasiado rápida, a acumulação de lactato pode ultrapassar a capacidade de remoção, resultando numa desaceleração no fim da prova. A pesquisa de Buchheit & Laursen (2013) reforça que a capacidade de recuperação entre esforços de alta intensidade determina a capacidade de manter ritmos consistentes.  
 
 Por outro lado, a meta‑analise de Bosquet et al. (2007) mostra que o tapering (redução de volume e intensidade na última fase de preparação) melhora a performance em 5 % a 10 %, mas apenas se a carga de trabalho anterior não exceder o limiar anaeróbico de forma descontrolada. Isto indica que, para que o negative split seja eficaz, a primeira metade não pode ultrapassar a zona de “fatiga tolerável” durante a preparação.
 

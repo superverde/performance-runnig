@@ -2,7 +2,7 @@
 title: "Sapatos com Placa de Carbono: Vale o Investimento?"
 date: '2026-09-10'
 category: "Treino"
-excerpt: "Os sapatos com placa de carbono podem melhorar a performance em provas de longa distância, mas o investimento depende de metas, orçamento e adaptação individual.…"
+excerpt: "Os sapatos com placa de carbono podem melhorar a performance em provas de longa distância, mas o investimento depende de metas, orçamento e adaptação."
 readTime: 4
 ---
 
@@ -42,14 +42,14 @@ Os preços variam entre 200 € e 400 € por par, dependendo da marca e do 
    - Avaliar ganhos de tempo comparado ao sapato anterior; uma redução de 30 – 60 segundos em 10 km indica benefício.
 
 ### Fortalecimento e Técnica  
-- **Fortalecimento de tornozelo e panturrilha:** 3 séries de 15 repetições de elevações de tornozelo.  
+- **Fortalecimento de tornozelo e barriga da perna:** 3 séries de 15 repetições de elevações de tornozelo.  
 - **Exercícios de mobilidade de quadril:** 3 séries de 10 repetições de abertura de quadril.  
 - **Análise de passada:** vídeo em 60 fps para verificar a frequência (90–100 passos/min) e o ângulo de ataque (entre 10° e 15°).
 
 ## Erros Comuns  
 
 1. **Troca imediata de sapatos sem adaptação:** Pode causar sobrecarga no tendão de Aquiles.  
-2. **Ignorar sinais de desconforto:** Dor no tornozelo, joelho ou panturrilha pode indicar desequilíbrio biomecânico.  
+2. **Ignorar sinais de desconforto:** Dor no tornozelo, joelho ou barriga da perna pode indicar desequilíbrio biomecânico.  
 3. **Subestimar o impacto da carga de treino:** Usar sapatos de placa em treinos de alta intensidade sem considerar a fadiga muscular pode aumentar o risco de lesões.  
 4. **Não ajustar a técnica de passada:** Manter a mesma cadência de um sapato de amortecimento pode levar a um padrão de corrida subótimo.
 

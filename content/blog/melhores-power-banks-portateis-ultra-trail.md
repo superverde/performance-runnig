@@ -2,7 +2,7 @@
 title: "Melhores Power Banks Portáteis para Ultra Trail"
 date: '2026-08-19'
 category: "Equipamento"
-excerpt: "Para os corredores que enfrentam longas distâncias em trilhos exigentes, a autonomia de energia pode ser tão crítica quanto a hidratação. Este guia detalha os power banks que oferecem a melhor combina…"
+excerpt: "Melhores Power Banks Portáteis para Ultra Trail Para os corredores que enfrentam longas distâncias em trilhos exigentes, a autonomia de energia pode ser tão."
 readTime: 4
 ---
 

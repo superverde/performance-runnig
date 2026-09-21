@@ -2,7 +2,7 @@
 title: "Equipamento Obrigatório para Ultra Trail: Checklist Completo"
 date: '2026-07-31'
 category: "Equipamento"
-excerpt: "O desporto do trail running tem-se tornado cada vez mais popular nos últimos anos, com muitos a optar por desafios mais longos e difíceis, como o ultra trail. Para além da preparação física e mental, …"
+excerpt: "O desporto do trail running tem-se tornado cada vez mais popular nos últimos anos, com muitos a optar por desafios mais longos e difíceis, como o ultra."
 readTime: 4
 ---
 
@@ -12,25 +12,25 @@ O desporto do trail running tem-se tornado cada vez mais popular nos últimos an
 
 ## Como Escolher: Critérios Que Importam
 
-Quando se trata de escolher o equipamento para o ultra trail, existem vários critérios que devem ser considerados. O primeiro e mais importante é a segurança. O equipamento deve ser projetado para proteger o corpo durante a corrida, incluindo a cabeça, as costas, as pernas e os pés.
+Quando se trata de escolher o equipamento para o ultra trail, existem vários critérios que devem ser considerados. O primeiro e mais importante é a segurança. O equipamento deve ser concebido para proteger o corpo durante a corrida, incluindo a cabeça, as costas, as pernas e os pés.
 
-Outro critério importante é o confort. O equipamento deve ser projetado para se adaptar ao corpo do corredor, permitindo uma movimentação natural e sem restrições. Isso inclui a escolha da t-shirt ou camisola, da calça ou shorts, e das sapatilhas ou ténis.
+Outro critério importante é o confort. O equipamento deve ser concebido para se adaptar ao corpo do corredor, permitindo uma movimentação natural e sem restrições. Isso inclui a escolha da t-shirt ou camisola, da calça ou shorts, e das sapatilhas ou ténis.
 
-A resistência também é um critério importante. O equipamento deve ser projetado para durar a longo prazo, sem se desgastar rapidamente. Isso inclui a escolha do material, da construção e da qualidade do equipamento.
+A resistência também é um critério importante. O equipamento deve ser concebido para durar a longo prazo, sem se desgastar rapidamente. Isso inclui a escolha do material, da construção e da qualidade do equipamento.
 
-Além disso, a acessibilidade é um critério importante. O equipamento deve ser projetado para ser fácil de usar e de carregar, sem ser pesado ou incômodo.
+Além disso, a acessibilidade é um critério importante. O equipamento deve ser concebido para ser fácil de usar e de carregar, sem ser pesado ou incômodo.
 
-Finalmente, a sustentabilidade é um critério importante. O equipamento deve ser projetado para ser reciclável e reutilizável, reduzindo o impacto ambiental do desporto.
+Finalmente, a sustentabilidade é um critério importante. O equipamento deve ser concebido para ser reciclável e reutilizável, reduzindo o impacto ambiental do desporto.
 
 ## As Melhores Opções em 2026
 
 A seguir, apresentamos as melhores opções em equipamento para o ultra trail em 2026:
 
-- **Salomon Sense Ultra 4**: Para quem procura um equipamento leve e confortável, o Salomon Sense Ultra 4 é uma excelente opção. Com um peso de apenas 240g, este equipamento é projetado para se adaptar ao corpo do corredor, permitindo uma movimentação natural e sem restrições. O preço é entre 150€ e 200€.
-- **La Sportiva Raptor 4 GTX**: Para quem procura um equipamento mais resistente, o La Sportiva Raptor 4 GTX é uma excelente opção. Com um material impermeável e resistente, este equipamento é projetado para durar a longo prazo, sem se desgastar rapidamente. O preço é entre 180€ e 220€.
-- **Merrell Moab 2 Mid Waterproof**: Para quem procura um equipamento mais versátil, o Merrell Moab 2 Mid Waterproof é uma excelente opção. Com um material impermeável e resistente, este equipamento é projetado para ser usado em diferentes condições climáticas, sem se desgastar rapidamente. O preço é entre 200€ e 250€.
-- **The North Face Hedgehog Fastpack GTX**: Para quem procura um equipamento mais leve e confortável, o The North Face Hedgehog Fastpack GTX é uma excelente opção. Com um peso de apenas 220g, este equipamento é projetado para se adaptar ao corpo do corredor, permitindo uma movimentação natural e sem restrições. O preço é entre 180€ e 220€.
-- **Hoka One One Challenger ATR 5**: Para quem procura um equipamento mais resistente, o Hoka One One Challenger ATR 5 é uma excelente opção. Com um material impermeável e resistente, este equipamento é projetado para durar a longo prazo, sem se desgastar rapidamente. O preço é entre 200€ e 250€.
+- **Salomon Sense Ultra 4**: Para quem procura um equipamento leve e confortável, o Salomon Sense Ultra 4 é uma excelente opção. Com um peso de apenas 240g, este equipamento é concebido para se adaptar ao corpo do corredor, permitindo uma movimentação natural e sem restrições. O preço é entre 150€ e 200€.
+- **La Sportiva Raptor 4 GTX**: Para quem procura um equipamento mais resistente, o La Sportiva Raptor 4 GTX é uma excelente opção. Com um material impermeável e resistente, este equipamento é concebido para durar a longo prazo, sem se desgastar rapidamente. O preço é entre 180€ e 220€.
+- **Merrell Moab 2 Mid Waterproof**: Para quem procura um equipamento mais versátil, o Merrell Moab 2 Mid Waterproof é uma excelente opção. Com um material impermeável e resistente, este equipamento é concebido para ser usado em diferentes condições climáticas, sem se desgastar rapidamente. O preço é entre 200€ e 250€.
+- **The North Face Hedgehog Fastpack GTX**: Para quem procura um equipamento mais leve e confortável, o The North Face Hedgehog Fastpack GTX é uma excelente opção. Com um peso de apenas 220g, este equipamento é concebido para se adaptar ao corpo do corredor, permitindo uma movimentação natural e sem restrições. O preço é entre 180€ e 220€.
+- **Hoka One One Challenger ATR 5**: Para quem procura um equipamento mais resistente, o Hoka One One Challenger ATR 5 é uma excelente opção. Com um material impermeável e resistente, este equipamento é concebido para durar a longo prazo, sem se desgastar rapidamente. O preço é entre 200€ e 250€.
 
 ## Veredicto: Qual Comprar
 

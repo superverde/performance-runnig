@@ -2,11 +2,11 @@
 title: "Base Aeróbia: Por Que 80% do Teu Treino Deve Ser Fácil"
 date: '2026-07-06'
 category: "Treino"
-excerpt: "A corrida é um esporte que exige uma combinação perfeita de força, resistência e condicionamento cardiovascular. Para alcançar um alto nível de desempenho, é fundamental uma abordagem de treino equili…"
+excerpt: "A corrida é um desporto que exige uma combinação perfeita de força, resistência e condicionamento cardiovascular."
 readTime: 4
 ---
 
-A corrida é um esporte que exige uma combinação perfeita de força, resistência e condicionamento cardiovascular. Para alcançar um alto nível de desempenho, é fundamental uma abordagem de treino equilibrada e estratégica. Uma das principais ferramentas para alcançar esse equilíbrio é a base aeróbica, um conceito que envolve o treino de intensidade moderada para melhorar a capacidade aeróbica do atleta. Neste artigo, vamos explorar por que a base aeróbica é fundamental para o treino de corrida e como aplicá-la de forma eficaz.
+A corrida é um desporto que exige uma combinação perfeita de força, resistência e condicionamento cardiovascular. Para alcançar um alto nível de desempenho, é fundamental uma abordagem de treino equilibrada e estratégica. Uma das principais ferramentas para alcançar esse equilíbrio é a base aeróbica, um conceito que envolve o treino de intensidade moderada para melhorar a capacidade aeróbica do atleta. Neste artigo, vamos explorar por que a base aeróbica é fundamental para o treino de corrida e como aplicá-la de forma eficaz.
 
 A base aeróbica é o fundamento do treino de corrida, representando cerca de 80% do treino total de um atleta de corrida. Isso pode parecer um número alto, mas é fundamental para que o atleta desenvolva a capacidade de realizar atividades de longa duração e alta intensidade. A base aeróbica é responsável por melhorar a capacidade de oxidação de gorduras, aumentar a capacidade cardiovascular e melhorar a eficiência da respiração, tudo isso contribuindo para um desempenho melhor em corridas de longa distância.
 

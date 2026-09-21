@@ -15,7 +15,7 @@ O coração é um órgão essencial para a sobrevivência, responsável por bomb
 
 O treino de endurance pode levar a um aumento significativo do tamanho das câmaras cardíacas, o que é conhecido como hipertrofiade das câmaras cardíacas. Isso ocorre devido à necessidade de o coração bombear mais sangue para atender às demandas do exercício. Um estudo publicado no Journal of Applied Physiology encontrou que o treino de endurance pode aumentar a capacidade cardíaca em até 25% em apenas 8 semanas de treino regular (1).
 
-A hipertrofiade das câmaras cardíacas é causada pela estimulação dos receptores beta-1 adrenérgicos no coração, que ativam a via de sinalização que leva à síntese de proteínas e crescimento celular. Além disso, o treino de endurance também pode levar a uma alteração na expressão gênica das proteínas que compõem as câmaras cardíacas, o que contribui para o aumento do tamanho das câmaras cardíacas (2).
+A hipertrofiade das câmaras cardíacas é causada pela estimulação dos receptores beta-1 adrenérgicos no coração, que ativam a via de sinalização que leva à síntese de proteínas e crescimento telemóvel. Além disso, o treino de endurance também pode levar a uma alteração na expressão gênica das proteínas que compõem as câmaras cardíacas, o que contribui para o aumento do tamanho das câmaras cardíacas (2).
 
 ### Aumento do Volume de Ejeção
 

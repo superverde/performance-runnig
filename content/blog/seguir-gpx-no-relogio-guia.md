@@ -2,7 +2,7 @@
 title: "Seguir um GPX no Relógio: Guia Prático"
 date: '2026-09-18'
 category: "Trail Running"
-excerpt: "Seguir um GPX no relógio permite que o corredor mantenha o ritmo, a distância e as elevações previstas, reduzindo a necessidade de recalibrar o percurso manualmente.…"
+excerpt: "Seguir um GPX no relógio permite que o corredor mantenha o ritmo, a distância e as elevações previstas, reduzindo a necessidade de recalibrar o percurso."
 readTime: 5
 faqs:
   - q: "Como posso garantir que o GPS do meu relógio está a ler corretamente a elevação?"

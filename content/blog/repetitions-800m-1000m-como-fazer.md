@@ -2,13 +2,13 @@
 title: "Repetições de 800m e 1000m: O Coração do Treino de VO2max"
 date: '2026-07-12'
 category: "Treino"
-excerpt: "A corrida é um esporte que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das ma…"
+excerpt: "A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória."
 readTime: 4
 ---
 
 Repetições de 800m e 1000m: O Coração do Treino de VO2max
 
-A corrida é um esporte que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das mais importantes, pois representa a capacidade máxima de o corpo utilizar oxigênio para produzir energia muscular. No entanto, alcançar e manter um alto nível de VO2max requer um treino específico e intensivo. Neste artigo, vamos explorar a importância das repetições de 800m e 1000m no treino de VO2max e como elas podem ser aplicadas em uma rotina de treino.
+A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das mais importantes, pois representa a capacidade máxima de o corpo utilizar oxigênio para produzir energia muscular. No entanto, alcançar e manter um alto nível de VO2max requer um treino específico e intensivo. Neste artigo, vamos explorar a importância das repetições de 800m e 1000m no treino de VO2max e como elas podem ser aplicadas em uma rotina de treino.
 
 As repetições de 800m e 1000m são uma forma de treino que envolve correr a uma distância fixa a uma intensidade alta, com intervalos de recuperação entre as repetições. Esta forma de treino é particularmente eficaz para melhorar a VO2max, pois permite que o atleta alcance uma intensidade alta e manter essa intensidade durante um período de tempo prolongado. Além disso, as repetições de 800m e 1000m também podem ajudar a melhorar a capacidade de recuperação entre as repetições, o que é fundamental para manter a intensidade durante todo o treino.
 

@@ -2,7 +2,7 @@
 title: "Preparação para Ultra Trail de 100km: O Guia Completo"
 date: '2026-08-11'
 category: "Trail Running"
-excerpt: "A corrida de ultra trail de 100km é um desporto extremamente exigente que requer uma preparação cuidadosa e sistemática. Para alcançar o seu objectivo, é fundamental entender a base científica que sub…"
+excerpt: "A corrida de ultra trail de 100km é um desporto extremamente exigente que requer uma preparação cuidadosa e sistemática."
 readTime: 5
 ---
 
@@ -10,7 +10,7 @@ readTime: 5
 
 A corrida de ultra trail de 100km é um desporto extremamente exigente que requer uma preparação cuidadosa e sistemática. Para alcançar o seu objectivo, é fundamental entender a base científica que subjaz ao treino e aplicar esses princípios de forma prática. Neste artigo, vamos explorar as principais características do treino para ultra trail de 100km e fornecer exemplos concretos para ajudar a preparar-se para tal desafio.
 
-A corrida de ultra trail de 100km é um desporto que envolve uma combinação de resistência, força e agilidade. Os corredores devem ser capazes de lidar com diferentes terrenos, incluindo montanhas, planícies e terrenos irregulares. Além disso, a temperatura e a umidade também podem variar significativamente ao longo do percurso. Para superar essas desafios, os corredores precisam desenvolver uma grande resistência cardiovascular, força muscular e capacidade para lidar com a tensão e o fadiga.
+A corrida de ultra trail de 100km é um desporto que envolve uma combinação de resistência, força e agilidade. Os corredores devem ser capazes de lidar com diferentes terrenos, incluindo montanhas, planícies e terrenos irregulares. Além disso, a temperatura e a humidade também podem variar significativamente ao longo do percurso. Para superar essas desafios, os corredores precisam desenvolver uma grande resistência cardiovascular, força muscular e capacidade para lidar com a tensão e o fadiga.
 
 ## Base Científica
 
@@ -24,15 +24,15 @@ Para preparar-se para uma corrida de ultra trail de 100km, é fundamental desenv
 
 - **Treino de resistência cardiovascular**: A corrida de ultra trail de 100km envolve uma série de terrenos difíceis e longas distâncias. Para superar esses desafios, é fundamental desenvolver uma grande resistência cardiovascular. Isso pode ser alcançado através de treinos de corrida de longa distância, incluindo corridas de 20 a 30 km semanalmente.
 - **Treino de força muscular**: A corrida de ultra trail de 100km também envolve uma série de terrenos irregulares e difíceis. Para superar esses desafios, é fundamental desenvolver uma grande força muscular. Isso pode ser alcançado através de treinos de força, incluindo exercícios de squats, remada e levantamento de peso.
-- **Treino de desidratação e perda de líquidos**: A corrida de ultra trail de 100km pode levar a uma perda significativa de líquidos e íons. Para superar esses desafios, é fundamental desenvolver uma grande capacidade para lidar com a desidratação e a perda de líquidos. Isso pode ser alcançado através de treinos de corrida em condições de calor e umidade elevadas.
+- **Treino de desidratação e perda de líquidos**: A corrida de ultra trail de 100km pode levar a uma perda significativa de líquidos e íons. Para superar esses desafios, é fundamental desenvolver uma grande capacidade para lidar com a desidratação e a perda de líquidos. Isso pode ser alcançado através de treinos de corrida em condições de calor e humidade elevadas.
 
 ## Erros Comuns
 
 Existem várias razões pelas quais os corredores podem falhar em uma corrida de ultra trail de 100km. A seguir, estão alguns exemplos comuns:
 
 - **Subestimar a dificuldade do percurso**: A corrida de ultra trail de 100km é um desporto extremamente exigente que requer uma preparação cuidadosa e sistemática. É fundamental subestimar a dificuldade do percurso e desenvolver uma rotina de treino adequada.
-- **Não lidar com a tensão e o fadiga**: A corrida de ultra trail de 100km pode levar a uma sensação de dor e fadiga significativa. É fundamental desenvolver uma grande capacidade para lidar com a tensão e o fadiga, incluindo treinos de corrida em condições de calor e umidade elevadas.
-- **Não lidar com a desidratação e a perda de líquidos**: A corrida de ultra trail de 100km pode levar a uma perda significativa de líquidos e íons. É fundamental desenvolver uma grande capacidade para lidar com a desidratação e a perda de líquidos, incluindo treinos de corrida em condições de calor e umidade elevadas.
+- **Não lidar com a tensão e o fadiga**: A corrida de ultra trail de 100km pode levar a uma sensação de dor e fadiga significativa. É fundamental desenvolver uma grande capacidade para lidar com a tensão e o fadiga, incluindo treinos de corrida em condições de calor e humidade elevadas.
+- **Não lidar com a desidratação e a perda de líquidos**: A corrida de ultra trail de 100km pode levar a uma perda significativa de líquidos e íons. É fundamental desenvolver uma grande capacidade para lidar com a desidratação e a perda de líquidos, incluindo treinos de corrida em condições de calor e humidade elevadas.
 
 ## Protocolo
 
@@ -40,8 +40,8 @@ A seguir, está um protocolo para ajudar a preparar-se para uma corrida de ultra
 
 - **Treino de resistência cardiovascular**: 3 treinos de corrida de longa distância por semana, incluindo corridas de 20 a 30 km semanalmente.
 - **Treino de força muscular**: 2 treinos de força por semana, incluindo exercícios de squats, remada e levantamento de peso.
-- **Treino de desidratação e perda de líquidos**: 1 treino de corrida em condições de calor e umidade elevadas por semana.
-- **Treino de corrida em condições de calor e umidade elevadas**: 1 treino de corrida em condições de calor e umidade elevadas por semana.
+- **Treino de desidratação e perda de líquidos**: 1 treino de corrida em condições de calor e humidade elevadas por semana.
+- **Treino de corrida em condições de calor e humidade elevadas**: 1 treino de corrida em condições de calor e humidade elevadas por semana.
 
 ## Conclusão
 

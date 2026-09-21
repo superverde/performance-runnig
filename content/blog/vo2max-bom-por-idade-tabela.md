@@ -12,7 +12,7 @@ O VO2max é um conceito fundamental no desporto, especialmente nos desportos de 
 
 Um VO2max alto não significa necessariamente que o atleta seja mais rápido ou eficiente. É importante lembrar que o VO2max é apenas um indicador de capacidade aeróbica e não aborda outros fatores importantes, como a capacidade anaeróbica, a força muscular e a eficiência técnica. No entanto, um VO2max alto é um indicador de boa saúde cardiovascular e pode ser um fator importante para a prevenção de doenças crónicas.
 
-A medida do VO2max é feita durante um teste de esforço máximo, onde o atleta é solicitado a realizar uma atividade intensa, geralmente uma corrida em uma esteira ou uma bicicleta estática, até que não possa mais realizar mais esforço. Durante o teste, o VO2max é medida em litros por minuto (L/min) e é expresso em porcentagem do valor máximo teórico para a idade e sexo do atleta.
+A medida do VO2max é feita durante um teste de esforço máximo, onde o atleta é solicitado a realizar uma atividade intensa, geralmente uma corrida em uma passadeira ou uma bicicleta estática, até que não possa mais realizar mais esforço. Durante o teste, o VO2max é medida em litros por minuto (L/min) e é expresso em porcentagem do valor máximo teórico para a idade e sexo do atleta.
 
 ## Base Científica
 

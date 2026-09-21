@@ -2,7 +2,7 @@
 title: "Running Power: A Métrica que Vai Substituir o Pace?"
 date: '2026-08-18'
 category: "Treino"
-excerpt: "Running Power é uma métrica que complementa, mas ainda não substitui, o pace tradicional; permite avaliar a carga fisiológica em tempo real e adaptar o treino à resposta do atleta, mas a velocidade de…"
+excerpt: "Running Power é uma métrica que complementa, mas ainda não substitui, o pace tradicional; permite avaliar a carga fisiológica em tempo real e adaptar o."
 readTime: 5
 faqs:
   - q: "Quais são os principais benefícios de usar running power em vez de pace?"

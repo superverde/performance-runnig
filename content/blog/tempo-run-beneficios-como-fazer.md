@@ -2,13 +2,13 @@
 title: "Tempo Run: O Treino Que Mais Melhora o Teu Ritmo de Corrida"
 date: '2026-07-05'
 category: "Treino"
-excerpt: "O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. O tempo run envolve correr a um ritmo específico, geralmente um ritmo…"
+excerpt: "O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida."
 readTime: 4
 ---
 
-O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. O tempo run envolve correr a um ritmo específico, geralmente um ritmo de velocidade alta, por um período determinado de tempo. Esse tipo de treino é comumente usado em treinamentos de resistência, onde os atletas buscam melhorar sua capacidade de correr a velocidades altas por um período prolongado.
+O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. O tempo run envolve correr a um ritmo específico, geralmente um ritmo de velocidade alta, por um período determinado de tempo. Esse tipo de treino é comumente usado em treinos de resistência, onde os atletas buscam melhorar sua capacidade de correr a velocidades altas por um período prolongado.
 
-No entanto, muitos atletas não sabem como implementar o tempo run de forma eficaz em seus treinamentos. Alguns podem acreditar que o tempo run é apenas um treino de velocidade, enquanto outros podem pensar que é apenas um treino de resistência. Na realidade, o tempo run é um treino que combina elementos de velocidade e resistência, e quando feito corretamente, pode ser um componente valioso em um treinamento de corrida.
+No entanto, muitos atletas não sabem como implementar o tempo run de forma eficaz em seus treinos. Alguns podem acreditar que o tempo run é apenas um treino de velocidade, enquanto outros podem pensar que é apenas um treino de resistência. Na realidade, o tempo run é um treino que combina elementos de velocidade e resistência, e quando feito corretamente, pode ser um componente valioso em um treino de corrida.
 
 ## Base Científica
 
@@ -18,7 +18,7 @@ Outra ideia científica por trás do tempo run é a noção de "taxa de oxidaç�
 
 ## Aplicação Prática
 
-Para implementar o tempo run em seu treinamento, você precisará de alguns elementos básicos. Em primeiro lugar, você precisará de um ritmo de corrida específico que você pode manter por um período determinado de tempo. Isso pode ser feito através de testes de velocidade ou de corridas de intervalo. Em segundo lugar, você precisará de um período de tempo específico que você pode correr a esse ritmo. Isso pode variar de 10 a 30 minutos, dependendo do seu nível de treinamento e objetivos.
+Para implementar o tempo run em seu treino, Vais precisar de alguns elementos básicos. Em primeiro lugar, Vais precisar de um ritmo de corrida específico que podes manter por um período determinado de tempo. Isso pode ser feito através de testes de velocidade ou de corridas de intervalo. Em segundo lugar, Vais precisar de um período de tempo específico que podes correr a esse ritmo. Isso pode variar de 10 a 30 minutos, dependendo do seu nível de treino e objetivos.
 
 Aqui está um exemplo de protocolo de tempo run:
 
@@ -27,7 +27,7 @@ Aqui está um exemplo de protocolo de tempo run:
 - Repetições: 4-6
 - Intervalo entre as repetições: 5-10 minutos
 
-Você começa correndo a 5:00 min/km por 20 minutos, em seguida, você tem um intervalo de 5-10 minutos para descansar e se recuperar. Depois disso, você repete o processo por mais 3-5 vezes, dependendo do seu nível de treinamento e objetivos.
+Começas correndo a 5:00 min/km por 20 minutos, em seguida, tens um intervalo de 5-10 minutos para descansar e se recuperar. Depois disso, repetes o processo por mais 3-5 vezes, dependendo do seu nível de treino e objetivos.
 
 ## Erros Comuns
 
@@ -35,7 +35,7 @@ Há alguns erros comuns que os atletas podem cometer ao fazer tempo run. Em prim
 
 ## Protocolo/Conclusão
 
-O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. Para implementar o tempo run em seu treinamento, você precisará de um ritmo de corrida específico e um período de tempo específico. É importante permitir aos músculos resfriarem-se entre as repetições e manter o ritmo correto durante o treino. Com a prática e a experiência, você pode ajustar o protocolo de tempo run para se adequar às suas necessidades e objetivos.
+O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. Para implementar o tempo run em seu treino, Vais precisar de um ritmo de corrida específico e um período de tempo específico. É importante permitir aos músculos resfriarem-se entre as repetições e manter o ritmo correto durante o treino. Com a prática e a experiência, podes ajustar o protocolo de tempo run para se adequar às suas necessidades e objetivos.
 
 ## Referências Científicas
 

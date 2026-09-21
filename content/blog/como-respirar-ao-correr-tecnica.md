@@ -2,7 +2,7 @@
 title: "Como Respirar ao Correr: Técnica, Ritmo Respiratório e Erros Comuns"
 date: '2026-08-14'
 category: "Biomecânica"
-excerpt: "Quando nos postavemos no início de uma corrida, é comum pensar que o principal desafio é a nossa capacidade física. No entanto, a respiração é um aspecto crucial que pode ser facilmente subestimado, m…"
+excerpt: "Quando nos postavemos no início de uma corrida, é comum pensar que o principal desafio é a nossa capacidade física."
 readTime: 4
 ---
 
@@ -12,7 +12,7 @@ Quando nos postavemos no início de uma corrida, é comum pensar que o principal
 
 ## Base Científica
 
-A respiração é um processo complexo que envolve a coordenação de músculos, nervos e vasos sanguíneos. Durante a corrida, a nossa respiração torna-se mais rápida e profunda, permitindo-nos retirar mais oxigênio do ar e eliminar dióxido de carbono. No entanto, se a respiração não for eficiente, podemos experimentar uma série de problemas, incluindo dor de cabeça, fadiga e até mesmo desidratação. De acordo com o estudo de Moore (2016), a respiração eficiente é fundamental para uma corrida econômica, que é definida como a capacidade de correr a uma velocidade máxima sem gastar excessiva energia.
+A respiração é um processo complexo que envolve a coordenação de músculos, nervos e vasos sanguíneos. Durante a corrida, a nossa respiração torna-se mais rápida e profunda, permitindo-nos retirar mais oxigênio do ar e eliminar dióxido de carbono. No entanto, se a respiração não for eficiente, podemos experimentar uma série de problemas, incluindo dor de cabeça, fadiga e até mesmo desidratação. De acordo com o estudo de Moore (2016), a respiração eficiente é fundamental para uma corrida económica, que é definida como a capacidade de correr a uma velocidade máxima sem gastar excessiva energia.
 
 Um dos principais fatores que afetam a respiração ao correr é o ritmo respiratório. Estudos demonstram que a respiração eficiente requer um ritmo respiratório de cerca de 2-3 respirações por passo (Lieberman et al., 2010). Isso significa que devemos inspirar durante a passagem do pé esquerdo para o direito e expirar durante a passagem do pé direito para o esquerdo. Além disso, a respiração eficiente também requer uma postura correta, com os ombros relaxados e a cabeça em uma posição neutra.
 

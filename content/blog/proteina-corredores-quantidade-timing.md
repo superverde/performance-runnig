@@ -2,7 +2,7 @@
 title: "Proteína para Corredores: Quanta Precisas e Quando Consumir"
 date: '2026-07-18'
 category: "Nutrição"
-excerpt: "Quando se trata de alimentação para corredores, a proteína é frequentemente subestimada. Embora o carboidrato seja a principal fonte de energia para os corredores, a proteína desempenha um papel cruci…"
+excerpt: "Quando se trata de alimentação para corredores, a proteína é frequentemente subestimada."
 readTime: 4
 ---
 

@@ -2,13 +2,13 @@
 title: "Cross-Training para Corredores: Natação, Bicicleta e Musculação"
 date: '2026-07-11'
 category: "Treino"
-excerpt: "A corrida é um esporte que exige uma grande variedade de habilidades e capacidades físicas, desde a resistência aeróbica até a força explosiva. No entanto, é comum que os corredores sejam propensos a …"
+excerpt: "A corrida é um desporto que exige uma grande variedade de habilidades e capacidades físicas, desde a resistência aeróbica até a força explosiva."
 readTime: 4
 ---
 
 Cross-Training para Corredores: Natação, Bicicleta e Musculação
 
-A corrida é um esporte que exige uma grande variedade de habilidades e capacidades físicas, desde a resistência aeróbica até a força explosiva. No entanto, é comum que os corredores sejam propensos a lesões e problemas de recuperação devido ao estresse repetitivo nos joelhos, tornozelos e outras articulações. Nesse contexto, a cross-training emerge como uma ferramenta valiosa para melhorar a resistência, a força e a recuperação, além de reduzir o risco de lesões. Neste artigo, vamos explorar a importância da cross-training para corredores, focando em natação, bicicleta e musculação.
+A corrida é um desporto que exige uma grande variedade de habilidades e capacidades físicas, desde a resistência aeróbica até a força explosiva. No entanto, é comum que os corredores sejam propensos a lesões e problemas de recuperação devido ao estresse repetitivo nos joelhos, tornozelos e outras articulações. Nesse contexto, a cross-training emerge como uma ferramenta valiosa para melhorar a resistência, a força e a recuperação, além de reduzir o risco de lesões. Neste artigo, vamos explorar a importância da cross-training para corredores, focando em natação, bicicleta e musculação.
 
 A cross-training é uma abordagem de treino que combina diferentes modalidades de exercícios para alcançar objetivos específicos. Para corredores, a cross-training pode ajudar a melhorar a resistência aeróbica, a força muscular e a flexibilidade, além de reduzir o estresse nos joelhos e outras articulações. Além disso, a cross-training pode ser uma ótima opção para corredores que estão se recuperando de lesões ou que necessitam de um descanso do impacto da corrida.
 
@@ -32,7 +32,7 @@ Agora que sabemos sobre a importância da cross-training para corredores, vamos 
 
 **Musculação**: A musculação é uma ótima opção para corredores que buscam melhorar a força muscular. Alguns exemplos de exercícios de musculação para corredores incluem:
 
-* Treinar os músculos das pernas, como a coxa e a panturrilha, com exercícios como o agachamento e o alongamento
+* Treinar os músculos das pernas, como a coxa e a barriga da perna, com exercícios como o agachamento e o alongamento
 * Treinar os músculos do tronco e dos ombros com exercícios como o levantamento de peso e o remo
 * Treinar os músculos dos braços com exercícios como o levantamento de peso e o alongamento
 

@@ -2,7 +2,7 @@
 title: "Periodização Nutricional: Treinar com Pouco, Competir com Muito"
 date: '2026-08-30'
 category: "Nutrição"
-excerpt: "Para treinar com poucos carboidratos e competir com muitos, a estratégia base é a periodização nutricional que ajusta a ingestão de macronutrientes ao ciclo de treino e ao pico de competição.…"
+excerpt: "Para treinar com poucos carboidratos e competir com muitos, a estratégia base é a periodização nutricional que ajusta a ingestão de macronutrientes ao ciclo."
 readTime: 4
 ---
 

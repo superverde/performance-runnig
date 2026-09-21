@@ -2,13 +2,13 @@
 title: "Fibras Musculares Tipo I e II: O Que Determinam na Tua Corrida"
 date: '2026-07-14'
 category: "Fisiologia"
-excerpt: "A corrida é um esporte que exige uma combinação de força, resistência e velocidade. Para alcançar o máximo de desempenho, é fundamental entender como o corpo humano se adapta ao treino e como as fibra…"
+excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e velocidade."
 readTime: 4
 ---
 
 ## Fibras Musculares Tipo I e II: O Que Determinam na Tua Corrida
 
-A corrida é um esporte que exige uma combinação de força, resistência e velocidade. Para alcançar o máximo de desempenho, é fundamental entender como o corpo humano se adapta ao treino e como as fibras musculares tipo I e II influenciam a nossa corrida. As fibras musculares são o principal responsável pela contração muscular, que é essencial para o movimento e a realização de exercícios físicos. Existem dois tipos principais de fibras musculares: tipo I e tipo II.
+A corrida é um desporto que exige uma combinação de força, resistência e velocidade. Para alcançar o máximo de desempenho, é fundamental entender como o corpo humano se adapta ao treino e como as fibras musculares tipo I e II influenciam a nossa corrida. As fibras musculares são o principal responsável pela contração muscular, que é essencial para o movimento e a realização de exercícios físicos. Existem dois tipos principais de fibras musculares: tipo I e tipo II.
 
 As fibras musculares tipo I são conhecidas como "fibras vermelhas" e são especializadas em queimar glicose para produzir energia. São mais resistentes e podem contrair durante longos períodos de tempo. As fibras musculares tipo II, por outro lado, são conhecidas como "fibras brancas" e são especializadas em queimar gordura para produzir energia. São mais fortes e podem contrair rapidamente, mas também são mais propensas a exaustão. A proporção entre as duas tipos de fibras musculares varia de acordo com a atividade física e o treino.
 

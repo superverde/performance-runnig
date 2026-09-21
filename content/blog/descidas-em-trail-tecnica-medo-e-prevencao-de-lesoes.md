@@ -61,7 +61,7 @@ A redução do estresse é fundamental para a segurança e a eficácia durante a
 
 ### Exercícios de Fortalecimento
 
-Os exercícios de fortalecimento são fundamentais para reduzir o risco de lesões e aumentar a confiança em tuas habilidades. É importante incluir exercícios de fortalecimento nos planos de treinamento regularmente.
+Os exercícios de fortalecimento são fundamentais para reduzir o risco de lesões e aumentar a confiança em tuas habilidades. É importante incluir exercícios de fortalecimento nos planos de treino regularmente.
 
 ## Conclusão
 

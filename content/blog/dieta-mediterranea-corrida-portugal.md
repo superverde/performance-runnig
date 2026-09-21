@@ -2,17 +2,17 @@
 title: "Dieta Mediterrânica e Corrida: O Padrão Alimentar Ideal"
 date: '2026-07-23'
 category: "Nutrição"
-excerpt: "A corrida é um esporte de alta intensidade que exige um treino rigoroso e uma nutrição adequada para alcançar as melhores performances. No entanto, muitos corredores não sabem que a dieta mediterrânic…"
+excerpt: "A corrida é um desporto de alta intensidade que exige um treino rigoroso e uma nutrição adequada para alcançar as melhores performances."
 readTime: 4
 ---
 
-A corrida é um esporte de alta intensidade que exige um treino rigoroso e uma nutrição adequada para alcançar as melhores performances. No entanto, muitos corredores não sabem que a dieta mediterrânica pode ser uma ferramenta poderosa para melhorar a sua corrida. A dieta mediterrânica é caracterizada por uma alta ingestão de frutas, vegetais, nozes e azeite de oliva, além de uma baixa ingestão de carne vermelha e produtos processados. Esta dieta tem sido associada a uma redução do risco de doenças cardíacas e metabólicas, além de melhorar a função física e a performance esportiva.
+A corrida é um desporto de alta intensidade que exige um treino rigoroso e uma nutrição adequada para alcançar as melhores performances. No entanto, muitos corredores não sabem que a dieta mediterrânica pode ser uma ferramenta poderosa para melhorar a sua corrida. A dieta mediterrânica é caracterizada por uma alta ingestão de frutas, vegetais, nozes e azeite de oliva, além de uma baixa ingestão de carne vermelha e produtos processados. Esta dieta tem sido associada a uma redução do risco de doenças cardíacas e metabólicas, além de melhorar a função física e a performance desportiva.
 
 Um dos principais benefícios da dieta mediterrânica para os corredores é a sua capacidade de fornecer nutrientes essenciais para a corrida. A dieta mediterrânica é rica em carboidratos complexos, que são importantes para a obtenção de energia durante a corrida. Além disso, a dieta mediterrânica é rica em antioxidantes e nutrientes que ajudam a reduzir o estresse oxidativo e a inflamação no corpo, o que pode levar a lesões e doenças crônicas. Outro benefício da dieta mediterrânica é a sua capacidade de melhorar a função do sistema imunológico, o que é importante para os corredores que têm uma alta exposição a infecções e doenças.
 
 ## Base Científica
 
-A dieta mediterrânica é baseada em uma combinação de estudos científicos que demonstram a sua eficácia em melhorar a função física e a performance esportiva. Um estudo publicado na revista Journal of Sports Sciences em 2011 encontrou que a dieta mediterrânica foi capaz de melhorar a performance de corrida em atletas de elite. Outro estudo publicado na revista Medicine & Science in Sports & Exercise em 2016 encontrou que a dieta mediterrânica foi capaz de melhorar a função do sistema imunológico e reduzir o estresse oxidativo em atletas de corrida.
+A dieta mediterrânica é baseada em uma combinação de estudos científicos que demonstram a sua eficácia em melhorar a função física e a performance desportiva. Um estudo publicado na revista Journal of Sports Sciences em 2011 encontrou que a dieta mediterrânica foi capaz de melhorar a performance de corrida em atletas de elite. Outro estudo publicado na revista Medicine & Science in Sports & Exercise em 2016 encontrou que a dieta mediterrânica foi capaz de melhorar a função do sistema imunológico e reduzir o estresse oxidativo em atletas de corrida.
 
 ## Aplicação Prática
 
@@ -34,7 +34,7 @@ Muitos corredores cometem erros ao tentar aplicar a dieta mediterrânica em sua 
 
 ## Protocolo/Conclusão
 
-A dieta mediterrânica é uma ferramenta poderosa para melhorar a corrida e a função física. Para aplicar a dieta mediterrânica em sua corrida, é importante iniciar a mudança de alimentação com uma semana de antecedência e incluir carboidratos complexos, vegetais e frutas, fontes de proteína magra e água em sua dieta diária. Além disso, é importante reduzir a ingestão de carne vermelha e produtos processados. Com uma dieta mediterrânica adequada, você pode melhorar a sua corrida e alcançar as melhores performances.
+A dieta mediterrânica é uma ferramenta poderosa para melhorar a corrida e a função física. Para aplicar a dieta mediterrânica em sua corrida, é importante iniciar a mudança de alimentação com uma semana de antecedência e incluir carboidratos complexos, vegetais e frutas, fontes de proteína magra e água em sua dieta diária. Além disso, é importante reduzir a ingestão de carne vermelha e produtos processados. Com uma dieta mediterrânica adequada, podes melhorar a sua corrida e alcançar as melhores performances.
 
 ## Referências Científicas
 

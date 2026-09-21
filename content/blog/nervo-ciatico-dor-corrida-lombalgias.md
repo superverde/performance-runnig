@@ -16,7 +16,7 @@ A dor lombar e ciática podem ser causadas por uma variedade de fatores, incluin
 
 - **Treino inadequado**: Correr em excesso, treinar em superfícies desportivas inadequadas ou sem uma rotina de treino adequada podem contribuir para a dor lombar e ciática.
 - **Postura inadequada**: Uma postura deficiente durante a corrida ou ao longo do dia pode causar tensão nos músculos e ligamentos da coluna vertebral, contribuindo para a dor lombar e ciática.
-- **Falta de alongamento e flexibilidade**: A falta de alongamento e flexibilidade nos músculos da coxa, panturrilha e costas pode contribuir para a dor lombar e ciática.
+- **Falta de alongamento e flexibilidade**: A falta de alongamento e flexibilidade nos músculos da coxa, barriga da perna e costas pode contribuir para a dor lombar e ciática.
 - **Lesões anteriores**: Lesões anteriores na coluna vertebral, como fraturas ou hernias de disco, podem contribuir para a dor lombar e ciática.
 
 ## Aplicação Prática
@@ -24,7 +24,7 @@ A dor lombar e ciática podem ser causadas por uma variedade de fatores, incluin
 A prevenção da dor lombar e ciática é fundamental para os corredores. Aqui estão algumas dicas práticas para ajudar a prevenir e tratar a dor lombar e ciática:
 
 - **Treino adequado**: É importante treinar regularmente, mas de forma adequada. Isso inclui aumentar gradualmente a carga de treino, evitar treinos intensos em excesso e incluir alongamentos e exercícios de força.
-- **Alongamento e flexibilidade**: Realizar alongamentos e exercícios de força regularmente pode ajudar a manter a flexibilidade e a força dos músculos da coxa, panturrilha e costas.
+- **Alongamento e flexibilidade**: Realizar alongamentos e exercícios de força regularmente pode ajudar a manter a flexibilidade e a força dos músculos da coxa, barriga da perna e costas.
 - **Postura adequada**: Mantenha uma postura adequada durante a corrida e ao longo do dia, com os ombros para trás, o peito para frente e a cabeça direta.
 - **Equipamento adequado**: Utilize equipamento adequado, como sapatilhas com suporte adequado e calçados com solado resistente.
 

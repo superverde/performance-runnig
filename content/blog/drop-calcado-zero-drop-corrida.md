@@ -2,7 +2,7 @@
 title: "Drop do Calçado: De Zero Drop a 12mm — Qual é o Certo?"
 date: '2026-07-27'
 category: "Biomecânica"
-excerpt: "A corrida é um desporto que exige uma grande quantidade de stress no sistema musculoesquelético. Para minimizar os danos e maximizar a performance, é fundamental entender a biomecânica do desporto e c…"
+excerpt: "A corrida é um desporto que exige uma grande quantidade de stress no sistema musculoesquelético."
 readTime: 4
 ---
 
@@ -18,7 +18,7 @@ A literatura científica disponível sugere que a escolha do calçado é uma dec
 
 ### Aplicação Prática
 
-Quando se trata de escolher o calçado certo, existem várias opções disponíveis no mercado. Os calçados com um drop de 0mm, também conhecidos como calçados de corrida zero, são projetados para reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Esses calçados têm uma plataforma mais larga e uma cobertura do pé mais completa, o que ajuda a absorver o impacto e a reduzir a stress no sistema musculoesquelético. Outros calçados com um drop menor, como os calçados de corrida de 4mm ou 6mm, também podem ser uma boa opção para os corredores que buscam reduzir a carga no sistema musculoesquelético.
+Quando se trata de escolher o calçado certo, existem várias opções disponíveis no mercado. Os calçados com um drop de 0mm, também conhecidos como calçados de corrida zero, são concebidos para reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Esses calçados têm uma plataforma mais larga e uma cobertura do pé mais completa, o que ajuda a absorver o impacto e a reduzir a stress no sistema musculoesquelético. Outros calçados com um drop menor, como os calçados de corrida de 4mm ou 6mm, também podem ser uma boa opção para os corredores que buscam reduzir a carga no sistema musculoesquelético.
 
 ### Erros Comuns
 

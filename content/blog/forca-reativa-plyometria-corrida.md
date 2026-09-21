@@ -2,7 +2,7 @@
 title: "Pliometria para Corredores: Força Reativa e Economia de Corrida"
 date: '2026-08-31'
 category: "Treino"
-excerpt: "Apli‑cando a pliometria no regime de corredores, aumenta‑se a capacidade de gerar força rapidamente (força reativa) e reduz‑se a carga mecânica por metro, o que se traduz num ganho de economia de corr…"
+excerpt: "Apli‑cando a pliometria no regime de corredores, aumenta‑se a capacidade de gerar força rapidamente (força reativa) e reduz‑se a carga mecânica por metro, o."
 readTime: 5
 faqs:
   - q: "Quais são os principais benefícios da pliometria para corredores?"
@@ -21,11 +21,11 @@ Para integrar eficazmente a pliometria num plano de treino de corrida, é crucia
 
 ## Base Científica
 
-A força reativa refere‑se à capacidade de transformar energia elástica em força mecânica em curto prazo. Estudos demonstram que a pliometria aumenta a potência vertical em 5‑10 % em corredores de elite, melhorando a velocidade de reação dos músculos da panturrilha e do quadríceps. A relação entre força reativa e economia de corrida é explicada pela redução do tempo de contato com o solo: quanto menor o tempo, menor a energia perdida em amortecimento.  
+A força reativa refere‑se à capacidade de transformar energia elástica em força mecânica em curto prazo. Estudos demonstram que a pliometria aumenta a potência vertical em 5‑10 % em corredores de elite, melhorando a velocidade de reação dos músculos da barriga da perna e do quadríceps. A relação entre força reativa e economia de corrida é explicada pela redução do tempo de contato com o solo: quanto menor o tempo, menor a energia perdida em amortecimento.  
 
 Além disso, a pliometria favorece o recrutamento de fibras musculares tipo II, que são mais eficientes na geração de força explosiva. Quando combinada com um volume de treino aeróbico adequado, o corpo adapta-se a usar menos oxigénio por quilómetro.  
 
-O protocolo de treinamento deve equilibrar a carga pliométrica com a carga aeróbica para evitar sobrecarga neuromuscular. A literatura indica que 2‑3 sessões por semana, com 30‑45 min de corrida aeróbica de baixa a moderada intensidade, são suficientes para preservar a capacidade de recuperação e maximizar os benefícios da pliometria.
+O protocolo de treino deve equilibrar a carga pliométrica com a carga aeróbica para evitar sobrecarga neuromuscular. A literatura indica que 2‑3 sessões por semana, com 30‑45 min de corrida aeróbica de baixa a moderada intensidade, são suficientes para preservar a capacidade de recuperação e maximizar os benefícios da pliometria.
 
 ## Aplicação Prática
 
@@ -58,7 +58,7 @@ O protocolo de treinamento deve equilibrar a carga pliométrica com a carga aer�
 
 ## Erros Comuns
 
-1. **Excesso de volume pliométrico**: 5‑6 sessões por semana podem levar a fadiga neuromuscular e aumentar o risco de lesões musculares, especialmente no tendão da panturrilha.
+1. **Excesso de volume pliométrico**: 5‑6 sessões por semana podem levar a fadiga neuromuscular e aumentar o risco de lesões musculares, especialmente no tendão da barriga da perna.
 2. **Falta de técnica**: Saltos sem aterragem controlada geram impactos elevados na coluna e nos joelhos. Treinar a técnica em superfície macia (colchonete) antes de aplicar em terreno real é essencial.
 3. **Negligenciar o aquecimento**: Um aquecimento inadequado pode comprometer a transferência de energia elástica. Sempre inclua 5‑10 min de corrida leve + mobilidade dinâmica antes da sessão pliométrica.
 4. **Ignorar a recuperação**: Apli‑cação de pliometria em dias consecutivos sem descanso pode impedir a síntese proteica e a reparação muscular. Planeie pelo menos 48 h entre as sessões.

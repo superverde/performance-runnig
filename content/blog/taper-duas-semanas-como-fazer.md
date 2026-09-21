@@ -2,7 +2,7 @@
 title: "Taper: As Duas Semanas Que Valem 3% de Performance"
 date: '2026-09-11'
 category: "Treino"
-excerpt: "Reduzir a carga de treino nas duas semanas que precedem uma prova pode elevar a performance em torno de 3 % em competições de 5 km a maratona, segundo meta‑análises de elite. O objetivo do taper é per…"
+excerpt: "Reduzir a carga de treino nas duas semanas que precedem uma prova pode elevar a performance em torno de 3 % em competições de 5 km a maratona, segundo."
 readTime: 6
 faqs:
   - q: "Quanto tempo devo esperar entre a última sessão de intervalo e a prova?"
@@ -21,7 +21,7 @@ O conceito de taper tem sido estudado há mais de três décadas e, apesar de si
 
 Os benefícios do taper são atribuídos principalmente a três fatores fisiológicos: (i) recuperação das fibras musculares e redução da fadiga metabólica; (ii) reabastecimento do glicogênio muscular e hepático; (iii) manutenção ou ligeiro aumento do VO₂máx e da capacidade de lactato. A meta‑análise de Bosquet et al. (2007) revelou que a redução de 10 % a 30 % do volume total nas duas semanas finais resulta numa melhoria média de 2,5 % a 3,5 % no desempenho. Esse intervalo de redução coincide com a “zona de tolerância” em que a perda de capacidade de resistência é minimizada, enquanto a recuperação se maximiza.
 
-Seiler (2010) argumenta que a distribuição de intensidade deve permanecer constante, mesmo com volume reduzido. Isto significa manter a mesma proporção de treinos de baixa, média e alta intensidade. A preservação da intensidade evita a perda de limiar anaeróbico, enquanto a diminuição do volume permite a regeneração. Laursen (2010) e Buchheit & Laursen (2013) reforçam que a alta intensidade deve ser preservada em sessões curtas, pois o treinamento de alta intensidade continua a estimular adaptações neuromusculares mesmo com menor volume total.
+Seiler (2010) argumenta que a distribuição de intensidade deve permanecer constante, mesmo com volume reduzido. Isto significa manter a mesma proporção de treinos de baixa, média e alta intensidade. A preservação da intensidade evita a perda de limiar anaeróbico, enquanto a diminuição do volume permite a regeneração. Laursen (2010) e Buchheit & Laursen (2013) reforçam que a alta intensidade deve ser preservada em sessões curtas, pois o treino de alta intensidade continua a estimular adaptações neuromusculares mesmo com menor volume total.
 
 Em termos práticos, a redução de carga não implica a eliminação de sessões de alta intensidade. Pelo contrário, a manutenção de 1‑2 sessões de 4 × 1 km a 90 % do FCmáx, por exemplo, mantém o estímulo cardiovascular enquanto o corpo recupera a força e a velocidade.
 

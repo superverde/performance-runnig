@@ -2,7 +2,7 @@
 title: "Night Running em Trail: Segurança, Equipamento e Preparação Mental"
 date: '2026-08-12'
 category: "Trail Running"
-excerpt: "Ao contrário do que muitos pensam, a corrida à noite não é apenas uma questão de iluminação. Além de proporcionar uma experiência desportiva única, a Night Running também apresenta desafios específico…"
+excerpt: "Ao contrário do que muitos pensam, a corrida à noite não é apenas uma questão de iluminação."
 readTime: 4
 ---
 

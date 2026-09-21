@@ -12,7 +12,7 @@ Ao correr em condições frias, é fundamental ter uma camisola que te proteja d
 
 ## Como Escolher: Critérios Que Importam
 
-Ao escolher uma camisola térmica para correr, existem alguns critérios que devem ser levados em conta. Em primeiro lugar, é importante considerar o tipo de material utilizado na camisola. Materiais como o poliéster, o nylon e o fio de malha são excelentes opções para camisolas térmicas, pois são leves, respiráveis e mantêm a umidade ao longo do desporto. Além disso, é importante considerar a camada de isolamento da camisola. Uma camisola com uma camada de isolamento adequada pode ajudar a manter a temperatura corporal estável, mesmo em condições frias.
+Ao escolher uma camisola térmica para correr, existem alguns critérios que devem ser levados em conta. Em primeiro lugar, é importante considerar o tipo de material utilizado na camisola. Materiais como o poliéster, o nylon e o fio de malha são excelentes opções para camisolas térmicas, pois são leves, respiráveis e mantêm a humidade ao longo do desporto. Além disso, é importante considerar a camada de isolamento da camisola. Uma camisola com uma camada de isolamento adequada pode ajudar a manter a temperatura corporal estável, mesmo em condições frias.
 
 Outro critério importante é a funcionalidade da camisola. Uma boa camisola térmica deve ser confortável e permitir uma mobilidade fácil. Além disso, é importante considerar a duração da camisola. Uma camisola que seja fácil de lavar e seque é uma excelente opção, pois pode ser usada várias vezes sem necessidade de substituição.
 
@@ -21,9 +21,9 @@ Outro critério importante é a funcionalidade da camisola. Uma boa camisola té
 Ao longo do ano, testamos várias camisolas térmicas para correr e encontramos algumas opções excelentes. Aqui estão algumas das melhores opções disponíveis no mercado:
 
 - **Camisola Térmica da Nike**: Esta camisola é ideal para corredores que precisam de uma camisola leve e respirável. Com uma camada de isolamento adequada e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 150€ e 200€.
-- **Camisola Térmica da Under Armour**: Esta camisola é projetada para corredores que precisam de uma camisola que seja tanto leve quanto isolada. Com uma camada de isolamento dupla e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 150€ e 200€.
+- **Camisola Térmica da Under Armour**: Esta camisola é concebida para corredores que precisam de uma camisola que seja tanto leve quanto isolada. Com uma camada de isolamento dupla e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 150€ e 200€.
 - **Camisola Térmica da Adidas**: Esta camisola é ideal para corredores que precisam de uma camisola que seja tanto leve quanto isolada. Com uma camada de isolamento adequada e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 150€ e 200€.
-- **Camisola Térmica da Puma**: Esta camisola é projetada para corredores que precisam de uma camisola que seja tanto leve quanto isolada. Com uma camada de isolamento dupla e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 100€ e 150€.
+- **Camisola Térmica da Puma**: Esta camisola é concebida para corredores que precisam de uma camisola que seja tanto leve quanto isolada. Com uma camada de isolamento dupla e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 100€ e 150€.
 - **Camisola Térmica da Asics**: Esta camisola é ideal para corredores que precisam de uma camisola que seja tanto leve quanto isolada. Com uma camada de isolamento adequada e uma funcionalidade confortável, esta camisola é uma excelente opção para correr em condições frias. Faixa de preço: entre 100€ e 150€.
 
 ## Veredicto: Qual Comprar

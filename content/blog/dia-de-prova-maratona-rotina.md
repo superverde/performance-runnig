@@ -2,7 +2,7 @@
 title: "Rotina no Dia da Maratona: Dos 3 Dias Antes à Linha de Partida"
 date: '2026-08-22'
 category: "Treino"
-excerpt: "A rotina ideal no dia da maratona começa três dias antes, com foco em recuperação, hidratação e preparação mental, culminando numa estratégia de alimentação e descanso que garante energia para a linha…"
+excerpt: "A rotina ideal no dia da maratona começa três dias antes, com foco em recuperação, hidratação e preparação mental, culminando numa estratégia de alimentação."
 readTime: 5
 faqs:
   - q: "Qual é a quantidade ideal de carboidratos no dia da maratona?"

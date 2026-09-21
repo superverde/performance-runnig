@@ -6,7 +6,7 @@ excerpt: "ATP-PCr, glicolítico e oxidativo: que sistema alimenta cada ritmo, do
 readTime: 4
 ---
 
-A corrida é um esporte que desafia nossa capacidade física e mental, exigindo uma combinação de força, agilidade e resistência. Ao longo de uma competição, nossos sistemas energéticos são constantemente mobilizados para fornecer energia para os músculos. No entanto, a intensidade e a duração da corrida variam significativamente, desde os breves esforços intensos do sprint até as longas maratonas de ultra-maratonismo. Em cada um desses contextos, nossos sistemas energéticos são adaptados para maximizar a produção de energia e manter a performance.
+A corrida é um desporto que desafia nossa capacidade física e mental, exigindo uma combinação de força, agilidade e resistência. Ao longo de uma competição, nossos sistemas energéticos são constantemente mobilizados para fornecer energia para os músculos. No entanto, a intensidade e a duração da corrida variam significativamente, desde os breves esforços intensos do sprint até as longas maratonas de ultra-maratonismo. Em cada um desses contextos, nossos sistemas energéticos são adaptados para maximizar a produção de energia e manter a performance.
 
 ## Base Científica
 
@@ -30,7 +30,7 @@ Outro erro comum é não treinar a capacidade de oxidar o glicogênio e a gordur
 
 ## Protocolo/Conclusão
 
-Em resumo, a corrida é um esporte que desafia nossa capacidade física e mental, exigindo uma combinação de força, agilidade e resistência. Ao longo de uma competição, nossos sistemas energéticos são constantemente mobilizados para fornecer energia para os músculos. A compreensão desses sistemas energéticos é fundamental para a criação de um treino eficaz.
+Em resumo, a corrida é um desporto que desafia nossa capacidade física e mental, exigindo uma combinação de força, agilidade e resistência. Ao longo de uma competição, nossos sistemas energéticos são constantemente mobilizados para fornecer energia para os músculos. A compreensão desses sistemas energéticos é fundamental para a criação de um treino eficaz.
 
 Para alcançar o sucesso em corridas de diferentes intensidades e durações, é importante treinar a capacidade de produzir ATP através da via anaeróbica e da via aeróbica. Isso pode ser feito através de treinos de intervalos, treinos de longa duração e intensidade moderada, e treinos de alta intensidade.
 

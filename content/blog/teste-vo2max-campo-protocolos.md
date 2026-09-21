@@ -2,7 +2,7 @@
 title: "Como Estimar o VO2max Sem Laboratório: Testes de Campo Validados"
 date: '2026-08-18'
 category: "Fisiologia"
-excerpt: "A estimativa do VO₂max sem recorrer a laboratório pode ser obtida com testes de campo validados, como o teste de Cooper (12 min), o teste de 3 km em pista e o teste de 20 m shuttle run, desde que seja…"
+excerpt: "A estimativa do VO₂max sem recorrer a laboratório pode ser obtida com testes de campo validados, como o teste de Cooper (12 min), o teste de 3 km em pista e."
 readTime: 4
 ---
 
@@ -76,7 +76,7 @@ Evitar esses deslizes garante que os valores estimados reflitam a real capacidad
 
 ## Protocolo/Conclusão  
 
-Para estimar o VO₂max sem laboratório, recomenda‑se executar pelo menos dois testes de campo por ciclo de treinamento (por exemplo, ao fim de cada mês de volume). Isso permite identificar tendências, ajustar zonas de intensidade e garantir que o atleta esteja a progredir de forma segura.  
+Para estimar o VO₂max sem laboratório, recomenda‑se executar pelo menos dois testes de campo por ciclo de treino (por exemplo, ao fim de cada mês de volume). Isso permite identificar tendências, ajustar zonas de intensidade e garantir que o atleta esteja a progredir de forma segura.  
 
 A escolha do teste deve levar em conta a logística (acesso a pista ou rua plana), o nível de experiência do atleta e o objetivo do treino (avaliação de base, preparação para competição, recuperação).  
 

@@ -2,7 +2,7 @@
 title: "Análise de Corrida (Gait Analysis): Vale a Pena Fazer?"
 date: '2026-07-27'
 category: "Biomecânica"
-excerpt: "A corrida é um desporto altamente demandante, tanto física quanto mentalmente. Para alcançar o desempenho máximo, é fundamental otimizar a nossa técnica de corrida, minimizando o impacto sobre os noss…"
+excerpt: "A corrida é um desporto altamente demandante, tanto física quanto mentalmente."
 readTime: 4
 ---
 
@@ -16,19 +16,19 @@ A Análise de Corrida é uma ferramenta que permite identificar os principais pr
 
 A biomecânica da corrida é fundamentalmente baseada na transferência de energia entre os músculos e os pés. O movimento de corrida pode ser dividido em três fases principais: a absorção, a propulsão e a recuperação. Durante a absorção, os pés absorvem o impacto do solo, enquanto a fase de propulsão envolve a transferência de energia para a frente. A recuperação é a fase final, em que os músculos se recuperam do esforço.
 
-De acordo com a literatura, a biomecânica da corrida pode ser influenciada por vários factores, incluindo a postura, a força e a flexibilidade. Por exemplo, estudos têm demonstrado que a força dos músculos do quadríceps e da panturrilha está relacionada com a eficiência da corrida (Novacheck, 1998). Além disso, a postura dos corredores pode afetar a distribuição do impacto nos pés e a eficiência da corrida (Lieberman et al., 2010).
+De acordo com a literatura, a biomecânica da corrida pode ser influenciada por vários factores, incluindo a postura, a força e a flexibilidade. Por exemplo, estudos têm demonstrado que a força dos músculos do quadríceps e da barriga da perna está relacionada com a eficiência da corrida (Novacheck, 1998). Além disso, a postura dos corredores pode afetar a distribuição do impacto nos pés e a eficiência da corrida (Lieberman et al., 2010).
 
 ## Aplicação Prática
 
-A Análise de Corrida pode ser aplicada em diferentes contextos, desde a recuperação de lesões até a melhoria da performance. Ao identificar os problemas de biomecânica, os corredores podem trabalhar em conjunto com treinadores ou fisioterapeutas para desenvolver estratégias de melhoria. Por exemplo, se um corredor tiver problemas de stress na panturrilha, pode ser recomendado trabalhar em força e flexibilidade para melhorar a sua eficiência.
+A Análise de Corrida pode ser aplicada em diferentes contextos, desde a recuperação de lesões até a melhoria da performance. Ao identificar os problemas de biomecânica, os corredores podem trabalhar em conjunto com treinadores ou fisioterapeutas para desenvolver estratégias de melhoria. Por exemplo, se um corredor tiver problemas de stress na barriga da perna, pode ser recomendado trabalhar em força e flexibilidade para melhorar a sua eficiência.
 
-A Análise de Corrida também pode ser usada para monitorar a evolução da corrida ao longo do tempo. Com a ajuda de instrumentos de análise, os corredores podem identificar áreas de melhoria e desenvolver estratégias para melhorar a sua performance. Por exemplo, se um corredor estiver a experimentar problemas de lesão na panturrilha, pode ser recomendado trabalhar em força e flexibilidade para melhorar a sua eficiência.
+A Análise de Corrida também pode ser usada para monitorar a evolução da corrida ao longo do tempo. Com a ajuda de instrumentos de análise, os corredores podem identificar áreas de melhoria e desenvolver estratégias para melhorar a sua performance. Por exemplo, se um corredor estiver a experimentar problemas de lesão na barriga da perna, pode ser recomendado trabalhar em força e flexibilidade para melhorar a sua eficiência.
 
 ## Erros Comuns
 
 A Análise de Corrida pode ser influenciada por vários factores, incluindo a postura, a força e a flexibilidade. Alguns dos principais erros comuns incluem:
 
-* Falta de força e flexibilidade nos músculos do quadríceps e da panturrilha
+* Falta de força e flexibilidade nos músculos do quadríceps e da barriga da perna
 * Postura inadequada, que pode afetar a distribuição do impacto nos pés
 * Lesões crônicas, que podem afetar a eficiência da corrida
 

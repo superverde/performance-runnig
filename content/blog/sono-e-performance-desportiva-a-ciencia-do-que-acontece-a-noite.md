@@ -45,7 +45,7 @@ Para melhorar a qualidade do sono e, consequentemente, a performance desportiva,
 
 * Estabelecer um horário regular para dormir e acordar
 * Crie um ambiente tranquilo e escuro para dormir
-* Evite o uso de tecnologias eletrônicas antes de dormir
+* Evite o uso de tecnologias eletrónicas antes de dormir
 * Evite atividades físicas intensas antes de dormir
 * Priorize a recuperação e o descanso após a atividade física
 

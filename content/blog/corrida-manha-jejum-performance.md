@@ -2,7 +2,7 @@
 title: "Correr de Manhã em Jejum: O Que a Ciência Realmente Diz"
 date: '2026-07-10'
 category: "Treino"
-excerpt: "O treino de corrida de manhã em jejum é uma prática comum entre corredores de elite e amadores. A ideia é que o jejum durante a noite permita que o corpo entre em um estado de \"autofagia\", em que as c…"
+excerpt: "O treino de corrida de manhã em jejum é uma prática comum entre corredores de elite e amadores."
 readTime: 4
 ---
 
@@ -20,11 +20,11 @@ Um estudo publicado no International Journal of Sports Physiology and Performanc
 
 ## Aplicação Prática
 
-Se você está considerando fazer treino de corrida em jejum, aqui estão algumas dicas para aplicar essa informação em prática:
+Se estás a considerar fazer treino de corrida em jejum, aqui estão algumas dicas para aplicar essa informação em prática:
 
-* **Duração do jejum**: A duração do jejum é importante. Se você tiver um jejum de 12 a 14 horas, é provável que o seu corpo tenha consumido a maioria das suas reservas de glicogênio e comece a queimar gordura para produzir energia. No entanto, se você tiver um jejum de mais de 24 horas, é provável que o seu corpo comece a queimar músculo para produzir energia.
-* **Intensidade do treino**: A intensidade do treino é importante. Se você estiver fazendo um treino de alta intensidade, é provável que o jejum não tenha um impacto significativo na sua performance. No entanto, se você estiver fazendo um treino de baixa intensidade, o jejum pode levar a uma perda de rendimento.
-* **Nível de condicionamento físico**: O nível de condicionamento físico do corredor é importante. Se você estiver um corredor experiente, é provável que o jejum não tenha um impacto significativo na sua performance. No entanto, se você estiver um corredor iniciante, o jejum pode levar a uma perda de rendimento.
+* **Duração do jejum**: A duração do jejum é importante. Se tiver um jejum de 12 a 14 horas, é provável que o seu corpo tenha consumido a maioria das suas reservas de glicogênio e comece a queimar gordura para produzir energia. No entanto, Se tiver um jejum de mais de 24 horas, é provável que o seu corpo comece a queimar músculo para produzir energia.
+* **Intensidade do treino**: A intensidade do treino é importante. Se estiver a fazer um treino de alta intensidade, é provável que o jejum não tenha um impacto significativo na sua performance. No entanto, Se estiver a fazer um treino de baixa intensidade, o jejum pode levar a uma perda de rendimento.
+* **Nível de condicionamento físico**: O nível de condicionamento físico do corredor é importante. Se estiver um corredor experiente, é provável que o jejum não tenha um impacto significativo na sua performance. No entanto, Se estiver um corredor iniciante, o jejum pode levar a uma perda de rendimento.
 
 ## Erros Comuns
 
@@ -36,7 +36,7 @@ Aqui estão alguns erros comuns que os corredores cometem ao fazer treino de cor
 
 ## Protocolo/Conclusão
 
-Em resumo, o treino de corrida em jejum pode ser eficaz para melhorar a capacidade de realizar exercícios de alta intensidade, mas é importante considerar a duração do jejum, a intensidade do treino e o nível de condicionamento físico do corredor. Além disso, é importante evitar erros comuns, como jejum excessivo, treino inadequado e falta de hidratação. Se você está considerando fazer treino de corrida em jejum, é importante consultar um treinador ou um médico para obter orientação personalizada.
+Em resumo, o treino de corrida em jejum pode ser eficaz para melhorar a capacidade de realizar exercícios de alta intensidade, mas é importante considerar a duração do jejum, a intensidade do treino e o nível de condicionamento físico do corredor. Além disso, é importante evitar erros comuns, como jejum excessivo, treino inadequado e falta de hidratação. Se estás a considerar fazer treino de corrida em jejum, é importante consultar um treinador ou um médico para obter orientação personalizada.
 
 ## Referências Científicas
 

@@ -10,7 +10,7 @@ readTime: 4
 
 ## Introdução
 
-Quando se trata de corrida de curta e média distância, a escolha certa das sapatilhas pode ser a diferença entre um tempo de corrida rápido e um desempenho abaixo do esperado. As sapatilhas devem ser projetadas para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Mas como escolher as melhores sapatilhas para 5km e 10km? Neste artigo, vamos explorar os critérios técnicos a considerar e apresentar algumas das melhores opções disponíveis no mercado.
+Quando se trata de corrida de curta e média distância, a escolha certa das sapatilhas pode ser a diferença entre um tempo de corrida rápido e um desempenho abaixo do esperado. As sapatilhas devem ser concebidas para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Mas como escolher as melhores sapatilhas para 5km e 10km? Neste artigo, vamos explorar os critérios técnicos a considerar e apresentar algumas das melhores opções disponíveis no mercado.
 
 ## Como Escolher: Critérios Que Importam
 
@@ -25,14 +25,14 @@ Ao escolher sapatilhas para corrida de curta e média distância, é importante 
 
 Aqui estão algumas das melhores opções de sapatilhas para 5km e 10km disponíveis no mercado em 2026:
 
-- **Nike Vaporfly Next% 2**: A Nike Vaporfly Next% 2 é uma sapatilha de corrida de elite projetada para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores experientes que buscam um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
-- **Adidas Adizero Adios Pro**: A Adidas Adizero Adios Pro é uma sapatilha de corrida de elite projetada para oferecer um equilíbrio entre suporte, amortecimento e mobilidade. Ela é ideal para corredores experientes que buscam um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
-- **Asics Gel-Nimbus 25**: A Asics Gel-Nimbus 25 é uma sapatilha de corrida de longa distância projetada para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que buscam um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
-- **New Balance Fresh Foam 1080v12**: A New Balance Fresh Foam 1080v12 é uma sapatilha de corrida de longa distância projetada para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que buscam um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
+- **Nike Vaporfly Next% 2**: A Nike Vaporfly Next% 2 é uma sapatilha de corrida de elite concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores experientes que buscam um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
+- **Adidas Adizero Adios Pro**: A Adidas Adizero Adios Pro é uma sapatilha de corrida de elite concebida para oferecer um equilíbrio entre suporte, amortecimento e mobilidade. Ela é ideal para corredores experientes que buscam um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
+- **Asics Gel-Nimbus 25**: A Asics Gel-Nimbus 25 é uma sapatilha de corrida de longa distância concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que buscam um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
+- **New Balance Fresh Foam 1080v12**: A New Balance Fresh Foam 1080v12 é uma sapatilha de corrida de longa distância concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que buscam um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
 
 ## Veredicto: Qual Comprar
 
-A escolha da sapatilha certa depende do seu perfil como corredor. Se você é um iniciante, pode querer começar com uma sapatilha mais leve e flexível, como a Asics Gel-Nimbus 25. Se você é um corredor experiente, pode querer optar por uma sapatilha mais técnica, como a Nike Vaporfly Next% 2. Se você tem um orçamento limitado, pode querer considerar opções mais acessíveis, como a New Balance Fresh Foam 1080v12.
+A escolha da sapatilha certa depende do seu perfil como corredor. Se és um iniciante, pode querer começar com uma sapatilha mais leve e flexível, como a Asics Gel-Nimbus 25. Se és um corredor experiente, pode querer optar por uma sapatilha mais técnica, como a Nike Vaporfly Next% 2. Se tens um orçamento limitado, pode querer considerar opções mais acessíveis, como a New Balance Fresh Foam 1080v12.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

@@ -2,7 +2,7 @@
 title: "GPS Portátil Dedicado vs. Relógio: Qual Escolher para Trail"
 date: '2026-08-22'
 category: "Equipamento"
-excerpt: "O que o corredor de trail procura ao escolher entre um GPS portátil dedicado e um relógio? A resposta está na combinação de precisão, autonomia e funcionalidade específica para terrenos acidentados.…"
+excerpt: "GPS Portátil Dedicado vs. Relógio: Qual Escolher para Trail O que o corredor de trail procura ao escolher entre um GPS portátil dedicado e um relógio?"
 readTime: 5
 faqs:
   - q: "Qual a diferença principal entre um GPS portátil e um relógio de corrida?"
@@ -23,7 +23,7 @@ Para decidir entre um GPS portátil e um relógio, é preciso avaliar critérios
 
 **Autonomia da Bateria** – O tempo de operação em modo GPS puro pode chegar a 20 h em portáteis dedicados, enquanto relógios de corrida, otimizados para consumo, oferecem entre 12 h e 18 h dependendo do modelo. Para maratonas de trail de 30 h, a autonomia torna‑se decisiva.  
 
-**Ergonomia e Peso** – Os portáteis são projetados para serem carregados em mochilas ou cintos, com peso entre 60 g e 120 g, enquanto relógios pesam de 30 g a 80 g. Para corredores que já carregam equipamento de hidratação, o peso adicional do portátil pode ser um fator.  
+**Ergonomia e Peso** – Os portáteis são concebidos para serem carregados em mochilas ou cintos, com peso entre 60 g e 120 g, enquanto relógios pesam de 30 g a 80 g. Para corredores que já carregam equipamento de hidratação, o peso adicional do portátil pode ser um fator.  
 
 **Funcionalidades Específicas** – Relógios de corrida oferecem métricas de frequência cardíaca, VO₂max estimado, e integração com serviços de treino (Strava, TrainingPeaks). Os portáteis focam em mapas offline, rotas de navegação passo a passo e integração com dispositivos de hidratação.  
 

@@ -2,7 +2,7 @@
 title: "Síndrome da Banda Iliotibial: O Joelho do Corredor Desmistificado"
 date: '2026-08-02'
 category: "Lesões"
-excerpt: "A síndrome da banda iliótica é uma das lesões mais comuns entre os corredores, causando dor aguda no lado de fora do joelho e dificuldando a realização de exercícios físicos. Esta lesão ocorre devido …"
+excerpt: "A síndrome da banda iliótica é uma das lesões mais comuns entre os corredores, causando dor aguda no lado de fora do joelho e dificuldando a realização de."
 readTime: 4
 ---
 

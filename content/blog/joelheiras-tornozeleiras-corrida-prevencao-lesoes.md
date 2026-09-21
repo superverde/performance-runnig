@@ -2,7 +2,7 @@
 title: "Joelheiras e Tornozeleiras para Corrida: Prevenção de Lesões"
 date: '2026-09-05'
 category: "Equipamento"
-excerpt: "A escolha das joelheiras e tornozeleiras de corrida pode ser decisiva para evitar lesões recorrentes e garantir uma evolução constante. Em 2026, a tecnologia evoluiu para oferecer suporte mais leve, m…"
+excerpt: "A escolha das joelheiras e tornozeleiras de corrida pode ser decisiva para evitar lesões recorrentes e garantir uma evolução constante."
 readTime: 5
 faqs:
   - q: "Pergunta 1: As joelheiras e tornozeleiras são necessárias para todos os corredores?"
@@ -27,7 +27,7 @@ A escolha das joelheiras e tornozeleiras de corrida pode ser decisiva para evita
    A regulação térmica influencia a circulação sanguínea e a recuperação muscular (Fuller et al., 2015). Tecido mesh, micro‑perforações e sistemas de ventilação permitem que a pele respire, reduzindo o risco de dermatite e desconforto. Modelos com forro de lã merino ou poliéster de alta densidade proporcionam maior absorção de humidade.
 
 4. **Compatibilidade com calçado e roupa de corrida**  
-   A integração entre joelheira/tornozeleira e o calçado evita atrito e garante estabilidade. Alguns modelos vêm com ganchos ou extensões que se fixam no salto ou na bota, assegurando que o equipamento não se mova durante a passada. Avalie a compatibilidade com os seus tênis de corrida, especialmente se pratica trail ou maratona.
+   A integração entre joelheira/tornozeleira e o calçado evita atrito e garante estabilidade. Alguns modelos vêm com ganchos ou extensões que se fixam no salto ou na bota, assegurando que o equipamento não se mova durante a passada. Avalie a compatibilidade com os seus ténis de corrida, especialmente se pratica trail ou maratona.
 
 5. **Durabilidade e resistência a abrasões**  
    O uso contínuo pode desgastar rapidamente tecidos e costuras. Verifique se o equipamento possui reforços de poliéster ou nylon na zona de maior atrito e se as costuras são de tipo “seam‑locked” para evitar rasgos. A garantia oferecida pelo fabricante também pode indicar a confiança na durabilidade do produto.
@@ -40,7 +40,7 @@ A escolha das joelheiras e tornozeleiras de corrida pode ser decisiva para evita
 | Produto | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
 |---------|-------------|---------------|---------------|----------------|
 | **KineticGuard Pro 2.0 (Joelheira)** | Corridas de longa distância | 1. Estrutura de carbono ultra‑leve (≤ 120 g). 2. Ajuste de altura com sistema de fecho magnético. 3. Forro de lã merino que regula a temperatura. | 1. Requer ajuste cuidadoso no início. 2. Disponível apenas em cores neutras. | Entre 150 € e 200 € |
-| **FlexiLock 360 (Tornozeleira)** | Trail runners e maratonistas | 1. Design de 360° que cobre a parte interna e externa. 2. Sistema de ventilação com micro‑perforações. 3. Compatível com tênis de corrida e botas de trail. | 1. Peso ligeiramente superior a 80 g. 2. Não ideal para atletas com deformidades de tornozelo. | Entre 120 € e 170 € |
+| **FlexiLock 360 (Tornozeleira)** | Trail runners e maratonistas | 1. Design de 360° que cobre a parte interna e externa. 2. Sistema de ventilação com micro‑perforações. 3. Compatível com ténis de corrida e botas de trail. | 1. Peso ligeiramente superior a 80 g. 2. Não ideal para atletas com deformidades de tornozelo. | Entre 120 € e 170 € |
 | **SportGuard Elite (Joelheira + Tornozeleira)** | Competidores de curta distância (100–800 m) | 1. Combinação de suporte rígido e flexível. 2. Peso total de 180 g. 3. Sistema de fixação de velcro que evita deslocamento. | 1. Mais caro que opções individuais. 2. Pode ser demasiado rígido para corredores com maior amplitude de movimento. | Entre 200 € e 250 € |
 | **EvoFit Lite (Joelheira)** | Iniciantes e corredores de fim de semana | 1. Material EVA de alta compressão. 2. Ajuste de largura em 3 pontos. 3. Custo‑eficiente. | 1. Menos suporte para corredores de alta intensidade. 2. Menor durabilidade em tecidos sintéticos. | Entre 80 € e 120 € |
 | **ProFlex Tornozeleira** | Corrida de pista e competições de média distância | 1. Sistema de amortecimento de borracha de alta densidade. 2. Design ergonómico que minimiza atrito. 3. Disponível em cores vibrantes. | 1. Peso de 90 g pode ser perceptível em corridas muito longas. 2. Não tem ventilação avançada. | Entre 110 € e 160 € |

@@ -2,7 +2,7 @@
 title: "VO2max no Relógio GPS: O Quanto É Fiável?"
 date: '2026-08-17'
 category: "Fisiologia"
-excerpt: "A medida de VO2max no relógio GPS tem sido uma ferramenta popular para avaliar a capacidade aeróbica dos corredores. No entanto, a fiabilidade desta medida é um tema de debate.…"
+excerpt: "A medida de VO2max no relógio GPS tem sido uma ferramenta popular para avaliar a capacidade aeróbica dos corredores."
 readTime: 4
 ---
 

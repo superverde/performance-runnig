@@ -2,7 +2,7 @@
 title: "Como Estruturar uma Semana de Treino para Corredores"
 date: '2026-07-09'
 category: "Treino"
-excerpt: "A estruturação de uma semana de treino para corredores é fundamental para alcançar os objetivos de performance e prevenir lesões. A ciência por trás da periodização do treino é baseada na ideia de que…"
+excerpt: "A estruturação de uma semana de treino para corredores é fundamental para alcançar os objetivos de performance e prevenir lesões."
 readTime: 4
 ---
 

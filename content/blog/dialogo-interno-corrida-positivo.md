@@ -2,7 +2,7 @@
 title: "Diálogo Interno: Como as Palavras na Tua Cabeça Afetam a Corrida"
 date: '2026-08-08'
 category: "Psicologia"
-excerpt: "Quando estamos a correr, é comum ouvirmos a voz da nossa mente a dizer coisas como \"Estou a morrer!\", \"Não posso continuar!\" ou \"Porque diabo me coloquei isto em cima?\". Mas, o que acontece quando ess…"
+excerpt: "Quando estamos a correr, é comum ouvirmos a voz da nossa mente a dizer coisas como 'Estou a morrer!', 'Não posso continuar!' ou 'Porque diabo me coloquei."
 readTime: 4
 ---
 

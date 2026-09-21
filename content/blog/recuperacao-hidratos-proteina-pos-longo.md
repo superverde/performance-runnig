@@ -2,7 +2,7 @@
 title: "Hidratos e Proteína no Pós-Longo: Rácios, Doses e a Janela Real"
 date: '2026-09-04'
 category: "Nutrição"
-excerpt: "Para corredores de longa distância, a estratégia mais eficaz no pós‑longo consiste em ingerir entre 3 e 4 g de hidratos por quilograma de peso corporal, acompanhado de 0,25 e 0,30 g de proteína por qu…"
+excerpt: "Para corredores de longa distância, a estratégia mais eficaz no pós‑longo consiste em ingerir entre 3 e 4 g de hidratos por quilograma de peso corporal."
 readTime: 5
 faqs:
   - q: "Qual a dose ideal de proteína no pós‑longo para um corredor de 70 kg?"
@@ -35,7 +35,7 @@ A janela de 30 minutos é baseada em pesquisas que mostram que a taxa de absor
 | Proteína | 0,25 – 0,30 | 17,5 – 21 g | 0 – 30 min |
 | Líquidos | 500 – 750 ml | 500 – 750 ml | 0 – 30 min |
 
-*Exemplo prático*: Um corredor de 70 kg que terminou uma prova de 21 km pode consumir 280 g de hidratos (por exemplo, 2 tensões de pão integral, 2 bananas, 1 iogurte com granola) e 21 g de proteína (1 scoop de whey, 1 ovo) num total de 750 ml de água ou isotônico. Se não houver acesso imediato a alimentos, uma bebida esportiva contendo 6 g min⁻¹ de hidratos e 0,25 g min⁻¹ de proteína pode ser ingerida durante os 30 minutos de recuperação.
+*Exemplo prático*: Um corredor de 70 kg que terminou uma prova de 21 km pode consumir 280 g de hidratos (por exemplo, 2 tensões de pão integral, 2 bananas, 1 iogurte com granola) e 21 g de proteína (1 scoop de whey, 1 ovo) num total de 750 ml de água ou isotônico. Se não houver acesso imediato a alimentos, uma bebida desportiva contendo 6 g min⁻¹ de hidratos e 0,25 g min⁻¹ de proteína pode ser ingerida durante os 30 minutos de recuperação.
 
 ### Ajustes Personalizados
 

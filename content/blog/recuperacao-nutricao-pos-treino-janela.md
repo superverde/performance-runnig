@@ -2,7 +2,7 @@
 title: "A Janela Anabólica: Nutrição nas Primeiras Horas Pós-Treino"
 date: '2026-07-20'
 category: "Nutrição"
-excerpt: "Durante o treino, nosso corpo utiliza diferentes fontes de energia para manter a atividade física. A glicose, proveniente da digestão de carboidratos, é a principal fonte de energia para os músculos. …"
+excerpt: "Durante o treino, nosso corpo utiliza diferentes fontes de energia para manter a atividade física."
 readTime: 4
 ---
 
@@ -25,7 +25,7 @@ Então, como podemos aplicar esses conhecimentos em prática? Aqui estão alguma
 * **Consuma carboidratos e proteína**: Tente consumir entre 15 a 20 gramas de proteína e 20 a 30 gramas de carboidratos dentro de 30 a 60 minutos após o término do treino.
 * **Escolha fontes de proteína de alta qualidade**: Opte por fontes de proteína de alta qualidade, como proteína caseína, proteína de soja ou proteína de ovos.
 * **Inclua carboidratos complexos**: Os carboidratos complexos, como o arroz integral ou as batatas, são ricos em fibras e nutrientes, e ajudam a regular o nível de glicose no sangue.
-* **Beba líquidos**: É fundamental hidratar-se após o treino, especialmente se você estiver suando muito.
+* **Beba líquidos**: É fundamental hidratar-se após o treino, especialmente Se estiver a suar muito.
 
 ## Erros Comuns
 
@@ -37,7 +37,7 @@ Existem alguns erros comuns que devem ser evitados durante a janela anabólica:
 
 ## Protocolo/Conclusão
 
-Em resumo, a janela anabólica é um período crítico após o treino, durante o qual o corpo está mais propenso a absorver nutrientes e reparar danos musculares. A nutrição pós-treino deve incluir carboidratos e proteína, fontes de alta qualidade, e carboidratos complexos. É fundamental evitar os erros comuns, como o consumo excessivo de carboidratos e a falta de proteína. Ao seguir essas dicas, você pode maximizar a janela anabólica e promover o crescimento muscular e a recuperação.
+Em resumo, a janela anabólica é um período crítico após o treino, durante o qual o corpo está mais propenso a absorver nutrientes e reparar danos musculares. A nutrição pós-treino deve incluir carboidratos e proteína, fontes de alta qualidade, e carboidratos complexos. É fundamental evitar os erros comuns, como o consumo excessivo de carboidratos e a falta de proteína. Ao seguir essas dicas, podes maximizar a janela anabólica e promover o crescimento muscular e a recuperação.
 
 ## Referências Científicas
 

@@ -2,7 +2,7 @@
 title: "CamelBak vs. Salomon: Comparativo de Mochilas de Hidratação"
 date: '2026-09-17'
 category: "Equipamento"
-excerpt: "A corrida exige mais do que apenas bons sapatos: a hidratação adequada pode ser decisiva para o desempenho e a recuperação. Quando se trata de mochilas de hidratação, duas marcas dominam o mercado por…"
+excerpt: "A corrida exige mais do que apenas bons sapatos: a hidratação adequada pode ser decisiva para o desempenho e a recuperação."
 readTime: 5
 faqs:
   - q: "Qual é a diferença principal entre a CamelBak M.U.L.E. e a Salomon River 2.0?"

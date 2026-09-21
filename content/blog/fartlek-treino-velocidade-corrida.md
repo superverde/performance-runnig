@@ -2,11 +2,11 @@
 title: "Fartlek: O Método Sueco Que Desenvolveu Campeões Olímpicos"
 date: '2026-07-06'
 category: "Treino"
-excerpt: "O Fartlek é um método de treino desenvolvido no início do século XX por um treinador sueco chamado Gösta Holmér. A palavra \"Fartlek\" é uma combinação de \"fart\" (em sueco, significa \"diversão\" ou \"entr…"
+excerpt: "O Fartlek é um método de treino desenvolvido no início do século XX por um treinador sueco chamado Gösta Holmér."
 readTime: 4
 ---
 
-O Fartlek é um método de treino desenvolvido no início do século XX por um treinador sueco chamado Gösta Holmér. A palavra "Fartlek" é uma combinação de "fart" (em sueco, significa "diversão" ou "entretenimento") e "lek" (que significa "jogo" ou "esporte"). Holmér criou esse método como uma forma de treino mais dinâmica e interessante para os atletas, que se tornou popular entre os corredores suecos e posteriormente em todo o mundo.
+O Fartlek é um método de treino desenvolvido no início do século XX por um treinador sueco chamado Gösta Holmér. A palavra "Fartlek" é uma combinação de "fart" (em sueco, significa "diversão" ou "entretenimento") e "lek" (que significa "jogo" ou "desporto"). Holmér criou esse método como uma forma de treino mais dinâmica e interessante para os atletas, que se tornou popular entre os corredores suecos e posteriormente em todo o mundo.
 
 O Fartlek é baseado na ideia de que os atletas devem se adaptar a diferentes níveis de intensidade e duração durante o treino. Isso significa que os corredores precisam alternar entre períodos de alta intensidade e períodos de baixa intensidade, o que ajuda a aumentar a resistência e a capacidade de recuperação. Além disso, o Fartlek também enfatiza a importância da variedade e da surpresa no treino, o que ajuda a manter os corredores motivados e interessados.
 

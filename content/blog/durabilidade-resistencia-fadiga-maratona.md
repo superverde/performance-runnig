@@ -2,7 +2,7 @@
 title: "Durabilidade: A Métrica Que Explica Quem Não Quebra ao km 32"
 date: '2026-08-26'
 category: "Fisiologia"
-excerpt: "A pessoa que mantém o ritmo até o km 32 sem “quebrar” demonstra um elevado nível de durabilidade, medida que integra a capacidade aeróbica, a gestão do lactato e o controlo fisiológico do esforço prol…"
+excerpt: "A pessoa que mantém o ritmo até o km 32 sem “quebrar” demonstra um elevado nível de durabilidade, medida que integra a capacidade aeróbica, a gestão do."
 readTime: 5
 faqs:
   - q: "Quais são os principais fatores que influenciam a durabilidade em uma corrida de 32 km?"

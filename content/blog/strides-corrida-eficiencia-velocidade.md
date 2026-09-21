@@ -2,7 +2,7 @@
 title: "Strides: O Exercício de 20 Segundos Que Melhora a Tua Eficiência"
 date: '2026-07-07'
 category: "Treino"
-excerpt: "Os atletas profissionais de corrida sabem que a eficiência é fundamental para alcançar performances ótimas. Isso inclui a capacidade de gerenciar o fluxo de oxigênio, manter um ritmo constante e evita…"
+excerpt: "Os atletas profissionais de corrida sabem que a eficiência é fundamental para alcançar performances ótimas."
 readTime: 4
 ---
 

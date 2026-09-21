@@ -2,7 +2,7 @@
 title: "Termorregulação: Como o Corpo Gere a Temperatura em Corrida"
 date: '2026-07-15'
 category: "Fisiologia"
-excerpt: "O corpo humano é capaz de realizar uma variedade de atividades físicas, desde caminhar até correr a velocidades extremas. No entanto, ao subir para o nível de corrida, a nossa capacidade de termorregu…"
+excerpt: "O corpo humano é capaz de realizar uma variedade de atividades físicas, desde caminhar até correr a velocidades extremas."
 readTime: 4
 ---
 

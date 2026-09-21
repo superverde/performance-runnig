@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas de Meia Maratona 2026"
 date: '2026-07-22'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida, o equipamento é fundamental para alcançar os nossos objetivos. Entre as várias opções disponíveis, as sapatilhas de corrida são um dos componentes mais importantes para gar…"
+excerpt: "Quando se trata de corrida, o equipamento é fundamental para alcançar os nossos objetivos."
 readTime: 4
 ---
 

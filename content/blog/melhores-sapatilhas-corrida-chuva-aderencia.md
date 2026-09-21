@@ -2,7 +2,7 @@
 title: "Melhores Sapatilhas de Corrida para Chuva e Pisos Molhados"
 date: '2026-09-12'
 category: "Equipamento"
-excerpt: "Quando tens de correr na chuva ou em pisos molhados, o que realmente importa são a tração, a impermeabilidade e a capacidade de drenagem. Estes fatores reduzem o risco de escorregões e mantêm o confor…"
+excerpt: "Melhores Sapatilhas de Corrida para Chuva e Pisos Molhados Categoria: Equipamento"
 readTime: 5
 faqs:
   - q: "Qual a diferença entre impermeabilidade e drenagem em sapatilhas de corrida?"

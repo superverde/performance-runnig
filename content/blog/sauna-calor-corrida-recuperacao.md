@@ -2,7 +2,7 @@
 title: "Sauna para Corredores: Adaptações ao Calor e Recuperação"
 date: '2026-07-30'
 category: "Recuperação"
-excerpt: "A sauna é um recurso comum em muitos centros de treino e equipamentos de desporto, mas a sua utilização pode variar muito de acordo com o objectivo do corredor. Para muitos, a sauna é um modo de relax…"
+excerpt: "A sauna é um recurso comum em muitos centros de treino e equipamentos de desporto, mas a sua utilização pode variar muito de acordo com o objectivo do."
 readTime: 4
 ---
 
@@ -10,7 +10,7 @@ readTime: 4
 
 A sauna é um recurso comum em muitos centros de treino e equipamentos de desporto, mas a sua utilização pode variar muito de acordo com o objectivo do corredor. Para muitos, a sauna é um modo de relaxar após uma sessão de treino intensa, enquanto para outros é um recurso para melhorar a recuperação e reduzir a tensão muscular. No entanto, é importante entender como a sauna pode afetar o corpo do corredor e como ela pode ser utilizada de forma eficaz para melhorar a recuperação.
 
-A sauna é um ambiente com temperatura elevada e umidade baixa, o que pode causar uma perda significativa de líquidos corporais. Isso pode ser especialmente problemático para os corredores, que já estão em um estado de desidratação natural devido ao esforço físico. Além disso, a sauna pode causar uma diminuição no volume sanguíneo, o que pode afetar a capacidade do corpo de se recuperar de uma sessão de treino intensa.
+A sauna é um ambiente com temperatura elevada e humidade baixa, o que pode causar uma perda significativa de líquidos corporais. Isso pode ser especialmente problemático para os corredores, que já estão em um estado de desidratação natural devido ao esforço físico. Além disso, a sauna pode causar uma diminuição no volume sanguíneo, o que pode afetar a capacidade do corpo de se recuperar de uma sessão de treino intensa.
 
 No entanto, quando utilizada de forma adequada, a sauna pode ser um recurso valioso para os corredores. Ela pode ajudar a reduzir a tensão muscular, melhorar a flexibilidade e aumentar a contração muscular. Além disso, a sauna pode ajudar a melhorar a circulação sanguínea, o que pode ajudar a reduzir a dor e a inflamação após uma sessão de treino intensa.
 
@@ -22,7 +22,7 @@ Além disso, a sauna pode ajudar a reduzir a inflamação e a dor, o que é espe
 
 ## Aplicação Prática
 
-A aplicação prática da sauna para corredores é bastante simples. O primeiro passo é determinar a temperatura certa para a sua sessão de sauna. A temperatura ideal é de 40 a 45 graus Celsius, com umidade entre 10 a 20%.
+A aplicação prática da sauna para corredores é bastante simples. O primeiro passo é determinar a temperatura certa para a sua sessão de sauna. A temperatura ideal é de 40 a 45 graus Celsius, com humidade entre 10 a 20%.
 
 A duração da sessão de sauna também é importante. A duração recomendada é de 15 a 20 minutos, com intervalos de 5 a 10 minutos entre as sessões. Além disso, é importante beber água antes, durante e após a sessão de sauna para evitar a desidratação.
 
@@ -38,7 +38,7 @@ Outro erro comum é não beber água suficiente antes, durante e após a sessão
 
 A sauna é um recurso valioso para os corredores que querem melhorar a recuperação e reduzir a tensão muscular. No entanto, é importante entender como a sauna pode afetar o corpo do corredor e como ela pode ser utilizada de forma eficaz.
 
-A temperatura ideal para a sauna é de 40 a 45 graus Celsius, com umidade entre 10 a 20%. A duração recomendada é de 15 a 20 minutos, com intervalos de 5 a 10 minutos entre as sessões.
+A temperatura ideal para a sauna é de 40 a 45 graus Celsius, com humidade entre 10 a 20%. A duração recomendada é de 15 a 20 minutos, com intervalos de 5 a 10 minutos entre as sessões.
 
 Além disso, é importante beber água antes, durante e após a sessão de sauna para evitar a desidratação. Começar com sessões curtas e aumentar gradualmente a duração e a intensidade também é importante.
 

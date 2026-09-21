@@ -10,34 +10,34 @@ coverImage: "https://images.unsplash.com/photo-1486218119243-13301429a4d3?w=1200
 # VO2max Genético vs Treinável: O Que a Ciência Diz
 ## O Papel da Hereditariedade
 
-O VO2max é uma medida da capacidade aeróbica máxima, definida como o consumo máximo de oxigênio por unidade de peso corporal por minuto. É um indicador importante da aptidão física e é frequentemente utilizado para avaliar o desempenho em atividades aeróbicas, como o atletismo. No entanto, o VO2max é influenciado por vários fatores, incluindo a genética, o treinamento e a idade.
+O VO2max é uma medida da capacidade aeróbica máxima, definida como o consumo máximo de oxigênio por unidade de peso corporal por minuto. É um indicador importante da aptidão física e é frequentemente utilizado para avaliar o desempenho em atividades aeróbicas, como o atletismo. No entanto, o VO2max é influenciado por vários fatores, incluindo a genética, o treino e a idade.
 
 Estudos têm demonstrado que a genética desempenha um papel significativo na determinação do VO2max. Um estudo publicado na revista "Journal of Applied Physiology" encontrou que a hereditariedade explica cerca de 55% da variância no VO2max em adultos saudáveis (2). Outro estudo publicado na revista "Medicine and Science in Sports and Exercise" encontrou que o VO2max é hereditário em uma proporção de cerca de 40% (3).
 
-## O Papel do Treinamento
+## O Papel do treino
 
-Embora a genética desempenhe um papel importante na determinação do VO2max, o treinamento também é um fator importante. O treinamento aeróbico sistemático pode aumentar a capacidade aeróbica máxima, melhorando a eficiência da oxidação de gorduras e a capacidade de transportar oxigênio ao músculo esquelético (4).
+Embora a genética desempenhe um papel importante na determinação do VO2max, o treino também é um fator importante. O treino aeróbico sistemático pode aumentar a capacidade aeróbica máxima, melhorando a eficiência da oxidação de gorduras e a capacidade de transportar oxigênio ao músculo esquelético (4).
 
-Um estudo publicado na revista "Journal of Strength and Conditioning Research" encontrou que o treinamento aeróbico de alta intensidade pode aumentar o VO2max em cerca de 10-15% em indivíduos saudáveis (5). Outro estudo publicado na revista "European Journal of Applied Physiology" encontrou que o treinamento de alta intensidade pode aumentar o VO2max em cerca de 5-10% em atletas experientes (6).
+Um estudo publicado na revista "Journal of Strength and Conditioning Research" encontrou que o treino aeróbico de alta intensidade pode aumentar o VO2max em cerca de 10-15% em indivíduos saudáveis (5). Outro estudo publicado na revista "European Journal of Applied Physiology" encontrou que o treino de alta intensidade pode aumentar o VO2max em cerca de 5-10% em atletas experientes (6).
 
 ## Os "Non-Responders"
 
-Há um grupo de indivíduos que não respondem ao treinamento aeróbico, independentemente da intensidade ou duração. Esses indivíduos são conhecidos como "non-responders" e representam cerca de 20-30% da população (7). Um estudo publicado na revista "Medicine and Science in Sports and Exercise" encontrou que os non-responders têm uma menor capacidade aeróbica máxima e uma maior percentagem de gordura corporal do que os respondentes (8).
+Há um grupo de indivíduos que não respondem ao treino aeróbico, independentemente da intensidade ou duração. Esses indivíduos são conhecidos como "non-responders" e representam cerca de 20-30% da população (7). Um estudo publicado na revista "Medicine and Science in Sports and Exercise" encontrou que os non-responders têm uma menor capacidade aeróbica máxima e uma maior percentagem de gordura corporal do que os respondentes (8).
 
 ## Limites da Melhoria com Treino Sistemático
 
-A melhoria do VO2max com treino sistemático é limitada pela genética e pela capacidade individual de resposta ao treinamento. Embora o treinamento possa aumentar a capacidade aeróbica máxima, a magnitude da melhoria é influenciada pela intensidade e duração do treinamento, bem como pela idade e a condição física inicial do indivíduo.
+A melhoria do VO2max com treino sistemático é limitada pela genética e pela capacidade individual de resposta ao treino. Embora o treino possa aumentar a capacidade aeróbica máxima, a magnitude da melhoria é influenciada pela intensidade e duração do treino, bem como pela idade e a condição física inicial do indivíduo.
 
 Um estudo publicado na revista "Journal of Applied Physiology" encontrou que a melhoria do VO2max com treino sistemático é maior em indivíduos mais jovens e com uma capacidade aeróbica máxima mais baixa (9). Outro estudo publicado na revista "European Journal of Applied Physiology" encontrou que a melhoria do VO2max com treino sistemático é menor em indivíduos mais idosos e com uma capacidade aeróbica máxima mais alta (10).
 
 ## Conclusão
 
-O VO2max é uma medida importante da capacidade aeróbica máxima e é influenciada por vários fatores, incluindo a genética, o treinamento e a idade. Embora a genética desempenhe um papel importante na determinação do VO2max, o treinamento também é um fator importante. A melhoria do VO2max com treino sistemático é limitada pela genética e pela capacidade individual de resposta ao treinamento.
+O VO2max é uma medida importante da capacidade aeróbica máxima e é influenciada por vários fatores, incluindo a genética, o treino e a idade. Embora a genética desempenhe um papel importante na determinação do VO2max, o treino também é um fator importante. A melhoria do VO2max com treino sistemático é limitada pela genética e pela capacidade individual de resposta ao treino.
 
 ## Em Suma
 
 * A genética desempenha um papel importante na determinação do VO2max, explicando cerca de 55% da variância em adultos saudáveis.
-* O treinamento aeróbico sistemático pode aumentar a capacidade aeróbica máxima, melhorando a eficiência da oxidação de gorduras e a capacidade de transportar oxigênio ao músculo esquelético.
+* O treino aeróbico sistemático pode aumentar a capacidade aeróbica máxima, melhorando a eficiência da oxidação de gorduras e a capacidade de transportar oxigênio ao músculo esquelético.
 * Os non-responders representam cerca de 20-30% da população e têm uma menor capacidade aeróbica máxima e uma maior percentagem de gordura corporal do que os respondentes.
 * A melhoria do VO2max com treino sistemático é maior em indivíduos mais jovens e com uma capacidade aeróbica máxima mais baixa.
 

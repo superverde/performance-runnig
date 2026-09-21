@@ -2,7 +2,7 @@
 title: "Imunidade do Corredor: Como o Excesso de Treino Baixa as Defesas"
 date: '2026-08-03'
 category: "Recuperação"
-excerpt: "Quando falamos em corrida, a ideia de imunidade é frequentemente associada à resistência e à capacidade de lidar com doenças e infecções. No entanto, o excesso de treino pode ter um impacto negativo n…"
+excerpt: "Quando falamos em corrida, a ideia de imunidade é frequentemente associada à resistência e à capacidade de lidar com doenças e infecções."
 readTime: 4
 ---
 

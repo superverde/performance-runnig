@@ -2,7 +2,7 @@
 title: "Fratura de Stress: Como Identificar e Prevenir em Corredores"
 date: '2026-08-03'
 category: "Lesões"
-excerpt: "A corrida é um desporto extremamente popular e exigente, que exige uma combinação perfeita de força, resistência e técnica para ser praticado de forma eficaz. No entanto, o risco de lesões é sempre pr…"
+excerpt: "A corrida é um desporto extremamente popular e exigente, que exige uma combinação perfeita de força, resistência e técnica para ser praticado de forma."
 readTime: 4
 ---
 

@@ -2,12 +2,12 @@
 title: "Sapatilhas para Supinação: Guia de Compra"
 date: '2026-09-14'
 category: "Equipamento"
-excerpt: "Quando a supinação domina o teu passo, a escolha da sapatilha torna‑se crucial para evitar sobrecarga e melhorar a eficiência. Este guia oferece uma análise técnica, recomendações de modelos 2026 e aj…"
+excerpt: "Quando a supinação domina o teu passo, a escolha da sapatilha torna‑se crucial para evitar sobrecarga e melhorar a eficiência."
 readTime: 4
 faqs:
   - q: "Qual a diferença entre supinação e pronação?"
     a: "Supinação é a rotação do pé para fora; pronação é a rotação interna. Ambos afetam a biomecânica, mas a supinação aumenta o risco de lesões em corredores."
-  - q: "Preciso de uma sapatilha de apoio se já tenho tênis de corrida leve?"
+  - q: "Preciso de uma sapatilha de apoio se já tenho ténis de corrida leve?"
     a: "Sim, se a supinação for moderada a forte, um modelo com suporte lateral reduz a sobrecarga nas articulações e melhora a eficiência."
   - q: "O peso da sapatilha influencia na velocidade?"
     a: "Um peso moderado pode melhorar a velocidade, mas a estabilidade e o amortecimento adequados são mais críticos para corredores com supinação."
@@ -33,7 +33,7 @@ Ao combinar estes critérios, o corredor pode selecionar uma sapatilha que ofere
 ## As Melhores Opções em 2026  
 | Modelo | Para quem | Pontos fortes | Pontos fracos | Faixa de preço |
 |--------|-----------|---------------|---------------|----------------|
-| **Nike Air Zoom Structure 7** | Supinadores moderados | Plataforma de espuma medial reforçada, ajuste de salto ajustável, boa amortecimento | Peso moderado, design mais “esportivo” que pode não agradar a corredores de longa distância | entre 180€ e 220€ |
+| **Nike Air Zoom Structure 7** | Supinadores moderados | Plataforma de espuma medial reforçada, ajuste de salto ajustável, boa amortecimento | Peso moderado, design mais “desportivo” que pode não agradar a corredores de longa distância | entre 180€ e 220€ |
 | **Brooks Adrenaline GTS 5** | Supinadores fortes | Cabos de suporte, placa de EVA reforçada, excelente estabilidade | Pode ser ligeiramente mais pesado que modelos de corrida pura | entre 170€ e 210€ |
 | **Hoka One One Arahi 6** | Supinadores leves a moderados | Amortecimento de alta densidade, plataforma de suporte lateral, excelente absorção de impacto | Peso mais elevado, pode não ser ideal para provas de velocidade | entre 150€ e 190€ |
 | **Asics Gel-Kayano 28** | Supinadores moderados a fortes | Tecnologia Dynamic DuoMax, placa de suporte, boa durabilidade | Custo relativamente alto, pode ser pesado para corredores de 5 km | entre 190€ e 240€ |

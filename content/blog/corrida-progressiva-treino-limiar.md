@@ -2,7 +2,7 @@
 title: "Corrida Progressiva: Como Estruturar o Treino Mais Versátil da Corrida"
 date: '2026-07-07'
 category: "Treino"
-excerpt: "A corrida progressiva é uma técnica de treino que tem ganhado destaque nos últimos anos, especialmente entre os corredores que buscam melhorar seu desempenho em competições de longa distância. Esta té…"
+excerpt: "A corrida progressiva é uma técnica de treino que tem ganhado destaque nos últimos anos, especialmente entre os corredores que buscam melhorar seu desempenho."
 readTime: 5
 ---
 
@@ -20,9 +20,9 @@ De acordo com Seiler (2010), a distribuição da intensidade e duração do trei
 
 A corrida progressiva pode ser aplicada em diferentes níveis de habilidade e objetivos. Aqui estão alguns exemplos práticos de como utilizar a corrida progressiva em seu treino:
 
-* **Treino de resistência cardiovascular**: Execute intervalos de corrida com velocidades progressivamente mais altas, seguidos de descansos ou exercícios de recuperação. Por exemplo, você pode iniciar com um intervalo de 400 metros a uma velocidade de 70% da sua velocidade máxima, seguido de um descanso de 2 minutos. Em seguida, você pode executar um intervalo de 400 metros a uma velocidade de 80% da sua velocidade máxima, seguido de um descanso de 2 minutos.
-* **Treino de força**: Execute intervalos de corrida com velocidades progressivamente mais altas, seguidos de exercícios de força muscular. Por exemplo, você pode iniciar com um intervalo de 400 metros a uma velocidade de 70% da sua velocidade máxima, seguido de exercícios de força muscular nos quadris e pernas.
-* **Treino de velocidade**: Execute intervalos de corrida a velocidades altas, seguidos de descansos ou exercícios de recuperação. Por exemplo, você pode iniciar com um intervalo de 200 metros a uma velocidade de 90% da sua velocidade máxima, seguido de um descanso de 2 minutos.
+* **Treino de resistência cardiovascular**: Execute intervalos de corrida com velocidades progressivamente mais altas, seguidos de descansos ou exercícios de recuperação. Por exemplo, podes iniciar com um intervalo de 400 metros a uma velocidade de 70% da sua velocidade máxima, seguido de um descanso de 2 minutos. Em seguida, podes executar um intervalo de 400 metros a uma velocidade de 80% da sua velocidade máxima, seguido de um descanso de 2 minutos.
+* **Treino de força**: Execute intervalos de corrida com velocidades progressivamente mais altas, seguidos de exercícios de força muscular. Por exemplo, podes iniciar com um intervalo de 400 metros a uma velocidade de 70% da sua velocidade máxima, seguido de exercícios de força muscular nos quadris e pernas.
+* **Treino de velocidade**: Execute intervalos de corrida a velocidades altas, seguidos de descansos ou exercícios de recuperação. Por exemplo, podes iniciar com um intervalo de 200 metros a uma velocidade de 90% da sua velocidade máxima, seguido de um descanso de 2 minutos.
 
 ### Erros Comuns
 

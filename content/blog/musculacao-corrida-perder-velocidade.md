@@ -2,7 +2,7 @@
 title: "Musculação Torna os Corredores Mais Lentos? A Evidência Diz o Contrário"
 date: '2026-08-21'
 category: "Treino"
-excerpt: "Não, musculação não torna corredores mais lentos; na verdade, a força e potência desenvolvidas melhoram a eficiência biomecânica e a velocidade em distâncias de curta e média distância. Estudos recent…"
+excerpt: "Não, musculação não torna corredores mais lentos; na verdade, a força e potência desenvolvidas melhoram a eficiência biomecânica e a velocidade em distâncias."
 readTime: 5
 faqs:
   - q: "Quanto tempo depois de uma corrida longa devo fazer a sessão de musculação?"

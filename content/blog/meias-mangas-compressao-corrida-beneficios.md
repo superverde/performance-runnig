@@ -2,7 +2,7 @@
 title: "Meias e Mangas de Compressão: Valem a Pena para Corredores?"
 date: '2026-08-24'
 category: "Equipamento"
-excerpt: "Os corredores que procuram melhorar a sua recuperação, reduzir a fadiga muscular e potencialmente prevenir lesões recorrem cada vez mais às meias e mangas de compressão. Este artigo avalia, a partir d…"
+excerpt: "Os corredores que procuram melhorar a sua recuperação, reduzir a fadiga muscular e potencialmente prevenir lesões recorrem cada vez mais às meias e mangas de."
 readTime: 4
 faqs:
   - q: "Pergunta 1: As meias de compressão realmente reduzem o risco de lesões?"
@@ -19,9 +19,9 @@ A escolha de meias ou mangas de compressão não deve ser baseada apenas no desi
 
 1. **Nível de compressão (mmHg)** – A faixa ideal para corredores varia entre 15 mmHg (baixo) e 30 mmHg (médio). Estudos mostram que compressões moderadas reduzem a oscilação muscular sem restringir a circulação (Fuller et al., 2015). Valores superiores a 30 mmHg são recomendados apenas para atletas com necessidades específicas de suporte.
 
-2. **Material e respirabilidade** – Tecidos de poliéster, elastano e bambu híbridos oferecem elasticidade, secagem rápida e conforto térmico. A capacidade de evacuar a umidade minimiza o atrito e a formação de bolhas, fator crítico em distâncias longas.
+2. **Material e respirabilidade** – Tecidos de poliéster, elastano e bambu híbridos oferecem elasticidade, secagem rápida e conforto térmico. A capacidade de evacuar a humidade minimiza o atrito e a formação de bolhas, fator crítico em distâncias longas.
 
-3. **Cobertura e design** – Meias que cobrem a panturrilha e o joelho, e mangas que protejam a coxa e o tronco, proporcionam maior suporte proprioceptivo. O alinhamento com as zonas de maior carga muscular pode melhorar a economia de corrida, como indicado por pesquisas de Kram e colegas (2018).
+3. **Cobertura e design** – Meias que cobrem a barriga da perna e o joelho, e mangas que protejam a coxa e o tronco, proporcionam maior suporte proprioceptivo. O alinhamento com as zonas de maior carga muscular pode melhorar a economia de corrida, como indicado por pesquisas de Kram e colegas (2018).
 
 4. **Tamanho e ajuste** – Um ajuste apertado, mas não excessivamente restritivo, garante a eficácia da compressão. A falta de ajuste pode levar a “pontos de pressão” e a um desconforto que anula os benefícios.
 
@@ -36,7 +36,7 @@ A combinação desses fatores determina se a meias ou mangas de compressão real
 | Produto | Público‑Alvo | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |---------|--------------|---------------|---------------|----------------|
 | **Nike Pro Compression Socks** | Corredores de média‑e‑alta distância | Compressão equilibrada, material Dri‑Fit, excelente ventilação | Pode ser mais caro que concorrentes | entre 150€ e 200€ |
-| **Under Armour HeatGear Compression Sleeve** | Atletas que treinam em ambientes frios | Tecnologia HeatGear mantém a temperatura, suporte na coxa | Não cobre a panturrilha | entre 80€ e 120€ |
+| **Under Armour HeatGear Compression Sleeve** | Atletas que treinam em ambientes frios | Tecnologia HeatGear mantém a temperatura, suporte na coxa | Não cobre a barriga da perna | entre 80€ e 120€ |
 | **CEP Compression Socks** | Corrida de longa distância, atletas com histórico de lesões | 20 mmHg de compressão, construção de múltiplas camadas | Peso relativamente alto | entre 200€ e 250€ |
 | **Reebok Compression Socks** | Iniciantes e corredores de fim de semana | Preço acessível, bom conforto | Compressão mais baixa (15 mmHg) | entre 60€ e 90€ |
 | **Power Systems Pro Compression Sleeve** | Corridas de velocidade e sprints | Compressão localizada na coxa e joelho, design ergonómico | Disponibilidade limitada | entre 120€ e 160€ |

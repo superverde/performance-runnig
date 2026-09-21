@@ -2,13 +2,13 @@
 title: "Inclinação do Tronco: Quanto é o Ideal"
 date: '2026-09-21'
 category: "Biomecânica"
-excerpt: "A inclinação ideal do tronco durante a corrida encontra‑se entre 5 e 10 graus de flexão anterior em relação ao solo, mantendo‑se uma postura ereta e equilibrada. Esta posição reduz a oscilação vertica…"
+excerpt: "A inclinação ideal do tronco durante a corrida encontra‑se entre 5 e 10 graus de flexão anterior em relação ao solo, mantendo‑se uma postura ereta e."
 readTime: 5
 faqs:
   - q: "Qual é a inclinação do tronco recomendada para corredores de 5 km?"
     a: "A inclinação ideal varia entre 5 e 10 graus de flexão anterior, dependendo da altura e força do core, mas 7 ° costuma ser um ponto de partida seguro."
   - q: "Posso usar um smartwatch para medir a inclinação do tronco?"
-    a: "Alguns smartwatches têm sensores de movimento que podem estimar a inclinação, mas a precisão não substitui a medição por vídeo ou goniômetro, especialmente para ajustes finos."
+    a: "Não de forma fiável. A inclinação do tronco mede-se em vídeo de perfil; os sensores de pulso não têm como estimar a postura do tronco com precisão útil."
   - q: "É necessário mudar a inclinação do tronco ao mudar de terreno?"
     a: "Em terrenos inclinados, a inclinação do tronco pode aumentar ligeiramente (até 12 °) para manter a postura ereta, mas deve‑se evitar sobrecarga lombar."
 ---
@@ -29,34 +29,36 @@ Além disso, a atenção focal (Schücker & Parrington, 2019) indica que a consc
 
 ### Medição e Feedback
 
-1. **Vídeo em 90°**: Gravação frontal a 1,5 m de distância, usando um smartphone.  
-2. **Goniômetro Digital**: Posicionado no tronco, 30 cm abaixo da linha do ombro, para medir a inclinação em tempo real.  
-3. **Apps de Biomecânica**: “Runalyze” ou “StrideCoach” permitem calcular a inclinação a partir de sensores de movimento.
+1. **Vídeo de perfil**: grava-te de lado, com a câmara à altura da anca e a cerca de 3 m de distância, a correr ao teu ritmo habitual.
+2. **Medição do ângulo**: numa imagem parada do momento de apoio, traça uma linha do tornozelo ao ombro e compara-a com a vertical — é assim que os laboratórios de biomecânica reportam a inclinação do tronco.
+3. **Repete com fadiga**: filma no início e no fim de um treino longo. O que interessa não é o ângulo perfeito num dia fresco, é quanto ele se degrada quando cansas.
 
 ### Protocolo de Treino
 
-| Etapa | Duração | Objetivo | Inclinação Target |
-|-------|---------|----------|-------------------|
-| Aquecimento | 10 min | Mobilidade | 5 ° |
-| Drills de Core | 5 min | Fortalecimento | 5 ° |
-| Corrida em Zona | 20 min | Adaptação | 7 ° |
-| Sprint de 30 s | 4 × 30 s | Explosão | 8 ° |
-| Cool‑down | 5 min | Recuperação | 5 ° |
+| Etapa | Duração | Objetivo |
+|-------|---------|----------|
+| Aquecimento | 10 min | Mobilidade de anca e tornozelo |
+| Drills técnicos | 5 min | Skipping e passadas curtas |
+| Corrida controlada | 20 min | Manter a postura com fadiga baixa |
+| Acelerações | 4 × 30 s | Postura a velocidade alta |
+| Retorno à calma | 5 min | Recuperação |
 
-- **Passo Rate**: 180 passos por minuto (bpm) para corredores de 1,75 m de altura.  
-- **Stride Length**: 1,4 m, mantendo a inclinação entre 7 ° e 8 °.  
+Nota: não existe um ângulo-alvo prescrito por fase de treino. Os 5 a 10 graus são a faixa observada em corredores eficientes, não um número a perseguir sessão a sessão.
+
+- **Cadência**: procura subir a tua cadência habitual em 5 a 10%, em vez de perseguir um número fixo como 180 passos por minuto.
+- **Comprimento de passada**: deixa que encurte naturalmente com o aumento de cadência, em vez de o forçares.
 - **Frequência de Treino**: 3 vezes por semana, alternando com treinos de velocidade.
 
 ### Drills de Core
 
 1. **Prancha Dinâmica**: 3 × 30 s, mantendo a inclinação estável.  
 2. **Dead Bug**: 3 × 12 repetições, foco na estabilidade do tronco.  
-3. **Bird‑Dog**: 3 × 10 repetições por lado, reforçando o controle lombar.
+3. **Bird‑Dog**: 3 × 10 repetições por lado, reforçando o controlo lombar.
 
 ### Ajuste Individual
 
-- **Corpo Longo**: Inclinação ligeiramente menor (5 °) para evitar sobrecarga lombar.  
-- **Corpo Curto**: Inclinação ligeiramente maior (8 °) para otimizar a extensão do quadril.
+- **Corredores mais altos**: tendem a mostrar inclinações menores; forçar mais inclinação sobrecarrega a lombar.
+- **Corredores mais baixos**: costumam apresentar inclinações ligeiramente maiores, sem que isso seja um defeito.
 
 ## Erros Comuns
 

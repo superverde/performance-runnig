@@ -2,7 +2,7 @@
 title: "Passadeiras para Treinar em Casa: Guia de Compra"
 date: '2026-07-26'
 category: "Equipamento"
-excerpt: "Se estás a pensar em melhorar o teu desempenho corrida sem ter de sair da tua zona de conforto, as passadeiras certas podem fazer uma grande diferença. No entanto, escolher as melhores para ti pode se…"
+excerpt: "Se estás a pensar em melhorar o teu desempenho corrida sem ter de sair da tua zona de conforto, as passadeiras certas podem fazer uma grande diferença."
 readTime: 4
 ---
 

@@ -2,11 +2,11 @@
 title: "Hematócrito e Hemoglobina: Como o Sangue Determina a Performance"
 date: '2026-07-15'
 category: "Fisiologia"
-excerpt: "A corrida é um esporte que exige uma combinação de força, resistência e velocidade. Para alcançar o máximo de desempenho, os corredores devem estar cientes de como o sangue afeta a sua performance. O …"
+excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e velocidade."
 readTime: 4
 ---
 
-A corrida é um esporte que exige uma combinação de força, resistência e velocidade. Para alcançar o máximo de desempenho, os corredores devem estar cientes de como o sangue afeta a sua performance. O hematócrito (Ht) e a hemoglobina (Hb) são dois parâmetros importantes que determinam a capacidade do sangue de transportar oxigênio para os músculos.
+A corrida é um desporto que exige uma combinação de força, resistência e velocidade. Para alcançar o máximo de desempenho, os corredores devem estar cientes de como o sangue afeta a sua performance. O hematócrito (Ht) e a hemoglobina (Hb) são dois parâmetros importantes que determinam a capacidade do sangue de transportar oxigênio para os músculos.
 
 O Ht é o volume percentual de células vermelhas do sangue em relação ao volume total do sangue. A Hb, por sua vez, é a proteína responsável por transportar oxigênio nos glóbulos vermelhos. Juntos, esses dois parâmetros determinam a capacidade do sangue de transportar oxigênio para os músculos, o que é fundamental para a produção de energia durante o treino. Quando o Ht e a Hb estão dentro de um range saudável, o corpo pode utilizar mais eficientemente o oxigênio, o que melhora a performance.
 
@@ -23,15 +23,15 @@ Além disso, o Ht também desempenha um papel importante no transporte de oxigê
 Para aplicar esses conceitos à prática, os corredores devem estar cientes de como o Ht e a Hb afetam a sua performance. Aqui estão algumas dicas práticas:
 
 * **Avalie o seu Ht e Hb**: Certifique-se de que o seu Ht e Hb estão dentro do range saudável. Um Ht saudável varia entre 40 e 54%, enquanto a Hb saudável varia entre 13,5 e 18,5 g/dL.
-* **Treine dentro do seu limite**: Certifique-se de que o seu treino está dentro do seu limite de Ht e Hb. Se você estiver acima do limite, pode ter dificuldade em remover o excesso de oxigênio dos músculos.
-* **Aumente a sua capacidade de transporte de oxigênio**: Para melhorar a sua capacidade de transporte de oxigênio, certifique-se de que está treinando dentro do seu limite de Ht e Hb. Além disso, pode incluir exercícios que aumentam a capacidade de transporte de oxigênio, como treino de alta intensidade e treino de resistência.
+* **Treine dentro do seu limite**: Certifique-se de que o seu treino está dentro do seu limite de Ht e Hb. Se estiver acima do limite, pode ter dificuldade em remover o excesso de oxigênio dos músculos.
+* **Aumente a sua capacidade de transporte de oxigênio**: Para melhorar a sua capacidade de transporte de oxigênio, certifique-se de que está a treinar dentro do seu limite de Ht e Hb. Além disso, pode incluir exercícios que aumentam a capacidade de transporte de oxigênio, como treino de alta intensidade e treino de resistência.
 
 ## Erros Comuns
 
 Aqui estão alguns erros comuns que os corredores devem evitar:
 
-* **Sub-estimar o seu Ht e Hb**: Não sub-estime o seu Ht e Hb. Se você estiver abaixo do limite, pode ter dificuldade em transportar oxigênio para os músculos.
-* **Super-estimar a sua capacidade de transporte de oxigênio**: Não super-estime a sua capacidade de transporte de oxigênio. Se você estiver acima do limite, pode ter dificuldade em remover o excesso de oxigênio dos músculos.
+* **Sub-estimar o seu Ht e Hb**: Não sub-estime o seu Ht e Hb. Se estiver abaixo do limite, pode ter dificuldade em transportar oxigênio para os músculos.
+* **Super-estimar a sua capacidade de transporte de oxigênio**: Não super-estime a sua capacidade de transporte de oxigênio. Se estiver acima do limite, pode ter dificuldade em remover o excesso de oxigênio dos músculos.
 * **Não avaliar regularmente o seu Ht e Hb**: Não avalie regularmente o seu Ht e Hb. Isso pode levar a uma redução na performance e a uma maior probabilidade de lesões.
 
 ## Protocolo/Conclusão

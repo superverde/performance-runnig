@@ -2,7 +2,7 @@
 title: "Melhores Fatos de Triatlo para Corredores Multisport"
 date: '2026-09-16'
 category: "Equipamento"
-excerpt: "A procura de equipamento de alta performance pode ser a diferença entre um resultado medíocre e um desempenho de elite. Neste artigo, vamos analisar, de forma técnica e baseada em evidências científic…"
+excerpt: "A procura de equipamento de alta performance pode ser a diferença entre um resultado medíocre e um desempenho de elite."
 readTime: 4
 ---
 
@@ -30,7 +30,7 @@ Ao selecionar um ténis de corrida para competições multisport, é crucial con
 
 7. **Compatibilidade com o Traje Multisport** – No triatlo, a transição rápida entre modalidades exige que os ténis não interfiram no ajuste de roupas ou calças de mergulho e bicicletas.  
 
-Ao ponderar esses critérios, você terá uma base sólida para decidir qual ténis maximizará seu desempenho e minimizará o risco de lesões.
+Ao ponderar esses critérios, Terás uma base sólida para decidir qual ténis maximizará seu desempenho e minimizará o risco de lesões.
 
 ## As Melhores Opções em 2026  
 

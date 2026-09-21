@@ -2,7 +2,7 @@
 title: "Plano de Treino para Maratona Sub-4 Horas"
 date: '2026-09-11'
 category: "Treino"
-excerpt: "Para completar uma maratona em menos de 4 horas, o plano de treino tem de combinar volume, intensidade e recuperação, de forma a manter um ritmo médio de 5 min 41 s/km durante os 42,195 km.…"
+excerpt: "Para completar uma maratona em menos de 4 horas, o plano de treino tem de combinar volume, intensidade e recuperação, de forma a manter um ritmo médio de 5."
 readTime: 5
 faqs:
   - q: "Qual é a distância mínima recomendada para o longo semanal na fase de pico?"

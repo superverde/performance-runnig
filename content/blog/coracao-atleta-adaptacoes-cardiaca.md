@@ -2,7 +2,7 @@
 title: "O Coração do Atleta: Adaptações Cardíacas ao Treino de Endurance"
 date: '2026-07-14'
 category: "Fisiologia"
-excerpt: "O treino de endurance é uma atividade que exige a capacidade de manter um nível de esforço elevado por períodos prolongados. Para isso, o coração desempenha um papel crucial, pois é o responsável por …"
+excerpt: "O treino de endurance é uma atividade que exige a capacidade de manter um nível de esforço elevado por períodos prolongados."
 readTime: 4
 ---
 

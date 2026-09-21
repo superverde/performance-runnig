@@ -2,7 +2,7 @@
 title: "Rácio Carga Aguda:Crónica — A Métrica Que Previne Lesões"
 date: '2026-07-08'
 category: "Treino"
-excerpt: "A corrida de resistência é um desporto que exige uma combinação de força física, resistência cardiovascular e capacidade anaeróbica. Para alcançar o topo, os atletas precisam desenvolver uma estratégi…"
+excerpt: "A corrida de resistência é um desporto que exige uma combinação de força física, resistência cardiovascular e capacidade anaeróbica."
 readTime: 4
 ---
 

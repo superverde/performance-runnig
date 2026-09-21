@@ -2,7 +2,7 @@
 title: "5km Sub-20 Minutos: O Plano de Treino e os Blocos Chave"
 date: '2026-09-12'
 category: "Treino"
-excerpt: "Para correr 5 km em menos de 20 min é necessário um plano de treino estruturado que combine volume moderado, intensidades específicas e recuperação adequada.…"
+excerpt: "Para correr 5 km em menos de 20 min é necessário um plano de treino estruturado que combine volume moderado, intensidades específicas e recuperação adequada."
 readTime: 4
 ---
 
@@ -53,7 +53,7 @@ Este plano é repetido nas semanas 1–4 (fase de base), ajustando a distância 
 
 ### Treino de Força (2 × semana)  
 - **Dia 2**: Agachamento 3 × 8 (70 % 1RM), Step‑ups 3 × 12 (cada perna), Prancha lateral 3 × 45 s.  
-- **Dia 4**: Levantamento terra 3 × 6 (70 % 1RM), Elevação de panturrilha 3 × 15, Abdominais dinâmicos 3 × 12.
+- **Dia 4**: Levantamento terra 3 × 6 (70 % 1RM), Elevação de barriga da perna 3 × 15, Abdominais dinâmicos 3 × 12.
 
 ### Nutrição e Recuperação  
 - Ingestão de carboidratos 6–10 g kg⁻¹ h⁻¹ durante treinos de longa duração.  

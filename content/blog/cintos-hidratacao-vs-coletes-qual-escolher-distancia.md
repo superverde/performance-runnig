@@ -2,7 +2,7 @@
 title: "Cintos de Hidratação vs Coletes: Qual Escolher Para Cada Distância"
 date: '2026-08-03'
 category: "Equipamento"
-excerpt: "Levar água e nutrição já não é opcional a partir dos 15-20km, mas a forma de a transportar muda tudo na sensação de corrida. Cintos, coletes e garrafas de mão têm compromissos físicos reais — n…"
+excerpt: "Levar água e nutrição já não é opcional a partir dos 15-20km, mas a forma de a transportar muda tudo na sensação de corrida."
 readTime: 4
 ---
 

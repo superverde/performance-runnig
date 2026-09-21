@@ -39,7 +39,7 @@ Os corredores de elite em ultratrails usam esta estratégia conscientemente: cam
 
 As descidas são contração muscular **excêntrica** intensa — os músculos do quadricípite trabalham enquanto se alongam para controlar a velocidade e o impacto. Este tipo de trabalho causa muito mais dano muscular do que a contração concêntrica (como em subida).
 
-É por isso que as dores musculares após um trail (DOMS) são muito mais intensas nas coxas do que nas panturrilhas — e que a descida compromete a performance nos quilómetros seguintes.
+É por isso que as dores musculares após um trail (DOMS) são muito mais intensas nas coxas do que nas barrigas das pernas — e que a descida compromete a performance nos quilómetros seguintes.
 
 ## Técnica de descida eficiente e segura
 

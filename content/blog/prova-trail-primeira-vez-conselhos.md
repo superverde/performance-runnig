@@ -2,11 +2,11 @@
 title: "Primeira Prova de Trail: O Guia para Não Cometer os Erros Clássicos"
 date: '2026-08-20'
 category: "Trail Running"
-excerpt: "Para evitar os erros clássicos na primeira prova de trail, deve‑se planejar adequadamente a hidratação, a nutrição, o ritmo e o terreno, ajustando‑se ao perfil da prova e ao seu nível de experiência.…"
+excerpt: "Para evitar os erros clássicos na primeira prova de trail, deve‑se planejar adequadamente a hidratação, a nutrição, o ritmo e o terreno, ajustando‑se ao."
 readTime: 5
 faqs:
   - q: "Qual a diferença entre treino de subida e treino de descida?"
-    a: "O treino de subida foca na resistência muscular e na capacidade aeróbica, enquanto a descida enfatiza o controle proprioceptivo e a amortização do impacto."
+    a: "O treino de subida foca na resistência muscular e na capacidade aeróbica, enquanto a descida enfatiza o controlo proprioceptivo e a amortização do impacto."
   - q: "Como escolher a hidratação adequada para a prova?"
     a: "Calcule o volume total de fluidos necessários (≈ 500 ml a cada 20 km) e ajuste a composição de eletrólitos (≈ 200 mg sódio e 30 mg potássio por litro) conforme a temperatura e a duração da prova."
   - q: "É seguro usar suplementos de proteína antes da prova?"
@@ -19,7 +19,7 @@ A estreia num trail não é apenas um teste de resistência, mas também de estr
 
 ## Base Científica
 
-A biomecânica do trail implica maiores demandas musculares em subida e maior impacto em descida. Vernillo et al. (2017) demonstram que o esforço muscular pode aumentar em até 30 % durante subidas de mais de 10 % de inclinação, enquanto a fadiga neuromuscular é exacerbada nas descidas, exigindo maior controle proprioceptivo. Este perfil exige um treino de força focado nos músculos estabilizadores do tornozelo e do joelho, bem como exercícios de pliometria para melhorar a amortização.
+A biomecânica do trail implica maiores demandas musculares em subida e maior impacto em descida. Vernillo et al. (2017) demonstram que o esforço muscular pode aumentar em até 30 % durante subidas de mais de 10 % de inclinação, enquanto a fadiga neuromuscular é exacerbada nas descidas, exigindo maior controlo proprioceptivo. Este perfil exige um treino de força focado nos músculos estabilizadores do tornozelo e do joelho, bem como exercícios de pliometria para melhorar a amortização.
 
 Além disso, a pesquisa de Millet et al. (2011) mostra que a carga neuromuscular ultrapassa 70 % do potencial máximo em ultra‑maratões de montanha, resultando em redução da força máxima em 15 % nos dias seguintes. Portanto, o treino de resistência deve incluir blocos de volume moderado (até 120 km por semana) com 5 % de aumento semanal, permitindo recuperação suficiente.
 
@@ -57,7 +57,7 @@ A definição de trail, segundo Scheer et al. (2020), distingue o off‑road d
 
 ## Erros Comuns
 
-1. **Subestimar o Terreno**: Muitos corredores planeiam a prova como se fosse um percurso de estrada. A realidade é que subidas de 15 % e descidas rápidas exigem maior controle.  
+1. **Subestimar o Terreno**: Muitos corredores planeiam a prova como se fosse um percurso de estrada. A realidade é que subidas de 15 % e descidas rápidas exigem maior controlo.  
 2. **Hidratação Inadequada**: A falta de eletrólitos leva a cãibras; a hidratação excessiva pode causar hiponatremia.  
 3. **Ritmo Irrealista**: Iniciar a prova a 20 % mais rápido do que o ritmo médio de treino resulta em exaustão precoce.  
 4. **Negligenciar a Recuperação**: Não incluir dias de descanso ou treinos de baixa intensidade aumenta o risco de lesões.  
