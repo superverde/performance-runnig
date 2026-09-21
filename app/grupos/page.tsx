@@ -16,9 +16,8 @@ const GRUPOS = [
 type Post = { slot: number; hora: string; titulo: string; texto: string; link: string; categoria: string; imagem: string }
 
 // Dispara o download de uma imagem sem navegar para fora da página —
-// usado para a imagem do post ficar pronta na pasta de downloads no mesmo
-// clique em "Copiar", já que colar texto+imagem juntos num único Ctrl/Cmd+V
-// não é fiável (ver comentário em handleCopy abaixo).
+// serve de alternativa quando o browser não suporta escrever imagem no
+// clipboard (ver copyImage abaixo).
 function triggerImageDownload(url: string, filename: string) {
   const a = document.createElement('a')
   a.href = url
@@ -29,25 +28,60 @@ function triggerImageDownload(url: string, filename: string) {
   a.remove()
 }
 
+// Converte a imagem (pool local é .jpg) para PNG num canvas — a Clipboard
+// API tem suporte mais fiável a 'image/png' entre browsers do que a
+// outros formatos. Usada só para copiar a IMAGEM sozinha (ver copyImage):
+// pedido do Pedro (2026-09-21) depois de confirmar que antes conseguia
+// colar a imagem diretamente no post do Facebook (Ctrl/Cmd+V anexava a
+// foto) — isso só deixou de funcionar quando passámos a juntar texto no
+// mesmo clipboard (o Facebook, ao ver imagem no clipboard, descarta o
+// texto). Repor a cópia de imagem pura restaura esse fluxo, agora como
+// ação separada de "Copiar texto".
+function imageUrlToPngBlob(url: string): Promise<Blob> {
+  return new Promise((resolve, reject) => {
+    fetch(url)
+      .then((r) => r.blob())
+      .then((blob) => {
+        const objectUrl = URL.createObjectURL(blob)
+        const img = new window.Image()
+        img.onload = () => {
+          const canvas = document.createElement('canvas')
+          canvas.width = img.naturalWidth
+          canvas.height = img.naturalHeight
+          const ctx = canvas.getContext('2d')
+          if (!ctx) {
+            URL.revokeObjectURL(objectUrl)
+            reject(new Error('sem contexto 2d de canvas'))
+            return
+          }
+          ctx.drawImage(img, 0, 0)
+          canvas.toBlob((pngBlob) => {
+            URL.revokeObjectURL(objectUrl)
+            if (pngBlob) resolve(pngBlob)
+            else reject(new Error('canvas.toBlob devolveu null'))
+          }, 'image/png')
+        }
+        img.onerror = () => {
+          URL.revokeObjectURL(objectUrl)
+          reject(new Error('falha a carregar a imagem no canvas'))
+        }
+        img.src = objectUrl
+      })
+      .catch(reject)
+  })
+}
+
 function PostCard({ post }: { post: Post }) {
   const [copyState, setCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
+  const [imgCopyState, setImgCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
   const [gruposConcluidos, setGruposConcluidos] = useState<Set<number>>(new Set())
 
+  // Copia só o TEXTO — o clipboard não pode ter texto+imagem ao mesmo
+  // tempo de forma útil (ver copyImage abaixo para o porquê), por isso
+  // este botão fica dedicado só ao texto, sempre fiável.
   const handleCopy = async () => {
-    // Tentámos primeiro pôr texto+imagem juntos no clipboard (ClipboardItem
-    // multi-formato) para um só Ctrl/Cmd+V colar as duas coisas no grupo.
-    // Pedro testou a sério e confirmou que o Facebook, ao ver uma imagem no
-    // clipboard, cola SÓ a imagem e descarta o texto — comportamento do
-    // próprio handler de paste do Facebook, não controlável a partir daqui.
-    // Por isso: copiar o texto (sempre fiável) e, no mesmo clique, disparar
-    // já o download da imagem — fica tudo pronto de uma vez, mesmo que colar
-    // o texto e anexar o ficheiro continuem a ser 2 ações dentro do Facebook.
     try {
       await navigator.clipboard.writeText(post.texto)
-      if (post.imagem) {
-        const ext = post.imagem.endsWith('.png') ? 'png' : 'jpg'
-        triggerImageDownload(post.imagem, `performance-running-${post.slot}.${ext}`)
-      }
       setCopyState('done')
     } catch {
       // Clipboard bloqueado (ex: permissão negada pelo browser/SO) — nunca
@@ -55,6 +89,31 @@ function PostCard({ post }: { post: Post }) {
       setCopyState('failed')
     }
     setTimeout(() => setCopyState('idle'), 3000)
+  }
+
+  // Copia só a IMAGEM para o clipboard, para colar diretamente como anexo
+  // no Facebook (Ctrl/Cmd+V) — exatamente o fluxo que já funcionava antes.
+  // Pedro confirmou (2026-09-21) que juntar texto+imagem no mesmo
+  // clipboard não funciona porque o Facebook, ao ver imagem, descarta o
+  // texto — por isso texto e imagem são agora duas ações independentes:
+  // cola a imagem primeiro (Ctrl/Cmd+V anexa a foto), depois cola o texto
+  // por cima (segunda vez que copiares o texto) na caixa de legenda.
+  const copyImage = async () => {
+    try {
+      if (!post.imagem || typeof window.ClipboardItem === 'undefined') {
+        throw new Error('sem imagem ou browser sem suporte a ClipboardItem')
+      }
+      const pngBlob = await imageUrlToPngBlob(post.imagem)
+      await navigator.clipboard.write([new ClipboardItem({ 'image/png': pngBlob })])
+      setImgCopyState('done')
+    } catch {
+      // Browser sem suporte a copiar imagem para o clipboard (ou falha a
+      // obter/converter) — fallback para download, que sempre funciona.
+      const ext = post.imagem.endsWith('.png') ? 'png' : 'jpg'
+      triggerImageDownload(post.imagem, `performance-running-${post.slot}.${ext}`)
+      setImgCopyState('failed')
+    }
+    setTimeout(() => setImgCopyState('idle'), 3000)
   }
 
   const toggleGrupo = (i: number) => {
@@ -87,16 +146,37 @@ function PostCard({ post }: { post: Post }) {
             loading="lazy"
             className="w-full h-40 object-cover"
           />
-          <a
-            href={post.imagem}
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="absolute bottom-2 right-2 flex items-center gap-1.5 text-[11px] font-mono bg-black/70 hover:bg-black/90 text-white/80 hover:text-white px-2.5 py-1.5 rounded-lg transition-all"
-          >
-            <Download size={12} />Guardar imagem
-          </a>
+          <div className="absolute bottom-2 right-2 flex items-center gap-2">
+            <button
+              onClick={copyImage}
+              title="Copiar imagem (cola diretamente como anexo no Facebook)"
+              className="flex items-center gap-1.5 text-[11px] font-mono bg-black/70 hover:bg-black/90 text-white/80 hover:text-white px-2.5 py-1.5 rounded-lg transition-all"
+            >
+              {imgCopyState === 'done' ? <Check size={12} className="text-green-400" /> : <Copy size={12} />}
+              Copiar imagem
+            </button>
+            <a
+              href={post.imagem}
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-[11px] font-mono bg-black/70 hover:bg-black/90 text-white/80 hover:text-white px-2.5 py-1.5 rounded-lg transition-all"
+            >
+              <Download size={12} />Guardar
+            </a>
+          </div>
         </div>
+      )}
+
+      {imgCopyState === 'done' && (
+        <p className="text-[11px] font-mono text-green-400/80">
+          ✓ Imagem copiada — cola diretamente no Facebook (Ctrl/Cmd+V anexa a foto)
+        </p>
+      )}
+      {imgCopyState === 'failed' && (
+        <p className="text-[11px] font-mono text-yellow-500/80">
+          ✓ Imagem descarregada (este browser não suporta copiar imagem) — anexa o ficheiro manualmente
+        </p>
       )}
 
       <div className="relative">
@@ -105,7 +185,7 @@ function PostCard({ post }: { post: Post }) {
         </pre>
         <button
           onClick={handleCopy}
-          title="Copiar texto (a imagem descarrega automaticamente)"
+          title="Copiar texto"
           className="absolute top-3 right-3 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white/60 hover:text-white transition-all"
         >
           {copyState === 'done' ? <Check size={14} className="text-green-400" /> : <Copy size={14} />}
@@ -114,12 +194,12 @@ function PostCard({ post }: { post: Post }) {
 
       {copyState === 'done' && (
         <p className="text-[11px] font-mono text-green-400/80">
-          ✓ Texto copiado + imagem a descarregar — cola o texto no grupo (Ctrl/Cmd+V) e anexa a imagem que acabou de descarregar
+          ✓ Texto copiado — cola no grupo (Ctrl/Cmd+V)
         </p>
       )}
       {copyState === 'failed' && (
         <p className="text-[11px] font-mono text-red-400/80">
-          ✗ Não foi possível copiar (permissão de clipboard bloqueada) — seleciona o texto manualmente e usa "Guardar imagem" acima
+          ✗ Não foi possível copiar o texto (permissão de clipboard bloqueada) — seleciona-o manualmente
         </p>
       )}
 
@@ -203,8 +283,8 @@ export default function GruposPage() {
         <div className="mt-10 bg-white/5 border border-white/10 rounded-2xl p-6">
           <p className="text-white/60 text-xs font-mono uppercase tracking-widest mb-3">Como usar · 5 min/dia</p>
           <ol className="space-y-2 text-sm text-white/50">
-            <li><span className="text-brand-green font-bold">1.</span> Clica "Copiar" no post da manhã — copia o texto e já descarrega a imagem</li>
-            <li><span className="text-brand-green font-bold">2.</span> Abre o grupo, cola o texto (Ctrl/Cmd+V) e anexa a imagem descarregada</li>
+            <li><span className="text-brand-green font-bold">1.</span> No grupo, cola primeiro a imagem: clica "Copiar imagem" no post e cola (Ctrl/Cmd+V) — fica anexada</li>
+            <li><span className="text-brand-green font-bold">2.</span> Depois clica "Copiar texto" e cola por cima, na legenda</li>
             <li><span className="text-brand-green font-bold">3.</span> Marca o grupo como ✓ concluído</li>
             <li><span className="text-brand-green font-bold">4.</span> Repete à tarde e à noite</li>
           </ol>
