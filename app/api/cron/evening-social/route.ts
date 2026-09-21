@@ -99,7 +99,7 @@ interface PlatformResult {
 async function jaPublicadoRecentemente(
   pageId: string,
   pageToken: string,
-  link: string,
+  marcador: string,
   horas = 20
 ): Promise<string | null> {
   try {
@@ -110,7 +110,7 @@ async function jaPublicadoRecentemente(
     const limite = Date.now() - horas * 60 * 60 * 1000
     for (const post of data.data) {
       if (new Date(post.created_time).getTime() < limite) continue
-      if (typeof post.message === 'string' && post.message.includes(link)) return post.id
+      if (typeof post.message === 'string' && post.message.includes(marcador)) return post.id
     }
     return null
   } catch {
@@ -118,27 +118,60 @@ async function jaPublicadoRecentemente(
   }
 }
 
-async function postToFacebook(message: string, link: string): Promise<PlatformResult> {
+// Publica o link como primeiro comentário — mesmo racional do
+// app/api/social-post/route.ts (foto no post, link no comentário, para não
+// gastar a quota de publicações com link nem perder alcance).
+async function comentarComLink(postId: string, pageToken: string, link: string): Promise<void> {
+  try {
+    const res = await fetch(`https://graph.facebook.com/v19.0/${postId}/comments`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: `Artigo completo: ${link}`, access_token: pageToken }),
+    })
+    const data = await res.json()
+    if (!res.ok || data.error) {
+      console.warn(`[evening-social] Não foi possível comentar o link no post ${postId}: ${data.error?.message || res.status}`)
+    }
+  } catch (err) {
+    console.warn(`[evening-social] Falha ao comentar o link no post ${postId}:`, err)
+  }
+}
+
+function semLinkNoCorpo(message: string, link: string): string {
+  return message
+    .replace(new RegExp(`\\s*👉?\\s*${link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*`, 'g'), '\n')
+    .replace(/https?:\/\/(www\.)?performancerunning\.pt\S*/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+}
+
+async function postToFacebook(
+  message: string,
+  link: string,
+  imageUrl: string,
+  titulo: string
+): Promise<PlatformResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
   if (!pageToken || !pageId) return { success: false, error: 'Credenciais Meta não configuradas' }
 
   try {
-    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, link)
+    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, titulo)
     if (duplicado) {
       console.warn(`[evening-social] Facebook: artigo já publicado hoje (post ${duplicado}) — ignorado para não duplicar`)
       return { success: true }
     }
 
-    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
+    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/photos`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message, link, access_token: pageToken }),
+      body: JSON.stringify({ url: imageUrl, caption: semLinkNoCorpo(message, link), access_token: pageToken }),
     })
     const data = await res.json()
     if (!res.ok || data.error) {
       return { success: false, error: data.error?.message || `HTTP ${res.status}` }
     }
+    await comentarComLink(data.post_id || data.id, pageToken, link)
     return { success: true }
   } catch (err) {
     return { success: false, error: String(err) }
@@ -257,7 +290,7 @@ export async function GET(req: NextRequest) {
     r.status === 'fulfilled' ? r.value : { success: false, error: String(r.reason) }
 
   const jobs: { platform: string; job: Promise<PlatformResult> }[] = []
-  if (wants('facebook')) jobs.push({ platform: 'Facebook', job: postToFacebook(captions.facebook, link) })
+  if (wants('facebook')) jobs.push({ platform: 'Facebook', job: postToFacebook(captions.facebook, link, image, article.title) })
   if (wants('instagram')) jobs.push({ platform: 'Instagram', job: postToInstagram(captions.instagram, image) })
   if (wants('x')) jobs.push({ platform: 'X', job: postToX(captions.x) })
 
