@@ -56,10 +56,11 @@ function imageUrlToPngBlob(url: string): Promise<Blob> {
 }
 
 function PostCard({ post }: { post: Post }) {
-  const [copyState, setCopyState] = useState<'idle' | 'full' | 'text-only'>('idle')
+  const [copyState, setCopyState] = useState<'idle' | 'full' | 'text-only' | 'failed'>('idle')
   const [gruposConcluidos, setGruposConcluidos] = useState<Set<number>>(new Set())
 
   const handleCopy = async () => {
+    let result: 'full' | 'text-only' | 'failed' = 'failed'
     try {
       if (!post.imagem || typeof window.ClipboardItem === 'undefined') {
         throw new Error('sem imagem ou browser sem suporte a ClipboardItem')
@@ -71,15 +72,22 @@ function PostCard({ post }: { post: Post }) {
           'image/png': pngBlob,
         }),
       ])
-      setCopyState('full')
+      result = 'full'
     } catch {
       // Fallback: browsers sem suporte a clipboard multi-formato, ou falha a
-      // obter/converter a imagem — pelo menos o texto continua a copiar,
-      // como sempre copiou. Pedro pode guardar a imagem à parte com o botão
-      // "Guardar imagem" acima.
-      await navigator.clipboard.writeText(post.texto)
-      setCopyState('text-only')
+      // obter/converter a imagem — tenta pelo menos copiar o texto, como
+      // sempre copiou antes desta funcionalidade.
+      try {
+        await navigator.clipboard.writeText(post.texto)
+        result = 'text-only'
+      } catch {
+        // Os dois falharam (ex: permissão de clipboard bloqueada pelo
+        // browser/SO) — nunca deixar isto por resolver em silêncio; o
+        // aviso 'failed' diz a Pedro para copiar/guardar manualmente.
+        result = 'failed'
+      }
     }
+    setCopyState(result)
     setTimeout(() => setCopyState('idle'), 2500)
   }
 
@@ -134,7 +142,7 @@ function PostCard({ post }: { post: Post }) {
           title="Copiar texto + imagem"
           className="absolute top-3 right-3 p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white/60 hover:text-white transition-all"
         >
-          {copyState !== 'idle' ? <Check size={14} className="text-green-400" /> : <Copy size={14} />}
+          {copyState === 'full' || copyState === 'text-only' ? <Check size={14} className="text-green-400" /> : <Copy size={14} />}
         </button>
       </div>
 
@@ -146,6 +154,11 @@ function PostCard({ post }: { post: Post }) {
       {copyState === 'text-only' && (
         <p className="text-[11px] font-mono text-yellow-500/80">
           ✓ Copiado só o texto (este browser não suporta copiar imagem) — usa "Guardar imagem" acima e anexa à parte
+        </p>
+      )}
+      {copyState === 'failed' && (
+        <p className="text-[11px] font-mono text-red-400/80">
+          ✗ Não foi possível copiar (permissão de clipboard bloqueada) — seleciona o texto manualmente e usa "Guardar imagem" acima
         </p>
       )}
 
