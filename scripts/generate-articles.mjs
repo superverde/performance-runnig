@@ -804,8 +804,16 @@ function saveCounter(index, date, slug) {
 // referências incluído), uma única chamada já usa perto do limite — por isso
 // esta função faz retry com backoff quando apanha um 429 rate_limit_exceeded,
 // em vez de abortar a publicação do dia inteiro.
-async function callGroq(prompt, attempt = 1) {
+// Modelos por ordem de preferência. Se o primeiro deixar de existir (a Groq
+// já descontinuou modelos sem aviso — ver a mensagem de erro do circuit
+// breaker mais abaixo) ou devolver 400/404, passa-se ao seguinte em vez de
+// perder o dia inteiro. É a diferença entre "hoje não saíram artigos" e
+// "hoje saíram artigos com outro modelo".
+const MODELOS = ['openai/gpt-oss-20b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant']
+
+async function callGroq(prompt, attempt = 1, modeloIndex = 0) {
   const MAX_ATTEMPTS = 3
+  const modelo = MODELOS[modeloIndex] || MODELOS[0]
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: {
@@ -813,15 +821,28 @@ async function callGroq(prompt, attempt = 1) {
       'Authorization': `Bearer ${GROQ_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'openai/gpt-oss-20b',
+      model: modelo,
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.7,
-      max_tokens: 2200,
+      // 2200 era apertado: um artigo de 900-1200 palavras em português gasta
+      // 1400-2000 tokens, mais ~150 das FAQ e ~250 das referências. A
+      // resposta era truncada com frequência e ficava sem a secção final de
+      // referências — que é precisamente uma das condições de publicação.
+      // Cada truncagem custava uma repetição inteira (mais uma chamada, mais
+      // 25s de pausa, mais risco de 429). Com o comprimento pedido reduzido
+      // para 700-950 palavras e este teto, o artigo cabe com folga.
+      max_tokens: 2600,
     }),
   })
 
   if (!res.ok) {
     const errText = await res.text()
+
+    // Modelo inexistente/indisponível: tentar o seguinte da lista.
+    if ((res.status === 400 || res.status === 404) && modeloIndex + 1 < MODELOS.length) {
+      console.log(`  ⚠️  O modelo "${modelo}" devolveu ${res.status}. A tentar com "${MODELOS[modeloIndex + 1]}".`)
+      return callGroq(prompt, 1, modeloIndex + 1)
+    }
 
     if (res.status === 429 && attempt < MAX_ATTEMPTS) {
       const match = errText.match(/try again in ([\d.]+)s/i)
@@ -829,7 +850,7 @@ async function callGroq(prompt, attempt = 1) {
       const waitMs = Math.ceil((suggested + 5) * 1000) // +5s de margem
       console.log(`  ⏳ Rate limit (429). A aguardar ${Math.round(waitMs / 1000)}s antes de tentar novamente (tentativa ${attempt + 1}/${MAX_ATTEMPTS})...`)
       await new Promise(r => setTimeout(r, waitMs))
-      return callGroq(prompt, attempt + 1)
+      return callGroq(prompt, attempt + 1, modeloIndex)
     }
 
     throw new Error(`Groq API error ${res.status}: ${errText}`)
@@ -910,7 +931,7 @@ REGRAS OBRIGATÓRIAS:
 3. Português de Portugal — nunca brasileirismos (usa "treino" não "treinamento", "fixe" não "legal", etc.)
 4. Incluir exemplos práticos e aplicáveis, com valores numéricos e protocolos quando fizer sentido
 5. Estrutura com ## para secções principais (Base Científica, Aplicação Prática, Erros Comuns, Protocolo/Conclusão)
-6. Comprimento: 800-1200 palavras de corpo (sem contar frontmatter nem referências)
+6. Comprimento: 700-950 palavras de corpo (sem contar frontmatter nem referências). Densidade acima de extensão: nada de parágrafos de enchimento nem repetições do que já disseste.
 7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências Científicas" citando PELO MENOS 2 das referências da lista abaixo — as que forem mesmo aplicáveis ao tópico. Cita mais se mais forem aplicáveis, mas nunca forces uma referência que não sustenta o que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
 8. OBRIGATÓRIO — logo antes da secção de Referências, inclui uma secção "## Perguntas Frequentes" com EXATAMENTE 3 pares pergunta/resposta, no formato exato abaixo (cada resposta com 1-3 frases diretas e objetivas, sem introduções tipo "Boa pergunta"):
 
@@ -969,7 +990,7 @@ REGRAS OBRIGATÓRIAS:
 3. Estrutura com ## para secções: Introdução (sem cabeçalho, 100-150 palavras), "## Como Escolher: Critérios Que Importam" (250-350 palavras, critérios técnicos com base científica), "## As Melhores Opções em 2026" (4-6 produtos reais e atuais: nome, para quem é, pontos fortes/fracos, faixa de preço — NUNCA preços exatos, usa faixas como "entre 150€ e 200€"), "## Veredicto: Qual Comprar" (150-200 palavras, recomendação por perfil: iniciante, competidor, orçamento limitado)
 4. Incluir no mínimo 3 links internos no corpo do texto: um para [Equipamento](/equipamento), e links para estes dois artigos relacionados: [artigo relacionado 1](${related[0] || '/equipamento'}) e [artigo relacionado 2](${related[1] || '/equipamento'})
 5. Terminar o corpo (antes das referências) com a linha: "👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**"
-6. Comprimento: 900-1200 palavras de corpo (sem contar frontmatter nem referências)
+6. Comprimento: 700-950 palavras de corpo (sem contar frontmatter nem referências). Densidade acima de extensão: nada de parágrafos de enchimento.
 7. ${precisaReferenciasCientificas(topic)
     ? 'OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 2 das referências da lista abaixo, e SÓ onde forem mesmo aplicáveis ao que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.'
     : 'OBRIGATÓRIO — este tema (eletrónica, acessórios) NÃO tem literatura científica aplicável, por isso NÃO cites estudos nenhuns: seria desonesto colar ciência do desporto a especificações de produto. Em vez disso, termina com uma secção "## Fontes" com 2-4 linhas a dizer ao leitor onde confirmar a informação — páginas oficiais dos fabricantes dos produtos mencionados e a ficha do revendedor — e a lembrar que preços e especificações mudam a cada geração.'}
