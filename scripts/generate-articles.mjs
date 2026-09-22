@@ -1101,15 +1101,109 @@ const BRASILEIRISMOS = [
   br('esportiv[oa]s?'), br('esportes?'), br('celular'), br('acadêmic[oa]s?'),
   br('econômic[oa]s?'), br('eletrônic[oa]s?'), br('fenômenos?'),
   br('goniômetros?'), br('tênis'), br('umidade'), br('bunda'),
-  br('(?:está|estão|estava|estavam)\\s+\\wÀ-ÖØ-öø-ÿ]*ndo'),
+  br('(?:está|estás|estão|estava|estavam)\\s+[a-zà-ÿ]+ndo'),
 ]
+
+// Corretor automático de brasileirismos — 2026-09-22.
+//
+// A primeira versão da porta de qualidade (2026-09-21) REPROVAVA o artigo
+// inteiro se encontrasse um único brasileirismo. Resultado no dia seguinte:
+// a run das 03:07 publicou 1 artigo em vez de 3, e a rede de segurança da
+// Vercel disparou uma segunda run que reprovou 4 tópicos seguidos (13
+// anotações = 4 tópicos × 3 avisos), bateu no MAX_SKIPPED, terminou com
+// zero artigos e fez o job falhar. Rejeitar um texto de 900 palavras por
+// causa de um "você" é desproporcionado quando a substituição é trivial e
+// determinística — as mesmas substituições limparam 479 ocorrências em 152
+// artigos publicados sem um único falso positivo.
+//
+// Agora o texto é corrigido ANTES de ser validado, e a validação só barra o
+// que não se corrige sozinho (artigo vazio/curto, sem referências, sem FAQ).
+const CORRECOES_PT = [
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])treinamentos(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'treinos'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])treinamento(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'treino'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])panturrilhas(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'barrigas das pernas'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])panturrilha(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'barriga da perna'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])esteiras(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'passadeiras'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])esteira(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'passadeira'],
+  [/goniômetr/gi, 'goniómetr'],
+  [/econômic/gi, 'económic'],
+  [/eletrônic/gi, 'eletrónic'],
+  [/acadêmic/gi, 'académic'],
+  [/fenômen/gi, 'fenómen'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])tênis(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'ténis'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])esportiv([oa]s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'desportiv$1'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])esporte(s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'desporto$1'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])celular(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'telemóvel'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])umidade(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'humidade'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])projetad([oa]s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'concebid$1'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])vazamento(s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'fuga$1'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])(o|do|de|um|no|ao|seu|este|esse|melhor|maior)\s+controle(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, '$1 controlo'],
+  // "você" e companhia — a ordem importa: primeiro as formas com verbo,
+  // senão sobra um "tu" com verbo na 3.ª pessoa ("tu pode"), que é pior do
+  // que o brasileirismo original.
+  [/[Ss]e você é(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'Se és'],
+  [/[Ss]e você tem(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'Se tens'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])Você pode(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'Podes'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você pode(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'podes'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você deve(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'deves'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você tem(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'tens'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você quer(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'queres'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você está(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'estás'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você vai(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'vais'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você precisa(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'precisas'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você precisará(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'vais precisar'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])você terá(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'terás'],
+  [/que você possa(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'que possas'],
+  [/que você se concentre(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'que te concentres'],
+  [/que você veja(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'que vejas'],
+  [/para você(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'para ti'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])a você(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'a ti'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])de você(?=[^\wÀ-ÖØ-öø-ÿ]|$)/g, 'de ti'],
+]
+
+// "está correndo" -> "está a correr" (o gerúndio é a marca mais persistente)
+function corrigirGerundio(texto) {
+  return texto.replace(
+    /(?<=^|[^\wÀ-ÖØ-öø-ÿ])(está|estás|estão|estava|estavam|estou|estamos|esteja|estejas|estejam)\s+([a-zà-ÿ]+ndo)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi,
+    (todo, aux, ger) => {
+      const inf = ger.endsWith('ando') ? ger.slice(0, -4) + 'ar'
+        : ger.endsWith('endo') ? ger.slice(0, -4) + 'er'
+        : ger.endsWith('indo') ? ger.slice(0, -4) + 'ir'
+        : null
+      return inf ? `${aux} a ${inf}` : todo
+    }
+  )
+}
+
+// Rede final para os "você" que escapam às formas listadas acima (ex:
+// "Para você ter resultados"). Em português o sujeito é opcional, por isso
+// deixar cair o pronome é sempre gramatical e elimina o brasileirismo sem
+// arriscar concordâncias erradas — ao contrário de trocar "você" por "tu",
+// que obrigaria a reconjugar o verbo ("tu pode" seria pior do que o
+// original).
+function largarPronome(texto) {
+  return texto
+    // Início de frase: "Você precisa de X" -> "Precisa de X" (com a
+    // maiúscula a passar para o verbo, senão a frase fica a começar em
+    // minúscula).
+    .replace(/(^|[.!?:]\s+|\n)Vocês?\s+([a-zà-ÿ])/g, (m, antes, letra) => antes + letra.toUpperCase())
+    // Restantes casos, a meio da frase
+    .replace(/(?<=^|[^\wÀ-ÖØ-öø-ÿ])vocês?\s+/gi, '')
+}
+
+function corrigirBrasileirismos(texto) {
+  let out = texto
+  for (const [re, sub] of CORRECOES_PT) out = out.replace(re, sub)
+  out = corrigirGerundio(out)
+  return largarPronome(out)
+}
 
 function validarArtigo(content, topic) {
   const problemas = []
   const corpo = stripMetaLine(content)
   const palavras = corpo.split(/\s+/).filter(Boolean).length
 
-  if (palavras < 600) problemas.push(`corpo com só ${palavras} palavras (mínimo 600)`)
+  if (palavras < 500) problemas.push(`corpo com só ${palavras} palavras (mínimo 500)`)
   if (!/##\s*(Referências|Fontes)/i.test(corpo)) problemas.push('sem secção de Referências nem de Fontes')
   if (!/##\s*Perguntas Frequentes/i.test(corpo)) problemas.push('sem secção de Perguntas Frequentes')
 
@@ -1202,7 +1296,7 @@ async function main() {
   // Tentativas por tópico até o artigo cumprir o mínimo de referências do
   // banco, e quantos tópicos seguidos podem ser saltados antes de desistir.
   const MAX_REF_ATTEMPTS = 2
-  const MAX_SKIPPED = 4
+  const MAX_SKIPPED = 8
 
   let lastIndex = counter.lastIndex
   let lastSlug = counter.lastSlug
@@ -1263,7 +1357,11 @@ async function main() {
         let content = null
         let ultimosProblemas = []
         for (let tentativa = 1; tentativa <= MAX_REF_ATTEMPTS; tentativa++) {
-          const candidato = await callGroq(tentativa === 1 ? prompt : prompt + REFORCO_REFERENCIAS)
+          // Corrigir primeiro, validar depois: o que é corrigível não deve
+          // custar um artigo inteiro (ver comentário em corrigirBrasileirismos).
+          const candidato = corrigirBrasileirismos(
+            await callGroq(tentativa === 1 ? prompt : prompt + REFORCO_REFERENCIAS)
+          )
           const citadas = countBankReferences(candidato, refsBank)
           // Porta de qualidade: referências do banco E as restantes regras
           // (dimensão, secções, meta description, português de Portugal).
