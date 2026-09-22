@@ -804,12 +804,27 @@ function saveCounter(index, date, slug) {
 // referências incluído), uma única chamada já usa perto do limite — por isso
 // esta função faz retry com backoff quando apanha um 429 rate_limit_exceeded,
 // em vez de abortar a publicação do dia inteiro.
-// Modelos por ordem de preferência. Se o primeiro deixar de existir (a Groq
-// já descontinuou modelos sem aviso — ver a mensagem de erro do circuit
-// breaker mais abaixo) ou devolver 400/404, passa-se ao seguinte em vez de
-// perder o dia inteiro. É a diferença entre "hoje não saíram artigos" e
-// "hoje saíram artigos com outro modelo".
-const MODELOS = ['openai/gpt-oss-20b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant']
+// Modelos por ordem de preferência. Se o primeiro devolver 400/404 (modelo
+// descontinuado), passa-se ao seguinte em vez de perder o dia inteiro.
+//
+// VERIFICADO EM 2026-09-22 contra https://console.groq.com/docs/deprecations
+// — e ainda bem, porque a primeira versão desta lista tinha como fallback
+// dois modelos JÁ DESLIGADOS: `llama-3.3-70b-versatile` e
+// `llama-3.1-8b-instant` foram descontinuados a 16/08/2026 para as contas
+// gratuitas e de developer. Um fallback morto é pior do que não ter
+// fallback nenhum, porque dá uma falsa sensação de segurança.
+//
+// Estado a 2026-09-22:
+//   openai/gpt-oss-20b   — ativo; é precisamente o substituto recomendado
+//                          pela Groq para os Llama descontinuados.
+//   openai/gpt-oss-120b  — ativo; substituto recomendado para os modelos
+//                          maiores. Mais caro em tokens, por isso é 2.ª opção.
+//   qwen/qwen3.8-27b     — ativo; sucessor do qwen3.6-27b, que foi
+//                          descontinuado a 14/09/2026.
+//
+// Ao rever isto no futuro, confirmar SEMPRE na página de deprecations antes
+// de escrever um nome de modelo aqui.
+const MODELOS = ['openai/gpt-oss-20b', 'openai/gpt-oss-120b', 'qwen/qwen3.8-27b']
 
 async function callGroq(prompt, attempt = 1, modeloIndex = 0) {
   const MAX_ATTEMPTS = 3
