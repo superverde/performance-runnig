@@ -1334,7 +1334,7 @@ async function main() {
   // imediato em vez de continuar a tentar tópico a tópico.
   const FAILURE_CIRCUIT_BREAKER = 3
 
-  async function generateFromQueue(queue, kind, countNeeded) {
+  async function generateFromQueue(queue, kind, countNeeded, relaxarReferencias = false) {
     let generated = 0
     let queueIndex = 0
     let consecutiveFailures = 0
@@ -1373,9 +1373,11 @@ async function main() {
         // com zero artigos. Entre citar a mais e citar a menos, prefere-se
         // citar a menos: foi exatamente o excesso de citações forçadas que
         // pôs Hoogkamer (sapatilhas) a sustentar afirmações sobre relógios.
-        const minRefs = topic.category === 'Equipamento'
-          ? (precisaReferenciasCientificas(topic) ? 2 : 0)
-          : 2
+        const minRefs = relaxarReferencias
+          ? 0
+          : topic.category === 'Equipamento'
+            ? (precisaReferenciasCientificas(topic) ? 2 : 0)
+            : 2
 
         let content = null
         let ultimosProblemas = []
@@ -1470,6 +1472,30 @@ async function main() {
       console.log(`\n🔁 Faltam ${shortfall} artigo(s) para o total do dia — a compensar com o outro banco de tópicos (${compensationPool.length} candidatos disponíveis).`)
       const compensated = await generateFromQueue(compensationPool, 'compensação', shortfall)
       totalDone += compensated
+    }
+  }
+
+  // ÚLTIMA LINHA DE DEFESA — 2026-09-22.
+  //
+  // Se, depois de tudo, o dia ficaria com ZERO artigos, faz-se uma passagem
+  // final sem o mínimo de referências do banco. As travas de qualidade que
+  // interessam mantêm-se todas (corpo com 500+ palavras, secção de
+  // Referências ou Fontes, meta description utilizável) — o que cai é apenas
+  // a exigência de um NÚMERO mínimo de citações, que foi exatamente o que
+  // fez a run #241 acabar em zero: o prompt manda citar só o que é
+  // aplicável, e quando o modelo cumpre isso à risca fica abaixo do mínimo.
+  //
+  // A regra do Pedro é inegociável — 3 artigos por dia — mas "não publicar
+  // lixo" nunca pode transformar-se em "não publicar nada". Um artigo com
+  // duas referências é preferível a um dia vazio; um artigo vazio não.
+  if (totalDone === 0) {
+    const ultimoRecurso = shuffle([
+      ...ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
+      ...COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
+    ])
+    if (ultimoRecurso.length > 0) {
+      console.log(`\n::warning::Nenhum artigo passou a porta de qualidade nesta execução. A repetir sem o mínimo de referências do banco (as restantes travas mantêm-se) para o dia não ficar vazio.`)
+      totalDone += await generateFromQueue(ultimoRecurso, 'último recurso', totalNeeded, true)
     }
   }
 
