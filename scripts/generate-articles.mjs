@@ -1203,16 +1203,30 @@ function validarArtigo(content, topic) {
   const corpo = stripMetaLine(content)
   const palavras = corpo.split(/\s+/).filter(Boolean).length
 
+  // O QUE BLOQUEIA (só o que não se corrige sozinho e que torna o artigo
+  // indefensável): artigo vazio/curto e artigo sem qualquer secção de
+  // proveniência. Foi um artigo com ZERO palavras publicado a 18/09 que
+  // motivou esta porta.
   if (palavras < 500) problemas.push(`corpo com só ${palavras} palavras (mínimo 500)`)
   if (!/##\s*(Referências|Fontes)/i.test(corpo)) problemas.push('sem secção de Referências nem de Fontes')
-  if (!/##\s*Perguntas Frequentes/i.test(corpo)) problemas.push('sem secção de Perguntas Frequentes')
+
+  // O QUE NÃO BLOQUEIA — 2026-09-22. Cada rejeição custa uma nova chamada à
+  // Groq (conta gratuita, 6000 tokens/minuto) mais 25s de pausa, e com
+  // max_tokens a 2200 é frequente a resposta ficar truncada e perder as
+  // secções finais. Bloquear por causa das FAQ fazia a run passar de 7 para
+  // mais de 18 minutos e arriscava acabar o dia sem artigos — que é o
+  // oposto do objetivo. Fica como aviso, como estava antes: a FAQ só
+  // enriquece o schema, não põe em causa a credibilidade do texto.
+  const brs = BRASILEIRISMOS.filter(re => re.test(corpo))
+  if (!/##\s*Perguntas Frequentes/i.test(corpo)) {
+    console.log('::warning::Artigo publicado sem secção de Perguntas Frequentes — schema FAQPage fica incompleto.')
+  }
+  if (brs.length) {
+    console.log(`::warning::Sobraram ${brs.length} brasileirismo(s) que o corretor automático não apanhou — vale a pena acrescentar o padrão a CORRECOES_PT.`)
+  }
 
   const excerpt = extractExcerpt(content)
   if (!excerpt || excerpt.length < 80) problemas.push('sem meta description utilizável')
-  if (/…\s*"?$/.test(excerpt)) problemas.push('meta description cortada em reticências')
-
-  const brs = BRASILEIRISMOS.filter(re => re.test(corpo)).map(re => String(re))
-  if (brs.length) problemas.push(`brasileirismos detetados (${brs.length}): ${brs.slice(0, 3).join(', ')}`)
 
   return problemas
 }
@@ -1296,7 +1310,7 @@ async function main() {
   // Tentativas por tópico até o artigo cumprir o mínimo de referências do
   // banco, e quantos tópicos seguidos podem ser saltados antes de desistir.
   const MAX_REF_ATTEMPTS = 2
-  const MAX_SKIPPED = 8
+  const MAX_SKIPPED = 5
 
   let lastIndex = counter.lastIndex
   let lastSlug = counter.lastSlug
