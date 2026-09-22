@@ -911,7 +911,7 @@ REGRAS OBRIGATÓRIAS:
 4. Incluir exemplos práticos e aplicáveis, com valores numéricos e protocolos quando fizer sentido
 5. Estrutura com ## para secções principais (Base Científica, Aplicação Prática, Erros Comuns, Protocolo/Conclusão)
 6. Comprimento: 800-1200 palavras de corpo (sem contar frontmatter nem referências)
-7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências Científicas" citando PELO MENOS 4 das referências da lista abaixo (as que forem mais relevantes ao tópico). Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
+7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências Científicas" citando PELO MENOS 2 das referências da lista abaixo — as que forem mesmo aplicáveis ao tópico. Cita mais se mais forem aplicáveis, mas nunca forces uma referência que não sustenta o que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
 8. OBRIGATÓRIO — logo antes da secção de Referências, inclui uma secção "## Perguntas Frequentes" com EXATAMENTE 3 pares pergunta/resposta, no formato exato abaixo (cada resposta com 1-3 frases diretas e objetivas, sem introduções tipo "Boa pergunta"):
 
 ## Perguntas Frequentes
@@ -925,7 +925,7 @@ Resposta direta e objetiva, 1-3 frases.
 **Pergunta 3 completa, terminada em ponto de interrogação?**
 Resposta direta e objetiva, 1-3 frases.
 
-REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 4, podes usar todas se fizer sentido):
+REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 2, as que forem mesmo aplicáveis):
 ${refsList}
 
 ${REGRAS_ANTI_INVENCAO}
@@ -971,7 +971,7 @@ REGRAS OBRIGATÓRIAS:
 5. Terminar o corpo (antes das referências) com a linha: "👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**"
 6. Comprimento: 900-1200 palavras de corpo (sem contar frontmatter nem referências)
 7. ${precisaReferenciasCientificas(topic)
-    ? 'OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 3 das referências da lista abaixo, e SÓ onde forem mesmo aplicáveis ao que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.'
+    ? 'OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências" citando PELO MENOS 2 das referências da lista abaixo, e SÓ onde forem mesmo aplicáveis ao que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.'
     : 'OBRIGATÓRIO — este tema (eletrónica, acessórios) NÃO tem literatura científica aplicável, por isso NÃO cites estudos nenhuns: seria desonesto colar ciência do desporto a especificações de produto. Em vez disso, termina com uma secção "## Fontes" com 2-4 linhas a dizer ao leitor onde confirmar a informação — páginas oficiais dos fabricantes dos produtos mencionados e a ficha do revendedor — e a lembrar que preços e especificações mudam a cada geração.'}
 8. OBRIGATÓRIO — logo antes da secção de Referências, inclui uma secção "## Perguntas Frequentes" com EXATAMENTE 3 pares pergunta/resposta, no formato exato abaixo (cada resposta com 1-3 frases diretas e objetivas, sem introduções tipo "Boa pergunta"):
 
@@ -986,7 +986,7 @@ Resposta direta e objetiva, 1-3 frases.
 **Pergunta 3 completa, terminada em ponto de interrogação?**
 Resposta direta e objetiva, 1-3 frases.
 
-${precisaReferenciasCientificas(topic) ? `REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 3, só onde forem aplicáveis):
+${precisaReferenciasCientificas(topic) ? `REFERÊNCIAS DISPONÍVEIS (escolhe no mínimo 2, só onde forem aplicáveis):
 ${refsList}` : 'NÃO uses referências científicas neste artigo — ver regra 7.'}
 
 ${REGRAS_ANTI_INVENCAO}
@@ -1364,9 +1364,18 @@ async function main() {
         const refsBank = topic.category === 'Equipamento'
           ? COMMERCIAL_REFERENCE_BANK
           : (REFERENCE_BANK[topic.category] || REFERENCE_BANK['Treino'])
+        // Mínimo de referências do banco. Baixado de 4 para 2 nos técnicos
+        // (e de 3 para 2 nos comerciais com literatura) em 2026-09-22: as
+        // REGRAS_ANTI_INVENCAO passaram a dizer ao modelo para só citar o
+        // que é mesmo aplicável, o que entrava em contradição direta com um
+        // mínimo alto e fazia o modelo sair sempre abaixo do exigido — a
+        // run #241 rejeitou TODOS os tópicos por este motivo e acabou o dia
+        // com zero artigos. Entre citar a mais e citar a menos, prefere-se
+        // citar a menos: foi exatamente o excesso de citações forçadas que
+        // pôs Hoogkamer (sapatilhas) a sustentar afirmações sobre relógios.
         const minRefs = topic.category === 'Equipamento'
-          ? (precisaReferenciasCientificas(topic) ? 3 : 0)
-          : 4
+          ? (precisaReferenciasCientificas(topic) ? 2 : 0)
+          : 2
 
         let content = null
         let ultimosProblemas = []
