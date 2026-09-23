@@ -2,7 +2,10 @@
 title: "Estratégia de Abastecimento em Ultra Trail: O Que Comer em Cada Posto"
 date: '2026-08-12'
 category: "Trail Running"
-excerpt: "A corrida de ultra trail é um desporto de resistência em que os atletas precisam lidar com desafios extremos, incluindo distâncias longas, elevações."
+excerpt: "Abastecimento em ultra trail: vê o que comer em cada posto, quanto por hora e como treinar o estômago para aguentar horas de prova."
+seoTitle: "Abastecimento em Ultra Trail: O Que Comer em Cada Posto"
+keyword: "abastecimento em ultra trail"
+keywords: ["postos de abastecimento", "comer em ultra", "estratégia nutricional ultra"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Definir Objetivos em Corrida: O Sistema SMART Aplicado ao Atletismo"
 date: '2026-08-08'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação perfeita de condicionamento físico, técnica e mental."
+excerpt: "Objetivos vagos dão treino vago. Aprende a definir objetivos na corrida com o método SMART e a transformá-los em metas de processo que consegues cumprir."
+seoTitle: "Objetivos SMART na Corrida: Como Definir Metas"
+keyword: "definir objetivos corrida"
+keywords: ["objetivos smart", "metas de corrida", "planear objetivos atletismo"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Fita de Kinesiologia para Corredores: Como e Quando Usar"
 date: '2026-09-11'
 category: "Equipamento"
-excerpt: "A fita de kinesiologia para corredores é mais do que um simples acessório de moda; trata‑se de um material elástico que, quando aplicado corretamente, pode."
+excerpt: "A fita de kinesiologia ajuda os corredores? Vê o que a ciência diz sobre o kinesio tape, quando pode aliviar a dor e como aplicar."
+keyword: "fita de kinesiologia"
+keywords: ["kinesio tape corrida", "bandas neuromusculares", "kinesiotape joelho"]
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

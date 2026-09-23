@@ -3,6 +3,8 @@ title: "Camisolas Térmicas para Correr no Inverno: Como Escolher"
 date: '2026-08-13'
 category: "Equipamento"
 excerpt: "Que camisola térmica usar para correr no frio, como funcionam as camadas e os tecidos, e as melhores opções para não passar frio nem suar demais."
+keyword: "camisolas térmicas para correr"
+keywords: ["camisola térmica inverno", "correr no frio roupa", "primeira camada corrida"]
 readTime: 4
 ---
 

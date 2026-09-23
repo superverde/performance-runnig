@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas de Trail Running para Terrenos Técnicos"
 date: '2026-07-08'
 category: "Equipamento"
-excerpt: "As sapatilhas de trail running são um elemento crucial para qualquer corredor que se aventure em terrenos técnicos."
+excerpt: "As melhores sapatilhas de trail para terreno técnico: vê o que conta em aderência, proteção e estabilidade para pedra, raízes e descidas."
+keyword: "sapatilhas trail terreno técnico"
+keywords: ["sapatilhas de trail running", "sapatilhas trail aderência", "sapatilhas trail montanha"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Estado de Flow na Corrida: Como Entrar na Zona"
 date: '2026-08-07'
 category: "Psicologia"
-excerpt: "O estado de flow é um conceito psicológico que nos permite entender como nos sentimos plenamente envolvidos e absorvidos em uma atividade."
+excerpt: "O flow na corrida é aquele estado em que tudo flui. Vê o que a ciência diz sobre como entrar na zona e as condições que o tornam mais provável."
+keyword: "flow na corrida"
+keywords: ["estado de flow", "entrar na zona", "psicologia do desporto"]
 readTime: 4
 ---
 

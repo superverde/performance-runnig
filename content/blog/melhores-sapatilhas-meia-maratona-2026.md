@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas de Meia Maratona 2026"
 date: '2026-07-22'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida, o equipamento é fundamental para alcançar os nossos objetivos."
+excerpt: "Que sapatilhas usar na meia maratona? Vê as melhores opções de 2026 para cada ritmo, com e sem placa, e o que pesa na escolha para os 21 km."
+keyword: "sapatilhas meia maratona"
+keywords: ["melhores sapatilhas meia maratona 2026", "sapatilhas 21 km", "sapatilhas de competição"]
 readTime: 4
 ---
 

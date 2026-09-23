@@ -2,7 +2,9 @@
 title: "Melhores Fatos de Triatlo para Corredores Multisport"
 date: '2026-09-16'
 category: "Equipamento"
-excerpt: "A procura de equipamento de alta performance pode ser a diferença entre um resultado medíocre e um desempenho de elite."
+excerpt: "O fato de triatlo certo poupa tempo nas transições. Vê os melhores trifatos para corredores que fazem multisport e o que procurar no tecido."
+keyword: "fato de triatlo"
+keywords: ["trifato", "fato de triatlo corredores", "multisport"]
 readTime: 4
 ---
 

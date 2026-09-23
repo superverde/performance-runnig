@@ -2,7 +2,10 @@
 title: "EPO Natural: Como Estimular a Eritropoiese com Treino e Altitude"
 date: '2026-07-16'
 category: "Fisiologia"
-excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e eficiência para alcançar o máximo de desempenho."
+excerpt: "A eritropoiese é a produção de glóbulos vermelhos. Vê como o treino e a altitude estimulam esta EPO natural e o que isso muda no teu rendimento."
+seoTitle: "EPO Natural: Estimular a Eritropoiese com Treino e Altitude"
+keyword: "eritropoiese"
+keywords: ["epo natural", "aumentar glóbulos vermelhos", "altitude e hemoglobina"]
 readTime: 4
 ---
 

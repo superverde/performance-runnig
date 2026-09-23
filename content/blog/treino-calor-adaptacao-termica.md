@@ -1,8 +1,8 @@
 ---
 title: 'Treinar no Calor: Adaptações Fisiológicas e Estratégias'
-excerpt: >-
-  Treinar em temperaturas elevadas é stressante — mas as adaptações que provoca
-  podem melhorar significativamente a performance, mesmo em condições frias. A…
+excerpt: "Treinar no calor é duro, mas as adaptações melhoram a performance mesmo com fresco. Vê o que muda no corpo e como treinar no calor em segurança."
+keyword: "treinar no calor"
+keywords: ["correr no calor", "adaptações ao calor", "calor e performance"]
 date: '2025-07-03'
 category: Fisiologia
 readTime: 5

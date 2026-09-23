@@ -2,7 +2,9 @@
 title: "Medidores de Potência de Corrida (Stryd): Vale a Pena?"
 date: '2026-07-28'
 category: "Equipamento"
-excerpt: "Os medidores de potência de corrida são equipamentos que permitem aos corredores monitorar a sua potência em tempo real, o que pode ser uma ferramenta."
+excerpt: "O Stryd mede a potência de corrida em watts. Vê se vale a pena, como treinar por potência e em que casos é melhor do que o ritmo ou a FC."
+keyword: "stryd"
+keywords: ["medidor de potência corrida", "potência na corrida", "stryd vale a pena"]
 readTime: 4
 ---
 

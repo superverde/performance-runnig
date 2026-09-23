@@ -2,7 +2,10 @@
 title: "Ranking dos Métodos de Recuperação: O Que a Meta-Análise Mostra"
 date: '2026-08-30'
 category: "Recuperação"
-excerpt: "A meta‑análise de 2018 demonstra que a recuperação ativa (caminhada leve ou ciclismo a 50 % da FCmáx) e o sono de qualidade (≥ 8 h) têm os maiores efeitos."
+excerpt: "Que métodos de recuperação funcionam mesmo? Vê o ranking da meta-análise, da massagem à compressão e ao frio, e onde vale a pena investir."
+seoTitle: "Métodos de Recuperação: O Ranking da Meta-Análise"
+keyword: "métodos de recuperação"
+keywords: ["melhores métodos de recuperação", "meta-análise recuperação", "recuperação muscular"]
 readTime: 5
 faqs:
   - q: "Qual é o método de recuperação mais eficaz para melhorar a performance em provas de 10 km?"

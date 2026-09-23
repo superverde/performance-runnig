@@ -2,7 +2,9 @@
 title: "Plano de Treino para Maratona Sub-3 Horas"
 date: '2026-08-23'
 category: "Treino"
-excerpt: "Para conquistar uma maratona sub‑3h, o plano de treino tem de ser estruturado em torno de volume progressivo, intensidade específica e recuperação."
+excerpt: "Plano para a maratona sub 3 horas: volume progressivo, treinos a ritmo de 4:15/km e longos específicos para baixar das 3 horas."
+keyword: "maratona sub 3 horas"
+keywords: ["plano maratona sub 3", "maratona em menos de 3 horas", "plano de treino maratona"]
 readTime: 4
 faqs:
   - q: "Qual é a importância dos treinos tempo em um plano sub‑3h?"

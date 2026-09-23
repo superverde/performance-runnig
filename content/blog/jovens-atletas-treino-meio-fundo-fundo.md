@@ -2,7 +2,10 @@
 title: "Jovens Atletas: Como Treinar Meio-Fundo e Fundo Sem Comprometer o Desenvolvimento"
 date: 2026-07-03
 category: "Treino"
-excerpt: "Treinar jovens corredores não é uma versão reduzida do treino de adultos. Fisiologia, carga e periodização exigem uma abordagem própria para proteger a saúde a longo prazo e maximizar o potencial."
+excerpt: "Jovens atletas no meio fundo não são adultos em ponto pequeno. Vê como dosear carga e periodização para proteger a saúde e o potencial a longo prazo."
+seoTitle: "Jovens Atletas: Treinar Meio-Fundo Sem Comprometer o Futuro"
+keyword: "jovens atletas meio fundo"
+keywords: ["treino de jovens corredores", "atletismo juvenil", "treino para jovens"]
 readTime: 9
 ---
 

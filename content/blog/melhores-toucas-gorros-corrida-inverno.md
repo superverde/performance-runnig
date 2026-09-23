@@ -2,7 +2,9 @@
 title: "Melhores Toucas e Gorros para Correr no Frio"
 date: '2026-09-15'
 category: "Equipamento"
-excerpt: "Nas corridas de inverno, a escolha da touca ou gorro pode determinar a diferença entre manter a temperatura corporal e sentir-se congelado."
+excerpt: "Gorros para correr no frio: vê que tecidos aquecem sem fazer transpirar demais e as melhores toucas e gorros para treinos de inverno."
+keyword: "gorros para correr"
+keywords: ["toucas de corrida", "correr no frio", "gorro running"]
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre touca de merino e touca sintética?"

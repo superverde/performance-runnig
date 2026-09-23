@@ -3,6 +3,8 @@ title: "COROS Pace vs Apex: Qual Escolher"
 date: '2026-09-21'
 category: "Equipamento"
 excerpt: "COROS Pace ou COROS Apex? Comparamos as duas linhas pelos critérios que decidem mesmo a compra: autonomia, GPS no terreno e robustez."
+keyword: "coros pace vs apex"
+keywords: ["coros pace 3", "coros apex 2", "relógio coros"]
 readTime: 4
 faqs:
   - q: "Qual a diferença principal entre o COROS Pace e o COROS Apex?"

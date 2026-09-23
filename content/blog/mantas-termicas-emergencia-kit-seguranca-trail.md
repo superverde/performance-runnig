@@ -2,7 +2,10 @@
 title: "Manta Térmica de Emergência: Equipamento de Segurança para Trail"
 date: '2026-08-31'
 category: "Equipamento"
-excerpt: "A manta térmica de emergência é um equipamento essencial para corredores de trail que enfrentam condições climáticas imprevisíveis."
+excerpt: "A manta térmica de emergência é material obrigatório em trail por boas razões. Vê para que serve, como a usar e qual levar na mochila."
+seoTitle: "Manta Térmica de Emergência para Trail: Para Que Serve"
+keyword: "manta térmica de emergência"
+keywords: ["manta térmica trail", "material obrigatório trail", "segurança em trail"]
 readTime: 5
 faqs:
   - q: "Qual a diferença principal entre uma manta térmica de emergência e uma manta de isolamento convencional?"

@@ -2,7 +2,10 @@
 title: "Hematócrito e Hemoglobina: Como o Sangue Determina a Performance"
 date: '2026-07-15'
 category: "Fisiologia"
-excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e velocidade."
+excerpt: "Hematócrito e hemoglobina determinam quanto oxigénio chega aos músculos. Vê o que significam as tuas análises e como o treino e a altitude os alteram."
+seoTitle: "Hematócrito e Hemoglobina: O Sangue e a Performance"
+keyword: "hematócrito e hemoglobina"
+keywords: ["hemoglobina corredores", "sangue e performance", "transporte de oxigénio"]
 readTime: 4
 ---
 

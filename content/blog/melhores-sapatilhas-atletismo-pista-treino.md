@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas para Treino de Pista"
 date: '2026-09-02'
 category: "Equipamento"
-excerpt: "A procura por melhores sapatilhas de pista não deve ser apenas uma questão de estética ou de marca: o objetivo é escolher um calçado que optimiza a."
+excerpt: "As melhores sapatilhas de pista para séries e treino de velocidade. Vê o que procurar em peso, resposta e sola para o treino no tartan."
+keyword: "sapatilhas de pista"
+keywords: ["sapatilhas para treino de pista", "sapatilhas de séries", "calçado pista"]
 readTime: 5
 faqs:
   - q: "Qual é o melhor drop para corridas de pista?"

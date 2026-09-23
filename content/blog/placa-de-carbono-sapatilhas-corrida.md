@@ -1,8 +1,11 @@
 ---
-title: "Placa de Carbono nas Sapatilhas: O Que a Ciência Diz Sobre os Super Sapatos"
+title: "Placa de Carbono nas Sapatilhas: O Que a Ciência Diz Sobre as Super Sapatilhas"
 date: '2026-07-01'
 category: "Biomecânica"
-excerpt: "As sapatilhas com placa de carbono revolucionaram os recordes de maratona. Analisamos os mecanismos fisiológicos e biomecânicos por trás do ganho real de performance."
+excerpt: "As sapatilhas com placa de carbono mudaram os recordes da maratona. Vê o que a ciência explica sobre o ganho real, a quem serve e onde está o efeito."
+seoTitle: "Placa de Carbono: O Que a Ciência Diz das Super Sapatilhas"
+keyword: "placa de carbono"
+keywords: ["super sapatilhas", "sapatilhas de carbono ciência", "placa de carbono vale a pena"]
 readTime: 9
 ---
 

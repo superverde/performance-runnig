@@ -53,6 +53,26 @@ export interface ArticleMeta {
    * desta mudança) não têm este campo — é opcional e a UI trata isso.
    */
   faqs?: { q: string; a: string }[]
+  /**
+   * SEO (2026-09-23, pedido do Pedro). `keyword` é a pesquisa principal que o
+   * artigo quer ganhar no Google; `keywords` são 2-4 variações/pesquisas
+   * relacionadas. `seoTitle` é um título curto (≤60 caracteres) só para o
+   * <title> e partilhas — o H1 visível continua a ser `title`. Todos
+   * opcionais: artigos sem estes campos continuam a funcionar como antes.
+   */
+  keyword?: string
+  keywords?: string[]
+  seoTitle?: string
+}
+
+/** Lê os campos SEO do frontmatter, ignorando valores com o tipo errado. */
+function parseSeo(data: Record<string, unknown>) {
+  const keyword = typeof data.keyword === 'string' && data.keyword.trim() ? data.keyword.trim() : undefined
+  const keywords = Array.isArray(data.keywords)
+    ? data.keywords.filter((k): k is string => typeof k === 'string' && k.trim() !== '').map((k) => k.trim())
+    : undefined
+  const seoTitle = typeof data.seoTitle === 'string' && data.seoTitle.trim() ? data.seoTitle.trim() : undefined
+  return { keyword, keywords: keywords && keywords.length ? keywords : undefined, seoTitle }
 }
 
 export interface Article extends ArticleMeta {
@@ -110,6 +130,7 @@ function parseMeta(slug: string): ArticleMeta | null {
       coverImage: data.coverImage,
       hasVideo: data.hasVideo === true,
       faqs: Array.isArray(data.faqs) ? data.faqs : undefined,
+      ...parseSeo(data),
     }
   } catch (err) {
     console.error(`[articles] Falha ao processar "${slug}.md" — artigo ignorado:`, err)
@@ -219,6 +240,7 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
       coverImage: data.coverImage,
       hasVideo: data.hasVideo === true,
       faqs: Array.isArray(data.faqs) ? data.faqs : undefined,
+      ...parseSeo(data),
       content: htmlContent,
     }
   } catch (err) {

@@ -3,6 +3,8 @@ title: "Dor Ciática e Lombar em Corredores: Causas e Solução"
 date: '2026-08-04'
 category: "Lesões"
 excerpt: "Porque aparece a dor lombar e ciática em corredores, como distinguir as causas e o protocolo prático para voltar a correr sem a agravar."
+keyword: "dor ciática corredor"
+keywords: ["dor lombar a correr", "ciático corrida", "dor nas costas corredor"]
 readTime: 4
 ---
 

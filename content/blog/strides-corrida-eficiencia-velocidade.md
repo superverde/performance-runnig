@@ -2,7 +2,10 @@
 title: "Strides: O Exercício de 20 Segundos Que Melhora a Tua Eficiência"
 date: '2026-07-07'
 category: "Treino"
-excerpt: "Os atletas profissionais de corrida sabem que a eficiência é fundamental para alcançar performances ótimas."
+excerpt: "Os strides são acelerações de 20 segundos que melhoram a técnica e a eficiência sem cansar. Vê como e quando os fazer e quantos incluir por semana."
+seoTitle: "Strides: 20 Segundos Que Melhoram a Tua Eficiência"
+keyword: "strides"
+keywords: ["acelerações corrida", "strides como fazer", "técnica de velocidade"]
 readTime: 4
 ---
 

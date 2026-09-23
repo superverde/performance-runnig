@@ -2,7 +2,9 @@
 title: "Crioterapia: O Que a Ciência Diz Sobre Banhos de Gelo"
 date: '2026-07-29'
 category: "Recuperação"
-excerpt: "O desporto moderno exige um nível de condicionamento físico elevado, o que pode levar a uma grande tensão nos músculos e articulações."
+excerpt: "A crioterapia e os banhos de gelo ajudam a recuperar? Vê o que a ciência diz, a temperatura e a duração certas e quando o frio atrapalha o treino."
+keyword: "crioterapia"
+keywords: ["banhos de gelo ciência", "crioterapia recuperação", "frio e recuperação muscular"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Os 3 Sistemas Energéticos da Corrida: do Sprint ao Ultra"
 date: '2026-07-13'
 category: "Fisiologia"
-excerpt: "ATP-PCr, glicolítico e oxidativo: que sistema alimenta cada ritmo, do sprint ao ultra, e como treinar cada um sem desperdiçar sessões."
+excerpt: "Os sistemas energéticos da corrida: ATP-PCr, glicolítico e oxidativo. Vê que sistema alimenta cada ritmo, do sprint ao ultra, e como treinar cada um."
+keyword: "sistemas energéticos"
+keywords: ["sistemas energéticos da corrida", "atp-pcr", "metabolismo aeróbio"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Hidratos e Proteína no Pós-Longo: Rácios, Doses e a Janela Real"
 date: '2026-09-04'
 category: "Nutrição"
-excerpt: "Para corredores de longa distância, a estratégia mais eficaz no pós‑longo consiste em ingerir entre 3 e 4 g de hidratos por quilograma de peso corporal."
+excerpt: "Nutrição depois do longo: quantos hidratos e proteína comer, em que rácio e em que janela de tempo para recuperar e treinar bem no dia seguinte."
+seoTitle: "Nutrição Depois do Longo: Hidratos e Proteína"
+keyword: "nutrição depois do longo"
+keywords: ["hidratos e proteína pós-treino", "janela anabólica", "recuperação depois do longo"]
 readTime: 5
 faqs:
   - q: "Qual a dose ideal de proteína no pós‑longo para um corredor de 70 kg?"

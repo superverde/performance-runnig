@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas de Corrida para Chuva e Pisos Molhados"
 date: '2026-09-12'
 category: "Equipamento"
-excerpt: "Melhores Sapatilhas de Corrida para Chuva e Pisos Molhados Categoria: Equipamento"
+excerpt: "Correr à chuva exige aderência e drenagem. Vê as melhores sapatilhas de corrida para chuva e pisos molhados e o que procurar na sola e no cabedal."
+keyword: "sapatilhas de corrida para chuva"
+keywords: ["sapatilhas pisos molhados", "sapatilhas aderência", "correr à chuva"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre impermeabilidade e drenagem em sapatilhas de corrida?"

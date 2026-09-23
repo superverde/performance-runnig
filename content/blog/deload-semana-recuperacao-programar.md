@@ -2,7 +2,9 @@
 title: "Semana de Deload: Como e Quando Programar o Descanso Ativo"
 date: '2026-07-31'
 category: "Recuperação"
-excerpt: "A semana de deload é uma ferramenta fundamental para os atletas de desporto que buscam melhorar a sua performance e reduzir o stress."
+excerpt: "A semana de deload reduz a carga para o corpo absorver o treino. Vê quando a programar, quanto cortar e como fazer descanso ativo sem perder forma."
+keyword: "semana de deload"
+keywords: ["semana de descarga", "descanso ativo", "semana de recuperação corrida"]
 readTime: 4
 ---
 

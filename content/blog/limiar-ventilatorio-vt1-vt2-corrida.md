@@ -2,7 +2,9 @@
 title: "Limiares Ventilatórios VT1 e VT2: A Alternativa ao Lactato"
 date: '2026-09-22'
 category: "Fisiologia"
-excerpt: "VT1 e VT2 dividem o teu treino em três zonas reais. O que são, como se detetam sem picar o dedo e como usá-los para não treinar sempre no meio."
+excerpt: "Os limiares ventilatórios VT1 e VT2 dividem o treino em três zonas reais. Vê o que são, como os detetar sem picar o dedo e como os usar."
+keyword: "limiares ventilatórios"
+keywords: ["vt1 e vt2", "limiar ventilatório", "zonas de treino"]
 readTime: 7
 faqs:
   - q: "Qual é a diferença entre VT1 e VT2?"

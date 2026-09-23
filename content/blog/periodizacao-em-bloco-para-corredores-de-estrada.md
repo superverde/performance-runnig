@@ -1,6 +1,8 @@
 ---
 title: "Periodização em Bloco para Corredores de Estrada"
-excerpt: "Um método eficaz para maximizar a adaptação e prevenir o overtraining em ciclos de treino de 3-4 semanas."
+excerpt: "A periodização em bloco concentra o treino num objetivo de cada vez. Vê como montar blocos de 3 a 4 semanas para corrida de estrada sem cair no overtraining."
+keyword: "periodização em bloco"
+keywords: ["blocos de treino", "periodização corrida de estrada", "ciclos de treino"]
 date: '2026-07-03'
 category: "Treino"
 readTime: 15 minutos

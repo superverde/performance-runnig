@@ -1,8 +1,11 @@
 ---
-title: "Carbohidratos em Corrida: Oxidação, Limites Fisiológicos e Estratégias para Ir Mais Rápido"
+title: "Hidratos de Carbono em Corrida: Oxidação, Limites Fisiológicos e Estratégias para Ir Mais Rápido"
 date: '2026-06-27'
 category: "Nutrição"
-excerpt: "O corpo tem limites bem definidos na capacidade de oxidar carbohidratos durante o exercício — e a maioria dos corredores ignora-os completamente. Aprende a ciência por detrás da nutrição em corrida e como maximizar a energia disponível."
+excerpt: "Há um limite para os hidratos de carbono que o corpo oxida na corrida. Aprende quantos gramas por hora usar e como treinar o intestino para ir mais rápido."
+seoTitle: "Hidratos de Carbono na Corrida: Limites e Estratégias"
+keyword: "hidratos de carbono na corrida"
+keywords: ["oxidação de hidratos", "gramas de hidratos por hora", "nutrição em corrida"]
 readTime: 9
 ---
 

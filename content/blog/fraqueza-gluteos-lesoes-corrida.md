@@ -2,7 +2,9 @@
 title: "Glúteos Fracos: A Causa Oculta de Lesões em Corredores"
 date: '2026-07-26'
 category: "Biomecânica"
-excerpt: "Quando pensamos em lesões em corredores, tendemos a associar a causa a problemas de flexibilidade, força ou técnica."
+excerpt: "Glúteos fracos estão por trás de muitas lesões de joelho e anca. Vê como testar a força dos glúteos e os exercícios que a recuperam."
+keyword: "glúteos fracos"
+keywords: ["glúteo médio corrida", "força de glúteos", "lesões por glúteos fracos"]
 readTime: 4
 ---
 

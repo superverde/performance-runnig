@@ -2,7 +2,9 @@
 title: "Dieta Mediterrânica e Corrida: O Padrão Alimentar Ideal"
 date: '2026-07-23'
 category: "Nutrição"
-excerpt: "A corrida é um desporto de alta intensidade que exige um treino rigoroso e uma nutrição adequada para alcançar as melhores performances."
+excerpt: "A dieta mediterrânica é um bom padrão alimentar para a corrida: hidratos, azeite, peixe e legumes. Vê como a adaptar ao treino e às provas."
+keyword: "dieta mediterrânica e corrida"
+keywords: ["alimentação do corredor", "dieta mediterrânica atletas", "padrão alimentar desportista"]
 readTime: 4
 ---
 

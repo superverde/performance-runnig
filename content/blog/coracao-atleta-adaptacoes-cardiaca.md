@@ -2,7 +2,10 @@
 title: "O Coração do Atleta: Adaptações Cardíacas ao Treino de Endurance"
 date: '2026-07-14'
 category: "Fisiologia"
-excerpt: "O treino de endurance é uma atividade que exige a capacidade de manter um nível de esforço elevado por períodos prolongados."
+excerpt: "O coração de atleta cresce e bate mais devagar com o treino de endurance. Vê as adaptações normais, os números típicos e quando convém ir ao médico."
+seoTitle: "O Coração do Atleta: Adaptações ao Treino de Endurance"
+keyword: "coração de atleta"
+keywords: ["adaptações cardíacas", "bradicardia do atleta", "coração e endurance"]
 readTime: 4
 ---
 

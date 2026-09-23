@@ -2,7 +2,10 @@
 title: "Pliometria e Rigidez Tendínea: Força Reativa ao Serviço da Economia"
 date: '2026-09-08'
 category: "Treino"
-excerpt: "Apliquemos a pliometria e a rigidez tendínea para maximizar a força reativa do atleta, reduzindo o custo energético e melhorando a eficiência de corrida em."
+excerpt: "Pliometria e rigidez tendínea: vê como os saltos tornam os tendões mais elásticos, poupam energia a cada passada e melhoram a economia."
+seoTitle: "Pliometria e Rigidez Tendínea: Força Reativa e Economia"
+keyword: "rigidez tendínea"
+keywords: ["pliometria e tendões", "força reativa", "economia de corrida"]
 readTime: 5
 faqs:
   - q: "Qual é o tempo de contato ideal em saltos em profundidade para corredores?"

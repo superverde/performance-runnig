@@ -2,7 +2,9 @@
 title: "Periostite Tibial (Canelite): Causas Reais e Como Resolver"
 date: '2026-08-02'
 category: "Lesões"
-excerpt: "A corrida é um desporto exigente que pode levar a uma variedade de lesões, incluindo a periostite tibial, também conhecida como canelite."
+excerpt: "A periostite tibial, ou canelite, é a dor na face interna da tíbia. Vê as causas reais, como a tratar e como voltar a correr sem recaídas."
+keyword: "periostite tibial"
+keywords: ["canelite", "dor na canela", "shin splints tratamento"]
 readTime: 4
 ---
 

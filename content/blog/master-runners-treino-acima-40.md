@@ -2,7 +2,9 @@
 title: "Corredores Masters: Como Treinar Acima dos 40 Anos"
 date: '2026-09-13'
 category: "Treino"
-excerpt: "Para corredores com mais de 40 anos, o treino deve equilibrar volume moderado, intensidade controlada e recuperação adequada, priorizando a capacidade."
+excerpt: "Corredores masters podem continuar a evoluir depois dos 40. Vê como equilibrar volume, intensidade, força e recuperação para treinar bem com a idade."
+keyword: "corredores masters"
+keywords: ["treinar acima dos 40", "corrida veteranos", "treino masters"]
 readTime: 4
 ---
 

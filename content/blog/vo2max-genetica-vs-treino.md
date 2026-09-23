@@ -1,6 +1,9 @@
 ---
 title: "VO2max: Quanto é Genética e Quanto Podes Melhorar com Treino?"
 excerpt: "O VO2max é determinado em parte pela genética — mas a resposta ao treino varia enormemente entre pessoas. A ciência explica o que podes controlar."
+seoTitle: "VO2max: Quanto é Genética e Quanto é Treino"
+keyword: "vo2max genética"
+keywords: ["vo2max treinável", "herança genética vo2max", "melhorar vo2max"]
 date: "2025-06-23"
 category: "Fisiologia"
 readTime: 5

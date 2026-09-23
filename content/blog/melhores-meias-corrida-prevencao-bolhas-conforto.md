@@ -2,7 +2,9 @@
 title: "Melhores Meias de Corrida: Prevenção de Bolhas e Conforto"
 date: '2026-07-19'
 category: "Equipamento"
-excerpt: "As meias de corrida são uma peça fundamental no equipamento de corrida, pois proporcionam conforto, suporte e proteção ao pé durante a corrida."
+excerpt: "As melhores meias de corrida para evitar bolhas: vê que tecidos, espessura e costuras escolher para estrada e trail e os modelos de referência."
+keyword: "meias de corrida"
+keywords: ["meias para evitar bolhas", "meias técnicas corrida", "meias running"]
 readTime: 4
 ---
 

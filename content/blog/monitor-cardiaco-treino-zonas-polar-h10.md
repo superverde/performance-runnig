@@ -1,6 +1,9 @@
 ---
 title: "Monitor Cardíaco para Treino por Zonas: Cinta vs Pulso — O que a Ciência Diz"
-excerpt: "Os sensores de pulso do teu relógio GPS têm um erro de ±10% em esforços intensos. Isso significa que podes estar a treinar na zona errada sem saber. Este artigo explica quando precisas de uma cinta peitoral e qual escolher."
+excerpt: "O sensor de pulso do relógio pode errar 10% em esforços intensos. Vê quando precisas de cinta cardíaca para treinar nas zonas certas e quando o pulso chega."
+seoTitle: "Cinta Cardíaca vs Pulso: Qual Mede Melhor as Zonas"
+keyword: "cinta cardíaca vs pulso"
+keywords: ["monitor de frequência cardíaca", "sensor ótico precisão", "treino por zonas"]
 date: "2026-06-23"
 category: "Fisiologia"
 readTime: 6

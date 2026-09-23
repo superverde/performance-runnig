@@ -2,7 +2,9 @@
 title: "Melhores Relógios GPS para Corrida e Trail em 2026"
 date: '2026-07-07'
 category: "Equipamento"
-excerpt: "Os relógios GPS para corrida e trail são ferramentas essenciais para qualquer corredor em busca de melhorar suas desempenhos."
+excerpt: "Os melhores relógios GPS para corrida e trail em 2026: comparamos precisão, bateria, mapas e preço para escolheres o relógio certo."
+keyword: "relógios gps corrida 2026"
+keywords: ["relógio gps trail", "melhor relógio de corrida", "relógios gps 2026"]
 readTime: 4
 ---
 

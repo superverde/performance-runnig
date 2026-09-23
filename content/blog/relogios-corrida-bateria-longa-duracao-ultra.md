@@ -2,7 +2,9 @@
 title: "Relógios com Bateria de Longa Duração para Ultra Trail"
 date: '2026-09-16'
 category: "Equipamento"
-excerpt: "Para quem corre ultra trail, a escolha do relógio pode ser decisiva: baterias que duram dias, GPS preciso, resistência à água e funcionalidades de treino."
+excerpt: "Um relógio com bateria de longa duração é obrigatório em ultra trail. Vê os modelos que aguentam dias com GPS e como poupar bateria em prova."
+keyword: "relógio bateria longa duração"
+keywords: ["relógio para ultra trail", "autonomia relógio gps", "relógio com mais bateria"]
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre GPS e altímetro barométrico em relógios de ultra trail?"

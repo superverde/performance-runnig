@@ -2,7 +2,9 @@
 title: "Roupa de Corrida para Inverno: Guia de Camadas"
 date: '2026-07-16'
 category: "Equipamento"
-excerpt: "O inverno é uma época do ano em que a temperatura cai e a humidade aumenta, tornando as condições de corrida mais desafiantes."
+excerpt: "Roupa de corrida para o inverno: vê como combinar camadas conforme a temperatura, o vento e a chuva para correr quente sem transpirar demais."
+keyword: "roupa de corrida inverno"
+keywords: ["camadas para correr no frio", "roupa running inverno", "correr no frio"]
 readTime: 4
 ---
 

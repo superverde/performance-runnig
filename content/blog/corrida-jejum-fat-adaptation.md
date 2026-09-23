@@ -2,6 +2,9 @@
 title: 'Correr em Jejum: O que a Ciência Diz sobre Fat Burning e Performance'
 excerpt: >-
   Correr de manhã em jejum queima mais gordura? Vai prejudicar o músculo? A fat adaptation funciona? Aqui está o que a investigação realmente diz.
+seoTitle: "Correr em Jejum: Queima de Gordura e Performance"
+keyword: "correr em jejum"
+keywords: ["fat burning corrida", "treino em jejum", "queimar gordura a correr"]
 date: '2026-06-21'
 category: Nutrição
 readTime: 6

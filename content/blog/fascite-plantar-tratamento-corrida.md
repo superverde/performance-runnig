@@ -2,7 +2,9 @@
 title: "Fascite Plantar: Tratamento, Retorno ao Treino e Prevenção"
 date: '2026-08-01'
 category: "Lesões"
-excerpt: "Fascite Plantar: Tratamento, Retorno ao Treino e Prevenção =========================================================="
+excerpt: "Fascite plantar: vê o tratamento com mais evidência, os exercícios que resolvem, quando voltar a correr e como evitar que a dor regresse."
+keyword: "fascite plantar tratamento"
+keywords: ["voltar a correr com fascite", "fascite plantar exercícios", "dor na planta do pé"]
 readTime: 4
 ---
 

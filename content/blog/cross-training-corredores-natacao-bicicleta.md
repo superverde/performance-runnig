@@ -2,7 +2,10 @@
 title: "Cross-Training para Corredores: Natação, Bicicleta e Musculação"
 date: '2026-07-11'
 category: "Treino"
-excerpt: "A corrida é um desporto que exige uma grande variedade de habilidades e capacidades físicas, desde a resistência aeróbica até a força explosiva."
+excerpt: "O cross-training para corredores mantém a forma com menos impacto. Vê como usar natação, bicicleta e força na tua semana sem roubar tempo à corrida."
+seoTitle: "Cross-Training para Corredores: Natação, Bicicleta e Força"
+keyword: "cross-training corredores"
+keywords: ["treino cruzado", "natação para corredores", "bicicleta para corredores"]
 readTime: 4
 ---
 

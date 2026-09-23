@@ -2,7 +2,10 @@
 title: "Associação vs Dissociação: Estratégias Mentais para Aguentar a Dor"
 date: '2026-08-09'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação de resistência, força e técnica, mas também envolve uma componente mental importante."
+excerpt: "Associação vs dissociação: focar no corpo ou distrair a mente? Vê que estratégia mental aguenta melhor a dor em cada tipo de prova."
+seoTitle: "Associação vs Dissociação: Estratégias Mentais para a Dor"
+keyword: "associação vs dissociação"
+keywords: ["estratégias mentais corrida", "aguentar a dor a correr", "foco em prova"]
 readTime: 4
 ---
 

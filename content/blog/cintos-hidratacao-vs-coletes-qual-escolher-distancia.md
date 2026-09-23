@@ -2,7 +2,10 @@
 title: "Cintos de Hidratação vs Coletes: Qual Escolher Para Cada Distância"
 date: '2026-08-03'
 category: "Equipamento"
-excerpt: "Levar água e nutrição já não é opcional a partir dos 15-20km, mas a forma de a transportar muda tudo na sensação de corrida."
+excerpt: "Cinto de hidratação vs colete: a partir dos 15-20 km, levar água faz diferença. Vê qual escolher para cada distância, ritmo e tipo de prova."
+seoTitle: "Cinto de Hidratação vs Colete: Qual Escolher por Distância"
+keyword: "cinto de hidratação vs colete"
+keywords: ["cinto de hidratação", "colete de hidratação", "hidratação em trail"]
 readTime: 4
 ---
 

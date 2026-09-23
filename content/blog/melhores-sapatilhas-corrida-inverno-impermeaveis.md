@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas Impermeáveis para Correr no Inverno"
 date: '2026-08-17'
 category: "Equipamento"
-excerpt: "Ao escolher uma boa sapatilha impermeável para correr no inverno, é importante considerar vários fatores, desde a isolação térmica até a resistência ao vento."
+excerpt: "Sapatilhas impermeáveis para correr no inverno: vê quando o GORE-TEX compensa, o que procurar na sola e os melhores modelos para chuva e frio."
+keyword: "sapatilhas impermeáveis"
+keywords: ["sapatilhas gore-tex", "correr no inverno", "sapatilhas à prova de água"]
 readTime: 4
 faqs:
   - q: "Qual é a melhor sapatilha impermeável para correr no inverno?"

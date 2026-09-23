@@ -2,7 +2,10 @@
 title: "RPE e Frequência Cardíaca: Como Usar as Duas Métricas em Conjunto"
 date: '2026-06-28'
 category: "Treino"
-excerpt: "Confiar apenas na frequência cardíaca ou apenas na perceção de esforço pode induzir-te em erro. A ciência mostra que usar ambas em conjunto é a estratégia mais eficaz para controlar a intensidade do treino."
+excerpt: "Só frequência cardíaca ou só perceção de esforço podem enganar-te. Vê como usar RPE e FC em conjunto para controlar a intensidade de cada treino."
+seoTitle: "RPE e Frequência Cardíaca: Como Usar as Duas em Conjunto"
+keyword: "rpe e frequência cardíaca"
+keywords: ["perceção de esforço", "escala rpe", "controlar a intensidade"]
 readTime: 8
 ---
 

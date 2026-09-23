@@ -2,7 +2,9 @@
 title: "Termorregulação: Como o Corpo Gere a Temperatura em Corrida"
 date: '2026-07-15'
 category: "Fisiologia"
-excerpt: "O corpo humano é capaz de realizar uma variedade de atividades físicas, desde caminhar até correr a velocidades extremas."
+excerpt: "A termorregulação decide como aguentas o calor a correr. Vê como o corpo gere a temperatura, porque o suor não chega e como treinar a adaptação."
+keyword: "termorregulação"
+keywords: ["temperatura corporal corrida", "calor e corrida", "como o corpo arrefece"]
 readTime: 4
 ---
 

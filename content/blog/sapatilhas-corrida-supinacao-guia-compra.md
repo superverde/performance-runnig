@@ -2,7 +2,9 @@
 title: "Sapatilhas para Supinação: Guia de Compra"
 date: '2026-09-14'
 category: "Equipamento"
-excerpt: "Quando a supinação domina o teu passo, a escolha da sapatilha torna‑se crucial para evitar sobrecarga e melhorar a eficiência."
+excerpt: "Sapatilhas para supinação: vê o que é a pisada supinadora, porque o amortecimento conta mais e os modelos que funcionam melhor."
+keyword: "sapatilhas para supinação"
+keywords: ["sapatilhas supinador", "sapatilhas neutras", "pisada supinadora"]
 readTime: 4
 faqs:
   - q: "Qual a diferença entre supinação e pronação?"

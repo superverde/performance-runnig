@@ -1,8 +1,9 @@
 ---
 title: 'Biomecânica e Economia de Corrida: Como Correr com Menos Esforço'
-excerpt: >-
-  A economia de corrida é a quantidade de oxigénio que gastas a uma velocidade
-  específica. Melhorá-la pode ser tão eficaz quanto aumentar o VO2max — e é…
+excerpt: "A economia de corrida é o oxigénio que gastas a cada ritmo. Vê que fatores da biomecânica a melhoram e como correr com menos esforço à mesma velocidade."
+seoTitle: "Biomecânica e Economia de Corrida: Correr com Menos Esforço"
+keyword: "economia de corrida biomecânica"
+keywords: ["biomecânica da corrida", "correr com menos esforço", "eficiência de corrida"]
 date: '2025-11-15'
 category: Biomecânica
 readTime: 5

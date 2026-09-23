@@ -2,7 +2,9 @@
 title: "Calças de Compressão para Corrida: Valem a Pena?"
 date: '2026-08-04'
 category: "Equipamento"
-excerpt: "O que a compressão faz mesmo pela performance e pela recuperação, como escolher a pressão certa e que calças e leggings compensam para correr."
+excerpt: "As calças de compressão para corrida ajudam na recuperação? Vê o que a compressão faz mesmo, como escolher a pressão certa e que modelos valem a pena."
+keyword: "calças de compressão corrida"
+keywords: ["compressão para correr", "leggings de compressão", "roupa de compressão"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Melhores Carregadores Portáteis Compatíveis com Relógios GPS"
 date: '2026-09-18'
 category: "Equipamento"
-excerpt: "Como escolher um powerbank para carregar o relógio GPS em ultras e viagens: capacidade real, peso, e o detalhe que trava toda a gente — o cabo."
+excerpt: "Como escolher um carregador portátil para o relógio GPS em ultras e viagens: capacidade real, peso e compatibilidade com o cabo do teu relógio."
+seoTitle: "Carregador Portátil para Relógio GPS: Os Melhores"
+keyword: "carregador portátil relógio gps"
+keywords: ["power bank relógio", "carregar garmin em prova", "bateria externa"]
 readTime: 5
 faqs:
   - q: "De quanta capacidade preciso para carregar um relógio GPS?"

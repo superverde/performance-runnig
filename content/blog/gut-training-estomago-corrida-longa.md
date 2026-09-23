@@ -2,7 +2,9 @@
 title: "Gut Training: Como Treinar o Estômago para a Maratona"
 date: '2026-07-23'
 category: "Nutrição"
-excerpt: "O estômago é um dos principais órgãos envolvidos no processo de absorção de nutrientes durante a atividade física."
+excerpt: "O gut training ensina o estômago a aceitar hidratos a correr. Vê como treinar o intestino para a maratona e reduzir os problemas gastrointestinais."
+keyword: "gut training"
+keywords: ["treinar o estômago", "problemas intestinais maratona", "tolerância a hidratos"]
 readTime: 4
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Como Melhorar o VO2max: Protocolos com Evidência Científica"
-excerpt: "O VO2max é o teto da tua capacidade aeróbia — e ao contrário do que muitos pensam, pode ser treinado de forma significativa. Os protocolos com mais evidência não são os mais dolorosos, mas são os mais precisos."
+excerpt: "O VO2max pode ser treinado. Vê os protocolos com mais evidência para melhorar o VO2max, quanto tempo demoram a resultar e como os encaixar na tua semana."
+keyword: "melhorar o vo2max"
+keywords: ["como aumentar o vo2max", "treino de vo2max", "protocolos vo2max"]
 date: '2026-06-30'
 category: "VO2max"
 readTime: 7

@@ -1,9 +1,9 @@
 ---
 title: 'Fascite Plantar em Corredores: Causas, Prevenção e Tratamento'
-excerpt: >-
-  Um estudo prospectivo de 2025 com corredores identificou os fatores
-  biomecânicos que aumentam o risco de fascite plantar — e o que a ciência
-  recomenda…
+excerpt: "Um estudo de 2025 identificou os fatores que aumentam o risco de fascite plantar em corredores. Vê as causas, os sinais e como a prevenir."
+seoTitle: "Fascite Plantar em Corredores: Causas e Prevenção"
+keyword: "fascite plantar corredores"
+keywords: ["dor no calcanhar corrida", "fascite plantar causas", "prevenir fascite plantar"]
 date: '2025-06-16'
 category: Lesões
 readTime: 5

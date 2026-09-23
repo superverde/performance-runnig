@@ -1,8 +1,11 @@
 ---
-title: "Primeiro Ultramaratona de 100km: Tudo o que Precisas de Saber"
+title: "Primeira Ultramaratona de 100km: Tudo o que Precisas de Saber"
 date: '2026-08-19'
 category: "Trail Running"
-excerpt: "Para completar a primeira ultramaratona de 100 km, é necessário planeamento rigoroso, treino específico, nutrição adequada e recuperação estruturada, bem."
+excerpt: "A primeira ultramaratona de 100 km exige planeamento, treino específico, nutrição e cabeça. Vê tudo o que precisas para chegar ao fim."
+seoTitle: "Primeira Ultramaratona de 100km: Tudo o Que Precisas"
+keyword: "ultramaratona 100 km"
+keywords: ["primeiro ultra de 100 km", "preparar um ultra", "ultra trail 100 km"]
 readTime: 5
 faqs:
   - q: "Qual a carga de trabalho ideal em termos de frequência cardíaca para treinos de subida em uma ultramaratona de 100 km?"

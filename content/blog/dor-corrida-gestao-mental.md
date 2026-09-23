@@ -1,6 +1,9 @@
 ---
 title: "A Ciência da Dor em Corrida: Como a Mente Controla o Teu Limite"
 excerpt: "A dor durante a corrida não é apenas física — é uma construção do cérebro. Compreender isto muda a forma como treinas e competis."
+seoTitle: "A Ciência da Dor na Corrida: Como a Mente Define o Limite"
+keyword: "dor na corrida"
+keywords: ["psicologia da dor", "tolerância à dor", "mente e fadiga"]
 date: "2025-07-01"
 category: "Psicologia"
 readTime: 5

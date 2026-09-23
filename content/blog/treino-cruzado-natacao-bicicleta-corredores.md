@@ -2,7 +2,10 @@
 title: "Treino Cruzado para Corredores: Natação, Bicicleta e Elíptica na Prática"
 date: '2026-07-01'
 category: "Treino"
-excerpt: "Como usar natação, ciclismo e elíptica para manter e até melhorar a capacidade aeróbia sem sobrecarregar as estruturas que absorvem o impacto da corrida."
+excerpt: "Treino cruzado para corredores: vê como usar natação, bicicleta e elíptica para manter a capacidade aeróbia sem sobrecarregar as articulações."
+seoTitle: "Treino Cruzado para Corredores: Bicicleta e Elíptica"
+keyword: "treino cruzado para corredores"
+keywords: ["cross-training", "natação e bicicleta", "elíptica corredores"]
 readTime: 8
 ---
 

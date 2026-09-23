@@ -2,7 +2,9 @@
 title: "Rácio Carga Aguda:Crónica — A Métrica Que Previne Lesões"
 date: '2026-07-08'
 category: "Treino"
-excerpt: "A corrida de resistência é um desporto que exige uma combinação de força física, resistência cardiovascular e capacidade anaeróbica."
+excerpt: "O rácio carga aguda crónica compara a carga da última semana com a do último mês. Vê como calcular, que limites vigiar e os limites desta métrica."
+keyword: "rácio carga aguda crónica"
+keywords: ["acwr", "acute chronic workload ratio", "carga de treino e lesões"]
 readTime: 4
 ---
 

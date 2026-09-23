@@ -2,7 +2,9 @@
 title: "Prevenção de Lesões em Corredoras"
 date: '2026-09-23'
 category: "Lesões"
-excerpt: "Descobre as estratégias científicas e práticas para prevenir lesões em corredoras e manter a forma de forma segura e eficaz."
+excerpt: "A prevenção de lesões em corredoras passa por força, energia suficiente e atenção ao ciclo. Vê as estratégias com base científica."
+keyword: "prevenção de lesões corredoras"
+keywords: ["lesões em mulheres corredoras", "corredoras", "prevenir lesões"]
 readTime: 5
 faqs:
   - q: "Como saber se o aumento de volume semanal está seguro?"

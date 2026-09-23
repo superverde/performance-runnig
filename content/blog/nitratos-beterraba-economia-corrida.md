@@ -2,7 +2,10 @@
 title: "Nitratos e Sumo de Beterraba: Quanto Melhoram Mesmo a Economia de Corrida"
 date: '2026-09-08'
 category: "Nutrição"
-excerpt: "Os nitratos e o sumo de beterraba melhoram a economia de corrida em torno de 2 – 4 % em distâncias de 10 km a maratona, o que se traduz em 1 – 2 minutos de."
+excerpt: "O sumo de beterraba, rico em nitratos, melhora a economia de corrida em 2 a 4%. Vê a dose, quando o tomar antes da prova e quem beneficia mais."
+seoTitle: "Sumo de Beterraba: Quanto Melhora a Economia de Corrida"
+keyword: "sumo de beterraba"
+keywords: ["nitratos e corrida", "beterraba desporto", "nitratos economia de corrida"]
 readTime: 5
 faqs:
   - q: "Quais são os efeitos colaterais mais comuns da suplementação com sumo de beterraba?"

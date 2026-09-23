@@ -2,7 +2,10 @@
 title: "Ansiedade Pré-Corrida: Transformar Nervosismo em Combustível"
 date: '2026-08-07'
 category: "Psicologia"
-excerpt: "Quando o dia da corrida se aproxima, muitos atletas começam a sentir um nível crescente de ansiedade."
+excerpt: "A ansiedade pré-prova não tem de te travar. Aprende técnicas simples, com base científica, para transformar os nervos antes da corrida em energia e foco."
+seoTitle: "Ansiedade Pré-Prova: Transformar os Nervos em Energia"
+keyword: "ansiedade pré-prova"
+keywords: ["nervos antes da corrida", "ansiedade antes da prova", "controlar a ansiedade corrida"]
 readTime: 4
 ---
 

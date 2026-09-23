@@ -2,7 +2,10 @@
 title: "Vitamina D e Performance em Corredores: Deficiência, Riscos e Como Corrigir"
 date: '2026-06-27'
 category: "Nutrição"
-excerpt: "Até 50% dos atletas de endurance têm deficiência de vitamina D sem o saber. As consequências vão além dos ossos: função muscular, imunidade e recuperação estão todas comprometidas."
+excerpt: "Até metade dos atletas de endurance tem deficiência de vitamina D sem saber. Vê as consequências para músculo, imunidade e recuperação e como corrigir."
+seoTitle: "Vitamina D em Corredores: Deficiência e Como Corrigir"
+keyword: "deficiência de vitamina d"
+keywords: ["vitamina d e performance", "vitamina d atletas", "como corrigir vitamina d"]
 readTime: 8
 ---
 

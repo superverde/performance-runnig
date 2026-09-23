@@ -3,6 +3,8 @@ title: "VO2max por Idade: Tabela de Referência e Como Ler"
 date: '2026-08-13'
 category: "VO2max"
 excerpt: "Que VO2max é bom para a tua idade e sexo, com tabelas de referência, e o que o número diz (e não diz) sobre o teu potencial na corrida."
+keyword: "vo2max por idade"
+keywords: ["tabela vo2max", "vo2max normal", "valores de vo2max"]
 readTime: 4
 ---
 

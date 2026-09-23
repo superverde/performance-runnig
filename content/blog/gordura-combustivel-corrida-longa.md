@@ -2,7 +2,9 @@
 title: "Gordura como Combustível: Fat Adaptation na Corrida de Fundo"
 date: '2026-07-19'
 category: "Nutrição"
-excerpt: "A corrida de fundo é um desporto que requer uma combinação de resistência, força e resistência ao cansaço."
+excerpt: "A fat adaptation promete usar mais gordura como combustível na corrida de fundo. Vê o que a ciência mostra, os custos para a velocidade e quando faz sentido."
+keyword: "fat adaptation"
+keywords: ["gordura como combustível", "adaptação à gordura", "metabolismo das gorduras"]
 readTime: 4
 ---
 

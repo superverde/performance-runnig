@@ -2,7 +2,10 @@
 title: "Anti-Fricção e Vaselina: Produtos para Prevenir Bolhas e Assaduras"
 date: '2026-08-09'
 category: "Equipamento"
-excerpt: "Como desportista de corrida, sabes que a prevenção de lesões é fundamental para um treino eficaz e seguro."
+excerpt: "Bolhas e assaduras estragam qualquer longo. Comparamos vaselina, bálsamos e produtos anti-fricção para correr e explicamos onde e como aplicar cada um."
+seoTitle: "Anti-Fricção e Vaselina: Prevenir Bolhas e Assaduras"
+keyword: "vaselina anti-fricção"
+keywords: ["vaselina para correr", "prevenir bolhas", "evitar assaduras a correr"]
 readTime: 4
 ---
 

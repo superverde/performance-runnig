@@ -2,7 +2,10 @@
 title: "Composição Corporal e Performance: Qual é o Peso Ótimo para um Corredor?"
 date: 2026-07-03
 category: "Fisiologia"
-excerpt: "Menos peso não é sempre sinónimo de mais velocidade. Entenda a relação real entre composição corporal, disponibilidade energética e performance — e onde a obsessão pelo peso se torna um risco."
+excerpt: "Qual é o peso ideal do corredor? Menos peso nem sempre é mais velocidade. Vê a relação entre composição corporal, energia e performance, e os riscos."
+seoTitle: "Peso Ideal do Corredor: Composição Corporal e Performance"
+keyword: "peso ideal corredor"
+keywords: ["composição corporal corrida", "peso e performance", "disponibilidade energética"]
 readTime: 8
 ---
 

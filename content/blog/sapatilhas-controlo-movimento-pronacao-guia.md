@@ -2,7 +2,10 @@
 title: "Sapatilhas com Controlo de Movimento: Guia para Pronação Acentuada"
 date: '2026-08-05'
 category: "Equipamento"
-excerpt: "As sapatilhas com controlo de movimento são um tipo de equipamento de corrida que se destaca pelo seu design e tecnologia."
+excerpt: "Sapatilhas de controlo de movimento para pronação acentuada: vê quando fazem sentido, o que dizem os estudos e os modelos atuais."
+seoTitle: "Sapatilhas de Controlo de Movimento para Pronação"
+keyword: "sapatilhas de controlo de movimento"
+keywords: ["sapatilhas para pronação acentuada", "sapatilhas de estabilidade", "hiperpronação"]
 readTime: 4
 ---
 

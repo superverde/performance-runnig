@@ -1,7 +1,9 @@
 ---
 title: 'Joelho do Corredor: Causas, Tratamento e como Voltar a Correr Sem Dor'
-excerpt: >-
-  A síndrome patelofemoral é a lesão mais comum em corredores. Percebe o que a causa, como tratar e — mais importante — como evitar que volte.
+excerpt: "O joelho do corredor, ou síndrome patelofemoral, é a lesão mais comum na corrida. Vê as causas, o tratamento e como voltar a correr sem dor."
+seoTitle: "Joelho do Corredor: Causas, Tratamento e Voltar Sem Dor"
+keyword: "joelho do corredor"
+keywords: ["dor no joelho a correr", "síndrome patelofemoral", "voltar a correr sem dor"]
 date: '2026-06-20'
 category: Lesões
 readTime: 7

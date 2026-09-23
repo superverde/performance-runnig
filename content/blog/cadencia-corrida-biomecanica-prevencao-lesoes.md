@@ -1,6 +1,8 @@
 ---
 title: "Cadência de Corrida: Aumentar 5-10% os Passos Reduz Lesões"
-excerpt: "Uma revisão de 2025 com 18 estudos confirma: subir ligeiramente a cadência reduz o impacto no joelho e na tíbia — sem gastar mais energia."
+excerpt: "Uma revisão de 2025 confirma: subir a cadência de corrida 5 a 10% reduz a carga no joelho e na tíbia. Vê como aumentar a cadência sem perder eficiência."
+keyword: "cadência de corrida"
+keywords: ["aumentar a cadência", "passos por minuto", "cadência e lesões"]
 date: "2025-06-10"
 category: "Biomecânica"
 readTime: 5

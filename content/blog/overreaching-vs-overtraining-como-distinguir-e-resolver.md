@@ -1,6 +1,8 @@
 ---
 title: "Overreaching vs Overtraining: Como Distinguir e Resolver"
-excerpt: "Sentires-te exausto depois de uma semana dura é normal. Sentires-te exausto depois de três semanas de repouso é um sinal de alarme. A diferença entre overreaching e overtraining síndrome pode definir meses da tua temporada."
+excerpt: "Exausto depois de uma semana dura é normal; exausto após três de descanso é alarme. Vê a diferença entre overreaching e overtraining e como recuperar."
+keyword: "overreaching vs overtraining"
+keywords: ["overreaching", "síndrome de sobretreino", "fadiga acumulada"]
 date: '2026-06-30'
 category: "Recuperação"
 readTime: 7

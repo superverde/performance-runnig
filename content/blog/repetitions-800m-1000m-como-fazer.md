@@ -2,7 +2,9 @@
 title: "Repetições de 800m e 1000m: O Coração do Treino de VO2max"
 date: '2026-07-12'
 category: "Treino"
-excerpt: "A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória."
+excerpt: "As repetições de 800m e 1000m são o coração do treino de VO2max. Vê a que ritmo as fazer, quantas, com que recuperação e como progredir."
+keyword: "repetições de 800m e 1000m"
+keywords: ["repetições de 1000m", "treino de vo2max", "séries de pista"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Melhores Sapatilhas Híbridas para Caminho Misto (Estrada + Trail)"
 date: '2026-08-29'
 category: "Equipamento"
-excerpt: "Para quem procura a combinação perfeita entre desempenho em estrada e robustez para trail, as sapatilhas híbridas oferecem o melhor dos dois mundos."
+excerpt: "Sapatilhas híbridas para estrada e trail servem quem mistura alcatrão e terra. Vê o que procurar na sola e os melhores modelos road to trail."
+seoTitle: "Sapatilhas Híbridas para Estrada e Trail: As Melhores"
+keyword: "sapatilhas híbridas estrada trail"
+keywords: ["sapatilhas road to trail", "sapatilhas pisos mistos", "sapatilhas para terra batida"]
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

@@ -3,6 +3,8 @@ title: "Overstriding: O Que É e Como Corrigir a Passada"
 date: '2026-07-24'
 category: "Biomecânica"
 excerpt: "Aterrar à frente do centro de massa trava-te a cada passo e sobrecarrega as articulações. Como identificar overstriding e corrigi-lo em segurança."
+keyword: "overstriding"
+keywords: ["passada demasiado longa", "corrigir a passada", "overstriding lesões"]
 readTime: 4
 ---
 

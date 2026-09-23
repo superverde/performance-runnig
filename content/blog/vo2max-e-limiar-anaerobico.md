@@ -1,6 +1,8 @@
 ---
 title: "VO2max e Limiar Anaeróbio: Qual é a Diferença?"
-excerpt: "O VO2max é o teto, o limiar é o que consegues sustentar. Percebe a diferença, descobre qual limita o teu ritmo e treina o que te faz mesmo melhorar."
+excerpt: "VO2max vs limiar anaeróbio: o VO2max é o teto, o limiar é o que aguentas. Vê a diferença, qual limita o teu ritmo e como treinar cada um."
+keyword: "vo2max vs limiar anaeróbio"
+keywords: ["diferença vo2max e limiar", "limiar anaeróbio", "vo2max"]
 date: '2025-11-01'
 category: VO2max
 readTime: 4

@@ -2,7 +2,9 @@
 title: "Preparação para Ultra Trail de 100km: O Guia Completo"
 date: '2026-08-11'
 category: "Trail Running"
-excerpt: "A corrida de ultra trail de 100km é um desporto extremamente exigente que requer uma preparação cuidadosa e sistemática."
+excerpt: "Um ultra trail de 100 km exige preparação a sério. Vê o volume, os longos, a nutrição e o material de que precisas para chegar ao fim."
+keyword: "ultra trail 100 km"
+keywords: ["preparação ultra 100 km", "treino ultra trail", "primeiro ultra de 100 km"]
 readTime: 5
 ---
 

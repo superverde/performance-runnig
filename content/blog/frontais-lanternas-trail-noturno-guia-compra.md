@@ -2,7 +2,10 @@
 title: "Frontais (Lanternas) para Trail Noturno: Guia de Compra"
 date: '2026-07-18'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida de trail noturno, a iluminação é fundamental para garantir a segurança e a visibilidade durante a corrida."
+excerpt: "Que frontal para trail escolher? Vê quantos lúmens precisas, a autonomia, o peso e o tipo de feixe para correr de noite em segurança."
+seoTitle: "Frontal para Trail Noturno: Guia de Compra"
+keyword: "frontal para trail"
+keywords: ["lanterna frontal", "frontal para correr à noite", "lúmens frontal"]
 readTime: 4
 ---
 

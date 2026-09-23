@@ -2,7 +2,9 @@
 title: "Refeição Pré-Prova: O Que Comer nas 24h Antes da Corrida"
 date: '2026-07-19'
 category: "Nutrição"
-excerpt: "<div style='display:flex;justify-content:center;margin:8px 0 32px;' <video controls playsinline style='width:100%;max-width:380px;border-radius:16px;'."
+excerpt: "O que comer na refeição pré-prova: vê o que comer nas 24 horas antes da corrida, quantos hidratos, a que horas e o que evitar no dia."
+keyword: "refeição pré-prova"
+keywords: ["o que comer antes da prova", "jantar antes da maratona", "pequeno-almoço de prova"]
 readTime: 4
 hasVideo: true
 ---

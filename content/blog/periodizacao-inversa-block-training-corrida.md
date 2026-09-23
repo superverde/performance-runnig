@@ -2,7 +2,10 @@
 title: "Periodização Inversa: Quando Treinar a Intensidade Primeiro Funciona"
 date: '2026-09-19'
 category: "Treino"
-excerpt: "A periodização inversa, em que a intensidade é introduzida antes do volume, funciona sobretudo quando o objetivo é maximizar a capacidade anaeróbica e a."
+excerpt: "Na periodização inversa, a intensidade vem antes do volume. Vê quando funciona para corredores de estrada e como montar a época assim."
+seoTitle: "Periodização Inversa: Quando a Intensidade Vem Primeiro"
+keyword: "periodização inversa"
+keywords: ["reverse periodization", "intensidade primeiro", "periodização corrida"]
 readTime: 5
 faqs:
   - q: "Qual é a diferença entre periodização inversa e tradicional?"

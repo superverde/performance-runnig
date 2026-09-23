@@ -1,8 +1,8 @@
 ---
 title: 'HRV: O que é e Como Usar para Gerir a Recuperação'
-excerpt: >-
-  A variabilidade da frequência cardíaca (HRV) é o marcador de recuperação mais
-  validado cientificamente. Aprende a interpretá-la e a usá-la para decidir…
+excerpt: "A HRV é o marcador de recuperação mais validado. Aprende o que é a variabilidade da frequência cardíaca, como a medir e como a usar para decidir o treino."
+keyword: "hrv"
+keywords: ["variabilidade da frequência cardíaca", "hrv recuperação", "como usar o hrv"]
 date: '2025-06-28'
 category: Recuperação
 readTime: 5

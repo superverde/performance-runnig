@@ -2,7 +2,10 @@
 title: "Identidade de Corredor: Como o Propósito Sustenta a Consistência"
 date: '2026-08-10'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação de habilidade física e mental."
+excerpt: "Quem se vê como corredor treina com mais consistência. Vê como a identidade de corredor e o propósito sustentam o hábito quando a motivação falha."
+seoTitle: "Identidade de Corredor: O Propósito que Dá Consistência"
+keyword: "identidade de corredor"
+keywords: ["propósito e corrida", "consistência no treino", "motivação a longo prazo"]
 readTime: 4
 ---
 

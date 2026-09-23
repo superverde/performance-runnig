@@ -2,7 +2,10 @@
 title: "Anti-inflamatórios e Recuperação em Corredores: O Que a Ciência Diz"
 date: '2026-06-28'
 category: "Recuperação"
-excerpt: "O uso de AINEs como ibuprofeno é comum entre corredores, mas a evidência científica revela riscos sérios para a recuperação, a adaptação ao treino e a saúde renal. Eis o que deves saber."
+excerpt: "O ibuprofeno é comum entre corredores, mas os anti-inflamatórios podem atrasar a recuperação e a adaptação ao treino. Vê o que diz a ciência sobre a corrida."
+seoTitle: "Anti-inflamatórios e Corrida: O Que Diz a Ciência"
+keyword: "anti-inflamatórios e corrida"
+keywords: ["ibuprofeno corrida", "aines e recuperação", "anti-inflamatórios desporto"]
 readTime: 8
 ---
 

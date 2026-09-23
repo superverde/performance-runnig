@@ -2,7 +2,10 @@
 title: "Drop do Calçado: De Zero Drop a 12mm — Qual é o Certo?"
 date: '2026-07-27'
 category: "Biomecânica"
-excerpt: "A corrida é um desporto que exige uma grande quantidade de stress no sistema musculoesquelético."
+excerpt: "De zero drop a 12 mm: qual é o drop certo para ti? Vê como o drop das sapatilhas muda a carga no tendão de Aquiles e nos joelhos e como escolher."
+seoTitle: "Drop das Sapatilhas: Zero Drop ou 12 mm?"
+keyword: "zero drop"
+keywords: ["drop 12mm", "qual o drop certo", "drop sapatilhas corrida"]
 readTime: 4
 ---
 

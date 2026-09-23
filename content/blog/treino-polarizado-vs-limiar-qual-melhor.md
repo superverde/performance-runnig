@@ -1,6 +1,9 @@
 ---
 title: "Treino Polarizado vs. Treino de Limiar: Qual é Melhor para Corredores?"
-excerpt: "Revisões sistemáticas de 2024-2025 comparam os dois métodos mais usados no endurance. O resultado surpreende: depende do teu nível e do tempo de intervenção."
+excerpt: "Treino polarizado ou de limiar? Revisões de 2024-2025 compararam os dois métodos no endurance. Vê o resultado e como aplicar à corrida."
+seoTitle: "Treino Polarizado ou de Limiar: Qual é Melhor"
+keyword: "treino polarizado"
+keywords: ["polarizado ou limiar", "80/20", "distribuição de intensidade"]
 date: "2025-06-12"
 category: "Treino"
 readTime: 6

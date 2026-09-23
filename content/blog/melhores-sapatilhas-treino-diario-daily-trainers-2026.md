@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas de Treino Diário (Daily Trainers) 2026"
 date: '2026-07-13'
 category: "Equipamento"
-excerpt: "As sapatilhas de treino diário são uma peça fundamental no arsenal de qualquer corredor."
+excerpt: "As daily trainers fazem a maior parte dos teus quilómetros. Vê as melhores sapatilhas de treino diário de 2026 e como escolher conforme o peso e o ritmo."
+keyword: "daily trainers"
+keywords: ["sapatilhas de treino diário", "sapatilhas para todos os dias", "sapatilhas de treino 2026"]
 readTime: 4
 ---
 

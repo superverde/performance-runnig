@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas de Recuperação Pós-Treino"
 date: '2026-09-13'
 category: "Equipamento"
-excerpt: "A escolha das sapatilhas de recuperação pós‑treino pode parecer simples, mas na verdade envolve nuances técnicas que afetam a tua recuperação, a prevenção de."
+excerpt: "Sapatilhas de recuperação pós-treino e chinelos tipo OOFOS aliviam os pés depois de correr? Vê o que fazem e os melhores modelos."
+keyword: "sapatilhas de recuperação"
+keywords: ["chinelos de recuperação", "sapatilhas pós-treino", "oofos"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre amortecimento responsivo e amortecimento tradicional?"

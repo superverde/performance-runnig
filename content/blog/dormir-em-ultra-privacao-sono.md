@@ -2,7 +2,9 @@
 title: "Dormir em Ultras: Gerir a Privação"
 date: '2026-09-20'
 category: "Trail Running"
-excerpt: "Dormir em ultras é inevitável; a privação de sono afeta a recuperação muscular, a tomada de decisão e a performance."
+excerpt: "Dormir em ultras de mais de 24 horas é inevitável. Vê como a privação de sono afeta as decisões e o ritmo e como gerir microssestas em prova."
+keyword: "dormir em ultras"
+keywords: ["privação de sono ultra", "sono em ultra trail", "sestas em prova"]
 readTime: 4
 faqs:
   - q: "Qual é a duração ideal de uma soneca durante um ultramaratón?"

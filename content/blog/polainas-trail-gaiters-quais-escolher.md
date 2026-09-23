@@ -2,7 +2,9 @@
 title: "Polainas de Trail: Quais Escolher"
 date: '2026-09-20'
 category: "Equipamento"
-excerpt: "Polainas de Trail: Quais Escolher Para quem corre em trilhos, as polainas não são apenas um acessório de moda, mas um elemento crucial de prevenção de lesões."
+excerpt: "As polainas de trail impedem pedras e terra de entrar nas sapatilhas. Vê quando valem a pena, os tipos e como escolher as certas."
+keyword: "polainas de trail"
+keywords: ["polainas para correr", "evitar pedras nas sapatilhas", "gaiters trail"]
 readTime: 4
 faqs:
   - q: "Qual o material mais indicado para polainas de trail?"

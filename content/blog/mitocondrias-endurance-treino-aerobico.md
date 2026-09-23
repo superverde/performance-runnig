@@ -1,8 +1,8 @@
 ---
 title: 'Mitocôndrias: O Motor do Corredor de Endurance'
-excerpt: >-
-  A capacidade aeróbica de um corredor depende, em grande parte, das suas
-  mitocôndrias. Entender como o treino as multiplica e melhora é a chave para…
+excerpt: "As mitocôndrias são o motor do corredor de endurance. Vê como o treino as multiplica, que sessões funcionam melhor e porque isso sustenta o teu ritmo."
+keyword: "mitocôndrias"
+keywords: ["mitocôndrias e treino", "biogénese mitocondrial", "capacidade aeróbia"]
 date: '2025-07-04'
 category: Fisiologia
 readTime: 5

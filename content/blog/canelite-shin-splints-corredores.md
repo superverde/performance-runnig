@@ -1,8 +1,8 @@
 ---
 title: 'Canelite (Shin Splints): Causas, Tratamento e Prevenção'
-excerpt: >-
-  A dor na parte anterior da perna é um dos problemas mais comuns em corredores
-  iniciantes. Sabes distinguir a canelite de stress da fíbula? A ciência tem…
+excerpt: "A canelite (shin splints) é das dores mais comuns em quem começa a correr. Vê as causas, como a distinguir de uma fratura de stress e como a tratar."
+keyword: "canelite"
+keywords: ["shin splints", "dor nas canelas a correr", "síndrome de stress tibial medial"]
 date: '2025-07-02'
 category: Lesões
 readTime: 5

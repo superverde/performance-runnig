@@ -2,7 +2,9 @@
 title: "Inclinação do Tronco: Quanto é o Ideal"
 date: '2026-09-21'
 category: "Biomecânica"
-excerpt: "A inclinação ideal do tronco durante a corrida encontra‑se entre 5 e 10 graus de flexão anterior em relação ao solo, mantendo‑se uma postura ereta e."
+excerpt: "A inclinação do tronco ideal a correr ronda 5 a 10 graus para a frente, a partir dos tornozelos. Vê como a sentir e os erros de postura comuns."
+keyword: "inclinação do tronco"
+keywords: ["postura na corrida", "inclinação para a frente a correr", "técnica de corrida"]
 readTime: 5
 faqs:
   - q: "Qual é a inclinação do tronco recomendada para corredores de 5 km?"

@@ -1,6 +1,8 @@
 ---
 title: "Adaptações Cardíacas ao Treino de Endurance"
-excerpt: "O treino de endurance pode alterar significativamente o coração do atleta, aumentando a capacidade cardíaca e melhorando a eficiência da entrega de oxigênio aos músculos."
+excerpt: "O treino de endurance muda o coração: mais volume sistólico e menos batimentos. Conhece as adaptações cardíacas ao treino e o que significam para ti."
+keyword: "adaptações cardíacas ao treino"
+keywords: ["coração de atleta", "treino de endurance coração", "volume sistólico"]
 date: '2026-07-04'
 category: "Fisiologia"
 readTime: 12

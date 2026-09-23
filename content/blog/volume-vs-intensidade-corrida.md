@@ -2,7 +2,9 @@
 title: "Volume vs Intensidade: O Eterno Debate na Corrida de Fundo"
 date: '2026-07-11'
 category: "Treino"
-excerpt: "A corrida de fundo é uma atividade que requer uma combinação perfeita de volume de treino e intensidade."
+excerpt: "Mais quilómetros ou mais qualidade? Vê o que a ciência diz sobre volume vs intensidade na corrida de fundo e como equilibrar os dois na tua semana."
+keyword: "volume vs intensidade"
+keywords: ["quilometragem vs qualidade", "volume de treino", "intensidade de treino"]
 readTime: 4
 ---
 

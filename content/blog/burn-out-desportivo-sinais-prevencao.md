@@ -2,7 +2,9 @@
 title: "Burnout Desportivo em Corredores: Sinais e Como Prevenir"
 date: '2026-08-09'
 category: "Psicologia"
-excerpt: "A corrida é um desporto que exige uma combinação de capacidade física e mental."
+excerpt: "O burnout desportivo apanha corredores dedicados. Conhece os sinais de esgotamento, as causas mais comuns e o que fazer para voltar a gostar de correr."
+keyword: "burnout desportivo"
+keywords: ["burnout corredor", "esgotamento no desporto", "sinais de burnout corrida"]
 readTime: 4
 ---
 

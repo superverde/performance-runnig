@@ -2,7 +2,9 @@
 title: "GPS Portátil Dedicado vs. Relógio: Qual Escolher para Trail"
 date: '2026-08-22'
 category: "Equipamento"
-excerpt: "GPS Portátil Dedicado vs. Relógio: Qual Escolher para Trail O que o corredor de trail procura ao escolher entre um GPS portátil dedicado e um relógio?"
+excerpt: "GPS portátil dedicado ou relógio para trail? Comparamos navegação, ecrã, autonomia e peso para perceberes quando compensa levar os dois."
+keyword: "gps portátil vs relógio"
+keywords: ["gps de mão trail", "navegação trail", "relógio gps trail"]
 readTime: 5
 faqs:
   - q: "Qual a diferença principal entre um GPS portátil e um relógio de corrida?"

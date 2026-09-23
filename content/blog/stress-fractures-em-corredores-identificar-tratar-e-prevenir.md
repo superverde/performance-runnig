@@ -1,6 +1,9 @@
 ---
 title: "Stress Fractures em Corredores: Identificar, Tratar e Prevenir"
-excerpt: "Descobre como identificar, tratar e prevenir stress fractures em corredores de elite e leigos. Aprenda sobre as localizações mais comuns e os fatores de risco para evitar lesões."
+excerpt: "Aprende a reconhecer uma fratura de stress em corredores: os locais mais comuns, os fatores de risco, o tratamento e quanto tempo até voltar a correr."
+seoTitle: "Fraturas de Stress em Corredores: Identificar e Prevenir"
+keyword: "fratura de stress corredores"
+keywords: ["stress fracture", "fratura de fadiga", "prevenir fraturas de stress"]
 date: '2026-07-04'
 category: "Lesões"
 readTime: 15

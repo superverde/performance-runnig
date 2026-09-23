@@ -1,8 +1,10 @@
 ---
-title: "Sutiãs Desportivos para Corredoras: Guia de Compra e Impacto"
+title: "Soutiens Desportivos para Corredoras: Guia de Compra e Impacto"
 date: '2026-08-06'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida, é fácil esquecer que a parte inferior do corpo é igualmente importante quanto aos pés."
+excerpt: "Um soutien desportivo de alto impacto reduz o movimento e a dor ao correr. Vê como escolher o tamanho, o tipo de suporte e os melhores modelos."
+keyword: "soutien desportivo"
+keywords: ["soutien de corrida", "top desportivo alto impacto", "corredoras"]
 readTime: 4
 ---
 

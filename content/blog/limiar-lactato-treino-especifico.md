@@ -2,7 +2,10 @@
 title: "Limiar de Lactato: O Indicador Mais Importante para Corredores de Fundo"
 date: '2026-07-04'
 category: "Fisiologia"
-excerpt: "A corrida de fundo é uma atividade que exige uma combinação de força muscular, resistência e eficiência cardiorrespiratória."
+excerpt: "O limiar de lactato é o melhor preditor do rendimento em provas de fundo. Vê o que é, como o estimar e os treinos que o fazem subir."
+seoTitle: "Limiar de Lactato: O Indicador-Chave do Corredor de Fundo"
+keyword: "limiar de lactato"
+keywords: ["treino de limiar", "limiar anaeróbio", "ritmo de limiar"]
 readTime: 4
 ---
 

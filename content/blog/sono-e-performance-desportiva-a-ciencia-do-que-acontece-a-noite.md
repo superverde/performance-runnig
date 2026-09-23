@@ -1,6 +1,9 @@
 ---
 title: "Sono e Performance Desportiva: A Ciência do Que Acontece à Noite"
-excerpt: "A descanso noturno é fundamental para a recuperação e a melhoria da performance desportiva. Aqui, exploramos os mecanismos científicos que explicam o papel do sono na síntese proteica, na regulação hormonal e na consolidação da memória motora."
+excerpt: "O sono é quando o corpo recupera: síntese de proteína, hormonas e memória motora. Vê a ciência do sono e performance desportiva e como dormir melhor."
+seoTitle: "Sono e Performance Desportiva: O Que Acontece à Noite"
+keyword: "sono e performance desportiva"
+keywords: ["sono e recuperação", "dormir e rendimento", "sono atletas"]
 date: '2026-06-29'
 category: "Recuperação"
 readTime: 12

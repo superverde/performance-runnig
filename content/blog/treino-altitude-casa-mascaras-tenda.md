@@ -2,7 +2,9 @@
 title: "Simular Altitude em Casa: Tendas Hipóxicas e Alternativas"
 date: '2026-07-12'
 category: "Treino"
-excerpt: "A corrida é um desporto que exige uma grande resistência cardiovascular e muscular."
+excerpt: "Dá para simular altitude em casa? Vê o que as tendas hipóxicas e as alternativas conseguem fazer, quanto custam e o que a ciência diz sobre os resultados."
+keyword: "simular altitude em casa"
+keywords: ["tenda hipóxica", "máscara de altitude", "treino em hipóxia"]
 readTime: 4
 ---
 

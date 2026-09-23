@@ -2,7 +2,10 @@
 title: "Durabilidade: A Métrica Que Explica Quem Não Quebra ao km 32"
 date: '2026-08-26'
 category: "Fisiologia"
-excerpt: "A pessoa que mantém o ritmo até o km 32 sem “quebrar” demonstra um elevado nível de durabilidade, medida que integra a capacidade aeróbica, a gestão do."
+excerpt: "A durabilidade na maratona é a capacidade de manter o ritmo quando a fadiga chega. Vê porque explica quem não quebra ao km 32 e como a treinar."
+seoTitle: "Durabilidade na Maratona: Quem Não Quebra ao km 32"
+keyword: "durabilidade na maratona"
+keywords: ["resistência à fadiga", "quebrar no km 32", "durability corrida"]
 readTime: 5
 faqs:
   - q: "Quais são os principais fatores que influenciam a durabilidade em uma corrida de 32 km?"

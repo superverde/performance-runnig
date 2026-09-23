@@ -2,7 +2,9 @@
 title: "Periodização por Blocos: O Sistema dos Atletas de Elite"
 date: '2026-07-09'
 category: "Treino"
-excerpt: "A periodização por blocos é um método de treino altamente eficaz utilizado por atletas de elite em diversas modalidades desportivas."
+excerpt: "A periodização por blocos concentra o treino numa qualidade de cada vez, como fazem os atletas de elite. Vê como aplicar blocos à corrida."
+keyword: "periodização por blocos"
+keywords: ["block periodization", "periodização atletas de elite", "blocos de treino"]
 readTime: 5
 ---
 

@@ -2,7 +2,10 @@
 title: "5km Sub-20 Minutos: O Plano de Treino e os Blocos Chave"
 date: '2026-09-12'
 category: "Treino"
-excerpt: "Para correr 5 km em menos de 20 min é necessário um plano de treino estruturado que combine volume moderado, intensidades específicas e recuperação adequada."
+excerpt: "Queres correr 5km sub 20 minutos? Vê o plano com os blocos-chave de séries, limiar e volume para baixar dos 20 minutos de forma sustentada."
+seoTitle: "5km Sub-20: O Plano de Treino e os Blocos-Chave"
+keyword: "5km sub 20"
+keywords: ["plano 5km 20 minutos", "5 km em 20 minutos", "treino de velocidade 5km"]
 readTime: 4
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Descidas em Trail: Técnica, Medo e Prevenção de Lesões"
-excerpt: "Aprenda a dominar as descidas em trail e reduza o risco de lesões nos joelhos. Descobre as técnicas e estratégias para relaxar os quadricípetes e evitar a dor."
+excerpt: "Aprende a técnica de descidas em trail para reduzir o risco de lesão nos joelhos. Vê como relaxar, onde pôr os pés e como perder o medo de descer."
+keyword: "descidas em trail"
+keywords: ["técnica de descida trail", "medo nas descidas", "lesões a descer"]
 date: '2026-07-02'
 category: "Trail Running"
 readTime: 15

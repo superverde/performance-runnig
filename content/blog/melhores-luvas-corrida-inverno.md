@@ -2,7 +2,9 @@
 title: "Melhores Luvas de Corrida para o Inverno"
 date: '2026-08-30'
 category: "Equipamento"
-excerpt: "A corrida no inverno pode transformar a sua experiência de treino, mas a falta de calor nas mãos pode rapidamente reduzir a sua performance."
+excerpt: "As melhores luvas de corrida para o inverno: comparamos calor, respirabilidade e ecrã tátil para não ficares com as mãos geladas a correr."
+keyword: "luvas de corrida inverno"
+keywords: ["luvas running", "luvas térmicas corrida", "luvas touch"]
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre lã merino e poliuretano no isolamento térmico?"

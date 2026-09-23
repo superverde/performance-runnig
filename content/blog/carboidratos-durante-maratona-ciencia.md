@@ -1,6 +1,8 @@
 ---
-title: "Carboidratos Durante a Maratona: Quanto e Quando Comer"
-excerpt: "A diferença entre bater o muro e não bater está muitas vezes nos carboidratos durante a prova. A ciência define com precisão quanto, quando e que tipo usar."
+title: "Hidratos de Carbono Durante a Maratona: Quanto e Quando Comer"
+excerpt: "Quantos hidratos comer na maratona e de quanto em quanto tempo? Vê as doses por hora, os géis e bebidas a usar e como evitar o muro nos últimos 10 km."
+keyword: "hidratos na maratona"
+keywords: ["quanto comer na maratona", "géis na maratona", "nutrição durante a maratona"]
 date: "2025-06-26"
 category: "Nutrição"
 readTime: 5

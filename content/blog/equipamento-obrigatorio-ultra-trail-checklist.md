@@ -2,7 +2,9 @@
 title: "Equipamento Obrigatório para Ultra Trail: Checklist Completo"
 date: '2026-07-31'
 category: "Equipamento"
-excerpt: "O desporto do trail running tem-se tornado cada vez mais popular nos últimos anos, com muitos a optar por desafios mais longos e difíceis, como o ultra."
+excerpt: "Equipamento obrigatório de ultra trail: checklist completa do que levar, porque é exigido e como escolher material leve que passe no controlo."
+keyword: "equipamento obrigatório ultra trail"
+keywords: ["material obrigatório ultra", "checklist ultra trail", "mochila ultra trail"]
 readTime: 4
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 'Periodização Anual: Como Estruturar um Ano de Treino'
-excerpt: >-
-  Os melhores corredores do mundo não treinam da mesma forma o ano inteiro. A
-  periodização — dividir o ano em fases com objetivos distintos — é a base da…
+excerpt: "Os melhores corredores não treinam igual o ano inteiro. Vê como dividir a época em fases com a periodização anual e montar o teu plano de treino do ano."
+keyword: "periodização anual"
+keywords: ["plano anual de treino", "macrociclo", "estruturar a época"]
 date: '2025-06-30'
 category: Treino
 readTime: 5

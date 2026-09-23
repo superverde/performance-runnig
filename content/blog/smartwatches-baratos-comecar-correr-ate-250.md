@@ -2,7 +2,10 @@
 title: "Smartwatches Baratos para Começar a Correr: Até 250€"
 date: '2026-07-21'
 category: "Equipamento"
-excerpt: "Os smartwatches para corrida são uma ferramenta essencial para qualquer corredor que deseja melhorar seu desempenho e alcançar seus objetivos."
+excerpt: "Um smartwatch barato para correr já mede ritmo, distância e FC com GPS. Vê os melhores modelos até 250 € e o que perdes face aos topos de gama."
+seoTitle: "Smartwatch Barato para Correr: Os Melhores até 250€"
+keyword: "smartwatch barato para correr"
+keywords: ["relógio de corrida até 250€", "smartwatch para correr", "relógio barato"]
 readTime: 4
 ---
 

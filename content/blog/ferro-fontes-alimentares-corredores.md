@@ -2,7 +2,10 @@
 title: "Ferro para Corredores: Fontes Alimentares e Como Maximizar Absorção"
 date: '2026-07-22'
 category: "Nutrição"
-excerpt: "Os corredores são conhecidos por suas exigências físicas e nutricionais altas, tornando a escolha da alimentação adequada fundamental para o desempenho e a."
+excerpt: "Ferro para corredores: vê os alimentos com mais ferro, o que ajuda e atrapalha a absorção e quando pensar em suplemento, com análises."
+seoTitle: "Ferro para Corredores: Alimentos e Como Absorver Mais"
+keyword: "ferro para corredores"
+keywords: ["alimentos ricos em ferro", "absorção de ferro", "ferro na dieta"]
 readTime: 4
 ---
 

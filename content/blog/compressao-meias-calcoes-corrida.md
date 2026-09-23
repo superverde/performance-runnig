@@ -2,7 +2,9 @@
 title: "Roupas de Compressão: Evidência Científica para Corredores"
 date: '2026-07-30'
 category: "Recuperação"
-excerpt: "Quando falamos em recuperação, é comum pensar em técnicas como alongamento, massagem, hidratação e sono."
+excerpt: "A roupa de compressão ajuda mesmo os corredores? Vê o que a evidência diz sobre compressão na prova e na recuperação, e em que casos vale a pena usar."
+keyword: "roupa de compressão"
+keywords: ["compressão e recuperação", "meias de compressão corrida", "evidência compressão"]
 readTime: 4
 ---
 

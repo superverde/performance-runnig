@@ -2,7 +2,10 @@
 title: "As 7 Métricas do Relógio GPS Que Todo o Corredor Deve Monitorizar"
 date: '2026-08-22'
 category: "Treino"
-excerpt: "Para otimizar desempenho e prevenir lesões, o corredor deve acompanhar sete métricas chave do GPS: tempo por quilómetro, frequência cardíaca, cadência, tempo."
+excerpt: "As 7 métricas do relógio GPS que contam mesmo: do ritmo à cadência e à carga. Vê o que cada uma diz e como a usar para treinar melhor."
+seoTitle: "As 7 Métricas do Relógio GPS Que Deves Seguir"
+keyword: "métricas do relógio gps"
+keywords: ["métricas de corrida", "dados do relógio", "o que ver no garmin"]
 readTime: 5
 faqs:
   - q: "Qual é a melhor zona de cadência para reduzir lesões?"

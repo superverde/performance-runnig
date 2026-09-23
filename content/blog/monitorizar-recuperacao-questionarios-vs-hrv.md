@@ -2,7 +2,9 @@
 title: "Monitorizar a Recuperação: Questionários Subjetivos vs HRV"
 date: '2026-09-05'
 category: "Recuperação"
-excerpt: "Avaliando a recuperação de corredores, a combinação de questionários subjetivos e a variabilidade da frequência cardíaca (HRV) oferece uma visão holística: a."
+excerpt: "Como monitorizar a recuperação? Comparamos questionários de bem-estar e HRV e vemos quando cada um avisa melhor que precisas de descansar."
+keyword: "monitorizar a recuperação"
+keywords: ["questionários de bem-estar", "hrv vs questionário", "recuperação do atleta"]
 readTime: 5
 faqs:
   - q: "Qual é a diferença principal entre HRV e questionários de recuperação?"

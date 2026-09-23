@@ -2,7 +2,9 @@
 title: "Melhores Livros Sobre Corrida e Treino"
 date: '2026-09-19'
 category: "Equipamento"
-excerpt: "Para quem procura aprofundar o seu conhecimento sobre equipamentos de corrida e treino, este artigo oferece uma análise crítica e fundamentada em evidências."
+excerpt: "Os melhores livros sobre corrida e treino, da fisiologia à psicologia. Uma seleção para corredores que querem perceber o porquê do que fazem."
+keyword: "livros sobre corrida"
+keywords: ["livros de treino de corrida", "melhores livros running", "livros para corredores"]
 readTime: 6
 faqs:
   - q: "Qual a diferença entre amortização neutra e controle de movimento?"

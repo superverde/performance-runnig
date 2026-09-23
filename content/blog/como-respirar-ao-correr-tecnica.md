@@ -2,7 +2,10 @@
 title: "Como Respirar ao Correr: Técnica, Ritmo Respiratório e Erros Comuns"
 date: '2026-08-14'
 category: "Biomecânica"
-excerpt: "Quando nos postavemos no início de uma corrida, é comum pensar que o principal desafio é a nossa capacidade física."
+excerpt: "Como respirar a correr sem ficar sem fôlego: vê a técnica, os ritmos respiratórios que funcionam e os erros mais comuns ao respirar durante a corrida."
+seoTitle: "Como Respirar a Correr: Técnica, Ritmo e Erros Comuns"
+keyword: "como respirar a correr"
+keywords: ["respiração na corrida", "técnica de respiração", "ritmo respiratório"]
 readTime: 4
 ---
 

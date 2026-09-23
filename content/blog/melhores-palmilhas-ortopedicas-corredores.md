@@ -2,7 +2,9 @@
 title: "Melhores Palmilhas para Corredores: Guia de Escolha"
 date: '2026-09-04'
 category: "Equipamento"
-excerpt: "Para quem procura melhorar a sua corrida, escolher a palmilha correcta pode ser a diferença entre uma passada confortável e uma passada que gera dor."
+excerpt: "Palmilhas para corredores: quando ajudam, quando não servem e como escolher entre palmilhas de série, pré-formadas ou feitas por medida."
+keyword: "palmilhas para corredores"
+keywords: ["palmilhas de corrida", "palmilhas ortopédicas corrida", "escolher palmilhas"]
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

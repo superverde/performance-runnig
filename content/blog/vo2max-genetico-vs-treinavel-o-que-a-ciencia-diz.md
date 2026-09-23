@@ -1,6 +1,8 @@
 ---
 title: "VO2max Genético vs Treinável: O Que a Ciência Diz"
-excerpt: "Entenda a contribuição genética e treinável para a capacidade aeróbica máxima. Descobre quais são os limites da melhoria com treino sistemático."
+excerpt: "VO2max genético vs treinável: vê quanto da capacidade aeróbia vem dos genes, quanto o treino consegue mudar e onde estão os limites."
+keyword: "vo2max genético vs treinável"
+keywords: ["genética e desporto", "vo2max hereditário", "treinabilidade"]
 date: '2026-07-01'
 category: "VO2max"
 readTime: 12

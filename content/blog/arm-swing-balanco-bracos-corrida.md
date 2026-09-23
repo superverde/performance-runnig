@@ -2,7 +2,10 @@
 title: "Balanço de Braços: Como os Membros Superiores Afetam a Corrida"
 date: '2026-07-26'
 category: "Biomecânica"
-excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e coordenação."
+excerpt: "O balanço de braços na corrida equilibra a rotação do tronco. Aprende a posição certa dos braços e os erros que te fazem gastar mais energia a correr."
+seoTitle: "Balanço de Braços na Corrida: Como os Braços Afetam o Ritmo"
+keyword: "balanço de braços na corrida"
+keywords: ["movimento dos braços a correr", "técnica de braços corrida", "postura dos braços"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Corrida Progressiva: Como Estruturar o Treino Mais Versátil da Corrida"
 date: '2026-07-07'
 category: "Treino"
-excerpt: "A corrida progressiva é uma técnica de treino que tem ganhado destaque nos últimos anos, especialmente entre os corredores que buscam melhorar seu desempenho."
+excerpt: "A corrida progressiva começa fácil e acaba perto do limiar. Vê como estruturar o treino progressivo, a que ritmos e quando o encaixar na semana."
+seoTitle: "Corrida Progressiva: Como Estruturar o Treino"
+keyword: "corrida progressiva"
+keywords: ["treino progressivo", "progression run", "treino de limiar"]
 readTime: 5
 ---
 

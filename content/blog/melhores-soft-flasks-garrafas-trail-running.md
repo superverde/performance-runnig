@@ -2,7 +2,9 @@
 title: "Melhores Soft Flasks para Trail Running"
 date: '2026-08-16'
 category: "Equipamento"
-excerpt: "Ao longo dos anos, o trail running tem se tornado cada vez mais popular, especialmente em Portugal, devido à sua beleza natural e desafios únicos."
+excerpt: "Soft flasks para trail running: comparamos capacidade, válvula e durabilidade dos melhores para escolheres os que encaixam no teu colete."
+keyword: "soft flasks"
+keywords: ["soft flask trail", "garrafas flexíveis", "hidratação trail"]
 readTime: 5
 ---
 

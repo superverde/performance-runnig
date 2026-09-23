@@ -2,7 +2,9 @@
 title: "Prendas para Corredores: As Melhores Ideias por Orçamento"
 date: '2026-08-01'
 category: "Equipamento"
-excerpt: "Quando se trata de equipamento para corrida, a escolha certa pode fazer toda a diferença para alcançar os teus objetivos."
+excerpt: "Prendas para corredores por orçamento: ideias úteis de equipamento, nutrição e recuperação, dos 10 € aos 200 €, para acertar no presente."
+keyword: "prendas para corredores"
+keywords: ["presentes para corredores", "ideias de presentes corrida", "presentes por orçamento"]
 readTime: 4
 ---
 

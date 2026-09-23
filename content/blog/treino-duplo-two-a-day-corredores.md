@@ -2,7 +2,9 @@
 title: "Treino Duplo: Quando e Como Treinar Duas Vezes por Dia"
 date: '2026-07-08'
 category: "Treino"
-excerpt: "O treino duplo, também conhecido como treino em dupla sessão, é uma estratégia de treino que envolve realizar duas sessões de treino por dia."
+excerpt: "O treino duplo junta duas sessões no mesmo dia. Vê quando faz sentido treinar duas vezes por dia, como dividir o volume e recuperar."
+keyword: "treino duplo"
+keywords: ["treinar duas vezes por dia", "bi-diário", "dois treinos por dia"]
 readTime: 5
 ---
 

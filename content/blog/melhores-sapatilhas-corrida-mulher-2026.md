@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas de Corrida para Mulher em 2026"
 date: '2026-09-16'
 category: "Equipamento"
-excerpt: "A procura por sapatilhas de corrida que combinem conforto, desempenho e segurança é mais do que comum – é essencial para quem quer melhorar a performance sem."
+excerpt: "As melhores sapatilhas de corrida para mulher em 2026: vê o que muda no ajuste feminino e os modelos certos para treino e competição."
+keyword: "sapatilhas de corrida mulher"
+keywords: ["melhores sapatilhas mulher 2026", "ténis de corrida mulher", "sapatilhas running femininas"]
 readTime: 4
 faqs:
   - q: "Quais são os principais benefícios de usar sapatilhas com tecnologia de controlo de movimento?"

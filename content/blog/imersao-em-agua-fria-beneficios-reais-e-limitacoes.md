@@ -1,6 +1,8 @@
 ---
 title: "Imersão em Água Fria: Benefícios Reais e Limitações"
-excerpt: "Os banhos de gelo tornaram-se um ritual de recuperação entre atletas de elite. Mas a evidência científica é mais matizada do que os testemunhos nas redes sociais sugerem — e em certos contextos, o frio pode trabalhar contra ti."
+excerpt: "A imersão em água fria reduz dores, mas pode travar ganhos de força e hipertrofia. Vê quando o banho de gelo ajuda e quando é melhor evitá-lo."
+keyword: "imersão em água fria"
+keywords: ["banho de gelo benefícios", "água fria recuperação", "banho de gelo e força"]
 date: '2026-06-30'
 category: "Recuperação"
 readTime: 6

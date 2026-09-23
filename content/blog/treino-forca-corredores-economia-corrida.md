@@ -1,6 +1,9 @@
 ---
 title: "Treino de Força para Corredores: O que Diz a Ciência em 2024"
-excerpt: "Uma meta-análise de 2024 com 31 estudos confirma: musculação pesada e pliometria melhoram a economia de corrida — mas os métodos de baixa carga não funcionam."
+excerpt: "O treino de força para corredores melhora a economia de corrida. Uma meta-análise de 2024 com 31 estudos mostra que exercícios e cargas funcionam."
+seoTitle: "Treino de Força para Corredores: O Que Diz a Ciência"
+keyword: "treino de força para corredores"
+keywords: ["força e corrida", "musculação corredores", "exercícios de força"]
 date: "2025-06-11"
 category: "Treino"
 readTime: 5

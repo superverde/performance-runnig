@@ -1,8 +1,9 @@
 ---
 title: 'Zonas de Treino e Periodização: Como Estruturar um Ano de Corrida'
-excerpt: >-
-  As zonas de treino são a linguagem da fisiologia aplicada ao desporto. Saber
-  onde estás, em cada sessão, é o ponto de partida para uma periodização…
+excerpt: "As zonas de treino são a linguagem da fisiologia. Vê como as definir e como organizar um ano de corrida por fases, do volume à intensidade."
+seoTitle: "Zonas de Treino e Periodização: Estruturar o Ano"
+keyword: "zonas de treino"
+keywords: ["zonas de treino corrida", "periodização por zonas", "plano anual"]
 date: '2025-11-08'
 category: Treino
 readTime: 4

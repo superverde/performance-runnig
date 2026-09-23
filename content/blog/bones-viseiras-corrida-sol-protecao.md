@@ -2,7 +2,10 @@
 title: "Bonés e Viseiras para Corrida ao Sol: O Que Realmente Protege"
 date: '2026-08-08'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida ao sol, é fundamental ter equipamento adequado para proteger a pele e os olhos."
+excerpt: "Boné ou viseira para correr ao sol? Comparamos proteção UV, ventilação e gestão do suor para escolheres o que te protege mesmo nos treinos de verão."
+seoTitle: "Bonés e Viseiras para Correr ao Sol: O Que Protege Mesmo"
+keyword: "bonés e viseiras para correr"
+keywords: ["boné de corrida", "viseira de corrida", "correr ao sol"]
 readTime: 4
 ---
 

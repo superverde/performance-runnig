@@ -1,6 +1,8 @@
 ---
 title: "Postura e Inclinação do Tronco na Corrida"
-excerpt: "A postura e a inclinação do tronco durante a corrida têm um impacto significativo no desempenho, no custo energético e no risco de lesão. Este artigo explora o ângulo correto de inclinação para diferentes ritmos e terrenos."
+excerpt: "A inclinação do tronco na corrida muda o custo energético e o risco de lesão. Vê o ângulo certo em plano, subida e descida e como o treinar."
+keyword: "inclinação do tronco na corrida"
+keywords: ["postura a correr", "ângulo de inclinação", "técnica de corrida"]
 date: '2026-06-29'
 category: "Biomecânica"
 readTime: 12 minutos

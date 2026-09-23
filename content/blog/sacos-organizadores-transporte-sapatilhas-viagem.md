@@ -2,7 +2,9 @@
 title: "Melhores Sacos de Transporte para Sapatilhas de Corrida"
 date: '2026-08-18'
 category: "Equipamento"
-excerpt: "Corrida não é apenas sobre velocidade, mas também sobre proteger o teu equipamento."
+excerpt: "Um saco para sapatilhas protege-as e separa o que está sujo do resto. Vê os melhores sacos de transporte para sapatilhas de corrida e o que procurar."
+keyword: "saco para sapatilhas"
+keywords: ["saco de transporte sapatilhas", "bolsa para sapatilhas", "saco de desporto"]
 readTime: 6
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

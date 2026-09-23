@@ -2,7 +2,9 @@
 title: "Caminhar em Trail Não é Fraqueza — É Estratégia"
 date: '2026-08-12'
 category: "Trail Running"
-excerpt: "O desporto do trail running ganhou crescente popularidade nos últimos anos, com muitos corredores a optar por esta modalidade como forma de se desafiar e."
+excerpt: "Caminhar em trail não é fraqueza: nas subidas íngremes poupa energia e pode ser mais rápido. Vê quando caminhar, como fazer power hiking e treinar."
+keyword: "caminhar em trail"
+keywords: ["caminhar nas subidas", "power hiking", "estratégia em trail"]
 readTime: 4
 ---
 

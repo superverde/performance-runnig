@@ -2,7 +2,10 @@
 title: "Navegação em Trail: Mapa, Bússola e GPS — Quando Usar Cada Um"
 date: '2026-08-10'
 category: "Trail Running"
-excerpt: "Navegação em Trail: Mapa, Bússola e GPS — Quando Usar Cada Um ==========================================================="
+excerpt: "Navegação em trail: vê quando usar mapa, bússola ou GPS, como preparar o percurso e o que fazer quando o relógio ou a bateria falham."
+seoTitle: "Navegação em Trail: Mapa, Bússola e GPS"
+keyword: "navegação em trail"
+keywords: ["mapa e bússola", "gps trail", "orientação em montanha"]
 readTime: 4
 ---
 

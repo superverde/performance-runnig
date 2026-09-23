@@ -2,7 +2,9 @@
 title: "Treino em Subida: Os Benefícios dos Uphill Intervals"
 date: '2026-09-22'
 category: "Treino"
-excerpt: "As subidas dão-te intensidade cardiovascular alta com menos impacto e trabalham a força específica da corrida. Como estruturá-las sem te lesionares."
+excerpt: "O treino em subida dá intensidade alta com menos impacto e trabalha força específica. Vê como fazer uphill intervals e quantas repetições."
+keyword: "treino em subida"
+keywords: ["uphill intervals", "séries em subida", "treino de subidas"]
 readTime: 7
 faqs:
   - q: "Que inclinação devo usar nos intervalos em subida?"

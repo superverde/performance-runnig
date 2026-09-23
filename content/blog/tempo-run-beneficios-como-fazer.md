@@ -2,7 +2,9 @@
 title: "Tempo Run: O Treino Que Mais Melhora o Teu Ritmo de Corrida"
 date: '2026-07-05'
 category: "Treino"
-excerpt: "O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida."
+excerpt: "O tempo run é o treino que mais melhora o ritmo sustentado. Vê a que ritmo o fazer, quanto tempo e como o encaixar na semana."
+keyword: "tempo run"
+keywords: ["treino de tempo", "ritmo de limiar", "melhorar o ritmo"]
 readTime: 4
 ---
 

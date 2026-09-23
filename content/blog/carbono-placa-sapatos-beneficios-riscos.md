@@ -1,8 +1,10 @@
 ---
-title: "Sapatos com Placa de Carbono: Vale o Investimento?"
+title: "Sapatilhas com Placa de Carbono: Vale o Investimento?"
 date: '2026-09-10'
 category: "Treino"
-excerpt: "Os sapatos com placa de carbono podem melhorar a performance em provas de longa distância, mas o investimento depende de metas, orçamento e adaptação."
+excerpt: "As sapatilhas com placa de carbono valem o investimento? Vê quanto ganhas mesmo em tempo, para que ritmos compensam e quando outras sapatilhas chegam."
+keyword: "sapatilhas com placa de carbono"
+keywords: ["placa de carbono vale a pena", "super sapatilhas", "sapatilhas de carbono"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Motivação e Adesão ao Treino a Longo Prazo: A Ciência por Detrás da Consistência"
 date: '2026-06-22'
 category: "Psicologia"
-excerpt: "A consistência é o factor mais determinante na performance a longo prazo. Descobre como a psicologia desportiva e a neurociência explicam o que nos mantém a treinar — e como usar esse conhecimento a teu favor."
+excerpt: "A consistência pesa mais do que qualquer treino. Vê o que a psicologia diz sobre a motivação para treinar e como manter o hábito durante anos."
+seoTitle: "Motivação para Treinar: A Ciência da Consistência"
+keyword: "motivação para treinar"
+keywords: ["consistência no treino", "adesão ao exercício", "psicologia da motivação"]
 readTime: 9
 ---
 

@@ -2,7 +2,9 @@
 title: "Proteína para Corredores: Quanta Precisas e Quando Consumir"
 date: '2026-07-18'
 category: "Nutrição"
-excerpt: "Quando se trata de alimentação para corredores, a proteína é frequentemente subestimada."
+excerpt: "A proteína é subestimada por muitos corredores. Vê quanta proteína precisas por dia, quando a comer e que fontes funcionam melhor para recuperar."
+keyword: "proteína para corredores"
+keywords: ["quanta proteína comer", "proteína e corrida", "proteína recuperação"]
 readTime: 4
 ---
 

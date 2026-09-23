@@ -2,7 +2,10 @@
 title: "Dieta Low-Carb para Corredores: O Que o Estudo dos Marchadores de Elite Revelou"
 date: '2026-09-07'
 category: "Nutrição"
-excerpt: "O estudo dos marchadores de elite revelou que uma dieta low‑carb pode comprometer a economia de exercício e anular ganhos de treino intensivo, exigindo."
+excerpt: "A dieta low-carb para corredores foi testada em marchadores de elite: queimaram mais gordura e ficaram mais lentos. Vê o que o estudo revelou."
+seoTitle: "Dieta Low-Carb para Corredores: O Que Diz a Ciência"
+keyword: "dieta low-carb corredores"
+keywords: ["low carb corrida", "dieta cetogénica atletas", "marchadores de elite estudo"]
 readTime: 5
 ---
 

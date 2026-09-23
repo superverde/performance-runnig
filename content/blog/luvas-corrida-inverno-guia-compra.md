@@ -2,7 +2,9 @@
 title: "Melhores Luvas de Corrida para o Inverno: Guia de Compra"
 date: '2026-08-12'
 category: "Equipamento"
-excerpt: "O inverno está a chegar e com ele, o frio e a chuva. Para os corredores, isso significa que é hora de se equipar com as melhores luvas de corrida para."
+excerpt: "As melhores luvas de corrida para o inverno: comparamos calor, respirabilidade e ecrã tátil para correr com frio e chuva sem mãos geladas."
+keyword: "luvas de corrida"
+keywords: ["luvas para correr no inverno", "luvas running", "mãos frias a correr"]
 readTime: 4
 ---
 

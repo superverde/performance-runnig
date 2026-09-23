@@ -2,7 +2,9 @@
 title: "Meias e Mangas de Compressão: Valem a Pena para Corredores?"
 date: '2026-08-24'
 category: "Equipamento"
-excerpt: "Os corredores que procuram melhorar a sua recuperação, reduzir a fadiga muscular e potencialmente prevenir lesões recorrem cada vez mais às meias e mangas de."
+excerpt: "Meias de compressão e mangas valem a pena? Vê o que a ciência diz sobre compressão na prova e na recuperação e quando compensa usar."
+keyword: "meias de compressão"
+keywords: ["mangas de compressão", "compressão gémeos", "compressão corrida"]
 readTime: 4
 faqs:
   - q: "Pergunta 1: As meias de compressão realmente reduzem o risco de lesões?"

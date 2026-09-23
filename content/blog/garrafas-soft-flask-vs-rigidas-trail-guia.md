@@ -2,7 +2,9 @@
 title: "Soft Flasks vs Garrafas Rígidas: Qual Escolher para Trail"
 date: '2026-08-14'
 category: "Equipamento"
-excerpt: "A escolha do equipamento certo é fundamental para uma corrida desportiva eficaz e segura."
+excerpt: "Soft flasks ou garrafas rígidas? Comparamos peso, conforto no colete e facilidade de encher para escolheres a melhor opção de hidratação em trail."
+keyword: "soft flasks vs garrafas"
+keywords: ["soft flask", "garrafas de trail", "hidratação trail"]
 readTime: 4
 ---
 

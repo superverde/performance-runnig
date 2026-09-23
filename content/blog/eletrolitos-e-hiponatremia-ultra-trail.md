@@ -2,7 +2,10 @@
 title: "Eletrólitos e Hiponatremia em Ultra Trail: O Que Pode Matar um Atleta Bem Hidratado"
 date: '2026-06-27'
 category: "Nutrição"
-excerpt: "A hiponatremia por exercício é uma das emergências médicas mais perigosas em ultra trail — e paradoxalmente afeta atletas que bebem demasiado. Aprende a gerir os eletrólitos em provas longas."
+excerpt: "A hiponatremia é uma emergência em ultra trail e afeta quem bebe água a mais. Aprende a gerir sódio e eletrólitos em provas longas sem correr riscos."
+seoTitle: "Hiponatremia em Ultra Trail: Eletrólitos e Riscos"
+keyword: "hiponatremia ultra trail"
+keywords: ["eletrólitos ultra trail", "sódio em ultra", "beber água a mais"]
 readTime: 9
 ---
 

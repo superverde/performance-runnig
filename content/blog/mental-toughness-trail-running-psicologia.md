@@ -1,8 +1,9 @@
 ---
 title: 'Resiliência Mental em Trail Running: O que a Ciência Descobriu'
-excerpt: >-
-  Um estudo com 307 corredores portugueses de trail confirmou: a resistência
-  mental está diretamente ligada à resiliência e esta ao rendimento. E pode ser…
+excerpt: "Um estudo com 307 corredores portugueses de trail ligou a resistência mental ao rendimento. Vê o que isso significa e como treinar a resiliência mental."
+seoTitle: "Resiliência Mental em Trail Running: O Que Diz a Ciência"
+keyword: "resiliência mental trail"
+keywords: ["resistência mental trail", "psicologia trail running", "mentalidade trail"]
 date: '2025-06-17'
 category: Psicologia
 readTime: 5

@@ -2,7 +2,9 @@
 title: "Sauna para Corredores: Adaptações ao Calor e Recuperação"
 date: '2026-07-30'
 category: "Recuperação"
-excerpt: "A sauna é um recurso comum em muitos centros de treino e equipamentos de desporto, mas a sua utilização pode variar muito de acordo com o objectivo do."
+excerpt: "A sauna para corredores pode acelerar a aclimatação ao calor. Vê o protocolo, quanto tempo ficar, os efeitos na recuperação e os cuidados."
+keyword: "sauna para corredores"
+keywords: ["sauna e calor", "sauna recuperação", "adaptação ao calor sauna"]
 readTime: 4
 ---
 

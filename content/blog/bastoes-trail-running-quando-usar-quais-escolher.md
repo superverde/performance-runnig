@@ -2,7 +2,9 @@
 title: "Bastões de Trail Running: Quando Usar e Quais Escolher"
 date: '2026-07-14'
 category: "Equipamento"
-excerpt: "Os bastões de trail running são um elemento fundamental para os corredores que se aventuram em terrenos difíceis e montanhosos."
+excerpt: "Os bastões de trail running poupam as pernas nas subidas longas. Vê quando os usar, a técnica certa e como escolher entre bastões dobráveis e fixos."
+keyword: "bastões de trail running"
+keywords: ["bastões trail", "usar bastões trail", "escolher bastões de corrida"]
 readTime: 4
 ---
 

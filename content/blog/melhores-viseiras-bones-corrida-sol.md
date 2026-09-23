@@ -2,7 +2,9 @@
 title: "Melhores Viseiras e Bonés para Correr ao Sol"
 date: '2026-08-26'
 category: "Equipamento"
-excerpt: "Correr ao sol exige proteção eficaz contra a radiação ultravioleta, ventilação adequada e conforto durante a actividade."
+excerpt: "Viseiras e bonés para correr ao sol: comparamos proteção UV, ventilação e gestão do suor para escolheres o melhor para o verão."
+keyword: "viseiras e bonés para correr"
+keywords: ["boné de corrida", "viseira running", "correr ao sol"]
 readTime: 4
 faqs:
   - q: "Qual a diferença entre uma visera e um boné?"

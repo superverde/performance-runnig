@@ -2,7 +2,9 @@
 title: "Aclimatação à Altitude para Provas de Trail de Montanha"
 date: '2026-08-17'
 category: "Trail Running"
-excerpt: "A aclimatação à altitude é uma estratégia fundamental para os trail runners que pretendem realizar provas de grande altitude."
+excerpt: "A aclimatação à altitude decide como corres acima dos 2000 m. Vê quantos dias precisas, como te adaptar antes da prova e o que fazer se não puderes."
+keyword: "aclimatação à altitude"
+keywords: ["trail em altitude", "correr em altitude", "provas de montanha altitude"]
 readTime: 4
 ---
 

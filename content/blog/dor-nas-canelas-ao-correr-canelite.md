@@ -2,7 +2,10 @@
 title: "Dor nas Canelas ao Correr (Canelite): Causas, Tratamento e Prevenção"
 date: '2026-08-14'
 category: "Lesões"
-excerpt: "A corrida é um desporto extremamente popular em todo o mundo, sendo uma ótima forma de manter a forma física e promover a saúde geral."
+excerpt: "Dor nas canelas ao correr? Vê as causas mais comuns da canelite, como a tratar, quando parar e os exercícios para voltar a correr sem dor."
+seoTitle: "Dor nas Canelas ao Correr: Causas e Tratamento"
+keyword: "dor nas canelas ao correr"
+keywords: ["canelite causas", "canelite tratamento", "shin splints corrida"]
 readTime: 4
 ---
 

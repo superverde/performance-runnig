@@ -2,7 +2,9 @@
 title: "Melhores Barras Proteicas"
 date: '2026-09-22'
 category: "Equipamento"
-excerpt: "Descobre as melhores barras proteicas para corredores, com análise detalhada, critérios de escolha e recomendações para 2026."
+excerpt: "As melhores barras proteicas para corredores em 2026: comparamos proteína, hidratos, ingredientes e sabor para escolher o snack pós-treino."
+keyword: "barras proteicas"
+keywords: ["melhores barras de proteína", "barras proteicas corredores", "snack pós-treino"]
 readTime: 4
 faqs:
   - q: "Qual a diferença entre barras proteicas para pré‑treino e pós‑treino?"

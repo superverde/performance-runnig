@@ -2,7 +2,9 @@
 title: "Melhores Apps de Treino de Corrida em 2026: Grátis vs. Pagas"
 date: '2026-07-30'
 category: "Equipamento"
-excerpt: "Os treinos de corrida tornaram-se uma parte importante da vida de muitos atletas, seja para fins de entretenimento, competitividade ou bem-estar geral."
+excerpt: "Apps de treino de corrida em 2026: comparamos as melhores grátis e pagas em planos, análise e ligação ao relógio para escolheres a certa."
+keyword: "apps de treino de corrida"
+keywords: ["melhores apps de corrida", "apps de corrida grátis", "aplicação de treino"]
 readTime: 4
 ---
 

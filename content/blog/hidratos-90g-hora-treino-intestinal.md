@@ -2,7 +2,10 @@
 title: "90g de Hidratos por Hora: Como Treinar o Intestino para Tolerar"
 date: '2026-08-24'
 category: "Nutrição"
-excerpt: "Para que o intestino aceite 90 g de hidratos por hora, é preciso treinar a tolerância com ingestão gradual durante treinos de longa duração, ajustando a."
+excerpt: "Para tolerar 90 g de hidratos por hora é preciso treinar o intestino. Vê o protocolo gradual nos longos e como evitar problemas de estômago."
+seoTitle: "90g de Hidratos por Hora: Como Treinar o Intestino"
+keyword: "90g de hidratos por hora"
+keywords: ["treinar o intestino", "hidratos por hora maratona", "gut training"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre glicose e frutose em termos de absorção intestinal?"

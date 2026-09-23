@@ -2,7 +2,10 @@
 title: "HIIT para Corredores: Como o Treino Intervalado de Alta Intensidade Melhora a Performance"
 date: '2026-06-23'
 category: "Treino"
-excerpt: "O HIIT é uma das ferramentas mais eficazes para melhorar o VO2max e a economia de corrida, mas mal aplicado pode ser contraproducente. Aprende a usar o treino intervalado de alta intensidade de forma estratégica e cientificamente sustentada."
+excerpt: "O HIIT para corredores melhora o VO2max e a economia, mas mal doseado atrasa-te. Vê como encaixar o treino intervalado de alta intensidade na semana."
+seoTitle: "HIIT para Corredores: Como Melhora a Performance"
+keyword: "hiit para corredores"
+keywords: ["treino intervalado de alta intensidade", "hiit corrida", "intervalos vo2max"]
 readTime: 7
 ---
 

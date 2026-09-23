@@ -2,7 +2,10 @@
 title: "Aclimatação ao Calor: O Protocolo de 10 Dias Que Também Melhora em Fresco"
 date: '2026-08-27'
 category: "Fisiologia"
-excerpt: "Sim, um protocolo de 10 dias de aclimatação ao calor pode melhorar o desempenho em ambientes frescos, pois estimula adaptações cardiovasculares, musculares e."
+excerpt: "Um protocolo de 10 dias de aclimatação ao calor melhora o rendimento no calor e até com fresco. Vê as sessões, a duração e os cuidados a ter."
+seoTitle: "Aclimatação ao Calor: O Protocolo de 10 Dias"
+keyword: "aclimatação ao calor"
+keywords: ["protocolo de aclimatação ao calor", "treinar no calor", "adaptação ao calor corrida"]
 readTime: 5
 faqs:
   - q: "O protocolo de 10 dias pode ser usado por corredores de elite apenas?"

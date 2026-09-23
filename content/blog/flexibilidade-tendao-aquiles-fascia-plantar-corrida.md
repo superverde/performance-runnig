@@ -2,7 +2,10 @@
 title: "Flexibilidade e Corrida: O Papel do Tendão de Aquiles e da Fáscia Plantar na Economia de Corrida"
 date: 2026-07-02
 category: "Biomecânica"
-excerpt: "A flexibilidade em corredores não é o que a maioria pensa. Descobre por que a rigidez elástica do tendão de Aquiles e da fáscia plantar é aliada da tua performance e como treiná-la."
+excerpt: "Ser flexível não é o que parece na corrida. Vê porque a rigidez elástica do tendão de Aquiles e da fáscia plantar poupa energia e como a treinar."
+seoTitle: "Tendão de Aquiles e Economia: Porque a Rigidez Ajuda"
+keyword: "rigidez do tendão de aquiles"
+keywords: ["flexibilidade corredores", "fáscia plantar e economia", "tendão e economia de corrida"]
 readTime: 8
 ---
 

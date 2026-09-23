@@ -2,7 +2,10 @@
 title: "Banho de Gelo: Quando Ajuda e Quando Rouba Adaptações ao Treino"
 date: '2026-08-31'
 category: "Recuperação"
-excerpt: "O banho de gelo ajuda a reduzir a dor e a inflamação a curto prazo, mas pode impedir a adaptação muscular se usado em excesso após treinos de força ou de."
+excerpt: "O banho de gelo reduz a dor a curto prazo, mas pode travar ganhos de força e adaptação. Vê quando ajuda, quando prejudica e como o usar no treino."
+seoTitle: "Banho de Gelo: Quando Ajuda e Quando Prejudica o Treino"
+keyword: "banho de gelo"
+keywords: ["banho de gelo e adaptações", "imersão em água fria", "banho de gelo depois de correr"]
 readTime: 4
 ---
 

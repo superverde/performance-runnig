@@ -2,7 +2,9 @@
 title: "Cintos vs. Mochilas de Hidratação: Qual Escolher"
 date: '2026-09-01'
 category: "Equipamento"
-excerpt: "Cintos vs. Mochilas de Hidratação: Qual Escolher A escolha entre cintos e mochilas de hidratação depende de fatores como volume de líquido, conforto."
+excerpt: "Cinto ou mochila de hidratação? Vê qual escolher conforme a distância, a quantidade de líquido e o material que levas, e o conforto de cada um."
+keyword: "cinto vs mochila de hidratação"
+keywords: ["cinto de hidratação", "mochila de hidratação", "hidratação a correr"]
 readTime: 5
 faqs:
   - q: "Qual é a diferença principal entre um cinto e uma mochila de hidratação?"

@@ -2,7 +2,10 @@
 title: "Cafeína no Desporto: Dose Certa, Timing Perfeito, Resultados Reais"
 date: '2026-07-21'
 category: "Nutrição"
-excerpt: "A cafeína é uma substância amplamente utilizada no desporto para melhorar a performance e aumentar a resistência."
+excerpt: "A cafeína no desporto melhora a resistência, mas a dose e o timing contam. Vê quanta tomar, quando e em que forma para render mais na corrida."
+seoTitle: "Cafeína no Desporto: Dose Certa e Timing"
+keyword: "cafeína no desporto"
+keywords: ["dose de cafeína", "quando tomar cafeína", "cafeína e rendimento"]
 readTime: 4
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: 'Plano de Treino para Meia Maratona: 12 Semanas para Cruzar a Linha de Meta'
-excerpt: >-
-  Um plano de treino estruturado para completar ou melhorar o teu tempo na meia maratona. Inclui semanas de carga, recuperação, fisiologia explicada e erros a evitar.
+excerpt: "Plano de treino para meia maratona em 12 semanas, com semanas de carga e de recuperação, a fisiologia de cada treino e os erros a evitar até à meta."
+seoTitle: "Plano de Treino para Meia Maratona: 12 Semanas"
+keyword: "plano de treino meia maratona"
+keywords: ["plano meia maratona 12 semanas", "treino meia maratona", "preparar meia maratona"]
 date: '2026-06-19'
 category: Treino
 readTime: 8

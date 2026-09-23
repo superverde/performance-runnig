@@ -2,7 +2,10 @@
 title: "Altitude e Hipóxia: Efeitos no Rendimento e Estratégias para Competir em Altura"
 date: 2026-07-04
 category: "Fisiologia"
-excerpt: "Competir ou treinar a 1500m, 2000m ou mais tem um custo fisiológico imediato e mensurável. Compreende o que a hipóxia faz ao rendimento em tempo real e como ajustar a estratégia de prova."
+excerpt: "Correr em altitude, a 1500 ou 2000 m, custa rendimento desde o primeiro minuto. Percebe o que a hipóxia faz ao corpo e como ajustar ritmo e estratégia de prova."
+seoTitle: "Correr em Altitude: Efeitos da Hipóxia e Como Competir"
+keyword: "correr em altitude"
+keywords: ["hipóxia e rendimento", "competir em altitude", "efeitos da altitude na corrida"]
 readTime: 9
 ---
 

@@ -2,7 +2,10 @@
 title: "Cintos e Porta-Dorsais de Corrida: O Que Usar em Prova"
 date: '2026-07-20'
 category: "Equipamento"
-excerpt: "Os cintos e porta-dorsais são componentes essenciais para qualquer corredor que queira alcançar seus objetivos de desempenho."
+excerpt: "Cinto porta-dorsal ou alfinetes? Vê as opções para levar o dorsal, géis e telemóvel em prova, e como escolher um cinto que não salte nem roce."
+seoTitle: "Cinto Porta-Dorsal: O Que Usar em Prova"
+keyword: "cinto porta-dorsal"
+keywords: ["porta-dorsal corrida", "cinto de corrida prova", "equipamento de prova"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Cadência na Corrida: A Regra dos 180 SPM É Mito?"
 date: '2026-07-24'
 category: "Biomecânica"
-excerpt: "Os 180 passos por minuto vêm de uma observação de 1984, não de uma lei. Qual é a tua cadência ideal e como ajustá-la sem criar uma lesão nova."
+excerpt: "A cadência de 180 spm vem de uma observação de 1984, não de uma regra. Vê qual é a tua cadência ideal, quando vale a pena subi-la e como o fazer."
+keyword: "cadência 180 spm"
+keywords: ["cadência 180 spm", "cadência ideal corrida", "passos por minuto a correr"]
 readTime: 4
 ---
 

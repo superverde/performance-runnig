@@ -2,7 +2,9 @@
 title: "Melhores Cronómetros Desportivos para Treino Intervalado"
 date: '2026-09-03'
 category: "Equipamento"
-excerpt: "Para quem procura um cronómetro que ofereça precisão absoluta nos treinos intervalados, a escolha correcta pode transformar a forma de medir a sua."
+excerpt: "Um cronómetro desportivo dá precisão nas séries sem depender do telemóvel. Vê os melhores para treino intervalado e o que procurar."
+keyword: "cronómetro desportivo"
+keywords: ["cronómetro para treino", "cronómetro intervalado", "cronómetro de pista"]
 readTime: 4
 ---
 

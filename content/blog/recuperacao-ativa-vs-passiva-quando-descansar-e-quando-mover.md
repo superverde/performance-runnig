@@ -1,6 +1,9 @@
 ---
 title: "Recuperação Ativa vs Passiva: Quando Descansar e Quando Mover"
-excerpt: "Nem sempre descansar significa parar completamente. A ciência mostra que mover-te no dia seguinte a um treino intenso pode acelerar a recuperação — se souberes quando e como fazê-lo."
+excerpt: "Na recuperação ativa vs passiva, descansar nem sempre é parar. Vê quando mover-te depois de um treino intenso acelera a recuperação."
+seoTitle: "Recuperação Ativa vs Passiva: Quando Descansar ou Mover"
+keyword: "recuperação ativa vs passiva"
+keywords: ["recuperação ativa", "dia de descanso", "descansar ou treinar"]
 date: '2026-06-29'
 category: "Recuperação"
 readTime: 6

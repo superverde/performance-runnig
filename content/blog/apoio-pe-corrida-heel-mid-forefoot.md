@@ -2,7 +2,9 @@
 title: "Apoio do Pé na Corrida: Calcanhar, Médio ou Antepé?"
 date: '2026-07-25'
 category: "Biomecânica"
-excerpt: "A corrida de longa distância é um desporto que exige grande força e resistência muscular, sendo também altamente dependente da biomecânica do atleta."
+excerpt: "Calcanhar, médio pé ou antepé? Vê o que a ciência diz sobre o apoio do pé na corrida, a relação com as lesões e se vale a pena mudar a tua pisada."
+keyword: "apoio do pé na corrida"
+keywords: ["ataque de calcanhar", "corrida com antepé", "pisada corrida"]
 readTime: 5
 ---
 

@@ -2,7 +2,9 @@
 title: "Correr com Dor: Quando Parar Mesmo"
 date: '2026-09-21'
 category: "Lesões"
-excerpt: "Correr com dor não é sinal de superação, mas de alerta: quando a dor ultrapassar 4 / 10 na escala numérica e persistir por mais de 48 h, o ideal é suspender."
+excerpt: "Correr com dor: quando é sinal de alerta e quando podes continuar. Vê a regra da dor acima de 4 em 10 e os sinais que exigem parar mesmo."
+keyword: "correr com dor"
+keywords: ["quando parar de correr", "dor a correr", "correr lesionado"]
 readTime: 4
 faqs:
   - q: "Quando devo suspender a corrida se a dor não for aguda?"

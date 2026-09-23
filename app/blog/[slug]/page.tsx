@@ -99,6 +99,31 @@ export async function generateStaticParams() {
   return [...articleSlugs, ...categorySlugs]
 }
 
+/* ── SEO ──────────────────────────────────────────────────────────
+ * Palavras-chave do artigo: primeiro as do próprio artigo (frontmatter
+ * `keyword` + `keywords`), depois a categoria e a marca. Antes de 2026-09-23
+ * todos os artigos tinham exatamente a mesma lista genérica. Nota: o Google
+ * ignora a meta keywords para ranking — o valor real está em a keyword
+ * aparecer no título, descrição, 1.º parágrafo e subtítulos (tratado no
+ * gerador). Aqui serve para o schema Article e para outros motores.
+ */
+function articleKeywords(article: { keyword?: string; keywords?: string[]; category: string }): string[] {
+  const lista = [
+    article.keyword,
+    ...(article.keywords ?? []),
+    article.category.toLowerCase(),
+    'corrida',
+    'performance running',
+  ].filter((k): k is string => Boolean(k))
+  const vistos = new Set<string>()
+  return lista.filter((k) => {
+    const chave = k.toLowerCase()
+    if (vistos.has(chave)) return false
+    vistos.add(chave)
+    return true
+  })
+}
+
 /* ── METADATA ─────────────────────────────────────────────────────── */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Category page?
@@ -124,12 +149,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
 
   return {
-    title: article.title,
+    title: article.seoTitle ?? article.title,
     description: article.excerpt,
-    keywords: ['corrida', article.category.toLowerCase(), 'treino de corrida', 'performance running', 'fisiologia corrida'],
+    keywords: articleKeywords(article),
     authors: [{ name: 'Performance Running' }],
     openGraph: {
-      title: article.title,
+      title: article.seoTitle ?? article.title,
       description: article.excerpt,
       type: 'article',
       publishedTime: article.date,
@@ -139,7 +164,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: article.title,
+      title: article.seoTitle ?? article.title,
       description: article.excerpt,
       images: [ogImage],
     },
@@ -238,7 +263,7 @@ export default async function BlogSlugPage({ params }: Props) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
     articleSection: article.category,
     inLanguage: 'pt-PT',
-    keywords: `corrida, ${article.category}, treino, performance running, corrida portugal`,
+    keywords: articleKeywords(article).join(', '),
     wordCount: article.content.replace(/<[^>]+>/g, '').split(/\s+/).length,
   }
 

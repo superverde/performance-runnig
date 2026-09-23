@@ -2,7 +2,9 @@
 title: "Taper: As Duas Semanas Que Valem 3% de Performance"
 date: '2026-09-11'
 category: "Treino"
-excerpt: "Reduzir a carga de treino nas duas semanas que precedem uma prova pode elevar a performance em torno de 3 % em competições de 5 km a maratona, segundo."
+excerpt: "O taper reduz o volume nas duas semanas antes da prova e pode valer cerca de 3% de performance. Vê quanto cortar, o que manter e os erros comuns."
+keyword: "taper"
+keywords: ["redução de treino antes da prova", "tapering", "semanas antes da maratona"]
 readTime: 6
 faqs:
   - q: "Quanto tempo devo esperar entre a última sessão de intervalo e a prova?"

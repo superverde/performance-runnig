@@ -2,7 +2,9 @@
 title: "Sapatilhas de Corrida para Pés Largos: As Melhores Opções"
 date: '2026-08-20'
 category: "Equipamento"
-excerpt: "Para quem tem os pés mais largos, encontrar sapatilhas que ofereçam conforto, estabilidade e desempenho pode parecer um desafio."
+excerpt: "Sapatilhas para pés largos: vê as marcas e versões wide com mais espaço na biqueira e como escolher o tamanho certo para correr sem dor."
+keyword: "sapatilhas para pés largos"
+keywords: ["sapatilhas largas corrida", "sapatilhas pé largo", "wide sapatilhas"]
 readTime: 5
 faqs:
   - q: "Qual é a largura recomendada para sapatilhas de pés largos?"

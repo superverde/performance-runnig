@@ -2,7 +2,10 @@
 title: "Distribuição da Proteína ao Longo do Dia: Porque 4x20g Bate a Dose Única"
 date: '2026-08-27'
 category: "Nutrição"
-excerpt: "A distribuição de 4 × 20 g de proteína ao longo do dia estimula a síntese proteica muscular de forma mais eficaz do que uma única dose de 80 g, porque mantém."
+excerpt: "A distribuição da proteína em 4 doses de 20 g estimula mais a síntese muscular do que uma dose única. Vê como repartir a proteína ao longo do dia."
+seoTitle: "Distribuição da Proteína: Porque 4x20g Bate a Dose Única"
+keyword: "distribuição da proteína"
+keywords: ["proteína ao longo do dia", "4x20g proteína", "quanta proteína por refeição"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre whey e caseína em termos de digestão?"

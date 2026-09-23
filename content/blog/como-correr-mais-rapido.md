@@ -1,7 +1,8 @@
 ---
 title: 'Como Correr Mais Rápido: 7 Estratégias com Base Científica'
-excerpt: >-
-  Treinas consistentemente mas o teu ritmo não melhora? A velocidade em corrida não é um mistério — é o resultado de trabalhar os fatores certos da forma certa.
+excerpt: "Como correr mais rápido sem treinar mais horas: 7 estratégias com base científica, do limiar à força e à técnica, para melhorares o teu ritmo."
+keyword: "correr mais rápido"
+keywords: ["como correr mais rápido", "melhorar o ritmo", "ficar mais rápido a correr"]
 date: '2026-06-21'
 category: Treino
 readTime: 7

@@ -1,8 +1,11 @@
 ---
-title: "Cortisol e Treino: O Hormona do Stress Que Controla a Recuperação"
+title: "Cortisol e Treino: A Hormona do Stress Que Controla a Recuperação"
 date: '2026-07-31'
 category: "Recuperação"
-excerpt: "Cortisol e Treino: O Hormona do Stress Que Controla a Recuperação ================================================================"
+excerpt: "O cortisol, a hormona do stress, sobe com o treino e controla parte da recuperação. Vê quando é normal, quando é excesso e como o gerir."
+seoTitle: "Cortisol e Treino: A Hormona do Stress e a Recuperação"
+keyword: "cortisol e treino"
+keywords: ["hormona do stress", "cortisol corredores", "cortisol e recuperação"]
 readTime: 4
 ---
 

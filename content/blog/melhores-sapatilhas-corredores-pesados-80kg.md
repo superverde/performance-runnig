@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas para Corredores Pesados (+80kg)"
 date: '2026-07-10'
 category: "Equipamento"
-excerpt: "Os corredores pesados (+80kg) enfrentam desafios únicos quando se trata de escolher o equipamento adequado para suas necessidades."
+excerpt: "Sapatilhas para corredores pesados, com mais de 80 kg: vê o que procurar em amortecimento e estabilidade e os melhores modelos de 2026."
+keyword: "sapatilhas corredores pesados"
+keywords: ["sapatilhas para mais de 80kg", "sapatilhas com amortecimento", "sapatilhas estáveis"]
 readTime: 4
 ---
 

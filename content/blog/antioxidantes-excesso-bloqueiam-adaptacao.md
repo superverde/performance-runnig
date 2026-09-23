@@ -2,7 +2,10 @@
 title: "Antioxidantes em Excesso Podem Bloquear as Tuas Adaptações"
 date: '2026-09-07'
 category: "Recuperação"
-excerpt: "Sim, o consumo excessivo de antioxidantes pode inibir as adaptações fisiológicas do treino de corrida."
+excerpt: "Antioxidantes em excesso podem bloquear as adaptações ao treino de corrida. Vê quando a vitamina C e E em suplemento prejudica e o que comer em vez disso."
+seoTitle: "Antioxidantes e Treino: Quando Bloqueiam as Adaptações"
+keyword: "antioxidantes e treino"
+keywords: ["suplementos antioxidantes", "vitamina c e adaptação", "antioxidantes em excesso"]
 readTime: 4
 ---
 

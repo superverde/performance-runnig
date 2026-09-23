@@ -1,8 +1,10 @@
 ---
-title: "Base Aeróbia: Por Que 80% do Teu Treino Deve Ser Fácil"
+title: "Base Aeróbia: Porque 80% do Teu Treino Deve Ser Fácil"
 date: '2026-07-06'
 category: "Treino"
-excerpt: "A corrida é um desporto que exige uma combinação perfeita de força, resistência e condicionamento cardiovascular."
+excerpt: "Base aeróbia: porque 80% do teu treino deve ser fácil. Vê como a distribuição 80/20 constrói o motor aeróbio e como controlar o ritmo fácil."
+keyword: "base aeróbia"
+keywords: ["treino fácil", "80/20 corrida", "treino polarizado"]
 readTime: 4
 ---
 

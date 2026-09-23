@@ -2,7 +2,10 @@
 title: "Treino Polarizado vs Treino ao Limiar: O Que a Evidência Mostra"
 date: '2026-09-02'
 category: "Treino"
-excerpt: "O treino polarizado, que combina 80 % de volume em zona baixa (≤ 70 % FTP) com 20 % em zona alta ( 85 % FTP), demonstra, em média, ganhos superiores de."
+excerpt: "Treino polarizado vs limiar: 80% fácil e 20% duro ou mais tempo no limiar? Vê o que mostram os estudos e qual serve melhor o teu objetivo."
+seoTitle: "Treino Polarizado vs Limiar: O Que Diz a Evidência"
+keyword: "treino polarizado vs limiar"
+keywords: ["treino polarizado", "treino ao limiar", "distribuição de intensidade"]
 readTime: 6
 faqs:
   - q: "Qual é a diferença principal entre treino polarizado e treino ao limiar?"

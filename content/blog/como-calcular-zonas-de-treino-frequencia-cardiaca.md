@@ -3,6 +3,9 @@ title: Como Calcular as Tuas Zonas de Treino por Frequência Cardíaca
 excerpt: >-
   Aprende a definir as tuas 5 zonas de treino com base na frequência cardíaca
   máxima e a usá-las para correr de forma mais inteligente.
+seoTitle: "Zonas de Frequência Cardíaca: Como Calcular as Tuas"
+keyword: "zonas de frequência cardíaca"
+keywords: ["calcular zonas de treino", "zonas de fc corrida", "treino por frequência cardíaca"]
 date: '2026-06-18'
 category: Treino
 readTime: 6

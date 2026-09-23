@@ -2,7 +2,10 @@
 title: "A Bioquímica do Muro: O Que Acontece Quando o Glicogénio Acaba"
 date: '2026-07-16'
 category: "Fisiologia"
-excerpt: "O treino de longa distância é um desafio físico e mental que exige uma combinação perfeita de força, resistência e eficiência."
+excerpt: "O muro da maratona é bioquímico: acontece quando o glicogénio acaba, perto do km 30. Vê o que se passa no corpo e como evitar bater no muro."
+seoTitle: "O Muro da Maratona: O Que Acontece Quando o Glicogénio Acaba"
+keyword: "muro da maratona"
+keywords: ["glicogénio e maratona", "bater no muro", "quilómetro 30"]
 readTime: 4
 ---
 

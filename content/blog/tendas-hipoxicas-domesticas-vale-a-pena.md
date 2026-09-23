@@ -3,6 +3,8 @@ title: "Tendas Hipóxicas Domésticas: Vale a Pena o Investimento?"
 date: '2026-09-23'
 category: "Equipamento"
 excerpt: "Descobre se as tendas hipóxicas domésticas valem o investimento e aprende a escolher o melhor modelo para a tua preparação de corrida."
+keyword: "tendas hipóxicas"
+keywords: ["tenda de altitude", "altitude em casa", "hipóxia simulada"]
 readTime: 4
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

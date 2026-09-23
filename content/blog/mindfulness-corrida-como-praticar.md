@@ -3,6 +3,8 @@ title: "Mindfulness na Corrida: Como Praticar"
 date: '2026-09-23'
 category: "Psicologia"
 excerpt: "Domina a atenção plena na corrida e transforma a tua performance mental e física com técnicas comprovadas de mindfulness."
+keyword: "mindfulness na corrida"
+keywords: ["atenção plena a correr", "foco mental corrida", "meditação e corrida"]
 readTime: 4
 faqs:
   - q: "Quais os benefícios imediatos da prática de mindfulness durante a corrida?"

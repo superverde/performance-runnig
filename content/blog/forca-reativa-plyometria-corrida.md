@@ -2,7 +2,10 @@
 title: "Pliometria para Corredores: Força Reativa e Economia de Corrida"
 date: '2026-08-31'
 category: "Treino"
-excerpt: "Apli‑cando a pliometria no regime de corredores, aumenta‑se a capacidade de gerar força rapidamente (força reativa) e reduz‑se a carga mecânica por metro, o."
+excerpt: "A pliometria para corredores treina a força reativa e melhora a economia de corrida. Vê os exercícios, a progressão e quantos saltos fazer por semana."
+seoTitle: "Pliometria para Corredores: Força Reativa e Economia"
+keyword: "pliometria para corredores"
+keywords: ["exercícios pliométricos", "força reativa", "saltos para corredores"]
 readTime: 5
 faqs:
   - q: "Quais são os principais benefícios da pliometria para corredores?"

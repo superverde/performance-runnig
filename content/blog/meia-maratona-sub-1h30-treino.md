@@ -2,7 +2,9 @@
 title: "Meia Maratona Sub-1h30: O Plano e os Treinos Chave"
 date: '2026-08-25'
 category: "Treino"
-excerpt: "Para correr a meia maratona em menos de 1 h 30 min, o plano deve combinar volume moderado, treino de velocidade e força, e um período de tapering de 10 dias."
+excerpt: "Plano para a meia maratona sub 1h30: os treinos chave, o volume semanal e os ritmos de que precisas para baixar da hora e meia nos 21 km."
+keyword: "meia maratona sub 1h30"
+keywords: ["plano meia maratona 1h30", "meia maratona em 1h30", "treinos chave meia maratona"]
 readTime: 5
 faqs:
   - q: "Qual é a diferença entre treino de tempo run e HIIT para a meia maratona?"

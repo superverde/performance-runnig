@@ -2,7 +2,9 @@
 title: "Positive vs Negative Split em Maratona: Qual é Mais Rápido?"
 date: '2026-09-06'
 category: "Treino"
-excerpt: "A resposta curta é: para a maioria dos corredores, um negative split (a segunda metade da prova mais rápida que a primeira) leva a tempos finais mais rápidos."
+excerpt: "Positive vs negative split na maratona: qual é mais rápido? Vê o que mostram os dados de milhares de provas e como planear o teu ritmo."
+keyword: "positive vs negative split"
+keywords: ["negative split maratona", "estratégia de ritmo", "split maratona"]
 readTime: 6
 faqs:
   - q: "Qual é a diferença prática entre um positive e um negative split?"

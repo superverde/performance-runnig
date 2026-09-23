@@ -2,7 +2,10 @@
 title: "Resistência Mental: Como Treinar a Tolerância ao Desconforto na Corrida"
 date: 2026-07-04
 category: "Psicologia"
-excerpt: "A tolerância ao desconforto não é um traço de personalidade fixo — é uma capacidade treinável, com protocolos específicos que qualquer corredor pode aplicar."
+excerpt: "A resistência mental treina-se como a força. Vê os protocolos para aumentar a tolerância ao desconforto e aguentar melhor a parte dura da prova."
+seoTitle: "Resistência Mental: Treinar a Tolerância ao Desconforto"
+keyword: "resistência mental"
+keywords: ["tolerância ao desconforto", "força mental corrida", "aguentar a dor"]
 readTime: 8
 ---
 

@@ -2,7 +2,9 @@
 title: "A Janela Anabólica: Nutrição nas Primeiras Horas Pós-Treino"
 date: '2026-07-20'
 category: "Nutrição"
-excerpt: "Durante o treino, nosso corpo utiliza diferentes fontes de energia para manter a atividade física."
+excerpt: "A janela anabólica é mais larga do que se pensava. Vê o que comer nas horas depois do treino, que rácio de hidratos e proteína usar e quando importa mesmo."
+keyword: "janela anabólica"
+keywords: ["comer depois do treino", "nutrição pós-treino", "proteína pós-treino"]
 readTime: 4
 ---
 

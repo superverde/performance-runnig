@@ -2,7 +2,10 @@
 title: "Como Melhorar o VO2max: Métodos Práticos e Cientificamente Validados"
 date: '2026-07-04'
 category: "Fisiologia"
-excerpt: "<div style='display:flex;justify-content:center;margin:8px 0 32px;' <video controls playsinline style='width:100%;max-width:380px;border-radius:16px;'."
+excerpt: "Como melhorar o VO2max com métodos validados: os intervalos que funcionam, quantas sessões por semana e em quanto tempo notas diferença."
+seoTitle: "Como Melhorar o VO2max: Métodos Validados"
+keyword: "como melhorar o vo2max"
+keywords: ["aumentar o vo2max", "treino vo2max", "métodos para vo2max"]
 readTime: 4
 hasVideo: true
 ---

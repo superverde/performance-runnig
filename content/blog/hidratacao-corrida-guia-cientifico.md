@@ -1,6 +1,8 @@
 ---
 title: "Hidratação na Corrida: O Guia Baseado em Evidência"
-excerpt: "Desidratar 2% do peso corporal reduz o desempenho em 10-20%. A ciência diz exatamente quando beber, quanto e o quê — e desmonta os mitos mais comuns."
+excerpt: "Hidratação na corrida: perder 2% do peso em suor já custa rendimento. Vê quando beber, quanto e o quê, com base na evidência científica."
+keyword: "hidratação na corrida"
+keywords: ["quanto beber a correr", "hidratação corredores", "beber água a correr"]
 date: "2026-06-21"
 category: "Fisiologia"
 readTime: 6

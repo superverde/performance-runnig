@@ -1,8 +1,8 @@
 ---
 title: 'Hidratação em Corrida Longa: Água Não Chega'
-excerpt: >-
-  A hiponatremia (excesso de água sem sódio) mata mais corredores de maratona do
-  que a desidratação. Aprende a estratégia de hidratação com eletrólitos…
+excerpt: "Na corrida longa, água sozinha não chega e o excesso pode causar hiponatremia. Vê como planear a hidratação com eletrólitos em treinos e provas longas."
+keyword: "hidratação em corrida longa"
+keywords: ["eletrólitos corrida longa", "hiponatremia maratona", "beber só água"]
 date: '2025-06-21'
 category: Nutrição
 readTime: 5

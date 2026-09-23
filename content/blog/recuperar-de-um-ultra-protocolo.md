@@ -2,7 +2,9 @@
 title: "Recuperar de um Ultra: Protocolo Completo"
 date: '2026-09-18'
 category: "Recuperação"
-excerpt: "Recuperar de um ultra exige uma combinação de intervenções fisiológicas, nutricionais, de sono e de monitorização de carga, todas coordenadas num plano de."
+excerpt: "Recuperar de um ultra leva semanas. Vê o protocolo de recuperação por fases, o que comer, quanto dormir e quando voltar a treinar."
+keyword: "recuperar de um ultra"
+keywords: ["recuperação pós-ultra", "depois de um ultra trail", "voltar a correr após ultra"]
 readTime: 5
 faqs:
   - q: "Qual a duração ideal da imersão em água fria após um ultra?"

@@ -1,6 +1,9 @@
 ---
 title: "Intervalos Curtos vs. Longos: Qual Desenvolve Melhor o VO2max?"
 excerpt: "Um estudo de 2025 com corredores treinados compara intervalos curtos e intensos com intervalos longos tradicionais. O resultado vai surpreender-te."
+seoTitle: "Intervalos Curtos vs Longos: Qual Melhora Mais o VO2max"
+keyword: "intervalos curtos vs longos"
+keywords: ["treino de vo2max", "séries curtas ou longas", "intervalos para vo2max"]
 date: "2025-06-25"
 category: "Treino"
 readTime: 5

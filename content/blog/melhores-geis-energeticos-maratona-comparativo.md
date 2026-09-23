@@ -2,7 +2,9 @@
 title: "Melhores Géis Energéticos para Maratona: Comparativo"
 date: '2026-07-11'
 category: "Equipamento"
-excerpt: "A corrida de longa distância, como a maratona, é um desafio significativo para os atletas."
+excerpt: "Que gel levar na maratona? Comparamos hidratos por gel, cafeína, textura e tolerância do estômago dos géis energéticos mais usados pelos corredores."
+keyword: "géis energéticos maratona"
+keywords: ["melhores géis de corrida", "géis para maratona", "comparativo de géis"]
 readTime: 4
 ---
 

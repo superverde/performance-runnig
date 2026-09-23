@@ -2,7 +2,9 @@
 title: "Síndrome de Compartimento Crónico: A Lesão Mal Diagnosticada"
 date: '2026-08-05'
 category: "Lesões"
-excerpt: "A corrida é um desporto altamente exigeante, que requer uma combinação de força, agilidade e resistência."
+excerpt: "A síndrome de compartimento crónico é muitas vezes confundida com canelite. Vê os sintomas, como é diagnosticada e as opções de tratamento para correr sem dor."
+keyword: "síndrome de compartimento crónico"
+keywords: ["dor nas pernas a correr", "síndrome compartimental", "dor na canela"]
 readTime: 4
 ---
 

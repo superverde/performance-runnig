@@ -2,7 +2,10 @@
 title: "Hidratação na Corrida: O Guia Científico para Antes, Durante e Após o Treino"
 date: '2026-06-27'
 category: "Nutrição"
-excerpt: "A desidratação de apenas 2% do peso corporal reduz a performance em corrida de forma mensurável. Aprende a estratégia de hidratação certa para cada fase do treino e da prova."
+excerpt: "Perder 2% do peso em suor já reduz a performance. Vê a estratégia de hidratação na corrida para antes, durante e depois do treino e da prova."
+seoTitle: "Hidratação na Corrida: Antes, Durante e Depois do Treino"
+keyword: "hidratação antes durante e depois"
+keywords: ["o que beber antes de correr", "beber depois do treino", "desidratação corrida"]
 readTime: 8
 ---
 

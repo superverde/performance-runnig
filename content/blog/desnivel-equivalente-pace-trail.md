@@ -2,7 +2,9 @@
 title: "Desnível Equivalente: Como Planear o Pace em Trail Running"
 date: '2026-08-16'
 category: "Trail Running"
-excerpt: "O trail running é um tipo de corrida que se desenrola em terrenos irregulares, exigindo uma combinação de força, agilidade e resistência."
+excerpt: "O desnível equivalente converte subidas em quilómetros de esforço. Vê como calcular e usar o km esforço para planear o ritmo em trail running."
+keyword: "desnível equivalente"
+keywords: ["pace em trail", "km esforço", "planear ritmo trail"]
 readTime: 4
 ---
 

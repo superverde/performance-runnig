@@ -2,7 +2,10 @@
 title: "Beta-Alanina e Bicarbonato: Os Suplementos de Alta Intensidade"
 date: '2026-07-21'
 category: "Nutrição"
-excerpt: "A corrida é uma atividade que exige uma alta intensidade física, exigindo que os atletas sejam capazes de produzir energia rapidamente para realizar."
+excerpt: "Beta-alanina e bicarbonato ajudam nos esforços de alta intensidade. Vê as doses com evidência, quando os tomar e em que provas de corrida fazem diferença."
+seoTitle: "Beta-Alanina e Bicarbonato para Alta Intensidade"
+keyword: "beta-alanina e bicarbonato"
+keywords: ["beta-alanina corrida", "bicarbonato de sódio desporto", "suplementos alta intensidade"]
 readTime: 4
 ---
 

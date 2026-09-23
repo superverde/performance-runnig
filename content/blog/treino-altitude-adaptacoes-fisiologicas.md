@@ -2,7 +2,9 @@
 title: "Treino em Altitude: As Adaptações e Quem Beneficia"
 date: '2026-06-21'
 category: "Fisiologia"
-excerpt: "O que acontece ao sangue e aos músculos em altitude, quanto tempo é preciso para adaptar e se compensa para quem não é atleta de elite."
+excerpt: "O treino em altitude aumenta glóbulos vermelhos, mas não serve a todos. Vê as adaptações, quanto tempo é preciso e quem beneficia mesmo."
+keyword: "treino em altitude"
+keywords: ["estágio em altitude", "adaptações à altitude", "altitude e performance"]
 readTime: 11
 ---
 

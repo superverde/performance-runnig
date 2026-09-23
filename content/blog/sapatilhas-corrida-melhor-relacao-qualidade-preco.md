@@ -2,7 +2,9 @@
 title: "Sapatilhas de Corrida com Melhor Relação Qualidade/Preço"
 date: '2026-07-09'
 category: "Equipamento"
-excerpt: "As sapatilhas de corrida são um componente fundamental para qualquer corredor, independentemente do nível de experiência ou do tipo de corrida que pratique."
+excerpt: "As sapatilhas de corrida com melhor relação qualidade preço: modelos que fazem quase tudo o que fazem os topos de gama, por muito menos."
+keyword: "sapatilhas qualidade preço"
+keywords: ["sapatilhas de corrida baratas", "melhor relação qualidade preço", "sapatilhas económicas"]
 readTime: 4
 ---
 

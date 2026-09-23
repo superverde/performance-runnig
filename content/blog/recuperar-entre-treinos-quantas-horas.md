@@ -2,7 +2,10 @@
 title: "Quanto Tempo Recuperar Entre Treinos de Corrida? Guia por Tipo de Sessão"
 date: '2026-08-13'
 category: "Recuperação"
-excerpt: "A recuperação é um conceito fundamental no desporto, especialmente quando se trata de corrida."
+excerpt: "Quanto tempo recuperar entre treinos depende da sessão: séries, limiar ou longo. Vê os tempos de recuperação por tipo de treino e como planear a semana."
+seoTitle: "Quanto Tempo Recuperar Entre Treinos de Corrida"
+keyword: "quanto tempo recuperar entre treinos"
+keywords: ["quanto tempo recuperar", "recuperação por tipo de treino", "descanso entre sessões"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Roupa Técnica de Verão para Corrida: Guia de Compra"
 date: '2026-09-17'
 category: "Equipamento"
-excerpt: "A equipa de roupa técnica de verão para corrida é um dos pilares que permite ao corredor manter a performance, conforto e segurança, mesmo quando a."
+excerpt: "Roupa técnica de verão para corrida: vê que tecidos, cortes e cores te mantêm fresco e seco e o que comprar para os treinos de calor."
+keyword: "roupa técnica de verão corrida"
+keywords: ["roupa de corrida verão", "t-shirt técnica", "calções de corrida"]
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre tecidos de poliéster e algodão em termos de performance de corrida?"

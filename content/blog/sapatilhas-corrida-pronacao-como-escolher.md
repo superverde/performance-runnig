@@ -2,7 +2,9 @@
 title: "Sapatilhas para Pronação: Como Escolher a Certa"
 date: '2026-09-06'
 category: "Equipamento"
-excerpt: "Para corredores que sofrem de pronação excessiva, escolher a sapatilha adequada pode ser a diferença entre evitar lesões e alcançar tempos mais competitivos."
+excerpt: "Sapatilhas para pronação: vê o que a ciência diz sobre pisada e lesões e como escolher entre modelos neutros e de estabilidade."
+keyword: "sapatilhas para pronação"
+keywords: ["escolher sapatilhas pronador", "sapatilhas estabilidade", "pronação sapatilhas"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre sapatilhas de controlo de movimento e neutras?"

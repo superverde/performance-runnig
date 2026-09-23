@@ -2,7 +2,9 @@
 title: "Frequência Cardíaca Máxima: Como Calcular e Usar no Treino"
 date: '2026-07-05'
 category: "Treino"
-excerpt: "A frequência cardíaca máxima (FCM) é um conceito fundamental no treino de corrida, pois permite aos atletas entenderem os seus limites de esforço e."
+excerpt: "A frequência cardíaca máxima é a base das zonas de treino. Vê como calcular a tua sem a fórmula 220 menos a idade e como a usar no treino."
+keyword: "frequência cardíaca máxima"
+keywords: ["como calcular fc máxima", "220 menos a idade", "fc máxima treino"]
 readTime: 4
 ---
 

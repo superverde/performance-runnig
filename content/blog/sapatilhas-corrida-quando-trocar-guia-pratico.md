@@ -2,7 +2,9 @@
 title: "Quando Trocar as Tuas Sapatilhas de Corrida: Guia Prático"
 date: '2026-08-28'
 category: "Equipamento"
-excerpt: "Quando Trocar as Tuas Sapatilhas de Corrida: Guia Prático Categoria: Equipamento"
+excerpt: "Quantos quilómetros duram as sapatilhas de corrida? Vê os sinais de desgaste, o intervalo de km habitual e quando trocar antes de te lesionares."
+keyword: "quando trocar as sapatilhas"
+keywords: ["quantos km duram as sapatilhas", "vida útil sapatilhas", "sapatilhas gastas"]
 readTime: 5
 faqs:
   - q: "Quanto tempo devo usar uma mesma par de sapatilhas antes de trocá‑las?"

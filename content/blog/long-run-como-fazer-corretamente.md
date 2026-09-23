@@ -1,7 +1,8 @@
 ---
 title: 'Long Run: Como Fazer a Corrida Longa de Forma Correta'
-excerpt: >-
-  A corrida longa semanal é o treino mais importante para qualquer corredor de fundo. Mas a maioria faz-a demasiado rápida, demasiado curta ou sem estratégia. Aqui está o guia completo.
+excerpt: "O long run é o treino mais importante do corredor de fundo, mas quase todos o fazem rápido demais. Vê o ritmo, a duração e como estruturar a corrida longa."
+keyword: "long run"
+keywords: ["corrida longa", "como fazer o longo", "treino longo"]
 date: '2026-06-22'
 category: Treino
 readTime: 7

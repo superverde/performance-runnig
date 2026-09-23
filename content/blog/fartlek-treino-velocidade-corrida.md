@@ -2,7 +2,9 @@
 title: "Fartlek: O Método Sueco Que Desenvolveu Campeões Olímpicos"
 date: '2026-07-06'
 category: "Treino"
-excerpt: "O Fartlek é um método de treino desenvolvido no início do século XX por um treinador sueco chamado Gösta Holmér."
+excerpt: "O fartlek nasceu na Suécia com Gösta Holmér. Vê como fazer treino fartlek, exemplos de sessões e porque continua a funcionar para todos os níveis."
+keyword: "fartlek"
+keywords: ["treino fartlek", "fartlek corrida", "exemplos de fartlek"]
 readTime: 4
 ---
 

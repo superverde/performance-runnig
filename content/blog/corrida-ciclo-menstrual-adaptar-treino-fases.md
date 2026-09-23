@@ -2,7 +2,9 @@
 title: "Corrida e Ciclo Menstrual: Como Adaptar o Treino às Fases"
 date: 2026-07-02
 category: "Fisiologia"
-excerpt: "As flutuações hormonais ao longo do ciclo menstrual influenciam a recuperação, o metabolismo e o risco de lesão. Descobre o que diz a ciência atual e como periodizar o treino de forma individualizada."
+excerpt: "O ciclo menstrual influencia recuperação, energia e risco de lesão. Vê o que diz a ciência e como adaptar o treino de corrida a cada fase do ciclo."
+keyword: "ciclo menstrual e corrida"
+keywords: ["treino e ciclo menstrual", "corredoras hormonas", "periodização mulheres"]
 readTime: 9
 ---
 

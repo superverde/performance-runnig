@@ -2,7 +2,10 @@
 title: "Dormir Mais Melhora a Performance: A Evidência da Extensão de Sono"
 date: '2026-08-28'
 category: "Recuperação"
-excerpt: "Sim, aumentar a duração do sono melhora a performance atlética: estudos mostram que estender a noite em até 1 h pode elevar a velocidade de corrida em 2‑3 %."
+excerpt: "Dormir mais melhora a performance: estudos de extensão de sono mostram ganhos em velocidade e humor. Vê quanto dormir e como conseguir mais horas."
+seoTitle: "Dormir Mais Melhora a Performance: A Evidência"
+keyword: "dormir mais melhora a performance"
+keywords: ["extensão de sono", "sono e rendimento", "dormir mais atletas"]
 readTime: 6
 faqs:
   - q: "Como saber se estou a dormir o suficiente?"

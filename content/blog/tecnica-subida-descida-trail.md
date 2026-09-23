@@ -1,9 +1,8 @@
 ---
 title: 'Técnica de Subida e Descida em Trail: O que Diz a Fisiologia'
-excerpt: >-
-  Subir e descer em trail running são movimentos completamente diferentes da
-  corrida em plano. A fisiologia e biomecânica de cada um determinam
-  estratégias…
+excerpt: "Subir e descer em trail são movimentos diferentes da corrida em plano. Vê a técnica de subida e descida, a fisiologia de cada uma e como as treinar."
+keyword: "técnica de subida e descida trail"
+keywords: ["subir em trail", "descer em trail", "fisiologia do trail"]
 date: '2025-06-27'
 category: Trail Running
 readTime: 5

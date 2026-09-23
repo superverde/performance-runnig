@@ -2,7 +2,10 @@
 title: "Primeira Prova de Trail: O Guia para Não Cometer os Erros Clássicos"
 date: '2026-08-20'
 category: "Trail Running"
-excerpt: "Para evitar os erros clássicos na primeira prova de trail, deve‑se planejar adequadamente a hidratação, a nutrição, o ritmo e o terreno, ajustando‑se ao."
+excerpt: "A primeira prova de trail tem erros clássicos: sair rápido, comer pouco, material errado. Vê como os evitar e chegar bem à meta."
+seoTitle: "Primeira Prova de Trail: Guia para Evitar os Erros Clássicos"
+keyword: "primeira prova de trail"
+keywords: ["primeiro trail", "dicas trail iniciantes", "erros no primeiro trail"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre treino de subida e treino de descida?"

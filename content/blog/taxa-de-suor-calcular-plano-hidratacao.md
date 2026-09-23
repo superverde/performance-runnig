@@ -2,7 +2,10 @@
 title: "Como Calcular a Tua Taxa de Suor e Construir um Plano de Hidratação"
 date: '2026-08-29'
 category: "Nutrição"
-excerpt: "A taxa de suor pode ser calculada medindo a perda de peso antes e depois de um treino, dividindo‑a pelo tempo e pela temperatura ambiental, e esta medida."
+excerpt: "Calcular a taxa de suor é simples: pesa-te antes e depois do treino. Vê como fazer as contas e montar o teu plano de hidratação."
+seoTitle: "Taxa de Suor: Como a Calcular e Planear a Hidratação"
+keyword: "taxa de suor"
+keywords: ["calcular taxa de suor", "plano de hidratação", "quanto beber por hora"]
 readTime: 5
 faqs:
   - q: "Qual é a melhor forma de medir a taxa de suor de forma prática?"

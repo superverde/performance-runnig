@@ -2,7 +2,9 @@
 title: "Análise de Corrida (Gait Analysis): Vale a Pena Fazer?"
 date: '2026-07-27'
 category: "Biomecânica"
-excerpt: "A corrida é um desporto altamente demandante, tanto física quanto mentalmente."
+excerpt: "Vale a pena fazer uma análise de corrida (gait analysis)? Vê o que a análise da passada consegue detetar, os seus limites e quando compensa mesmo pagar por ela."
+keyword: "análise de corrida"
+keywords: ["gait analysis", "análise da passada", "análise biomecânica corrida"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Melhores Power Banks Portáteis para Ultra Trail"
 date: '2026-08-19'
 category: "Equipamento"
-excerpt: "Melhores Power Banks Portáteis para Ultra Trail Para os corredores que enfrentam longas distâncias em trilhos exigentes, a autonomia de energia pode ser tão."
+excerpt: "O power bank certo para ultra trail mantém relógio, frontal e telemóvel vivos. Vê a capacidade, o peso e os melhores modelos portáteis."
+keyword: "power bank ultra trail"
+keywords: ["bateria externa trail", "power bank leve", "carregar relógio em ultra"]
 readTime: 4
 ---
 

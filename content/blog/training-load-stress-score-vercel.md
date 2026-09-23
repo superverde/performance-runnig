@@ -2,7 +2,10 @@
 title: "Training Load e ATL/CTL: Como Gerir a Carga de Treino com Dados"
 date: '2026-08-29'
 category: "Treino"
-excerpt: "Para gerir a carga de treino com dados, combina‑se o monitoramento da carga absoluta (Training Load) com a análise dos parâmetros de adaptação (ATL e CTL)."
+excerpt: "Carga de treino com dados: vê o que são ATL, CTL e TSB, como os ler no relógio ou no TrainingPeaks e como evitar picos de carga."
+seoTitle: "Carga de Treino, ATL e CTL: Como Gerir com Dados"
+keyword: "carga de treino atl ctl"
+keywords: ["training load", "atl e ctl", "gerir a carga de treino"]
 readTime: 6
 faqs:
   - q: "Como calcular o TSS de uma corrida de 10 km?"

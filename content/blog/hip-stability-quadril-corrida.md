@@ -1,8 +1,10 @@
 ---
-title: "Estabilidade do Quadril: A Base de Uma Corrida Sem Lesões"
+title: "Estabilidade da Anca: A Base de Uma Corrida Sem Lesões"
 date: '2026-08-20'
 category: "Biomecânica"
-excerpt: "A estabilidade do quadril é a pedra angular de uma corrida livre de lesões, pois controla a distribuição de cargas laterais e evita compensações que."
+excerpt: "A estabilidade da anca controla a carga no joelho e no pé. Vê porque é a base de uma corrida sem lesões e os exercícios que a melhoram."
+keyword: "estabilidade da anca"
+keywords: ["anca e lesões corrida", "força da anca", "glúteo médio"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre estabilidade do quadril e força do quadril?"

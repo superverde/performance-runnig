@@ -1,8 +1,8 @@
 ---
-title: 'Sono e Corrida: Por que Dormir Mal Destrói a tua Performance'
-excerpt: >-
-  Estudos de 2025 com corredores de endurance e ultra confirmam: a qualidade do
-  sono afeta diretamente o rendimento, a recuperação e o risco de lesão — e…
+title: "Sono e Corrida: Porque Dormir Mal Destrói a Tua Performance"
+excerpt: "Estudos de 2025 com corredores de endurance confirmam que dormir mal reduz o rendimento e aumenta o risco de lesão. Vê como o sono afeta a tua corrida."
+keyword: "sono e corrida"
+keywords: ["dormir mal e performance", "qualidade do sono", "sono corredores"]
 date: '2025-06-13'
 category: Recuperação
 readTime: 5

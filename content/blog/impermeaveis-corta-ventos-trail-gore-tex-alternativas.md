@@ -2,7 +2,10 @@
 title: "Impermeáveis e Corta-Ventos para Trail: Guia GORE-TEX vs. Alternativas"
 date: '2026-07-29'
 category: "Equipamento"
-excerpt: "Quando se trata de desporto de ultra-distância, o equipamento é fundamental para garantir a segurança e a eficiência do atleta."
+excerpt: "Que casaco impermeável para trail escolher? Comparamos GORE-TEX e alternativas em respirabilidade, peso e o que exigem os regulamentos de prova."
+seoTitle: "Casaco Impermeável para Trail: GORE-TEX ou Alternativas"
+keyword: "casaco impermeável trail"
+keywords: ["corta-vento trail", "gore-tex trail", "casaco de chuva corrida"]
 readTime: 4
 ---
 

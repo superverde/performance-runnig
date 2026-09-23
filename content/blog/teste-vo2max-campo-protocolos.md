@@ -2,7 +2,10 @@
 title: "Como Estimar o VO2max Sem Laboratório: Testes de Campo Validados"
 date: '2026-08-18'
 category: "Fisiologia"
-excerpt: "A estimativa do VO₂max sem recorrer a laboratório pode ser obtida com testes de campo validados, como o teste de Cooper (12 min), o teste de 3 km em pista e."
+excerpt: "Dá para estimar o VO2max sem laboratório com testes de campo validados, como o de Cooper. Vê como os fazer e ler os resultados."
+seoTitle: "Como Estimar o VO2max: Testes de Campo Validados"
+keyword: "estimar o vo2max"
+keywords: ["teste de vo2max sem laboratório", "teste de cooper", "calcular vo2max"]
 readTime: 4
 ---
 

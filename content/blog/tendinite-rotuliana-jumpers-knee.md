@@ -2,7 +2,10 @@
 title: "Tendinopatia Rotuliana: Diagnóstico e Protocolo de Recuperação"
 date: '2026-08-04'
 category: "Lesões"
-excerpt: "A tendinopatia rotuliana é uma das lesões mais comuns em corredores de longa distância."
+excerpt: "A tendinopatia rotuliana causa dor abaixo da rótula e é comum em corredores de fundo. Vê como é diagnosticada e o protocolo de exercícios para recuperar."
+seoTitle: "Tendinopatia Rotuliana: Diagnóstico e Recuperação"
+keyword: "tendinopatia rotuliana"
+keywords: ["dor no tendão rotuliano", "joelho do saltador", "tendinite rotuliana"]
 readTime: 4
 ---
 

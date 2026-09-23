@@ -2,7 +2,10 @@
 title: "Como Escolher Sapatilhas de Corrida: O Guia Definitivo (e a Verdade sobre a Pisada)"
 date: '2026-08-25'
 category: "Equipamento"
-excerpt: "Escolher sapatilhas de corrida resume-se a três decisões: para que tipo de treino, que largura e altura de entressola servem o teu pé, e qual das opções é mais confortável em movimento. O tipo de pisada é o critério mais sobrevalorizado de todos — e a ciência explica porquê."
+excerpt: "Como escolher sapatilhas de corrida sem cair em mitos sobre a pisada: tipo de treino, largura, amortecimento e conforto. O guia para acertar à primeira."
+seoTitle: "Como Escolher Sapatilhas de Corrida: Guia Completo"
+keyword: "como escolher sapatilhas de corrida"
+keywords: ["escolher ténis de corrida", "tipo de pisada", "guia de sapatilhas"]
 readTime: 11
 faqs:
   - q: "É mesmo preciso fazer o teste da pisada antes de comprar sapatilhas?"

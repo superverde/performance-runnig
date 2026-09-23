@@ -2,9 +2,10 @@
 title: >-
   Recuperação, Força e Prevenção de Lesões: O Triângulo Ignorado pelos
   Corredores
-excerpt: >-
-  Os treinos estão no calendário. A corrida está nos sapatos. Mas a recuperação
-  e o treino de força são frequentemente os primeiros a ser cortados quando o…
+excerpt: "A força e a prevenção de lesões andam juntas com a recuperação. Vê porque são os primeiros cortes quando falta tempo e como os manter no plano."
+seoTitle: "Força e Prevenção de Lesões: O Triângulo Esquecido"
+keyword: "força e prevenção de lesões"
+keywords: ["recuperação e lesões", "treino de força corredores", "prevenir lesões corrida"]
 date: '2025-11-22'
 category: Recuperação
 readTime: 6

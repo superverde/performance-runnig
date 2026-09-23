@@ -2,7 +2,10 @@
 title: "10km Sub-45 Minutos: Estrutura de Treino para Corredores Intermédios"
 date: '2026-09-14'
 category: "Treino"
-excerpt: "Para correr 10 km em menos de 45 minutos, a estrutura de treino deve combinar volume moderado, intervalos de velocidade, trabalho de força e recuperação."
+excerpt: "Plano para correr 10km sub 45: volume, séries e treinos de limiar que um corredor intermédio precisa para baixar dos 45 minutos em 8 a 12 semanas."
+seoTitle: "10km Sub-45: Plano de Treino para Corredores Intermédios"
+keyword: "10km sub 45"
+keywords: ["plano 10km 45 minutos", "treino 10km intermédio", "10 km em 45 minutos"]
 readTime: 5
 faqs:
   - q: "Qual a distância ideal de intervalos para 10 km?"

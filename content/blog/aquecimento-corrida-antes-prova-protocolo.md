@@ -2,7 +2,10 @@
 title: "Aquecimento Antes da Corrida: O Protocolo Ideal para Cada Distância"
 date: '2026-09-03'
 category: "Treino"
-excerpt: "O aquecimento ideal depende diretamente da distância que se pretende correr: quanto maior a prova, mais tempo de preparação e menos intensidade de exercício."
+excerpt: "O aquecimento antes de correr muda com a distância: quanto mais curta a prova, mais longo e intenso. Vê o protocolo ideal para 5 km, 10 km, meia e maratona."
+seoTitle: "Aquecimento Antes de Correr: O Protocolo Ideal por Distância"
+keyword: "aquecimento antes de correr"
+keywords: ["aquecimento corrida", "aquecimento antes da prova", "rotina de aquecimento"]
 readTime: 4
 ---
 

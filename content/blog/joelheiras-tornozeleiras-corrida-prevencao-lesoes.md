@@ -2,7 +2,9 @@
 title: "Joelheiras e Tornozeleiras para Corrida: Prevenção de Lesões"
 date: '2026-09-05'
 category: "Equipamento"
-excerpt: "A escolha das joelheiras e tornozeleiras de corrida pode ser decisiva para evitar lesões recorrentes e garantir uma evolução constante."
+excerpt: "Joelheiras e tornozeleiras para corrida previnem lesões? Vê quando ajudam, quando só mascaram o problema e como escolher o suporte certo."
+keyword: "joelheiras para corrida"
+keywords: ["tornozeleiras corrida", "joelheira corredores", "suporte de joelho"]
 readTime: 5
 faqs:
   - q: "Pergunta 1: As joelheiras e tornozeleiras são necessárias para todos os corredores?"

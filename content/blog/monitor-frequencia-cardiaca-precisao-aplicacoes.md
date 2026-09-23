@@ -2,7 +2,10 @@
 title: "Monitor de Frequência Cardíaca na Corrida: Precisão dos Sensores e Aplicações Práticas"
 date: '2026-06-30'
 category: "Treino"
-excerpt: "Os monitores de frequência cardíaca são ferramentas essenciais para o controlo da intensidade do treino — mas nem todos são igualmente precisos. Descubra como escolher e utilizar corretamente o seu sensor."
+excerpt: "Nem todos os monitores de frequência cardíaca são precisos. Vê as diferenças entre sensores, como os usar bem e o que isso muda no controlo do treino."
+seoTitle: "Monitor de Frequência Cardíaca: Precisão e Uso na Corrida"
+keyword: "monitor de frequência cardíaca"
+keywords: ["precisão sensores fc", "banda peitoral", "sensor ótico corrida"]
 readTime: 9
 ---
 

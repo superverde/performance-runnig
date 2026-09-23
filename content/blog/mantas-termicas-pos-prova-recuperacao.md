@@ -2,7 +2,9 @@
 title: "Mantas Térmicas Pós-Prova: Para Que Servem Mesmo?"
 date: '2026-08-11'
 category: "Equipamento"
-excerpt: "Porque te dão uma manta térmica no fim da prova, o que ela faz de facto pela recuperação e em que situações não vale a pena contar com ela."
+excerpt: "Mantas térmicas pós-prova: para que servem mesmo? Vê o que fazem pela temperatura depois da meta e quando são mesmo necessárias."
+keyword: "mantas térmicas pós-prova"
+keywords: ["manta térmica maratona", "hipotermia pós-prova", "manta de alumínio"]
 readTime: 4
 ---
 

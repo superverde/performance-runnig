@@ -2,7 +2,9 @@
 title: "Correr à Noite: Impacto no Sono, Rendimento e Segurança"
 date: '2026-07-10'
 category: "Treino"
-excerpt: "Correr à noite é uma prática comum entre os atletas de corrida, especialmente aqueles que seguem rotinas de treino intensivo."
+excerpt: "Correr à noite afeta o sono e o rendimento? Vê o que diz a ciência sobre treinar tarde, como dormir bem depois e as regras de segurança."
+keyword: "correr à noite"
+keywords: ["treinar à noite e sono", "segurança a correr à noite", "corrida noturna"]
 readTime: 4
 ---
 

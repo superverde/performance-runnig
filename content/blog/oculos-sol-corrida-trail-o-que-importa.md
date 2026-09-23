@@ -2,7 +2,9 @@
 title: "Óculos de Sol para Corrida e Trail: O Que Importa"
 date: '2026-07-23'
 category: "Equipamento"
-excerpt: "Quando se trata de corrida e trail, é comum que os corredores sejam atraídos por equipamentos que prometem melhorar a sua performance."
+excerpt: "Óculos de sol para corrida: vê o que importa em lentes, ajuste e ventilação para estrada e trail e porque a proteção UV é obrigatória."
+keyword: "óculos de sol para corrida"
+keywords: ["óculos de corrida", "óculos trail", "lentes desportivas"]
 readTime: 4
 ---
 

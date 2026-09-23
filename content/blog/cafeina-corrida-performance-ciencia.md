@@ -1,6 +1,9 @@
 ---
 title: "Cafeína e Corrida: O que Diz a Ciência sobre o Suplemento Mais Estudado"
 excerpt: "Meta-análises confirmam que a cafeína melhora o rendimento em corrida de resistência. A dose, o timing e a forma de tomar fazem toda a diferença."
+seoTitle: "Cafeína e Corrida: O Que Diz a Ciência"
+keyword: "cafeína e corrida"
+keywords: ["cafeína antes de correr", "cafeína desporto", "cafeína performance"]
 date: "2025-06-14"
 category: "Nutrição"
 readTime: 5

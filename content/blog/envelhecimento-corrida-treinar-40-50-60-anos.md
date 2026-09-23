@@ -2,7 +2,9 @@
 title: "Correr Depois dos 40: O Que Muda e Como Treinar"
 date: 2026-07-02
 category: "Treino"
-excerpt: "O declínio depois dos 40 é mais lento do que pensas. O que muda na fisiologia, como ajustar volume e intensidade e os erros que travam a progressão."
+excerpt: "Correr depois dos 40: o declínio é mais lento do que pensas. Vê o que muda na fisiologia e como ajustar volume, intensidade e força para continuar a evoluir."
+keyword: "correr depois dos 40"
+keywords: ["treino depois dos 40", "corredores veteranos", "masters corrida"]
 readTime: 9
 ---
 

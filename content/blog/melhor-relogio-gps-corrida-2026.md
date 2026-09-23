@@ -1,6 +1,9 @@
 ---
 title: "Melhor Relógio GPS para Corredores em 2026: Garmin Forerunner 265 vs 955"
-excerpt: "Dois relógios Garmin, duas filosofias diferentes. Qual é o certo para ti? Análise técnica baseada em precisão de GPS, autonomia e dados de treino — sem marketing."
+excerpt: "Forerunner 265 ou 955? Comparamos GPS, autonomia, mapas e dados de treino dos dois Garmin para escolheres o relógio certo, sem marketing."
+seoTitle: "Forerunner 265 vs 955: Qual o Melhor Relógio GPS em 2026"
+keyword: "forerunner 265 vs 955"
+keywords: ["garmin forerunner 265", "garmin forerunner 955", "melhor relógio gps corrida"]
 date: "2026-06-23"
 category: "Treino"
 readTime: 7

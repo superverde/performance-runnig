@@ -2,7 +2,10 @@
 title: "Alongamentos Antes e Depois de Correr: O Que a Evidência Recomenda"
 date: '2026-08-14'
 category: "Recuperação"
-excerpt: "O alongamento é uma prática comum entre corredores para ajudar a preparar os músculos para uma corrida e facilitar a recuperação após ela."
+excerpt: "Alongamentos antes e depois de correr: vê o que a evidência recomenda, quando o alongamento estático atrapalha e que rotina fazer em cada momento."
+seoTitle: "Alongamentos Antes e Depois de Correr: O Que Diz a Ciência"
+keyword: "alongamentos antes e depois de correr"
+keywords: ["alongar antes de correr", "alongamentos corrida", "alongar depois de correr"]
 readTime: 5
 ---
 

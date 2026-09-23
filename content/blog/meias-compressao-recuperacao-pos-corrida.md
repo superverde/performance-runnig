@@ -2,7 +2,9 @@
 title: "Meias de Compressão para Recuperação: O Que Diz a Ciência"
 date: '2026-08-02'
 category: "Equipamento"
-excerpt: "As meias de compressão prometem menos dores musculares e recuperação mais rápida depois de correr."
+excerpt: "As meias de compressão prometem menos dores e recuperação mais rápida. Vê o que a ciência mostra, quando usá-las depois de correr e quanto tempo."
+keyword: "meias de compressão recuperação"
+keywords: ["meias de compressão", "compressão depois de correr", "recuperação muscular"]
 readTime: 4
 ---
 

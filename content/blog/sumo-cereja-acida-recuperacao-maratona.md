@@ -2,7 +2,9 @@
 title: "Sumo de Cereja Ácida: A Evidência na Recuperação da Maratona"
 date: '2026-08-26'
 category: "Recuperação"
-excerpt: "O sumo de cereja ácida pode reduzir a dor muscular e acelerar a recuperação pós‑maratona, segundo estudos que medem marcadores inflamatórios e desempenho."
+excerpt: "O sumo de cereja ácida pode reduzir a dor muscular e acelerar a recuperação depois da maratona. Vê a dose e quando o tomar."
+keyword: "sumo de cereja ácida"
+keywords: ["cereja ácida recuperação", "tart cherry", "recuperação da maratona"]
 readTime: 6
 faqs:
   - q: "Qual a dose ideal de sumo de cereja ácida para recuperação pós‑maratona?"

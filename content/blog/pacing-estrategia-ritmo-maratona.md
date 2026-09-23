@@ -1,7 +1,8 @@
 ---
 title: 'Pacing: A Arte de Gerir o Ritmo e Não Morrer ao Km 30'
-excerpt: >-
-  O pacing é a competência que separa os corredores que fazem uma boa maratona dos que sobrevivem à segunda metade. Percebe a fisiologia e aprende a estratégia certa.
+excerpt: "O pacing separa quem faz boa maratona de quem sobrevive à segunda metade. Percebe a fisiologia de gerir o ritmo e aprende a estratégia certa para a prova."
+keyword: "pacing"
+keywords: ["gerir o ritmo", "ritmo em prova", "não quebrar no km 30"]
 date: '2026-06-22'
 category: Treino
 readTime: 6

@@ -2,7 +2,10 @@
 title: "Síndrome Gastrointestinal do Exercício: Porque é Que o Estômago Falha nos Ultras"
 date: '2026-09-05'
 category: "Nutrição"
-excerpt: "O estômago falha nos ultras porque, durante percursos de mais de 50 km, o corpo redireciona a maior parte do fluxo sanguíneo para os músculos, deixando o."
+excerpt: "Os problemas gastrointestinais são a primeira causa de desistência em ultras. Vê porque o estômago falha e como o treinar para aguentar a prova."
+seoTitle: "Problemas Gastrointestinais em Ultras: Porque Acontecem"
+keyword: "problemas gastrointestinais ultra"
+keywords: ["estômago em ultra", "síndrome gastrointestinal exercício", "náuseas em prova"]
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

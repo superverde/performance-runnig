@@ -1,6 +1,8 @@
 ---
 title: "Banho de Gelo para Corredores: O que Diz a Ciência em 2025"
-excerpt: "Uma meta-análise de 2025 com 55 estudos analisa dose, temperatura e duração óptimas para a imersão em água fria. Os resultados surpreendem."
+excerpt: "Uma meta-análise de 2025 com 55 estudos mostra a temperatura e a duração certas do banho de gelo para corredores e quando ele atrapalha a adaptação ao treino."
+keyword: "banho de gelo corredores"
+keywords: ["crioterapia corrida", "água fria recuperação", "banho de gelo benefícios"]
 date: "2025-06-15"
 category: "Recuperação"
 readTime: 5

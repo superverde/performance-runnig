@@ -2,7 +2,10 @@
 title: "Os Três Pilares da Performance: VO2max, Limiar e Economia de Corrida"
 date: '2026-08-24'
 category: "Fisiologia"
-excerpt: "A performance de corredor de longa distância depende de três pilares: VO₂max, limiar de lactato e economia de corrida."
+excerpt: "O rendimento no fundo assenta em três pilares: VO2max, limiar e economia de corrida. Vê o peso de cada um e como treinar os três."
+seoTitle: "VO2max, Limiar e Economia: Os 3 Pilares da Performance"
+keyword: "vo2max limiar e economia"
+keywords: ["pilares da performance", "determinantes da performance", "modelo de joyner"]
 readTime: 5
 faqs:
   - q: "Quais são os valores típicos de VO₂max para corredores de elite?"

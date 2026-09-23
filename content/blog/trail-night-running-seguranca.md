@@ -2,7 +2,10 @@
 title: "Night Running em Trail: Segurança, Equipamento e Preparação Mental"
 date: '2026-08-12'
 category: "Trail Running"
-excerpt: "Ao contrário do que muitos pensam, a corrida à noite não é apenas uma questão de iluminação."
+excerpt: "Correr trail à noite é mais do que levar um frontal. Vê o equipamento, as regras de segurança e a preparação mental para treinos e provas de trail noturno."
+seoTitle: "Trail Noturno: Segurança, Equipamento e Preparação"
+keyword: "trail noturno"
+keywords: ["night running", "correr à noite em trail", "frontal trail"]
 readTime: 4
 ---
 

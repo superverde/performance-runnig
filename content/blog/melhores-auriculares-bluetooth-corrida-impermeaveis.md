@@ -2,7 +2,9 @@
 title: "Melhores Auriculares Bluetooth Impermeáveis para Corrida"
 date: '2026-09-10'
 category: "Equipamento"
-excerpt: "Melhores Auriculares Bluetooth Impermeáveis para Corrida Para quem corre, a escolha de um auricular que combine qualidade sonora, conforto e resistência à."
+excerpt: "Que auriculares bluetooth para corrida escolher? Comparamos ajuste, resistência à água e ao suor, autonomia e segurança nos modelos mais usados."
+keyword: "auriculares bluetooth corrida"
+keywords: ["auriculares impermeáveis", "auriculares corrida", "fones desporto"]
 readTime: 4
 faqs:
   - q: "Pergunta 1: Os auriculares com IPX4 são suficientes para correr na chuva?"

@@ -1,8 +1,11 @@
 ---
-title: "Treinar no Calor para Maratona de Verão: Protocolo de Acclimatação"
+title: "Treinar no Calor para Maratona de Verão: Protocolo de Aclimatação"
 date: '2026-09-15'
 category: "Treino"
-excerpt: "Para correr uma maratona de verão com segurança e eficiência, a acclimatação ao calor deve começar 6‑8 semanas antes, combinando treinos diurnos em ambientes."
+excerpt: "Treinar no calor para uma maratona de verão exige aclimatação 6 a 8 semanas antes. Vê o protocolo, a hidratação e como ajustar o ritmo."
+seoTitle: "Treinar no Calor para uma Maratona de Verão"
+keyword: "treinar no calor maratona"
+keywords: ["aclimatação ao calor", "maratona de verão", "correr no calor"]
 readTime: 4
 faqs:
   - q: "Qual a temperatura mínima recomendada para iniciar a acclimatação ao calor?"

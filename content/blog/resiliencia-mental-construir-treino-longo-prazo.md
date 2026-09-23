@@ -2,7 +2,10 @@
 title: "Resiliência Mental: Como Se Constrói ao Longo de Anos de Treino"
 date: '2026-09-20'
 category: "Psicologia"
-excerpt: "A resiliência mental na corrida se constrói ao longo de anos de treino através de exposição sistemática a situações de pressão, prática deliberada de."
+excerpt: "A resiliência mental constrói-se com anos de treino e provas difíceis. Vê como a desenvolver com exposição gradual ao desconforto."
+seoTitle: "Resiliência Mental: Como Se Constrói com Anos de Treino"
+keyword: "resiliência mental"
+keywords: ["construir resiliência", "mentalidade de corredor", "psicologia do treino"]
 readTime: 5
 faqs:
   - q: "Como medir a eficácia das estratégias de foco atencional?"

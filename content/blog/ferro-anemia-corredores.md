@@ -1,8 +1,8 @@
 ---
 title: 'Ferro e Anemia em Corredores: Sintomas, Causas e Soluções'
-excerpt: >-
-  A deficiência de ferro é uma das causas mais comuns de fadiga e queda de
-  performance em corredores — especialmente mulheres. A ciência explica como…
+excerpt: "A falta de ferro é uma das causas mais comuns de fadiga em corredores, sobretudo mulheres. Vê os sintomas de anemia, as análises a pedir e como corrigir."
+keyword: "ferro e anemia em corredores"
+keywords: ["anemia corredores", "ferritina baixa", "deficiência de ferro sintomas"]
 date: '2025-06-29'
 category: Nutrição
 readTime: 5

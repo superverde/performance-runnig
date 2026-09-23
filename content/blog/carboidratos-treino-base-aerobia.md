@@ -1,8 +1,10 @@
 ---
-title: "Carboidratos no Treino de Base: Quanto, Quando e Porquê"
+title: "Hidratos de Carbono no Treino de Base: Quanto, Quando e Porquê"
 date: '2026-07-18'
 category: "Nutrição"
-excerpt: "O consumo de carboidratos durante o treino de base é uma prática amplamente difundida entre os atletas de corrida."
+excerpt: "Quantos hidratos no treino de base comer, quando e porquê? Vê como ajustar os hidratos de carbono à intensidade dos treinos fáceis sem perder adaptações."
+keyword: "hidratos no treino de base"
+keywords: ["hidratos de carbono treino", "nutrição treino aeróbio", "quanto hidratos comer"]
 readTime: 4
 ---
 

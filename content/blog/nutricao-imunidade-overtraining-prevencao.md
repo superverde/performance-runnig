@@ -2,7 +2,10 @@
 title: "Imunidade do Corredor: Como o Excesso de Treino Baixa as Defesas"
 date: '2026-08-03'
 category: "Recuperação"
-excerpt: "Quando falamos em corrida, a ideia de imunidade é frequentemente associada à resistência e à capacidade de lidar com doenças e infecções."
+excerpt: "A imunidade do corredor baixa com treino a mais e sono a menos. Vê porque ficas constipado depois de provas longas e como proteger as defesas."
+seoTitle: "Imunidade do Corredor: Quando o Treino Baixa as Defesas"
+keyword: "imunidade do corredor"
+keywords: ["defesas baixas treino", "constipações corredores", "sistema imunitário desporto"]
 readTime: 4
 ---
 

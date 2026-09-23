@@ -2,7 +2,9 @@
 title: "Melhores Relógios Multisport para Triatlo e Corrida"
 date: '2026-09-07'
 category: "Equipamento"
-excerpt: "Para quem procura o melhor relógio multisport para combinar triatlo e corrida, o que importa é a precisão, a durabilidade e a capacidade de analisar dados em."
+excerpt: "O relógio multisport para triatlo tem de medir natação, bicicleta e corrida. Vê os melhores modelos e o que importa em precisão e autonomia."
+keyword: "relógio multisport triatlo"
+keywords: ["relógio triatlo", "relógio multidesporto", "garmin triatlo"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre GPS multi‑constelação e GPS tradicional?"

@@ -1,6 +1,8 @@
 ---
 title: "Melhores Sapatilhas de Corrida 2026: Guia por Objetivo"
-excerpt: "Estrada, competição ou trail: qual a sapatilha certa para o teu objetivo. Análise por biomecânica, durabilidade e uso real, não por opinião."
+excerpt: "As melhores sapatilhas de corrida de 2026 por objetivo: estrada, competição ou trail. Vê a escolha certa conforme o teu ritmo e o teu pé."
+keyword: "melhores sapatilhas de corrida 2026"
+keywords: ["sapatilhas running 2026", "ténis de corrida", "sapatilhas por objetivo"]
 date: "2026-06-23"
 category: "Treino"
 readTime: 8

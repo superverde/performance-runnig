@@ -2,7 +2,10 @@
 title: "Velocidade Crítica: O Modelo Que Prevê o Teu Ritmo Sustentável"
 date: '2026-08-28'
 category: "Fisiologia"
-excerpt: "A velocidade crítica é a velocidade que podes manter indefinidamente sem acumular lactato, definindo o teu ritmo sustentável para provas de 5‑10 km."
+excerpt: "A velocidade crítica é o ritmo mais alto que aguentas sem entrar em fadiga rápida. Vê como a calcular com dois testes e usar no treino."
+seoTitle: "Velocidade Crítica: Prever o Teu Ritmo Sustentável"
+keyword: "velocidade crítica"
+keywords: ["critical speed", "ritmo sustentável", "modelo de velocidade crítica"]
 readTime: 6
 faqs:
   - q: "Qual é a diferença entre velocidade crítica e limiar de lactato?"

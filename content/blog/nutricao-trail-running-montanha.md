@@ -1,8 +1,9 @@
 ---
 title: 'Nutrição em Trail Running: O que Comem os Corredores de Montanha em Competição'
-excerpt: >-
-  Um estudo de 2024 analisou as práticas nutricionais de corredores de montanha
-  avançados e elite antes e durante a competição. Os resultados revelam erros…
+excerpt: "Um estudo de 2024 analisou o que comem os corredores de montanha em prova. Vê os erros mais comuns na nutrição em trail running e como os evitar."
+seoTitle: "Nutrição em Trail Running: O Que Comem em Prova"
+keyword: "nutrição em trail running"
+keywords: ["o que comer em trail", "nutrição corrida de montanha", "alimentação em prova"]
 date: '2025-06-18'
 category: Trail Running
 readTime: 5

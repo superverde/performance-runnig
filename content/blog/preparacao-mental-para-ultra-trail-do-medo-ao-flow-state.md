@@ -1,6 +1,8 @@
 ---
 title: "Preparação Mental para Ultra Trail: Do Medo ao Flow State"
-excerpt: "Desbloqueie a tua potencialidade e conquiste os desafios do ultra trail com estratégias cognitivas eficazes para gerir a dor, a desmotivação e os momentos de crise."
+excerpt: "A preparação mental para ultra trail pesa tanto como as pernas. Vê estratégias para gerir dor, desmotivação e crises e chegar ao flow."
+keyword: "preparação mental ultra trail"
+keywords: ["psicologia do ultra", "mentalidade ultra", "gerir crises em prova"]
 date: '2026-07-03'
 category: "Trail Running"
 readTime: 12 minutos

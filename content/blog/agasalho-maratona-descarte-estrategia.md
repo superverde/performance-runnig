@@ -2,7 +2,10 @@
 title: "Agasalho de Descarte na Maratona: Estratégia e Gestão do Frio"
 date: '2026-09-15'
 category: "Treino"
-excerpt: "O agasalho de descarte na maratona funciona como uma barreira de isolamento que permite ao corredor manter a temperatura central adequada enquanto evita a."
+excerpt: "O agasalho de descarte na maratona mantém-te quente na partida sem pesar depois. Vê o que usar, quando o deitar fora e como gerir o frio antes do tiro."
+seoTitle: "Agasalho de Descarte na Maratona: Como Gerir o Frio"
+keyword: "agasalho de descarte maratona"
+keywords: ["roupa para largada maratona", "frio antes da maratona", "o que vestir na maratona"]
 readTime: 5
 faqs:
   - q: "Qual a temperatura mínima para retirar a camada externa em uma maratona?"

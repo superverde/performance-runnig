@@ -17,6 +17,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { SEO_KEYWORDS } from './seo-keywords.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ARTICLES_DIR = path.join(__dirname, '..', 'content', 'blog')
@@ -931,6 +932,90 @@ const REFORCO_REFERENCIAS = `
 
 ATENÇÃO — a resposta anterior foi REJEITADA por não cumprir a regra das referências. Reescreve o artigo COMPLETO e garante que a secção final de referências cita, copiadas LETRA A LETRA da lista fornecida acima (incluindo o URL https://doi.org/...), pelo menos o número mínimo exigido. Não inventes referências, não alteres autores, títulos ou DOIs, e não cites nada que não esteja na lista.`
 
+// ─────────────────────────────────────────────────────────────────────────────
+// SEO — palavras-chave por artigo (2026-09-23, pedido do Pedro)
+// ─────────────────────────────────────────────────────────────────────────────
+// Cada tópico tem uma keyword principal e 2-3 secundárias em
+// scripts/seo-keywords.mjs. O prompt pede ao modelo que as use nos sítios que
+// o Google realmente lê (1.º parágrafo, subtítulos, META); o frontmatter
+// guarda-as para a meta keywords e o schema Article.
+//
+// IMPORTANTE — lição de 2026-09-22 (ver memória "porta de qualidade reprovou
+// tudo"): num sistema que TEM de publicar 3 artigos/dia, a verificação de
+// keywords é SÓ aviso (::warning::), nunca rejeição. Cada rejeição custa uma
+// chamada à Groq + 25 s e pode deixar o dia sem artigos.
+
+const STOPWORDS_SEO = new Set(['a', 'o', 'as', 'os', 'de', 'do', 'da', 'dos', 'das', 'e', 'em', 'no', 'na', 'nos', 'nas',
+  'um', 'uma', 'para', 'por', 'com', 'sem', 'que', 'como', 'ao', 'à', 'teu', 'tua', 'teus', 'tuas', 'vs', 'vs.', 'melhores', 'melhor', 'guia', 'o que', 'mais'])
+
+// Keyword do tópico: a do ficheiro de dados, ou — para tópicos novos que
+// ainda não lá estejam — derivada do título (parte antes dos dois pontos,
+// sem palavras vazias e sem o ano).
+function seoFor(topic) {
+  const definida = SEO_KEYWORDS[topic.slug]
+  if (definida && definida.keyword) {
+    return { keyword: definida.keyword, keywords: Array.isArray(definida.keywords) ? definida.keywords : [] }
+  }
+  const base = topic.title.split(/[:?]/)[0].toLowerCase().replace(/\b20\d\d\b/g, '')
+  const palavras = base.split(/\s+/).map(w => w.replace(/[^\p{L}\p{N}%-]/gu, '')).filter(w => w && !STOPWORDS_SEO.has(w))
+  return { keyword: palavras.slice(0, 4).join(' ') || topic.title.toLowerCase(), keywords: [] }
+}
+
+function blocoSeoPrompt(topic) {
+  const { keyword, keywords } = seoFor(topic)
+  const secundarias = keywords.length ? keywords.map(k => `"${k}"`).join(', ') : '(nenhuma definida — usa sinónimos naturais)'
+  return `SEO — PALAVRAS-CHAVE (o artigo tem de ser encontrado no Google por quem pesquisa isto):
+- Palavra-chave principal: "${keyword}"
+- Secundárias: ${secundarias}
+- Usa a principal (ou uma forma gramatical natural dela — plural, com artigo, conjugada) na PRIMEIRA frase do artigo, em pelo menos UM subtítulo ##, na linha META e mais 1-2 vezes ao longo do texto.
+- Usa cada secundária pelo menos uma vez onde encaixar naturalmente, de preferência num subtítulo ou numa pergunta das Perguntas Frequentes.
+- Escreve as perguntas das Perguntas Frequentes como as pessoas as escreveriam no Google.
+- NUNCA forces a keyword a ponto de a frase soar artificial, nem a repitas mais de 5-6 vezes no total. Português de Portugal correto está acima da keyword.`
+}
+
+// Normaliza para comparar sem acentos nem maiúsculas.
+function normSeo(v) {
+  return deaccent(String(v)).toLowerCase()
+}
+
+// A keyword "aparece" se estiver lá tal e qual, ou se todas as palavras com
+// mais de 3 letras estiverem presentes (apanha plurais/ordem diferente sem
+// falsos negativos demasiado rígidos). Tolerante de propósito — é só aviso.
+function contemKeyword(texto, keyword) {
+  const t = normSeo(texto)
+  const k = normSeo(keyword)
+  if (t.includes(k)) return true
+  const palavras = k.split(/\s+/).filter(w => w.length > 3)
+  if (!palavras.length) return false
+  return palavras.every(w => t.includes(w.replace(/s$/, '')))
+}
+
+function avisosSeo(content, topic) {
+  const { keyword } = seoFor(topic)
+  const corpo = stripMetaLine(content)
+  const primeiroParagrafo = corpo.split(/\n\s*\n/).find(p => p.trim() && !p.trim().startsWith('#')) || ''
+  const subtitulos = (corpo.match(/^##\s.+$/gm) || []).join('\n')
+  const falhas = []
+  if (!contemKeyword(primeiroParagrafo, keyword)) falhas.push('1.º parágrafo')
+  if (!contemKeyword(subtitulos, keyword)) falhas.push('subtítulos')
+  if (!contemKeyword(extractExcerpt(content), keyword)) falhas.push('meta description')
+  if (falhas.length) {
+    console.log(`::warning::SEO — "${topic.title}": keyword "${keyword}" não aparece em: ${falhas.join(', ')}. Publicado na mesma (não bloqueia).`)
+  }
+  return falhas
+}
+
+function yamlStr(v) {
+  return `"${String(v).replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`
+}
+
+function yamlSeo(topic) {
+  const { keyword, keywords } = seoFor(topic)
+  const linhas = [`keyword: ${yamlStr(keyword)}`]
+  if (keywords.length) linhas.push(`keywords: [${keywords.map(yamlStr).join(', ')}]`)
+  return linhas.join('\n') + '\n'
+}
+
 function buildTechnicalPrompt(topic) {
   const refs = REFERENCE_BANK[topic.category] || REFERENCE_BANK['Treino']
   const refsList = refs.map((r, i) => `${i + 1}. ${r}`).join('\n')
@@ -939,6 +1024,8 @@ function buildTechnicalPrompt(topic) {
 
 Tópico: "${topic.title}"
 Categoria: ${topic.category}
+
+${blocoSeoPrompt(topic)}
 
 REGRAS OBRIGATÓRIAS:
 1. Tom profissional, técnico mas acessível — como um treinador de elite a explicar ciência
@@ -967,7 +1054,7 @@ ${refsList}
 ${REGRAS_ANTI_INVENCAO}
 
 Começa a resposta com UMA linha exatamente neste formato, antes de qualquer outra coisa:
-META: <descrição para o Google, 120 a 158 caracteres, frase completa e apelativa que diga o que o leitor ganha ao ler — NÃO é o primeiro parágrafo copiado, NÃO acaba em reticências>
+META: <descrição para o Google, 120 a 158 caracteres, frase completa e apelativa que inclua a palavra-chave principal e diga o que o leitor ganha ao ler — NÃO é o primeiro parágrafo copiado, NÃO acaba em reticências>
 
 Depois dessa linha, responde com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências Científicas, por esta ordem).
 O PRIMEIRO parágrafo (sem cabeçalho) tem de responder de forma direta e objetiva à pergunta implícita no título, em 1-2 frases claras, antes de desenvolver — isto é importante para o artigo poder ser citado por assistentes de IA (ChatGPT, Gemini, Copilot) que extraem respostas diretas. Depois desse parágrafo de abertura, continua com mais 1-2 parágrafos de contexto, e só depois usa ## para as secções principais.`
@@ -999,6 +1086,8 @@ function buildCommercialPrompt(topic, relatedSlugs) {
 Título: "${topic.title}"
 Categoria: Equipamento
 
+${blocoSeoPrompt(topic)}
+
 REGRAS OBRIGATÓRIAS:
 1. Tom de especialista/reviewer de equipamento de alta performance — nunca genérico ou tipo "loja online"
 2. Português de Portugal — nunca brasileirismos
@@ -1028,7 +1117,7 @@ ${refsList}` : 'NÃO uses referências científicas neste artigo — ver regra 7
 ${REGRAS_ANTI_INVENCAO}
 
 Começa a resposta com UMA linha exatamente neste formato, antes de qualquer outra coisa:
-META: <descrição para o Google, 120 a 158 caracteres, frase completa e apelativa que diga o que o leitor ganha ao ler — NÃO é o primeiro parágrafo copiado, NÃO acaba em reticências>
+META: <descrição para o Google, 120 a 158 caracteres, frase completa e apelativa que inclua a palavra-chave principal e diga o que o leitor ganha ao ler — NÃO é o primeiro parágrafo copiado, NÃO acaba em reticências>
 
 Depois dessa linha, responde com o conteúdo markdown do artigo (sem frontmatter, começa diretamente com o corpo, incluindo as secções finais de Perguntas Frequentes e Referências, por esta ordem).
 O parágrafo de introdução (sem cabeçalho) tem de responder de forma direta ao que o leitor procura no título em 1-2 frases claras antes de desenvolver — importante para o artigo poder ser citado por assistentes de IA.`
@@ -1264,6 +1353,9 @@ function validarArtigo(content, topic) {
   const excerpt = extractExcerpt(content)
   if (!excerpt || excerpt.length < 80) problemas.push('sem meta description utilizável')
 
+  // SEO: só avisa, nunca bloqueia (ver comentário em blocoSeoPrompt).
+  avisosSeo(content, topic)
+
   return problemas
 }
 
@@ -1275,7 +1367,7 @@ date: '${date}'
 category: "${topic.category}"
 excerpt: "${extractExcerpt(content)}"
 readTime: ${estimateReadTime(content)}
-${yamlFaqs(faqs)}---
+${yamlSeo(topic)}${yamlFaqs(faqs)}---
 
 ${contentWithoutFaqs.trim()}
 `

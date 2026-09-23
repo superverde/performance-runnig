@@ -2,7 +2,10 @@
 title: "Respiração na Corrida: Ritmo, Técnica e Impacto na Performance"
 date: '2026-07-17'
 category: "Fisiologia"
-excerpt: "A corrida é um desporto que exige um alto nível de condicionamento físico, especialmente em relação à respiração."
+excerpt: "Respiração na corrida: vê que ritmo respiratório usar em cada intensidade, como respirar pelo nariz ou pela boca e o impacto na performance."
+seoTitle: "Respiração na Corrida: Ritmo, Técnica e Performance"
+keyword: "respiração na corrida"
+keywords: ["ritmo respiratório", "técnica de respiração corrida", "respirar a correr"]
 readTime: 5
 ---
 

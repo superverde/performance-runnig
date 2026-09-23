@@ -2,7 +2,9 @@
 title: "Sesta para Corredores: Duração, Timing e Efeito no Treino"
 date: '2026-08-25'
 category: "Recuperação"
-excerpt: "Uma sesta de 20‑30 minutos, tomada 2‑4 h após o treino, pode reduzir a sensação de fadiga muscular e acelerar a recuperação, mas não substitui a noite de."
+excerpt: "Uma sesta para corredores de 20 a 30 minutos reduz a fadiga e ajuda a recuperar. Vê quando a fazer, quanto tempo e quando atrapalha a noite."
+keyword: "sesta para corredores"
+keywords: ["sesta e treino", "dormir a sesta", "sono e recuperação"]
 readTime: 5
 faqs:
   - q: "Qual a duração ideal de uma sesta para corredores?"

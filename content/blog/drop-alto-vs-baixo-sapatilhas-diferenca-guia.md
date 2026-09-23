@@ -2,7 +2,9 @@
 title: "Drop Alto vs. Baixo nas Sapatilhas: O Que Muda no Teu Treino"
 date: '2026-08-21'
 category: "Equipamento"
-excerpt: "Drop Alto vs. Baixo nas Sapatilhas: O Que Muda no Teu Treino A diferença de drop entre a ponta e o calcanhar de uma sapatilha pode alterar a biomecânica do."
+excerpt: "Drop alto vs baixo nas sapatilhas: vê o que muda na biomecânica, na carga no tendão de Aquiles e nos joelhos e como fazer a transição."
+keyword: "drop alto vs baixo"
+keywords: ["drop das sapatilhas", "sapatilhas drop baixo", "drop e lesões"]
 readTime: 5
 faqs:
   - q: "Qual é a diferença entre drop alto e drop baixo?"

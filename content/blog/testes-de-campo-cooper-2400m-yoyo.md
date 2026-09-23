@@ -2,7 +2,10 @@
 title: "Testes de Campo para Corredores: Cooper, 2400m e Yo-Yo Explicados"
 date: '2026-07-01'
 category: "Treino"
-excerpt: "Sem laboratório, sem lactímetro: descubra como os testes de campo permitem estimar o VO2max, calibrar zonas de treino e acompanhar a evolução com rigor científico."
+excerpt: "Sem laboratório nem lactímetro: vê como os testes de campo estimam o VO2max, calibram as zonas de treino e medem a tua evolução com rigor."
+seoTitle: "Testes de Campo: Cooper, 2400m e Yo-Yo Explicados"
+keyword: "testes de campo"
+keywords: ["teste de cooper", "teste 2400m", "yo-yo test"]
 readTime: 8
 ---
 

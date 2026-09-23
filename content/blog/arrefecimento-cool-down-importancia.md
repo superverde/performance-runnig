@@ -2,7 +2,9 @@
 title: "Cool Down: O Que Acontece se Parares a Correr de Repente"
 date: '2026-08-16'
 category: "Recuperação"
-excerpt: "Correr é uma atividade física intensa que exige um grande esforço muscular, cardíaco e respiratório."
+excerpt: "Parar de correr de repente pode deixar-te tonto. Vê o que acontece ao corpo sem cool down e como fazer um arrefecimento curto e útil depois do treino."
+keyword: "cool down"
+keywords: ["arrefecimento depois de correr", "retorno à calma", "parar de correr de repente"]
 readTime: 4
 ---
 

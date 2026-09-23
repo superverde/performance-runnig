@@ -1,8 +1,11 @@
 ---
-title: "Fadiga Central vs Periférica: Por Que o Cérebro Para Antes dos Músculos"
+title: "Fadiga Central vs Periférica: Porque o Cérebro Para Antes dos Músculos"
 date: '2026-07-17'
 category: "Fisiologia"
-excerpt: "A corrida de longa distância é um desporto que exige uma combinação de força, resistência e estratégia."
+excerpt: "Porque é que o cérebro trava antes dos músculos? Vê a diferença entre fadiga central e periférica e o que isso muda na forma como treinas e competes."
+seoTitle: "Fadiga Central vs Periférica: Porque o Cérebro Trava"
+keyword: "fadiga central vs periférica"
+keywords: ["fadiga central", "cérebro e fadiga", "teoria do governador central"]
 readTime: 4
 ---
 

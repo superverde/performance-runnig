@@ -2,7 +2,9 @@
 title: "Correr de Manhã em Jejum: O Que a Ciência Realmente Diz"
 date: '2026-07-10'
 category: "Treino"
-excerpt: "O treino de corrida de manhã em jejum é uma prática comum entre corredores de elite e amadores."
+excerpt: "Correr de manhã em jejum queima mais gordura, mas nem sempre compensa. Vê o que a ciência diz, que treinos aguentam jejum e quando deves comer antes."
+keyword: "correr de manhã em jejum"
+keywords: ["treino em jejum de manhã", "correr sem tomar pequeno-almoço", "jejum e corrida"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "DOMS: O Que Realmente Reduz as Dores Musculares Tardias"
 date: '2026-09-02'
 category: "Recuperação"
-excerpt: "O que realmente reduz as dores musculares tardias são estratégias de recuperação ativa, mobilização, alimentação rica em anti‑inflamatórios naturais e sono."
+excerpt: "O que reduz as DOMS, as dores musculares tardias? Vê o que funciona mesmo, o que é placebo e quando voltar a treinar com os músculos doridos."
+keyword: "doms"
+keywords: ["dores musculares tardias", "dor muscular depois de correr", "reduzir doms"]
 readTime: 4
 faqs:
   - q: "Qual é a diferença entre repouso total e recuperação ativa na DOMS?"

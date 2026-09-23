@@ -2,7 +2,9 @@
 title: "Postura na Corrida: Tronco, Ombros e Braços Corretos"
 date: '2026-07-25'
 category: "Biomecânica"
-excerpt: "A postura na corrida é um aspecto fundamental para os corredores que buscam melhorar a sua performance e reduzir o risco de lesões."
+excerpt: "Postura na corrida: vê a posição certa do tronco, ombros e braços, os erros que te fazem gastar energia e exercícios para os corrigir."
+keyword: "postura na corrida"
+keywords: ["técnica de corrida", "posição dos braços", "postura correta a correr"]
 readTime: 4
 ---
 

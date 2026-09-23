@@ -2,7 +2,9 @@
 title: "Material Obrigatório em Trail: O Que Levar e Por Quê"
 date: '2026-08-11'
 category: "Trail Running"
-excerpt: "Ao enfrentar uma corrida de trail, é fundamental estar preparado para as condições que se apresentam ao longo da competição."
+excerpt: "Material obrigatório em trail: vê o que levar, porque é exigido pelas provas e como escolher material leve que não falhe quando precisas dele."
+keyword: "material obrigatório trail"
+keywords: ["o que levar em trail", "equipamento trail", "mochila trail"]
 readTime: 4
 ---
 

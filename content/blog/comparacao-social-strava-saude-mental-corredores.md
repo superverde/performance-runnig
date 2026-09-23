@@ -2,7 +2,10 @@
 title: "Comparação Social no Strava: Impacto na Relação com a Corrida"
 date: '2026-09-19'
 category: "Psicologia"
-excerpt: "A comparação social no Strava pode alterar a motivação, o bem‑estar e o desempenho dos corredores, dependendo de como a informação é interpretada e."
+excerpt: "A comparação social no Strava pode motivar ou desgastar. Vê como afeta a motivação e o prazer de correr e como usar a app sem pressão."
+seoTitle: "Comparação Social no Strava: O Impacto na Tua Corrida"
+keyword: "comparação social no strava"
+keywords: ["strava e motivação", "redes sociais e corrida", "pressão do strava"]
 readTime: 5
 faqs:
   - q: "Pergunta 1 completa, terminada em ponto de interrogação?"

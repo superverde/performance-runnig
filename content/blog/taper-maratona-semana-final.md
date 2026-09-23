@@ -1,7 +1,9 @@
 ---
 title: 'Taper para Maratona: A Ciência por Detrás da Semana Mais Difícil do Treino'
-excerpt: >-
-  O taper é a fase mais incompreendida da preparação para a maratona. Percebe o que acontece no teu corpo, porque as pernas ficam pesadas e como chegar ao dia de prova no estado ideal.
+excerpt: "O taper para maratona é a fase mais incompreendida. Vê o que acontece no corpo, porque as pernas ficam pesadas e como chegar ao dia da prova no ponto certo."
+seoTitle: "Taper para a Maratona: A Ciência da Última Fase"
+keyword: "taper para maratona"
+keywords: ["tapering maratona", "pernas pesadas no taper", "semana antes da maratona"]
 date: '2026-06-20'
 category: Treino
 readTime: 6

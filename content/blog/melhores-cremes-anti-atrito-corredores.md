@@ -2,7 +2,9 @@
 title: "Melhores Cremes Anti-Atrito para Corredores (Anti-Bolhas)"
 date: '2026-09-08'
 category: "Equipamento"
-excerpt: "Para quem corre, a prevenção das bolhas de atrito não é apenas uma questão de conforto, mas de desempenho e longevidade."
+excerpt: "Cremes anti-atrito previnem bolhas e assaduras em provas longas. Comparamos os melhores para corredores, onde aplicar e quanto duram."
+keyword: "cremes anti-atrito"
+keywords: ["anti-bolhas", "creme para assaduras", "bálsamo anti-fricção"]
 readTime: 4
 ---
 

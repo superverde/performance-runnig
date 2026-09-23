@@ -1,8 +1,10 @@
 ---
-title: "Melhores Fones para Correr: Osso vs. In-Ear"
+title: "Melhores Auriculares para Correr: Condução Óssea vs In-Ear"
 date: '2026-07-15'
 category: "Equipamento"
-excerpt: "Para os corredores, a escolha do equipamento certo é fundamental para evitar lesões e otimizar o desempenho."
+excerpt: "Condução óssea ou in-ear? Comparamos segurança, som, conforto e resistência ao suor para escolheres os auriculares certos para correr."
+keyword: "auriculares para correr"
+keywords: ["condução óssea vs in-ear", "auriculares de desporto", "shokz"]
 readTime: 4
 ---
 

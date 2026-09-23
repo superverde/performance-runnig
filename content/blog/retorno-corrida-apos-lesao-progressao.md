@@ -2,7 +2,9 @@
 title: "Retorno ao Treino Após Lesão: Protocolo Baseado em Evidência"
 date: '2026-08-06'
 category: "Lesões"
-excerpt: "A lesão é um desafio comum para os corredores de desporto, especialmente durante o período de treino intensivo. De acordo com o estudo de Lopes et al."
+excerpt: "Retorno ao treino após lesão: um protocolo por fases com base na evidência, com critérios para avançar e sinais para voltar atrás."
+keyword: "retorno ao treino após lesão"
+keywords: ["voltar a correr após lesão", "regresso à corrida", "protocolo de retorno"]
 readTime: 4
 ---
 

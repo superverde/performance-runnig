@@ -2,7 +2,10 @@
 title: "Melhores Mochilas e Coletes de Hidratação para Trail em 2026: Guia de Compra"
 date: 2026-07-03
 category: "Equipamento"
-excerpt: "Do trail curto ao ultra de montanha, o colete de hidratação certo muda a forma como corre. Guia de compra com critérios técnicos e as melhores opções para cada tipo de corredor."
+excerpt: "Do trail curto ao ultra, o colete de hidratação certo muda a forma como corres. Vê os critérios técnicos e as melhores mochilas e coletes de trail em 2026."
+seoTitle: "Melhores Coletes de Hidratação para Trail em 2026"
+keyword: "coletes de hidratação trail"
+keywords: ["mochilas de hidratação 2026", "colete trail", "mochila de trail"]
 readTime: 8
 ---
 

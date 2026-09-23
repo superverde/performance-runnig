@@ -1,8 +1,9 @@
 ---
 title: 'Nutrição para Corrida de Longa Distância: O Que Comer Antes, Durante e Depois'
-excerpt: >-
-  Descobre a estratégia nutricional completa para corridas longas — desde o
-  carregamento de glicogénio até à recuperação pós-treino, com dados concretos.
+excerpt: "Nutrição para corrida longa: o que comer antes, durante e depois, da carga de glicogénio à recuperação, para aguentar até ao fim."
+seoTitle: "Nutrição para Corrida Longa: Antes, Durante e Depois"
+keyword: "nutrição corrida longa"
+keywords: ["o que comer antes de correr", "comer durante a corrida", "nutrição maratona"]
 date: '2026-06-19'
 category: Nutrição
 readTime: 6

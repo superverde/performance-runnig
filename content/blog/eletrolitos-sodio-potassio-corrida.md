@@ -2,7 +2,10 @@
 title: "Eletrólitos na Corrida: Sódio, Potássio e Como Evitar Cãibras"
 date: '2026-07-20'
 category: "Nutrição"
-excerpt: "O treino de corrida é uma atividade intensa que exige uma combinação de força, agilidade e resistência."
+excerpt: "Sódio, potássio e magnésio: vê que eletrólitos na corrida perdes com o suor, quando os repor e o que a ciência diz mesmo sobre as cãibras."
+seoTitle: "Eletrólitos na Corrida: Sódio, Potássio e Cãibras"
+keyword: "eletrólitos na corrida"
+keywords: ["sódio e potássio", "evitar cãibras a correr", "sais minerais corrida"]
 readTime: 4
 ---
 

@@ -2,7 +2,9 @@
 title: "Otimizar o Sono como Atleta: O Guia Baseado em Evidência"
 date: '2026-08-01'
 category: "Recuperação"
-excerpt: "A recuperação é uma parte fundamental do processo de treino para os atletas."
+excerpt: "Dormir bem é o método de recuperação mais barato. Vê o guia com evidência para otimizar o sono do atleta: horários, ambiente, cafeína e rotina da noite."
+keyword: "sono do atleta"
+keywords: ["dormir melhor", "higiene do sono", "sono e recuperação"]
 readTime: 4
 ---
 

@@ -2,7 +2,10 @@
 title: "Visualização Mental: A Técnica dos Atletas de Elite Funciona?"
 date: '2026-08-06'
 category: "Psicologia"
-excerpt: "A corrida é um desporto de resistência que exige uma combinação de habilidades físicas e mentais."
+excerpt: "A visualização mental é usada por atletas de elite para preparar provas. Vê o que a ciência diz sobre a técnica e como a praticar antes de competir."
+seoTitle: "Visualização Mental: A Técnica dos Atletas de Elite"
+keyword: "visualização mental"
+keywords: ["visualização no desporto", "imaginação mental", "técnicas mentais atletas"]
 readTime: 4
 ---
 

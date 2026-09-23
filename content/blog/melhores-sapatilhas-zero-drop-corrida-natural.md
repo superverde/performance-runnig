@@ -2,7 +2,9 @@
 title: "Melhores Sapatilhas Zero Drop para Corrida Natural"
 date: '2026-08-15'
 category: "Equipamento"
-excerpt: "As sapatilhas zero drop têm sido cada vez mais populares entre os corredores naturalistas, que buscam uma forma de corrida mais autêntica e eficiente."
+excerpt: "Sapatilhas zero drop para uma corrida mais natural: vê a quem servem, como fazer a transição sem lesões e os melhores modelos."
+keyword: "sapatilhas zero drop"
+keywords: ["corrida natural", "sapatilhas minimalistas", "drop zero"]
 readTime: 4
 ---
 

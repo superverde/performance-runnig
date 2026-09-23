@@ -2,7 +2,10 @@
 title: "Garmin vs. Coros vs. Suunto: Que Relógio Escolher para Trail em 2026"
 date: 2026-07-04
 category: "Equipamento"
-excerpt: "As três marcas dominam o mercado de relógios GPS para trail, mas cada uma tem um perfil de utilizador diferente. Comparativo direto para ajudar a decidir."
+excerpt: "Garmin vs Coros vs Suunto: comparamos autonomia, mapas, GPS e preço dos relógios para trail em 2026 para escolheres o certo para ti."
+seoTitle: "Garmin vs Coros vs Suunto: Que Relógio para Trail em 2026"
+keyword: "garmin vs coros vs suunto"
+keywords: ["relógio para trail 2026", "melhor relógio trail", "comparativo relógios trail"]
 readTime: 9
 ---
 

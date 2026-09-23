@@ -2,7 +2,9 @@
 title: "Bolhas nos Pés: Prevenção e Tratamento em Trail e Maratona"
 date: '2026-08-05'
 category: "Lesões"
-excerpt: "Os atletas de trail e maratona sabem que os pés são a base da corrida. No entanto, as bolhas nos pés são um problema comum que pode afetar a performance e a."
+excerpt: "As bolhas nos pés estragam provas de trail e maratona. Vê como as prevenir com meias, lubrificação e sapatilhas certas, e como tratar uma bolha."
+keyword: "bolhas nos pés"
+keywords: ["prevenir bolhas corrida", "tratar bolhas", "bolhas trail e maratona"]
 readTime: 4
 ---
 

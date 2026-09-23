@@ -1,6 +1,9 @@
 ---
 title: "Síndrome da Banda Iliotibial: A Lesão do Joelho Mais Comum em Corredores"
-excerpt: "A dor lateral no joelho que aparece sempre ao mesmo quilómetro. Percebe as causas reais e as estratégias com evidência científica para resolver de vez."
+excerpt: "A síndrome da banda iliotibial é a dor lateral no joelho que surge sempre ao mesmo quilómetro. Vê as causas reais e como a tratar."
+seoTitle: "Síndrome da Banda Iliotibial: A Lesão de Joelho Mais Comum"
+keyword: "síndrome da banda iliotibial"
+keywords: ["dor lateral do joelho", "banda iliotibial corrida", "joelho do corredor"]
 date: "2025-06-20"
 category: "Lesões"
 readTime: 5

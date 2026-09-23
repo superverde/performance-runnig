@@ -2,7 +2,10 @@
 title: "Melhores Relógios de Corrida Económicos para Começar"
 date: '2026-09-16'
 category: "Equipamento"
-excerpt: "A procura por um relógio de corrida que una precisão, fiabilidade e preço acessível pode parecer um desafio, mas a realidade é que o mercado tem evoluído."
+excerpt: "Um relógio de corrida barato já mede ritmo, distância e frequência cardíaca. Vê os melhores modelos para começar sem gastar muito."
+seoTitle: "Relógio de Corrida Barato: Os Melhores para Começar"
+keyword: "relógio de corrida barato"
+keywords: ["relógio gps barato", "primeiro relógio de corrida", "relógio de corrida económico"]
 readTime: 5
 faqs:
   - q: "Qual é a diferença entre GPS 1 Hz e GPS 5 Hz em relógios de corrida?"

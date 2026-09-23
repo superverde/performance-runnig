@@ -2,7 +2,9 @@
 title: "Core para Corredores: Os Exercícios Que Realmente Importam"
 date: '2026-08-21'
 category: "Treino"
-excerpt: "Para corredores, os exercícios de core que realmente importam são aqueles que melhoram a estabilidade da coluna, a transferência de potência e a eficiência."
+excerpt: "Core para corredores: os exercícios que melhoram a estabilidade do tronco e a transferência de força, e quantas vezes os fazer por semana."
+keyword: "core para corredores"
+keywords: ["exercícios de core", "estabilidade do tronco", "treino de core corrida"]
 readTime: 5
 faqs:
   - q: "Quais são os exercícios de core que mais beneficiam corredores de longa distância?"

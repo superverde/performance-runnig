@@ -2,7 +2,10 @@
 title: "Meia Maratona Sub-2h: Plano para Corredores que Querem Evoluir"
 date: '2026-09-04'
 category: "Treino"
-excerpt: "Para correr meia maratona em menos de 2 h, a combinação de volume moderado, intensidade controlada e recuperação adequada, estruturada em ciclos de 4–6."
+excerpt: "Plano para a meia maratona sub 2h: volume, séries e ritmos de treino para baixar das duas horas nos 21 km com uma progressão de 12 semanas."
+seoTitle: "Meia Maratona Sub-2h: Plano para Evoluir"
+keyword: "meia maratona sub 2h"
+keywords: ["plano meia maratona 2 horas", "meia maratona em menos de 2 horas", "treino meia maratona"]
 readTime: 5
 faqs:
   - q: "Qual é a quilometragem semanal ideal para atingir a marca sub‑2h?"

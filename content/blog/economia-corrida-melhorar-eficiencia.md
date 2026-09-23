@@ -2,7 +2,10 @@
 title: "Economia de Corrida: Como Gastar Menos Energia a Cada Passada"
 date: '2026-07-13'
 category: "Fisiologia"
-excerpt: "A corrida é um desporto que exige uma combinação de força muscular, flexibilidade e capacidade aeróbica."
+excerpt: "A economia de corrida define quanta energia gastas a cada passada. Vê os fatores que a determinam e os treinos de força e técnica que a melhoram."
+seoTitle: "Economia de Corrida: Como Gastar Menos Energia por Passada"
+keyword: "economia de corrida"
+keywords: ["running economy", "gastar menos energia a correr", "melhorar a economia de corrida"]
 readTime: 4
 ---
 

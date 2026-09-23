@@ -2,7 +2,9 @@
 title: "Melhores Barras e Alimentos Sólidos para Ultra Trail"
 date: '2026-07-25'
 category: "Equipamento"
-excerpt: "Correr ultra trail é um desafio extremamente exigente, tanto física como mentalmente."
+excerpt: "Num ultra trail, os géis não chegam. Vê as melhores barras e alimentos sólidos para levar, quanto comer por hora e como evitar problemas de estômago."
+keyword: "barras para ultra trail"
+keywords: ["comida sólida ultra", "alimentos para ultra trail", "nutrição ultra"]
 readTime: 4
 ---
 

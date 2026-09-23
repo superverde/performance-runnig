@@ -2,7 +2,9 @@
 title: "Vitamina D em Corredores: Ossos, Imunidade e Performance"
 date: '2026-07-22'
 category: "Nutrição"
-excerpt: "A vitamina D é uma das vitaminas mais importantes para o corpo humano, e é especialmente crucial para corredores."
+excerpt: "A vitamina D é importante para os ossos, a imunidade e os músculos dos corredores. Vê quando suplementar e que níveis procurar nas análises."
+keyword: "vitamina d corredores"
+keywords: ["vitamina d e ossos", "vitamina d imunidade", "suplemento vitamina d"]
 readTime: 4
 ---
 

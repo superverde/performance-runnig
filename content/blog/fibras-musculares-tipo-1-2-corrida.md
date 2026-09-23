@@ -2,7 +2,10 @@
 title: "Fibras Musculares Tipo I e II: O Que Determinam na Tua Corrida"
 date: '2026-07-14'
 category: "Fisiologia"
-excerpt: "A corrida é um desporto que exige uma combinação de força, resistência e velocidade."
+excerpt: "Fibras tipo I ou tipo II? Vê o que os tipos de fibras musculares determinam na corrida, quanto é genético e o que o treino consegue mudar."
+seoTitle: "Fibras Musculares Tipo I e II: O Que Mudam na Corrida"
+keyword: "fibras musculares tipo i e ii"
+keywords: ["fibras lentas e rápidas", "tipos de fibras musculares", "fibras e corrida"]
 readTime: 4
 ---
 

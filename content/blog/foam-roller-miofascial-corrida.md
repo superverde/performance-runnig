@@ -2,7 +2,9 @@
 title: "Foam Roller para Corredores: Ciência e Protocolo Eficaz"
 date: '2026-07-28'
 category: "Recuperação"
-excerpt: "O desporto é uma atividade que exige um esforço físico intenso, levando a stress, cansaço e, consequentemente, à perda de desempenho."
+excerpt: "Foam roller para corredores: vê o que a ciência diz sobre o rolo de espuma, quanto tempo usar em cada músculo e quando faz mais sentido."
+keyword: "foam roller para corredores"
+keywords: ["rolo de espuma", "libertação miofascial", "como usar o foam roller"]
 readTime: 4
 ---
 

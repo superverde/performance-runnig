@@ -2,7 +2,9 @@
 title: "Protetor Solar Desportivo Resistente ao Suor: Guia de Compra"
 date: '2026-08-23'
 category: "Equipamento"
-excerpt: "Para quem corre, a proteção solar não é apenas um extra: é um componente essencial da sua rotina de treino."
+excerpt: "O protetor solar desportivo tem de aguentar suor e horas ao sol. Vê o que procurar no fator, na resistência à água e na textura para correr protegido."
+keyword: "protetor solar desportivo"
+keywords: ["protetor solar para correr", "protetor resistente ao suor", "proteção solar corrida"]
 readTime: 5
 faqs:
   - q: "Qual a diferença entre SPF e PA?"
