@@ -79,44 +79,11 @@ function triggerImageDownload(url: string, filename: string) {
   a.remove()
 }
 
-// Converte a imagem para um data URI base64, para poder ser EMBUTIDA
-// dentro do HTML copiado (<img src="data:image/...">) em vez de ir como
-// ficheiro solto no clipboard. Pedido do Pedro (2026-09-21): "insere a
-// imagem dentro do texto". A diferença é decisiva: quando o clipboard tem
-// um ficheiro de imagem, o Facebook trata a colagem inteira como "anexar
-// foto" e deita fora o texto; quando recebe HTML com a imagem lá dentro,
-// segue o caminho normal de colagem de texto formatado — se o sanitizador
-// do Facebook preservar a <img>, vem tudo numa única colagem.
-function imageUrlToDataUri(url: string): Promise<string> {
-  return fetch(url)
-    .then((r) => r.blob())
-    .then(
-      (blob) =>
-        new Promise<string>((resolve, reject) => {
-          const reader = new FileReader()
-          reader.onload = () => resolve(String(reader.result))
-          reader.onerror = () => reject(new Error('falha a ler a imagem como data URI'))
-          reader.readAsDataURL(blob)
-        })
-    )
-}
-
-// Escapa o texto para poder ir dentro do HTML sem partir a marcação, e
-// converte as quebras de linha em <br> para o post manter os parágrafos.
-function textoParaHtml(texto: string): string {
-  return texto
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/\n/g, '<br>')
-}
-
 // Converte a imagem (pool local é .jpg) para PNG num canvas — a Clipboard
 // API tem suporte mais fiável a 'image/png' entre browsers do que a
-// outros formatos. Usada só pelo botão "Copiar imagem", que copia a
-// imagem SOZINHA para o clipboard: é o caminho que faz o Facebook anexar
-// mesmo a foto (à custa de descartar qualquer texto), e serve de recurso
-// quando a imagem embutida no HTML não sobrevive à colagem.
+// outros formatos. Usada só pelo botão manual "Copiar imagem" — anexar a
+// foto à força substitui a pré-visualização automática do link (ver nota
+// em copiarTexto), por isso é só um recurso à parte, não o fluxo principal.
 function imageUrlToPngBlob(url: string): Promise<Blob> {
   return new Promise((resolve, reject) => {
     fetch(url)
@@ -167,38 +134,26 @@ function PostCard({ post }: { post: Post }) {
     return () => clearInterval(t)
   }, [post.link])
 
-  // Copia o texto COM a imagem embutida dentro dele (text/html), para uma
-  // única colagem levar as duas coisas. Não escrevemos aqui nenhuma
-  // representação 'image/png': é precisamente essa que faz o Facebook
-  // tratar a colagem como "anexar foto" e descartar o texto. Com HTML, a
-  // colagem segue o caminho de texto formatado — se o Facebook preservar a
-  // <img>, vem tudo junto; se a remover, fica pelo menos o texto completo
-  // (nunca fica pior do que copiar só texto). Para anexar a foto à força,
-  // continua a existir o botão "Copiar imagem" ao lado da imagem.
-  // Devolve true se copiou (com ou sem imagem), false se o clipboard falhou.
+  // Copia só o TEXTO simples, com o link do artigo lá dentro. Até
+  // 2026-09-21 embutia-se a imagem no HTML copiado para poupar um passo —
+  // mas isso arrisca o Facebook tratar a colagem como "anexar foto", o que
+  // esconde a pré-visualização automática do link. É essa pré-visualização
+  // (gerada pelo próprio Facebook a partir do link no texto) que torna a
+  // FOTO clicável e leva ao artigo — pedido do Pedro (2026-09-26): "o link
+  // estava na foto". Por isso a cópia volta a ser só texto: ao colar, o
+  // Facebook deteta o link e gera sozinho a pré-visualização com imagem.
+  // Quem quiser mesmo assim anexar uma foto à parte (por exemplo se algum
+  // grupo não mostrar a pré-visualização) tem os botões "Copiar imagem" /
+  // "Guardar" junto da imagem — sabendo que isso substitui a
+  // pré-visualização clicável por uma foto normal.
   const copiarTexto = async (texto: string): Promise<boolean> => {
     try {
-      const html = post.imagem
-        ? `<div><img src="${await imageUrlToDataUri(post.imagem)}" width="500"><br><br>${textoParaHtml(texto)}</div>`
-        : `<div>${textoParaHtml(texto)}</div>`
-      await navigator.clipboard.write([
-        new ClipboardItem({
-          'text/html': new Blob([html], { type: 'text/html' }),
-          'text/plain': new Blob([texto], { type: 'text/plain' }),
-        }),
-      ])
+      await navigator.clipboard.writeText(texto)
       return true
     } catch {
-      // Browser sem suporte a clipboard multi-formato, ou falha a obter a
-      // imagem — copia pelo menos o texto, como sempre funcionou.
-      try {
-        await navigator.clipboard.writeText(texto)
-        return true
-      } catch {
-        // Clipboard bloqueado (ex: permissão negada pelo browser/SO) —
-        // nunca deixar isto por resolver em silêncio.
-        return false
-      }
+      // Clipboard bloqueado (ex: permissão negada pelo browser/SO) —
+      // nunca deixar isto por resolver em silêncio.
+      return false
     }
   }
 
@@ -460,8 +415,8 @@ export default function GruposPage() {
         <div className="mt-10 bg-white/5 border border-white/10 rounded-2xl p-6">
           <p className="text-white/60 text-xs font-mono uppercase tracking-widest mb-3">Como usar · 5 min/dia</p>
           <ol className="space-y-2 text-sm text-white/50">
-            <li><span className="text-brand-green font-bold">1.</span> Em cada post, clica "Copiar" na <strong className="text-white/70">Ronda 1</strong> — leva o texto (já com o link do artigo) com a imagem lá dentro</li>
-            <li><span className="text-brand-green font-bold">2.</span> No Facebook, partilha e escolhe 9 grupos; cola o texto (Ctrl/Cmd+V). Se a imagem não vier, usa "Copiar imagem" e cola outra vez</li>
+            <li><span className="text-brand-green font-bold">1.</span> Em cada post, clica "Copiar" na <strong className="text-white/70">Ronda 1</strong> — leva o texto com o link do artigo</li>
+            <li><span className="text-brand-green font-bold">2.</span> No Facebook, partilha e escolhe 9 grupos; cola o texto (Ctrl/Cmd+V) — o Facebook mostra sozinho a pré-visualização do artigo com foto, a partir do link</li>
             <li><span className="text-brand-green font-bold">3.</span> Marca a ronda como ✓ feita</li>
             <li><span className="text-brand-green font-bold">4.</span> Espera ~15 min e repete com a Ronda 2 (outra abertura, outros 9 grupos) — até à Ronda 6</li>
           </ol>
