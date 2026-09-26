@@ -33,19 +33,19 @@ const HASHTAGS: Record<string, string> = {
 const DEFAULT_HASHTAGS = '#corrida #running #atletismo #corredores #corridaportugal #performancerunning #runnersworld #marathon'
 
 // Pedido do Pedro (2026-09-02): o Facebook passou a restringir contas
-// pessoais a só 2 publicações/mês com links externos — isto rebentou com
-// a partilha manual diária nos 7 grupos (3 posts/dia × grupos, todos com
-// link direto no texto). Os textos copiados para os grupos deixam de ter
-// qualquer URL; o CTA passa a ser "pesquisa no Google", que não conta como
-// link externo e continua a levar o leitor ao artigo. O campo `link` que a
-// rota devolve mantém-se só para o botão de pré-visualização em /grupos
-// (não faz parte do texto copiado para os grupos).
+// pessoais a só 2 publicações/mês com links externos, o que levou a tirar o
+// link do texto e substituir por um CTA "pesquisa no Google". REVERTIDO a
+// pedido do Pedro em 2026-09-26: os resultados eram melhores com o link
+// direto no texto — a fricção de sair do Facebook para pesquisar custava
+// mais tráfego do que a penalização de alcance evitava. O texto volta a
+// incluir o link direto do artigo.
 function buildGroupPost(
   article: { title: string; excerpt: string; slug: string; category: string },
   slot: number
 ): string {
   const tags = HASHTAGS[article.category] ?? DEFAULT_HASHTAGS
-  const cta = 'Pesquisa "Performance Running" no Google para leres o artigo completo.'
+  const link = `${SITE_URL}/blog/${article.slug}`
+  const cta = `👉 Artigo completo: ${link}`
   const templates = [
     `🔬 ${article.title}\n\n${article.excerpt}\n\n${cta}\n\n${tags}`,
     `Sabias que...\n\n${article.excerpt}\n\n📖 ${article.title}\n\n${cta}\n\n${tags}`,
@@ -119,7 +119,7 @@ export async function GET() {
 
 Todas as semanas resumimos o que interessa: fisiologia, periodização, prevenção de lesões — sem achismo, sem jargão académico a mais. 3 artigos científicos por semana, grátis.
 
-👉 Pesquisa "Performance Running" no Google e assina a newsletter (cancelas quando quiseres)
+👉 ${SITE_URL} — assina a newsletter (cancelas quando quiseres)
 
 Já perderam tempo a seguir um conselho que não fazia sentido para o vosso treino? Contem aí 👇
 
