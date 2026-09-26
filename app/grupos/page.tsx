@@ -3,15 +3,66 @@
 import { useEffect, useState } from 'react'
 import { Copy, Check, ExternalLink, Download } from 'lucide-react'
 
-const GRUPOS = [
-  { nome: 'Portugal Running', url: 'https://www.facebook.com/groups/93652494209/', membros: '' },
-  { nome: 'Trail Running — Portugal', url: 'https://www.facebook.com/groups/1454687917950266/', membros: '' },
-  { nome: 'Apaixonados por Corrida', url: 'https://www.facebook.com/groups/apaixonadosporcorridaoficial/', membros: '' },
-  { nome: 'Maratona Clube de Portugal', url: 'https://www.facebook.com/groups/96171969973/', membros: '' },
-  { nome: 'Correr Lisboa', url: 'https://www.facebook.com/groups/correrlisboa/', membros: '' },
-  { nome: 'UP Running', url: 'https://www.facebook.com/groups/UPRunningCDUP/', membros: '' },
-  { nome: 'Tutti Sporting — Corrida de Rua', url: 'https://www.facebook.com/groups/689316968306672/', membros: '' },
+// Pedro está em 50 grupos de corrida no Facebook, mas cada partilha só
+// deixa escolher 9 grupos de uma vez — por isso cada publicação é partilhada
+// em 6 rondas (9+9+9+9+9+5). Até 18/09/2026 fazia isto e o site tinha picos
+// de 40+ visitantes/dia vindos do Facebook; ao reduzir para uma só ronda
+// (9 grupos) as visitas caíram para menos de metade. Esta secção organiza
+// as 6 rondas, com duas proteções contra o filtro de spam do Facebook:
+//  - cada ronda tem uma frase de abertura diferente (o texto nunca sai
+//    100% igual em rondas seguidas);
+//  - mostra quanto tempo passou desde a última ronda e sugere um intervalo
+//    mínimo entre rondas (aviso, não bloqueio — a decisão é do Pedro).
+const TOTAL_GRUPOS = 50
+const GRUPOS_POR_RONDA = 9
+const NUM_RONDAS = Math.ceil(TOTAL_GRUPOS / GRUPOS_POR_RONDA) // 6
+const INTERVALO_MIN_MINUTOS = 15
+
+// Frase de abertura por ronda. A ronda 1 usa o texto original tal como está.
+const ABERTURAS = [
+  '',
+  '👟 Para quem anda a treinar a sério:',
+  'Partilho porque pode ajudar alguém aqui do grupo 👇',
+  '🏃 Leitura rápida antes do próximo treino:',
+  'Isto mudou a forma como vejo o treino — vale a pena 👇',
+  '📌 Guardem para ler com calma:',
 ]
+
+function textoDaRonda(texto: string, ronda: number): string {
+  const abertura = ABERTURAS[ronda % ABERTURAS.length]
+  return abertura ? `${abertura}\n\n${texto}` : texto
+}
+
+function gruposNaRonda(ronda: number): number {
+  return Math.min(GRUPOS_POR_RONDA, TOTAL_GRUPOS - ronda * GRUPOS_POR_RONDA)
+}
+
+// Estado das rondas guardado no browser (por dia e por artigo), para não se
+// perder ao recarregar a página entre rondas. localStorage pode não existir
+// ou lançar erro (modo privado, dados bloqueados) — nesse caso a página
+// funciona na mesma, só não se lembra das marcas depois de recarregar.
+function chaveRondas(link: string): string {
+  return `grupos-rondas:${new Date().toISOString().slice(0, 10)}:${link}`
+}
+
+function lerRondas(link: string): (number | null)[] {
+  try {
+    const raw = window.localStorage.getItem(chaveRondas(link))
+    const arr = raw ? JSON.parse(raw) : null
+    if (Array.isArray(arr) && arr.length === NUM_RONDAS) return arr
+  } catch {
+    /* sem storage — começa vazio */
+  }
+  return Array(NUM_RONDAS).fill(null)
+}
+
+function gravarRondas(link: string, rondas: (number | null)[]) {
+  try {
+    window.localStorage.setItem(chaveRondas(link), JSON.stringify(rondas))
+  } catch {
+    /* sem storage — ignora */
+  }
+}
 
 type Post = { slot: number; hora: string; titulo: string; texto: string; link: string; categoria: string; imagem: string }
 
@@ -104,7 +155,18 @@ function PostCard({ post }: { post: Post }) {
   const [copyState, setCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
   const [imgCopyState, setImgCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
   const [linkCopyState, setLinkCopyState] = useState<'idle' | 'done' | 'failed'>('idle')
-  const [gruposConcluidos, setGruposConcluidos] = useState<Set<number>>(new Set())
+  // Timestamp (ms) de quando cada ronda foi marcada como feita; null = por fazer.
+  const [rondas, setRondas] = useState<(number | null)[]>(() => Array(NUM_RONDAS).fill(null))
+  const [rondaCopiada, setRondaCopiada] = useState<number | null>(null)
+  const [agora, setAgora] = useState(() => Date.now())
+
+  // Carrega as marcas guardadas (só no browser) e atualiza o relógio a cada
+  // 30 s para o contador "última ronda há X min" se manter certo.
+  useEffect(() => {
+    setRondas(lerRondas(post.link))
+    const t = setInterval(() => setAgora(Date.now()), 30_000)
+    return () => clearInterval(t)
+  }, [post.link])
 
   // Copia o texto COM a imagem embutida dentro dele (text/html), para uma
   // única colagem levar as duas coisas. Não escrevemos aqui nenhuma
@@ -114,32 +176,58 @@ function PostCard({ post }: { post: Post }) {
   // <img>, vem tudo junto; se a remover, fica pelo menos o texto completo
   // (nunca fica pior do que copiar só texto). Para anexar a foto à força,
   // continua a existir o botão "Copiar imagem" ao lado da imagem.
-  const handleCopy = async () => {
+  // Devolve true se copiou (com ou sem imagem), false se o clipboard falhou.
+  const copiarTexto = async (texto: string): Promise<boolean> => {
     try {
       const html = post.imagem
-        ? `<div><img src="${await imageUrlToDataUri(post.imagem)}" width="500"><br><br>${textoParaHtml(post.texto)}</div>`
-        : `<div>${textoParaHtml(post.texto)}</div>`
+        ? `<div><img src="${await imageUrlToDataUri(post.imagem)}" width="500"><br><br>${textoParaHtml(texto)}</div>`
+        : `<div>${textoParaHtml(texto)}</div>`
       await navigator.clipboard.write([
         new ClipboardItem({
           'text/html': new Blob([html], { type: 'text/html' }),
-          'text/plain': new Blob([post.texto], { type: 'text/plain' }),
+          'text/plain': new Blob([texto], { type: 'text/plain' }),
         }),
       ])
-      setCopyState('done')
+      return true
     } catch {
       // Browser sem suporte a clipboard multi-formato, ou falha a obter a
       // imagem — copia pelo menos o texto, como sempre funcionou.
       try {
-        await navigator.clipboard.writeText(post.texto)
-        setCopyState('done')
+        await navigator.clipboard.writeText(texto)
+        return true
       } catch {
         // Clipboard bloqueado (ex: permissão negada pelo browser/SO) —
         // nunca deixar isto por resolver em silêncio.
-        setCopyState('failed')
+        return false
       }
     }
+  }
+
+  const handleCopy = async () => {
+    setCopyState((await copiarTexto(post.texto)) ? 'done' : 'failed')
     setTimeout(() => setCopyState('idle'), 3000)
   }
+
+  const copiarRonda = async (i: number) => {
+    const ok = await copiarTexto(textoDaRonda(post.texto, i))
+    setRondaCopiada(ok ? i : -1)
+    setTimeout(() => setRondaCopiada(null), 3000)
+  }
+
+  const toggleRonda = (i: number) => {
+    setRondas(prev => {
+      const next = [...prev]
+      next[i] = next[i] ? null : Date.now()
+      gravarRondas(post.link, next)
+      return next
+    })
+  }
+
+  const feitas = rondas.filter(Boolean).length
+  const gruposFeitos = rondas.reduce<number>((n, r, i) => (r ? n + gruposNaRonda(i) : n), 0)
+  const ultimaRonda = rondas.reduce<number>((m, r) => (r && r > m ? r : m), 0)
+  const minDesdeUltima = ultimaRonda ? Math.floor((agora - ultimaRonda) / 60_000) : null
+  const esperar = minDesdeUltima !== null && feitas < NUM_RONDAS && minDesdeUltima < INTERVALO_MIN_MINUTOS
 
   // Copia só a IMAGEM para o clipboard, para colar diretamente como anexo
   // no Facebook (Ctrl/Cmd+V) — exatamente o fluxo que já funcionava antes.
@@ -182,14 +270,6 @@ function PostCard({ post }: { post: Post }) {
       setLinkCopyState('failed')
     }
     setTimeout(() => setLinkCopyState('idle'), 3000)
-  }
-
-  const toggleGrupo = (i: number) => {
-    setGruposConcluidos(prev => {
-      const next = new Set(prev)
-      next.has(i) ? next.delete(i) : next.add(i)
-      return next
-    })
   }
 
   const slots = ['🌅 Manhã', '☀️ Tarde', '🌙 Noite', '📬 Newsletter']
@@ -298,33 +378,75 @@ function PostCard({ post }: { post: Post }) {
       )}
 
       <div>
-        <p className="text-white/40 text-xs font-mono mb-3 uppercase tracking-widest">
-          Partilhar nos grupos · {gruposConcluidos.size}/{GRUPOS.length} feitos
+        <p className="text-white/40 text-xs font-mono mb-1 uppercase tracking-widest">
+          Partilhar nos {TOTAL_GRUPOS} grupos · {feitas}/{NUM_RONDAS} rondas · {gruposFeitos}/{TOTAL_GRUPOS} grupos
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {GRUPOS.map((g, i) => (
-            <div key={i} className="flex items-center gap-2">
+        <p className="text-white/30 text-[11px] mb-3">
+          Cada ronda = até {GRUPOS_POR_RONDA} grupos escolhidos na partilha do Facebook. Cada ronda tem uma abertura
+          diferente, para o texto não sair igual. Deixa ~{INTERVALO_MIN_MINUTOS} min entre rondas.
+        </p>
+
+        {minDesdeUltima !== null && feitas < NUM_RONDAS && (
+          <p className={`text-[11px] font-mono mb-3 ${esperar ? 'text-yellow-500/80' : 'text-green-400/80'}`}>
+            {esperar
+              ? `⏳ Última ronda há ${minDesdeUltima} min — espera mais ~${INTERVALO_MIN_MINUTOS - minDesdeUltima} min antes da próxima`
+              : `✓ Última ronda há ${minDesdeUltima} min — podes avançar para a próxima`}
+          </p>
+        )}
+
+        <div className="space-y-2">
+          {rondas.map((feitaEm, i) => (
+            <div
+              key={i}
+              className={`flex items-center gap-3 rounded-xl px-3 py-2 border transition-all ${
+                feitaEm ? 'bg-brand-green/10 border-brand-green/30' : 'bg-black/20 border-white/10'
+              }`}
+            >
               <button
-                onClick={() => toggleGrupo(i)}
+                onClick={() => toggleRonda(i)}
+                aria-label={`Marcar ronda ${i + 1} como ${feitaEm ? 'por fazer' : 'feita'}`}
                 className={`w-5 h-5 rounded flex-shrink-0 border transition-all flex items-center justify-center ${
-                  gruposConcluidos.has(i) ? 'bg-brand-green border-brand-green' : 'border-white/20 hover:border-brand-green/50'
+                  feitaEm ? 'bg-brand-green border-brand-green' : 'border-white/20 hover:border-brand-green/50'
                 }`}
               >
-                {gruposConcluidos.has(i) && <Check size={11} className="text-black" />}
+                {feitaEm && <Check size={11} className="text-black" />}
               </button>
-              <a href={g.url} target="_blank" rel="noopener noreferrer"
-                className="text-xs text-white/60 hover:text-white transition-colors truncate">
-                {g.nome}{g.membros && <span className="text-white/30 ml-1">·{g.membros}</span>}
-              </a>
+              <div className="flex-1 min-w-0">
+                <p className="text-xs text-white/80 font-bold">
+                  Ronda {i + 1} · {gruposNaRonda(i)} grupos
+                  {feitaEm && (
+                    <span className="text-white/40 font-normal ml-2">
+                      feita às {new Date(feitaEm).toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' })}
+                    </span>
+                  )}
+                </p>
+                <p className="text-[11px] text-white/40 truncate">
+                  {ABERTURAS[i % ABERTURAS.length] || 'Texto original'}
+                </p>
+              </div>
+              <button
+                onClick={() => copiarRonda(i)}
+                title={`Copiar o texto da ronda ${i + 1}`}
+                className="flex items-center gap-1.5 text-[11px] font-mono bg-white/10 hover:bg-white/20 text-white/70 hover:text-white px-2.5 py-1.5 rounded-lg transition-all flex-shrink-0"
+              >
+                {rondaCopiada === i ? <Check size={12} className="text-green-400" /> : <Copy size={12} />}
+                {rondaCopiada === i ? 'Copiado' : 'Copiar'}
+              </button>
             </div>
           ))}
         </div>
+
+        {rondaCopiada === -1 && (
+          <p className="text-[11px] font-mono text-red-400/80 mt-2">
+            ✗ Não foi possível copiar (permissão de clipboard bloqueada) — seleciona o texto manualmente
+          </p>
+        )}
       </div>
 
-      {gruposConcluidos.size > 0 && (
+      {feitas > 0 && (
         <div className="h-1 bg-white/10 rounded-full overflow-hidden">
           <div className="h-full bg-brand-green transition-all duration-500"
-            style={{ width: `${(gruposConcluidos.size / GRUPOS.length) * 100}%` }} />
+            style={{ width: `${(gruposFeitos / TOTAL_GRUPOS) * 100}%` }} />
         </div>
       )}
     </div>
@@ -355,7 +477,7 @@ export default function GruposPage() {
             GRUPOS<br /><span className="text-brand-green">DO DIA.</span>
           </h1>
           <p className="text-white/40 text-sm max-w-lg">
-            Copia cada texto e partilha nos grupos de corrida. 3 posts × 8 grupos = potencial de +120k corredores por dia.
+            Cada post é partilhado em 6 rondas de até 9 grupos, para chegar aos 50 grupos de corrida. Cada ronda tem uma abertura diferente.
           </p>
         </div>
 
@@ -372,11 +494,11 @@ export default function GruposPage() {
         <div className="mt-10 bg-white/5 border border-white/10 rounded-2xl p-6">
           <p className="text-white/60 text-xs font-mono uppercase tracking-widest mb-3">Como usar · 5 min/dia</p>
           <ol className="space-y-2 text-sm text-white/50">
-            <li><span className="text-brand-green font-bold">1.</span> Clica no botão de copiar do post — leva o texto com a imagem lá dentro — e cola no grupo (Ctrl/Cmd+V)</li>
-            <li><span className="text-brand-green font-bold">2.</span> Se a imagem não aparecer na colagem, clica "Copiar imagem" e cola outra vez para a anexar</li>
-            <li><span className="text-brand-green font-bold">3.</span> Publica sem link no texto e cola o link no primeiro comentário ("Copiar link") — não penaliza o alcance</li>
-            <li><span className="text-brand-green font-bold">4.</span> Marca o grupo como ✓ concluído</li>
-            <li><span className="text-brand-green font-bold">5.</span> Repete à tarde e à noite</li>
+            <li><span className="text-brand-green font-bold">1.</span> Em cada post, clica "Copiar" na <strong className="text-white/70">Ronda 1</strong> — leva o texto com a imagem lá dentro</li>
+            <li><span className="text-brand-green font-bold">2.</span> No Facebook, partilha e escolhe 9 grupos; cola o texto (Ctrl/Cmd+V). Se a imagem não vier, usa "Copiar imagem" e cola outra vez</li>
+            <li><span className="text-brand-green font-bold">3.</span> Cola o link no primeiro comentário ("Copiar link")</li>
+            <li><span className="text-brand-green font-bold">4.</span> Marca a ronda como ✓ feita</li>
+            <li><span className="text-brand-green font-bold">5.</span> Espera ~15 min e repete com a Ronda 2 (outra abertura, outros 9 grupos) — até à Ronda 6</li>
           </ol>
         </div>
       </div>
