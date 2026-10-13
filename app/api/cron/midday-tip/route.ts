@@ -86,16 +86,35 @@ Responde em JSON:
     }),
   })
 
-  const data = await res.json()
-  const parsed = JSON.parse(data.choices?.[0]?.message?.content ?? '{}')
+  let parsed: { facebook?: string; instagram?: string; x?: string } = {}
+  try {
+    const data = await res.json()
+    parsed = JSON.parse(data.choices?.[0]?.message?.content ?? '{}')
+  } catch {
+    parsed = {}
+  }
 
-  const addHashtags = (text: string) =>
-    text.includes('#') ? text : `${text}\n\n${hashtags}`
+  // Texto de reserva: nunca publicar um post só com hashtags (bug de 2026-10-13,
+  // quando a IA devolveu o campo vazio e o post saiu apenas com hashtags).
+  const fallback = `💡 Facto do dia sobre ${tema}.\n\nVê mais em ${SITE_URL}/blog`
+  const MIN_CHARS = 40
+  const hasBody = (text?: string) =>
+    typeof text === 'string' &&
+    text.replace(/#\S+/g, '').replace(/\s+/g, ' ').trim().length >= MIN_CHARS
+
+  if (!hasBody(parsed.facebook)) {
+    console.warn('[midday-tip] IA devolveu texto vazio/curto — a usar texto de reserva. Resposta:', JSON.stringify(parsed).slice(0, 300))
+  }
+
+  const build = (text?: string) => {
+    const body = hasBody(text) ? (text as string) : fallback
+    return fixPtPt(body.includes('#') ? body : `${body}\n\n${hashtags}`)
+  }
 
   return {
-    facebook: fixPtPt(addHashtags(parsed.facebook ?? '')),
-    instagram: fixPtPt(addHashtags(parsed.instagram ?? '')),
-    x: fixPtPt(parsed.x ?? ''),
+    facebook: build(parsed.facebook),
+    instagram: build(parsed.instagram),
+    x: hasBody(parsed.x) ? fixPtPt(parsed.x as string) : fixPtPt(fallback).slice(0, 270),
   }
 }
 

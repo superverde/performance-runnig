@@ -77,13 +77,30 @@ Responde em JSON:
     }),
   })
 
-  const data = await res.json()
-  const parsed = JSON.parse(data.choices?.[0]?.message?.content ?? '{}')
+  let parsed: { facebook?: string; instagram?: string; x?: string } = {}
+  try {
+    const data = await res.json()
+    parsed = JSON.parse(data.choices?.[0]?.message?.content ?? '{}')
+  } catch {
+    parsed = {}
+  }
+
+  // Nunca publicar post vazio ou só com hashtags: se a IA falhar, usa texto de reserva.
+  const hasBody = (t?: string) =>
+    typeof t === 'string' && t.replace(/#\S+/g, '').replace(/\s+/g, ' ').trim().length >= 40
+  const fb = {
+    facebook: `🌙 Para terminar o dia:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}\n\n${hashtags}`,
+    instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio\n\n${hashtags}`,
+    x: `${article.title}\n\n${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
+  }
+  if (!hasBody(parsed.facebook)) {
+    console.warn('[evening-social] IA devolveu texto vazio/curto — texto de reserva. Resposta:', JSON.stringify(parsed).slice(0, 300))
+  }
 
   return {
-    facebook: fixPtPt(parsed.facebook ?? ''),
-    instagram: fixPtPt(parsed.instagram ?? ''),
-    x: fixPtPt(parsed.x ?? ''),
+    facebook: hasBody(parsed.facebook) ? fixPtPt(parsed.facebook as string) : fb.facebook,
+    instagram: hasBody(parsed.instagram) ? fixPtPt(parsed.instagram as string) : fb.instagram,
+    x: hasBody(parsed.x) ? fixPtPt(parsed.x as string) : fb.x,
   }
 }
 
@@ -92,86 +109,21 @@ interface PlatformResult {
   error?: string
 }
 
-// Mesma verificação prévia de duplicado do app/api/social-post/route.ts —
-// esta rota tem a sua própria cópia do código de publicação, por isso sem
-// isto continuaria a poder publicar por cima do que o cron da manhã já
-// publicou. Ver o comentário longo nesse ficheiro para o contexto.
-async function jaPublicadoRecentemente(
-  pageId: string,
-  pageToken: string,
-  marcador: string,
-  horas = 20
-): Promise<string | null> {
-  try {
-    const url = `https://graph.facebook.com/v19.0/${pageId}/feed?fields=id,message,created_time&limit=25&access_token=${encodeURIComponent(pageToken)}`
-    const res = await fetch(url)
-    const data = await res.json()
-    if (!res.ok || data.error || !Array.isArray(data.data)) return null
-    const limite = Date.now() - horas * 60 * 60 * 1000
-    for (const post of data.data) {
-      if (new Date(post.created_time).getTime() < limite) continue
-      if (typeof post.message === 'string' && post.message.includes(marcador)) return post.id
-    }
-    return null
-  } catch {
-    return null
-  }
-}
-
-// Publica o link como primeiro comentário — mesmo racional do
-// app/api/social-post/route.ts (foto no post, link no comentário, para não
-// gastar a quota de publicações com link nem perder alcance).
-async function comentarComLink(postId: string, pageToken: string, link: string): Promise<void> {
-  try {
-    const res = await fetch(`https://graph.facebook.com/v19.0/${postId}/comments`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: `Artigo completo: ${link}`, access_token: pageToken }),
-    })
-    const data = await res.json()
-    if (!res.ok || data.error) {
-      console.warn(`[evening-social] Não foi possível comentar o link no post ${postId}: ${data.error?.message || res.status}`)
-    }
-  } catch (err) {
-    console.warn(`[evening-social] Falha ao comentar o link no post ${postId}:`, err)
-  }
-}
-
-function semLinkNoCorpo(message: string, link: string): string {
-  return message
-    .replace(new RegExp(`\\s*👉?\\s*${link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*`, 'g'), '\n')
-    .replace(/https?:\/\/(www\.)?performancerunning\.pt\S*/g, '')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim()
-}
-
-async function postToFacebook(
-  message: string,
-  link: string,
-  imageUrl: string,
-  titulo: string
-): Promise<PlatformResult> {
+async function postToFacebook(message: string, link: string): Promise<PlatformResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
   const pageId = process.env.META_PAGE_ID
   if (!pageToken || !pageId) return { success: false, error: 'Credenciais Meta não configuradas' }
 
   try {
-    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, titulo)
-    if (duplicado) {
-      console.warn(`[evening-social] Facebook: artigo já publicado hoje (post ${duplicado}) — ignorado para não duplicar`)
-      return { success: true }
-    }
-
-    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/photos`, {
+    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url: imageUrl, caption: semLinkNoCorpo(message, link), access_token: pageToken }),
+      body: JSON.stringify({ message, link, access_token: pageToken }),
     })
     const data = await res.json()
     if (!res.ok || data.error) {
       return { success: false, error: data.error?.message || `HTTP ${res.status}` }
     }
-    await comentarComLink(data.post_id || data.id, pageToken, link)
     return { success: true }
   } catch (err) {
     return { success: false, error: String(err) }
@@ -290,7 +242,7 @@ export async function GET(req: NextRequest) {
     r.status === 'fulfilled' ? r.value : { success: false, error: String(r.reason) }
 
   const jobs: { platform: string; job: Promise<PlatformResult> }[] = []
-  if (wants('facebook')) jobs.push({ platform: 'Facebook', job: postToFacebook(captions.facebook, link, image, article.title) })
+  if (wants('facebook')) jobs.push({ platform: 'Facebook', job: postToFacebook(captions.facebook, link) })
   if (wants('instagram')) jobs.push({ platform: 'Instagram', job: postToInstagram(captions.instagram, image) })
   if (wants('x')) jobs.push({ platform: 'X', job: postToX(captions.x) })
 
