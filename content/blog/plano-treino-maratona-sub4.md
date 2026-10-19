@@ -103,6 +103,10 @@ A última semana antes da prova, só há 10 km de corrida leve a 6:00 min/km
 Ao seguir este plano, aliado à disciplina de monitorizar a frequência cardíaca, a qualidade do sono e a ingestão de nutrientes, os corredores têm um caminho claro para cruzar a linha de chegada em menos de 4 horas.
 
 
+## Escolher a Prova para o Sub-4
+
+Para um objetivo de tempo, o percurso conta tanto como o plano. Prefere maratonas com perfil plano, partida cedo e clima ameno, e confirma que a data deixa espaço para o bloco completo de preparação mais o taper. Para pesquisar maratonas e tratar da inscrição, o [RaceFinder](https://racefinder.pt) agrupa as provas em Portugal por distância e data; o [A Minha Corrida](https://aminhacorrida.pt/) acompanha o calendário nacional e a atualidade das provas. Vê também o nosso [calendário de provas](/calendario).
+
 ## Referências Científicas
 
 1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  

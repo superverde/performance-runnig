@@ -66,6 +66,10 @@ Assim, o treino mental – praticar a atenção no presente e a auto‑afirmaç�
 Ao seguir este protocolo, a tua primeira maratona não será apenas um teste de resistência física, mas também um exercício de autoconhecimento e controle emocional.
 
 
+## Escolher a Primeira Maratona
+
+Na estreia, a escolha da prova é metade da gestão de expectativas: um percurso conhecido, perto de casa, com abastecimentos frequentes e muito público ajuda a manter a cabeça no lugar quando as pernas começam a pesar. Para descobrir maratonas e fazer a inscrição, o [RaceFinder](https://racefinder.pt) reúne as provas em Portugal; o [A Minha Corrida](https://aminhacorrida.pt/) cobre o calendário nacional, eventos e equipamento. O nosso [calendário de provas](/calendario) mostra as maratonas principais da época.
+
 ## Referências Científicas
 Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082  
 

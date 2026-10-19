@@ -79,6 +79,10 @@ A periodização de 12 semanas, estruturada em macro‑ciclo (4 semanas de vol
 Para um corredor intermédio que pretende correr 10 km em menos de 45 minutos, a chave reside numa periodização estruturada em 12 semanas, com 80 % de volume em zone 2 e 20 % em zonas de alta intensidade. Inclui‑se 2 sessões de força por semana, 2‑3 sessões de intervalos e 1‑2 sessões de corrida tempo. Na fase de afinação, reduz‑se o volume em 30 % e mantém‑se a velocidade de prova em intervalos curtos. Seguir esta estrutura, ajustando‑a ao feedback fisiológico individual, maximiza a probabilidade de atingir o objetivo de sub‑45 minutos.
 
 
+## Onde Testar o Sub-45
+
+Um 10 km certificado e plano é o melhor teste para este objetivo — percursos com muitas curvas, subidas ou distâncias mal medidas tornam o resultado pouco fiável. Para encontrar provas de 10 km e fazer a inscrição, o [RaceFinder](https://racefinder.pt) permite pesquisar por distância e data em todo o país. Consulta também o nosso [calendário de provas](/calendario).
+
 ## Referências Científicas
 
 1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276

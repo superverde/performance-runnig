@@ -274,6 +274,13 @@ export function CalendarioClient() {
             e podem sofrer pequenos ajustes. Confirma sempre a data e inscrições no site oficial da prova
             antes de planeares a tua época.
           </p>
+          <p className="text-[11px] text-white/30 leading-relaxed max-w-2xl mt-3">
+            Procuras mais provas ou queres fazer já a inscrição? O{' '}
+            <a href="https://racefinder.pt" target="_blank" rel="noopener" className="text-white/50 hover:text-brand-green underline underline-offset-2">RaceFinder</a>{' '}
+            reúne as provas em Portugal por distância e data, e{' '}
+            <a href="https://aminhacorrida.pt/" target="_blank" rel="noopener" className="text-white/50 hover:text-brand-green underline underline-offset-2">A Minha Corrida</a>{' '}
+            acompanha o calendário nacional de estrada e trail.
+          </p>
           <div className="mt-4 flex gap-3 flex-wrap">
             <Link href="/ferramentas" className="text-xs text-white/30 hover:text-brand-green transition-colors">
               Calculadora de Previsão de Tempos →

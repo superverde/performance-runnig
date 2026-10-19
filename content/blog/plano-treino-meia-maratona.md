@@ -246,6 +246,10 @@ Com este plano e treino consistente, um corredor de nível intermédio pode espe
 
 A meia maratona recompensa quem se prepara bem. 12 semanas de trabalho inteligente fazem toda a diferença.
 
+## Escolher a Meia Maratona Certa
+
+Um plano de 12 semanas só funciona se a prova estiver bem escolhida: data compatível com o bloco de treino, percurso rápido ou com desnível, clima previsível. Antes de começares a semana 1, conta 12 semanas para trás a partir do dia da prova. Para encontrar e comparar meias maratonas e fazer a inscrição, o [RaceFinder](https://racefinder.pt) reúne as provas em Portugal por distância e data; o nosso [calendário de provas](/calendario) destaca as principais da época.
+
 ## Referências
 
 Pfitzinger, P., & Douglas, S. (2009). *Advanced Marathoning* (2nd ed.). Human Kinetics.

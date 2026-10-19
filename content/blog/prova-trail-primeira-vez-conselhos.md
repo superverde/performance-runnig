@@ -73,6 +73,10 @@ O protocolo de preparação deve ser estruturado em fases: (1) adaptação de vo
 A execução fiel deste plano, alinhada às recomendações de Vernillo et al. (2017) e Millet et al. (2011), garante que o corredor esteja fisiologicamente preparado para as demandas do trail. Evitar os erros clássicos não só melhora a performance, mas também reduz o risco de lesões e aumenta a satisfação na primeira prova.
 
 
+## Escolher o Primeiro Trail
+
+Para a primeira prova de trail, escolhe uma distância curta (até 20 km) com desnível moderado e um percurso bem marcado — o objetivo é aprender a gerir o terreno, não sobreviver a ele. Para encontrar provas de trail e fazer a inscrição, o [RaceFinder](https://racefinder.pt) permite filtrar por distância e data; o [A Minha Corrida](https://aminhacorrida.pt/) acompanha o calendário de trail em Portugal. O nosso [calendário de provas](/calendario) inclui também as principais provas de montanha.
+
 ## Referências Científicas
 
 1. Vernillo, G., Giandolini, M., Edwards, W. B., Morin, J. B., Samozino, P., Horvais, N., & Millet, G. Y. (2017). Biomechanics and physiology of uphill and downhill running. Sports Medicine, 47(4), 615-629. https://doi.org/10.1007/s40279-016-0605-y
