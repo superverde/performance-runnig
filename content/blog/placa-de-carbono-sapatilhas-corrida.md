@@ -26,8 +26,8 @@ Barnes e Kilding (2019) confirmaram estes benefícios em corredores de elite de 
 Para corredores competitivos, especialmente os que correm distâncias de 10km a maratona, o benefício aeróbio marginal traduz-se em ganhos de tempo mensuráveis. No entanto, é importante gerir expetativas: os 4% reportados são uma média de grupo em condições controladas de passadeira, e a variabilidade individual é considerável — alguns atletas beneficiam mais de 5%, outros quase nada.
 
 Recomendações práticas:
-- Use estas sapatilhas apenas para provas e treinos-chave (séries de ritmo de prova, longões específicos), não para todo o volume de treino, uma vez que a durabilidade da espuma reativa tende a ser inferior à de sapatilhas convencionais;
-- Faça sempre um período de adaptação de 3-4 semanas antes de uma prova importante, correndo distâncias progressivamente mais longas com o modelo escolhido, para permitir que tendões e músculos se ajustem à nova distribuição de carga;
+- Usa estas sapatilhas apenas para provas e treinos-chave (séries de ritmo de prova, longões específicos), não para todo o volume de treino, uma vez que a durabilidade da espuma reativa tende a ser inferior à de sapatilhas convencionais;
+- Faz sempre um período de adaptação de 3-4 semanas antes de uma prova importante, correndo distâncias progressivamente mais longas com o modelo escolhido, para permitir que tendões e músculos se ajustem à nova distribuição de carga;
 - Não assuma que a sapatilha mais cara ou mais recente é automaticamente a melhor para o seu padrão biomecânico — teste geometrias diferentes (drop, altura de stack, rigidez da placa) antes de comprar para uma prova-alvo.
 
 ## Erros Comuns

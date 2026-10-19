@@ -80,7 +80,7 @@ Fazer em dias alternados ao HIIT, para evitar sobrecarga neuromuscular.
 2. **Ignorar a força** – corredores de elite mostram 25 % mais força na coxa que corredores amadores.  
 3. **Taper insuficiente** – 5 % de volume em vez de 30 % pode resultar em performance abaixo do potencial.  
 4. **Falta de monitorização** – não usar HR ou pace pode levar a sub‑ ou super‑exposição.  
-5. **Nutrição inadequada** – carência de carboidratos 24 h antes da prova pode reduzir a reserva de glicogênio em 15 %.
+5. **Nutrição inadequada** – carência de hidratos de carbono 24 h antes da prova pode reduzir a reserva de glicogênio em 15 %.
 
 ## Protocolo/Conclusão
 
@@ -97,4 +97,4 @@ Com disciplina, atenção aos detalhes e aplicação dos princípios científico
 2. Laursen, P. B. (2010). Training for intense exercise performance: high‑intensity or high‑volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x  
 3. Buchheit, M., & Laursen, P. B. (2013). High‑intensity interval training, solutions to the programming puzzle. Sports Medicine, 43(5), 313-338. https://doi.org/10.1007/s40279-013-0029-x  
 4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle‑ and long‑distance running performance: a systematic review. Sports Medicine, 48(5), 1117-1149. https://doi.org/10.1007/s40279-017-0835-7  
-5. Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (
+5. Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (2007). Effects of tapering on performance: a meta-analysis. *Medicine & Science in Sports & Exercise*, 39(8), 1358–1365. https://doi.org/10.1249/mss.0b013e31806010e0

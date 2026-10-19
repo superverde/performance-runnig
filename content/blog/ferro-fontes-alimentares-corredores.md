@@ -9,25 +9,25 @@ keywords: ["alimentos ricos em ferro", "absorção de ferro", "ferro na dieta"]
 readTime: 4
 ---
 
-Os corredores são conhecidos por suas exigências físicas e nutricionais altas, tornando a escolha da alimentação adequada fundamental para o desempenho e a recuperação. A absorção de nutrientes é um processo complexo que envolve muitos fatores, incluindo a fonte alimentar, a quantidade ingerida, a frequência de ingestão e o estado de hidratação. Embora muitos corredores estejam cientes da importância de consumir carboidratos, proteínas e gorduras, a forma como esses nutrientes são absorvidos e utilizados pelo corpo é frequentemente ignorada.
+Os corredores são conhecidos por suas exigências físicas e nutricionais altas, tornando a escolha da alimentação adequada fundamental para o desempenho e a recuperação. A absorção de nutrientes é um processo complexo que envolve muitos fatores, incluindo a fonte alimentar, a quantidade ingerida, a frequência de ingestão e o estado de hidratação. Embora muitos corredores estejam cientes da importância de consumir hidratos de carbono, proteínas e gorduras, a forma como esses nutrientes são absorvidos e utilizados pelo corpo é frequentemente ignorada.
 
 A nutrição para corredores é uma área em constante evolução, com novas pesquisas e descobertas que ajudam a esclarecer os melhores hábitos alimentares para alcançar a performance ótima. No entanto, a confusão ainda persiste, e muitos corredores não sabem como maximizar a absorção de nutrientes essenciais para o treino e a recuperação. Neste artigo, exploraremos as fontes alimentares mais eficazes para corredores e forneceremos dicas práticas para melhorar a absorção de nutrientes.
 
 ## Base Científica
 
-A ingestão de nutrientes é um processo complexo que envolve a interação de várias substâncias químicas, incluindo enzimas, açúcares e outros nutrientes. A absorção de nutrientes ocorre principalmente no intestino delgado e é influenciada por fatores como a frequência de ingestão, a quantidade ingerida e o estado de hidratação. De acordo com a American College of Sports Medicine (ACSM), a ingestão de carboidratos é fundamental para a recuperação muscular e a manutenção da energia durante o treino (Thomas et al., 2016).
+A ingestão de nutrientes é um processo complexo que envolve a interação de várias substâncias químicas, incluindo enzimas, açúcares e outros nutrientes. A absorção de nutrientes ocorre principalmente no intestino delgado e é influenciada por fatores como a frequência de ingestão, a quantidade ingerida e o estado de hidratação. De acordo com a American College of Sports Medicine (ACSM), a ingestão de hidratos de carbono é fundamental para a recuperação muscular e a manutenção da energia durante o treino (Thomas et al., 2016).
 
-Os carboidratos são a principal fonte de energia para corredores, especialmente durante os exercícios de intensidade alta. De acordo com a ACSM, a ingestão de carboidratos durante o treino pode melhorar a performance e reduzir a perda de massa muscular (Jeukendrup, 2014). Além disso, a ingestão de proteínas é fundamental para a recuperação muscular e a manutenção da massa muscular (Burke et al., 2011).
+Os hidratos de carbono são a principal fonte de energia para corredores, especialmente durante os exercícios de intensidade alta. De acordo com a ACSM, a ingestão de hidratos de carbono durante o treino pode melhorar a performance e reduzir a perda de massa muscular (Jeukendrup, 2014). Além disso, a ingestão de proteínas é fundamental para a recuperação muscular e a manutenção da massa muscular (Burke et al., 2011).
 
 ## Aplicação Prática
 
 Agora que compreendemos a base científica da absorção de nutrientes, vamos explorar algumas dicas práticas para maximizar a absorção de nutrientes essenciais para corredores.
 
-### Carboidratos
+### Hidratos de carbono
 
-* Ingerir carboidratos complexos, como frutas, legumes e grãos integrais, antes, durante e após o treino.
-* Escolher fontes de carboidratos ricas em fibras, como aveia, quinoa e brócolis.
-* Ingerir carboidratos em quantidades adequadas para a intensidade e duração do treino.
+* Ingerir hidratos de carbono complexos, como frutas, legumes e grãos integrais, antes, durante e após o treino.
+* Escolher fontes de hidratos de carbono ricas em fibras, como aveia, quinoa e brócolis.
+* Ingerir hidratos de carbono em quantidades adequadas para a intensidade e duração do treino.
 
 ### Proteínas
 
@@ -51,15 +51,15 @@ Agora que compreendemos a base científica da absorção de nutrientes, vamos ex
 
 Para maximizar a absorção de nutrientes essenciais para corredores, siga os seguintes protocolos:
 
-* Ingerir carboidratos complexos antes, durante e após o treino.
+* Ingerir hidratos de carbono complexos antes, durante e após o treino.
 * Ingerir proteínas de alta qualidade após o treino.
 * Ingerir gorduras saudáveis após o treino.
 * Mantenha-se hidratado ao longo do treino.
-* Escolha fontes de nutrientes de alta qualidade.
+* Escolhe fontes de nutrientes de alta qualidade.
 
 ## Conclusão
 
-A absorção de nutrientes é um processo complexo que envolve muitos fatores. Ao entender a base científica da absorção de nutrientes e seguir dicas práticas para maximizar a absorção de nutrientes essenciais para corredores, é possível melhorar a performance e a recuperação. Lembre-se de escolher fontes de nutrientes de alta qualidade e de seguir protocolos adequados para alcançar a performance ótima.
+A absorção de nutrientes é um processo complexo que envolve muitos fatores. Ao entender a base científica da absorção de nutrientes e seguir dicas práticas para maximizar a absorção de nutrientes essenciais para corredores, é possível melhorar a performance e a recuperação. Lembra-te de escolher fontes de nutrientes de alta qualidade e de seguir protocolos adequados para alcançar a performance ótima.
 
 ## Referências Científicas
 

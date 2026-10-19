@@ -9,7 +9,7 @@ keywords: ["treino progressivo", "progression run", "treino de limiar"]
 readTime: 5
 ---
 
-A corrida progressiva é uma técnica de treino que tem ganhado destaque nos últimos anos, especialmente entre os corredores que buscam melhorar seu desempenho em competições de longa distância. Esta técnica envolve a execução de intervalos de corrida com velocidades progressivamente mais altas, seguidos de descansos ou exercícios de recuperação. O objetivo é aumentar a capacidade de produção de força e de velocidade do corredor, melhorando assim sua eficiência e rendimento em corridas de longa distância.
+A corrida progressiva é uma técnica de treino que tem ganhado destaque nos últimos anos, especialmente entre os corredores que procuram melhorar seu desempenho em competições de longa distância. Esta técnica envolve a execução de intervalos de corrida com velocidades progressivamente mais altas, seguidos de descansos ou exercícios de recuperação. O objetivo é aumentar a capacidade de produção de força e de velocidade do corredor, melhorando assim sua eficiência e rendimento em corridas de longa distância.
 
 A corrida progressiva é um treino muito versátil, que pode ser adaptado a diferentes níveis de habilidade e objetivos. Além disso, é uma técnica muito eficaz para melhorar a resistência cardiovascular e a capacidade de produção de força muscular, dois dos principais fatores que contribuem para o desempenho em corridas de longa distância. Neste artigo, vamos explorar a base científica da corrida progressiva, sua aplicação prática e os erros comuns que os corredores devem evitar.
 

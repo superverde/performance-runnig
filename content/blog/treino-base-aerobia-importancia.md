@@ -22,7 +22,7 @@ Outro fator importante é a adaptação cardiovascular, que é responsável por 
 
 A aplicação prática da base aeróbica envolve a inclusão de treinos de intensidade moderada em 80% do treino total. Isso pode ser alcançado por meio de corridas de longa duração, caminhadas rápidas ou ciclismo. A intensidade moderada é definida como 60-70% da intensidade máxima, o que significa que o atleta deve sentir-se confortável, mas ainda estar trabalhando.
 
-Um exemplo de como aplicar a base aeróbica em um treino de corrida é o seguinte:
+Um exemplo de como aplicar a base aeróbica num treino de corrida é o seguinte:
 
 - Corrida de fundo de 30 minutos a uma intensidade de 60-70% da intensidade máxima (5-6 km/h)
 - Corrida de intervalos de 20 minutos a uma intensidade de 70-80% da intensidade máxima (6-7 km/h)

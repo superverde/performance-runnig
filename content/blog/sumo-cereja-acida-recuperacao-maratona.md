@@ -11,15 +11,15 @@ faqs:
     a: "Recomenda‑se 250 ml 24 h antes e 250 ml 24 h depois da prova; pode repetir a dose 24 h após a segunda, se a dor persistir."
   - q: "O sumo de cereja ácida interfere com a absorção de proteínas pós‑exercício?"
     a: "Não há evidências de interação; a TCJ pode até melhorar a síntese proteica devido ao seu efeito anti‑inflamatório."
-  - q: "Posso substituir o sumo de cereja ácida por suco de uva ou outras bebidas?"
-    a: "Não, pois o suco de uva tem menor teor de antocianinas; a TCJ contém compostos específicos que demonstraram benefícios na recuperação."
+  - q: "Posso substituir o sumo de cereja ácida por sumo de uva ou outras bebidas?"
+    a: "Não, pois o sumo de uva tem menor teor de antocianinas; a TCJ contém compostos específicos que demonstraram benefícios na recuperação."
 ---
 
 O sumo de cereja ácida pode reduzir a dor muscular e acelerar a recuperação pós‑maratona, segundo estudos que medem marcadores inflamatórios e desempenho subsequente.  
 
 O consumo de sumo de cereja ácida (tart cherry juice – TCJ) tem sido alvo de investigação desde 2010, quando Howatson et al. demonstraram que a ingestão de 250 ml 24 h antes de uma prova de maratona diminui a dor muscular e melhora a força nas 48 h seguintes. A sua eficácia deriva de compostos fenólicos, principalmente antocianinas, que possuem potentes efeitos anti‑inflamatórios e antioxidantes.  
 
-Para os corredores de elite e amadores que buscam otimizar a fase de recuperação, compreender a base fisiológica, as dosagens recomendadas e as possíveis armadilhas é essencial. A seguir, descrevo a evidência científica, apresento um protocolo prático e alerto para os erros mais comuns.
+Para os corredores de elite e amadores que procuram otimizar a fase de recuperação, compreender a base fisiológica, as dosagens recomendadas e as possíveis armadilhas é essencial. A seguir, descrevo a evidência científica, apresento um protocolo prático e alerto para os erros mais comuns.
 
 ## Base Científica
 
@@ -31,11 +31,11 @@ Estudos de Howatson e colegas (2010) mostraram que a ingestão de 250 ml 24 
 
 ### Melhora na função neuromuscular
 
-Além dos efeitos anti‑inflamatórios, a TCJ parece melhorar a recuperação neuromuscular. Em um ensaio randomizado, corredores que beberam TCJ apresentaram recuperação de 90 % da força isocinética máxima 48 h após a prova, enquanto o grupo controle recuperou apenas 70 % (Bishop et al., 2008). Isso sugere que a TCJ pode preservar a excitação neuromuscular, reduzindo a fadiga central.
+Além dos efeitos anti‑inflamatórios, a TCJ parece melhorar a recuperação neuromuscular. Num ensaio randomizado, corredores que beberam TCJ apresentaram recuperação de 90 % da força isocinética máxima 48 h após a prova, enquanto o grupo de controlo recuperou apenas 70 % (Bishop et al., 2008). Isso sugere que a TCJ pode preservar a excitação neuromuscular, reduzindo a fadiga central.
 
 ### Sinergia com outras estratégias
 
-A eficácia da TCJ não se limita ao seu consumo isolado. Quando combinada com hidratação adequada, sono de qualidade e alimentação rica em carboidratos e proteínas, os benefícios são potencializados. A literatura indica que a TCJ pode amplificar os efeitos do sono na recuperação muscular (Vitale et al., 2019), reforçando a importância de uma abordagem holística.
+A eficácia da TCJ não se limita ao seu consumo isolado. Quando combinada com hidratação adequada, sono de qualidade e alimentação rica em hidratos de carbono e proteínas, os benefícios são potencializados. A literatura indica que a TCJ pode amplificar os efeitos do sono na recuperação muscular (Vitale et al., 2019), reforçando a importância de uma abordagem holística.
 
 ## Aplicação Prática
 
@@ -57,7 +57,7 @@ A eficácia da TCJ não se limita ao seu consumo isolado. Quando combinada com h
 ### Integração com o regime de recuperação
 
 - **Sono**: A TCJ pode reduzir a inflamação que interfere na qualidade do sono. Certifica‑se de dormir 7–9 h nas 48 h seguintes.
-- **Nutrição**: Após a prova, consome 1,5 g/kg de proteína em 30 min e 0,8 g/kg de carboidratos em 2 h. A TCJ não substitui esses nutrientes, apenas complementa a recuperação.
+- **Nutrição**: Após a prova, consome 1,5 g/kg de proteína em 30 min e 0,8 g/kg de hidratos de carbono em 2 h. A TCJ não substitui esses nutrientes, apenas complementa a recuperação.
 - **Alongamento e mobilidade**: Realiza sessões de mobilidade de 30 min 24 h depois da prova para reduzir a tensão muscular.
 
 ## Erros Comuns
@@ -66,7 +66,7 @@ A eficácia da TCJ não se limita ao seu consumo isolado. Quando combinada com h
 |------|--------------|-------------|
 | Consumir apenas após a prova | Perde o efeito preventivo | Inicia 24 h antes |
 | Usar a mesma dose em todas as provas | Pode causar desconforto gastrointestinal | Ajusta a dose se sentir náusea |
-| Substituir a TCJ por suco de uva | Menor teor de antocianinas | Verifica o conteúdo de antocianinas |
+| Substituir a TCJ por sumo de uva | Menor teor de antocianinas | Verifica o conteúdo de antocianinas |
 | Ignorar a hidratação | Aumenta o risco de cãibras | Bebe 1,5 L de água por dia |
 | Não monitorizar a dor | Perde sinais de over‑recovery | Regista a dor em escala 0‑10 diariamente |
 
@@ -85,4 +85,4 @@ Para atletas que correm maratonas regularmente, recomenda‑se a ingestão diár
 
 3. Vitale, K. C., Owens, R., Hopkins, S. R., & Malhotra, A. (2019). Sleep hygiene for optimizing recovery in athletes: review and recommendations. International Journal of Sports Medicine, 40(8), 535-543. https://doi.org/10.1055/a-0905-3103
 
-4. Dupuy, O., Douzi, W., Theurot, D., Bosquet, L., & Dugue, B. (2018). An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue,
+4. Dupuy, O., Douzi, W., Theurot, D., Bosquet, L., & Dugué, B. (2018). An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: a systematic review with meta-analysis. *Frontiers in Physiology*, 9, 403. https://doi.org/10.3389/fphys.2018.00403

@@ -30,7 +30,7 @@ Para preparar-se para uma corrida de ultra trail de 100km, é fundamental desenv
 
 ## Erros Comuns
 
-Existem várias razões pelas quais os corredores podem falhar em uma corrida de ultra trail de 100km. A seguir, estão alguns exemplos comuns:
+Existem várias razões pelas quais os corredores podem falhar numa corrida de ultra trail de 100km. A seguir, estão alguns exemplos comuns:
 
 - **Subestimar a dificuldade do percurso**: A corrida de ultra trail de 100km é um desporto extremamente exigente que requer uma preparação cuidadosa e sistemática. É fundamental subestimar a dificuldade do percurso e desenvolver uma rotina de treino adequada.
 - **Não lidar com a tensão e o fadiga**: A corrida de ultra trail de 100km pode levar a uma sensação de dor e fadiga significativa. É fundamental desenvolver uma grande capacidade para lidar com a tensão e o fadiga, incluindo treinos de corrida em condições de calor e humidade elevadas.

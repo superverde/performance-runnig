@@ -18,7 +18,7 @@ Uma das principais razões pelas quais os corredores têm dificuldade em obter n
 
 ## Base Científica
 
-A vitamina D é um grupo de hormônios esteroides que desempenha um papel fundamental na regulação do metabolismo ósseo e imunológico. A vitamina D é produzida na pele quando a radiação solar ultravioleta (UV) interage com a queratina, uma proteína encontrada na pele. A vitamina D também pode ser obtida através da ingestão de alimentos ricos em vitamina D, como peixes gordurosos, ovos e leite fortificado.
+A vitamina D é um grupo de hormonas esteroides que desempenha um papel fundamental na regulação do metabolismo ósseo e imunológico. A vitamina D é produzida na pele quando a radiação solar ultravioleta (UV) interage com a queratina, uma proteína encontrada na pele. A vitamina D também pode ser obtida através da ingestão de alimentos ricos em vitamina D, como peixes gordurosos, ovos e leite fortificado.
 
 A falta de vitamina D pode levar a problemas ósseos, como osteoporose e rachas ósseas, devido à perda de densidade óssea. Além disso, a vitamina D é importante para a regulação do metabolismo, o que pode influenciar a performance desportiva. Estudos têm mostrado que a falta de vitamina D pode aumentar a dor e a inflamação muscular, o que pode afetar a capacidade de realizar treinos intensos.
 
@@ -38,8 +38,7 @@ Outro erro comum é a suplementação inadequada com vitamina D. Corredores deve
 
 Em resumo, a vitamina D é uma das vitaminas mais importantes para corredores. A falta de vitamina D pode levar a problemas ósseos, aumentar a dor e a inflamação muscular e afetar a performance desportiva. Para obter níveis adequados de vitamina D, é importante combinar a exposição ao sol com a ingestão de alimentos ricos em vitamina D e consultar um profissional de saúde antes de iniciar qualquer suplementação.
 
-**Referências Científicas**
-
+## Referências Científicas
 1. Holick, M. F. (2007). Vitamin D deficiency. The New England Journal of Medicine, 357(3), 266-281. doi: 10.1056/NEJMra070553
 2. Weaver, C. M., & Proulx, W. R. (2008). Choices for achieving adequate calcium with a vegetarian diet. American Journal of Clinical Nutrition, 87(3), 694S-699S.
 3. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement: Nutrition and Athletic Performance. Medicine & Science in Sports & Exercise, 48(3), 543-568. doi: 10.1249/MSS.0000000000000852

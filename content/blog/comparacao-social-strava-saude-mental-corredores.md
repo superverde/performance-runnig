@@ -99,4 +99,4 @@ Implementar este protocolo ajuda a transformar a comparação social num motivad
 1. Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554  
 2. Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082  
 3. McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6  
-4. Marcora, S. M., Staiano, W., & Manning, V. (
+4. Marcora, S. M., Staiano, W., & Manning, V. (2009). Mental fatigue impairs physical performance in humans. *Journal of Applied Physiology*, 106(3), 857–864. https://doi.org/10.1152/japplphysiol.91324.2008

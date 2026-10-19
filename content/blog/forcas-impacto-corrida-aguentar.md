@@ -15,7 +15,7 @@ faqs:
     a: "Superfícies macias como pista de atletismo ou trilhos de terra firme oferecem amortecimento natural, diminuindo a FRS em comparação com asfalto duro."
 ---
 
-As forças de impacto corrida são as forças que ocorrem no instante de contato do pé com o solo e que o corpo tem de suportar a cada passo. Este fenómeno determina o risco de lesões e a eficiência do movimento.
+As forças de impacto corrida são as forças que ocorrem no instante de contacto do pé com o solo e que o corpo tem de suportar a cada passo. Este fenómeno determina o risco de lesões e a eficiência do movimento.
 
 Quando corremos, o pé desce em direção ao solo com velocidade e, ao atingir o solo, ocorre uma colisão que gera uma força de reação do solo (FRS). A magnitude dessa força pode chegar a 2–3 vezes o peso corporal, dependendo da técnica, velocidade e superfície. A forma como o corpo absorve essa carga influencia diretamente o impacto nas articulações, sobretudo joelhos e tornozelos.
 
@@ -47,7 +47,7 @@ Monitorizar a cadência com um relógio GPS ou aplicação de treino permite aju
 
 ## Erros Comuns
 
-- **Pisada posterior excessiva**: Pode aumentar a FRS em 20 % em comparação com pisada neutra. Evite ficar a “pousar” nos calcanhares.
+- **Pisada posterior excessiva**: Pode aumentar a FRS em 20 % em comparação com pisada neutra. Evita ficar a “pousar” nos calcanhares.
 - **Desacelerar abruptamente**: Reduz a capacidade de absorção, provocando impacto direto nas articulações. Mantém uma transição suave ao reduzir a velocidade.
 - **Superfícies irregulares sem preparação**: Correr em terrenos ásperos sem fortalecimento prévio pode levar a lesões por sobrecarga.
 

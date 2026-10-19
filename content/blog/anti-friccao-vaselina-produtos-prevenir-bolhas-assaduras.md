@@ -37,7 +37,7 @@ Para mais informações sobre como melhorar o VO2 max, leia o nosso artigo sobre
 
 ## Veredicto: Qual Comprar
 
-A escolha do produto de anti-fricção ou vaselina depende do teu perfil de corrida e do teu orçamento. Se estás a começar a correr, é recomendável começar com um produto de vaselina simples e barato, como o Vaseline Original. Se estás a correr regularmente, é recomendável investir em um produto de anti-fricção mais eficaz, como o SweatBlock.
+A escolha do produto de anti-fricção ou vaselina depende do teu perfil de corrida e do teu orçamento. Se estás a começar a correr, é recomendável começar com um produto de vaselina simples e barato, como o Vaseline Original. Se estás a correr regularmente, é recomendável investir num produto de anti-fricção mais eficaz, como o SweatBlock.
 
 Se estás a correr com frequência e precisas de uma solução mais completa, é recomendável considerar um produto de anti-fricção que contenha ingredientes adicionais, como o BodyGlide. Além disso, é importante lembrar que o produto deve ser aplicado regularmente para ser eficaz.
 

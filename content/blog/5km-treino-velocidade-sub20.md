@@ -59,7 +59,7 @@ Este plano é repetido nas semanas 1–4 (fase de base), ajustando a distância 
 - **Dia 4**: Levantamento terra 3 × 6 (70 % 1RM), Elevação de barriga da perna 3 × 15, Abdominais dinâmicos 3 × 12.
 
 ### Nutrição e Recuperação  
-- Ingestão de carboidratos 6–10 g kg⁻¹ h⁻¹ durante treinos de longa duração.  
+- Ingestão de hidratos de carbono 6–10 g kg⁻¹ h⁻¹ durante treinos de longa duração.  
 - Proteína 1,2–1,4 g kg⁻¹ dia para suportar reparação muscular.  
 - Sono mínimo 7 h/ noite; técnicas de relaxamento (respiração diafragmática) após treinos intensos.
 

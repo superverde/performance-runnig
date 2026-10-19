@@ -63,7 +63,7 @@ Além disso, a revisão de Vitale et al. (2019) mostra que práticas de higien
 
 | Erro | Impacto | Correção |
 |------|---------|----------|
-| Dormir < 6 h | Diminuição de 5 % na velocidade de 5 km | Planejar horário de dormir 1 h mais cedo |
+| Dormir < 6 h | Diminuição de 5 % na velocidade de 5 km | Planear horário de dormir 1 h mais cedo |
 | Irregularidade nos fins de semana | Desregulação do ritmo circadiano | Manter horário de dormir/levantar similar |
 | Uso excessivo de dispositivos | Redução de 20 % da eficiência do sono | Desligar 30 min antes de dormir |
 | Comer tarde ou cafeína tardia | Aumento de latência em 30 min | Evitar alimentos pesados e cafeína após 16h |

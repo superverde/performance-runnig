@@ -48,7 +48,7 @@ Abaixo, selecionámos alguns dos melhores eletroestimuladores de recuperação d
 |---------|-------------|---------------|---------------|----------------|
 | **Compex 4.0** | Corredores de média a longa distância | Programas específicos para recuperação, conectividade app | Peso relativamente elevado | 250 €‑300 € |
 | **TENS Desporto Elite** | Atletas que valorizam a portabilidade | Design leve, bateria de 2 h, eletrodos intercambiáveis | Menos programas avançados | 180 €‑220 € |
-| **MyoStim Pro** | Competidores que procuram estímulo muscular | Intensidade ajustável em 20 níveis, tela LCD | Preço mais alto | 280 €‑350 € |
+| **MyoStim Pro** | Competidores que procuram estímulo muscular | Intensidade ajustável em 20 níveis, ecrã LCD | Preço mais alto | 280 €‑350 € |
 | **PulseFit 2** | Iniciantes com foco na massagem | Simples de usar, boa ergonomia | Pouca personalização | 150 €‑190 € |
 | **FlexiStim 3000** | Corredores de ultra-marathon | Longa autonomia de bateria, resistente à água | Peso maior | 270 €‑320 € |
 

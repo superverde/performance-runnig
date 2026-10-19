@@ -36,7 +36,7 @@ Para adaptar os músculos a subidas intensas, recomenda‑se treinos de subida c
 A corrida em altitude reduz a disponibilidade de oxigénio, exigindo um aumento gradual da carga aeróbica. Um protocolo de 4 semanas, onde a distância semanal aumenta 10 % a cada semana, permite ao corpo adaptar‑se sem sobrecarregar o sistema cardiovascular.  
 
 ### Técnica de Descida  
-Descidas rápidas exigem controle de velocidade e absorção de impacto. Práticas de “downhill tempo trials”, em que o atleta mantém um ritmo de 5 min/km em descida, ajudam a desenvolver a técnica de amortecimento com os calçados adequados (peso médio de 250 g).  
+Descidas rápidas exigem controlo de velocidade e absorção de impacto. Práticas de “downhill tempo trials”, em que o atleta mantém um ritmo de 5 min/km em descida, ajudam a desenvolver a técnica de amortecimento com os calçados adequados (peso médio de 250 g).  
 
 ### Equipamento  
 Cascos de alta resistência, cordas de trekking e sapatos com crampones são obrigatórios em provas de skyrunning. O peso total do equipamento costuma ultrapassar 2 kg, sendo vital um equilíbrio entre proteção e mobilidade.  
@@ -51,7 +51,7 @@ Cascos de alta resistência, cordas de trekking e sapatos com crampones são obr
 
 Para competir em provas de skyrunning, o atleta deve combinar treinos de força, resistência e técnica de subida/descida, além de um plano de nutrição e hidratação ajustado à altitude. A preparação deve ser gradual, com um aumento de carga semanal de 8–10 % e períodos de recuperação ativos para evitar sobrecarga neuromuscular.  
 
-O skyrunning oferece um desafio fisiológico superior ao trail running tradicional, exigindo não só resistência cardiovascular, mas também força muscular específica e controle técnico em terrenos extremos. Ao compreender estas diferenças e seguir um protocolo científico, os corredores podem otimizar o desempenho e reduzir o risco de lesões.  
+O skyrunning oferece um desafio fisiológico superior ao trail running tradicional, exigindo não só resistência cardiovascular, mas também força muscular específica e controlo técnico em terrenos extremos. Ao compreender estas diferenças e seguir um protocolo científico, os corredores podem otimizar o desempenho e reduzir o risco de lesões.  
 
 
 ## Referências Científicas  

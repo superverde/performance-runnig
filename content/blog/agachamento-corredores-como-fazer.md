@@ -21,7 +21,7 @@ Para corredores de elite ou amadores, o agachamento não é apenas um exercício
 A maioria dos corredores subestima a importância do treino de força, focando apenas em kilometrajes. Contudo, estudos demonstram que a integração de exercícios de força, especialmente agachamentos, reduz o risco de lesões como tendinite do patelar e síndrome do trato iliotibial, além de aumentar a economia de corrida em 3‑5 % (Blagrove et al., 2018). A seguir, detalhamos a técnica, variantes, progressão e protocolos de treino adaptados ao perfil de corredores.
 
 ## Base Científica  
-O agachamento ativa o quadríceps femoral, glúteo máximo e músculos estabilizadores do core, que são os principais motores de propulsão na corrida. A biomecânica da passada mostra que a força quadríceps gera 60–70 % da força propulsiva, enquanto o glúteo fornece estabilidade e controle de extensão hipocêntrica (Laursen, 2010). Além disso, a carga sobre a coluna lombar aumenta em até 2 × o peso corporal; portanto, a técnica correta é vital para evitar lombalgia.  
+O agachamento ativa o quadríceps femoral, glúteo máximo e músculos estabilizadores do core, que são os principais motores de propulsão na corrida. A biomecânica da passada mostra que a força quadríceps gera 60–70 % da força propulsiva, enquanto o glúteo fornece estabilidade e controlo de extensão hipocêntrica (Laursen, 2010). Além disso, a carga sobre a coluna lombar aumenta em até 2 × o peso corporal; portanto, a técnica correta é vital para evitar lombalgia.  
 
 A periodização de força para corredores segue três fases principais: hipertrofia (4–6 sem), força (3–4 sem) e potência (2–3 sem), conforme Bompa & Buzzichelli (2018). Cada fase tem objetivos distintos: aumento de massa muscular, aumento de carga máxima e transferência de potência à corrida.  
 
@@ -58,7 +58,7 @@ A carga deve aumentar de 2–3 % entre as semanas, monitorizando a técnica e 
 Ignorar esses erros pode levar a lesões de quadril, joelho ou coluna, comprometendo a performance de corrida.
 
 ## Protocolo/Conclusão  
-Integre o agachamento ao seu plano semanal de força, duas vezes por semana, alternando variantes para evitar estagnação. Combine com sessões de corrida de resistência (2‑3 x/sem) e intervalos de velocidade (1‑2 x/sem).  
+Integra o agachamento ao seu plano semanal de força, duas vezes por semana, alternando variantes para evitar estagnação. Combina com sessões de corrida de resistência (2‑3 x/sem) e intervalos de velocidade (1‑2 x/sem).  
 
 Para corredores de elite, a fase de potência deve ser curta (2‑3 sem) para maximizar a transferência de força à corrida, enquanto corredores amadores podem estender a fase de hipertrofia a 6 sem para construir base muscular.  
 
@@ -69,4 +69,4 @@ A monitorização de carga, volume e forma, usando ferramentas como sensores de 
 1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
 2. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x  
 3. Bompa, T. O., & Buzzichelli, C. (2018). Periodization: Theory and Methodology of Training (6th ed.). Human Kinetics.  
-4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018
+4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7

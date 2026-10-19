@@ -11,31 +11,31 @@ readTime: 4
 
 A corrida de ultra trail é um desporto de resistência em que os atletas precisam lidar com desafios extremos, incluindo distâncias longas, elevações significativas e condições climáticas adversas. Neste contexto, a estratégia de abastecimento é fundamental para garantir o desempenho ótimo durante a corrida. O objetivo é fornecer ao corpo energia suficiente para realizar as atividades físicas intensas, ao mesmo tempo em que evita a ingestão excessiva de líquidos e nutrientes que podem causar problemas de digestão e outros desconfortos.
 
-Os atletas de ultra trail precisam considerar vários fatores ao planejar a sua estratégia de abastecimento. Em primeiro lugar, devem conhecer as suas necessidades calóricas e hidráulicas individuais, que podem variar dependendo da intensidade e duração da corrida. Além disso, é importante escolher os alimentos e bebidas certos para fornecer energia rápida e eficazmente. Por exemplo, os carboidratos simples, como o melaço ou o xarope de milho, podem ser úteis para fornecer energia rápida, enquanto os carboidratos complexos, como o arroz ou a aveia, podem ser mais adequados para fornecer energia mais duradoura.
+Os atletas de ultra trail precisam considerar vários fatores ao planear a sua estratégia de abastecimento. Em primeiro lugar, devem conhecer as suas necessidades calóricas e hidráulicas individuais, que podem variar dependendo da intensidade e duração da corrida. Além disso, é importante escolher os alimentos e bebidas certos para fornecer energia rápida e eficazmente. Por exemplo, os hidratos de carbono simples, como o melaço ou o xarope de milho, podem ser úteis para fornecer energia rápida, enquanto os hidratos de carbono complexos, como o arroz ou a aveia, podem ser mais adequados para fornecer energia mais duradoura.
 
 ### Base Científica
 
-A ingestão de carboidratos durante a corrida de ultra trail é fundamental para manter o nível de glicose no sangue e evitar a hipoglicemia. De acordo com o estudo de Millet et al. (2011), os atletas que consumiram carboidratos durante uma corrida de ultra maratona tiveram uma melhoria significativa no desempenho em comparação com aqueles que não consumiram carboidratos. Além disso, o estudo de Balducci et al. (2017) mostrou que a ingestão de carboidratos durante uma corrida de ultra maratona pode reduzir a perda de massa muscular.
+A ingestão de hidratos de carbono durante a corrida de ultra trail é fundamental para manter o nível de glicose no sangue e evitar a hipoglicemia. De acordo com o estudo de Millet et al. (2011), os atletas que consumiram hidratos de carbono durante uma corrida de ultra maratona tiveram uma melhoria significativa no desempenho em comparação com aqueles que não consumiram hidratos de carbono. Além disso, o estudo de Balducci et al. (2017) mostrou que a ingestão de hidratos de carbono durante uma corrida de ultra maratona pode reduzir a perda de massa muscular.
 
 ### Aplicação Prática
 
-A estratégia de abastecimento em ultra trail deve ser planejada com antecedência. Aqui estão algumas dicas práticas para ajudar a escolher os alimentos e bebidas certos:
+A estratégia de abastecimento em ultra trail deve ser planeada com antecedência. Aqui estão algumas dicas práticas para ajudar a escolher os alimentos e bebidas certos:
 
-* **Ingestão de carboidratos**: consumir carboidratos simples, como o melaço ou o xarope de milho, 30-60 minutos antes da corrida para fornecer energia rápida. Além disso, consumir carboidratos complexos, como o arroz ou a aveia, ao longo da corrida para fornecer energia mais duradoura.
+* **Ingestão de hidratos de carbono**: consumir hidratos de carbono simples, como o melaço ou o xarope de milho, 30-60 minutos antes da corrida para fornecer energia rápida. Além disso, consumir hidratos de carbono complexos, como o arroz ou a aveia, ao longo da corrida para fornecer energia mais duradoura.
 * **Ingestão de líquidos**: consumir líquidos suficientes para evitar a desidratação, mas não exagerar na ingestão de líquidos para evitar problemas de digestão.
 * **Ingestão de proteínas**: consumir proteínas após a corrida para ajudar a reparar os danos musculares.
 
 ### Erros Comuns
 
-Existem alguns erros comuns que os atletas podem cometer ao planejar a sua estratégia de abastecimento em ultra trail:
+Existem alguns erros comuns que os atletas podem cometer ao planear a sua estratégia de abastecimento em ultra trail:
 
 * **Ingestão excessiva de líquidos**: consumir líquidos demais pode levar à sobrecarga hidráulica e problemas de digestão.
-* **Falta de ingestão de carboidratos**: não consumir carboidratos suficientes pode levar à hipoglicemia e reduzir o desempenho.
-* **Escolha de alimentos inadequados**: escolher alimentos que não fornecem energia rápida ou duradoura pode levar a problemas de desempenho.
+* **Falta de ingestão de hidratos de carbono**: não consumir hidratos de carbono suficientes pode levar à hipoglicemia e reduzir o desempenho.
+* **Escolhe de alimentos inadequados**: escolher alimentos que não fornecem energia rápida ou duradoura pode levar a problemas de desempenho.
 
 ### Protocolo/Conclusão
 
-A estratégia de abastecimento em ultra trail é fundamental para garantir o desempenho ótimo durante a corrida. Os atletas devem conhecer as suas necessidades calóricas e hidráulicas individuais, escolher os alimentos e bebidas certos e evitar os erros comuns. Ao seguir essas dicas, os atletas podem planejar uma estratégia de abastecimento eficaz e alcançar os seus objetivos em ultra trail.
+A estratégia de abastecimento em ultra trail é fundamental para garantir o desempenho ótimo durante a corrida. Os atletas devem conhecer as suas necessidades calóricas e hidráulicas individuais, escolher os alimentos e bebidas certos e evitar os erros comuns. Ao seguir essas dicas, os atletas podem planear uma estratégia de abastecimento eficaz e alcançar os seus objetivos em ultra trail.
 
 ## Referências Científicas
 

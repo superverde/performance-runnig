@@ -17,7 +17,7 @@ faqs:
 
 A eletroestimulação recuperação é uma técnica que utiliza correntes elétricas de baixa frequência para estimular os músculos e acelerar o processo de reabilitação após sessões intensas de corrida. Em vez de depender apenas de descanso, a sua aplicação pode reduzir a dor, melhorar a circulação e acelerar a recuperação muscular.
 
-Para os atletas de elite, a diferença entre um dia de treino e o próximo pode ser medida em minutos. A eletroestimulação oferece uma ferramenta objetiva e controlável que, quando usada corretamente, pode transformar o tempo de recuperação em um aliado estratégico.
+Para os atletas de elite, a diferença entre um dia de treino e o próximo pode ser medida em minutos. A eletroestimulação oferece uma ferramenta objetiva e controlável que, quando usada corretamente, pode transformar o tempo de recuperação num aliado estratégico.
 
 ## Base Científica
 
@@ -41,7 +41,7 @@ Além disso, a eletroestimulação pode modular a resposta inflamatória, diminu
 
 ### Equipamento
 
-O uso de um dispositivo portátil com cabeças de contato de silicone, que não requerem aplicação de gel, facilita a prática em campo. O controlo de intensidade pode ser ajustado manualmente, permitindo que o atleta regule a sensação de desconforto.
+O uso de um dispositivo portátil com cabeças de contacto de silicone, que não requerem aplicação de gel, facilita a prática em campo. O controlo de intensidade pode ser ajustado manualmente, permitindo que o atleta regule a sensação de desconforto.
 
 ### Integração com Outras Técnicas
 
@@ -56,9 +56,9 @@ A eletroestimulação recuperação complementa estratégias como a compressão,
 
 ### Como Evitar
 
-- **Monitorização**: Regista a intensidade e a duração em um diário de treino.  
+- **Monitorização**: Regista a intensidade e a duração num diário de treino.  
 - **Progresso Gradual**: Aumenta a intensidade em increments de 5 % a cada duas sessões.  
-- **Integração**: Combine com avaliações de carga (RPE, HRV) para garantir equilíbrio.
+- **Integração**: Combina com avaliações de carga (RPE, HRV) para garantir equilíbrio.
 
 ## Protocolo / Conclusão
 
@@ -66,7 +66,7 @@ A eletroestimulação recuperação, quando aplicada com parâmetros adequados, 
 
 Para maximizar os resultados, recomenda‑se:
 
-1. **Avaliar a carga semanal** e planejar sessões de eletroestimulação nos dias de recuperação ativa.  
+1. **Avaliar a carga semanal** e planear sessões de eletroestimulação nos dias de recuperação ativa.  
 2. **Manter a intensidade dentro dos limites de tolerância** e ajustar conforme a resposta individual.  
 3. **Combinar com outras estratégias** (tens recuperação, compex recuperação) para criar uma abordagem multi‑modal.
 

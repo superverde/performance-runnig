@@ -29,7 +29,7 @@ O ritmo percebido (RPE) tende a subir em 1 ponto por cada 200 m de subida acum
 
 ## Aplicação Prática  
 
-1. **Preparação do GPX** – Descarga do percurso em formato GPX a partir de plataformas como Strava ou MapMyRun. Verifica‑se que o arquivo contém pontos de referência de elevação.  
+1. **Preparação do GPX** – Descarga do percurso em formato GPX a partir de plataformas como Strava ou MapMyRun. Verifica‑se que o ficheiro contém pontos de referência de elevação.  
 2. **Carregamento no relógio** – Em dispositivos Garmin, utiliza‑se o Garmin Connect para enviar o GPX para o relógio. Em Suunto, o processo é semelhante via Suunto App.  
 3. **Definição de segmentos de ritmo** – Se o percurso tem 5 km de subida, 5 km de descida e 10 km de plano, cria‑se três segmentos:  
    * 0‑5 km – 4 min km⁻¹ (célula de velocidade 15 km h⁻¹)  
@@ -50,10 +50,10 @@ Exemplo numérico: numa corrida de 10 km com 400 m de subida total, o atleta
 
 ## Protocolo/Conclusão  
 
-1. **Teste de percurso** – 1‑2 semanas antes da prova, corre‑se o percurso completo com o GPX carregado, ajustando as zonas de ritmo e frequência cardíaca.  
+1. **Testa de percurso** – 1‑2 semanas antes da prova, corre‑se o percurso completo com o GPX carregado, ajustando as zonas de ritmo e frequência cardíaca.  
 2. **Revisão de dados** – Analisa‑se a média de velocidade, splits e FC, comparando com o objetivo. Ajusta‑se os segmentos se a velocidade real for 5–10 % diferente.  
 3. **Simulação de condições** – Executa‑se treinos em terreno semelhante, usando o mesmo relógio, para familiarizar‑se com a resposta do dispositivo a variações de GPS.  
 4. **Plano de contingência** – Define‑se um ritmo de reserva (por exemplo, 0,5 min km⁻¹ mais lento) caso o GPS perca sinal ou a velocidade ultrapasse o limite.  
 5. **Análise pós‑corrida** – Exporta‑se os dados para software de análise (Garmin BaseCamp, Strava) e verifica‑se a aderência ao plano, ajustando o próximo GPX conforme necessário.  
 
-Seguir um GPX no relógio transforma o percurso em um plano de treino mensurável, permitindo que o corredor concentre‑se na técnica, na fisiologia e na estratégia de esforço. A integração de velocidade, inclinação e frequência cardíaca oferece um feedback holístico, crucial para a performance em trail running.
+Seguir um GPX no relógio transforma o percurso num plano de treino mensurável, permitindo que o corredor concentre‑se na técnica, na fisiologia e na estratégia de esforço. A integração de velocidade, inclinação e frequência cardíaca oferece um feedback holístico, crucial para a performance em trail running.

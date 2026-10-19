@@ -16,7 +16,7 @@ Se estás a pensar em melhorar o teu desempenho corrida sem ter de sair da tua z
 
 Quando se trata de escolher passadeiras para treinar em casa, existem vários critérios técnicos que devem ser considerados. O primeiro é a amortecimento. As passadeiras com amortecimento adequado podem ajudar a reduzir o impacto no teu corpo, especialmente nas articulações das pernas e do pé. Segundo, é importante considerar o suporte oferecido pelas passadeiras. As passadeiras com suporte adequado podem ajudar a prevenir lesões nas pernas e nos pés.
 
-Além disso, é fundamental considerar o tipo de superfície em que vais estar a correr. Se vais a correr em superfícies dadas, como em casa ou em um estúdio, é importante escolher passadeiras que sejam adequadas para essas superfícies. Por outro lado, se vais a correr em superfícies mais duras, como em estradas ou em terrenos irregulares, é importante escolher passadeiras que sejam mais duráveis e ofereçam mais suporte.
+Além disso, é fundamental considerar o tipo de superfície em que vais estar a correr. Se vais a correr em superfícies dadas, como em casa ou num estúdio, é importante escolher passadeiras que sejam adequadas para essas superfícies. Por outro lado, se vais a correr em superfícies mais duras, como em estradas ou em terrenos irregulares, é importante escolher passadeiras que sejam mais duráveis e ofereçam mais suporte.
 
 Ainda mais importante, é considerar a tua própria biomecânica e estilo de corrida. Se tens problemas de articulação ou tensão nas pernas, é importante escolher passadeiras que ofereçam mais amortecimento e suporte. Se tens um estilo de corrida mais pronunciado, é importante escolher passadeiras que sejam mais estáveis e ofereçam mais suporte.
 

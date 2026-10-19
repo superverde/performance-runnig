@@ -22,17 +22,17 @@ Por outro lado, a intensidade é crucial para o desenvolvimento da capacidade an
 
 Então, como aplicar essa compreensão no treino de corrida de fundo? Aqui estão algumas dicas:
 
-* **Defina seus objetivos**: Antes de começar a planejar seu treino, é importante definir seus objetivos. Se estás a treinar para uma corrida de longa distância, é provável que precises focar no volume de treino e na resistência cardiovascular. Se estás a treinar para uma corrida de curta distância, é provável que precises focar na intensidade e na capacidade anaeróbica.
+* **Defina seus objetivos**: Antes de começar a planear seu treino, é importante definir seus objetivos. Se estás a treinar para uma corrida de longa distância, é provável que precises focar no volume de treino e na resistência cardiovascular. Se estás a treinar para uma corrida de curta distância, é provável que precises focar na intensidade e na capacidade anaeróbica.
 * **Crie um plano de treino**: Um plano de treino deve incluir uma combinação de treinos de baixa, moderada e alta intensidade. O treino de baixa intensidade deve ser feito com frequência para ajudar a aumentar a resistência cardiovascular e a capacidade anaeróbica. O treino de moderada intensidade deve ser feito com menos frequência para ajudar a aumentar a capacidade aeróbica. O treino de alta intensidade deve ser feito com menos frequência para ajudar a aumentar a capacidade anaeróbica.
-* **Monitore seu progresso**: É importante monitorar seu progresso e ajustar o plano de treino conforme necessário. Se estás a sentir fadiga ou lesões, é provável que precises reduzir o volume de treino ou a intensidade.
+* **Monitoriza seu progresso**: É importante monitorar seu progresso e ajustar o plano de treino conforme necessário. Se estás a sentir fadiga ou lesões, é provável que precises reduzir o volume de treino ou a intensidade.
 
 ## Erros Comuns
 
-Existem alguns erros comuns que os corredores devem evitar ao planejar seu treino de corrida de fundo:
+Existem alguns erros comuns que os corredores devem evitar ao planear seu treino de corrida de fundo:
 
 * **Foco exclusivo no volume de treino**: Um volume de treino excessivo pode levar a lesões e à fadiga. É importante incluir treinos de baixa, moderada e alta intensidade para ajudar a aumentar a resistência cardiovascular e a capacidade anaeróbica.
 * **Foco exclusivo na intensidade**: Uma intensidade excessiva pode não permitir que o corpo se recupere adequadamente. É importante incluir treinos de baixa intensidade para ajudar a aumentar a resistência cardiovascular e a capacidade anaeróbica.
-* **Falta de planejamento**: Um plano de treino inadequado pode levar a lesões e à fadiga. É importante criar um plano de treino que inclua uma combinação de treinos de baixa, moderada e alta intensidade.
+* **Falta de planeamento**: Um plano de treino inadequado pode levar a lesões e à fadiga. É importante criar um plano de treino que inclua uma combinação de treinos de baixa, moderada e alta intensidade.
 
 ## Protocolo/Conclusão
 

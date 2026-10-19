@@ -23,7 +23,7 @@ A popularização dos dispositivos que medem a potência em corrida tem levado a
 
 O conceito de running power baseia‑se na lei de potência de Watt, adaptada ao contexto da corrida. O sensor mede a força aplicada na passada e a velocidade de movimento, permitindo calcular a potência em Watts (W). Estudos recentes (Seiler, 2010; Laursen, 2010) demonstram que a distribuição de intensidade de treino, expressa em zonas de potência, correlaciona‑se mais robustamente com a performance em provas de longa duração do que a simples velocidade média.
 
-A relação entre potência e velocidade segue a equação \(P = F \times V\), onde \(F\) representa a força aplicada e \(V\) a velocidade. Em corredores de elite, a diferença entre zonas de potência pode chegar a 20 % em um mesmo esforço, o que não se reflete no pace. Além disso, a capacidade de medir a resposta anaeróbica em tempo real (Buchheit & Laursen, 2013) permite detectar fadiga precoce e ajustar a carga de forma imediata.
+A relação entre potência e velocidade segue a equação \(P = F \times V\), onde \(F\) representa a força aplicada e \(V\) a velocidade. Em corredores de elite, a diferença entre zonas de potência pode chegar a 20 % num mesmo esforço, o que não se reflete no pace. Além disso, a capacidade de medir a resposta anaeróbica em tempo real (Buchheit & Laursen, 2013) permite detectar fadiga precoce e ajustar a carga de forma imediata.
 
 ## Aplicação Prática
 

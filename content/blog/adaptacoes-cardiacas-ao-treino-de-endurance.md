@@ -21,7 +21,7 @@ A hipertrofiade das câmaras cardíacas é causada pela estimulação dos recept
 
 ### Aumento do Volume de Ejeção
 
-O volume de ejeção é a quantidade de sangue que o coração é capaz de bombear em um único batimento cardíaco. Durante o treino de endurance, o volume de ejeção aumenta significativamente, o que é necessário para atender às demandas do exercício. Um estudo publicado no American Journal of Physiology encontrou que o treino de endurance pode aumentar o volume de ejeção em até 15% em apenas 6 semanas de treino regular (3).
+O volume de ejeção é a quantidade de sangue que o coração é capaz de bombear num único batimento cardíaco. Durante o treino de endurance, o volume de ejeção aumenta significativamente, o que é necessário para atender às demandas do exercício. Um estudo publicado no American Journal of Physiology encontrou que o treino de endurance pode aumentar o volume de ejeção em até 15% em apenas 6 semanas de treino regular (3).
 
 O aumento do volume de ejeção é causado pela hipertrofiade das câmaras cardíacas e pela melhoria da funcionalidade cardíaca. Além disso, o treino de endurance também pode levar a uma alteração na expressão gênica das proteínas que compõem as válvulas cardíacas, o que contribui para a melhoria da funcionalidade cardíaca (4).
 
@@ -33,7 +33,7 @@ A diminuição da frequência cardíaca em repouso é causada pela melhoria da f
 
 ## Conclusão
 
-O treino de endurance pode levar a significativas adaptações cardíacas, incluindo aumento do tamanho das câmaras cardíacas, aumento do volume de ejeção e diminuição da frequência cardíaca em repouso. Essas adaptações cardíacas são essenciais para a melhoria da capacidade cardíaca e para a eficiência da entrega de oxigênio aos músculos durante o exercício. Portanto, é fundamental que os treinadores e os atletas estejam cientes dessas adaptações cardíacas e as considerem ao planejar e ao executar o treino de endurance.
+O treino de endurance pode levar a significativas adaptações cardíacas, incluindo aumento do tamanho das câmaras cardíacas, aumento do volume de ejeção e diminuição da frequência cardíaca em repouso. Essas adaptações cardíacas são essenciais para a melhoria da capacidade cardíaca e para a eficiência da entrega de oxigênio aos músculos durante o exercício. Portanto, é fundamental que os treinadores e os atletas estejam cientes dessas adaptações cardíacas e as considerem ao planear e ao executar o treino de endurance.
 
 ## Referências
 

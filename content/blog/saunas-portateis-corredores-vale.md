@@ -20,10 +20,10 @@ Saunas portáteis têm vindo a ganhar notoriedade entre atletas e entusiastas de
 ## Como Escolher: Critérios Que Importam
 A escolha de uma sauna portátil vai além da simples temperatura. É preciso considerar:
 
-1. **Tamanho e peso** – Um modelo que pese menos de 15 kg e que possa ser transportado em um veículo pequeno facilita o uso em diferentes locais, seja na casa, no ginásio ou num acampamento.  
+1. **Tamanho e peso** – Um modelo que pese menos de 15 kg e que possa ser transportado num veículo pequeno facilita o uso em diferentes locais, seja na casa, no ginásio ou num acampamento.  
 2. **Tempo de aquecimento** – Quanto mais rápido a sauna atinge a temperatura desejada, mais eficiente será o ciclo de recuperação. Modelos com aquecimento em 10–15 min são ideais para atletas que têm pouco tempo entre sessões.  
 3. **Material e isolamento** – Madeira de alta densidade ou bambu tratado oferece durabilidade e um melhor isolamento térmico, reduzindo a perda de calor e a necessidade de manutenção.  
-4. **Controle de temperatura e humidade** – A possibilidade de ajustar a temperatura entre 40 °C e 60 °C, bem como a humidade relativa (entre 10 % e 30 %), permite adaptar a sauna a diferentes objetivos: desintoxicação, relaxamento muscular ou aumento da circulação.  
+4. **Controlo de temperatura e humidade** – A possibilidade de ajustar a temperatura entre 40 °C e 60 °C, bem como a humidade relativa (entre 10 % e 30 %), permite adaptar a sauna a diferentes objetivos: desintoxicação, relaxamento muscular ou aumento da circulação.  
 5. **Facilidade de montagem e desmontagem** – Um sistema de dobradiças e suportes que permita montar em menos de 5 min é essencial para quem não quer perder tempo.  
 6. **Segurança** – Certificações de segurança elétrica (por exemplo, IEC 60335) e um sistema de desligamento automático quando a temperatura excede um limite seguro garantem um uso sem riscos.  
 

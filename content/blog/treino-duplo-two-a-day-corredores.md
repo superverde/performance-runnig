@@ -14,7 +14,7 @@ O treino duplo, também conhecido como treino em dupla sessão, é uma estratég
 
 #### Base Científica
 
-O treino duplo está baseado em princípios científicos que nos ajudam a entender como o corpo humano responde ao estresse físico. De acordo com a teoria da adaptação, o corpo humano se adapta às solicitações do treino ao longo do tempo, o que pode levar a uma progressão gradual no desempenho. No entanto, quando o treino é realizado em intervalos curtos, o corpo não tem tempo suficiente para se recuperar completamente, o que pode levar a uma situação de sobrecarga e fadiga. O treino duplo visa superar esse problema ao permitir que o corpo se recupere entre as duas sessões de treino.
+O treino duplo está baseado em princípios científicos que nos ajudam a entender como o corpo humano responde ao stress físico. De acordo com a teoria da adaptação, o corpo humano se adapta às solicitações do treino ao longo do tempo, o que pode levar a uma progressão gradual no desempenho. No entanto, quando o treino é realizado em intervalos curtos, o corpo não tem tempo suficiente para se recuperar completamente, o que pode levar a uma situação de sobrecarga e fadiga. O treino duplo visa superar esse problema ao permitir que o corpo se recupere entre as duas sessões de treino.
 
 Além disso, o treino duplo também pode ser usado para maximizar a capacidade anaeróbica, que é a capacidade do corpo de realizar trabalho intenso por períodos curtos de tempo. Isso é especialmente importante em desportos como a corrida de curta distância, onde a capacidade de realizar explosões de força é fundamental para o sucesso. Estudos têm mostrado que o treino duplo pode aumentar a capacidade anaeróbica e melhorar a performance em desportos de alta intensidade (Laursen, 2010).
 
@@ -39,7 +39,7 @@ Para evitar esses erros, é importante seguir alguns protocolos básicos ao real
 1. **Defina os objetivos de treino**: Antes de começar a treinar, é importante definir os objetivos de treino que desejas alcançar. Isso pode incluir melhorar a performance, aumentar a capacidade anaeróbica ou reduzir o risco de lesões.
 2. **Defina a intensidade e a duração das sessões de treino**: Depois de definir os objetivos de treino, é importante definir a intensidade e a duração das sessões de treino. Isso pode incluir realizar sessões de treino mais curtas e menos intensas, separadas por períodos de recuperação mais longos.
 3. **Permita que o corpo se recupere**: É importante permitir que o corpo se recupere completamente entre as duas sessões de treino. Isso pode incluir realizar períodos de recuperação mais longos ou realizar atividades de alongamento e fortalecimento.
-4. **Monitore a evolução**: É importante monitorar a evolução do seu treino e ajustar o protocolo conforme necessário. Isso pode incluir aumentar ou diminuir a intensidade e a duração das sessões de treino, ou mudar a frequência de treino.
+4. **Monitoriza a evolução**: É importante monitorar a evolução do seu treino e ajustar o protocolo conforme necessário. Isso pode incluir aumentar ou diminuir a intensidade e a duração das sessões de treino, ou mudar a frequência de treino.
 
 #### Conclusão
 

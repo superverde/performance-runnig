@@ -45,7 +45,7 @@ O entusiasmo em torno do treino em jejum tem sido, em parte, alimentado por resu
 - Que é superior ao treino alimentado para atletas que já têm uma dieta bem estruturada
 - Que as adaptações ao jejum se mantêm quando o atleta come adequadamente antes de competições
 
-Impey et al. (2018) introduziram o conceito de *"fuel for the work required"* — a ideia de que a disponibilidade de carboidratos deve ser gerida estrategicamente consoante as exigências de cada sessão. A investigação nesta área sugere que treinar ocasionalmente com disponibilidade reduzida de carboidratos pode amplificar as adaptações metabólicas, mas que fazê-lo sistematicamente compromete a qualidade dos treinos de alta intensidade.
+Impey et al. (2018) introduziram o conceito de *"fuel for the work required"* — a ideia de que a disponibilidade de hidratos de carbono deve ser gerida estrategicamente consoante as exigências de cada sessão. A investigação nesta área sugere que treinar ocasionalmente com disponibilidade reduzida de hidratos de carbono pode amplificar as adaptações metabólicas, mas que fazê-lo sistematicamente compromete a qualidade dos treinos de alta intensidade.
 
 Schoenfeld e Aragon (2018), numa revisão sobre timing nutricional, concluíram que as diferenças entre treinar em jejum ou no estado alimentado são clinicamente pouco relevantes quando a ingestão diária total de nutrientes é adequada. Ou seja: o que comes ao longo do dia importa muito mais do que o momento em que treinas.
 
@@ -59,7 +59,7 @@ O treino em jejum não é adequado para todos os contextos. Existe um conjunto d
 Um long run de 60-90 minutos a ritmo muito fácil em jejum pode potenciar o desenvolvimento da flexibilidade metabólica. As reservas de glicogénio muscular são suficientes para este tipo de esforço e o organismo beneficia do estímulo para mobilizar gorduras.
 
 **2. Programas de periodização nutricional**
-Atletas avançados que alternam deliberadamente sessões com baixa disponibilidade de carboidratos (treino em jejum ou após sessão vespertina com deplecção) com sessões ricas em carboidratos, seguindo uma estratégia de periodização nutricional. Jeukendrup (2017) propõe esta abordagem como "carbohydrate periodization".
+Atletas avançados que alternam deliberadamente sessões com baixa disponibilidade de hidratos de carbono (treino em jejum ou após sessão vespertina com deplecção) com sessões ricas em hidratos de carbono, seguindo uma estratégia de periodização nutricional. Jeukendrup (2017) propõe esta abordagem como "carbohydrate periodization".
 
 **3. Objetivos de composição corporal**
 Em períodos de défice calórico controlado, treinar em jejum pode facilitar a mobilização de gordura corporal, especialmente quando combinado com sessões de baixa intensidade.

@@ -10,7 +10,7 @@ readTime: 6
 faqs:
   - q: "Qual é a diferença principal entre treino polarizado e treino ao limiar?"
     a: "O polarizado divide o volume em 80 % de zona baixa e 20 % de zona alta, enquanto o treino ao limiar concentra todo o volume na zona 70–85 % FTP."
-  - q: "É possível combinar ambos os métodos em um mesmo programa?"
+  - q: "É possível combinar ambos os métodos num mesmo programa?"
     a: "Sim, pode‑se usar polarização como base e inserir blocos de treino ao limiar em fases de pico, mas a maioria dos corredores deve manter a distribuição polarizada para ganhos sustentados."
   - q: "Preciso de equipamentos específicos para monitorizar as zonas de intensidade?"
     a: "Não necessariamente; um monitor de frequência cardíaca confiável e um teste de FTP periódico já são suficientes para definir e ajustar as zonas."
@@ -71,7 +71,7 @@ A polarização reduz a carga de lactato acumulado no corpo, permitindo que o si
 - **Zona 3:** inexistente.
 
 ### Comparação de Resultados
-Em um estudo de 12 semanas com corredores de média distância, o grupo polarizado melhorou a média de 5 % no tempo de prova, enquanto o grupo ao limiar melhorou apenas 2,5 % (Seiler, 2010). A diferença se atribuiu a uma maior capacidade aeróbica e menor fadiga acumulada.
+Num estudo de 12 semanas com corredores de média distância, o grupo polarizado melhorou a média de 5 % no tempo de prova, enquanto o grupo ao limiar melhorou apenas 2,5 % (Seiler, 2010). A diferença se atribuiu a uma maior capacidade aeróbica e menor fadiga acumulada.
 
 ## Erros Comuns
 
@@ -82,7 +82,7 @@ Em um estudo de 12 semanas com corredores de média distância, o grupo polariza
 
 ## Protocolo/Conclusão
 
-Para a maioria dos corredores de média‑e longa distância que buscam melhorar a performance, a polarização oferece um equilíbrio entre volume e intensidade que maximiza adaptações aeróbicas e anaeróbicas, ao mesmo tempo que minimiza a fadiga. Recomenda‑se implementar um plano polarizado por 8–12 semanas, com monitorização regular de zonas de esforço (por ex., uso de GPS, HRV e testes de FTP) e ajustes conforme o progresso.
+Para a maioria dos corredores de média‑e longa distância que procuram melhorar a performance, a polarização oferece um equilíbrio entre volume e intensidade que maximiza adaptações aeróbicas e anaeróbicas, ao mesmo tempo que minimiza a fadiga. Recomenda‑se implementar um plano polarizado por 8–12 semanas, com monitorização regular de zonas de esforço (por ex., uso de GPS, HRV e testes de FTP) e ajustes conforme o progresso.
 
 A abordagem ao limiar pode ainda ser útil em fases específicas, como preparação para provas de 5 km ou 10 km, onde a tolerância ao lactato é mais crítica. Contudo, para objetivos de maratona ou ultramaratona, a polarização tende a ser superior.
 
@@ -91,4 +91,4 @@ A abordagem ao limiar pode ainda ser útil em fases específicas, como preparaç
 
 1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
 2. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x  
-3. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle. Sports Medicine,
+3. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle. Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338. https://doi.org/10.1007/s40279-013-0029-x

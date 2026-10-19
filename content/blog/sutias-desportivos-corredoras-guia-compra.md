@@ -16,7 +16,7 @@ Quando se trata de corrida, é fácil esquecer que a parte inferior do corpo é 
 
 Ao optar por um sutiã desportivo, é fundamental considerar os seguintes fatores:
 
-* **Suporte**: O sutiã deve fornecer suporte adequado para a sua estrutura anatômica. Isso é especialmente importante para corredoras que têm uma estrutura mais leve ou têm dificuldade em encontrar o equilíbrio entre suporte e comodidade.
+* **Suporte**: O sutiã deve fornecer suporte adequado para a sua estrutura anatómica. Isso é especialmente importante para corredoras que têm uma estrutura mais leve ou têm dificuldade em encontrar o equilíbrio entre suporte e comodidade.
 * **Comodidade**: A comodidade é crucial para uma corrida prolongada. O sutiã deve ser confortável e não causar desconforto em nenhuma parte do corpo.
 * **Transpiração**: A transpiração é fundamental para evitar a acumulação de suor e evitar problemas de saúde relacionados com a higiene.
 * **Material**: O material do sutiã deve ser resistente e durável, mas também deve ser confortável e não causar irritação.
@@ -26,11 +26,11 @@ Ao optar por um sutiã desportivo, é fundamental considerar os seguintes fatore
 
 Aqui estão algumas das melhores opções de sutiãs desportivos para corredoras em 2026:
 
-* **Nike Air Zoom Pegasus**: Este sutiã é concebido para corredoras que buscam um nível elevado de suporte e comodidade. Com sua tecnologia de amortecimento, é ideal para corridas longas e intensas. Preço: entre 150€ e 200€.
-* **Under Armour Slingshot**: Este sutiã é concebido para corredoras que buscam uma combinação perfeita de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas de média distância. Preço: entre 120€ e 180€.
-* **Adidas Ultraboost**: Este sutiã é concebido para corredoras que buscam um nível elevado de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas longas e intensas. Preço: entre 150€ e 200€.
-* **Brooks Ghost**: Este sutiã é concebido para corredoras que buscam uma combinação perfeita de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas de média distância. Preço: entre 120€ e 180€.
-* **Asics Gel-Kayano**: Este sutiã é concebido para corredoras que buscam um nível elevado de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas longas e intensas. Preço: entre 150€ e 200€.
+* **Nike Air Zoom Pegasus**: Este sutiã é concebido para corredoras que procuram um nível elevado de suporte e comodidade. Com sua tecnologia de amortecimento, é ideal para corridas longas e intensas. Preço: entre 150€ e 200€.
+* **Under Armour Slingshot**: Este sutiã é concebido para corredoras que procuram uma combinação perfeita de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas de média distância. Preço: entre 120€ e 180€.
+* **Adidas Ultraboost**: Este sutiã é concebido para corredoras que procuram um nível elevado de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas longas e intensas. Preço: entre 150€ e 200€.
+* **Brooks Ghost**: Este sutiã é concebido para corredoras que procuram uma combinação perfeita de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas de média distância. Preço: entre 120€ e 180€.
+* **Asics Gel-Kayano**: Este sutiã é concebido para corredoras que procuram um nível elevado de suporte e comodidade. Com sua tecnologia de amortecimento e suporte, é ideal para corridas longas e intensas. Preço: entre 150€ e 200€.
 
 ## Veredicto: Qual Comprar
 

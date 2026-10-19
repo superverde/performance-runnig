@@ -23,7 +23,7 @@ As tendas hipóxicas domésticas surgiram como uma forma de simular altitudes el
 
 2. **Tamanho e Portabilidade** – Tendas de tamanho médio (cerca de 1,8 m × 1,5 m) são suficientes para a maioria dos corredores. Se tem espaço limitado, opte por modelos dobráveis e leves, que podem ser guardados numa gaveta ou mochila.  
 
-3. **Controle de Pressão e Segurança** – A tenda deve possuir válvulas de segurança e um sistema de monitorização de pressão que avise se houver falha. Certificações de segurança (por exemplo, CE) são indicativos de qualidade.  
+3. **Controlo de Pressão e Segurança** – A tenda deve possuir válvulas de segurança e um sistema de monitorização de pressão que avise se houver falha. Certificações de segurança (por exemplo, CE) são indicativos de qualidade.  
 
 4. **Facilidade de Uso** – A montagem deve ser rápida, sem necessidade de ferramentas. Um sistema de vedação de alta qualidade garante que não haja fugas de ar.  
 
@@ -39,7 +39,7 @@ Para aprofundar a relação entre a postura e a performance, lê o nosso artigo 
 |---------|--------------|---------------|---------------|----------------|
 | **Hypoxico Tenda 2.0** | Corredores de nível avançado | Simulação de altitude altamente ajustável, sistema de controlo digital intuitivo, bom isolamento térmico | Peso moderado, necessidade de limpeza regular | entre 200€ e 250€ |
 | **HYPOSAFE Tenda** | Atletas de elite | Válvulas de segurança certificadas, estrutura robusta, fácil montagem | Tamanho ligeiramente maior, custo de manutenção mais alto | entre 250€ e 300€ |
-| **VIVO Tenda 3.0** | Treinadores e atletas de meia‑idade | Tenda dobrável, tecido resistente a rasgos, preço acessível | Controle de temperatura menos preciso | entre 150€ e 200€ |
+| **VIVO Tenda 3.0** | Treinadores e atletas de meia‑idade | Tenda dobrável, tecido resistente a rasgos, preço acessível | Controlo de temperatura menos preciso | entre 150€ e 200€ |
 | **OXYTENT Home** | Iniciantes | Preço competitivo, design compacto, sistema de vedação automático | Menos opções de ajuste de altitude | entre 120€ e 170€ |
 | **HYPOSAFE Ultra** | Competidores que procuram alta performance | Sistema de monitorização de pressão em tempo real, isolamento térmico premium | Peso elevado, preço elevado | entre 300€ e 350€ |
 

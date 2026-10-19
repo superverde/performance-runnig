@@ -18,7 +18,7 @@ faqs:
 O treino de força em casa permite a corredores desenvolverem potência muscular, reduzir o risco de lesões e otimizar a economia de corrida, sem a necessidade de um ginásio.  
 Ao integrar exercícios específicos para a musculatura do corredor, podes aumentar a força isométrica e a capacidade de contração rápida, fatores cruciais para manter a velocidade em longas distâncias.  
 
-Embora a maioria dos corredores procure apoio em academias, a prática regular de força em casa pode trazer benefícios equivalentes quando bem estruturada. Além disso, a conveniência de não precisar deslocar‑se a um centro de treino reduz a barreira de adesão e aumenta a consistência.  
+Embora a maioria dos corredores procure apoio em ginásios, a prática regular de força em casa pode trazer benefícios equivalentes quando bem estruturada. Além disso, a conveniência de não precisar deslocar‑se a um centro de treino reduz a barreira de adesão e aumenta a consistência.  
 
 ## Base Científica do Treino de Força em Casa  
 A literatura demonstra que o fortalecimento muscular melhora a economia de corrida, reduz a carga mecânica nas articulações e aumenta a resistência à fadiga (Blagrove et al., 2018). Estudos randomizados revelaram que programas de força de 8 semanas, com 2‑3 sessões por semana, aumentaram a velocidade de 5 km em 3‑4 % em corredores de nível intermediário (Zanini et al., 2025).  

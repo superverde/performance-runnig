@@ -8,7 +8,7 @@ keyword: "sapatilhas para pés sensíveis"
 keywords: ["sapatilhas confortáveis corrida", "sapatilhas para dores nos pés", "sapatilhas almofadadas"]
 faqs:
   - q: "Qual a diferença entre sapatilhas confortáveis corrida e sapatilhas para dores nos pés?"
-    a: "Sapatilhas confortáveis corrida focam no amortecimento e respirabilidade para melhorar o conforto geral, enquanto sapatilhas para dores nos pés são concebidas com suporte biomecânico específico, como perfil rocker ou controle de movimento, para reduzir a pressão nas áreas sensíveis."
+    a: "Sapatilhas confortáveis corrida focam no amortecimento e respirabilidade para melhorar o conforto geral, enquanto sapatilhas para dores nos pés são concebidas com suporte biomecânico específico, como perfil rocker ou controlo de movimento, para reduzir a pressão nas áreas sensíveis."
   - q: "Como saber se a minha pisada é neutra ou pronada?"
     a: "Observa o padrão de desgaste da sola: desgaste uniforme indica pisada neutra, desgaste mais intenso na parte interna indica pronação. Um teste de pisada em loja ou consulta com um especialista em biomecânica pode confirmar."
   - q: "É melhor usar sapatilhas almofadadas para corredores de maratona?"
@@ -50,7 +50,7 @@ Além destes critérios, a durabilidade da sola e a respirabilidade do cabedal s
 
 **Orçamento limitado** – A **New Balance Fresh Foam 1080v11** combina amortecimento elevado com um preço acessível, sendo uma escolha sólida para corredores que desejam conforto sem gastar muito.  
 
-Independentemente do perfil, lembra‑se de testar as sapatilhas em um corredor de 5 km antes de fazer a compra final.  
+Independentemente do perfil, lembra‑se de testar as sapatilhas num corredor de 5 km antes de fazer a compra final.  
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**  
 

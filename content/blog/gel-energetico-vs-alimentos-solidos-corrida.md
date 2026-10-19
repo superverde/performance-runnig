@@ -66,7 +66,7 @@ Para ultras e provas acima de 4-5 horas, a estratégia mais eficaz é híbrida:
 - Manter 40-60 g de hidratos por hora nas fases menos intensas
 - Não passar mais de 45-60 minutos sem comer alguma coisa
 
-**Teste de tolerância gastrointestinal:**
+**Testa de tolerância gastrointestinal:**
 Realiza 2-3 treinos longos (90+ min) usando exatamente o mesmo produto que pretendes usar em prova. Se houver desconforto, experimenta géis isotónicos (mais diluídos) ou muda o rácio glucose:frutose.
 
 A nutrição em prova é uma habilidade treinável — o intestino adapta-se ao consumo de hidratos durante o exercício quando treinado sistematicamente ao longo de semanas.

@@ -50,7 +50,7 @@ O período pós‑parto apresenta um retorno gradual do VO₂máx ao nível pré
 
 ## Erros Comuns
 
-1. **Ignorar a frequência cardíaca** – Aumentar a distância sem monitorizar a HR pode levar a sobrecarga. Use monitores com zonas de intensidade predefinidas.  
+1. **Ignorar a frequência cardíaca** – Aumentar a distância sem monitorizar a HR pode levar a sobrecarga. Usa monitores com zonas de intensidade predefinidas.  
 2. **Continuar a corrida de alta intensidade nas últimas semanas de gestação** – Aumenta o risco de hipertermia e de complicações obstétricas. Reduzir a velocidade e a duração.  
 3. **Retomar a corrida imediatamente após o parto** – O corpo precisa de 6–12 semanas para readquirir a força do core e do assoalho pélvico. Iniciar com caminhadas e fortalecer músculos antes de correr.  
 4. **Não adaptar a carga de treino ao tipo de parto** – Parto caesáreo pode requerer mais tempo de cicatrização da pelve; parto normal pode implicar risco de diástase. Ajustar o volume e a intensidade conforme a recuperação.  

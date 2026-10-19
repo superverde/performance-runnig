@@ -18,10 +18,10 @@ O inverno é uma época do ano em que a temperatura cai e a humidade aumenta, to
 
 Ao escolher a roupa de corrida para o inverno, é fundamental considerar os seguintes critérios técnicos:
 
-* **Transpirabilidade**: A transpirabilidade é fundamental para manter o corpo seco e evitar resfriados. Busque roupas com tecnologia de transpiração avançada, como as que utilizam materiais hidrofóbicos ou porosidade ajustável.
+* **Transpirabilidade**: A transpirabilidade é fundamental para manter o corpo seco e evitar resfriados. Procura roupas com tecnologia de transpiração avançada, como as que utilizam materiais hidrofóbicos ou porosidade ajustável.
 * **Aerodinamicidade**: A aerodinamicidade é importante para reduzir a resistência ao ar e melhorar a velocidade. Roupas com desenhos aerodinâmicos e materiais leves podem ajudar a reduzir a resistência.
-* **Isolação**: A isolação é fundamental para manter o corpo quente em condições frias. Busque roupas com tecnologia de isolação avançada, como as que utilizam materiais isolantes ou tricomas.
-* **Flexibilidade**: A flexibilidade é importante para garantir que a roupa não se encolha ou se torça durante a corrida. Busque roupas com materiais flexíveis e desenhos que permitam uma ampla gama de movimento.
+* **Isolação**: A isolação é fundamental para manter o corpo quente em condições frias. Procura roupas com tecnologia de isolação avançada, como as que utilizam materiais isolantes ou tricomas.
+* **Flexibilidade**: A flexibilidade é importante para garantir que a roupa não se encolha ou se torça durante a corrida. Procura roupas com materiais flexíveis e desenhos que permitam uma ampla gama de movimento.
 
 ### As Melhores Opções em 2026
 

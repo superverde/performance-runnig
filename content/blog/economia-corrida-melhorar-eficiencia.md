@@ -17,7 +17,7 @@ A capacidade de economizar energia durante a corrida é influenciada por vários
 
 ### Base Científica
 
-A economia de corrida é influenciada pela capacidade aeróbica, que é medida pela taxa de oxigênio consumida (VO2) máxima. A VO2 máxima é o maior volume de oxigênio que o corpo pode consumir em uma unidade de tempo durante exercícios intensos. De acordo com um estudo publicado no Medicine & Science in Sports & Exercise, a VO2 máxima é um indicador importante da capacidade de economizar energia durante a corrida (Bassett & Howley, 2000). Além disso, a capacidade aeróbica também é influenciada pela quantidade de mitocôndrias presentes nas fibras musculares, que são responsáveis pela queima de gordura e glúceo durante o exercício.
+A economia de corrida é influenciada pela capacidade aeróbica, que é medida pela taxa de oxigênio consumida (VO2) máxima. A VO2 máxima é o maior volume de oxigênio que o corpo pode consumir numa unidade de tempo durante exercícios intensos. De acordo com um estudo publicado no Medicine & Science in Sports & Exercise, a VO2 máxima é um indicador importante da capacidade de economizar energia durante a corrida (Bassett & Howley, 2000). Além disso, a capacidade aeróbica também é influenciada pela quantidade de mitocôndrias presentes nas fibras musculares, que são responsáveis pela queima de gordura e glúceo durante o exercício.
 
 A técnica de corrida também é um fator importante na economia de corrida. De acordo com um estudo publicado no Sports Medicine, a técnica de corrida pode ser dividida em três categorias: técnica de corrida eficiente, técnica de corrida ineficiente e técnica de corrida compensatória. A técnica de corrida eficiente é caracterizada por uma postura corporal vertical, uma redução da inclinação da cabeça e do pescoço e um ritmo de passo uniforme. Em contraste, a técnica de corrida ineficiente é caracterizada por uma postura corporal inclinada, uma inclinação da cabeça e do pescoço e um ritmo de passo irregular (Jones & Carter, 2000).
 
@@ -27,13 +27,13 @@ Para aplicar a economia de corrida em seu treino, é importante focar em desenvo
 
 Um exemplo prático de como aplicar a economia de corrida em seu treino é o seguinte:
 
-* **Treino de força**: Faça 2-3 exercícios de força por semana, como agachamentos, sentados e extensões de perna. Isso ajudará a desenvolver a força muscular e a melhoria da técnica de corrida.
-* **Treino de resistência cardiovascular**: Faça 2-3 treinos de resistência cardiovascular por semana, como corridas de alta intensidade e ciclismo. Isso ajudará a melhorar a capacidade aeróbica e a reduzir o esforço durante a corrida.
-* **Treino de técnica de corrida**: Faça 1-2 treinos de técnica de corrida por semana, como corridas de alta intensidade e treinos de corrida eficiente. Isso ajudará a desenvolver uma técnica de corrida eficiente e a reduzir o esforço durante a corrida.
+* **Treino de força**: Faz 2-3 exercícios de força por semana, como agachamentos, sentados e extensões de perna. Isso ajudará a desenvolver a força muscular e a melhoria da técnica de corrida.
+* **Treino de resistência cardiovascular**: Faz 2-3 treinos de resistência cardiovascular por semana, como corridas de alta intensidade e ciclismo. Isso ajudará a melhorar a capacidade aeróbica e a reduzir o esforço durante a corrida.
+* **Treino de técnica de corrida**: Faz 1-2 treinos de técnica de corrida por semana, como corridas de alta intensidade e treinos de corrida eficiente. Isso ajudará a desenvolver uma técnica de corrida eficiente e a reduzir o esforço durante a corrida.
 
 ### Erros Comuns
 
-Um erro comum que os corredores cometem é não entender a importância da economia de corrida. Muitos corredores acreditam que a corrida é apenas sobre a quantidade de quilômetros que podes correr, e não sobre a técnica e a economia de energia. Além disso, muitos corredores também cometem o erro de não treinar a técnica de corrida e a capacidade aeróbica, o que pode levar a lesões e a uma redução do desempenho.
+Um erro comum que os corredores cometem é não entender a importância da economia de corrida. Muitos corredores acreditam que a corrida é apenas sobre a quantidade de quilómetros que podes correr, e não sobre a técnica e a economia de energia. Além disso, muitos corredores também cometem o erro de não treinar a técnica de corrida e a capacidade aeróbica, o que pode levar a lesões e a uma redução do desempenho.
 
 ### Protocolo/Conclusão
 

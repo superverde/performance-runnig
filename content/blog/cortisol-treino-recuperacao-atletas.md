@@ -33,7 +33,7 @@ Para melhorar a recuperação muscular, é fundamental controlar o cortisol e re
 * **Comer correctamente**: Comer uma dieta equilibrada e rica em nutrientes é fundamental para a recuperação muscular e para o controlo do cortisol.
 * **Práticas de relaxamento**: Incluir práticas de relaxamento, como meditação e respiração profunda, para ajudar a reduzir a tensão e o stress.
 
-Um exemplo de como essas estratégias podem ser aplicadas em uma rotina de treino é o caso de um atleta de correr que realiza uma corrida de 10 km por semana. Para melhorar a recuperação muscular, o atleta pode incluir alongamentos e estiramientos após cada corrida, dormir pelo menos 7 horas por noite e comer uma dieta equilibrada rica em nutrientes. Além disso, o atleta pode incluir práticas de relaxamento, como meditação e respiração profunda, para ajudar a reduzir a tensão e o stress.
+Um exemplo de como essas estratégias podem ser aplicadas numa rotina de treino é o caso de um atleta de correr que realiza uma corrida de 10 km por semana. Para melhorar a recuperação muscular, o atleta pode incluir alongamentos e estiramientos após cada corrida, dormir pelo menos 7 horas por noite e comer uma dieta equilibrada rica em nutrientes. Além disso, o atleta pode incluir práticas de relaxamento, como meditação e respiração profunda, para ajudar a reduzir a tensão e o stress.
 
 ### Erros Comuns
 

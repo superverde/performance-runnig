@@ -25,7 +25,7 @@ O declínio da performance está ligado a três fatores fisiológicos principais
 
 Pesquisas indicam que o treino de resistência de alta intensidade pode preservar a VO₂máx até 10 % do valor juvenil, mesmo após os 50 anos. Estudos de Bassett & Howley (2000) e de Jones & Carter (2000) demonstram que a frequência de sessões de treino de 70 – 90 % da FCmáx é crucial para manter a capacidade aeróbica. Midgley et al. (2006) confirmam que intensidades próximas de 90 % da VO₂máx são eficazes para maximizar ganhos em corredores de longa distância.
 
-Além disso, a recuperação ativa (30 – 60 min de corrida leve) aumenta a circulação sanguínea, favorecendo a remoção de lactato e a reposição de glicogênio. A suplementação com carboidratos 30 min após o treino reduz o risco de microlesões e acelera a recuperação muscular.
+Além disso, a recuperação ativa (30 – 60 min de corrida leve) aumenta a circulação sanguínea, favorecendo a remoção de lactato e a reposição de glicogênio. A suplementação com hidratos de carbono 30 min após o treino reduz o risco de microlesões e acelera a recuperação muscular.
 
 ## Aplicação Prática
 
@@ -62,7 +62,7 @@ Para manter a VO₂máx, a maioria dos corredores deve passar 70 – 90 % 
 | **Excesso de volume** | Fatigue crónica, lesões musculares | Reduzir 10–15 % do volume e aumentar a frequência de recuperação |
 | **Falta de intensidade** | Ganhos limitados de VO₂máx | Incluir intervalos de 4–6 min a 90 % FCmáx pelo menos 2×/semana |
 | **Recuperação inadequada** | Inflamação crónica, diminuição de performance | Garantir 7–8 h de sono e 48 h de descanso entre treinos de alta intensidade |
-| **Nutrição insuficiente** | Perda de massa muscular | Consumir 1,2 g kg⁻¹ h de proteína e 3–4 g kg⁻¹ h de carboidratos pós‑treino |
+| **Nutrição insuficiente** | Perda de massa muscular | Consumir 1,2 g kg⁻¹ h de proteína e 3–4 g kg⁻¹ h de hidratos de carbono pós‑treino |
 | **Desprezo da técnica** | Lesões, diminuição da eficiência | Revisar a biomecânica com um fisioterapeuta ou treinador especializado |
 
 ## Protocolo / Conclusão

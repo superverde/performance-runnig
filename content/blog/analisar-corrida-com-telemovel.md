@@ -41,17 +41,17 @@ A biomecânica da corrida revela que fatores como a taxa de passos, o padrão de
 
 Utiliza um software de análise de movimento, como o Hudl Technique, que permite:
 
-- **Slow‑motion**: aumenta a precisão na observação de fases de contato e liberação.
+- **Slow‑motion**: aumenta a precisão na observação de fases de contacto e liberação.
 - **Linhas de referência**: desenha linhas verticais para medir a inclinação do tronco e horizontais para avaliar a extensão do joelho.
 - **Contagem de passos**: verifica a taxa de passos por minuto.
 
-Regista os valores num ficheiro Excel: taxa de passos, altura de impacto (altura do calcanhar em relação ao solo), ângulo do joelho ao contato, e tempo de contato. Esses dados são a base para ajustes técnicos.
+Regista os valores num ficheiro Excel: taxa de passos, altura de impacto (altura do calcanhar em relação ao solo), ângulo do joelho ao contacto, e tempo de contacto. Esses dados são a base para ajustes técnicos.
 
 ### 4. Interpretação e ajustes
 
 - **Taxa de passos**: se abaixo de 170 ppm, tenta aumentar 5‑10 ppm por semana, mantendo a cadência natural.
 - **Padrão de impacto**: se o impacto é predominantemente calcanhar, introduz exercícios de fortalecimento do antepé e de propriocepção.
-- **Ângulo do joelho**: um ângulo abaixo de 140° ao contato pode indicar excesso de extensão; reforça a musculatura glútea para melhorar a absorção de impacto.
+- **Ângulo do joelho**: um ângulo abaixo de 140° ao contacto pode indicar excesso de extensão; reforça a musculatura glútea para melhorar a absorção de impacto.
 
 ## Erros Comuns
 

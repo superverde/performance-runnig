@@ -14,13 +14,13 @@ O VO2max é um conceito fundamental no desporto, especialmente nos desportos de 
 
 Um VO2max alto não significa necessariamente que o atleta seja mais rápido ou eficiente. É importante lembrar que o VO2max é apenas um indicador de capacidade aeróbica e não aborda outros fatores importantes, como a capacidade anaeróbica, a força muscular e a eficiência técnica. No entanto, um VO2max alto é um indicador de boa saúde cardiovascular e pode ser um fator importante para a prevenção de doenças crónicas.
 
-A medida do VO2max é feita durante um teste de esforço máximo, onde o atleta é solicitado a realizar uma atividade intensa, geralmente uma corrida em uma passadeira ou uma bicicleta estática, até que não possa mais realizar mais esforço. Durante o teste, o VO2max é medida em litros por minuto (L/min) e é expresso em porcentagem do valor máximo teórico para a idade e sexo do atleta.
+A medida do VO2max é feita durante um teste de esforço máximo, onde o atleta é solicitado a realizar uma atividade intensa, geralmente uma corrida numa passadeira ou uma bicicleta estática, até que não possa mais realizar mais esforço. Durante o teste, o VO2max é medida em litros por minuto (L/min) e é expresso em porcentagem do valor máximo teórico para a idade e sexo do atleta.
 
 ## Base Científica
 
 O VO2max é uma medida da capacidade aeróbica do corpo, que é a capacidade de utilizar oxigénio para produzir energia muscular. A oxigenação muscular é um processo complexo que envolve a transferência de oxigénio das células sanguíneas para as células musculares, onde é utilizado para produzir energia. O VO2max é uma medida da capacidade de oxigenar as células musculares e é influenciado por fatores como a capacidade cardíaca, a capacidade pulmonar e a capacidade muscular.
 
-De acordo com os estudos de Seiler (2010) e Laursen (2010), o treino de intensidade alta é importante para aumentar o VO2max. O treino de alta intensidade estimula a adaptação das células musculares e cardíacas, permitindo que elas sejam mais eficientes na utilização do oxigénio. Além disso, o treino de alta intensidade também estimula a produção de mitocôndrias, que são as estruturas celulares responsáveis pela produção de energia.
+De acordo com os estudos de Seiler (2010) e Laursen (2010), o treino de intensidade alta é importante para aumentar o VO2max. O treino de alta intensidade estimula a adaptação das células musculares e cardíacas, permitindo que elas sejam mais eficientes na utilização do oxigénio. Além disso, o treino de alta intensidade também estimula a produção de mitocôndrias, que são as estruturas telemóveis responsáveis pela produção de energia.
 
 ## Aplicação Prática
 

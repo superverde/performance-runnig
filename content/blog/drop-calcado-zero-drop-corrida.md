@@ -21,7 +21,7 @@ A literatura científica disponível sugere que a escolha do calçado é uma dec
 
 ### Aplicação Prática
 
-Quando se trata de escolher o calçado certo, existem várias opções disponíveis no mercado. Os calçados com um drop de 0mm, também conhecidos como calçados de corrida zero, são concebidos para reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Esses calçados têm uma plataforma mais larga e uma cobertura do pé mais completa, o que ajuda a absorver o impacto e a reduzir a stress no sistema musculoesquelético. Outros calçados com um drop menor, como os calçados de corrida de 4mm ou 6mm, também podem ser uma boa opção para os corredores que buscam reduzir a carga no sistema musculoesquelético.
+Quando se trata de escolher o calçado certo, existem várias opções disponíveis no mercado. Os calçados com um drop de 0mm, também conhecidos como calçados de corrida zero, são concebidos para reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Esses calçados têm uma plataforma mais larga e uma cobertura do pé mais completa, o que ajuda a absorver o impacto e a reduzir a stress no sistema musculoesquelético. Outros calçados com um drop menor, como os calçados de corrida de 4mm ou 6mm, também podem ser uma boa opção para os corredores que procuram reduzir a carga no sistema musculoesquelético.
 
 ### Erros Comuns
 
@@ -29,7 +29,7 @@ Existem alguns erros comuns que os corredores cometem ao escolher o calçado cer
 
 ### Protocolo/Conclusão
 
-Em resumo, a escolha do calçado é uma decisão importante que pode influenciar significativamente o desempenho e a segurança do corredor. Os calçados com um drop menor tendem a reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Os corredores que buscam reduzir a carga no sistema musculoesquelético devem considerar calçados com um drop de 0mm ou 4mm. Além disso, é importante escolher um calçado que seja adequado para o pé e considerar a duração e a intensidade do treino. Com a escolha certa do calçado, os corredores podem melhorar a sua performance e reduzir o risco de lesões.
+Em resumo, a escolha do calçado é uma decisão importante que pode influenciar significativamente o desempenho e a segurança do corredor. Os calçados com um drop menor tendem a reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Os corredores que procuram reduzir a carga no sistema musculoesquelético devem considerar calçados com um drop de 0mm ou 4mm. Além disso, é importante escolher um calçado que seja adequado para o pé e considerar a duração e a intensidade do treino. Com a escolha certa do calçado, os corredores podem melhorar a sua performance e reduzir o risco de lesões.
 
 ### Referências Científicas
 

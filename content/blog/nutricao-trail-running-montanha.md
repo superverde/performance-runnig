@@ -40,7 +40,7 @@ Na corrida de estrada, o maior desafio é manter uma ingestão consistente a rit
 ## Estratégia nutricional por tipo de prova
 
 **Trail curto (< 3 horas):**
-Similar à meia maratona de estrada. 60-90g de carboidratos/hora, géis ou barras a cada 45-60 minutos. Hidratação de 500-700ml/hora.
+Similar à meia maratona de estrada. 60-90g de hidratos de carbono/hora, géis ou barras a cada 45-60 minutos. Hidratação de 500-700ml/hora.
 
 **Trail médio (3-8 horas):**
 Necessidade de comida real a partir das 2-3 horas. Mixes de sódio, sabores salgados tornam-se essenciais. Álcool de açúcar e frutose em excesso podem causar problemas GI.

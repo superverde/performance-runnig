@@ -16,7 +16,7 @@ Um estudo publicado no International Journal of Sports Physiology and Performanc
 
 ## Aplicação Prática
 
-Agora que sabemos a base científica para estruturar uma semana de treino, vamos aplicar essa teoria em um exemplo prático. Suponha que um corredor esteja treinado para uma maratona e queira melhorar sua performance. A seguir, está um exemplo de como estruturar uma semana de treino:
+Agora que sabemos a base científica para estruturar uma semana de treino, vamos aplicar essa teoria num exemplo prático. Suponha que um corredor esteja treinado para uma maratona e queira melhorar sua performance. A seguir, está um exemplo de como estruturar uma semana de treino:
 
 - **Domingo**: Dia de descanso.
 - **Segunda-feira**: Treino de baixa intensidade (30 minutos a 50% da intensidade máxima) com uma distância de 8 a 10 km.

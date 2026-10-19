@@ -22,11 +22,11 @@ A procura por sapatilhas que combinem a suavidade de um calçado de estrada com 
 ## Como Escolher: Critérios que Importam para Sapatilhas Pisos Mistos  
 
 1. **Amortecimento e resposta** – A combinação de espuma de alta densidade na zona de apoio e de material de resposta rápida na zona de propulsão reduz o custo energético, como demonstrado por estudos de energéticos em diferentes modelos de corrida (Hoogkamer et al., 2018).  
-2. **Estabilidade e controle de movimento** – Modelos com estrutura lateral reforçada e base mais larga favorecem corredores com tendência a pronação excessiva, diminuindo o risco de lesões.  
+2. **Estabilidade e controlo de movimento** – Modelos com estrutura lateral reforçada e base mais larga favorecem corredores com tendência a pronação excessiva, diminuindo o risco de lesões.  
 3. **Tração em superfícies mistas** – Sulcos em formato de “V” ou “U” e borracha de alta durabilidade garantem aderência em asfalto e em trilhos de terra.  
 4. **Peso e flexibilidade** – Um peso inferior a 250 g por sapatilha permite maior velocidade, mas não deve comprometer a robustez.  
 5. **Durabilidade da sola** – A espessura do cabedal de borracha deve ser suficiente para suportar 30 000 km de uso misto sem perder aderência.  
-6. **Ajuste e conforto** – Um sistema de corda ou velcro que permita ajustes finos é crucial para evitar pontos de pressão, especialmente em percursos longos.  
+6. **Ajusta e conforto** – Um sistema de corda ou velcro que permita ajustes finos é crucial para evitar pontos de pressão, especialmente em percursos longos.  
 7. **Compatibilidade com o tipo de pisada** – Sapatilhas “motion‑control” são recomendadas para corredores com pronação moderada a forte, enquanto modelos “neutral” são adequados para a maioria dos corredores.  
 
 Esses fatores devem ser avaliados em conjunto com o teu perfil de corrida e o tipo de terreno que pretendes percorrer.  
@@ -39,7 +39,7 @@ Esses fatores devem ser avaliados em conjunto com o teu perfil de corrida e o ti
 | **Salomon Speedcross 5** | Amantes de trilhos técnicos | Sulcos profundos e aderência em lama; construção robusta | Peso ligeiramente superior ao de modelos de estrada | Entre 170 € e 220 € |
 | **Brooks Cascadia 15** | Corredores com pronação moderada que querem estabilidade | Estrutura “rocker” que suaviza a descida; boa durabilidade | Pode ser menos confortável em longas distâncias na estrada | Entre 140 € e 190 € |
 | **Hoka One One Speedgoat 5** | Corredores que valorizam amortecimento extremo | Camada de espuma EVA ultra‑macia; excelente amortecimento | Peso mais alto pode afetar a velocidade em longas distâncias | Entre 180 € e 230 € |
-| **New Balance Fresh Foam Hierro v6** | Corredores que buscam versatilidade | Amortecimento Fresh Foam + sola de borracha Vibram; boa tração | Pode não ser tão leve quanto modelos de estrada | Entre 160 € e 210 € |
+| **New Balance Fresh Foam Hierro v6** | Corredores que procuram versatilidade | Amortecimento Fresh Foam + sola de borracha Vibram; boa tração | Pode não ser tão leve quanto modelos de estrada | Entre 160 € e 210 € |
 
 Para além destas, recomendamos consultar a nossa página de [Equipamento](/equipamento) para uma seleção completa e testada.  
 

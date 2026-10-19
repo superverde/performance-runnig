@@ -17,19 +17,19 @@ hasVideo: true
 
 A refeição pré-prova é um componente crucial na preparação para uma corrida. A escolha certa de alimentos e hidratação pode impulsionar o desempenho e reduzir o risco de lesões. No entanto, muitos corredores não sabem como preparar-se corretamente para a corrida. Neste artigo, vamos explorar a base científica e aplicar princípios práticos para ajudar os corredores a se preparar melhor para a corrida.
 
-A base científica é clara: a refeição pré-prova deve ser rica em carboidratos complexos, que fornecem energia para o corpo. De acordo com um estudo publicado no Journal of Sports Sciences, os carboidratos complexos são mais eficazes do que os carboidratos simples para fornecer energia durante a atividade física (Burke et al., 2011). Além disso, é fundamental evitar alimentos pesados e gordurosos, que podem causar desconforto e reduzir a performance.
+A base científica é clara: a refeição pré-prova deve ser rica em hidratos de carbono complexos, que fornecem energia para o corpo. De acordo com um estudo publicado no Journal of Sports Sciences, os hidratos de carbono complexos são mais eficazes do que os hidratos de carbono simples para fornecer energia durante a atividade física (Burke et al., 2011). Além disso, é fundamental evitar alimentos pesados e gordurosos, que podem causar desconforto e reduzir a performance.
 
 ## Base Científica
 
-A refeição pré-prova deve ser planejada com cuidado para evitar problemas de digestão durante a corrida. De acordo com um estudo publicado no Scandinavian Journal of Medicine & Science in Sports, a desidratação pode reduzir a performance em até 30% (Maughan & Shirreffs, 2010). Portanto, é fundamental beber água suficiente nas 24 horas anteriores à corrida e evitar alimentos que possam causar desidratação.
+A refeição pré-prova deve ser planeada com cuidado para evitar problemas de digestão durante a corrida. De acordo com um estudo publicado no Scandinavian Journal of Medicine & Science in Sports, a desidratação pode reduzir a performance em até 30% (Maughan & Shirreffs, 2010). Portanto, é fundamental beber água suficiente nas 24 horas anteriores à corrida e evitar alimentos que possam causar desidratação.
 
-A escolha dos carboidratos complexos é fundamental. De acordo com um estudo publicado no Sports Medicine, os carboidratos complexos como o arroz integral, a quinoa e o pão integral são mais eficazes do que os carboidratos simples como o açúcar de cana (Jeukendrup, 2014). Além disso, é fundamental consumir proteínas magras, como o frango ou o peixe, para ajudar a reparar os músculos após a corrida.
+A escolha dos hidratos de carbono complexos é fundamental. De acordo com um estudo publicado no Sports Medicine, os hidratos de carbono complexos como o arroz integral, a quinoa e o pão integral são mais eficazes do que os hidratos de carbono simples como o açúcar de cana (Jeukendrup, 2014). Além disso, é fundamental consumir proteínas magras, como o frango ou o peixe, para ajudar a reparar os músculos após a corrida.
 
 ## Aplicação Prática
 
 Aqui estão algumas dicas práticas para ajudar os corredores a se preparar melhor para a corrida:
 
-* Consumir carboidratos complexos nas 24 horas anteriores à corrida, com uma porção de 2-3 gramas de carboidratos por quilograma de peso corporal.
+* Consumir hidratos de carbono complexos nas 24 horas anteriores à corrida, com uma porção de 2-3 gramas de hidratos de carbono por quilograma de peso corporal.
 * Beber água suficiente nas 24 horas anteriores à corrida, com uma meta de beber pelo menos 2 litros de água.
 * Evitar alimentos pesados e gordurosos nas 24 horas anteriores à corrida.
 * Consumir proteínas magras, como o frango ou o peixe, para ajudar a reparar os músculos após a corrida.
@@ -47,14 +47,14 @@ Muitos corredores cometem erros comuns ao preparar-se para a corrida. Aqui estã
 
 * Consumir alimentos pesados e gordurosos nas 24 horas anteriores à corrida.
 * Não beber água suficiente nas 24 horas anteriores à corrida.
-* Não consumir carboidratos complexos nas 24 horas anteriores à corrida.
+* Não consumir hidratos de carbono complexos nas 24 horas anteriores à corrida.
 * Consumir café e bebidas estimulantes nas 6 horas anteriores à corrida.
 
 ## Protocolo/Conclusão
 
 Em resumo, a refeição pré-prova é um componente crucial na preparação para uma corrida. A escolha certa de alimentos e hidratação pode impulsionar o desempenho e reduzir o risco de lesões. Aqui estão as principais dicas para ajudar os corredores a se preparar melhor:
 
-* Consumir carboidratos complexos nas 24 horas anteriores à corrida.
+* Consumir hidratos de carbono complexos nas 24 horas anteriores à corrida.
 * Beber água suficiente nas 24 horas anteriores à corrida.
 * Evitar alimentos pesados e gordurosos nas 24 horas anteriores à corrida.
 * Consumir proteínas magras, como o frango ou o peixe, para ajudar a reparar os músculos após a corrida.

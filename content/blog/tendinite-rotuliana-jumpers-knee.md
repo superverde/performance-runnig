@@ -11,7 +11,7 @@ readTime: 4
 
 Tendinopatia Rotuliana: Diagnóstico e Protocolo de Recuperação
 
-A tendinopatia rotuliana é uma das lesões mais comuns em corredores de longa distância. Pode causar dor crônica, inflamação e perda de função no joelho, afetando a capacidade de realizar atividades físicas. É essencial entender a base científica por trás desta lesão e aplicar protocolos eficazes de recuperação para minimizar os efeitos negativos e promover a recuperação completa.
+A tendinopatia rotuliana é uma das lesões mais comuns em corredores de longa distância. Pode causar dor crónica, inflamação e perda de função no joelho, afetando a capacidade de realizar atividades físicas. É essencial entender a base científica por trás desta lesão e aplicar protocolos eficazes de recuperação para minimizar os efeitos negativos e promover a recuperação completa.
 
 A tendinopatia rotuliana é causada por danos nos tendões que conectam os músculos da coxa ao osso do joelho. Os tendões são feitos de fibras de colágeno que se desgastam ao longo do tempo, especialmente em corredores que realizam treinos intensos e frequentes. A lesão pode ser causada por fatores como excesso de treino, falta de alongamento e estiramento, uso de equipamento inadequado e biomecânica inadequada.
 

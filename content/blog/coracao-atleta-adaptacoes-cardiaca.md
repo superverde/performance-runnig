@@ -25,17 +25,17 @@ A hipertrofia cardíaca é um processo que ocorre em várias etapas. Inicialment
 
 A adaptação cardíaca ao treino de endurance é fundamental para a performance do atleta. Ao aumentar a VO2máx e a FCM, o coração se torna mais eficiente em fornecer oxigênio e nutrientes aos músculos. Isso ajuda a melhorar a capacidade de manter um nível de esforço elevado por períodos prolongados.
 
-Para maximizar as adaptações cardíacas ao treino de endurance, é importante incluir exercícios de alta intensidade em um programa de treino. Isso ajuda a estimular a hipertrofia cardíaca e a melhorar a capacidade do coração de fornecer oxigênio e nutrientes aos músculos. Além disso, é importante incluir exercícios de baixa intensidade para ajudar a melhorar a capacidade de manter um nível de esforço elevado por períodos prolongados.
+Para maximizar as adaptações cardíacas ao treino de endurance, é importante incluir exercícios de alta intensidade num programa de treino. Isso ajuda a estimular a hipertrofia cardíaca e a melhorar a capacidade do coração de fornecer oxigênio e nutrientes aos músculos. Além disso, é importante incluir exercícios de baixa intensidade para ajudar a melhorar a capacidade de manter um nível de esforço elevado por períodos prolongados.
 
 ## Erros Comuns
 
-Um erro comum é subestimar a importância do treino de alta intensidade. É importante incluir exercícios de alta intensidade em um programa de treino para estimular a hipertrofia cardíaca e melhorar a capacidade do coração de fornecer oxigênio e nutrientes aos músculos.
+Um erro comum é subestimar a importância do treino de alta intensidade. É importante incluir exercícios de alta intensidade num programa de treino para estimular a hipertrofia cardíaca e melhorar a capacidade do coração de fornecer oxigênio e nutrientes aos músculos.
 
 Outro erro comum é sobretreinar. É importante incluir períodos de recuperação no programa de treino para ajudar a prevenir lesões e melhorar a adaptação cardíaca.
 
 ## Protocolo/Conclusão
 
-Para maximizar as adaptações cardíacas ao treino de endurance, é importante incluir exercícios de alta intensidade e baixa intensidade em um programa de treino. Além disso, é importante incluir períodos de recuperação para ajudar a prevenir lesões e melhorar a adaptação cardíaca.
+Para maximizar as adaptações cardíacas ao treino de endurance, é importante incluir exercícios de alta intensidade e baixa intensidade num programa de treino. Além disso, é importante incluir períodos de recuperação para ajudar a prevenir lesões e melhorar a adaptação cardíaca.
 
 O treino de endurance é uma atividade que exige a capacidade de manter um nível de esforço elevado por períodos prolongados. A adaptação cardíaca ao treino de endurance é fundamental para a performance do atleta e pode ser maximizada com o uso de exercícios de alta intensidade e baixa intensidade, além de períodos de recuperação.
 

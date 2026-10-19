@@ -21,14 +21,14 @@ Para quem procura melhorar a sua corrida, escolher a palmilha correcta pode ser 
 
 Para selecionar uma palmilha de alta performance, é crucial avaliar três dimensões interligadas: biomecânica, materialidade e adaptabilidade ao perfil de corredor.
 
-### 1. Biomecânica – Controle de Movimento
+### 1. Biomecânica – Controlo de Movimento
 A palmilha deve alinhar‑se com o padrão de pisada do corredor. Estudos (Nigg et al., 2015) demonstram que a correção de pronação excessiva reduz o risco de lesões, enquanto a falta de suporte pode aumentar o impacto. A avaliação de pronação pode ser feita através de análise de vídeo ou de sensores de pressão plantar. Palmilhas com perfil de controlo de movimento (ex.: Superfeet Green) são indicadas para corredores com pronação moderada a severa; palmilhas neutras (ex.: SofFit Run) servem melhor a quem tem pisada neutra.
 
 ### 2. Materialidade – Elasticidade e Durabilidade
 A composição do núcleo (poliuretano, EVA, gel) determina a capacidade de amortização e a capacidade de retorno de energia. Palmilhas com núcleo de EVA de alta densidade oferecem amortização consistente, mas podem perder forma mais rapidamente. Contrariamente, materiais de poliuretano de alta elasticidade mantêm a forma e fornecem um retorno de energia mais eficiente, como demonstrado em estudos de economia de corrida (Fuller et al., 2015). A camada de superfície deve ser anti‑deslizante e respirável para reduzir o atrito e a transpiração.
 
 ### 3. Adaptabilidade – Tamanho, Forma e Personalização
-A palmilha deve se ajustar ao contorno do seu calçado. Modelos com cortes específicos para diferentes tipos de calçado (ultra, trail, road) garantem melhor aderência. A possibilidade de customização (por exemplo, palmilhas de molde de 3D) permite a correção de desvios anatômicos únicos, reduzindo o risco de pontos de pressão. Além disso, a compatibilidade com palmilhas de alta performance já existentes (ex.: palmilhas de marcas de ténis) evita sobreposição de camadas que pode causar desconforto.
+A palmilha deve se ajustar ao contorno do seu calçado. Modelos com cortes específicos para diferentes tipos de calçado (ultra, trail, road) garantem melhor aderência. A possibilidade de customização (por exemplo, palmilhas de molde de 3D) permite a correção de desvios anatómicos únicos, reduzindo o risco de pontos de pressão. Além disso, a compatibilidade com palmilhas de alta performance já existentes (ex.: palmilhas de marcas de ténis) evita sobreposição de camadas que pode causar desconforto.
 
 ### 4. Impacto no Desempenho
 Além da correção biomecânica, a palmilha deve melhorar a economia de corrida. A comparação de custos energéticos em diferentes palmilhas (Hoogkamer et al., 2018) mostra que palmilhas com maior retorno de energia podem reduzir o gasto metabólico em até 2 %. Por isso, corredores de longa distância e competidores de elite devem priorizar palmilhas que oferecem tanto suporte quanto retorno de energia.
@@ -43,12 +43,12 @@ Além da correção biomecânica, a palmilha deve melhorar a economia de corrida
 | **Sole Performance** | Corredores de trail que precisam de aderência | Camada de superfície anti‑deslizante, material resistente a abrasão | Pode causar atrito em calçado com sola fina | 130 € – 180 € |
 | **RunSole** | Corredores de ultra‑maratona que precisam de durabilidade | Núcleo de poliuretano de longa duração, suporte de médio nível | Peso moderado | 160 € – 210 € |
 
-> **Dica de compra**: Consulte a nossa página de [Equipamento](/equipamento) para comparar estas palmilhas com outros acessórios de corrida e garantir a combinação perfeita para o seu calçado.
+> **Dica de compra**: Consulta a nossa página de [Equipamento](/equipamento) para comparar estas palmilhas com outros acessórios de corrida e garantir a combinação perfeita para o seu calçado.
 
 ## Veredicto: Qual Comprar
 
 - **Iniciante**: A **SofFit Run** oferece leveza e conforto sem exigir um ajuste biomecânico complexo. Ideal para quem está a começar a correr e quer evitar sobrecarga.
-- **Competidor de Elite**: A **Superfeet Green** ou a **RunSole** proporcionam controle de movimento avançado e retorno de energia, reduzindo o risco de lesões e melhorando a economia de corrida em provas de longa distância.
+- **Competidor de Elite**: A **Superfeet Green** ou a **RunSole** proporcionam controlo de movimento avançado e retorno de energia, reduzindo o risco de lesões e melhorando a economia de corrida em provas de longa distância.
 - **Orçamento Limitado**: A **SofFit Run** ou a **VibeFit** oferecem boa relação custo‑benefício, com amortização eficaz e durabilidade adequada para treinos regulares.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**

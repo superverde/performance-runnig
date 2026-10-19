@@ -25,10 +25,10 @@ Outro estudo realizado por Lieberman et al. (2010) encontrou que os corredores q
 
 Para melhorar a sua corrida, é importante aprender a utilizar corretamente os seus braços. Aqui estão algumas dicas:
 
-* Mantenha os seus braços relaxados e baixos. Isso ajudará a reduzir a tensão nos músculos do tronco e das costas.
-* Evite levantar os seus braços para cima. Isso pode contribuir para uma maior tensão nos músculos do tronco e das costas.
-* Pratique a corrida com um pé-plano. Isso ajudará a reduzir a tensão nos músculos do tronco e das costas.
-* Faça exercícios de alongamento para os músculos do tronco e das costas. Isso ajudará a melhorar a sua flexibilidade e a reduzir a tensão nos músculos.
+* Mantém os seus braços relaxados e baixos. Isso ajudará a reduzir a tensão nos músculos do tronco e das costas.
+* Evita levantar os seus braços para cima. Isso pode contribuir para uma maior tensão nos músculos do tronco e das costas.
+* Pratica a corrida com um pé-plano. Isso ajudará a reduzir a tensão nos músculos do tronco e das costas.
+* Faz exercícios de alongamento para os músculos do tronco e das costas. Isso ajudará a melhorar a sua flexibilidade e a reduzir a tensão nos músculos.
 
 ### Erros Comuns
 

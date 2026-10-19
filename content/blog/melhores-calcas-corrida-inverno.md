@@ -27,7 +27,7 @@ Quando se trata de calças de corrida para o inverno, a escolha não se resume a
 
 3. **Respirabilidade** – A ventilação por micro‑fendas ou tecidos com tecnologia de “wicking” garante que o calor gerado pelo corpo não se acumule. Isto é crucial para evitar desconforto e suor excessivo, especialmente em treinos prolongados.
 
-4. **Ajuste e elasticidade** – Uma cintura elástica com ajuste de tensão evita que a calça desça, enquanto a elasticidade nos joelhos e quadris garante liberdade de movimento. O “stretch” deve ser de 30 % a 50 % para acomodar a amplitude de movimento de corrida.
+4. **Ajusta e elasticidade** – Uma cintura elástica com ajuste de tensão evita que a calça desça, enquanto a elasticidade nos joelhos e quadris garante liberdade de movimento. O “stretch” deve ser de 30 % a 50 % para acomodar a amplitude de movimento de corrida.
 
 5. **Proteção contra vento e chuva** – Alguns modelos incluem camada impermeável ou repelente à água, ideal para dias de vento forte ou chuva leve. Contudo, se a roupa de corrida para o frio for apenas para uso em dias secos, pode‑se optar por um modelo mais respirável.
 
@@ -46,7 +46,7 @@ Esses critérios, quando combinados, garantem que a calça de corrida inverno se
 | **Under Armour ColdGear 2.0** | Atletas de maratona | Lã merino 100 % natural, anti‑olhos, elasticidade 35 % | Preço mais elevado | entre 180 € e 240 € |
 | **Salomon Thermo‑Flex** | Corridas de trail | Camada impermeável, resistência a rasgos, ventilação por micro‑fendas | Custo mais alto | entre 200 € e 260 € |
 | **Patagonia R1 Thermal** | Corrida em clima extremo | Material reciclado, isolamento de lã merino, corte ajustado | Peso maior | entre 170 € e 220 € |
-| **Lululemon ABC Warm** | Mulheres que buscam conforto | Tecnologia de compressão, cintura de alto ajuste, tecido de secagem rápida | Disponibilidade limitada | entre 160 € e 210 € |
+| **Lululemon ABC Warm** | Mulheres que procuram conforto | Tecnologia de compressão, cintura de alto ajuste, tecido de secagem rápida | Disponibilidade limitada | entre 160 € e 210 € |
 
 Cada um destes modelos cumpre os critérios listados anteriormente, mas a escolha final depende do perfil do corredor, do clima de treino e do orçamento disponível.
 

@@ -28,10 +28,10 @@ Ao escolher sapatilhas para corrida de curta e média distância, é importante 
 
 Aqui estão algumas das melhores opções de sapatilhas para 5km e 10km disponíveis no mercado em 2026:
 
-- **Nike Vaporfly Next% 2**: A Nike Vaporfly Next% 2 é uma sapatilha de corrida de elite concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores experientes que buscam um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
-- **Adidas Adizero Adios Pro**: A Adidas Adizero Adios Pro é uma sapatilha de corrida de elite concebida para oferecer um equilíbrio entre suporte, amortecimento e mobilidade. Ela é ideal para corredores experientes que buscam um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
-- **Asics Gel-Nimbus 25**: A Asics Gel-Nimbus 25 é uma sapatilha de corrida de longa distância concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que buscam um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
-- **New Balance Fresh Foam 1080v12**: A New Balance Fresh Foam 1080v12 é uma sapatilha de corrida de longa distância concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que buscam um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
+- **Nike Vaporfly Next% 2**: A Nike Vaporfly Next% 2 é uma sapatilha de corrida de elite concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores experientes que procuram um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
+- **Adidas Adizero Adios Pro**: A Adidas Adizero Adios Pro é uma sapatilha de corrida de elite concebida para oferecer um equilíbrio entre suporte, amortecimento e mobilidade. Ela é ideal para corredores experientes que procuram um desempenho rápido e eficiente. (Faixa de preço: entre 150€ e 200€)
+- **Asics Gel-Nimbus 25**: A Asics Gel-Nimbus 25 é uma sapatilha de corrida de longa distância concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que procuram um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
+- **New Balance Fresh Foam 1080v12**: A New Balance Fresh Foam 1080v12 é uma sapatilha de corrida de longa distância concebida para oferecer suporte e amortecimento adequados sem sacrificar a mobilidade e a eficiência de corrida. Ela é ideal para corredores que procuram um desempenho consistente e eficiente em longas distâncias. (Faixa de preço: entre 100€ e 150€)
 
 ## Veredicto: Qual Comprar
 

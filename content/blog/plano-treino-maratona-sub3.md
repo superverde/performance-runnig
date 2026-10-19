@@ -7,7 +7,7 @@ keyword: "maratona sub 3 horas"
 keywords: ["plano maratona sub 3", "maratona em menos de 3 horas", "plano de treino maratona"]
 readTime: 4
 faqs:
-  - q: "Qual é a importância dos treinos tempo em um plano sub‑3h?"
+  - q: "Qual é a importância dos treinos tempo num plano sub‑3h?"
     a: "Os treinos tempo treinam a capacidade de manter um ritmo próximo ao alvo durante a maratona, melhorando a eficiência metabólica e a resistência à fadiga."
 ---
 
@@ -47,7 +47,7 @@ A periodização deve seguir a teoria de Bompa & Buzzichelli (2018), dividindo o
 
 - **Força**: 2 sessões por semana (agachamento, levantamento terra, step‑ups) – 3 × 8 repetições a 70 % 1RM.  
 - **Flexibilidade**: 10 min de alongamento após cada treino.  
-- **Nutrição**: Carboidratos 7–10 g/kg/dia, proteína 1,5 g/kg/dia, hidratação constante.  
+- **Nutrição**: Hidratos de carbono 7–10 g/kg/dia, proteína 1,5 g/kg/dia, hidratação constante.  
 - **Sono**: 7–8 h/dia, evitar vigília noturna.
 
 ## Erros Comuns

@@ -35,7 +35,7 @@ Além disso, a postura ereta – inclinação do tronco de 5‑10° para a frent
 Um objetivo prático é elevar a cadência em 10 % durante as subidas. Se o teu ritmo habitual é 170 passos por minuto (spm), passa para 187 spm. Usa um cronómetro com marca de tempo ou um relógio GPS que mostre a cadência.  
 
 ### 2. Reduzir a Amplitude de Passo  
-Ao subir, diminui a distância entre os pés em 10 % e aumenta a frequência. Isto mantém o contato do pé com o solo mais curto, reduzindo o tempo de apoio e a carga sobre o joelho.  
+Ao subir, diminui a distância entre os pés em 10 % e aumenta a frequência. Isto mantém o contacto do pé com o solo mais curto, reduzindo o tempo de apoio e a carga sobre o joelho.  
 
 ### 3. Postura e Inclinação do Tronco  
 Manter o tronco ligeiramente inclinado para a frente (5°) ajuda a transferir a força vertical para a propulsão. Evita inclinar‑se excessivamente para trás, o que aumenta a carga lombar.  

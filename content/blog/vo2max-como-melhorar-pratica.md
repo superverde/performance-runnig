@@ -34,7 +34,7 @@ O treino de intervalos é uma variante do treino de alta intensidade que consist
 
 ### Treino de Fadiga
 
-O treino de fadiga é uma técnica de treino que consiste em realizar um esforço prolongado a uma velocidade moderada, até a ocorrência de fadiga muscular. De acordo com Bassett e Howley (2000), o treino de fadiga é capaz de aumentar a capacidade de oxigênio muscular e a frequência cardíaca máxima em atletas de resistência. Por exemplo, um treino de fadiga pode consistir em uma corrida de 30 minutos a uma velocidade de 70% da velocidade máxima.
+O treino de fadiga é uma técnica de treino que consiste em realizar um esforço prolongado a uma velocidade moderada, até a ocorrência de fadiga muscular. De acordo com Bassett e Howley (2000), o treino de fadiga é capaz de aumentar a capacidade de oxigênio muscular e a frequência cardíaca máxima em atletas de resistência. Por exemplo, um treino de fadiga pode consistir numa corrida de 30 minutos a uma velocidade de 70% da velocidade máxima.
 
 ## Erros Comuns
 

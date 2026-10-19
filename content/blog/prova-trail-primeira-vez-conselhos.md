@@ -16,7 +16,7 @@ faqs:
     a: "Sim, se forem ingeridos 30 min antes do início, podem ajudar na recuperação muscular, mas devem ser consumidos em quantidades moderadas (≈ 20 g) para evitar desconforto gastrointestinal."
 ---
 
-Para evitar os erros clássicos na primeira prova de trail, deve‑se planejar adequadamente a hidratação, a nutrição, o ritmo e o terreno, ajustando‑se ao perfil da prova e ao seu nível de experiência.
+Para evitar os erros clássicos na primeira prova de trail, deve‑se planear adequadamente a hidratação, a nutrição, o ritmo e o terreno, ajustando‑se ao perfil da prova e ao seu nível de experiência.
 
 A estreia num trail não é apenas um teste de resistência, mas também de estratégia. O terreno varia, o clima pode mudar rapidamente e o corpo reage de forma diferente do que num percurso pavimentado. Por isso, a preparação deve ser tão detalhada quanto o percurso.
 
@@ -33,7 +33,7 @@ A definição de trail, segundo Scheer et al. (2020), distingue o off‑road d
 ### 1. Treino de Volume e Intensidade
 
 - **Volume Semanal**: 90 km na primeira fase, aumentando 5 % semanalmente até atingir 120 km.  
-- **Frequência**: 4‑5 sessões por semana, sendo duas de subida (30 min cada) e uma de descida (20 min focada em controle).  
+- **Frequência**: 4‑5 sessões por semana, sendo duas de subida (30 min cada) e uma de descida (20 min focada em controlo).  
 - **Intensidade**: 70 % da frequência cardíaca máxima (FCM) em subidas, 60 % em descidas, 80 % em treinos de velocidade.
 
 ### 2. Força e Pliometria
@@ -45,7 +45,7 @@ A definição de trail, segundo Scheer et al. (2020), distingue o off‑road d
 ### 3. Nutrição e Hidratação
 
 - **Hidratação**: 500 ml de solução isotónica a cada 20 km; 200 ml de água adicional se a temperatura exceder 20 °C.  
-- **Carboidratos**: 30 g/h de Glicose em forma de gel ou fruta durante percursos superiores a 60 min.  
+- **Hidratos de carbono**: 30 g/h de Glicose em forma de gel ou fruta durante percursos superiores a 60 min.  
 - **Electrolytes**: 200 mg de sódio e 30 mg de potássio por litro de bebida.
 
 ### 4. Estratégia de Ritmo
@@ -83,4 +83,4 @@ Para a primeira prova de trail, escolhe uma distância curta (até 20 km) com de
 
 2. Millet, G. Y., Tomazin, K., Verges, S., et al. (2011). Neuromuscular consequences of an extreme mountain ultra-marathon. PLoS ONE, 6(2), e17059. https://doi.org/10.1371/journal.pone.0017059
 
-3. Scheer, V., Basset, P., Giovanelli, N., Vernillo, G., Millet, G. P., &
+3. Scheer, V., Basset, P., Giovanelli, N., Vernillo, G., Millet, G. P., & Costa, R. J. S. (2020). Defining off-road running: a position statement from the Ultra Sports Science Foundation. *International Journal of Sports Medicine*, 41(5), 275–284. https://doi.org/10.1055/a-1096-0980

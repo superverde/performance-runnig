@@ -13,7 +13,7 @@ faqs:
   - q: "Quanto tempo devo dedicar ao treino de força?"
     a: "Entre 45 min e 1 h por sessão, 2 vezes por semana, focando em exercícios compostos como agachamento e levantamento terra."
   - q: "Preciso de suplementação para melhorar a recuperação?"
-    a: "A ingestão de carboidratos pós‑treino (0,5–1 g/kg) e proteína (20–30 g) ajuda na recuperação muscular; suplementos adicionais devem ser avaliados individualmente."
+    a: "A ingestão de hidratos de carbono pós‑treino (0,5–1 g/kg) e proteína (20–30 g) ajuda na recuperação muscular; suplementos adicionais devem ser avaliados individualmente."
 ---
 
 Para correr 10 km em menos de 45 minutos, a estrutura de treino deve combinar volume moderado, intervalos de velocidade, trabalho de força e recuperação, seguindo uma periodização de 12 semanas que culmina numa fase de afinação.
@@ -28,7 +28,7 @@ Os intervalos de velocidade (interval training) estimulam a capacidade anaeróbi
 
 O trabalho de força, especialmente na cadeia posterior, reduz o risco de lesões e melhora a potência de propulsão (Blagrove et al., 2018). Exercícios como agachamento, levantamento terra e step‑ups, 2× per semana, com 3–4 séries de 8–10 repetições, aumentam a capacidade de gerar força durante a corrida.
 
-A periodização de 12 semanas, estruturada em macro‑ciclo (4 semanas de volume), micro‑ciclo (1 semana de recuperação) e fase de afinação (2 semanas), segue a teoria de Bompa & Buzzichelli (2018). Esta abordagem permite acumular carga de forma progressiva, culminando em um pico de forma antes da prova.
+A periodização de 12 semanas, estruturada em macro‑ciclo (4 semanas de volume), micro‑ciclo (1 semana de recuperação) e fase de afinação (2 semanas), segue a teoria de Bompa & Buzzichelli (2018). Esta abordagem permite acumular carga de forma progressiva, culminando num pico de forma antes da prova.
 
 ## Aplicação Prática
 

@@ -40,9 +40,9 @@ A complementaridade surge quando a HRV permanece estável, mas o atleta reporta 
    - **Exemplo**: Se a HRV está estável (RMSSD 55 ms) mas o atleta relata “alta fadiga” (RESTQ stress 75), pode‑se optar por uma sessão de corrida leve (5 km a 70 % do FTP) seguida de alongamento.  
    - **Exemplo numérico**: Um corredor com VO₂max de 58 ml kg⁻¹ min⁻¹ que apresenta RMSSD 28 ms e RESTQ stress 80 deve reduzir o volume semanal em 20 % (de 80 km para 64 km) e focar em recuperação ativa.
 
-4. **Ajuste de Volume e Intensidade**  
+4. **Ajusta de Volume e Intensidade**  
    - **Protocolos**: Se a HRV cai consistentemente abaixo de 30 ms durante três dias consecutivos, reduza a intensidade em 10 % e inclua 2 dias de descanso.  
-   - **Monitorização**: Registar os valores em uma planilha para identificar tendências semanais e mensais.
+   - **Monitorização**: Registar os valores numa planilha para identificar tendências semanais e mensais.
 
 ## Erros Comuns
 

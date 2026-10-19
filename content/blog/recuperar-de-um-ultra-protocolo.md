@@ -17,18 +17,18 @@ faqs:
 
 Recuperar de um ultra exige uma combinação de intervenções fisiológicas, nutricionais, de sono e de monitorização de carga, todas coordenadas num plano de 48–72 h pós‑corrida.
 
-Quando a distância ultrapassa os 50 km, o corpo submete‑se a um estresse que vai além da fadiga muscular típica. A restauração completa, de modo a preservar a performance futura, depende de uma sequência bem estruturada de protocolos de recuperação, que devem ser aplicados de forma individualizada mas baseada em evidências científicas.
+Quando a distância ultrapassa os 50 km, o corpo submete‑se a um stress que vai além da fadiga muscular típica. A restauração completa, de modo a preservar a performance futura, depende de uma sequência bem estruturada de protocolos de recuperação, que devem ser aplicados de forma individualizada mas baseada em evidências científicas.
 
 ## Base Científica
 
-O estresse ultramaratona provoca dano muscular, inflamação sistémica, desequilíbrio de fluidos e redução do sono. Estudos mostram que intervenções de baixa intensidade, hidratação adequada e estímulos anti‑inflamatórios naturais reduzem os marcadores de dano (CK, lactato) e aceleram a recuperação muscular (Kellmann et al., 2018). O uso de técnicas de recuperação ativa (ex.: 20 min de trote a 60 % da FCmáx) favorece a circulação e a remoção de metabólitos, enquanto a imersão em água fria (10–15 °C, 10–15 min) reduz a resposta inflamatória (Dupuy et al., 2018). O sono prolongado e de qualidade é fundamental, já que a extensão de 1 h adicional aumenta a produção de hormonas de recuperação, como o hormónio do crescimento (Mah et al., 2011; Vitale et al., 2019). A monitorização de carga via HRV e RPE permite ajustar a intensidade das sessões de recuperação de acordo com o nível de fadiga (Halson, 2014).
+O stress ultramaratona provoca dano muscular, inflamação sistémica, desequilíbrio de fluidos e redução do sono. Estudos mostram que intervenções de baixa intensidade, hidratação adequada e estímulos anti‑inflamatórios naturais reduzem os marcadores de dano (CK, lactato) e aceleram a recuperação muscular (Kellmann et al., 2018). O uso de técnicas de recuperação ativa (ex.: 20 min de trote a 60 % da FCmáx) favorece a circulação e a remoção de metabólitos, enquanto a imersão em água fria (10–15 °C, 10–15 min) reduz a resposta inflamatória (Dupuy et al., 2018). O sono prolongado e de qualidade é fundamental, já que a extensão de 1 h adicional aumenta a produção de hormonas de recuperação, como o hormónio do crescimento (Mah et al., 2011; Vitale et al., 2019). A monitorização de carga via HRV e RPE permite ajustar a intensidade das sessões de recuperação de acordo com o nível de fadiga (Halson, 2014).
 
 ## Aplicação Prática
 
 ### 0 h – Pós‑corrida
 - **Reidratação imediata**: 1,5 L de água + 500 mL de isotônico (1 % de sal, 1 % de açúcar) nas primeiras 30 min.
 - **Recuperação ativa**: 20 min de trote leve a 60 % FCmáx (≈120–140 bpm, dependendo da zona de zona 2).
-- **Alimentação**: 0,5 g /kg de carboidratos + 0,3 g /kg de proteína (ex.: 70 g de arroz + 30 g de frango) dentro das primeiras 30 min.
+- **Alimentação**: 0,5 g /kg de hidratos de carbono + 0,3 g /kg de proteína (ex.: 70 g de arroz + 30 g de frango) dentro das primeiras 30 min.
 
 ### 12 h – 24 h
 - **Imersão em água fria**: 10 min em 10–15 °C (hidratação contínua, 1 L de água).
@@ -37,7 +37,7 @@ O estresse ultramaratona provoca dano muscular, inflamação sistémica, desequi
 
 ### 24 h – 48 h
 - **Treino de recuperação**: 30 min de caminhada ou ciclismo a 50 % FCmáx (≈110 bpm).
-- **Nutrição**: 1,5 g /kg de carboidratos por dia, 0,25 g /kg de proteína, 0,8 g /kg de gordura.
+- **Nutrição**: 1,5 g /kg de hidratos de carbono por dia, 0,25 g /kg de proteína, 0,8 g /kg de gordura.
 - **Suplementação anti‑inflamatória**: chá de cereja (tart cherry) 1 copo (240 ml) 2 h antes de dormir (Howatson et al., 2010).
 
 ### 48 h – 72 h

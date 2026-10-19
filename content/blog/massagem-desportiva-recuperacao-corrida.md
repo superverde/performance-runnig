@@ -20,7 +20,7 @@ Alguns estudos têm demonstrado que a massagem pode ter efeitos benéficos na re
 
 #### Aplicação Prática
 
-A aplicação prática da massagem desportiva depende de vários fatores, incluindo o tipo de exercício, o nível de intensidade e a experiência do atleta. Em geral, é recomendado que a massagem seja realizada após o entreno, enquanto o corpo ainda está em um estado de tensão muscular e inflamação.
+A aplicação prática da massagem desportiva depende de vários fatores, incluindo o tipo de exercício, o nível de intensidade e a experiência do atleta. Em geral, é recomendado que a massagem seja realizada após o entreno, enquanto o corpo ainda está num estado de tensão muscular e inflamação.
 
 A duração e a frequência da massagem também são importantes. Estudos têm demonstrado que a massagem pode ser mais eficaz quando realizada por 15-30 minutos, 1-3 vezes por semana (Vitale et al., 2019). Além disso, a escolha do técnico de massagem e o tipo de técnicas utilizadas também podem afetar os resultados.
 
@@ -28,7 +28,7 @@ A duração e a frequência da massagem também são importantes. Estudos têm d
 
 A massagem desportiva pode ser prejudicada por vários erros comuns, incluindo:
 
-* Massagem realizada antes do entreno, quando o corpo ainda está em um estado de tensão muscular e inflamação.
+* Massagem realizada antes do entreno, quando o corpo ainda está num estado de tensão muscular e inflamação.
 * Massagem realizada com intensidade excessiva, o que pode causar dor e inflamação adicional.
 * Massagem realizada por técnico inexperiente, o que pode não utilizar as técnicas mais eficazes ou não realizar a massagem de forma segura.
 * Massagem realizada sem considerar as necessidades e limitações individuais do atleta.

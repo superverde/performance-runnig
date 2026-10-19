@@ -62,7 +62,7 @@ O volume de zona 2 aumenta em 20 % a cada 4 semanas, enquanto o volume de zona
 
 ### Nutrição e hidratação
 
-- **Carboidratos**: 7‑10 g kg⁻¹ dia antes da prova.  
+- **Hidratos de carbono**: 7‑10 g kg⁻¹ dia antes da prova.  
 - **Proteína**: 1,2 g kg⁻¹ dia após cada treino intenso.  
 - **Hidratação**: 500 ml de solução isotónica a cada 20 min durante treinos > 60 min.
 

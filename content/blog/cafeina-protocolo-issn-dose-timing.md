@@ -60,7 +60,7 @@ Para um corredor de 70 kg que pretende usar 4 mg/kg, a dose seria 280 mg. 
 | Erro | Consequência | Como Evitar |
 |------|--------------|-------------|
 | Ingestão de doses > 6 mg/kg | Aumento de ansiedade, palpitações, insónia | Seguir a recomendação ISSN e testar em treino |
-| Consumir cafeína 15 min antes | Concentração plasmática insuficiente | Planejar 45–60 min antes |
+| Consumir cafeína 15 min antes | Concentração plasmática insuficiente | Planear 45–60 min antes |
 | Usar apenas café sem hidratação | Desidratação | Ingerir 250–300 ml de água com a cafeína |
 | Não testar a tolerância | Risco de efeitos colaterais inesperados | Iniciar em sessões de treino leves |
 
@@ -72,7 +72,7 @@ Para corredores que desejam otimizar a performance com cafeína:
 
 1. **Calcular a dose**: 3–6 mg/kg, preferencialmente 4 mg/kg.
 2. **Testar em treino**: 2–3 sessões de 10–15 km para avaliar tolerância.
-3. **Ingerir 45–60 min antes**: com água e, se necessário, carboidratos leves (30 g) para evitar desconforto gastrointestinal.
+3. **Ingerir 45–60 min antes**: com água e, se necessário, hidratos de carbono leves (30 g) para evitar desconforto gastrointestinal.
 4. **Monitorizar**: batimento, ansiedade e performance.
 5. **Ajustar**: reduzir em 1 mg/kg se ocorrer efeito adverso.
 

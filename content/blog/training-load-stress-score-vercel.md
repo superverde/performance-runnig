@@ -20,7 +20,7 @@ Para gerir a carga de treino com dados, combina‑se o monitoramento da carga ab
 A sinergia entre esses indicadores permite identificar quando o atleta está a acumular adaptação, quando está a saturar ou a entrar num estado de sobre‑carga, e, assim, planeia‑se o volume, a intensidade e o descanso de forma científica.
 
 A ciência do treino de endurance evoluiu rapidamente nos últimos anos, passando de meros registos de quilómetros a métricas baseadas em fisiologia e estatística. Os modelos de Training Stress Score (TSS) e os parâmetros de Acute Training Load (ATL) e Chronic Training Load (CTL) surgiram como ferramentas que traduzem a complexidade do esforço físico em números que podem ser comparados, monitorizados e ajustados ao longo do tempo.  
-Para corredores de elite e amadores avançados, compreender esses indicadores não é apenas um exercício académico: é a chave para evitar lesões, maximizar a performance e planejar ciclos de competição de forma racional.
+Para corredores de elite e amadores avançados, compreender esses indicadores não é apenas um exercício académico: é a chave para evitar lesões, maximizar a performance e planear ciclos de competição de forma racional.
 
 ## Base Científica
 
@@ -42,7 +42,7 @@ Laursen (2010) demonstra que a distribuição de volume e intensidade (high‑in
 
 ### Monitorização diária
 
-1. **Coleta de dados**: Utilize um smartwatch ou monitor de frequência cardíaca que permita exportar TSS.  
+1. **Coleta de dados**: Utiliza um smartwatch ou monitor de frequência cardíaca que permita exportar TSS.  
 2. **Cálculo rápido**: Se o TSS diário for 80, registre-o.  
 3. **Atualização de ATL/CTL**:  
    - ATL = soma dos últimos 7 dias de TSS.  
@@ -61,7 +61,7 @@ Laursen (2010) demonstra que a distribuição de volume e intensidade (high‑in
 | 7   | 30  | 270          | 92            |
 | 8   | 20  | 250          | 94            |
 
-Neste cenário, o ATL (250) está a 27 % acima do CTL (94) na semana 2, indicando risco de sobrecarga. Ajuste‑se reduzindo o volume em 10 % ou aumentando a recuperação.
+Neste cenário, o ATL (250) está a 27 % acima do CTL (94) na semana 2, indicando risco de sobrecarga. Ajusta‑se reduzindo o volume em 10 % ou aumentando a recuperação.
 
 ### Planeamento de ciclos de treino
 
@@ -90,7 +90,7 @@ Neste cenário, o ATL (250) está a 27 % acima do CTL (94) na semana 2, indica
 | Erro | Consequência | Como Evitar |
 |------|--------------|-------------|
 | Ignorar a diferença ATL‑CTL | Lesões por sobrecarga | Monitorizar diariamente e ajustar volume quando ATL > CTL + 20 % |
-| Subestimar a importância do tapering | Desempenho abaixo do esperado | Planejar a última semana com TSS a 30–50 % do CTL |
+| Subestimar a importância do tapering | Desempenho abaixo do esperado | Planear a última semana com TSS a 30–50 % do CTL |
 | Focar apenas no volume, não na intensidade | Falta de adaptação anaeróbica | Distribuir o treino conforme Seiler (2010) |
 | Não usar métricas de intensidade (FTP/HRmax) | Falta de precisão no TSS | Calibrar dispositivos e usar zonas de treino bem definidas |
 
@@ -108,4 +108,4 @@ Ao integrar ATL e CTL no plano de treino, obtém‑se uma visão holística do e
 ## Referências Científicas
 
 1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
-2. Laursen, P. B. (2010). Training for intense exercise performance: high‑intensity or high‑volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-
+2. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? *Scandinavian Journal of Medicine & Science in Sports*, 20(Suppl 2), 1–10. https://doi.org/10.1111/j.1600-0838.2010.01184.x

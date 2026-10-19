@@ -19,7 +19,7 @@ Sapatilhas para reabilitação são essenciais para garantir uma progressão seg
 
 ## Como Escolher: Critérios Que Importam
 
-A escolha de sapatilhas durante a fase de reabilitação deve ser guiada por parâmetros que minimizem o risco de recaída e maximizem o conforto. Estudos recentes, como o de Nigg et al. (2015), destacam a importância de amortecimento adequado e de estabilidade controlada para reduzir o estresse mecânico nas articulações.  
+A escolha de sapatilhas durante a fase de reabilitação deve ser guiada por parâmetros que minimizem o risco de recaída e maximizem o conforto. Estudos recentes, como o de Nigg et al. (2015), destacam a importância de amortecimento adequado e de estabilidade controlada para reduzir o stress mecânico nas articulações.  
 
 1. **Amortecimento** – O nível de amortecimento deve ser suficiente para absorver impactos sem criar hiperventilação muscular. Sapatilhas com camadas de espuma de poliuretano ou gel tendem a oferecer maior absorção, mas podem comprometer a responsividade em distâncias curtas.  
 

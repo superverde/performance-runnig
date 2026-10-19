@@ -10,7 +10,7 @@ readTime: 4
 
 A recuperação é uma parte fundamental do processo de treino para os atletas. Ao longo de um dia de treino, o corpo acumula lesões musculares, inflamação e stress oxidativo, que precisam ser reparados e eliminados para que o organismo possa se recuperar e se preparar para o próximo desafio. Embora muitos atletas se concentrem na sua dieta e no seu treino, a recuperação pode ser tão importante quanto esses dois fatores. Entre as várias estratégias de recuperação, o sono desempenha um papel fundamental. Neste artigo, vamos explorar como o sono é essencial para a recuperação do atleta e como ele pode ser otimizado para melhorar desempenho e reduzir o risco de lesões.
 
-A recuperação é um processo contínuo que começa logo após o treino. Ao longo do dia, o corpo acumula lesões musculares, inflamação e stress oxidativo, que precisam ser reparados e eliminados. O sono é fundamental para essa recuperação, pois permite que o corpo se recupere e se prepare para o próximo desafio. Durante o sono, o corpo produz hormônios que ajudam a reparar lesões musculares, a reduzir a inflamação e a eliminar o stress oxidativo. Além disso, o sono ajuda a regular a temperatura corporal, a regular a pressão arterial e a estimular a imunidade.
+A recuperação é um processo contínuo que começa logo após o treino. Ao longo do dia, o corpo acumula lesões musculares, inflamação e stress oxidativo, que precisam ser reparados e eliminados. O sono é fundamental para essa recuperação, pois permite que o corpo se recupere e se prepare para o próximo desafio. Durante o sono, o corpo produz hormonas que ajudam a reparar lesões musculares, a reduzir a inflamação e a eliminar o stress oxidativo. Além disso, o sono ajuda a regular a temperatura corporal, a regular a pressão arterial e a estimular a imunidade.
 
 No entanto, a qualidade do sono é crucial para a recuperação do atleta. Atletas que têm dificuldade em dormir ou que têm um sono de baixa qualidade podem ter dificuldade em se recuperar e podem estar mais propensos a lesões. Além disso, o sono é essencial para a memória e a aprendizagem, o que é fundamental para o aperfeiçoamento do treino e da competição.
 
@@ -25,9 +25,9 @@ Um estudo publicado no International Journal of Sports Medicine encontrou que os
 Para otimizar o sono como atleta, é importante estabelecer uma rotina de sono regular. Aqui estão algumas dicas para ajudar a melhorar a qualidade do sono:
 
 * **Estabeleça uma rotina de sono regular**: Vá para a cama e acorde ao mesmo tempo todos os dias, mesmo nos fins de semana.
-* **Crie um ambiente de sono favorável**: Certifique-se de que a sua cama seja confortável e que a sua sala esteja escura e silenciosa.
-* **Evite a ingestão de cafeína e álcool antes de dormir**: A cafeína pode interferir com a qualidade do sono e o álcool pode dificultar a queda do sono.
-* **Evite o uso de tecnologias eletrónicas antes de dormir**: A luz azul das telas de telemóvel e computador pode interferir com a produção de melatonina, o hormônio que regula o sono.
+* **Crie um ambiente de sono favorável**: Certifica-te de que a sua cama seja confortável e que a sua sala esteja escura e silenciosa.
+* **Evita a ingestão de cafeína e álcool antes de dormir**: A cafeína pode interferir com a qualidade do sono e o álcool pode dificultar a queda do sono.
+* **Evita o uso de tecnologias eletrónicas antes de dormir**: A luz azul dos ecrãs de telemóvel e computador pode interferir com a produção de melatonina, a hormona que regula o sono.
 
 ## Erros Comuns
 

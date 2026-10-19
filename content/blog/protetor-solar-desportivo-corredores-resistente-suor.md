@@ -12,14 +12,14 @@ faqs:
   - q: "Preciso reaplicar o protetor solar a cada hora?"
     a: "Se estiver a suar muito ou a nadar, a reaplicação a cada 2 h é recomendada. Em condições de pouca exposição, a cada 4 h pode ser suficiente."
   - q: "O protetor solar pode interferir na hidratação da pele?"
-    a: "Alguns protetores com base oleosa podem bloquear a hidratação natural. Opte por fórmulas com agentes humectantes, como glicerina ou aloe vera, para equilibrar a proteção e a hidratação."
+    a: "Alguns protetores com base oleosa podem bloquear a hidratação natural. Opta por fórmulas com agentes humectantes, como glicerina ou aloe vera, para equilibrar a proteção e a hidratação."
 ---
 
 Para quem corre, a proteção solar não é apenas um extra: é um componente essencial da sua rotina de treino. Este guia vai esclarecer porquê escolher um protetor solar desportivo resistente ao suor, como avaliar as suas características técnicas e quais são os melhores produtos disponíveis em 2026, para que possa maximizar o conforto e a segurança enquanto corre.
 
 ## Como Escolher: Critérios Que Importam
 
-Ao seleccionar um protetor solar desportivo, o primeiro critério a avaliar é a **proteção espectral**. Procure produtos com cobertura UVA e UVB, indicadas por “SPF” (fator de proteção solar) e “PA” (proteção UVA). Para corredores que se expõem ao sol durante longos períodos, um SPF 50+ e PA+++ são recomendados, pois garantem maior retenção de energia solar e proteção contra radiação ultravioleta de curta e longa duração.
+Ao seleccionar um protetor solar desportivo, o primeiro critério a avaliar é a **proteção espectral**. Procura produtos com cobertura UVA e UVB, indicadas por “SPF” (fator de proteção solar) e “PA” (proteção UVA). Para corredores que se expõem ao sol durante longos períodos, um SPF 50+ e PA+++ são recomendados, pois garantem maior retenção de energia solar e proteção contra radiação ultravioleta de curta e longa duração.
 
 O segundo critério é a **resistência ao suor e à água**. A norma EU 12312‑2:2011 define “resistência à água” como a capacidade de manter a eficácia após 30 minutos de exposição a água em 30 °C. Produtos com certificação “Water‑Resistant” ou “Sport” indicam formulações com agentes filmogênicos que formam uma barreira aderente à pele, reduzindo a perda de cobertura por sudorese.
 
@@ -55,4 +55,4 @@ Para mais detalhes sobre como medir a frequência cardíaca e otimizar a sua cor
 
 Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054  
 Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2  
-Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes:
+Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial with participant and assessor blinding. *British Journal of Sports Medicine*, 50(8), 481–487.

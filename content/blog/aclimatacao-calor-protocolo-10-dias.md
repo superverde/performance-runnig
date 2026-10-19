@@ -13,7 +13,7 @@ faqs:
   - q: "Quanto tempo após o último dia de aclimatação devo esperar antes de competir em clima fresco?"
     a: "Os benefícios permanecem por até duas semanas; portanto, se a competição estiver dentro desse intervalo, o atleta pode aproveitar a adaptação. Caso contrário, recomenda‑se repetir o protocolo ou fazer sessões de “reaclimatação” breves."
   - q: "Posso substituir a água por bebidas isotônicas durante o treino de calor?"
-    a: "Sim, bebidas isotônicas são recomendadas porque fornecem eletrólitos e carboidratos, mas a ingestão de sódio deve ser monitorizada para evitar hiponatremia."
+    a: "Sim, bebidas isotônicas são recomendadas porque fornecem eletrólitos e hidratos de carbono, mas a ingestão de sódio deve ser monitorizada para evitar hiponatremia."
 ---
 
 Sim, um protocolo de 10 dias de aclimatação ao calor pode melhorar o desempenho em ambientes frescos, pois estimula adaptações cardiovasculares, musculares e de regulação térmica que permanecem ativas mesmo quando a temperatura ambiente diminui.  
@@ -24,8 +24,8 @@ Essas adaptações, quando combinadas com treinos em temperatura fresca, resulta
 
 ## Base Científica
 
-A eficiência cardiovascular aumenta quando o coração aprende a bombear mais sangue por batida (volume sistólico). Aumentar o volume sanguíneo total e a capacidade de dilatação venosa reduz a carga de trabalho do coração. A aclimatação ao calor estimula a produção de citocinas anti-inflamatórias e a síntese de proteínas de choque térmico, que protegem os miocitos contra estresse oxidativo.  
-Além disso, a regulação do sistema nervoso autônomo se ajusta: a resposta vagal aumenta, o que diminui a frequência cardíaca em esforço (FC ≈ FC + 10 % menos). Este efeito é medido em estudos que utilizam registro de ECG durante provas de 10 km em 30 °C, mostrando redução de 15 bpm em comparação com treinos em 20 °C.  
+A eficiência cardiovascular aumenta quando o coração aprende a bombear mais sangue por batida (volume sistólico). Aumentar o volume sanguíneo total e a capacidade de dilatação venosa reduz a carga de trabalho do coração. A aclimatação ao calor estimula a produção de citocinas anti-inflamatórias e a síntese de proteínas de choque térmico, que protegem os miocitos contra stress oxidativo.  
+Além disso, a regulação do sistema nervoso autónomo se ajusta: a resposta vagal aumenta, o que diminui a frequência cardíaca em esforço (FC ≈ FC + 10 % menos). Este efeito é medido em estudos que utilizam registo de ECG durante provas de 10 km em 30 °C, mostrando redução de 15 bpm em comparação com treinos em 20 °C.  
 Por fim, a adaptação muscular inclui um aumento na densidade capilar e na expressão de enzimas oxidativas, favorecendo a oxidação de gordura e a preservação de glicogênio, fatores críticos em corridas de 5 km a 21 km.
 
 ## Aplicação Prática
@@ -59,4 +59,7 @@ Um programa de 10 dias de aclimatação ao calor, com treinos estruturados em 70
 O segredo está em equilibrar a intensidade, a temperatura e a hidratação, monitorizar continuamente os sinais fisiológicos e adaptar o protocolo às necessidades individuais. Este plano de 10 dias oferece um caminho prático para quem pretende competir em qualquer clima, sem comprometer a saúde nem a performance.
 
 
-## Referências Cientí
+## Referências Científicas
+
+1. Périard, J. D., Racinais, S., & Sawka, M. N. (2015). Adaptations and mechanisms of human heat acclimation: applications for competitive athletes and sports. *Scandinavian Journal of Medicine & Science in Sports*, 25(Suppl 1), 20–38. https://doi.org/10.1111/sms.12408
+2. Racinais, S., Alonso, J. M., Coutts, A. J., et al. (2015). Consensus recommendations on training and competing in the heat. *British Journal of Sports Medicine*, 49(18), 1164–1173. https://doi.org/10.1136/bjsports-2015-094915

@@ -14,7 +14,7 @@ coverImage: "https://images.unsplash.com/photo-1486218119243-13301429a4d3?w=1200
 
 O VO2max é uma medida da capacidade aeróbica máxima, definida como o consumo máximo de oxigênio por unidade de peso corporal por minuto. É um indicador importante da aptidão física e é frequentemente utilizado para avaliar o desempenho em atividades aeróbicas, como o atletismo. No entanto, o VO2max é influenciado por vários fatores, incluindo a genética, o treino e a idade.
 
-Estudos têm demonstrado que a genética desempenha um papel significativo na determinação do VO2max. Um estudo publicado na revista "Journal of Applied Physiology" encontrou que a hereditariedade explica cerca de 55% da variância no VO2max em adultos saudáveis (2). Outro estudo publicado na revista "Medicine and Science in Sports and Exercise" encontrou que o VO2max é hereditário em uma proporção de cerca de 40% (3).
+Estudos têm demonstrado que a genética desempenha um papel significativo na determinação do VO2max. Um estudo publicado na revista "Journal of Applied Physiology" encontrou que a hereditariedade explica cerca de 55% da variância no VO2max em adultos saudáveis (2). Outro estudo publicado na revista "Medicine and Science in Sports and Exercise" encontrou que o VO2max é hereditário numa proporção de cerca de 40% (3).
 
 ## O Papel do treino
 

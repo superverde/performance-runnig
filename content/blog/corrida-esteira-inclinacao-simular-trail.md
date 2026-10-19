@@ -56,7 +56,7 @@ Evitar esses erros garante que o treino seja seguro e eficaz, alinhado às recom
 
 Para maximizar os benefícios de simular trail na passadeira, recomenda‑se incluir o treino de subida 1–2 vezes por semana, complementado por treinos de velocidade em terreno plano. A combinação permite melhorar tanto a capacidade aeróbica quanto a força específica de subida.  
 
-O uso controlado da inclinação transforma a passadeira em um laboratório de subidas, permitindo ajustes precisos de intensidade que seriam impossíveis em trilhos ao ar livre. Assim, corredores podem manter a forma e preparar os músculos para as exigências de trail indoor, reduzindo o risco de lesões e melhorando a performance geral.  
+O uso controlado da inclinação transforma a passadeira num laboratório de subidas, permitindo ajustes precisos de intensidade que seriam impossíveis em trilhos ao ar livre. Assim, corredores podem manter a forma e preparar os músculos para as exigências de trail indoor, reduzindo o risco de lesões e melhorando a performance geral.  
 
 
 ## Referências Científicas  

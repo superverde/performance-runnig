@@ -37,7 +37,7 @@ Para corredores mais velhos, a escolha do calçado deve ser guiada por três pil
 | **Hoka One One Bondi 7** | Corrida de longa distância e recuperação | Amortização máxima, estabilidade superior | Peso mais elevado | Entre 170 € e 220 € |
 | **New Balance Fresh Foam 1080v12** | Corrida de alta intensidade | Amortização de espuma Fresh Foam, ajuste anatómico | Solado menos aderente em superfícies molhadas | Entre 160 € e 210 € |
 
-Cada modelo foi testado em percursos urbanos e de trilha, considerando a variação de carga e terreno típica de corredores veteranos.  
+Cada modelo foi testado em percursos urbanos e de trilho, considerando a variação de carga e terreno típica de corredores veteranos.  
 
 ## Veredicto: Qual Comprar  
 - **Iniciantes**: A **Brooks Ghost 14** oferece amortização consistente e conforto, ideal para quem está a voltar a correr após longos períodos de inatividade.  

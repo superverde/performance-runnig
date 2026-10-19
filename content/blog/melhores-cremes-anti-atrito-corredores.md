@@ -26,13 +26,13 @@ A eficácia de um creme anti‑atrito depende de vários fatores que devem ser p
    A camada de silicone deve manter-se intacta durante pelo menos 2 h de corrida em terreno variado. Testes de laboratório indicam que cremes com polímeros de silicone de alta viscosidade têm maior durabilidade.
 
 4. **Compatibilidade com o Calçado**  
-   Alguns cremes podem manchar materiais de borracha ou tecido. Procure fórmulas “sem manchas” ou “compatíveis com EVA” se pretende usar em ténis de corrida de alta performance.
+   Alguns cremes podem manchar materiais de borracha ou tecido. Procura fórmulas “sem manchas” ou “compatíveis com EVA” se pretende usar em ténis de corrida de alta performance.
 
 5. **Sensibilidade da Pele**  
-   Corredores com pele sensível devem evitar fragrâncias fortes e optar por fórmulas “sem perfume” ou “para pele sensível”. Estudos dermatológicos apontam que fragrâncias aumentam a probabilidade de dermatite de contato.
+   Corredores com pele sensível devem evitar fragrâncias fortes e optar por fórmulas “sem perfume” ou “para pele sensível”. Estudos dermatológicos apontam que fragrâncias aumentam a probabilidade de dermatite de contacto.
 
 6. **Reputação e Testes Clínicos**  
-   Produtos que foram avaliados em ensaios clínicos ou por atletas de elite têm maior credibilidade. Verifique se a marca disponibiliza dados de eficácia em público.
+   Produtos que foram avaliados em ensaios clínicos ou por atletas de elite têm maior credibilidade. Verifica se a marca disponibiliza dados de eficácia em público.
 
 7. **Preço‑Valor**  
    A relação custo‑benefício deve ser considerada: um creme de 40 ml a 20 € pode ser mais vantajoso que um de 60 ml a 35 € se a eficácia for equivalente.
@@ -51,7 +51,7 @@ A eficácia de um creme anti‑atrito depende de vários fatores que devem ser p
 
 ## Veredicto: Qual Comprar
 
-Para **iniciantes** que buscam conforto a um preço razoável, o **Nivea Body Glide** oferece hidratação suficiente e não requer aplicação complexa. Se a preocupação principal é a prevenção de bolhas em treinos longos, o **Softex Anti‑Bullseye** é a escolha superior, apesar do custo ligeiramente superior.
+Para **iniciantes** que procuram conforto a um preço razoável, o **Nivea Body Glide** oferece hidratação suficiente e não requer aplicação complexa. Se a preocupação principal é a prevenção de bolhas em treinos longos, o **Softex Anti‑Bullseye** é a escolha superior, apesar do custo ligeiramente superior.
 
 Corredores **competidores** que precisam de máxima durabilidade e rápida aplicação antes de cada corrida devem optar pelo **Softex Anti‑Bullseye** ou pelo **Biofreeze Gel‑Creme**, que combinam silicone de alta qualidade com refrescância térmica. Para treinos em altitudes elevadas, o **Arctic Ice Anti‑Attrito** oferece uma barreira fresca que ajuda a controlar a temperatura da pele.
 

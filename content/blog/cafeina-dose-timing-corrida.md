@@ -41,9 +41,9 @@ Aqui estão alguns erros comuns que devem ser evitados ao utilizar a cafeína no
 
 A cafeína é uma substância poderosa que pode ser utilizada de forma eficaz para melhorar a performance desportiva. No entanto, é fundamental utilizar a cafeína de forma estratégica e controlada para evitar efeitos colaterais e interações medicamentosas. Aqui está um protocolo para utilizar a cafeína de forma eficaz:
 
-* **Monitore a dose diária**: Monitorar a dose diária de cafeína para evitar overdose e efeitos colaterais.
-* **Use a cafeína estrategicamente**: Utilizar a cafeína antes, durante e após o exercício para obter efeitos estimulantes e melhorar a concentração.
-* **Consulte um profissional**: Consultar um profissional de saúde antes de iniciar qualquer tipo de suplementação com cafeína.
+* **Monitoriza a dose diária**: Monitorar a dose diária de cafeína para evitar overdose e efeitos colaterais.
+* **Usa a cafeína estrategicamente**: Utilizar a cafeína antes, durante e após o exercício para obter efeitos estimulantes e melhorar a concentração.
+* **Consulta um profissional**: Consultar um profissional de saúde antes de iniciar qualquer tipo de suplementação com cafeína.
 
 ## Referências Científicas
 

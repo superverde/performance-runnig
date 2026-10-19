@@ -21,15 +21,15 @@ Quando se trata de corredores de longa distância, a incidência de tendinopatia
 
 ## Base Científica
 
-A tendinopatia de aquiles surge quando o tendão não consegue reparar o microdanos causados pelo estresse mecânico. Estudos indicam que a carga mecânica excessiva, especialmente durante a fase de propulsão da corrida, aumenta a tensão no tendão (van Gent et al., 2007). A tendinite de aquiles corrida é, portanto, a manifestação aguda dessa sobrecarga, caracterizada por dor intensa e inchaço imediato.
+A tendinopatia de aquiles surge quando o tendão não consegue reparar o microdanos causados pelo stress mecânico. Estudos indicam que a carga mecânica excessiva, especialmente durante a fase de propulsão da corrida, aumenta a tensão no tendão (van Gent et al., 2007). A tendinite de aquiles corrida é, portanto, a manifestação aguda dessa sobrecarga, caracterizada por dor intensa e inchaço imediato.
 
 Os mecanismos fisiológicos incluem a desorganização das fibras colágenas, a formação de microfissuras e a diminuição do fluxo sanguíneo. A resposta inflamatória crónica leva à perda de elasticidade e à espessamento do tendão, fatores que reduzem a capacidade de absorção de impacto durante a corrida.
 
 ## Aplicação Prática
 
 ### Avaliação Inicial
-1. **Teste de dorsiflexão**: Medir a amplitude de movimento em pé; valores abaixo de 15 ° indicam rigidez.
-2. **Teste de força**: Realizar 10 repetições de elevação de ponta do pé; falha antes de 8 repetições sugere fraqueza.
+1. **Testa de dorsiflexão**: Medir a amplitude de movimento em pé; valores abaixo de 15 ° indicam rigidez.
+2. **Testa de força**: Realizar 10 repetições de elevação de ponta do pé; falha antes de 8 repetições sugere fraqueza.
 3. **Escala de dor**: Utilizar a escala visual analógica (0‑10) para quantificar a dor no tendão.
 
 ### Programa de Exercícios Tendão de Aquiles

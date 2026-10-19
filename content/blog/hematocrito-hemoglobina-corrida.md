@@ -25,9 +25,9 @@ Além disso, o Ht também desempenha um papel importante no transporte de oxigê
 
 Para aplicar esses conceitos à prática, os corredores devem estar cientes de como o Ht e a Hb afetam a sua performance. Aqui estão algumas dicas práticas:
 
-* **Avalie o seu Ht e Hb**: Certifique-se de que o seu Ht e Hb estão dentro do range saudável. Um Ht saudável varia entre 40 e 54%, enquanto a Hb saudável varia entre 13,5 e 18,5 g/dL.
-* **Treine dentro do seu limite**: Certifique-se de que o seu treino está dentro do seu limite de Ht e Hb. Se estiver acima do limite, pode ter dificuldade em remover o excesso de oxigênio dos músculos.
-* **Aumente a sua capacidade de transporte de oxigênio**: Para melhorar a sua capacidade de transporte de oxigênio, certifique-se de que está a treinar dentro do seu limite de Ht e Hb. Além disso, pode incluir exercícios que aumentam a capacidade de transporte de oxigênio, como treino de alta intensidade e treino de resistência.
+* **Avalie o seu Ht e Hb**: Certifica-te de que o seu Ht e Hb estão dentro do range saudável. Um Ht saudável varia entre 40 e 54%, enquanto a Hb saudável varia entre 13,5 e 18,5 g/dL.
+* **Treine dentro do seu limite**: Certifica-te de que o seu treino está dentro do seu limite de Ht e Hb. Se estiver acima do limite, pode ter dificuldade em remover o excesso de oxigênio dos músculos.
+* **Aumenta a sua capacidade de transporte de oxigênio**: Para melhorar a sua capacidade de transporte de oxigênio, certifique-se de que está a treinar dentro do seu limite de Ht e Hb. Além disso, pode incluir exercícios que aumentam a capacidade de transporte de oxigênio, como treino de alta intensidade e treino de resistência.
 
 ## Erros Comuns
 
@@ -39,7 +39,7 @@ Aqui estão alguns erros comuns que os corredores devem evitar:
 
 ## Protocolo/Conclusão
 
-Para maximizar a sua performance, é fundamental estar ciente de como o Ht e a Hb afetam a sua capacidade de transporte de oxigênio. Certifique-se de que o seu Ht e Hb estão dentro do range saudável, treine dentro do seu limite e aumente a sua capacidade de transporte de oxigênio. Além disso, evite sub-estimar o seu Ht e Hb, super-estimar a sua capacidade de transporte de oxigênio e não avaliar regularmente o seu Ht e Hb.
+Para maximizar a sua performance, é fundamental estar ciente de como o Ht e a Hb afetam a sua capacidade de transporte de oxigênio. Certifica-te de que o seu Ht e Hb estão dentro do range saudável, treine dentro do seu limite e aumente a sua capacidade de transporte de oxigênio. Além disso, evite sub-estimar o seu Ht e Hb, super-estimar a sua capacidade de transporte de oxigênio e não avaliar regularmente o seu Ht e Hb.
 
 ## Referências Científicas
 

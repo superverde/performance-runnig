@@ -20,7 +20,7 @@ Para que um relógio de corrida pulso pequeno seja realmente eficaz, é preciso 
 **Sensibilidade de frequência cardíaca** – Um sensor óptico com alta taxa de amostragem garante leituras estáveis mesmo a 180 bpm.  
 **Autonomia da bateria** – A duração em modo GPS costuma variar entre 8 h (para ultramaratonistas) e 12 h (para treinos de 4 h).  
 **Resistência à água** – Certificações de 5 ATM permitem treinos em chuva ou na piscina sem risco.  
-**Interface de usuário** – Um ecrã AMOLED ou LCD com contraste elevado facilita a leitura em qualquer luminosidade.  
+**Interface de utilizador** – Um ecrã AMOLED ou LCD com contraste elevado facilita a leitura em qualquer luminosidade.  
 **Compatibilidade com apps** – A sincronização com Garmin Connect, Suunto App ou Polar Flow é essencial para análise de dados pós‑treino.  
 **Peso** – Idealmente abaixo de 50 g, para não interferir na dinâmica natural da corrida.
 

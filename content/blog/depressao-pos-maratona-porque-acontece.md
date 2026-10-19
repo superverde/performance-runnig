@@ -29,7 +29,7 @@ Os fatores psicológicos, como a expectativa de recompensa e a percepção de re
 ## Aplicação Prática  
 
 1. **Monitorização da carga de treino** – Utilizar um diário de treino que inclua não só a distância, mas também a intensidade percebida (RPE) e o estado emocional.  
-2. **Intervenção nutricional** – Repor carboidratos no prazo de 30 min após a prova e consumir proteína de 0,25 g/kg de peso corporal para estimular a síntese de neurotransmissores.  
+2. **Intervenção nutricional** – Repor hidratos de carbono no prazo de 30 min após a prova e consumir proteína de 0,25 g/kg de peso corporal para estimular a síntese de neurotransmissores.  
 3. **Terapia cognitivo‑comportamental (TCC)** – Sessões semanais de 45 min nas primeiras 3 semanas pós‑maratona podem reduzir a incidência de sintomas depressivos.  
 4. **Atividades de recuperação ativa** – Caminhadas de 20 min, alongamento dinâmico e natação leve ajudam a normalizar o cortisol e a melhorar o humor.  
 
@@ -60,5 +60,3 @@ Para mitigar a depressão pós‑maratona, é essencial combinar estratégias fi
 Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554  
 
 McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6  
-
-No

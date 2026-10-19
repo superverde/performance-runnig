@@ -25,9 +25,9 @@ Os óculos fotocromáticos são a solução definitiva para quem corre em ambien
 
 3. **Ventilação e Ventos** – Em corridas de trail, o vento pode ser um fator crítico. Modelos com estrutura de ventilação, como a série “Vent” da Oakley, reduzem a condensação e mantêm a visão clara.  
 
-4. **Peso e Ergonomia** – O peso deve ser inferior a 20 g por óculos, permitindo que o atleta mantenha a postura natural. Ajuste de ponte e pontas flexíveis garantem conforto durante longos percursos.  
+4. **Peso e Ergonomia** – O peso deve ser inferior a 20 g por óculos, permitindo que o atleta mantenha a postura natural. Ajusta de ponte e pontas flexíveis garantem conforto durante longos percursos.  
 
-5. **Compatibilidade com Chaveiros de Corrida** – Muitos corredores utilizam chaveiros de hidratação ou GPS. Verifique se o design permite a fixação sem obstruir a visão.  
+5. **Compatibilidade com Chaveiros de Corrida** – Muitos corredores utilizam chaveiros de hidratação ou GPS. Verifica se o design permite a fixação sem obstruir a visão.  
 
 6. **Durabilidade das Lentes** – Lentes com revestimento anti‑arranhões e resistência a impactos são essenciais para trilhos com pedras ou troncos.  
 

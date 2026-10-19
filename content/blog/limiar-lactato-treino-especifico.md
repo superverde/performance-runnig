@@ -25,9 +25,9 @@ Um estudo clássico de Saltin e Astrand (1967) mostrou que os corredores de elit
 
 O conhecimento do limiar de lactato é fundamental para os corredores de fundo, pois permite que eles determinem a intensidade ótima para o treino e a corrida. Aqui estão algumas dicas práticas para aplicar o conceito de limiar de lactato:
 
-* **Teste do limiar de lactato**: Realize um teste de corrida de resistência para determinar o seu limiar de lactato. Isso pode ser feito com o auxílio de um treinador ou um dispositivo de monitoramento de lactato.
+* **Teste do limiar de lactato**: Realiza um teste de corrida de resistência para determinar o seu limiar de lactato. Isso pode ser feito com o auxílio de um treinador ou um dispositivo de monitoramento de lactato.
 * **Defina a intensidade ótima**: Com base no seu limiar de lactato, defina a intensidade ótima para o treino e a corrida. Isso pode variar de 60 a 90% do seu limiar de lactato.
-* **Adapte o treino**: Ajuste o treino para atingir a intensidade ótima, utilizando exercícios como corridas de resistência, treino de força e treino de velocidade.
+* **Adapte o treino**: Ajusta o treino para atingir a intensidade ótima, utilizando exercícios como corridas de resistência, treino de força e treino de velocidade.
 
 ## Erros Comuns
 
@@ -39,7 +39,7 @@ Existem alguns erros comuns que os corredores de fundo podem cometer ao lidar co
 
 ## Protocolo/Conclusão
 
-Em resumo, o limiar de lactato é um conceito fundamental para os corredores de fundo, pois permite que eles determinem a intensidade ótima para o treino e a corrida. Com base na fisiologia do limiar de lactato, os corredores podem ajustar o treino para atingir a intensidade ótima e melhorar o desempenho. Lembre-se de que o limiar de lactato é uma medida individual e pode variar de pessoa para pessoa.
+Em resumo, o limiar de lactato é um conceito fundamental para os corredores de fundo, pois permite que eles determinem a intensidade ótima para o treino e a corrida. Com base na fisiologia do limiar de lactato, os corredores podem ajustar o treino para atingir a intensidade ótima e melhorar o desempenho. Lembra-te de que o limiar de lactato é uma medida individual e pode variar de pessoa para pessoa.
 
 ## Referências Científicas
 

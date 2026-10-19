@@ -38,7 +38,7 @@ Para integrar o vvo2max no treino, recomenda‑se incluir sessões de 4–6 mi
 3. **Subestimar a importância da recuperação** – O sobre-treino reduz a capacidade aeróbia; garantir dias de descanso adequados é essencial.  
 
 ## Protocolo/Conclusão  
-1. **Teste inicial**: Corrida de 400 m com incrementos de 0,2 m/s até atingir o limite.  
+1. **Testa inicial**: Corrida de 400 m com incrementos de 0,2 m/s até atingir o limite.  
 2. **Definição de zonas**:  
    - 70–80 % do vvo2max: base aeróbia.  
    - 85–90 % do vvo2max: tempo de prova.  
@@ -51,4 +51,4 @@ Ao entender e trabalhar o teu vvo2max, transformas o teu limite aeróbio numa va
 ## Referências Científicas  
 Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. *Medicine & Science in Sports & Exercise*, 32(1), 70-84. https://doi.org/10.1097/00005768-200001000-00012  
 Jones, A. M., & Carter, H. (2000). The effect of endurance training on parameters of aerobic fitness. *Sports Medicine*, 29(6), 373-386. https://doi.org/10.2165/00007256-200029060-00001  
-Midgley, A. W., McNaughton, L. R., & Wilkinson, M. (2006). Is there an optimal training intensity for enhancing
+Midgley, A. W., McNaughton, L. R., & Wilkinson, M. (2006). Is there an optimal training intensity for enhancing the maximal oxygen uptake of distance runners? *Sports Medicine*, 36(2), 117–132. https://doi.org/10.2165/00007256-200636020-00003

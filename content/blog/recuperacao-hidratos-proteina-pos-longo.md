@@ -69,4 +69,4 @@ Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohyd
 
 Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. Scandinavian Journal of Medicine & Science in Sports, 20(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x
 
-Areta, J. L., Burke, L. M., Ross, M. L., et al. (2013). Timing and distribution of protein ingestion during
+Areta, J. L., Burke, L. M., Ross, M. L., et al. (2013). Timing and distribution of protein ingestion during prolonged recovery from resistance exercise alters myofibrillar protein synthesis. *The Journal of Physiology*, 591(9), 2319–2331. https://doi.org/10.1113/jphysiol.2012.244897

@@ -31,7 +31,7 @@ Então, como podemos aplicar a recuperação entre treinos de corrida na nossa p
 
 - **Exercícios de Recuperação**: Os exercícios de recuperação, como alongamento e estiramento, são fundamentais para ajudar a melhorar a recuperação entre os treinos. Além disso, os exercícios de recuperação também podem ajudar a reduzir a dor e a fadiga muscular.
 
-- **Alimentação e Hidratação**: A alimentação e a hidratação são fundamentais para ajudar a melhorar a recuperação entre os treinos. É fundamental que os atletas de corrida sejam capazes de consumir alimentos ricos em proteínas e carboidratos para ajudar a reparar as células musculares e a recarregar as reservas energéticas.
+- **Alimentação e Hidratação**: A alimentação e a hidratação são fundamentais para ajudar a melhorar a recuperação entre os treinos. É fundamental que os atletas de corrida sejam capazes de consumir alimentos ricos em proteínas e hidratos de carbono para ajudar a reparar as células musculares e a recarregar as reservas energéticas.
 
 - **Sono**: O sono é fundamental para ajudar a melhorar a recuperação entre os treinos. É fundamental que os atletas de corrida sejam capazes de dormir por pelo menos 7 horas por noite para ajudar a reparar as células musculares e a recarregar as reservas energéticas.
 

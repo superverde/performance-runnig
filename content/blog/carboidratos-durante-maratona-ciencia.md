@@ -12,18 +12,18 @@ readTime: 5
 
 ## O que causa "o muro"?
 
-O corpo humano armazena glicogénio (a forma de armazenamento de carboidratos) nos músculos e no fígado. Para a maioria das pessoas, estas reservas duram **90-120 minutos** de corrida a intensidade de maratona.
+O corpo humano armazena glicogénio (a forma de armazenamento de hidratos de carbono) nos músculos e no fígado. Para a maioria das pessoas, estas reservas duram **90-120 minutos** de corrida a intensidade de maratona.
 
 Quando o glicogénio acaba, o corpo recorre quase exclusivamente à gordura como combustível — que é mais lento de metabolizar e não suporta ritmos elevados. A velocidade cai, a perceção de esforço dispara. É o "muro".
 
-A solução é repor carboidratos **durante** a prova, antes das reservas esgotarem.
+A solução é repor hidratos de carbono **durante** a prova, antes das reservas esgotarem.
 
 ## Quanto tomar?
 
 A investigação mostra que o intestino consegue absorver, em média:
 
-- **60g de carboidratos por hora** com uma fonte única (glucose ou maltodextrina)
-- **90g de carboidratos por hora** com múltiplas fontes combinadas (glucose + frutose na proporção 2:1)
+- **60g de hidratos de carbono por hora** com uma fonte única (glucose ou maltodextrina)
+- **90g de hidratos de carbono por hora** com múltiplas fontes combinadas (glucose + frutose na proporção 2:1)
 
 Para maratonas de 3-4 horas, 60-90g/hora é o target. Corredores mais rápidos (sub-3h) têm menor janela temporal e podem gerir com 40-60g/hora.
 
@@ -31,7 +31,7 @@ Para maratonas de 3-4 horas, 60-90g/hora é o target. Corredores mais rápidos (
 
 ## Quando começar a tomar?
 
-Não esperes sentir fome ou fraqueza. Inicia a ingestão de carboidratos entre os **km 10-15** e mantém regularidade a cada 30-45 minutos até ao fim.
+Não esperes sentir fome ou fraqueza. Inicia a ingestão de hidratos de carbono entre os **km 10-15** e mantém regularidade a cada 30-45 minutos até ao fim.
 
 Em maratonas, a estratégia mais robusta:
 - Km 10: primeiro gel ou bebida desportiva
@@ -41,9 +41,9 @@ Em maratonas, a estratégia mais robusta:
 
 ## Géis vs. comida real vs. bebidas desportivas
 
-**Géis desportivos**: rápidos, convenientes, fáceis de tomar em movimento. Contêm 20-25g de carboidratos por gel. Requerem água adicional.
+**Géis desportivos**: rápidos, convenientes, fáceis de tomar em movimento. Contêm 20-25g de hidratos de carbono por gel. Requerem água adicional.
 
-**Bebidas desportivas** (nos postos): 6-8% de carboidratos. Práticas mas nem sempre disponíveis no momento certo.
+**Bebidas desportivas** (nos postos): 6-8% de hidratos de carbono. Práticas mas nem sempre disponíveis no momento certo.
 
 **Comida real** (em ultras): batatas cozidas com sal, banana, tâmaras — bem tolerados em ritmos mais lentos. Menos prático em maratona.
 
@@ -54,7 +54,7 @@ Em maratonas, a estratégia mais robusta:
 O stress GI (náuseas, vómitos, diarreia) é uma das causas mais comuns de abandono em maratona. Factores que aumentam o risco:
 
 - Géis com alta concentração de frutose sem prática prévia
-- Consumir carboidratos sem água suficiente
+- Consumir hidratos de carbono sem água suficiente
 - Alta intensidade (>90% da FC máxima) — o fluxo de sangue para o intestino diminui
 - Não ter treinado o intestino durante o ciclo de preparação
 

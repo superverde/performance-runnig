@@ -32,7 +32,7 @@ A Análise de Corrida pode ser influenciada por vários factores, incluindo a po
 
 * Falta de força e flexibilidade nos músculos do quadríceps e da barriga da perna
 * Postura inadequada, que pode afetar a distribuição do impacto nos pés
-* Lesões crônicas, que podem afetar a eficiência da corrida
+* Lesões crónicas, que podem afetar a eficiência da corrida
 
 ## Protocolo/Conclusão
 

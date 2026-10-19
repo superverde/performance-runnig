@@ -22,7 +22,7 @@ A crioterapia é baseada em várias teorias científicas que explicam como as te
 
 Outra teoria importante é a teoria da vasodilatação, que sugere que as temperaturas baixas podem ajudar a dilatar as artérias e melhorar a circulação sanguínea. Isso pode ajudar a reduzir a tensão muscular e a dor.
 
-Além disso, estudos têm mostrado que a crioterapia pode ajudar a reduzir a inflamação e a dor muscular em várias condições, incluindo lesões físicas e doenças crônicas. Por exemplo, um estudo publicado no Journal of Strength and Conditioning Research encontrou que a crioterapia reduziu a inflamação e a dor muscular em 70% dos participantes.
+Além disso, estudos têm mostrado que a crioterapia pode ajudar a reduzir a inflamação e a dor muscular em várias condições, incluindo lesões físicas e doenças crónicas. Por exemplo, um estudo publicado no Journal of Strength and Conditioning Research encontrou que a crioterapia reduziu a inflamação e a dor muscular em 70% dos participantes.
 
 ## Aplicação Prática
 

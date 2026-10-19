@@ -43,7 +43,7 @@ Walsh et al. (2021) recomendam que a sesta seja incorporada quando há defici�
 
 1. **Ambiente**: quarto silencioso, temperatura entre 18–20 °C, luz reduzida (filtro de luz azul).  
 2. **Posição**: deitado de costas, apoio lombar leve, cabeça ligeiramente elevada com travesseiro.  
-3. **Alimentação**: evitar refeições pesadas 1 h antes; uma pequena porção de carboidrato complexo (ex.: 30 g de pão integral) pode ser benéfica.  
+3. **Alimentação**: evitar refeições pesadas 1 h antes; uma pequena porção de hidrato de carbono complexo (ex.: 30 g de pão integral) pode ser benéfica.  
 4. **Alarme**: configurar um alarme para não ultrapassar o limite de 30 min.  
 5. **Post‑sesta**: levantar lentamente, alongamento leve (5 min) e hidratação adequada.
 

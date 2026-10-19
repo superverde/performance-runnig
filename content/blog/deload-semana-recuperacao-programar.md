@@ -8,7 +8,7 @@ keywords: ["semana de descarga", "descanso ativo", "semana de recuperação corr
 readTime: 4
 ---
 
-A semana de deload é uma ferramenta fundamental para os atletas de desporto que buscam melhorar a sua performance e reduzir o stress. Embora muitos treinadores e atletas achem que o deload é apenas um período de descanso passivo, a verdade é que é uma oportunidade para o corpo realizar a recuperação e adaptar-se às exigências do treino. Durante o deload, o objetivo é reduzir a carga de treino e permitir que o corpo se recupere dos danos musculares e osteoarticulares causados pelo treino intenso.
+A semana de deload é uma ferramenta fundamental para os atletas de desporto que procuram melhorar a sua performance e reduzir o stress. Embora muitos treinadores e atletas achem que o deload é apenas um período de descanso passivo, a verdade é que é uma oportunidade para o corpo realizar a recuperação e adaptar-se às exigências do treino. Durante o deload, o objetivo é reduzir a carga de treino e permitir que o corpo se recupere dos danos musculares e osteoarticulares causados pelo treino intenso.
 
 No entanto, muitos atletas não sabem como programar o deload de forma eficaz, o que pode levar a uma recuperação insuficiente e a uma perda de performance. Neste artigo, vamos explorar a base científica da semana de deload e fornecer exemplos práticos para ajudar a programar o deload de forma eficaz. Além disso, vamos discutir os erros comuns que os atletas devem evitar e fornecer um protocolo para implementar o deload no seu treino.
 
@@ -46,8 +46,8 @@ Aqui está um protocolo para implementar o deload no seu treino:
 2. **Definir a carga de treino**: Defina a carga de treino para o deload.
 3. **Definir o tempo de descanso**: Defina o tempo de descanso para o deload.
 4. **Definir a frequência do treino**: Defina a frequência do treino para o deload.
-5. **Monitorar a recuperação**: Monitorize a recuperação durante o deload.
-6. **Ajustar o protocolo**: Ajuste o protocolo de acordo com a recuperação.
+5. **Monitorar a recuperação**: Monitoriza a recuperação durante o deload.
+6. **Ajustar o protocolo**: Ajusta o protocolo de acordo com a recuperação.
 
 ## Referências Científicas
 

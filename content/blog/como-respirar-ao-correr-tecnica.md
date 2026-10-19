@@ -17,13 +17,13 @@ Quando nos postavemos no início de uma corrida, é comum pensar que o principal
 
 A respiração é um processo complexo que envolve a coordenação de músculos, nervos e vasos sanguíneos. Durante a corrida, a nossa respiração torna-se mais rápida e profunda, permitindo-nos retirar mais oxigênio do ar e eliminar dióxido de carbono. No entanto, se a respiração não for eficiente, podemos experimentar uma série de problemas, incluindo dor de cabeça, fadiga e até mesmo desidratação. De acordo com o estudo de Moore (2016), a respiração eficiente é fundamental para uma corrida económica, que é definida como a capacidade de correr a uma velocidade máxima sem gastar excessiva energia.
 
-Um dos principais fatores que afetam a respiração ao correr é o ritmo respiratório. Estudos demonstram que a respiração eficiente requer um ritmo respiratório de cerca de 2-3 respirações por passo (Lieberman et al., 2010). Isso significa que devemos inspirar durante a passagem do pé esquerdo para o direito e expirar durante a passagem do pé direito para o esquerdo. Além disso, a respiração eficiente também requer uma postura correta, com os ombros relaxados e a cabeça em uma posição neutra.
+Um dos principais fatores que afetam a respiração ao correr é o ritmo respiratório. Estudos demonstram que a respiração eficiente requer um ritmo respiratório de cerca de 2-3 respirações por passo (Lieberman et al., 2010). Isso significa que devemos inspirar durante a passagem do pé esquerdo para o direito e expirar durante a passagem do pé direito para o esquerdo. Além disso, a respiração eficiente também requer uma postura correta, com os ombros relaxados e a cabeça numa posição neutra.
 
 ## Aplicação Prática
 
 Para melhorar a nossa respiração ao correr, é importante começar com a postura correta. Isso inclui:
 
-- Manter os ombros relaxados e a cabeça em uma posição neutra.
+- Manter os ombros relaxados e a cabeça numa posição neutra.
 - Respirar através da boca, com os lábios ligeiramente abertos.
 - Inspirar durante a passagem do pé esquerdo para o direito e expirar durante a passagem do pé direito para o esquerdo.
 

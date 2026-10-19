@@ -22,7 +22,7 @@ Para além da percepção popular de que levantar pesos pode “pesar” a corri
 
 ## Base Científica
 
-A biomecânica da corrida revela que a propulsão está diretamente relacionada à força produzida pelas pernas no momento do contato com o solo. Quando a musculatura, sobretudo quadríceps, isquiotibiais e glúteos, está suficientemente forte, a passada pode ser mais longa e mais rápida, reduzindo a necessidade de compensações mecânicas que aumentam o gasto energético.
+A biomecânica da corrida revela que a propulsão está diretamente relacionada à força produzida pelas pernas no momento do contacto com o solo. Quando a musculatura, sobretudo quadríceps, isquiotibiais e glúteos, está suficientemente forte, a passada pode ser mais longa e mais rápida, reduzindo a necessidade de compensações mecânicas que aumentam o gasto energético.
 
 Estudos de Seiler (2010) e Laursen (2010) compararam programas de alta intensidade (HIIT) com programas de volume elevado, concluindo que a força funcional é um fator determinante na performance de atletas de resistência. Buchheit & Laursen (2013) demonstraram que a inclusão de exercícios de potência (explosões de força) dentro de treinos intervalados melhora significativamente a capacidade anaeróbica e a eficiência aeróbica, sem aumentar o risco de sobrecarga.
 
@@ -55,7 +55,7 @@ Para a fase de potência, reduza o número de repetições e aumente a velocidad
 ### 4. Recuperação
 
 - **Sono:** 8–9 h por noite.  
-- **Nutrição:** 1,5 g de proteína por kg de peso corporal, 5–7 g de carboidrato por kg de peso corporal nas 24 h pós treino.  
+- **Nutrição:** 1,5 g de proteína por kg de peso corporal, 5–7 g de hidrato de carbono por kg de peso corporal nas 24 h pós treino.  
 - **Alongamento dinâmico:** 5 min antes e 5 min depois de cada sessão de musculação.  
 
 ## Erros Comuns

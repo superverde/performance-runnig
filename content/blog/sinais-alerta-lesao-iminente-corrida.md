@@ -35,13 +35,13 @@ Utiliza uma escala de 0‑10. Se a dor superar 4/10 durante o treino, reduz a in
 
 Mantém um diário com tempo, distância, intensidade, sensação de fadiga e qualquer incômodo. Observa padrões: dor que surge após 5 km, por exemplo, pode indicar sobrecarga do tendão de Aquiles.
 
-### 3. Teste de carga
+### 3. Testa de carga
 
 A cada 2 semanas, faz um teste de carga controlada (ex.: 5 km a ritmo de 80 % do teu ritmo de 10 km). Se a dor aumenta em mais de 2 pontos na escala de 0‑10, considera uma redução de volume ou intervenção de fisioterapia.
 
 ### 4. Exercícios de fortalecimento
 
-Integra treinos de força com foco em hipercapacidade e estabilidade. O protocolo de Warden et al. (2014) recomenda 3 séries de 8‑12 repetições de exercícios de resistência lenta para prevenir fraturas por estresse.
+Integra treinos de força com foco em hipercapacidade e estabilidade. O protocolo de Warden et al. (2014) recomenda 3 séries de 8‑12 repetições de exercícios de resistência lenta para prevenir fraturas por stress.
 
 ## Erros Comuns
 

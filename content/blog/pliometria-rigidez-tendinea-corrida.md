@@ -8,8 +8,8 @@ keyword: "rigidez tendínea"
 keywords: ["pliometria e tendões", "força reativa", "economia de corrida"]
 readTime: 5
 faqs:
-  - q: "Qual é o tempo de contato ideal em saltos em profundidade para corredores?"
-    a: "O tempo de contato deve ficar abaixo de 200 ms para garantir uma transição rápida de exciplexo‑contraction, minimizando a perda de energia."
+  - q: "Qual é o tempo de contacto ideal em saltos em profundidade para corredores?"
+    a: "O tempo de contacto deve ficar abaixo de 200 ms para garantir uma transição rápida de exciplexo‑contraction, minimizando a perda de energia."
   - q: "Com que frequência devo medir a rigidez tendínea?"
     a: "Recomenda‑se uma avaliação a cada 8 semanas para ajustar o volume de treino isométrico e prevenir sobrecarga tendínea."
   - q: "Posso fazer pliometria se já tiver lesões de tendão?"
@@ -22,7 +22,7 @@ A pliometria, ao potenciar a capacidade de contracção explosiva, e o fortaleci
 
 ## Base Científica
 
-A transferência de energia entre tendão e músculo é governada pela lei de Hooke: a força (F) é proporcional à deformação (Δx) e à rigidez (k). A rigidez tendínea aumenta com treino de resistência e carga isométrica, reduzindo a amplitude de deformação e, portanto, a dissipação de energia. Estudos mostram que corredores com tendões mais rígidos apresentam menor tempo de contato e maior propulsão (Buchheit & Laursen, 2013).
+A transferência de energia entre tendão e músculo é governada pela lei de Hooke: a força (F) é proporcional à deformação (Δx) e à rigidez (k). A rigidez tendínea aumenta com treino de resistência e carga isométrica, reduzindo a amplitude de deformação e, portanto, a dissipação de energia. Estudos mostram que corredores com tendões mais rígidos apresentam menor tempo de contacto e maior propulsão (Buchheit & Laursen, 2013).
 
 A pliometria, por outro lado, explora o ciclo exciplexo‑contraction (Ecc‑Con). Ao combinar uma fase exciplexo rápida com uma fase de contração isométrica seguida de uma contração concêntrica, aumenta-se a capacidade de gerar força em menos tempo. A capacidade de amortecer rapidamente a carga exciplexa (Δt ≈ 100 ms) reduz o gasto metabólico por passo e melhora a eficiência de corrida (Blagrove, Howatson & Hayes, 2018).
 
@@ -31,8 +31,8 @@ Em termos de periodização, a literatura recomenda um bloco de 4–6 semanas de
 ## Aplicação Prática
 
 ### 1. Avaliação Inicial
-- **Teste de Rigidez Tendínea**: Medir a elongação do tendão de Aquiles a 50 N usando um dinamômetro. Valores abaixo de 2,5 mm indicam rigidez adequada.
-- **Teste de Pliometria**: Saltos em profundidade (depth jump) de 30 cm, registrar tempo de contato (ideal < 200 ms) e altura de salto.
+- **Testa de Rigidez Tendínea**: Medir a elongação do tendão de Aquiles a 50 N usando um dinamômetro. Valores abaixo de 2,5 mm indicam rigidez adequada.
+- **Testa de Pliometria**: Saltos em profundidade (depth jump) de 30 cm, registrar tempo de contacto (ideal < 200 ms) e altura de salto.
 
 ### 2. Programa Semanal (exemplo para corredores de 10 km)
 
@@ -52,7 +52,7 @@ Em termos de periodização, a literatura recomenda um bloco de 4–6 semanas de
 - **Rebotes laterais**: 4 sets de 8, 30 s de descanso.  
 
 **Progressão**  
-Aumenta a altura dos saltos em 5 cm a cada 2 semanas, mantendo o tempo de contato abaixo de 200 ms. Se o tempo exceder 250 ms, reduzir a altura e focar na técnica.
+Aumenta a altura dos saltos em 5 cm a cada 2 semanas, mantendo o tempo de contacto abaixo de 200 ms. Se o tempo exceder 250 ms, reduzir a altura e focar na técnica.
 
 ### 3. Integração com Corrida
 - **Antes de sessões de velocidade**: 5–10 min de aquecimento dinâmico + 2 saltos em profundidade.  
@@ -64,14 +64,14 @@ Esta integração garante que a força reativa esteja disponível exatamente qua
 
 1. **Excesso de Volume**: Saltos > 60 repetições por sessão podem levar a micro‑lesões no tendão.  
 2. **Falta de Recuperação**: Pliometria seguida de corrida de alta intensidade sem descanso adequado aumenta o risco de tendinite.  
-3. **Técnica Deficiente**: Focar apenas na altura do salto sem controlar o tempo de contato resulta em maior gasto energético e menor eficiência.  
+3. **Técnica Deficiente**: Focar apenas na altura do salto sem controlar o tempo de contacto resulta em maior gasto energético e menor eficiência.  
 4. **Negligenciar a Rigidez Tendínea**: Ignorar a avaliação de rigidez pode mascarar tendões fracos que necessitam de fortalecimento isométrico específico (ex.: exercícios de isométrico de Aquiles em 30 % do peso corporal).
 
 ## Protocolo/Conclusão
 
 Para maximizar a força reativa e a economia de corrida, combine:
 
-1. **Pliometria de alta intensidade** (4 sets × 8 saltos, 30 cm) 2‑3 vezes por semana, com progressão controlada de altura e tempo de contato.  
+1. **Pliometria de alta intensidade** (4 sets × 8 saltos, 30 cm) 2‑3 vezes por semana, com progressão controlada de altura e tempo de contacto.  
 2. **Treino de rigidez tendínea** (ex.: isométricos de Aquiles, 3 sets × 30 s, 70 % do peso corporal) 1–2 vezes por semana.  
 3. **Periodização**: 4–6 semanas de foco pliométrico, seguidas de 2 semanas de transição, alinhado com a teoria de periodização de Bompa & Buzzichelli (2018).  
 4. **Avaliação contínua**: Reavaliação de rigidez tendínea a cada 8 semanas e ajuste do volume de pliometria conforme os resultados.

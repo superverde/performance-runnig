@@ -30,7 +30,7 @@ Além disso, a pesquisa de Joyner e Coyle (2008) destaca que o tempo até a exau
 ### Como medir o tlim
 
 1. **Preparação**: Descansa 15–20 minutos, faz um aquecimento de 10 minutos a 70 % do teu vVO2max, seguido de 5 minutos de ritmo de corrida de 10 km.
-2. **Teste**: Acelera até atingir 100 % do teu vVO2max (ou 95 % se preferires evitar sobrecarga). Mantém esse ritmo até a exaustão.
+2. **Testa**: Acelera até atingir 100 % do teu vVO2max (ou 95 % se preferires evitar sobrecarga). Mantém esse ritmo até a exaustão.
 3. **Registo**: Anota o tempo total e a velocidade média. O tlim será esse tempo.
 
 ### Utilização em treino

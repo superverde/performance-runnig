@@ -8,7 +8,7 @@ keyword: "monitorizar o treino"
 keywords: ["carga de treino", "registo de treino", "diário de treino corrida"]
 faqs:
   - q: "Como posso monitorizar a carga de treino sem usar equipamentos caros?"
-    a: "Registar manualmente distância, tempo e ritmo em um diário ou usar um app gratuito de corrida já fornece dados suficientes para avaliar a carga de forma eficaz."
+    a: "Registar manualmente distância, tempo e ritmo num diário ou usar um app gratuito de corrida já fornece dados suficientes para avaliar a carga de forma eficaz."
   - q: "Qual é a importância de incluir a percepção de esforço no registo de treino?"
     a: "A percepção de esforço complementa métricas objetivas, permitindo identificar fadiga que pode não ser evidente apenas pelo ritmo ou distância."
   - q: "Quando devo reduzir a carga de treino com base nos registos?"

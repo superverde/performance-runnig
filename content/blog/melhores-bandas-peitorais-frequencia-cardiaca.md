@@ -39,7 +39,7 @@ A seguir, apresentamos seis bandas peitorais que se destacam em 2026, consideran
 |---------|-----------|---------------|---------------|----------------|
 | **Polar H10** | Corredores que já utilizam dispositivos Polar | Precisão ECG, bateria de longa duração, compatibilidade com apps | Custo ligeiramente superior | entre 120€ e 160€ |
 | **Garmin HRM-Run** | Atletas que usam Garmin | Conectividade com Garmin Connect, sensor robusto | Requer um Garmin compatible | entre 90€ e 130€ |
-| **Wahoo TICKR X** | Usuários de dispositivos Wahoo | Conectividade BLE, sensor de movimento integrado | Preço mais alto | entre 140€ e 180€ |
+| **Wahoo TICKR X** | Utilizadores de dispositivos Wahoo | Conectividade BLE, sensor de movimento integrado | Preço mais alto | entre 140€ e 180€ |
 | **Suunto Spartan Band** | Corredores que preferem Suunto | Design ergonómico, bateria de longa duração | Menos compatível com não‑Suunto | entre 110€ e 150€ |
 | **Scosche Rhythm+** | Corredores que desejam sensor de movimento | Conectividade com múltiplas marcas, sensor de movimento | Peso ligeiramente maior | entre 80€ e 120€ |
 | **Fitbit Charge 6 (Band)** | Atletas que já têm Fitbit | Monitor de frequência cardíaca integrado, app de treino | Menos precisa que bandas dedicadas | entre 70€ e 110€ |

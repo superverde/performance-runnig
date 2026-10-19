@@ -20,7 +20,7 @@ Um erro comum é subestimar a importância de levar o material correto. Em muito
 
 A biomecânica e a fisiologia do atleta são fundamentais para entender as necessidades do equipamento em trail. De acordo com Vernillo et al. (2017), a corrida em terrenos acidentados exige uma maior atividade muscular e uma maior transferência de força entre os membros inferiores. Isso significa que o equipamento deve ser concebido para absorver as impactos e proporcionar confort e estabilidade ao atleta.
 
-A fisiologia do atleta também é importante para entender as necessidades de hidratação e alimentação. De acordo com Millet et al. (2011), a corrida em altitudes elevadas exige uma maior hidratação e uma maior ingestão de carboidratos para evitar a fadiga muscular. Além disso, a escolha de alimentos leve e rápido é crucial para evitar a desidratação e a fadiga.
+A fisiologia do atleta também é importante para entender as necessidades de hidratação e alimentação. De acordo com Millet et al. (2011), a corrida em altitudes elevadas exige uma maior hidratação e uma maior ingestão de hidratos de carbono para evitar a fadiga muscular. Além disso, a escolha de alimentos leve e rápido é crucial para evitar a desidratação e a fadiga.
 
 ## Aplicação Prática
 
@@ -40,11 +40,11 @@ Um erro comum é subestimar a importância de levar o material correto. Além di
 
 A escolha do material correto para uma corrida de trail é fundamental para garantir a segurança e a eficiência do atleta. Além de uma boa forma física e mental, é crucial levar consigo o material correto para lidar com as adversidades do percurso. Aqui estão algumas dicas práticas para escolher o material correto:
 
-* Escolha sapatilhas com amortecimento adequado e uma boa aderência ao terreno.
-* Escolha calças de trail resistentes e capazes de lidar com as condições climáticas previstas.
-* Escolha roupas leves e capazes de absorver a transpiração do atleta.
-* Escolha acessórios leves e capazes de proteger o atleta do sol e do vento.
-* Escolha uma bolsa de água e alimentos leves e capazes de serem consumidos facilmente durante a corrida.
+* Escolhe sapatilhas com amortecimento adequado e uma boa aderência ao terreno.
+* Escolhe calças de trail resistentes e capazes de lidar com as condições climáticas previstas.
+* Escolhe roupas leves e capazes de absorver a transpiração do atleta.
+* Escolhe acessórios leves e capazes de proteger o atleta do sol e do vento.
+* Escolhe uma bolsa de água e alimentos leves e capazes de serem consumidos facilmente durante a corrida.
 
 ## Referências Científicas
 

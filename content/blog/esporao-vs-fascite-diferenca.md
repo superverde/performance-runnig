@@ -36,7 +36,7 @@ A fascite plantar, por outro lado, refere‑se à inflamação da fáscia planta
 
 ### Avaliação Inicial
 1. **Histórico clínico**: Pergunta sobre o início da dor e atividades recentes.
-2. **Teste de palpação**: Pressão na fáscia plantar e na base do calcanhar.
+2. **Testa de palpação**: Pressão na fáscia plantar e na base do calcanhar.
 3. **Exame de marcha**: Observa‑se a pronação excessiva ou supinação.
 
 ### Protocolos de Tratamento

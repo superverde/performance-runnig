@@ -10,15 +10,15 @@ readTime: 4
 
 O estômago é um dos principais órgãos envolvidos no processo de absorção de nutrientes durante a atividade física. Durante uma corrida, o estômago precisa lidar com a ingestão de alimentos e bebidas para fornecer energia e manter a hidratação adequada. No entanto, muitos corredores enfrentam problemas de digestão e estômago durante as corridas, o que pode levar a sintomas como dor abdominal, náuseas e vômitos.
 
-Isso ocorre porque o estômago não está preparado para lidar com a ingestão de alimentos durante a atividade física. Durante a corrida, o estômago é submetido a estresse físico e químico, o que pode levar a uma redução na digestão e absorção de nutrientes. Além disso, a ingestão de alimentos ricos em fibras, carboidratos complexos e proteínas pode ser difícil de digerir durante a corrida, o que pode agravar os sintomas.
+Isso ocorre porque o estômago não está preparado para lidar com a ingestão de alimentos durante a atividade física. Durante a corrida, o estômago é submetido a stress físico e químico, o que pode levar a uma redução na digestão e absorção de nutrientes. Além disso, a ingestão de alimentos ricos em fibras, hidratos de carbono complexos e proteínas pode ser difícil de digerir durante a corrida, o que pode agravar os sintomas.
 
 Uma abordagem eficaz para melhorar a digestão e absorção de nutrientes durante a corrida é o treino de estômago, também conhecido como "gut training". O objetivo do treino de estômago é preparar o estômago para lidar com a ingestão de alimentos durante a atividade física, reduzindo a ocorrência de sintomas como dor abdominal, náuseas e vômitos.
 
 ## Base Científica
 
-A base científica para o treino de estômago está relacionada à fisiologia do estômago e ao processo de digestão e absorção de nutrientes. Durante a atividade física, o estômago é submetido a estresse físico e químico, o que pode levar a uma redução na digestão e absorção de nutrientes. Isso ocorre porque o estômago não está preparado para lidar com a ingestão de alimentos durante a atividade física (Jeukendrup, 2014).
+A base científica para o treino de estômago está relacionada à fisiologia do estômago e ao processo de digestão e absorção de nutrientes. Durante a atividade física, o estômago é submetido a stress físico e químico, o que pode levar a uma redução na digestão e absorção de nutrientes. Isso ocorre porque o estômago não está preparado para lidar com a ingestão de alimentos durante a atividade física (Jeukendrup, 2014).
 
-A ingestão de alimentos ricos em fibras, carboidratos complexos e proteínas pode ser difícil de digerir durante a corrida, o que pode agravar os sintomas. Isso se deve à redução na produção de ácido gástrico e enzimas digestivas durante a atividade física, o que pode levar a uma redução na digestão e absorção de nutrientes (Burke et al., 2011).
+A ingestão de alimentos ricos em fibras, hidratos de carbono complexos e proteínas pode ser difícil de digerir durante a corrida, o que pode agravar os sintomas. Isso se deve à redução na produção de ácido gástrico e enzimas digestivas durante a atividade física, o que pode levar a uma redução na digestão e absorção de nutrientes (Burke et al., 2011).
 
 A respeito da hidratação, é importante mencionar que a perda de líquidos durante a atividade física pode levar a uma desidratação, o que pode agravar os sintomas de dor abdominal, náuseas e vômitos (Maughan & Shirreffs, 2010).
 
@@ -26,22 +26,22 @@ A respeito da hidratação, é importante mencionar que a perda de líquidos dur
 
 O treino de estômago envolve uma série de exercícios e estratégias para preparar o estômago para lidar com a ingestão de alimentos durante a atividade física. Aqui estão algumas dicas práticas para implementar o treino de estômago:
 
-* **Ingestão de alimentos**: Comece a consumir alimentos ricos em carboidratos complexos e fibras 1-2 horas antes da corrida. Isso pode incluir alimentos como pão integral, frutas secas e nozes.
-* **Treino de estômago**: Faça uma corrida de 30-60 minutos a cada 7-10 dias, consumindo alimentos ricos em carboidratos complexos e fibras durante a corrida. Isso pode incluir alimentos como pão integral, frutas secas e nozes.
-* **Hidratação**: Beba água regularmente durante a corrida e depois da corrida para evitar a desidratação.
-* **Monitoramento**: Monitore o seu corpo e ajuste a sua estratégia de treino de estômago de acordo com os seus sintomas.
+* **Ingestão de alimentos**: Começa a consumir alimentos ricos em hidratos de carbono complexos e fibras 1-2 horas antes da corrida. Isso pode incluir alimentos como pão integral, frutas secas e nozes.
+* **Treino de estômago**: Faz uma corrida de 30-60 minutos a cada 7-10 dias, consumindo alimentos ricos em hidratos de carbono complexos e fibras durante a corrida. Isso pode incluir alimentos como pão integral, frutas secas e nozes.
+* **Hidratação**: Bebe água regularmente durante a corrida e depois da corrida para evitar a desidratação.
+* **Monitoramento**: Monitoriza o seu corpo e ajuste a sua estratégia de treino de estômago de acordo com os seus sintomas.
 
 ## Erros Comuns
 
 Aqui estão alguns erros comuns que os corredores devem evitar ao implementar o treino de estômago:
 
-* **Ingestão de alimentos excessivos**: Evite consumir alimentos excessivos antes da corrida, pois isso pode levar a uma sobrecarga do estômago e aumentar a ocorrência de sintomas.
-* **Ingestão de alimentos difíceis de digerir**: Evite consumir alimentos ricos em proteínas e gorduras durante a corrida, pois isso pode ser difícil de digerir e aumentar a ocorrência de sintomas.
-* **Desidratação**: Evite a desidratação durante a corrida, beber água regularmente para evitar a desidratação.
+* **Ingestão de alimentos excessivos**: Evita consumir alimentos excessivos antes da corrida, pois isso pode levar a uma sobrecarga do estômago e aumentar a ocorrência de sintomas.
+* **Ingestão de alimentos difíceis de digerir**: Evita consumir alimentos ricos em proteínas e gorduras durante a corrida, pois isso pode ser difícil de digerir e aumentar a ocorrência de sintomas.
+* **Desidratação**: Evita a desidratação durante a corrida, beber água regularmente para evitar a desidratação.
 
 ## Protocolo/Conclusão
 
-O treino de estômago é uma abordagem eficaz para melhorar a digestão e absorção de nutrientes durante a corrida. Ao implementar o treino de estômago, os corredores podem reduzir a ocorrência de sintomas como dor abdominal, náuseas e vômitos. Lembre-se de que a ingestão de alimentos ricos em carboidratos complexos e fibras durante a corrida pode ser difícil de digerir, e é importante monitorar o seu corpo e ajustar a sua estratégia de treino de estômago de acordo com os seus sintomas.
+O treino de estômago é uma abordagem eficaz para melhorar a digestão e absorção de nutrientes durante a corrida. Ao implementar o treino de estômago, os corredores podem reduzir a ocorrência de sintomas como dor abdominal, náuseas e vômitos. Lembra-te de que a ingestão de alimentos ricos em hidratos de carbono complexos e fibras durante a corrida pode ser difícil de digerir, e é importante monitorar o seu corpo e ajustar a sua estratégia de treino de estômago de acordo com os seus sintomas.
 
 ## Referências Científicas
 

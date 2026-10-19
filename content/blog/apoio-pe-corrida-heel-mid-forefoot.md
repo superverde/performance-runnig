@@ -26,9 +26,9 @@ Além disso, estudos têm demonstrado que a forma como o pé se apoia durante a 
 
 A forma como o pé se apoia durante a corrida pode ser influenciada por vários fatores, incluindo a postura do atleta, a forma como é utilizado o pé e a superfície de corrida. Aqui estão algumas dicas práticas para melhorar o apoio do pé durante a corrida:
 
-* **Postura adequada**: Certifique-se de que a postura do seu corpo esteja adequada durante a corrida, com os ombros relaxados e a cabeça em linha com o tronco.
-* **Uso do pé**: Certifique-se de que esteja a utilizar o pé de forma adequada durante a corrida, com o calcanhar a tocar o solo primeiro e o antepé a estabilizar o pé.
-* **Superfície de corrida**: Certifique-se de que a superfície de corrida esteja adequada para a sua corrida, com o solo a ser firme e a não ter obstáculos.
+* **Postura adequada**: Certifica-te de que a postura do seu corpo esteja adequada durante a corrida, com os ombros relaxados e a cabeça em linha com o tronco.
+* **Uso do pé**: Certifica-te de que esteja a utilizar o pé de forma adequada durante a corrida, com o calcanhar a tocar o solo primeiro e o antepé a estabilizar o pé.
+* **Superfície de corrida**: Certifica-te de que a superfície de corrida esteja adequada para a sua corrida, com o solo a ser firme e a não ter obstáculos.
 
 ## Erros Comuns
 

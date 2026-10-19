@@ -16,25 +16,25 @@ Um estudo publicado no International Journal of Sports Physiology and Performanc
 
 ## Base Científica
 
-A corrida noturna pode afetar o sono de várias maneiras. O corpo humano tem um relógio interno que regula o ciclo de sono-vigília, conhecido como o ritmo circadiano. Ao correr à noite, os atletas podem alterar seu ritmo circadiano, o que pode levar a problemas de sono. Além disso, a exposição à luz artificial noturna pode interferir com a produção de melatonina, uma hormônio que regula o sono.
+A corrida noturna pode afetar o sono de várias maneiras. O corpo humano tem um relógio interno que regula o ciclo de sono-vigília, conhecido como o ritmo circadiano. Ao correr à noite, os atletas podem alterar seu ritmo circadiano, o que pode levar a problemas de sono. Além disso, a exposição à luz artificial noturna pode interferir com a produção de melatonina, uma hormona que regula o sono.
 
-Um estudo publicado no Journal of Clinical Sleep Medicine em 2012, liderado por Chang, A. M., encontrou que a exposição à luz artificial noturna pode reduzir a produção de melatonina em até 50%. Isso pode levar a problemas de sono, como insônia e sonolência diurna. Além disso, a corrida noturna pode também afetar a qualidade do sono, pois pode aumentar a temperatura corporal e o nível de estresse.
+Um estudo publicado no Journal of Clinical Sleep Medicine em 2012, liderado por Chang, A. M., encontrou que a exposição à luz artificial noturna pode reduzir a produção de melatonina em até 50%. Isso pode levar a problemas de sono, como insônia e sonolência diurna. Além disso, a corrida noturna pode também afetar a qualidade do sono, pois pode aumentar a temperatura corporal e o nível de stress.
 
 ## Aplicação Prática
 
 Embora os impactos da corrida noturna sejam importantes, existem maneiras de minimizar os riscos. Aqui estão algumas dicas práticas para os atletas que correm à noite:
 
-- **Estabeleça um horário regular**: Tente correr à mesma hora todas as noites para manter seu ritmo circadiano estável.
-- **Evite luz artificial**: Use lanternas ou luvas de correr com luz para minimizar a exposição à luz artificial.
-- **Mantenha o treino suave**: Evite treinos intensos à noite e priorize corridas de baixa intensidade para evitar a alteração do ritmo circadiano.
-- **Desfrute do fresco**: A corrida noturna pode ser mais fresca e agradável do que a corrida de manhã ou tarde. Use isso ao seu favor e desfrute do ambiente.
+- **Estabeleça um horário regular**: Tenta correr à mesma hora todas as noites para manter seu ritmo circadiano estável.
+- **Evita luz artificial**: Usa lanternas ou luvas de correr com luz para minimizar a exposição à luz artificial.
+- **Mantém o treino suave**: Evita treinos intensos à noite e priorize corridas de baixa intensidade para evitar a alteração do ritmo circadiano.
+- **Desfrute do fresco**: A corrida noturna pode ser mais fresca e agradável do que a corrida de manhã ou tarde. Usa isso ao seu favor e desfrute do ambiente.
 
 ## Erros Comuns
 
 Existem alguns erros comuns que os atletas cometem ao correr à noite:
 
-- **Desprezar o sono**: Alguns atletas podem pensar que podem compensar o sono perdido com mais horas de treino. No entanto, isso pode levar a problemas de saúde a longo prazo, como fadiga crônica e aumentos do risco de lesões.
-- **Não priorizar a segurança**: A corrida noturna pode ser mais perigosa do que a corrida de dia, pois os atletas podem ter dificuldade em ver obstáculos ou outros pedestres. Certifique-se de usar equipamentos de segurança adequados e priorizar a segurança.
+- **Desprezar o sono**: Alguns atletas podem pensar que podem compensar o sono perdido com mais horas de treino. No entanto, isso pode levar a problemas de saúde a longo prazo, como fadiga crónica e aumentos do risco de lesões.
+- **Não priorizar a segurança**: A corrida noturna pode ser mais perigosa do que a corrida de dia, pois os atletas podem ter dificuldade em ver obstáculos ou outros pedestres. Certifica-te de usar equipamentos de segurança adequados e priorizar a segurança.
 
 ## Protocolo/Conclusão
 

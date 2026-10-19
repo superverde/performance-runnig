@@ -27,10 +27,10 @@ Para aplicar o exercício de strides de forma eficaz, é importante começar com
 
 Aqui está um exemplo de protocolo para o exercício de strides:
 
-- Comece com um ritmo de corrida de 5 km/h
-- Aumente a velocidade e corra a uma velocidade alta de 10 km/h por 20 segundos
+- Começa com um ritmo de corrida de 5 km/h
+- Aumenta a velocidade e corra a uma velocidade alta de 10 km/h por 20 segundos
 - Regresse a um ritmo mais confortável de 5 km/h e repita o processo por 3-5 repetições
-- Faça 3-5 série e repita o processo 2-3 vezes por semana
+- Faz 3-5 série e repita o processo 2-3 vezes por semana
 
 ### Erros Comuns
 

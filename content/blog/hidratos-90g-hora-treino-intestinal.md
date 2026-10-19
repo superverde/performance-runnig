@@ -10,7 +10,7 @@ readTime: 5
 faqs:
   - q: "Qual a diferença entre glicose e frutose em termos de absorção intestinal?"
     a: "A glicose é absorvida via SGLT1 e GLUT2, enquanto a frutose utiliza GLUT5. Usar ambas simultaneamente maximiza a taxa total de absorção."
-  - q: "É seguro consumir 90 g/h de hidratos em um dia de treino curto (menos de 2 h)?"
+  - q: "É seguro consumir 90 g/h de hidratos num dia de treino curto (menos de 2 h)?"
     a: "Não é recomendado, pois o intestino não terá tempo suficiente para adaptar-se; a tolerância se desenvolve apenas em treinos de longa duração."
   - q: "Posso substituir a fibra por fibras insolúveis para reduzir o volume do conteúdo intestinal?"
     a: "Não, fibras insolúveis não aumentam a viscosidade nem ajudam na absorção; a fibra solúvel é a mais eficaz para reduzir osmose e prevenir DGI."
@@ -63,10 +63,10 @@ Por fim, a hidratação adequada (≥ 0,5 L/h) e a inclusão de eletrólitos
 
 | Erro | Por que é problemático | Solução |
 |------|------------------------|---------|
-| **Ingestão de 90 g/h de uma única fonte** | Sobrecarga de SGLT1 → DGI | Use 2 fontes (glicose + frutose) |
-| **Consumir hidratos em líquidos muito frios** | Constrangimento intestinal | Mantenha temperatura 20‑25 °C |
-| **Ignorar sinais de desconforto** | Risco de desidratação e perda de desempenho | Ajuste a taxa em tempo real |
-| **Subestimar a hidratação** | Desidratação acelera DGI | Beba 0,5 L/h independentemente da ingestão de hidratos |
+| **Ingestão de 90 g/h de uma única fonte** | Sobrecarga de SGLT1 → DGI | Usa 2 fontes (glicose + frutose) |
+| **Consumir hidratos em líquidos muito frios** | Constrangimento intestinal | Mantém temperatura 20‑25 °C |
+| **Ignorar sinais de desconforto** | Risco de desidratação e perda de desempenho | Ajusta a taxa em tempo real |
+| **Subestimar a hidratação** | Desidratação acelera DGI | Bebe 0,5 L/h independentemente da ingestão de hidratos |
 | **Não treinar a tolerância** | Falta de adaptação | Siga protocolo gradual de 60 → 75 → 90 g/h |
 
 ## Protocolo/Conclusão

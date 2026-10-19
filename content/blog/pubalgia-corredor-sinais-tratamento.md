@@ -19,7 +19,7 @@ Pubalgia é uma lesão comum entre corredores, manifestando‑se como dor na vir
 A sua origem está ligada a desequilíbrios musculares, sobrecarga e mecânica anormal da pelve, sendo crucial identificar‑a cedo para evitar agravamento.  
 
 Corredores que sentem uma dor persistente na região púbica ou no interior da coxa devem avaliar fatores como volume de treino, técnica de passada e carga de força.  
-A falta de tratamento adequado pode evoluir para tendinopatia do músculo adutor ou até para fraturas por estresse, comprometendo a performance e a qualidade de vida.
+A falta de tratamento adequado pode evoluir para tendinopatia do músculo adutor ou até para fraturas por stress, comprometendo a performance e a qualidade de vida.
 
 ## Base Científica  
 A pubalgia, também conhecida como síndrome da virilha, é classificada como uma lesão musculoesquelética da região pélvica inferior. Estudos epidemiológicos demonstram que até 15 % dos corredores de longa distância relatam dor na virilha (van Gent et al., 2007). A prevalência está associada a fatores como aumento súbito de volume, superfícies irregulares e desequilíbrios entre músculos adutores e abdutores.  
@@ -30,8 +30,8 @@ A literatura indica que o tratamento deve ser multidisciplinar, envolvendo fisio
 
 ## Aplicação Prática  
 ### Avaliação clínica  
-1. **Teste de adutor**: Manovela de adução com resistência, observando dor ao atingir 30 % da força máxima.  
-2. **Teste de abdutor**: Avalia desequilíbrio que pode contribuir para a sobrecarga púbica.  
+1. **Testa de adutor**: Manovela de adução com resistência, observando dor ao atingir 30 % da força máxima.  
+2. **Testa de abdutor**: Avalia desequilíbrio que pode contribuir para a sobrecarga púbica.  
 3. **Análise de passada**: Uso de vídeo a 30 fps para verificar hiperdireção ou hiperviramento da pelve.  
 
 ### Programa de fortalecimento  

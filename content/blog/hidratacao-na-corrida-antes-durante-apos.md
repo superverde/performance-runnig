@@ -15,7 +15,7 @@ A hidratação é provavelmente o fator nutricional mais subestimado no treino d
 
 A ciência da hidratação no desporto avançou consideravelmente nas últimas décadas. Sabemos hoje que as recomendações de "beber 8 copos por dia" são demasiado simplistas para atletas. Sabemos que a sensação de sede, embora útil, não é suficiente para guiar a hidratação em esforços intensos. E sabemos que tanto a desidratação como a hiperidratação têm consequências fisiológicas reais e mensuráveis. Este artigo organiza esse conhecimento em protocolos práticos para antes, durante e após a corrida.
 
-## O Que Acontece ao Corpo Quando Corre com Défice Hídrico
+## O Que Acontece ao Corpo Quando Corres com Défice Hídrico
 
 A perda de água durante a corrida ocorre principalmente através do suor e da respiração. A taxa de sudação varia enormemente entre indivíduos — entre 0,5 e 2,5 litros por hora — e é influenciada pela temperatura ambiente, humidade, intensidade do esforço, nível de condição física e aclimatação ao calor.
 
@@ -94,6 +94,5 @@ Shirreffs, S. M., & Sawka, M. N. (2011). Fluid and electrolyte needs for trainin
 
 Maughan, R. J., Watson, P., Cordery, P. A., Walsh, N. P., Oliver, S. J., Dolci, A., Rodriguez-Sanchez, N., & Galloway, S. D. (2016). A randomized trial to assess the potential of different beverages to affect hydration status: Development of a beverage hydration index. *American Journal of Clinical Nutrition*, 103(3), 717–723. https://doi.org/10.3945/ajcn.115.114769
 
-Noakes, T. D. (2012). Waterlogged: The serious problem of overhydration in endurance sports. Human Kinetics. [Reference for context on hyponatremia risk]
 
 Casa, D. J., DeMartini, J. K., Bergeron, M. F., Csillan, D., Eichner, E. R., Lopez, R. M., Ferrara, M. S., Miller, K. C., O'Connor, F., Sawka, M. N., & Yeargin, S. W. (2015). National Athletic Trainers' Association position statement: Exertional heat illnesses. *Journal of Athletic Training*, 50(9), 986–1000. https://doi.org/10.4085/1062-6050-50.9.07

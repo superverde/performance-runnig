@@ -13,7 +13,7 @@ faqs:
   - q: "Pergunta 2 completa, terminada em ponto de interrogação?"
     a: "*Como a amortização afeta a economia de energia durante a corrida?* Resposta direta e objetiva, 1-3 frases."
   - q: "Pergunta 3 completa, terminada em ponto de interrogação?"
-    a: "*É necessário usar sapatos de trail em todas as trilhas, mesmo que sejam curtas?* Resposta direta e objetiva, 1-3 frases."
+    a: "*É necessário usar sapatos de trail em todas os trilhos, mesmo que sejam curtas?* Resposta direta e objetiva, 1-3 frases."
 ---
 
 Para quem procura a combinação perfeita entre desempenho em estrada e robustez para trail, as sapatilhas híbridas oferecem o melhor dos dois mundos. Neste artigo analisaremos os modelos que, em 2026, se destacam por sua tecnologia avançada, conforto e durabilidade, ajudando a escolher a sapatilha ideal para o caminho misto.
@@ -24,13 +24,13 @@ Ao avaliar sapatilhas híbridas, é essencial considerar fatores que afetam a bi
 
 1. **Amortização e Rebound** – O uso de materiais de espuma de alta densidade (por ex., EVA com densidade 0,28 g/cm³) garante absorção de impacto sem sacrificar a resposta. Modelos que combinam uma camada de espuma leve na parte dianteira com uma camada de poliuretano mais densa na parte traseira proporcionam um “rebound” que favorece a economia de energia (Hoogkamer et al., 2018).
 
-2. **Sola e Tração** – Para o caminho misto, a sola deve possuir blocos de borracha com padrões de tração 360°, que oferecem aderência em asfalto e em terreno rochoso. A aderência é medida em coeficiente de atrito; valores acima de 0,4 são indicados para trilhas técnicas.
+2. **Sola e Tração** – Para o caminho misto, a sola deve possuir blocos de borracha com padrões de tração 360°, que oferecem aderência em asfalto e em terreno rochoso. A aderência é medida em coeficiente de atrito; valores acima de 0,4 são indicados para trilhos técnicas.
 
 3. **Peso e Flutuabilidade** – Um peso entre 220 g e 260 g por sapatilha é ideal para corredores que desejam velocidade sem sacrificar estabilidade. O design de “flutuabilidade” (câmara de ar interna) ajuda a manter a leveza sem comprometer a rigidez necessária em subidas técnicas.
 
-4. **Estabilidade e Controle de Movimento** – A presença de um sistema de controlo lateral (por ex., “Dynamic Stability Frame”) reduz a pronação excessiva, minimizando o risco de lesões musculoesqueléticas (Malisoux et al., 2016). Contudo, corredores com pés neutros podem preferir modelos com menor suporte, favorecendo a naturalidade do passo.
+4. **Estabilidade e Controlo de Movimento** – A presença de um sistema de controlo lateral (por ex., “Dynamic Stability Frame”) reduz a pronação excessiva, minimizando o risco de lesões musculoesqueléticas (Malisoux et al., 2016). Contudo, corredores com pés neutros podem preferir modelos com menor suporte, favorecendo a naturalidade do passo.
 
-5. **Durabilidade do Cabedal** – Materiais como nylon balístico ou mesh com reforço de TPU garantem resistência a abrasões em trilhos rochosos. A cobertura de couro sintético na zona de contato com o pé melhora a retenção de calor em condições frias.
+5. **Durabilidade do Cabedal** – Materiais como nylon balístico ou mesh com reforço de TPU garantem resistência a abrasões em trilhos rochosos. A cobertura de couro sintético na zona de contacto com o pé melhora a retenção de calor em condições frias.
 
 6. **Respirabilidade** – Um sistema de ventilação com micro‑perfis evita a acumulação de suor, mantendo a temperatura corporal estável. Estudos mostram que a regulação térmica reduz a fadiga muscular a longo prazo (Fuller et al., 2015).
 
@@ -43,16 +43,16 @@ Ao ponderar esses critérios, os corredores podem selecionar uma sapatilha híbr
 | Nome | Para quem é | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |------|-------------|---------------|---------------|----------------|
 | **Nike Air Zoom Pegasus Trail 7** | Corredores de estrada que querem tração extra | Amortização responsiva, sola de borracha Continental | Peso ligeiramente superior a modelos puramente de estrada | entre 150 € e 200 € |
-| **Adidas Adizero Boston Trail 3** | Atletas que buscam leveza e versatilidade | Design de “flutuabilidade” e sistema de amortização “Boost” | Sola menos agressiva em terrenos rochosos | entre 170 € e 220 € |
+| **Adidas Adizero Boston Trail 3** | Atletas que procuram leveza e versatilidade | Design de “flutuabilidade” e sistema de amortização “Boost” | Sola menos agressiva em terrenos rochosos | entre 170 € e 220 € |
 | **Salomon S/Pro 5** | Trail runners que valorizam estabilidade | Estrutura de “Dynamic Stability Frame”, sola “GripRocker” | Cabedal mais rígido, menos respirável | entre 200 € e 250 € |
-| **Brooks Cascadia 16** | Corredores que alternam entre estrada e trilha | Amortização “DNA LOFT” equilibrada, sola “CushionGrip” | Peso moderado, menos flexível na parte frontal | entre 180 € e 230 € |
-| **Hoka One One Challenger 8 Trail** | Runners que buscam máxima amortização | Camada de EVA de 0,32 g/cm³, sola de borracha “SolaGrip” | Peso maior, menor resposta em subidas curtas | entre 160 € e 210 € |
+| **Brooks Cascadia 16** | Corredores que alternam entre estrada e trilho | Amortização “DNA LOFT” equilibrada, sola “CushionGrip” | Peso moderado, menos flexível na parte frontal | entre 180 € e 230 € |
+| **Hoka One One Challenger 8 Trail** | Runners que procuram máxima amortização | Camada de EVA de 0,32 g/cm³, sola de borracha “SolaGrip” | Peso maior, menor resposta em subidas curtas | entre 160 € e 210 € |
 
 Cada modelo foi testado em diferentes condições de terreno, refletindo desempenho consistente em percurso misto. A escolha depende do equilíbrio entre leveza, tração e suporte que cada corredor procura.
 
 ## Veredicto: Qual Comprar
 
-Para **iniciantes** que ainda não têm experiência em trail, a **Nike Air Zoom Pegasus Trail 7** oferece uma transição suave entre estrada e trilha, com amortização suficiente e tração moderada.  
+Para **iniciantes** que ainda não têm experiência em trail, a **Nike Air Zoom Pegasus Trail 7** oferece uma transição suave entre estrada e trilho, com amortização suficiente e tração moderada.  
 Para **competidores** que exigem desempenho em provas de distância misto, a **Brooks Cascadia 16** destaca-se pela estabilidade e economia de energia, ideal para manter ritmo em subidas técnicas.  
 Para quem tem **orçamento limitado**, a **Adidas Adizero Boston Trail 3** combina leveza e versatilidade a um preço acessível, sem comprometer a qualidade de construção.
 

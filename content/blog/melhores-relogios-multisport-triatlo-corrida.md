@@ -24,7 +24,7 @@ Para a escolha de um relógio multisport, os critérios técnicos devem ser aval
 **Sensibilidade de frequência cardíaca** – A medição em tempo real permite a aplicação de zonas de treino baseadas em VO₂máx. A precisão deve ser inferior a 3 % de erro, como demonstrado em ensaios de comparação de dispositivos (Fuller et al., 2015).  
 **Resistência à água e temperatura** – Um relógio para triatlo deve suportar 5 m de profundidade e variações de 0 °C a 50 °C, garantindo operação no banho de gelo e na piscina.  
 **Bateria e duração** – A autonomia em modo multisport deve ultrapassar 10 h em modo GPS e 30 h em modo de monitorização de frequência cardíaca. A vida útil da bateria em ciclos de carga completa deve ser superior a 200 ciclos.  
-**Integração com aplicativos** – Compatibilidade com Strava, TrainingPeaks e Garmin Connect facilita o acompanhamento de métricas e a comparação com dados de treino de outros atletas.  
+**Integração com aplicações** – Compatibilidade com Strava, TrainingPeaks e Garmin Connect facilita o acompanhamento de métricas e a comparação com dados de treino de outros atletas.  
 **Ergonomia e tamanho** – O relógio deve ser confortável para uso prolongado em diferentes superfícies, com display anti-reflexo e boa legibilidade em luz solar direta.  
 **Software de análise** – Algoritmos avançados de cálculo de zonas de treino, recuperação e análise de dados de corrida (por exemplo, a “Running Power” de Garmin) são diferenciais importantes.  
 **Preço vs. valor** – A relação custo-benefício pode ser avaliada comparando o preço com as funcionalidades essenciais para o teu nível de competição.  

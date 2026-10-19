@@ -31,7 +31,7 @@ A escolha de uma super shoe envolve mais do que apenas o preço. Estudos como o 
 
 **4. Durabilidade** – O desgaste do material de cobertura e da sola deve ser considerado, especialmente se o corredor pretende usar a mesma par de calçado para treinos e provas.  
 
-**5. Ajuste e suporte** – Um bom encaixe evita fricção e aumenta a eficiência. Modelos com sistema de ajuste de barra ou cordas que permitem personalização são preferíveis.  
+**5. Ajusta e suporte** – Um bom encaixe evita fricção e aumenta a eficiência. Modelos com sistema de ajuste de barra ou cordas que permitem personalização são preferíveis.  
 
 **6. Compatibilidade com a corrida** – Se o corredor tem tendência a pronação, é aconselhável escolher modelos que ofereçam suporte médio, enquanto corredores com maior capacidade de estabilidade podem optar por modelos mais neutros.  
 

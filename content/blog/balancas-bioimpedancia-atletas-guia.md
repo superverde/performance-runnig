@@ -9,7 +9,7 @@ keywords: ["balança inteligente comprar", "medir gordura corporal", "balança d
 faqs:
   - q: "Qual é a diferença entre uma balança de bioimpedância e uma balança digital comum?"
     a: "Uma balança digital mede apenas peso, enquanto a balança de bioimpedância estima percentagem de gordura, massa muscular e água corporal usando correntes elétricas de baixa intensidade."
-  - q: "Preciso de um aplicativo para usar a balança de bioimpedância?"
+  - q: "Preciso de uma aplicação para usar a balança de bioimpedância?"
     a: "Não é obrigatório, mas a maioria dos modelos oferece sincronização com apps para acompanhar a evolução ao longo do tempo. Se não quiseres usar app, a balança pode mostrar os resultados diretamente no visor."
   - q: "A balança de bioimpedância pode medir a gordura corporal em diferentes partes do corpo?"
     a: "Sim, modelos de 16 pontos podem estimar a gordura em braços, pernas e tronco, embora os valores sejam aproximados e não substituam exames clínicos."
@@ -22,7 +22,7 @@ Para selecionar uma balança de bioimpedância confiável, é crucial avaliar v�
 
 1. **Precisão e Consistência** – Procura modelos que utilizem múltiplas frequências (de 50 kHz a 1 MHz) e que ofereçam resultados consistentes em diferentes posições (de pé, sentado). A maioria das balanças de alta performance utiliza sensores de 8 a 16 pontos para melhorar a resolução.  
 
-2. **Número de Usuários e Sincronização** – Se partilhas a balança com a família ou com a equipa de treino, verifica se suporta até 8 perfis diferentes e se sincroniza com apps de fitness (Apple Health, Google Fit ou plataformas próprias).  
+2. **Número de Utilizadores e Sincronização** – Se partilhas a balança com a família ou com a equipa de treino, verifica se suporta até 8 perfis diferentes e se sincroniza com apps de fitness (Apple Health, Google Fit ou plataformas próprias).  
 
 3. **Formato e Estrutura** – A superfície deve ser antiderrapante e suficientemente larga para acomodar diferentes tipos de pés. Modelos com base de 30 cm x 30 cm são adequados para a maioria dos utilizadores.  
 

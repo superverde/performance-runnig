@@ -17,7 +17,7 @@ As sapatilhas de corrida são uma peça fundamental para qualquer corredor, inde
 
 Quando se trata de escolher sapatilhas de corrida para crianças e jovens atletas, existem vários critérios a considerar. Em primeiro lugar, é importante lembrar que as sapatilhas devem ser adequadas para a idade e o nível de experiência do corredor.
 
-* **Ajuste e conforto**: As sapatilhas devem ser confortáveis e ajustáveis para evitar desconforto ou lesões.
+* **Ajusta e conforto**: As sapatilhas devem ser confortáveis e ajustáveis para evitar desconforto ou lesões.
 * **Suporte e estabilidade**: As sapatilhas devem oferecer suporte e estabilidade ao pé para evitar desconforto ou lesões.
 * **Amortecimento**: As sapatilhas devem ter um amortecimento adequado para absorver as sobrecargas e reduzir o stress nos pés.
 * **Ligação**: As sapatilhas devem ter uma ligação adequada para evitar desconforto ou lesões.

@@ -75,7 +75,7 @@ O long run não deve representar mais de 30-35% do volume semanal total. Um corr
 
 **Ignorar a nutrição durante o treino**
 
-Long runs superiores a 75-90 minutos requerem reposição de hidratos de carbono durante o esforço — tipicamente 30-60 g por hora. Treinar regularmente sem ingestão de carboidratos pode ter valor para desenvolver a flexibilidade metabólica em atletas avançados (ver treino em jejum), mas não deve ser a norma para a maioria dos corredores.
+Long runs superiores a 75-90 minutos requerem reposição de hidratos de carbono durante o esforço — tipicamente 30-60 g por hora. Treinar regularmente sem ingestão de hidratos de carbono pode ter valor para desenvolver a flexibilidade metabólica em atletas avançados (ver treino em jejum), mas não deve ser a norma para a maioria dos corredores.
 
 **Frequência excessiva**
 

@@ -23,7 +23,7 @@ A procura por sapatilhas que ofereçam conforto sem sacrificar a performance é 
 ## Como Escolher: Critérios Que Importam
 
 1. **Economia de energia** – Estudos demonstram que o calçado pode reduzir o gasto energético até 3 %. A escolha de plataformas com amortecimento otimizado e estrutura leve pode melhorar a economia de energia, sobretudo em percursos de 10 km a maratona (Hoogkamer et al., 2018).  
-2. **Alinhamento biomecânico** – O uso de sapatilhas com controle de movimento pode diminuir o risco de lesões, mas exagerar pode restringir a naturalidade da passada. Pesquisas indicam que a diferença entre calçado “standard” e “motion‑control” não é significativa em corredores bem treinados (Malisoux et al., 2016).  
+2. **Alinhamento biomecânico** – O uso de sapatilhas com controlo de movimento pode diminuir o risco de lesões, mas exagerar pode restringir a naturalidade da passada. Pesquisas indicam que a diferença entre calçado “standard” e “motion‑control” não é significativa em corredores bem treinados (Malisoux et al., 2016).  
 3. **Amortecimento e retorno de energia** – O equilíbrio entre amortecimento (para absorção de impactos) e retorno de energia (para impulsão) é crucial. Tecnologias de espuma de alto retorno, como o “energy return foam”, oferecem vantagem em distâncias superiores.  
 4. **Peso e distribuição de massa** – Calçados mais leves favorecem a economia de energia, mas a distribuição de peso (cintura de apoio, talão, ponta) influencia a mecânica de corrida.  
 5. **Durabilidade vs. performance** – A relação custo‑benefício depende da frequência de uso. Sapatilhas de alta performance tendem a ter vida útil de 600–800 km, enquanto modelos mais robustos podem ultrapassar 1000 km.  
@@ -38,7 +38,7 @@ A combinação desses fatores determina a adequação do calçado ao perfil do c
 |--------|-----------|---------------|---------------|----------------|
 | **Nike Air Zoom Alphafly NEXT%** | Competidores de maratona | Amortecimento de alta densidade, retorno de energia excepcional, design aerodinâmico | Peso elevado, preço premium, pode ser demasiado “esférico” para corredores com pisada moderada | entre 250 € e 300 € |
 | **Adidas Adizero Boston 3** | Corredores de 10 km a 21 km | Plataforma leve, boa amortecimento, excelente estabilidade | Menos amortecimento em distâncias longas, pode desgastar rapidamente | entre 150 € e 200 € |
-| **Brooks Hyperion Elite 2** | Maratonistas que buscam economia | Plataforma ultra‑leve, retorno de energia, boa ventilação | Peso mínimo pode comprometer a amortização em terrenos irregulares | entre 200 € e 250 € |
+| **Brooks Hyperion Elite 2** | Maratonistas que procuram economia | Plataforma ultra‑leve, retorno de energia, boa ventilação | Peso mínimo pode comprometer a amortização em terrenos irregulares | entre 200 € e 250 € |
 | **Saucony Endorphin Pro 3** | Corredores de 5 km a 10 km com foco em velocidade | Amortecimento moderado, excelente retorno, conforto na ponta | Pode sentir-se “plano” em corridas de longa distância | entre 180 € e 220 € |
 | **Hoka One One Carbon X 3** | Corredores que valorizam amortecimento | Amortecimento generoso, estabilidade, excelente para longas distâncias | Peso elevado, pode ser desconfortável em corridas de velocidade | entre 200 € e 260 € |
 | **ASICS Metarun 5** | Iniciantes e corredores com pisada neutra | Amortecimento moderado, boa estabilidade, custo‑efetivo | Menos retorno de energia em comparação com modelos premium | entre 140 € e 180 € |

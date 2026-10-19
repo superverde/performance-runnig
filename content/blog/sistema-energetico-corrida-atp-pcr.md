@@ -22,7 +22,7 @@ A compreensão desses sistemas energéticos é fundamental para a criação de u
 
 Por outro lado, em esforços de duração, como a corrida de longa distância, a via aeróbica é mais importante. Nesse caso, o objetivo é maximizar a produção de ATP através da via aeróbica, utilizando a oxidação do glicogênio e da gordura para produzir energia. Para isso, é necessário treinar a capacidade de oxidar o glicogênio e a gordura, o que pode ser feito através de treinos de longa duração e intensidade moderada.
 
-Um exemplo de como isso pode ser aplicado em prática é o treino de intervalos. Em um treino de intervalos, o corredor realiza uma série de esforços intensos e breves, seguidos de descansos. Isso ajuda a melhorar a capacidade de produzir ATP através da via anaeróbica, o que é fundamental para a corrida de velocidade.
+Um exemplo de como isso pode ser aplicado em prática é o treino de intervalos. Num treino de intervalos, o corredor realiza uma série de esforços intensos e breves, seguidos de descansos. Isso ajuda a melhorar a capacidade de produzir ATP através da via anaeróbica, o que é fundamental para a corrida de velocidade.
 
 ## Erros Comuns
 

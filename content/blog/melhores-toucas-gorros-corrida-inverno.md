@@ -22,10 +22,10 @@ Nas corridas de inverno, a escolha da touca ou gorro pode determinar a diferenç
 1. **Materiais de Isolamento**  
    As toucas de merino e de fibras sintéticas de alta densidade, como o Polartec Power‑Dry, oferecem isolamento térmico sem sobrecarregar a cabeça. Estudos demonstram que tecidos com maior capacidade de retenção de calor reduzem a perda de temperatura até 20 % em ambientes de –10 °C (Fuller et al., 2015).  
 
-2. **Transpirabilidade e Gerenciamento de Umidade**  
+2. **Transpirabilidade e Gerenciamento de Humidade**  
    Um design com micro‑poros e revestimento anti‑humidade mantém a pele seca, evitando a sensação de “muito frio” que ocorre quando a humidade se condensa. A tecnologia de micro‑canais do Power‑Dry, por exemplo, permite que a suor escape enquanto bloqueia o vento.  
 
-3. **Ajuste e Ergonomia**  
+3. **Ajusta e Ergonomia**  
    Toucas com elástico de alta elasticidade e estrutura de ajuste de “snug fit” evitam que o equipamento deslize e mantém a posição correta sobre os fios de cabelo, reduzindo a perda de calor pela cabeça.  
 
 4. **Peso e Compactação**  

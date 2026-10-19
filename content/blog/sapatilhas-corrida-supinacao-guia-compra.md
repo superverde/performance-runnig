@@ -30,7 +30,7 @@ A supinação excessiva implica que a planta do pé gira para fora, o que aument
 5. **Ajuste personalizado** – O ajuste de salto e largura deve ser testado em prova. Modelos com sistema de ajuste de salto permitem adaptar a altura do salto ao perfil de supinação.  
 6. **Durabilidade** – A vida útil do caução deve ser considerada, especialmente se a supinação for moderada a grave, pois a deformação rápida pode comprometer o suporte.
 
-Ao combinar estes critérios, o corredor pode selecionar uma sapatilha que ofereça estabilidade sem sacrificar a eficiência, reduzindo o risco de lesões como tendinite e fraturas por estresse.
+Ao combinar estes critérios, o corredor pode selecionar uma sapatilha que ofereça estabilidade sem sacrificar a eficiência, reduzindo o risco de lesões como tendinite e fraturas por stress.
 
 ## As Melhores Opções em 2026  
 | Modelo | Para quem | Pontos fortes | Pontos fracos | Faixa de preço |

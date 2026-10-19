@@ -18,15 +18,15 @@ faqs:
 
 A taxa de suor pode ser calculada medindo a perda de peso antes e depois de um treino, dividindo‑a pelo tempo e pela temperatura ambiental, e esta medida permite‑lhe ajustar a ingestão hídrica de forma personalizada.  
 
-Para corredores que buscam otimizar a performance e reduzir o risco de desidratação, conhecer a própria taxa de suor e usar essa informação num plano de hidratação estruturado é tão fundamental quanto o plano de treino.  
+Para corredores que procuram otimizar a performance e reduzir o risco de desidratação, conhecer a própria taxa de suor e usar essa informação num plano de hidratação estruturado é tão fundamental quanto o plano de treino.  
 
 Em ambientes de corrida, a perda de fluidos não se limita apenas à água; eletrólitos como sódio, potássio e cloreto são perdidos em quantidades que variam de acordo com a temperatura, a humidade e a genética individual.  Assim, um plano de hidratação eficaz deve considerar tanto a taxa de suor quanto o perfil de eletrólitos do atleta.
 
 ## Base Científica
 
-A relação entre taxa de suor, temperatura corporal e desempenho foi amplamente estudada.  Maughan e Shirreffs (2010) demonstraram que a perda de 2 % do peso corporal pode reduzir a potência e a velocidade de corrida em 5 % a 10 %, dependendo da duração do exercício.  O estudo de Jeukendrup (2014) reforça a necessidade de personalizar a ingestão de carboidratos e líquidos de acordo com a taxa de suor individual, pois a taxa de absorção gastrointestinal pode ser saturada se a ingestão for excessiva.  
+A relação entre taxa de suor, temperatura corporal e desempenho foi amplamente estudada.  Maughan e Shirreffs (2010) demonstraram que a perda de 2 % do peso corporal pode reduzir a potência e a velocidade de corrida em 5 % a 10 %, dependendo da duração do exercício.  O estudo de Jeukendrup (2014) reforça a necessidade de personalizar a ingestão de hidratos de carbono e líquidos de acordo com a taxa de suor individual, pois a taxa de absorção gastrointestinal pode ser saturada se a ingestão for excessiva.  
 
-A reidratação não se resume apenas a substituir água; a perda de sódio pode chegar a 1 g por hora em condições quentes, exigindo soluções isotónicas ou bebidas desportivas com 6‑8 g L⁻¹ de sódio para evitar hiponatremia (Maughan & Shirreffs, 2010).  A temperatura ambiental aumenta a taxa de suor em 0,5 % por grau Celsius acima de 20 °C, o que deve ser considerado ao planejar a hidratação em maratonas de verão.
+A reidratação não se resume apenas a substituir água; a perda de sódio pode chegar a 1 g por hora em condições quentes, exigindo soluções isotónicas ou bebidas desportivas com 6‑8 g L⁻¹ de sódio para evitar hiponatremia (Maughan & Shirreffs, 2010).  A temperatura ambiental aumenta a taxa de suor em 0,5 % por grau Celsius acima de 20 °C, o que deve ser considerado ao planear a hidratação em maratonas de verão.
 
 ## Aplicação Prática
 
@@ -38,7 +38,7 @@ A reidratação não se resume apenas a substituir água; a perda de sódio pode
    \text{Taxa de suor (mL min⁻¹)} = \frac{\text{Perda de peso (g)}}{\text{Tempo de exercício (min)}}
    \]  
    Exemplo: perda de 1,2 kg em 90 min → 12 g min⁻¹ = 12 mL min⁻¹.  
-3. **Ajuste de temperatura**: se a temperatura média do percurso for 28 °C, aumente a ingestão em 0,5 mL min⁻¹ por grau acima de 20 °C.  Para 8 °C acima de 20 °C, adicione 4 mL min⁻¹: 12 + 4 = 16 mL min⁻¹.
+3. **Ajusta de temperatura**: se a temperatura média do percurso for 28 °C, aumente a ingestão em 0,5 mL min⁻¹ por grau acima de 20 °C.  Para 8 °C acima de 20 °C, adicione 4 mL min⁻¹: 12 + 4 = 16 mL min⁻¹.
 
 ### 2. Construção do Plano de Hidratação
 
@@ -60,7 +60,7 @@ Equipar um atleta com um smartwatch que registre a temperatura corporal e a freq
 |------|--------------|---------|
 | Ignorar a perda de peso antes de medir | Subestimação da taxa de suor | Pese sempre antes e depois |
 | Usar apenas água | Hiponatremia em treinos >60 min | Adicionar eletrólitos |
-| Ajustar a ingestão apenas por distância | Falha em considerar temperatura | Ajuste a taxa por grau Celsius |
+| Ajustar a ingestão apenas por distância | Falha em considerar temperatura | Ajusta a taxa por grau Celsius |
 | Não reidratar corretamente | Diminuição de desempenho em provas seguintes | Reabastecer 100 % da perda |
 
 Um atleta que corre 42 km a 25 °C e perde 2 kg pode acabar com 1,5 kg de desidratação se não compensar adequadamente.  Isso pode resultar numa perda de 8 % da velocidade média e aumentar o risco de cãibras.

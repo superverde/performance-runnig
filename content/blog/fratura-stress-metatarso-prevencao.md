@@ -30,9 +30,9 @@ De acordo com estudos, a fratura de stress é uma das principais causas de lesõ
 
 A prevenção da fratura de stress é fundamental para os corredores. Aqui estão algumas dicas práticas para evitar lesões:
 
-- **Aumente a intensidade do treino gradualmente**: É importante aumentar a intensidade do treino de forma gradual, para que o osso possa se adaptar às novas exigências.
-- **Inclua treino de força**: O treino de força pode ajudar a fortalecer os músculos e os ossos, reduzindo a probabilidade de lesões.
-- **Inclua alongamento e flexibilidade**: O alongamento e a flexibilidade são fundamentais para manter a mobilidade e reduzir a tensão nos músculos e nos ossos.
+- **Aumenta a intensidade do treino gradualmente**: É importante aumentar a intensidade do treino de forma gradual, para que o osso possa se adaptar às novas exigências.
+- **Inclui treino de força**: O treino de força pode ajudar a fortalecer os músculos e os ossos, reduzindo a probabilidade de lesões.
+- **Inclui alongamento e flexibilidade**: O alongamento e a flexibilidade são fundamentais para manter a mobilidade e reduzir a tensão nos músculos e nos ossos.
 - **Respeite os limites**: É importante respeitar os limites do seu corpo e não exceder as suas capacidades.
 
 ## Erros Comuns
@@ -48,11 +48,11 @@ Aqui estão alguns erros comuns que os corredores cometem, que podem aumentar a 
 
 A prevenção da fratura de stress é fundamental para os corredores. Aqui está um protocolo para prevenção e tratamento:
 
-- **Aumente a intensidade do treino gradualmente**
-- **Inclua treino de força**
-- **Inclua alongamento e flexibilidade**
+- **Aumenta a intensidade do treino gradualmente**
+- **Inclui treino de força**
+- **Inclui alongamento e flexibilidade**
 - **Respeite os limites**
-- **Procure ajuda médica imediatamente em caso de lesão**
+- **Procura ajuda médica imediatamente em caso de lesão**
 
 Em resumo, a fratura de stress é uma lesão óssea comum em corredores, que pode ser prevenida com treino adequado e respeito aos limites do corpo. É fundamental que os corredores estejam cientes dos riscos e sintomas associados à fratura de stress, para que possam tomar medidas preventivas e atuar rapidamente em caso de lesão.
 

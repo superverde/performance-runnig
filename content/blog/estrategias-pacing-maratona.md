@@ -53,7 +53,7 @@ Para estabelecer o ritmo objetivo de maratona com rigor, utiliza um dos seguinte
 
 **1. Predição baseada em provas recentes:** Usa calculadoras de equivalência como a fórmula de Riegel (t2 = t1 × (d2/d1)^1.06) ou tabelas de equivalência de Jack Daniels para estimar o tempo de maratona com base em provas de meia maratona ou 10 km. Aplica sempre uma margem de conservadorismo de 2-5% se a maratona for a primeira ou se as condições forem incertas.
 
-**2. Teste de limiar:** Realiza um treino de 20-30 minutos a ritmo de esforço "confortavelmente difícil" (aproximadamente 80-85% FCmax) e usa esse ritmo como referência para o ritmo de maratona, que deverá ser 15-20 segundos por quilómetro mais lento.
+**2. Testa de limiar:** Realiza um treino de 20-30 minutos a ritmo de esforço "confortavelmente difícil" (aproximadamente 80-85% FCmax) e usa esse ritmo como referência para o ritmo de maratona, que deverá ser 15-20 segundos por quilómetro mais lento.
 
 **3. Divisão por sectores:** Divide a maratona em 5 sectores de ~8 km. Planeia os primeiros dois sectores 5 segundos/km abaixo do objetivo, os dois do meio no ritmo objetivo, e o último com margem para acelerar se te sentires bem.
 

@@ -38,7 +38,7 @@ A visão antecipada é fundamental para a segurança e a eficácia durante a des
 Existem vários erros comuns que podem levar a lesões nos joelhos durante a descida em trail. Alguns dos erros mais comuns incluem:
 
 * **Saltar sobre obstáculos**: Saltar sobre obstáculos pode ser perigoso e pode levar a lesões nos joelhos. Em vez disso, é melhor desviar de obstáculos ou parar para superá-los.
-* **Correr em uma postura errada**: Correr em uma postura errada pode levar a sobrecarga nos joelhos e aumentar o risco de lesões. É importante manter a postura correta e uma técnica de descida eficaz.
+* **Correr numa postura errada**: Correr numa postura errada pode levar a sobrecarga nos joelhos e aumentar o risco de lesões. É importante manter a postura correta e uma técnica de descida eficaz.
 * **Ignorar as dores**: Ignorar as dores pode levar a lesões mais graves e prolongadas. É importante parar e descansar se sentir dor ou desconforto nos joelhos.
 
 ## Medo e Prevenção de Lesões
@@ -55,11 +55,11 @@ O conhecimento e a preparação são fundamentais para reduzir o risco de lesõe
 
 ### Ajuste e Adaptabilidade
 
-Ajuste e adaptabilidade são fundamentais para a segurança e a eficácia durante a descida em trail. É importante estar disposto a ajustar a técnica e a postura de acordo com as condições e os obstáculos que se encontram.
+Ajusta e adaptabilidade são fundamentais para a segurança e a eficácia durante a descida em trail. É importante estar disposto a ajustar a técnica e a postura de acordo com as condições e os obstáculos que se encontram.
 
-### Redução do Estresse
+### Redução do Stress
 
-A redução do estresse é fundamental para a segurança e a eficácia durante a descida em trail. É importante estar calmo e focado, em vez de estressado e ansioso.
+A redução do stress é fundamental para a segurança e a eficácia durante a descida em trail. É importante estar calmo e focado, em vez de estressado e ansioso.
 
 ### Exercícios de Fortalecimento
 
@@ -67,7 +67,7 @@ Os exercícios de fortalecimento são fundamentais para reduzir o risco de lesõ
 
 ## Conclusão
 
-A descida em trail é uma das partes mais difíceis do trail running, exigindo uma combinação de força, agilidade e coordenação. No entanto, é também uma das partes mais propensas a lesões, especialmente nos joelhos. Para dominar as descidas em trail e reduzir o risco de lesões, é fundamental entender a técnica correta, relaxar os quadricípetes, manter a postura correta, ter uma visão antecipada, evitar erros comuns e reduzir o estresse.
+A descida em trail é uma das partes mais difíceis do trail running, exigindo uma combinação de força, agilidade e coordenação. No entanto, é também uma das partes mais propensas a lesões, especialmente nos joelhos. Para dominar as descidas em trail e reduzir o risco de lesões, é fundamental entender a técnica correta, relaxar os quadricípetes, manter a postura correta, ter uma visão antecipada, evitar erros comuns e reduzir o stress.
 
 ## Referências
 

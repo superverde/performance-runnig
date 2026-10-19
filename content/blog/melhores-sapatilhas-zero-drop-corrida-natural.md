@@ -10,7 +10,7 @@ readTime: 4
 
 ## Introdução
 
-As sapatilhas zero drop têm sido cada vez mais populares entre os corredores naturalistas, que buscam uma forma de corrida mais autêntica e eficiente. No entanto, a escolha da melhor sapatilha zero drop pode ser uma tarefa desafiadora, especialmente para os iniciantes. Neste artigo, vamos explorar os critérios técnicos que importam ao escolher uma sapatilha zero drop adequada para a corrida natural.
+As sapatilhas zero drop têm sido cada vez mais populares entre os corredores naturalistas, que procuram uma forma de corrida mais autêntica e eficiente. No entanto, a escolha da melhor sapatilha zero drop pode ser uma tarefa desafiadora, especialmente para os iniciantes. Neste artigo, vamos explorar os critérios técnicos que importam ao escolher uma sapatilha zero drop adequada para a corrida natural.
 
 ## Como Escolher: Critérios Que Importam
 

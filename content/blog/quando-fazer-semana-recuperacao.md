@@ -17,7 +17,7 @@ faqs:
 
 Uma semana de recuperação pode ser o elemento decisivo para evitar a fadiga acumulada e maximizar o rendimento futuro.  
 Quando o volume e a intensidade de treino se elevam a níveis que ultrapassam a capacidade de recuperação do corpo, a resposta adaptativa diminui e o risco de lesões aumenta.  
-Por isso, saber quando introduzir esse intervalo de descanso é tão importante quanto planejar os treinos intensos.
+Por isso, saber quando introduzir esse intervalo de descanso é tão importante quanto planear os treinos intensos.
 
 ## Base Científica  
 O corpo adapta‑se ao stress de treino aumentando a resistência e a capacidade de recuperação. Contudo, a sobrecarga crónica leva à fadiga funcional, a diminuição da síntese proteica e a alterações no controlo neuromuscular (Kellmann et al., 2018). A monitorização de carga (TRIMP, TSS, ou simples soma semanal de km) permite identificar quando a soma acumulada ultrapassa o ponto de sobrecarga (Halson, 2014). Quando o índice de fadiga (HRV, RPE, sono) começa a deteriorar, a intervenção precoce evita a plateia de adaptação e a perda de desempenho.

@@ -26,7 +26,7 @@ A premissa básica está correta: em jejum, a oxidação de gordura aumenta dura
 
 O que acontece especificamente:
 - Glicogénio hepático baixo → glicemia tendencialmente mais baixa
-- Insulina baixa → o hormônio sensível à lípase (HSL) está mais ativo → maior mobilização de ácidos gordos do tecido adiposo
+- Insulina baixa → a hormona sensível à lípase (HSL) está mais ativo → maior mobilização de ácidos gordos do tecido adiposo
 - Disponibilidade reduzida de glicose → maior dependência de gordura para intensidades baixas-moderadas
 
 Até aqui, os defensores da corrida em jejum têm razão.

@@ -27,7 +27,7 @@ Mutton e colaboradores (1993) estudaram especificamente a combinação de ciclis
 
 O treino cruzado é mais eficaz quando aplicado com os seguintes princípios:
 
-1. **Igualar a intensidade, não o tempo.** Uma sessão de bicicleta de 45 minutos a uma intensidade equivalente ao limiar aeróbio de corrida produz mais transferência do que 90 minutos a intensidade muito baixa. Use a frequência cardíaca ou a perceção de esforço (RPE) para equiparar zonas entre modalidades, já que a frequência cardíaca máxima na natação tende a ser 10-13 batimentos mais baixa do que na corrida devido à posição horizontal e à imersão.
+1. **Igualar a intensidade, não o tempo.** Uma sessão de bicicleta de 45 minutos a uma intensidade equivalente ao limiar aeróbio de corrida produz mais transferência do que 90 minutos a intensidade muito baixa. Usa a frequência cardíaca ou a perceção de esforço (RPE) para equiparar zonas entre modalidades, já que a frequência cardíaca máxima na natação tende a ser 10-13 batimentos mais baixa do que na corrida devido à posição horizontal e à imersão.
 
 2. **Priorizar a natação e o elíptico durante períodos de lesão de impacto** (fascite plantar, tendinopatias, fraturas de stress), porque eliminam praticamente a componente de impacto vertical, mantendo o estímulo cardiovascular.
 

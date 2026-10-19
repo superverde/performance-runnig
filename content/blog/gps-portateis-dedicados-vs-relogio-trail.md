@@ -40,8 +40,8 @@ Em síntese, a decisão deve ser guiada pelo perfil de treino: autonomia e preci
 |---------|-------------|---------------|---------------|----------------|
 | **Garmin Fenix 7X Pro** | Competidores de ultra‑trail | GPS multi‑constelação, bateria de 48 h em modo GPS, mapas topo‑gráficos offline | Peso elevado (≈140 g) | entre 650€ e 750€ |
 | **Coros Apex Pro** | Treinos de longa distância | 20 h de GPS, sensor de pressão barométrica, preço acessível | Falta de métricas de VO₂max | entre 350€ e 400€ |
-| **Suunto 9 Baro** | Trilheiros que usam hidratação | 120 h de bateria em modo economia, navegação por GPS/GLONASS, integração com Suunto App | Design mais tradicional, sem tela sensível ao toque | entre 550€ e 650€ |
-| **Garmin Forerunner 965** | Corredores de maratona | 15 h de GPS, métricas avançadas de corrida, tela AMOLED | Custo elevado, bateria menor que portáteis | entre 450€ e 550€ |
+| **Suunto 9 Baro** | Trilheiros que usam hidratação | 120 h de bateria em modo economia, navegação por GPS/GLONASS, integração com Suunto App | Design mais tradicional, sem ecrã sensível ao toque | entre 550€ e 650€ |
+| **Garmin Forerunner 965** | Corredores de maratona | 15 h de GPS, métricas avançadas de corrida, ecrã AMOLED | Custo elevado, bateria menor que portáteis | entre 450€ e 550€ |
 | **Polar Vantage M** | Iniciantes em trail | 10 h de GPS, métricas de frequência cardíaca, preço competitivo | Menos recursos de navegação offline | entre 300€ e 350€ |
 | **Garmin Edge 530 (GPS portátil)** | Runners que preferem GPS puro | 13 h de bateria, mapas topo‑gráficos, integração com Garmin Connect | Não possui relógio, não acompanha métricas de frequência cardíaca | entre 200€ e 250€ |
 
@@ -59,4 +59,4 @@ Para quem tem um **orçamento limitado** mas quer um GPS dedicado com boa autono
 
 1. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054  
 2. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2  
-3. Malisoux, L., Chambon, N., Delattre, N., Guegu
+3. Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial with participant and assessor blinding. *British Journal of Sports Medicine*, 50(8), 481–487.

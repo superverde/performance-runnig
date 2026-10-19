@@ -8,7 +8,7 @@ keyword: "agasalho de descarte maratona"
 keywords: ["roupa para largada maratona", "frio antes da maratona", "o que vestir na maratona"]
 readTime: 5
 faqs:
-  - q: "Qual a temperatura mínima para retirar a camada externa em uma maratona?"
+  - q: "Qual a temperatura mínima para retirar a camada externa numa maratona?"
     a: "A camada externa deve ser removida quando a temperatura ambiental estiver acima de 15 °C e a humidade inferior a 60 %."
   - q: "É seguro usar agasalho de descarte em dias de vento forte?"
     a: "Sim, mas é crucial usar um windbreaker com membrana impermeável e permeável ao vapor para evitar a perda de calor por convecção."

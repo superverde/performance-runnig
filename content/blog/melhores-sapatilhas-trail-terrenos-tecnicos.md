@@ -16,7 +16,7 @@ As sapatilhas de trail running são um elemento crucial para qualquer corredor q
 
 ## Como Escolher: Critérios Que Importam
 
-Quando se trata de escolher as melhores sapatilhas de trail running, existem vários critérios técnicos que devem ser considerados. O primeiro é a **duração e resistência** das solas, que devem ser capazes de resistir a condições adversas como chuva, lama e raízes afiadas. Além disso, as solas devem ter uma **superfície de contato** adequada para garantir tração e estabilidade em diferentes terrenos.
+Quando se trata de escolher as melhores sapatilhas de trail running, existem vários critérios técnicos que devem ser considerados. O primeiro é a **duração e resistência** das solas, que devem ser capazes de resistir a condições adversas como chuva, lama e raízes afiadas. Além disso, as solas devem ter uma **superfície de contacto** adequada para garantir tração e estabilidade em diferentes terrenos.
 
 Outro fator importante é a **proteção e suporte** oferecido pela sapatilha. As sapatilhas de trail running devem ter uma parte superior que proteja os pés de lesões e ofereça suporte adequado para evitar desconforto e dor. A **inserção da sola** também é crucial, pois deve ser confortável e não causar desconforto ao correr.
 
@@ -27,14 +27,14 @@ Finalmente, as sapatilhas de trail running devem ser **leves e aerodinâmicas**,
 Aqui estão algumas das melhores sapatilhas de trail running para terrenos técnicos do mercado:
 
 * **Salomon Speedcross 4**: Uma das sapatilhas de trail running mais populares e respeitadas, concebida para lidar com terrenos técnicos e oferecer suporte e proteção adequados. (Entre 150€ e 200€)
-* **La Sportiva Raptor Trail**: Uma sapatilha de trail running leve e aerodinâmica, concebida para corredores que buscam uma combinação de suporte e flexibilidade. (Entre 120€ e 180€)
-* **Hoka One One Challenger ATR 6**: Uma sapatilha de trail running com uma parte superior confortável e uma sola durável, concebida para corredores que buscam uma combinação de suporte e proteção. (Entre 150€ e 200€)
+* **La Sportiva Raptor Trail**: Uma sapatilha de trail running leve e aerodinâmica, concebida para corredores que procuram uma combinação de suporte e flexibilidade. (Entre 120€ e 180€)
+* **Hoka One One Challenger ATR 6**: Uma sapatilha de trail running com uma parte superior confortável e uma sola durável, concebida para corredores que procuram uma combinação de suporte e proteção. (Entre 150€ e 200€)
 * **Merrell Moab 2 Mid Waterproof**: Uma sapatilha de trail running concebida para lidar com condições adversas, com uma parte superior impermeável e uma sola durável. (Entre 120€ e 180€)
-* **Brooks Cascadia 16**: Uma sapatilha de trail running leve e aerodinâmica, concebida para corredores que buscam uma combinação de suporte e flexibilidade. (Entre 150€ e 200€)
+* **Brooks Cascadia 16**: Uma sapatilha de trail running leve e aerodinâmica, concebida para corredores que procuram uma combinação de suporte e flexibilidade. (Entre 150€ e 200€)
 
 ## Veredicto: Qual Comprar
 
-A escolha da melhor sapatilha de trail running para terrenos técnicos depende de vários fatores, incluindo o nível de corrida, o terreno e o orçamento. Para iniciantes, a **Salomon Speedcross 4** é uma ótima escolha, pois oferece suporte e proteção adequados em um terreno técnico. Para competidores, a **La Sportiva Raptor Trail** é uma boa opção, pois é leve e aerodinâmica, mas ainda oferece suporte e flexibilidade suficientes.
+A escolha da melhor sapatilha de trail running para terrenos técnicos depende de vários fatores, incluindo o nível de corrida, o terreno e o orçamento. Para iniciantes, a **Salomon Speedcross 4** é uma ótima escolha, pois oferece suporte e proteção adequados num terreno técnico. Para competidores, a **La Sportiva Raptor Trail** é uma boa opção, pois é leve e aerodinâmica, mas ainda oferece suporte e flexibilidade suficientes.
 
 Para quem tem um orçamento limitado, a **Merrell Moab 2 Mid Waterproof** é uma ótima escolha, pois é uma sapatilha de trail running durável e resistente, concebida para lidar com condições adversas. Em resumo, a escolha da melhor sapatilha de trail running depende de suas necessidades e preferências individuais.
 

@@ -23,7 +23,7 @@ Estudos de neuroimagem mostram ainda que atletas com maior tolerância ao descon
 
 ## Protocolos Práticos de Treino da Tolerância ao Desconforto
 
-**Exposição gradual e deliberada ("discomfort training").** Inclua, uma vez por semana, um treino desenhado especificamente para gerar desconforto controlado — por exemplo, os últimos 2-3 repetições de um treino intervalado a um ritmo ligeiramente mais exigente do que o planeado, ou terminar um treino longo com 10-15 minutos ao limiar em fadiga acumulada. O objetivo não é a adaptação fisiológica (já obtida pelo treino normal), mas a prática deliberada de continuar a executar com precisão técnica apesar do desconforto.
+**Exposição gradual e deliberada ("discomfort training").** Inclui, uma vez por semana, um treino desenhado especificamente para gerar desconforto controlado — por exemplo, os últimos 2-3 repetições de um treino intervalado a um ritmo ligeiramente mais exigente do que o planeado, ou terminar um treino longo com 10-15 minutos ao limiar em fadiga acumulada. O objetivo não é a adaptação fisiológica (já obtida pelo treino normal), mas a prática deliberada de continuar a executar com precisão técnica apesar do desconforto.
 
 **Diálogo interno estruturado (self-talk).** A investigação de Blanchfield et al. (2014) mostra que frases motivacionais treinadas previamente (não improvisadas em prova) aumentam o tempo até à exaustão em cerca de 18% em esforços de resistência, comparado com ausência de diálogo interno. A chave está em treinar frases curtas e específicas durante os treinos-chave (ex.: "ombros relaxados, ritmo firme"), para que estejam automatizadas e acessíveis quando o esforço se torna elevado em prova.
 

@@ -20,7 +20,7 @@ A corrida exige mais do que apenas bons sapatos: a hidratação adequada pode se
 ## Como Escolher: Critérios Que Importam
 
 Para comparar mochilas de hidratação de forma objetiva, é necessário considerar três dimensões principais: **ergonomia e distribuição de peso**, **capacidade e facilidade de acesso à água** e **durabilidade e compatibilidade com outros equipamentos**.  
-1. **Ergonomia e distribuição de peso**: Estudos de biomecânica demonstram que a distribuição equilibrada do peso evita a sobrecarga muscular e reduz a fadiga (Fuller et al., 2015). Mochilas com alças ajustáveis, suporte lombar e compartimento central ajudam a manter a postura neutra. CamelBak costuma oferecer um sistema de ajuste de cintura mais flexível, enquanto Salomon foca em um suporte dorsal mais firme, ideal para corridas de longa distância.  
+1. **Ergonomia e distribuição de peso**: Estudos de biomecânica demonstram que a distribuição equilibrada do peso evita a sobrecarga muscular e reduz a fadiga (Fuller et al., 2015). Mochilas com alças ajustáveis, suporte lombar e compartimento central ajudam a manter a postura neutra. CamelBak costuma oferecer um sistema de ajuste de cintura mais flexível, enquanto Salomon foca num suporte dorsal mais firme, ideal para corridas de longa distância.  
 2. **Capacidade e acesso à água**: A capacidade típica varia entre 1 L e 2 L. Para maratonistas, um tanque de 2 L pode ser suficiente, mas corredores de trail que enfrentam variações climáticas podem precisar de mais volume. A facilidade de acesso – via cano de saída posicionado à altura do ombro ou na cintura – influencia a velocidade de reposição. Salomon costuma colocar o cano na cintura, facilitando o acesso em terreno irregular.  
 3. **Durabilidade e compatibilidade**: Material de alta resistência (nylon 6‑6 ou poliéster 300D) e sistemas de fixação robustos garantem longevidade. Além disso, a compatibilidade com bolsas de mochila, calças de compressão e sistemas de ventilação (ventilação traseira ou lateral) pode ser decisiva. CamelBak oferece um sistema de fixação “Quick‑Release” que permite trocar rapidamente o tanque, enquanto Salomon integra um compartimento de armazenamento adicional para snacks e dispositivos eletrónicos.
 
@@ -28,7 +28,7 @@ Para comparar mochilas de hidratação de forma objetiva, é necessário conside
 
 | Marca / Modelo | Para quem é? | Pontos fortes | Pontos fracos | Faixa de preço |
 |----------------|--------------|---------------|---------------|----------------|
-| **CamelBak M.U.L.E.** | Maratonistas e trail runners | Ajuste de cintura flexível, cano na cintura, tanque de 1,5 L | Peso ligeiramente superior | entre 150 € e 200 € |
+| **CamelBak M.U.L.E.** | Maratonistas e trail runners | Ajusta de cintura flexível, cano na cintura, tanque de 1,5 L | Peso ligeiramente superior | entre 150 € e 200 € |
 | **CamelBak Hydralite** | Corredores de curta distância | Peso ultraleve (0,9 kg), tanque de 1 L, sistema de fixação rápida | Pouco espaço de armazenamento | entre 120 € e 160 € |
 | **Salomon River 2.0** | Corrida de maratona, treinos de força | Suporte dorsal firme, tanque de 2 L, compartimento de snacks | Peso maior do que a CamelBak | entre 170 € e 220 € |
 | **Salomon Trail Pack 1.5** | Trail runners e ultramaratonistas | Capacidade de 1,5 L, cano posicionado na cintura, sistema de ventilação traseira | Design mais volumoso | entre 140 € e 190 € |
@@ -39,7 +39,7 @@ Para comparar mochilas de hidratação de forma objetiva, é necessário conside
 
 ## Veredicto: Qual Comprar
 
-Para **iniciantes** que buscam simplicidade e baixo custo, a **CamelBak Hydralite** oferece um peso mínimo e facilidade de montagem, ideal para treinos de curta distância e sessões de HIIT (ver [hiit-aplicações-corrida-performance](/blog/hiit-aplicacoes-corrida-performance)).  
+Para **iniciantes** que procuram simplicidade e baixo custo, a **CamelBak Hydralite** oferece um peso mínimo e facilidade de montagem, ideal para treinos de curta distância e sessões de HIIT (ver [hiit-aplicações-corrida-performance](/blog/hiit-aplicacoes-corrida-performance)).  
 Os **competidores de nível médio** que exigem maior capacidade e conforto em longas distâncias devem optar pela **Salomon River 2.0**; seu suporte dorsal e tanque de 2 L garantem eficiência energética em maratonas.  
 Para quem tem orçamento **limitado** mas ainda deseja qualidade, a **CamelBak M.U.L.E.** apresenta um excelente equilíbrio entre ergonomia e preço, sendo uma escolha sólida para corredores de maratona e trail.  
 

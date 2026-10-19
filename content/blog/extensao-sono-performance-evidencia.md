@@ -50,7 +50,7 @@ Esses estudos convergem para três mecanismos principais:
 | Melhoria do ambiente | - | Instalar cortinas blackout, usar máscara de dormir. |
 
 ### 3. Integração com Treino  
-- **Treinos de alta intensidade**: Planejar no período da manhã, quando o corpo já está mais alerta, permitindo que a fase de recuperação ocorra durante a noite.  
+- **Treinos de alta intensidade**: Planear no período da manhã, quando o corpo já está mais alerta, permitindo que a fase de recuperação ocorra durante a noite.  
 - **Treinos de volume**: Agendar no fim de semana, quando a carga de trabalho é menor, para evitar sobrecarga que comprometa o sono.  
 - **Monitorização de carga**: Usar o método de “Training Stress Score” (TSS) e correlacionar com a variabilidade da frequência cardíaca (HRV) para prever dias que necessitem de sono extra.
 

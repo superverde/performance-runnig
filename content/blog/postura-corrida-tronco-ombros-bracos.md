@@ -8,11 +8,11 @@ keywords: ["técnica de corrida", "posição dos braços", "postura correta a co
 readTime: 4
 ---
 
-A postura na corrida é um aspecto fundamental para os corredores que buscam melhorar a sua performance e reduzir o risco de lesões. Ao longo dos anos, a ciência do desporto tem avançado significativamente em relação à biomecânica da corrida, permitindo aos treinadores e corredores entender melhor como a postura afeta a eficiência do movimento e a carga sobre as articulações.
+A postura na corrida é um aspecto fundamental para os corredores que procuram melhorar a sua performance e reduzir o risco de lesões. Ao longo dos anos, a ciência do desporto tem avançado significativamente em relação à biomecânica da corrida, permitindo aos treinadores e corredores entender melhor como a postura afeta a eficiência do movimento e a carga sobre as articulações.
 
 A corrida é um movimento complexo que envolve a coordenação de múltiplos sistemas musculares, ósseos e articulares. Ao contrário do que muitos pensam, a corrida não é apenas um movimento linear, mas sim uma combinação de movimentos cíclicos de flexão e extensão de diferentes segmentos do corpo. A postura correcta é crucial para que o corredor possa aproveitar ao máximo a sua potência e eficiência, reduzindo ao mesmo tempo a tensão sobre as articulações.
 
-Um dos aspectos mais importantes da postura na corrida é a alinhamento do tronco, dos ombros e dos braços. Ao contrário do que muitos corredores fazem, a cabeça e os ombros não devem estar inclinados para a frente, mas sim em uma postura recta e relaxada. Além disso, os braços devem ser mantidos em uma posição de flexão de cerca de 90 graus, com os punhos fechados e os dedos apontando para a frente.
+Um dos aspectos mais importantes da postura na corrida é a alinhamento do tronco, dos ombros e dos braços. Ao contrário do que muitos corredores fazem, a cabeça e os ombros não devem estar inclinados para a frente, mas sim numa postura recta e relaxada. Além disso, os braços devem ser mantidos numa posição de flexão de cerca de 90 graus, com os punhos fechados e os dedos apontando para a frente.
 
 ## Base Científica
 
@@ -24,10 +24,10 @@ A postura correcta é fundamental para que o corredor possa aproveitar ao máxim
 
 A aplicação prática da postura correcta na corrida envolve uma série de técnicas e exercícios que podem ser utilizados para melhorar a alinhamento do tronco, dos ombros e dos braços. Aqui estão algumas dicas práticas que podem ser úteis:
 
-- **Mantenha a cabeça e os ombros rectos**: Evite inclinar a cabeça e os ombros para a frente, pois isso pode causar tensão sobre as articulações.
-- **Flexione os braços em 90 graus**: Mantenha os braços flexionados em cerca de 90 graus, com os punhos fechados e os dedos apontando para a frente.
-- **Relaxe os ombros**: Evite tensão nos ombros, pois isso pode afetar a sua postura.
-- **Pratique a corrida com uma postura correcta**: A prática é a melhor forma de desenvolver a postura correcta na corrida.
+- **Mantém a cabeça e os ombros rectos**: Evita inclinar a cabeça e os ombros para a frente, pois isso pode causar tensão sobre as articulações.
+- **Flexione os braços em 90 graus**: Mantém os braços flexionados em cerca de 90 graus, com os punhos fechados e os dedos apontando para a frente.
+- **Relaxe os ombros**: Evita tensão nos ombros, pois isso pode afetar a sua postura.
+- **Pratica a corrida com uma postura correcta**: A prática é a melhor forma de desenvolver a postura correcta na corrida.
 
 ## Erros Comuns
 

@@ -21,7 +21,7 @@ A hidratação adequada não é apenas sobre quantidade de líquido, mas sobretu
 
 ## Base Científica  
 
-A ciência da nutrição desportiva fundamenta a formulação das bebidas desportivas em dois pilares principais: absorção gástrica eficiente e manutenção da osmolalidade corporal. A osmolalidade da bebida deve situar‑se entre 250 e 350 mOsm kg⁻¹; valores superiores provocam retenção de água no intestino, enquanto valores inferiores podem reduzir a velocidade de absorção de carboidratos. Estudos de Maughan & Shirreffs (2010) demonstraram que bebidas isotónicas com osmolalidade de 300 mOsm kg⁻¹ resultam em maior taxa de absorção de glicose em comparação com soluções hipertónicas.
+A ciência da nutrição desportiva fundamenta a formulação das bebidas desportivas em dois pilares principais: absorção gástrica eficiente e manutenção da osmolalidade corporal. A osmolalidade da bebida deve situar‑se entre 250 e 350 mOsm kg⁻¹; valores superiores provocam retenção de água no intestino, enquanto valores inferiores podem reduzir a velocidade de absorção de hidratos de carbono. Estudos de Maughan & Shirreffs (2010) demonstraram que bebidas isotónicas com osmolalidade de 300 mOsm kg⁻¹ resultam em maior taxa de absorção de glicose em comparação com soluções hipertónicas.
 
 ### Concentração de Hidratos na Bebida  
 A concentração de hidratos de carbono na bebida influencia diretamente a velocidade de absorção e a sensação de saciedade. A recomendação de 6‑8 % (60‑80 g de hidratos por litro) é baseada em evidências de que essa faixa permite a utilização simultânea de glicose e maltodextrina através de dois transportadores intestinais (SGLT1 e GLUT2), maximizando a taxa de ingestão de energia sem causar desconforto gastrointestinal (Jeukendrup, 2014).

@@ -22,11 +22,11 @@ O sono é um componente fundamental da recuperação desportiva, pois contribui 
 
 ## A Síntese Proteica e o Sono
 
-A síntese proteica é um processo fundamental para a construção e a reparação de tecidos, incluindo músculos. Durante o sono, o corpo libera hormônios que estimulam a síntese proteica, como a somatotropina (GH) e a insulina. Um estudo publicado no Journal of Applied Physiology encontrou que a privação do sono reduzia a síntese proteica em 14% e aumentava a degradação proteica em 22% (1).
+A síntese proteica é um processo fundamental para a construção e a reparação de tecidos, incluindo músculos. Durante o sono, o corpo libera hormonas que estimulam a síntese proteica, como a somatotropina (GH) e a insulina. Um estudo publicado no Journal of Applied Physiology encontrou que a privação do sono reduzia a síntese proteica em 14% e aumentava a degradação proteica em 22% (1).
 
 ## Regulação Hormonal e Sono
 
-A regulação hormonal é outro processo importante que é influenciado pelo sono. O sono noturno ajuda a regular a liberação de hormônios esteroides, como a cortisol e a testosterona, que são fundamentais para a recuperação e a adaptação muscular. Um estudo publicado no Journal of Clinical Endocrinology and Metabolism encontrou que a privação do sono aumentava a liberação de cortisol em 21% e reduzia a liberação de testosterona em 15% (2).
+A regulação hormonal é outro processo importante que é influenciado pelo sono. O sono noturno ajuda a regular a liberação de hormonas esteroides, como a cortisol e a testosterona, que são fundamentais para a recuperação e a adaptação muscular. Um estudo publicado no Journal of Clinical Endocrinology and Metabolism encontrou que a privação do sono aumentava a liberação de cortisol em 21% e reduzia a liberação de testosterona em 15% (2).
 
 ## Consolidação da Memória Motora e Sono
 
@@ -48,9 +48,9 @@ Para melhorar a qualidade do sono e, consequentemente, a performance desportiva,
 
 * Estabelecer um horário regular para dormir e acordar
 * Crie um ambiente tranquilo e escuro para dormir
-* Evite o uso de tecnologias eletrónicas antes de dormir
-* Evite atividades físicas intensas antes de dormir
-* Priorize a recuperação e o descanso após a atividade física
+* Evita o uso de tecnologias eletrónicas antes de dormir
+* Evita atividades físicas intensas antes de dormir
+* Dá prioridade a a recuperação e o descanso após a atividade física
 
 ## Referências
 

@@ -38,7 +38,7 @@ A recuperação ativa, como caminhar a 3 km/h ou fazer alongamentos dinâmicos
    - Temperatura corporal > 36,5 °C sinaliza sobrecarga.  
 
 3. **Nutrição**  
-   - Carboidratos 1,5–2 g kg⁻¹ h⁻¹ durante a corrida.  
+   - Hidratos de carbono 1,5–2 g kg⁻¹ h⁻¹ durante a corrida.  
    - Proteína 0,3 g kg⁻¹ após cada soneca curta para síntese muscular.  
 
 4. **Ambiente de sono**  
@@ -58,7 +58,7 @@ Um corredor de 75 kg corre 200 km em 48 h. Durante a fase 2, ele faz 30 
 | **Ignorar sinais de fadiga** | Aumento de lesões | Monitorizar HRV e temperatura corporal |
 | **Dormir em posição deitado sem suporte** | Má circulação, dores nas costas | Utilizar suporte lombar portátil |
 | **Consumir álcool para dormir** | Redução da qualidade do sono | Substituir por chá de camomila ou mel |
-| **Não planejar sonecas** | Sono fragmentado, maior carga mental | Seguir protocolo de ciclos de sono |
+| **Não planear sonecas** | Sono fragmentado, maior carga mental | Seguir protocolo de ciclos de sono |
 | **Ignorar hidratação** | Hiponatremia, fadiga | Beber 500 ml de água a cada 2 h |
 
 ## Protocolo / Conclusão

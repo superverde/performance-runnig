@@ -8,9 +8,9 @@ keyword: "ultramaratona 100 km"
 keywords: ["primeiro ultra de 100 km", "preparar um ultra", "ultra trail 100 km"]
 readTime: 5
 faqs:
-  - q: "Qual a carga de trabalho ideal em termos de frequência cardíaca para treinos de subida em uma ultramaratona de 100 km?"
+  - q: "Qual a carga de trabalho ideal em termos de frequência cardíaca para treinos de subida numa ultramaratona de 100 km?"
     a: "A carga ideal fica entre 70 % e 75 % da FCmáx, mantendo o esforço em zona de resistência aeróbica, mas suficientemente intensa para estimular adaptações musculares."
-  - q: "Quantos quilômetros por semana devo correr antes de iniciar a fase de pico?"
+  - q: "Quantos quilómetros por semana devo correr antes de iniciar a fase de pico?"
     a: "Entre 80 e 120 km por semana, aumentando progressivamente até atingir 200 km nas três últimas semanas antes da prova."
   - q: "Como devo ajustar a ingestão de líquidos se o percurso tem temperaturas superiores a 30 °C?"
     a: "Aumente a ingestão para 800–1000 ml/hora, incluindo eletrólitos, e considere adicionar um suplemento de bicarbonato para melhorar a tolerância ao ácido."
@@ -33,7 +33,7 @@ Estudos de neuromuscular mostram que após 80 km, há uma redução de 20 % 
 O trail running introduz variáveis de terreno que elevam a carga mecânica. Em subidas, a potência exigida pode chegar a 12 W/kg, enquanto em descidas, a carga de impacto aumenta em 30 % devido ao esforço de controlo (Scheer et al., 2020). A variabilidade do terreno exige um treino que desenvolva estabilidade e propriocepção, além de resistência muscular.  
 
 ### Fatores de Performance em Ultra‑Maratona  
-Balducci et al. (2017) identificaram que a percentagem de calorias provenientes de carboidratos durante a prova (≈ 65 %) e a taxa de ingestão de líquidos (≈ 1 L/h) são preditores de performance. A capacidade de manter a glicemia entre 70–80 mg/dL evita a “crash” metabólica.  
+Balducci et al. (2017) identificaram que a percentagem de calorias provenientes de hidratos de carbono durante a prova (≈ 65 %) e a taxa de ingestão de líquidos (≈ 1 L/h) são preditores de performance. A capacidade de manter a glicemia entre 70–80 mg/dL evita a “crash” metabólica.  
 
 ## Aplicação Prática  
 
@@ -49,9 +49,9 @@ Balducci et al. (2017) identificaram que a percentagem de calorias proveniente
 4. **Taper (2 sem)**: redução de 30 % do volume, mantendo intensidade.  
 
 ### Nutrição  
-- **Antes da prova**: 300 kcal, 60 % carboidratos, 20 % proteína, 20 % gordura.  
-- **Durante a prova**: 30 g de carboidratos/hora (gelo, gel, banana), 500–800 ml de líquido/hora.  
-- **Pós‑prova**: 1,5 g/kg de proteína, 5 g/kg de carboidratos, hidratação com eletrólitos.  
+- **Antes da prova**: 300 kcal, 60 % hidratos de carbono, 20 % proteína, 20 % gordura.  
+- **Durante a prova**: 30 g de hidratos de carbono/hora (gelo, gel, banana), 500–800 ml de líquido/hora.  
+- **Pós‑prova**: 1,5 g/kg de proteína, 5 g/kg de hidratos de carbono, hidratação com eletrólitos.  
 
 ### Equipamento  
 - **Calçado**: 350–400 g, amortecimento médio, boa aderência.  
@@ -62,7 +62,7 @@ Balducci et al. (2017) identificaram que a percentagem de calorias proveniente
 
 1. **Sobrecarga de Volume**: 10 % acima do limite semanal pode levar a lesões por fadiga, como tendinite do patelar.  
 2. **Inadequada Recuperação**: Falta de sono (≤ 6 h) aumenta o risco de desordem hormonal e diminui a síntese proteica.  
-3. **Mau Planeamento Nutricional**: Ingestão insuficiente de carboidratos leva a “boné” precoce, enquanto excesso provoca desconforto gastrointestinal.  
+3. **Mau Planeamento Nutricional**: Ingestão insuficiente de hidratos de carbono leva a “boné” precoce, enquanto excesso provoca desconforto gastrointestinal.  
 4. **Despreparo Mental**: Subestimar o componente psicológico pode resultar em abandono prematuro; técnicas de visualização e respiração devem ser incorporadas.  
 
 ## Protocolo/Conclusão  

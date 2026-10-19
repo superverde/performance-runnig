@@ -57,11 +57,11 @@ Howatson et al. (2010) mostraram que a ingestão de 240 ml de chá de cereja
 1. **Subestimar o Sono** – Muitos atletas limitam o sono a 6 h, o que pode reduzir a síntese proteica em até 20 %.  
 2. **Excesso de Imersão em Água Fria** – A prática diária pode suprimir a resposta anabólica, prejudicando a adaptação a longo prazo.  
 3. **Falta de Personalização** – Aplicar protocolos genéricos sem considerar FCmáx, nível de condicionamento ou preferência individual.  
-4. **Ignorar a Nutrição Pós‑Treino** – A recuperação ativa sem reposição de carboidratos (50 g) e proteína (20 g) limita a restauração de glicogênio e a reparação muscular.
+4. **Ignorar a Nutrição Pós‑Treino** – A recuperação ativa sem reposição de hidratos de carbono (50 g) e proteína (20 g) limita a restauração de glicogênio e a reparação muscular.
 
 ## Protocolo/Conclusão
 
-Para corredores que buscam otimizar a performance, a combinação de recuperação ativa e sono de qualidade forma a base de um plano de recuperação eficaz. A imersão em água fria deve ser reservada a sessões de alta intensidade ou distâncias superiores a 30 km, e o chá de cereja pode ser usado como suplemento de suporte à dor, mas não como substituto de sono ou treino ativo. A aplicação de protocolos numéricos, como 30 min de ciclismo a 80 W ou 10 min de imersão a 10 °C, permite medir resultados de forma objetiva e ajustar a carga de recuperação de acordo com a resposta individual.
+Para corredores que procuram otimizar a performance, a combinação de recuperação ativa e sono de qualidade forma a base de um plano de recuperação eficaz. A imersão em água fria deve ser reservada a sessões de alta intensidade ou distâncias superiores a 30 km, e o chá de cereja pode ser usado como suplemento de suporte à dor, mas não como substituto de sono ou treino ativo. A aplicação de protocolos numéricos, como 30 min de ciclismo a 80 W ou 10 min de imersão a 10 °C, permite medir resultados de forma objetiva e ajustar a carga de recuperação de acordo com a resposta individual.
 
 
 ## Referências Científicas

@@ -27,8 +27,8 @@ A prevenção da dor lombar e ciática é fundamental para os corredores. Aqui e
 
 - **Treino adequado**: É importante treinar regularmente, mas de forma adequada. Isso inclui aumentar gradualmente a carga de treino, evitar treinos intensos em excesso e incluir alongamentos e exercícios de força.
 - **Alongamento e flexibilidade**: Realizar alongamentos e exercícios de força regularmente pode ajudar a manter a flexibilidade e a força dos músculos da coxa, barriga da perna e costas.
-- **Postura adequada**: Mantenha uma postura adequada durante a corrida e ao longo do dia, com os ombros para trás, o peito para frente e a cabeça direta.
-- **Equipamento adequado**: Utilize equipamento adequado, como sapatilhas com suporte adequado e calçados com solado resistente.
+- **Postura adequada**: Mantém uma postura adequada durante a corrida e ao longo do dia, com os ombros para trás, o peito para frente e a cabeça direta.
+- **Equipamento adequado**: Utiliza equipamento adequado, como sapatilhas com suporte adequado e calçados com solado resistente.
 
 ## Erros Comuns
 

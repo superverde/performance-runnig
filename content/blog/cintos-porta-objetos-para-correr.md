@@ -25,7 +25,7 @@ Ao selecionar um cinto porta-objetos, é crucial analisar três aspetos principa
 A distribuição de peso deve ser equilibrada para não interferir na cadência. Os cintos com sistema de ajuste de largura e altura permitem que o atleta encontre a posição mais confortável, reduzindo a pressão sobre a cintura e evitando desconfortos nas costas.  
 
 **Materiais**  
-Os tecidos de nylon balístico ou poliéster de alta densidade oferecem resistência ao desgaste, enquanto as costuras reforçadas garantem durabilidade. A presença de respirabilidade, através de malhas ou painéis de mesh, evita a acumulação de suor, mantendo a zona de contato seca e confortável.  
+Os tecidos de nylon balístico ou poliéster de alta densidade oferecem resistência ao desgaste, enquanto as costuras reforçadas garantem durabilidade. A presença de respirabilidade, através de malhas ou painéis de mesh, evita a acumulação de suor, mantendo a zona de contacto seca e confortável.  
 
 **Funcionalidade**  
 As opções de compartimentos variam: bolsos com zíper, bolsos de abertura rápida, ou até bolsos com sistema de fechamento tipo “flip‑belt” que permite acesso rápido a garrafas de água. A presença de um suporte para garrafa de 500 ml ou 750 ml, com sistema de travamento, é essencial para corredores de longas distâncias.  
@@ -36,7 +36,7 @@ Além disso, a leveza é um critério decisivo; os melhores cintos têm menos de
 
 | Produto | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
 |---------|-------------|---------------|---------------|----------------|
-| **Ultimate Gear Cinto Pro 2.0** | Competidores de maratona | Ajuste de altura, bolsos flip‑belt, material respirável | Pouco espaço para carregador de telefone | entre 150€ e 200€ |
+| **Ultimate Gear Cinto Pro 2.0** | Competidores de maratona | Ajusta de altura, bolsos flip‑belt, material respirável | Pouco espaço para carregador de telefone | entre 150€ e 200€ |
 | **Inovex Ultra‑Fit 300** | Treinos de velocidade | Design ultraleve, suporte para garrafa 500 ml, costura reforçada | Não tem bolsos de zíper | entre 120€ e 170€ |
 | **Adidas Runners Pocket** | Iniciantes | Simples, bolsos de zíper, preço acessível | Peso ligeiramente maior | entre 90€ e 140€ |
 | **Puma Trail‑Pack** | Corridas off‑road | Resistência à água, bolsos laterais para GPS | Falta de suporte para garrafa | entre 110€ e 160€ |

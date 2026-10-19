@@ -10,7 +10,7 @@ faqs:
   - q: "Qual é o efeito de dormir mal antes da prova no desempenho?"
     a: "A privação de sono reduz a velocidade máxima, aumenta a fadiga e altera a percepção de esforço, podendo diminuir a performance em 3 %."
   - q: "O que é uma noite antes da maratona e como lidar com ela?"
-    a: "Uma noite antes da maratona costuma ser marcada por ansiedade e insónia; recomenda‑se evitar estimulantes, fazer exercícios leves e planejar a hidratação."
+    a: "Uma noite antes da maratona costuma ser marcada por ansiedade e insónia; recomenda‑se evitar estimulantes, fazer exercícios leves e planear a hidratação."
   - q: "Como a insónia pré‑prova afeta a recuperação pós‑corrida?"
     a: "A insónia pré‑prova pode prolongar a fase de recuperação, aumentando a dor muscular e retardando a reposição de glicogênio."
 ---
@@ -26,12 +26,12 @@ Além disso, a falta de sono compromete a capacidade do cérebro de processar in
 
 ## Dormir mal antes da prova: o que acontece?  
 * **Alteração do equilíbrio energético** – a falta de sono diminui a sensibilidade à insulina, dificultando a disponibilidade de glicogênio muscular.  
-* **Desregulação do sistema nervoso autônomo** – aumento da frequência cardíaca de repouso e diminuição da variabilidade da frequência cardíaca, indicando maior carga de stress.  
+* **Desregulação do sistema nervoso autónomo** – aumento da frequência cardíaca de repouso e diminuição da variabilidade da frequência cardíaca, indicando maior carga de stress.  
 * **Impacto na motivação e na tomada de decisão** – a privação de sono reduz a função executiva, levando a escolhas menos eficientes em termos de ritmo e estratégia.  
 
 ## Aplicação Prática  
 ### 1. Hidra‑ção e alimentação  
-- **Ingestão de carboidratos**: consome 30 g de carboidratos 1 h antes da prova para garantir glicogênio disponível.  
+- **Ingestão de hidratos de carbono**: consome 30 g de hidratos de carbono 1 h antes da prova para garantir glicogênio disponível.  
 - **Evita líquidos com cafeína**: a cafeína pode prolongar o estado de alerta, interferindo na recuperação.  
 
 ### 2. Recuperação ativa  

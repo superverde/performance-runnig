@@ -28,7 +28,7 @@ O diagnóstico precoce, por meio de radiografia e, quando necessário, ressonân
 ## Aplicação Prática  
 1. **Avaliação inicial**  
    - Exame clínico detalhado, incluindo inspeção de alinhamento e amplitude de movimento.  
-   - Teste de carga: caminhada de 10 min em superfície plana; se a dor aparecer no segmento medial da tíbia, suspeita de fratura de stress.
+   - Testa de carga: caminhada de 10 min em superfície plana; se a dor aparecer no segmento medial da tíbia, suspeita de fratura de stress.
 
 2. **Tratamento conservador**  
    - **Repouso**: suspensão do impacto por 4–6 semanas.  

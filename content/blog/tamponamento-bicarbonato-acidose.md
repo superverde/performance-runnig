@@ -35,7 +35,7 @@ Outra estratégia é a prática de respiração diafragmática e de exercícios 
 
 ## Erros Comuns
 
-Muitos corredores confundem o ácido láctic fadiga com a causa principal da fadiga, ignorando o papel do tamponamento muscular. Outro equívoco é a crença de que o consumo de alimentos ricos em carboidratos previne a acidose; embora a glicose seja necessária, a capacidade de eliminar o lactato depende de fatores metabólicos internos.
+Muitos corredores confundem o ácido láctic fadiga com a causa principal da fadiga, ignorando o papel do tamponamento muscular. Outro equívoco é a crença de que o consumo de alimentos ricos em hidratos de carbono previne a acidose; embora a glicose seja necessária, a capacidade de eliminar o lactato depende de fatores metabólicos internos.
 
 Além disso, a prática de respiração superficial durante a corrida pode aumentar a acidez, já que o CO₂ não é eliminado eficientemente. Por fim, a falta de hidratação adequada pode reduzir a disponibilidade de bicarbonato, comprometendo o tamponamento.
 

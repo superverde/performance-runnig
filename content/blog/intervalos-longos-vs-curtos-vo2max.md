@@ -27,7 +27,7 @@ O VO₂max depende de fatores cardiorrespiratórios (carga de oxigénio transpor
 
 Intervalos curtos (≤ 1 min) concentram a carga na fase de lactato, estimulando adaptações na capacidade de tolerar e eliminar lactato, mas não exigem o mesmo nível de utilização de oxigénio aeróbico. Por isso, os ganhos no VO₂max são mais modestos, enquanto a velocidade de 5 km e 10 km melhora significativamente (Laursen, 2010).  
 
-A resposta ao volume total também é relevante: a soma dos intervalos de 4‑6 min em uma sessão pode chegar a 12‑15 min de esforço em zona de VO₂max, comparado a 6‑8 min em intervalos curtos, aumentando o estímulo metabólico (Bompa & Buzzichelli, 2018).  
+A resposta ao volume total também é relevante: a soma dos intervalos de 4‑6 min numa sessão pode chegar a 12‑15 min de esforço em zona de VO₂max, comparado a 6‑8 min em intervalos curtos, aumentando o estímulo metabólico (Bompa & Buzzichelli, 2018).  
 
 Além disso, a frequência cardíaca pós‑exercício (FC + 1 min) tende a ser mais elevada após intervalos longos, indicando maior sobrecarga cardiovascular e, por conseguinte, maior potencial de adaptação (Buchheit & Laursen, 2013).  
 

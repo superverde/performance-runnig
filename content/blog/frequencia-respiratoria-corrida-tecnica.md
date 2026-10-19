@@ -45,9 +45,9 @@ Aqui estão alguns erros comuns que os corredores cometem ao tentar melhorar a r
 
 Aqui está um protocolo para melhorar a respiração na corrida:
 
-1. **Treino cardiovascular**: Faça um treino cardiovascular adequado para melhorar a capacidade do coração de bombear sangue.
-2. **Treino de respiração**: Faça exercícios de respiração profunda e exercícios de corrida com uma frequência cardíaca mais alta.
-3. **Monitorização**: Monitorize a frequência cardíaca e a pressão arterial durante a corrida.
+1. **Treino cardiovascular**: Faz um treino cardiovascular adequado para melhorar a capacidade do coração de bombear sangue.
+2. **Treino de respiração**: Faz exercícios de respiração profunda e exercícios de corrida com uma frequência cardíaca mais alta.
+3. **Monitorização**: Monitoriza a frequência cardíaca e a pressão arterial durante a corrida.
 4. **Técnica de corrida**: Trabalhe a técnica de corrida para melhorar a respiração.
 5. **Ritmo de corrida**: Encontre um ritmo de corrida adequado para a sua capacidade.
 

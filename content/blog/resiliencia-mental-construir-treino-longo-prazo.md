@@ -18,7 +18,7 @@ faqs:
 
 A resiliência mental na corrida se constrói ao longo de anos de treino através de exposição sistemática a situações de pressão, prática deliberada de estratégias cognitivas e regulação emocional consistente. O processo exige paciência, disciplina e um plano estruturado que integre treino físico e mental de forma equilibrada.
 
-O conceito de resiliência mental vai além da simples capacidade de continuar correndo num dia difícil; trata‑se de desenvolver um repertório interno que permite manter o foco, a motivação e a confiança mesmo quando o corpo pede descanso. Em corredores de elite, a diferença entre vencer e perder muitas vezes recai sobre quem consegue gerir melhor o estresse, a ansiedade e a fadiga mental. Assim, compreender e aplicar estratégias psicológicas eficazes torna‑se tão crucial quanto otimizar a carga de treino físico.
+O conceito de resiliência mental vai além da simples capacidade de continuar a correr num dia difícil; trata‑se de desenvolver um repertório interno que permite manter o foco, a motivação e a confiança mesmo quando o corpo pede descanso. Em corredores de elite, a diferença entre vencer e perder muitas vezes recai sobre quem consegue gerir melhor o stress, a ansiedade e a fadiga mental. Assim, compreender e aplicar estratégias psicológicas eficazes torna‑se tão crucial quanto otimizar a carga de treino físico.
 
 ## Base Científica
 
@@ -26,7 +26,7 @@ Estudos recentes demonstram que a fadiga mental pode reduzir a performance físi
 
 Esses achados apontam para três pilares fundamentais na construção da resiliência mental:
 
-1. **Exposição gradual a estímulos de estresse** – treinos de alta intensidade intercalados com recuperação controlada aumentam a tolerância à ansiedade (Tenenbaum & Eklund, 2007).
+1. **Exposição gradual a estímulos de stress** – treinos de alta intensidade intercalados com recuperação controlada aumentam a tolerância à ansiedade (Tenenbaum & Eklund, 2007).
 2. **Prática deliberada de estratégias cognitivas** – re‑enquadramento, visualização e auto‑conversa positiva têm efeitos mensuráveis na redução da percepção de esforço (Blanchfield et al., 2014).
 3. **Regulação emocional consistente** – monitorização de métricas fisiológicas (HRV, cortisol) permite ajustar a carga de treino antes que a fadiga mental se torne um fator limitante (McCormick, Meijen & Marcora, 2015).
 

@@ -8,7 +8,7 @@ keywords: ["arrefecimento depois de correr", "retorno à calma", "parar de corre
 readTime: 4
 ---
 
-Correr é uma atividade física intensa que exige um grande esforço muscular, cardíaco e respiratório. Quando parás de correr de repente, o seu corpo entra em um processo chamado "cool down", que é essencial para a recuperação e prevenção de lesões. No entanto, muitos corredores não entendem bem o que se passa durante esse processo e como evitar erros comuns.
+Correr é uma atividade física intensa que exige um grande esforço muscular, cardíaco e respiratório. Quando parás de correr de repente, o seu corpo entra num processo chamado "cool down", que é essencial para a recuperação e prevenção de lesões. No entanto, muitos corredores não entendem bem o que se passa durante esse processo e como evitar erros comuns.
 
 Durante a corrida, o seu corpo utiliza um grande volume de oxigênio para produzir energia e manter a atividade muscular. Quando parás de correr, o fluxo sanguíneo é interrompido e o oxigênio pode não estar disponível para as células musculares. Isso pode levar a uma redução da produção de energia e uma acumulação de substâncias tóxicas, como o ácido lático e o dióxido de carbono. Além disso, a parada abrupta pode causar uma mudança repentina no ritmo cardíaco e respiratório, o que pode levar a uma queda na pressão arterial e a uma redução da oxigenação cerebral.
 
@@ -23,7 +23,7 @@ Então, o que podes fazer para evitar os erros comuns durante o cool down? Aqui 
 * **Parar gradualmente**: em vez de parar de repente, tente diminuir gradualmente a intensidade da corrida antes de parar completamente. Isso ajudará a evitar a sobrecarga muscular e a reduzir a acumulação de substâncias tóxicas.
 * **Estirar**: um breve período de estiramento após a corrida pode ajudar a reduzir a tensão muscular e a melhorar a circulação sanguínea.
 * **Beber água**: é importante beber água após a corrida para reidratar o corpo e reduzir a perda de eletrólitos.
-* **Meditar**: um breve período de meditação pode ajudar a reduzir o estresse e a ansiedade após a corrida.
+* **Meditar**: um breve período de meditação pode ajudar a reduzir o stress e a ansiedade após a corrida.
 
 ## Erros Comuns
 
@@ -32,11 +32,11 @@ Muitos corredores cometem erros comuns durante o cool down, o que pode aumentar 
 * **Parar de repente**: parar de repente pode causar uma sobrecarga muscular e uma acumulação de substâncias tóxicas.
 * **Não estirar**: não estirar após a corrida pode levar a uma tensão muscular e uma redução na circulação sanguínea.
 * **Não beber água**: não beber água após a corrida pode levar a uma desidratação e uma perda de eletrólitos.
-* **Não meditar**: não meditar após a corrida pode levar a uma redução na recuperação e uma aumento no estresse e na ansiedade.
+* **Não meditar**: não meditar após a corrida pode levar a uma redução na recuperação e uma aumento no stress e na ansiedade.
 
 ## Protocolo/Conclusão
 
-Em resumo, o cool down é um processo essencial para a recuperação e prevenção de lesões após a corrida. É importante parar gradualmente, estirar, beber água e meditar após a corrida para evitar os erros comuns e melhorar a recuperação. Lembre-se de que a recuperação é uma parte importante do processo de treino e que uma boa recuperação pode ajudar a melhorar a performance e a reduzir o risco de lesões.
+Em resumo, o cool down é um processo essencial para a recuperação e prevenção de lesões após a corrida. É importante parar gradualmente, estirar, beber água e meditar após a corrida para evitar os erros comuns e melhorar a recuperação. Lembra-te de que a recuperação é uma parte importante do processo de treino e que uma boa recuperação pode ajudar a melhorar a performance e a reduzir o risco de lesões.
 
 ## Referências Científicas
 

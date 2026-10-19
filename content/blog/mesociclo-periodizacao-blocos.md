@@ -50,10 +50,10 @@ A periodização por blocos pode ser complicada e requer experiência e conhecim
 A periodização por blocos deve ser concebida e aplicada com cuidado e atenção aos detalhes. A seguir, vamos apresentar um protocolo básico para a aplicação da periodização por blocos:
 
 1. **Defina os objetivos**: Defina os objetivos específicos do atleta e da temporada desportiva.
-2. **Divida o tempo em blocos**: Divida o tempo em blocos de 4-6 semanas, cada um com objetivos específicos e intensidades diferentes.
+2. **Divide o tempo em blocos**: Divide o tempo em blocos de 4-6 semanas, cada um com objetivos específicos e intensidades diferentes.
 3. **Designe os treinos**: Designe os treinos para cada bloco, com base nos objetivos e nas necessidades do atleta.
-4. **Ajuste os planos de treino**: Ajuste os planos de treino à medida que os blocos de treino forem progredindo.
-5. **Monitore a performance**: Monitore a performance do atleta e ajuste os planos de treino com base nas respostas do atleta.
+4. **Ajusta os planos de treino**: Ajusta os planos de treino à medida que os blocos de treino forem progredindo.
+5. **Monitoriza a performance**: Monitoriza a performance do atleta e ajuste os planos de treino com base nas respostas do atleta.
 
 ## Conclusão
 

@@ -34,7 +34,7 @@ A economia de corrida (EC) refere‑se à quantidade de oxigénio consumida a um
 ## Aplicação Prática
 
 ### Medição do VO₂max
-1. **Teste de esforço incremental**: começar a 8 km h⁻¹, aumentar 1 km h⁻¹ a cada 3 min.  
+1. **Testa de esforço incremental**: começar a 8 km h⁻¹, aumentar 1 km h⁻¹ a cada 3 min.  
 2. **Critério de parada**: plateau de VO₂, aumento de lactato >1,5 mmol L⁻¹ e saturação de oxigénio <95 %.  
 3. **Resultado**: registrar VO₂max e frequência cardíaca associada.
 
@@ -69,7 +69,7 @@ A economia de corrida (EC) refere‑se à quantidade de oxigénio consumida a um
 
 ## Protocolo/Conclusão
 
-Para maximizar a performance, o treino deve ser estruturado em ciclos de 4–6 semanas, cada um com foco em um dos pilares, mas integrando os três simultaneamente. A avaliação trimestral (VO₂max, LT e EC) permite ajustar a carga e a intensidade, mantendo o corredor no caminho certo para atingir metas de tempo. A combinação de capacidade aeróbica, tolerância ao lactato e eficiência biomecânica é a fórmula comprovada para transformar potenciais em resultados.
+Para maximizar a performance, o treino deve ser estruturado em ciclos de 4–6 semanas, cada um com foco num dos pilares, mas integrando os três simultaneamente. A avaliação trimestral (VO₂max, LT e EC) permite ajustar a carga e a intensidade, mantendo o corredor no caminho certo para atingir metas de tempo. A combinação de capacidade aeróbica, tolerância ao lactato e eficiência biomecânica é a fórmula comprovada para transformar potenciais em resultados.
 
 
 ## Referências Científicas

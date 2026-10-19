@@ -17,7 +17,7 @@ O ultra trail é um desporto que exige uma combinação de resistência física,
 
 ## O Medo e a Ansiedade no Ultra Trail
 
-O medo e a ansiedade são emoções naturais que podem afetar os atletas antes, durante e após as provas de ultra trail. De acordo com um estudo publicado no Journal of Sports Sciences, a ansiedade pré-competição é uma variável importante que pode influenciar o desempenho dos atletas (Moran, 1996). Além disso, um estudo realizado pelo investigador francês, Jean-Louis Contreras, mostrou que a ansiedade pode aumentar a percepção da dor e reduzir a capacidade de tolerância ao estresse por parte dos atletas (Contreras, 2011).
+O medo e a ansiedade são emoções naturais que podem afetar os atletas antes, durante e após as provas de ultra trail. De acordo com um estudo publicado no Journal of Sports Sciences, a ansiedade pré-competição é uma variável importante que pode influenciar o desempenho dos atletas (Moran, 1996). Além disso, um estudo realizado pelo investigador francês, Jean-Louis Contreras, mostrou que a ansiedade pode aumentar a percepção da dor e reduzir a capacidade de tolerância ao stress por parte dos atletas (Contreras, 2011).
 
 ## Estratégias Cognitivas para Gerir o Medo e a Ansiedade
 

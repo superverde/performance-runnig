@@ -12,7 +12,7 @@ A corrida é um desporto altamente exigeante, que requer uma combinação de for
 
 A síndrome de compartimento crónico é uma condição que afeta os músculos e nervos dos membros inferiores, causando dor e desconforto. A lesão é geralmente causada por uma compressão excessiva dos músculos e nervos dentro do compartimento, que é uma fenda óssea que contém os músculos e nervos dos membros inferiores. A compressão pode ser causada por uma variedade de fatores, incluindo a prática excessiva do desporto, a sobrecarga de peso, a deformidade óssea e as lesões anteriores.
 
-A síndrome de compartimento crónico é uma lesão silenciosa, que pode não apresentar sintomas imediatos. No entanto, a queixa mais comum é a dor aguda ou crônica no membro inferior, que pode ser acompanhada de inflamação, calor e sensibilidade ao toque. Se a lesão não for tratada de forma adequada, pode levar a consequências graves, incluindo a perda da função do membro inferior e até mesmo a incapacidade de realizar atividades diárias.
+A síndrome de compartimento crónico é uma lesão silenciosa, que pode não apresentar sintomas imediatos. No entanto, a queixa mais comum é a dor aguda ou crónica no membro inferior, que pode ser acompanhada de inflamação, calor e sensibilidade ao toque. Se a lesão não for tratada de forma adequada, pode levar a consequências graves, incluindo a perda da função do membro inferior e até mesmo a incapacidade de realizar atividades diárias.
 
 ## Base Científica
 
@@ -22,7 +22,7 @@ A lesão pode ser causada por uma variedade de fatores, incluindo a deformidade 
 
 ## Aplicação Prática
 
-A síndrome de compartimento crónico é uma lesão que pode ser difícil de diagnosticar, especialmente em corredores que não apresentam sintomas óbvios. No entanto, existem alguns sinais e sintomas que podem indicar a presença da lesão. A dor aguda ou crônica no membro inferior é o sintoma mais comum, mas também pode haver inflamação, calor e sensibilidade ao toque.
+A síndrome de compartimento crónico é uma lesão que pode ser difícil de diagnosticar, especialmente em corredores que não apresentam sintomas óbvios. No entanto, existem alguns sinais e sintomas que podem indicar a presença da lesão. A dor aguda ou crónica no membro inferior é o sintoma mais comum, mas também pode haver inflamação, calor e sensibilidade ao toque.
 
 Além disso, a síndrome de compartimento crónico pode ser diagnosticada através de exames de imagem, como a ressonância magnética. O tratamento da lesão depende da gravidade da lesão e pode incluir a aplicação de gelo e compressão, a prática de exercícios de alongamento e força e a realização de procedimentos cirúrgicos.
 

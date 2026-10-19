@@ -17,7 +17,7 @@ faqs:
 
 A estabilidade do quadril é a pedra angular de uma corrida livre de lesões, pois controla a distribuição de cargas laterais e evita compensações que sobrecarregam joelhos, tornozelos e coluna. Quando os músculos glúteo máximo, medius e minimus trabalham em sincronia, a perna mantém alinhamento e a energia é transferida de forma eficiente para a propulsão.
 
-Para os corredores de elite e amadores, compreender a biomecânica do quadril significa reconhecer que a sua função não se limita apenas ao movimento de extensão, mas também à rotação interna, externa e à estabilização mediolateral. A falta de controlo nesses movimentos pode resultar em hipertrofia muscular, tendinite e, em casos extremos, fraturas por estresse. Assim, a intervenção precoce na estabilidade do quadril torna‑se um investimento na longevidade da carreira atlética.
+Para os corredores de elite e amadores, compreender a biomecânica do quadril significa reconhecer que a sua função não se limita apenas ao movimento de extensão, mas também à rotação interna, externa e à estabilização mediolateral. A falta de controlo nesses movimentos pode resultar em hipertrofia muscular, tendinite e, em casos extremos, fraturas por stress. Assim, a intervenção precoce na estabilidade do quadril torna‑se um investimento na longevidade da carreira atlética.
 
 ## Base Científica
 
@@ -28,7 +28,7 @@ A força dos abductores do quadril deve ultrapassar 80 % da força do quadríc
 ## Aplicação Prática
 
 ### Avaliação Inicial
-1. **Teste de força isométrica**: medir a força máxima em abdução do quadril em posição deitada, comparando com a força do quadríceps. Relação inferior a 0,8 indica desequilíbrio.
+1. **Testa de força isométrica**: medir a força máxima em abdução do quadril em posição deitada, comparando com a força do quadríceps. Relação inferior a 0,8 indica desequilíbrio.
 2. **Análise de vídeo em 30 Hz**: observar a inclinação do tronco e a rotação do quadril durante a corrida em pista de 400 m. Desvio superior a 5° em relação ao eixo vertical indica instabilidade.
 
 ### Exercícios de Fortalecimento
@@ -46,7 +46,7 @@ A força dos abductores do quadril deve ultrapassar 80 % da força do quadríc
 ### Correções de Técnica
 - **Reduzir a amplitude de passo**: manter a passada entre 170‑190 cm em corredores de 1,70 m, evitando sobrecarga na coluna lombar.  
 - **Manter o tronco neutro**: evitar inclinações laterais que sobrecarregam a musculatura do quadril.  
-- **Utilizar calçado adequado**: se correr com calçado de amortização leve, prefira um padrão de contato mais medial para reduzir o impacto.
+- **Utilizar calçado adequado**: se correr com calçado de amortização leve, prefira um padrão de contacto mais medial para reduzir o impacto.
 
 ## Erros Comuns
 

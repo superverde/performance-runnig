@@ -31,11 +31,11 @@ Por fim, o álcool interfere na qualidade do sono, essencial para a reparação 
 1. **Limitar a dose** – 1 bebida (≈12 g de álcool) por 70 kg de peso corporal é o máximo recomendado antes de uma corrida longa.  
 2. **Momento** – Evita o consumo nas 24 h seguintes à prova. Se necessário, aguarda pelo menos 4 h depois da última refeição.  
 3. **Reidratação** – Ingerir 1,5 L de água ou bebida isotónica nas 2 h pós‑corrida.  
-4. **Nutrição** – Consumir 0,3–0,4 g/kg de proteína e 3–4 g/kg de carboidratos nas primeiras 30 min.  
+4. **Nutrição** – Consumir 0,3–0,4 g/kg de proteína e 3–4 g/kg de hidratos de carbono nas primeiras 30 min.  
 5. **Cerveja depois da corrida** – Se optares por uma cerveja, escolhe uma de baixo teor alcoólico (≤4 %) e evita a adição de açúcar.  
 6. **Suplementação** – Um suplemento de creatina (5 g/dia) pode mitigar a perda de força induzida pelo álcool.  
 
-Exemplo prático: um corredor de 75 kg que completa 30 km pode, após a prova, beber 350 ml de água, consumir 30 g de proteína (ex.: whey 30 g) e 300 g de carboidratos (ex.: 250 ml de bebida isotónica + 50 g de gel). Se decidir beber 200 ml de cerveja, acrescenta 250 ml de água extra para compensar a diurese.
+Exemplo prático: um corredor de 75 kg que completa 30 km pode, após a prova, beber 350 ml de água, consumir 30 g de proteína (ex.: whey 30 g) e 300 g de hidratos de carbono (ex.: 250 ml de bebida isotónica + 50 g de gel). Se decidir beber 200 ml de cerveja, acrescenta 250 ml de água extra para compensar a diurese.
 
 ## Erros Comuns  
 
@@ -46,9 +46,9 @@ Exemplo prático: um corredor de 75 kg que completa 30 km pode, após a prov
 
 ## Protocolo/Conclusão  
 
-1. **Pré‑corrida**: hidratação adequada, refeição rica em carboidratos 3 h antes.  
+1. **Pré‑corrida**: hidratação adequada, refeição rica em hidratos de carbono 3 h antes.  
 2. **Durante a prova**: consumir 500 ml de bebida isotónica a cada 30 min.  
-3. **Pós‑corrida**: 30 min de refeição rápida (proteína + carboidrato), 1 h de hidratação, 4 h de descanso antes de qualquer álcool.  
+3. **Pós‑corrida**: 30 min de refeição rápida (proteína + hidrato de carbono), 1 h de hidratação, 4 h de descanso antes de qualquer álcool.  
 4. **Se consumir álcool**: limite a 1 bebida e compensar com 1,5 L de água.  
 
 Seguir este protocolo garante que o álcool não se torne um obstáculo à recuperação, mantendo o atleta pronto para a próxima sessão.

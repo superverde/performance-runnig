@@ -25,7 +25,7 @@ Vale ainda destacar o trabalho de Léger e colaboradores sobre o teste vaivém d
 
 ## Aplicação Prática ao Treino
 
-Para um corredor de fundo, o teste de 2400m ou de 3000m em pista é geralmente o mais útil, porque a velocidade obtida pode ser convertida diretamente em zonas de treino. Divida a distância pelo tempo total para obter o ritmo médio por quilómetro — esse valor aproxima-se da velocidade associada ao VO2max (vVO2max) e serve de referência para prescrever séries de intervalado longo (por exemplo, 6 x 1000m a esse ritmo, com recuperação de 2 minutos).
+Para um corredor de fundo, o teste de 2400m ou de 3000m em pista é geralmente o mais útil, porque a velocidade obtida pode ser convertida diretamente em zonas de treino. Divide a distância pelo tempo total para obter o ritmo médio por quilómetro — esse valor aproxima-se da velocidade associada ao VO2max (vVO2max) e serve de referência para prescrever séries de intervalado longo (por exemplo, 6 x 1000m a esse ritmo, com recuperação de 2 minutos).
 
 O teste de Cooper é mais acessível para corredores recreativos porque não exige controlo de distância predefinida — basta correr o mais longe possível durante 12 minutos numa pista ou percurso plano e medido. Repetir este teste a cada 6-8 semanas permite acompanhar objetivamente a evolução da capacidade aeróbia, sem necessidade de equipamento caro.
 
@@ -41,7 +41,7 @@ O erro mais frequente é realizar o teste sem padronização — mudar de pista,
 
 ## Protocolo e Conclusão
 
-Os testes de campo continuam a ser ferramentas valiosas porque democratizam o acesso a informação fisiológica de qualidade. Escolha o teste que melhor se adequa ao seu objetivo: Cooper para simplicidade e acompanhamento longitudinal, 2400-3000m para prescrição direta de ritmos de treino, e Yo-Yo para avaliar capacidade de recuperação em contextos de treino intervalado. O mais importante é a consistência do protocolo ao longo do tempo — só assim os números contam uma história fiável sobre a sua evolução.
+Os testes de campo continuam a ser ferramentas valiosas porque democratizam o acesso a informação fisiológica de qualidade. Escolhe o teste que melhor se adequa ao seu objetivo: Cooper para simplicidade e acompanhamento longitudinal, 2400-3000m para prescrição direta de ritmos de treino, e Yo-Yo para avaliar capacidade de recuperação em contextos de treino intervalado. O mais importante é a consistência do protocolo ao longo do tempo — só assim os números contam uma história fiável sobre a sua evolução.
 
 ## Referências Científicas
 

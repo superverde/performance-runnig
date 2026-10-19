@@ -38,7 +38,7 @@ O joelho do corredor raramente tem origem **no joelho**. É, quase sempre, um pr
 
 Este é o fator causal mais consistentemente identificado na investigação. Quando os glúteos (especialmente o glúteo médio) são fracos, a anca aduz em carga — a coxa roda para dentro. Isso traciona a patela para o exterior da ranhura femoral.
 
-Teste rápido: observa o teu joelho enquanto fazes um agachamento unipodal. Se o joelho "cair" para dentro (valgo), a anca está a falhar no controlo.
+Testa rápido: observa o teu joelho enquanto fazes um agachamento unipodal. Se o joelho "cair" para dentro (valgo), a anca está a falhar no controlo.
 
 **2. Fraqueza ou desequilíbrio do quadricípite**
 

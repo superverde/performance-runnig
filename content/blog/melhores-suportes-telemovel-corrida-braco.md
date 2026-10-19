@@ -29,7 +29,7 @@ Ao avaliar suportes de telemóvel para corrida, é essencial considerar três pi
 
 4. **Resistência à Água e Durabilidade** – Corridas em condições variáveis exigem materiais que resistam a suor, chuva e abrasão. Certificações IP68 ou equivalentes garantem que o telemóvel permanece protegido durante todo o percurso.
 
-5. **Compatibilidade e Acesso** – O suporte deve acomodar diferentes modelos de telemóveis e permitir a utilização de fones de ouvido, GPS e sensores de frequência cardíaca sem interferir. Um design modular, onde as aberturas podem ser ajustadas, oferece maior versatilidade.
+5. **Compatibilidade e Acesso** – O suporte deve acomodar diferentes modelos de telemóveis e permitir a utilização de auscultadores, GPS e sensores de frequência cardíaca sem interferir. Um design modular, onde as aberturas podem ser ajustadas, oferece maior versatilidade.
 
 Esses critérios, fundamentados em estudos de biomecânica e ergonomia, asseguram que o suporte escolhido não só acompanhe o ritmo do corredor, mas também contribua para uma performance sustentável.
 
@@ -38,7 +38,7 @@ Esses critérios, fundamentados em estudos de biomecânica e ergonomia, assegura
 | Produto | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
 |---------|-------------|---------------|---------------|----------------|
 | **RunMate Pro** | Corredores de meia‑maratona que exigem estabilidade máxima | Fixação de 3‑pontos, material de fibra de carbono, ajuste de altura | Pode ser ligeiramente mais caro que concorrentes | entre 200€ e 250€ |
-| **SportBand 3** | Iniciantes que buscam conforto e simplicidade | Acolchoamento de espuma viscoelástica, sistema de ajuste de 1‑ponto, leve | Menos robusto em terrenos irregulares | entre 120€ e 160€ |
+| **SportBand 3** | Iniciantes que procuram conforto e simplicidade | Acolchoamento de espuma viscoelástica, sistema de ajuste de 1‑ponto, leve | Menos robusto em terrenos irregulares | entre 120€ e 160€ |
 | **VeloFlex Brace** | Atletas que correm em trilhos e terrenos técnicos | Estrutura de alumínio, ventilação cruzada, compatibilidade com acessórios | Peso marginalmente superior ao SportBand 3 | entre 180€ e 220€ |
 | **FlexiGrip Ultra** | Corridas de longa distância que valorizam economia de energia | Design aerodinâmico, material de kevlar, ajuste automático de tensão | Pouco versátil para diferentes tamanhos de telemóvel | entre 140€ e 180€ |
 | **AthletiFit Loop** | Corredores que combinam corrida com treino funcional | Sistema de anel ajustável, resistência à água IP68, design ergonómico | Acessórios de terceiros podem não encaixar | entre 150€ e 190€ |
@@ -58,4 +58,4 @@ Quem tem um **orçamento limitado** pode encontrar um equilíbrio entre custo e 
 
 ## Referências
 
-Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British
+Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms: "preferred movement path" and "comfort filter". *British Journal of Sports Medicine*, 49(20), 1290–1294. https://doi.org/10.1136/bjsports-2015-095054

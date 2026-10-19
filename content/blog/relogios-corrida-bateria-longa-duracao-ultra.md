@@ -32,8 +32,8 @@ Por fim, a integração de métricas de treino (VO₂max, taxa de recuperação,
 | Modelo | Para quem é | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |--------|-------------|---------------|---------------|----------------|
 | **Garmin Fenix 7X** | Competidores de ultra‑maratona e trilhos de 100 km+ | Bateria de até 21 dias em modo smartwatch; GPS multi‑satélite; altímetro barométrico; resistência IP68 | Peso ~ 80 g; custo elevado | entre 450 € e 600 € |
-| **Coros Vertix 2** | Atletas que priorizam autonomia e preço | Bateria de até 120 h em modo GPS; sensor de barómetro de 10 g; preço competitivo; tela de alta luminosidade | Menos apps de terceiros; interface menos intuitiva | entre 250 € e 350 € |
-| **Suunto 9 Baro** | Runners que buscam longa duração em qualquer clima | Bateria de 120 h em modo GPS; GPS + GLONASS + Galileo; altímetro barométrico; modo “Smart Power” que alterna GPS e sensor de frequência cardíaca | Design mais tradicional; menos recursos de treino avançado | entre 300 € e 400 € |
+| **Coros Vertix 2** | Atletas que priorizam autonomia e preço | Bateria de até 120 h em modo GPS; sensor de barómetro de 10 g; preço competitivo; ecrã de alta luminosidade | Menos apps de terceiros; interface menos intuitiva | entre 250 € e 350 € |
+| **Suunto 9 Baro** | Runners que procuram longa duração em qualquer clima | Bateria de 120 h em modo GPS; GPS + GLONASS + Galileo; altímetro barométrico; modo “Smart Power” que alterna GPS e sensor de frequência cardíaca | Design mais tradicional; menos recursos de treino avançado | entre 300 € e 400 € |
 | **Polar Grit X** | Ultrarunners que usam sensores Polar | Bateria de 90 h em modo GPS; GPS + GLONASS + Galileo; altímetro barométrico; integração nativa com Polar Flow | Interface menos fluida; preço moderado | entre 350 € e 450 € |
 
 Todos os modelos citados suportam **Bluetooth Low Energy** para sincronização com smartphones, permitindo o envio automático de métricas para plataformas como a [performancerunning.pt/equipamento](/equipamento) e o acompanhamento de treinos em tempo real.

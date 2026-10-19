@@ -2,7 +2,7 @@
 title: "Periodizar a Recuperação ao Longo da Época"
 date: '2026-10-02'
 category: "Recuperação"
-excerpt: "Descobre como periodizar a recuperação ao longo da época para maximizar o desempenho e prevenir lesões – aprenda a planejar a recuperação de forma científica e prática."
+excerpt: "Descobre como periodizar a recuperação ao longo da época para maximizar o desempenho e prevenir lesões – aprenda a planear a recuperação de forma científica e prática."
 readTime: 4
 keyword: "periodizar a recuperação"
 keywords: ["recuperação ao longo da época", "planeamento da recuperação", "época de corrida"]
@@ -33,7 +33,7 @@ Além disso, a variabilidade individual requer que o controlo da carga seja moni
 1. **Definir fases de carga** – 4 semanas de carga moderada, 1 semana de carga mais leve (taper), 1 semana de carga mínima (recovery).  
 2. **Métodos de recuperação** –  
    - **Sono**: 7–9 h por noite, higiene do sono (Vitale et al., 2019).  
-   - **Nutrição**: Carboidratos pós‑treino, proteína de 1,2–1,7 g kg⁻¹ h⁻¹.  
+   - **Nutrição**: Hidratos de carbono pós‑treino, proteína de 1,2–1,7 g kg⁻¹ h⁻¹.  
    - **Atividades leves**: 20 min de caminhada ou bicicleta a 60 % FCmáx.  
    - **Massagem / drenagem**: 30 min após sessões intensas.  
 3. **Monitorização** – Registrar FC de repouso e VFC diariamente. Se a VFC cair 10 % em relação à média, introduzir uma sessão de recuperação ativa.

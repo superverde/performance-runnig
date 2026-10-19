@@ -8,7 +8,7 @@ keywords: ["melhores sapatilhas mulher 2026", "ténis de corrida mulher", "sapat
 readTime: 4
 faqs:
   - q: "Quais são os principais benefícios de usar sapatilhas com tecnologia de controlo de movimento?"
-    a: "A tecnologia de controlo de movimento ajuda a reduzir a pronação excessiva, diminuindo o risco de lesões como tendinite e fraturas por estresse, ao mesmo tempo que mantém a eficiência biomecânica."
+    a: "A tecnologia de controlo de movimento ajuda a reduzir a pronação excessiva, diminuindo o risco de lesões como tendinite e fraturas por stress, ao mesmo tempo que mantém a eficiência biomecânica."
   - q: "Como saber se a sapatilha está a oferecer amortecimento suficiente?"
     a: "Observe a sensação de “quebra” ao pisar: se a sola se afunda de forma gradual e não há sensação de “pulo” excessivo, o amortecimento está adequado ao seu estilo de corrida."
   - q: "É necessário trocar as sapatilhas a cada 800 km?"
@@ -29,7 +29,7 @@ Para aprofundar a relação entre café‑ina e performance, consulte o nosso ar
 |---------|-----------|---------------|---------------|----------------|
 | **Nike Air Zoom Pegasus 2026** | Iniciantes e corredoras de meia‑distância | Amortecimento responsivo, design leve, excelente durabilidade | Não ideal para pronadores severos | entre 150€ e 200€ |
 | **Adidas Ultraboost 2026** | Corridas de longa distância e maratonistas | Sistema Boost de alta energia, ótima respirabilidade | Peso ligeiramente superior ao de modelos ultraleves | entre 200€ e 250€ |
-| **New Balance Fresh Foam 1080v12** | Corridas de trilha e urbanas | Amortecimento Fresh Foam, boa aderência em superfícies misturadas | Pode ser menos rígido para corredores muito rápidos | entre 180€ e 230€ |
+| **New Balance Fresh Foam 1080v12** | Corridas de trilho e urbanas | Amortecimento Fresh Foam, boa aderência em superfícies misturadas | Pode ser menos rígido para corredores muito rápidos | entre 180€ e 230€ |
 | **Asics Gel‑Kayano 2026** | Pronação moderada a severa | Tecnologia de controlo de movimento, amortecimento Gel, boa estabilidade | Peso mais elevado | entre 170€ e 220€ |
 | **Saucony Endorphin Pro 2026** | Competidores de velocidade | Plataforma de carbono, amortecimento leve, excelente resposta | Requer adaptação para quem não tem experiência com sapatilhas de carbono | entre 200€ e 260€ |
 
@@ -39,7 +39,7 @@ Estas escolhas foram testadas em laboratório e em campo, considerando a biomec�
 
 Para **iniciante**: a **Nike Air Zoom Pegasus 2026** oferece o equilíbrio perfeito entre amortecimento e leveza, facilitando a adaptação ao treino regular.  
 Para **competidor**: a **Saucony Endorphin Pro 2026** destaca‑se pela plataforma de carbono, permitindo ganhos de velocidade sem sacrificar a eficiência.  
-Para quem tem **orçamento limitado**: a **New Balance Fresh Foam 1080v12** entrega conforto e durabilidade a um preço mais acessível, sendo ideal para quem corre tanto em pista quanto em trilha.
+Para quem tem **orçamento limitado**: a **New Balance Fresh Foam 1080v12** entrega conforto e durabilidade a um preço mais acessível, sendo ideal para quem corre tanto em pista quanto em trilho.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

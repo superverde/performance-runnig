@@ -35,7 +35,7 @@ A biomecânica também muda: a necessidade de subir e descer colinas aumenta a c
 A combinação de camadas permite regular a temperatura corporal sem comprometer a mobilidade.
 
 ### 2. Nutrição e Hidratização
-O consumo de calorias deve ser aumentado em 20–30 % em relação a provas em temperatura mais alta. Carboidratos de rápida absorção (géis, barras) devem ser ingeridos a cada 30 min. A hidratação deve incluir bebidas isotónicas com eletrólitos para compensar a perda de sal pela transpiração, mesmo em baixas temperaturas.
+O consumo de calorias deve ser aumentado em 20–30 % em relação a provas em temperatura mais alta. Hidratos de carbono de rápida absorção (géis, barras) devem ser ingeridos a cada 30 min. A hidratação deve incluir bebidas isotónicas com eletrólitos para compensar a perda de sal pela transpiração, mesmo em baixas temperaturas.
 
 ### 3. Monitorização
 - **Termómetro de cabeça**: fornece leitura da temperatura corporal central.  

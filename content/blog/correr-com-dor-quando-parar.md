@@ -28,7 +28,7 @@ A fisiologia da dor é central para a decisão de parar. A dor nociceptiva aguda
 ## Aplicação Prática
 
 1. **Avaliação da intensidade da dor**  
-   - Registe a dor diariamente numa escala de 0‑10.  
+   - Regista a dor diariamente numa escala de 0‑10.  
    - Se a dor > 4 / 10 e não melhora em 48 h, interrompa o treino.  
 
 2. **Redução do volume**  
@@ -43,11 +43,11 @@ A fisiologia da dor é central para a decisão de parar. A dor nociceptiva aguda
    - Se a dor voltar a > 4 / 10, recuar 10 % e repetir.
 
 5. **Fortalecimento e mobilidade**  
-   - Inclua exercícios de fortalecimento de quadríceps, isquiotibiais e glúteos.  
+   - Inclui exercícios de fortalecimento de quadríceps, isquiotibiais e glúteos.  
    - Realize 3 sessões por semana, 2 × 15 repetições a 70 % do 1RM.  
 
 6. **Avaliação profissional**  
-   - Consulte um fisioterapeuta ou ortopedista se a dor persistir > 7 dias.  
+   - Consulta um fisioterapeuta ou ortopedista se a dor persistir > 7 dias.  
 
 ## Erros Comuns
 

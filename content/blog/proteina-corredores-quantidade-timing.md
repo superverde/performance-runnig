@@ -8,7 +8,7 @@ keywords: ["quanta proteína comer", "proteína e corrida", "proteína recupera�
 readTime: 4
 ---
 
-Quando se trata de alimentação para corredores, a proteína é frequentemente subestimada. Embora o carboidrato seja a principal fonte de energia para os corredores, a proteína desempenha um papel crucial na recuperação muscular e no crescimento muscular. A proteína é composta por aminoácidos, que são os blocos de construção dos músculos. Durante o treino intenso, os músculos podem sofrer danos, o que pode levar à perda de força e desempenho. A proteína ajuda a reparar e reconstruir os músculos, o que é fundamental para a recuperação e o crescimento muscular.
+Quando se trata de alimentação para corredores, a proteína é frequentemente subestimada. Embora o hidrato de carbono seja a principal fonte de energia para os corredores, a proteína desempenha um papel crucial na recuperação muscular e no crescimento muscular. A proteína é composta por aminoácidos, que são os blocos de construção dos músculos. Durante o treino intenso, os músculos podem sofrer danos, o que pode levar à perda de força e desempenho. A proteína ajuda a reparar e reconstruir os músculos, o que é fundamental para a recuperação e o crescimento muscular.
 
 Além disso, a proteína também é importante para a manutenção dos níveis de energia. Quando não há suficiente proteína no organismo, o corpo pode começar a quebrar os músculos para obter energia, o que pode levar a uma perda de força e desempenho. Isso é conhecido como catabolismo muscular. Portanto, é importante consumir suficiente proteína para evitar o catabolismo muscular e garantir a recuperação e o crescimento muscular.
 
@@ -23,15 +23,15 @@ A melhor fonte de proteína para corredores é a proteína animal, como o leite,
 Aqui estão algumas dicas práticas para incorporar mais proteína na dieta dos corredores:
 
 * Consuma 20-30 gramas de proteína após o treino intenso para ajudar a recuperação muscular.
-* Inclua fontes de proteína animal em cada refeição, como o leite, o queijo, o frango e o peixe.
-* Experimente diferentes fontes de proteína, como o tofu e as nozes, para variar a dieta.
+* Inclui fontes de proteína animal em cada refeição, como o leite, o queijo, o frango e o peixe.
+* Experimenta diferentes fontes de proteína, como o tofu e as nozes, para variar a dieta.
 * Não esqueça de beber suficiente água para ajudar a digestão da proteína.
 
 Por exemplo, um corredor pode consumir 30 gramas de proteína após um treino intenso, seguido de 20 gramas de proteína em cada refeição ao longo do dia. Isso pode incluir:
 
-* 30 gramas de proteína em um shake de proteína após o treino intenso
-* 20 gramas de proteína em um prato de frango grelhado para almoço
-* 20 gramas de proteína em um prato de salmão grelhado para jantar
+* 30 gramas de proteína num shake de proteína após o treino intenso
+* 20 gramas de proteína num prato de frango grelhado para almoço
+* 20 gramas de proteína num prato de salmão grelhado para jantar
 
 ## Erros Comuns
 

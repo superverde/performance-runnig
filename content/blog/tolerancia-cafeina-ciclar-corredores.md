@@ -29,7 +29,7 @@ A tolerância não é uniforme: fatores genéticos, consumo diário e hábitos a
 
 ### Avaliação Individual
 
-1. **Teste de Dose**: Começa com 3 mg/kg e aumenta em 1 mg/kg a cada 48 h, observando a percepção de energia e a capacidade de manter o ritmo.
+1. **Testa de Dose**: Começa com 3 mg/kg e aumenta em 1 mg/kg a cada 48 h, observando a percepção de energia e a capacidade de manter o ritmo.
 2. **Monitorização**: Regista a frequência cardíaca, sensação de fadiga e performance em treinos de 30 min a 1 h. Se a resposta diminui, considera reduzir a dose ou introduzir dias de abstinência.
 
 ### Timing e Dosagem

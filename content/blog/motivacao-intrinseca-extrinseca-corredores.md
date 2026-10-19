@@ -17,7 +17,7 @@ faqs:
 
 A motivação para correr não é apenas um impulso momentâneo, mas o motor que sustenta a consistência a longo prazo. Quando o corredor encontra razões que vão além de prémios externos, a sua dedicação permanece firme mesmo diante de fadiga e rotina.  
 
-Em um mundo onde os atletas são constantemente bombardeados por metas de tempo, classificações e recompensas sociais, distinguir a motivação intrínseca da extrínseca torna‑se essencial para quem pretende manter um regime de treino consistente e sustentável.  
+Num mundo onde os atletas são constantemente bombardeados por metas de tempo, classificações e recompensas sociais, distinguir a motivação intrínseca da extrínseca torna‑se essencial para quem pretende manter um regime de treino consistente e sustentável.  
 
 ## Base Científica  
 

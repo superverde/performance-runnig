@@ -19,7 +19,7 @@ As meias de corrida são uma peça fundamental no equipamento de corrida, pois p
 Ao escolher as melhores meias de corrida, é importante considerar os seguintes critérios técnicos:
 
 - **Materiais e tecnologia**: As meias de corrida devem ser feitas de materiais leves e resistentes que permitam a circulação de ar e a absorção de impactos. A tecnologia utilizada na fabricação das meias pode incluir materiais como mesh, elásticos e amortecedores.
-- **Elevação e suporte**: A elevação da meia de corrida pode ajudar a reduzir a fadiga do pé e a prevenir lesões. O suporte também é importante, pois ajuda a manter o pé em uma posição natural durante a corrida.
+- **Elevação e suporte**: A elevação da meia de corrida pode ajudar a reduzir a fadiga do pé e a prevenir lesões. O suporte também é importante, pois ajuda a manter o pé numa posição natural durante a corrida.
 - **Secagem e transpiração**: As meias de corrida devem ser capazes de secar rapidamente e permitir a transpiração, evitando a formação de bolhas e outros problemas de saúde.
 - **Adaptação e ajuste**: As meias de corrida devem ser fáceis de ajustar e adaptar ao pé do corredor, garantindo um ajuste confortável e seguro.
 
@@ -28,10 +28,10 @@ Ao escolher as melhores meias de corrida, é importante considerar os seguintes 
 Aqui estão algumas das melhores opções de meias de corrida em 2026:
 
 - **Meias de corrida Asics Gel-Kayano**: As meias de corrida Asics Gel-Kayano são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de amortecimento avançada que ajuda a reduzir a fadiga do pé. (Faixa de preço: entre 150€ e 200€)
-- **Meias de corrida Brooks Ghost**: As meias de corrida Brooks Ghost são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de suporte avançada que ajuda a manter o pé em uma posição natural durante a corrida. (Faixa de preço: entre 120€ e 180€)
+- **Meias de corrida Brooks Ghost**: As meias de corrida Brooks Ghost são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de suporte avançada que ajuda a manter o pé numa posição natural durante a corrida. (Faixa de preço: entre 120€ e 180€)
 - **Meias de corrida Nike Air Zoom Pegasus**: As meias de corrida Nike Air Zoom Pegasus são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de amortecimento avançada que ajuda a reduzir a fadiga do pé. (Faixa de preço: entre 100€ e 160€)
 - **Meias de corrida New Balance Fresh Foam**: As meias de corrida New Balance Fresh Foam são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de amortecimento avançada que ajuda a reduzir a fadiga do pé. (Faixa de preço: entre 80€ e 140€)
-- **Meias de corrida Saucony Guide**: As meias de corrida Saucony Guide são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de suporte avançada que ajuda a manter o pé em uma posição natural durante a corrida. (Faixa de preço: entre 120€ e 180€)
+- **Meias de corrida Saucony Guide**: As meias de corrida Saucony Guide são concebidas para corredores com pé médio a grande. São feitas de materiais leves e resistentes, com uma tecnologia de suporte avançada que ajuda a manter o pé numa posição natural durante a corrida. (Faixa de preço: entre 120€ e 180€)
 
 ### Veredicto: Qual Comprar
 

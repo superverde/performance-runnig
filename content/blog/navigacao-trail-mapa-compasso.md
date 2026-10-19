@@ -26,7 +26,7 @@ O GPS é um instrumento mais sofisticado que pode ser usado para determinar a lo
 
 ## Aplicação Prática
 
-Quando se trata de aplicar essas informações em uma corrida em terreno variado, é fundamental saber quando usar cada um desses instrumentos. Em geral, é recomendável usar a bússola em áreas com poucas interferências magnéticas e com uma visão clara do terreno. Em áreas com muitas interferências magnéticas ou com uma visão limitada do terreno, é recomendável usar o GPS.
+Quando se trata de aplicar essas informações numa corrida em terreno variado, é fundamental saber quando usar cada um desses instrumentos. Em geral, é recomendável usar a bússola em áreas com poucas interferências magnéticas e com uma visão clara do terreno. Em áreas com muitas interferências magnéticas ou com uma visão limitada do terreno, é recomendável usar o GPS.
 
 Em particular, é importante lembrar que o GPS é mais confiável em áreas com uma visão clara do céu. Portanto, é recomendável usar o GPS em áreas com poucas nuvens ou em áreas com uma visão clara do céu. Além disso, é importante lembrar que o GPS pode ser afetado pela altitude e pela temperatura, o que pode levar a erros de navegação.
 

@@ -11,7 +11,7 @@ faqs:
     a: "Recomenda‑se 0,3 g /kg de proteína em 30 min, por exemplo 20 g de whey + 10 g de caseína."
 ---
 
-Para maximizar a recuperação entre treinos duplos, a janela de 24 a 48 h é crítica e a combinação de carboidratos, proteína, hidratação adequada e sono de 7–9 h garante a restauração muscular e cognitiva.
+Para maximizar a recuperação entre treinos duplos, a janela de 24 a 48 h é crítica e a combinação de hidratos de carbono, proteína, hidratação adequada e sono de 7–9 h garante a restauração muscular e cognitiva.
 
 Quando dois treinos são agendados num mesmo dia, a carga acumulada pode ultrapassar a capacidade de recuperação do atleta. Se a recuperação não for otimizada, a performance no segundo treino tende a deteriorar, aumentando o risco de lesões e de overtraining. Por isso, a gestão da janela pós‑treino, da nutrição e do sono torna‑se um elemento decisivo na programação de elite.
 
@@ -19,7 +19,7 @@ A seguir, detalho os princípios científicos que fundamentam essa estratégia, 
 
 ## Base Científica
 
-A recuperação muscular depende de dois processos principais: a reparação das fibras musculares danificadas e a reposição dos depósitos de glicogênio. Estudos mostram que a ingestão de 1,5 g /kg de proteína e 1,2 g /kg de carboidrato dentro das primeiras 30 min pós‑treino acelera a síntese proteica e a reabastecimento glicogênico em até 30 % (Bishop et al., 2008).  
+A recuperação muscular depende de dois processos principais: a reparação das fibras musculares danificadas e a reposição dos depósitos de glicogênio. Estudos mostram que a ingestão de 1,5 g /kg de proteína e 1,2 g /kg de hidrato de carbono dentro das primeiras 30 min pós‑treino acelera a síntese proteica e a reabastecimento glicogênico em até 30 % (Bishop et al., 2008).  
 
 A hidratação, por sua vez, deve atingir um equilíbrio de 1,5 L de líquido por hora de exercício intenso, com substituição de eletrólitos quando a perda de suor ultrapassa 2 % do peso corporal (Kellmann et al., 2018).  
 
@@ -33,16 +33,16 @@ Além disso, técnicas de recuperação ativa (ex.: 10–15 min de pedalada le
 
 | Tempo | Atividade | Objetivo |
 |-------|-----------|----------|
-| 0–30 min | Reposição de líquidos e 10 % de proteína + 10 % carboidrato | Iniciar reparação e glicogênio |
-| 30–120 min | Alimentação completa (0,3 g /kg de proteína, 0,5 g /kg de carboidrato) + hidratação | Consolidar síntese proteica |
-| 2–4 h | Refeição rica em carboidrato (ex.: 50 g) e proteína (ex.: 25 g) | Reabastecer glicogênio |
+| 0–30 min | Reposição de líquidos e 10 % de proteína + 10 % hidrato de carbono | Iniciar reparação e glicogênio |
+| 30–120 min | Alimentação completa (0,3 g /kg de proteína, 0,5 g /kg de hidrato de carbono) + hidratação | Consolidar síntese proteica |
+| 2–4 h | Refeição rica em hidrato de carbono (ex.: 50 g) e proteína (ex.: 25 g) | Reabastecer glicogênio |
 | 4–24 h | Sono de 7–9 h | Liberação hormonal e consolidação motora |
 | 24–48 h | Treino duplo 2 | Avaliar recuperação; ajustar carga se necessário |
 
 ### 2. Nutrição Pós‑Treino
 
 * **Proteína**: 0,3 g /kg em 30 min (ex.: 20 g de whey + 10 g de caseína).  
-* **Carboidrato**: 0,5 g /kg em 30 min (ex.: 40 g de banana + 10 g de aveia).  
+* **Hidrato de carbono**: 0,5 g /kg em 30 min (ex.: 40 g de banana + 10 g de aveia).  
 * **Hidratação**: 1,5 L de isotônico ou água com 200 mg Na⁺.  
 * **Suplemento opcional**: 250 ml de sumo de cereja tart (Howatson et al., 2010) para reduzir dores musculares.
 
@@ -69,8 +69,8 @@ Além disso, técnicas de recuperação ativa (ex.: 10–15 min de pedalada le
 
 Para atletas que enfrentam treinos duplos, a recuperação eficaz baseia‑se em três pilares interligados:
 
-1. **Nutrição imediata e contínua**: proteína + carboidrato dentro de 30 min, seguida de refeições equilibradas nas próximas 4 h.  
+1. **Nutrição imediata e contínua**: proteína + hidrato de carbono dentro de 30 min, seguida de refeições equilibradas nas próximas 4 h.  
 2. **Hidratação adequada**: 1,5 L/h de exercício intenso, com eletrólitos.  
 3. **Sono de qualidade**: 7–9 h por noite, com higiene rigorosa.
 
-Implementar este protocolo garante que a performance do segundo treino não seja comprometida, ao mesmo tempo que reduz o risco de lesões e acelera a adaptação a longo prazo. Ajuste a carga de treino com base na resposta individual: se a força cai mais de 5 % ou a creatina quinase ultrapassa 600 U/L, aumente o volume de recuperação (mais sono, mais hidratação, menor intensidade no segundo treino).
+Implementar este protocolo garante que a performance do segundo treino não seja comprometida, ao mesmo tempo que reduz o risco de lesões e acelera a adaptação a longo prazo. Ajusta a carga de treino com base na resposta individual: se a força cai mais de 5 % ou a creatina quinase ultrapassa 600 U/L, aumente o volume de recuperação (mais sono, mais hidratação, menor intensidade no segundo treino).

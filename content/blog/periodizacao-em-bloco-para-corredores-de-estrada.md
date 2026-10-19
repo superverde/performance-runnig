@@ -11,7 +11,7 @@ coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200
 
 ## Fases de Treino em Bloco
 
-A periodização em bloco é um método de treino que consiste em dividir o ciclo de treino em fases de volume, intensidade e peak. Este método é particularmente adequado para corredores de estrada que buscam maximizar a adaptação e prevenir o overtraining.
+A periodização em bloco é um método de treino que consiste em dividir o ciclo de treino em fases de volume, intensidade e peak. Este método é particularmente adequado para corredores de estrada que procuram maximizar a adaptação e prevenir o overtraining.
 
 ### Fase de Volume
 

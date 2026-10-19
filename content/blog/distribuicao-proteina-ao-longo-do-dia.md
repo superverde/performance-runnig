@@ -49,8 +49,8 @@ Para dias de treino intenso, pode‑se acrescentar 10 g de proteína adicional
 ### Ajustes para dietas hipocalóricas
 Se a ingestão calórica total for reduzida, substitua 10 g de whey por 10 g de proteína vegetal (ex.: soja), mantendo o intervalo. A qualidade do aminoácido essencial, sobretudo a leucina, deve ser monitorizada.
 
-### Integração com carboidratos
-Combine cada dose de proteína com 30–40 g de carboidratos complexos (batata doce, aveia). Isto ajuda a manter o nível glicêmico estável, reduzindo a possibilidade de catabólise muscular.
+### Integração com hidratos de carbono
+Combina cada dose de proteína com 30–40 g de hidratos de carbono complexos (batata doce, aveia). Isto ajuda a manter o nível glicêmico estável, reduzindo a possibilidade de catabólise muscular.
 
 ### Exemplo de cálculo de leucina
 - 20 g whey ≈ 3 g leucina  
@@ -67,8 +67,8 @@ Total diário ≈ 7,7 g leucina, acima do limiar de 3–4 g necessário para
 2. **Ingestão de proteína após 6 h do treino**  
    - Perde a janela de estímulo imediato. Estudos indicam que a recuperação é mais eficiente quando a proteína chega a 1 h pós‑treino.
 
-3. **Substituir proteína por carboidratos em excesso**  
-   - Embora os carboidratos sejam essenciais para a reposição de glicogênio, excesso pode reduzir a absorção de aminoácidos devido à competição de transportadores intestinais.
+3. **Substituir proteína por hidratos de carbono em excesso**  
+   - Embora os hidratos de carbono sejam essenciais para a reposição de glicogênio, excesso pode reduzir a absorção de aminoácidos devido à competição de transportadores intestinais.
 
 4. **Ignorar a qualidade da proteína**  
    - Proteínas de baixa digestibilidade (ex.: proteína de soja) podem não fornecer leucina suficiente, mesmo quando distribuídas.
@@ -76,22 +76,22 @@ Total diário ≈ 7,7 g leucina, acima do limiar de 3–4 g necessário para
 ## Protocolo/Conclusão
 
 1. **Planeamento diário**  
-   - Divida a ingestão de proteína em 4 doses de 20 g, espaçadas a 3–4 h.  
-   - Combine cada dose com 30–40 g de carboidratos complexos.
+   - Divide a ingestão de proteína em 4 doses de 20 g, espaçadas a 3–4 h.  
+   - Combina cada dose com 30–40 g de hidratos de carbono complexos.
 
 2. **Timing relativo ao treino**  
-   - 1 h antes do treino: 20 g whey + carboidratos.  
-   - 1 h após o treino: 20 g whey + carboidratos.  
+   - 1 h antes do treino: 20 g whey + hidratos de carbono.  
+   - 1 h após o treino: 20 g whey + hidratos de carbono.  
    - 3 h após o treino: 20 g caseína ou ovo.  
    - 6 h após o treino (ou entre treinos): 20 g whey.
 
 3. **Monitorização**  
-   - Registe a composição corporal e a performance semanalmente.  
-   - Ajuste a ingestão de proteína em 5 g se notar perda de massa muscular ou fadiga excessiva.
+   - Regista a composição corporal e a performance semanalmente.  
+   - Ajusta a ingestão de proteína em 5 g se notar perda de massa muscular ou fadiga excessiva.
 
 4. **Benefícios esperados**  
    - Aumento de 10–15 % na taxa de síntese proteica muscular em comparação com dose única.  
    - Melhoria na recuperação entre sessões de treino de 2–3 vezes por dia.  
    - Menor risco de catabólise e perda de massa magra em treinos intensos.
 
-Em síntese, a estratégia 4 × 20 g de proteína ao longo do dia oferece uma estimulação mais contínua e eficaz da MPS, crucial para corredores que buscam otimizar a recuperação, preservar a massa muscular e melhorar a performance.
+Em síntese, a estratégia 4 × 20 g de proteína ao longo do dia oferece uma estimulação mais contínua e eficaz da MPS, crucial para corredores que procuram otimizar a recuperação, preservar a massa muscular e melhorar a performance.

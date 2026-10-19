@@ -10,7 +10,7 @@ faqs:
   - q: "Como posso prevenir lesão isquiotibiais se já tenho histórico de rotura isquiotibiais?"
     a: "Inicie com exercícios excêntricos de baixa intensidade, aumente gradualmente a carga e mantenha um regime de recuperação adequado."
   - q: "Qual é a melhor forma de executar o exercício nordic hamstring sem risco de lesão?"
-    a: "Mantenha a coluna neutra, controle a velocidade de descida e use um apoio firme; evite inclinar a cabeça para frente."
+    a: "Mantém a coluna neutra, controla a velocidade de descida e usa um apoio firme; evita inclinar a cabeça para frente."
   - q: "Quando devo suspender o treino se sentir dor nas pernas?"
     a: "Se a dor for intensa, persiste por mais de 24 h ou ocorre após um esforço, interrompa o treino e procure avaliação médica."
 ---
@@ -25,7 +25,7 @@ A literatura demonstra que a ativação excêntrica dos isquiotibiais reduz o ri
 O “nordic hamstring” tem eficácia comprovada em modelos de força excêntrica: ao reduzir a velocidade de descida, aumenta a carga sobre o músculo, promovendo hipertrofia e maior tolerância à tensão.  
 
 ## Aplicação Prática  
-1. **Exercício de Nordic Hamstring** – 3 séries de 8 repetições, 2 vezes por semana. Comece em posição de quatro apoios, mantendo a coluna neutra, e desça lentamente até o máximo de flexão.  
+1. **Exercício de Nordic Hamstring** – 3 séries de 8 repetições, 2 vezes por semana. Começa em posição de quatro apoios, mantendo a coluna neutra, e desça lentamente até o máximo de flexão.  
 2. **Alongamento dinâmico** – 5 minutos de “leg swings” laterais, 20 repetições por perna, antes de cada treino.  
 3. **Progresso de carga** – Aumente o tempo de descida de 5 s para 7 s a cada 4 semanas, mantendo a forma correta.  
 4. **Monitorização** – Registe a quilometragem semanal e a frequência cardíaca de recuperação. Se a frequência cardíaca permanecer acima de 70 % do máximo após 24 h, reduza a carga em 10 %.  

@@ -13,7 +13,7 @@ faqs:
   - q: "O sensor óptico de batimento cardíaco pode ser substituído por um monitor de pulsação externo?"
     a: "Sim, a maioria dos relógios permite conectar um monitor de pulsação externo via ANT+ ou Bluetooth, o que pode melhorar a precisão em situações de alta intensidade."
   - q: "É necessário atualizar o firmware do relógio para obter melhores métricas?"
-    a: "Sim, as atualizações de firmware frequentemente incluem melhorias nos algoritmos de GPS e na precisão do sensor óptico. Mantenha o dispositivo sempre atualizado."
+    a: "Sim, as atualizações de firmware frequentemente incluem melhorias nos algoritmos de GPS e na precisão do sensor óptico. Mantém o dispositivo sempre atualizado."
 ---
 
 Melhores Relógios de Corrida Económicos para Começar  
@@ -23,11 +23,11 @@ A procura por um relógio de corrida que una precisão, fiabilidade e preço ace
 
 ## Como Escolher: Critérios Que Importam  
 
-Para seleccionar um relógio de corrida, a primeira coisa a considerar é a **precisão dos sensores**. Estudos mostram que a medição do passo e da velocidade pode variar até 3 % entre dispositivos, o que pode alterar o seu treino se não for consistente. Procure modelos que utilizem GPS de alta frequência (≥ 1 Hz) e que tenham modo de rastreio de batimento cardíaco (HR) com sensor óptico de alta resolução, já que a frequência cardíaca correta é crucial para definir zonas de treino (Fuller et al., 2015).
+Para seleccionar um relógio de corrida, a primeira coisa a considerar é a **precisão dos sensores**. Estudos mostram que a medição do passo e da velocidade pode variar até 3 % entre dispositivos, o que pode alterar o seu treino se não for consistente. Procura modelos que utilizem GPS de alta frequência (≥ 1 Hz) e que tenham modo de rastreio de batimento cardíaco (HR) com sensor óptico de alta resolução, já que a frequência cardíaca correta é crucial para definir zonas de treino (Fuller et al., 2015).
 
 A **durabilidade e resistência** também são fundamentais. Um relógio que suporte 10 000 ciclos de pressão de pulso e seja à prova d’água a 50 m garante longevidade em trilhos molhados e em sessões de treino em campo. A bateria deve oferecer pelo menos 10 h em modo GPS contínuo; a maioria dos modelos de entrada entrega entre 8 h e 12 h, o que é suficiente para a maioria dos corredores amadores.
 
-Além disso, a **análise de dados** deve ser intuitiva. Os algoritmos de cálculo da economia de corrida (running economy) dependem de métricas como cadência, comprimento do passo e variação de força. Um relógio que permita exportar dados em formatos .FIT ou .TCX facilita a integração com softwares de análise avançada. Por fim, a **conectividade** com smartphones (Bluetooth LE) e a compatibilidade com aplicativos populares (Strava, Garmin Connect) são imprescindíveis para partilhar resultados e monitorizar a evolução.
+Além disso, a **análise de dados** deve ser intuitiva. Os algoritmos de cálculo da economia de corrida (running economy) dependem de métricas como cadência, comprimento do passo e variação de força. Um relógio que permita exportar dados em formatos .FIT ou .TCX facilita a integração com softwares de análise avançada. Por fim, a **conectividade** com smartphones (Bluetooth LE) e a compatibilidade com aplicações populares (Strava, Garmin Connect) são imprescindíveis para partilhar resultados e monitorizar a evolução.
 
 ## As Melhores Opções em 2026  
 
@@ -36,7 +36,7 @@ Além disso, a **análise de dados** deve ser intuitiva. Os algoritmos de cálcu
 | **Garmin Forerunner 55** | Iniciantes e corredores de 5 km a 10 km | GPS 1 Hz, HR óptico, bateria até 13 h, interface simples | Sem métricas avançadas de biomecânica | Entre 150 € e 200 € |
 | **Coros Pace 3** | Treinos de resistência e treinos de velocidade | GPS 1 Hz, HR, sensor de pressão de passo, bateria 15 h | Interface menos intuitiva que Garmin | Entre 170 € e 220 € |
 | **Polar M200** | Corredores que valorizam a análise de recuperação | GPS 1 Hz, HR, métricas de recuperação (TRIMP), bateria 10 h | Falta de suporte a sensores externos | Entre 140 € e 190 € |
-| **Suunto 9 Peak** | Amantes de trilhas e treinos multi‑modal | GPS 1 Hz, HR, bateria 120 h (modo economia), resistência a 10 000 ciclos | Preço mais elevado, interface mais complexa | Entre 200 € e 260 € |
+| **Suunto 9 Peak** | Amantes de trilhos e treinos multi‑modal | GPS 1 Hz, HR, bateria 120 h (modo economia), resistência a 10 000 ciclos | Preço mais elevado, interface mais complexa | Entre 200 € e 260 € |
 
 Cada um destes relógios oferece um equilíbrio entre custo e funcionalidade que o torna ideal para diferentes perfis. O **Garmin Forerunner 55** destaca-se pela simplicidade e fiabilidade, enquanto o **Coros Pace 3** oferece recursos avançados a um preço ligeiramente superior. O **Polar M200** é excelente para quem quer monitorizar a recuperação, e o **Suunto 9 Peak** é a escolha de topo para quem corre em ambientes extremos.
 

@@ -25,18 +25,18 @@ Ao escolher um bastão de trail running, é fundamental considerar vários crit�
 
 Aqui estão algumas das melhores opções de bastões de trail running disponíveis em 2026:
 
-* **Salomon Sense Ultra 4D**: Para os corredores que buscam uma combinação de estabilidade e agilidade, o Salomon Sense Ultra 4D é uma ótima opção. Feito de materiais leves e duráveis, este bastão oferece um ajuste preciso e um peso equilibrado. (Faixa de preço: entre 150€ e 200€)
-* **Black Diamond Trail Ergo**: O Black Diamond Trail Ergo é um bastão de trail running avançado, concebido para corredores experientes que buscam uma grande estabilidade e controle. Com um design inovador e materiais de alta qualidade, este bastão é ideal para terrenos difíceis. (Faixa de preço: entre 200€ e 250€)
-* **Leki Micro VPS 2**: O Leki Micro VPS 2 é um bastão de trail running leve e agil, concebido para corredores que buscam uma sensação de leveza e confort. Com um design aerodinâmico e materiais leves, este bastão é ideal para corridas de longa distância. (Faixa de preço: entre 150€ e 200€)
-* **Montemorency Pro**: O Montemorency Pro é um bastão de trail running de alta qualidade, concebido para corredores que buscam uma grande estabilidade e controle. Com um design inovador e materiais de alta qualidade, este bastão é ideal para terrenos difíceis. (Faixa de preço: entre 200€ e 250€)
-* **Grivel Trail Blazer**: O Grivel Trail Blazer é um bastão de trail running leve e agil, concebido para corredores que buscam uma sensação de leveza e confort. Com um design aerodinâmico e materiais leves, este bastão é ideal para corridas de longa distância. (Faixa de preço: entre 150€ e 200€)
+* **Salomon Sense Ultra 4D**: Para os corredores que procuram uma combinação de estabilidade e agilidade, o Salomon Sense Ultra 4D é uma ótima opção. Feito de materiais leves e duráveis, este bastão oferece um ajuste preciso e um peso equilibrado. (Faixa de preço: entre 150€ e 200€)
+* **Black Diamond Trail Ergo**: O Black Diamond Trail Ergo é um bastão de trail running avançado, concebido para corredores experientes que procuram uma grande estabilidade e controlo. Com um design inovador e materiais de alta qualidade, este bastão é ideal para terrenos difíceis. (Faixa de preço: entre 200€ e 250€)
+* **Leki Micro VPS 2**: O Leki Micro VPS 2 é um bastão de trail running leve e agil, concebido para corredores que procuram uma sensação de leveza e confort. Com um design aerodinâmico e materiais leves, este bastão é ideal para corridas de longa distância. (Faixa de preço: entre 150€ e 200€)
+* **Montemorency Pro**: O Montemorency Pro é um bastão de trail running de alta qualidade, concebido para corredores que procuram uma grande estabilidade e controlo. Com um design inovador e materiais de alta qualidade, este bastão é ideal para terrenos difíceis. (Faixa de preço: entre 200€ e 250€)
+* **Grivel Trail Blazer**: O Grivel Trail Blazer é um bastão de trail running leve e agil, concebido para corredores que procuram uma sensação de leveza e confort. Com um design aerodinâmico e materiais leves, este bastão é ideal para corridas de longa distância. (Faixa de preço: entre 150€ e 200€)
 
 ## Veredicto: Qual Comprar
 
 A escolha do bastão de trail running depende do perfil do corredor e das suas necessidades específicas. Aqui estão algumas recomendações personalizadas:
 
 * **Iniciantes**: O Leki Micro VPS 2 é uma ótima opção para iniciantes, oferecendo uma sensação de leveza e confort.
-* **Competidores**: O Black Diamond Trail Ergo é uma ótima opção para competidores, oferecendo uma grande estabilidade e controle.
+* **Competidores**: O Black Diamond Trail Ergo é uma ótima opção para competidores, oferecendo uma grande estabilidade e controlo.
 * **Orçamento limitado**: O Salomon Sense Ultra 4D é uma ótima opção para corredores com orçamento limitado, oferecendo uma combinação de estabilidade e agilidade a um preço acessível.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**

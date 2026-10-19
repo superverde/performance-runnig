@@ -27,10 +27,10 @@ Além disso, a motivação e a confiança também desempenham um papel important
 
 Então, como podemos controlar o diálogo interno e melhorar o desempenho? Aqui estão algumas dicas práticas:
 
-* Pratique a autocompaixão: em vez de dizer a si mesmo que está a fracassar ou que não está a fazer o suficiente, diga a si mesmo que está a fazer o melhor que pode e que está a progredir.
+* Pratica a autocompaixão: em vez de dizer a si mesmo que está a fracassar ou que não está a fazer o suficiente, diga a si mesmo que está a fazer o melhor que pode e que está a progredir.
 * Foco na respiração: em vez de se preocupar com a fadiga ou a dor, foque na respiração e no movimento.
 * Estabeleça metas realistas: estabeleça metas realistas e alcançáveis, para manter a motivação e a confiança.
-* Pratique a visualização: pratique a visualização de si mesmo a correr bem e a alcançar as suas metas.
+* Pratica a visualização: pratique a visualização de si mesmo a correr bem e a alcançar as suas metas.
 
 ## Erros Comuns
 
@@ -41,14 +41,14 @@ Então, como podemos controlar o diálogo interno e melhorar o desempenho? Aqui 
 ## Protocolo
 
 1. Identifique o seu diálogo interno: observe as palavras que estão a dizer a si mesmo quando está a correr.
-2. Pratique a autocompaixão: em vez de dizer a si mesmo que está a fracassar ou que não está a fazer o suficiente, diga a si mesmo que está a fazer o melhor que pode e que está a progredir.
+2. Pratica a autocompaixão: em vez de dizer a si mesmo que está a fracassar ou que não está a fazer o suficiente, diga a si mesmo que está a fazer o melhor que pode e que está a progredir.
 3. Foque na respiração: em vez de se preocupar com a fadiga ou a dor, foque na respiração e no movimento.
 4. Estabeleça metas realistas: estabeleça metas realistas e alcançáveis, para manter a motivação e a confiança.
-5. Pratique a visualização: pratique a visualização de si mesmo a correr bem e a alcançar as suas metas.
+5. Pratica a visualização: pratique a visualização de si mesmo a correr bem e a alcançar as suas metas.
 
 ## Conclusão
 
-O diálogo interno é um factor crucial no desempenho desportivo. Com a prática da autocompaixão, do foco na respiração e na visualização, podemos controlar o diálogo interno e melhorar o desempenho. Lembre-se de que o desempenho desportivo é apenas uma parte da vida, e que a prática da autocompaixão e do foco na respiração pode ser aplicada em todas as áreas da vida.
+O diálogo interno é um factor crucial no desempenho desportivo. Com a prática da autocompaixão, do foco na respiração e na visualização, podemos controlar o diálogo interno e melhorar o desempenho. Lembra-te de que o desempenho desportivo é apenas uma parte da vida, e que a prática da autocompaixão e do foco na respiração pode ser aplicada em todas as áreas da vida.
 
 ## Referências Científicas
 

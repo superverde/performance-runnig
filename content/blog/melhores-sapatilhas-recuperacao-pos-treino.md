@@ -27,7 +27,7 @@ Quando falamos de sapatilhas de recuperação, o objetivo principal é minimizar
 
 3. **Flexibilidade e Amplitude de Movimento** – A capacidade de flexão do calçado deve acompanhar a flexibilidade natural do pé. Calçados com uma sola mais flexível permitem uma transição mais suave entre a fase de apoio e a de impulso, beneficiando corredores que praticam treino de velocidade.
 
-4. **Ajuste e Conforto** – Um ajuste seguro evita deslocamentos internos que podem levar a bolhas e micro‑lesões. A tecnologia de sistema de amarração “over‑the‑top” (OTTO) ou “lace‑free” garante um ajuste personalizado sem comprometer a respiração do pé.
+4. **Ajusta e Conforto** – Um ajuste seguro evita deslocamentos internos que podem levar a bolhas e micro‑lesões. A tecnologia de sistema de amarração “over‑the‑top” (OTTO) ou “lace‑free” garante um ajuste personalizado sem comprometer a respiração do pé.
 
 5. **Durabilidade da Solado** – Embora a recuperação seja curta, a durabilidade do solado influencia a consistência do amortecimento. Solados de EVA de alta densidade ou de poliuretano de baixa densidade oferecem maior retenção de amortecimento ao longo de 8–10 000 km.
 
@@ -41,7 +41,7 @@ Ao ponderares estes fatores, poderás identificar rapidamente o modelo que melho
 
 | Marca e Modelo | Para quem é | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |-----------------|-------------|---------------|---------------|----------------|
-| **Adidas Adizero Adios 8** | Corredores de médio‑distância que buscam retorno de energia | Amortecimento responsivo com Boost®; leveza de 190 g | Solado de poliuretano pode desgastar rápido em trilhos | entre 200€ e 250€ |
+| **Adidas Adizero Adios 8** | Corredores de médio‑distância que procuram retorno de energia | Amortecimento responsivo com Boost®; leveza de 190 g | Solado de poliuretano pode desgastar rápido em trilhos | entre 200€ e 250€ |
 | **Nike Air Zoom Pegasus 41** | Iniciantes e corredores de longa distância | Sistema de amortecimento Zoom Air; ajuste OTTO | Pouco suporte para pés pronadores | entre 150€ e 200€ |
 | **Brooks Glycerin 20** | Corredores que necessitam de amortecimento máximo | EVA de alta densidade; excelente conforto | Peso de 210 g, ligeiramente mais pesado | entre 180€ e 230€ |
 | **New Balance Fresh Foam 1080v11** | Competidores que procuram economia de energia | Fresh Foam de alta densidade; sola de poliuretano | Menor durabilidade do solado em uso intenso | entre 200€ e 260€ |

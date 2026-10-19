@@ -19,7 +19,7 @@ Para entender melhor como prevenir e tratar a síndrome da banda iliótica, é i
 
 A síndrome da banda iliótica é uma lesão que ocorre devido à fricção entre a banda iliótica e o fêmur. Esta fricção é causada pela variação de tensão no músculo iliótico, que é responsável por estabilizar a articulação do quadril. Quando o músculo iliótico se encontra sob tensão excessiva, pode causar dor e inflamação na área da banda iliótica, levando à síndrome da banda iliótica.
 
-Um estudo publicado no British Journal of Sports Medicine encontrou que a síndrome da banda iliótica é uma das lesões mais comuns entre os corredores, afetando cerca de 25% dos corredores em treino regular (van Gent et al., 2007). Outro estudo publicado no Journal of Orthopaedic & Sports Physical Therapy encontrou que a síndrome da banda iliótica é mais comum em corredores que correm com uma frequência de 5 a 10 quilômetros por semana (Taunton et al., 2002).
+Um estudo publicado no British Journal of Sports Medicine encontrou que a síndrome da banda iliótica é uma das lesões mais comuns entre os corredores, afetando cerca de 25% dos corredores em treino regular (van Gent et al., 2007). Outro estudo publicado no Journal of Orthopaedic & Sports Physical Therapy encontrou que a síndrome da banda iliótica é mais comum em corredores que correm com uma frequência de 5 a 10 quilómetros por semana (Taunton et al., 2002).
 
 ## Aplicação Prática
 

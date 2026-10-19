@@ -10,7 +10,7 @@ readTime: 4
 
 Repetições de 800m e 1000m: O Coração do Treino de VO2max
 
-A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das mais importantes, pois representa a capacidade máxima de o corpo utilizar oxigênio para produzir energia muscular. No entanto, alcançar e manter um alto nível de VO2max requer um treino específico e intensivo. Neste artigo, vamos explorar a importância das repetições de 800m e 1000m no treino de VO2max e como elas podem ser aplicadas em uma rotina de treino.
+A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das mais importantes, pois representa a capacidade máxima de o corpo utilizar oxigênio para produzir energia muscular. No entanto, alcançar e manter um alto nível de VO2max requer um treino específico e intensivo. Neste artigo, vamos explorar a importância das repetições de 800m e 1000m no treino de VO2max e como elas podem ser aplicadas numa rotina de treino.
 
 As repetições de 800m e 1000m são uma forma de treino que envolve correr a uma distância fixa a uma intensidade alta, com intervalos de recuperação entre as repetições. Esta forma de treino é particularmente eficaz para melhorar a VO2max, pois permite que o atleta alcance uma intensidade alta e manter essa intensidade durante um período de tempo prolongado. Além disso, as repetições de 800m e 1000m também podem ajudar a melhorar a capacidade de recuperação entre as repetições, o que é fundamental para manter a intensidade durante todo o treino.
 
@@ -26,8 +26,8 @@ Um estudo publicado no Scandinavian Journal of Medicine & Science in Sports enco
 
 Para aplicar as repetições de 800m e 1000m no treino de VO2max, é importante começar com uma rotina de treino bem estruturada. A seguir, vamos apresentar uma exemplo de rotina de treino que pode ser adaptada para diferentes níveis de atletas.
 
-* Repetições de 800m: Corra 4 a 6 repetições de 800m a uma velocidade de 80 a 90% da velocidade máxima. Deixe 2 a 3 minutos de recuperação entre as repetições.
-* Repetições de 1000m: Corra 3 a 5 repetições de 1000m a uma velocidade de 80 a 90% da velocidade máxima. Deixe 2 a 3 minutos de recuperação entre as repetições.
+* Repetições de 800m: Corre 4 a 6 repetições de 800m a uma velocidade de 80 a 90% da velocidade máxima. Deixe 2 a 3 minutos de recuperação entre as repetições.
+* Repetições de 1000m: Corre 3 a 5 repetições de 1000m a uma velocidade de 80 a 90% da velocidade máxima. Deixe 2 a 3 minutos de recuperação entre as repetições.
 
 ## Erros Comuns
 

@@ -11,10 +11,10 @@ faqs:
   - q: "Qual é a melhor zona de cadência para reduzir lesões?"
     a: "Uma cadência entre 170 e 180 passos/min reduz o risco de lesões, especialmente em corredores de média e longa distância."
   - q: "Como posso calibrar o meu relógio GPS em terreno irregular?"
-    a: "Faça um teste de 1 km em pista plana, compare a distância GPS com a real e ajuste o fator de correção no aplicativo do relógio."
+    a: "Faça um teste de 1 km em pista plana, compare a distância GPS com a real e ajuste o fator de correção na aplicação do relógio."
 ---
 
-Para otimizar desempenho e prevenir lesões, o corredor deve acompanhar sete métricas chave do GPS: tempo por quilómetro, frequência cardíaca, cadência, tempo de contato, oscilação vertical, comprimento de passo e elevação.  
+Para otimizar desempenho e prevenir lesões, o corredor deve acompanhar sete métricas chave do GPS: tempo por quilómetro, frequência cardíaca, cadência, tempo de contacto, oscilação vertical, comprimento de passo e elevação.  
 Essas variáveis oferecem uma visão holística do esforço, da técnica e do stress fisiológico, permitindo ajustes precisos no treino e na recuperação.
 
 Quando um atleta utiliza um relógio GPS de forma consciente, ele passa de um simples cronómetro a uma ferramenta de análise científica. A informação em tempo real permite re‑ajustar a velocidade, a intensidade e a técnica antes que a fadiga se traduza numa lesão ou numa perda de performance. A seguir, detalho cada métrica, apresento protocolos de aplicação prática e alerto para erros comuns que podem comprometer a utilidade dos dados.
@@ -30,7 +30,7 @@ Quando um atleta utiliza um relógio GPS de forma consciente, ele passa de um si
 3. **Cadência**  
    A cadência (passos/min) está correlacionada com a eficiência biomecânica. Buchheit & Laursen (2013) demonstraram que uma cadência de 170‑180 passos/min reduz o risco de lesões e aumenta a potência de saída.
 
-4. **Tempo de Contato (Ground Contact Time – GCT)**  
+4. **Tempo de Contacto (Ground Contact Time – GCT)**  
    O GCT indica a eficiência de transferência de energia. Valores inferiores a 300 ms são indicativos de maior propulsão e menor fadiga muscular.
 
 5. **Oscilação Vertical (VO)**  
@@ -44,7 +44,7 @@ Quando um atleta utiliza um relógio GPS de forma consciente, ele passa de um si
 
 ## Aplicação Prática  
 
-Para integrar estas métricas no treino diário, segue um protocolo de 4 semanas focado em um corredor de 5 km a nível competitivo.
+Para integrar estas métricas no treino diário, segue um protocolo de 4 semanas focado num corredor de 5 km a nível competitivo.
 
 | Semana | Tipo de treino | Pace | HR (bpm) | Cadência | GCT (ms) | VO (mm) | SL (m) | Elev. (m) |
 |--------|----------------|------|----------|----------|----------|---------|--------|-----------|
@@ -57,7 +57,7 @@ Para integrar estas métricas no treino diário, segue um protocolo de 4 semanas
 
 - **Pace e HR**: Se o HR ultrapassar 170 bpm durante um tempo de 4:45/km, reduza 10 s/km para manter a zona de 70 % da HRmáx.
 - **Cadência**: Se a cadência cair abaixo de 165 passos/min, aumente a velocidade em 5 % para reforçar a técnica.
-- **GCT**: Um GCT superior a 310 ms indica fadiga; inclua 5 min de trote leve para reduzir o tempo de contato.
+- **GCT**: Um GCT superior a 310 ms indica fadiga; inclua 5 min de trote leve para reduzir o tempo de contacto.
 - **VO**: VO superior a 9 mm pode indicar desequilíbrio; faça exercícios de estabilidade de core.
 - **SL**: SL inferior a 1,9 m pode indicar falta de propulsão; pratique exercícios de “pulo” de 30 s a cada 10 min.
 - **Elevação**: Se a elevação acumulada exceder 50 m em treinos planos, reduza a distância em 10 % para evitar sobrecarga.
@@ -65,22 +65,22 @@ Para integrar estas métricas no treino diário, segue um protocolo de 4 semanas
 ## Erros Comuns  
 
 1. **Ignorar a variabilidade do ritmo**  
-   Focar apenas no tempo médio pode mascarar zonas de esforço excessivo. Use a variação de pace (± 10 s/km) como indicador de fadiga.
+   Focar apenas no tempo médio pode mascarar zonas de esforço excessivo. Usa a variação de pace (± 10 s/km) como indicador de fadiga.
 
 2. **Confiar exclusivamente na HR**  
-   A HR pode ser influenciada por temperatura, hidratação e estresse. Combine HR com tempo de contato e cadência para obter uma visão mais precisa da carga.
+   A HR pode ser influenciada por temperatura, hidratação e stress. Combina HR com tempo de contacto e cadência para obter uma visão mais precisa da carga.
 
 3. **Não calibrar o relógio em terreno real**  
-   A precisão de GPS varia com cobertura de satélite. Faça testes de velocidade em pista para calibrar a distância.
+   A precisão de GPS varia com cobertura de satélite. Faz testes de velocidade em pista para calibrar a distância.
 
 4. **Focar apenas em métricas “mágicas”**  
-   Métricas como VO e SL são sensíveis a erros de sensor. Verifique a consistência entre sessões e ajuste quando necessário.
+   Métricas como VO e SL são sensíveis a erros de sensor. Verifica a consistência entre sessões e ajuste quando necessário.
 
 5. **Negligenciar a elevação**  
    Em treinos urbanos, a elevação pode alterar drasticamente a carga aeróbica. Sempre monitore o ganho de altitude e ajuste a intensidade.
 
 ## Protocolo / Conclusão  
 
-A monitorização das sete métricas do GPS transforma o treino de corrida em uma ciência aplicada. Ao integrar tempo, HR, cadência, GCT, VO, SL e elevação, o atleta obtém uma visão completa de sua performance e risco de lesão. A aplicação prática, através de protocolos semanais e ajustes baseados em dados, permite otimizar a intensidade, a técnica e a recuperação.  
+A monitorização das sete métricas do GPS transforma o treino de corrida numa ciência aplicada. Ao integrar tempo, HR, cadência, GCT, VO, SL e elevação, o atleta obtém uma visão completa de sua performance e risco de lesão. A aplicação prática, através de protocolos semanais e ajustes baseados em dados, permite otimizar a intensidade, a técnica e a recuperação.  
 
 Implementar este conjunto de métricas exige disciplina na coleta de dados, revisão crítica das tendências e ajuste constante do plano de treino. Quando bem aplicado, o corredor reduz o risco de lesões, maximiza a eficiência biomecânica e melhora a performance de forma mensurável.

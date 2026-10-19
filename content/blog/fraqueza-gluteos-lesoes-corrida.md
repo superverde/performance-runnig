@@ -26,10 +26,10 @@ Um estudo publicado no Journal of Strength and Conditioning Research (2015) enco
 
 Então, como podemos aplicar essa informação prática para melhorar a nossa corrida e reduzir o risco de lesões? Aqui estão algumas dicas importantes:
 
-* **Treino específico para os glúteos**: Inclua exercícios específicos para os glúteos em seu treino, como sentadões, agachamentos e extensões de quadríceps.
-* **Postura adequada durante a corrida**: Certifique-se de manter a postura adequada durante a corrida, com os glúteos contraídos e a pelve estabilizada.
-* **Redução da sobrecarga do músculo**: Certifique-se de reduzir a sobrecarga do músculo ao longo da corrida, evitando a corrida excessiva e incluindo treinos de recuperação.
-* **Ergonomia adequada**: Certifique-se de usar equipamento adequado para a corrida, incluindo sapatos e roupas que sejam confortáveis e não causem problemas nos glúteos.
+* **Treino específico para os glúteos**: Inclui exercícios específicos para os glúteos em seu treino, como sentadões, agachamentos e extensões de quadríceps.
+* **Postura adequada durante a corrida**: Certifica-te de manter a postura adequada durante a corrida, com os glúteos contraídos e a pelve estabilizada.
+* **Redução da sobrecarga do músculo**: Certifica-te de reduzir a sobrecarga do músculo ao longo da corrida, evitando a corrida excessiva e incluindo treinos de recuperação.
+* **Ergonomia adequada**: Certifica-te de usar equipamento adequado para a corrida, incluindo sapatos e roupas que sejam confortáveis e não causem problemas nos glúteos.
 
 ## Erros Comuns
 

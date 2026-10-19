@@ -30,13 +30,13 @@ Para selecionar o power bank ideal para ultra trail, é fundamental considerar p
 
 **Preço vs. Desempenho** – Embora modelos de 30 000 mAh ofereçam maior autonomia, o custo pode superar 300 €. Avalie se a necessidade real de autonomia justifica o investimento extra.  
 
-**Avaliações de Usuários e Testes de Campo** – Leia relatos de corredores que testaram o produto em ultramaratonas, pois a experiência prática é o melhor indicador de desempenho em condições reais.  
+**Avaliações de Utilizadores e Testes de Campo** – Leia relatos de corredores que testaram o produto em ultramaratonas, pois a experiência prática é o melhor indicador de desempenho em condições reais.  
 
 ## As Melhores Opções em 2026  
 | Produto | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
 |---------|-------------|---------------|---------------|----------------|
 | **Anker PowerCore 20,000mAh** | Corredores que precisam de autonomia sem sacrificar peso | 20 W USB‑C, 5 W USB‑A, classificação IP65, bateria de alta densidade | 1 port USB‑A pode ser insuficiente para múltiplos dispositivos | entre 150€ e 200€ |
-| **Xiaomi 10000mAh Ultra Power Bank** | Iniciantes em ultra trail que buscam um orçamento mais baixo | 2 portas USB‑C 18 W, leve (400 g), resistente | Capacidade limitada para longas distâncias | entre 80€ e 120€ |
+| **Xiaomi 10000mAh Ultra Power Bank** | Iniciantes em ultra trail que procuram um orçamento mais baixo | 2 portas USB‑C 18 W, leve (400 g), resistente | Capacidade limitada para longas distâncias | entre 80€ e 120€ |
 | **RAVPower 20,000mAh 60W** | Competidores que necessitam de recarga rápida de dispositivos pesados | 60 W total, 20 W USB‑C, 5 W USB‑A, proteção contra sobrecarga | Peso de 750 g, custo elevado | entre 200€ e 250€ |
 | **Goal Zero Yeti 400 Solar** | Ultra trailistas que planeiam percorrer 100 km sem pontos de recarga | 400 Wh (≈ 110 000 mAh), painel solar integrado, robusto | Muito pesado (≈ 2 kg), preço alto | entre 400€ e 500€ |
 | **Mophie Powerstation Plus XL** | Corredores que utilizam dispositivos de alta potência (GPS, smartwatches) | 20 W USB‑C, 5 W USB‑A, design compacto, bateria de polímero de alta qualidade | 1 porta USB‑C, não tem proteção solar | entre 180€ e 220€ |

@@ -50,7 +50,7 @@ Para além destes modelos, não deixe de explorar a nossa seleção completa de 
 ## Veredicto: Qual Comprar
 
 Para **iniciantes** que correm em pistas húmidas, o **Brooks Ghost 2026** oferece o equilíbrio ideal entre amortecimento e tração, permitindo que desenvolvam técnica sem medo de escorregões.  
-Para **competidores** que buscam velocidade mesmo sob chuva, o **Adidas Adizero Boston 2026** proporciona leveza e tração, reduzindo a carga sobre os músculos.  
+Para **competidores** que procuram velocidade mesmo sob chuva, o **Adidas Adizero Boston 2026** proporciona leveza e tração, reduzindo a carga sobre os músculos.  
 Para quem tem um **orçamento limitado**, o **Nike Air Zoom Pegasus 2026** oferece tecnologia avançada a um preço acessível, mantendo a tração e a impermeabilidade necessárias.
 
 Em todas as escolhas, lembre‑se de que a adequação ao teu estilo de corrida e a qualidade da sola são tão importantes quanto o preço. Testa sempre o calçado em condições reais antes de comprar.

@@ -14,9 +14,9 @@ A corrida de longa distância, como a maratona, é um desafio significativo para
 
 ## Como Escolher: Critérios Que Importam
 
-Ao escolher um gel energético para a maratona, é importante considerar vários critérios técnicos com base científica. Em primeiro lugar, é fundamental verificar a composição do gel. Os geis energéticos devem conter carboidratos simples, como glicose ou frutose, que são rapidamente absorvidos pelo corpo. Além disso, é importante verificar a presença de eletrólitos, como sódio e potássio, que são essenciais para manter a homeostase e evitar a perda de líquidos.
+Ao escolher um gel energético para a maratona, é importante considerar vários critérios técnicos com base científica. Em primeiro lugar, é fundamental verificar a composição do gel. Os geis energéticos devem conter hidratos de carbono simples, como glicose ou frutose, que são rapidamente absorvidos pelo corpo. Além disso, é importante verificar a presença de eletrólitos, como sódio e potássio, que são essenciais para manter a homeostase e evitar a perda de líquidos.
 
-Outro critério importante é a concentração de carboidratos no gel. De acordo com estudos, a concentração ideal de carboidratos é entre 20-30 gramas por 100 ml de gel (Hoogkamer et al., 2018). Além disso, é importante verificar a forma de liberação dos carboidratos, pois alguns geis energéticos liberam os carboidratos rapidamente, enquanto outros liberam mais lentamente.
+Outro critério importante é a concentração de hidratos de carbono no gel. De acordo com estudos, a concentração ideal de hidratos de carbono é entre 20-30 gramas por 100 ml de gel (Hoogkamer et al., 2018). Além disso, é importante verificar a forma de liberação dos hidratos de carbono, pois alguns geis energéticos liberam os hidratos de carbono rapidamente, enquanto outros liberam mais lentamente.
 
 A textura e a palatabilidade do gel também são fatores importantes a considerar. Um gel que é fácil de engolir e não é muito grosso ou viscoso é mais confortável para os atletas em corrida.
 
@@ -26,17 +26,17 @@ Finalmente, é importante verificar a compatibilidade do gel com o clima e a tem
 
 Aqui estão as melhores opções de geis energéticos para maratona em 2026:
 
-* **PowerBar Energy Gels**: Para quem busca um gel de alta qualidade e com uma concentração ideal de carboidratos, os PowerBar Energy Gels são uma excelente opção. Com uma concentração de 25 gramas de carboidratos por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz. Além disso, eles contêm eletrólitos para manter a homeostase.
-* **Gu Energy Gels**: Os Gu Energy Gels são uma excelente opção para atletas que buscam um gel que seja fácil de engolir e não seja muito grosso ou viscoso. Com uma concentração de 20 gramas de carboidratos por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
-* **Clif Shot Energy Gels**: Os Clif Shot Energy Gels são uma excelente opção para atletas que buscam um gel que contenha mais eletrólitos em condições de calor. Com uma concentração de 25 gramas de carboidratos por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
-* **Huma Energy Gels**: Os Huma Energy Gels são uma excelente opção para atletas que buscam um gel que seja concebido para atender às necessidades específicas de cada corredor. Com uma concentração de 20-30 gramas de carboidratos por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
-* **Skratch Energy Gels**: Os Skratch Energy Gels são uma excelente opção para atletas que buscam um gel que seja concebido para atender às necessidades específicas de cada corredor. Com uma concentração de 20-30 gramas de carboidratos por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
+* **PowerBar Energy Gels**: Para quem busca um gel de alta qualidade e com uma concentração ideal de hidratos de carbono, os PowerBar Energy Gels são uma excelente opção. Com uma concentração de 25 gramas de hidratos de carbono por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz. Além disso, eles contêm eletrólitos para manter a homeostase.
+* **Gu Energy Gels**: Os Gu Energy Gels são uma excelente opção para atletas que procuram um gel que seja fácil de engolir e não seja muito grosso ou viscoso. Com uma concentração de 20 gramas de hidratos de carbono por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
+* **Clif Shot Energy Gels**: Os Clif Shot Energy Gels são uma excelente opção para atletas que procuram um gel que contenha mais eletrólitos em condições de calor. Com uma concentração de 25 gramas de hidratos de carbono por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
+* **Huma Energy Gels**: Os Huma Energy Gels são uma excelente opção para atletas que procuram um gel que seja concebido para atender às necessidades específicas de cada corredor. Com uma concentração de 20-30 gramas de hidratos de carbono por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
+* **Skratch Energy Gels**: Os Skratch Energy Gels são uma excelente opção para atletas que procuram um gel que seja concebido para atender às necessidades específicas de cada corredor. Com uma concentração de 20-30 gramas de hidratos de carbono por 100 ml, esses geis energéticos são concebidos para fornecer um combustível rápido e eficaz.
 
 Essas opções variam em preço, mas todos eles estão disponíveis entre 150€ e 200€.
 
 ## Veredicto: Qual Comprar
 
-A escolha do melhor gel energético para a maratona depende do perfil do atleta. Se és um iniciante, é recomendável escolher um gel que seja fácil de engolir e não seja muito grosso ou viscoso, como os Gu Energy Gels. Se és um competidor, é recomendável escolher um gel que contenha uma concentração ideal de carboidratos e eletrólitos, como os PowerBar Energy Gels. Se tens um orçamento limitado, é recomendável escolher um gel que seja mais acessível, como os Clif Shot Energy Gels.
+A escolha do melhor gel energético para a maratona depende do perfil do atleta. Se és um iniciante, é recomendável escolher um gel que seja fácil de engolir e não seja muito grosso ou viscoso, como os Gu Energy Gels. Se és um competidor, é recomendável escolher um gel que contenha uma concentração ideal de hidratos de carbono e eletrólitos, como os PowerBar Energy Gels. Se tens um orçamento limitado, é recomendável escolher um gel que seja mais acessível, como os Clif Shot Energy Gels.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

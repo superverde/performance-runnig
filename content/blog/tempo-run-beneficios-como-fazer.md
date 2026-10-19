@@ -8,15 +8,15 @@ keywords: ["treino de tempo", "ritmo de limiar", "melhorar o ritmo"]
 readTime: 4
 ---
 
-O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. O tempo run envolve correr a um ritmo específico, geralmente um ritmo de velocidade alta, por um período determinado de tempo. Esse tipo de treino é comumente usado em treinos de resistência, onde os atletas buscam melhorar sua capacidade de correr a velocidades altas por um período prolongado.
+O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que procuram melhorar seu ritmo de corrida. O tempo run envolve correr a um ritmo específico, geralmente um ritmo de velocidade alta, por um período determinado de tempo. Esse tipo de treino é comumente usado em treinos de resistência, onde os atletas procuram melhorar sua capacidade de correr a velocidades altas por um período prolongado.
 
-No entanto, muitos atletas não sabem como implementar o tempo run de forma eficaz em seus treinos. Alguns podem acreditar que o tempo run é apenas um treino de velocidade, enquanto outros podem pensar que é apenas um treino de resistência. Na realidade, o tempo run é um treino que combina elementos de velocidade e resistência, e quando feito corretamente, pode ser um componente valioso em um treino de corrida.
+No entanto, muitos atletas não sabem como implementar o tempo run de forma eficaz em seus treinos. Alguns podem acreditar que o tempo run é apenas um treino de velocidade, enquanto outros podem pensar que é apenas um treino de resistência. Na realidade, o tempo run é um treino que combina elementos de velocidade e resistência, e quando feito corretamente, pode ser um componente valioso num treino de corrida.
 
 ## Base Científica
 
 O tempo run é baseado em conceitos científicos que envolvem a fisiologia da corrida. Uma das principais ideias por trás do tempo run é a noção de "tempo de resfriamento" da musculatura. Quando os músculos são ativados por um período prolongado, eles podem sofrer de desgaste e perda de força. O tempo run visa reduzir esse desgaste permitindo aos músculos resfriarem-se entre os períodos de atividade alta intensidade. Isso é especialmente importante para atletas que correm longas distâncias ou que precisam correr a velocidades altas por períodos prolongados.
 
-Outra ideia científica por trás do tempo run é a noção de "taxa de oxidação de ácido láctico". O ácido láctico é um produto de quebra de carboidratos que é produzido durante a atividade física. Quando os níveis de ácido láctico aumentam, os músculos podem sofrer de dor e perda de força. O tempo run visa reduzir a taxa de oxidação de ácido láctico permitindo aos músculos manter sua força e resistência.
+Outra ideia científica por trás do tempo run é a noção de "taxa de oxidação de ácido láctico". O ácido láctico é um produto de quebra de hidratos de carbono que é produzido durante a atividade física. Quando os níveis de ácido láctico aumentam, os músculos podem sofrer de dor e perda de força. O tempo run visa reduzir a taxa de oxidação de ácido láctico permitindo aos músculos manter sua força e resistência.
 
 ## Aplicação Prática
 
@@ -37,7 +37,7 @@ Há alguns erros comuns que os atletas podem cometer ao fazer tempo run. Em prim
 
 ## Protocolo/Conclusão
 
-O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que buscam melhorar seu ritmo de corrida. Para implementar o tempo run em seu treino, Vais precisar de um ritmo de corrida específico e um período de tempo específico. É importante permitir aos músculos resfriarem-se entre as repetições e manter o ritmo correto durante o treino. Com a prática e a experiência, podes ajustar o protocolo de tempo run para se adequar às suas necessidades e objetivos.
+O tempo run é um treino que pode ser benéfico para a corrida, especialmente para atletas que procuram melhorar seu ritmo de corrida. Para implementar o tempo run em seu treino, Vais precisar de um ritmo de corrida específico e um período de tempo específico. É importante permitir aos músculos resfriarem-se entre as repetições e manter o ritmo correto durante o treino. Com a prática e a experiência, podes ajustar o protocolo de tempo run para se adequar às suas necessidades e objetivos.
 
 ## Referências Científicas
 

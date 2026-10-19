@@ -47,7 +47,7 @@ Ao avaliar esses critérios, recomenda‑se manter um diário de treino que incl
 | Nome | Para quem | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |------|-----------|---------------|---------------|----------------|
 | **Nike Air Zoom Pegasus 2026** | Corredores de média distância, iniciantes e intermediários | Amortecimento equilibrado, boa tração, design leve | Peso ligeiramente superior em comparação com modelos ultra‑light | entre 150 € e 200 € |
-| **Adidas Adizero Boston 2026** | Competidores que buscam velocidade | Plataforma de carbono que melhora a propulsão, amortecimento responsivo | Menos suporte para pronadores | entre 180 € e 240 € |
+| **Adidas Adizero Boston 2026** | Competidores que procuram velocidade | Plataforma de carbono que melhora a propulsão, amortecimento responsivo | Menos suporte para pronadores | entre 180 € e 240 € |
 | **New Balance Fresh Foam 1080v12** | Longa distância, corredores que valorizam conforto | Amortecimento de espuma Fresh Foam, excelente suporte | Pode ser mais caro para quem não precisa de alto nível de amortecimento | entre 170 € e 220 € |
 | **Saucony Endorphin Pro 2026** | Runners de maratona que procuram economia de energia | Carbon plate de alta densidade, amortecimento “soft‑to‑firm” | Custo elevado | entre 200 € e 260 € |
 | **Hoka One One Carbon X 2026** | Corredores de ultramaratona ou treinos longos | Máxima amortização, plataforma de carbono, boa tração | Peso elevado, pode não ser ideal para sprints | entre 210 € e 280 € |
@@ -68,4 +68,4 @@ Para aprofundar a compreensão de como o calçado interage com o teu corpo, cons
 
 ## Referências  
 
-1. Nigg, B. M., Baltich, J., Hoerzer
+1. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms: "preferred movement path" and "comfort filter". *British Journal of Sports Medicine*, 49(20), 1290–1294. https://doi.org/10.1136/bjsports-2015-095054

@@ -71,7 +71,7 @@ Não existe uma regra universal. A decisão entre recuperação ativa e passiva 
 
 ## O Papel do Sono na Recuperação
 
-Independentemente de escolheres recuperação ativa ou passiva durante o dia, o sono é inegociável. É durante o sono — especialmente nas fases de sono profundo — que o hormônio de crescimento atinge o pico de secreção, a síntese proteica é maximizada e o sistema imunitário recupera.
+Independentemente de escolheres recuperação ativa ou passiva durante o dia, o sono é inegociável. É durante o sono — especialmente nas fases de sono profundo — que a hormona de crescimento atinge o pico de secreção, a síntese proteica é maximizada e o sistema imunitário recupera.
 
 Estudos com atletas de elite mostram que aumentar o sono para 9-10 horas por noite durante períodos de treino intenso melhora a performance, o humor e reduz a perceção de esforço. Se tiveres de escolher entre recuperação ativa de 30 minutos e mais 30 minutos de sono, escolhe o sono.
 

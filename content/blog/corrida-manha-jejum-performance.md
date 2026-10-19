@@ -8,7 +8,7 @@ keywords: ["treino em jejum de manhã", "correr sem tomar pequeno-almoço", "jej
 readTime: 4
 ---
 
-O treino de corrida de manhã em jejum é uma prática comum entre corredores de elite e amadores. A ideia é que o jejum durante a noite permita que o corpo entre em um estado de "autofagia", em que as células do corpo sejam consumidas para produzir energia. Isso pode levar a uma queima de gordura mais eficiente e uma melhoria na capacidade de realizar exercícios intensos. No entanto, a ciência por trás disso é mais complexa do que se pode imaginar.
+O treino de corrida de manhã em jejum é uma prática comum entre corredores de elite e amadores. A ideia é que o jejum durante a noite permita que o corpo entre num estado de "autofagia", em que as células do corpo sejam consumidas para produzir energia. Isso pode levar a uma queima de gordura mais eficiente e uma melhoria na capacidade de realizar exercícios intensos. No entanto, a ciência por trás disso é mais complexa do que se pode imaginar.
 
 Muitos corredores acreditam que correr em jejum é uma forma de melhorar a resistência e a capacidade de realizar exercícios de alta intensidade. Alguns até acreditam que é uma forma de perder peso ou reduzir a gordura corporal. No entanto, a evidência científica é mais ambígua do que isso. Por um lado, estudos têm mostrado que o jejum pode levar a uma melhoria na capacidade de realizar exercícios de alta intensidade, pois o corpo precisa recorrer a fontes de energia diferentes, como a gordura. Por outro lado, o jejum também pode levar a uma perda de peso muscular e uma diminuição da capacidade de realizar exercícios de baixa intensidade.
 
@@ -16,7 +16,7 @@ A verdade é que o efeito do jejum no treino de corrida depende de muitos fatore
 
 ## Base Científica
 
-O treino de corrida em jejum é baseado na ideia de que o corpo entra em um estado de "autofagia" quando não há comida no estômago. Isso significa que as células do corpo sejam consumidas para produzir energia. No entanto, a autofagia não é um processo simples e pode ser influenciado por muitos fatores, incluindo a duração do jejum, a intensidade do treino e o nível de condicionamento físico do corredor.
+O treino de corrida em jejum é baseado na ideia de que o corpo entra num estado de "autofagia" quando não há comida no estômago. Isso significa que as células do corpo sejam consumidas para produzir energia. No entanto, a autofagia não é um processo simples e pode ser influenciado por muitos fatores, incluindo a duração do jejum, a intensidade do treino e o nível de condicionamento físico do corredor.
 
 Um estudo publicado no International Journal of Sports Physiology and Performance encontrou que o jejum pode levar a uma melhoria na capacidade de realizar exercícios de alta intensidade, pois o corpo precisa recorrer a fontes de energia diferentes, como a gordura (Seiler, 2010). No entanto, outro estudo publicado no Scandinavian Journal of Medicine & Science in Sports encontrou que o jejum pode levar a uma perda de peso muscular e uma diminuição da capacidade de realizar exercícios de baixa intensidade (Laursen, 2010).
 

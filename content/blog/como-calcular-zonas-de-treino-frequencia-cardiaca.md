@@ -39,7 +39,7 @@ O modelo mais utilizado divide o esforço em **5 zonas**:
 
 A fórmula clássica "220 menos a idade" tem um erro padrão de ±10–12 bpm. Para um corredor de 35 anos, isso significa que a FC máxima pode variar entre 163 e 187 bpm — uma diferença que torna as zonas completamente inúteis se calculadas desta forma.
 
-**Método recomendado: Teste de campo de 3 km**
+**Método recomendado: Testa de campo de 3 km**
 
 1. Aquece durante 15–20 minutos em Zona 1–2
 2. Corre 3 km a esforço máximo crescente — os últimos 400 metros a tudo

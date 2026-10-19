@@ -28,37 +28,37 @@ As Melhores Opções em 2026
 
 ### 1. Nike Vaporfly Next%
 
-* Para quem: Corredores experientes e competitivos que buscam um desempenho máximo
+* Para quem: Corredores experientes e competitivos que procuram um desempenho máximo
 * Pontos fortes: Carga de impacto reduzida, estabilidade e suporte lateral excelentes, fiação e confort ideais
 * Faixa de preço: Entre 150€ e 200€
 
 ### 2. Adidas Adizero Adios
 
-* Para quem: Corredores que buscam uma sapatilha leve e aerodinâmica
+* Para quem: Corredores que procuram uma sapatilha leve e aerodinâmica
 * Pontos fortes: Peso e leveza excelentes, fiação e confort ideais, estabilidade e suporte lateral bons
 * Faixa de preço: Entre 120€ e 180€
 
 ### 3. Brooks Ghost
 
-* Para quem: Corredores que buscam uma sapatilha com um bom equilíbrio entre confort e desempenho
+* Para quem: Corredores que procuram uma sapatilha com um bom equilíbrio entre confort e desempenho
 * Pontos fortes: Fiação e confort ideais, estabilidade e suporte lateral bons, carga de impacto reduzida
 * Faixa de preço: Entre 100€ e 160€
 
 ### 4. New Balance Fresh Foam
 
-* Para quem: Corredores que buscam uma sapatilha com um bom suporte e estabilidade
+* Para quem: Corredores que procuram uma sapatilha com um bom suporte e estabilidade
 * Pontos fortes: Estabilidade e suporte lateral excelentes, fiação e confort ideais, carga de impacto reduzida
 * Faixa de preço: Entre 120€ e 180€
 
 ### 5. Asics Gel-Kayano
 
-* Para quem: Corredores que buscam uma sapatilha com um bom suporte e estabilidade para pés largos
+* Para quem: Corredores que procuram uma sapatilha com um bom suporte e estabilidade para pés largos
 * Pontos fortes: Estabilidade e suporte lateral excelentes, fiação e confort ideais, carga de impacto reduzida
 * Faixa de preço: Entre 150€ e 200€
 
 ### 6. Hoka One One Clifton
 
-* Para quem: Corredores que buscam uma sapatilha com um bom suporte e confort
+* Para quem: Corredores que procuram uma sapatilha com um bom suporte e confort
 * Pontos fortes: Fiação e confort ideais, estabilidade e suporte lateral bons, carga de impacto reduzida
 * Faixa de preço: Entre 100€ e 160€
 
@@ -71,11 +71,11 @@ Para os corredores iniciantes, é recomendável optar por uma sapatilha com um b
 
 ### Competidores
 
-Para os corredores competitivos, é recomendável optar por uma sapatilha com um bom desempenho e estabilidade, como a Nike Vaporfly Next% ou a Adidas Adizero Adios. Essas sapatilhas oferecem uma carga de impacto reduzida e um peso e leveza excelentes, o que é ideal para corredores que buscam um desempenho máximo.
+Para os corredores competitivos, é recomendável optar por uma sapatilha com um bom desempenho e estabilidade, como a Nike Vaporfly Next% ou a Adidas Adizero Adios. Essas sapatilhas oferecem uma carga de impacto reduzida e um peso e leveza excelentes, o que é ideal para corredores que procuram um desempenho máximo.
 
 ### Orçamento Limitado
 
-Para os corredores com um orçamento limitado, é recomendável optar por uma sapatilha mais acessível, como a Hoka One One Clifton ou a Brooks Ghost. Essas sapatilhas oferecem um bom suporte e estabilidade, e são ideais para corredores que buscam um equilíbrio entre confort e desempenho.
+Para os corredores com um orçamento limitado, é recomendável optar por uma sapatilha mais acessível, como a Hoka One One Clifton ou a Brooks Ghost. Essas sapatilhas oferecem um bom suporte e estabilidade, e são ideais para corredores que procuram um equilíbrio entre confort e desempenho.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

@@ -8,7 +8,7 @@ keyword: "durabilidade na maratona"
 keywords: ["resistência à fadiga", "quebrar no km 32", "durability corrida"]
 readTime: 5
 faqs:
-  - q: "Quais são os principais fatores que influenciam a durabilidade em uma corrida de 32 km?"
+  - q: "Quais são os principais fatores que influenciam a durabilidade numa corrida de 32 km?"
     a: "A durabilidade depende de VO₂máx, lactato limiar, capacidade de remoção de lactato e regulação autonómica, além de fatores de recuperação e nutrição."
   - q: "Como posso medir a minha durabilidade sem equipamentos avançados?"
     a: "Use um teste de 10 km para estimar a velocidade LT e compare o tempo real no km 32 com o tempo previsto a partir desse limiar."
@@ -51,7 +51,7 @@ Para melhorar a durabilidade, a rotina de treino deve incluir:
 | **Treino de força** | Melhorar eficiência muscular | 2×/sem | 3 × 10 repetições de agachamento, levantamento terra e core |
 
 **Protocolos de avaliação**:  
-1. **Teste de 10 km** – medir tempo e velocidade média.  
+1. **Testa de 10 km** – medir tempo e velocidade média.  
 2. **Cálculo de LT** – usar teste de lactato ou “cut‑point” de 4 mmol l⁻¹.  
 3. **Simulação de corrida** – correr 32 km em pista, registrar tempo no km 32 e comparar com o previsto.
 
@@ -62,7 +62,7 @@ Um corredor que completa o km 32 em 1 h 05 min, enquanto o tempo previst
 1. **Focar apenas na velocidade** – ignorar a gestão do lactato e da energia pode levar à ruptura precoce.  
 2. **Subestimar a recuperação** – falta de descanso adequado reduz a capacidade de remoção de lactato.  
 3. **Pacing inadequado** – começar demasiado rápido faz com que o corpo ultrapasse o LT logo nas primeiras 10 km.  
-4. **Nutrição deficiente** – ausência de carboidratos suficientes durante a corrida provoca depleção de glicogénio antes do km 32.
+4. **Nutrição deficiente** – ausência de hidratos de carbono suficientes durante a corrida provoca depleção de glicogénio antes do km 32.
 
 Evitar esses erros requer um plano equilibrado, que combine treinos específicos, descanso e nutrição.
 
@@ -87,4 +87,4 @@ A última semana serve para reduzir a carga e permitir que o corpo consolide a d
 ## Referências Científicas
 
 Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. Medicine & Science in Sports & Exercise, 32(1), 70-84. https://doi.org/10.1097/00005768-200001000-00012  
-Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance: the physiology of champions. The
+Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance: the physiology of champions. *The Journal of Physiology*, 586(1), 35–44. https://doi.org/10.1113/jphysiol.2007.143834

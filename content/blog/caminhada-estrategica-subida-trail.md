@@ -36,7 +36,7 @@ Existem alguns erros comuns que os corredores em trail cometem, que podem afetar
 
 ## Protocolo/Conclusão
 
-Em conclusão, caminhar em trail não é uma fraqueza, mas sim uma estratégia inteligente para se adaptar às condições do terreno e melhorar a performance. Ao treinar em terrenos irregulares, utilizar equipamento adequado e beber suficiente água, podemos melhorar a resistência e a coordenação motora, e reduzir a tensão muscular e a produção de lactato. Lembre-se de que a corrida em trail é uma forma de corrida que requer uma combinação de força, resistência e coordenação motora, e que a prática e a preparação são fundamentais para se alcançar o sucesso.
+Em conclusão, caminhar em trail não é uma fraqueza, mas sim uma estratégia inteligente para se adaptar às condições do terreno e melhorar a performance. Ao treinar em terrenos irregulares, utilizar equipamento adequado e beber suficiente água, podemos melhorar a resistência e a coordenação motora, e reduzir a tensão muscular e a produção de lactato. Lembra-te de que a corrida em trail é uma forma de corrida que requer uma combinação de força, resistência e coordenação motora, e que a prática e a preparação são fundamentais para se alcançar o sucesso.
 
 ## Referências Científicas
 

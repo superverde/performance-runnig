@@ -43,8 +43,8 @@ O volume total semanal gira em torno de 70–80 km, com 20 % de treinos de v
 
 ### Nutrição e Recuperação
 
-- **Pré‑treino**: 1 h antes, ingerir 30 g de carboidratos simples (ex.: 250 ml de bebida isotónica).
-- **Pós‑treino**: 30 min após, consumir 1 g de proteína por quilómetro e 3 g de carboidratos por quilómetro.
+- **Pré‑treino**: 1 h antes, ingerir 30 g de hidratos de carbono simples (ex.: 250 ml de bebida isotónica).
+- **Pós‑treino**: 30 min após, consumir 1 g de proteína por quilómetro e 3 g de hidratos de carbono por quilómetro.
 - **Sono**: 7–8 h por noite, com 30 min de descanso ativo em dias de alta intensidade.
 - **Alongamento**: 10 min de alongamento dinâmico antes e 10 min de estático após a corrida.
 

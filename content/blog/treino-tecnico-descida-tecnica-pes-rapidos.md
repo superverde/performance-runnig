@@ -26,16 +26,16 @@ Além disso, a definição de off‑road running (Scheer et al., 2020) destaca
 
 ## Aplicação Prática  
 ### Postura e Foco  
-Mantenha a cabeça erguida, os ombros relaxados e o tronco levemente inclinado para a frente, a 5‑10 graus. Este posicionamento reduz a carga sobre a coluna e facilita a transferência de força para os pés.  
-A atenção deve estar nos pontos de contato: cada passada deve terminar com o calcanhar tocando o solo antes da ponta, permitindo que o impacto seja absorvido de forma controlada.  
+Mantém a cabeça erguida, os ombros relaxados e o tronco levemente inclinado para a frente, a 5‑10 graus. Este posicionamento reduz a carga sobre a coluna e facilita a transferência de força para os pés.  
+A atenção deve estar nos pontos de contacto: cada passada deve terminar com o calcanhar tocando o solo antes da ponta, permitindo que o impacto seja absorvido de forma controlada.  
 
 ### Ritmo e Cadência  
 Um ritmo de 170–180 passos por minuto (spm) costuma ser eficaz para manter a velocidade sem sobrecarregar os músculos. Para corredores com mais experiência, pode‑se aumentar a cadência em 5 spm, mas apenas após treino específico de velocidade em descida.  
-Use um cronómetro ou um relógio GPS com sensor de velocidade para monitorizar a cadência em tempo real.  
+Usa um cronómetro ou um relógio GPS com sensor de velocidade para monitorizar a cadência em tempo real.  
 
 ### Força de Impacto  
 Para reduzir o impacto, pratique o “step‑down” em subidas curtas: coloque o pé à frente, dobre o joelho e permita que o peso desça de forma controlada. Este exercício fortalece a musculatura de absorção e melhora a tolerância a impactos.  
-Integre também treinos de força com agachamentos com salto em plataforma, que aumentam a capacidade de absorção de choque em 10‑15 %.  
+Integra também treinos de força com agachamentos com salto em plataforma, que aumentam a capacidade de absorção de choque em 10‑15 %.  
 
 ### Técnica de Descida Trail  
 Em terreno técnico trail, a escolha de terreno deve ser gradual: comece por percursos de declive moderado (5 % de inclinação) e aumente a complexidade adicionando obstáculos.  

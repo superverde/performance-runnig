@@ -33,7 +33,7 @@ Os anéis inteligentes estão a revolucionar a forma como os corredores monitori
 | **Whoop Ring** | Competidores que precisam de dados de recuperação | Métricas detalhadas de esforço e recuperação, bateria de 5 dias | Compatibilidade limitada a iOS | Entre 200€ e 250€ |
 | **Motiv Ring** | Iniciantes que procuram um preço acessível | Design elegante, bateria de 6 dias | Menos métricas avançadas de sono | Entre 150€ e 200€ |
 | **Fitbit Sense 2 (anéis de 2ª geração)** | Corredores que já usam a linha Fitbit | Integração com o ecosystemo Fitbit, sensor de temperatura | Menos foco em métricas de sono | Entre 200€ e 250€ |
-| **Garmin Venu 2 (versão anel)** | Usuários que preferem Garmin | Dados de frequência cardíaca e métricas de sono, app robusto | Custo elevado, tamanho maior | Entre 250€ e 300€ |
+| **Garmin Venu 2 (versão anel)** | Utilizadores que preferem Garmin | Dados de frequência cardíaca e métricas de sono, app robusto | Custo elevado, tamanho maior | Entre 250€ e 300€ |
 
 ## Veredicto: Qual Comprar  
 

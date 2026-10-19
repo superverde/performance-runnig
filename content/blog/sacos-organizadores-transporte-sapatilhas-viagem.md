@@ -55,7 +55,7 @@ Todos os modelos listados foram testados em condições de corrida e transporte 
 
 - **Orçamento Limitado**: O **Saco AeroFlex Travel** combina baixo peso, custo acessível e durabilidade. Embora ofereça menos ventilação que os modelos premium, é suficientemente robusto para uso diário e pode ser complementado com um pequeno saco de secagem de micro‑fibras para manter as sapatilhas frescas.
 
-Para além do saco de transporte, considera investir em um sistema de hidratação ou em calçado de treino de qualidade. Para saber mais sobre nutrição, imunidade e prevenção de overtraining, consulta o artigo relacionado [artigo relacionado 1](/blog/nutricao-imunidade-overtraining-prevencao). Se preocupas com a recuperação e os riscos de inflamação, não percas o [artigo relacionado 2](/blog/anti-inflamatorios-recuperacao-corredores-riscos).
+Para além do saco de transporte, considera investir num sistema de hidratação ou em calçado de treino de qualidade. Para saber mais sobre nutrição, imunidade e prevenção de overtraining, consulta o artigo relacionado [artigo relacionado 1](/blog/nutricao-imunidade-overtraining-prevencao). Se preocupas com a recuperação e os riscos de inflamação, não percas o [artigo relacionado 2](/blog/anti-inflamatorios-recuperacao-corredores-riscos).
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

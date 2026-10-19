@@ -14,9 +14,9 @@ As sapatilhas com placa de carbono são uma opção popular entre os corredores 
 
 ## Como Escolher: Critérios Que Importam
 
-Ao escolher sapatilhas de corrida, é fundamental considerar vários critérios técnicos. **A amortecimento** é um dos principais fatores a serem considerados. De acordo com uma pesquisa publicada no British Journal of Sports Medicine, o amortecimento excessivo pode levar a uma maior probabilidade de lesões no pé e no calcanhar (Nigg et al., 2015). Por outro lado, um amortecimento insuficiente pode resultar em estresse excessivo na articulação do tornozelo e no pé (Fuller et al., 2015).
+Ao escolher sapatilhas de corrida, é fundamental considerar vários critérios técnicos. **A amortecimento** é um dos principais fatores a serem considerados. De acordo com uma pesquisa publicada no British Journal of Sports Medicine, o amortecimento excessivo pode levar a uma maior probabilidade de lesões no pé e no calcanhar (Nigg et al., 2015). Por outro lado, um amortecimento insuficiente pode resultar em stress excessivo na articulação do tornozelo e no pé (Fuller et al., 2015).
 
-Outro critério importante é a **estabilidade**. Sapatilhas com uma boa estabilidade podem ajudar a prevenir lesões no pé e no tornozelo, ao mesmo tempo que permitem uma movimentação natural do pé durante a corrida (Malisoux et al., 2016). Além disso, a **rigidez** da placa de carbono é outro fator a ser considerado, pois pode afetar a eficiência da corrida e a redução do estresse na articulação do tornozelo (Hoogkamer et al., 2018).
+Outro critério importante é a **estabilidade**. Sapatilhas com uma boa estabilidade podem ajudar a prevenir lesões no pé e no tornozelo, ao mesmo tempo que permitem uma movimentação natural do pé durante a corrida (Malisoux et al., 2016). Além disso, a **rigidez** da placa de carbono é outro fator a ser considerado, pois pode afetar a eficiência da corrida e a redução do stress na articulação do tornozelo (Hoogkamer et al., 2018).
 
 ## As Melhores Opções em 2026
 

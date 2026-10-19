@@ -29,7 +29,7 @@ Estudos como o de Bassett & Howley (2000) demonstram que corredores de elite man
 
 Ao compreender lactato como combustível, os atletas podem ajustar a sua estratégia de treino. Um protocolo de treino de alta intensidade (HIIT) que eleva repetidamente os níveis de lactato pode melhorar a capacidade do corpo de utilizar esse composto como fonte de energia. Por exemplo, sessões de 4×4 minutos a 90 % do VO₂máx, com 3 minutos de recuperação ativa, aumentam a capacidade oxidativa do lactato em 15 % em apenas 4 semanas (Midgley et al., 2006).
 
-Além disso, a ingestão de carboidratos durante a corrida mantém a produção de lactato em níveis ótimos, permitindo que o músculo continue a gerar energia mesmo quando o oxigénio disponível é limitado. Isto explica por que corredores que utilizam estratégias de “carbohidratação de corrida” conseguem manter ritmos mais rápidos sem atingir rapidamente o ponto de lactato limítrofe.
+Além disso, a ingestão de hidratos de carbono durante a corrida mantém a produção de lactato em níveis ótimos, permitindo que o músculo continue a gerar energia mesmo quando o oxigénio disponível é limitado. Isto explica por que corredores que utilizam estratégias de “carbohidratação de corrida” conseguem manter ritmos mais rápidos sem atingir rapidamente o ponto de lactato limítrofe.
 
 ## Erros Comuns
 
@@ -47,7 +47,7 @@ Além disso, a ingestão de carboidratos durante a corrida mantém a produção 
 - **Objetivo**: Aumentar a capacidade oxidativa do lactato em 10–15 %.
 
 ### Nutrição
-- **Carboidratos**: 30–60 g/hora durante corridas de mais de 60 minutos.
+- **Hidratos de carbono**: 30–60 g/hora durante corridas de mais de 60 minutos.
 - **Eletrólitos**: Manter níveis adequados para evitar cãibras e manter o controlo da hidratação.
 
 ### Recuperação

@@ -2,7 +2,7 @@
 title: "Correr Todos os Dias: Benefícios e Riscos"
 date: '2026-10-14'
 category: "Treino"
-excerpt: "Correr todos os dias pode melhorar a forma física e mental – descubra os benefícios, riscos e como planejar uma corrida diária eficaz."
+excerpt: "Correr todos os dias pode melhorar a forma física e mental – descubra os benefícios, riscos e como planear uma corrida diária eficaz."
 readTime: 4
 keyword: "correr todos os dias"
 keywords: ["corrida diária", "run streak", "correr sem descanso"]
@@ -43,12 +43,12 @@ Esta estrutura, inspirada em princípios de periodização, permite que o atleta
 
 ### Monitorização
 
-Utilize um monitor de frequência cardíaca para garantir que a intensidade permanece dentro dos limites recomendados. Registe a distância, tempo e HRmax em um diário de treino (pode ser um simples ficheiro Excel). A análise semanal ajuda a detectar padrões de sobrecarga antes que se transformem em lesões.
+Utiliza um monitor de frequência cardíaca para garantir que a intensidade permanece dentro dos limites recomendados. Regista a distância, tempo e HRmax num diário de treino (pode ser um simples ficheiro Excel). A análise semanal ajuda a detectar padrões de sobrecarga antes que se transformem em lesões.
 
 ## Erros Comuns
 
 1. **Ignorar sinais de dor** – Quando o corpo apresenta dor persistente, continuar a correr pode levar a lesões por sobrecarga. O princípio de “correr sem descanso” pode ser contraproducente se não houver atenção a sinais de alerta.
-2. **Volume excessivo** – Correr 20 km consecutivamente sem variação de intensidade aumenta o risco de tendinite e fraturas por estresse. A distribuição equilibrada de intensidades reduz este risco.
+2. **Volume excessivo** – Correr 20 km consecutivamente sem variação de intensidade aumenta o risco de tendinite e fraturas por stress. A distribuição equilibrada de intensidades reduz este risco.
 3. **Falta de mobilidade** – A ausência de alongamentos dinâmicos antes e estáticos depois da corrida pode comprometer a amplitude de movimento e predispor a lesões musculares.
 
 ## Protocolo / Conclusão

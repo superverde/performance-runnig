@@ -10,7 +10,7 @@ readTime: 4
 
 O trail running é um tipo de corrida que se desenrola em terrenos irregulares, exigindo uma combinação de força, agilidade e resistência. Para alcançar o sucesso nessa modalidade, é fundamental entender como planear o pace de forma eficaz, minimizando o impacto do desnível no desempenho. O conceito de desnível equivalente (DE) é uma ferramenta valiosa para ajudar os atletas a entender como o terreno afeta a sua performance.
 
-O DE é uma medida que leva em consideração a inclinação do terreno e a distância percorrida em condições de subida ou descida. Ao calcular o DE, é possível determinar o que o atleta está "realmente" a correr, em termos de energia gasta e desempenho. Por exemplo, se um atleta estiver a correr uma subida com uma inclinação de 10% em uma distância de 100 metros, o DE pode ser calculado como 1,1 vezes a distância percorrida em nível (111 metros). Isso significa que o atleta está a correr uma distância de 111 metros em condições de subida.
+O DE é uma medida que leva em consideração a inclinação do terreno e a distância percorrida em condições de subida ou descida. Ao calcular o DE, é possível determinar o que o atleta está "realmente" a correr, em termos de energia gasta e desempenho. Por exemplo, se um atleta estiver a correr uma subida com uma inclinação de 10% numa distância de 100 metros, o DE pode ser calculado como 1,1 vezes a distância percorrida em nível (111 metros). Isso significa que o atleta está a correr uma distância de 111 metros em condições de subida.
 
 O conhecimento do DE é fundamental para planear o pace de forma eficaz no trail running. Ao calcular o DE, os atletas podem ajustar sua estratégia de corrida para maximizar o seu desempenho e minimizar o impacto do desnível. Neste artigo, vamos explorar como calcular o DE e como planear o pace com base nessa medida.
 
@@ -26,7 +26,7 @@ Para calcular o DE, é necessário conhecer a inclinação do terreno e a distâ
 
 DE = (1 + (sin(ângulo de inclinação) x distância percorrida em condições de subida ou descida)) x 100
 
-Por exemplo, se um atleta estiver a correr uma subida com uma inclinação de 10% em uma distância de 100 metros, o DE seria:
+Por exemplo, se um atleta estiver a correr uma subida com uma inclinação de 10% numa distância de 100 metros, o DE seria:
 
 DE = (1 + (sin(10%) x 100)) x 100 = 111%
 
@@ -46,7 +46,7 @@ Ao calcular o DE, os atletas podem planear o pace de forma eficaz no trail runni
 
 DE = (1 + (sin(ângulo de inclinação) x distância percorrida em condições de subida ou descida)) x 100
 
-Ao ajustar sua estratégia de corrida com base no DE, os atletas podem maximizar o seu desempenho e evitar a sobrecarga excessiva. Lembre-se de que o conhecimento do DE é fundamental para planear o pace de forma eficaz no trail running.
+Ao ajustar sua estratégia de corrida com base no DE, os atletas podem maximizar o seu desempenho e evitar a sobrecarga excessiva. Lembra-te de que o conhecimento do DE é fundamental para planear o pace de forma eficaz no trail running.
 
 ## Referências Científicas
 

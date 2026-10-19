@@ -105,7 +105,7 @@ Deves cortar o **volume** significativamente, mas manter alguma **intensidade**.
 
 ## Nutrição Durante o Taper: Carbo-Loading
 
-A estratégia de carbo-loading — aumentar a ingestão de carboidratos nos dias antes da maratona — está bem suportada pela evidência.
+A estratégia de carbo-loading — aumentar a ingestão de hidratos de carbono nos dias antes da maratona — está bem suportada pela evidência.
 
 **O protocolo moderno** (não requer o protocolo antigo de depleção):
 

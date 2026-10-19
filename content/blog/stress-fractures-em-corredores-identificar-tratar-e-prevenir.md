@@ -12,7 +12,7 @@ coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=
 
 ### Stress Fractures em Corredores: Uma Visão Geral
 
-Os stress fractures (SF) são lesões comuns em corredores, causadas por micro-transtornos nas estruturas ósseas. Essas lesões podem ser causadas por uma combinação de fatores, incluindo a sobrecarga de treino, a falta de adaptação ao novo treino, a inadequação da dieta e a falta de repouso adequado. Os SF podem afetar qualquer parte do corpo, mas são mais comuns em áreas de estresse mecânico elevado, como a tíbia, os metatarsos e o navicular.
+Os stress fractures (SF) são lesões comuns em corredores, causadas por micro-transtornos nas estruturas ósseas. Essas lesões podem ser causadas por uma combinação de fatores, incluindo a sobrecarga de treino, a falta de adaptação ao novo treino, a inadequação da dieta e a falta de repouso adequado. Os SF podem afetar qualquer parte do corpo, mas são mais comuns em áreas de stress mecânico elevado, como a tíbia, os metatarsos e o navicular.
 
 #### Prevalência dos SF em Corredores
 
@@ -20,11 +20,11 @@ Estudos revelam que os SF são uma das lesões mais comuns em corredores, afetan
 
 ### Localizações Mais Comuns dos SF
 
-Os SF podem ocorrer em qualquer parte do corpo, mas são mais comuns em áreas de estresse mecânico elevado. As localizações mais comuns dos SF incluem:
+Os SF podem ocorrer em qualquer parte do corpo, mas são mais comuns em áreas de stress mecânico elevado. As localizações mais comuns dos SF incluem:
 
 #### Tíbia
 
-A tíbia é a parte mais comum afetada por SF em corredores. Isso se deve ao fato de que a tíbia é submetida a um estresse mecânico elevado durante a corrida, especialmente durante a fase de impacto (3).
+A tíbia é a parte mais comum afetada por SF em corredores. Isso se deve ao fato de que a tíbia é submetida a um stress mecânico elevado durante a corrida, especialmente durante a fase de impacto (3).
 
 #### Metatarsos
 

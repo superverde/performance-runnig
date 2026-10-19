@@ -24,11 +24,11 @@ Correr ao sol exige proteção eficaz contra a radiação ultravioleta, ventila�
 
 Ao selecionar a visera ou o boné ideal, os corredores devem considerar três pilares científicos: **proteção UV, ventilação e ajuste**.  
 
-**Proteção UV** – A radiação ultravioleta (UV‑A e UV‑B) pode causar danos cutâneos e fadiga ocular. Estudos indicam que tecidos com UPF 50+ bloqueiam mais de 98 % da radiação UV‑B, reduzindo o risco de queimaduras e câncer de pele (Nigg et al., 2015). Verifique se o produto possui certificação UPF ou se utiliza tecidos com tratamento UV.  
+**Proteção UV** – A radiação ultravioleta (UV‑A e UV‑B) pode causar danos cutâneos e fadiga ocular. Estudos indicam que tecidos com UPF 50+ bloqueiam mais de 98 % da radiação UV‑B, reduzindo o risco de queimaduras e câncer de pele (Nigg et al., 2015). Verifica se o produto possui certificação UPF ou se utiliza tecidos com tratamento UV.  
 
 **Ventilação** – A termorregulação é crucial para evitar a hipertermia e a perda de suor. Materiais com micro‑perfurado e sistemas de ventilação ativa (ex.: canelos de ar nas laterais) aumentam a circulação de ar e reduzem a temperatura corporal em até 3 °C (Fuller et al., 2015).  
 
-**Ajuste e Ergonomia** – Um ajuste que distribui a pressão de forma homogénea previne pontos de pressão e mantém a visibilidade. Bonés com fecho ajustável (velcro, elástico) e visereiras com formato contornado garantem estabilidade mesmo em corridas de alta velocidade. Além disso, a presença de forro respirável evita a acumulação de suor, mantendo o couro cabeludo seco.  
+**Ajusta e Ergonomia** – Um ajuste que distribui a pressão de forma homogénea previne pontos de pressão e mantém a visibilidade. Bonés com fecho ajustável (velcro, elástico) e visereiras com formato contornado garantem estabilidade mesmo em corridas de alta velocidade. Além disso, a presença de forro respirável evita a acumulação de suor, mantendo o couro cabeludo seco.  
 
 Por fim, a **durabilidade** deve ser avaliada: tecidos de poliéster de alta densidade e costuras reforçadas resistem a desgastes repetidos, mantendo a integridade estrutural e a proteção UV ao longo do tempo.
 

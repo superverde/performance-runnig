@@ -16,10 +16,10 @@ Quando se trata de corrida e trail, é comum que os corredores sejam atraídos p
 
 Os óculos de sol para corrida e trail não são apenas uma questão de estilo, mas sim de segurança e confort. Aqui estão alguns critérios técnicos que importam ao escolher os melhores óculos de sol:
 
-- **Visão periférica**: Os óculos de sol devem ter uma visão periférica ampla para permitir que vejas o seu entorno sem ter que mudar a posição da cabeça. Isso é especialmente importante em corridas e trilhas, onde a visibilidade pode ser limitada.
+- **Visão periférica**: Os óculos de sol devem ter uma visão periférica ampla para permitir que vejas o seu entorno sem ter que mudar a posição da cabeça. Isso é especialmente importante em corridas e trilhos, onde a visibilidade pode ser limitada.
 - **Transparência**: Os óculos de sol devem ter uma transparência adequada para permitir que vejas com clareza. Alguns óculos de sol são concebidos para serem mais transparentes do que outros, o que pode ser útil em condições de iluminação baixa.
 - **Confort**: Os óculos de sol devem ser confortáveis para usar durante longos períodos de tempo. Isso inclui a forma da armação, a suavidade do material e a ajustabilidade.
-- **Resistência**: Os óculos de sol devem ser resistentes a impactos e choques, especialmente em corridas e trilhas onde podes se encontrar com obstáculos.
+- **Resistência**: Os óculos de sol devem ser resistentes a impactos e choques, especialmente em corridas e trilhos onde podes se encontrar com obstáculos.
 - **Manutenção**: Os óculos de sol devem ser fáceis de limpar e manter. Alguns óculos de sol têm uma superfície lisa que é fácil de limpar, enquanto outros podem ter um design mais complexo que requer mais manutenção.
 
 Além disso, é importante considerar a sua atividade específica e o tipo de iluminação que vais encontrar. Por exemplo, Se for correr em condições de iluminação baixa, podes querer óculos de sol com uma transparência superior.
@@ -28,7 +28,7 @@ Além disso, é importante considerar a sua atividade específica e o tipo de il
 
 Aqui estão algumas das melhores opções de óculos de sol para corrida e trail em 2026:
 
-- **Oakley Flak 2.0**: Os Oakley Flak 2.0 são óculos de sol versáteis que podem ser usados em uma variedade de atividades, incluindo corrida e trail. Eles têm uma visão periférica ampla e uma transparência adequada para permitir que vejas com clareza. Preço: entre 150€ e 200€.
+- **Oakley Flak 2.0**: Os Oakley Flak 2.0 são óculos de sol versáteis que podem ser usados numa variedade de atividades, incluindo corrida e trail. Eles têm uma visão periférica ampla e uma transparência adequada para permitir que vejas com clareza. Preço: entre 150€ e 200€.
 - **Polarized Smith Optics**: Os óculos de sol Polarized Smith Optics são concebidos para corrida e trail e têm uma visão periférica ampla e uma transparência superior. Eles também têm uma superfície lisa que é fácil de limpar. Preço: entre 150€ e 200€.
 - **Maui Jim Peahi**: Os óculos de sol Maui Jim Peahi são concebidos para corrida e trail e têm uma visão periférica ampla e uma transparência superior. Eles também têm uma forma confortável e ajustável. Preço: entre 200€ e 250€.
 - **Tifosi Optics Hadley**: Os óculos de sol Tifosi Optics Hadley são concebidos para corrida e trail e têm uma visão periférica ampla e uma transparência adequada. Eles também têm uma superfície lisa que é fácil de limpar. Preço: entre 100€ e 150€.

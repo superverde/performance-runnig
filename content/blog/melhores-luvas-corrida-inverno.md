@@ -28,7 +28,7 @@ Outro critério científico relevante é a **economia de energia**. Estudos como
 | Nome | Público‑alvo | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |------|---------------|---------------|---------------|----------------|
 | **Luva Pro‑Heat 4.0 (Nike)** | Competidores de maratona | Isolamento de lã merino + espuma de poliuretano; micro‑ventilação nas palmas; silicone anti‑escorregamento | Peso ligeiramente superior (120 g) | entre 150 € e 200 € |
-| **GloveRunner X‑Cold (Adidas)** | Corredores de trilha | Tecnologia “ColdGuard” com isolamento térmico de 30 mm; palmas de couro sintético para tração | Menos ventilação; pode ficar quente em dias menos frios | entre 120 € e 170 € |
+| **GloveRunner X‑Cold (Adidas)** | Corredores de trilho | Tecnologia “ColdGuard” com isolamento térmico de 30 mm; palmas de couro sintético para tração | Menos ventilação; pode ficar quente em dias menos frios | entre 120 € e 170 € |
 | **FrostGrip Ultra (Under Armour)** | Iniciantes | Camada de poliéster de compressão; respirabilidade elevada; custo‑eficiência | Menor nível de isolamento em temperaturas abaixo de -10 °C | entre 90 € e 140 € |
 | **ThermoFlex Elite (Puma)** | Corredores de longa distância | Sistema de micro‑canais que reduzem o calor excessivo; palmas de silicone com textura “T‑Grip” | Preço mais elevado; peso de 110 g | entre 170 € e 230 € |
 | **GripCool Pro (Salomon)** | Corridas de rua | Combinação de lã merino e poliuretano; palmas de borracha antiderrapante; design ergonómico | Pode ser menos robusta em terreno rochoso | entre 140 € e 190 € |
@@ -37,7 +37,7 @@ Cada modelo foi testado em condições de vento frio e em percursos de 10 km, 
 
 ## Veredicto: Qual Comprar
 
-Para **iniciantes**, a *FrostGrip Ultra* oferece o equilíbrio perfeito entre custo, conforto e isolamento, sendo ideal para quem está a começar a correr no frio. Se procura **competência de elite**, a *Luvas Pro‑Heat 4.0* de Nike proporcionam o isolamento mais avançado e a ventilação controlada que os corredores de maratona exigem. Para quem tem **orçamento limitado**, a *GloveRunner X‑Cold* da Adidas entrega desempenho sólido a um preço mais acessível, sendo uma opção robusta para corridas de rua e trilha. Em qualquer caso, a escolha deve considerar o nível de isolamento, a ventilação e a aderência, pois esses fatores têm impacto direto na sua performance e segurança.
+Para **iniciantes**, a *FrostGrip Ultra* oferece o equilíbrio perfeito entre custo, conforto e isolamento, sendo ideal para quem está a começar a correr no frio. Se procura **competência de elite**, a *Luvas Pro‑Heat 4.0* de Nike proporcionam o isolamento mais avançado e a ventilação controlada que os corredores de maratona exigem. Para quem tem **orçamento limitado**, a *GloveRunner X‑Cold* da Adidas entrega desempenho sólido a um preço mais acessível, sendo uma opção robusta para corridas de rua e trilho. Em qualquer caso, a escolha deve considerar o nível de isolamento, a ventilação e a aderência, pois esses fatores têm impacto direto na sua performance e segurança.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 

@@ -44,8 +44,8 @@ A fisiologia do músculo também desempenha um papel crucial. A capacidade de re
 
 ### Como Medir a Velocidade Crítica
 
-1. **Teste de 3 km**: Corrida em pista ou circuito de 400 m a ritmo máximo, registando tempo e velocidade média.  
-2. **Teste de 6 km**: Repetir o procedimento com 6 km.  
+1. **Testa de 3 km**: Corrida em pista ou circuito de 400 m a ritmo máximo, registando tempo e velocidade média.  
+2. **Testa de 6 km**: Repetir o procedimento com 6 km.  
 3. **Cálculo**: Aplicar a fórmula acima para obter a VC.  
 
 Exemplo prático:  
@@ -92,4 +92,3 @@ Ao integrar a velocidade crítica no teu regime, transformas o treino numa ciên
 1. Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. Medicine & Science in Sports & Exercise, 32(1), 70-84. https://doi.org/10.1097/00005768-200001000-00012  
 2. Jones, A. M., & Carter, H. (2000). The effect of endurance training on parameters of aerobic fitness. Sports Medicine, 29(6), 373-386. https://doi.org/10.2165/00007256-200029060-00001  
 3. Saltin, B., & Astrand, P. O. (1967). Maximal oxygen uptake in athletes. Journal of Applied Physiology, 23(3), 353-358. https://doi.org/10.1152/jappl.1967.23.3.353  
-4. Midg

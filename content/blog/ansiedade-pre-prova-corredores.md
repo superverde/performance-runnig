@@ -17,7 +17,7 @@ A ansiedade pré-corrida é um fenómeno comum entre os atletas de corrida. Estu
 
 ## Base Científica
 
-A ansiedade pré-corrida é influenciada por vários fatores, incluindo a experiência prévia, a expectativa da corrida e a falta de preparação. Segundo o modelo de Yule e McGrath (2001), a ansiedade pré-corrida é resultado da interação entre a experiência prévia, a expectativa da corrida e a falta de preparação. Além disso, estudos têm demonstrado que a atenção seletiva, que é a capacidade de se concentrar em um aspecto específico da corrida, pode ser um fator importante no desenvolvimento da ansiedade pré-corrida (Brick et al., 2014).
+A ansiedade pré-corrida é influenciada por vários fatores, incluindo a experiência prévia, a expectativa da corrida e a falta de preparação. Segundo o modelo de Yule e McGrath (2001), a ansiedade pré-corrida é resultado da interação entre a experiência prévia, a expectativa da corrida e a falta de preparação. Além disso, estudos têm demonstrado que a atenção seletiva, que é a capacidade de se concentrar num aspecto específico da corrida, pode ser um fator importante no desenvolvimento da ansiedade pré-corrida (Brick et al., 2014).
 
 ## Aplicação Prática
 

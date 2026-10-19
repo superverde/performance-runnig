@@ -7,22 +7,22 @@ readTime: 4
 keyword: "apito de segurança trail"
 keywords: ["apito de emergência", "material obrigatório trail", "segurança trail a solo"]
 faqs:
-  - q: "O que é um apito de emergência e por que é obrigatório em trilhas?"
-    a: "Um apito de emergência é um dispositivo sonoro concebido para chamar atenção rapidamente em situações de risco. Em muitos países, incluindo Portugal, o uso de apitos de segurança trail é obrigatório em trilhas a solo para garantir a segurança dos corredores."
+  - q: "O que é um apito de emergência e por que é obrigatório em trilhos?"
+    a: "Um apito de emergência é um dispositivo sonoro concebido para chamar atenção rapidamente em situações de risco. Em muitos países, incluindo Portugal, o uso de apitos de segurança trail é obrigatório em trilhos a solo para garantir a segurança dos corredores."
   - q: "Qual a diferença entre um apito de segurança trail e um apito comum?"
     a: "Os apitos de segurança trail têm volume e frequência ajustados para serem audíveis a longas distâncias, mesmo em ambientes ruidosos. Além disso, são feitos de materiais resistentes à corrosão e ao impacto, enquanto os apitos comuns podem ser menos duráveis e menos potentes."
   - q: "Como devo armazenar o meu apito para garantir a sua durabilidade?"
-    a: "Guarda o apito numa bolsa de proteção ou em um compartimento de mochila, longe de produtos químicos e em local seco. Evita expô-lo a temperaturas extremas que possam afetar a sua estrutura metálica."
+    a: "Guarda o apito numa bolsa de proteção ou num compartimento de mochila, longe de produtos químicos e em local seco. Evita expô-lo a temperaturas extremas que possam afetar a sua estrutura metálica."
 ---
 
-O apito de segurança trail é um dos equipamentos mais essenciais para quem pratica trail a solo. Ele permite chamar atenção rapidamente em situações de emergência, garantindo que tu e os teus companheiros de trilha sejam localizados com rapidez.  
+O apito de segurança trail é um dos equipamentos mais essenciais para quem pratica trail a solo. Ele permite chamar atenção rapidamente em situações de emergência, garantindo que tu e os teus companheiros de trilho sejam localizados com rapidez.  
 
 ## Como Escolher: Critérios Que Importam  
 A escolha de um apito de segurança trail vai além de simplesmente comprar qualquer apito que se encontre à venda. É preciso avaliar vários critérios técnicos que garantem eficácia e durabilidade nas condições mais exigentes.  
 
 **Volume e alcance** – O apito deve produzir um som com volume suficiente para ser ouvido a pelo menos 300 metros em ambientes de floresta densa ou montanha. A frequência sonora deve ser entre 2000 Hz e 4000 Hz, onde o ouvido humano é mais sensível.  
 
-**Material e construção** – A maioria dos apitos de segurança trail utiliza aço inoxidável ou alumínio anodizado. O material deve ser resistente à corrosão, especialmente se a trilha atravessa áreas húmidas ou rochosas. A construção deve ser compacta, mas robusta, para suportar quedas e impacto com pedras.  
+**Material e construção** – A maioria dos apitos de segurança trail utiliza aço inoxidável ou alumínio anodizado. O material deve ser resistente à corrosão, especialmente se o trilho atravessa áreas húmidas ou rochosas. A construção deve ser compacta, mas robusta, para suportar quedas e impacto com pedras.  
 
 **Peso e tamanho** – Um bom apito deve pesar menos de 100 g e ter dimensões que permitam a fixação em mochila, cinto ou bastão. Um peso elevado pode tornar a mochila mais desconfortável, especialmente em longas distâncias.  
 

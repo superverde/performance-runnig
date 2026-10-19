@@ -17,7 +17,7 @@ As sapatilhas de corrida são um componente fundamental para qualquer corredor, 
 Ao escolher sapatilhas de corrida, é importante considerar vários critérios técnicos, baseados em princípios científicos. Aqui estão alguns dos principais pontos a considerar:
 
 * **Sistema de amortização**: É importante que o sistema de amortização seja adequado para o seu estilo de corrida. Se és um corredor de impacto leve, um sistema de amortização mais eficiente pode ser benéfico. No entanto, Se és um corredor de impacto médio ou pesado, um sistema de amortização mais suave pode ser mais adequado.
-* **Flexibilidade e elasticidade**: A flexibilidade e elasticidade da sapatilha são fundamentais para absorver o impacto do solo e reduzir o estresse nas articulações. Além disso, uma sapatilha mais elástica pode ajudar a melhorar a eficiência da corrida.
+* **Flexibilidade e elasticidade**: A flexibilidade e elasticidade da sapatilha são fundamentais para absorver o impacto do solo e reduzir o stress nas articulações. Além disso, uma sapatilha mais elástica pode ajudar a melhorar a eficiência da corrida.
 * **Estabilidade e suporte**: A estabilidade e o suporte são cruciais para evitar lesões nas articulações e nos músculos. Uma sapatilha com um sistema de estabilidade e suporte adequado pode ajudar a reduzir o risco de lesões.
 * **Transmissão de força**: A transmissão de força é fundamental para a eficiência da corrida. Uma sapatilha que transmite a força de forma eficiente pode ajudar a melhorar a performance e reduzir o esforço.
 

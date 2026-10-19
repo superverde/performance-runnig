@@ -23,11 +23,11 @@ A massagem desportiva, tradicionalmente usada em sessões pós‑competição, a
 ## Base Científica  
 A fáscia é um tecido conjuntivo que envolve músculos, nervos e vasos sanguíneos. Estudos indicam que a sua restrição pode levar a dor crónica e a padrões de movimento compensatórios (Dupuy et al., 2018). A libertação miofascial reduz a tensão fascial, melhorando a perfusão e facilitando a recuperação muscular. Em contraste, a massagem desportiva aumenta a circulação local e reduz a sensibilidade a estímulos de dor (Kellmann et al., 2018).  
 
-Além disso, a massagem pode acelerar a remoção de metabólitos de esforço, como o lactato, enquanto a libertação miofascial pode melhorar a flexibilidade e a amplitude de movimento, reduzindo o risco de lesões. A combinação de ambos, quando aplicada de forma sequencial, pode maximizar os benefícios de recuperação sem sobrecarregar o sistema nervoso autônomo.  
+Além disso, a massagem pode acelerar a remoção de metabólitos de esforço, como o lactato, enquanto a libertação miofascial pode melhorar a flexibilidade e a amplitude de movimento, reduzindo o risco de lesões. A combinação de ambos, quando aplicada de forma sequencial, pode maximizar os benefícios de recuperação sem sobrecarregar o sistema nervoso autónomo.  
 
 ## Aplicação Prática  
 ### Foam roller vs massagem  
-Para corredores que desejam um regime de recuperação autônoma, o foam roller (rolador de espuma) é uma ferramenta prática. Recomenda‑se 2–3 minutos por grupo muscular, aplicando pressão moderada e mantendo cada ponto por 30–60 s. A massagem, por outro lado, é mais eficaz quando realizada por um profissional qualificado, com duração de 20–30 min por sessão.  
+Para corredores que desejam um regime de recuperação autónoma, o foam roller (rolador de espuma) é uma ferramenta prática. Recomenda‑se 2–3 minutos por grupo muscular, aplicando pressão moderada e mantendo cada ponto por 30–60 s. A massagem, por outro lado, é mais eficaz quando realizada por um profissional qualificado, com duração de 20–30 min por sessão.  
 
 **Protocolos recomendados**  
 1. **Pré‑treino** – 5 min de libertação miofascial leve nas barrigas das pernas e quadríceps para melhorar a mobilidade.  

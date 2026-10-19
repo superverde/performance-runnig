@@ -26,7 +26,7 @@ A seguir, detalho a base científica, a aplicação prática, os erros mais comu
 
 Os nitratos (NO₃⁻) presentes na beterraba são convertidos em nitritos (NO₂⁻) na saliva e, posteriormente, em óxido nítrico (NO). O NO atua como vasodilatador, reduzindo a resistência vascular periférica e, consequentemente, a pressão arterial sistêmica. Estudos de **Jones (2014)** mostraram que a ingestão de 6 g de nitrato em forma de sumo de beterraba 2 h antes da corrida diminui a frequência cardíaca em 10 – 15 % a 70 % da FCmáx, mantendo a mesma velocidade.  
 
-Além da vasodilatação, o NO estimula a produção de ATP por via oxidativa, aumentando a eficiência do consumo de oxigénio. Isso se traduz numa economia de 2 – 4 % em distâncias entre 10 km e 42 km. A literatura de **Jeukendrup (2014)** destaca que a suplementação de nitratos complementa a estratégia de carboidratos, permitindo a manutenção de glicose sérica mais estável e reduzindo a necessidade de ingestão de carboidratos durante a prova.  
+Além da vasodilatação, o NO estimula a produção de ATP por via oxidativa, aumentando a eficiência do consumo de oxigénio. Isso se traduz numa economia de 2 – 4 % em distâncias entre 10 km e 42 km. A literatura de **Jeukendrup (2014)** destaca que a suplementação de nitratos complementa a estratégia de hidratos de carbono, permitindo a manutenção de glicose sérica mais estável e reduzindo a necessidade de ingestão de hidratos de carbono durante a prova.  
 
 A segurança a longo prazo ainda está em investigação, mas estudos de 6 meses de suplementação de beterraba não revelaram efeitos adversos significativos em atletas saudáveis.  
 
@@ -37,9 +37,9 @@ A segurança a longo prazo ainda está em investigação, mas estudos de 6 mes
 - **Frequência**: 3 dias antes da prova, 1 dia antes e 1 h antes do início.  
 - **Formato**: Sumo fresco ou concentrado em pó, misturado a água ou chá verde.  
 
-### 2. Integração com a Estratégia de Carboidratos  
-- **Pré‑corrida**: 60 min antes da prova, consumir 0,5 g kg⁻¹ de carboidratos (p. ex., 30 g de gel de glicose).  
-- **Durante a prova**: Se a distância for > 30 km, ingerir 30 g h⁻¹ de carboidratos.  
+### 2. Integração com a Estratégia de Hidratos de carbono  
+- **Pré‑corrida**: 60 min antes da prova, consumir 0,5 g kg⁻¹ de hidratos de carbono (p. ex., 30 g de gel de glicose).  
+- **Durante a prova**: Se a distância for > 30 km, ingerir 30 g h⁻¹ de hidratos de carbono.  
 - **Hidratação**: Manter 0,5 l h⁻¹ de líquido isotônico, ajustado conforme a temperatura e suor.  
 
 ### 3. Monitorização  
@@ -60,12 +60,12 @@ A segurança a longo prazo ainda está em investigação, mas estudos de 6 mes
 
 1. **Dosagem excessiva**: Ingerir > 10 g dia pode causar náuseas e diarréia, prejudicando a performance.  
 2. **Ignorar a hidratação**: A suplementação de nitratos aumenta a vasodilatação; se a hidratação for insuficiente, pode ocorrer hipotensão.  
-3. **Substituir os carboidratos**: Embora a economia de oxigénio seja real, a ingestão de carboidratos continua essencial para manter os níveis de glicose sérica, especialmente em provas de > 30 km.  
+3. **Substituir os hidratos de carbono**: Embora a economia de oxigénio seja real, a ingestão de hidratos de carbono continua essencial para manter os níveis de glicose sérica, especialmente em provas de > 30 km.  
 4. **Não testar antes da competição**: Cada atleta reage de forma diferente; testar em treinos longos evita surpresas no dia da prova.  
 
 ## Protocolo/Conclusão  
 
-Para corredores que buscam otimizar a economia de corrida, a suplementação com nitratos via sumo de beterraba é uma estratégia eficaz, com benefícios comprovados de 2 – 4 % na eficiência de oxigénio. A dose recomendada (6 g dia) aplicada 2 h antes da prova, combinada com a ingestão adequada de carboidratos e hidratação, resulta em ganhos de 1 – 2 minutos em maratonas.  
+Para corredores que procuram otimizar a economia de corrida, a suplementação com nitratos via sumo de beterraba é uma estratégia eficaz, com benefícios comprovados de 2 – 4 % na eficiência de oxigénio. A dose recomendada (6 g dia) aplicada 2 h antes da prova, combinada com a ingestão adequada de hidratos de carbono e hidratação, resulta em ganhos de 1 – 2 minutos em maratonas.  
 
 A prática deve ser sempre acompanhada de monitorização individualizada, ajustando a dose e o timing conforme a resposta fisiológica. Quando incorporada corretamente, a beterraba torna‑se um aliado valioso no arsenal de preparação de corredores de elite e de quem pretende melhorar a performance em distâncias de longa duração.  
 

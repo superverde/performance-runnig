@@ -34,9 +34,9 @@ Para aprofundar a escolha de suplementos nutricionais, consulta o nosso artigo s
 | Produto | Para quem é | Pontos Fortes | Pontos Fracos | Faixa de Preço |
 |---------|-------------|---------------|---------------|----------------|
 | **Tâmaras Desidratadas “Rápidas”** | Corredores que preferem alimentos integrais | 100 % natural, alta concentração de potássio, sabor doce | Necessita de mastigar, pode ser pesado em grandes quantidades | entre 12 € e 20 € |
-| **Barras de Cacau e Amêndoas “Energia Verde”** | Iniciantes que procuram praticidade | Combinação de carboidratos e gorduras saudáveis, 30 min de liberação | Mais calorias por porção, pode não ser suficiente para ultra | entre 25 € e 35 € |
+| **Barras de Cacau e Amêndoas “Energia Verde”** | Iniciantes que procuram praticidade | Combinação de hidratos de carbono e gorduras saudáveis, 30 min de liberação | Mais calorias por porção, pode não ser suficiente para ultra | entre 25 € e 35 € |
 | **Pastilhas de Glicose “Rapid”** | Competidores que precisam de dose rápida | Dissolução ultra‑rápida, 10 % de glicose, sem aromatizantes | Não contém eletrólitos, pode causar desidratação se não acompanhado de água | entre 15 € e 25 € |
-| **Suplemento de Frutos do Mar “Sea Power”** | Corredores que buscam micro‑nutrientes | Contém magnésio, potássio e selênio, sabor neutro | Disponibilidade limitada, mais caro | entre 30 € e 45 € |
+| **Suplemento de Frutos do Mar “Sea Power”** | Corredores que procuram micro‑nutrientes | Contém magnésio, potássio e selênio, sabor neutro | Disponibilidade limitada, mais caro | entre 30 € e 45 € |
 | **Pasta de Manteiga de Amendoim “Smooth”** | Atletas que preferem energia de gorduras | Gorduras monoinsaturadas, fibras, sabor cremoso | Mais calorias, pode causar desconforto gastrointestinal em alguns | entre 20 € e 30 € |
 
 Estas opções são recomendadas por especialistas em nutrição desportiva e testadas em corredores de elite. Todas as marcas citadas têm fichas técnicas disponíveis nos sites dos fabricantes, garantindo transparência e rastreabilidade.

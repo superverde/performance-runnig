@@ -27,7 +27,7 @@ Além disso, a preparação mental antes de treinar diminui a ansiedade e a sens
 Um protocolo simples e reproduzível pode ser dividido em três fases:
 
 1. **Respiração e relaxamento (2 min)** – inspira profunda, expira lentamente. Estudos mostram que a respiração diafragmática ativa o sistema nervoso parassimpático, preparando o corpo para a carga (Tenenbaum & Eklund, 2007).  
-2. **Visualização de objetivos (3 min)** – imagina a distância a percorrer, o ritmo e a sensação de conclusão. A visualização ativa áreas cerebrais de planejamento motor, aumentando a eficiência neuromuscular (Brick et al., 2014).  
+2. **Visualização de objetivos (3 min)** – imagina a distância a percorrer, o ritmo e a sensação de conclusão. A visualização ativa áreas cerebrais de planeamento motor, aumentando a eficiência neuromuscular (Brick et al., 2014).  
 3. **Reafirmação de intenções (1 min)** – repete mentalmente a meta do treino (ex.: “correrei 5 km em 25 min”) e a razão pela qual o treino é importante. Esta etapa reforça a memória de longo prazo e a motivação intrínseca (McCormick et al., 2015).
 
 Para corredores de nível avançado, pode‑se acrescentar uma breve meditação guiada de 1 min, focada em sensações corporais. Para iniciantes, basta a fase de respiração e visualização.
@@ -41,7 +41,7 @@ Para corredores de nível avançado, pode‑se acrescentar uma breve meditação
 ## Protocolo/Conclusão  
 Implementar uma rotina pré‑treino de 6 min, baseada em respiração, visualização e afirmação, aumenta a consistência em até 15 % quando comparado a treinos sem ritual (McCormick et al., 2015). O segredo está na regularidade: a prática diária cria um hábito de corredor que se torna quase automático.  
 
-Para começar, escolhe um local silencioso, define um temporizador e segue o protocolo acima. Regista o teu progresso em um diário de treino, anotando a sensação de foco e a qualidade do desempenho. Ao longo das semanas, ajusta a duração de cada fase conforme a tua evolução.
+Para começar, escolhe um local silencioso, define um temporizador e segue o protocolo acima. Regista o teu progresso num diário de treino, anotando a sensação de foco e a qualidade do desempenho. Ao longo das semanas, ajusta a duração de cada fase conforme a tua evolução.
 
 
 ## Referências Científicas  

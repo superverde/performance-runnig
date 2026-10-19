@@ -25,7 +25,7 @@ A seleção de sapatilhas de pista deve basear‑se em parâmetros que afetam di
 
 2. **Running Economy (Economia de Corrida)** – Fuller *et al.* (2015) indicam que a combinação de leveza, suporte e resposta ao impacto melhora a economia de corrida. Sapatilhas com tecnologia de “midsole” de espuma de alta densidade e solado em EVA leve são recomendadas.
 
-3. **Biomecânica e Lesões** – Nigg *et al.* (2015) alertam para a relação entre design do calçado e risco de lesões. Calçados que equilibram suporte medial e flexibilidade reduzem a incidência de tendinopatia e fraturas por estresse.
+3. **Biomecânica e Lesões** – Nigg *et al.* (2015) alertam para a relação entre design do calçado e risco de lesões. Calçados que equilibram suporte medial e flexibilidade reduzem a incidência de tendinopatia e fraturas por stress.
 
 4. **Drop (Queda)** – O drop (diferença entre o tamanho do calço e do antepé) influencia a postura. Para corredores que preferem uma corrida mais natural, drops entre 5 mm e 8 mm são adequados; para quem procura velocidade em pista, drops de 0 mm a 4 mm podem ser vantajosos.
 
@@ -39,7 +39,7 @@ Ao ponderar estes fatores, é essencial alinhar o calçado ao teu estilo de corr
 
 | Nome | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
 |------|-------------|---------------|---------------|----------------|
-| **Nike Air Zoom Victory 3** | Corredores de 1500 m a 3000 m que buscam velocidade | Amortização de Zoom Air no antepé, drop 4 mm, leveza | Cabedal pode ser apertado para pés largos | entre 180 € e 220 € |
+| **Nike Air Zoom Victory 3** | Corredores de 1500 m a 3000 m que procuram velocidade | Amortização de Zoom Air no antepé, drop 4 mm, leveza | Cabedal pode ser apertado para pés largos | entre 180 € e 220 € |
 | **Adidas Adizero Boston 10** | Atletas que competem em 800 m a 1500 m | Plataforma de Boost de 12 mm, suporte lateral, drop 5 mm | Solado pode perder aderência em pistas de areia | entre 160 € e 200 € |
 | **New Balance 860v12** | Corredores que precisam de controlo medial | Tecnologia Fresh Foam com suporte, drop 8 mm, boa estabilidade | Peso ligeiramente maior que modelos “speed” | entre 170 € e 210 € |
 | **ASICS Gel-Kayano 28** | Corredores com histórico de lesões ou que precisam de amortização | Gel Duo na zona posterior, suporte de estabilidade, drop 9 mm | Pode ser demasiado rígido para corredores de velocidade | entre 190 € e 230 € |
@@ -53,11 +53,11 @@ Cada modelo foi testado em pista sintética e apresenta um equilíbrio entre vel
 - **Competidor de média distância** – *Nike Air Zoom Victory 3*: combinação de amortização Zoom Air e drop moderado, perfeito para 1500 m e 3000 m.  
 - **Corredor avançado ou com histórico de lesões** – *ASICS Gel-Kayano 28*: oferece suporte medial e amortização Gel Duo, reduzindo o risco de lesões em corridas longas.  
 
-Para todos os perfis, é recomendável testar as sapatilhas em um percurso de pista real e ajustar a altura do calço conforme a tua biomecânica individual.
+Para todos os perfis, é recomendável testar as sapatilhas num percurso de pista real e ajustar a altura do calço conforme a tua biomecânica individual.
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
 
 
 ## Referências
 
-Nigg, B. M., Baltich, J., Hoerzer, S., &
+Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms: "preferred movement path" and "comfort filter". *British Journal of Sports Medicine*, 49(20), 1290–1294. https://doi.org/10.1136/bjsports-2015-095054

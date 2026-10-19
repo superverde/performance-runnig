@@ -68,13 +68,13 @@ A tabela acima pode ser ajustada com base no volume habitual do atleta. A regra 
 
 2. **Perder a Intensidade** – Substituir intervalos de alta intensidade por trotes leves reduz o estímulo ao limiar anaeróbico. A preservação de intensidade é crucial, conforme demonstrado por Seiler (2010).
 
-3. **Negligenciar a Nutrição** – A reposição de glicogênio é sensível ao consumo de carboidratos. Ignorar a ingestão de 8‑12 g kg⁻¹ h⁻¹ nas duas semanas pode impedir a recuperação completa. Estudos de Blagrove et al. (2018) indicam que a suplementação adequada melhora a performance pós‑taper.
+3. **Negligenciar a Nutrição** – A reposição de glicogênio é sensível ao consumo de hidratos de carbono. Ignorar a ingestão de 8‑12 g kg⁻¹ h⁻¹ nas duas semanas pode impedir a recuperação completa. Estudos de Blagrove et al. (2018) indicam que a suplementação adequada melhora a performance pós‑taper.
 
 4. **Sobrecarga de Treino de Força** – Adicionar sessões de força intensiva na fase de taper pode contradir o objetivo de recuperação. A literatura recomenda reduzir a carga de força em 50 % ou eliminar sessões de força de alta intensidade.
 
 ## Protocolo/Conclusão
 
-Um taper de duas semanas bem‑estruturado segue o princípio de “menos, mas melhor”. Reduzir o volume em 10 %‑30 % na primeira semana, mantendo a mesma intensidade, e diminuir em 30 %‑55 % na segunda semana, preservando a capacidade de velocidade, resulta em um aumento médio de 3 % na performance. Este protocolo é aplicável a todas as distâncias, desde 5 km até maratona, com ajustes de volume conforme a base de treino do atleta.
+Um taper de duas semanas bem‑estruturado segue o princípio de “menos, mas melhor”. Reduzir o volume em 10 %‑30 % na primeira semana, mantendo a mesma intensidade, e diminuir em 30 %‑55 % na segunda semana, preservando a capacidade de velocidade, resulta num aumento médio de 3 % na performance. Este protocolo é aplicável a todas as distâncias, desde 5 km até maratona, com ajustes de volume conforme a base de treino do atleta.
 
 A chave está na monitorização: usar a frequência cardíaca, a percepção de esforço e o nível de fadiga para ajustar a carga caso o atleta apresente sinais de sobrecarga ou sub‑recovery. Ao final do taper, o atleta deve sentir-se fresco, com força muscular plena e capacidade de velocidade intacta, pronto para alcançar o pico de performance no dia da prova.
 
@@ -83,4 +83,4 @@ A chave está na monitorização: usar a frequência cardíaca, a percepção de
 
 1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
 2. Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (2007). Effects of tapering on performance: a meta-analysis. Medicine & Science in Sports & Exercise, 39(8), 1358-1365. https://doi.org/10.1249/mss.0b013e31806010e0  
-3. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2),
+3. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? *Scandinavian Journal of Medicine & Science in Sports*, 20(Suppl 2), 1–10. https://doi.org/10.1111/j.1600-0838.2010.01184.x

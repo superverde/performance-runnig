@@ -10,16 +10,16 @@ readTime: 5
 faqs:
   - q: "Qual é o menor déficit calórico que já pode afetar o desempenho de um corredor?"
     a: "Mesmo um déficit de 30 kcal d⁻¹ pode reduzir a capacidade de trabalho em 2‑5 % nas provas de longa distância."
-  - q: "Como saber se a minha ingestão de carboidratos é suficiente?"
+  - q: "Como saber se a minha ingestão de hidratos de carbono é suficiente?"
     a: "Se sentir fadiga antes do fim do treino, ou se o tempo de 10 km não melhorar depois de 2 semanas, é provável que a reposição de glicogênio seja insuficiente; aumente a ingestão para 6‑10 g kg⁻¹ d⁻¹."
   - q: "É seguro substituir calorias por suplementos de proteína?"
-    a: "Não. Os suplementos de proteína não fornecem energia; é essencial garantir a ingestão calórica total através de alimentos ricos em carboidratos e gorduras."
+    a: "Não. Os suplementos de proteína não fornecem energia; é essencial garantir a ingestão calórica total através de alimentos ricos em hidratos de carbono e gorduras."
 ---
 
 A deficiência energética relativa (RED‑S) acontece quando a ingestão calórica diária não cobre as necessidades energéticas do corpo, levando a prejuízos no desempenho e na saúde do corredor.  
 Para corredores de elite, a falta de energia não só reduz a capacidade de treino, mas também compromete a recuperação, o equilíbrio hormonal e a integridade óssea, criando um ciclo de queda de rendimento que pode ser difícil de quebrar.
 
-Em contextos de corrida de longa distância, a energia provém principalmente de carboidratos, mas o déficit pode surgir por várias razões: dietas excessivamente restritivas, volume de treino elevado, ou desequilíbrios no timing das refeições. A RED‑S não se limita a atletas com baixo peso; mesmo corredores bem alimentados podem experimentar sintomas se a energia não for distribuída adequadamente ao longo do dia.
+Em contextos de corrida de longa distância, a energia provém principalmente de hidratos de carbono, mas o déficit pode surgir por várias razões: dietas excessivamente restritivas, volume de treino elevado, ou desequilíbrios no timing das refeições. A RED‑S não se limita a atletas com baixo peso; mesmo corredores bem alimentados podem experimentar sintomas se a energia não for distribuída adequadamente ao longo do dia.
 
 ## Base Científica
 
@@ -34,16 +34,16 @@ Os efeitos fisiológicos incluem a diminuição da síntese de proteínas muscul
 ### Avaliação Inicial
 
 1. **Registo de Alimentação**: 3‑dias de diário alimentar (incluindo snacks), anotando horários, tipos de alimentos e quantidades.  
-2. **Cálculo de EI**: Utilizar aplicativos de rastreamento calórico com base em tabelas de composição de alimentos.  
+2. **Cálculo de EI**: Utilizar aplicações de rastreamento calórico com base em tabelas de composição de alimentos.  
 3. **Estimativa de EE**: Calcular o gasto basal (BMR) com a fórmula de Harris‑Benedict e somar o gasto de treino (kcal kg⁻¹ km × distância).  
 4. **Comparação**: EI – EE; se o resultado for negativo, o atleta está em déficit.
 
 ### Estratégias de Reforço Energético
 
-- **Carboidratos**: 6‑10 g kg⁻¹ d⁻¹, distribuídos em 3‑4 refeições principais e 2‑3 snacks. Exemplo: 70 kg → 420‑700 kcal de carboidratos/dia.  
+- **Hidratos de carbono**: 6‑10 g kg⁻¹ d⁻¹, distribuídos em 3‑4 refeições principais e 2‑3 snacks. Exemplo: 70 kg → 420‑700 kcal de hidratos de carbono/dia.  
 - **Proteína**: 1,2‑1,6 g kg⁻¹ d⁻¹ para preservar a massa muscular.  
 - **Gordura**: 0,8‑1,2 g kg⁻¹ d⁻¹, mantendo a ingestão total calórica sem exceder 30 % das calorias.  
-- **Timing**: Ingerir 30 min antes de cada sessão de treino uma refeição rica em carboidratos (ex.: 1 tigela de aveia + banana + 2 colheres de chá de mel).  
+- **Timing**: Ingerir 30 min antes de cada sessão de treino uma refeição rica em hidratos de carbono (ex.: 1 tigela de aveia + banana + 2 colheres de chá de mel).  
 - **Reidratação**: 1,5 L de água por cada 10 km corridos; incluir eletrólitos se a perda de suor for > 0,5 % do peso corporal.
 
 ### Protocolos de Treino
@@ -62,7 +62,7 @@ Os efeitos fisiológicos incluem a diminuição da síntese de proteínas muscul
 
 | Erro | Impacto | Solução |
 |------|---------|---------|
-| Subestimar a necessidade de carboidratos pós‑treino | Diminuição da reposição de glicogênio | Consumir 0,5‑0,8 g kg⁻¹ em 30 min pós‑treino |
+| Subestimar a necessidade de hidratos de carbono pós‑treino | Diminuição da reposição de glicogênio | Consumir 0,5‑0,8 g kg⁻¹ em 30 min pós‑treino |
 | Ignorar sinais de fadiga crónica | Aumento do risco de lesões | Introduzir dias de descanso quando a dor persiste > 48 h |
 | Substituir calorias por suplementos de baixa densidade | Deficiência calórica | Priorizar alimentos densos (frutos secos, abacate, azeite) |
 | Focar apenas em proteínas | Perda de massa muscular | Equilibrar macro‑nutrientes conforme protocolo acima |
@@ -71,8 +71,8 @@ Os efeitos fisiológicos incluem a diminuição da síntese de proteínas muscul
 
 A prevenção da RED‑S exige um equilíbrio preciso entre ingestão calórica, distribuição de macronutrientes e carga de treino. Um protocolo de 4‑semanas pode ser estruturado da seguinte forma:
 
-1. **Semana 1–2**: Aumentar EI em 200‑300 kcal/dia, mantendo a distribuição 55 % carboidratos, 25 % proteína, 20 % gordura.  
-2. **Semana 3**: Introduzir treino intervalado de 5 × 3 min a 90 % FCmáx, mantendo a ingestão de carboidratos 1 h antes e 30 min depois.  
+1. **Semana 1–2**: Aumentar EI em 200‑300 kcal/dia, mantendo a distribuição 55 % hidratos de carbono, 25 % proteína, 20 % gordura.  
+2. **Semana 3**: Introduzir treino intervalado de 5 × 3 min a 90 % FCmáx, mantendo a ingestão de hidratos de carbono 1 h antes e 30 min depois.  
 3. **Semana 4**: Avaliar performance (tempo de 10 km) e biomarcadores (cortisol). Se a performance melhorar > 2 %, manter protocolo; caso contrário, reduzir a carga em 10 % e aumentar EI em 150 kcal/dia.
 
 Ao seguir estes passos, o corredor reduz o risco de RED‑S, melhora a recuperação e sustém o rendimento a longo prazo. A chave é a constância: manter a ingestão calórica alinhada ao gasto energético, monitorizar sinais de fadiga e ajustar o plano de treino conforme os dados.
@@ -80,4 +80,4 @@ Ao seguir estes passos, o corredor reduz o risco de RED‑S, melhora a recupera�
 
 ## Referências Científicas
 
-Mountjoy, M., Ackerman, K. E., Bailey, D. M., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative
+Mountjoy, M., Ackerman, K. E., Bailey, D. M., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1097. https://doi.org/10.1136/bjsports-2023-106994

@@ -36,7 +36,7 @@ Além disso, alguns atletas podem pensar que os exercícios de fortalecimento s�
 
 Para prevenir as bolhas nos pés, é fundamental investir em calçado adequado e realizar exercícios para fortalecer os músculos dos pés e dos tornozelos. Além disso, é importante adotar uma boa técnica de corrida e evitar o excesso de impacto e sobrecarga.
 
-Se as bolhas nos pés já surgirem, é importante buscar tratamento o mais rápido possível. Isso pode incluir o uso de calçados especiais, o aplicação de gel e o uso de métodos de tratamento conservador, como o uso de compressas e o alongamento.
+Se as bolhas nos pés já surgirem, é importante procurar tratamento o mais rápido possível. Isso pode incluir o uso de calçados especiais, o aplicação de gel e o uso de métodos de tratamento conservador, como o uso de compressas e o alongamento.
 
 ## Referências Científicas
 

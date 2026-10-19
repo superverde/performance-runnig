@@ -12,7 +12,7 @@ faqs:
   - q: "É seguro colocar as sapatilhas na máquina de lavar?"
     a: "Sim, se o fabricante indicar que o calçado é seguro para lavagem mecânica. Utiliza um saco de lavagem e um ciclo suave."
   - q: "Qual o melhor método para cuidar das sapatilhas após a lavagem?"
-    a: "Seca as sapatilhas ao ar livre, longe da luz solar direta, preenchendo-as com papel toalha para manter a forma. Remova os cadarços e palmilhas separadamente."
+    a: "Seca as sapatilhas ao ar livre, longe da luz solar direta, preenchendo-as com papel toalha para manter a forma. Remova os atacadores e palmilhas separadamente."
 ---
 
 Para quem procura saber como lavar sapatilhas, este artigo oferece uma abordagem detalhada e prática. A limpeza adequada não só mantém o visual do teu calçado, mas também previne a proliferação de bactérias e prolonga a sua performance em cada corrida.
@@ -23,7 +23,7 @@ A primeira etapa para cuidar das sapatilhas é separar os componentes: sola, cab
 
 ### 1. Preparação
 
-- Retira os cadarços e os palmilhas. Os cadarços podem ser lavados à mão ou colocados em um saco de lavagem, enquanto as palmilhas são melhor secas ao ar.
+- Retira os atacadores e os palmilhas. Os atacadores podem ser lavados à mão ou colocados num saco de lavagem, enquanto as palmilhas são melhor secas ao ar.
 - Escorre a sujeira grosseira com um pano úmido ou uma escova de dentes macia. Isto previne que a sujeira se fixe durante a lavagem.
 
 ### 2. Lavagem na Máquina
@@ -35,7 +35,7 @@ A primeira etapa para cuidar das sapatilhas é separar os componentes: sola, cab
 ### 3. Secagem
 
 - Evita secar as sapatilhas em secadora ou sob luz solar direta. O calor excessivo pode deformar a sola ou o cabedal.
-- Preenche as sapatilhas com papel toalha ou jornal para manter a forma e absorver a humidade. Deixa secar ao ar livre, em um local ventilado.
+- Preenche as sapatilhas com papel toalha ou jornal para manter a forma e absorver a humidade. Deixa secar ao ar livre, num local ventilado.
 
 ## Como Escolher: Critérios Que Importam
 

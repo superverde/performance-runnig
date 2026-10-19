@@ -54,7 +54,7 @@ Cada sessão deve incluir 10 min de aquecimento e 10 min de desaquecimento, 
 
 ## Protocolo/Conclusão  
 
-Um retorno bem‑planejado, que combina volume moderado, intensidade progressiva e fortalecimento, permite recuperar rapidamente a capacidade aeróbica e reduzir a perda de forma. A ciência demonstra que a inclusão de intervalos de alta intensidade e exercícios de força durante as primeiras semanas acelera a adaptação (Seiler, 2010; Laursen, 2010). Ao seguir este protocolo, o corredor volta a correr com segurança, mantendo a técnica e evitando lesões.  
+Um retorno bem‑planeado, que combina volume moderado, intensidade progressiva e fortalecimento, permite recuperar rapidamente a capacidade aeróbica e reduzir a perda de forma. A ciência demonstra que a inclusão de intervalos de alta intensidade e exercícios de força durante as primeiras semanas acelera a adaptação (Seiler, 2010; Laursen, 2010). Ao seguir este protocolo, o corredor volta a correr com segurança, mantendo a técnica e evitando lesões.  
 
 
 ## Referências Científicas  

@@ -1227,6 +1227,8 @@ const BRASILEIRISMOS = [
   br('econômic[oa]s?'), br('eletrônic[oa]s?'), br('fenômenos?'),
   br('goniômetros?'), br('tênis'), br('umidade'), br('bunda'),
   br('(?:está|estás|estão|estava|estavam)\\s+[a-zà-ÿ]+ndo'),
+  br('carboidratos?'), br('estresse'), br('contatos?'), br('planej\\w*'), br('aplicativos?'),
+  br('usuári[oa]s?'), br('fones? de ouvido'), br('café da manhã'), br('hormônios?'),
 ]
 
 // Corretor automático de brasileirismos — 2026-09-22.
@@ -1244,6 +1246,37 @@ const BRASILEIRISMOS = [
 // Agora o texto é corrigido ANTES de ser validado, e a validação só barra o
 // que não se corrige sozinho (artigo vazio/curto, sem referências, sem FAQ).
 const CORRECOES_PT = [
+  // Acrescentados na auditoria de 2026-10-19: estas formas passavam pelo
+  // corretor e chegaram a 294 ocorrências de "carboidratos" em 65 artigos.
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])carboidratos(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'hidratos de carbono'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])carboidrato(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'hidrato de carbono'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])estresse(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'stress'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])contatos(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'contactos'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])contato(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'contacto'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])planejamento(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'planeamento'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])planejar(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'planear'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])planejad([oa]s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'planead$1'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])aplicativos(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'aplicações'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])aplicativo(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'aplicação'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])usuários(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'utilizadores'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])usuário(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'utilizador'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])fones de ouvido(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'auscultadores'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])suco(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'sumo'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])café da manhã(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'pequeno-almoço'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])cadarços(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'atacadores'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])registro(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'registo'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])celulares(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'telemóveis'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])buscam(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'procuram'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])buscar(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'procurar'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])em um(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'num'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])em uma(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'numa'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])de fato(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'de facto'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])grupo controle(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'grupo de controlo'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])hormônios(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'hormonas'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])hormônio(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'hormona'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])quilômetro(s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'quilómetro$1'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])crônic([oa]s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'crónic$1'],  // 2026-10-19
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])autônom([oa]s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'autónom$1'],  // 2026-10-19
   [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])treinamentos(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'treinos'],
   [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])treinamento(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'treino'],
   [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])panturrilhas(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'barrigas das pernas'],
@@ -1316,11 +1349,28 @@ function largarPronome(texto) {
     .replace(/(?<=^|[^\wÀ-ÖØ-öø-ÿ])vocês?\s+/gi, '')
 }
 
+
+// 2026-10-19 — a auditoria encontrou 43 artigos com a última referência
+// cortada a meio ("Nigg, B. M., Baltich, J., Hoerzer, S., &"): a resposta da
+// Groq chega ao max_tokens a meio da lista. Uma referência incompleta é pior
+// do que nenhuma, por isso cortam-se as linhas finais que não terminam como
+// uma referência completa (ponto final, DOI ou URL).
+function aparaReferenciaCortada(texto) {
+  const linhas = texto.replace(/\s+$/, '').split('\n')
+  const completa = (l) => /(https?:\/\/\S+|doi:\s*\S+|\.\s*\*?)$/.test(l.trim()) && l.trim().length > 60
+  const ehReferencia = (l) => /[A-ZÀ-Ý][a-zà-ÿ]+,\s+[A-Z]\./.test(l)
+  while (linhas.length && (linhas[linhas.length - 1].trim() === '' ||
+         (ehReferencia(linhas[linhas.length - 1]) && !completa(linhas[linhas.length - 1])))) {
+    linhas.pop()
+  }
+  return linhas.join('\n') + '\n'
+}
+
 function corrigirBrasileirismos(texto) {
   let out = texto
   for (const [re, sub] of CORRECOES_PT) out = out.replace(re, sub)
   out = corrigirGerundio(out)
-  return largarPronome(out)
+  return aparaReferenciaCortada(largarPronome(out))
 }
 
 function validarArtigo(content, topic) {

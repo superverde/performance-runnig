@@ -25,7 +25,7 @@ Os corredores costumam comparar o seu peso com a média de elite ou com a de atl
 A economia de corrida – a quantidade de energia consumida a cada quilómetro – está inversamente relacionada com a massa corporal. Estudos mostram que uma redução de 1 kg pode melhorar a economia em torno de 1–2 %. No entanto, essa relação não é linear; a composição corporal corredor (massa magra vs. gordura) modula o efeito. A posição oficial da American College of Sports Medicine (ACSM) destaca que a otimização da composição corporal deve equilibrar a perda de gordura com a manutenção de massa magra para preservar a potência (Thomas, Erdman & Burke, 2016).
 
 ### Impacto da Dieta na Performance
-A ingestão de carboidratos durante o treino e a competição sustenta a glicogénica e evita a fadiga precoce (Jeukendrup, 2014). Dietas com baixo teor de carboidratos e alto teor de gordura têm sido associadas a uma piora na economia de corrida e a um efeito negativo na performance de elite (Burke et al., 2017). Assim, o peso de corrida não deve ser visto apenas como um número, mas como resultado de um equilíbrio nutricional que sustenta a performance.
+A ingestão de hidratos de carbono durante o treino e a competição sustenta a glicogénica e evita a fadiga precoce (Jeukendrup, 2014). Dietas com baixo teor de hidratos de carbono e alto teor de gordura têm sido associadas a uma piora na economia de corrida e a um efeito negativo na performance de elite (Burke et al., 2017). Assim, o peso de corrida não deve ser visto apenas como um número, mas como resultado de um equilíbrio nutricional que sustenta a performance.
 
 ## Aplicação Prática
 
@@ -42,7 +42,7 @@ Para um corredor de 70 kg e 12 % de gordura, a massa magra seria ≈61 kg.
 - **Reavaliação da composição**: cada 8–12 semanas para ajustar o plano.
 
 ### Exemplo de Protocolo
-| Semana | Peso alvo | Proteína (g kg⁻¹ d) | Carboidratos (g kg⁻¹ d) | Exercício |
+| Semana | Peso alvo | Proteína (g kg⁻¹ d) | Hidratos de carbono (g kg⁻¹ d) | Exercício |
 |--------|-----------|---------------------|------------------------|-----------|
 | 1‑4    | 68 kg     | 1,8                 | 5,5                    | Treino de resistência + 2 × 30 s sprint |
 | 5‑8    | 66 kg     | 1,9                 | 5,0                    | Treino intervalado + 1 × 40 s sprint |
@@ -53,7 +53,7 @@ Acompanhar a evolução permite evitar a perda de massa magra.
 ## Erros Comuns
 
 1. **Perder peso sem controlar a composição corporal** – pode levar à perda de força.  
-2. **Substituir carboidratos por gorduras** – prejudica a economia de corrida.  
+2. **Substituir hidratos de carbono por gorduras** – prejudica a economia de corrida.  
 3. **Ignorar sinais de fadiga** – a perda de peso rápida pode aumentar o risco de lesões.  
 4. **Focar apenas no número na balança** – a percentagem de gordura e a massa magra são mais indicativos.
 
@@ -62,4 +62,4 @@ Acompanhar a evolução permite evitar a perda de massa magra.
 
 1. Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Medicine, 44(Suppl 1), 25-33. https://doi.org/10.1007/s40279-014-0148-z  
 2. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement: Nutrition and Athletic Performance. Medicine & Science in Sports & Exercise, 48(3), 543-568. https://doi.org/10.1249/MSS.0000000000000852  
-3. Burke, L. M., Ross, M. L., Garvican‑Lewis, L. A., et al. (2017). Low carbohydrate, high fat diet impairs exercise economy and negates the performance benefit from intensified training in elite race walkers. The Journal of Physiology, 595(9), 2785-2807. https
+3. Burke, L. M., Ross, M. L., Garvican-Lewis, L. A., et al. (2017). Low carbohydrate, high fat diet impairs exercise economy and negates the performance benefit from intensified training in elite race walkers. *The Journal of Physiology*, 595(9), 2785–2807. https://doi.org/10.1113/JP273230

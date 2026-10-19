@@ -8,7 +8,7 @@ keyword: "simular a maratona"
 keywords: ["treinos específicos de maratona", "ritmo de maratona", "blocos de maratona"]
 readTime: 5
 faqs:
-  - q: "Quanto tempo deve durar um bloco de longos em um programa de maratona?"
+  - q: "Quanto tempo deve durar um bloco de longos num programa de maratona?"
     a: "Um bloco de longos costuma durar entre 20 e 35 km, dependendo do nível de experiência; a cada semana aumenta-se 2–3 km até atingir a distância alvo."
   - q: "Qual é a zona de intensidade mais adequada para o bloco tempo?"
     a: "A zona ideal é 85–90 % da FC máxima, equivalendo a 4–5 km h⁻¹ acima do ritmo de 10 km, para estimular a tolerância ao lactato."

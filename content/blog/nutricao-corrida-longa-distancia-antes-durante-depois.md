@@ -21,7 +21,7 @@ Neste artigo, abordo a nutrição para corridas longas de forma estruturada, com
 
 Antes de falar de alimentos, é essencial perceber o que acontece no teu organismo durante uma corrida longa.
 
-O músculo esquelético usa dois combustíveis principais: **glicogénio** (carboidratos armazenados) e **ácidos gordos livres** (gordura). A proporção depende diretamente da intensidade do esforço. A ritmos moderados (60-70% do VO2max), o organismo consegue oxidar gordura de forma eficiente. À medida que a intensidade sobe (acima de 75-80% VO2max), a dependência do glicogénio aumenta exponencialmente.
+O músculo esquelético usa dois combustíveis principais: **glicogénio** (hidratos de carbono armazenados) e **ácidos gordos livres** (gordura). A proporção depende diretamente da intensidade do esforço. A ritmos moderados (60-70% do VO2max), o organismo consegue oxidar gordura de forma eficiente. À medida que a intensidade sobe (acima de 75-80% VO2max), a dependência do glicogénio aumenta exponencialmente.
 
 O problema? As reservas de glicogénio muscular e hepático são limitadas — entre **400 e 600 gramas no total**, o que corresponde a aproximadamente 1.600-2.400 kcal. Para um corredor a ritmo de maratona, essas reservas esgotam-se ao fim de 90 a 120 minutos. Conheces o "muro" dos 30km? É exatamente este momento.
 
@@ -31,7 +31,7 @@ O problema? As reservas de glicogénio muscular e hepático são limitadas — e
 
 ### 48-72h antes de uma corrida longa ou prova
 
-Para corridas superiores a 90 minutos, faz sentido aumentar ligeiramente a ingestão de carboidratos nos dias anteriores — o chamado *carb loading*. O objetivo não é comer em excesso, mas garantir que o glicogénio muscular está no máximo da sua capacidade.
+Para corridas superiores a 90 minutos, faz sentido aumentar ligeiramente a ingestão de hidratos de carbono nos dias anteriores — o chamado *carb loading*. O objetivo não é comer em excesso, mas garantir que o glicogénio muscular está no máximo da sua capacidade.
 
 **Protocolo prático:**
 - Aumenta os hidratos de carbono para **8-10 g/kg de peso corporal/dia** nas 48h anteriores
@@ -43,18 +43,18 @@ Para corridas superiores a 90 minutos, faz sentido aumentar ligeiramente a inges
 A refeição pré-treino tem dois objetivos: completar os depósitos de glicogénio hepático e garantir que o estômago está relativamente vazio no momento da partida.
 
 **O que comer:**
-- 1-1,5 g de carboidratos/kg de peso corporal
+- 1-1,5 g de hidratos de carbono/kg de peso corporal
 - Proteína moderada (15-25 g)
 - Gordura mínima (atrasa o esvaziamento gástrico)
 
 **Exemplo real para um atleta de 70 kg:**
-- 70-105 g de carboidratos → 150 g de aveia cozida + 1 banana + 1 colher de mel
+- 70-105 g de hidratos de carbono → 150 g de aveia cozida + 1 banana + 1 colher de mel
 - 20 g de proteína → 2 ovos mexidos ou iogurte grego
 
 ### 30-60 minutos antes
 
-Se a corrida for intensa ou superior a 2 horas, um pequeno snack de carboidratos de absorção rápida pode ser útil:
-- 1 banana madura (27 g de carboidratos)
+Se a corrida for intensa ou superior a 2 horas, um pequeno snack de hidratos de carbono de absorção rápida pode ser útil:
+- 1 banana madura (27 g de hidratos de carbono)
 - 1 gel energético com água
 - 40-50 g de tâmaras
 
@@ -66,7 +66,7 @@ Atenção: algumas pessoas experienciam **hipoglicémia reativa** com açúcares
 
 Para corridas **inferiores a 60 minutos** de intensidade moderada, a nutrição durante o esforço é dispensável — as reservas chegam.
 
-Para corridas entre **60 e 90 minutos**, considera 30 g de carboidratos/hora.
+Para corridas entre **60 e 90 minutos**, considera 30 g de hidratos de carbono/hora.
 
 Para corridas **superiores a 90 minutos**, a estratégia muda completamente:
 
@@ -74,7 +74,7 @@ Para corridas **superiores a 90 minutos**, a estratégia muda completamente:
 
 O intestino tem uma capacidade máxima de absorção de glicose de **~60 g/hora**. No entanto, se combinares diferentes tipos de açúcares (glicose + frutose), consegues atingir **90 g/hora**, porque usam transportadores intestinais diferentes (SGLT1 e GLUT5).
 
-**Fontes de carboidratos durante a corrida:**
+**Fontes de hidratos de carbono durante a corrida:**
 - Géis energéticos (25-30 g por gel)
 - Bebidas isotónicas (30-60 g por 500 ml, dependendo da concentração)
 - Tâmaras, banana, waffles de arroz (para provas longas com transição mais lenta)
@@ -97,14 +97,14 @@ As primeiras 30-60 minutos após terminar são críticas para a recuperação. O
 
 ### O que o teu corpo precisa:
 
-**Carboidratos (1-1,2 g/kg):**
+**Hidratos de carbono (1-1,2 g/kg):**
 Repõe o glicogénio muscular o mais rápido possível. A velocidade de ressíntese é máxima na primeira hora pós-exercício.
 
 **Proteína (0,3-0,4 g/kg ou 25-35 g):**
 Ativa a síntese proteica muscular e reduz o dano muscular induzido pelo exercício. A leucina é o aminoácido chave — garante pelo menos 2-3 g por refeição.
 
 **Exemplo de refeição de recuperação para 70 kg:**
-- 70-85 g de carboidratos + 25 g de proteína
+- 70-85 g de hidratos de carbono + 25 g de proteína
 - Batata-doce assada (200 g) + frango grelhado (150 g) + legumes + azeite
 
 Se não consegues comer uma refeição completa, um batido de proteína com leite e uma banana é uma boa alternativa transitória.

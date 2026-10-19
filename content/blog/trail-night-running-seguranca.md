@@ -25,16 +25,16 @@ Outro fator importante a considerar é a temperatura corporal. Ao correr à noit
 
 Ao considerar a base científica da Night Running, podemos aplicar as seguintes estratégias para garantir a segurança e o sucesso do atleta:
 
-* **Escolha equipamentos de iluminação adequados**: Escolha uma lâmpada de LED com uma intensidade de iluminação de pelo menos 300 lux e uma faixa de visão de pelo menos 120 graus.
-* **Ajuste a velocidade**: Ajuste a velocidade de acordo com as condições climáticas e o terreno. Correr a velocidade certa pode ajudar a evitar acidentes e melhorar a performance desportiva.
-* **Manter a temperatura corporal**: Mantenha a temperatura corporal dentro de um intervalo seguro para evitar lesões e melhorar a performance desportiva.
+* **Escolhe equipamentos de iluminação adequados**: Escolhe uma lâmpada de LED com uma intensidade de iluminação de pelo menos 300 lux e uma faixa de visão de pelo menos 120 graus.
+* **Ajusta a velocidade**: Ajusta a velocidade de acordo com as condições climáticas e o terreno. Correr a velocidade certa pode ajudar a evitar acidentes e melhorar a performance desportiva.
+* **Manter a temperatura corporal**: Mantém a temperatura corporal dentro de um intervalo seguro para evitar lesões e melhorar a performance desportiva.
 * **Prepare-se mentalmente**: Prepare-se mentalmente para a corrida à noite, lembrando-se de manter a calma e a atenção.
 
 ## Erros Comuns
 
 Ao praticar a Night Running, é comum cometer erros que podem comprometer a segurança e o sucesso do atleta. Algumas das principais armadilhas incluem:
 
-* **Ajuste de velocidade inadequado**: Ajustar a velocidade de acordo com as condições climáticas e o terreno é fundamental para evitar acidentes e melhorar a performance desportiva.
+* **Ajusta de velocidade inadequado**: Ajustar a velocidade de acordo com as condições climáticas e o terreno é fundamental para evitar acidentes e melhorar a performance desportiva.
 * **Iluminação inadequada**: Escolher equipamentos de iluminação inadequados pode causar uma redução da velocidade de reação, tornando mais difícil evitar acidentes.
 * **Falta de preparação mental**: Falta de preparação mental pode levar a uma redução da capacidade física e aumentar o risco de lesões.
 

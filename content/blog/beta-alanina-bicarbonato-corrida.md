@@ -38,7 +38,7 @@ Algumas das principais falhas que os atletas cometem ao se suplementar com beta-
 
 ## Protocolo/Conclusão
 
-A suplementação de beta-alanina e bicarbonato de sódio pode ser uma ferramenta valiosa para os corredores que buscam melhorar a performance. No entanto, é importante lembrar que a suplementação deve ser feita de acordo com as necessidades individuais do atleta e deve ser combinada com um plano de treino adequado. Além disso, é importante começar com uma dose baixa e aumentar gradualmente, para evitar efeitos colaterais.
+A suplementação de beta-alanina e bicarbonato de sódio pode ser uma ferramenta valiosa para os corredores que procuram melhorar a performance. No entanto, é importante lembrar que a suplementação deve ser feita de acordo com as necessidades individuais do atleta e deve ser combinada com um plano de treino adequado. Além disso, é importante começar com uma dose baixa e aumentar gradualmente, para evitar efeitos colaterais.
 
 ## Referências Científicas
 

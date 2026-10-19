@@ -31,7 +31,7 @@ A condropatia rotuliana, também conhecida como condromalácia patelar, descreve
 
 ## Aplicação Prática  
 ### Avaliação inicial  
-1. **Exame clínico**: Teste de compressão patelar, teste de extensão de quadríceps e avaliação de alinhamento.  
+1. **Exame clínico**: Testa de compressão patelar, teste de extensão de quadríceps e avaliação de alinhamento.  
 2. **Imagem**: Ressonância magnética pode confirmar a espessura da cartilagem e identificar lesões secundárias.  
 3. **Biomecânica**: Análise de passada em vídeo, observando o ângulo patelofemoral e a pronação do tornozelo.  
 
@@ -53,7 +53,7 @@ A condropatia rotuliana, também conhecida como condromalácia patelar, descreve
 
 ## Erros Comuns  
 1. **Subir de volume rapidamente** – aumenta a carga articular sem adaptação muscular.  
-2. **Ignorar a dor** – pode evoluir para lesões mais graves, como fraturas por estresse.  
+2. **Ignorar a dor** – pode evoluir para lesões mais graves, como fraturas por stress.  
 3. **Focar apenas no fortalecimento do quadríceps** – negligencia a cadeia posterior e o equilíbrio global.  
 
 ## Protocolo/Conclusão  

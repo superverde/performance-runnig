@@ -25,7 +25,7 @@ A psicologia do desporto demonstra que o foco atencional e a auto‑regulação 
 
 Além disso, Noakes (2012) argumenta que a fadiga é uma emoção derivada do cérebro que regula o comportamento de exercício para proteger a homeostase corporal. Quando a corrida é feita em grupo, o apoio social pode atenuar essa emoção, retardando o aparecimento da fadiga percebida.  
 
-Por outro lado, estudos de McCormick, Meijen e Marcora (2015) mostram que a motivação intrínseca pode ser mais forte quando o atleta tem controle total sobre o plano de treino, evitando o risco de sobrecarga por tentativa de acompanhar a equipa.  
+Por outro lado, estudos de McCormick, Meijen e Marcora (2015) mostram que a motivação intrínseca pode ser mais forte quando o atleta tem controlo total sobre o plano de treino, evitando o risco de sobrecarga por tentativa de acompanhar a equipa.  
 
 ## Aplicação Prática  
 

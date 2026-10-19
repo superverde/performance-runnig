@@ -50,7 +50,7 @@ Todos os modelos listados são compatíveis com a maioria dos smartphones Androi
 
 ## Veredicto: Qual Comprar  
 Para **iniciantes**, o Jabra Elite Active 75t oferece um excelente equilíbrio entre preço, fixação e bateria, sendo ideal para quem ainda explora diferentes tipos de corridas.  
-Os **competidores** que buscam desempenho máximo devem optar pelos **Sony WF‑SP800N** ou **Sennheiser Momentum TWS3**, pois oferecem cancelamento de ruído superior e áudio de alta fidelidade, fatores críticos em provas de curta distância.  
+Os **competidores** que procuram desempenho máximo devem optar pelos **Sony WF‑SP800N** ou **Sennheiser Momentum TWS3**, pois oferecem cancelamento de ruído superior e áudio de alta fidelidade, fatores críticos em provas de curta distância.  
 Para quem tem **orçamento limitado**, os **Beats Powerbeats Pro** proporcionam boa autonomia e fixação segura, mantendo custos mais baixos sem sacrificar demasiadamente a qualidade.  
 
 👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**  
@@ -58,4 +58,3 @@ Para quem tem **orçamento limitado**, os **Beats Powerbeats Pro** proporcionam 
 
 ## Referências  
 1. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054  
-2. Hoogkamer, W., Kipp, S., Frank,

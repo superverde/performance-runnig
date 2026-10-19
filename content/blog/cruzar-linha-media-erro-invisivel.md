@@ -32,7 +32,7 @@ Além disso, a literatura mostra que um aumento de 10 % no número de passos p
 - **Passo 2**: Analisa a inclinação do tronco e a posição dos pés durante a fase de apoio.
 - **Indicador**: Se o tronco inclina‑se para o lado da perna de apoio em mais de 2 % do movimento, indica cruzar a linha média.
 
-### 2. Ajuste de Cadência
+### 2. Ajusta de Cadência
 - **Objetivo**: Aumentar a cadência de 10 % em 2 % por semana até atingir 120–130 passos/min.
 - **Ferramenta**: Relógio com contador de passos ou aplicação de áudio que indique o ritmo.
 - **Exemplo**: Se a cadência atual é 110 passos/min, a meta inicial é 121 passos/min. Aumenta‑se 2 % a cada semana, mantendo a velocidade de corrida.
@@ -53,7 +53,7 @@ Além disso, a literatura mostra que um aumento de 10 % no número de passos p
 
 ## Protocolo de Correção
 
-1. **Semana 1–2**: Avaliação de vídeo e medição de cadência. Ajuste de 2 % na cadência.
+1. **Semana 1–2**: Avaliação de vídeo e medição de cadência. Ajusta de 2 % na cadência.
 2. **Semana 3–4**: Introdução de exercícios de fortalecimento e pliometria. Manter a cadência em 120–125 passos/min.
 3. **Semana 5–6**: Revisão de vídeo. Se a inclinação for <2 %, mantém‑se o protocolo. Caso contrário, aumenta‑se a cadência em mais 2 % e reforça‑se os exercícios de estabilização do tronco.
 
