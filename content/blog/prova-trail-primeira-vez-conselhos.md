@@ -75,7 +75,7 @@ A execução fiel deste plano, alinhada às recomendações de Vernillo et al.
 
 ## Escolher o Primeiro Trail
 
-Para a primeira prova de trail, escolhe uma distância curta (até 20 km) com desnível moderado e um percurso bem marcado — o objetivo é aprender a gerir o terreno, não sobreviver a ele. Para encontrar provas de trail e fazer a inscrição, o [RaceFinder](https://racefinder.pt) permite filtrar por distância e data; o [A Minha Corrida](https://aminhacorrida.pt/) acompanha o calendário de trail em Portugal. O nosso [calendário de provas](/calendario) inclui também as principais provas de montanha.
+Para a primeira prova de trail, escolhe uma distância curta (até 20 km) com desnível moderado e um percurso bem marcado — o objetivo é aprender a gerir o terreno, não sobreviver a ele. Para encontrar provas de trail e fazer a inscrição, o [RaceFinder](https://racefinder.pt) permite filtrar por distância e data; o portal [A Minha Corrida](https://aminhacorrida.pt/) acompanha o calendário de trail em Portugal. O nosso [calendário de provas](/calendario) inclui também as principais provas de montanha.
 
 ## Referências Científicas
 

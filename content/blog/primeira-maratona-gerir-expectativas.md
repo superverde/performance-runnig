@@ -12,14 +12,14 @@ faqs:
   - q: "Quais são as dicas primeira maratona para reduzir a ansiedade antes da prova?"
     a: "Utiliza visualização, respiração 4/4, e simula situações adversas nos treinos de longa distância."
   - q: "Como lidar com a estreia na maratona quando o percurso parece mais longo do que o esperado?"
-    a: "Mantém o ritmo planejado, faz pausas curtas para hidratação, e lembra‑te de que a prova é um processo contínuo, não um sprint."
+    a: "Mantém o ritmo planeado, aproveita os abastecimentos para beber e lembra-te de que a prova é um processo contínuo, não um sprint."
 ---
 
-A primeira maratona pode parecer um mar de dúvidas, mas a chave está em planear mentalmente antes mesmo de colocar os sapatos.  
+A primeira maratona pode parecer um mar de dúvidas, mas a chave está em planear mentalmente antes mesmo de calçar as sapatilhas.  
 Ao definir metas realistas, reduzir a ansiedade e focar na execução, a experiência torna‑se mais controlada e gratificante.  
 
-Antes de correr, vale‑a pena refletir sobre o que a prova implica: ritmo, hidratação, estratégias de alimentação, e sobretudo, a forma como o cérebro reage ao esforço prolongado.  
-Estes fatores, quando bem compreendidos, permitem‑lhe gerir as expectativas e evitar surpresas desagradáveis no percurso.
+Antes de correr, vale a pena refletir sobre o que a prova implica: ritmo, hidratação, estratégias de alimentação e, sobretudo, a forma como o cérebro reage ao esforço prolongado.  
+Estes fatores, quando bem compreendidos, permitem-te gerir as expectativas e evitar surpresas desagradáveis no percurso.
 
 ## Base Científica – Primeira maratona e a gestão psicológica
 Os estudos de Noakes (2012) demonstram que a fadiga é uma emoção cerebral que regula o comportamento durante o exercício, protegendo a homeostase corporal.  
@@ -29,12 +29,12 @@ Assim, o treino mental – praticar a atenção no presente e a auto‑afirmaç�
 
 ## Aplicação Prática
 1. **Definir um objetivo de tempo realista**  
-   Se o teu objetivo é completar a prova, não o que a mídia ou a comunidade de corredores pretendem.  
-   Um objetivo de 4 h30 em uma maratona de 42,195 km, por exemplo, implica um ritmo médio de 6 min 35 s por quilómetro.  
-   Se o teu treino habitual gira em torno de 7 min por quilómetro, esse objetivo já está alinhado com a tua capacidade atual.
+   O objetivo tem de ser teu, definido a partir do treino que fizeste — não do que os outros corredores ou as redes sociais esperam de ti.  
+   Um objetivo de 4h30, por exemplo, implica um ritmo médio de cerca de 6:24 min/km nos 42,195 km.  
+   Uma referência prática: se correste recentemente uma meia maratona em 2h08–2h10, este objetivo é realista; se não tens esse termo de comparação, usa a primeira metade da prova para confirmar o ritmo em vez de o forçar.
 
 2. **Estratégia de hidratação e nutrição**  
-   Planeia consumir 150–200 ml de água a cada 20 min, e ingerir carboidratos (géis, barras) a cada 45 min.  
+   Planeia beber 150–200 ml a cada 20 min (ajustando ao calor e à sede) e ingerir hidratos de carbono (géis, barras) a cada 30–45 min, até cerca de 60 g por hora.  
    Testa essa estratégia nas últimas sessões de treino de longa distância para evitar desconfortos intestinais no dia da prova.
 
 3. **Simulação de ritmo**  
@@ -42,33 +42,33 @@ Assim, o treino mental – praticar a atenção no presente e a auto‑afirmaç�
    Isto treina o teu corpo a manter a velocidade desejada e a mente a aceitar a sensação de esforço constante.
 
 4. **Técnica de respiração**  
-   Respira em ciclos de 4/4 (4 segundos de inspiração, 4 de expiração) para manter o oxigénio em níveis adequados e reduzir a ansiedade.
+   Nos momentos de ansiedade — na partida ou quando o esforço aperta — usa ciclos de respiração lenta de 4/4 (4 segundos a inspirar, 4 a expirar) para acalmar. Durante a corrida, deixa a respiração acompanhar o esforço, sem a forçar a um ritmo fixo.
 
 ## Erros Comuns
 - **Superestimar a capacidade**: muitos corredores iniciantes assumem que o ritmo de treino será mantido durante a prova.  
   A resposta do corpo à fadiga, como apontado por Noakes (2012), faz com que o ritmo diminua progressivamente.
-- **Negligenciar a preparação mental**: não praticar a visualização de situações adversas (ex.: calo, calos, perda de energia) pode levar ao medo e ao abandono prematuro.
+- **Negligenciar a preparação mental**: não praticar a visualização de situações adversas (ex.: bolhas, cãibras, quebra de energia) pode levar ao medo e ao abandono prematuro.
 - **Ignorar sinais de alerta**: dores persistentes, tonturas ou desorientação são sinais de que o corpo está a sinalizar que não pode continuar.
 
 ## Protocolo/Conclusão
-1. **Semana de preparação**  
-   Reduz o volume de treino em 20 % na última semana, mantendo a intensidade.  
-   Concentra‑se na qualidade do sono (7–8 h) e na alimentação rica em carboidratos complexos.
+1. **Últimas duas semanas**  
+   Reduz o volume de treino em 40–60 % ao longo das duas últimas semanas, mantendo alguns estímulos curtos a ritmo de prova.  
+   Concentra-te na qualidade do sono (7–8 h) e, nos dois dias antes da prova, numa alimentação rica em hidratos de carbono.
 
 2. **Dia da prova**  
-   Chega cedo, faz um aquecimento dinâmico de 15 min, e revisa mentalmente o plano de ritmo.  
-   Atravessa o percurso a passos de 60 s por quilómetro, ajustando se necessário.
+   Chega cedo, faz um aquecimento leve de 10–15 min e revê mentalmente o plano de ritmo.  
+   Nos primeiros 5 km, corre 5–10 s/km mais devagar do que o ritmo-alvo — a euforia da partida é o erro mais caro da estreia.
 
 3. **Durante a prova**  
-   Se perceberes que o ritmo está a cair, repensa a estratégia de respiração e a ingestão de carboidratos.  
+   Se perceberes que o ritmo está a cair, abranda um pouco, regula a respiração e confirma que estás a cumprir o plano de hidratos de carbono.  
    Lembra‑te que a prova é um processo, não um sprint.
 
-Ao seguir este protocolo, a tua primeira maratona não será apenas um teste de resistência física, mas também um exercício de autoconhecimento e controle emocional.
+Ao seguir este protocolo, a tua primeira maratona não será apenas um teste de resistência física, mas também um exercício de autoconhecimento e controlo emocional.
 
 
 ## Escolher a Primeira Maratona
 
-Na estreia, a escolha da prova é metade da gestão de expectativas: um percurso conhecido, perto de casa, com abastecimentos frequentes e muito público ajuda a manter a cabeça no lugar quando as pernas começam a pesar. Para descobrir maratonas e fazer a inscrição, o [RaceFinder](https://racefinder.pt) reúne as provas em Portugal; o [A Minha Corrida](https://aminhacorrida.pt/) cobre o calendário nacional, eventos e equipamento. O nosso [calendário de provas](/calendario) mostra as maratonas principais da época.
+Na estreia, a escolha da prova é metade da gestão de expectativas: um percurso conhecido, perto de casa, com abastecimentos frequentes e muito público ajuda a manter a cabeça no lugar quando as pernas começam a pesar. Para descobrir maratonas e fazer a inscrição, o [RaceFinder](https://racefinder.pt) reúne as provas em Portugal; o portal [A Minha Corrida](https://aminhacorrida.pt/) cobre o calendário nacional, eventos e equipamento. O nosso [calendário de provas](/calendario) mostra as maratonas principais da época.
 
 ## Referências Científicas
 Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082  
