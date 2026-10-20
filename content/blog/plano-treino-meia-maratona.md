@@ -11,13 +11,13 @@ readTime: 8
 
 A meia maratona é a prova perfeita. Longa o suficiente para exigir preparação séria, curta o suficiente para não destruir a tua vida social durante meses. São 21,1 km onde a fisiologia, a estratégia e a preparação se encontram — e onde a maioria dos corredores comete erros evitáveis.
 
-Este plano cobre 12 semanas. Não é um plano genérico de "terminar e sobreviver". É uma estrutura baseada na fisiologia do treino de fundo, pensada para corredores que treinam entre 3 a 5 vezes por semana e querem uma meia maratona forte.
+Este plano cobre 12 semanas. Não é um plano genérico de "terminar e sobreviver". É uma estrutura baseada na fisiologia do treino de fundo, pensada para corredores que treinam entre 4 a 6 vezes por semana e querem uma meia maratona forte.
 
 ## O que a Meia Maratona Exige Fisiologicamente
 
 Antes de olhar para o plano, convém perceber o que está em jogo.
 
-A meia maratona é disputada a uma intensidade entre 85-92% do VO2max em atletas treinados — muito perto do limiar anaeróbio. Isso significa que não é uma prova "só aeróbia". Exige que o teu limiar de lactato esteja bem desenvolvido, que a tua economia de corrida seja eficiente, e que tenhas reservas de glicogénio suficientes para aguentar até ao fim sem "bater na parede".
+A meia maratona é disputada a uma intensidade perto do limiar de lactato — em corredores treinados, tipicamente acima de 80% do VO2max — muito perto do limiar anaeróbio. Isso significa que não é uma prova "só aeróbia". Exige que o teu limiar de lactato esteja bem desenvolvido, que a tua economia de corrida seja eficiente, e que tenhas reservas de glicogénio suficientes para aguentar até ao fim sem "bater na parede".
 
 Os três pilares fisiológicos são:
 
@@ -194,7 +194,7 @@ Semana mais exigente do plano. Volume máximo, sessões de qualidade combinadas.
 
 A semana mais importante e mais mal gerida pelos corredores amadores. O objetivo é chegar à linha de partida com as pernas frescas e o sistema nervoso recuperado — sem perder a forma.
 
-Reduz o volume para 40-50% da semana de pico. Mantém alguma intensidade para não perder a sensação de ritmo.
+Reduz o volume para cerca de 40-50% da semana de pico. Mantém alguma intensidade para não perder a sensação de ritmo — a meta-análise de Bosquet et al. (2007) mostra que o taper mais eficaz corta o volume (41–60%) sem cortar a intensidade.
 
 | Dia | Sessão |
 |---|---|
@@ -216,19 +216,19 @@ Reduz o volume para 40-50% da semana de pico. Mantém alguma intensidade para n�
 
 **Os km 15-21**: aumentar progressivamente. Se ainda tens pernas, aumenta. Se estás a sofrer, mantém.
 
-**Regra de ouro**: se aos 5 km te sentes "muito fácil", estás no ritmo certo. Se te sentes bem, estás demasiado rápido.
+**Regra de ouro**: nos primeiros quilómetros, o ritmo de prova deve parecer controlado — quase fácil. Se nos primeiros 5 km já estás a sofrer, estás a correr demasiado rápido e vais pagar na segunda metade.
 
 ## Nutrição e Hidratação
 
-Para uma meia maratona abaixo das 2h, o glicogénio raramente é um problema. Para além das 2h, considera um gel aos 10 km.
+Numa meia maratona, as reservas de glicogénio de um corredor bem alimentado chegam em geral para a prova, sobretudo abaixo dos 90 minutos. Em esforços entre cerca de 1 e 2,5 horas, as recomendações de consenso indicam que ingerir 30–60 g de hidratos de carbono por hora pode melhorar o rendimento (Thomas et al., 2016) — na prática, um gel a meio da prova se fores demorar mais de 1h30, testado antes nos treinos longos.
 
-Hidratação: aproveita todos os pontos de água, mesmo que não tenhas sede. A sede é um indicador tardio de desidratação.
+Hidratação: bebe de acordo com a sede nos abastecimentos, sem forçar. Beber muito mais do que aquilo que perdes, sobretudo em provas longas e lentas, aumenta o risco de hiponatremia (Hew-Butler et al., 2015).
 
 ## Os 5 Erros Mais Comuns
 
 **1. Começar demasiado rápido** — é o erro nº1 em qualquer prova. O entusiasmo e a adrenalina são inimigos do bom pacing.
 
-**2. Ignorar o treino de força** — corredores que fazem força 1-2x por semana têm menos lesões e melhor economia de corrida.
+**2. Ignorar o treino de força** — o treino de força melhora a economia de corrida (Blagrove et al., 2018) e programas de força estão associados a menos lesões desportivas (Lauersen et al., 2014).
 
 **3. Não respeitar os dias de recuperação** — o corpo melhora durante o descanso, não durante o treino.
 
@@ -241,7 +241,7 @@ Hidratação: aproveita todos os pontos de água, mesmo que não tenhas sede. A 
 Com este plano e treino consistente, um corredor de nível intermédio pode esperar:
 
 - Completar a meia maratona com confiança
-- Melhorar o seu recorde pessoal em 5-15 minutos face a abordagens não estruturadas
+- Melhorar o seu recorde pessoal, sobretudo se até agora treinava sem estrutura
 - Chegar à linha de chegada em melhor estado do que na prova anterior
 
 A meia maratona recompensa quem se prepara bem. 12 semanas de trabalho inteligente fazem toda a diferença.
@@ -260,4 +260,12 @@ Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max mor
 
 Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance. *Sports Medicine*, 37(10), 857–880.
 
-Tanaka, H., & Seals, D. R. (2008). Endurance exercise performance in masters athletes: Age-associated changes and underlying physiological mechanisms. *Journal of Physiology*, 586(1), 55–63.
+Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (2007). Effects of tapering on performance: a meta-analysis. *Medicine & Science in Sports & Exercise*, 39(8), 1358–1365. https://doi.org/10.1249/mss.0b013e31806010e0
+
+Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7
+
+Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538
+
+Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement: Nutrition and Athletic Performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852
+
+Hew-Butler, T., Rosner, M. H., Fowkes-Godek, S., et al. (2015). Statement of the Third International Exercise-Associated Hyponatremia Consensus Development Conference, Carlsbad, California, 2015. *Clinical Journal of Sport Medicine*, 25(4), 303–320.
