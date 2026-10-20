@@ -845,7 +845,9 @@ async function callGroq(prompt, attempt = 1, modeloIndex = 0) {
     body: JSON.stringify({
       model: modelo,
       messages: [{ role: 'user', content: prompt }],
-      temperature: 0.7,
+      // 0.3 em vez de 0.7 (2026-10-20): menos criatividade = menos números e
+      // citações inventadas; o tom continua a ser dado pelo prompt.
+      temperature: 0.3,
       // 2200 era apertado: um artigo de 900-1200 palavras em português gasta
       // 1400-2000 tokens, mais ~150 das FAQ e ~250 das referências. A
       // resposta era truncada com frequência e ficava sem a secção final de
@@ -896,6 +898,36 @@ function extractDoiFromRef(ref) {
   return m ? m[1].toLowerCase() : null
 }
 
+
+// 2026-10-20 — "nunca inventar": o prompt manda citar só referências da lista
+// fornecida, mas o modelo por vezes acrescenta outras (às vezes inexistentes,
+// ou com autores/DOIs trocados). Em vez de confiar, retiram-se da secção de
+// Referências todas as linhas que não correspondem a uma entrada do banco
+// (pelo DOI, ou por 1.º autor + ano quando não há DOI).
+function filtrarReferenciasForaDoBanco(content, refsBank) {
+  const m = content.match(/^##\s*Refer[êe]ncias[^\n]*$/mi)
+  if (!m) return content
+  const inicio = m.index + m[0].length
+  const antes = content.slice(0, inicio)
+  const linhas = content.slice(inicio).split('\n')
+  const banco = refsBank.map(r => ({
+    doi: extractDoiFromRef(r),
+    autor: ((r.match(/^([A-Za-zÀ-ÿ'-]+)/) || [])[1] || '').toLowerCase(),
+    ano: (r.match(/\((\d{4})\)/) || [])[1],
+  }))
+  let removidas = 0
+  const mantidas = linhas.filter(l => {
+    const t = l.trim()
+    if (!/[A-ZÀ-Ý][a-zà-ÿ'-]+,\s+[A-Z]\./.test(t) || !/\(\d{4}\)/.test(t)) return true // não é referência
+    const tl = t.toLowerCase()
+    const ok = banco.some(b => b.doi ? tl.includes(b.doi) : (b.autor && b.ano && tl.includes(b.autor) && tl.includes(b.ano)))
+    if (!ok) removidas++
+    return ok
+  })
+  if (removidas) console.log(`::warning::${removidas} referência(s) fora do banco retirada(s) — o modelo citou algo que não estava na lista fornecida.`)
+  return antes + mantidas.join('\n')
+}
+
 function countBankReferences(content, refsBank) {
   const texto = content.toLowerCase()
   let n = 0
@@ -926,6 +958,12 @@ function countBankReferences(content, refsBank) {
 // contrário da promessa do site, e nos artigos de equipamento (que têm links
 // de afiliado) pode levar alguém a comprar com base num número errado.
 const REGRAS_ANTI_INVENCAO = `
+RIGOR CIENTÍFICO (regra do Pedro: os artigos têm de ser SEMPRE científicos):
+- Cada afirmação técnica tem de estar de acordo com a evidência científica atual. Se a evidência é limitada, mista ou só em animais/laboratório, di-lo explicitamente ("a evidência é limitada", "os estudos divergem").
+- Distingue o que está demonstrado do que é prática corrente ou opinião. Não exageres efeitos ("melhora muito", "elimina", "garante") — usa a magnitude que os estudos mostram.
+- Só atribuis uma conclusão a um estudo se ela estiver mesmo nesse estudo. Na dúvida, não cites.
+- Em temas de saúde (lesões, suplementos, medicamentos, calor, altitude, RED-S, saúde mental) sê prudente: nada de doses médicas, nada de diagnósticos, e recomenda médico ou fisioterapeuta quando for o caso.
+
 REGRAS DE VERACIDADE (as mais importantes de todas — um artigo que as viole é inútil):
 - NUNCA inventes especificações técnicas de produtos: peso, autonomia de bateria, certificações (IP__, __ATM), resistência a impactos, frequências de sensor, alcance, materiais. Se não tens a certeza absoluta de um número, NÃO o escrevas — descreve a característica em termos qualitativos ("autonomia longa, suficiente para um ultra de um dia").
 - NUNCA atribuas a um estudo uma conclusão que ele não tem. Só cita uma referência quando o estudo é mesmo sobre o assunto da frase. É PROIBIDO usar um estudo sobre calçado, fisiologia ou treino para sustentar uma afirmação sobre eletrónica, relógios, sensores ou acessórios — nesses casos escreve a frase sem referência nenhuma.
@@ -1037,7 +1075,7 @@ REGRAS OBRIGATÓRIAS:
 1. Tom profissional, técnico mas acessível — como um treinador de elite a explicar ciência
 2. Nunca soar a IA genérica. Sem frases como "Neste artigo vamos explorar..."
 3. Português de Portugal — nunca brasileirismos (usa "treino" não "treinamento", "fixe" não "legal", etc.)
-4. Incluir exemplos práticos e aplicáveis, com valores numéricos e protocolos quando fizer sentido
+4. Incluir exemplos práticos e aplicáveis. Valores numéricos (percentagens, doses, ritmos, volumes, temperaturas, tempos) SÓ quando vêm das referências fornecidas ou de recomendações de consenso amplamente aceites (ACSM, IOC, ISSN); caso contrário descreve em termos qualitativos. Planos e exemplos têm de ser realistas para corredores amadores.
 5. Estrutura com ## para secções principais (Base Científica, Aplicação Prática, Erros Comuns, Protocolo/Conclusão)
 6. Comprimento: 700-950 palavras de corpo (sem contar frontmatter nem referências). Densidade acima de extensão: nada de parágrafos de enchimento nem repetições do que já disseste.
 7. OBRIGATÓRIO — termina SEMPRE com uma secção "## Referências Científicas" citando PELO MENOS 2 das referências da lista abaixo — as que forem mesmo aplicáveis ao tópico. Cita mais se mais forem aplicáveis, mas nunca forces uma referência que não sustenta o que a frase afirma. Copia a referência EXATAMENTE como está fornecida, não alteres nem inventes autores, títulos, revistas ou DOIs. NUNCA acrescentes uma referência que não esteja nesta lista.
@@ -1558,8 +1596,10 @@ async function main() {
         // com zero artigos. Entre citar a mais e citar a menos, prefere-se
         // citar a menos: foi exatamente o excesso de citações forçadas que
         // pôs Hoogkamer (sapatilhas) a sustentar afirmações sobre relógios.
+        // 2026-10-20 — "tudo científico": mesmo no último recurso, um artigo
+        // técnico tem de citar pelo menos 1 referência real do banco.
         const minRefs = relaxarReferencias
-          ? 0
+          ? (topic.category === 'Equipamento' ? 0 : 1)
           : topic.category === 'Equipamento'
             ? (precisaReferenciasCientificas(topic) ? 2 : 0)
             : 2
@@ -1569,9 +1609,9 @@ async function main() {
         for (let tentativa = 1; tentativa <= MAX_REF_ATTEMPTS; tentativa++) {
           // Corrigir primeiro, validar depois: o que é corrigível não deve
           // custar um artigo inteiro (ver comentário em corrigirBrasileirismos).
-          const candidato = corrigirBrasileirismos(
+          const candidato = filtrarReferenciasForaDoBanco(corrigirBrasileirismos(
             await callGroq(tentativa === 1 ? prompt : prompt + REFORCO_REFERENCIAS)
-          )
+          ), refsBank)
           const citadas = countBankReferences(candidato, refsBank)
           // Porta de qualidade: referências do banco E as restantes regras
           // (dimensão, secções, meta description, português de Portugal).
