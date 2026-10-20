@@ -23,8 +23,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ARTICLES_DIR = path.join(__dirname, '..', 'content', 'blog')
 const COUNTER_FILE = path.join(ARTICLES_DIR, '_topic_counter.json')
 const GROQ_API_KEY = process.env.GROQ_API_KEY
-const TECHNICAL_PER_RUN = 2
-const COMMERCIAL_PER_RUN = 1
+// 2026-10-20 — decisão do Pedro: o gerador automático deixa de escrever
+// artigos de Equipamento. O modelo gratuito (Llama 8B) inventava produtos,
+// modelos descontinuados e preços (ex.: Garmin Forerunner 45/245/745/945
+// recomendados em 2026, "Whoop Ring", "Pioneer TrailBlow 2000") — contra a
+// regra "nunca inventar". Os 3 artigos diários passam a ser todos técnicos;
+// os de equipamento são escritos e verificados à mão.
+const TECHNICAL_PER_RUN = 3
+const COMMERCIAL_PER_RUN = 0
 
 if (!GROQ_API_KEY) {
   console.error('❌ GROQ_API_KEY não definida')
@@ -1471,7 +1477,7 @@ async function main() {
   if (remainingTechnical.length <= LOW_POOL_THRESHOLD) {
     console.log(`::warning::Banco de tópicos TÉCNICOS com apenas ${remainingTechnical.length} tópicos por publicar — adiciona mais a ALL_TOPICS em scripts/generate-articles.mjs.`)
   }
-  if (remainingCommercial.length <= LOW_POOL_THRESHOLD) {
+  if (COMMERCIAL_PER_RUN > 0 && remainingCommercial.length <= LOW_POOL_THRESHOLD) {
     console.log(`::warning::Banco de tópicos COMERCIAIS com apenas ${remainingCommercial.length} tópicos por publicar — adiciona mais a COMMERCIAL_TOPICS em scripts/generate-articles.mjs.`)
   }
 
@@ -1645,7 +1651,6 @@ async function main() {
     const shortfall = totalNeeded - totalDone
     const compensationPool = shuffle([
       ...ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
-      ...COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
     ])
     if (compensationPool.length > 0) {
       console.log(`\n🔁 Faltam ${shortfall} artigo(s) para o total do dia — a compensar com o outro banco de tópicos (${compensationPool.length} candidatos disponíveis).`)
@@ -1670,7 +1675,6 @@ async function main() {
   if (totalDone === 0) {
     const ultimoRecurso = shuffle([
       ...ALL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
-      ...COMMERCIAL_TOPICS.filter(t => !existingSlugs.has(deaccent(t.slug))),
     ])
     if (ultimoRecurso.length > 0) {
       console.log(`\n::warning::Nenhum artigo passou a porta de qualidade nesta execução. A repetir sem o mínimo de referências do banco (as restantes travas mantêm-se) para o dia não ficar vazio.`)
