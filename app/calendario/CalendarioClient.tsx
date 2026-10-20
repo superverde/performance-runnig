@@ -274,13 +274,51 @@ export function CalendarioClient() {
             e podem sofrer pequenos ajustes. Confirma sempre a data e inscrições no site oficial da prova
             antes de planeares a tua época.
           </p>
-          <p className="text-[11px] text-white/30 leading-relaxed max-w-2xl mt-3">
-            Procuras mais provas ou queres fazer já a inscrição? O{' '}
-            <a href="https://racefinder.pt" target="_blank" rel="noopener" className="text-white/50 hover:text-brand-green underline underline-offset-2">RaceFinder</a>{' '}
-            reúne as provas em Portugal por distância e data, e{' '}
-            <a href="https://aminhacorrida.pt/" target="_blank" rel="noopener" className="text-white/50 hover:text-brand-green underline underline-offset-2">A Minha Corrida</a>{' '}
-            acompanha o calendário nacional de estrada e trail.
-          </p>
+          {/* Parceiros editoriais (RaceFinder e A Minha Corrida, out. 2026) */}
+          <section
+            aria-labelledby="parceiros-provas"
+            className="mt-8 rounded-2xl border border-brand-green/30 bg-brand-green/[0.06] p-6 sm:p-8"
+          >
+            <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-green mb-2 font-mono">
+              Parceiros
+            </p>
+            <h2 id="parceiros-provas" className="text-xl sm:text-2xl font-black tracking-tight text-white mb-2">
+              Procuras mais provas ou queres fazer já a inscrição?
+            </h2>
+            <p className="text-sm text-white/60 leading-relaxed mb-6 max-w-2xl">
+              Estes parceiros completam o nosso calendário com mais provas e inscrições em todo o país.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <a
+                href="https://racefinder.pt"
+                target="_blank"
+                rel="noopener"
+                className="group flex items-start justify-between gap-4 rounded-xl border border-white/10 bg-black/40 p-5 transition-colors hover:border-brand-green"
+              >
+                <span>
+                  <span className="block text-lg font-bold text-white group-hover:text-brand-green transition-colors">RaceFinder</span>
+                  <span className="block text-sm text-white/60 leading-relaxed mt-1">
+                    Pesquisa provas em Portugal por distância e data e inscreve-te.
+                  </span>
+                </span>
+                <ArrowUpRight size={18} className="shrink-0 text-brand-green" aria-hidden="true" />
+              </a>
+              <a
+                href="https://aminhacorrida.pt/"
+                target="_blank"
+                rel="noopener"
+                className="group flex items-start justify-between gap-4 rounded-xl border border-white/10 bg-black/40 p-5 transition-colors hover:border-brand-green"
+              >
+                <span>
+                  <span className="block text-lg font-bold text-white group-hover:text-brand-green transition-colors">A Minha Corrida</span>
+                  <span className="block text-sm text-white/60 leading-relaxed mt-1">
+                    Calendário nacional de estrada e trail, eventos e equipamento.
+                  </span>
+                </span>
+                <ArrowUpRight size={18} className="shrink-0 text-brand-green" aria-hidden="true" />
+              </a>
+            </div>
+          </section>
           <div className="mt-4 flex gap-3 flex-wrap">
             <Link href="/ferramentas" className="text-xs text-white/30 hover:text-brand-green transition-colors">
               Calculadora de Previsão de Tempos →
