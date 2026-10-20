@@ -2,74 +2,100 @@
 title: "Carga de Treino e Risco de Lesão"
 date: '2026-10-07'
 category: "Lesões"
-excerpt: "Descobre como a carga de treino e lesões influencia a tua performance e aprende a gerir o risco de lesão para manteres-te em forma."
-readTime: 4
+excerpt: "Como a carga de treino se relaciona com as lesões, o que vale de facto o rácio agudo:crónico (ACWR) e como gerir a progressão sem cair em regras mágicas."
+readTime: 6
 keyword: "carga de treino e lesões"
 keywords: ["acute chronic workload", "risco de lesão", "gestão de carga"]
 faqs:
-  - q: "Como posso calcular a carga crónica sem usar software avançado?"
-    a: "Regista diariamente a distância percorrida e a média dos últimos 7 dias fornece uma estimativa aproximada da carga crónica. Atualiza a média semanalmente para acompanhar a evolução."
-  - q: "O que significa “risco de lesão” em termos práticos?"
-    a: "O risco de lesão refere‑se à probabilidade de sofrer uma lesão musculoesquelética. Quando a carga acuta ultrapassa 1,5 vezes a crónica, o risco pode aumentar em até 30 %, exigindo ajustes imediatos."
-  - q: "Qual é a melhor forma de introduzir treino de velocidade sem aumentar o risco de lesão?"
-    a: "Inclui sessões de velocidade em dias de recuperação ativa, mantendo a distância total semanal dentro da regra dos 10 % e garantindo pelo menos 48 h de descanso após a última sessão de alta intensidade."
+  - q: "Como calculo o rácio agudo:crónico (ACWR) sem software?"
+    a: "A forma mais usada divide a carga dos últimos 7 dias (aguda) pela média semanal das últimas 4 semanas (crónica). Podes usar quilómetros ou, melhor, minutos multiplicados pela perceção de esforço de 0 a 10. Trata o resultado como um sinal de alerta, não como uma previsão exata de lesão."
+  - q: "Um ACWR acima de 1,5 significa que me vou lesionar?"
+    a: "Não. Nos estudos originais, valores acima de cerca de 1,5 associaram-se a mais lesões em desportos de equipa, mas o método tem limitações estatísticas importantes e nunca foi validado como ferramenta de previsão individual em corredores. Indica apenas que a carga subiu depressa e merece atenção."
+  - q: "A regra dos 10% funciona?"
+    a: "É uma referência prática prudente, mas a evidência é fraca: num ensaio com principiantes, um plano que respeitava os 10% não reduziu lesões face a um plano mais rápido. O que a investigação aponta é que saltos grandes de carga, sobretudo acima de 30% numa semana, se associam a mais lesões."
 ---
 
-A carga de treino e lesões é um dos fatores mais críticos que os corredores precisam monitorizar para evitar interrupções no percurso. Quando a carga ultrapassa a capacidade de recuperação do corpo, o risco de lesão aumenta de forma exponencial, comprometendo a consistência e o progresso.
+A maioria das lesões de corrida não acontece por azar. Surgem quando a carga que aplicas aos tecidos — osso, tendão, músculo, cartilagem — ultrapassa durante tempo suficiente a capacidade que eles têm de se adaptar. Por isso, gerir a carga é a ferramenta de prevenção mais poderosa que tens. O problema é que à volta deste tema circulam números redondos e "zonas de perigo" com muito mais certeza do que a ciência permite.
 
-Para compreender melhor este fenómeno, é essencial separar a carga de treino em duas dimensões: a carga acuta, que representa o esforço das últimas 24 a 48 horas, e a carga crónica, que reflete o esforço acumulado nas últimas semanas. A interação entre estas duas dimensões determina a vulnerabilidade a lesões, conforme demonstrado em estudos que analisaram a incidência de lesões em corredores de longa distância.
+## O que é carga de treino
 
-## Base Científica
+A carga tem duas faces:
 
-A relação entre carga de treino e lesões pode ser explicada pelo conceito de “acúmulo de carga” (acute‑chronic workload). Quando a carga acuta ultrapassa 1,5 vezes a carga crónica, o risco de lesão aumenta em até 30 % (Gabbett, 2016). Este efeito é particularmente relevante em fases de preparação para maratona, onde o volume aumenta rapidamente.
+- **Carga externa**: o que fazes — quilómetros, minutos, desnível, número de séries rápidas.
+- **Carga interna**: o que isso custa ao teu corpo — frequência cardíaca, perceção de esforço.
 
-Além do volume, a intensidade e a variabilidade do treino são cruciais. Estudos mostram que a introdução de sessões de velocidade ou de subida aumenta a carga mecânica, mas, se não acompanhadas de recuperação adequada, podem desencadear lesões musculoesqueléticas (van Gent et al., 2007). Portanto, a gestão de carga deve incluir não apenas o número de quilómetros, mas também a composição de cada sessão.
+Uma medida simples e validada de carga interna é a **sRPE** (perceção de esforço da sessão): multiplicas a duração em minutos pela nota de esforço de 0 a 10 que dás 30 minutos depois do treino. Uma corrida de 60 minutos com esforço 4 vale 240 unidades; 45 minutos de séries com esforço 8 valem 360. Isto captura algo que os quilómetros não captam: nem todos os quilómetros pesam o mesmo.
 
-## Aplicação Prática
+## O rácio agudo:crónico (ACWR)
 
-### 1. Registo Diário da Carga
+O conceito foi popularizado por Gabbett (2016) e parte de uma ideia sensata: o risco depende não só de quanto treinas, mas de **quanto treinas agora comparado com aquilo a que estás habituado**.
 
-Utiliza uma planilha simples (ou app de confiança) para anotar:
-- Kilometraje total do dia
-- Tempo de treino
-- Intensidade (zoneamento de frequência cardíaca ou percepção de esforço)
+- **Carga aguda**: normalmente a dos últimos **7 dias** (a "fadiga").
+- **Carga crónica**: a média semanal das últimas **4 semanas** (a "preparação").
+- **ACWR** = aguda ÷ crónica.
 
-Registar a carga acuta e calcular a média móvel de 7 dias para obter a carga crónica. Se a relação acuta/crónica ultrapassar 1,5, considera reduzir o volume em 10 % ou aumentar a recuperação.
+Nos dados de desportos de equipa analisados por Gabbett, valores entre cerca de 0,8 e 1,3 associavam-se ao menor risco, e picos acima de cerca de 1,5 a um aumento marcado de lesões. O mesmo trabalho trouxe uma mensagem que muitas vezes se esquece: **cargas crónicas altas, construídas de forma progressiva, pareciam proteger**, não prejudicar. É o chamado "paradoxo da prevenção" — treinar pouco também deixa o atleta frágil.
 
-### 2. Regra dos 10 %
+### As limitações que tens de conhecer
 
-Um princípio amplamente aceito é a regra dos 10 %. Se aumentares o volume total semanal em mais do que 10 % em relação à semana anterior, o risco de lesão sobe significativamente. Por exemplo, se a tua carga semanal é de 80 km, a próxima semana não deve exceder 88 km.
+Nos anos seguintes, o ACWR foi fortemente criticado. Impellizzeri et al. (2020) mostraram problemas conceptuais e estatísticos sérios: o rácio pode gerar associações espúrias porque a semana aguda faz parte da carga crónica, depende muito do método de cálculo e não foi validado como ferramenta para prever lesões num atleta individual. Em corredores, a revisão sistemática de Damsted et al. (2018) encontrou evidência limitada e inconsistente sobre que tipo de alteração de carga causa lesão.
 
-### 3. Variedade e Recuperação
+**Conclusão prática:** usa o ACWR como um alarme grosseiro para "subi depressa demais", nunca como uma zona de segurança com números exatos.
 
-Incorpora um dia de treino de baixa intensidade ou de atividade cruzada (ciclismo, natação) a cada 5 dias de corrida. Isto permite manter a carga crónica estável enquanto reduz a sobrecarga mecânica específica da corrida.
+## O que dizem os estudos com corredores
 
-### 4. Monitorização de Sinais de Fadiga
+- **Saltos de volume**: num estudo de coorte com principiantes, quem aumentou a distância semanal mais de 30% teve mais lesões ligadas à distância (como síndrome patelofemoral, banda iliotibial e tendinopatias) do que quem progrediu até 10% (Nielsen et al., 2014).
+- **A regra dos 10% não é mágica**: num ensaio aleatorizado com principiantes, um plano gradual que respeitava os 10% não teve menos lesões do que um plano standard (Buist et al., 2008).
+- **Lesão prévia** é dos preditores mais consistentes de nova lesão (van Gent et al., 2007; Hulme et al., 2017). Se já te lesionaste, a tua margem de erro é menor.
+- A lesão resulta da interação entre a carga de cada passada e o número de passadas, e entre a carga e a capacidade do tecido naquele momento (Bertelsen et al., 2017). Por isso, intensidade, descidas e mudanças de calçado contam, não só os quilómetros.
 
-Presta atenção a sinais de fadiga crónica: dores persistentes, diminuição de performance, alterações de humor. Se notar algum destes sinais, considera reduzir a carga acuta em 20 % e introduzir sessões de fortalecimento focadas em tendões e músculos estabilizadores (ex.: exercícios de resistência lenta ou excêntricos).
+## Aplicação prática
 
-## Erros Comuns
+### 1. Regista de forma simples
+Para cada treino anota duração, distância, esforço de 0 a 10 e qualquer dor (0 a 10). Um caderno ou uma folha de cálculo chegam.
 
-1. **Sobrecarga Imediata** – Aumentar o volume em mais do que 10 % numa só semana é a principal causa de lesões agudas.
-2. **Falta de Recuperação** – Subestimar a necessidade de descanso entre sessões de alta intensidade leva a acumulação de microdanos.
-3. **Não Adaptar a Carga ao Rendimento** – Continuar a mesma carga mesmo após uma lesão parcial ou uma diminuição de performance pode agravar a condição.
-4. **Ignorar a Variabilidade** – Repetir o mesmo percurso e ritmo diariamente sem variação aumenta o risco de sobrecarga localizada.
+### 2. Vigia as semanas, não os dias
+Compara a semana atual com a média das últimas quatro. Se estiveres claramente acima de 1,3–1,5 vezes essa média, pergunta-te porquê e se o corpo está a responder bem.
 
-## Protocolo/Conclusão
+### 3. Progride em degraus e consolida
+Uma estrutura comum e prudente: 2 a 3 semanas de subida moderada seguidas de uma semana mais leve (ver [quando fazer semana de recuperação](/blog/quando-fazer-semana-recuperacao)). Exemplo para quem corre 30 km/semana: 30 → 33 → 35 → 28 (descarga) → 36.
 
-Para gerir eficazmente a carga de treino e lesões, segue este protocolo simples:
+### 4. Não mexas em tudo ao mesmo tempo
+Volume, intensidade, desnível e calçado novo são variáveis distintas. Aumenta uma de cada vez.
 
-1. **Planeia**: Define metas sem ultrapassar a regra dos 10 % de aumento semanal.
-2. **Regista**: Anota carga acuta e calcula a média móvel de 7 dias.
-3. **Avalia**: Se a relação acuta/crónica > 1,5, reduz volume ou intensifica recuperação.
-4. **Recupera**: Inclui dias de baixa intensidade e fortalecimento específico.
-5. **Revisa**: Reajusta o plano semanalmente com base no feedback do corpo e nos dados de carga.
+### 5. Não fujas da carga crónica
+Semanas de paragem total seguidas de regresso ao volume anterior criam os picos mais perigosos. Se tiveres de parar, regressa progressivamente (lê [retorno à corrida após lesão](/blog/retorno-corrida-apos-lesao-progressao)).
 
-Ao aplicar estes princípios, reduzas o risco de lesão e manténs a consistência no teu percurso de corrida, garantindo um progresso sustentável e seguro.
+### 6. Junta força
+Programas de treino de força reduzem de forma substancial o risco de lesões desportivas em meta-análise (Lauersen et al., 2014). Dois treinos curtos por semana chegam para começar.
 
+## Erros comuns
+
+1. **Tratar 1,5 como linha vermelha exata** — o risco é contínuo e individual.
+2. **Contar só quilómetros** — 10 km de séries não pesam o mesmo que 10 km lentos.
+3. **Recuperar o "tempo perdido"** depois de uma paragem.
+4. **Ignorar a dor que se repete no mesmo sítio** — é muitas vezes o primeiro sinal de que a carga ultrapassou a capacidade (lê [sinais de alerta de lesão](/blog/sinais-alerta-lesao-iminente-corrida)).
+
+## Conclusão
+
+A gestão de carga não é uma fórmula, é um hábito: registar, comparar com o teu histórico recente, subir com paciência, descarregar com regularidade e ouvir os sinais precoces do corpo. O ACWR é útil como lembrete visual de que subiste depressa — não como garantia de segurança.
 
 ## Referências Científicas
 
-van Gent, R. N., Siem, D., van Middelkoop, M., van Os, A. G., Bierma-Zeinstra, S. M. A., & Koes, B. W. (2007). Incidence and determinants of lower extremity running injuries in long distance runners. *British Journal of Sports Medicine, 41*(8), 469-480. https://doi.org/10.1136/bjsm.2006.033548
+Bertelsen, M. L., Hulme, A., Petersen, J., Brund, R. K., Sørensen, H., Finch, C. F., Parner, E. T., & Nielsen, R. O. (2017). A framework for the etiology of running-related injuries. *Scandinavian Journal of Medicine & Science in Sports*, 27(11), 1170–1180.
 
-Gabbett, T. J. (2016). The training-injury prevention paradox: should athletes be training smarter and harder? *British Journal of Sports Medicine, 50*(5), 273-280. https://doi.org/10.1136/bjsports-2015-095788
+Buist, I., Bredeweg, S. W., van Mechelen, W., Lemmink, K. A. P. M., Pepping, G. J., & Diercks, R. L. (2008). No effect of a graded training program on the number of running-related injuries in novice runners: A randomized controlled trial. *The American Journal of Sports Medicine*, 36(1), 33–39.
+
+Damsted, C., Glad, S., Nielsen, R. O., Sørensen, H., & Malisoux, L. (2018). Is there evidence for an association between changes in training load and running-related injuries? A systematic review. *International Journal of Sports Physical Therapy*, 13(6), 931–942.
+
+Gabbett, T. J. (2016). The training-injury prevention paradox: Should athletes be training smarter and harder? *British Journal of Sports Medicine*, 50(5), 273–280. https://doi.org/10.1136/bjsports-2015-095788
+
+Hulme, A., Nielsen, R. O., Timpka, T., Verhagen, E., & Finch, C. (2017). Risk and protective factors for middle- and long-distance running-related injury. *Sports Medicine*, 47(5), 869–886.
+
+Impellizzeri, F. M., Tenan, M. S., Kempton, T., Novak, A., & Coutts, A. J. (2020). Acute:chronic workload ratio: Conceptual issues and fundamental pitfalls. *International Journal of Sports Physiology and Performance*, 15(6), 907–913.
+
+Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: A systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538
+
+Nielsen, R. O., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Excessive progression in weekly running distance and risk of running-related injuries: An association which varies according to type of injury. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 739–747.
+
+van Gent, R. N., Siem, D., van Middelkoop, M., van Os, A. G., Bierma-Zeinstra, S. M. A., & Koes, B. W. (2007). Incidence and determinants of lower extremity running injuries in long distance runners: A systematic review. *British Journal of Sports Medicine*, 41(8), 469–480. https://doi.org/10.1136/bjsm.2006.033548

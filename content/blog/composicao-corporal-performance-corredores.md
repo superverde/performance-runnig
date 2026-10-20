@@ -6,7 +6,14 @@ excerpt: "Qual é o peso ideal do corredor? Menos peso nem sempre é mais veloci
 seoTitle: "Peso Ideal do Corredor: Composição Corporal e Performance"
 keyword: "peso ideal corredor"
 keywords: ["composição corporal corrida", "peso e performance", "disponibilidade energética"]
-readTime: 8
+readTime: 5
+faqs:
+  - q: "Perder peso torna-me sempre mais rápido?"
+    a: "Não. Menos massa gorda reduz o custo de transportar o corpo, mas abaixo de certo ponto a restrição energética prejudica o treino, a recuperação, as hormonas e os ossos, e a performance piora."
+  - q: "O que é a baixa disponibilidade energética?"
+    a: "É quando a energia que comes, depois de descontado o gasto do exercício, não chega para as funções básicas do corpo. Mantida no tempo, leva à deficiência energética relativa no desporto (REDs), com efeitos na saúde óssea, hormonal e no rendimento."
+  - q: "Que sinais indicam que estou a comer pouco para o treino que faço?"
+    a: "Fadiga persistente, quebra de rendimento sem explicação, lesões ósseas de stress, infeções frequentes, sono pior e, nas mulheres, alterações ou ausência da menstruação. Perante estes sinais, procura um médico e um nutricionista."
 ---
 
 ## Introdução
@@ -17,7 +24,7 @@ Poucos temas geram tanta confusão — e tanto dano — no meio da corrida como 
 
 O argumento biomecânico é real: cada quilograma adicional de massa corporal aumenta o custo metabólico de deslocar o corpo, especialmente em subida e em corridas de longa duração, onde pequenas ineficiências se multiplicam ao longo de horas. A economia de corrida — a energia necessária para manter uma dada velocidade — é influenciada por múltiplos fatores biomecânicos e fisiológicos, e a massa corporal (sobretudo massa gorda, que não contribui para a propulsão) é um deles, entre vários (Barnes & Kilding, 2015).
 
-No entanto, este argumento tem um limite fisiológico claro: a disponibilidade energética. Disponibilidade energética é a energia que resta para funções fisiológicas básicas depois de descontar o gasto do exercício, relativizada à massa magra do atleta. Quando um corredor reduz a ingestão calórica de forma agressiva para "otimizar" o peso, a disponibilidade energética pode cair abaixo do limiar necessário para manter funções hormonais, ósseas e imunitárias normais — um estado descrito clinicamente como Deficiência Energética Relativa no Desporto (RED-S), que afeta tanto homens como mulheres (Mountjoy et al., 2018).
+No entanto, este argumento tem um limite fisiológico claro: a disponibilidade energética. Disponibilidade energética é a energia que resta para funções fisiológicas básicas depois de descontar o gasto do exercício, relativizada à massa magra do atleta. Quando um corredor reduz a ingestão calórica de forma agressiva para "otimizar" o peso, a disponibilidade energética pode cair abaixo do limiar necessário para manter funções hormonais, ósseas e imunitárias normais — um estado descrito clinicamente como Deficiência Energética Relativa no Desporto (RED-S, hoje abreviado REDs), que afeta tanto homens como mulheres (Mountjoy et al., 2018; Mountjoy et al., 2023). Lê mais em [RED-S e disponibilidade energética](/blog/red-s-disponibilidade-energetica-corredores).
 
 O paradoxo central é este: abaixo de um certo ponto, perder mais peso deixa de melhorar a performance e começa a destruí-la, porque o corpo em défice energético crónico reduz a taxa metabólica, compromete a densidade óssea, prejudica a recuperação muscular e aumenta o risco de fraturas de stress — precisamente o oposto do que o atleta procura (Loucks et al., 2011).
 
@@ -25,7 +32,7 @@ O paradoxo central é este: abaixo de um certo ponto, perder mais peso deixa de 
 
 Na prática, isto significa que a pergunta certa não é "qual é o meu peso ideal?", mas "qual é a composição corporal que me permite treinar consistentemente, recuperar bem e manter a saúde hormonal e óssea a longo prazo?". Alguns pontos práticos:
 
-Em vez de perseguir um número na balança, monitorize marcadores funcionais: qualidade do sono, regularidade menstrual (em atletas do sexo feminino), frequência de constipações ou infeções, velocidade de recuperação entre sessões e evolução da densidade óssea em exames periódicos, se disponíveis. Estes são indicadores mais fiáveis de disponibilidade energética adequada do que o peso isolado.
+Em vez de perseguir um número na balança, monitoriza marcadores funcionais: qualidade do sono, regularidade menstrual (em atletas do sexo feminino), frequência de constipações ou infeções, velocidade de recuperação entre sessões e evolução da densidade óssea em exames periódicos, se disponíveis. Estes são indicadores mais fiáveis de disponibilidade energética adequada do que o peso isolado.
 
 Períodos de restrição calórica intencional, quando justificados, devem ser breves, supervisionados e fora de blocos de treino de alta carga ou de preparação de prova. Tentar "perder peso" na mesma altura em que se aumenta drasticamente o volume ou a intensidade de treino é uma combinação particularmente arriscada, porque soma dois défices energéticos ao mesmo tempo.
 
@@ -41,7 +48,7 @@ Por último, comparar a composição corporal entre atletas diferentes ignora qu
 
 ## Protocolo / Conclusão
 
-Para a maioria dos corredores, a recomendação prática é: priorizar a consistência de treino e a saúde hormonal e óssea acima de qualquer meta de peso específica. Se pretende explorar a relação entre composição corporal e performance, faça-o de forma gradual (défices calóricos ligeiros, não superiores a 300-500 kcal/dia), fora de picos de treino, com acompanhamento nutricional, e sempre monitorizando marcadores funcionais de saúde. A pergunta a fazer não é "quanto mais leve posso ficar", mas "qual é a composição corporal mais leve que ainda me permite treinar com consistência, recuperar bem e manter-me saudável durante anos" — porque a performance de longo prazo depende mais de anos de treino ininterrupto do que de qualquer otimização pontual de peso.
+Para a maioria dos corredores, a recomendação prática é: priorizar a consistência de treino e a saúde hormonal e óssea acima de qualquer meta de peso específica. Se pretendes explorar a relação entre composição corporal e performance, fá-lo de forma gradual (défices calóricos ligeiros, na ordem de 300-500 kcal/dia, como orientação prática), fora de picos de treino, com acompanhamento nutricional, e sempre monitorizando marcadores funcionais de saúde. A pergunta a fazer não é "quanto mais leve posso ficar", mas "qual é a composição corporal mais leve que ainda me permite treinar com consistência, recuperar bem e manter-me saudável durante anos" — porque a performance de longo prazo depende mais de anos de treino ininterrupto do que de qualquer otimização pontual de peso.
 
 ## Referências Científicas
 
@@ -52,3 +59,5 @@ Mountjoy, M., Sundgot-Borgen, J., Burke, L., Ackerman, K. E., Blauwet, C., Const
 Loucks, A. B., Kiens, B., & Wright, H. H. (2011). Energy availability in athletes. *Journal of Sports Sciences, 29*(sup1), S7-S15. https://doi.org/10.1080/02640414.2011.588958
 
 Sundgot-Borgen, J., & Garthe, I. (2011). Elite athletes in aesthetic and Olympic weight-class sports and the challenge of body weight and body composition. *Journal of Sports Sciences, 29*(sup1), S101-S114. https://doi.org/10.1080/02640414.2011.565783
+
+Mountjoy, M., Ackerman, K. E., Bailey, D. M., Burke, L. M., Constantini, N., Hackney, A. C., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine, 57*(17), 1073-1097. https://doi.org/10.1136/bjsports-2023-106994

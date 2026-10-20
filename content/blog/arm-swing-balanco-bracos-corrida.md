@@ -6,45 +6,68 @@ excerpt: "O balanço de braços na corrida equilibra a rotação do tronco. Apre
 seoTitle: "Balanço de Braços na Corrida: Como os Braços Afetam o Ritmo"
 keyword: "balanço de braços na corrida"
 keywords: ["movimento dos braços a correr", "técnica de braços corrida", "postura dos braços"]
-readTime: 4
+readTime: 5
 ---
 
-### Balanço de Braços: Como os Membros Superiores Afetam a Corrida
+Quando se fala de técnica de corrida, quase toda a atenção vai para as pernas: cadência, apoio do pé, comprimento de passada. Os braços parecem um detalhe. Mas não são passageiros: o balanço dos braços tem uma função mecânica clara e, quando é suprimido ou mal executado, o custo energético da corrida sobe.
 
-A corrida é um desporto que exige uma combinação de força, resistência e coordenação. Embora a maioria das pessoas se concentre nos movimentos dos membros inferiores, os membros superiores desempenham um papel crucial no equilíbrio e na eficiência da corrida. No entanto, muitos corredores não sabem como utilizar corretamente os seus braços para melhorar a sua performance.
+## Para que servem os braços a correr
 
-Um estudo publicado no Journal of Sports Sciences encontrou que os corredores que mantêm os seus braços relaxados e baixos tendem a ter uma economia de energia maior do que os que os levam para cima. Isso ocorre porque os braços que estão mais baixos necessitam de menos energia para serem levantados e abaixados. Além disso, a manutenção de braços relaxados ajuda a reduzir a tensão nos músculos do tronco e das costas, o que pode contribuir para uma maior eficiência na corrida.
+Cada vez que uma perna avança, cria um momento de rotação no corpo em torno do eixo vertical. Se nada o compensasse, o tronco e a bacia rodariam para um lado e para o outro a cada passada. O balanço alternado dos braços — braço esquerdo para a frente quando a perna direita avança — gera um momento contrário que equilibra essa rotação.
 
-### Base Científica
+O resultado é um tronco mais estável, menos trabalho muscular para controlar a rotação e uma corrida mais fluida. Os braços também ajudam a manter o ritmo e a coordenação, sobretudo em acelerações e subidas.
 
-A biomecânica da corrida é influenciada por uma variedade de fatores, incluindo a forma como os pés colidem com o solo, a flexão do joelho e a amplitude de movimento do braço. No entanto, a influência dos braços na corrida é frequentemente subestimada. Um estudo realizado por Novacheck (1998) examinou a biomecânica da corrida e encontrou que os braços desempenham um papel importante no equilíbrio e na eficiência da corrida. O estudo encontrou que os corredores que mantêm os seus braços relaxados e baixos tendem a ter uma economia de energia maior do que os que os levam para cima.
+## O que diz a ciência
 
-Outro estudo realizado por Lieberman et al. (2010) encontrou que os corredores que correm com um pé-leve tendem a ter uma tensão maior nos músculos do tronco e das costas do que os que correm com um pé-plano. Isso ocorre porque os corredores que correm com um pé-leve tendem a levantar os seus braços mais alto para compensar a falta de estabilidade nos pés. Além disso, o estudo encontrou que os corredores que correm com um pé-plano tendem a ter uma economia de energia maior do que os que correm com um pé-leve.
+O estudo de referência sobre este tema é o de Arellano e Kram (2014), que mediram o consumo de oxigénio de corredores com e sem balanço de braços. Correr sem mexer os braços aumentou o custo metabólico em todas as condições testadas: cerca de 3% com as mãos atrás das costas, 9% com os braços cruzados sobre o peito e 13% com as mãos em cima da cabeça. Sem o balanço dos braços, aumentava a rotação dos ombros e da bacia, e o corpo tinha de gastar mais energia para a controlar.
 
-### Aplicação Prática
+A conclusão prática é simples: o balanço natural dos braços poupa energia. Não precisas de o «otimizar» com grande esforço consciente — precisas sobretudo de não o bloquear nem o exagerar.
 
-Para melhorar a sua corrida, é importante aprender a utilizar corretamente os seus braços. Aqui estão algumas dicas:
+Há também evidência de que pensar demasiado nos próprios movimentos enquanto corres piora a economia de corrida (Schücker & Parrington, 2019). Por isso, qualquer correção à técnica dos braços deve ser trabalhada com pistas simples e por períodos curtos, até se tornar automática.
 
-* Mantém os seus braços relaxados e baixos. Isso ajudará a reduzir a tensão nos músculos do tronco e das costas.
-* Evita levantar os seus braços para cima. Isso pode contribuir para uma maior tensão nos músculos do tronco e das costas.
-* Pratica a corrida com um pé-plano. Isso ajudará a reduzir a tensão nos músculos do tronco e das costas.
-* Faz exercícios de alongamento para os músculos do tronco e das costas. Isso ajudará a melhorar a sua flexibilidade e a reduzir a tensão nos músculos.
+## Técnica recomendada
 
-### Erros Comuns
+As orientações seguintes resultam da prática de treino consensual e são coerentes com a função mecânica dos braços. Não há um ângulo «ótimo» demonstrado cientificamente para todos.
 
-Existem alguns erros comuns que os corredores podem cometer ao utilizar os seus braços:
+- **Cotovelos fletidos**, aproximadamente a 90 graus. O ângulo pode abrir ligeiramente quando o braço desce e fechar quando sobe.
+- **Movimento a partir do ombro**, para a frente e para trás, e não apenas do cotovelo.
+- **Mãos relaxadas**, como se segurasses algo frágil sem o esmagar. Punhos cerrados aumentam a tensão nos antebraços e ombros.
+- **Mãos sem cruzar o centro do corpo** de forma acentuada. Um ligeiro movimento para dentro é normal; atravessar a linha média aumenta a rotação do tronco.
+- **Ombros baixos e soltos**, longe das orelhas.
+- **Amplitude ajustada à velocidade**: a ritmos lentos, o balanço é curto; em sprints e subidas, os braços trabalham com mais amplitude e vigor.
 
-* Levantar os braços para cima. Isso pode contribuir para uma maior tensão nos músculos do tronco e das costas.
-* Mantener os braços tensos. Isso pode contribuir para uma maior tensão nos músculos do tronco e das costas.
-* Correr com um pé-leve. Isso pode contribuir para uma maior tensão nos músculos do tronco e das costas.
+## Erros comuns
 
-### Protocolo/Conclusão
+- **Ombros encolhidos**: muito comum com fadiga ou frio. Gera tensão no pescoço e trapézios. Solta os ombros de vez em quando, deixando os braços cair ao lado do corpo durante alguns passos.
+- **Braços cruzados à frente do corpo**: aumenta a rotação do tronco. Pode estar associado a passada cruzada nas pernas.
+- **Braços rígidos ou parados**: como mostrou o estudo de Arellano e Kram, suprimir o balanço aumenta o custo energético.
+- **Punhos cerrados e antebraços tensos**: desperdiça energia e espalha tensão para os ombros.
+- **Balanço exagerado a ritmos lentos**: mais movimento do que o necessário também custa energia.
 
-Para melhorar a sua corrida, é importante aprender a utilizar corretamente os seus braços. Isso pode ser feito mantendo os braços relaxados e baixos, evitando levantar os braços para cima e praticando a corrida com um pé-plano. Além disso, é importante fazer exercícios de alongamento para os músculos do tronco e das costas para melhorar a sua flexibilidade e reduzir a tensão nos músculos.
+## Exercícios para melhorar
 
-### Referências Científicas
+### Drills técnicos
 
-* Lieberman, D. E., Venkadesan, M., Werbel, W. A., Daoud, A. I., D'Andrea, S., Davis, I. S., Mang'eni, R. O., & Pitsiladis, Y. (2010). Foot strike patterns and collision forces in habitually barefoot versus shod runners. Nature, 463(7280), 531-535. https://doi.org/10.1038/nature08723
-* Novacheck, T. F. (1998). The biomechanics of running. Gait & Posture, 7(1), 77-95. https://doi.org/10.1016/S0966-6362(97)00038-6
-* Daoud, A. I., Geissler, G. J., Wang, F., Saretsky, J., Daoud, Y. A., & Lieberman, D. E. (2012). Foot strike and injury rates in endurance runners: a retrospective study. Medicine & Science in Sports & Exercise, 44(7), 1325-1334. https://doi.org/10.1249/MSS.0b013e3182465115
-* Moore, I. S. (2016). Is there an economical running technique? A review of modifiable biomechanical factors affecting running economy. Sports Medicine, 46(6), 793-807. https://doi.org/10.1007/s40279-016-0474-4
+- **Balanço de braços parado**: de pé, com um pé ligeiramente à frente, faz o movimento dos braços durante 20–30 segundos, com os ombros relaxados. Repete 3 vezes.
+- **Skipping e A-skips**: obrigam a coordenar braços e pernas em ritmo; inclui-os no aquecimento 1–2 vezes por semana.
+- **Acelerações progressivas** (strides): 4–6 de 80–100 metros no fim de um treino fácil, com foco em braços soltos.
+
+### Força e mobilidade
+
+- **Remada com elástico ou halteres** e **face pulls**, para reforçar a parte posterior dos ombros.
+- **Prancha e prancha lateral**, para um tronco estável que permita aos braços trabalhar sem compensações.
+- **Mobilidade torácica** (rotações em quatro apoios), útil para quem passa muitas horas sentado.
+
+## Como verificar a tua técnica
+
+Grava-te de frente e de lado em câmara lenta, ao ritmo habitual. Observa se as mãos cruzam o centro do corpo, se os ombros sobem e se o balanço é simétrico. Explicamos o processo em [Analisar a tua corrida com o telemóvel](/blog/analisar-corrida-com-telemovel).
+
+## Conclusão
+
+Os braços são um contrapeso que estabiliza o tronco e poupa energia. A regra é deixá-los trabalhar de forma natural: cotovelos fletidos, ombros soltos, mãos relaxadas e movimento para a frente e para trás. Corrige apenas o que é claramente excessivo, uma coisa de cada vez. Para ver como os braços se integram na postura global, lê [Postura na corrida: tronco, ombros e braços](/blog/postura-corrida-tronco-ombros-bracos).
+
+## Referências Científicas
+
+Arellano, C. J., & Kram, R. (2014). The metabolic cost of human running: Is swinging the arms worth it? *Journal of Experimental Biology*, 217(14), 2456–2461. https://doi.org/10.1242/jeb.100420
+
+Schücker, L., & Parrington, L. (2019). Thinking about your running movement makes you less efficient: Attentional focus effects on running economy and kinematics. *Journal of Sports Sciences*, 37(6), 638–646. https://doi.org/10.1080/02640414.2018.1522697

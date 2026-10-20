@@ -10,7 +10,7 @@ faqs:
   - q: "Como prevenir a dor nas costas a correr?"
     a: "Fortaleça o core com exercícios de estabilidade, mantenha a postura ereta e aumente a cadência de passos em 5–10 p/m para reduzir a carga lombar."
   - q: "Quais os exercícios de core mais eficazes para corredores?"
-    a: "Prancha frontal, prancha lateral, Bird‑Dog e Dead Bug são os mais recomendados, pois trabalham estabilidade e controle neuromuscular do tronco."
+    a: "Prancha frontal, prancha lateral, Bird‑Dog e Dead Bug são os mais recomendados, pois trabalham estabilidade e controlo neuromuscular do tronco."
   - q: "Qual é a relação entre lombalgia corrida e biomecânica?"
     a: "Desequilíbrios musculares e má postura aumentam a carga na lombar; fortalecer o core melhora a biomecânica e diminui a ocorrência de lombalgia corrida."
 ---
@@ -54,7 +54,7 @@ Estudos de van Gent et al. (2007) mostraram que a incidência de lesões musculo
 
 ## Protocolo/Conclusão
 
-Um programa de core estruturado, com 3 sessões por semana e foco em estabilidade e controle neuromuscular, reduz significativamente a incidência de dor lombar corredor. A combinação de exercícios de prancha, Bird‑Dog e Dead Bug, juntamente com ajustes posturais e cadência de corrida, cria um ciclo de fortalecimento que protege a região lombar. Correr com consciência do core, mantendo a postura correta e monitorando a carga, permite que o corredor alcance distâncias mais longas sem dor nas costas a correr.
+Um programa de core estruturado, com 3 sessões por semana e foco em estabilidade e controlo neuromuscular, reduz significativamente a incidência de dor lombar corredor. A combinação de exercícios de prancha, Bird‑Dog e Dead Bug, juntamente com ajustes posturais e cadência de corrida, cria um ciclo de fortalecimento que protege a região lombar. Correr com consciência do core, mantendo a postura correta e monitorando a carga, permite que o corredor alcance distâncias mais longas sem dor nas costas a correr.
 
 
 ## Referências Científicas

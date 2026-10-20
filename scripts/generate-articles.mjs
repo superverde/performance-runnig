@@ -1296,6 +1296,7 @@ const CORRECOES_PT = [
   [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])projetad([oa]s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'concebid$1'],
   [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])vazamento(s?)(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, 'fuga$1'],
   [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])(o|do|de|um|no|ao|seu|este|esse|melhor|maior)\s+controle(?=[^\wÀ-ÖØ-öø-ÿ]|$)/gi, '$1 controlo'],
+  [/(?<=^|[^\wÀ-ÖØ-öø-ÿ])controle(?=\s+(?:neuromuscular|motor|postural|glicémico|térmico|da|do|de|das|dos)(?=[^\wÀ-ÖØ-öø-ÿ]|$))/gi, 'controlo'],  // 2026-10-20
   // "você" e companhia — a ordem importa: primeiro as formas com verbo,
   // senão sobra um "tu" com verbo na 3.ª pessoa ("tu pode"), que é pior do
   // que o brasileirismo original.

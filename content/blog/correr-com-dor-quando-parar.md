@@ -2,79 +2,82 @@
 title: "Correr com Dor: Quando Parar Mesmo"
 date: '2026-09-21'
 category: "Lesões"
-excerpt: "Correr com dor: quando é sinal de alerta e quando podes continuar. Vê a regra da dor acima de 4 em 10 e os sinais que exigem parar mesmo."
+excerpt: "Correr com dor: quando podes continuar com segurança, como usar o modelo de monitorização da dor e quais os sinais que exigem parar e procurar um médico."
 keyword: "correr com dor"
 keywords: ["quando parar de correr", "dor a correr", "correr lesionado"]
-readTime: 4
+readTime: 6
 faqs:
-  - q: "Quando devo suspender a corrida se a dor não for aguda?"
-    a: "Se a dor permanecer > 4 / 10 e não melhorar após 48 h, é prudente suspender a corrida imediatamente."
-  - q: "Posso continuar a treinar em outros desportos durante a pausa?"
-    a: "Sim, pode praticar atividades de baixo impacto, mas deve evitar qualquer exercício que aumente a dor no local afetado."
-  - q: "Quanto tempo leva para voltar a correr após uma lesão de tendinopatia?"
-    a: "Normalmente, o retorno seguro ocorre entre 6 a 8 semanas, dependendo da gravidade e da adesão ao protocolo de reabilitação."
+  - q: "Que nível de dor é aceitável durante a corrida?"
+    a: "Nos modelos de monitorização da dor usados em reabilitação de tendões, uma dor até cerca de 3 a 5 em 10 durante o exercício é considerada aceitável, desde que acalme até à manhã seguinte e não aumente de semana para semana. Não se aplica a suspeitas de fratura de stress, onde a regra é não correr com dor."
+  - q: "Posso fazer outros desportos enquanto paro de correr?"
+    a: "Sim. Bicicleta, natação, elíptica ou corrida em água mantêm a forma aeróbia. A condição é que essas atividades não reproduzam a dor no local afetado."
+  - q: "Quanto tempo demora a voltar a correr depois de uma tendinopatia?"
+    a: "Varia muito com o tendão, a gravidade e o tempo de evolução. Em muitos casos é possível continuar a correr com volume ajustado; noutros, a recuperação completa demora vários meses. Um fisioterapeuta ajuda a definir a progressão."
 ---
 
-Correr com dor não é sinal de superação, mas de alerta: quando a dor ultrapassar 4 / 10 na escala numérica e persistir por mais de 48 h, o ideal é suspender a atividade imediatamente e procurar avaliação clínica.
+Nem toda a dor significa lesão, e nem toda a lesão obriga a parar. Mas há dores que nunca deves ignorar. Saber distinguir umas das outras é das competências mais valiosas que um corredor pode ter — evita paragens desnecessárias e evita, sobretudo, transformar um problema de duas semanas num problema de três meses.
 
-Quando a dor persiste, o risco de agravar a lesão aumenta, podendo transformar um pequeno desconforto numa fratura por stress ou tendinite crónica. Por isso, a decisão de parar não deve ser tomada de forma casual, mas baseada em critérios fisiológicos e clínicos bem definidos.
+## Três tipos de desconforto
 
-## Base Científica
+**1. Dor muscular de esforço e DOMS.** Pernas pesadas e doridas de forma difusa, nos dois lados, 24 a 72 horas depois de um treino novo ou intenso. Melhora ao aquecer e desaparece em poucos dias. É normal (lê [DOMS: o que funciona](/blog/doms-dores-tardias-o-que-funciona)).
 
-Os estudos de van Gent et al. (2007) identificaram que a incidência de lesões nos membros inferiores aumenta exponencialmente quando o volume de treino ultrapassa 180 km/semana, sobretudo em corredores de longa distância. Lopes et al. (2012) classificam as lesões mais frequentes como tendinopatias do tendão de Aquiles, síndrome da banda iliotibial e fraturas por stress tibial. Warden et al. (2014) demonstram que a prevenção destas lesões requer uma redução do volume de treino de pelo menos 30 % durante a fase de recuperação, seguida por um retorno progressivo em 10 % semanal.
+**2. Dor de sobrecarga de tecido.** Localizada num sítio concreto (tendão de Aquiles, rótula, face interna da tíbia, calcanhar), repete-se sempre no mesmo local e tem um padrão: piora com determinados treinos, rigidez de manhã, melhora ou piora com o aquecimento. É o território das tendinopatias, da síndrome patelofemoral, da canelite. Aqui, muitas vezes, **não precisas de parar totalmente**, mas tens de ajustar a carga.
 
-A fisiologia da dor é central para a decisão de parar. A dor nociceptiva aguda (≤ 4 / 10) costuma ser resposta a microtraumas que o corpo pode reparar com descanso moderado. Quando a dor ultrapassa 4 / 10 e se torna crónica (> 48 h), indica inflamação persistente, falha de reparação ou sobrecarga excessiva. Beyer et al. (2015) compararam treino de resistência pesada versus treino excêntrico para tendinopatia do Aquiles e mostraram que o primeiro requer um período de descontinuação de 6‑8 semanas para evitar agravamento.
+**3. Dor de alarme.** Dor que aparece de repente, que te obriga a mudar a passada, dor óssea muito localizada, dor à noite ou em repouso. Aqui paras.
 
-## Aplicação Prática
+## O modelo de monitorização da dor
 
-1. **Avaliação da intensidade da dor**  
-   - Regista a dor diariamente numa escala de 0‑10.  
-   - Se a dor > 4 / 10 e não melhora em 48 h, interrompa o treino.  
+Para as dores de sobrecarga, sobretudo nos tendões, a ferramenta com melhor suporte é o **modelo de monitorização da dor** de Silbernagel et al. (2007). No ensaio original, doentes com tendinopatia de Aquiles que continuaram a correr e a saltar guiados por este modelo tiveram resultados semelhantes aos que pararam essas atividades. As regras são:
 
-2. **Redução do volume**  
-   - Corte o volume semanal em 30 %.  
-   - Se estava a correr 180 km, reduza para 126 km.  
+- Durante o treino, a dor pode chegar a **5 em 10** (0 = nenhuma, 10 = pior imaginável). Muitos clínicos preferem um teto mais prudente de 3.
+- A dor depois do treino deve **acalmar até à manhã seguinte**.
+- A dor e a rigidez **não devem aumentar de semana para semana**.
 
-3. **Alteração do tipo de treino**  
-   - Substitua sessões de corrida por exercícios de baixo impacto (natação, ciclismo) por 2‑3 semanas.  
+Se alguma destas regras falhar, reduzes a carga nesse dia e nos seguintes — não tens obrigatoriamente de parar tudo. A meta-análise de Smith et al. (2017) também sugere que, na dor musculoesquelética crónica, exercícios com alguma dor permitida podem ter um pequeno benefício de curto prazo face a evitar totalmente a dor.
 
-4. **Reintrodução gradual**  
-   - Reintroduza 10 % do volume anterior por semana, monitorizando a dor.  
-   - Se a dor voltar a > 4 / 10, recuar 10 % e repetir.
+**Atenção:** este modelo **não** se aplica a suspeitas de lesão óssea. Com dor óssea localizada, a regra é não correr e procurar avaliação.
 
-5. **Fortalecimento e mobilidade**  
-   - Inclui exercícios de fortalecimento de quadríceps, isquiotibiais e glúteos.  
-   - Realize 3 sessões por semana, 2 × 15 repetições a 70 % do 1RM.  
+## Sinais para parar e ir ao médico
 
-6. **Avaliação profissional**  
-   - Consulta um fisioterapeuta ou ortopedista se a dor persistir > 7 dias.  
+Para de correr e procura avaliação se tiveres:
 
-## Erros Comuns
+- **Dor óssea pontual**, que consegues localizar com um dedo, sobretudo na tíbia, metatarsos, anca ou virilha, e que piora a saltar ao pé-coxinho. Pode ser uma lesão de stress ósseo (Warden et al., 2014).
+- **Dor à noite ou em repouso**.
+- **Dor que te faz coxear** ou alterar a passada.
+- **Inchaço, calor, bloqueio** ou instabilidade de uma articulação.
+- **Dor súbita e aguda** durante a corrida, como uma "pedrada" na barriga da perna ou atrás da coxa.
+- **Dormência, formigueiro ou fraqueza** numa perna, ou dor que irradia abaixo do joelho.
+- Dor na virilha ou anca profunda em corredoras com ciclos irregulares ou perda de peso — pode haver défice energético e risco ósseo aumentado (Mountjoy et al., 2023).
 
-- **Ignorar a dor**: muitos corredores continuam a treinar, o que aumenta o risco de fraturas por stress.  
-- **Retorno prematuro**: voltar a 100 % do volume após apenas 1 semana de pausa costuma causar recaída.  
-- **Subestimar a dor crónica**: dores que não desaparecem em 48 h podem indicar tendinopatia ou tendinite, que requerem tratamento específico.  
-- **Não ajustar a técnica**: falha na biomecânica (por exemplo, excesso de pronação) pode manter a dor mesmo com volume reduzido.
+E, claro, qualquer dor no peito, falta de ar desproporcionada, tonturas ou palpitações durante o esforço exige parar de imediato.
 
-## Protocolo/Conclusão
+## O que fazer na prática
 
-Para corredores que experienciam dor persistente, a estratégia de “parar, reduzir, reintroduzir” baseia‑se em evidências sólidas. O protocolo recomendado:
+1. **Regista a dor** de 0 a 10 durante o treino, logo a seguir e na manhã seguinte.
+2. **Se está dentro do modelo** (até 3–5/10, acalma até de manhã, estável): mantém o treino mas evita o que mais a provoca — séries rápidas, descidas, calçado muito diferente.
+3. **Se ultrapassa o modelo**: reduz volume e intensidade, troca parte da corrida por treino cruzado (lê [treino cruzado para corredores](/blog/cross-training-corredores-natacao-bicicleta)) e reavalia em poucos dias.
+4. **Se não melhora em uma a duas semanas** de carga ajustada, consulta um fisioterapeuta ou médico do desporto.
+5. **Trata a causa**: quase sempre há uma combinação de progressão rápida de carga e capacidade insuficiente do tecido. O fortalecimento progressivo é a base da reabilitação da maior parte das lesões de sobrecarga.
 
-1. **Parar**: suspender a corrida se a dor > 4 / 10 e > 48 h.  
-2. **Reduzir**: diminuir o volume em 30 % e substituir por atividades de baixo impacto.  
-3. **Reintroduzir**: aumentar o volume em 10 % semanalmente, monitorando a dor.  
-4. **Fortalecer**: incluir treinos de resistência e mobilidade.  
-5. **Avaliar**: procurar avaliação profissional se a dor não melhorar em 7 dias.
+## Erros comuns
 
-Seguir este plano minimiza o risco de lesões graves e assegura que o atleta volte a correr de forma segura e sustentável.
+- **Correr "por cima" da dor** porque há uma prova no calendário.
+- **Parar totalmente** por uma tendinopatia ligeira e depois voltar ao volume anterior de uma só vez.
+- **Mascarar a dor com anti-inflamatórios** para conseguir treinar (lê [anti-inflamatórios e recuperação](/blog/anti-inflamatorios-recuperacao-corredores-riscos)).
+- **Mudar tudo ao mesmo tempo** — sapatilhas, técnica, plano — sem saber o que resultou.
 
+## Conclusão
+
+A pergunta certa não é "dói ou não dói?", mas "que tipo de dor é, como evolui e o que a provoca?". Dor de sobrecarga controlada pode coexistir com treino ajustado; dor óssea, dor noturna, dor que te faz coxear ou sintomas neurológicos exigem parar. Na dúvida, uma avaliação cedo poupa-te semanas de paragem.
 
 ## Referências Científicas
 
-1. van Gent, R. N., Siem, D., van Middelkoop, M., van Os, A. G., Bierma-Zeinstra, S. M. A., & Koes, B. W. (2007). Incidence and determinants of lower extremity running injuries in long distance runners. British Journal of Sports Medicine, 41(8), 469-480. https://doi.org/10.1136/bjsm.2006.033548
+Mountjoy, M., Ackerman, K. E., Bailey, D. M., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1098. https://doi.org/10.1136/bjsports-2023-106994
 
-2. Lopes, A. D., Hespanhol Júnior, L. C., Yeung, S. S., & Costa, L. O. P. (2012). What are the main running-related musculoskeletal injuries? Sports Medicine, 42(10), 891-905. https://doi.org/10.1007/BF03262301
+Silbernagel, K. G., Thomeé, R., Eriksson, B. I., & Karlsson, J. (2007). Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: A randomized controlled study. *The American Journal of Sports Medicine*, 35(6), 897–906.
 
-3. Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. Journal of Orthopaedic & Sports Physical Therapy, 44(10), 749-765. https://doi.org/10.2519/jospt.2014.5334
+Smith, B. E., Hendrick, P., Smith, T. O., Bateman, M., Moffatt, F., Rathleff, M. S., Selfe, J., & Logan, P. (2017). Should exercises be painful in the management of chronic musculoskeletal pain? A systematic review and meta-analysis. *British Journal of Sports Medicine*, 51(23), 1679–1687.
 
-4. Beyer, R., Kongsgaard, M., Hougs Kjær, B., Øhlenschlæger, T., Kjær, M., & Magnusson, S. P. (2015). Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy. The American Journal of Sports Medicine, 43(7), 1704-1711. https://doi.org/10.1177/0363546515584760
+Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 749–765. https://doi.org/10.2519/jospt.2014.5334
+
+Beyer, R., Kongsgaard, M., Hougs Kjær, B., Øhlenschlæger, T., Kjær, M., & Magnusson, S. P. (2015). Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: A randomized controlled trial. *The American Journal of Sports Medicine*, 43(7), 1704–1711. https://doi.org/10.1177/0363546515584760

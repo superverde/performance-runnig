@@ -2,64 +2,82 @@
 title: "Melhores Calças de Corrida para o Inverno"
 date: '2026-09-24'
 category: "Equipamento"
-excerpt: "Descobre as melhores calças de corrida inverno e como escolher a ideal para o teu treino frio, com dicas de performance e conforto garantido."
+excerpt: "Collants térmicos, calças corta-vento ou modelos repelentes à água: vê como escolher calças de corrida de inverno e que modelos reais valem a pena."
 readTime: 5
 keyword: "calças de corrida inverno"
 keywords: ["calças térmicas corrida", "leggings de inverno homem", "roupa de corrida para o frio"]
 faqs:
-  - q: "Quais são as diferenças entre calças térmicas corrida e leggings de inverno homem?"
-    a: "As calças térmicas corrida são desenhadas para maximizar a mobilidade e a ventilação, enquanto as leggings de inverno homem tendem a ser mais ajustadas e focadas em isolamento, podendo limitar o movimento em corridas mais longas."
-  - q: "Preciso de calças de corrida inverno com camada impermeável?"
-    a: "Só se o seu treino for em dias de chuva forte ou neve. Para a maioria dos corredores que treinam em dias secos, uma camada anti‑estática e respirável já é suficiente."
-  - q: "Como escolher a altura correta da calça de corrida para o frio?"
-    a: "Opte por calças que cubram os joelhos e os tornozelos, garantindo isolamento adicional. Se preferir maior mobilidade, pode escolher um modelo “cut‑off”, mas assegure‑se de que a cintura permaneça firme."
+  - q: "Qual é a diferença entre calças térmicas de corrida e leggings de inverno?"
+    a: "Na prática, quase todas as 'calças térmicas' de corrida são collants justos com o interior escovado ou em textura waffle. A diferença está no tecido: um collant de verão é fino e liso, um de inverno tem uma face interior felpuda que retém ar quente junto à pele."
+  - q: "Preciso de calças de corrida de inverno impermeáveis?"
+    a: "Raramente. Nas pernas produzes muito calor e uma membrana impermeável faz-te transpirar. Para chuva e vento, um collant com painéis repelentes à água ou corta-vento na frente das coxas resolve a maioria dos dias em Portugal."
+  - q: "A partir de que temperatura devo trocar os calções por calças?"
+    a: "Não há um valor único: depende do vento, da chuva, da intensidade do treino e da tua sensibilidade ao frio. Muitos fabricantes posicionam os collants térmicos para temperaturas abaixo de cerca de 10 °C; abaixo disso, em treinos lentos, a maioria dos corredores sente-se melhor com as pernas cobertas."
 ---
 
-As calças de corrida inverno são essenciais para quem pretende manter o ritmo mesmo quando a temperatura desce. Elas combinam tecnologia de isolamento, respirabilidade e mobilidade, permitindo que o atleta se concentre na corrida sem se preocupar com o frio. Neste artigo, exploramos os critérios que fazem a diferença, apresentamos as opções mais relevantes em 2026 e concluímos com recomendações por perfil de corredor.
+Correr no inverno não exige equipamento caro, mas exige o tecido certo. As calças de corrida de inverno têm uma função simples: manter os músculos das pernas quentes sem te encharcarem de suor nem limitarem a passada. Em Portugal, onde o frio raramente é extremo mas a chuva e o vento são frequentes, o critério mais importante quase nunca é o isolamento máximo — é o equilíbrio entre calor, respirabilidade e proteção contra o vento.
 
 ## Como Escolher: Critérios Que Importam
 
-Quando se trata de calças de corrida para o inverno, a escolha não se resume apenas a um visual “quente”. Os fatores técnicos que realmente importam são:
+### Collant justo ou calça solta?
 
-1. **Material de base** – As fibras de poliéster ou nylon de alta densidade retêm calor sem acumular humidade. A tecnologia de micro‑fibras ajuda a evaporar o suor rapidamente, mantendo a pele seca.
+Para correr, o formato mais usado é o **collant** (justo à pele). Não roça, não prende o vento como uma calça larga e deixa o tecido técnico em contacto direto com a pele, o que facilita o transporte do suor. As calças soltas (tipo jogger) fazem sentido para aquecimento, deslocações e treinos muito lentos, ou para quem não se sente confortável com um collant — nesse caso, pode-se usar um collant fino por baixo.
 
-2. **Camada de isolamento** – As calças térmicas corrida utilizam preenchimento de micro‑bolhas de ar ou fibras de lã merino, que proporcionam isolamento térmico sem adicionar peso excessivo. A camada deve ser fina o suficiente para não restringir a mobilidade, mas suficientemente espessa para bloquear correntes de ar.
+### O tecido: interior escovado ou waffle
 
-3. **Respirabilidade** – A ventilação por micro‑fendas ou tecidos com tecnologia de “wicking” garante que o calor gerado pelo corpo não se acumule. Isto é crucial para evitar desconforto e suor excessivo, especialmente em treinos prolongados.
+O que torna um collant "de inverno" é a face interior: **escovada** (felpuda) ou em **textura waffle**. Ambas criam pequenas bolsas de ar que isolam sem acrescentar muito peso. As fibras são quase sempre poliéster com elastano, que secam depressa. O algodão deve ser evitado: absorve o suor, demora a secar e, molhado, arrefece a pele — um ponto sublinhado nas recomendações do ACSM sobre prevenção de lesões pelo frio (Castellani et al., 2006).
 
-4. **Ajusta e elasticidade** – Uma cintura elástica com ajuste de tensão evita que a calça desça, enquanto a elasticidade nos joelhos e quadris garante liberdade de movimento. O “stretch” deve ser de 30 % a 50 % para acomodar a amplitude de movimento de corrida.
+### Vento e chuva
 
-5. **Proteção contra vento e chuva** – Alguns modelos incluem camada impermeável ou repelente à água, ideal para dias de vento forte ou chuva leve. Contudo, se a roupa de corrida para o frio for apenas para uso em dias secos, pode‑se optar por um modelo mais respirável.
+O vento é o que mais faz arrefecer as pernas. Alguns modelos têm **painéis corta-vento ou repelentes à água** na frente das coxas, mantendo a parte de trás respirável. É a solução mais útil para quem treina de manhã cedo ou em zonas expostas. Calças totalmente impermeáveis raramente são necessárias para correr: nas pernas a produção de calor é elevada e uma membrana fechada acaba por te molhar por dentro.
 
-6. **Peso** – Embora o peso não seja o critério principal, calças mais leves permitem maior rapidez e menor esforço. O ideal é que pese entre 200 g e 350 g para um comprimento completo.
+### Ajuste, bolsos e visibilidade
 
-7. **Durabilidade e manutenção** – A resistência do tecido a rasgos e a facilidade de lavagem (máquina, temperatura e ciclo) são importantes para quem faz treinos regulares. A maioria dos modelos de alta performance oferece garantia de 2 anos contra defeitos de fabrico.
+- **Cintura** larga com cordão plano — evita que o collant desça com o peso de chaves ou telemóvel.
+- **Bolso com fecho** para o telemóvel, idealmente nas costas ou na lateral da coxa.
+- **Fechos ou aberturas no tornozelo** facilitam vestir e despir por cima das sapatilhas.
+- **Elementos refletores** — no inverno corres mais vezes de noite; a visibilidade é segurança.
 
-Esses critérios, quando combinados, garantem que a calça de corrida inverno seja confortável, funcional e duradoura.
+### Camadas em vez de um único modelo "polar"
+
+O ideal é vestir para a temperatura que vais sentir *depois* dos primeiros 10 minutos, não à porta de casa. Um collant térmico de espessura média cobre a maioria dos dias; nos mais frios ou ventosos, junta um modelo com proteção frontal. Para o resto do corpo, vê o nosso guia de [roupa de corrida para o inverno por camadas](/blog/roupa-corrida-inverno-guia-camadas).
 
 ## As Melhores Opções em 2026
 
-| Nome do Produto | Público‑Alvo | Pontos Fortes | Pontos Fracos | Faixa de Preço |
-|-----------------|--------------|---------------|---------------|----------------|
-| **Nike Pro Warm‑Run** | Corredores de resistência | Camada de isolamento de micro‑bolhas, cintura alta, tecido anti‑estática | Peso ligeiramente superior | entre 150 € e 200 € |
-| **Adidas Adizero Thermal** | Treinos de velocidade | Tecnologia “HeatGear”, respirabilidade superior, leve | Menos proteção contra vento | entre 120 € e 170 € |
-| **Under Armour ColdGear 2.0** | Atletas de maratona | Lã merino 100 % natural, anti‑olhos, elasticidade 35 % | Preço mais elevado | entre 180 € e 240 € |
-| **Salomon Thermo‑Flex** | Corridas de trail | Camada impermeável, resistência a rasgos, ventilação por micro‑fendas | Custo mais alto | entre 200 € e 260 € |
-| **Patagonia R1 Thermal** | Corrida em clima extremo | Material reciclado, isolamento de lã merino, corte ajustado | Peso maior | entre 170 € e 220 € |
-| **Lululemon ABC Warm** | Mulheres que procuram conforto | Tecnologia de compressão, cintura de alto ajuste, tecido de secagem rápida | Disponibilidade limitada | entre 160 € e 210 € |
+| Produto | Para quem é | Pontos fortes | Pontos fracos | Preço indicativo |
+|---|---|---|---|---|
+| **Kiprun Run 100 Warm** (Decathlon) | Quem começa ou quer um collant barato para o dia a dia | Interior escovado, bolso com fecho, preço muito baixo | Sem proteção corta-vento; acabamentos simples | cerca de 20–25 € |
+| **Kiprun Warm** (Decathlon) | Treinos regulares com frio moderado | Tecido waffle, painel mais aberto atrás dos joelhos para ventilar, bolso traseiro com fecho | Sem proteção contra chuva | gama baixa (confirma na Decathlon) |
+| **Kiprun Run 900 Rain** (Decathlon) | Quem treina com vento e chuva fraca | Painéis softshell repelentes à água na frente das coxas, vários bolsos (incl. para flasks) | Mais quente do que o necessário em dias amenos | cerca de 60–65 € |
+| **Salomon Cross Warm** | Trail e estrada com frio | Interior escovado, cintura alta com cordão, refletores, materiais reciclados | Tabela de tamanhos justa — confirma o tamanho | cerca de 35–80 € (com promoções frequentes) |
+| **Brooks Momentum Thermal Tight** | Quem procura um collant térmico de marca de corrida | Concebido especificamente para treino com frio | Preço de tabela elevado; versão de mulher mais fácil de encontrar | cerca de 70–120 € |
+| **Under Armour ColdGear Armour Leggings** | Treino com frio e base para camadas | Interior escovado, elasticidade em 4 direções, painéis de malha para ventilar | Não tem bolsos para telemóvel grandes | cerca de 60 € (preço nos EUA; confirma em Portugal) |
 
-Cada um destes modelos cumpre os critérios listados anteriormente, mas a escolha final depende do perfil do corredor, do clima de treino e do orçamento disponível.
+*Preços indicativos em outubro de 2026; confirma na loja antes de comprar.*
+
+O **Nike Phenom Dri-FIT** é uma alternativa frequentemente procurada, mas é um collant de corrida respirável, com ventilação em zonas de calor — serve melhor para outono e frio ligeiro do que para dias realmente gelados.
 
 ## Veredicto: Qual Comprar
 
-Para quem está a iniciar o treino de inverno, a **Adidas Adizero Thermal** oferece um excelente equilíbrio entre custo e desempenho, sendo leve e altamente respirável.  
-Os corredores que competem em maratões ou ultramaratões, especialmente em condições de frio intenso, devem optar pela **Under Armour ColdGear 2.0**, graças ao isolamento de lã merino e à durabilidade.  
-Se a prioridade for a velocidade em pista ou treino de curta duração, a **Nike Pro Warm‑Run** oferece a combinação ideal de calor e mobilidade.  
-Para quem pratica trail em condições de vento e chuva, a **Salomon Thermo‑Flex** garante proteção extra sem sacrificar a respirabilidade.
+- **Orçamento limitado ou primeiro collant de inverno:** o Kiprun Run 100 Warm cobre a maioria dos treinos em Portugal por um preço difícil de bater.
+- **Treinas cedo, com vento ou chuva frequente:** um modelo com proteção frontal, como o Kiprun Run 900 Rain, faz mais diferença do que um tecido mais grosso.
+- **Trail no inverno:** o Salomon Cross Warm junta calor, bolsos práticos e refletores.
+- **Queres uma peça de marca de corrida para durar várias épocas:** Brooks Momentum Thermal ou Under Armour ColdGear, desde que apanhes um bom preço.
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+Seja qual for o modelo, experimenta-o num treino curto antes de o levar para um longo: costuras e cinturas que parecem confortáveis em casa podem roçar ao fim de uma hora.
 
+👉 **Vê a nossa seleção completa de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+Para perceber como o corpo perde e produz calor durante a corrida, lê também o artigo sobre [termorregulação na corrida com calor e frio](/blog/termorregulacao-corrida-calor-frio).
 
 ## Fontes
 
-- Pág
+- Decathlon — fichas de produto Kiprun Run 100 Warm, Kiprun Warm e Kiprun Run 900 Rain: https://www.decathlon.pt
+- Salomon Cross Warm (ficha na i-Run): https://www.i-run.com/woman/clothing/tights/salomon/Cross-Warm-W_fiche_135866.html
+- Brooks Momentum Thermal Tight: https://www.brooksrunning.com/en_gb/womens/running-bottoms/momentum-thermal-tight/221501.html
+- Under Armour ColdGear Armour Leggings (Running Warehouse): https://www.runningwarehouse.com/Under_Armour_Mens_ColdGear_Armour_Leggings_Black/descpage-UAMCGL.html
+- Nike Phenom Dri-FIT: https://nike.com/si/t/phenom-dri-fit-running-tights-HBBzX4
+
+## Referências Científicas
+
+- Castellani, J. W., Young, A. J., Ducharme, M. B., Giesbrecht, G. G., Glickman, E., & Sallis, R. E. (2006). American College of Sports Medicine position stand: prevention of cold injuries during exercise. *Medicine & Science in Sports & Exercise*, 38(11), 2012–2029.

@@ -12,7 +12,7 @@ faqs:
   - q: "Preciso de laboratório para saber onde estão os meus limiares?"
     a: "Para um valor exato, sim, com análise de gases. Para treinar, chega o teste da fala: acima de VT1 deixas de conseguir falar em frases inteiras; acima de VT2 só consegues palavras soltas. É grosseiro mas suficiente para a maioria das decisões de treino."
   - q: "Os limiares ventilatórios são o mesmo que os limiares de lactato?"
-    a: "Não são o mesmo fenómeno, mas costumam ocorrer a intensidades semelhantes no mesmo atleta. VT1 aproxima-se do limiar aeróbio e VT2 do máximo estado estável de lactato, razão pela qual servem para o mesmo fim prático sem picadas no dedo."
+    a: "Não são o mesmo fenómeno, mas costumam ocorrer a intensidades próximas no mesmo atleta. VT1 aproxima-se do primeiro limiar de lactato e VT2 situa-se perto do segundo, embora não coincidam exatamente; para organizar o treino, servem o mesmo fim prático sem picadas no dedo."
 ---
 
 VT1 e VT2 são os dois pontos em que a tua respiração muda de comportamento durante um esforço progressivo, e dividem o teu treino em três zonas com significados fisiológicos distintos: abaixo de VT1 é sustentável quase indefinidamente, entre VT1 e VT2 é desconfortável mas controlável, acima de VT2 o relógio está a contar. Saber onde estão estes dois pontos vale mais do que qualquer tabela de percentagens de frequência cardíaca máxima.
@@ -47,7 +47,7 @@ Por fim, tentar treinar os dois limiares ao mesmo tempo, todas as semanas, em to
 
 ## Protocolo
 
-Durante seis a oito semanas, mantém cerca de 80% do volume semanal abaixo de VT1. Do restante, dedica uma sessão por semana a trabalho em torno de VT2 — por exemplo, três blocos de dez minutos com dois minutos de trote entre eles — e, se a fase do plano o justificar, acrescenta uma segunda sessão com intervalos claramente acima de VT2, de três a cinco minutos cada.
+Durante seis a oito semanas, mantém cerca de 80% do volume semanal abaixo de VT1 (é uma referência prática inspirada na distribuição descrita por Seiler, não uma regra exata). Do restante, dedica uma sessão por semana a trabalho em torno de VT2 — por exemplo, três blocos de dez minutos com dois minutos de trote entre eles — e, se a fase do plano o justificar, acrescenta uma segunda sessão com intervalos claramente acima de VT2, de três a cinco minutos cada.
 
 Refaz o teste progressivo ao fim do bloco. Se o ritmo correspondente a VT2 subiu com a mesma frequência cardíaca, o bloco funcionou, independentemente do que diga qualquer estimativa de VO2max do teu relógio.
 
