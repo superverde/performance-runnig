@@ -7,47 +7,63 @@ keyword: "camelbak vs salomon"
 keywords: ["mochila de hidratação", "colete de hidratação trail", "comparativo mochilas trail"]
 readTime: 5
 faqs:
-  - q: "Qual é a diferença principal entre a CamelBak M.U.L.E. e a Salomon River 2.0?"
-    a: "A CamelBak M.U.L.E. foca em ajuste de cintura flexível e peso mais leve, enquanto a Salomon River 2.0 oferece suporte dorsal firme e maior capacidade de água."
-  - q: "Como escolher a capacidade do tanque ideal para a minha corrida?"
-    a: "Para maratonas, 2 L costuma ser suficiente; para corridas de trail ou ultramaratonas, 1,5–2 L são recomendados, considerando a disponibilidade de pontos de reabastecimento."
-  - q: "É necessário trocar o tanque durante a corrida?"
-    a: "Não é obrigatório, mas a CamelBak Hydralite permite troca rápida em caso de necessidade, ideal para sessões de HIIT onde a reposição rápida é crítica."
+  - q: "Qual é a diferença principal entre CamelBak e Salomon?"
+    a: "A CamelBak nasceu nas bolsas de água e tem uma gama muito larga, sobretudo para ciclismo e caminhada, com alguns coletes de corrida. A Salomon é uma referência dos coletes de trail running ajustados ao tronco, com flasks à frente. Para correr, compara modelos de corrida de ambas, não as marcas em geral."
+  - q: "Uma mochila de BTT como a CamelBak M.U.L.E. serve para correr?"
+    a: "Não é a melhor escolha. As mochilas de BTT são feitas para pedalar e saltam mais a correr. Para trail, escolhe um colete de corrida ajustado ao tronco."
+  - q: "Que capacidade de colete devo escolher?"
+    a: "Para treinos e provas até meia distância com abastecimentos, 5 a 8 litros chegam. Para ultras com material obrigatório extenso, 12 litros é o tamanho mais comum."
 ---
 
-A corrida exige mais do que apenas bons sapatos: a hidratação adequada pode ser decisiva para o desempenho e a recuperação. Quando se trata de mochilas de hidratação, duas marcas dominam o mercado português: CamelBak e Salomon. Este artigo analisa, de forma técnica e baseada em evidências, as características que diferenciam estas duas linhas, ajudando corredores a escolher a melhor opção para o seu perfil.
+CamelBak e Salomon são dois nomes fortes da hidratação, mas com histórias diferentes. A CamelBak praticamente criou a bolsa de água com tubo e tem uma gama enorme — muita dela para ciclismo e caminhada. A Salomon construiu a reputação nos **coletes de trail running** ajustados ao tronco, com flasks à frente. Comparar as marcas só faz sentido comparando **modelos de corrida**.
 
-## Como Escolher: Critérios Que Importam
+## Como escolher: critérios que importam
 
-Para comparar mochilas de hidratação de forma objetiva, é necessário considerar três dimensões principais: **ergonomia e distribuição de peso**, **capacidade e facilidade de acesso à água** e **durabilidade e compatibilidade com outros equipamentos**.  
-1. **Ergonomia e distribuição de peso**: Estudos de biomecânica demonstram que a distribuição equilibrada do peso evita a sobrecarga muscular e reduz a fadiga (Fuller et al., 2015). Mochilas com alças ajustáveis, suporte lombar e compartimento central ajudam a manter a postura neutra. CamelBak costuma oferecer um sistema de ajuste de cintura mais flexível, enquanto Salomon foca num suporte dorsal mais firme, ideal para corridas de longa distância.  
-2. **Capacidade e acesso à água**: A capacidade típica varia entre 1 L e 2 L. Para maratonistas, um tanque de 2 L pode ser suficiente, mas corredores de trail que enfrentam variações climáticas podem precisar de mais volume. A facilidade de acesso – via cano de saída posicionado à altura do ombro ou na cintura – influencia a velocidade de reposição. Salomon costuma colocar o cano na cintura, facilitando o acesso em terreno irregular.  
-3. **Durabilidade e compatibilidade**: Material de alta resistência (nylon 6‑6 ou poliéster 300D) e sistemas de fixação robustos garantem longevidade. Além disso, a compatibilidade com bolsas de mochila, calças de compressão e sistemas de ventilação (ventilação traseira ou lateral) pode ser decisiva. CamelBak oferece um sistema de fixação “Quick‑Release” que permite trocar rapidamente o tanque, enquanto Salomon integra um compartimento de armazenamento adicional para snacks e dispositivos eletrónicos.
+**1. Colete de corrida vs. mochila de outra modalidade.** Mochilas de BTT ou caminhada (como a CamelBak M.U.L.E.) foram pensadas para pedalar ou caminhar; a correr, saltam. Para trail, procura coletes ajustados ao tronco.
 
-## As Melhores Opções em 2026
+**2. Volume.** Até 5–8 L para treinos e provas com abastecimentos frequentes; 12 L para ultras com material obrigatório (casaco, calças impermeáveis, camada quente, frontal, manta térmica, reserva de comida).
 
-| Marca / Modelo | Para quem é? | Pontos fortes | Pontos fracos | Faixa de preço |
-|----------------|--------------|---------------|---------------|----------------|
-| **CamelBak M.U.L.E.** | Maratonistas e trail runners | Ajusta de cintura flexível, cano na cintura, tanque de 1,5 L | Peso ligeiramente superior | entre 150 € e 200 € |
-| **CamelBak Hydralite** | Corredores de curta distância | Peso ultraleve (0,9 kg), tanque de 1 L, sistema de fixação rápida | Pouco espaço de armazenamento | entre 120 € e 160 € |
-| **Salomon River 2.0** | Corrida de maratona, treinos de força | Suporte dorsal firme, tanque de 2 L, compartimento de snacks | Peso maior do que a CamelBak | entre 170 € e 220 € |
-| **Salomon Trail Pack 1.5** | Trail runners e ultramaratonistas | Capacidade de 1,5 L, cano posicionado na cintura, sistema de ventilação traseira | Design mais volumoso | entre 140 € e 190 € |
-| **CamelBak Pack 12** | Corredores de ultramaratona | Tanques intercambiáveis (1–2 L), sistema de ajuste de cintura, compartimento de armazenamento | Maior complexidade de montagem | entre 200 € e 250 € |
-| **Salomon Pack 10** | Treinos de resistência | Tanque de 1 L, ajuste de cintura, compartimento de 100 ml | Peso moderado, menos robusto que a Pack 12 | entre 130 € e 170 € |
+**3. Flasks à frente ou bolsa nas costas.** As flasks no peito são rápidas de reabastecer e permitem ver quanto bebeste; a bolsa nas costas leva mais volume mas é mais lenta de encher. Muitos coletes aceitam ambas. Vê [soft flasks vs. garrafas rígidas](/blog/garrafas-soft-flask-vs-rigidas-trail-guia).
 
-**Observação**: Todos os modelos listados são fabricados em 2026 e apresentam melhorias em termos de material e ergonomia. Para mais detalhes sobre a linha de equipament​o, consulte a nossa seção de [Equipamento](/equipamento).
+**4. Ajuste.** Um colete deve ficar justo sem apertar a respiração. Experimenta-o carregado e a correr, não vazio na loja.
 
-## Veredicto: Qual Comprar
+**5. Custo energético.** O sistema de transporte em si parece importar pouco: com 1 kg de carga, garrafa de mão, cinto e mochila tiveram custo energético semelhante num estudo com corredores recreativos (Scheer et al., 2020). Importa mais levares só o que precisas.
 
-Para **iniciantes** que procuram simplicidade e baixo custo, a **CamelBak Hydralite** oferece um peso mínimo e facilidade de montagem, ideal para treinos de curta distância e sessões de HIIT (ver [hiit-aplicações-corrida-performance](/blog/hiit-aplicacoes-corrida-performance)).  
-Os **competidores de nível médio** que exigem maior capacidade e conforto em longas distâncias devem optar pela **Salomon River 2.0**; seu suporte dorsal e tanque de 2 L garantem eficiência energética em maratonas.  
-Para quem tem orçamento **limitado** mas ainda deseja qualidade, a **CamelBak M.U.L.E.** apresenta um excelente equilíbrio entre ergonomia e preço, sendo uma escolha sólida para corredores de maratona e trail.  
+**6. Quanto beber.** A capacidade certa depende da tua taxa de sudação e da distância entre abastecimentos (Sawka et al., 2007). Calcula-a com o guia de [taxa de suor](/blog/taxa-de-suor-calcular-plano-hidratacao).
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+## As melhores opções
 
+| Produto | Para quem é | Pontos fortes | Pontos fracos | Preço indicativo |
+|---|---|---|---|---|
+| **Salomon Active Skin 8** | Trail longo, primeiras ultras | Colete ajustado ao tronco, 8 L | Menos espaço que um 12 L | cerca de 85–120 € |
+| **Salomon ADV Skin 12** | Ultra trail com material obrigatório | 12 L, referência no trail | Preço | cerca de 160 € |
+| **CamelBak Apex Pro Vest 12 L** | Ultra trail, alternativa à Salomon | Colete de corrida de 12 L | Preço; menos disponível em Portugal | cerca de 170–180 € |
+| **CamelBak Ultra Belt** | Quem prefere cinto em trail curto | Cinto de hidratação leve | Pouca capacidade | cerca de 40 € |
+| **Salomon Pulse Belt** | Estrada e trail curto | Leve, cabe uma fonte de 500 ml | Pouca capacidade | cerca de 25–35 € |
+| **Kiprun Colete 900 Race 5 L** (Decathlon) | Alternativa económica para provas | Preço baixo, colete de competição | Menos volume | cerca de 50 € |
 
-## Referências
+*Preços indicativos em outubro de 2026; confirma na loja antes de comprar.*
 
-1. Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6  
-2. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2  
-3. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-
+## Veredicto: qual comprar
+
+- **Ultra trail:** o **Salomon ADV Skin 12** é a escolha mais segura pela disponibilidade e pela reputação no trail; o **CamelBak Apex Pro Vest 12 L** é a alternativa da CamelBak.
+- **Trail longo com abastecimentos:** **Salomon Active Skin 8**.
+- **Orçamento limitado:** o **Kiprun 900 Race 5 L** cumpre em provas curtas e médias.
+- **Já tens uma CamelBak de BTT:** usa-a para caminhadas, mas para correr investe num colete.
+
+Para mais modelos, vê [melhores mochilas e coletes de hidratação para trail](/blog/melhores-mochilas-coletes-hidratacao-trail-2026).
+
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- Decathlon Portugal — página de marca CamelBak (Apex Pro Vest 12 L, Ultra Belt, M.U.L.E.): https://www.decathlon.pt/brands/camelbak
+- Decathlon Portugal — página de marca Salomon (ADV Skin 12): https://www.decathlon.pt/brands/salomon
+- i-Run — Salomon Active Skin 8 Set: https://www.i-run.com/accessories/hydration-pack/salomon/ACTIVE-SKIN-8-SET_fiche_121441.html
+- i-Run — Salomon Pulse Belt: https://www.i-run.com/accessories/belts/salomon/Pulse_fiche_137763.html
+- Decathlon Portugal — página de marca Kiprun (Colete 900 Race 5 L): https://www.decathlon.pt/brands/kiprun?from=40
+
+## Referências Científicas
+
+1. Scheer, V., Vieluf, S., Bitter, N., Christ, L., & Heitkamp, H.-C. (2020). The optimal weight carriage system for runners: comparison between handheld water bottles, waist belts, and backpacks. *Frontiers in Physiology*, 11, 571221. https://doi.org/10.3389/fphys.2020.571221
+2. Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand: Exercise and fluid replacement. *Medicine & Science in Sports & Exercise*, 39(2), 377–390. https://doi.org/10.1249/mss.0b013e31802ca597

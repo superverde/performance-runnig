@@ -6,34 +6,79 @@ excerpt: "De zero drop a 12 mm: qual é o drop certo para ti? Vê como o drop da
 seoTitle: "Drop das Sapatilhas: Zero Drop ou 12 mm?"
 keyword: "zero drop"
 keywords: ["drop 12mm", "qual o drop certo", "drop sapatilhas corrida"]
-readTime: 4
+readTime: 5
 ---
 
-### O Drop do Calçado: De Zero Drop a 12mm — Qual é o Certo?
+Zero drop, 4 mm, 8 mm, 12 mm. À primeira vista são apenas números numa ficha técnica, mas por trás deles há uma ideia simples: quanto mais alto o calcanhar em relação ao antepé, mais o pé fica «inclinado» dentro da sapatilha. Essa inclinação muda a forma como a carga se distribui entre o joelho, o tornozelo e o tendão de Aquiles. Não muda, porém, aquilo que muitos anúncios prometem.
 
-A corrida é um desporto que exige uma grande quantidade de stress no sistema musculoesquelético. Para minimizar os danos e maximizar a performance, é fundamental entender a biomecânica do desporto e como a escolha do calçado pode influenciar o desempenho e a segurança do corredor. O drop do calçado é um conceito importante que tem sido objeto de debate entre os especialistas. Em suma, o drop refere-se à diferença entre a altura do calcanhar e a altura do dedo grande do pé ao bater o chão. Neste artigo, vamos explorar o significado do drop, as suas implicações na corrida e como escolher o calçado certo para o teu treino.
+## O que é o drop
 
-A corrida é um movimento complexo que envolve a coordenação de múltiplos músculos e articulações. O impacto ao bater o chão é de cerca de 2,5 vezes o peso do corredor, o que pode levar a problemas de stress e lesões no sistema musculoesquelético. O calçado desempenha um papel fundamental na transferência de stress e na absorção de impacto. Os calçados com um drop maior tendem a transferir mais stress para as articulações do pé e a aumentar a carga no tendão de Aquiles, o que pode levar a lesões e problemas de stress. Por outro lado, os calçados com um drop menor podem reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida.
+O drop é a diferença de altura entre o calcanhar e o antepé da sapatilha, medida na sola e entressola. Uma sapatilha com 30 mm atrás e 22 mm à frente tem 8 mm de drop. Uma sapatilha zero drop tem a mesma altura nas duas zonas — o pé fica paralelo ao chão, como descalço, mas pode ter muito ou pouco amortecimento.
 
-### Base Científica
+## O que muda com o drop
 
-A literatura científica disponível sugere que a escolha do calçado é uma decisão importante que pode influenciar significativamente o desempenho e a segurança do corredor. Um estudo publicado na revista Nature em 2010, liderado pelo Dr. Daniel Lieberman, encontrou que os corredores que usavam calçados com um drop maior tendiam a ter uma maior carga no sistema musculoesquelético e a apresentar mais problemas de lesão do que os corredores que usavam calçados com um drop menor (Lieberman et al., 2010). Outro estudo publicado na revista Medicine & Science in Sports & Exercise em 2012, liderado pelo Dr. Andrew Daoud, encontrou que os corredores que usavam calçados com um drop maior tendiam a ter uma maior taxa de lesão do que os corredores que usavam calçados com um drop menor (Daoud et al., 2012).
+### Zero drop e drop baixo (0–4 mm)
 
-### Aplicação Prática
+- Tendem a favorecer um apoio mais a meio ou à frente do pé, sobretudo em corredores que já têm essa tendência.
+- Exigem mais dorsiflexão do tornozelo e mais trabalho aos gémeos, ao solear e ao tendão de Aquiles.
+- Quando o apoio passa para o antepé, a carga no joelho tende a diminuir e a carga no tornozelo e no Aquiles a aumentar (Almeida et al., 2015).
 
-Quando se trata de escolher o calçado certo, existem várias opções disponíveis no mercado. Os calçados com um drop de 0mm, também conhecidos como calçados de corrida zero, são concebidos para reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Esses calçados têm uma plataforma mais larga e uma cobertura do pé mais completa, o que ajuda a absorver o impacto e a reduzir a stress no sistema musculoesquelético. Outros calçados com um drop menor, como os calçados de corrida de 4mm ou 6mm, também podem ser uma boa opção para os corredores que procuram reduzir a carga no sistema musculoesquelético.
+### Drop alto (10–12 mm)
 
-### Erros Comuns
+- O calcanhar elevado reduz a exigência de dorsiflexão e a solicitação do Aquiles.
+- Facilita o apoio de calcanhar, que mantém mais carga no joelho.
 
-Existem alguns erros comuns que os corredores cometem ao escolher o calçado certo. Um erro comum é escolher um calçado que seja muito grande ou muito pequeno para o pé. Isso pode levar a problemas de stress e lesões no sistema musculoesquelético. Outro erro comum é não considerar a duração e a intensidade do treino. Os corredores que treinam em terrenos difíceis ou com intensidade alta podem precisar de calçados com um drop maior para melhorar a estabilidade e a segurança.
+Nenhum dos dois «reduz a carga» no total. Redistribuem-na. Uma revisão sistemática sobre mudança do padrão de apoio concluiu precisamente isso: passar para antepé reduz a carga no joelho e aumenta a do tornozelo, sem evidência de reduzir lesões ou de melhorar a economia de corrida (Anderson et al., 2020).
 
-### Protocolo/Conclusão
+## O que diz a evidência sobre lesões
 
-Em resumo, a escolha do calçado é uma decisão importante que pode influenciar significativamente o desempenho e a segurança do corredor. Os calçados com um drop menor tendem a reduzir a carga no sistema musculoesquelético e melhorar a eficiência da corrida. Os corredores que procuram reduzir a carga no sistema musculoesquelético devem considerar calçados com um drop de 0mm ou 4mm. Além disso, é importante escolher um calçado que seja adequado para o pé e considerar a duração e a intensidade do treino. Com a escolha certa do calçado, os corredores podem melhorar a sua performance e reduzir o risco de lesões.
+O ensaio aleatorizado de Malisoux et al. (2016) deu a corredores recreativos sapatilhas idênticas com 10, 6 ou 0 mm de drop e seguiu-os seis meses. No conjunto, o drop não alterou o risco de lesão. Numa análise de subgrupos, as sapatilhas de drop baixo associaram-se a menor risco em corredores ocasionais, mas a maior risco em corredores regulares.
 
-### Referências Científicas
+A mensagem mais importante é sobre a transição. Ridge et al. (2013) observaram mais edema ósseo no pé em corredores que fizeram uma transição de 10 semanas para sapatilhas minimalistas, em comparação com quem manteve o calçado habitual. O problema não é o zero drop em si — é chegar lá depressa demais.
 
-- Daoud, A. I., Geissler, G. J., Wang, F., Saretsky, J., Daoud, Y. A., & Lieberman, D. E. (2012). Foot strike and injury rates in endurance runners: a retrospective study. Medicine & Science in Sports & Exercise, 44(7), 1325-1334. https://doi.org/10.1249/MSS.0b013e3182465115
-- Lieberman, D. E., Venkadesan, M., Werbel, W. A., Daoud, A. I., D'Andrea, S., Davis, I. S., Mang'eni, R. O., & Pitsiladis, Y. (2010). Foot strike patterns and collision forces in habitually barefoot versus shod runners. Nature, 463(7280), 531-535. https://doi.org/10.1038/nature08723
-- Moore, I. S. (2016). Is there an economical running technique? A review of modifiable biomechanical factors affecting running economy. Sports Medicine, 46(6), 793-807. https://doi.org/10.1007/s40279-016-0474-4
-- Novacheck, T. F. (1998). The biomechanics of running. Gait & Posture, 7(1), 77-95. https://doi.org/10.1016/S0966-6362(97)00038-6
+Nigg et al. (2015) defendem que, perante a falta de evidência de que características específicas da sapatilha previnam lesões, o critério mais útil é o conforto.
+
+## Como escolher
+
+| Situação | Sugestão |
+|---|---|
+| Corres sem lesões com o calçado atual | Mantém um drop semelhante ao que usas |
+| Estás a começar a correr | Escolhe pelo conforto; drop médio é um ponto de partida comum |
+| Tens dor recorrente no joelho | Um drop mais baixo pode reduzir a carga no joelho, com transição lenta e acompanhamento |
+| Tens dor no Aquiles, gémeos ou fáscia plantar | Evita baixar o drop; um drop médio a alto reduz a exigência nestas estruturas |
+| Queres experimentar zero drop | Transição de vários meses, com reforço dos gémeos e do pé |
+
+Estas sugestões resultam do mecanismo de redistribuição de carga descrito acima e da prática clínica; não há ensaios que definam um drop ideal por tipo de corredor.
+
+## Como fazer a transição
+
+1. Começa com um treino fácil e curto por semana com a nova sapatilha.
+2. Mantém o calçado habitual nos treinos longos e nas sessões de qualidade.
+3. Aumenta a proporção de forma gradual, ao longo de vários meses.
+4. Reforça gémeos e solear (elevações de gémeos com joelho esticado e fletido, 2–3 vezes por semana).
+5. Recua se surgir dor no Aquiles, na barriga da perna ou no pé que persista no dia seguinte.
+
+## Erros Comuns
+
+- **Mudar de 10–12 mm para zero drop de um dia para o outro.**
+- **Achar que zero drop significa pouco amortecimento** (ou vice-versa).
+- **Escolher pelo drop e não pelo conforto.**
+- **Atribuir ao drop o que é um problema de carga de treino.** A maior parte das lesões de corrida está ligada a aumentos bruscos de volume ou intensidade.
+
+## Conclusão
+
+Não há um drop certo para todos. O drop redistribui a carga entre joelho e tornozelo; não a elimina. Se estás bem, não mudes. Se mudares, faz a transição em meses, não em semanas.
+
+Lê também [Drop do calçado: alto, médio ou zero?](/blog/drop-calcado-corrida-lesoes) e [Drop alto vs baixo: diferenças](/blog/drop-alto-vs-baixo-sapatilhas-diferenca-guia).
+
+## Referências Científicas
+
+Almeida, M. O., Davis, I. S., & Lopes, A. D. (2015). Biomechanical differences of foot-strike patterns during running: A systematic review with meta-analysis. *Journal of Orthopaedic & Sports Physical Therapy*, 45(10), 738–755. https://doi.org/10.2519/jospt.2015.6019
+
+Anderson, L. M., Bonanno, D. R., Hart, H. F., & Barton, C. J. (2020). What are the benefits and risks associated with changing foot strike pattern during running? A systematic review and meta-analysis of injury, running economy, and biomechanics. *Sports Medicine*, 50(5), 885–917. https://doi.org/10.1007/s40279-019-01238-y
+
+Malisoux, L., Chambon, N., Urhausen, A., & Theisen, D. (2016). Influence of the heel-to-toe drop of standard cushioned running shoes on injury risk in leisure-time runners: A randomized controlled trial with 6-month follow-up. *American Journal of Sports Medicine*, 44(11), 2933–2940. https://doi.org/10.1177/0363546516654690
+
+Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: Mythbusting and a proposal for two new paradigms: «preferred movement path» and «comfort filter». *British Journal of Sports Medicine*, 49(20), 1290–1294. https://doi.org/10.1136/bjsports-2015-095054
+
+Ridge, S. T., Johnson, A. W., Mitchell, U. H., Hunter, I., Robinson, E., Rich, B. S. E., & Brown, S. D. (2013). Foot bone marrow edema after a 10-wk transition to minimalist running shoes. *Medicine & Science in Sports & Exercise*, 45(7), 1363–1368. https://doi.org/10.1249/MSS.0b013e3182874769

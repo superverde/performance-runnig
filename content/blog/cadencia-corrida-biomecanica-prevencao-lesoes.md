@@ -1,58 +1,65 @@
 ---
 title: "Cadência de Corrida: Aumentar 5-10% os Passos Reduz Lesões"
-excerpt: "Uma revisão de 2025 confirma: subir a cadência de corrida 5 a 10% reduz a carga no joelho e na tíbia. Vê como aumentar a cadência sem perder eficiência."
+excerpt: "Uma revisão de 2025 mostra que subir a cadência 5 a 10% reduz o impacto e a carga no joelho e na anca. Vê como aumentar a cadência sem perder eficiência."
 keyword: "cadência de corrida"
 keywords: ["aumentar a cadência", "passos por minuto", "cadência e lesões"]
 date: "2025-06-10"
 category: "Biomecânica"
-readTime: 5
+readTime: 4
 ---
 
-Corres com menos de 165 passos por minuto? Provavelmente estás a sobrecarregar os joelhos mais do que precisas. Uma revisão sistemática publicada em 2025 analisou 18 estudos sobre cadência e chegou a conclusões muito claras.
+Corres com uma cadência baixa para a tua velocidade e passadas compridas? É provável que estejas a pôr mais carga nos joelhos e na anca do que precisas. Uma revisão sistemática publicada em 2025 reuniu 18 estudos sobre cadência e biomecânica e chegou a conclusões consistentes — com algumas ressalvas importantes.
 
 ## O que é a cadência?
 
-É o número de passos por minuto. A maioria dos corredores amadores anda entre 155-165. Os corredores de elite ficam tipicamente acima de 180.
+É o número de passos por minuto (ppm). Varia com a velocidade, a altura e o comprimento das pernas: sobe naturalmente quando corres mais rápido. Muitos corredores amadores, a ritmos fáceis, situam-se abaixo dos 170 ppm; corredores de elite a ritmo de prova ficam com frequência perto ou acima dos 180.
 
-O problema não é o número em si — é o que uma cadência baixa provoca: passadas demasiado compridas, pé que aterra à frente do corpo, e muito mais impacto em cada passo.
+O problema não é o número em si — é o que uma cadência demasiado baixa para a velocidade tende a provocar: passadas mais compridas, o pé a aterrar à frente do corpo e maior impacto em cada passo.
 
 ## O que diz a ciência?
 
-A revisão de Figueiredo et al. (2025), publicada na *Cureus*, analisou estudos com corredores de diferentes níveis e encontrou resultados consistentes:
+A revisão de Figueiredo et al. (2025), publicada na *Cureus*, encontrou resultados consistentes. Aumentar a cadência 5–10% acima da habitual, à mesma velocidade:
 
-**Aumentar 5-10% a cadência provoca:**
-- Menos força de impacto em cada passada
-- Menor sobrecarga no joelho e na tíbia
-- Passada mais curta e eficiente
+- reduz as forças de reação do solo e a taxa de carga;
+- encurta a passada;
+- reduz a energia absorvida e a carga na anca e no joelho.
 
-E o mais importante: **não gastou mais energia**. Em alguns estudos, a economia de corrida melhorou.
+Estes resultados confirmam estudos anteriores. Heiderscheit et al. (2011) mostraram que subir a cadência 5% já reduzia a carga no joelho, e 10% reduzia também a carga na anca. Lenhart et al. (2014), com modelação musculosquelética, mostraram que um aumento de 10% reduz as forças na articulação patelofemoral.
 
-## Não existe uma cadência "ideal" para todos
+E a eficiência? A revisão não encontrou efeito negativo no custo energético. Numa meta-análise de estudos observacionais, uma cadência mais alta associou-se, de forma pequena, a melhor economia de corrida (Van Hooren et al., 2024).
 
-O mito dos 180 passos por minuto aplica-se a muita gente, mas não a toda. Um corredor mais alto terá uma cadência ótima diferente de um corredor mais baixo. O que a ciência recomenda é simples: **aumenta a tua cadência atual em 5-10%** e observa o efeito.
+### As ressalvas
+
+- A maior parte da evidência mede **variáveis biomecânicas**, não lesões. A ideia de que aumentar a cadência reduz lesões é plausível, mas ainda pouco testada diretamente.
+- Em relação à **tíbia**, a revisão refere que a redução da carga é esperada, mas a evidência direta é limitada.
+- Os estudos são, em geral, pequenos e nem sempre controlaram a velocidade da mesma forma.
+
+## Não existe uma cadência «ideal» para todos
+
+O mito dos 180 passos por minuto não serve a toda a gente. Um corredor mais alto, ou a um ritmo mais lento, terá naturalmente uma cadência mais baixa. O que a evidência apoia é mais simples: **se tens uma cadência baixa para a tua velocidade e sinais de passada demasiado longa, aumenta a tua cadência atual 5–10%**. Vê mais em [A regra dos 180 SPM é mito?](/blog/cadencia-ideal-corrida-180-spm).
 
 ## Como fazer na prática
 
-1. **Mede a tua cadência**: conta os passos de um pé durante 30 segundos e multiplica por 4
-2. **Calcula o teu alvo**: se corres a 160 ppm, vai para 168-176 ppm
-3. **Usa um metrónomo**: apps como Metronome Beats ou playlists com a BPM certa funcionam bem
-4. **Sê progressivo**: aplica apenas nos primeiros 10-15 minutos durante 4-6 semanas
-5. **Não forces**: o aumento deve parecer natural, não forçado
+1. **Mede a tua cadência**: ao ritmo fácil habitual, conta os apoios de um pé durante 30 segundos e multiplica por 4 (ou usa o relógio).
+2. **Calcula o teu alvo**: se corres a 160 ppm, o objetivo é 168–176 ppm à mesma velocidade.
+3. **Usa um metrónomo**: uma app de metrónomo ou a função de cadência-alvo do relógio ajuda a manter o ritmo sem pensar em cada passo.
+4. **Sê progressivo**: aplica a nova cadência em blocos curtos dentro dos treinos fáceis e aumenta ao longo de 4–6 semanas.
+5. **Não forces**: o aumento deve parecer natural. Se sentires tensão nos gémeos ou no tendão de Aquiles, abranda a progressão.
 
 ## Quem mais beneficia?
 
-- Corredores com dor no joelho (síndrome femoropatelar)
-- Quem tem lesões recorrentes na tíbia
-- Quem corre com passadas muito compridas (fácil de ver em vídeo)
+- Corredores com dor anterior do joelho (dor patelofemoral) — a redução da carga no joelho é o efeito mais bem documentado.
+- Quem corre com passadas muito compridas e o pé a aterrar à frente do corpo (fácil de ver em vídeo: lê [Analisar a tua corrida com o telemóvel](/blog/analisar-corrida-com-telemovel)).
+- Quem tem lesões de sobrecarga recorrentes e quer uma alteração técnica simples, de preferência com acompanhamento de um fisioterapeuta.
 
-Se nunca mediste a tua cadência, experimenta — é provavelmente a coisa mais simples que podes fazer para correr com menos dor e mais eficiência.
+Se nunca mediste a tua cadência, experimenta. É uma das mudanças técnicas mais simples e com melhor suporte biomecânico — desde que feita com moderação. Se o teu problema é o tendão de Aquiles ou os gémeos, fala com um fisioterapeuta antes de mexeres na técnica.
 
 ## Referências Científicas
 
-Figueiredo, I., Reis e Silva, M., & Sousa, J. E. (2025). The influence of running cadence on biomechanics and injury prevention: A systematic review. *Cureus*, *17*(8), e90322. https://doi.org/10.7759/cureus.90322
+Figueiredo, I., Reis e Silva, M., & Sousa, J. E. (2025). The influence of running cadence on biomechanics and injury prevention: A systematic review. *Cureus*, 17(8), e90322. https://doi.org/10.7759/cureus.90322
 
-Lenhart, R. L., Thelen, D. G., Wille, C. M., Chumanov, E. S., & Heiderscheit, B. C. (2014). Increasing running step rate reduces patellofemoral joint forces. *Medicine & Science in Sports & Exercise*, *46*(3), 557–564. https://doi.org/10.1249/MSS.0b013e3182a78c3a
+Heiderscheit, B. C., Chumanov, E. S., Michalski, M. P., Wille, C. M., & Ryan, M. B. (2011). Effects of step rate manipulation on joint mechanics during running. *Medicine & Science in Sports & Exercise*, 43(2), 296–302. https://doi.org/10.1249/MSS.0b013e3181ebedf4
 
-Heiderscheit, B. C., Chumanov, E. S., Michalski, M. P., Wille, C. M., & Ryan, M. B. (2011). Effects of step rate manipulation on joint mechanics during running. *Medicine & Science in Sports & Exercise*, *43*(2), 296–302. https://doi.org/10.1249/MSS.0b013e3181ebedf4
+Lenhart, R. L., Thelen, D. G., Wille, C. M., Chumanov, E. S., & Heiderscheit, B. C. (2014). Increasing running step rate reduces patellofemoral joint forces. *Medicine & Science in Sports & Exercise*, 46(3), 557–564. https://doi.org/10.1249/MSS.0b013e3182a78c3a
 
-Van Hooren, B., et al. (2024). The relationship between running biomechanics and running economy: A systematic review and meta-analysis. *Sports Medicine*. https://doi.org/10.1007/s40279-024-02009-2
+Van Hooren, B., Jukic, I., Cox, M., Frenken, K. G., Bautista, I., & Moore, I. S. (2024). The relationship between running biomechanics and running economy: A systematic review and meta-analysis of observational studies. *Sports Medicine*, 54(5), 1269–1316. https://doi.org/10.1007/s40279-024-01997-3

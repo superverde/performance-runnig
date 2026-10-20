@@ -6,85 +6,87 @@ excerpt: "A durabilidade na maratona é a capacidade de manter o ritmo quando a 
 seoTitle: "Durabilidade na Maratona: Quem Não Quebra ao km 32"
 keyword: "durabilidade na maratona"
 keywords: ["resistência à fadiga", "quebrar no km 32", "durability corrida"]
-readTime: 5
+readTime: 6
 faqs:
-  - q: "Quais são os principais fatores que influenciam a durabilidade numa corrida de 32 km?"
-    a: "A durabilidade depende de VO₂máx, lactato limiar, capacidade de remoção de lactato e regulação autonómica, além de fatores de recuperação e nutrição."
-  - q: "Como posso medir a minha durabilidade sem equipamentos avançados?"
-    a: "Use um teste de 10 km para estimar a velocidade LT e compare o tempo real no km 32 com o tempo previsto a partir desse limiar."
-  - q: "Qual é a importância da recuperação na prevenção do crash ao km 32?"
-    a: "A recuperação adequada garante a remoção de lactato e a reposição de glicogénio, reduzindo a fadiga e mantendo o ritmo próximo ao LT."
+  - q: "O que é a durabilidade na corrida?"
+    a: "É a capacidade de resistir à deterioração dos teus parâmetros fisiológicos, como o limiar, a economia de corrida e o VO2máx, ao longo de um esforço prolongado. Dois corredores com o mesmo VO2máx podem ter durabilidades muito diferentes."
+  - q: "Como posso avaliar a minha durabilidade sem laboratório?"
+    a: "Compara a relação entre ritmo e frequência cardíaca no início e no fim dos treinos longos. Se a frequência cardíaca sobe muito ao mesmo ritmo, ou se o ritmo cai à mesma frequência cardíaca, a tua durabilidade ainda tem margem para melhorar."
+  - q: "Que treinos melhoram a durabilidade?"
+    a: "Volume aeróbio consistente, treinos longos progressivos, blocos de ritmo de maratona no final dos longos, treino de força e uma estratégia de hidratos de carbono bem treinada. A evidência sobre métodos específicos ainda é limitada."
 ---
 
-A pessoa que mantém o ritmo até o km 32 sem “quebrar” demonstra um elevado nível de **durabilidade**, medida que integra a capacidade aeróbica, a gestão do lactato e o controlo fisiológico do esforço prolongado.
+Dois corredores com o mesmo VO₂máx, o mesmo limiar e a mesma economia de corrida podem acabar uma maratona com 10 minutos de diferença. A explicação está numa característica que os testes de laboratório tradicionais não medem: a **durabilidade** — a capacidade de manter os teus parâmetros fisiológicos quando a fadiga se acumula.
 
-## Base Científica
+## O que é a durabilidade
 
-A durabilidade pode ser concebida como a **capacidade de sustentar o ritmo próximo ao seu limiar anaeróbico (LT) ao longo de 32 km**, sem sofrer a queda de potência que caracteriza o “crash” típico de muitos corredores.  
-Os principais determinantes fisiológicos são:
+O modelo clássico do rendimento em endurance assenta em três pilares: VO₂máx, fração do VO₂máx sustentável (limiar) e economia de corrida (Joyner & Coyle, 2008). O problema é que estes valores são medidos com o atleta fresco. Numa maratona, ao fim de duas ou três horas, já não são os mesmos.
 
-1. **VO₂máx** – maior capacidade de entrega de oxigénio permite maior esforço aeróbico.  
-2. **Lactato limiar (LT)** – ponto em que a produção de lactato excede a sua remoção, definindo a velocidade sustentável a longo prazo.  
-3. **Capacidade de recuperação** – velocidade com que o corpo reduz a concentração de lactato após esforço intenso.  
-4. **Regulação autonómica** – equilíbrio entre simpático e parassimpático que evita a fadiga precoce.  
+Maunder et al. (2021) propuseram chamar **durabilidade** à capacidade de resistir à deterioração destes parâmetros durante exercício prolongado. Jones (2024) foi mais longe e descreveu-a como a "quarta dimensão" do rendimento em endurance — um determinante independente dos outros três. Na prática, a durabilidade mede quanto e quando o teu limiar desce, a tua economia piora e a tua frequência cardíaca deriva à medida que a prova avança.
 
-Estudos mostram que atletas que conseguem manter um ritmo que se aproxima do LT durante 32 km apresentam um **índice de durabilidade superior** (Maunder et al., 2021). Esse índice pode ser calculado como:
+## O que se passa no km 32
 
-\[
-\text{Durabilidade} = \frac{\text{Tempo real no km 32}}{\text{Tempo previsto a partir do LT}}
-\]
+Vários processos explicam a quebra no último terço da maratona:
 
-Um valor próximo a 1 indica que o corredor não perdeu ritmo; valores inferiores a 0,9 indicam falha no ponto crítico.
+- **Depleção de glicogénio.** Os hidratos de carbono armazenados nos músculos e no fígado são limitados. Quando o glicogénio muscular fica muito baixo, o ritmo sustentável cai. Lê mais em [o muro da maratona](/blog/deplecao-glicogenio-maratona-wall).
+- **Perda de economia de corrida.** Com a fadiga muscular e o dano das fibras, cada passada fica mais cara.
+- **Deriva cardiovascular.** O aumento da temperatura e a desidratação fazem subir a frequência cardíaca ao mesmo ritmo. Vê [deriva cardíaca](/blog/deriva-cardiaca-cardiac-drift-corrida-longa).
+- **Descida dos limiares.** Estudos com ciclistas e corredores mostram que, após exercício prolongado, os limiares e a potência crítica podem descer, de forma muito variável entre atletas.
 
-A fisiologia do “crash” está ligada à **depleção de glicogénio** e à **acúmulo de ácido lático**, que, quando combinados com um desequilíbrio autonómico, provocam a queda de desempenho (Joyner & Coyle, 2008). Treinos que aumentam a capacidade de utilização de gordura e melhoram a remoção de lactato reduzem a probabilidade de ruptura.
+A variabilidade é a parte mais interessante: alguns atletas mantêm quase intactos os seus valores; outros perdem muito. É essa diferença que a durabilidade tenta captar.
 
-## Aplicação Prática
+## O que os dados de maratona mostram
 
-Para melhorar a durabilidade, a rotina de treino deve incluir:
+Smyth et al. (2022) analisaram dados de relógios GPS de **82 303 maratonistas recreativos** e quantificaram a dissociação entre a carga interna (frequência cardíaca) e a carga externa (ritmo) ao longo da prova. Em média, a relação entre frequência cardíaca e ritmo deteriorou-se cerca de 16 % ao longo da prova, e essa dissociação foi detetada, em média, por volta do **km 25**, com enorme variação entre corredores. Os corredores com menor dissociação mantiveram uma velocidade relativa mais alta, terminaram mais depressa e só começaram a "desacoplar" mais tarde. Acrescentar a durabilidade aos modelos de previsão baseados na velocidade crítica reduziu o erro de previsão do tempo de maratona.
 
-| Tipo de sessão | Objetivo | Frequência | Exemplo prático |
-|----------------|----------|------------|-----------------|
-| **Treino de LT** | Aumentar a velocidade sustentável | 1–2×/sem | 5 × 1 km a 95 % da velocidade LT, 3 min de recuperação |
-| **Tempo run** | Melhorar resistência ao lactato | 1×/sem | 20 min a 90 % da velocidade LT |
-| **Long run** | Estimular a queima de gordura | 1×/sem | 25–30 km a 80 % da velocidade LT |
-| **Intervalos de alta intensidade** | Incrementar VO₂máx | 1×/sem | 4 × 800 m a 105 % da velocidade LT, 2 min de recuperação |
-| **Treino de força** | Melhorar eficiência muscular | 2×/sem | 3 × 10 repetições de agachamento, levantamento terra e core |
+Este é um dado prático importante: a durabilidade não é um conceito abstrato, é uma coisa que podes observar nos teus próprios ficheiros de treino.
 
-**Protocolos de avaliação**:  
-1. **Testa de 10 km** – medir tempo e velocidade média.  
-2. **Cálculo de LT** – usar teste de lactato ou “cut‑point” de 4 mmol l⁻¹.  
-3. **Simulação de corrida** – correr 32 km em pista, registrar tempo no km 32 e comparar com o previsto.
+## Como avaliar a tua durabilidade
 
-Um corredor que completa o km 32 em 1 h 05 min, enquanto o tempo previsto (a partir da velocidade LT) é 1 h 10 min, obtém durabilidade de 0,92, indicando boa manutenção de ritmo.
+Não há ainda um teste padronizado e validado para corredores amadores, mas podes usar indicadores simples:
 
-## Erros Comuns
+1. **Desacoplamento ritmo/frequência cardíaca nos longos.** Num treino longo a ritmo constante e em condições estáveis, compara a relação entre ritmo e frequência cardíaca na primeira e na segunda metade. Uma subida grande da frequência cardíaca ao mesmo ritmo indica pouca durabilidade (ou calor, desidratação e falta de combustível — controla esses fatores).
+2. **Blocos de ritmo de maratona no fim dos longos.** Se consegues correr 5–8 km a ritmo de maratona ao fim de 20–25 km sem a frequência cardíaca disparar e com boa técnica, estás no bom caminho.
+3. **Os teus parciais em prova.** Uma segunda metade muito mais lenta do que a primeira, com um ritmo inicial realista, é um sinal de pouca durabilidade (ou de défice de energia). Lê mais sobre [estratégia de ritmo na maratona](/blog/pacing-estrategia-ritmo-maratona).
 
-1. **Focar apenas na velocidade** – ignorar a gestão do lactato e da energia pode levar à ruptura precoce.  
-2. **Subestimar a recuperação** – falta de descanso adequado reduz a capacidade de remoção de lactato.  
-3. **Pacing inadequado** – começar demasiado rápido faz com que o corpo ultrapasse o LT logo nas primeiras 10 km.  
-4. **Nutrição deficiente** – ausência de hidratos de carbono suficientes durante a corrida provoca depleção de glicogénio antes do km 32.
+## Como treinar a durabilidade
 
-Evitar esses erros requer um plano equilibrado, que combine treinos específicos, descanso e nutrição.
+A investigação específica sobre o treino da durabilidade ainda é recente (Maunder et al., 2021; Jones, 2024), mas as abordagens mais apoiadas pela evidência e pela prática são:
 
-## Protocolo/Conclusão
+- **Volume aeróbio consistente.** O volume semanal acumulado ao longo de meses é o fundamento. Não precisas de volumes de elite: um aumento gradual e sustentável é mais útil do que picos esporádicos.
+- **Treinos longos progressivos.** Para um amador que prepara uma maratona, longos de 26–32 km (ou de 2 h 30 min a 3 h, o que ocorrer primeiro) são o estímulo principal. Correr muito mais do que isso aumenta a fadiga e o risco de lesão sem benefício claro para a maioria.
+- **Ritmo específico com fadiga.** Inclui blocos a ritmo de maratona na segunda metade de alguns longos (por exemplo, 2 × 5 km a ritmo de prova nos últimos 15 km). Treinas a capacidade de manter o ritmo quando já estás cansado.
+- **Hidratos de carbono no treino.** Treinar a ingestão de hidratos de carbono durante os longos melhora a tolerância intestinal e ajuda a poupar glicogénio no dia da prova. Vê [hidratos de carbono durante a maratona](/blog/carboidratos-durante-maratona-ciencia).
+- **Força.** O treino de força melhora a economia de corrida e a resistência muscular à fadiga, o que deverá contribuir para manter a técnica no fim da prova.
 
-Um protocolo de 8 semanas que visa melhorar a durabilidade pode ser estruturado da seguinte forma:
+### Exemplo para um corredor que aponta à maratona em 3 h 45 min
 
-| Semana | Sessões de LT | Tempo run | Long run | Intervalos | Força |
-|--------|---------------|-----------|----------|------------|-------|
-| 1 | 5 × 1 km | 15 min | 25 km | 4 × 800 m | 3 × 10 rep |
-| 2 | 5 × 1,2 km | 20 min | 27 km | 4 × 800 m | 3 × 10 rep |
-| 3 | 6 × 1 km | 20 min | 28 km | 5 × 800 m | 3 × 10 rep |
-| 4 | 6 × 1,2 km | 25 min | 30 km | 5 × 800 m | 3 × 10 rep |
-| 5 | 6 × 1 km | 25 min | 32 km | 5 × 800 m | 3 × 10 rep |
-| 6 | 6 × 1,2 km | 30 min | 34 km | 6 × 800 m | 3 × 10 rep |
-| 7 | 6 × 1 km | 30 min | 35 km | 6 × 800 m | 3 × 10 rep |
-| 8 | 5 × 1 km | 20 min | 36 km | 4 × 800 m | 3 × 10 rep |
+Numa semana típica do bloco específico (5 dias de corrida, 55–70 km):
 
-A última semana serve para reduzir a carga e permitir que o corpo consolide a durabilidade. Após completar o protocolo, faça um teste de 32 km para comparar a durabilidade atual com a inicial.
+| Dia | Sessão |
+|-----|--------|
+| Terça | 3 × 3 km a ritmo de limiar, 2 min de trote |
+| Quarta | 10 km fáceis + força (agachamento, peso morto romeno, gémeos) |
+| Quinta | 8–10 km fáceis |
+| Sábado | 6–8 km fáceis com 6 acelerações |
+| Domingo | Longo de 26–30 km: 18–20 km fáceis + 8–10 km a ritmo de maratona, com hidratos de carbono como em prova |
 
+Alterna semanas de carga com uma semana mais leve a cada 3–4 semanas e reduz o volume nas últimas 2–3 semanas antes da prova.
+
+## Erros comuns
+
+1. **Partir demasiado depressa.** Um ritmo inicial acima do teu nível real acelera a depleção de glicogénio e a fadiga. A durabilidade não compensa um plano de ritmo errado.
+2. **Treinar longos sempre devagar e sem combustível.** Ajuda a construir a base, mas não treina a capacidade de manter o ritmo de prova com fadiga, nem o intestino.
+3. **Confundir durabilidade com volume extremo.** Mais quilómetros só ajudam se os conseguires absorver sem lesão.
+4. **Ignorar o calor.** Em dias quentes, a deriva cardiovascular e a desidratação reduzem a durabilidade de qualquer corredor. Ajusta o ritmo.
+
+## Conclusão
+
+A durabilidade explica porque é que o VO₂máx e o limiar medidos em fresco não chegam para prever quem aguenta o ritmo até ao fim. É visível nos teus dados — no desacoplamento entre ritmo e frequência cardíaca — e treina-se com volume consistente, longos com ritmo específico, combustível bem planeado e força. No dia da prova, a melhor forma de proteger a tua durabilidade é começar com um ritmo realista.
 
 ## Referências Científicas
 
-Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. Medicine & Science in Sports & Exercise, 32(1), 70-84. https://doi.org/10.1097/00005768-200001000-00012  
-Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance: the physiology of champions. *The Journal of Physiology*, 586(1), 35–44. https://doi.org/10.1113/jphysiol.2007.143834
+1. Maunder, E., Seiler, S., Mildenhall, M. J., Kilding, A. E., & Plews, D. J. (2021). The importance of 'durability' in the physiological profiling of endurance athletes. *Sports Medicine*, 51(8), 1619–1628. https://doi.org/10.1007/s40279-021-01459-0
+2. Jones, A. M. (2024). The fourth dimension: physiological resilience as an independent determinant of endurance exercise performance. *The Journal of Physiology*, 602(17), 4113–4128. https://doi.org/10.1113/JP284205
+3. Smyth, B., Maunder, E., Meyler, S., Hunter, B., & Muniz-Pumares, D. (2022). Decoupling of internal and external workload during a marathon: an analysis of durability in 82,303 recreational runners. *Sports Medicine*, 52(9), 2283–2295. https://doi.org/10.1007/s40279-022-01680-5
+4. Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance: the physiology of champions. *The Journal of Physiology*, 586(1), 35–44. https://doi.org/10.1113/jphysiol.2007.143834

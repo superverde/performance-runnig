@@ -36,9 +36,9 @@ A síntese mais útil é a de Nigg e colaboradores (2015), que propuseram substi
 
 Antes de olhar para modelos, define a função. Quem treina quatro vezes por semana não precisa de quatro pares, mas também não deve resolver tudo com um só.
 
-**Rodagem diária.** É o cavalo de batalha, onde se acumula 70 a 80% do volume. Procura-se durabilidade, amortecimento generoso e estabilidade natural — nada de exótico. É a compra mais importante e a que deve levar mais tempo a decidir. Se for o único par, é aqui que se investe. Opções em [melhores sapatilhas de treino diário](/blog/melhores-sapatilhas-treino-diario-daily-trainers-2026).
+**Rodagem diária.** É o cavalo de batalha, onde se acumula a maior parte do volume. Procura-se durabilidade, amortecimento generoso e estabilidade natural — nada de exótico. É a compra mais importante e a que deve levar mais tempo a decidir. Se for o único par, é aqui que se investe. Opções em [melhores sapatilhas de treino diário](/blog/melhores-sapatilhas-treino-diario-daily-trainers-2026).
 
-**Ritmo e séries.** Mais leve, entressola mais reativa, menos material. Faz diferença real em treinos de limiar e intervalados, mas é um luxo antes de existir consistência de treino.
+**Ritmo e séries.** Mais leve, entressola mais reativa, menos material. A massa da sapatilha tem efeito mensurável no custo energético da corrida (Fuller et al., 2015), por isso faz diferença real em treinos de limiar e intervalados, mas é um luxo antes de existir consistência de treino.
 
 **Competição.** É aqui que entram as placas de carbono. Hoogkamer e colegas (2018) documentaram melhorias de economia de corrida na ordem dos 4% face a sapatilhas de competição convencionais — um efeito genuíno, mas com preço elevado, durabilidade curta e exigência muscular acrescida. O tema em detalhe em [sapatilhas com placa de carbono](/blog/sapatilhas-placa-carbono-vale-a-pena-comparativo).
 
@@ -48,11 +48,11 @@ Antes de olhar para modelos, define a função. Quem treina quatro vezes por sem
 
 O erro mais caro é comprar a sapatilha certa no formato errado. Três medidas resolvem a maior parte dos problemas.
 
-**Comprimento.** Deve sobrar cerca de um polegar (10 a 15 mm) entre o dedo mais comprido e a biqueira. O pé incha e alonga durante a corrida, e um pé apertado em descidas é a receita para unhas negras e dedos macerados. Quase toda a gente corre com sapatilhas meio número abaixo do que devia.
+**Comprimento.** Deve sobrar cerca de um polegar (10 a 15 mm) entre o dedo mais comprido e a biqueira. O pé incha e alonga durante a corrida, e um pé apertado em descidas é a receita para unhas negras e dedos macerados. Na dúvida entre dois tamanhos, experimenta ambos a correr.
 
 **Largura.** A zona metatársica não pode ser comprimida. Se ao calçar os dedos ficam encostados lateralmente, o modelo está errado — não é um problema que "abra com o uso". As hormas variam muito entre marcas, e há modelos pensados para pés largos: ver [sapatilhas com largura extra](/blog/sapatilhas-corrida-largura-extra-pes-largos).
 
-**Peso do corredor.** Acima dos 80 kg a entressola comprime mais, recupera pior e degrada-se mais depressa. Espumas mais densas e maior altura de entressola compensam — ver [sapatilhas para corredores acima de 80 kg](/blog/melhores-sapatilhas-corredores-pesados-80kg).
+**Peso do corredor.** Corredores mais pesados comprimem mais a entressola, que tende a perder resposta mais cedo. Espumas mais firmes e maior altura de entressola costumam ser a opção mais confortável — ver [sapatilhas para corredores acima de 80 kg](/blog/melhores-sapatilhas-corredores-pesados-80kg).
 
 Experimenta sempre ao fim do dia, com as meias de corrida que usas de facto, e com os dois pés calçados.
 
@@ -68,7 +68,7 @@ O **drop** é a diferença de altura entre calcanhar e antepé. Não existe um v
 | 5–8 mm | Distribuição intermédia | A maioria dos corredores, na maioria dos treinos |
 | 8–12 mm | Alivia a cadeia posterior, carrega mais o joelho | Historial de tendinopatia de Aquiles, apoio marcado de calcanhar |
 
-A regra prática que evita lesões: **não se mudam mais de 4 mm de drop de uma vez**, e um par novo com drop diferente entra em rotação de forma gradual — não substitui o anterior de um dia para o outro. Mais detalhe em [drop alto vs. drop baixo](/blog/drop-alto-vs-baixo-sapatilhas-diferenca-guia).
+O ensaio aleatorizado de Malisoux e colegas (2016), com 553 corredores recreativos e sapatilhas de 0, 6 e 10 mm de drop, não encontrou diferenças no risco global de lesão. Mas nos corredores regulares o drop baixo associou-se a mais lesões, e nos ocasionais a menos — sinal de que a adaptação ao calçado que já usas pesa mais do que o número em si. A regra prática prudente: **evita mudanças grandes de drop de uma vez** e introduz um par novo com drop diferente de forma gradual, em rotação, em vez de substituir o anterior de um dia para o outro. Mais detalhe em [drop alto vs. drop baixo](/blog/drop-alto-vs-baixo-sapatilhas-diferenca-guia).
 
 A **altura de entressola** (stack) determina quanto material existe entre o pé e o solo. Stacks altos protegem em volumes elevados e treinos longos; stacks baixos dão mais informação do piso e mais estabilidade lateral. As duas opções são legítimas — ver [sapatilhas maximalistas](/blog/melhores-sapatilhas-maximalistas-amortecimento-alto).
 
@@ -95,7 +95,7 @@ A **altura de entressola** (stack) determina quanto material existe entre o pé 
 
 ## Quando substituir
 
-O intervalo de 500 a 800 km é uma estimativa comercial, não um dado fisiológico. Corredores acima dos 80 kg e apoios de calcanhar marcados esgotam a entressola mais depressa; corredores leves com apoio de meio-pé passam frequentemente dos 800 km sem problema.
+O intervalo de 500 a 800 km é uma estimativa comercial, não um dado fisiológico. Corredores mais pesados e apoios de calcanhar marcados tendem a gastar a entressola mais depressa; corredores leves podem ultrapassar esse intervalo sem problema. Mais detalhe em [quando trocar de sapatilhas](/blog/sapatilhas-corrida-quando-trocar-guia-pratico).
 
 Os indicadores práticos: a sapatilha deixou de "devolver" na fase de impulsão; apareceu desconforto novo na canela, no joelho ou na planta do pé sem qualquer alteração de treino; a entressola apresenta rugas de compressão permanentes na zona lateral. Se dois destes três coincidem, o par cumpriu a sua função.
 
@@ -105,10 +105,11 @@ O processo correto é quase o inverso do habitual: começa-se pela função do t
 
 Para comparar os modelos atuais em peso, drop, stack e preço, o [comparador de sapatilhas](/ferramentas/comparador-sapatilhas) faz esse trabalho em segundos. Para recomendações por categoria, começa em [melhores sapatilhas de corrida 2026](/blog/melhores-sapatilhas-corrida-2026).
 
-## Referências
+## Referências Científicas
 
-1. Nielsen, R. O., Buist, I., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Foot pronation is not associated with increased injury risk in novice runners wearing a neutral shoe: a 1-year prospective cohort study. British Journal of Sports Medicine, 48(6), 440-447. https://doi.org/10.1136/bjsports-2013-092202
-2. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054
-3. Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
-4. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2
-5. Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6
+1. Nielsen, R. O., Buist, I., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Foot pronation is not associated with increased injury risk in novice runners wearing a neutral shoe: a 1-year prospective cohort study. *British Journal of Sports Medicine*, 48(6), 440–447. https://doi.org/10.1136/bjsports-2013-092202
+2. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. *British Journal of Sports Medicine*, 49(20), 1290–1294. https://doi.org/10.1136/bjsports-2015-095054
+3. Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. *British Journal of Sports Medicine*, 50(8), 481–487. https://doi.org/10.1136/bjsports-2015-094929
+4. Malisoux, L., Chambon, N., Urhausen, A., & Theisen, D. (2016). Influence of the heel-to-toe drop of standard cushioned running shoes on injury risk in leisure-time runners: a randomized controlled trial with 6-month follow-up. *The American Journal of Sports Medicine*, 44(11), 2933–2940. https://doi.org/10.1177/0363546516654690
+5. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. *Sports Medicine*, 48(4), 1009–1019. https://doi.org/10.1007/s40279-017-0811-2
+6. Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. *Sports Medicine*, 45(3), 411–422. https://doi.org/10.1007/s40279-014-0283-6

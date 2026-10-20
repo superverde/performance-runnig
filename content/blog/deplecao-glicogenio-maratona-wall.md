@@ -6,46 +6,82 @@ excerpt: "O muro da maratona é bioquímico: acontece quando o glicogénio acaba
 seoTitle: "O Muro da Maratona: O Que Acontece Quando o Glicogénio Acaba"
 keyword: "muro da maratona"
 keywords: ["glicogénio e maratona", "bater no muro", "quilómetro 30"]
-readTime: 4
+readTime: 6
+faqs:
+  - q: "Porque é que se bate no muro por volta do km 30?"
+    a: "Porque as reservas de glicogénio muscular e hepático são limitadas e, a ritmo de maratona, podem ficar muito baixas ao fim de duas a três horas. Quando isso acontece, o corpo depende mais da gordura, que fornece energia mais devagar, e o ritmo cai."
+  - q: "Quantos hidratos de carbono devo comer durante a maratona?"
+    a: "As recomendações para provas de mais de duas horas e meia apontam para até 90 g por hora, usando misturas de glicose e frutose. Muitos amadores toleram bem 40 a 60 g por hora; o essencial é treinar a ingestão nos longos."
+  - q: "Fazer carga de hidratos antes da maratona ajuda?"
+    a: "Sim. Comer cerca de 10 a 12 g de hidratos de carbono por kg de peso por dia nas 36 a 48 horas antes da prova, com treino reduzido, aumenta as reservas de glicogénio muscular."
 ---
 
-**A Bioquímica do Muro: O Que Acontece Quando o Glicogénio Acaba**
+Quem já correu uma maratona conhece a sensação, ou já ouviu falar dela: algures depois do km 30, as pernas ficam pesadas, o ritmo cai sem pedir licença e cada quilómetro parece o dobro. É o **muro da maratona**. Não é falta de força de vontade — é bioquímica. E, na maioria dos casos, é evitável.
 
-O treino de longa distância é um desafio físico e mental que exige uma combinação perfeita de força, resistência e eficiência. No entanto, existe um limiar que todos os atletas devem superar: o pico do glicogénio. Quando o glicogénio se esgota, o corpo entra num estado de hipoglicemia, levando a uma diminuição abrupta da performance e, em alguns casos, até mesmo a um colapso. Neste artigo, vamos explorar a bioquímica por trás do muro do glicogénio e entender o que acontece quando ele se esgota.
+## O combustível da maratona
 
-O glicogénio é uma molécula de hidrato de carbono que é armazenada no fígado e nos músculos. É o principal fonte de energia para o corpo durante exercícios de curta a média duração. No entanto, quando os níveis de glicogénio se esgotam, o corpo começa a utilizar gordura como fonte de energia, o que leva a uma diminuição da performance. Isso ocorre porque a queima de gordura é um processo mais lento e menos eficiente do que a queima de glicogénio.
+A ritmo de maratona, os músculos obtêm energia sobretudo de duas fontes: **hidratos de carbono** (glicogénio muscular, glicogénio do fígado e glicose do sangue) e **gordura**. A proporção depende da intensidade: quanto mais rápido corres em relação ao teu VO₂máx, mais dependes dos hidratos de carbono. Numa maratona, a maioria dos corredores corre a uma intensidade em que os hidratos de carbono fornecem a maior parte da energia.
 
-O pico do glicogénio é uma condição crítica que todos os atletas devem entender. É o momento em que o corpo se encontra no limite, com os níveis de glicogénio se esgotando rapidamente. Neste momento, a performance começa a diminuir significativamente, e o risco de colapso aumenta. Por isso, é fundamental entender como o corpo se comporta durante o treino e como o glicogénio é armazenado e queimado.
+O problema é que as reservas de glicogénio são limitadas. O corpo armazena centenas de gramas de glicogénio nos músculos e cerca de uma centena no fígado, consoante o tamanho do atleta, o treino e a alimentação dos dias anteriores. A gordura, pelo contrário, é praticamente inesgotável, mas fornece energia a um ritmo mais lento e com maior custo de oxigénio por unidade de energia produzida.
 
-## **Base Científica**
+## O que acontece quando o glicogénio acaba
 
-O glicogénio é um polímero de glicose que é armazenado no fígado e nos músculos. É formado por unidades de glicose que são ligadas por uma ligação glicosídica. O glicogénio é o principal fonte de energia para o corpo durante exercícios de curta a média duração. No entanto, quando os níveis de glicogénio se esgotam, o corpo começa a utilizar gordura como fonte de energia (Saltin & Astrand, 1967).
+Os estudos clássicos de biópsia muscular dos anos 60 mostraram uma relação direta: quanto mais glicogénio havia no músculo no início do exercício, mais tempo os participantes conseguiam manter um esforço intenso (Bergström et al., 1967). Quando o glicogénio muscular chega a valores muito baixos, a intensidade sustentável cai.
 
-A queima de gordura é um processo mais lento e menos eficiente do que a queima de glicogénio. Isso ocorre porque a queima de gordura requer uma maior quantidade de oxigênio e é mais dependente da capacidade cardiorrespiratória do atleta (Bassett & Howley, 2000). Além disso, a queima de gordura também pode levar a uma diminuição da performance devido à produção de ácido láctico.
+Três processos ocorrem ao mesmo tempo:
 
-## **Aplicação Prática**
+1. **Menos energia por minuto.** Com menos glicogénio, os músculos têm de recorrer mais à gordura, que não fornece energia suficientemente depressa para manter o ritmo de prova. A velocidade cai, por vezes de forma abrupta.
+2. **Glicose no sangue a descer.** O fígado também esvazia. Se a glicemia baixa, o cérebro — que depende da glicose — recebe menos combustível, o que contribui para a sensação de fraqueza, confusão e desmotivação.
+3. **Fadiga muscular.** A depleção de glicogénio está associada a perturbações na libertação de cálcio nas fibras musculares, reduzindo a capacidade de contração.
 
-Entender o pico do glicogénio é fundamental para qualquer atleta que queira melhorar sua performance. Aqui estão algumas dicas práticas para ajudá-lo a entender e superar o muro do glicogénio:
+Coyle et al. (1986) mostraram que, quando os ciclistas ingeriam hidratos de carbono durante o exercício prolongado, conseguiam manter o esforço cerca de uma hora mais do que com placebo, porque a glicose ingerida passava a sustentar a produção de energia quando o glicogénio muscular estava baixo.
 
-* **Treino de alta intensidade**: O treino de alta intensidade pode ajudar a aumentar a capacidade do corpo para armazenar glicogênio. Isso pode ser alcançado com o uso de intervalos, repetições e outros métodos de treino de alta intensidade.
-* **Alimentação**: A alimentação é fundamental para a recuperação e o armazenamento de glicogênio. Alimente-se com hidratos de carbono complexos, como pães integrais, grãos de cereais e frutas, antes e após o treino.
-* **Repetições**: As repetições podem ajudar a aumentar a capacidade do corpo para armazenar glicogênio. Tenta realizar 4-6 repetições de 400-800 metros a uma velocidade alta.
+## O que os dados de maratona mostram
 
-## **Erros Comuns**
+Smyth (2021) analisou mais de 4 milhões de registos de maratonas de corredores amadores para identificar quem "bate no muro" — definido como uma quebra tardia e sustentada do ritmo. Cerca de **28 % dos homens e 17 % das mulheres** cumpriam esse critério, e quem batia no muro perdia, em média, cerca de meia hora em relação ao seu melhor tempo recente.
 
-Existem alguns erros comuns que podem acontecer quando o glicogénio se esgota:
+O muro não é inevitável: depende tanto das reservas de combustível como da forma como as gastas.
 
-* **Falta de treino de alta intensidade**: O treino de alta intensidade é fundamental para aumentar a capacidade do corpo para armazenar glicogênio. Se não treina com alta intensidade, podes não estar preparado para o pico do glicogénio.
-* **Falta de alimentação adequada**: A alimentação é fundamental para a recuperação e o armazenamento de glicogênio. Se não se alimenta adequadamente, podes não estar preparado para o pico do glicogénio.
-* **Falta de hidratação**: A hidratação é fundamental para a recuperação e o armazenamento de glicogênio. Se não se hidrata adequadamente, podes não estar preparado para o pico do glicogénio.
+## Como evitar o muro
 
-## **Protocolo/Conclusão**
+### 1. Encher os depósitos antes
 
-O pico do glicogénio é uma condição crítica que todos os atletas devem entender. É o momento em que o corpo se encontra no limite, com os níveis de glicogénio se esgotando rapidamente. Neste momento, a performance começa a diminuir significativamente, e o risco de colapso aumenta. Por isso, é fundamental entender como o corpo se comporta durante o treino e como o glicogénio é armazenado e queimado. Com o uso de treino de alta intensidade, alimentação adequada e hidratação adequada, podes superar o muro do glicogênio e alcançar seu potencial máximo.
+A carga de hidratos de carbono funciona. Nas 36 a 48 horas antes da maratona, as recomendações apontam para **10–12 g de hidratos de carbono por kg de peso corporal por dia**, com o treino já reduzido (Burke et al., 2011; Thomas et al., 2016). Para um corredor de 70 kg, isto significa 700–840 g por dia — muito mais do que a maioria come normalmente. Escolhe alimentos de fácil digestão e reduz a fibra.
+
+No dia da prova, um pequeno-almoço com **1–4 g/kg** de hidratos de carbono, 1 a 4 horas antes, ajuda a repor o glicogénio do fígado gasto durante a noite.
+
+### 2. Comer durante a prova
+
+Para esforços com mais de 2 h 30 min, as recomendações chegam a **até 90 g de hidratos de carbono por hora**, com misturas de glicose e frutose para aumentar a absorção (Burke et al., 2011). Muitos amadores toleram melhor valores de **40–60 g por hora** — um gel típico tem 20–25 g. Começa cedo (nos primeiros 30–45 minutos) e mantém a ingestão regular. Lê mais em [hidratos de carbono durante a maratona](/blog/carboidratos-durante-maratona-ciencia).
+
+### 3. Treinar o intestino
+
+A capacidade de absorver hidratos de carbono durante a corrida melhora com a prática. Usa nos treinos longos exatamente os géis, bebidas e horários que vais usar na prova. Vê [treinar o intestino para 90 g/hora](/blog/hidratos-90g-hora-treino-intestinal).
+
+### 4. Gerir o ritmo
+
+O fator mais subestimado. Partir alguns segundos por quilómetro acima do teu ritmo realista aumenta o gasto de glicogénio em cada minuto da primeira metade. Um ritmo regular — ou uma segunda metade ligeiramente mais rápida — protege as reservas. Vê [estratégia de ritmo na maratona](/blog/pacing-estrategia-ritmo-maratona).
+
+### 5. Construir a base aeróbia
+
+O treino de endurance aumenta a capacidade de oxidar gordura e a capacidade de armazenar glicogénio, o que poupa hidratos de carbono a um dado ritmo. Volume aeróbio consistente e treinos longos são a base. Não há atalho com repetições curtas: os intervalos têm o seu lugar, mas não substituem o volume.
+
+## Erros comuns
+
+1. **Começar demasiado depressa.** Gasta glicogénio mais depressa logo desde o início e é um dos erros mais frequentes entre amadores.
+2. **Experimentar géis novos no dia da prova.** Problemas gastrointestinais podem obrigar a parar de comer — e o muro chega mais cedo.
+3. **Achar que "carga de hidratos" é uma massa ao jantar.** Uma refeição não chega; é preciso aumentar a ingestão durante 1 a 2 dias.
+4. **Treinar sempre em jejum os longos.** Pode ter um papel em sessões fáceis específicas, mas não prepara o intestino nem o ritmo de prova.
+5. **Esquecer a hidratação.** A desidratação marcada aumenta o esforço percebido e a frequência cardíaca, agravando a quebra. Vê [hidratação na corrida](/blog/hidratacao-corrida-guia-cientifico).
+
+## Conclusão
+
+O muro da maratona é a consequência previsível de reservas de glicogénio limitadas a serem gastas depressa demais. Evita-se com uma carga de hidratos de carbono bem feita, ingestão regular durante a prova, um intestino treinado e, acima de tudo, um ritmo inicial realista.
 
 ## Referências Científicas
 
-* Bassett, D. R., & Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. Medicine & Science in Sports & Exercise, 32(1), 70-84. https://doi.org/10.1097/00005768-200001000-00012
-* Jones, A. M., & Carter, H. (2000). The effect of endurance training on parameters of aerobic fitness. Sports Medicine, 29(6), 373-386. https://doi.org/10.2165/00007256-200029060-00001
-* Midgley, A. W., McNaughton, L. R., & Wilkinson, M. (2006). Is there an optimal training intensity for enhancing the maximal oxygen uptake in distance runners? Sports Medicine, 36(2), 117-132. https://doi.org/10.2165/00007256-200636020-00003
-* Saltin, B., & Astrand, P. O. (1967). Maximal oxygen uptake in athletes. Journal of Applied Physiology, 23(3), 353-358. https://doi.org/10.1152/jappl.1967.23.3.353
+1. Bergström, J., Hermansen, L., Hultman, E., & Saltin, B. (1967). Diet, muscle glycogen and physical performance. *Acta Physiologica Scandinavica*, 71(2–3), 140–150.
+2. Coyle, E. F., Coggan, A. R., Hemmert, M. K., & Ivy, J. L. (1986). Muscle glycogen utilization during prolonged strenuous exercise when fed carbohydrate. *Journal of Applied Physiology*, 61(1), 165–172.
+3. Burke, L. M., Hawley, J. A., Wong, S. H. S., & Jeukendrup, A. E. (2011). Carbohydrates for training and competition. *Journal of Sports Sciences*, 29(Suppl 1), S17–S27. https://doi.org/10.1080/02640414.2011.585473
+4. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement: nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852
+5. Smyth, B. (2021). How recreational marathon runners hit the wall: a large-scale data analysis of late-race pacing collapse in the marathon. *PLOS ONE*, 16(5), e0251513. https://doi.org/10.1371/journal.pone.0251513

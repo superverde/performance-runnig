@@ -6,46 +6,67 @@ excerpt: "Cinto porta-dorsal ou alfinetes? Vê as opções para levar o dorsal, 
 seoTitle: "Cinto Porta-Dorsal: O Que Usar em Prova"
 keyword: "cinto porta-dorsal"
 keywords: ["porta-dorsal corrida", "cinto de corrida prova", "equipamento de prova"]
-readTime: 4
+readTime: 5
+faqs:
+  - q: "Posso usar um cinto porta-dorsal em qualquer prova?"
+    a: "Na maioria das provas de estrada e trail, sim, desde que o dorsal fique visível à frente. Algumas provas exigem o dorsal preso na camisola ou têm regras para o chip. Lê sempre o regulamento."
+  - q: "Cinto porta-dorsal ou alfinetes: o que é melhor?"
+    a: "Os alfinetes não custam nada, mas furam a roupa e o dorsal pode rasgar ou bater. O cinto permite mudar de camada sem tirar o dorsal e rodá-lo para as costas, útil em triatlo e trail."
+  - q: "O cinto porta-dorsal pode levar géis?"
+    a: "Muitos têm presilhas elásticas para géis, e alguns cintos de corrida com bolsos também têm cordões para o dorsal. Testa em treino com a carga que vais usar, para garantir que não salta."
 ---
 
-## Introdução
+No dia da prova, o dorsal tem de estar visível, os géis à mão e o telemóvel seguro — sem nada a saltar ou a roçar. Há três soluções principais: **alfinetes**, **cinto porta-dorsal simples** e **cinto de corrida com bolsos e cordões para o dorsal**. Este guia ajuda-te a escolher.
 
-Os cintos e porta-dorsais são componentes essenciais para qualquer corredor que queira alcançar seus objetivos de desempenho. Além de fornecer uma forma prática de transportar água, alimentos e outros suprimentos durante a corrida, esses equipamentos também contribuem para uma melhor experiência de corrida, permitindo que te concentres no seu treino e na sua formação física. No entanto, com tantas opções disponíveis no mercado, escolher o cinto ou porta-dorsais certo pode ser um desafio. Neste artigo, vamos explorar os critérios técnicos que importam ao escolher um cinto ou porta-dorsais de corrida e apresentar algumas das melhores opções em 2026.
+## As opções
 
-## Como Escolher: Critérios Que Importam
+### Alfinetes
+A solução clássica e gratuita. Funciona, mas fura a roupa, obriga a tirar o dorsal se mudares de camada e o papel pode rasgar com vento ou chuva.
 
-Ao escolher um cinto ou porta-dorsais de corrida, é importante considerar vários critérios técnicos. Aqui estão alguns dos mais importantes:
+### Cinto porta-dorsal simples
+Uma fita elástica com dois pontos de fixação para o dorsal. É a escolha habitual em triatlo (o dorsal roda para as costas na bicicleta e para a frente na corrida) e muito prática em trail, onde trocas de camada são frequentes. Alguns modelos têm presilhas para géis.
 
-- **Capacidade de carga**: A capacidade de carga do cinto ou porta-dorsais deve ser suficiente para atender às suas necessidades de corrida. Isso inclui a quantidade de água, alimentos e outros suprimentos que precisas transportar.
-- **Confort**: O confort é fundamental quando se trata de cintos e porta-dorsais. Um cinto ou porta-dorsais confortável ajudará a evitar desconfortos e lesões durante a corrida.
-- **Estabilidade**: A estabilidade é outra consideração importante. Um cinto ou porta-dorsais que esteja bem ajustado e não se mova durante a corrida ajudará a manter o seu foco e evitar distrações.
-- **Material**: O material utilizado para fabricar o cinto ou porta-dorsais também é importante. Materiais como nylon, poliéster e TPU são comuns e oferecem uma boa combinação de durabilidade e confort.
-- **Sistema de ajuste**: Um sistema de ajuste eficaz é fundamental para garantir que o cinto ou porta-dorsais esteja bem ajustado e não se mova durante a corrida.
-- **Sistema de segurança**: Alguns cintos e porta-dorsais oferecem sistemas de segurança, como um sistema de travagem ou um sistema de bloqueio, para evitar que o conteúdo se escape durante a corrida.
+### Cinto de corrida com bolsos
+Um cinto elástico ou com bolsa, que leva telemóvel, chaves e géis e tem cordões para prender o dorsal. Junta tudo numa só peça.
 
-## As Melhores Opções em 2026
+## Como escolher: critérios que importam
 
-Aqui estão algumas das melhores opções em cintos e porta-dorsais de corrida em 2026:
+1. **O que precisas de levar.** Só o dorsal → porta-dorsal simples. Dorsal + telemóvel + géis → cinto com bolsos.
+2. **Estabilidade.** O cinto deve ficar justo na anca sem apertar o abdómen. Testa-o carregado e a ritmo de prova — não só a trotar.
+3. **Fixação do dorsal.** Pinos, cordões elásticos ou molas: confirma que o dorsal fica esticado e visível.
+4. **Regulamento.** Algumas provas exigem o dorsal na parte da frente do tronco e visível em todo o percurso; em trail, o dorsal tem de ficar por fora do casaco impermeável.
+5. **Chip.** Se o chip está no dorsal, não o dobres nem o tapes.
 
-- **Salomon Sense Pro 12**: O Salomon Sense Pro 12 é um cinto de corrida leve e aerodinâmico que oferece uma capacidade de carga de 12 litros. É ideal para corredores que precisam transportar água, alimentos e outros suprimentos durante a corrida. (Entre 150€ e 200€)
-- **CamelBak Ultra Pro 12**: O CamelBak Ultra Pro 12 é um porta-dorsais de corrida que oferece uma capacidade de carga de 12 litros. É ideal para corredores que precisam transportar água, alimentos e outros suprimentos durante a corrida. (Entre 150€ e 200€)
-- **Osprey Duro 15**: O Osprey Duro 15 é um cinto de corrida leve e aerodinâmico que oferece uma capacidade de carga de 15 litros. É ideal para corredores que precisam transportar água, alimentos e outros suprimentos durante a corrida. (Entre 150€ e 200€)
-- **Black Diamond Speed 10**: O Black Diamond Speed 10 é um porta-dorsais de corrida que oferece uma capacidade de carga de 10 litros. É ideal para corredores que precisam transportar água, alimentos e outros suprimentos durante a corrida. (Entre 150€ e 200€)
-- **Inov-8 Fastpack 20**: O Inov-8 Fastpack 20 é um cinto de corrida leve e aerodinâmico que oferece uma capacidade de carga de 20 litros. É ideal para corredores que precisam transportar água, alimentos e outros suprimentos durante a corrida. (Entre 200€ e 250€)
+## As melhores opções
 
-## Veredicto: Qual Comprar
+| Produto | Para quem é | Pontos fortes | Pontos fracos | Preço indicativo |
+|---|---|---|---|---|
+| **Orca Race Belt** | Triatlo e quem só quer segurar o dorsal | Simples e barato | Sem bolsos | cerca de 22 € |
+| **Orca Race Belt with Pocket** | Triatlo e provas curtas | Porta-dorsal com bolso pequeno | Bolso limitado | cerca de 27 € |
+| **Kiprun Cinto de Corrida Basique 2** (Decathlon) | Levar telemóvel em treino e prova | Muito barato | Pouca arrumação; sem garantia de fixação de dorsal | cerca de 8 € |
+| **Salomon Pulse Belt** | Estrada e trail curto | Leve, bolso com fecho, cabe uma fonte de 500 ml | Fixação de dorsal: confirma o modelo | cerca de 25–35 € |
+| **Naked Running Band** | Maratona e trail, com mais material | Cordões elásticos para o dorsal, bolsos para telemóvel, flask e géis | Tens de acertar no tamanho | cerca de 40–50 € |
 
-Quando se trata de escolher um cinto ou porta-dorsais de corrida, é importante considerar suas necessidades específicas e preferências. Aqui estão algumas recomendações:
+*Preços indicativos em outubro de 2026; confirma na loja antes de comprar.*
 
-- **Iniciantes**: Para iniciantes, é recomendável escolher um cinto ou porta-dorsais leve e aerodinâmico, como o Salomon Sense Pro 12 ou o CamelBak Ultra Pro 12.
-- **Competidores**: Para competidores, é recomendável escolher um cinto ou porta-dorsais que ofereça uma capacidade de carga maior, como o Osprey Duro 15 ou o Inov-8 Fastpack 20.
-- **Orçamento limitado**: Para corredores com orçamento limitado, é recomendável escolher um cinto ou porta-dorsais mais acessível, como o Black Diamond Speed 10.
+## Veredicto
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+- **Só o dorsal (provas curtas, triatlo):** Orca Race Belt.
+- **Dorsal + telemóvel + géis numa maratona:** Naked Running Band ou um cinto com bolsos semelhante.
+- **Orçamento mínimo:** alfinetes — continuam a funcionar.
 
-## Referências
+Regra de ouro: **nada de estreias no dia da prova.** Faz pelo menos um treino longo com o cinto carregado. Para levar água, vê [cinto de hidratação vs. colete](/blog/cintos-hidratacao-vs-coletes-qual-escolher-distancia); para escolher calçado de competição, [sapatilhas com placa de carbono](/blog/sapatilhas-placa-carbono-vale-a-pena-comparativo).
 
-- Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6
-- Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2
-- Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- Varuste.net — cintos de corrida (Orca Race Belt, Orca Race Belt with Pocket, Salomon Pulse Belt): https://varuste.net/en/c8142/belt-pockets
+- Decathlon Portugal — página de marca Kiprun (Cinto de Corrida Basique 2): https://www.decathlon.pt/brands/kiprun?from=40
+- Running Warehouse — Naked Running Band (descrição e cordões para dorsal): https://www.runningwarehouse.com/Naked_Running_Band/descpage-NKDBND2.html
+
+## Referências Científicas
+
+Este é um artigo de equipamento prático: não existe investigação revista por pares sobre cintos porta-dorsais. Sobre o custo energético de transportar carga à cintura, vê:
+
+1. Scheer, V., Vieluf, S., Bitter, N., Christ, L., & Heitkamp, H.-C. (2020). The optimal weight carriage system for runners: comparison between handheld water bottles, waist belts, and backpacks. *Frontiers in Physiology*, 11, 571221. https://doi.org/10.3389/fphys.2020.571221
