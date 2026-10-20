@@ -26,7 +26,7 @@ Os melhores dados sobre o envelhecimento "puro" vêm dos atletas master e dos re
 - **dos 35 aos 60–70 anos:** declínio moderado e progressivo;
 - **a partir dos 70 anos:** declínio mais acentuado.
 
-O mesmo padrão aparece no VO₂máx. Num estudo longitudinal com adultos saudáveis acompanhados durante vários anos, Fleg et al. (2005) mostraram que a perda de capacidade aeróbia não é constante: é relativamente pequena entre os 20 e os 40 anos e **acelera a cada década**, chegando a mais de 20 % por década a partir dos 70 anos. Ou seja, o famoso "1 % por ano" é uma média simplificada que esconde uma curva que se vai inclinando.
+O mesmo padrão aparece no VO₂máx. Num estudo longitudinal com adultos saudáveis acompanhados durante vários anos, Fleg et al. (2005) mostraram que a perda de capacidade aeróbia não é constante: é relativamente pequena entre os 20 e os 40 anos e **acelera a cada década**, chegando a mais de 20 % por década a partir dos 70 anos. Ou seja, o famoso "1 % por ano" é uma média simplificada que esconde uma curva que se vai inclinar.
 
 ## Porque é que o rendimento desce
 
