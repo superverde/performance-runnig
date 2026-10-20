@@ -91,6 +91,12 @@ jobs:
           # O script usa apenas módulos nativos + fetch (Node 18+), sem npm install necessário
           echo "Node $(node --version) pronto"
 
+      # 2026-10-20 — primeiro publica artigos já escritos e verificados da
+      # reserva (content/fila/); o gerador a seguir só escreve o que faltar.
+      - name: Publicar artigos da fila
+        if: steps.gate.outputs.proceed == 'true'
+        run: node scripts/publicar-da-fila.mjs
+
       - name: Gerar 3 artigos do dia
         if: steps.gate.outputs.proceed == 'true'
         env:
@@ -111,7 +117,7 @@ jobs:
         run: |
           git config user.name "Performance Running Bot"
           git config user.email "newsletter@performancerunning.pt"
-          git add content/blog/
+          git add content/blog/ content/fila/
           TODAY=$(date +%Y-%m-%d)
           git commit -m "feat(artigos): 3 novos artigos para $TODAY [skip ci]"
           git push origin main

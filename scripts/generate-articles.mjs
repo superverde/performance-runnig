@@ -715,11 +715,21 @@ function getExistingSlugs() {
     fs.mkdirSync(ARTICLES_DIR, { recursive: true })
     return new Set()
   }
-  return new Set(
+  const slugs = new Set(
     fs.readdirSync(ARTICLES_DIR)
       .filter(f => f.endsWith('.md'))
       .map(f => deaccent(f.replace('.md', '')))
   )
+  // 2026-10-20 — os temas que já estão na fila (content/fila/NNN-<slug>.md,
+  // escritos e verificados à mão) também contam como ocupados, para o
+  // gerador nunca escrever uma segunda versão do mesmo artigo.
+  const FILA_DIR = path.join(ARTICLES_DIR, '..', 'fila')
+  if (fs.existsSync(FILA_DIR)) {
+    for (const f of fs.readdirSync(FILA_DIR)) {
+      if (/^\d+-.+\.md$/.test(f)) slugs.add(deaccent(f.replace(/^\d+-/, '').replace('.md', '')))
+    }
+  }
+  return slugs
 }
 
 // Conta quantos artigos já têm a data de hoje no frontmatter, separados por
@@ -1487,7 +1497,10 @@ async function main() {
   // Faltam para hoje, por tipo — NUNCA os valores fixos de novo, para que um
   // segundo disparo no mesmo dia (rede de segurança da Vercel, retry manual,
   // etc.) só complete o que falta em vez de duplicar o que já foi publicado.
-  const neededTechnical = Math.max(0, TECHNICAL_PER_RUN - todayTechnical)
+  // 2026-10-20 — conta pelo TOTAL do dia: os artigos vindos da fila podem ser
+  // de qualquer categoria (incluindo Equipamento verificado à mão) e contam
+  // para os 3 do dia.
+  const neededTechnical = Math.max(0, TECHNICAL_PER_RUN + COMMERCIAL_PER_RUN - alreadyToday - Math.max(0, COMMERCIAL_PER_RUN - todayCommercial))
   const neededCommercial = Math.max(0, COMMERCIAL_PER_RUN - todayCommercial)
   console.log(`📰 Artigos já publicados hoje: ${alreadyToday}/${NEEDED_PER_DAY} (técnicos: ${todayTechnical}/${TECHNICAL_PER_RUN}, comerciais: ${todayCommercial}/${COMMERCIAL_PER_RUN})`)
   if (neededTechnical === 0 && neededCommercial === 0) {
