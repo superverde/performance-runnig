@@ -1,6 +1,6 @@
 ---
 title: "5km Sub-25 Minutos: Plano de 8 Semanas"
-date: 'PENDENTE'
+date: '2026-10-21'
 category: "Treino"
 excerpt: "Queres correr 5km em menos de 25 minutos? Este plano de 8 semanas dá-te os ritmos certos, as séries-chave e o afinamento para baixar a marca."
 seoTitle: "5km em Menos de 25 Minutos: Plano de 8 Semanas"

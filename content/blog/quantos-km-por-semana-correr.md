@@ -1,6 +1,6 @@
 ---
 title: "Quantos km por Semana Deves Correr?"
-date: 'PENDENTE'
+date: '2026-10-21'
 category: "Treino"
 excerpt: "Quantos km por semana deves correr? Depende do objetivo e da experiência. Vê os intervalos de referência para saúde, 5km, 10km, meia e maratona."
 seoTitle: "Quantos km por Semana Correr? Guia por Objetivo"

@@ -1,6 +1,6 @@
 ---
 title: "O Que Comer Antes do Treino da Manhã"
-date: 'PENDENTE'
+date: '2026-10-21'
 category: "Nutrição"
 excerpt: "O que comer antes do treino de manhã depende da duração e da intensidade. Vê quando podes correr em jejum e que pequeno-almoço escolher em cada caso."
 seoTitle: "Comer Antes do Treino de Manhã: O Que e Quando"
