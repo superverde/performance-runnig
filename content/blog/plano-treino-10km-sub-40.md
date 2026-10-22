@@ -1,6 +1,6 @@
 ---
 title: "10km Sub-40: O Plano e os Treinos Chave"
-date: 'PENDENTE'
+date: '2026-10-22'
 category: "Treino"
 excerpt: "Correr 10km sub 40 exige 4:00/km durante toda a prova. Vê os treinos chave, os ritmos certos e um plano de 10 semanas para baixar dos 40 minutos."
 seoTitle: "10km Sub 40: Plano de 10 Semanas e Treinos Chave"

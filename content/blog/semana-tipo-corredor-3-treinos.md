@@ -1,6 +1,6 @@
 ---
 title: "Só 3 Treinos por Semana: A Semana Ideal"
-date: 'PENDENTE'
+date: '2026-10-22'
 category: "Treino"
 excerpt: "Com 3 treinos por semana podes evoluir na corrida se cada sessão tiver um papel claro. Vê como organizar a semana ideal consoante o teu objetivo."
 seoTitle: "3 Treinos por Semana: Como Montar a Semana Ideal"

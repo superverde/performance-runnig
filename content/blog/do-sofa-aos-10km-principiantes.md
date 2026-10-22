@@ -1,6 +1,6 @@
 ---
 title: "Do Sofá aos 10km: Plano para Principiantes"
-date: 'PENDENTE'
+date: '2026-10-22'
 category: "Treino"
 excerpt: "Do sofá aos 10km em 16 semanas, com 3 treinos por semana: começa com corrida e caminhada alternadas e progride com segurança até à tua primeira prova."
 seoTitle: "Do Sofá aos 10km: Plano de 16 Semanas"
