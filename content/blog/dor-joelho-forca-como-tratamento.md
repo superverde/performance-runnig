@@ -1,6 +1,6 @@
 ---
 title: "Dor no Joelho na Corrida: Força Como Tratamento"
-date: 'PENDENTE'
+date: '2026-10-23'
 category: "Lesões"
 excerpt: "Na dor no joelho da corrida, o exercício de força é o tratamento com melhor evidência. Vê que exercícios fazer, quantas vezes e como voltar a correr."
 seoTitle: "Dor no Joelho na Corrida: Força Como Tratamento"

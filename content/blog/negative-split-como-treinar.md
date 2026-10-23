@@ -1,6 +1,6 @@
 ---
 title: "Correr em Negative Split: Como Treinar"
-date: 'PENDENTE'
+date: '2026-10-23'
 category: "Treino"
 excerpt: "O negative split treina-se: com corridas progressivas, longos com final rápido e disciplina no arranque. Vê os treinos e o plano de ritmo por distância."
 seoTitle: "Negative Split: Como Treinar para Acabar Mais Rápido"

@@ -1,6 +1,6 @@
 ---
 title: "Hiponatremia na Corrida: Como Prevenir"
-date: 'PENDENTE'
+date: '2026-10-23'
 category: "Nutrição"
 excerpt: "A hiponatremia na corrida resulta sobretudo de beber água a mais. Conhece os sintomas, quem corre mais risco e como prevenir numa maratona ou meia."
 seoTitle: "Hiponatremia na Corrida: Sintomas e Prevenção"
