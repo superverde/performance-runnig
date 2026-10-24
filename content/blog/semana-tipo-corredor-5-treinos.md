@@ -1,6 +1,6 @@
 ---
 title: "5 Treinos por Semana: Como Distribuir as Sessões"
-date: 'PENDENTE'
+date: '2026-10-24'
 category: "Treino"
 excerpt: "Com 5 treinos por semana, o segredo está em espaçar os dias duros e manter o resto fácil. Vê como distribuir as sessões consoante o teu objetivo."
 seoTitle: "5 Treinos por Semana: Como Distribuir a Corrida"

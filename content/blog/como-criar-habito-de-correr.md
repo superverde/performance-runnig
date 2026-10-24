@@ -1,6 +1,6 @@
 ---
 title: "Como Criar o Hábito de Correr"
-date: 'PENDENTE'
+date: '2026-10-24'
 category: "Psicologia"
 excerpt: "Criar o hábito de correr depende de repetição no mesmo contexto, não de força de vontade. Vê o que diz a ciência dos hábitos e como aplicá-la já."
 seoTitle: "Como Criar o Hábito de Correr: O Que Diz a Ciência"

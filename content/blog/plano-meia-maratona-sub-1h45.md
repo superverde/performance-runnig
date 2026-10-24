@@ -1,6 +1,6 @@
 ---
 title: "Meia Maratona Sub-1h45: Plano Completo de 12 Semanas"
-date: 'PENDENTE'
+date: '2026-10-24'
 category: "Treino"
 excerpt: "Para correr a meia maratona sub 1h45 precisas de manter 4:58/km. Vê os requisitos, os ritmos de treino e o plano completo de 12 semanas com 4 treinos."
 seoTitle: "Meia Maratona Sub 1h45: Plano de 12 Semanas"
