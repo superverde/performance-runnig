@@ -1,6 +1,6 @@
 ---
 title: "Carga de Hidratos: O Protocolo de 3 Dias Antes da Maratona"
-date: 'PENDENTE'
+date: '2026-10-25'
 category: "Nutrição"
 excerpt: "A carga de hidratos enche as reservas de glicogénio antes da maratona. Vê quanto comer por kg, como organizar os últimos 3 dias e que erros evitar."
 seoTitle: "Carga de Hidratos: Protocolo de 3 Dias para a Maratona"

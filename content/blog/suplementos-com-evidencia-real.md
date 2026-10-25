@@ -1,6 +1,6 @@
 ---
 title: "Os 5 Suplementos Com Evidência Real Para Corredores"
-date: 'PENDENTE'
+date: '2026-10-25'
 category: "Nutrição"
 excerpt: "Só cinco suplementos de performance têm evidência sólida segundo o consenso do COI. Vê quais são, para que provas servem e que riscos deves conhecer."
 seoTitle: "Suplementos Com Evidência: Os 5 Que Funcionam"

@@ -1,6 +1,6 @@
 ---
 title: "Recuperar de uma Maratona: O Plano de 4 Semanas"
-date: 'PENDENTE'
+date: '2026-10-25'
 category: "Recuperação"
 excerpt: "Recuperar de uma maratona leva semanas, não dias. Vê o que acontece ao corpo após a prova e um plano de 4 semanas para voltar a correr sem lesões."
 seoTitle: "Recuperar de uma Maratona: Plano de 4 Semanas"
