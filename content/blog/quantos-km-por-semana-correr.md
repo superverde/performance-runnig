@@ -6,17 +6,17 @@ excerpt: "Quantos km por semana deves correr? Depende do objetivo e da experiên
 seoTitle: "Quantos km por Semana Correr? Guia por Objetivo"
 keyword: "quantos km por semana correr"
 keywords: ["quilómetros por semana", "volume semanal corrida", "km por semana maratona"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Quantos km por semana preciso para ter benefícios de saúde?"
-    a: "Muito pouco. Grandes estudos associam qualquer quantidade de corrida, mesmo menos de 50 minutos por semana, a menor risco de mortalidade. Dois ou três treinos de 20–30 minutos já contam."
+    a: "Muito pouco. Grandes estudos associam qualquer quantidade de corrida, mesmo menos de 51 minutos por semana, a menor risco de mortalidade. Dois ou três treinos de 20–30 minutos já contam."
   - q: "Quantos km por semana para preparar uma maratona?"
     a: "Para a maioria dos amadores, algo entre 40 e 70 km nas semanas de maior carga é uma referência prática. Mais importante do que o número é chegares lá de forma gradual e sem lesões."
   - q: "A regra dos 10 % por semana é segura?"
     a: "Não está bem demonstrada. Um ensaio com principiantes não encontrou menos lesões com um programa baseado nos 10 %, mas aumentos bruscos (acima de 30 %) parecem associar-se a mais lesões. Progride com prudência e intercala semanas mais leves."
 ---
 
-Não existe um número certo para toda a gente: quantos km por semana deves correr depende do teu objetivo, da tua experiência e do tempo que tens. Para saúde, 10–20 km (ou 2–3 corridas de 20–30 minutos) já chegam; para provas, o volume cresce com a distância — e o que mais conta é a progressão gradual e a consistência ao longo de meses.
+Não existe um número certo para toda a gente: quantos km por semana deves correr depende do teu objetivo, da tua experiência e do tempo que tens. Para saúde, pouco chega — 2–3 corridas de 20–30 minutos por semana, muitas vezes entre 5 e 15 km; para provas, o volume cresce com a distância — e o que mais conta é a progressão gradual e a consistência ao longo de meses.
 
 ## Primeiro, define para que corres
 
@@ -28,9 +28,9 @@ O volume semanal é uma ferramenta, não um objetivo em si. Correr 60 km por sem
 
 ## Correr para a saúde: menos do que pensas
 
-Se corres sobretudo pela saúde, a boa notícia é que a dose mínima eficaz é baixa. Num estudo com mais de 55 mil adultos seguidos durante cerca de 15 anos, os corredores tinham menor risco de morte por todas as causas e por doença cardiovascular do que os não corredores — e o benefício era semelhante mesmo nos que corriam menos de 51 minutos por semana, a ritmos lentos e só uma ou duas vezes por semana (Lee et al., 2014). Uma meta-análise posterior confirmou que qualquer quantidade de corrida se associa a menor mortalidade e não encontrou evidência de que doses maiores tragam benefícios adicionais para a longevidade (Pedisic et al., 2020).
+Se corres sobretudo pela saúde, a boa notícia é que a dose mínima eficaz é baixa. Num estudo com mais de 55 mil adultos seguidos durante cerca de 15 anos, os corredores tinham menor risco de morte por todas as causas e por doença cardiovascular do que os não corredores — e o benefício era semelhante mesmo nos que corriam menos de 51 minutos por semana, a ritmos lentos (abaixo de cerca de 9,7 km/h), com menos de cerca de 10 km semanais ou só uma ou duas vezes por semana (Lee et al., 2014). Uma meta-análise posterior confirmou que qualquer quantidade de corrida se associa a menor mortalidade e não encontrou evidência de que doses maiores tragam benefícios adicionais para a longevidade (Pedisic et al., 2020).
 
-Na prática: duas a três corridas de 20–30 minutos por semana — muitas vezes 10 a 20 km — dão-te a maior parte do benefício para a saúde. Correr mais pode fazer sentido por prazer ou performance, mas não é obrigatório para seres saudável.
+Na prática: duas a três corridas de 20–30 minutos por semana — muitas vezes entre 5 e 15 km — dão-te a maior parte do benefício para a saúde. Correr mais pode fazer sentido por prazer ou performance, mas não é obrigatório para seres saudável.
 
 ## Volumes de referência por objetivo
 
@@ -38,7 +38,7 @@ Os intervalos seguintes são referências práticas, usadas por treinadores, par
 
 | Objetivo | Volume semanal de referência (amador) | Treinos por semana |
 |---|---|---|
-| Saúde e condição física | 10–20 km | 2–3 |
+| Saúde e condição física | 5–15 km | 2–3 |
 | 5km | 15–35 km | 3–4 |
 | 10km | 25–45 km | 3–5 |
 | Meia maratona | 30–55 km | 4–5 |

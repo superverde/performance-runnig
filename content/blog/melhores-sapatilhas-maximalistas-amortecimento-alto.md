@@ -2,45 +2,69 @@
 title: "Sapatilhas com Mais Amortecimento: As Melhores de 2026"
 date: '2026-07-27'
 category: "Equipamento"
-excerpt: "Sapatilhas com mais amortecimento protegem as articulações sem perder eficiência? Vê os critérios e as melhores opções de 2026."
+excerpt: "Sapatilhas com mais amortecimento: o que dão e o que não dão, como escolher pela espuma, drop e estabilidade, e quatro modelos maximalistas atuais."
 keyword: "sapatilhas com mais amortecimento"
 keywords: ["sapatilhas amortecidas 2026", "sapatilhas maximalistas", "sapatilhas almofadadas"]
 readTime: 4
+faqs:
+  - q: "Mais amortecimento significa menos lesões?"
+    a: "Não necessariamente. A evidência não mostra que sapatilhas mais amortecidas, por si só, previnam lesões. O conforto que sentes ao correr é um bom critério de escolha, mas a gestão da carga de treino continua a ser o fator principal."
+  - q: "As sapatilhas maximalistas servem para treinos rápidos?"
+    a: "Servem sobretudo para rodagens, treinos longos e recuperação. São mais pesadas do que sapatilhas de treino rápido e, sem placa, menos reativas. Para séries e provas curtas, há opções mais leves."
+  - q: "Que drop têm as sapatilhas maximalistas?"
+    a: "Varia muito. Entre os modelos deste guia, a New Balance More v6 tem cerca de 4 mm e a Nike Vomero Plus cerca de 10 mm. Se mudas de um drop alto para um baixo, faz a transição de forma gradual."
 ---
 
-## Introdução
-As sapatilhas maximalistas são uma escolha popular entre os corredores que procuram uma combinação de amortecimento alto e performance desportiva. Essas sapatilhas são concebidas para minimizar o impacto do pé no chão, reduzindo o stress nas articulações e permitindo que os corredores sejam mais eficientes em suas corridas. No entanto, com tantas opções disponíveis no mercado, escolher as melhores sapatilhas maximalistas pode ser um desafio.
+As sapatilhas com mais amortecimento — as chamadas maximalistas — têm uma entressola alta, normalmente acima dos 35–40 mm no calcanhar, com espumas macias. São das mais vendidas para rodagens e treinos longos, porque reduzem a sensação de impacto e tornam os quilómetros mais confortáveis. Mas convém perceber bem o que dão e o que não dão antes de escolheres.
 
-## Como Escolher: Critérios Que Importam
-Quando se trata de escolher as melhores sapatilhas maximalistas, existem vários critérios que devem ser considerados. Um dos principais é a tecnologia de amortecimento. As sapatilhas maximalistas mais eficazes são aquelas que utilizam materiais e tecnologias avançadas para absorver o impacto do pé no chão. Isso pode incluir a utilização de gel ou outros materiais viscoelásticos.
+## O que o amortecimento faz (e o que não faz)
 
-Outro critério importante é a suportabilidade. As sapatilhas maximalistas devem fornecer um suporte adequado ao pé, especialmente no arco e no calcanhar. Isso é crucial para prevenir lesões e promover uma corrida mais eficiente.
+- **Conforto percebido:** é o benefício mais claro. Uma espuma macia e espessa reduz a sensação de impacto, o que ajuda em treinos longos, em dias de pernas pesadas e em quem corre muitas horas por semana.
+- **Prevenção de lesões:** não há evidência sólida de que mais amortecimento, por si só, reduza o risco de lesão. As lesões de corrida dependem sobretudo de quanto, como e com que progressão treinas. Escolher a sapatilha em que te sentes confortável é um critério razoável; esperar que ela compense erros de carga não é.
+- **Estabilidade:** quanto mais alta a entressola, maior pode ser a sensação de instabilidade, sobretudo em curvas e terreno irregular. Por isso muitas maximalistas usam bases largas e geometria em balancim (rocker).
+- **Peso:** mais espuma costuma significar mais peso. Os modelos deste guia andam entre cerca de 280 e 310 g (tamanho de homem), mais do que uma sapatilha de treino rápido.
 
-A estabilidade também é um fator importante a considerar. As sapatilhas maximalistas devem oferecer uma estabilidade adequada para evitar que o pé se encontre numa posição anormal durante a corrida.
+## Como escolher: critérios que importam
 
-Além disso, a respirabilidade e a transpirabilidade são fatores importantes a considerar. As sapatilhas maximalistas devem permitir que o pé respire e se encharque adequadamente durante a corrida, evitando a formação de um ambiente úmido que possa causar desconforto e lesões.
+1. **Tipo de espuma e sensação.** Há espumas muito macias e afundantes e outras mais firmes e reativas. Se puderes, experimenta em loja e dá uns passos de corrida.
+2. **Drop.** O desnível entre calcanhar e antepé varia de cerca de 4 mm a 10 mm nestes modelos. Se vens de sapatilhas com drop alto e mudas para um baixo, faz a transição aos poucos — vê o nosso guia sobre [drop alto vs. baixo](/blog/drop-alto-vs-baixo-sapatilhas-diferenca-guia).
+3. **Base e estabilidade.** Uma base larga e uma entressola com paredes laterais dão mais estabilidade. Se precisas de apoio extra, há versões de estabilidade em várias destas famílias.
+4. **Largura e ajuste.** Vários modelos existem em versão larga (2E ou equivalente). Confirma o tamanho no fim do dia, com as meias que usas para correr.
+5. **Uso previsto.** Rodagens, longos e recuperação são o terreno natural destas sapatilhas. Para séries, prefere algo mais leve.
+6. **Peso corporal.** Corredores mais pesados podem preferir mais espuma, mas também uma base estável — vê [sapatilhas para corredores pesados](/blog/melhores-sapatilhas-corredores-pesados-80kg).
 
-Por fim, é importante considerar o peso e a dureza das sapatilhas maximalistas. As sapatilhas mais leves e macias são geralmente mais confortáveis e eficientes, enquanto as sapatilhas mais pesadas e duras podem ser mais difíceis de usar.
+## As melhores opções
 
-## As Melhores Opções em 2026
-Aqui estão algumas das melhores opções de sapatilhas maximalistas disponíveis no mercado em 2026:
+| Produto | Para quem é | Pontos fortes | Pontos fracos | Preço indicativo |
+|---|---|---|---|---|
+| **Hoka Bondi 9** | Quem quer o máximo de amortecimento em rodagens e longos | Cerca de 43/38 mm (drop 5 mm); espuma supercrítica; base larga; versão larga disponível | Cerca de 297 g; pouco ágil em ritmos rápidos | cerca de 180 € |
+| **ASICS Gel-Nimbus 28** | Corredores neutros que querem conforto em quilometragem alta | Cerca de 43,5/35,5 mm (drop 8 mm); espuma FF Blast Plus com PureGEL; mais leve do que a versão anterior | Das mais caras do segmento | cerca de 200–215 € |
+| **New Balance Fresh Foam X More v6** | Quem prefere drop baixo com muita espuma | Cerca de 44/40 mm (drop 4 mm); base muito larga e estável | Cerca de 306 g, a mais pesada desta lista | cerca de 170 € |
+| **Nike Vomero Plus** | Quem quer uma maximalista mais reativa | Entressola integral em ZoomX, cerca de 45/35 mm (drop 10 mm) | Drop alto pode não agradar a todos | cerca de 125–170 € |
 
-* **Nike Vaporfly Next%**: Esta sapatilha maximalista é concebida para os corredores mais exigentes, oferecendo um amortecimento alto e uma performance desportiva avançada. A tecnologia de amortecimento da Nike é uma das mais eficazes no mercado, e a sapatilha também oferece uma estabilidade e suportabilidade adequadas. Faixa de preço: entre 150€ e 200€. [Leia mais sobre as sapatilhas Nike em nosso artigo sobre a melhor tecnologia de amortecimento.](/blog/nike-vaporfly-next%25)
-* **Brooks Ghost**: A Brooks Ghost é uma sapatilha maximalista popular entre os corredores que procuram um equilíbrio entre amortecimento e performance desportiva. A sapatilha oferece um amortecimento alto e uma estabilidade adequada, além de uma suportabilidade e respirabilidade excelentes. Faixa de preço: entre 120€ e 180€. [Leia mais sobre as sapatilhas Brooks em nosso artigo sobre a melhor tecnologia de amortecimento.](/blog/brooks-ghost)
-* **Asics Gel-Kayano**: A Asics Gel-Kayano é uma sapatilha maximalista concebida para os corredores que procuram uma combinação de amortecimento alto e suportabilidade. A sapatilha oferece um amortecimento avançado e uma estabilidade adequada, além de uma suportabilidade e respirabilidade excelentes. Faixa de preço: entre 150€ e 200€. [Leia mais sobre as sapatilhas Asics em nosso artigo sobre a melhor tecnologia de amortecimento.](/blog/asics-gel-kayano)
-* **New Balance Fresh Foam**: A New Balance Fresh Foam é uma sapatilha maximalista concebida para os corredores que procuram uma combinação de amortecimento alto e performance desportiva. A sapatilha oferece um amortecimento avançado e uma estabilidade adequada, além de uma suportabilidade e respirabilidade excelentes. Faixa de preço: entre 100€ e 150€.
-* **Hoka One One Clifton**: A Hoka One One Clifton é uma sapatilha maximalista concebida para os corredores que procuram uma combinação de amortecimento alto e suportabilidade. A sapatilha oferece um amortecimento avançado e uma estabilidade adequada, além de uma suportabilidade e respirabilidade excelentes. Faixa de preço: entre 120€ e 180€.
+Alturas e pesos são valores anunciados para tamanho de homem e podem variar com o tamanho e a fonte.
 
-## Veredicto: Qual Comprar
-A escolha da melhor sapatilha maximalista depende de vários fatores, incluindo o perfil do corredor e o orçamento disponível. Aqui estão algumas recomendações baseadas no perfil do corredor:
+*Preços indicativos em outubro de 2026; confirma na loja antes de comprar.*
 
-* **Para iniciantes**: A New Balance Fresh Foam é uma boa opção para iniciantes, oferecendo um amortecimento alto e uma performance desportiva acessível.
-* **Para competidores**: A Nike Vaporfly Next% é uma boa opção para competidores, oferecendo um amortecimento avançado e uma performance desportiva de alta qualidade.
-* **Para orçamento limitado**: A Brooks Ghost é uma boa opção para quem tem orçamento limitado, oferecendo um amortecimento alto e uma performance desportiva acessível.
+## Veredicto: qual comprar
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+- **Máximo amortecimento para rodagens e longos:** Hoka Bondi 9.
+- **Conforto «clássico» com drop intermédio:** ASICS Gel-Nimbus 28.
+- **Drop baixo e base estável:** New Balance Fresh Foam X More v6.
+- **Mais resposta sem abdicar de espuma:** Nike Vomero Plus, que costuma aparecer em promoção abaixo do preço de tabela.
 
-## Referências
-1. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054
-2. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2
-3. Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
+Seja qual for a escolha, a sapatilha não substitui uma progressão de treino sensata. Vê também como [escolher sapatilhas de corrida](/blog/como-escolher-sapatilhas-corrida-guia-pisada), [quando trocar de sapatilhas](/blog/sapatilhas-corrida-quando-trocar-guia-pratico) e usa o nosso [comparador de sapatilhas](/ferramentas/comparador-sapatilhas).
+
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- SportsShoes — Hoka Bondi 9 (preço e especificações: peso, alturas, drop): https://www.sportsshoes.com/es-es/product/hok3052/hoka-bondi-9-hombre-zapatillas-running----aw26
+- Carreras de Montaña — Hoka Bondi 9 (preço de lançamento e especificações): https://carrerasdemontana.com/tag/hoka-bondi-9/
+- ASICS — gama GEL-NIMBUS 28: https://www.asics.com/au/en-au/gel-nimbus-28/c/au70364000
+- Carreras de Montaña — ASICS Gel-Nimbus 28 (PVP e especificações): https://carrerasdemontana.com/2026/02/02/asics-gel-nimbus-28-mayayo/
+- Decathlon Espanha — ASICS Gel-Nimbus 28 (preço): https://www.decathlon.es/es/p/mp/zapatillas-de-running-asics/4a491056-261c-4d95-992b-7335f879bd4e/c255
+- Carreras de Montaña — New Balance Fresh Foam X More v6 (PVP e especificações): https://carrerasdemontana.com/2025/07/25/new-balance-fresh-foam-x-more-v6-mayayo/
+- SportsShoes — New Balance Fresh Foam X More v6 (preço): https://www.sportsshoes.com/it-it/product/new696878/fresh-foam-x-more-v6-uomo-scarpe-da-running---aw26
+- Carreras de Montaña — Nike Vomero Plus (PVP e especificações): https://carrerasdemontana.com/2025/07/31/nike-vomero-plus-mayayo/
+- SportsShoes — Nike Vomero Plus (preço): https://www.sportsshoes.com/es-es/product/nik24582/vomero-plus-hombre-zapatillas-running

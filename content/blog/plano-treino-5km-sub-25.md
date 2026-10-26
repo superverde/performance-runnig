@@ -6,7 +6,7 @@ excerpt: "Queres correr 5km em menos de 25 minutos? Este plano de 8 semanas dá-
 seoTitle: "5km em Menos de 25 Minutos: Plano de 8 Semanas"
 keyword: "5km em menos de 25 minutos"
 keywords: ["plano 5km sub 25", "5 km em 25 minutos", "plano de treino 5km"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "A que ritmo tenho de correr para fazer 5km em 25 minutos?"
     a: "A 5:00/km de média. Na prática, convém partir a 5:00–5:05/km no primeiro quilómetro e guardar alguma margem para acelerar no último."

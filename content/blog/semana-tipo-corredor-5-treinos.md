@@ -25,7 +25,7 @@ Passar de 3 ou 4 para 5 treinos permite aumentar o volume sem tornar cada corrid
 Os 5 treinos fazem sentido se:
 
 - já corres 4 vezes por semana há vários meses, sem lesões;
-- preparas uma meia maratona ou maratona, ou queres continuar a baixar marcas nos 5 e 10 km;
+- preparas uma meia maratona ou maratona, ou queres continuar a melhorar as tuas marcas nos 5 e 10 km;
 - tens tempo para dormir e recuperar — mais treinos sem mais descanso é uma má troca.
 
 Se ainda estás nos 3 treinos, vê primeiro como [estruturar a semana de treino](/blog/microciclo-treino-estrutura-semanal) e consolida essa base.
@@ -62,13 +62,13 @@ Nas tabelas, «fácil» é ritmo de conversa; os dias podem rodar conforme o teu
 |---|---|
 | Segunda | Descanso |
 | Terça | **Intervalos VO₂max** (ex.: 5×1000 m ao ritmo de 5 km) |
-| Quarta | Fácil 40–50 min |
+| Quarta | Fácil 40–50 min + força |
 | Quinta | Fácil 30–40 min + 6 progressivos |
-| Sexta | Descanso ou força |
+| Sexta | Descanso |
 | Sábado | **Limiar** (ex.: 3×8 min) |
 | Domingo | Longo fácil 60–75 min |
 
-Aqui a corrida longa é moderada em duração e entra como dia fácil; os dois dias duros são terça e sábado.
+Aqui a corrida longa é moderada em duração e entra como dia fácil; os dois dias duros são terça e sábado. A segunda sessão de força pode entrar na terça, depois dos intervalos. A sexta fica livre porque é a véspera do limiar.
 
 ### Meia maratona
 

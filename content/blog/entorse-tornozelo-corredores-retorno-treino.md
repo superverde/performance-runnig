@@ -40,8 +40,8 @@ Uma revisão sistemática concluiu que estas regras têm uma sensibilidade de qu
 
 **Objetivo:** controlar dor e inchaço e manter o tornozelo a mexer.
 
-- **Gelo, compressão e elevação** podem aliviar sintomas nos primeiros dias, mas a diretriz clínica holandesa sobre entorses do tornozelo nota que não há evidência de que o protocolo RICE, isoladamente, melhore a recuperação (Vuurberg et al., 2018).
-- **Suporte funcional** (ortótese semirrígida ou ligadura) é preferível à imobilização com gesso. A imobilização só deve ser considerada por pouco tempo, no máximo cerca de 10 dias, em entorses graves, e por decisão médica.
+- **Gelo, compressão e elevação** podem aliviar sintomas nos primeiros dias, mas a diretriz clínica holandesa sobre entorses do tornozelo considera a eficácia do protocolo RICE questionável e conclui que, isoladamente, não tem papel no tratamento (Vuurberg et al., 2018).
+- **Suporte funcional** (ortótese ou ligadura) durante 4–6 semanas é preferível à imobilização; a ortótese é a forma de suporte com maior efeito. A imobilização só deve ser considerada por pouco tempo, no máximo 10 dias, e por decisão médica (Vuurberg et al., 2018).
 - **Apoia o pé** dentro do que a dor permite. Andar cedo, com suporte, faz parte da recuperação.
 - **Anti-inflamatórios:** podem reduzir a dor e o inchaço a curto prazo, mas fala com o médico ou farmacêutico antes de os tomares, e nunca os uses para conseguires correr com dor.
 
@@ -93,7 +93,7 @@ Se as entorses se repetem ou o tornozelo continua a «falhar» meses depois, pro
 
 ## Referências Científicas
 
-1. Bachmann, L. M., Kolb, E., Koller, M. T., Steurer, J., & ter Riet, G. (2003). Accuracy of Ottawa ankle rules to exclude fractures of the ankle and mid-foot: Systematic review. *BMJ*, 326(7386), 417. https://doi.org/10.1136/bmj.326.7386.417
+1. Bachmann, L. M., Kolb, E., Koller, M. T., Steurer, J., & ter Riet, G. (2003). Accuracy of Ottawa ankle rules to exclude fractures of the ankle and mid-foot: Systematic review. *BMJ*, 326(7386), 417–419. https://doi.org/10.1136/bmj.326.7386.417
 2. Doherty, C., Bleakley, C., Hertel, J., Caulfield, B., Ryan, J., & Delahunt, E. (2016). Recovery from a first-time lateral ankle sprain and the predictors of chronic ankle instability: A prospective cohort analysis. *The American Journal of Sports Medicine*, 44(4), 995–1003. https://doi.org/10.1177/0363546516628870
 3. Hupperets, M. D. W., Verhagen, E. A. L. M., & van Mechelen, W. (2009). Effect of unsupervised home based proprioceptive training on recurrences of ankle sprain: Randomised controlled trial. *BMJ*, 339, b2684. https://doi.org/10.1136/bmj.b2684
 4. Vuurberg, G., Hoorntje, A., Wink, L. M., van der Doelen, B. F. W., van den Bekerom, M. P., et al. (2018). Diagnosis, treatment and prevention of ankle sprains: Update of an evidence-based clinical guideline. *British Journal of Sports Medicine*, 52(15), 956. https://doi.org/10.1136/bjsports-2017-098106

@@ -2,18 +2,18 @@
 title: "10km Sub-40: O Plano e os Treinos Chave"
 date: '2026-10-22'
 category: "Treino"
-excerpt: "Correr 10km sub 40 exige 4:00/km durante toda a prova. Vê os treinos chave, os ritmos certos e um plano de 10 semanas para baixar dos 40 minutos."
+excerpt: "Correr 10km sub 40 exige 4:00/km durante toda a prova. Vê os treinos chave, os ritmos certos e um plano de 10 semanas para ficares abaixo dos 40 minutos."
 seoTitle: "10km Sub 40: Plano de 10 Semanas e Treinos Chave"
 keyword: "10km sub 40"
 keywords: ["10km em menos de 40 minutos", "plano 10km sub 40", "treinos chave 10 km"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Que ritmo preciso para correr 10km em menos de 40 minutos?"
     a: "Precisas de uma média de 4:00/km, ou 1:36 por cada 400 m em pista. Na prova, procura passar os 5 km entre 19:55 e 20:05 e acelerar só depois dos 7 km."
   - q: "Quantos km por semana são precisos para fazer sub-40 aos 10km?"
     a: "Para a maioria dos amadores, algo entre 50 e 65 km por semana, em 5 a 6 corridas, é uma base realista. Mais importante do que o número é a regularidade ao longo de meses."
   - q: "Que marca aos 5km indica que estou pronto para o sub-40?"
-    a: "As tabelas de equivalência habituais apontam para um 5km por volta dos 19:10–19:15 como equivalente a 40 minutos aos 10km. Se já corres o 5km abaixo disso, o sub-40 é um objetivo realista."
+    a: "As tabelas de equivalência habituais (Riegel, VDOT de Daniels) apontam para um 5km entre 19:10 e 19:20 como equivalente a 40 minutos aos 10km. Se já corres o 5km abaixo disso, o sub-40 é um objetivo realista."
 ---
 
 Para correres 10km sub 40 tens de manter 4:00/km durante toda a prova — um ritmo ao alcance de amadores bem treinados, mas que exige 50–65 km por semana e três tipos de treino chave: séries perto do VO₂max, sessões de limiar e blocos longos ao ritmo de prova. Este plano de 10 semanas é para quem já corre os 10km entre 41 e 43 minutos.
@@ -38,7 +38,7 @@ Se tiveres dúvidas sobre o limiar e as zonas, vê o artigo sobre [treino espec�
 
 O plano faz sentido se:
 
-- já correste um 10km entre 41 e 43 minutos, ou um 5km por volta dos 19:30–20:00;
+- já correste um 10km entre 41 e 43 minutos, ou um 5km entre 19:40 e 20:40 (a marca equivalente pelas tabelas habituais);
 - fazes há vários meses 40–50 km por semana sem lesões;
 - consegues treinar 5 a 6 dias por semana.
 
@@ -52,7 +52,7 @@ São repetições de 3 a 5 minutos (800 a 1200 m) a um ritmo que conseguirias ma
 
 ### 2. Limiar
 
-Blocos de 8 a 20 minutos a 4:10–4:15/km, «confortavelmente difíceis». São o treino com melhor relação entre benefício e fadiga para o 10km. Exemplo: 3×10 min com 1:30 de recuperação.
+Blocos de 8 a 20 minutos a 4:10–4:15/km, «confortavelmente difíceis». Permitem acumular bastante tempo a uma intensidade alta com uma fadiga mais controlada do que as séries ao VO₂max, o que as torna fáceis de repetir semana após semana. Repara que o ritmo indicado (4:10–4:15/km) corresponde ao limiar de quem corre hoje 41–42 minutos: treinas ao teu nível atual, não ao nível que ainda queres ter. Exemplo: 3×10 min com 1:30 de recuperação.
 
 ### 3. Ritmo de prova em blocos longos
 
@@ -91,7 +91,7 @@ Os volumes incluem aquecimento, retorno à calma e corridas fáceis.
 
 ### O teste da semana 8
 
-Um 5km nesta altura diz-te muito. As tabelas de equivalência habituais apontam para um 5km por volta dos 19:10–19:15 como equivalente aos 40 minutos no 10km. Se ficares perto disto, mantém o objetivo; se ficares claramente acima, ajusta o ritmo de prova em vez de forçar.
+Um 5km nesta altura diz-te muito. As tabelas de equivalência habituais (a fórmula de Riegel e as tabelas VDOT de Jack Daniels) apontam para um 5km entre 19:10 e 19:20 como equivalente aos 40 minutos no 10km. São estimativas, não garantias: quem tem mais resistência do que velocidade tende a render relativamente melhor no 10km. Se ficares perto disto, mantém o objetivo; se ficares claramente acima, ajusta o ritmo de prova em vez de forçar.
 
 ### O afinamento
 
@@ -109,7 +109,7 @@ Uma meta-análise sobre o *tapering* concluiu que a redução de volume na ordem
 - **Treinar tudo a 4:20–4:30/km:** demasiado rápido para ser fácil, demasiado lento para ser treino de qualidade.
 - **Fazer as séries mais rápido do que o indicado** e chegar ao limiar de quinta já cansado.
 - **Acrescentar uma terceira sessão dura** «para acelerar o processo».
-- **Ignorar a força:** duas sessões curtas por semana ajudam a economia de corrida e a tolerância à carga.
+- **Ignorar a força:** uma revisão sistemática concluiu que o treino de força tende a melhorar a economia de corrida e o desempenho em contrarrelógio de corredores de meio-fundo e fundo (Blagrove et al., 2018). Duas sessões curtas por semana chegam.
 - **Desvalorizar o sono e a alimentação** nas semanas de maior volume.
 
 ## Referências Científicas
@@ -119,3 +119,4 @@ Uma meta-análise sobre o *tapering* concluiu que a redução de volume na ordem
 3. Casado, A., Hanley, B., Santos-Concejero, J., & Ruiz-Pérez, L. M. (2021). World-class long-distance running performances are best predicted by volume of easy runs and deliberate practice of short-interval and tempo runs. *Journal of Strength and Conditioning Research*, 35(9), 2525–2531. https://doi.org/10.1519/JSC.0000000000003176
 4. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291. https://doi.org/10.1123/ijspp.5.3.276
 5. Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (2007). Effects of tapering on performance: a meta-analysis. *Medicine & Science in Sports & Exercise*, 39(8), 1358–1365. https://doi.org/10.1249/mss.0b013e31806010e0
+6. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7

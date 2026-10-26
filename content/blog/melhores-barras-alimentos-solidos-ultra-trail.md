@@ -2,48 +2,80 @@
 title: "Melhores Barras e Alimentos Sólidos para Ultra Trail"
 date: '2026-07-25'
 category: "Equipamento"
-excerpt: "Num ultra trail, os géis não chegam. Vê as melhores barras e alimentos sólidos para levar, quanto comer por hora e como evitar problemas de estômago."
+excerpt: "Num ultra trail, os géis não chegam. Vê que barras e alimentos sólidos levar, como os encaixar nos hidratos por hora e como evitar problemas de estômago."
 keyword: "barras para ultra trail"
 keywords: ["comida sólida ultra", "alimentos para ultra trail", "nutrição ultra"]
-readTime: 4
+readTime: 5
+faqs:
+  - q: "Posso fazer um ultra trail só com géis?"
+    a: "Em provas curtas, sim. Em ultras de muitas horas, a maioria dos corredores acaba por sentir enjoo de doce e saturação de géis. Alternar géis com sólidos de baixa fibra e pouca gordura ajuda a manter a ingestão de hidratos ao longo da prova."
+  - q: "Que barras são melhores para comer a correr?"
+    a: "As que têm sobretudo hidratos de carbono, pouca fibra, pouca gordura e pouca proteína, e que consegues mastigar e engolir com a respiração acelerada. Barras de proteína ou muito ricas em frutos secos são melhores para depois da prova do que durante."
+  - q: "Quando devo comer alimentos sólidos num ultra?"
+    a: "Sobretudo nas subidas que fazes a caminhar e nas fases de ritmo mais baixo, quando o estômago tolera melhor a digestão. Deixa os géis e as bebidas para as zonas mais rápidas e para o fim da prova."
 ---
 
-## Introdução
+Num ultra trail de 8, 12 ou 24 horas, os géis sozinhos raramente chegam. Ao fim de algumas horas, o doce enjoa, o estômago reclama e a vontade de comer cai — e é aí que começa a quebra. Os alimentos sólidos ajudam a manter a ingestão de energia, dão variedade de sabor e textura e, para muitos corredores, são psicologicamente mais fáceis de aceitar. Mas nem todos os sólidos servem para comer a correr.
 
-Correr ultra trail é um desafio extremamente exigente, tanto física como mentalmente. A longa duração da prova e o terreno acidentado requerem uma combinação de resistência cardiovascular, flexibilidade e resistência muscular. Para se preparar adequadamente, é fundamental ter acesso a equipamentos adequados que permitam ao corredor realizar o seu melhor. Neste artigo, vamos focar num dos aspectos mais importantes: as barras e alimentos sólidos para ultra trail. Vamos explorar os critérios técnicos que devem ser considerados ao escolher esses produtos e apresentar algumas das melhores opções disponíveis no mercado em 2026.
+## Primeiro, o objetivo: hidratos de carbono por hora
 
-## Como Escolher: Critérios Que Importam
+O que mantém o ritmo num ultra é a ingestão regular de hidratos de carbono. As recomendações atuais para esforços longos apontam, de forma geral, para cerca de 60 g por hora, podendo chegar aos 90 g por hora em corredores que treinaram o intestino e usam misturas de glicose e frutose. Os sólidos não substituem esta lógica — são uma das formas de lá chegar.
 
-Ao escolher as barras e alimentos sólidos para ultra trail, existem alguns critérios técnicos que devem ser considerados para garantir que o produto seja eficaz e seguro. Seguem alguns dos principais critérios a ter em conta:
+Na prática:
 
-* **Sobrecarga de hidratos de carbono**: as barras e alimentos sólidos devem fornecer uma carga de hidratos de carbono suficiente para manter os níveis de glicose no sangue estáveis durante a corrida. Isso é especialmente importante durante as provas de ultra trail, onde os corredores podem estar a correr por longas horas.
-* **Conteúdo de proteínas**: as proteínas são fundamentais para a reparação e regeneração muscular. As barras e alimentos sólidos devem conter uma boa quantidade de proteínas para ajudar a prevenir a lesão muscular e a promover a recuperação.
-* **Conteúdo de gorduras**: as gorduras são uma fonte importante de energia para os corredores. As barras e alimentos sólidos devem conter uma boa quantidade de gorduras saudáveis para ajudar a manter os níveis de energia estáveis.
-* **Ingredientes naturais**: é fundamental que os ingredientes utilizados nas barras e alimentos sólidos sejam naturais e de alta qualidade. Isso inclui a utilização de ingredientes orgânicos e sem aditivos artificiais.
-* **Tolerância ao trânsito gastrointestinal**: durante a corrida, o trânsito gastrointestinal pode ser afetado pela alta frequência cardíaca e pela desidratação. As barras e alimentos sólidos devem ser fáceis de digerir e não causar problemas de trânsito gastrointestinal.
+- **Faz as contas pelo rótulo.** Vê quantos gramas de hidratos tem cada barra, pacote de gomas ou porção de comida e planeia por hora, não «quando tiver fome».
+- **Combina fontes.** Muitos ultra-corredores alternam géis, bebida com hidratos e sólidos. Isto distribui a carga e reduz o enjoo.
+- **Começa cedo.** Come desde a primeira hora, em pequenas quantidades, em vez de tentar recuperar depois.
 
-## As Melhores Opções em 2026
+Para a comparação detalhada entre formatos, vê [gel energético vs. alimentos sólidos](/blog/gel-energetico-vs-alimentos-solidos-corrida).
 
-Aqui estão algumas das melhores opções em barras e alimentos sólidos para ultra trail disponíveis no mercado em 2026:
+## Como escolher: critérios que importam
 
-* **Clif Shot Bloks**: os Clif Shot Bloks são uma excelente opção para corredores de ultra trail. Eles são ricos em hidratos de carbono e proteínas, e contêm uma boa quantidade de gorduras saudáveis. São fáceis de digerir e não causam problemas de trânsito gastrointestinal. Faixa de preço: entre 150€ e 200€.
-* **Gu Energy Gel**: o Gu Energy Gel é outro produto popular entre os corredores de ultra trail. Ele é rico em hidratos de carbono e proteínas, e contém uma boa quantidade de gorduras saudáveis. É fácil de digerir e não causa problemas de trânsito gastrointestinal. Faixa de preço: entre 120€ e 180€.
-* **PowerBar Protein Bar**: a PowerBar Protein Bar é uma excelente opção para corredores de ultra trail que precisam de uma fonte de proteínas adicional. Ela é rica em proteínas e contém uma boa quantidade de hidratos de carbono e gorduras saudáveis. É fácil de digerir e não causa problemas de trânsito gastrointestinal. Faixa de preço: entre 150€ e 250€.
-* **Miles Power Bar**: a Miles Power Bar é uma excelente opção para corredores de ultra trail que precisam de uma fonte de hidratos de carbono adicional. Ela é rica em hidratos de carbono e contém uma boa quantidade de proteínas e gorduras saudáveis. É fácil de digerir e não causa problemas de trânsito gastrointestinal. Faixa de preço: entre 120€ e 200€.
-* **Isostar Energy Bar**: a Isostar Energy Bar é uma excelente opção para corredores de ultra trail que precisam de uma fonte de energia adicional. Ela é rica em hidratos de carbono e contém uma boa quantidade de proteínas e gorduras saudáveis. É fácil de digerir e não causa problemas de trânsito gastrointestinal. Faixa de preço: entre 150€ e 250€.
+### 1. Hidratos de carbono como base
+Durante a prova, o que interessa é energia rápida de digerir. Uma barra para comer a correr deve ter os hidratos como componente principal.
 
-## Veredicto: Qual Comprar
+### 2. Pouca fibra, pouca gordura, pouca proteína
+Fibra, gordura e proteína atrasam o esvaziamento do estômago e estão associadas a mais queixas gastrointestinais durante o exercício. Pequenas quantidades são toleradas por muitos corredores, sobretudo a ritmos baixos, mas barras de proteína, barras de frutos secos e snacks muito gordos são melhores para depois da prova.
 
-A escolha do melhor produto depende do perfil do corredor e do seu orçamento. Aqui estão algumas recomendações:
+### 3. Fácil de mastigar e engolir
+Com a respiração acelerada, comida seca e densa é difícil de engolir. Texturas macias ou húmidas (gomas, barras de fruta, batata cozida) funcionam melhor do que bolachas muito secas.
 
-* **Iniciante**: o Gu Energy Gel é uma excelente opção para iniciantes em ultra trail. Ele é fácil de digerir e não causa problemas de trânsito gastrointestinal.
-* **Competidor**: o Clif Shot Bloks é uma excelente opção para competidores em ultra trail. Ele é rico em hidratos de carbono e proteínas, e contém uma boa quantidade de gorduras saudáveis.
-* **Orçamento limitado**: o Miles Power Bar é uma excelente opção para corredores com orçamento limitado. Ele é fácil de digerir e não causa problemas de trânsito gastrointestinal.
+### 4. Resistência ao calor e ao frio
+O chocolate derrete, algumas barras ficam duras como pedra no frio e certos alimentos frescos não aguentam muitas horas na mochila. Pensa na meteorologia da prova.
 
-## Referências
+### 5. Embalagem e porções
+Porções pequenas e embalagens fáceis de abrir com luvas ou mãos suadas fazem diferença. Pré-corta e organiza a comida por horas em sacos pequenos.
 
-1. Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6
-2. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2
-3. Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
+### 6. Sal
+Em provas longas e quentes, alimentos salgados ajudam a variar o sabor e trazem algum sódio. Não substituem um plano de hidratação e eletrólitos — vê [eletrólitos e hiponatremia no ultra trail](/blog/eletrolitos-e-hiponatremia-ultra-trail).
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+## As melhores opções
+
+Em vez de uma lista de marcas, esta tabela organiza os tipos de alimentos sólidos mais usados em ultra. Dentro de cada tipo, escolhe pelo rótulo: hidratos por porção, fibra, gordura e proteína.
+
+| Alimento | Para quando | Pontos fortes | Pontos fracos |
+|---|---|---|---|
+| **Gomas energéticas («chews»)** | Qualquer fase, incluindo trechos a correr | Porções pequenas, fáceis de dosear, rápidas de digerir | Doces; podem colar e enjoar ao fim de muitas horas |
+| **Barras energéticas de cereais ou fruta** | Subidas a caminhar, primeiras horas | Muitos hidratos por porção, práticas de transportar | Algumas são secas ou têm fibra e gordura a mais — lê o rótulo |
+| **Banana e fruta desidratada (tâmaras, figos, alperce)** | Abastecimentos e subidas | Comida «real», fácil de encontrar nos postos | A fruta desidratada tem fibra; a banana estraga-se na mochila |
+| **Batata cozida com sal** | Segunda metade da prova, calor | Salgada, húmida, boa para quem está enjoado de doce | Tem de ser preparada e embalada com cuidado |
+| **Sandes pequenas (pão branco com marmelada, mel ou compota)** | Fases lentas e noturnas | Saciante, sabor familiar, barata | Volume maior; pão integral ou recheios gordos digerem pior |
+| **Arroz doce, puré ou papas** (nos abastecimentos) | Postos com mesa e tempo para parar | Fáceis de engolir, muito tolerados | Só disponíveis em alguns postos |
+
+Os preços variam muito entre marcas e lojas; nas barras e gomas comerciais compara o custo por grama de hidratos de carbono, não por unidade.
+
+## Veredicto: o que levar
+
+- **Primeiro ultra:** gomas e barras energéticas que já usaste em treino, mais banana e batata nos postos. Simples e testado.
+- **Quem tem estômago sensível:** prioriza gomas, batata cozida e alimentos com muito pouca fibra e gordura; reduz a quantidade por toma e aumenta a frequência. Vê também [síndrome gastrointestinal do exercício](/blog/sindrome-gastrointestinal-exercicio-causas).
+- **Provas de mais de 15 horas:** leva variedade (doce e salgado) e informa-te sobre o que há nos postos — vê [nutrição nos postos de abastecimento](/blog/nutricao-postos-abastecimento-ultra).
+
+## Erros comuns
+
+- **Estrear comida no dia da prova.** Tudo o que comes em prova tem de ser testado em treinos longos, ao ritmo e no terreno da prova.
+- **Escolher barras de proteína para comer a correr.** São pesadas de digerir e trazem poucos hidratos por porção.
+- **Comer muito de uma vez.** Pequenas porções regulares são mais toleradas do que uma barra inteira de uma vez.
+- **Comer sólidos nas descidas rápidas.** Guarda-os para as subidas a caminhar e para as zonas fáceis.
+- **Confiar só na fome.** Num ultra, quando a fome aparece, muitas vezes já estás atrasado na ingestão.
+
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**

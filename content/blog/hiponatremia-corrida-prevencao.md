@@ -6,7 +6,7 @@ excerpt: "A hiponatremia na corrida resulta sobretudo de beber água a mais. Con
 seoTitle: "Hiponatremia na Corrida: Sintomas e Prevenção"
 keyword: "hiponatremia"
 keywords: ["hiponatremia corrida", "beber água a mais", "sódio em prova"]
-readTime: 5
+readTime: 7
 faqs:
   - q: "O que causa a hiponatremia nos corredores?"
     a: "A causa principal é beber mais líquido do que o corpo perde ao longo da prova, o que dilui o sódio no sangue. A secreção da hormona antidiurética durante o esforço dificulta a eliminação desse excesso."
@@ -44,17 +44,19 @@ Num estudo com 488 participantes da Maratona de Boston, 13 % terminaram com hipo
 - **Tempo de prova superior a 4 horas.**
 - **Índice de massa corporal nos extremos** (muito baixo ou muito alto).
 
-A maioria destes corredores não tinha sintomas. Mas a mensagem é importante: o perfil de risco não é o atleta de elite, é o amador que corre devagar e bebe em todos os abastecimentos.
+A mensagem é importante: o perfil de risco não é o atleta de elite, é o amador que corre devagar e bebe em todos os abastecimentos.
 
 ## Quem corre mais risco
 
-Juntando os estudos e o consenso internacional, o risco é maior para quem:
+Entre os fatores de risco listados no consenso internacional (Hew-Butler et al., 2015), o risco é maior para quem:
 
-- **Bebe em todos os postos «por precaução»**, mesmo sem sede.
-- **Demora mais de 4 horas** numa maratona — mais tempo e mais oportunidades para beber.
-- **Tem baixo peso corporal**, porque o mesmo volume de água dilui mais o sódio.
-- **Corre em tempo fresco**, quando perde menos suor mas mantém a ingestão habitual.
-- **Toma anti-inflamatórios não esteroides (AINEs)**, apontados no consenso como possível fator de risco. Há mais razões para os evitar em prova, como explicamos em [anti-inflamatórios e riscos para corredores](/blog/anti-inflamatorios-recuperacao-corredores-riscos).
+- **Bebe em excesso** água ou bebidas desportivas — por exemplo, em todos os postos «por precaução», mesmo sem sede.
+- **Ganha peso durante a prova**, o sinal de que bebeu mais do que perdeu.
+- **Faz esforços com mais de 4 horas** e **corre a um ritmo lento** — mais tempo e mais oportunidades para beber.
+- **Tem pouca experiência em provas** ou uma preparação insuficiente.
+- **Tem um índice de massa corporal muito baixo ou muito alto.**
+
+Há ainda dois pontos a ter em conta. Em tempo fresco perdes menos suor, por isso manter a ingestão habitual de um dia quente aumenta a probabilidade de beberes acima das perdas. E os anti-inflamatórios não esteroides (AINEs) têm sido apontados como possível fator de risco, embora o consenso refira que os dados são contraditórios. Há mais razões para os evitar em prova, como explicamos em [anti-inflamatórios e riscos para corredores](/blog/anti-inflamatorios-recuperacao-corredores-riscos).
 
 ## Sintomas a conhecer
 
@@ -71,7 +73,7 @@ Os sintomas iniciais confundem-se facilmente com cansaço ou desidratação, o q
 
 ### 1. Bebe de acordo com a sede
 
-É a principal recomendação do consenso internacional e das orientações clínicas (Hew-Butler et al., 2015; Bennett et al., 2020). A sede é um sinal fiável para a maioria das pessoas na maior parte das provas. Não precisas de beber em todos os abastecimentos.
+É a principal recomendação do consenso internacional e das orientações clínicas (Hew-Butler et al., 2015; Bennett et al., 2020). Usar a sede como guia é a estratégia recomendada para limitar a ingestão excessiva, e nenhum volume fixo de líquido demonstrou prevenir a hiponatremia. Não precisas de beber em todos os abastecimentos.
 
 ### 2. Conhece as tuas perdas
 

@@ -54,7 +54,7 @@ O teste pode ser útil para corredores de trail que treinam em grupo, para atlet
 
 O treino intervalado de alta intensidade é uma das formas mais eficazes de melhorar a potência aeróbia, e as repetições curtas com recuperações curtas permitem acumular muito tempo perto do consumo máximo de oxigénio sem a mesma exigência de uma repetição longa e contínua (Buchheit & Laursen, 2013).
 
-Billat et al. (2000) mostraram que esforços intermitentes de 30 segundos à velocidade associada ao VO₂max, alternados com 30 segundos a ritmo lento, permitiam manter o VO₂max durante mais tempo do que corridas contínuas a uma intensidade ligeiramente inferior. A lógica do 30/15 é semelhante, mas com recuperação ainda mais curta: o consumo de oxigénio não chega a baixar muito entre repetições.
+Billat et al. (2000) mostraram que esforços intermitentes de 30 segundos à velocidade associada ao VO₂max, alternados com 30 segundos a metade dessa velocidade, permitiam manter o VO₂max durante mais tempo do que uma corrida contínua intensa, mas submáxima, a cerca de 91% dessa velocidade. A lógica do 30/15 é semelhante, mas com recuperação ainda mais curta: o consumo de oxigénio não chega a baixar muito entre repetições.
 
 Num estudo com ciclistas treinados, 10 semanas de séries de 30 segundos com 15 segundos de recuperação (3 séries de 13 repetições) produziram melhorias maiores na potência aeróbia e no rendimento do que intervalos de 5 minutos com um esforço total equiparado (Rønnestad et al., 2015). Os participantes eram ciclistas, por isso a transferência para a corrida é uma extrapolação, mas a fisiologia de base é a mesma.
 

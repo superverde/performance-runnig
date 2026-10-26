@@ -23,14 +23,14 @@ Recuperar de uma maratona demora, para a maioria dos amadores, cerca de 3 a 4 se
 Correr 42,2 km deixa marcas que vão muito além das pernas pesadas:
 
 - **Dano muscular:** milhares de contrações excêntricas, sobretudo nos quadríceps, provocam microlesões nas fibras. Daí a dor nas descidas de escadas nos dias seguintes.
-- **Perda de força:** num estudo com corredores treinados, a força dos extensores do joelho e a capacidade de trabalho caíram depois da maratona e demoraram vários dias a recuperar (Sherman et al., 1984).
+- **Perda de força:** num estudo com maratonistas, a força muscular e a capacidade de trabalho das pernas caíram depois da prova e demoraram vários dias a recuperar (Sherman et al., 1984).
 - **Reservas esgotadas:** o glicogénio muscular fica muito baixo no fim da prova e precisa de alimentação adequada para ser reposto.
 - **Defesas em baixo:** num estudo na Maratona de Los Angeles, os corredores que terminaram a prova relataram mais episódios de infeções respiratórias na semana seguinte do que corredores semelhantes que não participaram (Nieman et al., 1990).
 - **Fadiga mental:** semanas de preparação acabam de uma vez. A quebra de motivação ou de humor é comum — falamos disso em [depressão pós-maratona](/blog/depressao-pos-maratona-porque-acontece).
 
 ### O estudo que deves conhecer
 
-No estudo de Sherman et al. (1984), os corredores foram divididos, depois da maratona, em dois grupos: descanso completo ou corrida leve durante a semana seguinte. A recuperação da força foi pior no grupo que correu, entre os dias 5 e 7, e a capacidade de trabalho já tinha recuperado ao terceiro dia no grupo do descanso, mas continuava afetada ao sétimo dia no grupo que correu.
+No estudo de Sherman et al. (1984), os corredores foram divididos, depois da maratona, em dois grupos: descanso ou corrida leve durante a semana seguinte. A força e a capacidade de trabalho muscular recuperaram melhor no grupo que descansou do que no grupo que continuou a correr. É um estudo antigo, mas a mensagem coincide com a prática de muitos treinadores.
 
 Conclusão prática: **na primeira semana, correr «para soltar as pernas» não acelera a recuperação; pode atrasá-la.**
 
@@ -68,7 +68,7 @@ Um fartlek leve — por exemplo, 6×1 minuto a ritmo vivo com 2 minutos fáceis 
 
 ## O que ajuda (e o que não ajuda)
 
-Uma meta-análise sobre técnicas de recuperação concluiu que a massagem foi a mais eficaz para reduzir a dor muscular de início tardio e a perceção de fadiga, e que a compressão e a imersão em água fria também tiveram efeitos positivos em alguns marcadores (Dupuy et al., 2018). Estas técnicas aliviam sintomas, mas não substituem o tempo. O consenso sobre recuperação e desempenho no desporto sublinha que a recuperação deve ser individualizada e que o sono e a alimentação são a base (Kellmann et al., 2018). Para comparar as várias opções, lê o nosso [ranking de métodos de recuperação](/blog/metodos-recuperacao-ranking-meta-analise).
+Uma meta-análise sobre técnicas de recuperação concluiu que a massagem foi a mais eficaz para reduzir a dor muscular de início tardio e a perceção de fadiga, e que a compressão e a imersão em água também tiveram efeitos positivos em alguns marcadores (Dupuy et al., 2018). Estas técnicas aliviam sintomas, mas não substituem o tempo. O consenso sobre recuperação e desempenho no desporto sublinha que a recuperação deve ser individualizada e que o sono e a alimentação são a base (Kellmann et al., 2018). Para comparar as várias opções, lê o nosso [ranking de métodos de recuperação](/blog/metodos-recuperacao-ranking-meta-analise).
 
 **O que não ajuda:**
 

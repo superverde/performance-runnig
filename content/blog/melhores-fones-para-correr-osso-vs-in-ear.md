@@ -6,67 +6,58 @@ excerpt: "Condução óssea ou in-ear? Comparamos segurança, som, conforto e re
 keyword: "auriculares para correr"
 keywords: ["condução óssea vs in-ear", "auriculares de desporto", "shokz"]
 readTime: 4
+faqs:
+  - q: "Os auriculares de condução óssea são mais seguros para correr na estrada?"
+    a: "Deixam o canal auditivo livre, por isso continuas a ouvir carros, bicicletas e outras pessoas. Isso é uma vantagem clara em estrada e em trilhos partilhados, mas o volume alto continua a reduzir a tua atenção ao que te rodeia."
+  - q: "Que classificação IP preciso para correr à chuva?"
+    a: "Uma classificação IPX4 indica resistência a salpicos e suor. Para chuva forte ou para lavar os auriculares, IPX7 ou IP67 (resistência a imersão temporária) dá mais margem. Confirma sempre a classificação na ficha técnica do fabricante."
+  - q: "Posso usar auriculares numa prova?"
+    a: "Depende do regulamento. Algumas provas proíbem ou restringem o uso de auriculares, sobretudo por razões de segurança. Lê o regulamento antes e, se forem permitidos, mantém o volume baixo para ouvires a organização."
 ---
 
-## Introdução
+Muitos corredores não dispensam música, podcasts ou as indicações do relógio no ouvido. A escolha principal hoje é entre dois tipos de auriculares: **condução óssea** (ou de ouvido aberto), que deixam o canal auditivo livre, e **in-ear**, que entram no ouvido e o fecham. Cada um tem vantagens claras — e a escolha certa depende sobretudo de onde corres.
 
-Para os corredores, a escolha do equipamento certo é fundamental para evitar lesões e otimizar o desempenho. Entre as várias opções disponíveis, os auscultadores são um acessório essencial para muitos. No entanto, a escolha entre osso (ou auscultadores com braçadeira) e in-ear (ou auscultadores que se encaixam nos ouvidos) pode ser um desafio. Neste artigo, vamos explorar os critérios técnicos que importam ao escolher os melhores fones para correr e apresentar as melhores opções disponíveis em 2026.
+## Como funcionam
 
-## Como Escolher: Critérios Que Importam
+### Condução óssea e ouvido aberto
+Os auriculares de condução óssea assentam à frente da orelha, sobre o osso da face, e transmitem vibrações que o ouvido interno interpreta como som. Existem também modelos de «ouvido aberto» com pequenos altifalantes apontados para o canal auditivo, sem o tapar. Em ambos, o ouvido fica livre para os sons à tua volta. A marca mais conhecida em condução óssea para desporto é a Shokz.
 
-Ao escolher fones para correr, é importante considerar vários critérios técnicos. A seguir, vamos discutir alguns dos principais fatores a considerar:
+### In-ear
+Os in-ear entram no canal auditivo com pontas de silicone ou espuma. Isolam o ruído exterior, dão graves mais fortes e, em muitos modelos, permitem cancelamento ativo de ruído. Vários têm também um «modo de transparência», que usa microfones para deixar entrar o som ambiente.
 
-* **Isolamento Acústico**: A capacidade dos fones de bloquear o ruído externo é fundamental para evitar distrações e manter a concentração durante a corrida. A isolamento acústico é medida em decibéis (dB) e os fones com isolamento acústico superior a 20 dB são considerados eficazes.
-* **Comodidade**: A comodidade dos fones é crucial para evitar desconforto e lesões ao longo da corrida. Os fones devem ser leves, confortáveis e não causar pressão excessiva nos ouvidos.
-* **Conectividade**: A conectividade dos fones é importante para evitar fugas de água e sujeira. Além disso, a conectividade também afeta a estabilidade dos fones durante a corrida.
-* **Durabilidade**: A durabilidade dos fones é fundamental para evitar quebrar ou danificar o equipamento durante a corrida.
-* **Estabilidade**: A estabilidade dos fones é importante para evitar que eles se desloquem durante a corrida.
+## Condução óssea vs. in-ear: comparação
 
-Para avaliar esses critérios, é importante considerar estudos científicos que analisam a eficácia dos auscultadores em corridas. Por exemplo, um estudo publicado no British Journal of Sports Medicine (Nigg et al., 2015) encontrou que os auscultadores podem reduzir a taxa de lesões em corredores.
+| Critério | Condução óssea / ouvido aberto | In-ear |
+|---|---|---|
+| **Perceção do ambiente** | Muito boa: ouves trânsito, ciclistas e pessoas | Reduzida; melhora com modo de transparência |
+| **Qualidade de som** | Razoável; graves fracos; pior em ambientes ruidosos | Melhor, sobretudo nos graves |
+| **Estabilidade a correr** | Geralmente muito estáveis (fita atrás da cabeça) | Depende do encaixe; ganchos ou asas ajudam |
+| **Conforto em treinos longos** | Nada dentro do ouvido; alguns sentem pressão ou «cócegas» nas vibrações | Alguns corredores sentem desconforto ou acumulação de suor no canal |
+| **Fuga de som** | Quem está perto pode ouvir em volume alto | Mínima |
+| **Uso com chapéu, óculos ou frontal** | Pode interferir com as hastes e a fita | Normalmente sem problemas |
 
-## As Melhores Opções em 2026
+## Como escolher: critérios que importam
 
-A seguir, apresentamos algumas das melhores opções de fones para correr em 2026:
+1. **Onde corres.** Em estrada, ciclovias e trilhos partilhados, ouvir o que te rodeia é uma questão de segurança. Aqui, a condução óssea ou o ouvido aberto têm vantagem. Na passadeira ou num circuito fechado, os in-ear dão melhor som.
+2. **Resistência à água e ao suor.** Procura a classificação IP na ficha técnica. IPX4 indica resistência a salpicos; IPX7 e IP67 indicam resistência a imersão temporária. Para chuva frequente e muito suor, mais margem é melhor.
+3. **Estabilidade.** O auricular não pode saltar nem obrigar-te a ajustá-lo a cada quilómetro. Nos in-ear, experimenta vários tamanhos de pontas; modelos com gancho na orelha tendem a ser mais seguros.
+4. **Autonomia.** Para treinos normais, a maioria chega. Para ultras e treinos de muitas horas, confirma a autonomia anunciada e a carga rápida.
+5. **Controlos.** Botões físicos funcionam melhor do que comandos táteis com mãos suadas, luvas ou chuva.
+6. **Microfone.** Útil se fazes chamadas ou usas comandos de voz durante o treino.
 
-* **Auscultadores Osso**: 
- + Nome: Osso Fones de Ouro
- + Para quem: Corredores iniciantes e experientes
- + Pontos fortes: Isolamento acústico superior a 25 dB, comodidade excelente, conectividade eficaz
- + Pontos fracos: Pode ser leve demais para alguns utilizadores
- + Faixa de preço: Entre 150€ e 200€
-* **Auscultadores In-Ear**: 
- + Nome: In-Ear Fones de Ouro
- + Para quem: Corredores experientes e competitivos
- + Pontos fortes: Isolamento acústico superior a 30 dB, comodidade excelente, conectividade eficaz
- + Pontos fracos: Pode ser difícil de ajustar para alguns utilizadores
- + Faixa de preço: Entre 200€ e 250€
-* **Auscultadores Osso com braçadeira**: 
- + Nome: Osso Fones de Ouro com braçadeira
- + Para quem: Corredores iniciantes e experientes
- + Pontos fortes: Isolamento acústico superior a 25 dB, comodidade excelente, conectividade eficaz
- + Pontos fracos: Pode ser levemente pesado
- + Faixa de preço: Entre 150€ e 200€
-* **Auscultadores In-Ear com braçadeira**: 
- + Nome: In-Ear Fones de Ouro com braçadeira
- + Para quem: Corredores experientes e competitivos
- + Pontos fortes: Isolamento acústico superior a 30 dB, comodidade excelente, conectividade eficaz
- + Pontos fracos: Pode ser difícil de ajustar para alguns utilizadores
- + Faixa de preço: Entre 200€ e 250€
-* **Auscultadores sem fio**: 
- + Nome: Fones de Ouro sem fio
- + Para quem: Corredores experientes e competitivos
- + Pontos fortes: Isolamento acústico superior a 30 dB, comodidade excelente, conectividade eficaz
- + Pontos fracos: Pode ser difícil de ajustar para alguns utilizadores
- + Faixa de preço: Entre 250€ e 300€
+## Segurança e saúde auditiva
 
-## Veredicto: Qual Comprar
+- **Volume moderado.** Música alta durante muito tempo pode danificar a audição, e um volume elevado reduz a tua atenção ao ambiente mesmo com auriculares de ouvido aberto. Se não consegues ouvir alguém a falar contigo ao lado, está demasiado alto.
+- **Estrada e noite.** Combina sempre com boa visibilidade e atenção redobrada — vê [segurança na corrida noturna em trail](/blog/trail-night-running-seguranca).
+- **Regulamentos de prova.** Algumas provas proíbem ou restringem auriculares. Confirma antes de te inscreveres.
+- **Higiene.** Limpa as pontas dos in-ear com regularidade, sobretudo depois de treinos com muito suor.
 
-A escolha do melhor fone para correr depende do perfil do corredor. Se és um corredor iniciante, os auscultadores Osso com braçadeira podem ser uma boa opção. Se és um corredor experiente, os auscultadores In-Ear com braçadeira podem ser uma boa escolha. Se tens um orçamento limitado, os auscultadores Osso sem braçadeira podem ser uma opção.
+## Veredicto: qual comprar
 
-## Referências
+- **Corres sobretudo na estrada ou em trilhos com outras pessoas:** condução óssea ou ouvido aberto. Abdicas de alguma qualidade de som em troca de perceção do ambiente.
+- **Corres sobretudo na passadeira, em pista ou em locais sem trânsito:** in-ear com boa fixação e resistência ao suor, idealmente com modo de transparência.
+- **Fazes os dois:** um in-ear com modo de transparência eficaz é um compromisso, mas não deixa o ouvido tão livre como a condução óssea.
 
-* Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054
-* Fuller, J. T., Bellenger, C. R., Thewlis, D., Tsiros, M. D., & Buckley, J. D. (2015). The effect of footwear on running performance and running economy in distance runners. Sports Medicine, 45(3), 411-422. https://doi.org/10.1007/s40279-014-0283-6
-* Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. British Journal of Sports Medicine, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
+Antes de comprar, confirma na ficha técnica do fabricante a classificação IP, a autonomia e o peso do modelo atual, e experimenta o encaixe se possível.
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**

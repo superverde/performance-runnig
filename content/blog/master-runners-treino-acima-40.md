@@ -5,60 +5,104 @@ category: "Treino"
 excerpt: "Corredores masters podem continuar a evoluir depois dos 40. Vê como equilibrar volume, intensidade, força e recuperação para treinar bem com a idade."
 keyword: "corredores masters"
 keywords: ["treinar acima dos 40", "corrida veteranos", "treino masters"]
-readTime: 4
+readTime: 7
+faqs:
+  - q: "Ainda posso melhorar as minhas marcas depois dos 40 anos?"
+    a: "Sim, sobretudo se começaste a treinar de forma estruturada há pouco tempo. O declínio associado à idade é gradual e, até por volta dos 50 a 60 anos, costuma ser modesto em quem treina com regularidade."
+  - q: "Os corredores masters devem fazer treino de força?"
+    a: "Sim. A força tende a diminuir com a idade e o treino de força melhora a economia de corrida. Duas sessões por semana, com cargas progressivas e alguns exercícios de potência, são uma boa base."
+  - q: "Preciso de mais recuperação depois dos 40?"
+    a: "Muitos corredores masters recuperam mais devagar de treinos que causam dano muscular, como longos duros ou descidas. Espaçar os treinos de qualidade e vigiar o sono e as dores é mais útil do que seguir uma regra fixa."
 ---
 
-Para corredores com mais de 40 anos, o treino deve equilibrar volume moderado, intensidade controlada e recuperação adequada, priorizando a capacidade aeróbica, força muscular e prevenção de lesões.
+Fazer 40, 50 ou 60 anos não te obriga a deixar de evoluir. Muitos corredores começam a treinar a sério precisamente nesta fase da vida — e quem tem poucos anos de treino estruturado ainda tem margem para melhorar as marcas durante bastante tempo.
 
-Aos 40 anos, o corpo começa a sofrer alterações fisiológicas que afetam a performance: diminuição do VO₂max, perda de massa muscular e elasticidade tendínea, além de um aumento da susceptibilidade a lesões. Contudo, com o plano certo, é possível manter, ou até melhorar, a performance em provas de média e longa distância. Este artigo descreve a base científica, a aplicação prática e os principais erros a evitar, culminando num protocolo de treino estruturado.
+O que muda com a idade é o custo de cada treino. O corpo continua a adaptar-se, mas perdoa menos os erros de carga. Treinar bem acima dos 40 é, sobretudo, gerir melhor o volume, a intensidade, a força e a recuperação.
 
-## Base Científica
+## O Que Muda Com a Idade
 
-A redução do VO₂max a partir dos 30 anos segue aproximadamente 0,5 % por ano, mas pode ser mitigada com treino aeróbico consistente (Seiler, 2010). Estudos mostram que a capacidade de manter intensidades próximas ao limiar lactático (LT) pode ser preservada com intervalos de alta intensidade (HIIT) de 4–6 min, 70–85 % do VO₂max, 3–4 repetições por sessão (Buchheit & Laursen, 2013). A força muscular, especialmente nos músculos da cadeia posterior, diminui cerca de 1 % por ano; incorporar treino de resistência 2 ×/semana a 60–70 % 1RM mantém a potência e reduz a dor muscular (Blagrove et al., 2018).
+### Capacidade aeróbia
 
-A periodização é fundamental. A teoria de Bompa & Buzzichelli (2018) demonstra que dividir o ano em macro‑, meso‑ e micro‑ciclos permite variação controlada de volume e intensidade, evitando a sobrecarga. A fase de tapering, de 5–7 dias antes de uma prova, reduz a fadiga acumulada e aumenta a performance em 3–5 % (Bosquet et al., 2007).
+Numa revisão sobre atletas masters de resistência, Tanaka e Seals (2008) descrevem um padrão consistente: o desempenho mantém-se até por volta dos 35 anos, desce de forma modesta até aos 50–60 anos e, a partir daí, o declínio torna-se progressivamente mais acentuado. O principal responsável é a descida do VO₂max — sobretudo pela redução da frequência cardíaca máxima e do volume de sangue que o coração consegue bombear —, enquanto o limiar de lactato e a economia de corrida tendem a ser menos afetados.
 
-## Aplicação Prática
+Isto tem uma consequência prática: os atletas masters mais bem-sucedidos são os que **mantêm volume e intensidade de treino**. Parte da descida de desempenho com a idade resulta de se treinar menos e mais devagar, não apenas do envelhecimento.
 
-### Estrutura Semanal (exemplo para 4‑5 km tempo run)
+E os limites ainda estão a mexer: os resultados dos atletas masters em provas de resistência têm vindo a melhorar nas últimas décadas, à medida que mais pessoas treinam de forma séria em idades mais avançadas (Lepers & Stapley, 2016).
 
-| Dia | Tipo | Volume | Intensidade | Comentário |
-|-----|------|--------|-------------|------------|
-| 1 | Treino de velocidade | 8 × 400 m | 90 % HRmax | Recuperação 90 s |
-| 2 | Corrida longa | 18 km | 70 % HRmax | Ritmo 1 min/km mais lento que o tempo |
-| 3 | Descanso ou recuperação ativa | 30 min | 60 % HRmax | Caminhada leve |
-| 4 | Treino de força | 3 × 8 repetições | 65 % 1RM | Agachamentos, peso morto |
-| 5 | Tempo run | 5 km | 80 % HRmax | 4:30–4:45 min/km |
-| 6 | Corrida curta | 10 km | 75 % HRmax | Ritmo de recuperação |
-| 7 | Descanso | – | – | – |
+### Força e potência
 
-- **Intervalos de velocidade**: 400 m a 90 % HRmax (≈ 1 min 20 s) com 90 s de recuperação. Repetir 8 vezes. Este protocolo eleva o VO₂max e a taxa de lactato sem exigir volume excessivo.
-- **Corrida longa**: 18 km a 70 % HRmax (≈ 70 % da frequência cardíaca máxima, ~ 140 bpm). Mantém a base aeróbica e melhora a eficiência metabólica.
-- **Treino de força**: 3 séries de 8 repetições com 65 % do 1RM. Focar em exercícios compostos (agachamento, peso morto, supino) e exercícios de estabilização (plank, bird‑dog) para reforçar a musculatura estabilizadora do tronco e reduzir a carga nas articulações.
-- **Tempo run**: 5 km a 80 % HRmax (≈ 75 % da frequência cardíaca máxima). Ritmo de 4:30–4:45 min/km, que corresponde ao limiar lactático para a maioria dos corredores acima de 40 anos.
+A massa muscular, a força e sobretudo a potência (a capacidade de produzir força depressa) diminuem com a idade, e o treino de força contraria parte desta perda em qualquer idade. A posição da NSCA para adultos mais velhos recomenda treino de força regular, com progressão da carga e inclusão de exercícios de potência (Fragala et al., 2019).
 
-### Monitorização
+Para corredores, há um ganho adicional: o treino de força melhora a economia de corrida e o desempenho em provas de 1,5 a 10 km, sem efeitos negativos na composição corporal (Blagrove et al., 2018). Num estudo com maratonistas masters (cerca de 44 anos), o grupo que fez treino de força máxima melhorou a força máxima e a economia de corrida a ritmo de maratona, ao contrário do grupo de treino com cargas leves e do grupo de controlo (Piacentini et al., 2013). É um estudo pequeno, mas a direção é a mesma das revisões.
 
-- **HRV (variabilidade da frequência cardíaca)**: medição diária ao acordar. Valores abaixo de 50 ms indicam sobrecarga ou falta de recuperação.
-- **Escala de RPE (Rate of Perceived Exertion)**: 13–15 para intervalos, 5–6 para corridas longas.
-- **Diário de treino**: registrar tempo, distância, intensidade, dores e sono.
+### Recuperação
+
+A evidência sugere que a recuperação muscular depois de exercício que causa dano — longos duros, descidas, sessões muito intensas — pode ser mais lenta em atletas mais velhos, embora os resultados dos estudos não sejam todos concordantes (Fell & Williams, 2008). Na prática, isto significa planear o espaço entre treinos duros com mais cuidado.
+
+## Como Estruturar o Treino
+
+### 1. Mantém a base aeróbia — com volume que toleras
+
+A maior parte do teu volume semanal deve ser fácil, a um ritmo em que consegues conversar. O volume certo é o que consegues repetir semana após semana sem lesões: para muitos corredores masters amadores, 4 a 5 corridas por semana chegam. Aumenta o volume de forma gradual e faz uma semana mais leve a cada 3 ou 4 semanas.
+
+### 2. Não abandones a intensidade
+
+Como o VO₂max é o que mais desce com a idade, faz sentido manter um treino de intervalos por semana (por exemplo, 4–6 × 3–4 min a um esforço forte, com recuperação de trote) e um treino ao limiar (ver [treino de limiar de lactato](/blog/limiar-lactato-treino-especifico)). Muitos masters ganham em espaçar os treinos de qualidade 72 horas, em vez de 48.
+
+### 3. Força duas vezes por semana
+
+Uma base simples, a progredir ao longo das semanas:
+
+- Agachamento ou *leg press*: 3 × 5–8, carga exigente com boa técnica (ver [agachamento para corredores](/blog/agachamento-corredores-como-fazer));
+- Peso morto romeno: 3 × 6–8;
+- Elevação de gémeos, com joelho esticado e fletido: 3 × 10–15;
+- *Step-ups* ou afundos: 3 × 8 por perna;
+- Saltos baixos e controlados, se não tiveres dor: 2–3 × 6–8 (ver [força reativa e pliometria](/blog/forca-reativa-plyometria-corrida)).
+
+Se nunca fizeste treino de força, começa com cargas leves e aprende a técnica antes de subir o peso — idealmente com acompanhamento de um profissional qualificado.
+
+### 4. Leva a recuperação a sério
+
+- Dorme o suficiente e de forma regular;
+- Evita encadear dois treinos duros, e não juntes um longo exigente e uma sessão de intervalos em dias seguidos;
+- Garante proteína suficiente ao longo do dia e depois dos treinos. Uma revisão sobre masters de resistência sugere que podem beneficiar de doses de proteína pós-treino superiores às habitualmente recomendadas para atletas jovens (cerca de 20 g), com atenção ao conteúdo em leucina (Doering et al., 2016). Mais pormenores em [distribuição de proteína ao longo do dia](/blog/distribuicao-proteina-ao-longo-do-dia).
+
+### Semana-tipo (exemplo para um master com 4–5 corridas)
+
+| Dia | Treino |
+|-----|--------|
+| Seg | Descanso ou mobilidade |
+| Ter | Intervalos: aquecimento + 5 × 3 min forte (2 min trote) + retorno à calma |
+| Qua | Corrida fácil + força |
+| Qui | Descanso ou corrida fácil curta |
+| Sex | Treino de limiar ou corrida fácil com 6 acelerações de 20 s |
+| Sáb | Força (sessão curta) ou descanso |
+| Dom | Longo fácil |
+
+Ajusta a distância e os ritmos ao teu nível. O princípio é sempre o mesmo: dois estímulos de qualidade por semana no máximo, bem espaçados, e o resto fácil.
 
 ## Erros Comuns
 
-1. **Volume excessivo**: ultrapassar 100 km/semana sem ajustes de intensidade pode acelerar a perda de massa muscular e aumentar o risco de tendinite.
-2. **Negligir o treino de força**: sem resistência, a musculatura se torna fraca e as articulações mais vulneráveis a lesões.
-3. **Ignorar sinais de dor**: continuar a correr com dor aguda pode evoluir para lesões crónicas, como tendinite de Aquiles.
-4. **Tapering inadequado**: reduzir volume demasiado cedo ou não reduzir o volume antes de uma prova diminui a performance.
-5. **Falta de periodização**: treinos contínuos de alta intensidade sem fases de recuperação podem levar à fadiga cumulativa.
+1. **Treinar só devagar «por causa da idade»** — tira-te precisamente o estímulo de que o VO₂max mais precisa.
+2. **Treinar como aos 25 anos** — encadear treinos duros sem recuperação é o caminho mais curto para tendinopatias e lesões musculares.
+3. **Saltar a força** — é o investimento com melhor retorno a partir dos 40.
+4. **Ignorar dores persistentes** — dores que duram mais de alguns dias ou alteram a tua passada merecem avaliação por um fisioterapeuta ou médico.
+5. **Começar sem avaliação médica** — se voltas ao treino depois de anos parado, tens fatores de risco cardiovascular ou sintomas durante o esforço (dor no peito, falta de ar desproporcionada, palpitações), fala com o teu médico antes de aumentar a intensidade.
 
-## Protocolo/Conclusão
+## Conclusão
 
-Um programa de 12 semanas, dividido em três mesociclos de 4 semanas cada, segue a estrutura:
+- O declínio de desempenho com a idade é real, mas gradual — e parte dele resulta de treinar menos e mais devagar.
+- Mantém a base aeróbia e um ou dois treinos de qualidade por semana.
+- Faz força duas vezes por semana: protege a massa muscular e melhora a economia de corrida.
+- Dá mais espaço à recuperação e garante proteína suficiente.
+- Ajusta o plano ao teu corpo, não à tua idade no cartão de cidadão.
 
-1. **Mesociclo 1 (Base Aeróbica)**: 70 % volume, 60–70 % HRmax, 2 sessões de HIIT por semana.
-2. **Mesociclo 2 (Intensidade)**: 80 % volume, 70–85 % HRmax, 3 sessões de HIIT, 1 tempo run.
-3. **Mesociclo 3 (Taper + Competição)**: 50 % volume, 60–75 % HRmax, 1 sessão de HIIT curta, 1 tempo run, 5 dias de taper.
+## Referências Científicas
 
-Durante o taper, reduzir a distância em 30 % e a intensidade em 10 % nos dias 5–7 antes da prova. Manter a força em 50 % do 1RM nos últimos 2 dias para evitar rigidez.
-
-Com base na literatura, a combinação de volume moderado, intensidade controlada e fortalecimento muscular permite que corredores Masters mantenham níveis de performance próximos aos da faixa etária mais jovem, enquanto reduzem a incidência de lesões. A chave está na individual
+1. Tanaka, H., & Seals, D. R. (2008). Endurance exercise performance in Masters athletes: age-associated changes and underlying physiological mechanisms. *The Journal of Physiology*, 586(1), 55–63. https://doi.org/10.1113/jphysiol.2007.141879
+2. Lepers, R., & Stapley, P. J. (2016). Master athletes are extending the limits of human endurance. *Frontiers in Physiology*, 7, 613. https://doi.org/10.3389/fphys.2016.00613
+3. Fragala, M. S., Cadore, E. L., Dorgo, S., Izquierdo, M., Kraemer, W. J., Peterson, M. D., & Ryan, E. D. (2019). Resistance training for older adults: position statement from the National Strength and Conditioning Association. *Journal of Strength and Conditioning Research*, 33(8), 2019–2052. https://doi.org/10.1519/JSC.0000000000003230
+4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7
+5. Piacentini, M. F., De Ioannon, G., Comotto, S., Spedicato, A., Vernillo, G., & La Torre, A. (2013). Concurrent strength and endurance training effects on running economy in master endurance runners. *Journal of Strength and Conditioning Research*, 27(8), 2295–2303. https://doi.org/10.1519/JSC.0b013e3182794485
+6. Fell, J., & Williams, A. D. (2008). The effect of aging on skeletal-muscle recovery from exercise: possible implications for aging athletes. *Journal of Aging and Physical Activity*, 16(1), 97–115. https://doi.org/10.1123/japa.16.1.97
+7. Doering, T. M., Reaburn, P. R., Phillips, S. M., & Jenkins, D. G. (2016). Postexercise dietary protein strategies to maximize skeletal muscle repair and remodeling in masters endurance athletes: a review. *International Journal of Sport Nutrition and Exercise Metabolism*, 26(2), 168–178. https://doi.org/10.1123/ijsnem.2015-0102

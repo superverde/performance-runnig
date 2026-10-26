@@ -9,14 +9,14 @@ keywords: ["plano meia maratona 1h45", "meia maratona em 1h45", "plano de treino
 readTime: 7
 faqs:
   - q: "A que ritmo tenho de correr para fazer a meia maratona sub 1h45?"
-    a: "1h45 nos 21,1 km corresponde a 4:59/km. Aponta para 4:57–4:58/km para teres uma pequena margem, porque o GPS costuma medir um pouco mais do que a distância oficial."
+    a: "1h45 nos 21,1 km corresponde a uma média de 4:58/km (a 4:59/km já passas das 1h45). Aponta para 4:55–4:57/km para teres uma pequena margem, porque o GPS costuma medir um pouco mais do que a distância oficial."
   - q: "Que marca nos 10 km preciso para tentar 1h45 na meia?"
     a: "Pelas tabelas de equivalência habituais, uma meia em 1h45 corresponde a cerca de 47:30 nos 10 km. Se o teu recorde estiver acima dos 49–50 minutos, o objetivo é provavelmente demasiado ambicioso para este ciclo."
   - q: "Quatro treinos por semana chegam para a sub 1h45?"
     a: "Para a maioria dos corredores com essa base, sim: duas sessões com ritmo, uma corrida fácil e uma corrida longa, com 35 a 55 km semanais. Um quinto treino fácil ajuda se o teu corpo já o tolerar."
 ---
 
-Para correr a meia maratona sub 1h45 tens de manter uma média de 4:59/km durante 21,1 km — na prática, 4:57–4:58/km para teres margem. Este plano de 12 semanas, com 4 treinos semanais e 35 a 55 km, foi pensado para quem já corre cerca de 47–48 minutos nos 10 km e quer transformar essa velocidade em resistência.
+Para correr a meia maratona sub 1h45 tens de manter uma média de 4:58/km durante 21,1 km (a 4:59/km terminarias em cerca de 1h45:08) — na prática, 4:55–4:57/km no relógio para teres margem. Este plano de 12 semanas, com 4 treinos semanais e 35 a 55 km, foi pensado para quem já corre cerca de 47–48 minutos nos 10 km e quer transformar essa velocidade em resistência.
 
 ## Estás pronto para a sub 1h45?
 
@@ -37,7 +37,7 @@ O rendimento na meia maratona depende sobretudo de três fatores: VO₂max, limi
 | Fácil / recuperação | 5:50–6:30/km | Base aeróbia, recuperação |
 | Corrida longa | 5:45–6:20/km | Resistência, durabilidade |
 | Ritmo de meia (RM) | 4:55–5:00/km | Especificidade, confiança no ritmo |
-| Limiar | 4:45–4:50/km | Elevar o limiar de lactato |
+| Limiar | 4:47–4:52/km | Elevar o limiar de lactato |
 | Intervalos VO₂max | 4:25–4:35/km | Potência aeróbia |
 
 Se ainda não sabes bem o que é treinar no limiar, lê o nosso artigo sobre [limiar de lactato](/blog/limiar-lactato-treino-especifico). Em termos de sensação, o limiar é «confortavelmente difícil»: consegues dizer frases curtas, mas não conversar.
@@ -88,7 +88,7 @@ Uma meta-análise sobre o *taper* concluiu que o melhor efeito surge com cerca d
 
 ### Limiar (terças alternadas)
 
-Blocos de 10 a 15 minutos a 4:45–4:50/km. O erro mais comum é correr mais depressa do que o indicado: o objetivo é acumular tempo perto do limiar, não fazer uma prova. Se no último bloco não consegues manter o ritmo, começaste rápido demais. O [tempo run](/blog/tempo-run-beneficios-como-fazer) é uma variante contínua que podes usar se preferires.
+Blocos de 10 a 15 minutos a 4:47–4:52/km. O erro mais comum é correr mais depressa do que o indicado: o objetivo é acumular tempo perto do limiar, não fazer uma prova. Se no último bloco não consegues manter o ritmo, começaste rápido demais. O [tempo run](/blog/tempo-run-beneficios-como-fazer) é uma variante contínua que podes usar se preferires.
 
 ### Intervalos VO₂max
 
@@ -104,7 +104,7 @@ Progride de 14 para 20 km. Corre-a fácil: a meia maratona é uma prova aeróbia
 
 ## Estratégia para o dia da prova
 
-- **Ritmo:** 5:00–5:02/km nos primeiros 3 km, depois 4:57–4:58/km. Sair 10–15 s/km mais rápido no início é o erro que mais tempo custa no fim.
+- **Ritmo:** 5:00–5:02/km nos primeiros 3 km, depois 4:56–4:57/km pelos marcadores oficiais. Sair 10–15 s/km mais rápido no início é o erro que mais tempo custa no fim.
 - **Tangentes:** o GPS mede quase sempre a mais. Corre pelas linhas mais curtas e confia nos marcadores de quilómetro.
 - **Hidratos de carbono:** numa prova de 1h45, um gel ou equivalente por volta dos 40–50 min e outro aos 70–80 min é uma estratégia comum; testa-a antes nas corridas longas.
 - **Aos 15 km:** se estiveres no ritmo e te sentires bem, podes acelerar ligeiramente. Se não, protege a média.

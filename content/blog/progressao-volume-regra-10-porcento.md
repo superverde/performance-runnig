@@ -11,7 +11,7 @@ faqs:
   - q: "A regra dos 10% evita lesões?"
     a: "Não de forma comprovada. Num ensaio aleatorizado com principiantes, um plano que respeitava a regra não teve menos lesões do que um plano mais rápido. A evidência aponta sobretudo para o risco de aumentos grandes de carga."
   - q: "Quanto posso aumentar a quilometragem por semana?"
-    a: "Aumentos moderados, com semanas de consolidação e de recuperação, são a abordagem mais segura. Em principiantes, aumentos semanais acima de 30% associaram-se a mais lesões ligadas à distância."
+    a: "Aumentos moderados, com semanas de consolidação e de recuperação, são a abordagem mais segura. Em principiantes, progressões acima de 30% tenderam a associar-se a mais lesões ligadas à distância."
   - q: "Há algum limite para a corrida mais longa?"
     a: "Um estudo com mais de 5000 corredores verificou que o risco de lesão aumentou quando uma corrida ultrapassou em mais de 10% a corrida mais longa dos 30 dias anteriores. É uma boa regra para progredir as corridas longas."
 ---
@@ -22,7 +22,7 @@ A regra dos 10% — não aumentar a quilometragem semanal mais de 10% de uma sem
 
 A regra dos 10% nasceu na prática de treino, não num laboratório. A ideia faz sentido: os tecidos (tendões, ossos, cartilagem, músculos) adaptam-se à carga, mas mais devagar do que o sistema cardiovascular. Por isso, um corredor pode sentir-se capaz de correr mais muito antes de as estruturas estarem preparadas.
 
-Um modelo conceptual muito citado descreve as lesões de corrida como o resultado de a carga acumulada ultrapassar a capacidade de um tecido para a suportar (Bertelsen et al., 2017). A progressão gradual tenta precisamente manter a carga abaixo dessa capacidade, enquanto esta vai aumentando.
+Um modelo conceptual muito citado descreve as lesões de corrida como o resultado de a carga acumulada ultrapassar a capacidade de um tecido para a suportar (Bertelsen et al., 2017). A progressão gradual tenta precisamente manter a carga abaixo dessa capacidade, à medida que esta aumenta.
 
 O problema é a precisão: porquê 10% e não 5% ou 20%? E 10% de quê?
 
@@ -30,11 +30,11 @@ O problema é a precisão: porquê 10% e não 5% ou 20%? E 10% de quê?
 
 ### O ensaio que testou a regra
 
-Buist et al. (2008) dividiram corredores principiantes em dois grupos que se preparavam para uma prova de cerca de 6,5 km: um seguia um programa gradual de 13 semanas, respeitando a regra dos 10%, e o outro um programa padrão de 8 semanas. A incidência de lesões foi **semelhante** nos dois grupos. Seguir a regra não protegeu.
+Buist et al. (2008) dividiram corredores principiantes em dois grupos que se preparavam para uma prova de 4 milhas (cerca de 6,5 km): um seguia um programa gradual de 13 semanas, respeitando a regra dos 10%, e o outro um programa padrão de 8 semanas. A incidência de lesões foi **semelhante** nos dois grupos. Seguir a regra não protegeu.
 
 ### O estudo que mediu os saltos
 
-Nielsen et al. (2014) acompanharam corredores principiantes com GPS. Quem aumentou a distância semanal **mais de 30%** teve mais lesões ligadas à distância — como dor patelofemoral, síndrome da banda iliotibial e outras lesões por sobrecarga — do que quem progrediu até 10%. Entre 10% e 30% não houve um aumento claro. A associação variou consoante o tipo de lesão.
+Nielsen et al. (2014) acompanharam corredores principiantes com GPS e compararam a progressão da distância semanal ao longo de períodos de 2 semanas. No conjunto das lesões, não houve diferenças significativas entre quem progrediu menos de 10%, entre 10% e 30% ou mais de 30%. Mas, nas lesões ligadas à distância — como dor patelofemoral, síndrome da banda iliotibial ou síndrome de stress tibial medial —, quem progrediu **mais de 30%** teve uma taxa cerca de 1,6 vezes superior à de quem progrediu menos de 10%, uma diferença no limite da significância estatística. Os autores concluíram que a associação varia consoante o tipo de lesão.
 
 ### O estudo mais recente: a sessão conta mais do que a semana
 
@@ -98,7 +98,7 @@ Para um corredor que corre 30 km por semana, com uma longa de 12 km, e quer cheg
 | 8–9 | 40 km | 15 km |
 | 10 | 30 km (recuperação) | 11 km |
 
-Nove semanas para ganhar 10 km semanais parece lento, mas é este tipo de progressão que te permite continuar a treinar sem interrupções — e a consistência é o fator que mais pesa na evolução.
+Cerca de dois meses para ganhar 10 km semanais parece lento, mas é este tipo de progressão que te permite continuar a treinar sem interrupções — e a consistência é o fator que mais pesa na evolução.
 
 ## Referências Científicas
 

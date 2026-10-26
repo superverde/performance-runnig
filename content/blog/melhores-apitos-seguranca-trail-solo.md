@@ -2,69 +2,74 @@
 title: "Apitos de Segurança para Trail a Solo: Guia de Compra"
 date: '2026-10-12'
 category: "Equipamento"
-excerpt: "Descobre tudo sobre apito de segurança trail, como escolher o melhor, as melhores opções 2026 e dicas para garantir a tua segurança em trail a solo."
+excerpt: "O apito de segurança é material obrigatório em trail e pesa poucos gramas. Vê que tipo escolher, onde o levar e como pedir socorro com ele."
 readTime: 4
 keyword: "apito de segurança trail"
 keywords: ["apito de emergência", "material obrigatório trail", "segurança trail a solo"]
 faqs:
-  - q: "O que é um apito de emergência e por que é obrigatório em trilhos?"
-    a: "Um apito de emergência é um dispositivo sonoro concebido para chamar atenção rapidamente em situações de risco. Em muitos países, incluindo Portugal, o uso de apitos de segurança trail é obrigatório em trilhos a solo para garantir a segurança dos corredores."
-  - q: "Qual a diferença entre um apito de segurança trail e um apito comum?"
-    a: "Os apitos de segurança trail têm volume e frequência ajustados para serem audíveis a longas distâncias, mesmo em ambientes ruidosos. Além disso, são feitos de materiais resistentes à corrosão e ao impacto, enquanto os apitos comuns podem ser menos duráveis e menos potentes."
-  - q: "Como devo armazenar o meu apito para garantir a sua durabilidade?"
-    a: "Guarda o apito numa bolsa de proteção ou num compartimento de mochila, longe de produtos químicos e em local seco. Evita expô-lo a temperaturas extremas que possam afetar a sua estrutura metálica."
+  - q: "O apito é obrigatório em provas de trail?"
+    a: "Na maioria das provas de montanha, sim. As provas do circuito UTMB, por exemplo, incluem o apito na lista de material obrigatório, ao lado da manta de sobrevivência e do casaco impermeável. Em treinos a solo não é obrigatório, mas é dos objetos mais úteis que podes levar."
+  - q: "Porque é que um apito é melhor do que gritar?"
+    a: "Um apito produz um som agudo e penetrante que se distingue melhor do vento e da água e exige muito menos esforço do que gritar. Se estiveres ferido, cansado ou com frio, consegues continuar a sinalizar durante muito mais tempo."
+  - q: "Qual é o sinal de socorro com apito em montanha?"
+    a: "O sinal internacional de socorro em montanha são seis apitos num minuto, seguidos de um minuto de pausa, repetidos até haver resposta. Quem te ouve responde com três apitos num minuto. Em qualquer emergência, liga também 112 se tiveres rede."
 ---
 
-O apito de segurança trail é um dos equipamentos mais essenciais para quem pratica trail a solo. Ele permite chamar atenção rapidamente em situações de emergência, garantindo que tu e os teus companheiros de trilho sejam localizados com rapidez.  
+Num treino a solo em montanha, uma entorse longe de qualquer trilho movimentado pode transformar-se numa espera longa. Se não tens rede ou o telemóvel ficou sem bateria, a forma mais eficaz de alguém te encontrar é fazer barulho — e um apito faz muito mais barulho, durante muito mais tempo, do que a tua voz. Pesa poucos gramas e custa pouco. Não há desculpa para não o levar.
 
-## Como Escolher: Critérios Que Importam  
-A escolha de um apito de segurança trail vai além de simplesmente comprar qualquer apito que se encontre à venda. É preciso avaliar vários critérios técnicos que garantem eficácia e durabilidade nas condições mais exigentes.  
+## Porque é que o apito importa
 
-**Volume e alcance** – O apito deve produzir um som com volume suficiente para ser ouvido a pelo menos 300 metros em ambientes de floresta densa ou montanha. A frequência sonora deve ser entre 2000 Hz e 4000 Hz, onde o ouvido humano é mais sensível.  
+- **Distingue-se melhor do ruído ambiente.** Um som agudo de apito sobressai do vento, de ribeiras e da vegetação, onde a voz se perde.
+- **Poupa energia.** Gritar cansa e enrouquece em minutos; soprar um apito exige muito pouco esforço, o que é crucial se estiveres ferido, com frio ou desidratado.
+- **É um sinal reconhecido.** Equipas de socorro e outros praticantes de montanha reconhecem a sequência de apitos como pedido de ajuda.
 
-**Material e construção** – A maioria dos apitos de segurança trail utiliza aço inoxidável ou alumínio anodizado. O material deve ser resistente à corrosão, especialmente se o trilho atravessa áreas húmidas ou rochosas. A construção deve ser compacta, mas robusta, para suportar quedas e impacto com pedras.  
+É por isso que o apito faz parte do material obrigatório das provas de montanha. No circuito UTMB, a lista inclui apito, manta de sobrevivência de pelo menos 1,40 m x 2 m, ligadura elástica, reserva de comida e casaco impermeável com capuz. Vê a lista completa em [material obrigatório em trail](/blog/material-obrigatorio-trail-running).
 
-**Peso e tamanho** – Um bom apito deve pesar menos de 100 g e ter dimensões que permitam a fixação em mochila, cinto ou bastão. Um peso elevado pode tornar a mochila mais desconfortável, especialmente em longas distâncias.  
+## Como pedir socorro com um apito
 
-**Facilidade de acionamento** – A válvula de sopro deve ser de fácil acionamento, mesmo com luvas ou mãos úmidas. Alguns modelos incluem um mecanismo de “push‑to‑speak” que facilita a emissão de um sinal contínuo.  
+O **sinal internacional de socorro em montanha** é:
 
-**Durabilidade** – Avalia a vida útil do apito. Modelos com revestimento de borracha ou silicone nas partes móveis tendem a manter a qualidade sonora por mais tempo.  
+1. **Seis apitos** distribuídos ao longo de um minuto;
+2. **Um minuto de pausa**;
+3. Repete até alguém responder.
 
-**Preço** – Embora seja tentador optar pelo modelo mais barato, a relação custo‑benefício deve ser ponderada. Um apito de qualidade superior pode prevenir acidentes e, a longo prazo, ser mais económico.  
+A resposta de quem te ouve são **três apitos num minuto**. Se tiveres rede, liga sempre **112** e dá a tua localização (o relógio GPS ou o telemóvel mostram as coordenadas). Usa o apito como complemento, sobretudo quando já sabem que te procuram e estão perto.
 
-Ao considerar esses fatores, podes escolher um apito que não apenas cumpra a sua função de segurança, mas que também se integre de forma eficiente ao teu conjunto de equipamentos.  
+## Como escolher: critérios que importam
 
-## As Melhores Opções em 2026  
-Abaixo estão as opções mais recomendadas para 2026, baseadas em avaliações de atletas e especialistas em trail.  
+**Sem esfera.** Os apitos com uma pequena esfera interior podem encravar com sujidade, humidade ou gelo. Os apitos **sem esfera** (com câmaras internas) funcionam mesmo molhados — é o tipo a preferir para montanha.
 
-| Produto | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
-|---------|-------------|---------------|---------------|----------------|
-| **Pioneer TrailBlow 2000** | Iniciantes e competidores | Volume alto, design ergonómico, fácil de acionar | Pouco robusto em condições de chuva intensa | 150€‑200€ |
-| **Garmin TrailHorn Pro** | Atletas avançados | Integração com dispositivos Garmin, resistência à água | Peso ligeiramente superior | 200€‑250€ |
-| **Kestrel TrailBlaster** | Trail a solo e ultramaratonistas | Peso ultra‑leve, construção em aço inoxidável | Alcance limitado a 250 m | 170€‑220€ |
-| **Bauer TrailSiren 3** | Equipamento de emergência | Som claro e distinto, mecanismo de acionamento de um toque | Preço mais elevado | 220€‑280€ |
-| **SonicPeak TrailHorn** | Treinos diários e eventos | Revestimento anti‑desgaste, bateria interna para gravação de mensagem | Não possui função de gravação | 180€‑230€ |
+**Plástico em vez de metal.** Um apito de metal pode ficar desconfortável nos lábios com muito frio. Os de plástico resistente são leves e não enferrujam.
 
-Todos os modelos listados cumprem as exigências de material obrigatório trail, como resistência à corrosão e durabilidade em ambientes extremos.  
+**Cor viva.** Laranja ou amarelo encontram-se mais facilmente dentro da mochila ou se caírem ao chão.
 
-## Veredicto: Qual Comprar  
-*Iniciantes* – Se estás a começar a explorar trilhos, o **Pioneer TrailBlow 2000** oferece um bom equilíbrio entre volume e preço, sendo fácil de usar e robusto.  
+**Fixação.** O apito só serve se o conseguires usar quando estás caído e com dor. Prende-o num sítio acessível — no peitoral do colete ou numa alça —, não no fundo da mochila. Muitos coletes de trail já trazem um apito integrado na fivela do peitoral: confirma se o teu tem e se é suficientemente sonoro.
 
-*Competidores* – Para quem corre ultramaratona ou participa em eventos de trail a solo, o **Garmin TrailHorn Pro** e o **Bauer TrailSiren 3** são ideais, graças à sua integração com dispositivos GPS e ao som claro em distâncias maiores.  
+**Experimenta.** Sopra-o uma vez em casa. Há apitos de fivela que mal se ouvem; se for o teu caso, junta um apito dedicado.
 
-*Orçamento limitado* – Se o teu orçamento é apertado, o **Kestrel TrailBlaster** apresenta um peso reduzido e construção sólida, mantendo a eficácia sonora a um preço mais acessível.  
+## As melhores opções por tipo
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**  
+| Tipo | Para quem é | Pontos fortes | Pontos fracos |
+|---|---|---|---|
+| **Apito integrado na fivela do colete** | Quem já tem colete de trail | Está sempre contigo, zero peso extra | Alguns são pouco sonoros; testa antes de confiar nele |
+| **Apito de plástico sem esfera** (dedicado) | Trail a solo, montanha, provas com material obrigatório | Funciona molhado e com frio, leve, muito sonoro | Mais uma peça para prender no colete |
+| **Apito com esfera** | Uso ocasional em terreno seco | Barato e fácil de encontrar | A esfera pode encravar com água, lama ou gelo |
+| **Apito de metal** | Uso em clima ameno | Robusto | Frio nos lábios em inverno; mais pesado |
 
-## Fontes  
-Informação confirmada nas páginas oficiais dos fabricantes e nas fichas de produto disponibilizadas pelo revendedor.  
+Os apitos de segurança são baratos em qualquer loja de montanha ou de desporto. Ao comprar, privilegia um modelo **sem esfera** de uma marca de material de segurança outdoor ou náutico e confirma na ficha que é concebido para emergência.
 
+## Veredicto
 
-## Referências  
-- Página oficial da Pioneer TrailBlow 2000  
-- Página oficial da Garmin TrailHorn Pro  
-- Página oficial da Kestrel TrailBlaster  
-- Página oficial da Bauer TrailSiren 3  
-- Página oficial da SonicPeak TrailHorn  
+- **Já tens colete com apito na fivela:** testa-o. Se se ouve bem, chega para provas. Se não, junta um apito dedicado.
+- **Treinos a solo em montanha:** leva um **apito de plástico sem esfera**, preso no peitoral, mais a [manta térmica](/blog/mantas-termicas-emergencia-kit-seguranca-trail) e o telemóvel carregado.
+- **Corridas noturnas:** apito e frontal com bateria suficiente — vê o guia de [segurança no trail noturno](/blog/trail-night-running-seguranca).
 
----
+Para o resto das regras de segurança, vê também [segurança em montanha para trail](/blog/seguranca-montanha-essencial-trail).
+
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- UTMB (Eiger Ultra Trail by UTMB) — lista de material obrigatório (apito, manta de sobrevivência 1,40 m x 2 m): https://eiger.utmb.world/races-runners/runners/mandatory-equipment
+- Kullamannen by UTMB — lista de material obrigatório (apito no material básico): https://res.cloudinary.com/utmb-world/image/upload/v1788549060/kullamannen/K100_Mandatory_Equipment_ENG_WEBB_c2edc0df93.pdf.pdf
+- Cimalp — equipamento de sobrevivência e segurança para o UTMB (função do apito para alertar e ajudar os socorristas a localizar-te): https://www.cimalp.com/en/blogs/the-cimalp-blog/survival-and-safety-equipment-for-utmb

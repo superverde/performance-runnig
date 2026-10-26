@@ -8,62 +8,76 @@ keyword: "manta térmica de emergência"
 keywords: ["manta térmica trail", "material obrigatório trail", "segurança em trail"]
 readTime: 5
 faqs:
-  - q: "Qual a diferença principal entre uma manta térmica de emergência e uma manta de isolamento convencional?"
-    a: "Uma manta de emergência é concebida para uso"
+  - q: "A manta térmica de emergência aquece?"
+    a: "Não produz calor. Funciona como barreira ao vento, à chuva e à evaporação e reflete parte do calor que o corpo irradia. Por isso protege muito mais se a usares por cima de roupa seca e isolante e com algo entre ti e o chão."
+  - q: "Que tamanho deve ter a manta térmica para uma prova de trail?"
+    a: "Muitas provas exigem um tamanho mínimo. No circuito UTMB, por exemplo, o regulamento pede uma manta de pelo menos 1,40 m x 2 m. Confirma sempre o regulamento da tua prova antes de comprar."
+  - q: "Saco de sobrevivência ou manta térmica: o que é melhor?"
+    a: "O saco envolve o corpo todo e não se abre com o vento, por isso protege melhor quando tens de esperar parado. A manta é mais leve e é a que o regulamento costuma pedir. Em travessias de montanha a solo, leva o saco; em provas, leva o que o regulamento exige."
 ---
 
-A manta térmica de emergência é um equipamento essencial para corredores de trail que enfrentam condições climáticas imprevisíveis. Este item combina isolamento, peso mínimo e durabilidade, permitindo que o atleta mantenha a temperatura corporal crítica enquanto procura ajuda ou aguarda condições mais favoráveis. Em 2026, a tecnologia evoluiu para oferecer mantas mais leves, com melhor retenção de calor e maior resistência a rasgos, mantendo a praticidade que os corredores exigem.
+A manta térmica de emergência é dos itens mais baratos do teu material obrigatório e um dos que mais diferença fazem quando algo corre mal. Uma entorse a 15 km do posto mais próximo, nevoeiro que te obriga a parar, um ultra que se arrasta pela noite com temperaturas baixas: quando deixas de correr, deixas de produzir calor, e a roupa molhada de suor arrefece-te depressa. É para esse momento que a manta existe.
 
-## Como Escolher: Critérios Que Importam
+## Para que serve (e o que não faz)
 
-Quando se avalia uma manta térmica para trail, é crucial considerar parâmetros que impactam diretamente a segurança e o desempenho. Os critérios mais relevantes são:
+A manta de emergência é uma folha fina de plástico metalizado. **Não aquece**: o calor vem sempre do teu corpo. O que ela faz é reduzir as perdas:
 
-1. **Índice de Isolamento (R-value)**  
-   O R-value mede a capacidade de isolamento térmico. Para condições de frio extremo (‑10 °C a ‑20 °C), recomenda‑se um R-value mínimo de 1,0, equivalente a uma manta de 3 mm de espessura em materiais de alta densidade. Estudos de fisiologia do exercício mostram que a perda de calor cutâneo pode chegar a 3 % por minuto em temperaturas abaixo de 0 °C; um R-value adequado reduz este risco.
+- **Corta o vento**, que é muitas vezes o fator que mais arrefece um corredor parado;
+- **Funciona como barreira ao vapor e à chuva**, limitando o arrefecimento por evaporação;
+- **Reflete parte do calor irradiado** pelo corpo.
 
-2. **Peso e Dimensionalidade**  
-   A manta deve pesar menos de 300 g para não sobrecarregar o corredor. A compressibilidade – capacidade de reduzir a manta a menos de 50 mm de espessura – é vital para o transporte em mochilas de 20 L, comuns em corridas de trail de 30 km ou mais.
+As diretrizes da Wilderness Medical Society para a hipotermia acidental (Dow et al., 2019) descrevem a proteção em campo como uma combinação de **camada isolante**, **barreira ao vapor** para evitar perdas por evaporação e, quando possível, uma **fonte de calor externa**, além de proteger a pessoa do ambiente e retirar a roupa molhada com cuidado. A manta cumpre o papel de barreira; o isolamento tem de vir da roupa seca que levas na mochila e de algo que te separe do chão frio (o colete, a mochila, uma corda enrolada).
 
-3. **Material e Construção**  
-   Materiais como poliéster com camada de microfibra de poliéster ou poliéster reciclado proporcionam boa retenção de calor e resistência ao rasgo. A presença de um revestimento anti‑humidade, como o poliéster de baixa absorção, previne a perda de calor quando a manta entra em contacto com o suor ou a humidade ambiental.
+Por isso a manta não substitui o casaco impermeável nem a camada térmica — complementa-os. Vê a lista completa em [material obrigatório em trail](/blog/material-obrigatorio-trail-running).
 
-4. **Durabilidade e Resiliência**  
-   O índice de resistência a rasgos (measured in MPa) deve ser superior a 0,5 MPa. Além disso, a manta deve resistir a múltiplos ciclos de compressão/expansão sem perder integridade estrutural.
+## O que os regulamentos pedem
 
-5. **Compatibilidade com Equipamento Adicional**  
-   A manta deve ser compatível com bolsas de água ou sistemas de hidratação. Muitos modelos incluem bolsos de zip para armazenar pequenos objetos, o que aumenta a utilidade sem comprometer a leveza.
+As provas do circuito UTMB exigem uma **manta de sobrevivência com pelo menos 1,40 m x 2 m**, além de apito, ligadura elástica, reserva de comida e casaco impermeável com capuz. Outras provas de trail usam listas semelhantes — lê sempre o regulamento da tua. Um tamanho mínimo existe por uma razão simples: uma manta pequena não envolve um adulto da cabeça aos pés.
 
-6. **Garantia e Suporte Técnico**  
-   A garantia de 12 meses cobre defeitos de fabricação e rasgos inesperados. Modelos com suporte técnico dedicado garantem a troca rápida em caso de dano, essencial para eventos de longa duração.
+## Como a usar
 
-Esses critérios, fundamentados em evidências de biomecânica e fisiologia do exercício, asseguram que a manta térmica não apenas proteja, mas também não comprometa o desempenho do corredor.
+1. **Para antes de estares em hipotermia.** Se tens de parar e estás molhado ou com frio, age já: veste a camada seca e o impermeável, e só depois envolve-te na manta.
+2. **Isola-te do chão.** Senta-te em cima da mochila, do colete ou de vegetação seca. O chão rouba calor por condução.
+3. **Cobre a cabeça e o pescoço**, deixando só a cara de fora, e prende a manta por baixo do corpo ou com o impermeável por cima para o vento não a abrir.
+4. **Torna-te visível.** O lado metalizado ou uma cor viva ajudam as equipas de socorro. Usa o apito para sinalizar a tua posição ([guia de apitos](/blog/melhores-apitos-seguranca-trail-solo)).
+5. **Treina uma vez em casa.** Abrir uma manta com mãos frias e vento é mais difícil do que parece. Uma manta de uso único que abres para treinar deve ser substituída.
 
-## As Melhores Opções em 2026
+Se a situação envolver frio intenso, confusão ou tremores que param, é uma emergência médica: liga 112. Para uma visão mais ampla, vê [segurança em montanha para trail](/blog/seguranca-montanha-essencial-trail) e [termorregulação no calor e no frio](/blog/termorregulacao-corrida-calor-frio).
 
-| Produto | Público‑Alvo | Pontos Fortes | Pontos Fracos | Faixa de Preço |
-|---------|--------------|---------------|---------------|----------------|
-| **Manta Térmica X‑Trail 3.0** | Iniciantes e competidores de nível médio | R‑value 1,2, peso 280 g, compressível a 40 mm | Menor resistência a rasgos (0,48 MPa) | 150 €–200 € |
-| **Manta Térmica Ultra‑Heat 4.5** | Trail runners avançados | R‑value 1,5, peso 260 g, capa anti‑humidade premium | Preço mais elevado (200 €–250 €) | 200 €–250 € |
-| **Manta Térmica Eco‑Guard 2.0** | Concorrentes ecológicos | 100 % poliéster reciclado, R‑value 1,1, peso 300 g | Menor compressibilidade (55 mm) | 140 €–180 € |
-| **Manta Térmica Pro‑Pack 5.0** | Equipamentos de emergência para equipes de apoio | R‑value 1,8, peso 310 g, resistente a rasgos (0,6 MPa), bolsos de zip | Mais pesada que outras | 180 €–220 € |
-| **Manta Térmica Compact‑Heat 1.5** | Runners que priorizam leveza | Peso 240 g, compressível a 30 mm, R‑value 1,0 | Menor durabilidade (0,45 MPa) | 120 €–160 € |
+## Como escolher: critérios que importam
 
-> **Nota**: As faixas de preço refletem a média de mercado em 2026 e não incluem promoções sazonais. Para mais detalhes sobre outros equipamentos, visite a nossa página de [Equipamento](/equipamento).
+- **Tamanho:** pelo menos o exigido pelo regulamento (1,40 m x 2 m é a referência mais comum).
+- **Manta vs. saco:** o saco de sobrevivência fecha à volta do corpo e resiste melhor ao vento; a manta é mais leve e é o que a maioria das provas pede.
+- **Uso único vs. reutilizável:** as de uso único são finas e rasgam com facilidade depois de abertas; as reutilizáveis são mais grossas e resistentes, mas pesam e ocupam mais.
+- **Cor:** uma face colorida (laranja, por exemplo) torna-te mais fácil de localizar.
+- **Embalagem:** confirma que cabe no bolso do colete onde a vais levar sempre — não na mochila que fica no carro.
 
-### Detalhes de cada modelo
+## As melhores opções
 
-- **Manta Térmica X‑Trail 3.0**: Ideal para quem está a começar a explorar trilhos mais desafiadores. O material de poliéster de alta densidade garante bom isolamento, mas a resistência a rasgos ligeiramente inferior pode ser um ponto de atenção em terrenos rochosos.  
-- **Manta Térmica Ultra‑Heat 4.5**: Projetada para corredores que enfrentam temperaturas abaixo de ‑10 °C. A capa anti‑humidade evita perda de calor em condições húmidas, enquanto o R‑value superior oferece maior segurança térmica.  
-- **Manta Térmica Eco‑Guard 2.0**: Perfeita para quem valoriza a sustentabilidade. O uso de poliéster reciclado reduz a pegada ambiental sem sacrificar o desempenho, embora a compressibilidade seja um pouco menor.  
-- **Manta Térmica Pro‑Pack 5.0**: Recomendada para equipes de apoio em maratões de trail. A resistência a rasgos e os bolsos de zip permitem transportar pequenos objetos (por exemplo, hidratos de 90 g por hora de treino, como descrito em nosso artigo sobre hidratação).  
-- **Manta Térmica Compact‑Heat 1.5**: A mais leve das opções, excelente para corredores que valorizam a rapidez de movimentação. O R‑value básico pode ser suficiente para trilhos moderadamente frios.
+| Produto | Para quem é | Pontos fortes | Pontos fracos | Preço indicativo |
+|---|---|---|---|---|
+| **Decathlon Manta de Sobrevivência de Trekking Uso Único** | Cumprir o material obrigatório com o mínimo de peso e custo | Muito barata, compacta | Uso único; rasga com facilidade depois de aberta | cerca de 3 € |
+| **Decathlon Manta de Sobrevivência Reutilizável** | Quem quer uma manta que aguente mais do que uma utilização | Mais resistente do que a de uso único | Mais volume e peso | cerca de 7 € |
+| **Simond Saco de Sobrevivência para Alpinismo** | Montanha e saídas a solo | Formato de saco, envolve o corpo todo | Pode não cumprir o requisito de «manta» de algumas provas | cerca de 8 € |
+| **Lifesystems Heatshield Blanket** | Quem prefere uma marca especializada em segurança outdoor | Manta individual de marca especializada | Preço mais alto para a mesma função base | cerca de 15 € |
+| **Lifesystems Thermal Bag** | Travessias longas em autonomia | Saco de emergência de marca especializada | Mais caro e mais volumoso | cerca de 27 € |
 
-## Veredicto: Qual Comprar
+*Preços indicativos em outubro de 2026; confirma na loja antes de comprar.* Confirma também as dimensões na ficha de cada produto: só assim sabes se cumprem o regulamento da tua prova.
 
-- **Iniciante**: A *Manta Térmica X‑Trail 3.0* oferece um bom equilíbrio entre preço, isolamento e facilidade de transporte. É suficiente para a maioria das corridas de trail em clima moderado.  
-- **Competidor de nível médio**: A *Manta Térmica Ultra‑Heat 4.5* é a escolha mais segura para terrenos frios e húmidos, onde a retenção de calor é crítica.  
-- **Orçamento limitado**: A *Manta Térmica Compact‑Heat 1.5* apresenta o melhor custo‑benefício, sendo leve, funcional e acessível, adequado para treinos e corridas de curta distância.  
+## Veredicto
 
-Para uma visão mais ampla de equipamentos de trail, consulte também o nosso artigo sobre [camisolas técnicas de corrida inverno térmicas](/blog/camisolas-tecnicas-corrida-inverno-termicas) e a importância de hidratos de 90 g por hora de treino em [hidratos 90g hora treino intestinal](/blog/hidratos-90g-hora-treino-intestinal).
+- **Provas com material obrigatório:** uma manta de uso único com as dimensões pedidas chega — e é tão barata que podes ter uma em cada colete.
+- **Treinos longos a solo em montanha:** leva um **saco de sobrevivência** (como o Simond ou o Lifesystems Thermal Bag); protege melhor se tiveres de esperar parado.
+- **Quem usa muito a manta (por exemplo, no fim das provas):** uma reutilizável. Para o uso depois da meta, vê o artigo sobre [mantas térmicas no pós-prova](/blog/mantas-termicas-pos-prova-recuperacao).
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- Decathlon Portugal — coleção de mantas de sobrevivência e proteção térmica (modelos e preços): https://www.decathlon.pt/colecoes/mantas-de-sobrevivencia-emergencia
+- UTMB (Eiger Ultra Trail by UTMB) — material obrigatório, incluindo manta de 1,40 m x 2 m e apito: https://eiger.utmb.world/races-runners/runners/mandatory-equipment
+- Kullamannen by UTMB — lista de material obrigatório: https://res.cloudinary.com/utmb-world/image/upload/v1788549060/kullamannen/K100_Mandatory_Equipment_ENG_WEBB_c2edc0df93.pdf.pdf
+
+## Referências Científicas
+
+1. Dow, J., Giesbrecht, G. G., Danzl, D. F., Brugger, H., Sagalyn, E. B., Walpoth, B., et al. (2019). Wilderness Medical Society clinical practice guidelines for the out-of-hospital evaluation and treatment of accidental hypothermia: 2019 update. *Wilderness & Environmental Medicine*, 30(4S), S47–S69.

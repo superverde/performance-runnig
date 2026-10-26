@@ -6,10 +6,10 @@ excerpt: "Na dor no joelho da corrida, o exercício de força é o tratamento co
 seoTitle: "Dor no Joelho na Corrida: Força Como Tratamento"
 keyword: "dor no joelho corrida"
 keywords: ["força para dor no joelho", "exercícios dor no joelho", "joelho de corredor"]
-readTime: 5
+readTime: 7
 faqs:
   - q: "Que exercícios ajudam na dor no joelho de corredor?"
-    a: "Os programas com melhor evidência combinam exercícios para a anca (abdução, extensão) e para o joelho (agachamento parcial, step-down, prensa). Fazer os dois é mais eficaz do que trabalhar só o joelho."
+    a: "Os programas com melhor evidência combinam exercícios para a anca (abdução, extensão) e para o joelho (agachamento parcial, step-down, prensa). Combinar os dois parece reduzir mais a dor do que trabalhar só o joelho."
   - q: "Posso continuar a correr com dor no joelho?"
     a: "Muitas vezes sim, reduzindo o volume e evitando o que agrava a dor, desde que a dor durante a corrida seja ligeira e passe até ao dia seguinte. Inchaço, bloqueios ou falhas do joelho exigem avaliação médica."
   - q: "Quanto tempo demora a resolver a dor no joelho com força?"
@@ -46,11 +46,11 @@ A dor patelofemoral é, em grande parte, um problema de **capacidade vs. carga**
 
 ### O que diz a evidência
 
-- Uma revisão Cochrane concluiu que o exercício reduz a dor e melhora a função em pessoas com dor patelofemoral, tanto a curto como a longo prazo, e que os programas que combinam anca e joelho parecem reduzir mais a dor do que os que trabalham só o joelho — embora a qualidade da evidência seja baixa ou muito baixa (van der Heijden et al., 2015).
+- Uma revisão Cochrane concluiu que o exercício reduz a dor a curto prazo e melhora a função a curto e a longo prazo em pessoas com dor patelofemoral, e que os programas que combinam anca e joelho parecem reduzir mais a dor do que os que trabalham só o joelho — embora a qualidade da evidência tenha sido classificada como muito baixa (van der Heijden et al., 2015).
 - O consenso internacional de peritos em dor patelofemoral recomenda o exercício como tratamento central e dá preferência aos programas combinados de anca e joelho (Crossley et al., 2016).
 - As orientações clínicas norte-americanas de fisioterapia recomendam exercícios de anca e joelho e, nos corredores, consideram a reeducação da corrida e a educação sobre a gestão da carga como complementos (Willy et al., 2019).
 
-Há um ponto que surpreende muitos corredores: num ensaio com corredores com dor patelofemoral, a educação sobre gestão da carga sozinha produziu melhorias semelhantes às de juntar-lhe exercício ou reeducação da passada (Esculier et al., 2018). A lição não é que a força não importa — é que **sem ajustar a carga de corrida, nenhum exercício faz milagres**.
+Há um ponto que surpreende muitos corredores: num ensaio com 69 corredores com dor patelofemoral, a educação sobre os sintomas e a gestão da carga, sozinha, produziu melhorias semelhantes às de juntar-lhe exercício ou reeducação da passada (Esculier et al., 2018). A lição não é que a força não importa — é que **sem ajustar a carga de corrida, nenhum exercício faz milagres**.
 
 ## O programa de força
 
@@ -101,7 +101,7 @@ Os programas estudados duram normalmente 6 a 12 semanas. Muitos corredores sente
 
 ## Depois da dor: manter a força
 
-Quando a dor desaparece, não abandones o treino de força. Uma a duas sessões por semana ajudam a manter a capacidade que ganhaste e reduzem o risco de recaída.
+Quando a dor desaparece, não abandones o treino de força. Uma a duas sessões por semana ajudam a manter a capacidade que ganhaste, o que faz sentido para reduzir o risco de a dor voltar quando aumentares a carga de corrida.
 
 ## Referências Científicas
 

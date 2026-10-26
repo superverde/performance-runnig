@@ -6,7 +6,7 @@ excerpt: "O negative split treina-se: com corridas progressivas, longos com fina
 seoTitle: "Negative Split: Como Treinar para Acabar Mais Rápido"
 keyword: "negative split"
 keywords: ["segunda metade mais rápida", "estratégia de prova", "como treinar negative split"]
-readTime: 5
+readTime: 6
 faqs:
   - q: "O que é correr em negative split?"
     a: "É correr a segunda metade da prova mais depressa do que a primeira. Numa meia maratona de 1:50:00, por exemplo, seria passar aos 10,5 km em 55:10 e fazer a segunda metade em 54:50."
@@ -24,11 +24,11 @@ O erro mais comum em provas de estrada não é falta de forma: é sair demasiado
 
 ### Mas atenção: o objetivo não é um grande negative split
 
-A ciência do *pacing* traz uma nuance importante. Nos recordes mundiais de 5000 e 10 000 m, o primeiro e o último quilómetro foram mais rápidos do que os do meio — um ritmo globalmente regular com um sprint final, não uma aceleração contínua (Tucker et al., 2006). Nos recordes mundiais da maratona dos últimos 50 anos, a segunda metade foi, em média, ligeiramente mais lenta, e os autores apontam o ritmo muito regular como a estratégia mais promissora (Díaz et al., 2018).
+A ciência do *pacing* traz uma nuance importante. Nos recordes mundiais de 5000 e 10 000 m, o primeiro e o último quilómetro foram mais rápidos do que os do meio — um ritmo globalmente regular com um sprint final, não uma aceleração contínua (Tucker et al., 2006). Numa análise dos recordes mundiais da maratona, os autores apontam um ritmo muito regular, com pouca variação entre parciais, como a estratégia associada às melhores marcas (Díaz et al., 2018).
 
 E há o outro lado: na mesma análise dos amadores, terminar muito mais rápido do que se começou foi interpretado como sinal de um arranque demasiado cauteloso — tempo deixado na estrada (Smyth, 2018).
 
-**Conclusão prática:** procura um ritmo quase regular, com a segunda metade igual ou ligeiramente mais rápida (1–2 %). É isso que, na prática, significa um «bom» negative split. Aprofundamos os dados de prova em [positive vs negative split na maratona](/blog/maratona-positivo-negativo-split).
+**Conclusão prática:** procura um ritmo quase regular, com a segunda metade igual ou ligeiramente mais rápida — como referência prática (não um valor de estudo), uma diferença de 1–2 % entre metades. É isso que, na prática, significa um «bom» negative split. Aprofundamos os dados de prova em [positive vs negative split na maratona](/blog/maratona-positivo-negativo-split).
 
 ## Porque é tão difícil
 
@@ -46,7 +46,7 @@ Faz a corrida longa a ritmo fácil e corre os últimos 15–30 minutos (ou 3–8
 
 ### 3. Séries em ritmo descendente
 
-Cada repetição um pouco mais rápida do que a anterior. Exemplo para um corredor de 10km em 50 minutos (5:00/km): 5×1000 m com 2 minutos de recuperação, começando a 5:10/km e terminando a 4:50/km. Treina a disciplina na primeira repetição — que é a parte mais difícil.
+Cada repetição um pouco mais rápida do que a anterior. Exemplo para um corredor de 10 km em 50 minutos (5:00/km): 5×1000 m com 2 minutos de recuperação, começando a 5:10/km e terminando a 4:50/km. Treina a disciplina na primeira repetição — que é a parte mais difícil.
 
 ### 4. Treino em duas metades
 

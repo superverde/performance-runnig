@@ -6,7 +6,7 @@ excerpt: "Do sofá aos 10km em 16 semanas, com 3 treinos por semana: começa com
 seoTitle: "Do Sofá aos 10km: Plano de 16 Semanas"
 keyword: "do sofá aos 10km"
 keywords: ["plano para principiantes", "começar a correr", "plano 10km iniciantes"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Quanto tempo demora a passar do sofá aos 10km?"
     a: "Depende do ponto de partida, mas este plano usa 16 semanas com 3 treinos por semana: 8 para chegar aos 30 minutos contínuos e 8 para chegar aos 10km. Se precisares, repete semanas — não há pressa."
@@ -32,7 +32,7 @@ Correr é seguro para a maioria das pessoas, mas se tens doença cardíaca, meta
 
 ### Porque é que este plano conta minutos e não quilómetros
 
-Os principiantes são o grupo com mais lesões por hora de corrida: uma meta-análise estimou cerca de 18 lesões por 1000 horas em principiantes, contra cerca de 8 em corredores recreativos (Videbæk et al., 2015). O sistema cardiovascular adapta-se em poucas semanas, mas tendões, ossos e músculos demoram mais. Contar minutos ajuda-te a controlar a carga real, independentemente do ritmo.
+Os principiantes lesionam-se bastante mais por hora de corrida do que os corredores recreativos: uma meta-análise estimou cerca de 18 lesões por 1000 horas em principiantes, contra cerca de 8 em corredores recreativos (Videbæk et al., 2015). O sistema cardiovascular adapta-se em poucas semanas, mas tendões, ossos e músculos demoram mais. Contar minutos ajuda-te a controlar a carga real, independentemente do ritmo.
 
 ## As regras do plano
 
@@ -76,7 +76,7 @@ Agora a corrida passa a ser contínua. Um dos treinos da semana torna-se a «cor
 
 Os treinos longos das semanas 13–15 podem incluir 1 minuto de caminhada a cada 10 minutos de corrida, se precisares. A semana 12 é mais leve de propósito: reduzir a carga periodicamente ajuda o corpo a assimilar o trabalho feito.
 
-A 6:30/km, um 10km demora 65 minutos; a 7:30/km, 75 minutos. Se o teu ritmo for mais lento, não há problema: o treino longo de 65 minutos não tem de cobrir os 10km completos para estares preparado. Na prova, o entusiasmo e o ambiente ajudam-te a cobrir a diferença.
+A 6:30/km, um 10km demora 65 minutos; a 7:30/km, 75 minutos. Se o teu ritmo for mais lento, não há problema: o treino longo de 65 minutos não tem de cobrir os 10km completos para estares preparado. Na prova, se precisares, usa a mesma estratégia dos treinos longos (1 minuto de caminhada a cada 10 minutos de corrida) para cobrir a diferença sem forçar.
 
 ## Como progredir sem te lesionares
 
@@ -107,4 +107,4 @@ Depois da primeira prova, mantém 3 treinos por semana durante algumas semanas a
 2. Buist, I., Bredeweg, S. W., van Mechelen, W., Lemmink, K. A., Pepping, G. J., & Diercks, R. L. (2008). No effect of a graded training program on the number of running-related injuries in novice runners: a randomized controlled trial. *The American Journal of Sports Medicine*, 36(1), 33–39. https://doi.org/10.1177/0363546507307505
 3. Nielsen, R. O., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Excessive progression in weekly running distance and risk of running-related injuries: an association which varies according to type of injury. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 739–747. https://doi.org/10.2519/jospt.2014.5164
 4. Garber, C. E., Blissmer, B., Deschenes, M. R., Franklin, B. A., Lamonte, M. J., Lee, I. M., Nieman, D. C., & Swain, D. P. (2011). Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults: guidance for prescribing exercise. *Medicine & Science in Sports & Exercise*, 43(7), 1334–1359. https://doi.org/10.1249/MSS.0b013e318213fefb
-5. Pedisic, Z., Shrestha, N., Kovalchik, S., Stamatakis, E., Liangruenrom, N., Grgic, J., Titze, S., Biddle, S. J., Bauman, A. E., & Oja, P. (2020). Is running associated with a lower risk of all-cause, cardiovascular and cancer mortality, and is the more the better? A systematic review and meta-analysis. *British Journal of Sports Medicine*, 54(15), 898–905. https://doi.org/10.1136/bjsports-2018-100493
+5. Pedisic, Z., Shrestha, N., Kovalchik, S., Stamatakis, E., Liangruenrom, N., Grgic, J., Titze, S., Biddle, S. J., Bauman, A. E., & Oja, P. (2020). Is running associated with a lower risk of all-cause, cardiovascular and cancer mortality, and is the more the better? A systematic review and meta-analysis. *British Journal of Sports Medicine*, 54(15), 898–905.

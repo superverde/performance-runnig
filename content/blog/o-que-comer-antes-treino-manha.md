@@ -32,7 +32,7 @@ Uma revisão sistemática com meta-análise comparou exercício em jejum e após
 - **Esforços aeróbios mais curtos:** não houve diferença significativa entre comer e não comer.
 - **Metabolismo:** o exercício em jejum aumentou os ácidos gordos em circulação, e comer antes atenuou alguns sinais moleculares no músculo e no tecido adiposo.
 
-Uma revisão posterior sobre nutrição pré-exercício chegou a uma conclusão semelhante: a refeição antes do treino influencia a forma como o corpo usa os substratos, mas o efeito no rendimento depende da duração e da intensidade do esforço e da resposta individual (Rothschild et al., 2020).
+Uma revisão posterior sobre nutrição pré-exercício chegou a uma conclusão semelhante: ingerir hidratos de carbono antes do exercício reduz a oxidação de gordura durante o esforço e melhora o rendimento em esforços mais longos, mas não nos mais curtos. Os autores sublinham também que a forma como cada atleta tolera a refeição antes do treino varia bastante (Rothschild et al., 2020).
 
 O posicionamento conjunto do American College of Sports Medicine, da Academy of Nutrition and Dietetics e da Dietitians of Canada recomenda, antes de exercício com mais de 60 minutos, uma refeição com 1 a 4 g de hidratos de carbono por kg de peso, consumida 1 a 4 horas antes (Thomas et al., 2016). Num treino às 7h, a parte mais alta deste intervalo é pouco realista — e é aqui que entram os snacks mais pequenos e próximos do treino.
 
@@ -57,7 +57,7 @@ Se acordas cedo antes de uma corrida longa ou de uma prova, podes comer uma refe
 
 ## Estômago sensível: como evitar problemas
 
-As queixas gastrointestinais são frequentes em corredores, e a alimentação antes do treino é um dos fatores que se podem controlar. Uma revisão sobre o tema recomenda evitar alimentos ricos em fibra, gordura e proteína nas horas antes do exercício, ter cuidado com concentrações elevadas de hidratos de carbono e evitar a desidratação; acrescenta que o intestino se adapta quando treinas a ingestão (de Oliveira et al., 2014).
+As queixas gastrointestinais são frequentes em atletas de endurance — os estudos sugerem que afetam 30 a 50 % — e a alimentação é um dos fatores que se podem controlar. Uma revisão sobre o tema identifica a redução do fluxo sanguíneo intestinal durante o esforço intenso, agravada pela desidratação, como um dos principais mecanismos, e conclui que o treino nutricional (habituares o intestino ao que comes) e boas escolhas alimentares reduzem o risco de desconforto (de Oliveira et al., 2014). O posicionamento do ACSM acrescenta que, antes do exercício, convém evitar opções ricas em gordura, proteína ou fibra que possam causar problemas gastrointestinais (Thomas et al., 2016).
 
 Na prática:
 
@@ -97,5 +97,5 @@ Se treinaste em jejum ou só com um snack, o pequeno-almoço depois do treino é
 
 1. Aird, T. P., Davies, R. W., & Carson, B. P. (2018). Effects of fasted vs fed-state exercise on performance and post-exercise metabolism: a systematic review and meta-analysis. *Scandinavian Journal of Medicine & Science in Sports*, 28(5), 1476–1493. https://doi.org/10.1111/sms.13054
 2. Rothschild, J. A., Kilding, A. E., & Plews, D. J. (2020). What should I eat before exercise? Pre-exercise nutrition and the response to endurance exercise: current prospective and future directions. *Nutrients*, 12(11), 3473. https://doi.org/10.3390/nu12113473
-3. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement: nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852
+3. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement: nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568.
 4. de Oliveira, E. P., Burini, R. C., & Jeukendrup, A. (2014). Gastrointestinal complaints during exercise: prevalence, etiology, and nutritional recommendations. *Sports Medicine*, 44(Suppl 1), S79–S85. https://doi.org/10.1007/s40279-014-0153-2

@@ -5,53 +5,90 @@ category: "Equipamento"
 excerpt: "Meias de compressão e mangas valem a pena? Vê o que a ciência diz sobre compressão na prova e na recuperação e quando compensa usar."
 keyword: "meias de compressão"
 keywords: ["mangas de compressão", "compressão gémeos", "compressão corrida"]
-readTime: 4
+readTime: 5
 faqs:
-  - q: "Pergunta 1: As meias de compressão realmente reduzem o risco de lesões?"
-    a: "Resposta"
+  - q: "As meias de compressão fazem-me correr mais rápido?"
+    a: "Muito provavelmente não. As revisões da literatura mostram efeitos nulos ou triviais da compressão no desempenho em provas de corrida. Se correres com elas, fá-lo por conforto ou preferência, não à espera de minutos ganhos."
+  - q: "A compressão ajuda na recuperação?"
+    a: "Um pouco. Uma meta-análise de 2017 encontrou um benefício pequeno na recuperação da força, da potência e da resistência, e a dor muscular percebida tende a diminuir. É um complemento ao sono, à alimentação e à gestão da carga, não um substituto."
+  - q: "Que pressão devem ter as meias de compressão para correr?"
+    a: "Não há um valor ótimo demonstrado: nos estudos, o efeito não dependeu claramente da pressão. Os fabricantes costumam indicar cerca de 15–20 mmHg para correr e 20–30 mmHg para recuperar. Se tens problemas circulatórios ou diabetes, fala com o teu médico antes de usar compressão."
 ---
 
-# Meias e Mangas de Compressão: Valem a Pena para Corredores?
+Meias até ao joelho e mangas de gémeos tornaram-se parte do uniforme de muitos corredores. As promessas habituais são três: correr mais rápido, recuperar mais depressa e prevenir lesões. A ciência dá respostas diferentes para cada uma — e conhecê-las ajuda-te a decidir se vale a pena gastar dinheiro nisto.
 
-Os corredores que procuram melhorar a sua recuperação, reduzir a fadiga muscular e potencialmente prevenir lesões recorrem cada vez mais às meias e mangas de compressão. Este artigo avalia, a partir de evidências científicas e testes práticos, se o investimento vale a pena e apresenta as melhores opções disponíveis em 2026.
+## O que a compressão faz (em teoria)
 
-## Como Escolher: Critérios Que Importam
+As peças de compressão aplicam pressão externa nos músculos da perna, normalmente maior no tornozelo e menor junto ao joelho (compressão graduada). Os mecanismos propostos são:
 
-A escolha de meias ou mangas de compressão não deve ser baseada apenas no design ou na marca. Os principais critérios técnicos, fundamentados em pesquisas, são:
+- **Menos oscilação muscular** a cada impacto;
+- **Melhor retorno venoso** e menos acumulação de líquido nas pernas;
+- **Sensação de suporte** e de pernas «menos pesadas».
 
-1. **Nível de compressão (mmHg)** – A faixa ideal para corredores varia entre 15 mmHg (baixo) e 30 mmHg (médio). Estudos mostram que compressões moderadas reduzem a oscilação muscular sem restringir a circulação (Fuller et al., 2015). Valores superiores a 30 mmHg são recomendados apenas para atletas com necessidades específicas de suporte.
+Que estes mecanismos existam não quer dizer que se traduzam em melhor desempenho. É aqui que entram os estudos.
 
-2. **Material e respirabilidade** – Tecidos de poliéster, elastano e bambu híbridos oferecem elasticidade, secagem rápida e conforto térmico. A capacidade de evacuar a humidade minimiza o atrito e a formação de bolhas, fator crítico em distâncias longas.
+## Durante a corrida: pouco ou nenhum efeito no desempenho
 
-3. **Cobertura e design** – Meias que cobrem a barriga da perna e o joelho, e mangas que protejam a coxa e o tronco, proporcionam maior suporte proprioceptivo. O alinhamento com as zonas de maior carga muscular pode melhorar a economia de corrida, como indicado por pesquisas de Kram e colegas (2018).
+A revisão sistemática e meta-análise de Engel, Holmberg e Sperlich (2016), dedicada especificamente a corredores, concluiu que usar compressão durante a corrida **não melhora de forma relevante o desempenho** em provas, de distâncias curtas à maratona. Alguns marcadores secundários e a perceção de conforto podem melhorar ligeiramente, mas o tempo final praticamente não muda.
 
-4. **Tamanho e ajuste** – Um ajuste apertado, mas não excessivamente restritivo, garante a eficácia da compressão. A falta de ajuste pode levar a “pontos de pressão” e a um desconforto que anula os benefícios.
+Uma revisão sistemática mais recente (Leabeater, James e Driller, 2022) chegou a uma conclusão semelhante: **pouco ou nenhum benefício no desempenho em corrida**, com tendência para menor dor muscular e fadiga percebidas.
 
-5. **Durabilidade e manutenção** – Produtos de alta qualidade mantêm a compressão após várias lavagens. A perda de elasticidade pode reduzir a eficácia a longo prazo, tornando a durabilidade um critério de valor.
+Na prática: se gostas de correr com mangas ou meias de compressão e te sentes bem, não há problema. Não esperes ganhar minutos.
 
-6. **Relevância clínica** – Estudos randomizados, como o de Malisoux et al. (2016), indicam que a compressão pode reduzir o risco de lesões em corredores que já apresentam histórico de tensão muscular. Contudo, os benefícios são mais pronunciados em treinos de alta intensidade e não substituem outras medidas preventivas.
+## Depois do treino: benefício pequeno na recuperação
 
-A combinação desses fatores determina se a meias ou mangas de compressão realmente melhorarão o desempenho e a recuperação do corredor.
+A meta-análise de Brown e colegas (2017), com 23 estudos em pessoas saudáveis, encontrou um **efeito pequeno mas provável** da compressão na recuperação da força, da potência e da resistência. O benefício foi maior na **recuperação da força**, sobretudo depois de treino de força e mais de 24 horas após o esforço. Depois de exercício de resistência, o efeito global foi positivo mas mais modesto.
 
-## As Melhores Opções em 2026
+Leabeater e colegas (2022) acrescentam que a compressão na recuperação tende a **reduzir a dor muscular percebida** e pode reduzir o inchaço dos membros, sem efeitos claros na maioria dos marcadores sanguíneos de dano muscular.
 
-| Produto | Público‑Alvo | Pontos Fortes | Pontos Fracos | Faixa de Preço |
-|---------|--------------|---------------|---------------|----------------|
-| **Nike Pro Compression Socks** | Corredores de média‑e‑alta distância | Compressão equilibrada, material Dri‑Fit, excelente ventilação | Pode ser mais caro que concorrentes | entre 150€ e 200€ |
-| **Under Armour HeatGear Compression Sleeve** | Atletas que treinam em ambientes frios | Tecnologia HeatGear mantém a temperatura, suporte na coxa | Não cobre a barriga da perna | entre 80€ e 120€ |
-| **CEP Compression Socks** | Corrida de longa distância, atletas com histórico de lesões | 20 mmHg de compressão, construção de múltiplas camadas | Peso relativamente alto | entre 200€ e 250€ |
-| **Reebok Compression Socks** | Iniciantes e corredores de fim de semana | Preço acessível, bom conforto | Compressão mais baixa (15 mmHg) | entre 60€ e 90€ |
-| **Power Systems Pro Compression Sleeve** | Corridas de velocidade e sprints | Compressão localizada na coxa e joelho, design ergonómico | Disponibilidade limitada | entre 120€ e 160€ |
-| **Puma Performance Compression Socks** | Treinos de força e velocidade | Material de alta elasticidade, design aerodinâmico | Preço elevado | entre 180€ e 220€ |
+Onde isto faz mais sentido para um corredor:
 
-Todos os produtos listados foram testados em corredores de diferentes níveis de experiência e apresentam avaliações positivas em termos de conforto, suporte e desempenho. A escolha ideal dependerá do perfil de treino e das necessidades individuais de compressão.
+- Depois de **treinos longos ou provas** em que as pernas ficam muito castigadas;
+- Em **viagens longas** de carro ou avião logo a seguir a uma prova;
+- Quando tens **duas sessões exigentes próximas** e queres sentir as pernas menos pesadas.
 
-## Veredicto: Qual Comprar
+A compressão é um complemento. O que move a recuperação continua a ser o sono, a alimentação e a gestão da carga — vê o nosso artigo sobre [meias de compressão no pós-corrida](/blog/meias-compressao-recuperacao-pos-corrida).
 
-Para **iniciantes**, a **Reebok Compression Socks** oferecem uma compressão moderada a um preço acessível, facilitando a introdução ao conceito sem sobrecarregar o orçamento.  
-Para **competidores** que correm maratões ou ultramaratões, a **Nike Pro Compression Socks** ou a **CEP Compression Socks** proporcionam o nível de suporte necessário, combinando compressão adequada e materiais de alta performance.  
-Para quem tem um **orçamento limitado**, a **Under Armour HeatGear Compression Sleeve** é uma alternativa eficaz para treinos em climas mais frios, mantendo o conforto e a funcionalidade a um custo reduzido.
+## E a prevenção de lesões?
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+Não há evidência sólida de que a compressão previna lesões de corrida. Se tens dores recorrentes na canela ou no gémeo, a resposta está na carga de treino, na força e numa avaliação por um fisioterapeuta — não numa meia.
 
-Para aprofundar a relação entre o treino de força e a economia de corrida, consulte o artigo [Treino de Força para Corredores e Economia de Corrida](/blog/treino-forca-corredores-economia-corrida). Se estiver a considerar melhorar a sua técnica de corrida, não deixe de ler também o artigo sobre [Sapatilhas com Placa de Carbono: Vale a Pena?](/blog/sapatilhas-placa-carbono-vale-a-pena-comparativo).
+## Como escolher: critérios que importam
+
+- **Meias ou mangas:** as **meias** cobrem também o pé e são mais práticas para recuperação e viagens; as **mangas** deixam-te usar as tuas meias de corrida habituais e são mais frescas no verão.
+- **Pressão:** nos estudos, o efeito não dependeu claramente da pressão aplicada. Os fabricantes de compressão desportiva costumam indicar cerca de **15–20 mmHg para correr** e **20–30 mmHg para recuperar**. Valores mais altos são, em geral, de uso médico.
+- **Tamanho pela medida, não pelo número do sapato:** as boas marcas dimensionam pelo **perímetro do gémeo** (e às vezes do tornozelo). Mede de manhã, antes de as pernas incharem.
+- **Conforto:** sem pontos de pressão nem dobras atrás do joelho. Se te deixa marcas fundas ou formigueiro, está demasiado apertada.
+- **Durabilidade:** o elastano perde tensão com o uso e as lavagens. Lava a frio e seca ao ar.
+- **Saúde:** se tens doença arterial periférica, diabetes com alterações de sensibilidade nos pés ou problemas de pele nas pernas, fala com o teu médico antes de usar compressão.
+
+## As melhores opções
+
+Mais do que um modelo concreto, o que importa é escolher o **tipo certo** de uma marca que dimensione pela medida do gémeo. Marcas especializadas em compressão, como a **CEP**, têm gamas separadas de meias e mangas para correr e para recuperar.
+
+| Tipo | Para quem é | Pontos fortes | Pontos fracos |
+|---|---|---|---|
+| **Mangas de gémeo para correr** | Quem quer sensação de suporte sem mudar de meias | Frescas, usas as tuas meias de corrida | Não cobrem o pé nem o tornozelo |
+| **Meias de compressão para correr** (cerca de 15–20 mmHg, segundo os fabricantes) | Provas longas e treinos em que gostas de sentir suporte | Pé e perna numa só peça | Mais quentes no verão; tamanho tem de ser exato |
+| **Meias de recuperação** (cerca de 20–30 mmHg, segundo os fabricantes) | Depois de treinos longos, provas e viagens | Pressão mais firme pensada para estar parado | Desconfortáveis para correr; difíceis de calçar |
+| **Calças/tights de compressão** | Quem quer cobrir também a coxa | Compressão em toda a perna | Mais caras e mais quentes — vê o [guia de calças de compressão](/blog/calcas-leggings-compressao-corredores-guia) |
+
+Os preços variam muito entre marcas e gamas; compara na loja e confirma sempre a tabela de tamanhos do fabricante.
+
+## Veredicto
+
+- **Queres correr mais rápido:** não gastes dinheiro em compressão com esse objetivo.
+- **Queres recuperar melhor depois de provas ou treinos longos:** umas **meias de recuperação** são a compra que faz mais sentido, sabendo que o efeito é pequeno.
+- **Gostas da sensação de suporte a correr:** **mangas de gémeo** são a opção mais versátil e fresca.
+
+👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- CEP — artigo sobre compressão e corrida, com as gamas de meias e mangas e a indicação de 15–20 mmHg para correr e 20–30 mmHg para recuperar: https://ceprunning.com/blogs/news/study-shows-compression-clothing-improves-endurance
+
+## Referências Científicas
+
+1. Engel, F. A., Holmberg, H.-C., & Sperlich, B. (2016). Is there evidence that runners can benefit from wearing compression clothing? *Sports Medicine*, 46(12), 1939–1952. https://doi.org/10.1007/s40279-016-0546-5
+2. Brown, F., Gissane, C., Howatson, G., van Someren, K., Pedlar, C., & Hill, J. (2017). Compression garments and recovery from exercise: a meta-analysis. *Sports Medicine*, 47(11), 2245–2267. https://doi.org/10.1007/s40279-017-0728-9
+3. Leabeater, A. J., James, L. P., & Driller, M. W. (2022). Tight margins: compression garment use during exercise and recovery — a systematic review. *Textiles*, 2(3), 395–421. https://doi.org/10.3390/textiles2030022
