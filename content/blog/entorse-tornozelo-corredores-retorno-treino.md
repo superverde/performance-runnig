@@ -1,6 +1,6 @@
 ---
 title: "Entorse de Tornozelo em Corredores: Da Lesão ao Retorno Seguro"
-date: 'PENDENTE'
+date: '2026-10-26'
 category: "Lesões"
 excerpt: "A entorse do tornozelo no corredor recupera melhor com movimento e exercício do que com repouso total. Vê o que fazer em cada fase e quando voltar a correr."
 seoTitle: "Entorse do Tornozelo no Corredor: Guia de Retorno"

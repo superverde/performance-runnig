@@ -1,6 +1,6 @@
 ---
 title: "30-15 IFT: O Intervalado Que Vem do Futebol"
-date: 'PENDENTE'
+date: '2026-10-26'
 category: "Treino"
 excerpt: "O 30-15 IFT é um teste intermitente criado para desportos coletivos que também inspira intervalados de 30/15. Vê como funciona e como o podes usar na corrida."
 seoTitle: "30-15 IFT: O Teste e o Intervalado 30/15"

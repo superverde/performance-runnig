@@ -1,6 +1,6 @@
 ---
 title: "A Regra dos 10%: Mito ou Boa Prática?"
-date: 'PENDENTE'
+date: '2026-10-26'
 category: "Treino"
 excerpt: "A regra dos 10% é uma referência prudente, mas não protege de lesões por si só. Vê o que dizem os estudos e como aumentar a quilometragem com segurança."
 seoTitle: "Regra dos 10%: O Que Dizem os Estudos"
