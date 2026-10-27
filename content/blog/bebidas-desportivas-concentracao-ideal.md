@@ -2,61 +2,104 @@
 title: "Bebidas Desportivas: A Concentração Certa"
 date: '2026-10-01'
 category: "Nutrição"
-excerpt: "Descobre como as bebidas desportivas podem otimizar a tua performance, equilibrando hidratação e energia para corridas mais eficientes e seguras."
-readTime: 4
+excerpt: "Bebidas desportivas: a concentração certa de hidratos e sódio, quando valem a pena, quanto beber por hora e como preparar uma bebida isotónica caseira."
+readTime: 6
 keyword: "bebidas desportivas"
 keywords: ["concentração de hidratos bebida", "bebida isotónica", "osmolalidade"]
 faqs:
   - q: "Qual é a concentração de hidratos de carbono recomendada numa bebida desportiva?"
-    a: "A concentração ideal varia entre 6 % e 8 %, equivalente a 60‑80 g de hidratos por litro, permitindo absorção eficiente sem causar desconforto gastrointestinal."
-  - q: "Como saber se a bebida que estou a usar é isotónica?"
-    a: "Verifica a etiqueta: uma bebida isotónica tem cerca de 300 mOsm kg⁻¹ e contém sódio em torno de 0,3 g L⁻¹; se não houver informação, opta por marcas reconhecidas que especificam a osmolalidade."
-  - q: "É necessário beber água em conjunto com a bebida desportiva durante a corrida?"
-    a: "Sim, a água deve complementar a bebida para evitar a perda de eletrólitos; recomenda‑se beber 250 ml de água a cada 30 min se a bebida não contiver sódio suficiente."
+    a: "A maioria das bebidas desportivas tem entre 6 e 8 % de hidratos de carbono, ou seja, 60 a 80 g por litro. É uma concentração que permite fornecer energia e líquidos ao mesmo tempo, normalmente com boa tolerância intestinal."
+  - q: "Quanto sódio deve ter uma bebida desportiva?"
+    a: "O American College of Sports Medicine indica cerca de 20–30 mmol de sódio por litro, o que corresponde a aproximadamente 460–690 mg de sódio por litro. Muitas bebidas comerciais têm menos; em provas longas e com calor, uma bebida com mais sódio pode ser útil."
+  - q: "Preciso de bebida desportiva num treino de uma hora?"
+    a: "Normalmente não. Em treinos com menos de 60 minutos, a água chega para a maioria dos corredores. A bebida desportiva torna-se útil a partir de cerca de 60–90 minutos de esforço, ou mais cedo em condições de calor intenso."
 ---
 
-As bebidas desportivas são formuladas para manter o equilíbrio hídrico e energético durante a corrida. Para a maioria dos corredores de distância, a concentração ideal de hidratos de carbono situa‑se entre 6 % e 8 %, enquanto o sódio deve manter‑se em torno de 0,3 g L⁻¹, garantindo absorção rápida sem sobrecarregar o intestino.
+Uma bebida desportiva faz três coisas ao mesmo tempo: repõe líquidos, fornece hidratos de carbono e acrescenta sódio. O equilíbrio entre estes três componentes — a concentração — determina se a bebida é absorvida depressa e bem tolerada ou se fica «parada» no estômago. Perceber os números ajuda-te a escolher a bebida certa, a usá-la na dose certa e até a prepará-la em casa.
 
-A hidratação adequada não é apenas sobre quantidade de líquido, mas sobretudo sobre a composição da bebida. Quando o atleta perde grandes quantidades de suor, ele também perde eletrólitos e glicose; a bebida desportiva deve repor ambos para sustentar a performance e prevenir a fadiga.
+## Os três componentes
 
-## Base Científica  
+### 1. Hidratos de carbono
 
-A ciência da nutrição desportiva fundamenta a formulação das bebidas desportivas em dois pilares principais: absorção gástrica eficiente e manutenção da osmolalidade corporal. A osmolalidade da bebida deve situar‑se entre 250 e 350 mOsm kg⁻¹; valores superiores provocam retenção de água no intestino, enquanto valores inferiores podem reduzir a velocidade de absorção de hidratos de carbono. Estudos de Maughan & Shirreffs (2010) demonstraram que bebidas isotónicas com osmolalidade de 300 mOsm kg⁻¹ resultam em maior taxa de absorção de glicose em comparação com soluções hipertónicas.
+A maioria das bebidas desportivas tem **6–8 % de hidratos de carbono** (60–80 g por litro). A posição do American College of Sports Medicine sobre reposição de fluidos refere bebidas com cerca de 5–10 % de hidratos para o esforço prolongado (Sawka et al., 2007). Concentrações mais elevadas fornecem mais energia por gole, mas podem atrasar o esvaziamento gástrico e aumentar o risco de desconforto intestinal em algumas pessoas.
 
-### Concentração de Hidratos na Bebida  
-A concentração de hidratos de carbono na bebida influencia diretamente a velocidade de absorção e a sensação de saciedade. A recomendação de 6‑8 % (60‑80 g de hidratos por litro) é baseada em evidências de que essa faixa permite a utilização simultânea de glicose e maltodextrina através de dois transportadores intestinais (SGLT1 e GLUT2), maximizando a taxa de ingestão de energia sem causar desconforto gastrointestinal (Jeukendrup, 2014).
+### 2. Sódio
 
-### Bebida Isotónica  
-Uma bebida isotónica contém a mesma concentração de solutos que o plasma sanguíneo, aproximando‑se de 300 mOsm kg⁻¹. Esta característica favorece a absorção rápida, mantendo a pressão osmótica e evitando a desidratação. Além disso, a presença de sódio (≈ 0,3 g L⁻¹) ajuda a reabastecer os eletrólitos perdidos pelo suor, reduzindo a probabilidade de cãibras e mantendo a função neuromuscular.
+O sódio melhora o sabor, mantém o estímulo da sede e ajuda a reter os líquidos ingeridos. O ACSM indica cerca de **20–30 mmol de sódio por litro**, o que corresponde a aproximadamente **460–690 mg de sódio por litro** (Sawka et al., 2007). Muitas bebidas comerciais ficam abaixo deste intervalo. As perdas de sódio no suor variam muito de pessoa para pessoa.
 
-## Aplicação Prática  
+### 3. Água
 
-1. **Pré‑Treino (30 min antes)** – Ingerir 250 ml de bebida isotónica 6 % com 0,3 g L⁻¹ de sódio.  
-2. **Durante a Corrida** – Consumir 500 ml a cada 45 min, ajustando‑se à intensidade. Em treinos de 90 min, isso totaliza 1 L de bebida.  
-3. **Pós‑Treino** – Reabastecer 1,5 L de bebida isotónica dentro dos primeiros 30 min, acompanhada de 10 g de proteína (ex.: whey) para acelerar a recuperação.
+Continua a ser o componente principal. A quantidade de que precisas depende da tua taxa de suor, que varia com a intensidade, o calor, a humidade e o tamanho corporal.
 
-Exemplo prático: numa prova de 10 km a 4 min km, o atleta deve ingerir cerca de 1 L de bebida isotónica 6 % (60 g de hidratos) ao longo da prova, mantendo a osmolalidade em 300 mOsm kg⁻¹. Se o suor diário exceder 1 L, o sódio deve ser incrementado para 0,4 g L⁻¹.
+## Isotónica, hipotónica, hipertónica
 
-## Erros Comuns  
+A **osmolalidade** mede a concentração de partículas dissolvidas numa bebida. Em comparação com o plasma sanguíneo:
 
-- **Concentração excessiva de hidratos (≥ 10 %)**: aumenta o risco de desconforto gastrointestinal e diminui a taxa de absorção.  
-- **Uso de bebidas com alto teor de açúcar simples**: pode causar picos de glicemia seguidos de queda brusca, prejudicando a performance.  
-- **Negligenciar a osmolalidade**: bebidas com osmolalidade > 400 mOsm kg⁻¹ provocam retenção de água, enquanto < 250 mOsm kg⁻¹ reduzem a velocidade de absorção.  
+| Tipo | Osmolalidade em relação ao plasma | Exemplos típicos | Uso |
+|---|---|---|---|
+| Hipotónica | Inferior | Água, bebidas com 2–4 % de hidratos | Prioridade aos líquidos |
+| Isotónica | Semelhante | Bebidas com cerca de 6–8 % de hidratos | Equilíbrio entre líquidos e energia |
+| Hipertónica | Superior | Sumos, refrigerantes, bebidas muito concentradas | Prioridade à energia; menos indicadas durante o esforço |
 
-## Protocolo/Conclusão  
+Uma bebida isotónica permite fornecer líquidos e energia ao mesmo tempo de forma eficiente. As hipertónicas puxam inicialmente água para o intestino e são as que mais frequentemente causam desconforto quando consumidas em quantidade durante a corrida.
 
-Para corredores que competem em eventos de 5 km a ultra‑maratões, a estratégia ideal envolve:
+## Glicose e frutose: porque é que a mistura importa
 
-- **Bebida isotónica 6 %** com 0,3 g L⁻¹ de sódio.  
-- **Ingestão de 500 ml a cada 45 min** (ou 250 ml a cada 30 min em treinos mais curtos).  
-- **Monitorização da osmolalidade** (idealmente entre 250‑350 mOsm kg⁻¹).  
-- **Ajuste individual**: atletas com maior perda de suor podem aumentar ligeiramente o sódio para 0,4 g L⁻¹.  
+O intestino absorve a glicose através de um transportador (SGLT1) que satura a cerca de 60 g por hora. A frutose usa um transportador diferente (GLUT5). Por isso, bebidas e géis que combinam glicose (ou maltodextrina) com frutose permitem absorver e oxidar mais hidratos por hora — até cerca de 90 g/h em esforços muito longos — com menor acumulação no intestino (Jeukendrup, 2014).
 
-Ao seguir este protocolo, o atleta mantém a hidratação, garante a disponibilidade de energia e minimiza a ocorrência de problemas gastrointestinais, maximizando a performance.
+## Quanto e quando
 
+### Hidratos por hora
 
-## Referências Científicas  
+As recomendações de consenso são, de forma resumida (Burke et al., 2011; Jeukendrup, 2014):
 
-Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine, 44*(Suppl 1), 25-33. https://doi.org/10.1007/s40279-014-0148-z  
+| Duração do esforço | Hidratos recomendados |
+|---|---|
+| Menos de 45–60 min | Não são necessários |
+| 1–2 horas | Até 30–60 g/h |
+| 2–3 horas | Até 60 g/h |
+| Mais de 2,5–3 horas | Até 90 g/h, com glicose e frutose |
 
-Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. *Scandinavian Journal of Medicine & Science in Sports, 20*(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x
+### O problema da diluição
+
+Para obter 60 g de hidratos por hora só com uma bebida a 6 %, terias de beber **1 litro por hora** — mais do que muitos corredores toleram ou precisam. Por isso, a estratégia mais prática costuma ser combinar a bebida desportiva com géis ou outros alimentos, usando a bebida sobretudo para os líquidos e o sódio.
+
+### Líquidos por hora
+
+O ACSM recomenda que cada atleta defina um plano individual, com o objetivo de evitar perdas de peso superiores a cerca de 2 % durante o esforço sem beber mais do que perde. Na ausência de dados individuais, sugere um ponto de partida de **0,4–0,8 litros por hora**, ajustado ao calor e ao tamanho corporal (Sawka et al., 2007). Beber em excesso, sobretudo em provas longas e a ritmos lentos, é a principal causa de hiponatremia associada ao exercício — vê o artigo sobre [eletrólitos e hiponatremia](/blog/eletrolitos-e-hiponatremia-ultra-trail).
+
+Para personalizar estes valores, aprende a [calcular a tua taxa de suor](/blog/taxa-de-suor-calcular-plano-hidratacao).
+
+## Receita de bebida isotónica caseira
+
+Para 1 litro:
+
+- 1 litro de água
+- 60 g de açúcar de mesa (sacarose: metade glicose, metade frutose)
+- 1/4 de colher de chá de sal fino (cerca de 1,5 g de sal, ou seja, cerca de 0,6 g de sódio)
+- Opcional: sumo de meio limão, para o sabor
+
+Resultado: cerca de 6 % de hidratos e cerca de 25 mmol de sódio por litro — dentro dos intervalos de referência. Testa sempre nos treinos.
+
+## Depois do treino
+
+Se terminaste um treino longo com perda de peso significativa, as recomendações sugerem beber cerca de **1,25–1,5 litros por cada kg perdido** nas horas seguintes, de preferência com sódio, para compensar a urina que continuarás a produzir (Thomas et al., 2016). Uma bebida desportiva, ou água acompanhada de uma refeição com sal, cumpre esse papel.
+
+## Erros comuns
+
+1. **Bebidas demasiado concentradas durante a prova.** Sumos e refrigerantes sem diluição são mais propensos a causar desconforto.
+2. **Contar só com a bebida para atingir 60–90 g/h.** O volume de líquido necessário é, muitas vezes, excessivo.
+3. **Beber «o máximo possível».** Mais líquido não é sempre melhor e pode ser perigoso.
+4. **Ignorar o sódio em provas longas e com calor.** Sobretudo se tens suor muito salgado.
+5. **Estrear uma bebida no dia da prova.** A tolerância intestinal treina-se — vê [como treinar o intestino para 90 g/h](/blog/hidratos-90g-hora-treino-intestinal).
+
+## Conclusão
+
+A bebida desportiva ideal para a maioria dos corredores tem cerca de 6–8 % de hidratos, idealmente com glicose e frutose, e uma quantidade de sódio próxima dos 20–30 mmol por litro. Usa-a em esforços com mais de 60–90 minutos, ajusta a quantidade à tua taxa de suor e combina-a com géis quando precisares de mais energia do que a bebida, sozinha, consegue fornecer.
+
+## Referências Científicas
+
+1. Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand: Exercise and fluid replacement. *Medicine & Science in Sports & Exercise*, 39(2), 377–390.
+2. Jeukendrup, A. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine*, 44(Suppl 1), S25–S33.
+3. Burke, L. M., Hawley, J. A., Wong, S. H. S., & Jeukendrup, A. E. (2011). Carbohydrates for training and competition. *Journal of Sports Sciences*, 29(Suppl 1), S17–S27. https://doi.org/10.1080/02640414.2011.585473
+4. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: Nutrition and athletic performance. *Journal of the Academy of Nutrition and Dietetics*, 116(3), 501–528. https://doi.org/10.1016/j.jand.2015.12.006

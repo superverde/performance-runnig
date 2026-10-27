@@ -5,50 +5,114 @@ category: "Psicologia"
 excerpt: "O burnout desportivo apanha corredores dedicados. Conhece os sinais de esgotamento, as causas mais comuns e o que fazer para voltar a gostar de correr."
 keyword: "burnout desportivo"
 keywords: ["burnout corredor", "esgotamento no desporto", "sinais de burnout corrida"]
-readTime: 4
+readTime: 5
+faqs:
+  - q: "Qual é a diferença entre burnout e sobretreino?"
+    a: "O sobretreino é sobretudo uma queda prolongada do rendimento provocada por um desequilíbrio entre carga de treino e recuperação, com sintomas físicos e psicológicos. O burnout é uma síndrome psicológica de exaustão, sensação de falta de realização e desvalorização do desporto. Podem coexistir e alimentar-se mutuamente."
+  - q: "Quais são os primeiros sinais de burnout num corredor?"
+    a: "Cansaço que não melhora com descanso, perda do prazer em correr, sensação de que os treinos são uma obrigação, irritabilidade, pior sono e a impressão de que, por mais que treines, não evoluis."
+  - q: "O que devo fazer se achar que estou em burnout?"
+    a: "Reduz a carga de treino ou faz uma pausa, fala com o teu treinador e com pessoas próximas e procura avaliação médica para excluir outras causas de fadiga. Se os sintomas persistirem ou afetarem outras áreas da vida, procura um psicólogo, de preferência com experiência em desporto."
 ---
 
-A corrida é um desporto que exige uma combinação de capacidade física e mental. Embora a fadiga física seja um fator importante, o burnout desportivo é um problema cada vez mais comum entre corredores. O burnout desportivo é uma condição de esgotamento físico, mental e emocional que pode levar a uma perda de interesse e motivação pelo desporto.
+O burnout desportivo raramente aparece em quem corre por desporto de forma descontraída. Apanha sobretudo os corredores mais dedicados: os que treinam todos os dias, perseguem marcas pessoais, encadeiam provas atrás de provas e fazem da corrida uma parte central da sua identidade. Um dia, sem razão aparente, correr deixa de ser um prazer e passa a ser um peso. Reconhecer os sinais cedo faz toda a diferença na recuperação.
 
-Os corredores que se encontram em situações de alto nível de treino, como os atletas profissionais ou os corredores de elite, estão mais propensos a desenvolver burnout desportivo. Isso ocorre porque o treino intenso e frequentes pode levar a uma sobrecarga física e mental que não é compensada por um período de descanso adequado. Além disso, a pressão para realizar desempenhos excelentes e a expectativa de resultados positivos podem contribuir para o burnout.
+## O que é o burnout desportivo
 
-O burnout desportivo não se limita apenas aos corredores de alto nível. Qualquer corredor que esteja num ciclo de treino intenso e frequente pode estar em risco de desenvolver burnout desportivo. É importante que os corredores estejam cientes dos sinais de burnout desportivo e tomem medidas para prevenir sua ocorrência.
+O conceito de burnout surgiu na psicologia do trabalho e foi adaptado ao desporto. A definição mais usada em investigação descreve o burnout do atleta como uma síndrome com três dimensões (Raedeke & Smith, 2001):
 
-### ## Base Científica
+1. **Exaustão física e emocional** — sentir-se esgotado pelas exigências do treino e da competição.
+2. **Sensação reduzida de realização** — a perceção de que não estás a evoluir nem a atingir os objetivos, por mais que te esforces.
+3. **Desvalorização do desporto** — perder o interesse, deixar de te importar com o rendimento, distanciar-te da modalidade.
 
-O burnout desportivo é um conceito que foi primeiro descrito por Maslach e Jackson (1981) como um estado de esgotamento físico, mental e emocional que pode levar a uma perda de interesse e motivação pelo trabalho ou desporto. No contexto do desporto, o burnout desportivo é caracterizado por sinais como fadiga crónica, perda de motivação, irritabilidade e sentimentos de inadequação.
+Uma revisão que integrou os diferentes modelos teóricos descreve o burnout como um processo que se desenvolve ao longo do tempo, alimentado por uma combinação de fatores de stress (treino e competição), recuperação insuficiente e características pessoais e sociais (Gustafsson et al., 2011).
 
-A fadiga crónica é um sinal importante do burnout desportivo. A fadiga crónica é uma condição de esgotamento físico que pode levar a uma perda de desempenho e uma diminuição da motivação para realizar atividades físicas. A fadiga crónica pode ser causada por vários fatores, incluindo o treino intenso e frequente, a falta de descanso adequado e a dieta insuficiente.
+## Burnout, sobretreino e outras causas de fadiga
 
-A perda de motivação é outro sinal importante do burnout desportivo. A perda de motivação é um estado de esgotamento emocional que pode levar a uma perda de interesse e entusiasmo pelo desporto. A perda de motivação pode ser causada por vários fatores, incluindo a pressão para realizar desempenhos excelentes, a expectativa de resultados positivos e a falta de apoio social.
+O burnout não é o mesmo que o sobretreino, embora possam sobrepor-se:
 
-### ## Aplicação Prática
+| | Sobretreino | Burnout |
+|---|---|---|
+| Natureza | Desequilíbrio entre carga e recuperação | Síndrome psicológica |
+| Sinal principal | Queda prolongada do rendimento | Exaustão, falta de realização, desinteresse |
+| Causa principal | Treino excessivo e recuperação insuficiente | Stress crónico (treino, expectativas, vida) com pouca recuperação |
 
-Os corredores que estão em risco de desenvolver burnout desportivo devem tomar medidas para prevenir sua ocorrência. Aqui estão algumas dicas práticas para prevenir o burnout desportivo:
+O consenso europeu e norte-americano sobre sobretreino lembra que, antes de atribuir a fadiga persistente e a queda de rendimento ao treino, é essencial excluir outras causas, como doença, infeções, alterações hormonais ou nutricionais (Meeusen et al., 2013). Em corredores, a baixa disponibilidade energética — comer menos do que o treino exige — é uma causa frequente e muitas vezes ignorada; vê o artigo sobre [RED-S](/blog/red-s-disponibilidade-energetica-corredores). Sintomas como tristeza persistente, perda de interesse por tudo (não só pela corrida) ou alterações marcadas do sono e do apetite podem indicar depressão e devem ser avaliados por um profissional de saúde.
 
-*   **Treino equilibrado**: O treino deve ser equilibrado e variado para evitar a sobrecarga física e mental. O treino deve incluir atividades de força, flexibilidade e cardiovascular.
-*   **Descanso adequado**: O descanso é fundamental para evitar a fadiga crónica e a perda de motivação. O corredor deve dormir bem e ter tempo para descansar entre os treinos.
-*   **Dieta equilibrada**: A dieta deve ser equilibrada e incluir nutrientes essenciais para o treino. A dieta deve incluir proteínas, hidratos de carbono e gorduras saudáveis.
-*   **Apoio social**: O apoio social é fundamental para evitar a perda de motivação. O corredor deve ter um apoio social forte e estar conectado com outros corredores e amigos.
+## Sinais de alerta
 
-### ## Erros Comuns
+### Físicos
 
-Os corredores comummente cometem erros que podem contribuir para o burnout desportivo. Aqui estão alguns erros comuns:
+- Cansaço que não melhora com alguns dias de descanso
+- Pernas pesadas constantemente, mesmo em corridas fáceis
+- Sono de pior qualidade
+- Infeções mais frequentes
 
-*   **Treino excessivo**: O treino excessivo pode levar a uma sobrecarga física e mental que não é compensada por um período de descanso adequado.
-*   **Falta de descanso**: A falta de descanso é um fator importante para o burnout desportivo. O corredor deve dormir bem e ter tempo para descansar entre os treinos.
-*   **Dieta insuficiente**: A dieta insuficiente pode levar a uma falta de nutrientes essenciais para o treino. A dieta deve incluir proteínas, hidratos de carbono e gorduras saudáveis.
-*   **Pressão para realizar desempenhos excelentes**: A pressão para realizar desempenhos excelentes pode levar a uma perda de motivação e uma diminuição da confiança.
+### Psicológicos e comportamentais
 
-### ## Protocolo/Conclusão
+- Perda do prazer em correr; os treinos parecem uma obrigação
+- Irritabilidade, menor tolerância à frustração
+- Sensação de que não evoluis, por mais que treines
+- Desinteresse pelas provas, pelos resultados ou pelo grupo de corrida
+- Procurar desculpas para faltar aos treinos — ou, no extremo oposto, treinar por culpa
 
-O burnout desportivo é um problema comum entre corredores que pode levar a uma perda de interesse e motivação pelo desporto. Os corredores que estão em risco de desenvolver burnout desportivo devem tomar medidas para prevenir sua ocorrência. O treino equilibrado, o descanso adequado, a dieta equilibrada e o apoio social são fundamentais para evitar o burnout desportivo.
+Vê também os sinais de [overreaching e sobretreino](/blog/overreaching-vs-overtraining-como-distinguir-e-resolver).
 
-Os corredores devem estar cientes dos sinais de burnout desportivo e tomar medidas para prevenir sua ocorrência. O burnout desportivo pode ser prevenido com um treino equilibrado, um descanso adequado, uma dieta equilibrada e um apoio social forte. Os corredores devem estar dispostos a fazer mudanças no seu estilo de treino e na sua vida para evitar o burnout desportivo.
+## Fatores de risco
+
+A investigação identifica vários fatores que aumentam o risco (Gustafsson et al., 2011):
+
+- **Carga elevada com pouca recuperação** — física e mental.
+- **Falta de variação** — os mesmos treinos, os mesmos percursos, a mesma rotina durante meses.
+- **Perfeccionismo e autocrítica excessiva** — nunca estar satisfeito com nenhum resultado.
+- **Motivação sobretudo externa** — treinar para cumprir expectativas, para os números do relógio ou para as redes sociais, mais do que por gosto.
+- **Identidade centrada na corrida** — quando correr é quase tudo o que define a pessoa.
+- **Sensação de pouca autonomia** — sentir que não tens controlo sobre o teu treino.
+- **Stress fora do desporto** — trabalho, família, finanças.
+
+## Prevenção
+
+### 1. Planeia a recuperação
+
+- Inclui semanas mais leves a cada 3–4 semanas — vê [como programar uma semana de recuperação](/blog/deload-semana-recuperacao-programar).
+- Faz uma pausa ou um período de treino livre depois das provas principais.
+- Protege o sono.
+
+### 2. Varia
+
+- Muda de percursos, de terreno e de tipo de provas.
+- Inclui outras atividades (bicicleta, natação, caminhada em montanha).
+- Corre de vez em quando sem relógio, só pelo prazer.
+
+### 3. Objetivos com sentido
+
+- Define objetivos que dependam de ti (processo, consistência, aprendizagem) e não só de tempos.
+- Reavalia os objetivos se a vida mudar.
+
+### 4. Apoio social e autonomia
+
+- Treinar em grupo ou com amigos ajuda muitos corredores.
+- Se tens treinador, discute abertamente como te sentes; o plano deve ser construído contigo, não imposto.
+
+### 5. Equilíbrio
+
+- Mantém outras fontes de satisfação e identidade fora da corrida.
+- Ajusta a carga de treino em fases de stress no trabalho ou na família.
+
+## O que fazer se já estás em burnout
+
+1. **Reduz a carga ou faz uma pausa.** Duas a quatro semanas com treino livre e muito leve, ou mesmo sem corrida, podem ser necessárias.
+2. **Exclui outras causas.** Uma consulta médica, eventualmente com análises, ajuda a excluir anemia, problemas da tiroide, baixa disponibilidade energética e outras causas de fadiga.
+3. **Fala sobre isso.** Com o treinador, com amigos, com a família.
+4. **Reconstrói o prazer antes do rendimento.** Volta a correr sem objetivos, em locais de que gostes, com quem gostes.
+5. **Procura ajuda profissional** se os sintomas persistirem, se te sentires em baixo durante semanas ou se a situação afetar outras áreas da vida. Um psicólogo, idealmente com experiência em desporto, pode ajudar-te a perceber o que alimentou o burnout e a prevenir recaídas.
+
+## Conclusão
+
+O burnout desportivo é uma síndrome de exaustão, falta de realização e desinteresse que resulta de stress crónico com pouca recuperação — e afeta sobretudo os corredores mais empenhados. Planear a recuperação, variar o treino, manter objetivos com sentido e uma vida equilibrada são as melhores formas de o prevenir. Se os sinais já estão presentes, reduz a carga, exclui outras causas e não hesites em pedir ajuda.
 
 ## Referências Científicas
 
-*   Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554
-*   McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6
-*   Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082
-*   Tenenbaum, G., & Eklund, R. C. (Eds.). (2007). Handbook of Sport Psychology (3rd ed.). John Wiley & Sons.
+1. Raedeke, T. D., & Smith, A. L. (2001). Development and preliminary validation of an athlete burnout measure. *Journal of Sport & Exercise Psychology*, 23(4), 281–306.
+2. Gustafsson, H., Kenttä, G., & Hassmén, P. (2011). Athlete burnout: an integrated model and future research directions. *International Review of Sport and Exercise Psychology*, 4(1), 3–24. https://doi.org/10.1080/1750984X.2010.541927
+3. Meeusen, R., Duclos, M., Foster, C., Fry, A., Gleeson, M., Nieman, D., Raglin, J., Rietjens, G., Steinacker, J., & Urhausen, A. (2013). Prevention, diagnosis, and treatment of the overtraining syndrome: joint consensus statement of the European College of Sport Science and the American College of Sports Medicine. *European Journal of Sport Science*, 13(1), 1–24.

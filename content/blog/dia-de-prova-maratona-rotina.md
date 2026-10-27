@@ -6,76 +6,117 @@ excerpt: "O dia da maratona começa três dias antes. Vê a rotina de alimentaç
 seoTitle: "Dia da Maratona: A Rotina dos 3 Dias Antes à Partida"
 keyword: "dia da maratona"
 keywords: ["rotina antes da maratona", "3 dias antes da maratona", "manhã da maratona"]
-readTime: 5
+readTime: 7
 faqs:
-  - q: "Qual é a quantidade ideal de hidratos de carbono no dia da maratona?"
-    a: "Deve‑se consumir cerca de 5–7 g/kg de hidratos de carbono nas 24 h que antecedem a prova, com um lanche leve 30–60 min antes do início."
-  - q: "Quanto tempo antes da partida devo começar a hidratar-me?"
-    a: "Inicie a hidratação 3–4 h antes da linha de partida, mantendo 200–250 mL de isotônico a cada 20 km."
-  - q: "Posso correr no dia da maratona se tive um treino intenso no dia anterior?"
-    a: "Não. Se o treino anterior foi de 10 km a 80 % FCmáx, é recomendável apenas atividade leve ou descanso total para evitar sobrecarga."
+  - q: "Quantos hidratos de carbono devo comer antes da maratona?"
+    a: "As recomendações de consenso para provas com mais de 90 minutos apontam para 10–12 g de hidratos de carbono por kg de peso por dia nas 36–48 horas antes da prova. Para um corredor de 70 kg, isso significa cerca de 700–840 g por dia, com alimentos pobres em fibra e gordura."
+  - q: "O que devo comer na manhã da maratona?"
+    a: "Uma refeição já testada nos treinos, 2 a 4 horas antes da partida, com cerca de 1–4 g de hidratos de carbono por kg (por exemplo, pão branco com mel, banana e um iogurte). Evita alimentos ricos em fibra, gordura ou muito condimentados."
+  - q: "Quanto devo beber antes e durante a maratona?"
+    a: "Cerca de 4 horas antes, bebe 5–7 ml por kg de peso e ajusta pela cor da urina. Durante a prova, bebe de acordo com a sede nos abastecimentos: o objetivo é evitar uma desidratação marcada sem beber em excesso, o que aumenta o risco de hiponatremia."
 ---
 
-A rotina ideal no dia da maratona começa três dias antes, com foco em recuperação, hidratação e preparação mental, culminando numa estratégia de alimentação e descanso que garante energia para a linha de partida.  
-Nos três dias que antecedem o evento, o objetivo principal é reduzir a carga de treino, otimizar a reposição de glicogeno e manter a condição cardiovascular em nível estável. No dia da prova, a atenção passa a ser a gestão do ritmo, a ingestão de hidratos de carbono e a manutenção da hidratação, tudo coordenado num plano de tempo rigoroso.
+A maratona não começa com o tiro de partida. Começa nos três dias anteriores, quando o treino já está feito e o que resta é encher as reservas de glicogénio, dormir, gerir a ansiedade e não cometer erros evitáveis. Nada do que fizeres nesta fase te torna mais em forma — mas muita coisa pode estragar meses de preparação.
 
-O que se costuma chamar de “taper” (redução de volume) não é apenas uma diminuição de distância, mas uma re‑programação de intensidade que preserva a capacidade anaeróbica e a resistência aeróbica. A combinação de descanso, mobilidade e alimentação específica faz com que o atleta chegue à linha de partida com a musculatura fresca, os sistemas energéticos carregados e a mente focada.
+Este guia junta o que dizem os consensos de nutrição desportiva e hidratação numa rotina simples, dia a dia, até à linha de partida.
 
-## Base Científica
+## A lógica dos últimos três dias
 
-O taper de três dias tem sido validado por estudos que analisam a resposta fisiológica à redução de volume. Seiler (2010) demonstra que a diminuição de 30–40 % do volume semanal, mantendo a intensidade, resulta numa recuperação de força muscular e na preservação da capacidade de lactato. Laursen (2010) destaca que a manutenção de sessões de alta intensidade, mesmo em menor volume, favorece a capacidade de resposta ao esforço máximo, crucial em maratona.  
-Buchheit & Laursen (2013) explicam que a síntese de glicogeno muscular atinge pico 24 h após a última sessão de treino intenso, por isso a alimentação de hidratos de carbono deve ser maximizada nesse período. Por fim, a periodização de Bompa & Buzzichelli (2018) descreve que a fase de “taper” deve incluir 2–3 dias de descanso total ou de atividade muito leve, seguida de 1–2 dias de “re‑load” leve (circuitos de mobilidade e corrida de 5–10 km a 60 % do FCmáx).
+Nesta altura deves estar no fim do afinamento (taper), com o volume bastante reduzido mas ainda com alguns estímulos curtos a ritmo de prova. Uma meta-análise concluiu que reduzir o volume em cerca de 40–60 %, mantendo a intensidade e a frequência dos treinos, é a forma mais eficaz de chegar à competição com a fadiga dissipada (Bosquet et al., 2007). Vê o artigo sobre o [taper para a maratona](/blog/taper-maratona-semana-final) para a estrutura completa.
 
-## Aplicação Prática
+Os três objetivos dos últimos dias são:
 
-### 3 Dias Antes (Dia –3)
-- **Atividade**: 30 min de corrida leve (≤ 60 % FCmáx) + 15 min de mobilidade articular.
-- **Hidratação**: 2,5 L de água + 0,5 L de isotônico (0,5 % de sódio).
-- **Nutrição**: 6 g/kg de hidratos de carbono (ex.: 350 g para atleta de 70 kg). Inclui 1 g de proteína por refeição (ex.: 20 g no pequeno-almoço).
-- **Sono**: 8–9 h, sem cochilos prolongados.
+1. **Maximizar o glicogénio muscular e hepático** — a principal reserva de energia para um esforço de 3 a 5 horas.
+2. **Chegar descansado** — sem treinos longos nem horas de pé.
+3. **Eliminar variáveis** — nada de novo na comida, no equipamento ou na rotina.
 
-### 2 Dias Antes (Dia –2)
-- **Atividade**: 20 min de corrida leve + 10 min de alongamento estático.
-- **Hidratação**: 2,5 L de água + 0,5 L de isotônico.  
-- **Nutrição**: 5,5 g/kg de hidratos de carbono; manter proteína a 1 g/kg.  
-- **Sono**: 8 h, evitar álcool.
+## A carga de hidratos de carbono: o que diz a evidência
 
-### 1 Dia Antes (Dia –1)
-- **Atividade**: 10 min de caminhada leve + 5 min de mobilidade.
-- **Hidratação**: 2 L de água, 0,5 L de isotônico.  
-- **Nutrição**: 4 g/kg de hidratos de carbono (ex.: 280 g). Evitar fibras altas.  
-- **Sono**: 7–8 h, usar técnicas de relaxamento (respiração diafragmática).
+Para provas com mais de 90 minutos, as recomendações de consenso indicam **10–12 g de hidratos de carbono por kg de peso por dia nas 36–48 horas antes** da prova (Burke et al., 2011; Thomas et al., 2016). Já não é necessária a antiga fase de depleção com treino exaustivo e dieta pobre em hidratos: com treino reduzido e ingestão elevada, os músculos atingem níveis muito elevados de glicogénio em 24 a 48 horas (Bussau et al., 2002).
 
-### Dia da Maratona (Dia 0)
+Para um corredor de 70 kg, 10–12 g/kg corresponde a **700–840 g de hidratos por dia** — muito mais do que a maioria das pessoas come habitualmente. Para lá chegar sem desconforto:
 
-| Horário | Atividade | Objetivo |
-|---------|-----------|----------|
-| 06:00 | Acordar | Iniciar metabolismo |
-| 06:15 | Pequeno lanche (200 g de banana + 30 g de aveia) | Glicogeno rápido |
-| 06:30 | 15 min de caminhada + 5 min de mobilidade | Pré‑aquecimento |
-| 07:00 | Chegada ao local | Check‑in, vestir roupa |
-| 07:45 | Pequeno-almoço (hidratos de carbono 50 g, proteína 10 g) | Energia sustentada |
-| 08:30 | Última bebida (200 mL isotônico) | Hidratação |
-| 09:00 | Linha de partida | Iniciar a prova |
+- Prefere fontes pobres em fibra: arroz branco, massa, pão branco, batata sem casca, cereais pouco integrais, sumos, compotas, mel.
+- Reduz a gordura e a fibra (leguminosas, vegetais crus, integrais) para dar espaço aos hidratos e reduzir o risco de problemas intestinais.
+- Usa líquidos com hidratos (sumos, bebidas desportivas, leite com chocolate) para completar as quantidades.
+- Distribui por 5–6 refeições e lanches.
 
-Durante a prova:
-- **Ritmo**: 70 % FCmáx nas primeiras 5 km, depois subir gradualmente até 80 % FCmáx na última metade.
-- **Hidratos de carbono**: 30–40 g/h via gel ou isotônico.  
-- **Hidratação**: 250 mL a cada 20 km.  
-- **Mental**: Técnica de visualização de cada quilómetro, foco no ritmo, não na posição final.
+É normal ganhares algum peso nestes dias: o glicogénio é armazenado juntamente com água. Não é gordura e não te vai tornar mais lento.
 
-## Erros Comuns
+## Dia –3
 
-1. **Subestimar a hidratação**: Muitas corridas têm pontos de água a cada 5 km, mas a ingestão deve começar antes.  
-2. **Alimentação inadequada**: Comer fibras pesadas ou gorduras no dia da prova aumenta o risco de desconforto gastrointestinal.  
-3. **Descansar demais**: Dormir excessivamente pode reduzir a capacidade de resposta ao esforço.  
-4. **Ignorar o ritmo de recuperação**: Ignorar dores musculares e não fazer mobilidade pode levar a lesões de última hora.
+- **Treino:** 30–40 min fáceis, eventualmente com 3–4 acelerações curtas.
+- **Alimentação:** começa a aumentar os hidratos; se a prova for de manhã cedo, as 36–48 horas de carga começam no dia –2.
+- **Rotina:** confirma o percurso até à partida, os horários e o regulamento (abastecimentos, zonas de partida).
 
-## Protocolo/Conclusão
+## Dia –2
 
-A rotina de três dias antes da maratona é um equilíbrio entre recuperação e estímulo. O protocolo acima, baseado em evidências de Seiler, Laursen, Buchheit & Laursen e Bompa & Buzzichelli, garante que a musculatura esteja fresca, os sistemas energéticos carregados e a mente preparada. Seguir um plano de alimentação, hidratação e sono estruturado, aliado a uma estratégia de ritmo e ingestão de hidratos de carbono durante a prova, maximiza a probabilidade de alcançar o melhor desempenho possível.
+- **Treino:** 20–30 min fáceis ou descanso total.
+- **Alimentação:** 10–12 g/kg de hidratos, pouca fibra e gordura.
+- **Sono:** prioriza esta noite; é frequente dormir mal na véspera da prova por ansiedade, e as noites anteriores dão-te margem.
+- **Equipamento:** prepara tudo o que vais usar, já testado em treinos longos — sapatilhas, meias, roupa, géis, dorsal, alfinetes.
 
+## Dia –1
+
+- **Treino:** descanso ou 15–20 min muito fáceis com 2–3 acelerações, se isso te ajudar a soltar as pernas.
+- **Alimentação:** mantém os hidratos elevados; o jantar deve ser cedo, familiar e simples. Evita álcool.
+- **Hidratação:** bebe normalmente ao longo do dia; urina de cor clara é um bom indicador.
+- **Logística:** levanta o dorsal cedo e evita passar horas de pé em feiras e passeios.
+
+## A manhã da prova
+
+| Quando | O quê |
+|---|---|
+| 3–4 h antes | Acordar; pequeno-almoço testado com 1–4 g/kg de hidratos (Thomas et al., 2016) |
+| ~4 h antes | Beber cerca de 5–7 ml/kg de água ou bebida desportiva (Sawka et al., 2007) |
+| ~2 h antes | Se a urina for escura ou escassa, mais 3–5 ml/kg (Sawka et al., 2007) |
+| ~60 min antes | Cafeína, apenas se já testada em treino (3–6 mg/kg; Guest et al., 2021) |
+| 30–45 min antes | Casa de banho, vestir o agasalho de descarte, entrar na zona de partida |
+| 10–15 min antes | Aquecimento curto: 5–10 min de trote ou caminhada e 2–3 acelerações |
+| 0–10 min antes | Opcional: um gel ou alguns goles de bebida desportiva |
+
+Um exemplo de pequeno-almoço para 70 kg, 3 horas antes: duas fatias de pão branco com mel ou compota, uma banana, um iogurte e um copo de sumo — cerca de 140–150 g de hidratos. A quantidade certa é a que já testaste num treino longo.
+
+Para a maratona, o aquecimento deve ser mínimo: os primeiros quilómetros a ritmo controlado fazem esse papel. Se a manhã estiver fria, usa um [agasalho de descarte](/blog/agasalho-maratona-descarte-estrategia).
+
+## Durante a prova
+
+### Hidratos de carbono
+
+As recomendações para esforços de 1 a 2,5 horas são de 30–60 g de hidratos por hora; para esforços mais longos, até cerca de 90 g/h, usando misturas de glicose e frutose (Burke et al., 2011; Jeukendrup, 2014). Na prática:
+
+- **Maratona de 3–3h30:** 60–90 g/h, se o teu intestino estiver treinado para isso.
+- **Maratona de 4 horas ou mais:** 40–60 g/h é um ponto de partida realista; sobe gradualmente nos treinos.
+- Começa cedo (km 5–8) e repete a intervalos regulares. Testa a mesma marca e o mesmo esquema nos treinos longos.
+
+Vê mais em [hidratos durante a maratona](/blog/carboidratos-durante-maratona-ciencia).
+
+### Líquidos
+
+O objetivo é evitar perdas de peso superiores a cerca de 2 % sem beber mais do que perdes (Sawka et al., 2007). Beber em excesso, sobretudo em corredores mais lentos, aumenta o risco de hiponatremia. Bebe de acordo com a sede nos abastecimentos e, se conheces a tua taxa de suor, ajusta o plano — vê como [calcular a taxa de suor](/blog/taxa-de-suor-calcular-plano-hidratacao).
+
+### Ritmo
+
+A estratégia mais segura para a maioria dos amadores é um ritmo constante ou uma segunda metade ligeiramente mais rápida. Partir rápido demais é uma das principais causas de quebra a partir do km 30. Mais detalhe em [estratégias de pacing na maratona](/blog/estrategias-pacing-maratona).
+
+## Erros comuns
+
+1. **Experimentar algo novo.** Comida, géis, sapatilhas ou meias que nunca usaste num treino longo.
+2. **Carga de hidratos mal feita.** Comer «um prato grande de massa» na véspera não chega para 10–12 g/kg; e encher a carga de fibra e gordura causa desconforto.
+3. **Beber em excesso.** Mais água não é sempre melhor.
+4. **Gastar energia no dia anterior.** Horas de pé, passeios e treinos «só para confirmar».
+5. **Sair ao ritmo do vizinho.** Os primeiros 10 km decidem os últimos 10.
+
+## Conclusão
+
+A rotina dos últimos três dias é simples: treino mínimo, carga de hidratos de 10–12 g/kg nas 36–48 horas antes, sono e logística resolvidos, pequeno-almoço testado e um plano de abastecimento treinado. Deixa a forma que construíste fazer o resto.
 
 ## Referências Científicas
 
-1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291. https://doi.org/10.1123/ijspp.5.3.276
+1. Burke, L. M., Hawley, J. A., Wong, S. H. S., & Jeukendrup, A. E. (2011). Carbohydrates for training and competition. *Journal of Sports Sciences*, 29(Suppl 1), S17–S27. https://doi.org/10.1080/02640414.2011.585473
+2. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: Nutrition and athletic performance. *Journal of the Academy of Nutrition and Dietetics*, 116(3), 501–528. https://doi.org/10.1016/j.jand.2015.12.006
+3. Bussau, V. A., Fairchild, T. J., Rao, A., Steele, P., & Fournier, P. A. (2002). Carbohydrate loading in human muscle: an improved 1 day protocol. *European Journal of Applied Physiology*, 87(3), 290–295.
+4. Jeukendrup, A. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine*, 44(Suppl 1), S25–S33.
+5. Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand: Exercise and fluid replacement. *Medicine & Science in Sports & Exercise*, 39(2), 377–390.
+6. Guest, N. S., VanDusseldorp, T. A., Nelson, M. T., et al. (2021). International society of sports nutrition position stand: caffeine and exercise performance. *Journal of the International Society of Sports Nutrition*, 18(1), 1. https://doi.org/10.1186/s12970-020-00383-4
+7. Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (2007). Effects of tapering on performance: a meta-analysis. *Medicine & Science in Sports & Exercise*, 39(8), 1358–1365. https://doi.org/10.1249/mss.0b013e31806010e0

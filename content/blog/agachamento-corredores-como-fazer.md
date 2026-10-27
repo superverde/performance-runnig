@@ -5,68 +5,114 @@ category: "Treino"
 excerpt: "O agachamento para corredores fortalece glúteos, quadricípites e core e melhora a economia. Vê a técnica, as variantes e como progredir sem te lesionares."
 keyword: "agachamento para corredores"
 keywords: ["agachamento corrida", "treino de força corredores", "variantes de agachamento"]
-readTime: 5
+readTime: 6
 faqs:
-  - q: "Qual a carga ideal de início para um corredor sem experiência prévia em agachamento?"
-    a: "Comece com 40–45 % do 1RM, usando apenas o peso corporal ou uma barra vazia, e aumente gradualmente 2–3 % semanalmente."
-  - q: "Quantas séries e repetições são recomendadas para melhorar a resistência à fadiga em corrida?"
-    a: "Realize 3–4 séries de 8–12 repetições, mantendo a técnica, e aumente a carga em 3–5 % a cada duas semanas."
-  - q: "Posso fazer agachamentos com barra na parte superior da coluna (back squat) se tenho dor lombar?"
-    a: "Não. Se houver dor lombar, prefira agachamento frontal, goblet squat ou variantes com menor carga lombar até a força central melhorar."
+  - q: "Com que carga deve começar um corredor sem experiência de agachamento?"
+    a: "Com o peso do corpo ou um goblet squat leve, durante duas a quatro semanas, até a técnica estar consolidada. Depois, aumenta a carga de forma gradual, mantendo sempre duas a três repetições de margem no fim de cada série."
+  - q: "Quantas séries e repetições deve fazer um corredor?"
+    a: "Na fase de aprendizagem, 2–3 séries de 8–10 repetições. Para melhorar a força e a economia de corrida, a evidência favorece cargas mais pesadas: 3–4 séries de 4–6 repetições, duas vezes por semana, com técnica controlada."
+  - q: "Posso fazer agachamento com barra nas costas se tiver dor lombar?"
+    a: "Se tens dor lombar, procura primeiro avaliação de um fisioterapeuta ou médico. Muitas vezes é possível treinar com variantes que colocam menos carga na coluna, como o goblet squat, o agachamento búlgaro ou o step-up, ajustando a carga à tolerância."
 ---
 
-O agachamento, quando corretamente executado, fortalece quadríceps, glúteos e core, melhorando a eficiência biomecânica e a resistência à fadiga em corredores.  
-Para corredores de elite ou amadores, o agachamento não é apenas um exercício de força; é um componente-chave na prevenção de lesões e na maximização da potência de propulsão.  
+O agachamento é um dos exercícios mais úteis que um corredor pode fazer fora da estrada. Trabalha os quadricípites, os glúteos, os adutores e os músculos do tronco num padrão de movimento — flexão e extensão simultânea de anca, joelho e tornozelo — que está na base de cada passada. Bem feito e bem doseado, ajuda a melhorar a economia de corrida e a tolerância dos tecidos à carga, sem te tornar mais pesado nem mais lento.
 
-A maioria dos corredores subestima a importância do treino de força, focando apenas em kilometrajes. Contudo, estudos demonstram que a integração de exercícios de força, especialmente agachamentos, reduz o risco de lesões como tendinite do patelar e síndrome do trato iliotibial, além de aumentar a economia de corrida em 3‑5 % (Blagrove et al., 2018). A seguir, detalhamos a técnica, variantes, progressão e protocolos de treino adaptados ao perfil de corredores.
+## O que diz a evidência
 
-## Base Científica  
-O agachamento ativa o quadríceps femoral, glúteo máximo e músculos estabilizadores do core, que são os principais motores de propulsão na corrida. A biomecânica da passada mostra que a força quadríceps gera 60–70 % da força propulsiva, enquanto o glúteo fornece estabilidade e controlo de extensão hipocêntrica (Laursen, 2010). Além disso, a carga sobre a coluna lombar aumenta em até 2 × o peso corporal; portanto, a técnica correta é vital para evitar lombalgia.  
+### Economia de corrida
 
-A periodização de força para corredores segue três fases principais: hipertrofia (4–6 sem), força (3–4 sem) e potência (2–3 sem), conforme Bompa & Buzzichelli (2018). Cada fase tem objetivos distintos: aumento de massa muscular, aumento de carga máxima e transferência de potência à corrida.  
+Uma revisão sistemática concluiu que o treino de força — pesado, explosivo ou pliométrico — melhora a economia de corrida e o rendimento em corredores de meio-fundo e fundo, sem efeitos negativos no VO₂máx (Blagrove et al., 2018). Uma meta-análise em corredores altamente treinados encontrou um efeito grande e positivo na economia de corrida com programas de 8 a 12 semanas, 2 a 3 vezes por semana, combinando exercícios de membros inferiores com saltos e acelerações (Balsalobre-Fernández et al., 2016).
 
-A literatura indica que a progressão de carga deve ser de 3–5 % por semana, mantendo a repetição‑range 8–12, para garantir adaptações neuromusculares sem sobrecarga (Seiler, 2010). A carga máxima (1RM) pode ser estimada com a fórmula 1RM = peso × (1 + repetições / 30) para evitar testes de 1RM em corredores que não tenham experiência prévia.
+O agachamento é um exercício central em muitos destes programas. Num estudo com corredores bem treinados, oito semanas de meio-agachamento pesado (4 séries de 4 repetições máximas, três vezes por semana) melhoraram a economia de corrida em cerca de 5 % e o tempo até à exaustão à velocidade aeróbia máxima em cerca de 21 %, sem aumento do peso corporal (Støren et al., 2008).
 
-## Aplicação Prática  
-### Técnica do Agachamento Tradicional  
-1. **Posição inicial**: pés afastados na largura dos ombros, dedos ligeiramente apontados para fora (5–10 °).  
-2. **Movimento**: desça mantendo a coluna neutra, dobrando joelhos e quadris simultaneamente.  
-3. **Profundidade**: até que o quadril esteja abaixo do joelho (cerca de 90 °) para ativação máxima do glúteo.  
-4. **Retorno**: empurre pelos calcanhares, mantendo o tronco ereto.  
+Os mecanismos propostos incluem uma melhor eficiência neuromuscular, maior rigidez musculotendinosa e um recrutamento mais tardio de fibras menos eficientes (Rønnestad & Mujika, 2014).
 
-### Variantes Recomendadas  
-| Variante | Benefício | Recomendação de Volume |
-|----------|-----------|------------------------|
-| Agachamento frontal | Maior ativação do quadríceps, menor carga lombar | 3 séries × 8‑10 repetições |
-| Goblet squat | Melhora a postura e o equilíbrio | 3 séries × 12‑15 repetições |
-| Sumo squat | Estimula glúteo médio e adutores | 4 séries × 6‑8 repetições |
-| Agachamento unilateral (pistol) | Aumenta propriocepção e força unilateral | 3 séries × 6 repetições por perna |
+### Prevenção de lesões
 
-### Progressão de Carga  
-1. **Semanas 1‑2 (Hipertrofia)**: 4 séries × 12 repetições, 50 % 1RM, 90 s descanso.  
-2. **Semanas 3‑4 (Força)**: 4 séries × 8 repetições, 60–65 % 1RM, 120 s descanso.  
-3. **Semanas 5‑6 (Potência)**: 5 séries × 5 repetições, 70–75 % 1RM, 180 s descanso.  
+Numa meta-análise de ensaios aleatorizados sobre exercício para prevenção de lesões desportivas, o treino de força foi a intervenção com efeito mais marcado na redução do risco de lesão (Lauersen et al., 2014). Não é específico do agachamento, mas reforça a ideia de que ficar mais forte protege.
 
-A carga deve aumentar de 2–3 % entre as semanas, monitorizando a técnica e a percepção de fadiga. Se a forma deteriorar, reduza a carga e repita a semana.
+## Técnica do agachamento
 
-## Erros Comuns  
-1. **Queda do quadril para frente**: indica fraqueza do core; fortaleça prancha e deadbug.  
-2. **Desvio medial dos joelhos**: correção com exercícios de hip abduction e propriocepção.  
-3. **Rondar a lombar**: use um espelho ou vídeo para autocorreção e reduza a carga.  
-4. **Falta de profundidade**: limite de amplitude pode ser devido a flexibilidade tibial; inclua alongamentos de isquiotibiais e flexores do quadril.  
+### Posição inicial
 
-Ignorar esses erros pode levar a lesões de quadril, joelho ou coluna, comprometendo a performance de corrida.
+- Pés à largura dos ombros ou ligeiramente mais afastados, pontas ligeiramente viradas para fora.
+- Peso distribuído pelo pé inteiro (calcanhar, base do dedo grande e base do dedo pequeno).
+- Inspira e contrai o abdómen como se fosses levar um pequeno empurrão — isto estabiliza o tronco.
 
-## Protocolo/Conclusão  
-Integra o agachamento ao seu plano semanal de força, duas vezes por semana, alternando variantes para evitar estagnação. Combina com sessões de corrida de resistência (2‑3 x/sem) e intervalos de velocidade (1‑2 x/sem).  
+### Descida
 
-Para corredores de elite, a fase de potência deve ser curta (2‑3 sem) para maximizar a transferência de força à corrida, enquanto corredores amadores podem estender a fase de hipertrofia a 6 sem para construir base muscular.  
+- Começa o movimento ao mesmo tempo nas ancas e nos joelhos.
+- Os joelhos seguem a direção dos pés; não devem colapsar para dentro. É normal e seguro que passem à frente da ponta dos pés.
+- Mantém a coluna neutra e o peito «aberto».
+- Desce até onde consegues manter a coluna neutra e os calcanhares no chão. Para a maioria das pessoas, a coxa paralela ao chão é um bom objetivo, mas não é obrigatório.
 
-A monitorização de carga, volume e forma, usando ferramentas como sensores de carga ou vídeo, garante que cada sessão contribua para a melhoria da performance e prevenção de lesões.
+### Subida
 
+- Empurra o chão com o pé inteiro e sobe com ancas e ombros ao mesmo ritmo.
+- Expira no final da subida ou depois de passares a fase mais difícil.
+- Controla a descida (2–3 s) e sobe de forma decidida.
 
-## Referências Científicas  
-1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
-2. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x  
-3. Bompa, T. O., & Buzzichelli, C. (2018). Periodization: Theory and Methodology of Training (6th ed.). Human Kinetics.  
-4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7
+## Variantes e quando as usar
+
+| Variante | Para quê | Nível |
+|---|---|---|
+| Agachamento com peso do corpo | Aprender o padrão | Iniciação |
+| Goblet squat (haltere ou kettlebell ao peito) | Técnica e postura; menos carga na coluna | Iniciação a intermédio |
+| Agachamento com barra nas costas | Força máxima com cargas elevadas | Intermédio a avançado |
+| Agachamento frontal | Tronco mais vertical; muito trabalho de quadricípites | Intermédio a avançado |
+| Agachamento búlgaro (pé de trás elevado) | Força unilateral e estabilidade da anca | Intermédio |
+| Step-up | Força unilateral próxima do gesto de subida | Iniciação a intermédio |
+| Agachamento com salto | Potência e componente reativa | Intermédio, com base de força |
+
+Os exercícios unilaterais (búlgaro, step-up) são especialmente úteis para corredores, porque a corrida é uma sucessão de apoios numa só perna.
+
+## Progressão em três fases
+
+### Fase 1 — Aprendizagem (2–4 semanas)
+
+- 2 sessões por semana.
+- Goblet squat e step-up: 2–3 séries de 8–10 repetições, com carga leve a moderada.
+- Objetivo: técnica consistente, sem dor.
+
+### Fase 2 — Força (6–10 semanas)
+
+- 2 sessões por semana, fora das semanas de prova.
+- Agachamento com barra, frontal ou goblet pesado: 3–4 séries de 4–6 repetições.
+- Búlgaro: 3 séries de 6 por perna.
+- Escolhe uma carga que te deixe 2–3 repetições «na reserva» no fim de cada série; quando todas as séries saírem com facilidade, aumenta a carga ligeiramente.
+- Descanso de 2–3 minutos entre séries.
+
+### Fase 3 — Potência e manutenção (época de provas)
+
+- 1 sessão por semana.
+- 2–3 séries de 3–5 repetições pesadas, seguidas de 3 séries de 5 saltos (agachamento com salto ou saltos para caixa).
+- Objetivo: manter a força com pouca fadiga.
+
+Mais detalhe sobre a organização da força ao longo da época em [treino de força para corredores](/blog/treino-forca-corredores-economia-corrida) e em [pliometria e corrida](/blog/forca-reativa-plyometria-corrida).
+
+## Onde encaixar no plano semanal
+
+- Evita força pesada de pernas nas 24–48 horas antes de uma sessão de qualidade ou de uma longa importante.
+- Uma opção comum é fazer a força no mesmo dia de um treino intenso (depois da corrida), mantendo os dias fáceis realmente fáceis.
+- Nas duas semanas antes de uma prova importante, reduz o volume de força e mantém apenas uma sessão leve.
+
+## Erros comuns
+
+1. **Joelhos a colapsar para dentro.** Reduz a carga, pensa em «afastar o chão» com os pés e reforça os glúteos com exercícios de abdução da anca.
+2. **Coluna a arredondar no fundo.** Limita a profundidade ao ponto em que manténs a coluna neutra e trabalha a mobilidade de anca e tornozelo.
+3. **Calcanhares a levantar.** Muitas vezes é falta de mobilidade do tornozelo; um calço pequeno debaixo dos calcanhares ou o goblet squat ajudam.
+4. **Cargas sempre leves.** Séries intermináveis de 20 repetições treinam pouco a força máxima; a evidência favorece cargas mais pesadas com poucas repetições.
+5. **Progredir depressa demais.** Aumentar a carga antes de a técnica estar consolidada é a forma mais rápida de te magoares.
+6. **Treinar com dor.** Dor articular ou lombar durante o exercício é sinal para parar e procurar avaliação.
+
+## Conclusão
+
+O agachamento é uma ferramenta simples e eficaz para corredores: melhora a força, a economia de corrida e a tolerância à carga. Começa com variantes simples, consolida a técnica, avança para cargas pesadas com poucas repetições duas vezes por semana e passa a manutenção na época de provas. Se tiveres dor ou historial de lesão, faz este percurso com acompanhamento de um profissional.
+
+## Referências Científicas
+
+1. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149. https://doi.org/10.1007/s40279-017-0835-7
+2. Balsalobre-Fernández, C., Santos-Concejero, J., & Grivas, G. V. (2016). Effects of strength training on running economy in highly trained runners: a systematic review with meta-analysis of controlled trials. *Journal of Strength and Conditioning Research*, 30(8), 2361–2368. https://doi.org/10.1519/JSC.0000000000001316
+3. Støren, Ø., Helgerud, J., Støa, E. M., & Hoff, J. (2008). Maximal strength training improves running economy in distance runners. *Medicine & Science in Sports & Exercise*, 40(6), 1087–1092. https://doi.org/10.1249/MSS.0b013e318168da2f
+4. Rønnestad, B. R., & Mujika, I. (2014). Optimizing strength training for running and cycling endurance performance: a review. *Scandinavian Journal of Medicine & Science in Sports*, 24(4), 603–612. https://doi.org/10.1111/sms.12104
+5. Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538

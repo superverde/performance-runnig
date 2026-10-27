@@ -8,63 +8,95 @@ keyword: "agasalho de descarte maratona"
 keywords: ["roupa para largada maratona", "frio antes da maratona", "o que vestir na maratona"]
 readTime: 5
 faqs:
-  - q: "Qual a temperatura mínima para retirar a camada externa numa maratona?"
-    a: "A camada externa deve ser removida quando a temperatura ambiental estiver acima de 15 °C e a humidade inferior a 60 %."
-  - q: "É seguro usar agasalho de descarte em dias de vento forte?"
-    a: "Sim, mas é crucial usar um windbreaker com membrana impermeável e permeável ao vapor para evitar a perda de calor por convecção."
-  - q: "Como saber se o meu corpo está a perder calor demais durante a corrida?"
-    a: "Monitora a temperatura central a cada 5 km; se cair abaixo de 37,2 °C, retira a camada intermediária imediatamente."
+  - q: "O que posso usar como agasalho de descarte?"
+    a: "Uma camisola ou sweat velha, um polar barato, um poncho de plástico, um saco do lixo grande com buracos para a cabeça e os braços, ou uma manta térmica. Junta luvas e gorro baratos se a manhã estiver muito fria."
+  - q: "Quando devo tirar o agasalho de descarte?"
+    a: "Imediatamente antes da partida ou no primeiro quilómetro, quando começares a sentir calor. Retira-o com cuidado e deixa-o na berma, fora do caminho dos outros corredores, nunca no meio da estrada."
+  - q: "Como sei se estou a ficar com demasiado frio durante a maratona?"
+    a: "Tremores persistentes, dedos dormentes, dificuldade em coordenar movimentos ou em abrir um gel e confusão são sinais de alarme. São mais prováveis com chuva, vento e quando o ritmo baixa muito; nesse caso, procura um posto de apoio ou a equipa médica."
 ---
 
-O agasalho de descarte na maratona funciona como uma barreira de isolamento que permite ao corredor manter a temperatura central adequada enquanto evita a sobrecarga térmica e a perda de fluidos por suor. A sua gestão correta pode ser o diferencial entre um desempenho sustentável e um pico de fadiga precoce.
+Numa manhã de maratona de outono ou inverno, é comum estares 20 a 40 minutos parado na box de partida com temperaturas de um só dígito. Vestir a roupa com que vais correr deixa-te a tremer; vestir roupa a mais faz-te sobreaquecer a partir do km 5. A solução usada por corredores de todo o mundo é simples: um **agasalho de descarte** — roupa velha ou barata que usas até à partida e deixas na berma quando começas a aquecer.
 
-Nas corridas de longa distância, a temperatura ambiental pode variar de 5 °C a 25 °C, exigindo que o atleta ajuste a sua carga térmica em tempo real. A fisiologia do exercício mostra que a perda de calor por convectação e radiação aumenta exponencialmente com o vento e a diferença térmica, enquanto a evaporação do suor se torna o principal mecanismo de dissipação. Assim, escolher o momento certo para remover ou colocar um agasalho de descarte, bem como o tipo de material, torna‑se uma decisão de treino que pode ser modelada com base em protocolos científicos.
+## Porque é que o frio antes da partida importa
 
-## Base Científica
+### Condições frescas favorecem a maratona
 
-A regulação térmica durante a maratona depende de três processos principais: condução, convecção e evaporação. Quando a temperatura do ar excede a do corpo, a convecção e a radiação aceleram a perda de calor, enquanto a evaporação pode levar a uma desidratação de até 2 % do peso corporal em 30 min de esforço intenso (Seiler, 2010). Para mitigar esses efeitos, os tecidos de agasalho devem ser de baixa densidade, de materiais que permitam a passagem de vapor de água (por exemplo, Gore‑Tex ou poliamida com membrana), mantendo a barreira contra o vento.
+Uma análise de várias maratonas ao longo de anos mostrou que o rendimento piora progressivamente à medida que a temperatura ambiente (medida pelo índice WBGT) sobe entre os 5 e os 25 °C, e que os tempos mais rápidos ocorreram nas condições mais frescas analisadas (Ely et al., 2007). O efeito foi maior nos corredores mais lentos. Ou seja: uma manhã fresca é boa notícia para a prova — o desafio é apenas chegar à partida sem gastar energia a tremer.
 
-A teoria de periodização de Bompa e Buzzichelli (2018) sugere que a carga de treino deve ser ajustada de acordo com a capacidade de recuperação térmica. Em dias frios, a fase de volume (treinos longos) deve ser acompanhada por sessões de adaptação ao frio, enquanto em dias quentes a fase de intensidade deve incluir treinos de resistência ao calor. A combinação de intervalos de alta intensidade (Buchheit & Laursen, 2013) com períodos de recuperação ativa permite ao atleta melhorar a eficiência cardiovascular sem sobrecarregar o sistema térmico.
+### O corpo aquece depressa quando começas a correr
 
-A literatura de Blagrove, Howatson e Hayes (2018) destaca que o treino de força pode aumentar a capacidade de dissipação térmica ao melhorar a circulação periférica. Um corredor que treina com exercícios de resistência na musculatura das pernas pode reduzir a perda de calor por extremidades, mantendo a temperatura central mais estável.
+A corrida produz muito calor metabólico. Em poucos minutos, a sensação de frio da partida desaparece. Por isso, a roupa que te parece certa parado na box quase sempre se revela excessiva a partir do segundo ou terceiro quilómetro. Uma regra prática muito usada por corredores é vestir-se como se estivesse cerca de 10 °C mais calor do que está; não é uma regra científica, mas ilustra bem o efeito.
 
-## Aplicação Prática
+### O frio também tem riscos
 
-1. **Seleção do material**  
-   - *Camadas de base*: poliéster 100 % (evaporação 15 g /m² h).  
-   - *Camada intermediária*: fleece ou lã merino (isolamento térmico 0,8 °C por 1 mm de espessura).  
-   - *Camada externa*: windbreaker com membrana Gore‑Tex (transparência de vapor 20 % e resistência ao vento 0,02 Pa).  
+A posição de consenso do American College of Sports Medicine sobre lesões pelo frio sublinha que a roupa molhada e o vento aumentam muito a perda de calor, e que o risco de hipotermia aumenta quando a produção de calor diminui — por exemplo, quando um corredor cansado passa a andar (Castellani et al., 2006). Em dias frios, chuvosos e ventosos, a gestão da roupa não é só uma questão de conforto.
 
-2. **Timing de remoção**  
-   - *Pré‑corrida*: 30 min antes do start, remover a camada externa se a temperatura > 15 °C e a humidade < 60 %.  
-   - *Durante a corrida*: monitorizar a temperatura corporal a cada 5 km. Se a temperatura central cair abaixo de 37,2 °C, remover a camada intermediária.  
-   - *Post‑corrida*: manter a camada externa até que a temperatura corporal retorne a 36,8 °C, evitando a hipotermia.
+## O que usar como agasalho de descarte
 
-3. **Protocolos de treino**  
-   - **Treino de adaptação ao frio** (1 h, 70 % HRmax, 5 km): usar agasalho completo, focar na respiração controlada.  
-   - **Treino de resistência ao calor** (2 h, 80 % HRmax, 15 km): usar apenas a camada de base, monitorizar a hidratação a cada 1 km.  
+| Peça | Vantagens | Desvantagens |
+|---|---|---|
+| Sweat ou camisola velha | Quente, confortável | Pesada quando molhada |
+| Polar barato | Muito quente e leve | — |
+| Poncho de plástico | Corta o vento e a chuva | Acumula transpiração |
+| Saco do lixo grande | Barato, protege da chuva e do vento | Pouco isolamento |
+| Manta térmica | Muito leve, retém calor | Rasga com facilidade, faz barulho |
+| Luvas e gorro baratos | Protegem as extremidades | — |
+| Meias velhas sem pé nos braços | Funcionam como mangas | — |
 
-4. **Avaliação individual**  
-   - Medir a temperatura central (termistor na boca) e a temperatura da pele (termômetro infravermelho) antes, durante e após a corrida.  
-   - Ajustar a carga de agasalho em 0,5 °C de variação de temperatura corporal.
+Combinações úteis:
 
-## Erros Comuns
+- **Manhã fria e seca (0–8 °C):** sweat ou polar velho + luvas e gorro baratos; por baixo, a roupa de prova.
+- **Manhã fria e chuvosa:** poncho ou saco do lixo por cima de uma camisola velha.
+- **Manhã fresca (8–12 °C):** uma camisola velha leve ou só uma manta térmica.
+- **Manhã amena (acima de 12–15 °C):** em muitos casos não é necessário agasalho; quando muito, uma camisola leve até ao tiro de partida.
 
-| Erro | Consequência | Solução |
-|------|--------------|---------|
-| **Usar agasalho de descarte em dias muito quentes** | Aumento da temperatura corporal e desidratação rápida | Substituir por material respirável ou remover a camada externa imediatamente |
-| **Não remover o agasalho quando a temperatura central cai** | Fadiga muscular precoce e diminuição da potência | Monitorizar temperatura a cada 5 km e retirar a camada intermediária |
-| **Escolher material com baixa permeabilidade ao vapor** | Acúmulo de suor, aumento da carga térmica | Optar por tecidos com permeabilidade > 15 g /m² h |
-| **Não adaptar a carga de treino ao clima** | Sobreposição de volume e intensidade, risco de lesões | Aplicar a periodização de Bompa e Buzzichelli, ajustando volume e intensidade conforme a temperatura |
+São indicações aproximadas: vento, sol, humidade e o teu ritmo previsto alteram muito a sensação térmica.
 
-## Protocolo/Conclusão
+## Quando e como deitar fora
 
-Para gerir eficazmente o agasalho de descarte na maratona, o atleta deve integrar a fisiologia térmica ao plano de treino, utilizando materiais de alta permeabilidade e ajustando a carga de agasalho em função da temperatura central e ambiental. A aplicação de protocolos de treino específicos (adaptação ao frio e resistência ao calor) aumenta a capacidade de dissipação térmica, enquanto o monitoramento constante permite intervenções rápidas. Ao seguir esses passos, o corredor mantém a eficiência metabólica e a performance ao longo dos 42,195 km.
+1. **Na box de partida:** mantém tudo vestido até 2–5 minutos antes do tiro.
+2. **No arranque:** tira as camadas maiores imediatamente antes da partida ou no primeiro quilómetro.
+3. **Luvas e gorro:** podes mantê-los mais tempo e guardá-los no calção ou deitá-los fora quando aquecerem as mãos.
+4. **Com segurança:** afasta-te para a berma e deixa a roupa fora do percurso. Nunca a atires para o meio da estrada, onde pode fazer tropeçar outros corredores.
 
+Em muitas provas, a organização recolhe a roupa deixada na partida; algumas encaminham-na para doação. Confirma no regulamento da tua prova — e nunca deixes ali nada de que precises.
+
+## A roupa com que vais correr
+
+O agasalho de descarte resolve a espera; a roupa de prova deve ser escolhida para o esforço:
+
+- **Tecidos técnicos** que secam depressa; evita algodão, que fica encharcado e frio.
+- **Camada única** na maioria das manhãs frescas; em dias muito frios, uma camisola técnica de manga comprida ou mangas amovíveis.
+- **Extremidades protegidas** — luvas leves e uma fita ou gorro fazem uma grande diferença com pouco peso.
+- **Nada de novo:** testa a combinação num treino longo com temperatura semelhante.
+
+Para a física por detrás destas escolhas, vê o artigo sobre [termorregulação no calor e no frio](/blog/termorregulacao-corrida-calor-frio).
+
+## Depois da meta
+
+Quando paras, a produção de calor cai a pique, mas continuas molhado de transpiração — é o momento em que muitos corredores sentem mais frio.
+
+- Aceita a manta térmica na meta e mantém-te em movimento.
+- Troca para roupa seca o mais depressa possível (deixa um saco no bengaleiro com roupa quente).
+- Bebe algo quente se tiveres essa possibilidade.
+
+Vê também o artigo sobre [mantas térmicas pós-prova](/blog/mantas-termicas-pos-prova-recuperacao).
+
+## Erros comuns
+
+1. **Chegar à box sem agasalho.** Tremer durante meia hora gasta energia e aumenta a tensão antes da partida.
+2. **Correr com roupa a mais.** É provável que sobreaqueças a partir do km 5.
+3. **Usar algodão na roupa de prova.** Fica molhado, pesado e frio.
+4. **Deitar a roupa fora de forma perigosa.** No meio do pelotão, uma camisola no chão é um obstáculo.
+5. **Não ter roupa seca para o final.** O pós-prova num dia frio pode ser mais desconfortável do que a própria corrida.
+6. **Ignorar os sinais de frio excessivo.** Tremores persistentes, confusão ou perda de coordenação exigem ajuda.
+
+## Conclusão
+
+O agasalho de descarte é uma das estratégias mais simples e eficazes para as maratonas de manhãs frias: mantém-te quente e descontraído na partida e desaparece quando deixa de ser útil. Combina-o com roupa de prova técnica e leve, protege as extremidades e prepara roupa seca para o fim.
 
 ## Referências Científicas
 
-1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
-2. Buchheit, M., & Laursen, P. B. (2013). High‑intensity interval training, solutions to the programming puzzle. Sports Medicine, 43(5), 313-338. https://doi.org/10.1007/s40279-013-0029-x  
-3. Bompa, T. O., & Buzzichelli, C. (2018). Periodization: Theory and Methodology of Training (6th ed.). Human Kinetics.  
-4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle‑ and long‑distance running performance: a systematic review. Sports Medicine, 48(5), 1117-1149. https://doi.org/10.1007/s40279-017-0835-7
+1. Ely, M. R., Cheuvront, S. N., Roberts, W. O., & Montain, S. J. (2007). Impact of weather on marathon-running performance. *Medicine & Science in Sports & Exercise*, 39(3), 487–493. https://doi.org/10.1249/mss.0b013e31802d3aba
+2. Castellani, J. W., Young, A. J., Ducharme, M. B., Giesbrecht, G. G., Glickman, E., & Sallis, R. E. (2006). American College of Sports Medicine position stand: prevention of cold injuries during exercise. *Medicine & Science in Sports & Exercise*, 38(11), 2012–2029.

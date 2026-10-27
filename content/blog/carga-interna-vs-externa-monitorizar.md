@@ -6,95 +6,110 @@ excerpt: "Carga interna vs carga externa: vê a diferença entre o que fazes e o
 seoTitle: "Carga Interna vs Externa: O Que Monitorizar no Treino"
 keyword: "carga interna vs carga externa"
 keywords: ["carga de treino", "monitorizar o treino", "rpe e carga"]
-readTime: 5
+readTime: 7
 faqs:
   - q: "Como posso medir a carga interna sem equipamento caro?"
-    a: "Registar a frequência cardíaca com um monitor barato e usar a escala de Borg (RPE) diariamente fornece uma estimativa eficaz da carga interna."
-  - q: "É necessário medir lactato em todos os treinos?"
-    a: "Não; medição de lactato é recomendada a cada 3‑4 semanas ou quando há mudanças significativas no regime de treino, para calibrar zonas de intensidade."
-  - q: "Quando devo ajustar a carga externa com base na carga interna?"
-    a: "Se a FC média ultrapassar 90 % ou o lactato exceder 4 mmol L⁻¹ em treinos de zona 3/4, reduza a velocidade ou a distância para evitar sobrecarga."
+    a: "Com o método session-RPE: no fim de cada treino, dá uma nota de esforço de 0 a 10 à sessão inteira e multiplica-a pela duração em minutos. Junta a isso a frequência cardíaca de um relógio ou banda e um registo simples de sono, fadiga e dores musculares."
+  - q: "Preciso de medir o lactato para controlar a carga?"
+    a: "Não. O lactato é útil em contexto de avaliação ou com acompanhamento técnico, mas para a maioria dos corredores amadores a combinação de ritmo ou distância, frequência cardíaca e perceção de esforço chega para tomar boas decisões."
+  - q: "Quando devo ajustar o treino com base na carga interna?"
+    a: "Quando a mesma sessão de sempre passa a custar claramente mais — esforço percebido ou frequência cardíaca mais altos ao mesmo ritmo — durante vários dias seguidos, sobretudo se acompanhada de pior sono, mais fadiga ou dores. Nessa altura, reduz a intensidade ou o volume e reavalia."
 ---
 
-Para otimizar o desempenho e evitar lesões, o que deves monitorizar é a carga interna, pois ela reflete a resposta fisiológica individual ao esforço, enquanto a carga externa mede apenas a quantidade de trabalho.  
-A carga interna abrange variáveis como frequência cardíaca, VO₂, lactato, e percepção de esforço, permitindo ajustar o treino segundo a resposta real do atleta. Por outro lado, a carga externa (quilómetros percorridos, potência, tempo) fornece a base que, combinada com a interna, oferece uma visão completa do regime de treino.
+Dois corredores fazem exatamente o mesmo treino: 10 km a 5:00/km. Para um, é uma corrida confortável; para o outro, é quase um esforço de prova. A distância e o ritmo — a **carga externa** — são iguais. O que o corpo de cada um sentiu — a **carga interna** — é completamente diferente. E é a carga interna que, em última análise, determina a adaptação e a fadiga.
 
-Embora a carga externa seja fácil de medir com GPS e wattmeters, a carga interna revela o verdadeiro estado de fadiga e recuperação. A integração entre ambas garante que o atleta não ultrapasse limites fisiológicos nem desperdicie energia em treinos mal calibrados.  
-A seguir, detalhamos os fundamentos científicos, exemplos práticos e protocolos de monitorização, além de erros comuns que podem comprometer a eficácia do treino.
+Monitorizar as duas, e sobretudo a relação entre elas, é a forma mais simples de perceberes se estás a evoluir, a acumular fadiga ou a caminhar para uma lesão.
 
-## Base Científica
+## As definições
 
-A distinção entre carga interna e externa tem raízes na fisiologia do exercício. A carga externa representa a “quantidade” de trabalho mecânico (quilómetros, watts, tempo), enquanto a carga interna corresponde à “qualidade” do esforço (fisiologia, psicologia).  
-Estudos demonstram que a relação entre carga interna e externa varia significativamente entre indivíduos, mesmo com o mesmo volume de treino (Seiler, 2010). Isto implica que dois corredores que correm 20 km por dia podem experimentar cargas internas diferentes devido a fatores como composição corporal, eficiência biomecânica e estado de recuperação.
+- **Carga externa** — o trabalho que fizeste, medido independentemente de ti: distância, tempo, ritmo, desnível, potência, número de séries.
+- **Carga interna** — a resposta psicofisiológica a esse trabalho: frequência cardíaca, perceção de esforço, lactato, sensação de fadiga.
 
-A carga interna pode ser mensurada por:
-- **Frequência cardíaca (FC)**: FC média e máxima durante a sessão.  
-- **VO₂**: Medido em laboratório ou estimado via fórmulas de campo.  
-- **Lactato**: Concentração pós-exercício (mmol L⁻¹).  
-- **Percepção de esforço (RPE)**: Escala de Borg 6‑20.  
-- **Potência individualizada (w/kg)**: Em treinos com wattmeter.
+Esta distinção foi proposta há cerca de duas décadas e revisitada por Impellizzeri et al. (2019), que sublinham um ponto essencial: **é a carga interna que provoca as adaptações**, enquanto a carga externa é importante para perceber o que a originou e para planear o treino. Uma não substitui a outra.
 
-A carga externa, por sua vez, inclui:
-- **Distância** (km).  
-- **Tempo** (h).  
-- **Potência absoluta** (W).  
-- **Volumen de treino** (kcal, metros de subida).
+## Porque é que a mesma carga externa produz cargas internas diferentes
 
-A literatura indica que a carga interna responde de forma não linear à carga externa. Por exemplo, um aumento de 10 % na distância pode aumentar a FC média em 8 % e o lactato em 12 % em corredores de elite (Buchheit & Laursen, 2013).  
+A resposta a um treino depende de muitos fatores:
 
-## Aplicação Prática
+- **Condição física** — à medida que melhoras, o mesmo ritmo custa menos.
+- **Fadiga acumulada e sono** — uma semana pesada ou duas noites mal dormidas aumentam o custo de qualquer sessão.
+- **Ambiente** — calor, humidade, altitude e vento aumentam a frequência cardíaca e o esforço ao mesmo ritmo.
+- **Doença, stress e alimentação** — uma infeção a começar ou pouca energia disponível também se refletem na resposta.
+- **Terreno** — trilhos técnicos e desnível tornam o ritmo uma medida pouco útil.
 
-### 1. Definição de zonas de intensidade
+É por isso que planear apenas por quilómetros e ritmos — sem olhar para o que o corpo está a dizer — é uma visão incompleta.
 
-| Zona | FC (%) | RPE | Lactato (mmol L⁻¹) | Objetivo |
-|------|--------|-----|---------------------|----------|
-| Recuperação | < 70 % | 2‑3 | < 1 | Reparo |
-| Aeróbica | 70‑80 % | 4‑5 | 1‑2 | Base |
-| Láctica | 80‑90 % | 6‑7 | 2‑4 | Limite |
-| Anaeróbica | > 90 % | 8‑9 | > 4 | Potência |
+## Como medir a carga interna
 
-### 2. Exemplo de protocolo semanal
+### 1. Perceção de esforço da sessão (session-RPE)
 
-| Dia | Tipo | Carga Externa | Carga Interna | Observações |
-|-----|------|----------------|---------------|-------------|
-| 1 | Longo | 25 km @ 5 km/h | FC 75 % | FC média 140 bpm |
-| 2 | HIIT | 8 × 400 m | RPE 8 | FC média 180 bpm |
-| 3 | Recuperação | 10 km | FC 65 % | RPE 3 |
-| 4 | Tempo | 12 km @ 6 km/h | Lactato 3 mmol L⁻¹ | FC 85 % |
-| 5 | Força | 3 × 10 s pliométricos | N/A |  |
+Proposto por Foster et al. (2001), é o método mais simples e mais usado:
 
-Neste plano, a carga externa (quilómetros) está fixa, mas a carga interna varia conforme zona. O treinador ajusta a velocidade de 12 km (dia 4) se o lactato ultrapassar 3 mmol L⁻¹, indicando que o atleta está a exceder a zona de tempo.
+1. Cerca de 15–30 minutos depois de terminares, avalia o esforço **da sessão inteira** numa escala de 0 a 10.
+2. Multiplica pela duração em minutos.
 
-### 3. Ferramentas de monitorização
+| Sessão | Duração | RPE (0–10) | Carga (unidades arbitrárias) |
+|---|---|---|---|
+| Corrida fácil | 50 min | 3 | 150 |
+| Intervalos (com aquecimento) | 65 min | 7 | 455 |
+| Longa | 100 min | 5 | 500 |
 
-- **GPS + HR monitor**: Sincroniza distância e FC.  
-- **Wattmeter**: Mede potência e permite calcular w/kg.  
-- **Dispositivos de lactato**: Amostras de sangue a 2 min pós-exercício.  
-- **Aplicações de RPE**: Registos diários de percepção de esforço.
+Somando as sessões tens uma carga semanal comparável entre semanas e entre tipos de treino.
 
-Combinar estas ferramentas permite uma visão holística: por exemplo, um corredor que corre 20 km a 5 km/h pode ter FC média de 150 bpm (zona 3) e lactato de 1,5 mmol L⁻¹, indicando que a carga interna está adequada para a zona aeróbica, mesmo que a distância seja elevada.
+### 2. Frequência cardíaca
 
-## Erros Comuns
+A frequência cardíaca média e o tempo em cada zona são indicadores objetivos da intensidade. São úteis sobretudo em sessões contínuas; em intervalos curtos, a frequência cardíaca reage com atraso e subestima o esforço. Vê [como calcular as zonas de frequência cardíaca](/blog/como-calcular-zonas-de-treino-frequencia-cardiaca) e como combinar [RPE e frequência cardíaca](/blog/rpe-frequencia-cardiaca-controlo-intensidade).
 
-1. **Focar apenas na distância** – Ignorar a FC média pode levar a sobrecarga, especialmente em corredores com baixa eficiência biomecânica.  
-2. **Ignorar a percepção de esforço** – RPE pode revelar fadiga acumulada que a FC não reflete (ex.: 120 bpm, RPE 8).  
-3. **Não ajustar a carga interna** – Manter a mesma velocidade em diferentes dias pode resultar em sobrecarga se a recuperação for insuficiente.  
-4. **Subestimar a importância da recuperação** – Treinos de alta intensidade sem monitorizar lactato ou FC máxima podem causar overtraining.  
+### 3. Questionários de bem-estar
 
-## Protocolo/Conclusão
+Uma revisão sistemática concluiu que medidas subjetivas autorreportadas — humor, fadiga, qualidade do sono, dores musculares, stress — responderam às alterações da carga de treino de forma mais sensível e consistente do que vários marcadores objetivos usados habitualmente, como análises sanguíneas ou a frequência cardíaca (Saw et al., 2016). Um registo diário de 30 segundos (nota de 1 a 5 para sono, fadiga, dores e humor) é surpreendentemente informativo.
 
-1. **Mapeia a carga interna**: Regista FC, lactato e RPE em cada treino.  
-2. **Define zonas de intensidade**: Usa percentagens de FC máxima e valores de lactato.  
-3. **Alinha a carga externa**: Planeia distâncias e potências dentro das zonas.  
-4. **Ajusta em tempo real**: Se a FC média ultrapassar 90 % ou lactato > 4 mmol L⁻¹, reduza a velocidade ou a distância.  
-5. **Revisa semanalmente**: Se a FC média na mesma distância cair em 5 % sem alteração de esforço, indica adaptação.  
+### 4. Outros indicadores
 
-Ao integrar carga interna e externa, o treinador consegue personalizar o programa, maximizar ganhos e minimizar riscos. A prática de monitorização constante transforma dados em decisões inteligentes, elevando o desempenho a níveis de elite.
+A frequência cardíaca em repouso e a variabilidade da frequência cardíaca (VFC) podem ajudar a detetar tendências de fadiga, sobretudo quando medidas sempre nas mesmas condições e analisadas como médias de vários dias (Halson, 2014). Vê mais em [VFC e recuperação](/blog/hrv-recuperacao-atletas-endurance). O lactato é útil em avaliações, mas pouco prático no dia-a-dia de um amador.
 
+## A relação entre as duas é o que mais informa
+
+O consenso sobre monitorização da carga de treino recomenda combinar medidas externas e internas, escolher indicadores válidos e fiáveis e usá-los de forma consistente (Bourdon et al., 2017). Na prática, o que mais te diz é a **comparação ao longo do tempo**:
+
+| Situação | Interpretação provável |
+|---|---|
+| Mesmo ritmo, frequência cardíaca e RPE mais baixos | Estás a melhorar |
+| Mesmo ritmo, frequência cardíaca e RPE mais altos durante vários dias | Fadiga, calor, doença ou falta de sono |
+| RPE alto com frequência cardíaca invulgarmente baixa em esforço, mais pior bem-estar | Possível fadiga acumulada — reduz e reavalia |
+| Carga externa sobe muito de uma semana para a outra | Risco aumentado — progride de forma gradual |
+
+Uma forma simples de aplicar isto: escolhe uma **sessão de referência** — por exemplo, 30 minutos num percurso plano a um ritmo fácil fixo — e repete-a a cada duas ou três semanas, registando a frequência cardíaca média e o RPE. Se a frequência cardíaca desce ao mesmo ritmo, a tua condição aeróbia está a melhorar.
+
+## E o rácio agudo:crónico?
+
+O rácio entre a carga da última semana e a média das últimas quatro (ACWR) popularizou-se como ferramenta de prevenção de lesões. No entanto, tem problemas conceptuais e estatísticos importantes, e a sua utilidade para prever lesões é hoje muito questionada (Impellizzeri et al., 2020). Pode servir como indicação grosseira de variações bruscas de carga, mas não deve ser usado como «semáforo» de risco. Vê o artigo sobre o [rácio agudo:crónico](/blog/carga-treino-aguda-cronica-racio).
+
+## Um sistema simples para corredores amadores
+
+1. **Regista a carga externa:** distância, tempo e desnível de cada sessão.
+2. **Regista a carga interna:** RPE da sessão × minutos, mais a frequência cardíaca média nas sessões contínuas.
+3. **Regista o bem-estar:** sono, fadiga, dores e humor, numa escala de 1 a 5, todas as manhãs.
+4. **Revê semanalmente:** a carga total subiu demasiado depressa? A sessão de referência está a custar mais ou menos? O bem-estar está a cair?
+5. **Ajusta:** se vários indicadores apontam para fadiga durante vários dias, reduz o volume ou a intensidade antes que a fadiga se transforme em lesão ou doença.
+
+## Erros comuns
+
+1. **Olhar só para os quilómetros.** O mesmo volume pode ser fácil ou excessivo, dependendo do contexto.
+2. **Confiar cegamente no relógio.** As métricas de «prontidão» e «carga» dos relógios são estimativas; a tua perceção é dado válido.
+3. **Medir muito e decidir pouco.** Recolher dez métricas sem regras de decisão não ajuda.
+4. **Mudar de método constantemente.** A consistência — mesma escala, mesma hora, mesmas condições — é o que torna os dados comparáveis.
+5. **Ignorar sinais subjetivos.** Pior sono, irritabilidade e pernas pesadas persistentes costumam aparecer antes de qualquer alteração nos números.
+
+## Conclusão
+
+A carga externa diz-te o que fizeste; a carga interna diz-te quanto isso te custou. Monitorizar as duas — com ferramentas simples como o session-RPE, a frequência cardíaca e um registo de bem-estar — e acompanhar a relação entre elas ao longo do tempo permite-te treinar de forma mais inteligente, ajustar antes de te lesionares e perceber se estás de facto a evoluir.
 
 ## Referências Científicas
 
-1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
-2. Buchheit, M., & Laursen, P. B. (2013). High‑intensity interval training, solutions to the programming puzzle. Sports Medicine, 43(5), 313-338. https://doi.org/10.1007/s40279-013-0029-x  
-3. Laursen, P. B. (2010). Training for intense exercise performance: high‑intensity or high‑volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x  
-4. Bompa, T. O., & Buzzichelli, C. (2018). Periodization: Theory and Methodology of Training (6th ed.). Human Kinetics.
+1. Impellizzeri, F. M., Marcora, S. M., & Coutts, A. J. (2019). Internal and external training load: 15 years on. *International Journal of Sports Physiology and Performance*, 14(2), 270–273. https://doi.org/10.1123/ijspp.2018-0935
+2. Foster, C., Florhaug, J. A., Franklin, J., Gottschall, L., Hrovatin, L. A., Parker, S., Doleshal, P., & Dodge, C. (2001). A new approach to monitoring exercise training. *Journal of Strength and Conditioning Research*, 15(1), 109–115.
+3. Bourdon, P. C., Cardinale, M., Murray, A., et al. (2017). Monitoring athlete training loads: consensus statement. *International Journal of Sports Physiology and Performance*, 12(Suppl 2), S2161–S2170. https://doi.org/10.1123/IJSPP.2017-0208
+4. Saw, A. E., Main, L. C., & Gastin, P. B. (2016). Monitoring the athlete training response: subjective self-reported measures trump commonly used objective measures: a systematic review. *British Journal of Sports Medicine*, 50(5), 281–291. https://doi.org/10.1136/bjsports-2015-094758
+5. Halson, S. L. (2014). Monitoring training load to understand fatigue in athletes. *Sports Medicine*, 44(Suppl 2), S139–S147.
+6. Impellizzeri, F. M., Tenan, M. S., Kempton, T., Novak, A., & Coutts, A. J. (2020). Acute:chronic workload ratio: conceptual issues and fundamental pitfalls. *International Journal of Sports Physiology and Performance*, 15(6), 907–913.

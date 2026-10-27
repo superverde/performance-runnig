@@ -6,36 +6,108 @@ excerpt: "A ansiedade pré-prova não tem de te travar. Aprende técnicas simple
 seoTitle: "Ansiedade Pré-Prova: Transformar os Nervos em Energia"
 keyword: "ansiedade pré-prova"
 keywords: ["nervos antes da corrida", "ansiedade antes da prova", "controlar a ansiedade corrida"]
-readTime: 4
+readTime: 5
+faqs:
+  - q: "É normal sentir ansiedade antes de uma prova?"
+    a: "Sim. Coração acelerado, borboletas no estômago, vontade frequente de ir à casa de banho e pensamentos sobre o resultado são reações normais antes de um desafio importante. Na maioria dos casos, não são sinal de que vais correr mal."
+  - q: "Qual é a técnica mais rápida para lidar com os nervos na partida?"
+    a: "Reinterpretar a ativação como entusiasmo — dizer a ti próprio «estou entusiasmado» em vez de tentar acalmar-te — combinada com algumas respirações lentas e uma frase-chave curta sobre o que tens de fazer nos primeiros quilómetros."
+  - q: "Quando devo procurar ajuda profissional?"
+    a: "Se a ansiedade te impede de dormir durante vários dias, provoca ataques de pânico, te leva a evitar provas que gostarias de fazer ou afeta outras áreas da tua vida, vale a pena falar com um psicólogo, de preferência com experiência em psicologia do desporto."
 ---
 
-Ansiedade Pré-Corrida: Transformar Nervosismo em Combustível
+O coração acelera, o estômago aperta, a cabeça repete o mesmo pensamento: «e se correr mal?». A ansiedade antes de uma prova é uma das experiências mais universais da corrida, do principiante que se estreia nos 10 km ao atleta experiente na partida de uma maratona. A boa notícia é que estes sinais não são inimigos do rendimento — e há técnicas simples, com suporte científico, para os pôr a trabalhar a teu favor.
 
-Quando o dia da corrida se aproxima, muitos atletas começam a sentir um nível crescente de ansiedade. O nervosismo pode ser um grande obstáculo para o desempenho, fazendo com que os atletas sejam incapazes de alcançar seus objetivos. No entanto, é possível transformar a ansiedade em combustível para a corrida. Com a ajuda da psicologia e da ciência do desporto, é possível compreender as causas da ansiedade pré-corrida e encontrar estratégias para lidar com ela.
+## O que é a ansiedade pré-prova
 
-A ansiedade pré-corrida é um fenómeno comum entre os atletas de corrida. Estudos têm demonstrado que a ansiedade pode afetar significativamente o desempenho dos atletas, levando a uma redução da velocidade e da eficiência. Além disso, a ansiedade pode causar sintomas físicos, como dor muscular e respiratória, que podem agravar a situação. No entanto, é importante notar que a ansiedade não é um inimigo, mas sim uma oportunidade para melhorar o desempenho.
+A psicologia do desporto distingue habitualmente duas componentes:
 
-## Base Científica
+- **Ansiedade cognitiva** — preocupações, dúvidas, pensamentos sobre o resultado e sobre o que os outros vão pensar.
+- **Ansiedade somática** — as sensações físicas: coração acelerado, respiração rápida, tensão muscular, «borboletas no estômago», vontade de urinar.
 
-A ansiedade pré-corrida é influenciada por vários fatores, incluindo a experiência prévia, a expectativa da corrida e a falta de preparação. Segundo o modelo de Yule e McGrath (2001), a ansiedade pré-corrida é resultado da interação entre a experiência prévia, a expectativa da corrida e a falta de preparação. Além disso, estudos têm demonstrado que a atenção seletiva, que é a capacidade de se concentrar num aspecto específico da corrida, pode ser um fator importante no desenvolvimento da ansiedade pré-corrida (Brick et al., 2014).
+Ambas são manifestações de uma resposta de ativação que prepara o corpo para o esforço: mais frequência cardíaca, mais ventilação, mais energia disponível. Em si, essa ativação é útil para correr.
 
-## Aplicação Prática
+## Ansiedade e rendimento: o que diz a evidência
 
-Existem várias estratégias que os atletas podem utilizar para transformar a ansiedade pré-corrida em combustível para a corrida. Uma das principais estratégias é a prática da relaxação progressiva, que envolve a relaxação muscular e a redução da frequência cardíaca. Além disso, a prática da meditação e a visualização podem ajudar a reduzir a ansiedade e a aumentar a confiança.
+A relação entre ansiedade e rendimento é mais fraca e mais complexa do que se pensa. Numa meta-análise, a ansiedade cognitiva teve uma relação negativa pequena com o rendimento, enquanto a **autoconfiança** teve uma relação positiva mais forte (Woodman & Hardy, 2003). Na prática: o que mais pesa não é sentires nervos, é a confiança que tens na tua preparação.
 
-Outra estratégia é a prática do treino de alta intensidade, que pode ajudar a aumentar a confiança e a reduzir a ansiedade. Além disso, a prática do treino de resistência, que envolve a execução de exercícios de baixa intensidade durante longos períodos de tempo, pode ajudar a aumentar a resistência e a reduzir a ansiedade.
+Outro fator decisivo é a forma como **interpretas** os sintomas. Os mesmos sinais físicos podem ser lidos como «estou a perder o controlo» ou como «estou pronto». Uma série de experiências mostrou que pessoas que, antes de tarefas exigentes (cantar, falar em público, resolver problemas de matemática), diziam a si próprias «estou entusiasmado» tiveram melhor desempenho do que as que tentavam acalmar-se (Brooks, 2014). Tentar suprimir uma ativação já elevada é difícil; reinterpretá-la é mais fácil e mais eficaz.
 
-## Erros Comuns
+Por fim, uma revisão sistemática sobre os determinantes psicológicos do rendimento em resistência identificou intervenções — como o diálogo interno, a definição de objetivos e a imagética — associadas a melhor desempenho em tarefas de resistência (McCormick et al., 2015).
 
-Existem vários erros comuns que os atletas podem cometer ao lidar com a ansiedade pré-corrida. Um dos principais erros é a negação da ansiedade, que pode levar a uma redução da capacidade de lidar com a situação. Além disso, a prática de técnicas de relaxamento inadequadas pode não ser eficaz em reduzir a ansiedade.
+## Técnicas práticas
 
-## Protocolo/Conclusão
+### 1. Reinterpretar: «estou entusiasmado»
 
-Em resumo, a ansiedade pré-corrida é um fenómeno comum entre os atletas de corrida, mas pode ser transformada em combustível para a corrida com a ajuda da psicologia e da ciência do desporto. Existem várias estratégias que os atletas podem utilizar para lidar com a ansiedade pré-corrida, incluindo a prática da relaxação progressiva, a meditação e a visualização. Além disso, a prática do treino de alta intensidade e de resistência pode ajudar a aumentar a confiança e a reduzir a ansiedade.
+Quando sentires o coração acelerado na partida, diz a ti próprio, em voz baixa ou mentalmente: «isto é o meu corpo a preparar-se», «estou entusiasmado». Não precisas de acreditar totalmente — a técnica funciona mesmo assim.
+
+### 2. Diálogo interno com frases-chave
+
+Uma meta-análise concluiu que o diálogo interno (self-talk) tem um efeito positivo moderado no rendimento desportivo, sobretudo quando é treinado previamente (Hatzigeorgiadis et al., 2011). Prepara duas ou três frases curtas:
+
+- **Instrucionais**, para os primeiros quilómetros: «solto e controlado», «ombros em baixo».
+- **Motivacionais**, para a parte difícil: «tu treinaste para isto», «um quilómetro de cada vez».
+
+Usa-as nos treinos de qualidade para que se tornem automáticas.
+
+### 3. Respiração lenta
+
+Algumas respirações lentas, com expiração mais longa do que a inspiração (por exemplo, inspirar 4 segundos e expirar 6), ajudam muitas pessoas a baixar a tensão sem perder a ativação. Faz 1–2 minutos na box de partida.
+
+### 4. Objetivos de processo e objetivos em camadas
+
+Em vez de pensares só no tempo final, define:
+
+- **Objetivos de processo:** «primeiro quilómetro a 5:05», «gel ao km 8», «ombros relaxados».
+- **Objetivos em camadas:** A (dia perfeito), B (dia normal), C (dia difícil — terminar com boa gestão).
+
+Isto reduz a sensação de «tudo ou nada» que alimenta a ansiedade cognitiva.
+
+### 5. Controla o controlável
+
+Grande parte da ansiedade vem da incerteza. Reduz-a com:
+
+- Logística resolvida na véspera (dorsal, roupa, transporte, horários).
+- Pequeno-almoço e aquecimento testados nos treinos.
+- Plano de ritmo e de abastecimento escrito.
+- Planos «se… então…»: «se começar a doer o estômago, abrando 10 segundos por quilómetro e bebo água»; «se ficar para trás do grupo, mantenho o meu ritmo».
+
+Vê a rotina completa para [o dia da maratona](/blog/dia-de-prova-maratona-rotina).
+
+### 6. Imagética
+
+Nos dias anteriores, visualiza a prova com detalhe: a partida, os primeiros quilómetros a ritmo controlado, o momento difícil e como reages a ele, a meta. Inclui os obstáculos — imaginar só o cenário perfeito prepara pouco para a realidade.
+
+### 7. Aceitar uma noite mal dormida
+
+É muito comum dormir mal na véspera de uma prova. Preocupar-te com isso só aumenta a ansiedade. Dá prioridade ao sono nas noites anteriores e lembra-te de que muitos corredores fazem boas provas depois de uma noite agitada.
+
+## Erros comuns
+
+1. **Tentar eliminar totalmente os nervos.** Alguma ativação é útil; o objetivo é geri-la, não apagá-la.
+2. **Mudar tudo no dia da prova.** Comida nova, sapatilhas novas ou um aquecimento diferente aumentam a incerteza.
+3. **Comparar-te com os outros na partida.** Observar quem parece mais em forma não te ajuda em nada.
+4. **Sair demasiado rápido para «despachar».** A ansiedade empurra para ritmos iniciais excessivos.
+5. **Ignorar sinais de ansiedade excessiva.** Ver abaixo.
+
+## Quando procurar ajuda
+
+Os nervos antes de uma prova são normais. Já não é normal quando a ansiedade:
+
+- Te impede de dormir durante vários dias seguidos;
+- Provoca ataques de pânico;
+- Te leva a desistir de provas que gostarias de fazer;
+- Se estende a outras áreas da vida (trabalho, relações).
+
+Nesses casos, fala com um psicólogo, de preferência com experiência em psicologia do desporto. Vê também o artigo sobre [preparação mental para provas longas](/blog/preparacao-mental-para-ultra-trail-do-medo-ao-flow-state).
+
+## Conclusão
+
+A ansiedade pré-prova é o teu corpo a preparar-se para um desafio importante. Em vez de lutares contra ela, reinterpreta-a como entusiasmo, apoia-te em frases-chave treinadas, respira devagar, define objetivos de processo e controla o que está ao teu alcance. A confiança vem sobretudo da preparação — e essa já está feita.
 
 ## Referências Científicas
 
-- Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554
-- Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082
-- McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6
-- Yule, N. J., & McGrath, J. S. (2001). A review of the literature on anxiety and performance in sport. International Journal of Sport and Exercise Psychology, 1(1), 22-41.
+1. Woodman, T., & Hardy, L. (2003). The relative impact of cognitive anxiety and self-confidence upon sport performance: a meta-analysis. *Journal of Sports Sciences*, 21(6), 443–457.
+2. Brooks, A. W. (2014). Get excited: reappraising pre-performance anxiety as excitement. *Journal of Experimental Psychology: General*, 143(3), 1144–1158.
+3. Hatzigeorgiadis, A., Zourbanos, N., Galanis, E., & Theodorakis, Y. (2011). Self-talk and sports performance: a meta-analysis. *Perspectives on Psychological Science*, 6(4), 348–356. https://doi.org/10.1177/1745691611413136
+4. McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. *Sports Medicine*, 45(7), 997–1015.
