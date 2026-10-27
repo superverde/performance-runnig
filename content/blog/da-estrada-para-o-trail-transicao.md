@@ -1,6 +1,6 @@
 ---
 title: "Da Estrada para o Trail: Como Fazer a Transição"
-date: 'PENDENTE'
+date: '2026-10-27'
 category: "Trail Running"
 excerpt: "Passar da estrada para o trail exige treinar por esforço, preparar as pernas para as descidas e adaptar o material. Vê um plano de transição de 8 semanas."
 seoTitle: "Da Estrada para o Trail: Plano de Transição"

@@ -1,6 +1,6 @@
 ---
 title: "Correr de Manhã ou à Noite: Quando Rendes Mais"
-date: 'PENDENTE'
+date: '2026-10-27'
 category: "Treino"
 excerpt: "Correr de manhã ou à noite? O rendimento tende a ser maior ao fim da tarde, mas o cronotipo e o hábito contam muito. Vê como escolher a tua melhor hora."
 seoTitle: "Correr de Manhã ou à Noite: O Que Diz a Ciência"

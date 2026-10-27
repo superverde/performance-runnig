@@ -1,6 +1,6 @@
 ---
 title: "Maratona Sub-3h30: O Plano Realista de 16 Semanas"
-date: 'PENDENTE'
+date: '2026-10-27'
 category: "Treino"
 excerpt: "Para correr a maratona sub 3h30 precisas de manter 4:58/km. Vê se estás pronto, os teus ritmos de treino e um plano realista de 16 semanas."
 seoTitle: "Maratona Sub 3h30: Plano Realista de 16 Semanas"
