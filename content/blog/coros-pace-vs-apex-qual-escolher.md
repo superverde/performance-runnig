@@ -2,57 +2,64 @@
 title: "COROS Pace vs Apex: Qual Escolher"
 date: '2026-09-21'
 category: "Equipamento"
-excerpt: "COROS Pace ou COROS Apex? Comparamos as duas linhas pelos critérios que decidem mesmo a compra: autonomia, GPS no terreno e robustez."
+excerpt: "COROS Pace ou COROS Apex? Comparamos Pace 4, Pace Pro e Apex 4 pelos critérios que decidem a compra: autonomia, mapas, ecrã, robustez e preço."
 keyword: "coros pace vs apex"
 keywords: ["coros pace 3", "coros apex 2", "relógio coros"]
 readTime: 4
 faqs:
   - q: "Qual a diferença principal entre o COROS Pace e o COROS Apex?"
-    a: "O Pace é a linha leve e orientada para estrada e treino diário; o Apex é a linha mais robusta, com mais autonomia e navegação, pensada para trail e ultra. Confirma as especificações da geração exata antes de comprar."
-  - q: "O COROS Apex pode ser usado em trail de montanha?"
-    a: "Sim, é precisamente esse o seu terreno: construção mais resistente, autonomia longa e navegação. Para ultras de vários dias, verifica a autonomia no modo de GPS que vais usar."
-  - q: "Posso usar ambos os relógios com o meu telemóvel?"
-    a: "Sim. Ambos sincronizam por Bluetooth com a app COROS, e de lá podes exportar para Strava ou para outras plataformas de treino."
+    a: "O Pace é a linha leve, pensada para corrida e treino diário; o Apex é a linha de montanha, com materiais mais resistentes como titânio e vidro de safira, mais autonomia e mapas com navegação. O Pace Pro fica no meio: ecrã AMOLED e mapas offline num relógio leve."
+  - q: "O COROS Pace 4 tem mapas?"
+    a: "Não tem mapas offline; permite seguir percursos em modo de trilho (breadcrumb). Se precisas de mapas no pulso, as opções na COROS são o Pace Pro ou o Apex 4."
+  - q: "Posso usar estes relógios com o meu telemóvel e com o Strava?"
+    a: "Sim. Sincronizam por Bluetooth com a app COROS, a partir da qual podes ligar plataformas como o Strava. Confirma na app as integrações disponíveis no momento da compra."
 ---
 
-Para quem procura decidir entre o COROS Pace e o COROS Apex, este artigo compara as duas linhas pelos critérios que realmente decidem a compra: autonomia, comportamento do GPS no teu terreno e robustez. A escolha correta pode otimizar a economia de energia, reduzir o risco de lesões e melhorar a experiência de treino em maratona ou ultramaratona.
+A COROS tem duas famílias de relógios que interessam à maioria dos corredores: a **Pace**, leve e orientada para o treino diário, e a **Apex**, pensada para montanha e ultra. Entre elas, o **Pace Pro** junta ecrã AMOLED e mapas num relógio leve. Este guia compara os modelos atuais pelos critérios que realmente decidem a compra.
 
-## Como Escolher: Critérios Que Importam
+## Como escolher: critérios que importam
 
-A decisão entre dois relógios de corrida deve começar por três perguntas práticas: quanto tempo precisas que a bateria dure num treino ou prova, que fiabilidade exiges do sinal GPS no terreno onde corres, e se vais usar o relógio em condições que exigem mais robustez. Nenhum relógio te faz correr mais depressa — o que um bom relógio faz é dar-te dados fiáveis para tomares decisões de treino.
+**Autonomia.** Para treinos de uma a duas horas, qualquer um destes relógios chega com folga. Para ultras de muitas horas, a autonomia em GPS passa a ser decisiva — e atenção ao modo: os modos de maior precisão (multibanda ou todos os sistemas de satélites) consomem mais do que o modo padrão. Lê sempre a autonomia no modo que vais usar.
 
-A **precisão do GPS** nota-se sobretudo em terreno difícil: vales encaixados, floresta densa e ruas estreitas entre prédios altos. Os modelos com receção multibanda e acesso a várias constelações de satélites (GPS, GLONASS, Galileo) costumam comportar-se melhor nesses cenários do que os de banda única; em estrada aberta a diferença é pequena.
+**Mapas e navegação.** Seguir um trilho (linha no ecrã) chega para muitos treinos e provas marcadas. Mapas topográficos no pulso fazem diferença em montanha, sobretudo em percursos mal marcados ou quando precisas de te orientar. Vê também [seguir um GPX no relógio](/blog/seguir-gpx-no-relogio-guia).
 
-A **resistência à água e ao uso duro** interessa a quem corre em montanha, com chuva e com quedas. Confirma sempre a classificação de resistência à água do modelo exato na página do fabricante antes de comprar: os valores mudam de geração para geração dentro da mesma família, e um número tirado de uma review antiga pode já não se aplicar ao modelo que tens à frente.
+**Ecrã.** Os ecrãs AMOLED são mais vivos e legíveis em interiores, mas gastam mais bateria quando estão sempre ligados. Os ecrãs MIP (memória no píxel) são menos vistosos, mas muito legíveis ao sol e mais eficientes.
 
-Por fim, a **autonomia** é o critério que mais separa gamas. Para treinos até duas horas, praticamente qualquer relógio atual chega; para ultras de um dia inteiro ou mais, é aí que os modelos de gama alta se justificam — e vale a pena verificar a autonomia anunciada no modo de GPS que vais mesmo usar, porque o modo de maior precisão consome bastante mais do que o modo de poupança.
+**Construção.** Titânio e vidro de safira resistem melhor a pancadas e riscos em montanha; polímero e vidro mineral tornam o relógio mais leve e barato.
 
-## As Melhores Opções em 2026
+**Precisão do GPS.** Os modos multibanda tendem a comportar-se melhor em vales encaixados, floresta densa e ruas estreitas entre prédios altos; em estrada aberta, a diferença é pequena.
 
-| Modelo | Para quem é | Pontos fortes | A ter em conta |
-|--------|-------------|---------------|----------------|
-| **COROS Pace** (gama atual) | Corrida em estrada e pista, treino diário | Leve, autonomia muito boa para o peso, ótima relação qualidade/preço | Menos vocacionado para navegação em montanha |
-| **COROS Apex** (gama atual) | Trail e ultra | Construção mais robusta, autonomia superior, navegação | Mais pesado e mais caro |
-| **Garmin Forerunner** (gama 165/265) | Quem quer o ecossistema Garmin Connect | Métricas de treino maduras, ecrã AMOLED nas versões recentes | Sem mapas nos modelos de entrada |
-| **Polar Pacer / Vantage** | Quem valoriza testes de fitness e recuperação | Boas ferramentas de carga e recuperação | Ecossistema com menos integrações |
-| **Suunto (gama Run/Vertical)** | Trail, com foco em navegação | Autonomia e navegação sólidas | App menos completa que a concorrência |
+**Preço.** A diferença entre o Pace mais barato e o Apex mais caro é grande. Paga pelo que vais mesmo usar.
 
-Os preços destes modelos mudam com frequência e com a geração. Confirma sempre o preço e as especificações do modelo exato — geração incluída — na página do fabricante ou no revendedor antes de comprar.
+## As Melhores Opções
 
-*Para mais detalhes sobre [equipamento](/equipamento), consulte a nossa página dedicada.*
+| Produto | Para quem é | Pontos fortes | Pontos fracos | Preço indicativo |
+|---|---|---|---|---|
+| **COROS Pace 4** | Corrida em estrada e pista, treino diário | Muito leve (cerca de 32 g com bracelete de nylon), ecrã AMOLED de 1,2", até 41 h em GPS e até 19 dias em uso diário segundo os revendedores, microfone para notas de voz | Sem mapas offline (só trilho), sem altifalante nem música | cerca de 270–310 € |
+| **COROS Pace Pro** | Quem corre em estrada mas quer mapas no pulso | Ecrã AMOLED de 1,3", mapas offline globais e topográficos, até 38 h com todos os sistemas de satélites ou 31 h em multibanda | Mais pesado do que o Pace 4 (cerca de 49 g com bracelete de silicone); funções smartwatch básicas | cerca de 350–400 € |
+| **COROS Apex 4 (42 mm)** | Trail e montanha, pulsos mais pequenos | Titânio grau 5, vidro de safira, ecrã MIP legível ao sol, mapas topográficos com navegação curva a curva, até 41 h com todos os sistemas de satélites | Mais caro; ecrã menos vistoso do que um AMOLED | cerca de 450–500 € |
+| **COROS Apex 4 (46 mm)** | Ultra trail e provas muito longas | A mesma construção do 42 mm, com mais autonomia: até 65 h com todos os sistemas de satélites | O mais caro e volumoso desta comparação | cerca de 500 € |
 
-## Veredicto: Qual Comprar
+*Preços indicativos em outubro de 2026; confirma na loja antes de comprar.* As gerações anteriores (Pace 3, Apex 2 e Apex 2 Pro) ainda aparecem à venda em algumas lojas — confirma sempre a geração e as especificações do modelo exato na ficha do produto. A COROS não indica no anúncio do Apex 4 o peso nem a classificação de resistência à água; confirma esses dados na página do fabricante se forem decisivos para ti.
 
-Se corres sobretudo em estrada e queres um relógio leve para o dia a dia, o **COROS Pace** é o que dá mais por menos dinheiro dentro da marca. Se o teu calendário tem trail longo ou ultra, o **Apex** justifica-se pela construção mais robusta, pela autonomia maior e pela navegação. Se já usas Garmin Connect ou treinas com outras pessoas que usam, um **Forerunner** poupa-te a fricção de mudar de ecossistema — e essa fricção costuma pesar mais na prática do que a diferença técnica entre modelos equivalentes.
+Para comparar com outras marcas, vê [Garmin vs COROS vs Suunto para trail](/blog/garmin-vs-coros-vs-suunto-relogio-trail-2026) e [melhores relógios GPS de corrida](/blog/melhor-relogio-gps-corrida-2026). Mais equipamento na página de [equipamento](/equipamento).
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+## Veredicto: qual comprar
 
+- **Corres sobretudo em estrada e queres o melhor por menos dinheiro:** **COROS Pace 4**. Leve, com bom ecrã e autonomia de sobra para treinos e maratonas.
+- **Corres em estrada mas fazes trail de vez em quando e queres mapas:** **COROS Pace Pro**. Dá-te mapas offline sem o preço nem o peso de um relógio de montanha.
+- **O teu calendário é trail, montanha e ultra:** **COROS Apex 4**. Escolhe o **46 mm** se fazes provas muito longas ou precisas de margem de bateria; o **42 mm** se tens pulso pequeno ou preferes um relógio mais discreto.
+
+Nenhum relógio te faz correr mais depressa — o que um bom relógio faz é dar-te dados fiáveis para tomares melhores decisões de treino. Lê também [as métricas do relógio GPS que importam](/blog/relogio-gps-metricas-corrida-importantes).
+
+👉 **Vê a nossa seleção completa de equipamento em [performancerunning.pt/equipamento](/equipamento)**
 
 ## Fontes
 
-As especificações e os preços destes relógios mudam de geração para geração e ao longo do ano. Confirma sempre na fonte primária antes de comprar:
+- COROS — anúncio oficial do APEX 4 (tamanhos, materiais, ecrã, mapas, autonomia, preço em USD): https://coros.com/stories/press-release/c/coros-announces-apex-4
+- DC Rainmaker — análise do COROS Pace 4 (peso, ecrã, ausência de mapas offline, preços de lançamento do Pace 4, Pace Pro e Pace 3): https://www.dcrainmaker.com/2025/11/coros-pace-4-in-depth-sports-review.html
+- T3 — análise do COROS Pace Pro (ecrã, peso, autonomia, mapas offline): https://www.t3.com/active/fitness-trackers/coros-pace-pro-review
+- Galaxus — ficha do COROS Pace 4 (autonomia em GPS e em uso diário, preço em euros): https://www.galaxus.de/en/s1/product/coros-pace-4-4340-mm-without-a-sim-card-smartwatches-70579502
+- Decathlon Itália — gama COROS com preços em euros (Pace 4, Pace Pro, Apex 4): https://www.decathlon.it/brands/coros
 
-- Páginas oficiais dos fabricantes (COROS, Garmin, Polar, Suunto) para especificações, autonomia e resistência à água do modelo exato.
-- Ficha do produto no revendedor para o preço em vigor e a geração em stock.
-
-Este artigo não cita literatura científica porque não existe investigação revista por pares sobre estes modelos concretos — citar estudos de calçado ou de fisiologia para sustentar afirmações sobre eletrónica seria dar-te uma falsa sensação de rigor.
+Este artigo não cita literatura científica porque não existe investigação revista por pares sobre estes modelos concretos.

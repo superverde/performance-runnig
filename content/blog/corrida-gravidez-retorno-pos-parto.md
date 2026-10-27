@@ -6,70 +6,113 @@ excerpt: "Correr durante a gravidez é seguro para a maioria das mulheres, com a
 seoTitle: "Correr Durante e Após a Gravidez: Guia com Evidência"
 keyword: "correr durante a gravidez"
 keywords: ["corrida pós-parto", "gravidez e corrida", "voltar a correr depois do parto"]
-readTime: 5
+readTime: 6
 faqs:
-  - q: "Como saber se a minha frequência cardíaca está a ficar demasiado alta durante a corrida na gravidez?"
-    a: "Use um monitor de HR e mantenha a frequência entre 60 % e 75 % da HRmáx; se ultrapassar 190 bpm, reduza a velocidade imediatamente."
-  - q: "Qual é a diferença entre correr e caminhar no período pós‑parto?"
-    a: "Caminhar serve como base de recuperação e permite avaliar a tolerância ao esforço sem sobrecarregar o assoalho pélvico; correr deve ser introduzido apenas após 6–8 semanas e com fortalecimento prévio."
-  - q: "Posso fazer HIIT durante a gravidez se já sou atleta experiente?"
-    a: "Sim, mas limite a duração a 20 min por sessão, com intervalos curtos e recuperação ativa; ajuste a intensidade para não ultrapassar 80 % HRmáx e evite a última fase gestacional."
+  - q: "Posso continuar a correr durante a gravidez?"
+    a: "Na ausência de complicações ou contraindicações, as diretrizes do ACOG e as canadianas consideram que as mulheres já ativas, incluindo corredoras, podem em geral continuar a treinar durante a gravidez, com ajustes. A decisão deve ser sempre acompanhada pelo médico ou obstetra."
+  - q: "Devo controlar a intensidade pela frequência cardíaca?"
+    a: "Na gravidez, a resposta da frequência cardíaca ao esforço altera-se, por isso as diretrizes preferem a perceção de esforço e o teste da fala: deves conseguir manter uma conversa. Esforço moderado é o ponto de referência para a maioria das grávidas."
+  - q: "Quando posso voltar a correr depois do parto?"
+    a: "As orientações para profissionais de saúde do Reino Unido sugerem que a corrida seja retomada, em regra, não antes de cerca de 3 meses após o parto, e apenas se a mulher não tiver sintomas e passar testes de carga e impacto. Antes disso, caminhada, exercícios do pavimento pélvico e força são o caminho, idealmente com avaliação por fisioterapeuta de saúde pélvica."
 ---
 
-A mulher grávida pode continuar a correr, mas o volume, a intensidade e a frequência têm de ser ajustados de forma a proteger a mãe e o bebé. Durante a gravidez, a prática deve ser moderada, com atenção ao sinal de fadiga e à temperatura corporal, enquanto no pós‑parto a retomada deve ser gradual, respeitando o tempo de cicatrização e a recuperação hormonal.
+A gravidez não é, por si só, motivo para deixar de correr. As principais diretrizes internacionais consideram a atividade física na gravidez segura e desejável na ausência de complicações, com benefícios para a mãe e sem prejuízo para o bebé. Mas a corrida exige ajustes ao longo dos trimestres, e o regresso depois do parto merece um plano cuidadoso. Este guia resume o que diz a evidência — e não substitui o acompanhamento pelo teu médico, obstetra ou fisioterapeuta.
 
-## Base Científica
+## O que dizem as diretrizes
 
-A fisiologia da gravidez altera o volume sanguíneo (aumenta em 30–50 %), a frequência cardíaca em repouso (+10–20 bpm) e a capacidade de oxigenação (VO₂máx reduz em 5–10 %). A maior demanda metabólica aumenta a necessidade de reposição de glicogeno e de calorias, enquanto o risco de hipertermia cresce. Por isso, a literatura recomenda manter a intensidade em zonas 2–3 (60–75 % do HRmáx) e evitar treinos de alta intensidade por mais de 20 min consecutivos (Seiler, 2010).  
+### Durante a gravidez
 
-A adaptação muscular e cardiovascular durante a gravidez favorece a resistência, mas a força dos músculos do core e da pelve deve ser reforçada para mitigar a dor lombar e a disfunção do assoalho pélvico (Blagrove, Howatson & Hayes, 2018). Estudos de intervalos de alta intensidade (HIIT) mostram que, quando adaptados, podem melhorar a capacidade aeróbica sem sobrecarregar o sistema cardiovascular (Buchheit & Laursen, 2013).  
+O Colégio Americano de Obstetras e Ginecologistas (ACOG, 2020) refere que:
 
-O período pós‑parto apresenta um retorno gradual do VO₂máx ao nível pré‑gravidez em 6–12 semanas, dependendo do tipo de parto e da recuperação do assoalho pélvico. A periodização de treino, tal como descrita por Bompa & Buzzichelli (2018), é crucial para evitar sobrecarga e lesões durante a fase de readaptação.
+- na ausência de complicações obstétricas ou médicas, a atividade física na gravidez é segura e desejável;
+- as mulheres que já eram ativas, incluindo as que faziam exercício aeróbio vigoroso, podem em geral continuar durante a gravidez e no pós-parto;
+- estudos observacionais associam o exercício na gravidez a menor risco de diabetes gestacional, de cesariana e de parto instrumentado, e a uma recuperação pós-parto mais rápida;
+- o exercício pode precisar de modificações devido às alterações anatómicas e fisiológicas normais da gravidez.
 
-## Aplicação Prática
+A diretriz canadiana de 2019 (Mottola et al., 2018) recomenda que as grávidas sem contraindicações acumulem **pelo menos 150 minutos por semana de atividade de intensidade moderada**, repartidos por pelo menos 3 dias, e que incluam **treino dos músculos do pavimento pélvico**, que pode reduzir o risco de incontinência urinária. Recomenda também que as mulheres que sentem tonturas, náuseas ou mal-estar deitadas de costas evitem exercitar-se nessa posição.
 
-### Durante a Gravidez
+### Contraindicações e sinais de alerta
 
-| Fase | Volume semanal | Int. (HR%) | Duração máxima por sessão | Observações |
-|------|-----------------|------------|---------------------------|-------------|
-| 1–12 sem | 30–45 min | 60–70 % | 20 min | Evitar calor excessivo, hidratar 500 ml 15 min antes. |
-| 13–28 sem | 45–60 min | 60–75 % | 25 min | Monitorizar dor lombar, usar sapatos de suporte. |
-| 29–40 sem | 30–45 min | 60–70 % | 20 min | Reduzir distância se sentir fadiga, considerar trote leve ou caminhada. |
+Há situações em que o exercício está contraindicado ou exige avaliação médica — por exemplo, certas doenças cardíacas ou pulmonares, hemorragia persistente, placenta prévia em fases avançadas, risco de parto prematuro, rotura de membranas ou pré-eclâmpsia. Só o médico pode avaliar o teu caso.
 
-**Protocolos de HIIT adaptados**: 4 × 1 min a 80 % HRmáx, 3 min de recuperação ativa, total 20 min. Aumentar gradualmente a intensidade se a frequência cardíaca não ultrapassar 190 bpm e se não houver desconforto abdominal.
+Para imediatamente e contacta o teu médico se tiveres:
 
-### Pós‑Parto
+- hemorragia vaginal ou perda de líquido;
+- contrações regulares e dolorosas;
+- falta de ar antes do esforço, tonturas, dor de cabeça persistente ou dor no peito;
+- fraqueza muscular que afete o equilíbrio;
+- dor ou inchaço na barriga da perna.
 
-| Semana | Volume semanal | Int. (HR%) | Duração máxima por sessão | Observações |
-|--------|-----------------|------------|---------------------------|-------------|
-| 1–4 | 15–20 min | 50–60 % | 10 min | Apenas caminhada, evitar corrida até 4 sem. |
-| 5–8 | 25–35 min | 60–70 % | 15 min | Introduzir trote leve, monitorizar dor pélvica. |
-| 9–12 | 40–50 min | 65–75 % | 20 min | Reintroduzir intervalos curtos (2 × 2 min a 80 % HRmáx). |
+## Correr durante a gravidez: ajustes práticos
 
-**Recomendação de periodização**: 4‑semana de carga crescente, seguida de 1‑semana de “taper” (redução de 20 %) antes de testar a velocidade máxima. Isso minimiza o risco de lesões e otimiza a recuperação.
+### Intensidade
 
-## Erros Comuns
+Na gravidez, a frequência cardíaca de repouso aumenta e a resposta ao esforço altera-se, por isso as zonas de frequência cardíaca habituais deixam de ser fiáveis. As diretrizes preferem a **perceção de esforço** e o **teste da fala**: deves conseguir manter uma conversa durante a corrida. Intensidade moderada é o padrão de referência; atletas habituadas a treino vigoroso podem manter mais, mas sempre com acompanhamento médico.
 
-1. **Ignorar a frequência cardíaca** – Aumentar a distância sem monitorizar a HR pode levar a sobrecarga. Usa monitores com zonas de intensidade predefinidas.  
-2. **Continuar a corrida de alta intensidade nas últimas semanas de gestação** – Aumenta o risco de hipertermia e de complicações obstétricas. Reduzir a velocidade e a duração.  
-3. **Retomar a corrida imediatamente após o parto** – O corpo precisa de 6–12 semanas para readquirir a força do core e do assoalho pélvico. Iniciar com caminhadas e fortalecer músculos antes de correr.  
-4. **Não adaptar a carga de treino ao tipo de parto** – Parto caesáreo pode requerer mais tempo de cicatrização da pelve; parto normal pode implicar risco de diástase. Ajustar o volume e a intensidade conforme a recuperação.  
-5. **Desconsiderar sinais de fadiga e dor** – Dor lombar persistente ou desconforto abdominal são sinais de que o treino está demasiado intenso.
+### Volume e frequência
 
-## Protocolo / Conclusão
+Não há uma tabela universal de quilómetros por trimestre. Muitas corredoras mantêm corridas fáceis no primeiro e segundo trimestres e reduzem progressivamente o volume, o ritmo ou passam a alternar corrida e caminhada à medida que a barriga cresce e o desconforto pélvico ou lombar aparece. Ouvir o corpo é, aqui, a regra principal.
 
-1. **Avaliação pré‑treino**: Medir HRmáx (ex.: corrida de 12 min) e avaliar a integridade do assoalho pélvico.  
-2. **Definir zonas de intensidade**: 60–70 % HRmáx para a maioria das sessões, 80 % apenas em intervalos curtos e bem controlados.  
-3. **Incremento gradual**: 10 % de aumento semanal no volume total, não mais que 20 % de aumento de intensidade.  
-4. **Incluir treino de força**: 2‑3 sessões por semana de exercícios de core e glúteos (plank, ponte, agachamento com peso leve).  
-5. **Monitorização contínua**: Reavaliar a cada 4 semanas, ajustar o protocolo conforme evolução.  
+### Calor e hidratação
 
-Ao seguir estas diretrizes baseadas em evidências, a corredora pode manter a forma, proteger a saúde materna e fetal, e garantir uma transição segura para o pós‑parto. A chave está na adaptação consciente, na periodização estruturada e no respeito aos sinais do corpo.
+Evita correr nas horas de maior calor e humidade, veste roupa leve e bebe com regularidade. A diretriz do ACOG recomenda evitar o exercício em calor excessivo, sobretudo com humidade elevada (ACOG, 2020).
 
+### Terreno e quedas
+
+Com o centro de gravidade a mudar e mais laxidão ligamentar, o risco de quedas aumenta. Prefere superfícies regulares e bem iluminadas; trail técnico deixa de ser boa ideia na fase avançada da gravidez.
+
+### Força e pavimento pélvico
+
+Mantém treino de força com cargas adaptadas e inclui exercícios do pavimento pélvico diariamente, de preferência ensinados por um fisioterapeuta de saúde pélvica (Mottola et al., 2018).
+
+### Sinais para abrandar ou parar a corrida
+
+- incontinência urinária ao correr;
+- sensação de peso ou pressão na zona vaginal;
+- dor pélvica, no púbis ou lombar que piora com a corrida.
+
+Estes sintomas não são "normais a que se tenha de habituar" — são motivo para reduzir o impacto e procurar avaliação.
+
+## Voltar a correr depois do parto
+
+### As primeiras semanas
+
+Nas primeiras semanas após o parto, a prioridade é a recuperação. Caminhadas progressivas, exercícios respiratórios e de ativação do pavimento pélvico e do abdómen profundo são o ponto de partida, de acordo com a orientação da equipa de saúde. Depois de cesariana, a cicatrização da parede abdominal exige mais cautela.
+
+### Quando voltar a correr
+
+As orientações publicadas por Goom, Donnelly e Brockwell (2019) para profissionais de saúde no Reino Unido sugerem que a corrida seja retomada, em regra, **a partir de cerca de 3 meses após o parto**, se a mulher estiver sem sintomas e conseguir passar uma série de testes de carga e impacto (por exemplo, caminhar, equilíbrio numa perna, agachamento numa perna, saltitar e corrida no lugar, sem dor, perdas de urina ou sensação de peso). Os autores sublinham que são orientações para apoiar o raciocínio clínico e não um protocolo rígido: cada regresso deve ser individualizado.
+
+Entre as condições frequentes em corredoras no pós-parto estão a dor musculoesquelética, a incontinência urinária, a diástase dos retos abdominais e o prolapso dos órgãos pélvicos — todas avaliáveis e tratáveis por um fisioterapeuta de saúde pélvica.
+
+### Progressão sugerida
+
+1. **0–6 semanas:** caminhada progressiva, respiração, pavimento pélvico, mobilidade.
+2. **6–12 semanas:** se a recuperação o permitir e com aval da equipa de saúde, treino de força progressivo e exercício de baixo impacto (bicicleta estática, elíptica, caminhada rápida).
+3. **A partir de cerca de 12 semanas:** se passares os testes de carga e impacto sem sintomas, corrida em intervalos (por exemplo, 1 minuto a correr / 1 minuto a caminhar), aumentando gradualmente o tempo de corrida ao longo de semanas.
+
+Nos meses seguintes, retoma o volume habitual de forma gradual e só depois reintroduz treinos intensos. Vê também [retorno à corrida após paragem](/blog/retorno-corrida-apos-lesao-progressao) e [prevenção de lesões em corredoras](/blog/prevencao-lesoes-corredoras).
+
+### Amamentação, sono e energia
+
+O ACOG refere que o exercício no pós-parto pode ajudar a prevenir sintomas depressivos e não prejudica a produção de leite quando a ingestão energética e hídrica é adequada. Noites curtas e amamentação aumentam as necessidades de recuperação: não compares o teu regresso com o de outras pessoas e ajusta o treino ao sono que tens.
+
+## Erros comuns
+
+1. **Seguir zonas de frequência cardíaca de antes da gravidez** em vez da perceção de esforço.
+2. **Ignorar sintomas pélvicos** como perdas de urina ou sensação de peso.
+3. **Voltar a correr cedo demais depois do parto** sem passar por força, pavimento pélvico e testes de impacto.
+4. **Comparar o regresso com o de atletas profissionais** ou de outras mães nas redes sociais.
+5. **Não pedir ajuda:** um fisioterapeuta de saúde pélvica pode fazer a diferença entre um regresso tranquilo e meses de sintomas.
+
+## Conclusão
+
+Para a maioria das mulheres saudáveis, correr durante a gravidez é possível e benéfico, com intensidade moderada, atenção ao calor, ao terreno e aos sinais do corpo, e acompanhamento médico. Depois do parto, o regresso deve ser gradual: primeiro recuperar, depois fortalecer, e só então voltar a correr — em regra não antes de cerca de 3 meses e sem sintomas. Cada gravidez é diferente: o teu plano deve ser construído com a tua equipa de saúde.
 
 ## Referências Científicas
 
-1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276  
-2. Laursen, P. B. (2010). Training for intense exercise performance: high‑intensity or high‑volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x  
-3. Buchheit, M., & Laursen, P. B. (2013). High‑intensity interval training, solutions to the programming puzzle. Sports Medicine, 43(5), 313-338. https://doi.org/10.1007/s40279-013-0029-x  
-4. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle‑ and long‑distance running performance: a systematic review. Sports Medicine, 48(5), 1117-1149. https://doi.org/10.1007/s402
+American College of Obstetricians and Gynecologists (2020). Physical activity and exercise during pregnancy and the postpartum period: ACOG Committee Opinion No. 804. *Obstetrics & Gynecology*, 135(4), e178–e188. https://doi.org/10.1097/AOG.0000000000003772
+
+Goom, T., Donnelly, G., & Brockwell, E. (2019). *Returning to running postnatal — guidelines for medical, health and fitness professionals managing this population*.
+
+Mottola, M. F., Davenport, M. H., Ruchat, S.-M., Davies, G. A., Poitras, V. J., Gray, C. E., et al. (2018). 2019 Canadian guideline for physical activity throughout pregnancy. *British Journal of Sports Medicine*, 52(21), 1339–1346.

@@ -1,118 +1,110 @@
 ---
 title: 'Correr em Jejum: O que a Ciência Diz sobre Fat Burning e Performance'
 excerpt: >-
-  Correr de manhã em jejum queima mais gordura? Vai prejudicar o músculo? A fat adaptation funciona? Aqui está o que a investigação realmente diz.
+  Correr em jejum queima mais gordura? Faz perder músculo? A fat adaptation
+  melhora o rendimento? Vê o que a investigação mostra e quando faz sentido.
 seoTitle: "Correr em Jejum: Queima de Gordura e Performance"
 keyword: "correr em jejum"
 keywords: ["fat burning corrida", "treino em jejum", "queimar gordura a correr"]
 date: '2026-06-21'
 category: Nutrição
-readTime: 6
+readTime: 7
+faqs:
+  - q: "Correr em jejum queima mais gordura?"
+    a: "Durante o treino, sim: uma meta-análise mostrou maior oxidação de gordura no exercício aeróbio em jejum do que após uma refeição, sobretudo a intensidades baixas a moderadas. Mas isso não se traduz necessariamente em mais perda de gordura corporal ao longo das semanas."
+  - q: "Correr em jejum ajuda a emagrecer?"
+    a: "Num estudo com dieta hipocalórica controlada, fazer cardio em jejum ou depois de comer produziu perdas de peso e de gordura semelhantes. O que manda na composição corporal é o balanço energético ao longo dos dias."
+  - q: "Posso fazer treinos intensos ou longos em jejum?"
+    a: "Não é recomendável. Uma meta-análise concluiu que comer antes melhora o rendimento em exercício aeróbio prolongado. Sessões de qualidade e longos devem ser feitos com hidratos de carbono disponíveis."
 ---
 
-Poucos tópicos na comunidade de corredores geram mais debate do que a corrida em jejum. De um lado, os defensores da "fat adaptation" que garantem que treinar em jejum transforma o teu metabolismo. Do outro, os que alertam para a perda de músculo e a degradação da performance.
+Poucos temas geram tanto debate entre corredores como correr em jejum. De um lado, quem garante que treinar sem comer "ensina o corpo a queimar gordura". Do outro, quem alerta para perda de músculo e quebra de rendimento. A evidência mostra que ambos têm parte da razão — e que tudo depende do tipo de treino e do objetivo.
 
-A verdade, como quase sempre na fisiologia, está algures no meio — e depende muito do contexto.
+## O que é correr em jejum?
 
-## O que é Correr em Jejum?
+Correr em jejum significa correr sem ter comido nas horas anteriores — tipicamente de manhã, depois de uma noite sem comer. Neste estado, o glicogénio hepático está reduzido (o glicogénio muscular mantém-se relativamente preservado se a alimentação do dia anterior foi adequada) e a insulina está baixa.
 
-Correr em jejum significa correr sem ter ingerido alimentos nas últimas 8-12 horas — tipicamente de manhã, antes do pequeno-almoço. Neste estado, os níveis de glicogénio hepático estão reduzidos (embora o glicogénio muscular permaneça relativamente intacto) e os níveis de insulina estão baixos.
+A lógica é que, com menos glicose disponível e insulina baixa, o organismo recorre mais à gordura durante o esforço e que, repetido ao longo do tempo, esse estímulo melhora a capacidade de oxidar gordura.
 
-A lógica proposta é que, com menos glicogénio disponível e insulina baixa, o corpo é "forçado" a oxidar mais gordura para obter energia — e que repetir este estímulo cronicamente melhora a capacidade de utilizar gordura como combustível.
+## O que acontece durante o treino
 
-## O que Acontece Metabolicamente
+A premissa de base está correta. Uma meta-análise de estudos em adultos concluiu que o exercício aeróbio feito em jejum aumenta a oxidação de gordura durante o esforço em comparação com o exercício feito após uma refeição, mas apenas a intensidades baixas a moderadas (abaixo de cerca de 70 % do VO2max); a intensidades mais altas, não houve diferença significativa (Vieira et al., 2016). Os autores sublinham que estes resultados são agudos e não devem ser extrapolados diretamente para efeitos a longo prazo.
 
-A premissa básica está correta: em jejum, a oxidação de gordura aumenta durante o exercício. Estudos medem consistentemente taxas de oxidação de gordura 20-30% mais elevadas durante exercício em jejum comparado com exercício após refeição.
+O mecanismo é intuitivo: com insulina baixa, a lipólise no tecido adiposo é menos inibida e há mais ácidos gordos disponíveis; com menos glicose disponível, os músculos usam proporcionalmente mais gordura.
 
-O que acontece especificamente:
-- Glicogénio hepático baixo → glicemia tendencialmente mais baixa
-- Insulina baixa → a hormona sensível à lípase (HSL) está mais ativo → maior mobilização de ácidos gordos do tecido adiposo
-- Disponibilidade reduzida de glicose → maior dependência de gordura para intensidades baixas-moderadas
+## Adaptações a longo prazo
 
-Até aqui, os defensores da corrida em jejum têm razão.
+### O que melhora
 
-## O que a Investigação Diz Sobre Adaptação a Longo Prazo
+Num estudo de 6 semanas, homens jovens que fizeram treino de resistência em jejum mostraram algumas adaptações metabólicas favoráveis no músculo em comparação com quem treinou depois de tomar hidratos de carbono (Van Proeyen et al., 2011). De forma semelhante, estratégias de "treinar com glicogénio baixo" aumentaram marcadores de capacidade de oxidar gordura.
 
-Aqui é onde a conversa fica mais complexa.
+### O que não melhora
 
-Estudos de curto prazo mostram aumentos na atividade de enzimas de oxidação de gordura e na capacidade mitocondrial após treino em jejum. Isso sugere que o estímulo provoca adaptações reais.
+O problema é a tradução para o rendimento. Num estudo com ciclistas bem treinados, um grupo treinou com glicogénio muscular baixo em parte das sessões (fazendo dois treinos seguidos em dias alternados) e outro com glicogénio normal. Ao fim de 3 semanas, o grupo "low" aumentou a capacidade de oxidar gordura, mas o rendimento em contrarrelógio melhorou de forma semelhante nos dois grupos (Hulston et al., 2010). A potência nos intervalos foi até menor no grupo que treinou com glicogénio baixo.
 
-No entanto, um estudo de referência publicado no *Journal of Applied Physiology* (Hulston et al., 2010) comparou dois grupos de ciclistas durante 3 semanas: um treinou em jejum, o outro não. O grupo em jejum desenvolveu melhor capacidade de oxidação de gordura — mas não houve diferença na performance em prova entre os grupos.
+Uma meta-análise sobre treino em jejum versus alimentado concluiu que **comer antes melhora o rendimento em exercício aeróbio prolongado**, enquanto em esforços aeróbios mais curtos não houve diferença (Aird et al., 2018).
 
-Este é o problema central: melhorar a capacidade de oxidar gordura não se traduz automaticamente em correr mais rápido.
+E no extremo das dietas pobres em hidratos de carbono e ricas em gordura, em marchadores de elite, a adaptação aumentou muito a oxidação de gordura mas piorou a economia de exercício e anulou o ganho de rendimento do treino intensificado (Burke et al., 2017). Ultramaratonistas adaptados a dietas cetogénicas atingem taxas muito altas de oxidação de gordura (Volek et al., 2016), mas isso não demonstra melhor rendimento em prova.
 
-## Corrida em Jejum e Perda de Músculo
+**Em resumo:** melhorar a capacidade de oxidar gordura não se traduz automaticamente em correr mais depressa.
 
-Este é o medo mais comum — e está fundamentado até certo ponto.
+## E a perda de músculo?
 
-Quando o glicogénio está reduzido e a intensidade sobe, o organismo pode recorrer à gluconeogénese — produção de glucose a partir de aminoácidos (proteína muscular). Isso implica algum grau de catabolismo proteico.
+Quando o glicogénio está baixo e o esforço é longo ou intenso, aumenta a utilização de aminoácidos como fonte de energia, o que pode aumentar a degradação de proteína muscular. Na prática:
 
-A magnitude depende da intensidade e duração:
-- Corridas fáceis (Z1-Z2) de 45-60 min em jejum: impacto no músculo muito limitado
-- Corridas de alta intensidade ou longas (>90 min) em jejum: risco de catabolismo muscular mais significativo
+- **corridas fáceis e curtas em jejum** (30–60 minutos): impacto provavelmente pequeno, sobretudo se a alimentação diária tiver proteína suficiente;
+- **sessões intensas ou longas em jejum**: maior stress metabólico, pior qualidade do treino e recuperação mais exigente.
 
-Conclusão prática: corridas curtas a baixa intensidade em jejum têm risco mínimo para o músculo. Intervalos de alta intensidade ou corridas longas em jejum são uma má ideia se preservar massa muscular é um objetivo.
+## Correr em jejum ajuda a emagrecer?
 
-## Quando Faz Sentido Treinar em Jejum
+Muitos corredores usam o jejum para "queimar mais gordura". Mas a gordura oxidada durante uma corrida é apenas uma parte do balanço do dia. Num estudo com mulheres jovens em dieta hipocalórica, fazer cardio em jejum ou depois de uma refeição durante 4 semanas resultou em perdas de peso e de massa gorda semelhantes (Schoenfeld et al., 2014).
 
-A corrida em jejum tem contextos onde pode ser uma ferramenta útil:
+A corrida em jejum não é uma estratégia de perda de gordura superior quando o balanço energético é controlado. E restringir de forma repetida a energia disponível em corredores com volume elevado pode contribuir para a Deficiência Energética Relativa no Desporto (REDs), com consequências na saúde óssea, hormonal e no rendimento (Mountjoy et al., 2023).
 
-**Para corredores de ultra trail e ultra maratona**: a fat adaptation tem maior relevância em provas de 8-24+ horas onde a intensidade é baixa e a dependência de gordura é alta. Ensinar o corpo a oxidar gordura eficientemente tem valor prático aqui.
+## Quando pode fazer sentido
 
-**Para corridas fáceis matinais curtas (30-50 min)**: baixo risco, conveniente, e estimula adaptações metabólicas sem comprometer a recuperação ou o treino de qualidade.
+- **Corridas fáceis e curtas de manhã** (30–60 minutos), se te sentes bem e é uma questão de conveniência.
+- **Como estímulo ocasional e planeado** dentro de uma estratégia de periodização dos hidratos de carbono, sempre em sessões de baixa intensidade (Impey et al., 2018).
+- **Em corredores de ultra** que queiram, de forma pontual, treinar em condições de menor disponibilidade de hidratos de carbono — sem substituir a prática da nutrição de prova.
 
-**Como variante ocasional**: inserir 1-2 corridas fáceis em jejum por semana numa rotina de treino variada — não como regra, mas como estímulo adicional.
+## Quando NÃO treinar em jejum
 
-## Quando NÃO Treinar em Jejum
+- **Antes de sessões de qualidade:** intervalos, limiar, ritmo de prova.
+- **Antes de longos de mais de 75–90 minutos**, sobretudo se incluírem ritmo.
+- **Em blocos de carga alta ou perto de competições.**
+- **Se tens diabetes ou tomas medicação que afeta a glicemia**, sem orientação médica.
+- **Se tens ou tiveste uma relação difícil com a comida ou perturbações do comportamento alimentar.** Nesses casos, usar o jejum para "queimar gordura" pode ser prejudicial; procura apoio profissional.
 
-**Antes de sessões de qualidade**: intervalos, tempo runs, progressivos — qualquer sessão que exija intensidade acima do limiar deve ser feita com glicogénio disponível. A performance será melhor, o estímulo será maior.
+## Protocolo prático, se optares por correr em jejum
 
-**Corridas longas acima de 90 min**: o risco de hipoglicemia, catabolismo muscular e degradação da performance supera os benefícios potenciais.
+1. **Começa com corridas curtas e fáceis** — 30–45 minutos em zona 1–2.
+2. **Hidrata-te antes de sair** — o jejum é de comida, não de água. Café sem açúcar é uma opção para quem o tolera.
+3. **Leva um gel ou uma peça de fruta** nas primeiras vezes, para o caso de tonturas.
+4. **Não ultrapasses cerca de 60 minutos** na maioria dos casos.
+5. **Come uma refeição com hidratos de carbono e proteína** depois do treino.
 
-**Em períodos de alta carga ou competição**: quando a recuperação e a qualidade do treino são prioritárias, não é o momento para stressar adicionalmente o metabolismo.
+## O veredicto
 
-**Se tens historial de distúrbios alimentares**: a instrumentalização do jejum para "queimar mais gordura" pode ser psicologicamente problemática neste contexto.
+Correr em jejum não é milagre metabólico nem prática perigosa para a maioria dos corredores saudáveis. Aumenta a oxidação de gordura durante o treino, mas não demonstrou melhorar o rendimento nem acelerar a perda de gordura quando a alimentação total é controlada — e prejudica as sessões longas e intensas.
 
-## E o Peso Corporal?
+Se te convém correr antes do pequeno-almoço por razões práticas, faz corridas fáceis sem culpa. Se estás a forçar o jejum à espera de uma transformação metabólica, os dados não suportam essa expectativa. Para mais detalhe, lê [treino em jejum: mitos e evidência](/blog/treino-jejum-mitos-evidencia-cientifica) e [gordura como combustível na corrida longa](/blog/gordura-combustivel-corrida-longa).
 
-Muitos corredores usam a corrida em jejum como estratégia para perda de peso, baseados no argumento de que "queimam mais gordura". 
+## Referências Científicas
 
-A realidade é mais prosaica: o que importa para a composição corporal é o balanço calórico total ao longo do dia. Queimar mais gordura durante a corrida matinal não garante perda de gordura se compensares com mais calorias ao longo do dia (o que acontece frequentemente quando se treina em jejum — o apetite aumenta).
+Aird, T. P., Davies, R. W., & Carson, B. P. (2018). Effects of fasted vs fed-state exercise on performance and post-exercise metabolism: a systematic review and meta-analysis. *Scandinavian Journal of Medicine & Science in Sports*, 28(5), 1476–1493. https://doi.org/10.1111/sms.13054
 
-A corrida em jejum não é uma estratégia de perda de peso superior ao treino pós-refeição quando o balanço calórico total é controlado.
+Burke, L. M., Ross, M. L., Garvican-Lewis, L. A., Welvaert, M., Heikura, I. A., Forbes, S. G., Mirtschin, J. G., Cato, L. E., Strobel, N., Sharma, A. P., & Hawley, J. A. (2017). Low carbohydrate, high fat diet impairs exercise economy and negates the performance benefit from intensified training in elite race walkers. *The Journal of Physiology*, 595(9), 2785–2807. https://doi.org/10.1113/JP273230
 
-## Protocolo Prático: Como Usar a Corrida em Jejum
+Hulston, C. J., Venables, M. C., Mann, C. H., Martin, C., Philp, A., Baar, K., & Jeukendrup, A. E. (2010). Training with low muscle glycogen enhances fat metabolism in well-trained cyclists. *Medicine & Science in Sports & Exercise*, 42(11), 2046–2055. https://doi.org/10.1249/MSS.0b013e3181dd5070
 
-Se decides incorporar treino em jejum na tua rotina:
+Impey, S. G., Hearris, M. A., Hammond, K. M., Bartlett, J. D., Louis, J., Close, G. L., & Morton, J. P. (2018). Fuel for the work required: a theoretical framework for carbohydrate periodization and the glycogen threshold hypothesis. *Sports Medicine*, 48(5), 1031–1048. https://doi.org/10.1007/s40279-018-0867-7
 
-**1. Começa com corridas curtas e fáceis** — 30-45 min a Z1/Z2. Avalia como te sentes.
+Mountjoy, M., Ackerman, K. E., Bailey, D. M., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1097. https://doi.org/10.1136/bjsports-2023-106994
 
-**2. Hidrata antes de sair** — 300-500ml de água. O jejum é de alimentos, não de água.
+Schoenfeld, B. J., Aragon, A. A., Wilborn, C. D., Krieger, J. W., & Sonmez, G. T. (2014). Body composition changes associated with fasted versus non-fasted aerobic exercise. *Journal of the International Society of Sports Nutrition*, 11, 54. https://doi.org/10.1186/s12970-014-0054-7
 
-**3. Leva sempre um gel ou banana como seguro** — especialmente nas primeiras vezes. Se sentires tonturas ou hipoglicemia, usa-o.
+Van Proeyen, K., Szlufcik, K., Nielens, H., Ramaekers, M., & Hespel, P. (2011). Beneficial metabolic adaptations due to endurance exercise training in the fasted state. *Journal of Applied Physiology*, 110(1), 236–245.
 
-**4. Não ultrapasses 60 minutos** — para a maioria dos corredores amadores, é o limite razoável antes que os riscos comecem a superar os benefícios.
+Vieira, A. F., Costa, R. R., Macedo, R. C. O., Coconcelli, L., & Kruel, L. F. M. (2016). Effects of aerobic exercise performed in fasted v. fed state on fat and carbohydrate metabolism in adults: a systematic review and meta-analysis. *British Journal of Nutrition*, 116(7), 1153–1164. https://doi.org/10.1017/S0007114516003160
 
-**5. Recupera bem após a corrida** — uma refeição com proteína e hidratos de carbono nos 30-60 minutos após o treino em jejum é mais importante do que após treino normal.
-
-## O Veredito
-
-A corrida em jejum é uma ferramenta — nem milagre metabólico nem prática perigosa. Funciona bem em contextos específicos (corridas fáceis e curtas, treino de endurance de longa distância), não funciona bem noutros (sessões de qualidade, corridas longas).
-
-Se te convém correr de manhã antes do pequeno-almoço por razões logísticas, fá-lo sem culpa. O benefício real pode ser mais prático do que metabólico — consegues treinar regularmente, e a consistência bate qualquer otimização marginal.
-
-Se estás a forçar o jejum na esperança de uma transformação metabólica dramática, os dados não suportam essa expectativa.
-
-Como sempre em fisiologia: o contexto importa mais do que a regra.
-
-## Referências
-
-Volek, J. S., et al. (2016). Metabolic characteristics of keto-adapted ultra-endurance runners. *Metabolism*, 65(3), 100–110.
-
-Burke, L. M., et al. (2017). Low carbohydrate, high fat diet impairs exercise economy and negates the performance benefit from intensified training in elite race walkers. *Journal of Physiology*, 595(9), 2785–2807.
-
-Van Proeyen, K., et al. (2011). Beneficial metabolic adaptations due to endurance exercise training in the fasted state. *Journal of Applied Physiology*, 110(1), 236–245.
-
-Impey, S. G., et al. (2018). Fuel for the work required: A theoretical framework for carbohydrate periodization and the glycogen threshold hypothesis. *Sports Medicine*, 48(5), 1031–1048.
-
-Jeukendrup, A. E. (2017). Periodized nutrition for athletes. *Sports Medicine*, 47(Suppl 1), 51–63.
+Volek, J. S., Freidenreich, D. J., Saenz, C., Kunces, L. J., Creighton, B. C., Bartley, J. M., et al. (2016). Metabolic characteristics of keto-adapted ultra-endurance runners. *Metabolism*, 65(3), 100–110.

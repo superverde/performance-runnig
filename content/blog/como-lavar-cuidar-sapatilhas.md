@@ -2,82 +2,95 @@
 title: "Como Lavar e Cuidar das Sapatilhas"
 date: '2026-10-16'
 category: "Equipamento"
-excerpt: "Descobre como lavar sapatilhas de corrida de forma eficaz e prolongar a vida útil do teu calçado. Guia completo com dicas de limpeza e cuidados."
+excerpt: "Como lavar sapatilhas de corrida sem as estragar: limpeza à mão, secagem sem calor, cuidados com palmilhas e hábitos que prolongam a vida do teu calçado."
 readTime: 4
 keyword: "lavar sapatilhas"
 keywords: ["como lavar sapatilhas de corrida", "cuidar das sapatilhas", "sapatilhas na máquina"]
 faqs:
-  - q: "Como posso lavar sapatilhas de corrida sem danificar a sola?"
-    a: "Lava sempre em ciclos delicados, usando água fria e detergente suave. Evita sobrecarregar a máquina e não uses secadoras."
-  - q: "É seguro colocar as sapatilhas na máquina de lavar?"
-    a: "Sim, se o fabricante indicar que o calçado é seguro para lavagem mecânica. Utiliza um saco de lavagem e um ciclo suave."
-  - q: "Qual o melhor método para cuidar das sapatilhas após a lavagem?"
-    a: "Seca as sapatilhas ao ar livre, longe da luz solar direta, preenchendo-as com papel toalha para manter a forma. Remova os atacadores e palmilhas separadamente."
+  - q: "Posso lavar as sapatilhas de corrida na máquina?"
+    a: "Fabricantes como a Brooks e a ASICS desaconselham a máquina de lavar, porque a imersão e a centrifugação podem danificar os tecidos, as colas e a espuma. A limpeza à mão, com água morna e detergente suave, é a opção mais segura."
+  - q: "Como seco as sapatilhas depressa sem as estragar?"
+    a: "Tira as palmilhas e os atacadores, enche as sapatilhas com papel absorvente ou jornal e deixa-as secar ao ar, num local ventilado, longe de radiadores, secadores e sol direto. Troca o papel quando estiver encharcado."
+  - q: "Lavar as sapatilhas faz com que durem mais quilómetros?"
+    a: "A limpeza remove sujidade e odores e evita danos causados por lama e areia, mas não recupera o amortecimento de uma espuma gasta. Quando as sapatilhas chegam ao fim de vida, nenhuma lavagem as recupera."
 ---
 
-Para quem procura saber como lavar sapatilhas, este artigo oferece uma abordagem detalhada e prática. A limpeza adequada não só mantém o visual do teu calçado, mas também previne a proliferação de bactérias e prolonga a sua performance em cada corrida.
+Lama, pó, suor e chuva fazem parte da vida de umas sapatilhas de corrida. Limpá-las de forma correta mantém o cabedal em bom estado, controla os odores e evita que a sujidade acelere o desgaste. Limpá-las mal — na máquina de lavar, num radiador ou ao sol — pode estragar em minutos aquilo que custou mais de 100 euros. Este guia segue as recomendações dos fabricantes.
 
-## Como Lavar Sapatilhas
+## O que dizem os fabricantes
 
-A primeira etapa para cuidar das sapatilhas é separar os componentes: sola, cabedal e solas interiores. Em seguida, verifica se o fabricante recomenda a lavagem a seco ou a máquina. A maioria das sapatilhas de corrida modernas permite uma lavagem suave na máquina, mas com restrições de temperatura e ciclos.
+As marcas de calçado de corrida são claras:
+
+- A **Brooks** desaconselha lavar ou secar as sapatilhas na máquina, porque a centrifugação pode degradar os materiais, e recomenda limpeza à mão com detergente suave, um pano húmido ou uma escova.
+- A **ASICS** também não recomenda a máquina de lavar, porque a imersão pode danificar os tecidos e as colas, e desaconselha secadores, radiadores e sol direto, que podem deformar o calçado ou provocar descolamentos.
+
+O conselho genérico de "pôr na máquina num ciclo delicado" não é o que os fabricantes recomendam.
+
+## Como lavar as sapatilhas, passo a passo
 
 ### 1. Preparação
 
-- Retira os atacadores e os palmilhas. Os atacadores podem ser lavados à mão ou colocados num saco de lavagem, enquanto as palmilhas são melhor secas ao ar.
-- Escorre a sujeira grosseira com um pano úmido ou uma escova de dentes macia. Isto previne que a sujeira se fixe durante a lavagem.
+- Tira os **atacadores** e as **palmilhas**.
+- Bate as solas uma na outra e remove a lama e as pedras com uma escova seca. Se a lama estiver molhada, deixa secar primeiro: sai com mais facilidade.
 
-### 2. Lavagem na Máquina
+### 2. Cabedal
 
-- Coloca as sapatilhas num saco de lavagem ou numa fronha de travesseiro para reduzir o impacto.
-- Seleciona um ciclo delicado com água fria. Adiciona um detergente suave, evitando produtos agressivos que possam degradar os materiais.
-- Não sobrecarregues a máquina; lava apenas um ou dois pares por vez para garantir um ciclo equilibrado.
+- Prepara água morna com uma pequena quantidade de detergente suave (do tipo usado para roupa delicada). Evita lixívia e produtos de limpeza domésticos agressivos.
+- Esfrega o cabedal com uma escova macia ou uma esponja, sem mergulhar a sapatilha.
+- Para camurça, nobuck ou pele, usa produtos próprios para esses materiais.
 
-### 3. Secagem
+### 3. Sola e entressola
 
-- Evita secar as sapatilhas em secadora ou sob luz solar direta. O calor excessivo pode deformar a sola ou o cabedal.
-- Preenche as sapatilhas com papel toalha ou jornal para manter a forma e absorver a humidade. Deixa secar ao ar livre, num local ventilado.
+- Uma escova de cerdas mais duras ajuda a limpar a borracha da sola e os sulcos.
+- Na entressola (a espuma), usa um pano húmido com um pouco de detergente — não a deixes de molho.
 
-## Como Escolher: Critérios Que Importam
+### 4. Palmilhas e atacadores
 
-Quando se trata de escolher uma sapatilha que suporte a lavagem frequente, é essencial considerar a composição dos materiais. Estudos demonstram que materiais de alta densidade e com estrutura de malha ventilada reduzem a humidade interna, facilitando a secagem (Nigg et al., 2015). Além disso, a tecnologia de amortecimento pode influenciar a eficiência energética, algo que é crucial para corredores de longa distância (Hoogkamer et al., 2018).
+- **Palmilhas:** esfrega com água e sabão, retira o sabão com um pano húmido e deixa secar ao ar. Não as deixes de molho, porque a espuma pode degradar-se.
+- **Atacadores:** lava à mão com sabão e uma escova, ou num saco de rede junto com roupa.
 
-**Durabilidade**  
-Verifica a resistência da sola, especialmente se pretendes usar a máquina de lavar. Solas de borracha natural tendem a manter a forma melhor do que as de borracha sintética.
+### 5. Secagem
 
-**Ventilação**  
-Uma malha respirável evita a acumulação de suor e bactérias. Isso também facilita a remoção de odores após a lavagem.
+- Enche as sapatilhas com papel absorvente ou jornal para absorver a humidade e manter a forma. Troca o papel quando estiver encharcado.
+- Deixa secar ao ar, num local ventilado, **longe de radiadores, secadores e sol direto**.
+- Só volta a montar palmilhas e atacadores quando tudo estiver seco.
 
-**Peso**  
-Sapatilhas mais leves são mais fáceis de secar e menos propensas a deformar-se durante a lavagem.
+## Métodos de limpeza: o que usar e quando
 
-**Custo**  
-Embora modelos de gama alta ofereçam materiais premium, há opções intermediárias que equilibram qualidade e preço, permitindo manter o calçado em boas condições sem gastar demasiado.
+| Método | Quando usar | Vantagens | Riscos |
+|---|---|---|---|
+| Escova seca | Depois de cada treino com pó ou lama seca | Rápido, sem humidade | Não remove odores nem manchas |
+| Limpeza à mão com detergente suave | Sujidade visível, odores, depois de provas com lama | Recomendado pelos fabricantes; controlo total | Exige tempo de secagem |
+| Máquina de lavar | Não recomendado | Comodidade | Danos em tecidos, colas e espuma; deformação |
+| Secador, radiador, sol direto | Nunca | Secagem rápida | Deformação, descolamentos, degradação dos materiais |
 
-## As Melhores Opções em 2026
+## Hábitos que prolongam a vida das sapatilhas
 
-| Produto | Para quem é | Pontos fortes | Pontos fracos | Faixa de preço |
-|---------|-------------|---------------|---------------|----------------|
-| Nike Air Zoom Pegasus 2026 | Iniciantes e corredores de 10‑km | Amortecimento consistente, boa ventilação | Pode desgastar a sola mais rapidamente | 150€‑200€ |
-| Adidas Adizero Boston 2026 | Competidores de maratona | Amortecimento de alta performance, sola resistente | Peso ligeiramente superior | 180€‑250€ |
-| Asics Gel-Nimbus 2026 | Corrida de longa distância | Excelente absorção de impacto, solas duráveis | Custo mais alto | 200€‑300€ |
-| Brooks Ghost 2026 | Treinos diários | Conforto moderado, boa respirabilidade | Pouco suporte para corredores pesados | 140€‑190€ |
-| New Balance Fresh Foam 880v12 | Corrida de resistência | Amortecimento de espuma fresca, solas de borracha natural | Peso moderado | 160€‑220€ |
+- **Deixa secar sempre** depois de treinos à chuva, mesmo que não as laves.
+- **Desaperta os atacadores** para calçar e descalçar, em vez de pisares o contraforte do calcanhar.
+- **Guarda-as num local seco e arejado**, não no porta-bagagens do carro ao sol.
+- **Usa calçado próprio para trail** em terrenos de montanha: a lama, a pedra e a areia desgastam depressa o calçado de estrada.
+- **Alterna pares, se puderes.** Num estudo prospetivo com 264 corredores recreativos, quem usava mais do que um par em paralelo teve menor risco de lesão relacionada com a corrida (Malisoux et al., 2015). É um estudo observacional — não prova causa-efeito —, mas alternar pares também dá tempo às sapatilhas para secarem completamente.
 
-> *Nota: Todas as marcas oferecem versões que permitem a lavagem na máquina, desde que seguidas as instruções do fabricante.*
+## Quando a limpeza já não resolve
 
-## Veredicto: Qual Comprar
+Nenhuma lavagem recupera uma espuma gasta ou uma sola sem tração. Se notas que as pernas e os pés acabam os treinos invulgarmente cansados, se a entressola tem vincos profundos ou a sola está lisa em zonas de apoio, está na altura de pensar em substituir. Lê o nosso guia sobre [quando trocar as sapatilhas de corrida](/blog/sapatilhas-corrida-quando-trocar-guia-pratico) e, para transportar o calçado sujo em viagem, [sacos organizadores para sapatilhas](/blog/sacos-organizadores-transporte-sapatilhas-viagem).
 
-- **Iniciantes**: A **Nike Air Zoom Pegasus 2026** oferece um equilíbrio entre conforto e custo, sendo fácil de limpar e manter.
-- **Competidores**: O **Adidas Adizero Boston 2026** destaca-se pela eficiência energética e resistência, ideal para treinos intensos e maratonas.
-- **Orçamento limitado**: O **Brooks Ghost 2026** oferece conforto sólido e durabilidade, sem comprometer o preço.
+## Veredicto
 
-Para quem pretende cuidar das sapatilhas regularmente, é vital escolher um modelo que permita a lavagem na máquina sem risco de danificar a estrutura. A manutenção adequada não só estende a vida útil, mas também mantém a performance em cada corrida.
+- **Depois de cada treino:** escova seca e secagem ao ar.
+- **Quando estão sujas ou com odor:** limpeza à mão com água morna e detergente suave, palmilhas e atacadores à parte.
+- **Nunca:** máquina de lavar, secador, radiador ou sol direto.
 
-👉 **Vê a nossa seleção completa de equipamento testado em [performancerunning.pt/equipamento](/equipamento)**
+Cuidar bem das sapatilhas não as torna eternas, mas evita que se estraguem antes do tempo. Para escolher o próximo par, vê a página de [equipamento](/equipamento).
 
+👉 **Vê a nossa seleção completa de equipamento em [performancerunning.pt/equipamento](/equipamento)**
 
-## Referências
+## Fontes
 
-Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. British Journal of Sports Medicine, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054
+- Brooks Running — How to clean running shoes: https://www.brooksrunning.com/en_nl/blog/gear-maintenance/how-to-clean-running-shoes.html
+- ASICS — How to clean running shoes: 3 tips for keeping your shoes tidy: https://www.asics.com/nl/en-nl/asics-advice/how-to-clean-running-shoes-3-tips-for-keeping-your-shoes-tidy/
 
-Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A comparison of the energetic cost of running in marathon racing shoes. Sports Medicine, 48(4), 1009-1019. https://doi.org/10.1007/s40279-017-0811-2
+## Referências Científicas
+
+Malisoux, L., Ramesh, J., Mann, R., Seil, R., Urhausen, A., & Theisen, D. (2015). Can parallel use of different running shoes decrease running-related injury risk? *Scandinavian Journal of Medicine & Science in Sports*, 25(1), 110–115. https://doi.org/10.1111/sms.12154

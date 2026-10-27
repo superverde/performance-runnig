@@ -6,66 +6,98 @@ keywords: ["quanto comer na maratona", "géis na maratona", "nutrição durante 
 date: "2025-06-26"
 category: "Nutrição"
 readTime: 5
+faqs:
+  - q: "Quantos géis devo tomar numa maratona?"
+    a: "Depende do teu tempo previsto, da quantidade de hidratos de carbono de cada gel e do alvo por hora. Para 60 g/h numa maratona de 4 horas precisas de cerca de 240 g no total, somando géis e bebida desportiva. Lê o rótulo dos teus géis e faz as contas antes da prova."
+  - q: "Quando devo tomar o primeiro gel na maratona?"
+    a: "Começa cedo, tipicamente entre os 20 e os 40 minutos de prova, e depois mantém tomas regulares a cada 20 a 30 minutos. Esperar pela fome ou pela fraqueza é tarde demais."
+  - q: "Posso tomar géis com frutose se nunca os experimentei?"
+    a: "Não é boa ideia. Os géis com glicose e frutose permitem absorver mais hidratos de carbono por hora, mas devem ser testados em vários treinos longos antes da prova para confirmares que os toleras."
 ---
 
-"Bater o muro" — o temido fenómeno das km 30-35 da maratona onde as pernas deixam de responder — é em grande parte um problema nutricional, não de condição física. A ciência da nutrição de corrida evoluiu muito na última década.
+"Bater no muro" — a quebra súbita de ritmo na parte final da maratona — tem várias causas, mas a depleção de glicogénio é uma das principais e a mais fácil de prevenir. A ciência da nutrição em prova evoluiu muito na última década, e a conclusão prática é clara: a maioria dos maratonistas amadores come demasiado pouco durante a prova.
 
 ## O que causa "o muro"?
 
-O corpo humano armazena glicogénio (a forma de armazenamento de hidratos de carbono) nos músculos e no fígado. Para a maioria das pessoas, estas reservas duram **90-120 minutos** de corrida a intensidade de maratona.
+O corpo armazena hidratos de carbono como glicogénio nos músculos e no fígado. Ao ritmo de maratona, a maior parte da energia vem dos hidratos de carbono, e estas reservas não chegam, por si só, para 42 km a ritmo de prova na maioria dos corredores.
 
-Quando o glicogénio acaba, o corpo recorre quase exclusivamente à gordura como combustível — que é mais lento de metabolizar e não suporta ritmos elevados. A velocidade cai, a perceção de esforço dispara. É o "muro".
+Quando o glicogénio muscular baixa muito e a glicemia desce, o organismo depende cada vez mais da gordura, que fornece energia mais devagar. O ritmo cai, a perceção de esforço dispara e a concentração degrada-se. Para aprofundar o mecanismo, lê [depleção de glicogénio e o muro da maratona](/blog/deplecao-glicogenio-maratona-wall).
 
-A solução é repor hidratos de carbono **durante** a prova, antes das reservas esgotarem.
+A estratégia tem duas partes: **chegar à partida com o glicogénio cheio** (carregamento nos dias anteriores) e **repor hidratos de carbono durante a prova**, antes de as reservas se esgotarem.
 
 ## Quanto tomar?
 
-A investigação mostra que o intestino consegue absorver, em média:
+As recomendações baseiam-se na duração do esforço (Jeukendrup, 2014; Thomas et al., 2016):
 
-- **60g de hidratos de carbono por hora** com uma fonte única (glucose ou maltodextrina)
-- **90g de hidratos de carbono por hora** com múltiplas fontes combinadas (glucose + frutose na proporção 2:1)
+- **2 a 3 horas:** até cerca de **60 g/h**, que uma única fonte (glicose ou maltodextrina) consegue fornecer;
+- **mais de 2,5 horas:** até cerca de **90 g/h**, o que exige misturas de glicose e frutose, porque o transporte intestinal de glicose isolada satura perto de 60 g/h.
 
-Para maratonas de 3-4 horas, 60-90g/hora é o target. Corredores mais rápidos (sub-3h) têm menor janela temporal e podem gerir com 40-60g/hora.
+Para a maioria dos maratonistas amadores, que correm entre 3 e 5 horas, um alvo de **60 g/h** é um bom ponto de partida; quem já treinou o intestino e tolera bem pode subir em direção aos 75–90 g/h.
 
-**Atenção**: muitos corredores tomam muito menos do que isto em prova. Um estudo recente mostrou que a ingestão média durante maratonas é de apenas 35g/hora — muito abaixo do recomendado.
+**A realidade:** num estudo que registou a ingestão em provas de resistência, os maratonistas consumiram em média apenas cerca de 35 g/h, o valor mais baixo de todas as provas estudadas (Pfeiffer et al., 2012). Há margem para melhorar.
 
-## Quando começar a tomar?
+### Até onde se pode ir?
 
-Não esperes sentir fome ou fraqueza. Inicia a ingestão de hidratos de carbono entre os **km 10-15** e mantém regularidade a cada 30-45 minutos até ao fim.
+Em atletas de elite muito treinados, há investigação a testar valores ainda mais altos. Num ensaio com 20 corredores de trail numa maratona de montanha, o grupo que ingeriu 120 g/h apresentou menos sinais de fadiga neuromuscular 24 horas depois do que os grupos de 60 e 90 g/h (Urdampilleta et al., 2020). É um estudo pequeno, com atletas de elite, e não justifica que um amador tente 120 g/h sem um longo processo de adaptação.
 
-Em maratonas, a estratégia mais robusta:
-- Km 10: primeiro gel ou bebida desportiva
-- Km 20: segundo gel
-- Km 28-30: terceiro gel + eletrólitos
-- Km 35-38: quarto gel se necessário
+## Quando começar?
 
-## Géis vs. comida real vs. bebidas desportivas
+Não esperes sentir fome ou fraqueza. Uma abordagem prática:
 
-**Géis desportivos**: rápidos, convenientes, fáceis de tomar em movimento. Contêm 20-25g de hidratos de carbono por gel. Requerem água adicional.
+- primeira toma entre os **20 e os 40 minutos** de prova;
+- depois, tomas regulares a cada **20–30 minutos**, até ao fim;
+- usa os abastecimentos de bebida desportiva para completar.
 
-**Bebidas desportivas** (nos postos): 6-8% de hidratos de carbono. Práticas mas nem sempre disponíveis no momento certo.
+### Exemplo de contas
 
-**Comida real** (em ultras): batatas cozidas com sal, banana, tâmaras — bem tolerados em ritmos mais lentos. Menos prático em maratona.
+Corredor com objetivo de 3h45 e alvo de 60 g/h:
 
-**Géis com múltiplas fontes** (glucose + frutose): permitem absorção de 90g/hora — preferíveis para ritmos de sub-3h30 onde a intensidade exige mais combustível.
+- total necessário: cerca de **225 g** de hidratos de carbono;
+- se cada gel tiver 25 g, são **9 géis** — ou menos, se usares também bebida desportiva nos abastecimentos;
+- distribuição: um gel a cada 25 minutos, com água.
+
+Muitos corredores ficam surpreendidos com este número. É precisamente por isso que a prática em treino é indispensável.
+
+## Géis, bebidas ou comida?
+
+**Géis:** práticos e fáceis de dosear. A quantidade de hidratos de carbono por gel varia bastante entre marcas — confirma sempre no rótulo. Toma-os com água, salvo se testaste outra combinação.
+
+**Bebidas desportivas:** fornecem hidratos de carbono, água e sódio ao mesmo tempo. Pergunta à organização qual a bebida e a concentração usadas nos abastecimentos e testa-a em treino.
+
+**Comida sólida:** banana, tâmaras ou barras são bem toleradas a ritmos mais lentos, mas são pouco práticas a ritmo de maratona.
+
+**Misturas glicose-frutose:** necessárias se quiseres passar de cerca de 60 g/h. Exigem treino prévio do intestino.
 
 ## O problema gastrointestinal
 
-O stress GI (náuseas, vómitos, diarreia) é uma das causas mais comuns de abandono em maratona. Factores que aumentam o risco:
+Náuseas, cólicas e diarreia estão entre as causas frequentes de abandono e de quebra de rendimento. Fatores que aumentam o risco:
 
-- Géis com alta concentração de frutose sem prática prévia
-- Consumir hidratos de carbono sem água suficiente
-- Alta intensidade (>90% da FC máxima) — o fluxo de sangue para o intestino diminui
-- Não ter treinado o intestino durante o ciclo de preparação
+- estrear géis ou bebidas no dia da prova;
+- ingerir grandes quantidades de uma vez;
+- soluções demasiado concentradas (gel + bebida concentrada ao mesmo tempo);
+- intensidade elevada e calor, que reduzem o fluxo de sangue para o intestino;
+- historial de problemas gastrointestinais (Pfeiffer et al., 2012).
 
-**A solução**: pratica a nutrição de prova durante os treinos longos. O intestino adapta-se — é "treinável".
+**A solução:** pratica a nutrição da prova nos treinos longos. O intestino adapta-se: num ensaio com corredores, duas semanas de ingestão repetida de hidratos de carbono durante o esforço reduziram os sintomas gastrointestinais em cerca de 60 % e melhoraram o rendimento num teste subsequente (Costa et al., 2017). Vê também o nosso guia de [treino intestinal e 90 g/h](/blog/hidratos-90g-hora-treino-intestinal).
+
+## Checklist para a maratona
+
+1. Carregamento de hidratos de carbono nos 1–2 dias anteriores (10–12 g/kg/dia para provas acima de 90 minutos, segundo Thomas et al., 2016).
+2. Pequeno-almoço rico em hidratos de carbono, testado em treino, 2–4 horas antes.
+3. Alvo por hora definido (por exemplo, 60 g/h) e número de géis calculado.
+4. Primeira toma cedo, depois tomas regulares.
+5. Nada de novo no dia da prova.
+
+Para o plano completo do dia, lê [dia de prova na maratona](/blog/dia-de-prova-maratona-rotina).
 
 ## Referências Científicas
 
-Shi, X., & Passe, D. H. (2010). Water and solute absorption from carbohydrate-electrolyte solutions in the human proximal small intestine. *Sports Medicine*, *40*(9), 761–777. https://doi.org/10.2165/11533730-000000000-00000
+Costa, R. J. S., Miall, A., Khoo, A., Rauch, C., Snipe, R., Camões-Costa, V., & Gibson, P. (2017). Gut-training: the impact of two weeks repetitive gut-challenge during exercise on gastrointestinal status, glucose availability, fuel kinetics, and running performance. *Applied Physiology, Nutrition, and Metabolism*, 42(5), 547–557.
 
-Jeukendrup, A. E. (2011). Nutrition for endurance sports: Marathon, triathlon, and road cycling. *Journal of Sports Sciences*, *29*(Suppl 1), S91–S99. https://doi.org/10.1080/02640414.2011.610348
+Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine*, 44(Suppl 1), S25–S33.
 
-Viribay, A., et al. (2020). Effects of 120 vs. 60 and 90 g/h carbohydrate intake during a trail marathon on neuromuscular function and high intensity run capacity recovery. *PMC*, *7400827*. https://pmc.ncbi.nlm.nih.gov/articles/PMC7400827/
+Pfeiffer, B., Stellingwerff, T., Hodgson, A. B., Randell, R., Pöttgen, K., Res, P., & Jeukendrup, A. E. (2012). Nutritional intake and gastrointestinal problems during competitive endurance events. *Medicine & Science in Sports & Exercise*, 44(2), 344–351.
 
-Costa, R. J. S., et al. (2017). Gut-training: The impact of two weeks repetitive gut-challenge during exercise on gastrointestinal status, glucose availability, fuel kinetics, and running performance. *Applied Physiology, Nutrition, and Metabolism*, *42*(5), 547–557. https://doi.org/10.1139/apnm-2016-0453
+Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: nutrition and athletic performance. *Journal of the Academy of Nutrition and Dietetics*, 116(3), 501–528. https://doi.org/10.1016/j.jand.2015.12.006
+
+Urdampilleta, A., Arribalzaga, S., Viribay, A., Castañeda-Babarro, A., Seco-Calvo, J., & Mielgo-Ayuso, J. (2020). Effects of 120 vs. 60 and 90 g/h carbohydrate intake during a trail marathon on neuromuscular function and high intensity run capacity recovery. *Nutrients*, 12(7), 2094. https://doi.org/10.3390/nu12072094

@@ -6,33 +6,81 @@ excerpt: "A roupa de compressão ajuda mesmo os corredores? Vê o que a evidênc
 keyword: "roupa de compressão"
 keywords: ["compressão e recuperação", "meias de compressão corrida", "evidência compressão"]
 readTime: 4
+faqs:
+  - q: "As meias de compressão fazem-me correr mais depressa?"
+    a: "A evidência não mostra melhorias relevantes no rendimento em prova com roupa de compressão. Os efeitos mais consistentes aparecem na recuperação e na sensação de dor muscular, e são de pequena a moderada dimensão."
+  - q: "Quando devo usar roupa de compressão?"
+    a: "O uso com mais suporte científico é depois de esforços que provocam dano muscular, como provas longas, descidas ou treinos muito exigentes, nas horas e dias seguintes. Durante a corrida, usa-a se te sentires confortável, sem esperar ganhos de rendimento."
+  - q: "Há riscos em usar compressão?"
+    a: "Peças mal ajustadas podem causar desconforto, marcas ou irritação da pele. Se tens doença arterial periférica, diabetes com neuropatia, problemas de pele ou circulatórios, fala com o médico antes de usar compressão."
 ---
 
-### Roupas de Compressão: Evidência Científica para Corredores
+Meias altas, mangas de gémeo, calções e collants de compressão tornaram-se comuns nas partidas de provas de estrada e trail. As promessas vão de "mais rendimento" a "recuperação acelerada". O que diz a ciência? Em resumo: **os efeitos no rendimento durante a corrida são pequenos ou inexistentes, e os benefícios mais consistentes aparecem na recuperação**, com magnitude modesta.
 
-Quando falamos em recuperação, é comum pensar em técnicas como alongamento, massagem, hidratação e sono. No entanto, um componente importante, mas frequentemente subestimado, é a roupa de compressão. As roupas de compressão estão a se tornar cada vez mais populares entre os corredores, mas a pergunta que todos fazem é: elas realmente funcionam? Neste artigo, vamos explorar a base científica por trás das roupas de compressão e como elas podem ajudar os corredores a recuperar melhor.
+## Como funciona a compressão
 
-A ideia de que as roupas de compressão podem melhorar a recuperação remonta à década de 1980, quando foram desenvolvidas para ajudar a reduzir a fadiga muscular. Desde então, vários estudos têm sido realizados para entender melhor o efeito das roupas de compressão na recuperação. Em 2018, um estudo publicado no International Journal of Sports Physiology and Performance analisou a eficácia das roupas de compressão em reduzir a fadiga muscular após um treino de alta intensidade. Os resultados mostraram que as roupas de compressão reduziram significativamente a fadiga muscular em comparação com o grupo de controlo.
+A roupa de compressão aplica pressão externa sobre os membros, por vezes de forma graduada (maior no tornozelo, menor na zona superior da perna). Os mecanismos propostos incluem:
 
-### Base Científica
+- menor oscilação muscular durante a passada;
+- redução do edema (inchaço) após exercício que causa dano muscular;
+- alterações da perceção de fadiga e de dor muscular.
 
-A base científica por trás das roupas de compressão é simples: elas trabalham ao redor das pernas para ajudar a reduzir a fadiga muscular. Isso é feito ao aplicar uma pressão constante nas veias e artérias, o que ajuda a reduzir a inflamação e a lesão muscular. Além disso, as roupas de compressão também podem ajudar a melhorar a circulação sanguínea, o que é essencial para a recuperação. De acordo com um estudo publicado no Journal of Strength and Conditioning Research, as roupas de compressão podem aumentar a circulação sanguínea em até 20% em comparação com o grupo de controlo.
+Na prática, a quantidade de pressão real varia muito com o tamanho escolhido, o modelo e a anatomia de cada pessoa, o que ajuda a explicar a heterogeneidade dos estudos.
 
-### Aplicação Prática
+## O que diz a evidência
 
-Então, como as roupas de compressão podem ser aplicadas em prática? A resposta é simples: use-as durante e após o treino. Isso ajuda a reduzir a fadiga muscular e a inflamação, o que é essencial para a recuperação. Além disso, as roupas de compressão também podem ser usadas durante a recuperação, como após um treino de alta intensidade ou durante a recuperação de lesões. É importante notar que as roupas de compressão devem ser usadas ao longo do dia, não apenas durante o treino.
+### Durante a corrida
 
-### Erros Comuns
+Uma revisão sistemática centrada especificamente em corredores (Engel et al., 2016) analisou os efeitos da roupa de compressão no rendimento, na fisiologia e na recuperação. A conclusão geral foi que **não há efeito significativo nos tempos de prova**, do sprint à maratona, nem em variáveis como o lactato sanguíneo ou o débito cardíaco. Foram encontrados benefícios pequenos no tempo até à exaustão e na economia de corrida, e efeitos moderados na dor muscular de início tardio e na fadiga muscular percebida quando a compressão é usada durante a corrida — mas sem tradução clara em tempos mais rápidos.
 
-Existem alguns erros comuns que os corredores devem evitar ao usar roupas de compressão. Em primeiro lugar, é importante escolher as roupas de compressão certas para o seu tipo de treino e nível de intensidade. As roupas de compressão mais apertadas são recomendadas para treinos de alta intensidade, enquanto as roupas de compressão mais leves são recomendadas para treinos de baixa intensidade. Além disso, é importante usar as roupas de compressão ao longo do dia, não apenas durante o treino.
+### Na recuperação
 
-### Protocolo/Conclusão
+É aqui que a evidência é mais favorável:
 
-Em resumo, as roupas de compressão são uma ferramenta eficaz para a recuperação em corredores. Elas reduzem a fadiga muscular, melhoram a circulação sanguínea e ajudam a reduzir a inflamação. Além disso, as roupas de compressão também podem ser usadas durante a recuperação, como após um treino de alta intensidade ou durante a recuperação de lesões. Ao escolher as roupas de compressão certas e usar-as ao longo do dia, os corredores podem melhorar significativamente a sua recuperação e desempenho.
+- Uma meta-análise de 12 estudos sobre recuperação após exercício que causa dano muscular encontrou efeitos de dimensão moderada a favor da compressão na **dor muscular de início tardio**, na **força**, na **potência** e na **creatina quinase** (um marcador indireto de dano muscular), medidos 24 a 72 horas depois (Hill et al., 2014).
+- Uma meta-análise mais ampla concluiu que a compressão tem um **efeito pequeno mas provável** na recuperação global, com os maiores benefícios na recuperação da força, sobretudo 2–8 horas e mais de 24 horas após o exercício. Nem a pressão aplicada (≤15 vs >15 mmHg) nem o nível de treino influenciaram significativamente os resultados (Brown et al., 2017).
 
-### Referências Científicas
+Um ponto importante: muitos destes estudos usam protocolos de dano muscular (exercício excêntrico, saltos, treino de força) e não apenas corrida. A transferência para a recuperação entre treinos de corrida normais é plausível, mas não está demonstrada com a mesma força.
 
-1. Kellmann, M., Bertollo, M., Bosquet, L., et al. (2018). Recovery and Performance in Sport: Consensus Statement. International Journal of Sports Physiology and Performance, 13(2), 240-245. https://doi.org/10.1123/ijspp.2017-0759
-2. Halson, S. L. (2014). Monitoring training load to understand fatigue in athletes. Sports Medicine, 44(Suppl 2), 139-147. https://doi.org/10.1007/s40279-014-0253-z
-3. Bishop, P. A., Jones, E., & Woods, A. K. (2008). Recovery from training: a brief review. Journal of Strength and Conditioning Research, 22(3), 1015-1024. https://doi.org/10.1519/JSC.0b013e31816eb518
-4. Vitale, K. C., Owens, R., Hopkins, S. R., & Malhotra, A. (2019). Sleep hygiene for optimizing recovery in athletes: review and recommendations. International Journal of Sports Medicine, 40(8), 535-543. https://doi.org/10.1055/a-0905-3103
+### O que não está demonstrado
+
+- Que a compressão "aumenta a circulação em 20 %" ou valores semelhantes que circulam na publicidade.
+- Que previne lesões de corrida.
+- Que usar compressão o dia inteiro, todos os dias, traz benefícios adicionais a um corredor saudável.
+
+## Aplicação prática
+
+**Quando faz mais sentido:**
+
+- depois de provas longas ou com muita descida (maratona, trail, ultra), nas horas e no dia seguinte;
+- depois de treinos muito exigentes, quando tens outra sessão importante em menos de 24–48 horas;
+- em viagens longas após uma prova, se te sentires mais confortável (neste caso, para quem tem fatores de risco de trombose, a decisão deve ser tomada com o médico).
+
+**Durante a corrida:** usa se gostas da sensação e se não te causa desconforto. Não esperes ganhar tempo por isso.
+
+**Como escolher:**
+
+- segue a tabela de tamanhos do fabricante, que geralmente usa a circunferência do gémeo e/ou do tornozelo;
+- a peça deve apertar sem deixar marcas profundas, formigueiro ou dor;
+- testa sempre em treino antes de usar em prova.
+
+Para escolher produtos concretos, vê os nossos guias de [meias de compressão para recuperação](/blog/meias-compressao-recuperacao-pos-corrida), [meias e mangas de compressão](/blog/meias-mangas-compressao-corrida-beneficios) e [leggings de compressão](/blog/calcas-leggings-compressao-corredores-guia).
+
+## Erros comuns
+
+- **Comprar compressão para correr mais depressa** — a evidência não suporta essa expectativa.
+- **Escolher o tamanho "a olho"** — a compressão eficaz e confortável depende das medidas.
+- **Usar como substituto de recuperação real** — sono, nutrição e gestão da carga têm muito mais impacto. Vê [ranking de métodos de recuperação](/blog/metodos-recuperacao-ranking-meta-analise).
+- **Ignorar sinais de alerta** — dormência, formigueiro, dor ou alterações da cor da pele obrigam a retirar a peça.
+
+## Conclusão
+
+A roupa de compressão não é um acelerador de rendimento, mas pode ser uma ferramenta útil — e de baixo risco para a maioria dos corredores saudáveis — para a recuperação depois de esforços que provocam dano muscular. Os efeitos são pequenos a moderados. Se gostas da sensação e te ajuda a sentir as pernas mais frescas no dia seguinte, usa-a; se não, não estás a perder nada de decisivo.
+
+## Referências Científicas
+
+Brown, F., Gissane, C., Howatson, G., van Someren, K., Pedlar, C., & Hill, J. (2017). Compression garments and recovery from exercise: a meta-analysis. *Sports Medicine*, 47(11), 2245–2267. https://doi.org/10.1007/s40279-017-0728-9
+
+Engel, F. A., Holmberg, H.-C., & Sperlich, B. (2016). Is there evidence that runners can benefit from wearing compression clothing? *Sports Medicine*, 46(12), 1939–1952.
+
+Hill, J., Howatson, G., van Someren, K., Leeder, J., & Pedlar, C. (2014). Compression garments and recovery from exercise-induced muscle damage: a meta-analysis. *British Journal of Sports Medicine*, 48(18), 1340–1346. https://doi.org/10.1136/bjsports-2013-092456

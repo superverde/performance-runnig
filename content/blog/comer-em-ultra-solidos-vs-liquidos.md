@@ -2,80 +2,103 @@
 title: "Comer em Ultra: Sólidos vs Líquidos"
 date: '2026-09-28'
 category: "Nutrição"
-excerpt: "Descobre como comer em ultra: a escolha entre sólidos e líquidos, estratégias de nutrição ultra trail e erros comuns que podem comprometer a tua performance."
-readTime: 5
+excerpt: "Comer em ultra: sólidos ou líquidos? Vê o que diz a ciência sobre energia por hora, tolerância intestinal e hidratação para planear a tua nutrição em trail."
+readTime: 6
 keyword: "comer em ultra"
 keywords: ["nutrição ultra trail", "sólidos vs líquidos", "comida em ultra"]
 faqs:
-  - q: "Qual é a diferença principal entre comer em ultra e comer em maratona?"
-    a: "Em ultramaratona, a duração ultrapassa 6 h, exigindo uma maior quantidade de hidratos de carbono e uma maior frequência de ingestão para evitar a fadiga."
-  - q: "Como saber se estou a ingerir demasiados líquidos durante um ultra?"
-    a: "Se sentir náuseas, vômitos ou a sensação de que o estômago está “cheio”, reduza a ingestão líquida em 50 ml e aumente a dos sólidos."
-  - q: "É seguro usar suplementos de eletrólitos durante a corrida?"
-    a: "Sim, se a solução isotónica contiver 0,4–0,8 % de eletrólitos, ajuda a manter o equilíbrio hídrico e a prevenir cãibras, mas deve ser testado em treino."
+  - q: "Os hidratos de carbono dos alimentos sólidos são aproveitados como os dos géis e bebidas?"
+    a: "Em estudos laboratoriais, os hidratos de carbono de uma barra sólida e de um gel foram oxidados de forma semelhante aos de uma bebida durante esforço prolongado. A escolha deve basear-se sobretudo na tolerância, na intensidade e na praticidade."
+  - q: "Quanto devo comer por hora num ultra?"
+    a: "A posição da ISSN para ultramaratona sugere 150 a 400 kcal por hora, com 30 a 50 g de hidratos de carbono por hora, ajustados à tolerância. Atletas com intestino treinado e a intensidades mais altas podem tolerar mais."
+  - q: "Como evito beber demasiado num ultra?"
+    a: "Bebe de acordo com a sede e as condições, em vez de seguir volumes fixos elevados. Ganhar peso durante a prova é sinal de que estás a beber demais, o que aumenta o risco de hiponatremia."
 ---
 
-Comer em ultra é uma das decisões mais críticas para garantir energia suficiente, evitar a fadiga e manter o controlo gastrointestinal durante a prova. A escolha entre sólidos e líquidos, a dosagem de hidratos de carbono e a sincronização com a hidratação determinam o sucesso ou o fracasso de um ultra.
+Num ultra, a nutrição deixa de ser um detalhe e passa a ser parte do treino e da estratégia. Ao fim de muitas horas, o apetite muda, o estômago reclama, o calor ou o frio alteram as necessidades e o ritmo é mais lento do que numa maratona. A pergunta "sólidos ou líquidos?" não tem resposta única — mas a ciência ajuda a escolher melhor.
 
-Além do abastecimento de energia, a nutrição ultra trail exige atenção à tolerância gastrointestinal, ao equilíbrio de eletrólitos e à recuperação pós‑corrida. A seguir, detalhamos a base científica, estratégias práticas, erros típicos e um protocolo de aplicação.
+## O que a ciência diz
 
-## Base Científica
+### Quanta energia por hora
 
-A ingestão de hidratos de carbono durante a atividade prolongada mantém os níveis de glicose sanguínea e reduz a queima de gordura, que é mais lenta e menos eficiente em termos de energia imediata (Jeukendrup, 2014). A recomendação geral é de 60–90 g h⁻¹, ajustável conforme a tolerância individual. Estudos mostram que a combinação de hidratos de carbono de cadeia curta (frutose, glicose) e de cadeia longa (maltodextrina) maximiza a absorção intestinal e minimiza o desconforto gastrointestinal (Burke et al., 2011).
+A posição da International Society of Sports Nutrition (ISSN) para ultramaratonas de etapa única recomenda, durante a prova (Tiller et al., 2019):
 
-Para a hidratação, a ingestão de 500–700 ml h⁻¹ de solução isotónica, contendo 6–8 % de glicose e 0,4–0,8 % de eletrólitos, mantém o volume intravascular e previne a desidratação (Maughan & Shirreffs, 2010). O equilíbrio entre líquidos e sólidos deve ser calibrado de forma que o volume ingerido não ultrapasse a capacidade gástrica, evitando náuseas e vômitos.
+- **energia:** 150–400 kcal por hora, de alimentos com boa densidade calórica;
+- **hidratos de carbono:** 30–50 g por hora;
+- **proteína:** 5–10 g por hora, sobretudo em provas muito longas;
+- **líquidos:** 450–750 ml por hora (cerca de 150–250 ml a cada 20 minutos), mais em calor e humidade;
+- **sódio:** em alguns casos, concentrações acima de 575 mg por litro de bebida, para reduzir o risco de hiponatremia.
 
-## Aplicação Prática
+Os valores de hidratos de carbono são mais baixos do que os recomendados para uma maratona porque a intensidade é menor e a tolerância intestinal ao longo de muitas horas é um fator limitante. Atletas com intestino treinado e a ritmos mais altos podem aproximar-se dos 60–90 g/h usados em provas de estrada, desde que testado previamente (Jeukendrup, 2014).
 
-### Planeamento da alimentação
+### Sólidos e líquidos são oxidados de forma semelhante
 
-| Momento | Quantidade | Tipo | Comentário |
-|---------|------------|------|------------|
-| 0 h (pré‑corrida) | 2 g kg⁻¹ de hidrato de carbono | Sólido (pão, fruta) | Garante glicogénio muscular |
-| 15 min | 30 g h⁻¹ | Líquido (gel, isotónica) | Inicia a reposição |
-| 45 min | 30 g h⁻¹ | Sólido (barras, fruta) | Sustenta a energia |
-| 60 min | 30 g h⁻¹ | Líquido | Continua a hidratação |
-| 90 min | 30 g h⁻¹ | Sólido | Mantém a sensação de saciedade |
-| 120 min | 30 g h⁻¹ | Líquido | Evita a sobrecarga gástrica |
+Uma ideia comum é que os sólidos "não são aproveitados" durante o esforço. Os estudos não confirmam isso. Num estudo com ciclistas treinados a pedalar 3 horas a intensidade moderada, os hidratos de carbono (glicose e frutose) de uma barra sólida foram oxidados de forma semelhante aos de uma bebida com a mesma composição (Pfeiffer et al., 2010a). Noutro estudo do mesmo grupo, um gel e uma bebida também apresentaram taxas de oxidação semelhantes (Pfeiffer et al., 2010b).
 
-A distribuição 50 % sólido / 50 % líquido ao longo da prova reduz o risco de síndrome gastrointestinal. A ingestão de pequenas porções a cada 15–20 min permite uma absorção mais eficiente.
+Ou seja: a escolha entre sólidos e líquidos depende menos do "aproveitamento" e mais da **tolerância, da intensidade, do apetite e da logística**.
 
-### Estratégias de sólidos vs líquidos
+### O intestino é treinável
 
-- **Sólidos**: oferecem saciedade, são menos propensos a causar refluxo e permitem a ingestão de micronutrientes (vitamina C, potássio). Ex.: banana, barra de cereais, pão integral.
-- **Líquidos**: são mais rapidamente absorvidos, evitam o peso extra de alimentos e permitem ajustes de concentração (frutose/glicose). Ex.: gel, isotónica, água com sal.
+Duas semanas de ingestão repetida de hidratos de carbono durante a corrida reduziram em cerca de 60 % os sintomas gastrointestinais e melhoraram o rendimento num ensaio com corredores (Costa et al., 2017). A posição da ISSN apoia o treino progressivo do intestino e, em alguns casos, dietas pobres em FODMAP nos dias antes da prova para quem tem sintomas (Tiller et al., 2019).
 
-A preferência deve ser individualizada. Atletas com histórico de gastrite ou refluxo tendem a beneficiar de maiores proporções líquidas. Por outro lado, corredores que experimentam hipoglicemia precoce podem necessitar de mais sólidos.
+## Sólidos vs líquidos: vantagens e limitações
 
-### Monitorização durante a prova
+| | Sólidos | Líquidos (bebidas, géis) |
+|---|---|---|
+| **Vantagens** | Saciedade, variedade de sabores, alimentos salgados, mais calorias por porção, proteína e gordura em pequenas quantidades | Fáceis de ingerir em movimento e a ritmo alto, hidratam ao mesmo tempo, dose de hidratos de carbono conhecida |
+| **Limitações** | Exigem mastigação e água, mais difíceis a ritmo alto ou em subida, podem pesar no estômago | Fadiga do paladar doce ao fim de horas, risco de beber demasiado, menos saciantes |
+| **Quando funcionam melhor** | Ritmos lentos, subidas a caminhar, postos de abastecimento, provas de muitas horas | Ritmos mais altos, calor, fases finais, quando o apetite desaparece |
 
-- **Peso corporal**: medir antes e após a prova, subtrair 0,5 kg por litro de perda hídrica. Se a perda for superior a 3 % do peso inicial, a hidratação deve ser intensificada.
-- **Sensação de saciedade**: usar a escala de 0–10 para avaliar a necessidade de mais energia.
-- **Tolerância gastrointestinal**: registrar qualquer desconforto. Se ocorrer, reduzir a ingestão de sólidos imediatamente.
+A posição da ISSN refere que, em provas mais longas, muitos atletas passam a preferir alimentos **salgados** (Tiller et al., 2019) — batata cozida com sal, caldo, sandes simples, tostas. Uma mistura de sólidos e líquidos, ajustada ao longo da prova, é a estratégia mais comum entre ultra-maratonistas experientes.
 
-## Erros Comuns
+## Aplicação prática
 
-1. **Subestimar a necessidade de hidratos de carbono**: muitos atletas ingere apenas 30–40 g h⁻¹, insuficiente para manter os níveis de glicose em provas de 6–8 h.
-2. **Ignorar a tolerância gastrointestinal**: a introdução tardia de sólidos pode causar náuseas e vômitos, interrompendo a corrida.
-3. **Desidratação silenciosa**: a falta de eletrólitos nas soluções isotónicas aumenta o risco de cãibras e fadiga.
-4. **Excesso de líquidos**: a ingestão de mais do que 700 ml h⁻¹ pode provocar hiponatremia, especialmente em ambientes quentes.
+### 1. Define o teu alvo por hora
 
-## Protocolo/Conclusão
+Começa pelos 30–50 g de hidratos de carbono e 150–400 kcal por hora e ajusta com base nos treinos. Exemplo de uma hora a ritmo moderado:
 
-1. **Pré‑corrida**: 2 g kg⁻¹ de hidrato de carbono, 30 min antes da partida.
-2. **Início da prova**: 30 g h⁻¹ de gel isotónico + 30 g h⁻¹ de barra.
-3. **Intervalo de 45 min**: alternar entre 30 g h⁻¹ sólido e 30 g h⁻¹ líquido.
-4. **Hidratação**: 500–700 ml h⁻¹ de solução isotónica, ajustando a concentração de eletrólitos conforme a temperatura e a transpiração.
-5. **Monitorização**: registrar peso, saciedade e tolerância a cada 30 min.
-6. **Pós‑corrida**: 0,5–1 g kg⁻¹ de hidrato de carbono + proteína de 0,2 g kg⁻¹ nas primeiras 30 min para otimizar a recuperação muscular.
+- 1 gel (confirma no rótulo os gramas de hidratos de carbono);
+- meia barra ou uma porção de batata cozida com sal;
+- água ou bebida desportiva de acordo com a sede e o calor.
 
-Ao seguir este protocolo, os corredores de ultra trail garantem energia constante, controlo gastrointestinal e recuperação eficiente. A escolha consciente entre sólidos e líquidos, fundamentada na ciência, torna a diferença entre cruzar a linha de chegada com força e ser arrastado pela fadiga.
+### 2. Alterna texturas
 
+Planeia sólidos para as subidas a caminhar e para os abastecimentos, e géis ou bebida para as fases a correr e para a parte final, quando o apetite tende a desaparecer.
+
+### 3. Come pouco e muitas vezes
+
+Pequenas porções a cada 20–30 minutos são mais bem toleradas do que refeições grandes nos postos.
+
+### 4. Bebe com critério
+
+Segundo o consenso internacional sobre hiponatremia associada ao exercício, beber muito acima das perdas — sobretudo em provas lentas e longas — é o principal fator de risco. A recomendação é beber de acordo com a sede e evitar ganhar peso durante a prova (Hew-Butler et al., 2015). Vê o nosso guia sobre [eletrólitos e hiponatremia em ultra trail](/blog/eletrolitos-e-hiponatremia-ultra-trail).
+
+### 5. Treina tudo
+
+Usa os longos em montanha para testar os alimentos, as quantidades e o calendário que vais usar. Simula também a logística: o que levas no colete e o que comes nos postos. Lê [nutrição nos postos de abastecimento](/blog/nutricao-postos-abastecimento-ultra).
+
+## Erros comuns
+
+1. **Comer pouco nas primeiras horas.** O défice acumulado no início é difícil de recuperar mais tarde.
+2. **Depender só de géis** durante 10 ou 20 horas — a fadiga do paladar doce é real.
+3. **Experimentar comida nova nos abastecimentos** sem a ter testado em treino.
+4. **Beber volumes fixos elevados** independentemente da sede e do clima, com risco de hiponatremia.
+5. **Ignorar sinais gastrointestinais** precoces: perante náuseas, abranda, reduz a quantidade por toma e privilegia alimentos simples e salgados.
+
+## Conclusão
+
+Sólidos e líquidos não competem: complementam-se. A ciência mostra que ambos fornecem hidratos de carbono utilizáveis; o que decide é a tua tolerância, o ritmo e a fase da prova. Define um alvo por hora, alterna texturas, bebe com critério e treina a estratégia como treinas as pernas. Para escolher produtos concretos, vê [melhores barras e alimentos sólidos para ultra trail](/blog/melhores-barras-alimentos-solidos-ultra-trail) e [gel energético vs alimentos sólidos](/blog/gel-energetico-vs-alimentos-solidos-corrida).
 
 ## Referências Científicas
 
-Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Medicine, 44(Suppl 1), 25-33. https://doi.org/10.1007/s40279-014-0148-z
+Costa, R. J. S., Miall, A., Khoo, A., Rauch, C., Snipe, R., Camões-Costa, V., & Gibson, P. (2017). Gut-training: the impact of two weeks repetitive gut-challenge during exercise on gastrointestinal status, glucose availability, fuel kinetics, and running performance. *Applied Physiology, Nutrition, and Metabolism*, 42(5), 547–557.
 
-Burke, L. M., Hawley, J. A., Wong, S. H., & Jeukendrup, A. E. (2011). Carbohydrates for training and competition. Journal of Sports Sciences, 29(sup1), S17-S27. https://doi.org/10.1080/02640414.2011.585473
+Hew-Butler, T., Rosner, M. H., Fowkes-Godek, S., Dugas, J. P., Hoffman, M. D., Lewis, D. P., et al. (2015). Statement of the Third International Exercise-Associated Hyponatremia Consensus Development Conference, Carlsbad, California, 2015. *Clinical Journal of Sport Medicine*, 25(4), 303–320. https://doi.org/10.1097/JSM.0000000000000221
 
-Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. Scandinavian Journal of Medicine & Science in Sports, 20(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x
+Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine*, 44(Suppl 1), S25–S33.
+
+Pfeiffer, B., Stellingwerff, T., Zaltas, E., & Jeukendrup, A. E. (2010a). Oxidation of solid versus liquid CHO sources during exercise. *Medicine & Science in Sports & Exercise*, 42(11), 2030–2037. https://doi.org/10.1249/MSS.0b013e3181e0efc9
+
+Pfeiffer, B., Stellingwerff, T., Zaltas, E., & Jeukendrup, A. E. (2010b). CHO oxidation from a CHO gel compared with a drink during exercise. *Medicine & Science in Sports & Exercise*, 42(11), 2038–2045.
+
+Tiller, N. B., Roberts, J. D., Beasley, L., et al. (2019). International Society of Sports Nutrition Position Stand: nutritional considerations for single-stage ultra-marathon training and racing. *Journal of the International Society of Sports Nutrition*, 16(1), 50. https://doi.org/10.1186/s12970-019-0312-9

@@ -2,89 +2,112 @@
 title: "Cafeína: O Protocolo de Dose e Timing da Position Stand da ISSN"
 date: '2026-09-03'
 category: "Nutrição"
-excerpt: "A dose de cafeína da ISSN é de 3 a 6 mg/kg, 45 a 60 minutos antes da prova. Vê o protocolo, como ajustar ao teu peso e os efeitos a vigiar."
+excerpt: "A ISSN indica 3 a 6 mg/kg de cafeína, em regra cerca de 60 minutos antes do esforço. Vê o que diz a position stand e como a aplicar ao teu treino."
 seoTitle: "Cafeína: Dose e Timing Segundo a ISSN"
 keyword: "dose de cafeína issn"
 keywords: ["protocolo de cafeína", "position stand issn cafeína", "cafeína antes da prova"]
-readTime: 5
+readTime: 6
 faqs:
-  - q: "Qual a dose mínima de cafeína que já mostra efeito ergogénico em corredores?"
-    a: "A dose mínima recomendada é de 3 mg/kg; doses inferiores a 2 mg/kg geralmente não produzem benefícios significativos."
-  - q: "A cafeína interfere com a hidratação durante a prova?"
-    a: "Sim, pode aumentar a diurese, mas o efeito é mitigado se a ingestão de líquidos for mantida em 200–300 ml a cada 20 min."
-  - q: "Posso combinar cafeína com outras suplementações, como beta-alanina?"
-    a: "Sim, a combinação é segura e pode potenciar efeitos sinérgicos, mas é prudente testar em treino para evitar desconforto gastrointestinal."
+  - q: "Qual a dose mínima de cafeína com efeito ergogénico?"
+    a: "A ISSN refere que doses de 3 a 6 mg/kg têm efeito consistente e que a dose mínima eficaz não está definida, podendo ser tão baixa como cerca de 2 mg/kg. Começar por 2 a 3 mg/kg é sensato para quem é sensível."
+  - q: "A cafeína desidrata durante a prova?"
+    a: "Nas doses usadas no desporto, a cafeína não causa desidratação relevante em quem bebe de acordo com as suas necessidades. O plano de hidratação deve basear-se na tua taxa de suor e nas condições da prova, não na cafeína."
+  - q: "Posso combinar cafeína com outros suplementos?"
+    a: "A ISSN refere que bebidas energéticas e pré-treinos com cafeína podem melhorar o rendimento, mas misturar vários produtos dificulta saber quanta cafeína tomas e aumenta o risco de efeitos secundários. Testa uma combinação de cada vez em treino."
 ---
 
-A dose ideal de cafeína para atletas de corrida é de 3–6 mg/kg, ingerida 45–60 min antes da competição, segundo a Position Stand da International Society of Sports Nutrition (ISSN). Este intervalo maximiza a disponibilidade plasmática e os efeitos ergogénicos, enquanto minimiza os riscos de efeitos colaterais.
+A position stand da International Society of Sports Nutrition (ISSN) sobre cafeína, publicada em 2021, é o documento de referência mais completo para quem quer usar cafeína de forma informada (Guest et al., 2021). Neste artigo resumimos o que a ISSN afirma realmente — e o que não afirma — e traduzimos isso num protocolo prático para corredores.
 
-Para corredores que competem em distâncias de 5 km a maratona, a cafeína atua principalmente na redução da perceção de esforço, aumento da atenção e melhora da capacidade anaeróbica. Além disso, estudos indicam que a suplementação pode elevar a taxa de glicólise, permitindo um uso mais eficiente das reservas de glicogénio. No entanto, a resposta individual varia significativamente, exigindo um protocolo personalizado baseado no peso corporal, tolerância e histórico de consumo.
+## O que diz a position stand, ponto por ponto
 
-## Base Científica
+O documento resume a evidência em onze afirmações. As mais relevantes para quem corre são:
 
-O efeito ergogénico da cafeína decorre da sua capacidade de antagonizar os receptores de adenosina no sistema nervoso central, aumentando a liberação de dopamina e noradrenalina. Este mecanismo reduz a fadiga e melhora o foco mental. Estudos clínicos mostram que doses entre 3 mg/kg e 6 mg/kg aumentam a performance em provas de 5 km em 1–3 % e em maratona em 0,5–1,5 %. A janela de 45–60 min após a ingestão coincide com o pico de concentração plasmática (~1 µmol/L), que é onde os benefícios são máximos.
+1. **A cafeína melhora agudamente vários aspetos do rendimento** em muitos estudos, embora não em todos, com efeitos de pequena a moderada dimensão.
+2. **A resistência aeróbia é a forma de exercício com benefícios mais consistentes**, mas a magnitude varia entre pessoas.
+3. **Doses de 3–6 mg/kg** melhoram o rendimento de forma consistente. A dose mínima eficaz não está clara e pode ser tão baixa como cerca de 2 mg/kg. Doses muito altas (por exemplo, 9 mg/kg) associam-se a mais efeitos secundários e não são necessárias.
+4. **O timing mais usado é cerca de 60 minutos antes do exercício**, mas o ideal depende da fonte: a pastilha elástica pode exigir menos tempo de espera do que as cápsulas.
+5. **Funciona em treinados e não treinados.**
+6. **As diferenças individuais** de resposta e de efeitos secundários (sono, ansiedade) podem dever-se a variações genéticas no metabolismo da cafeína e ao consumo habitual.
+7. **Melhora funções cognitivas** como atenção e vigilância na maioria das pessoas.
+8. **Pode melhorar o rendimento em situação de privação de sono** em algumas pessoas.
+9. **O uso em resistência no calor e em altitude está bem suportado**, com doses de 3–6 mg/kg no calor e 4–6 mg/kg em altitude.
+10. **Formas alternativas** — pastilha elástica, bochechos, géis e gomas — mostraram melhorias, sobretudo em exercício aeróbio.
+11. **Bebidas energéticas e pré-treinos com cafeína** melhoraram o rendimento anaeróbio e aeróbio.
 
-A Position Stand da ISSN (2021) recomenda que atletas com histórico de sensibilidade a estimulantes evitem doses superiores a 5 mg/kg e que iniciem o protocolo em sessões de treino para avaliar a tolerância. A literatura também indica que a cafeína pode aumentar a perda de água, mas o efeito de desidratação é mitigado se a ingestão de líquidos for mantida em níveis adequados (Maughan & Shirreffs, 2010).
+## O que a position stand não diz
 
-## Aplicação Prática
+Há números que circulam como se fossem da ISSN e não são:
 
-### 1. Determinação da dose
+- A ISSN **não** fixa ganhos percentuais por distância ("1–3 % nos 5 km", "0,5–1,5 % na maratona"). Para corrida, a melhor estimativa vem de uma meta-análise de ensaios em corredores, que encontrou uma redução média de cerca de 0,7 % no tempo de contrarrelógio (Wang et al., 2023).
+- A ISSN **não** recomenda monitorizar a frequência cardíaca para "dosear" a cafeína. A frequência cardíaca em prova depende sobretudo da intensidade e não é um bom indicador de excesso de cafeína.
+- A ISSN **não** exige suspender a cafeína dias antes da prova. O consumo habitual pode influenciar a resposta, mas não há uma regra de retirada consensual.
 
-| Peso (kg) | Dose recomendada (mg) |
-|-----------|-----------------------|
-| 60        | 180–360               |
-| 70        | 210–420               |
-| 80        | 240–480               |
+## Do documento ao treino: protocolo prático
 
-Para um corredor de 70 kg que pretende usar 4 mg/kg, a dose seria 280 mg. Se preferir cápsulas de 200 mg, pode combinar 200 mg + 80 mg (pasta de caféína) para atingir a dose desejada.
+### 1. Define a dose pelo peso
 
-### 2. Timing
+Multiplica o teu peso por 3 mg. É o ponto de partida mais prudente: numa rede de meta-análises recente, a dose baixa (cerca de 3 mg/kg) em cápsula teve um efeito semelhante ao da dose moderada (4–6 mg/kg), com menos efeitos secundários (Xue et al., 2025).
 
-1. **Treino de adaptação**: 2–3 semanas antes da prova, introduzir a dose 45 min antes de um treino de 10 km. Ajustar a dose se ocorrer tontura, palpitações ou insónia.
-2. **Dia da prova**: Ingerir a dose 45–60 min antes do início. Se a prova começa às 6 h da manhã, tomar a cafeína às 5 h. Evitar o consumo de cafeína 2 h antes do sono, se a prova for tardia.
+| Peso | 3 mg/kg | 6 mg/kg (máximo habitual) |
+|---|---|---|
+| 60 kg | 180 mg | 360 mg |
+| 70 kg | 210 mg | 420 mg |
+| 80 kg | 240 mg | 480 mg |
 
-### 3. Forma de ingestão
+A Autoridade Europeia para a Segurança dos Alimentos considera que doses únicas até 200 mg e consumos diários até 400 mg não levantam preocupações em adultos saudáveis (EFSA, 2015). Se a tua dose de prova ultrapassa estes valores, reduz o resto da cafeína nesse dia.
 
-- **Pasta de cafeína**: 200 mg em 100 ml de água, ingerida em 4 porções de 25 ml a cada 15 min até 45 min antes da prova.
-- **Café**: 2 cafés de 200 ml cada (≈200 mg cafeína total) ingeridos 60 min antes, acompanhado de 250 ml de água.
-- **Bebida energética**: Se contém 150 mg de cafeína, combine com 100 mg de pasta para 250 mg total.
+### 2. Escolhe a forma e o momento
 
-### 4. Monitorização
+- **Cápsula ou comprimido:** dose exata; toma cerca de 60 minutos antes.
+- **Café:** prático, mas o teor varia muito de chávena para chávena.
+- **Pastilha elástica:** absorção mais rápida; pode ser tomada mais perto da partida.
+- **Géis com cafeína:** úteis durante provas longas; confirma no rótulo a quantidade por gel.
 
-- **Níveis de batimento**: Se o pulso ultrapassar 180 bpm, reduzir a dose.
-- **Níveis de ansiedade**: Se sentir nervosismo extremo, diminuir em 1 mg/kg.
-- **Performance**: Registar tempos de treino com e sem cafeína para comparar.
+### 3. Testa em treino
 
-## Erros Comuns
+Faz pelo menos duas ou três experiências em sessões que se assemelhem à prova (um treino de limiar, um longo com ritmo de prova). Regista:
 
-| Erro | Consequência | Como Evitar |
-|------|--------------|-------------|
-| Ingestão de doses > 6 mg/kg | Aumento de ansiedade, palpitações, insónia | Seguir a recomendação ISSN e testar em treino |
-| Consumir cafeína 15 min antes | Concentração plasmática insuficiente | Planear 45–60 min antes |
-| Usar apenas café sem hidratação | Desidratação | Ingerir 250–300 ml de água com a cafeína |
-| Não testar a tolerância | Risco de efeitos colaterais inesperados | Iniciar em sessões de treino leves |
+- perceção de esforço e ritmo conseguido;
+- efeitos secundários (tremores, ansiedade, palpitações, desconforto gastrointestinal);
+- qualidade do sono nessa noite.
 
-Outro equívoco frequente é subestimar a influência da cafeína na percepção de esforço. Embora a dose aumente a resistência, não substitui a preparação física nem a estratégia de pacing.
+### 4. Ajusta
 
-## Protocolo/Conclusão
+- Sem efeitos secundários e sem efeito percetível? Experimenta 4–5 mg/kg numa próxima sessão.
+- Efeitos secundários? Volta a 2–3 mg/kg ou abdica — há corredores para quem a cafeína não compensa.
 
-Para corredores que desejam otimizar a performance com cafeína:
+### 5. Condições especiais
 
-1. **Calcular a dose**: 3–6 mg/kg, preferencialmente 4 mg/kg.
-2. **Testar em treino**: 2–3 sessões de 10–15 km para avaliar tolerância.
-3. **Ingerir 45–60 min antes**: com água e, se necessário, hidratos de carbono leves (30 g) para evitar desconforto gastrointestinal.
-4. **Monitorizar**: batimento, ansiedade e performance.
-5. **Ajustar**: reduzir em 1 mg/kg se ocorrer efeito adverso.
+- **Calor e altitude:** a ISSN considera o uso bem suportado nestas condições. Mantém a hidratação planeada de acordo com a tua [taxa de suor](/blog/taxa-de-suor-calcular-plano-hidratacao).
+- **Ultras e provas noturnas:** a posição da ISSN sobre ultramaratona apoia o uso estratégico de cafeína na fase final, sobretudo quando a privação de sono é uma questão de segurança (Tiller et al., 2019).
+- **Provas ao fim do dia:** a cafeína pode afetar o sono mesmo com cerca de 100 mg perto da hora de deitar (EFSA, 2015).
 
-Seguir este protocolo garante que a cafeína seja usada de forma segura e eficaz, maximizando os ganhos de desempenho em provas de longa distância.
+## Erros comuns
 
+| Erro | Consequência | Como evitar |
+|---|---|---|
+| Doses acima de 6 mg/kg | Mais ansiedade, palpitações e insónia, sem ganho extra | Fica entre 3 e 6 mg/kg |
+| Estrear a cafeína na prova | Reação imprevisível | Testa em 2–3 treinos semelhantes |
+| Somar café, géis e pré-treino sem contar | Dose total excessiva | Soma toda a cafeína do dia |
+| Usar cafeína em pó pura | Risco real de dose tóxica | Usa só produtos com dose no rótulo |
+| Esperar milagres | Frustração | O ganho médio em corrida é pequeno |
+
+## Quem deve ter cuidado
+
+Gravidez, doença cardíaca, hipertensão não controlada, arritmias, perturbações de ansiedade ou insónia e medicação com potencial de interação são motivos para falares com o médico antes de usar cafeína como suplemento.
+
+## Conclusão
+
+O protocolo da ISSN é simples: 3–6 mg/kg, em regra cerca de 60 minutos antes, ajustado à forma de ingestão e testado em treino. A ciência sustenta o efeito, mas não promete ganhos espetaculares. Começa pelo mínimo eficaz, mede a tua resposta e lembra-te de que o treino, o sono e a nutrição continuam a fazer a maior parte do trabalho. Para mais contexto, lê [Cafeína e corrida: o que diz a ciência](/blog/cafeina-corrida-performance-ciencia).
 
 ## Referências Científicas
 
-Guest, N. S., VanDusseldorp, T. A., Nelson, M. T., et al. (2021). International Society of Sports Nutrition position stand: caffeine and exercise performance. Journal of the International Society of Sports Nutrition, 18(1), 1. https://doi.org/10.1186/s12970-020-00383-4
+EFSA Panel on Dietetic Products, Nutrition and Allergies (2015). Scientific Opinion on the safety of caffeine. *EFSA Journal*, 13(5), 4102.
 
-Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement: Nutrition and Athletic Performance. Medicine & Science in Sports & Exercise, 48(3), 543-568. https://doi.org/10.1249/MSS.0000000000000852
+Guest, N. S., VanDusseldorp, T. A., Nelson, M. T., Grgic, J., Schoenfeld, B. J., Jenkins, N. D. M., et al. (2021). International Society of Sports Nutrition position stand: caffeine and exercise performance. *Journal of the International Society of Sports Nutrition*, 18(1), 1. https://doi.org/10.1186/s12970-020-00383-4
 
-Jeukendrup, A. E. (2014). A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Medicine, 44(Suppl 1), 25-33. https://doi.org/10.1007/s40279-014-0148-z
+Tiller, N. B., Roberts, J. D., Beasley, L., et al. (2019). International Society of Sports Nutrition Position Stand: nutritional considerations for single-stage ultra-marathon training and racing. *Journal of the International Society of Sports Nutrition*, 16(1), 50. https://doi.org/10.1186/s12970-019-0312-9
 
-Maughan, R. J., & Shirreffs, S. M. (2010). Dehydration and rehydration in competitive sport. Scandinavian Journal of Medicine & Science in Sports, 20(s3), 40-47. https://doi.org/10.1111/j.1600-0838.2010.01207.x
+Wang, Z., Qiu, B., Gao, J., & Del Coso, J. (2023). Effects of caffeine intake on endurance running performance and time to exhaustion: a systematic review and meta-analysis. *Nutrients*, 15(1), 148. https://doi.org/10.3390/nu15010148
+
+Xue, R., Huang, J., Chen, B., Ding, L., Guo, L., Cao, Y., & Girard, O. (2025). Effects of caffeine dose and administration method on time-trial performance: a systematic review and network meta-analysis. *Nutrients*, 17(23), 3792. https://doi.org/10.3390/nu17233792
