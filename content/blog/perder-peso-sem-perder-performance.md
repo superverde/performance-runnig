@@ -1,6 +1,6 @@
 ---
 title: "Perder Peso a Correr Sem Perder Performance"
-date: 'PENDENTE'
+date: '2026-10-28'
 category: "Nutrição"
 excerpt: "Perder peso a correr sem ficar mais lento é possível com um défice calórico moderado, proteína suficiente e hidratos nos treinos certos. Vê como fazê-lo."
 seoTitle: "Perder Peso a Correr Sem Perder Performance"

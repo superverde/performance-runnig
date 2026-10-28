@@ -1,6 +1,6 @@
 ---
 title: "HRV ao Acordar: Treinar ou Descansar?"
-date: 'PENDENTE'
+date: '2026-10-28'
 category: "Recuperação"
 excerpt: "A HRV ao acordar ajuda-te a decidir se treinas forte ou descansas, desde que a leias como tendência. Vê como medir e uma regra de decisão simples."
 seoTitle: "HRV ao Acordar: Treinar ou Descansar? Regra Simples"

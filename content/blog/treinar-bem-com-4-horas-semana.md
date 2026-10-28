@@ -1,6 +1,6 @@
 ---
 title: "Treinar Bem com 4 Horas por Semana: Corrida Eficiente com Pouco Tempo"
-date: 'PENDENTE'
+date: '2026-10-28'
 category: "Treino"
 excerpt: "Treinar com pouco tempo não te impede de evoluir. Vê como distribuir 4 horas por semana entre corrida fácil, intensidade, corrida longa e força."
 seoTitle: "Treinar com Pouco Tempo: Plano de 4 Horas por Semana"
