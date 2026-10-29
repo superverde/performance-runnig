@@ -1,6 +1,6 @@
 ---
 title: "Hill Sprints: 10 Segundos Que Mudam a Tua Corrida"
-date: 'PENDENTE'
+date: '2026-10-29'
 category: "Treino"
 excerpt: "Os hill sprints são sprints de 8 a 10 segundos em subida, com recuperação completa. Vê para que servem, como os fazer e como os encaixar no teu plano."
 seoTitle: "Hill Sprints: Sprints de 10 Segundos em Subida"

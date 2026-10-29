@@ -1,6 +1,6 @@
 ---
 title: "5 Sinais de Fadiga Acumulada a Vigiar"
-date: 'PENDENTE'
+date: '2026-10-29'
 category: "Recuperação"
 excerpt: "Conhece os 5 sinais de fadiga acumulada que mostram que o treino passou da conta, como os distinguir do cansaço normal e o que fazer antes do overreaching."
 seoTitle: "5 Sinais de Fadiga Acumulada no Corredor"

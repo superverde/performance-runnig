@@ -1,6 +1,6 @@
 ---
 title: "Recuperação Depois dos 40: O Que Muda e Como Ajustar o Treino"
-date: 'PENDENTE'
+date: '2026-10-29'
 category: "Recuperação"
 excerpt: "A recuperação depois dos 40 tende a ser mais lenta após treinos duros. Vê o que diz a ciência e como ajustar intensidade, força, proteína e sono."
 seoTitle: "Recuperação Depois dos 40: O Que Muda no Corredor"
