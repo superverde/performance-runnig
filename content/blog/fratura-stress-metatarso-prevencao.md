@@ -2,63 +2,104 @@
 title: "Fratura de Stress: Como Identificar e Prevenir em Corredores"
 date: '2026-08-03'
 category: "Lesões"
-excerpt: "A fratura de stress é uma lesão por excesso de carga. Vê os primeiros sinais, os locais mais comuns nos corredores e como a prevenir."
+excerpt: "A fratura de stress é uma lesão por excesso de carga no osso. Vê os primeiros sinais, os locais mais comuns, como o metatarso, e como a prevenir."
 keyword: "fratura de stress"
 keywords: ["fratura de stress corredores", "prevenir fratura de stress", "sintomas de fratura de stress"]
-readTime: 4
+readTime: 6
+faqs:
+  - q: "Uma radiografia normal exclui uma fratura de stress?"
+    a: "Não. Nas primeiras semanas a radiografia é muitas vezes normal. A ressonância magnética é o exame de referência para confirmar o diagnóstico e avaliar a gravidade da lesão."
+  - q: "Quanto tempo demora a recuperar de uma fratura de stress no metatarso?"
+    a: "Depende do osso, do grau da lesão e da causa. As dos metatarsos centrais costumam ser de baixo risco e permitem voltar a correr ao fim de algumas semanas; as da base do quinto metatarso são de alto risco e exigem mais tempo e acompanhamento médico."
+  - q: "Posso continuar a correr com dor no pé se for ligeira?"
+    a: "Não é boa ideia. Dor óssea localizada que piora com a corrida e aparece cada vez mais cedo é um sinal de alarme. Parar cedo encurta muito a paragem total; continuar pode transformar uma reação de stress numa fratura completa."
 ---
 
-A corrida é um desporto extremamente popular e exigente, que exige uma combinação perfeita de força, resistência e técnica para ser praticado de forma eficaz. No entanto, o risco de lesões é sempre presente, especialmente aquelas relacionadas ao stress, como fraturas de stress. Estas lesões são frequentemente subestimadas, mas podem ter consequências graves e prolongadas para os corredores.
+A fratura de stress — ou, em termos mais corretos, a **lesão óssea por stress** — não resulta de um impacto único, mas da repetição de cargas que o osso não consegue reparar ao mesmo ritmo a que se danifica. Nos corredores, os locais mais frequentes são a tíbia e os **metatarsos**, mas também podem surgir no calcâneo, no navicular, no colo do fémur ou na bacia. Conhecer os sinais precoces e os fatores de risco é a melhor forma de evitar meses de paragem.
 
-A fratura de stress é um tipo de lesão que ocorre quando o osso é submetido a uma tensão repentina e intensa, provocando uma fratura microscópica que pode não ser imediatamente óbvia. Esta lesão é comum em corredores, especialmente em aqueles que apresentam aumentos repentinos na intensidade ou frequência do treino. A fratura de stress pode afetar qualquer parte do corpo, mas é mais comum em áreas como a tíbia, o fêmur, o calcâneo e a coluna vertebral.
+## Base científica: porque é que o osso «cede»
 
-É fundamental que os corredores estejam cientes dos riscos e sintomas associados à fratura de stress, para que possam tomar medidas preventivas e atuar rapidamente em caso de lesão. Neste artigo, vamos explorar a base científica da fratura de stress em corredores, apresentar exemplos práticos e aplicáveis, e fornecer um protocolo para prevenção e tratamento.
+O osso é um tecido vivo que se adapta à carga. Cada passada provoca microdanos que são normalmente reparados pela **remodelação óssea**. Quando a carga aumenta mais depressa do que a capacidade de reparação — ou quando a reparação é travada por falta de energia, de hormonas ou de nutrientes — os microdanos acumulam-se. Começa por surgir edema na medula óssea (reação de stress), depois uma linha de fratura e, no limite, uma fratura completa (Warden et al., 2014; Hoenig et al., 2022).
 
-## Base Científica
+Este processo é um contínuo, o que explica porque é que os sintomas aparecem de forma gradual e porque é que parar cedo faz tanta diferença.
 
-A fratura de stress é um tipo de lesão óssea que ocorre devido à tensão excessiva no osso. Isso pode ser causado por múltiplos fatores, incluindo:
+### Fatores de risco com melhor suporte
 
-- Aumento repentino na intensidade do treino
-- Aumento repentino na frequência do treino
-- Treino inadequado ou mal preparado
-- Fadiga muscular ou óssea
-- Falta de alongamento e flexibilidade
+- **Erros de carga**: aumentos rápidos de volume, de intensidade ou de corrida em descida, regressos precipitados depois de paragens.
+- **Baixa disponibilidade energética**: comer pouco para o treino que fazes compromete a saúde óssea. É uma componente central da síndrome RED-S (défice energético relativo no desporto), descrita no consenso do Comité Olímpico Internacional (Mountjoy et al., 2023) — ver [RED-S e disponibilidade energética](/blog/red-s-disponibilidade-energetica-corredores).
+- **Alterações menstruais** nas corredoras e testosterona baixa nos corredores, frequentemente associadas a défice energético.
+- **Fratura de stress anterior**: um dos preditores mais fortes de uma nova lesão.
+- **Baixa densidade mineral óssea**, défice de vitamina D ou de cálcio.
+- **Mudanças bruscas de calçado ou de técnica**: num estudo, corredores que passaram em 10 semanas para sapatilhas minimalistas apresentaram mais sinais de edema ósseo no pé, em ressonância magnética, do que quem manteve o calçado habitual (Ridge et al., 2013).
 
-De acordo com estudos, a fratura de stress é uma das principais causas de lesões em corredores, afetando cerca de 20-40% da população atleta (Lopes et al., 2012). Além disso, a fratura de stress pode aumentar a probabilidade de lesões mais graves, como fraturas ósseas completas (van Gent et al., 2007).
+## O metatarso: o local típico no pé
 
-## Aplicação Prática
+### Baixo risco: metatarsos centrais
 
-A prevenção da fratura de stress é fundamental para os corredores. Aqui estão algumas dicas práticas para evitar lesões:
+As lesões do **2.º e 3.º metatarsos**, na diáfise (zona média do osso), são as mais comuns no pé. São consideradas de **baixo risco**: em regra recuperam bem com redução de carga e regresso progressivo.
 
-- **Aumenta a intensidade do treino gradualmente**: É importante aumentar a intensidade do treino de forma gradual, para que o osso possa se adaptar às novas exigências.
-- **Inclui treino de força**: O treino de força pode ajudar a fortalecer os músculos e os ossos, reduzindo a probabilidade de lesões.
-- **Inclui alongamento e flexibilidade**: O alongamento e a flexibilidade são fundamentais para manter a mobilidade e reduzir a tensão nos músculos e nos ossos.
-- **Respeite os limites**: É importante respeitar os limites do seu corpo e não exceder as suas capacidades.
+### Alto risco: base do 5.º metatarso e navicular
 
-## Erros Comuns
+Lesões na **base do 5.º metatarso** (zona proximal da diáfise) e no **navicular** têm pior irrigação e maior risco de atraso de consolidação ou de fratura completa. Exigem diagnóstico rápido, por vezes imobilização sem carga e, em alguns casos, cirurgia. Uma meta-análise recente mostrou que o tempo de regresso ao desporto é claramente mais longo nas lesões de alto risco do que nas de baixo risco (Hoenig et al., 2023).
 
-Aqui estão alguns erros comuns que os corredores cometem, que podem aumentar a probabilidade de lesões:
+## Como identificar cedo
 
-- **Aumentar a intensidade do treino de forma abrupta**: Aumentar a intensidade do treino de forma abrupta pode causar uma tensão excessiva no osso.
-- **Não incluir treino de força**: O treino de força é fundamental para fortalecer os músculos e os ossos.
-- **Não incluir alongamento e flexibilidade**: O alongamento e a flexibilidade são fundamentais para manter a mobilidade e reduzir a tensão nos músculos e nos ossos.
-- **Não respeitar os limites**: Não respeitar os limites do seu corpo e exceder as suas capacidades pode aumentar a probabilidade de lesões.
+Sinais típicos de uma lesão óssea por stress no pé:
 
-## Protocolo/Conclusão
+1. **Dor localizada** no dorso do pé (antepé), que consegues apontar com um dedo.
+2. **Início gradual**: primeiro só no fim dos treinos, depois cada vez mais cedo, depois a caminhar.
+3. **Dor ao pressionar o osso** e, por vezes, inchaço discreto no dorso do pé.
+4. Em fases avançadas, **dor em repouso ou à noite**.
 
-A prevenção da fratura de stress é fundamental para os corredores. Aqui está um protocolo para prevenção e tratamento:
+Se tens estes sinais, **para de correr e procura um médico**. A radiografia é muitas vezes normal nas primeiras semanas; a ressonância magnética é o exame de referência e permite graduar a lesão, o que ajuda a definir o tempo de paragem (Warden et al., 2014).
 
-- **Aumenta a intensidade do treino gradualmente**
-- **Inclui treino de força**
-- **Inclui alongamento e flexibilidade**
-- **Respeite os limites**
-- **Procura ajuda médica imediatamente em caso de lesão**
+## Tratamento em linhas gerais
 
-Em resumo, a fratura de stress é uma lesão óssea comum em corredores, que pode ser prevenida com treino adequado e respeito aos limites do corpo. É fundamental que os corredores estejam cientes dos riscos e sintomas associados à fratura de stress, para que possam tomar medidas preventivas e atuar rapidamente em caso de lesão.
+- **Reduzir a carga** até a dor no dia a dia desaparecer; nas lesões de baixo risco, pode bastar calçado rígido ou uma bota de marcha durante um período.
+- **Manter a condição física** com atividades sem impacto (bicicleta, natação, corrida na água) se não provocarem dor.
+- **Investigar a causa**: rever a carga de treino, a alimentação e, quando indicado, o estado hormonal, a vitamina D e a densidade óssea.
+- **Regresso progressivo**: caminhada sem dor, depois alternância corrida-caminhada, aumentando volume antes de intensidade. Vê o guia [voltar a correr após uma fratura de stress](/blog/voltar-a-correr-apos-fratura-stress).
+
+O plano exato deve ser definido com o teu médico ou fisioterapeuta, sobretudo nas lesões de alto risco.
+
+## Prevenção: o que realmente funciona
+
+### 1. Gerir a progressão da carga
+
+Evita picos de volume e de intensidade, sobretudo depois de paragens, e não acumules várias mudanças ao mesmo tempo (mais quilómetros, mais séries, mais descidas, sapatilhas novas). Lê também [progressão de volume e a regra dos 10%](/blog/progressao-volume-regra-10-porcento).
+
+### 2. Comer o suficiente
+
+Garante energia suficiente para o volume de treino, com hidratos de carbono adequados, proteína, cálcio e vitamina D. Perder peso à custa de comer pouco enquanto treinas muito é um dos caminhos mais rápidos para uma lesão óssea.
+
+### 3. Treino de força e de impacto controlado
+
+O treino de força fortalece músculos que absorvem parte da carga e a pliometria em doses baixas é um estímulo osteogénico. Introduz ambos de forma progressiva (ver [pliometria para corredores](/blog/forca-reativa-plyometria-corrida)).
+
+### 4. Transições de calçado graduais
+
+Se queres passar para sapatilhas com menos amortecimento ou menos drop, faz a transição ao longo de várias semanas ou meses, começando com uma pequena parte do volume semanal.
+
+### 5. Ouvir os sinais precoces
+
+Dor óssea localizada não é «dor normal de treino». Dois ou três dias de pausa no início podem poupar-te dois ou três meses de paragem.
+
+## Erros comuns
+
+- Achar que uma radiografia normal significa que «não é nada».
+- Continuar a correr com dor localizada no osso «até à prova».
+- Voltar à corrida assim que deixa de doer a caminhar, sem progressão.
+- Tratar apenas o osso e ignorar a causa: carga, energia, hormonas, vitamina D.
+- Confiar que o alongamento previne fraturas de stress — não há evidência de que o faça.
+
+## Conclusão
+
+A fratura de stress é uma lesão de sobrecarga com sinais de aviso claros. Nos metatarsos, a maioria é de baixo risco e recupera bem se for apanhada cedo; as da base do quinto metatarso e do navicular exigem mais cuidado. A prevenção assenta em três pilares: progressão de carga sensata, alimentação suficiente e atenção à dor óssea localizada. Na dúvida, para e consulta um profissional de saúde.
 
 ## Referências Científicas
 
-1. van Gent, R. N., Siem, D., van Middelkoop, M., van Os, A. G., Bierma-Zeinstra, S. M. A., & Koes, B. W. (2007). Incidence and determinants of lower extremity running injuries in long distance runners. British Journal of Sports Medicine, 41(8), 469-480. https://doi.org/10.1136/bjsm.2006.033548
-2. Lopes, A. D., Hespanhol Júnior, L. C., Yeung, S. S., & Costa, L. O. P. (2012). What are the main running-related musculoskeletal injuries? Sports Medicine, 42(10), 891-905. https://doi.org/10.1007/BF03262301
-3. Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. Journal of Orthopaedic & Sports Physical Therapy, 44(10), 749-765. https://doi.org/10.2519/jospt.2014.5334
-4. Taunton, J. E., Ryan, M. B., Clement, D. B., McKenzie, D. C., Lloyd-Smith, D. R., & Zumbo, B. D. (2002). A retrospective case-control analysis of 2002 running injuries. British Journal of Sports Medicine, 36(2), 95-101. https://doi.org/10.1136/bjsm.36.2.95
+1. Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 749–765. https://doi.org/10.2519/jospt.2014.5334
+2. Hoenig, T., Ackerman, K. E., Beck, B. R., et al. (2022). Bone stress injuries. *Nature Reviews Disease Primers*, 8, 26.
+3. Hoenig, T., et al. (2023). Return to sport following low-risk and high-risk bone stress injuries: a systematic review and meta-analysis. *British Journal of Sports Medicine*, 57(7), 427.
+4. Mountjoy, M., Ackerman, K. E., Bailey, D. M., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1097.
+5. Ridge, S. T., Johnson, A. W., Mitchell, U. H., Hunter, I., Robinson, E., Rich, B. S., & Brown, S. D. (2013). Foot bone marrow edema after a 10-wk transition to minimalist running shoes. *Medicine & Science in Sports & Exercise*, 45(7), 1363–1368.

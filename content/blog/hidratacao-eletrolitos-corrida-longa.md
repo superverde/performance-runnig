@@ -5,64 +5,70 @@ keyword: "hidratação em corrida longa"
 keywords: ["eletrólitos corrida longa", "hiponatremia maratona", "beber só água"]
 date: '2025-06-21'
 category: Nutrição
-readTime: 5
+readTime: 4
+faqs:
+  - q: "Na corrida longa basta beber água?"
+    a: "Em corridas até 60 a 90 minutos, normalmente sim. Em esforços mais longos, sobretudo no calor, é útil incluir sódio através de bebidas desportivas, géis com eletrólitos ou alimentos salgados."
+  - q: "Os comprimidos de sal previnem a hiponatremia?"
+    a: "Não por si só. A principal causa da hiponatremia é beber mais do que se perde. O sódio ajuda a repor perdas, mas não compensa beber em excesso."
+  - q: "O magnésio previne as cãibras na corrida?"
+    a: "Não há evidência sólida de que suplementar magnésio durante a corrida previna cãibras. As cãibras associadas ao exercício parecem estar muito ligadas à fadiga muscular e não apenas à falta de eletrólitos."
 ---
 
-Foste sempre ensinado a beber bastante água durante as corridas. O problema é que beber apenas água em corridas longas pode ser mais perigoso do que beber pouco. A ciência da hidratação é mais subtil do que parece.
+Provavelmente ouviste sempre que devias beber bastante água durante as corridas. O problema é que beber apenas água em corridas longas pode ser mais perigoso do que beber pouco. A ciência da hidratação é mais subtil do que parece.
 
 ## O mito de "beber antes de ter sede"
 
-Durante décadas, a recomendação era beber proativamente — antes de sentir sede — para evitar a desidratação. Esta ideia foi largamente desconstruída pela investigação dos últimos 20 anos.
+Durante décadas, a recomendação era beber o máximo possível — antes de sentir sede — para evitar a desidratação. Esta ideia foi revista depois de se perceber que beber em excesso causava hiponatremia em provas longas (Noakes, 2007).
 
-O American College of Sports Medicine e a International Marathon Medical Directors Association recomendam agora **beber quando tens sede**, não de forma forçada. A sede é um mecanismo fisiológico bem calibrado para a maioria das situações.
+Hoje, o consenso internacional sobre hiponatremia associada ao exercício recomenda **beber de acordo com a sede** como estratégia de base (Hew-Butler et al., 2015). O American College of Sports Medicine propõe um plano individual: beber o suficiente para não perder mais de cerca de 2% do peso corporal, mas sem nunca ganhar peso durante o esforço (Sawka et al., 2007). As duas abordagens convergem no essencial: nem beber à força, nem ignorar perdas grandes de suor.
 
 ## O que é a hiponatremia e por que é perigosa?
 
-A hiponatremia é a diminuição do sódio no sangue causada por consumo excessivo de água sem reposição de eletrólitos. Provoca:
+A hiponatremia associada ao exercício é a descida do sódio no sangue abaixo do normal. A principal causa é beber mais líquido do que o corpo perde (água ou mesmo bebidas desportivas, que têm menos sódio do que o sangue); as perdas de sódio no suor contribuem, mas são um fator secundário (Hew-Butler et al., 2015). Pode provocar:
 
 - Náuseas e vómitos
 - Cefaleias
 - Confusão mental
 - Em casos graves: convulsões, coma, morte
 
-A hiponatremia é responsável por vários casos de morte em maratona — e ocorre precisamente nos corredores que bebem demasiado, não nos que bebem pouco.
+A hiponatremia já causou mortes em maratonas e ultras — e ocorre sobretudo nos corredores que bebem demasiado, não nos que bebem pouco (Hew-Butler et al., 2015). Perante sintomas como confusão ou vómitos persistentes numa prova longa, procura a assistência médica; não continues a beber água.
 
 ## Quanto perdes em sódio?
 
-Um corredor perde em média **500-1000 mg de sódio por litro de suor**. Corredores salgados (aqueles que têm marcas brancas na roupa após treinos) podem perder significativamente mais.
+A quantidade de sódio perdida por litro de suor varia muito de pessoa para pessoa — entre atletas, os valores podem diferir várias vezes — e também varia na mesma pessoa consoante o calor, a aclimatação e a intensidade (Baker, 2017). Corredores «salgados» (com marcas brancas na roupa ou na pele após treinos) estão provavelmente entre os que perdem mais.
 
-Numa maratona de 4 horas com temperatura elevada, podes perder 3-5 litros de suor — e 1500-5000 mg de sódio.
+Multiplica a tua taxa de suor pela duração e pela concentração de sódio e percebes porque não há uma regra única: numa maratona longa e quente, as perdas totais podem chegar a vários gramas de sódio num corredor salgado e ser muito menores noutro.
 
 ## A estratégia de hidratação correta
 
-**Para corridas até 60-90 minutos:**
-Água simples é suficiente na maioria das condições.
+**Para corridas até 60–90 minutos:**
+Água simples, guiada pela sede, é suficiente na maioria das condições.
 
 **Para corridas de 90 min a 3 horas:**
-- 400-800 ml por hora (ajusta pelo calor e taxa de suor)
-- Bebida desportiva com 500-700 mg de sódio por litro, OU água + comprimido de sal
+- Ponto de partida de 400–800 ml por hora, ajustado ao calor, ao teu tamanho e à tua taxa de suor (Sawka et al., 2007)
+- Bebida desportiva com sódio (cerca de 460–690 mg por litro, segundo o ACSM) ou água acompanhada de alimentos ou cápsulas com sódio
 
 **Para maratona e ultra:**
-- Mantém a ingestão de sódio: 500-1000 mg/hora
-- Além de bebidas desportivas, considera géis com eletrólitos ou comprimidos de sal
-- Monitoriza o teu estado: se estiveres a urinar frequentemente em prova, estás a beber demasiado
+- Inclui sódio de forma regular (bebidas, géis com eletrólitos, alimentos salgados ou cápsulas). A quantidade ideal é individual e depende das tuas perdas; testa a estratégia em treinos longos
+- O sódio ajuda, mas **não protege da hiponatremia se beberes muito mais do que perdes** (Hew-Butler et al., 2015)
+- Monitoriza o teu estado: urinar com frequência, mãos e dedos inchados ou ganho de peso em prova são sinais de que estás a beber demasiado
 
 ## Como calcular a tua taxa de suor
 
-1. Pesa-te antes e depois de um treino de 1 hora sem beber
-2. Cada 1 kg perdido = ~1 litro de suor
-3. Este valor é a tua taxa de suor em condições similares
+1. Pesa-te sem roupa antes e depois de um treino de cerca de 1 hora
+2. Soma o que bebeste e desconta o que urinaste; cada 1 kg perdido corresponde a cerca de 1 litro de suor
+3. O resultado é a tua taxa de suor por hora naquelas condições
 
-Treinos em calor podem triplicar esta taxa. Ajusta a hidratação conforme a temperatura.
+Repete em dias frescos e quentes: no calor a taxa de suor pode ser muito maior. Tens o processo completo no artigo sobre [como calcular a taxa de suor](/blog/taxa-de-suor-calcular-plano-hidratacao).
 
 ## Eletrólitos que importam
 
-**Sódio** (o mais crítico) — o principal eletrólito perdido no suor
-**Potássio** — importante mas raramente limitante
-**Magnésio** — pode ajudar na prevenção de cãibras em ultras
-**Cálcio** — relevante em provas muito longas
+- **Sódio** — de longe o principal eletrólito perdido no suor e o que importa repor em esforços longos.
+- **Potássio** — perde-se em quantidades muito menores; uma alimentação normal cobre as necessidades.
+- **Magnésio e cálcio** — perdem-se em pequenas quantidades no suor; não há evidência sólida de que suplementá-los durante a corrida previna cãibras ou melhore o rendimento.
 
-A maioria das bebidas desportivas de qualidade cobre as necessidades de sódio. Para ultras longos, considera suplementação específica de magnésio.
+As cãibras associadas ao exercício têm causas variadas, e a fadiga neuromuscular parece ter um papel importante; não se explicam apenas por falta de eletrólitos. Para um plano detalhado para ultras, vê o artigo sobre [eletrólitos e hiponatremia no ultra trail](/blog/eletrolitos-e-hiponatremia-ultra-trail).
 
 ## Referências Científicas
 
@@ -72,4 +78,4 @@ Hew-Butler, T., et al. (2015). Statement of the third international exercise-ass
 
 Noakes, T. D. (2007). Drinking guidelines for exercise: What evidence is there that athletes should drink "as much as tolerable", "to replace the weight lost during exercise" or "ad libitum"? *Journal of Sports Sciences*, *25*(7), 781–796. https://doi.org/10.1080/02640410600875036
 
-Baker, L. B. (2017). Sweating rate and sweat sodium concentration in athletes. *Annals of Nutrition and Metabolism*, *71*(Suppl 2), 12–20. https://doi.org/10.1159/000473400
+Baker, L. B. (2017). Sweating rate and sweat sodium concentration in athletes: a review of methodology and intra/interindividual variability. *Sports Medicine*, *47*(Suppl 1), 111–128.
