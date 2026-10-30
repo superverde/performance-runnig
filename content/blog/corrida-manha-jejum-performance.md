@@ -2,47 +2,102 @@
 title: "Correr de Manhã em Jejum: O Que a Ciência Realmente Diz"
 date: '2026-07-10'
 category: "Treino"
-excerpt: "Correr de manhã em jejum queima mais gordura, mas nem sempre compensa. Vê o que a ciência diz, que treinos aguentam jejum e quando deves comer antes."
+excerpt: "Correr de manhã em jejum queima mais gordura durante o treino, mas não faz perder mais peso. Vê que treinos aguentam jejum e quando deves comer antes."
 keyword: "correr de manhã em jejum"
 keywords: ["treino em jejum de manhã", "correr sem tomar pequeno-almoço", "jejum e corrida"]
-readTime: 4
+readTime: 6
+faqs:
+  - q: "Correr em jejum faz perder mais gordura?"
+    a: "Durante o treino, o corpo usa mais gordura como combustível. Mas, quando a alimentação ao longo do dia é igual, os estudos não mostram mais perda de gordura corporal com o treino em jejum do que com o treino depois de comer."
+  - q: "Posso fazer séries ou treinos longos em jejum?"
+    a: "Não é boa ideia. Uma meta-análise mostrou que comer antes melhora o rendimento em esforços aeróbios de mais de 60 minutos. Para séries, limiares e treinos longos, come alguma coisa com hidratos de carbono antes."
+  - q: "Que treinos posso fazer em jejum com segurança?"
+    a: "Corridas fáceis e curtas, até cerca de uma hora, se te sentires bem e tiveres jantado bem na véspera. Leva água e, se possível, algo para comer, e evita o jejum se tens diabetes, historial de perturbações alimentares ou sinais de défice energético."
 ---
 
-O treino de corrida de manhã em jejum é uma prática comum entre corredores de elite e amadores. A ideia é que o jejum durante a noite permita que o corpo entre num estado de "autofagia", em que as células do corpo sejam consumidas para produzir energia. Isso pode levar a uma queima de gordura mais eficiente e uma melhoria na capacidade de realizar exercícios intensos. No entanto, a ciência por trás disso é mais complexa do que se pode imaginar.
+Correr de manhã em jejum aumenta o uso de gordura como combustível durante o treino, mas não faz perder mais gordura corporal e piora o rendimento em treinos longos. Para corridas fáceis e curtas, é uma opção aceitável se te sentires bem. Para séries, limiares e longões, come antes.
 
-Muitos corredores acreditam que correr em jejum é uma forma de melhorar a resistência e a capacidade de realizar exercícios de alta intensidade. Alguns até acreditam que é uma forma de perder peso ou reduzir a gordura corporal. No entanto, a evidência científica é mais ambígua do que isso. Por um lado, estudos têm mostrado que o jejum pode levar a uma melhoria na capacidade de realizar exercícios de alta intensidade, pois o corpo precisa recorrer a fontes de energia diferentes, como a gordura. Por outro lado, o jejum também pode levar a uma perda de peso muscular e uma diminuição da capacidade de realizar exercícios de baixa intensidade.
+## O que significa «jejum» na corrida
 
-A verdade é que o efeito do jejum no treino de corrida depende de muitos fatores, incluindo o tipo de treino, a duração do jejum e o nível de condicionamento físico do corredor. Neste artigo, vamos explorar a base científica por trás do treino de corrida em jejum e discutir como aplicar essa informação em prática.
+No contexto do treino, «em jejum» quer dizer correr de manhã, depois da noite, sem comer nada antes — normalmente 8 a 12 horas desde a última refeição. Não tem nada a ver com jejuns prolongados de dias.
 
-## Base Científica
+Durante a noite, o glicogénio do fígado (o que mantém a glicemia estável) desce bastante. O glicogénio dos músculos, pelo contrário, quase não é gasto enquanto dormes, desde que tenhas comido bem no dia anterior. É por isso que uma corrida fácil em jejum costuma correr bem, e um treino longo ou intenso costuma correr mal.
 
-O treino de corrida em jejum é baseado na ideia de que o corpo entra num estado de "autofagia" quando não há comida no estômago. Isso significa que as células do corpo sejam consumidas para produzir energia. No entanto, a autofagia não é um processo simples e pode ser influenciado por muitos fatores, incluindo a duração do jejum, a intensidade do treino e o nível de condicionamento físico do corredor.
+## O que acontece no corpo
 
-Um estudo publicado no International Journal of Sports Physiology and Performance encontrou que o jejum pode levar a uma melhoria na capacidade de realizar exercícios de alta intensidade, pois o corpo precisa recorrer a fontes de energia diferentes, como a gordura (Seiler, 2010). No entanto, outro estudo publicado no Scandinavian Journal of Medicine & Science in Sports encontrou que o jejum pode levar a uma perda de peso muscular e uma diminuição da capacidade de realizar exercícios de baixa intensidade (Laursen, 2010).
+### Mais gordura durante o treino
 
-## Aplicação Prática
+Uma meta-análise que reuniu estudos de exercício aeróbio feito em jejum ou depois de comer concluiu que o exercício em jejum aumenta a oxidação de gordura durante o esforço, em comparação com o mesmo exercício feito depois de uma refeição (Vieira et al., 2016). Sem hidratos de carbono a chegar ao sangue, a insulina está baixa e o corpo recorre mais às gorduras.
 
-Se estás a considerar fazer treino de corrida em jejum, aqui estão algumas dicas para aplicar essa informação em prática:
+### Mas não mais perda de gordura corporal
 
-* **Duração do jejum**: A duração do jejum é importante. Se tiver um jejum de 12 a 14 horas, é provável que o seu corpo tenha consumido a maioria das suas reservas de glicogênio e comece a queimar gordura para produzir energia. No entanto, Se tiver um jejum de mais de 24 horas, é provável que o seu corpo comece a queimar músculo para produzir energia.
-* **Intensidade do treino**: A intensidade do treino é importante. Se estiver a fazer um treino de alta intensidade, é provável que o jejum não tenha um impacto significativo na sua performance. No entanto, Se estiver a fazer um treino de baixa intensidade, o jejum pode levar a uma perda de rendimento.
-* **Nível de condicionamento físico**: O nível de condicionamento físico do corredor é importante. Se estiver um corredor experiente, é provável que o jejum não tenha um impacto significativo na sua performance. No entanto, Se estiver um corredor iniciante, o jejum pode levar a uma perda de rendimento.
+Queimar mais gordura durante 40 minutos não significa perder mais gordura ao fim de semanas. Num ensaio em que mulheres fizeram o mesmo treino aeróbio, em jejum ou depois de comer, com a mesma dieta hipocalórica durante quatro semanas, as duas abordagens produziram perdas de peso e de gordura semelhantes (Schoenfeld et al., 2014). O que manda na composição corporal é o balanço energético ao longo do dia e das semanas, não o momento do treino.
 
-## Erros Comuns
+### O rendimento depende da duração
 
-Aqui estão alguns erros comuns que os corredores cometem ao fazer treino de corrida em jejum:
+A revisão sistemática com meta-análise de Aird e colegas (2018) separou os estudos por tipo de esforço:
 
-* **Jejum excessivo**: Jejum por mais de 24 horas pode levar a uma perda de peso muscular e uma diminuição da capacidade de realizar exercícios de baixa intensidade.
-* **Treino inadequado**: Treino de baixa intensidade pode levar a uma perda de rendimento e uma perda de peso muscular.
-* **Falta de hidratação**: Falta de hidratação pode levar a uma perda de rendimento e uma perda de peso muscular.
+- em **exercício aeróbio prolongado (mais de 60 minutos)**, o rendimento foi melhor quando os participantes tinham comido antes;
+- em **exercício aeróbio mais curto** e em **esforços de alta intensidade**, não se encontrou uma diferença clara entre jejum e alimentado.
 
-## Protocolo/Conclusão
+Ou seja, se o treino é curto e fácil, o jejum pouco importa para o rendimento. Se é longo, comer antes ajuda.
 
-Em resumo, o treino de corrida em jejum pode ser eficaz para melhorar a capacidade de realizar exercícios de alta intensidade, mas é importante considerar a duração do jejum, a intensidade do treino e o nível de condicionamento físico do corredor. Além disso, é importante evitar erros comuns, como jejum excessivo, treino inadequado e falta de hidratação. Se estás a considerar fazer treino de corrida em jejum, é importante consultar um treinador ou um médico para obter orientação personalizada.
+## A ideia de «treinar baixo»
+
+Há uma razão mais técnica pela qual alguns treinadores usam treinos com poucas reservas de hidratos de carbono: em laboratório, treinar com glicogénio baixo amplifica alguns sinais de adaptação muscular ao treino aeróbio. A proposta de «combustível para o trabalho exigido» (*fuel for the work required*) sugere ajustar os hidratos de carbono à exigência de cada sessão: menos em sessões fáceis, mais nas sessões duras e nas provas (Impey et al., 2018).
+
+Atenção a duas coisas:
+
+1. A tradução destes sinais moleculares em melhores resultados em prova ainda não está bem demonstrada.
+2. A posição conjunta do American College of Sports Medicine e das associações de nutrição da América do Norte recomenda que os hidratos de carbono acompanhem a carga de treino e que as sessões de qualidade sejam feitas com combustível adequado (Thomas et al., 2016).
+
+Se te interessa este tema, vê o artigo sobre [periodização nutricional](/blog/periodizacao-nutricional-train-low-compete-high) e o artigo sobre [jejum e adaptação às gorduras](/blog/corrida-jejum-fat-adaptation).
+
+## Que treinos podes fazer em jejum
+
+| Tipo de treino | Em jejum? | Porquê |
+|---|---|---|
+| Corrida fácil até cerca de 60 min | Aceitável | Pouco impacto no rendimento |
+| Corrida de recuperação | Aceitável | Intensidade baixa |
+| Séries, limiar, fartlek intenso | Melhor comer antes | A qualidade da sessão é o objetivo |
+| Longão (mais de 75–90 min) | Come antes | O rendimento piora em jejum |
+| Treino de força exigente | Melhor comer antes | Mais qualidade e menos fadiga |
+
+### Se vais correr em jejum
+
+- **Janta bem na véspera**, com hidratos de carbono suficientes.
+- **Bebe água** ao acordar.
+- **Mantém a intensidade baixa** e a duração moderada.
+- **Leva algo para comer** (um gel, uma peça de fruta) para o caso de te sentires tonto ou fraco.
+- **Come bem depois** do treino, com hidratos de carbono e proteína.
+
+### Se preferes comer antes
+
+Não precisas de um pequeno-almoço completo. Algo leve 30 a 60 minutos antes — uma banana, uma torrada com mel, um iogurte — costuma ser suficiente e bem tolerado. Tens ideias práticas no artigo sobre [o que comer antes de treinar de manhã](/blog/o-que-comer-antes-treino-manha).
+
+## Quem deve evitar correr em jejum
+
+- Pessoas com **diabetes** ou outras condições que afetem a glicemia, sem orientação médica.
+- Quem tem **historial de perturbações alimentares**.
+- Corredores com sinais de **défice energético** — cansaço persistente, lesões ósseas, perda da menstruação, quebra de rendimento. O consenso do Comité Olímpico Internacional sobre a deficiência energética relativa no desporto (REDs) mostra que a ingestão insuficiente para a carga de treino tem consequências sérias para a saúde e o rendimento (Mountjoy et al., 2023). Restringir a comida de forma sistemática à volta dos treinos pode agravar este problema.
+- **Jovens atletas**, que precisam de energia para crescer e treinar.
+
+## Erros comuns
+
+1. **Fazer o longão em jejum para «queimar mais gordura».** O rendimento cai e a recuperação piora, sem vantagem na perda de peso.
+2. **Compensar com pouca comida o resto do dia.** O défice acumulado é o que mais prejudica.
+3. **Fazer séries em jejum.** Perdes qualidade na sessão mais importante da semana.
+4. **Achar que o jejum é obrigatório para ser eficiente.** A eficiência metabólica constrói-se sobretudo com volume de treino aeróbio consistente.
+
+## Conclusão
+
+Correr em jejum não é perigoso para a maioria dos corredores saudáveis em treinos fáceis e curtos, mas também não é uma ferramenta mágica. Usa-o por conveniência, se te sentes bem, e come antes das sessões que contam.
 
 ## Referências Científicas
 
-1. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance, 5(3), 276-291. https://doi.org/10.1123/ijspp.5.3.276
-2. Laursen, P. B. (2010). Training for intense exercise performance: high-intensity or high-volume training? Scandinavian Journal of Medicine & Science in Sports, 20(s2), 1-10. https://doi.org/10.1111/j.1600-0838.2010.01184.x
-3. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle. Sports Medicine, 43(5), 313-338. https://doi.org/10.1007/s40279-013-0029-x
-4. Bompa, T. O., & Buzzichelli, C. (2018). Periodization: Theory and Methodology of Training (6th ed.). Human Kinetics.
+1. Aird, T. P., Davies, R. W., & Carson, B. P. (2018). Effects of fasted vs fed-state exercise on performance and post-exercise metabolism: A systematic review and meta-analysis. *Scandinavian Journal of Medicine & Science in Sports*, 28(5), 1476–1493. https://doi.org/10.1111/sms.13054
+2. Impey, S. G., Hearris, M. A., Hammond, K. M., Bartlett, J. D., Louis, J., Close, G. L., & Morton, J. P. (2018). Fuel for the work required: A theoretical framework for carbohydrate periodization and the glycogen threshold hypothesis. *Sports Medicine*, 48(5), 1031–1048. https://doi.org/10.1007/s40279-018-0867-7
+3. Mountjoy, M., Ackerman, K. E., Bailey, D. M., Burke, L. M., Constantini, N., Hackney, A. C., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1097. https://doi.org/10.1136/bjsports-2023-106994
+4. Schoenfeld, B. J., Aragon, A. A., Wilborn, C. D., Krieger, J. W., & Sonmez, G. T. (2014). Body composition changes associated with fasted versus non-fasted aerobic exercise. *Journal of the International Society of Sports Nutrition*, 11, 54. https://doi.org/10.1186/s12970-014-0054-7
+5. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement. Nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852
+6. Vieira, A. F., Costa, R. R., Macedo, R. C. O., Coconcelli, L., & Kruel, L. F. M. (2016). Effects of aerobic exercise performed in fasted v. fed state on fat and carbohydrate metabolism in adults: A systematic review and meta-analysis. *British Journal of Nutrition*, 116(7), 1153–1164. https://doi.org/10.1017/S0007114516003160

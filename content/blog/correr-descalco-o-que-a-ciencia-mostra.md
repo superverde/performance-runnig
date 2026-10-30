@@ -44,7 +44,7 @@ Esta é a pergunta que interessa, e a resposta curta é: **não está provado**.
 
 - Uma revisão sistemática sobre os riscos e benefícios de correr descalço ou com calçado minimalista concluiu que a evidência é insuficiente para recomendar ou desaconselhar esta prática para prevenir lesões (Perkins et al., 2014).
 - Num ensaio controlado com corredores treinados que passaram a usar calçado minimalista durante 26 semanas, a dor e as lesões dependeram do peso corporal e do volume semanal: os corredores mais pesados e os que corriam mais quilómetros tiveram mais problemas com o calçado minimalista (Fuller et al., 2017).
-- Num estudo com ressonância magnética, corredores que fizeram uma transição de 10 semanas para calçado minimalista mostraram mais sinais de edema ósseo nos pés do que o grupo que manteve as sapatilhas habituais, e houve dois casos de fratura de stress no grupo da transição (Ridge et al., 2013).
+- Num estudo com ressonância magnética, corredores que fizeram uma transição de 10 semanas para calçado minimalista mostraram mais sinais de edema ósseo nos pés do que o grupo que manteve as sapatilhas habituais: 10 dos 19 corredores da transição tiveram aumento do edema em pelo menos um osso do pé, um sinal de stress ósseo que pode preceder uma fratura de stress (Ridge et al., 2013).
 
 Ou seja: o pé consegue adaptar-se, mas precisa de muito mais tempo do que a maioria dos corredores lhe dá. Os ossos, os tendões e os músculos do pé adaptam-se mais devagar do que o sistema cardiovascular — e é esse desfasamento que explica muitos problemas: o fôlego permite correr 10 km descalço muito antes de o pé estar preparado para isso.
 

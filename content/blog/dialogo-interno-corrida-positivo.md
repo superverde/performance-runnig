@@ -6,53 +6,100 @@ excerpt: "O diálogo interno na corrida muda o esforço que sentes. Vê o que a 
 seoTitle: "Diálogo Interno: Como o Self-Talk Afeta a Tua Corrida"
 keyword: "diálogo interno corrida"
 keywords: ["self-talk", "pensamentos a correr", "psicologia da corrida"]
-readTime: 4
+readTime: 6
+faqs:
+  - q: "O self-talk melhora mesmo o rendimento na corrida?"
+    a: "Há boa evidência de que sim. Uma meta-análise encontrou um efeito positivo moderado do self-talk no rendimento desportivo, e um estudo em ciclistas mostrou que duas semanas de treino de self-talk motivacional aumentaram o tempo até à exaustão e reduziram a perceção de esforço."
+  - q: "Que frases devo usar quando a corrida fica dura?"
+    a: "Frases curtas, credíveis e escolhidas por ti, preparadas antes. As motivacionais ajudam a aguentar o esforço e as instrucionais ajudam a manter a técnica e o ritmo, por exemplo «braços soltos» ou «passos curtos na subida»."
+  - q: "Falar comigo na segunda pessoa ajuda?"
+    a: "Alguns estudos de psicologia sugerem que falar contigo próprio na segunda ou terceira pessoa ajuda a regular emoções sob stress, porque cria distância. Na corrida a evidência direta é limitada, mas é fácil de experimentar em treino."
 ---
 
-## Diálogo Interno: Como as Palavras na Tua Cabeça Afetam a Corrida
+Ao quilómetro 30 de uma maratona, a meio de uma série dura ou no topo de uma subida interminável, há sempre uma conversa a decorrer dentro da tua cabeça. «Não aguento.» «Abranda.» Ou então: «Mais um poste.» «Estás bem, mantém.» Esse **diálogo interno** — em inglês, *self-talk* — não é ruído de fundo. A investigação mostra que muda o esforço que sentes e quanto tempo aguentas.
 
-Quando estamos a correr, é comum ouvirmos a voz da nossa mente a dizer coisas como "Estou a morrer!", "Não posso continuar!" ou "Porque diabo me coloquei isto em cima?". Mas, o que acontece quando essas palavras se tornam um diálogo interno contínuo? Como elas afetam a nossa corrida e, mais importante, como podemos controlá-las para alcançar resultados melhorados?
+## O que é o diálogo interno
 
-A resposta está na psicologia desportiva. Segundo a teoria de Noakes (2012), a fadiga é uma emoção derivada do cérebro que regula o nosso comportamento de exercício para garantir a proteção da homeostase do corpo todo. Isso significa que, quando estamos a correr, o nosso cérebro está a monitorizar a nossa fadiga e a fazer escolhas para proteger o nosso corpo do suposto dano. E é aqui que o diálogo interno entra em cena.
+É tudo o que dizes a ti próprio, em voz alta ou em pensamento. Na psicologia do desporto distinguem-se sobretudo dois tipos de *self-talk* estratégico:
 
-Quando estamos a correr, as palavras na nossa cabeça têm um grande impacto no nosso desempenho. Se estivermos a dizer a nós mesmos que não podemos continuar, que estamos a morrer ou que não estamos a fazer o suficiente, isso pode levar a uma redução da motivação, da confiança e da concentração. Além disso, pode também levar a uma perda da eficiência e da eficácia do nosso treino.
+- **Motivacional** — serve para aumentar o esforço, a confiança e a persistência: «vamos», «és capaz», «aguenta este bloco».
+- **Instrucional** — dirige a atenção para a técnica ou a tarefa: «braços soltos», «passos curtos», «respira fundo», «mantém a cadência».
 
-## Base Científica
+E há o diálogo espontâneo — muitas vezes negativo — que surge quando o esforço aperta. O objetivo não é eliminá-lo por completo, mas ter alternativas preparadas que funcionem melhor.
 
-A atenção é um factor crucial no desempenho desportivo. Segundo Brick et al. (2014), a atenção pode ser direcionada para o movimento, para a dor ou para a meta. Quando estamos a correr, é importante direcionar a atenção para a meta, para o movimento e para a respiração, em vez de para a dor ou a fadiga. Isso pode ajudar a reduzir a percepção da fadiga e a melhorar o desempenho.
+## O que diz a ciência
 
-Além disso, a motivação e a confiança também desempenham um papel importante no desempenho desportivo. Segundo Tenenbaum e Eklund (2007), a motivação e a confiança podem ser afetadas pela percepção da capacidade e da dificuldade do exercício. Quando estamos a correr, é importante ter uma percepção positiva da nossa capacidade e da dificuldade do exercício, para manter a motivação e a confiança.
+### Um efeito real e consistente
 
-## Aplicação Prática
+Uma meta-análise de 32 estudos encontrou um **efeito positivo moderado** do *self-talk* no rendimento desportivo. O efeito foi maior em tarefas de precisão do que em tarefas motoras globais (onde o instrucional superou o motivacional), maior em tarefas novas e, sobretudo, maior quando os participantes **treinaram** previamente o *self-talk* (Hatzigeorgiadis et al., 2011). Para a corrida — uma tarefa global e bem aprendida — o efeito esperado é mais modesto, mas os estudos específicos de resistência abaixo mostram que existe.
 
-Então, como podemos controlar o diálogo interno e melhorar o desempenho? Aqui estão algumas dicas práticas:
+### Mais tempo até à exaustão, menos esforço percebido
 
-* Pratica a autocompaixão: em vez de dizer a si mesmo que está a fracassar ou que não está a fazer o suficiente, diga a si mesmo que está a fazer o melhor que pode e que está a progredir.
-* Foco na respiração: em vez de se preocupar com a fadiga ou a dor, foque na respiração e no movimento.
-* Estabeleça metas realistas: estabeleça metas realistas e alcançáveis, para manter a motivação e a confiança.
-* Pratica a visualização: pratique a visualização de si mesmo a correr bem e a alcançar as suas metas.
+No estudo de Blanchfield et al. (2014), 24 participantes fizeram um teste de ciclismo até à exaustão a 80 % da potência máxima, antes e depois de duas semanas de intervenção. O grupo que treinou *self-talk* motivacional aumentou o tempo até à exaustão de cerca de 637 para 750 segundos (aproximadamente 18 %) e reportou **menor perceção de esforço** a meio do teste; o grupo de controlo não melhorou. Os autores interpretam o resultado à luz do modelo psicobiológico: se a perceção de esforço baixa, consegues manter a intensidade durante mais tempo.
 
-## Erros Comuns
+### Também no calor
 
-* Foco na fadiga: em vez de se preocupar com a fadiga, foque na respiração e no movimento.
-* Foco na dor: em vez de se preocupar com a dor, foque na respiração e no movimento.
-* Foco na meta: em vez de se preocupar com a meta, foque na respiração e no movimento.
+Num estudo com 16 homens ativos, a pedalar 30 minutos a 35 °C com esforço percebido constante, quem tinha treinado *self-talk* motivacional produziu mais potência no último terço do teste (Hatzigeorgiadis et al., 2018). É uma amostra pequena, mas aponta no mesmo sentido.
 
-## Protocolo
+### Enquadramento: a perceção de esforço manda muito
 
-1. Identifique o seu diálogo interno: observe as palavras que estão a dizer a si mesmo quando está a correr.
-2. Pratica a autocompaixão: em vez de dizer a si mesmo que está a fracassar ou que não está a fazer o suficiente, diga a si mesmo que está a fazer o melhor que pode e que está a progredir.
-3. Foque na respiração: em vez de se preocupar com a fadiga ou a dor, foque na respiração e no movimento.
-4. Estabeleça metas realistas: estabeleça metas realistas e alcançáveis, para manter a motivação e a confiança.
-5. Pratica a visualização: pratique a visualização de si mesmo a correr bem e a alcançar as suas metas.
+Uma revisão sistemática sobre os determinantes psicológicos do rendimento em resistência identificou o *self-talk* entre as intervenções psicológicas com resultados positivos, a par de outras como a definição de objetivos e a imaginação mental (McCormick et al., 2015). O ponto comum é a regulação da perceção de esforço e da atenção.
+
+### Na segunda pessoa?
+
+Estudos de psicologia (fora do desporto) sugerem que falar contigo próprio pelo nome ou na segunda pessoa («Tu consegues, Ana») ajuda a regular emoções e a ansiedade em situações de stress, por criar distância psicológica (Kross et al., 2014). Em corredores a evidência direta é escassa, mas é uma técnica simples para testar em treino.
+
+## Como treinar o teu diálogo interno
+
+### 1. Observa primeiro
+
+Durante uma ou duas semanas, nota o que dizes a ti próprio nos momentos duros: no início de uma série, na última repetição, numa subida longa. Escreve no diário de treino as frases que aparecem e em que situação.
+
+### 2. Escolhe frases curtas e credíveis
+
+Frases longas não funcionam com a respiração ofegante. Duas a quatro palavras chegam. E têm de ser credíveis para ti: «estou a voar» no km 38 pode soar falso; «um quilómetro de cada vez» é aceitável.
+
+Exemplos:
+
+| Situação | Motivacional | Instrucional |
+|----------|--------------|--------------|
+| Início de uma série dura | «Vamos, controla» | «Relaxa os ombros» |
+| Subida longa | «Isto passa» | «Passos curtos, braços» |
+| Fim de prova | «Já treinaste isto» | «Mantém a cadência» |
+| Quebra de ritmo | «Volta ao plano» | «Respira e solta» |
+
+### 3. Substitui, não suprimas
+
+Tentar «não pensar» que estás cansado raramente funciona. Quando surgir «não aguento», responde com uma frase alternativa preparada: «aguento até ao próximo poste». Reconhecer o desconforto e redirecionar a atenção é mais eficaz do que lutar contra o pensamento.
+
+### 4. Pratica nos treinos difíceis
+
+O efeito é maior quando o *self-talk* é treinado (Hatzigeorgiadis et al., 2011). Usa as tuas frases nas séries, nos tempo runs e nos longos, para que em prova surjam de forma automática.
+
+### 5. Liga as frases a pontos do percurso
+
+Em prova, associa frases a momentos previsíveis: «agora é paciência» na primeira metade, «um posto de cada vez» depois do km 25, «é aqui que se ganha» no último terço.
+
+## Erros comuns
+
+- **Frases genéricas que não significam nada para ti.** Escolhe as tuas, não as de um poster.
+- **Só motivacional, nunca instrucional.** Quando a técnica começa a degradar, «braços soltos» pode valer mais do que «força».
+- **Estrear estratégias em prova.** Treina-as antes.
+- **Diálogo interno punitivo.** Insultar-te a ti próprio aumenta a tensão e raramente melhora o rendimento.
+- **Confundir diálogo positivo com ignorar sinais de lesão.** Dor aguda, localizada ou que altera a passada é motivo para parar — vê [correr com dor: quando parar](/blog/correr-com-dor-quando-parar).
 
 ## Conclusão
 
-O diálogo interno é um factor crucial no desempenho desportivo. Com a prática da autocompaixão, do foco na respiração e na visualização, podemos controlar o diálogo interno e melhorar o desempenho. Lembra-te de que o desempenho desportivo é apenas uma parte da vida, e que a prática da autocompaixão e do foco na respiração pode ser aplicada em todas as áreas da vida.
+O diálogo interno não é um truque motivacional: é uma ferramenta com evidência, capaz de baixar a perceção de esforço e prolongar o tempo que consegues sustentar um ritmo. Observa o que dizes, prepara frases curtas e credíveis, treina-as nos treinos duros e leva-as para a prova. Para complementar, lê sobre [gestão da dor por associação e dissociação](/blog/gestao-dor-corrida-dissociar-associar) e [visualização mental](/blog/visualizacao-mental-corrida-performance).
 
 ## Referências Científicas
 
-* Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554
-* Noakes, T. D. (2012). Fatigue is a brain-derived emotion that regulates the exercise behavior to ensure the protection of whole body homeostasis. Frontiers in Physiology, 3, 82. https://doi.org/10.3389/fphys.2012.00082
-* Tenenbaum, G., & Eklund, R. C. (Eds.). (2007). Handbook of Sport Psychology (3rd ed.). John Wiley & Sons.
-* McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6
+Blanchfield, A. W., Hardy, J., de Morree, H. M., Staiano, W., & Marcora, S. M. (2014). Talking yourself out of exhaustion: the effects of self-talk on endurance performance. *Medicine & Science in Sports & Exercise*, 46(5), 998–1007. https://doi.org/10.1249/MSS.0000000000000184
+
+Hatzigeorgiadis, A., Zourbanos, N., Galanis, E., & Theodorakis, Y. (2011). Self-talk and sports performance: a meta-analysis. *Perspectives on Psychological Science*, 6(4), 348–356. https://doi.org/10.1177/1745691611413136
+
+Hatzigeorgiadis, A., Bartura, K., Argiropoulos, C., Comoutos, N., Galanis, E., & Flouris, A. D. (2018). Beat the heat: effects of a motivational self-talk intervention on endurance performance. *Journal of Applied Sport Psychology*. https://doi.org/10.1080/10413200.2017.1395930
+
+Kross, E., Bruehlman-Senecal, E., Park, J., Burson, A., Dougherty, A., Shablack, H., Bremner, R., Moser, J., & Ayduk, O. (2014). Self-talk as a regulatory mechanism: how you do it matters. *Journal of Personality and Social Psychology*, 106(2), 304–324. https://doi.org/10.1037/a0035173
+
+McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. *Sports Medicine*, 45(7), 997–1015. https://doi.org/10.1007/s40279-015-0319-6

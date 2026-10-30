@@ -2,61 +2,97 @@
 title: "Depressão Pós-Maratona: Porque Acontece"
 date: '2026-10-15'
 category: "Psicologia"
-excerpt: "Descobre porque surge a depressão pós-maratona e como lidar com o vazio depois da prova."
-readTime: 4
+excerpt: "Descobre porque surge a tristeza depois da maratona, o que a ciência sabe sobre este vazio e quando é sinal para pedir ajuda a um profissional."
+readTime: 6
 keyword: "depressão pós-maratona"
 keywords: ["tristeza depois da maratona", "blues pós-maratona", "vazio depois da prova"]
 faqs:
-  - q: "O que é a depressão pós‑maratona?"
-    a: "É um estado depressivo que surge após o fim de uma maratona, causado por alterações neuroquímicas e psicológicas no corpo e na mente do atleta."
-  - q: "Como saber se estou a sofrer de blues pós‑maratona?"
-    a: "Sinais comuns incluem falta de motivação, tristeza intensa, irritabilidade e dificuldade de concentração. Se persistirem por mais de duas semanas, procura ajuda profissional."
-  - q: "Qual o significado do vazio depois da prova?"
-    a: "O vazio descreve a sensação de desorientação e falta de propósito que ocorre quando o estímulo físico que sustentava a motivação termina."
+  - q: "O que é a depressão pós-maratona?"
+    a: "É o nome popular para a quebra de humor, a falta de motivação e a sensação de vazio que muitos corredores sentem nos dias ou semanas depois de uma maratona. Na maioria dos casos é transitória e não corresponde a uma depressão clínica, que é um diagnóstico médico com critérios próprios."
+  - q: "Quanto tempo dura o blues pós-maratona?"
+    a: "Não há estudos que definam uma duração típica. Na prática, costuma aliviar à medida que retomas a rotina e defines um novo objetivo. Se a tristeza, a perda de interesse ou as alterações do sono se mantiverem por mais de duas semanas, ou se interferirem com a tua vida, fala com o teu médico de família ou um psicólogo."
+  - q: "Devo voltar logo a treinar para combater o vazio depois da prova?"
+    a: "Movimento leve ajuda, mas voltar cedo a treinos duros não. Caminhadas, bicicleta suave e corridas curtas e fáceis mantêm a rotina e o bem-estar enquanto o corpo recupera. A intensidade volta de forma progressiva nas semanas seguintes."
 ---
 
-A depressão pós-maratona surge quando o sistema neuroendócrino, após o esforço extremo, altera a produção de serotonina e dopamina, provocando sintomas depressivos.  
-Os atletas que completam uma maratona muitas vezes passam por uma fase de desorientação emocional, onde o corpo e a mente precisam de reajustar-se ao fim do estímulo físico.  
+Passaste meses a organizar a vida à volta de uma data. Treinos longos ao domingo, séries à terça, jantares pensados em função do treino seguinte. Cruzas a meta, celebras — e, poucos dias depois, aparece uma sensação estranha: cansaço que não passa, falta de vontade, uma tristeza sem motivo aparente. Muitos corredores chamam-lhe **depressão pós-maratona** ou *blues* pós-maratona.
 
-A intensidade da prova, combinada com a diminuição dos níveis de glicose e o esgotamento das reservas de energia, desencadeia uma cascata neuroquímica que pode resultar em tristeza depois da maratona. Este fenómeno não é exclusivo de corredores; qualquer pessoa submetida a um esforço físico prolongado pode experimentar o chamado blues pós-maratona.  
+É um fenómeno real e frequente nos relatos de corredores, mas convém ser rigoroso: **não existe investigação específica que o defina como entidade clínica**, nem números fiáveis sobre quantos corredores o sentem. O que a ciência oferece são peças que ajudam a explicá-lo — e que te dizem o que fazer.
 
-## Base Científica da depressão pós-maratona  
+## O que é (e o que não é)
 
-Estudos têm mostrado que o exercício de longa duração provoca alterações no eixo hipotálamo‑pituitária‑adrenal (HPA), levando a uma liberação prolongada de cortisol e a uma subsequente redução da serotonina cerebral (Noakes, 2012). Esta alteração química pode explicar a sensação de vazio depois da prova, onde o cérebro sente falta do estímulo que estava a ser mantido.  
-Além disso, a atenção focada nos detalhes do percurso durante a corrida (attentional focus) pode criar um estado de sobrecarga cognitiva que, quando cessado, deixa o atleta num estado de déficit de motivação (Brick et al., 2014).  
-Os fatores psicológicos, como a expectativa de recompensa e a percepção de realização, também desempenham um papel crítico. Quando a meta é alcançada, o sistema de recompensa do cérebro pode entrar em “modo de espera”, resultando num sentimento de falta de propósito (McCormick et al., 2015).  
+O blues pós-maratona é, na maioria dos casos, uma **quebra de humor transitória**: menos energia, menos motivação, irritabilidade, alguma tristeza e a sensação de que «falta qualquer coisa». Tende a aliviar quando a rotina regressa e surge um novo projeto.
 
-## Aplicação Prática  
+A **depressão clínica** é outra coisa: humor deprimido ou perda de interesse na maior parte do dia, quase todos os dias, durante pelo menos duas semanas, acompanhados de outros sintomas (alterações do sono e do apetite, culpa excessiva, dificuldade de concentração, pensamentos de morte). Correr uma maratona não protege nem condena ninguém a ter depressão — e o consenso do Comité Olímpico Internacional sobre saúde mental em atletas lembra que os atletas não estão imunes a perturbações mentais e que estas merecem a mesma atenção que uma lesão (Reardon et al., 2019).
 
-1. **Monitorização da carga de treino** – Utilizar um diário de treino que inclua não só a distância, mas também a intensidade percebida (RPE) e o estado emocional.  
-2. **Intervenção nutricional** – Repor hidratos de carbono no prazo de 30 min após a prova e consumir proteína de 0,25 g/kg de peso corporal para estimular a síntese de neurotransmissores.  
-3. **Terapia cognitivo‑comportamental (TCC)** – Sessões semanais de 45 min nas primeiras 3 semanas pós‑maratona podem reduzir a incidência de sintomas depressivos.  
-4. **Atividades de recuperação ativa** – Caminhadas de 20 min, alongamento dinâmico e natação leve ajudam a normalizar o cortisol e a melhorar o humor.  
+## Porque acontece: o que se sabe
 
-### Protocolo de 4 semanas  
+### 1. Fim abrupto de um objetivo que dava estrutura
 
-| Semana | Atividade | Duração | Intensidade |
-|--------|-----------|---------|-------------|
-| 1 | Sessão de TCC | 45 min | Moderada |
-| 1‑2 | Caminhada leve | 20 min | Rápida |
-| 2‑3 | Natação | 30 min | Moderada |
-| 3‑4 | Reunião de grupo | 60 min | Social |
+Uma maratona organiza o teu calendário, as tuas decisões e, muitas vezes, a tua identidade. Quando o objetivo é cumprido, desaparece de repente a estrutura que dava sentido aos dias. Relatos semelhantes estão descritos em atletas olímpicos depois dos Jogos, mas a evidência é sobretudo qualitativa. Para um amador, o mecanismo provável é o mesmo em escala menor: **perda de propósito imediato**. Se a corrida ocupa um lugar central na forma como te vês, este efeito tende a ser maior — lê mais sobre isso em [identidade de corredor e propósito no treino](/blog/identidade-corredor-proposito-treino).
 
-O protocolo pode ser ajustado de acordo com a resposta individual; alguns atletas podem necessitar de mais dias de descanso ou de terapia adicional.
+### 2. Paragem súbita do exercício
 
-## Erros Comuns  
+Depois da prova, quase toda a gente reduz drasticamente o treino — e com razão. Mas há evidência de que retirar o exercício a pessoas habituadas a treinar piora o humor. Uma revisão sistemática de estudos experimentais de privação de exercício encontrou, de forma consistente, **aumento de sintomas depressivos e de ansiedade**, que pareceram mais marcados quando a paragem durava mais de duas semanas; problemas clinicamente graves foram raros (Weinstein et al., 2017). Ou seja: a quebra de rotina física, por si só, pode baixar o humor.
 
-- **Ignorar sinais de fadiga mental** – A falta de sono reparador pode exacerbar a depressão pós‑maratona.  
-- **Reidratação inadequada** – A desidratação pode levar a alterações no humor e no estado de alerta.  
-- **Subestimar o impacto emocional** – Tratar a depressão pós‑maratona como simples “fadiga” pode atrasar o processo de recuperação.  
+### 3. Fadiga e recuperação incompleta
 
-## Protocolo/Conclusão  
+Uma maratona provoca dano muscular, inflamação, depleção de glicogénio e, muitas vezes, noites mal dormidas antes e depois da prova. Fadiga física e sono pior afetam o humor e a motivação. Também se sabe, da literatura sobre sobretreino, que cargas elevadas sem recuperação adequada se acompanham de alterações de humor — mais uma razão para levar a sério as primeiras semanas (Kellmann et al., 2018).
 
-Para mitigar a depressão pós‑maratona, é essencial combinar estratégias fisiológicas (nutrição, descanso, recuperação ativa) com abordagens psicológicas (TCC, apoio social). A monitorização contínua da carga de treino e a intervenção precoce podem prevenir que a tristeza depois da maratona evolua para sintomas mais graves.  
+### 4. Expectativas e resultado
 
+Se a prova correu mal, a frustração é óbvia. Mas mesmo quando corre bem, a realização de um objetivo muito esperado pode trazer uma sensação de anticlímax. Não há estudos de qualidade que quantifiquem isto em maratonistas — é uma explicação plausível, não um facto medido.
 
-## Referências Científicas  
+> **Nota sobre mitos:** é comum ler que a maratona «esgota a serotonina» ou «desregula a dopamina» e que isso causa o vazio. Não há evidência direta em humanos que sustente esta explicação simples. Desconfia de quem a apresenta como facto.
 
-Brick, N., MacIntyre, T., & Campbell, M. (2014). Attentional focus in endurance activity: new paradigms and future directions. International Review of Sport and Exercise Psychology, 7(1), 106-134. https://doi.org/10.1080/1750984X.2014.885554  
+## O que fazer nas semanas seguintes
 
-McCormick, A., Meijen, C., & Marcora, S. (2015). Psychological determinants of whole-body endurance performance. Sports Medicine, 45(7), 997-1015. https://doi.org/10.1007/s40279-015-0319-6  
+### Planeia o pós-prova antes da prova
+
+A melhor prevenção é decidir antecipadamente como vão ser as três ou quatro semanas seguintes: dias de descanso, quando voltas a correr, que atividades fazes. Um plano progressivo como o de [recuperar de uma maratona em 4 semanas](/blog/recuperar-de-uma-maratona-4-semanas) dá-te estrutura sem forçar o corpo.
+
+### Mantém movimento, mas leve
+
+Em vez de parar por completo, faz caminhadas, bicicleta ou natação suaves nos primeiros dias e retoma corridas curtas e fáceis quando as dores musculares o permitirem. O objetivo não é treinar: é manter a rotina e o efeito positivo do exercício no humor, respeitando a recuperação.
+
+### Protege o sono e a alimentação
+
+Dorme o suficiente, come refeições completas (com hidratos de carbono e proteína) e não compenses o vazio com álcool. São medidas simples, mas são as que sustentam a recuperação física e emocional.
+
+### Define um próximo objetivo — sem pressa
+
+Ter algo à frente ajuda, mas não precisa de ser outra maratona. Pode ser melhorar nos 5 km, experimentar trail, voltar ao treino de força ou simplesmente correr com amigos. Escolhe um objetivo de processo (ex.: «correr três vezes por semana com prazer») antes de voltares a objetivos de tempo.
+
+### Fala sobre isso
+
+Partilhar a sensação com outros corredores normaliza-a — muitos já passaram pelo mesmo. O apoio social é um dos fatores protetores mais referidos na literatura de saúde mental em atletas (Reardon et al., 2019).
+
+## Quando pedir ajuda
+
+Procura o teu médico de família ou um psicólogo se:
+
+- a tristeza ou a perda de interesse **duram mais de duas semanas**;
+- o sono, o apetite, o trabalho ou as relações estão claramente afetados;
+- deixas de ter prazer em quase tudo, não só na corrida;
+- tens pensamentos de que não vale a pena viver.
+
+Em Portugal podes ligar para o **SNS 24 (808 24 24 24)**, que tem aconselhamento psicológico. Se houver risco imediato, liga **112**. Não há nada de fraco em pedir ajuda: é a mesma lógica de ir ao fisioterapeuta quando o joelho dói.
+
+## Erros comuns
+
+- **Ignorar os sinais** e assumir que «é só cansaço» quando já passaram várias semanas.
+- **Voltar logo a treinos intensos** para fugir ao vazio, o que aumenta o risco de lesão e prolonga a fadiga.
+- **Parar completamente** durante semanas, perdendo o efeito do exercício no humor.
+- **Inscrever-te de imediato noutra maratona** sem teres recuperado física e mentalmente.
+
+## Conclusão
+
+A tristeza depois da maratona é compreensível: perdes de uma vez um objetivo, uma rotina e uma fonte diária de bem-estar, num corpo que ainda está a recuperar. Na maioria dos casos passa com movimento leve, sono, boa alimentação, apoio social e um novo projeto. Se não passar, trata-a como tratarias uma lesão — com ajuda profissional.
+
+## Referências Científicas
+
+Kellmann, M., Bertollo, M., Bosquet, L., Brink, M., Coutts, A. J., Duffield, R., et al. (2018). Recovery and performance in sport: consensus statement. *International Journal of Sports Physiology and Performance*, 13(2), 240–245. https://doi.org/10.1123/ijspp.2017-0759
+
+Reardon, C. L., Hainline, B., Aron, C. M., Baron, D., Baum, A. L., Bindra, A., et al. (2019). Mental health in elite athletes: International Olympic Committee consensus statement (2019). *British Journal of Sports Medicine*, 53(11), 667–699.
+
+Weinstein, A. A., Koehmstedt, C., & Kop, W. J. (2017). Mental health consequences of exercise withdrawal: a systematic review. *General Hospital Psychiatry*, 49, 11–18. https://doi.org/10.1016/j.genhosppsych.2017.06.001

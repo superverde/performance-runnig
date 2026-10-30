@@ -6,47 +6,135 @@ excerpt: "Dor nas canelas ao correr? Vê as causas mais comuns da canelite, como
 seoTitle: "Dor nas Canelas ao Correr: Causas e Tratamento"
 keyword: "dor nas canelas ao correr"
 keywords: ["canelite causas", "canelite tratamento", "shin splints corrida"]
-readTime: 4
+readTime: 7
+faqs:
+  - q: "A canelite é uma inflamação?"
+    a: "Na forma mais comum, a síndrome de stress tibial medial, a evidência atual aponta sobretudo para uma reação de stress do osso da tíbia à carga repetida, e não para uma simples inflamação. Por isso o tratamento assenta na gestão da carga e não só em gelo ou anti-inflamatórios."
+  - q: "Posso continuar a correr com canelite?"
+    a: "Depende da dor. Se for ligeira, surgir só no início e desaparecer durante a corrida, muitas vezes podes manter treino reduzido e fácil. Se a dor aumenta ao longo da corrida, persiste em repouso ou à noite, ou se concentra num ponto pequeno do osso, para e procura avaliação, porque pode ser uma fratura de stress."
+  - q: "Quanto tempo demora a recuperar da canelite?"
+    a: "Varia muito. Casos ligeiros resolvem-se em algumas semanas com redução de carga. Casos mais antigos ou recorrentes podem demorar meses. Os estudos não mostram nenhum tratamento claramente superior ao repouso relativo seguido de regresso gradual à corrida."
 ---
 
-### Dor nas Canelas ao Correr (Canelite): Causas, Tratamento e Prevenção
+A dor nas canelas é uma das queixas mais frequentes de quem começa a correr, de quem volta depois de uma paragem ou de quem aumenta o volume demasiado depressa. Em Portugal chama-se-lhe quase sempre **canelite**; em inglês, *shin splints*. Mas «dor nas canelas» pode corresponder a problemas diferentes — e saber distingui-los é o primeiro passo para tratares bem a tua.
 
-A corrida é um desporto extremamente popular em todo o mundo, sendo uma ótima forma de manter a forma física e promover a saúde geral. No entanto, a corrida pode também ser um desporto de alto risco de lesões, especialmente nas pernas e nos pés. Uma das lesões mais comuns entre os corredores é a dor nas canelas, também conhecida como canelite. Esta lesão pode ser muito dolorosa e pode levar a uma paragem temporária ou definitiva da atividade desportiva.
+## Que dor nas canelas é a tua?
 
-A canelite é uma lesão que afeta os ossos, os músculos e os tendões das canelas. Pode ser causada por uma combinação de fatores, incluindo a sobrecarga excessiva nos ossos e nos músculos, a falta de estiramento e alongamento, a má postura e a inadequada calçado. Além disso, a canelite pode ser também causada por uma lesão prévia ou pela presença de condições médicas subjacentes, como a osteoporose ou a doença de Paget.
+### Síndrome de stress tibial medial (a canelite clássica)
 
-### Base Científica
+É a causa mais comum. Caracteriza-se por (Winters et al., 2018):
 
-A canelite é uma lesão que afeta a zona de tensão das canelas, que é a área que se estende desde a parte superior da canela até à parte inferior. Esta zona de tensão é responsável por absorver a força dos impactos do chão durante a corrida. No entanto, quando esta zona de tensão é sobrecarregada, os ossos, os músculos e os tendões podem ficar lesados, levando à dor e à inflamação.
+- dor induzida pelo exercício **ao longo do bordo interno da tíbia**, geralmente nos dois terços inferiores;
+- dor à palpação numa **zona extensa** — habitualmente vários centímetros seguidos;
+- dor que, no início, surge no começo da corrida e pode aliviar durante o aquecimento.
 
-Segundo o estudo de van Gent et al. (2007), a incidência de lesões nas canelas é de 45% entre os corredores de longa distância. Além disso, o estudo de Lopes et al. (2012) identificou a canelite como uma das lesões mais comuns entre os corredores, sendo responsável por cerca de 20% das lesões reportadas.
+Durante anos chamou-se-lhe «periostite», assumindo-se uma inflamação do periósteo. A evidência atual vê-a sobretudo como uma **reação de stress do osso** — a tíbia não está a remodelar ao ritmo da carga que recebe (Moen et al., 2009).
 
-### Aplicação Prática
+### Fratura de stress da tíbia
 
-Para prevenir a canelite, é fundamental que os corredores sejam conscientes da importância do alongamento e do estiramento. É recomendável realizar alongamentos antes e após a corrida, focando particularmente nos músculos das pernas e dos pés. Além disso, é importante usar calçado adequado para a corrida, que seja confortável e ofereça suporte às articulações.
+Faz parte do mesmo contínuo de sobrecarga óssea, mas é mais grave (Warden et al., 2014). Sinais de alerta:
 
-Um exemplo de alongamento eficaz é o alongamento da perna lateral, que pode ser realizado de seguinte forma:
+- dor num **ponto pequeno e preciso** do osso;
+- dor que **piora** ao longo da corrida, a caminhar ou mesmo em repouso e à noite;
+- dor ao saltar ao pé-coxinho.
 
-- Pôr-se de pé com os pés juntos e a perna direita para frente.
-- Inclinar-se para a frente, mantendo a perna direita direta e os joelhos juntos.
-- Mantendo a posição, esticar a perna direita para trás, sentindo a tensão nos músculos do lado externo da perna.
-- Retornar à posição inicial e repetir com a perna esquerda.
+Se tens estes sinais, **para de correr e procura um médico**. Vê [fraturas de stress em corredores](/blog/stress-fractures-em-corredores-identificar-tratar-e-prevenir).
 
-### Erros Comuns
+### Síndrome compartimental crónica de esforço
 
-Um dos principais erros comuns que contribuem para a ocorrência da canelite é a falta de estiramento e alongamento. Além disso, a utilização de calçado inadequado, a sobrecarga excessiva e a má postura também podem ser fatores contribuintes.
+Dor, pressão ou dormência na face anterior ou lateral da perna que surge sempre a partir de um certo tempo de corrida e **desaparece pouco depois de parar**. É menos comum e o diagnóstico exige avaliação especializada. Vê [síndrome compartimental da perna](/blog/sindrome-compartimento-perna-corrida).
 
-Outro erro comum é a tentativa de continuar a corrida com dor, o que pode piorar a lesão e levar a uma recuperação mais longa. É fundamental que os corredores sejam conscientes dos sinais de alerta da canelite e tomem medidas para prevenir e tratar a lesão.
+## Porque acontece
 
-### Protocolo/Conclusão
+A causa central é um **desequilíbrio entre carga e capacidade**: o osso e os tecidos da perna recebem mais carga do que conseguem adaptar.
 
-A canelite é uma lesão comum entre os corredores, que pode ser causada por uma combinação de fatores. Para prevenir a canelite, é fundamental que os corredores sejam conscientes da importância do alongamento e do estiramento, usem calçado adequado e sejam conscientes dos sinais de alerta da lesão. Além disso, é importante que os corredores tomem medidas para tratar a lesão, incluindo a aplicação de gelo, a compressão e a elevação da perna afetada.
+### Fatores de risco com evidência
 
-Em resumo, a canelite é uma lesão que pode ser prevenida e tratada com medidas adequadas. É fundamental que os corredores sejam conscientes da importância da prevenção e do tratamento da lesão, para evitar uma paragem temporária ou definitiva da atividade desportiva.
+Uma revisão sistemática com meta-análise identificou como fatores de risco mais consistentes para a síndrome de stress tibial medial (Hamstra-Wright et al., 2015):
 
-### Referências Científicas
+- **índice de massa corporal mais elevado**;
+- **maior queda do navicular** (o arco do pé desce mais em carga);
+- algumas diferenças de amplitude articular do tornozelo e da anca.
 
-1. van Gent, R. N., Siem, D., van Middelkoop, M., van Os, A. G., Bierma-Zeinstra, S. M. A., & Koes, B. W. (2007). Incidence and determinants of lower extremity running injuries in long distance runners. British Journal of Sports Medicine, 41(8), 469-480. https://doi.org/10.1136/bjsm.2006.033548
-2. Lopes, A. D., Hespanhol Júnior, L. C., Yeung, S. S., & Costa, L. O. P. (2012). What are the main running-related musculoskeletal injuries? Sports Medicine, 42(10), 891-905. https://doi.org/10.1007/BF03262301
-3. Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. Journal of Orthopaedic & Sports Physical Therapy, 44(10), 749-765. https://doi.org/10.2519/jospt.2014.5334
-4. Taunton, J. E., Ryan, M. B., Clement, D. B., McKenzie, D. C., Lloyd-Smith, D. R., & Zumbo, B. D. (2002). A retrospective case-control analysis of 2002 running injuries. British Journal of Sports Medicine, 36(2), 95-101. https://doi.org/10.1136/bjsm.36.2.95
+### Fatores modificáveis frequentes
+
+- **Progressão rápida de volume ou intensidade.** Em corredores principiantes, aumentos semanais de distância acima de cerca de 30 % associaram-se a mais lesões relacionadas com a distância (Nielsen et al., 2014).
+- **Mudanças bruscas** de piso, de sapatilhas ou de tipo de treino (mais pista, mais séries, mais descidas).
+- **Défice energético.** Comer pouco para a carga de treino prejudica a saúde óssea e aumenta o risco de lesões ósseas; está no centro do conceito de REDs (Mountjoy et al., 2023).
+- **História prévia** de lesão óssea.
+
+As revisões sobre lesões de corrida colocam sistematicamente a síndrome de stress tibial medial entre os diagnósticos mais frequentes (Lopes et al., 2012).
+
+## Tratamento
+
+### 1. Gestão de carga — a base
+
+Uma revisão sistemática de tratamentos concluiu que **nenhuma intervenção específica** (ondas de choque, palmilhas, meias de compressão, laser e outras) mostrou ser claramente superior ao **repouso relativo seguido de regresso gradual à corrida** (Winters et al., 2013). Na prática:
+
+- **Reduz o volume e a intensidade** até a dor ser ligeira e não aumentar durante nem depois da corrida, nem na manhã seguinte.
+- **Mantém a forma com atividades sem impacto**: bicicleta, natação, elíptica, corrida na água.
+- Se a dor for significativa, **suspende a corrida** durante algum tempo e retoma de forma progressiva.
+
+### 2. Regresso progressivo
+
+Um esquema prático:
+
+- retoma com corridas curtas e fáceis, em piso regular, em dias alternados;
+- aumenta primeiro a frequência e o volume, só depois a intensidade;
+- deixa as séries, a pista e as descidas para o fim;
+- usa como regra: dor ligeira (até cerca de 2–3 em 10) que desaparece até ao dia seguinte é aceitável; dor que aumenta é sinal para recuar.
+
+Vê também [retorno à corrida após lesão](/blog/retorno-corrida-apos-lesao-progressao).
+
+### 3. Treino de força
+
+Fortalecer gémeos, solear, músculos do pé e anca aumenta a capacidade de suportar carga. Elevações de calcanhares (com joelho esticado e fletido), trabalho de pé e tornozelo e exercícios de anca são boas bases. A evidência específica para a canelite é limitada, mas programas de exercício reduzem o risco de lesões desportivas em geral (Lauersen et al., 2014).
+
+### 4. Gelo e anti-inflamatórios
+
+Podem aliviar os sintomas, mas não tratam a causa. Não os uses para conseguires continuar a correr com dor.
+
+### 5. Quando procurar ajuda
+
+Se a dor não melhora após 2–3 semanas de redução de carga, se é localizada num ponto, se surge em repouso ou se é recorrente, procura um médico ou fisioterapeuta. Lesões ósseas recorrentes justificam também avaliar alimentação, disponibilidade energética e, nas mulheres, a regularidade menstrual.
+
+## Prevenção
+
+- **Progride devagar** no volume e na intensidade, sobretudo nos primeiros meses de corrida — vê [progressão de volume e a regra dos 10 %](/blog/progressao-volume-regra-10-porcento).
+- **Introduz mudanças uma de cada vez**: piso, sapatilhas, tipo de treino.
+- **Come o suficiente** para a carga de treino.
+- **Faz treino de força** regular para a perna e o pé.
+- **Respeita os primeiros sinais**: ajustar o treino logo ao início encurta muito a recuperação.
+
+Sobre alongamentos: não há evidência de que alongar antes ou depois da corrida previna a canelite.
+
+## Erros comuns
+
+- **Continuar a treinar igual** e esperar que a dor passe.
+- **Mascarar a dor** com anti-inflamatórios para correr.
+- **Voltar ao volume anterior de uma só vez** quando a dor desaparece.
+- **Ignorar uma dor num ponto preciso**, que pode ser uma fratura de stress.
+
+## Conclusão
+
+A dor nas canelas ao correr é, na maioria dos casos, uma síndrome de stress tibial medial: uma resposta do osso a mais carga do que consegue suportar. O tratamento passa por reduzir a carga, manter a forma sem impacto, fortalecer e voltar de forma gradual. Dor localizada, noturna ou que piora a correr exige avaliação médica. Para mais detalhe sobre o mecanismo, lê [canelite: o que se passa no osso](/blog/canelite-shin-splints-corredores).
+
+## Referências Científicas
+
+Hamstra-Wright, K. L., Bliven, K. C. H., & Bay, C. (2015). Risk factors for medial tibial stress syndrome in physically active individuals such as runners and military personnel: a systematic review and meta-analysis. *British Journal of Sports Medicine*, 49(6), 362–369. https://doi.org/10.1136/bjsports-2014-093462
+
+Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538
+
+Lopes, A. D., Hespanhol Júnior, L. C., Yeung, S. S., & Costa, L. O. P. (2012). What are the main running-related musculoskeletal injuries? A systematic review. *Sports Medicine*, 42(10), 891–905. https://doi.org/10.1007/BF03262301
+
+Moen, M. H., Tol, J. L., Weir, A., Steunebrink, M., & De Winter, T. C. (2009). Medial tibial stress syndrome: a critical review. *Sports Medicine*, 39(7), 523–546. https://doi.org/10.2165/00007256-200939070-00002
+
+Mountjoy, M., Ackerman, K. E., Bailey, D. M., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1098. https://doi.org/10.1136/bjsports-2023-106994
+
+Nielsen, R. O., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Excessive progression in weekly running distance and risk of running-related injuries: an association which varies according to type of injury. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 739–747.
+
+Warden, S. J., Davis, I. S., & Fredericson, M. (2014). Management and prevention of bone stress injuries in long-distance runners. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 749–765. https://doi.org/10.2519/jospt.2014.5334
+
+Winters, M., Eskes, M., Weir, A., Moen, M. H., Backx, F. J. G., & Bakker, E. W. P. (2013). Treatment of medial tibial stress syndrome: a systematic review. *Sports Medicine*, 43(12), 1315–1333.
+
+Winters, M., Bakker, E. W. P., Moen, M. H., Barten, C. C., Teeuwen, R., & Weir, A. (2018). Medial tibial stress syndrome can be diagnosed reliably using history and physical examination. *British Journal of Sports Medicine*, 52(19), 1267–1272.
