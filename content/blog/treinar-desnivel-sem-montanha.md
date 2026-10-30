@@ -1,6 +1,6 @@
 ---
 title: "Treinar Desnível Positivo Sem Montanha: Guia para Quem Vive na Cidade"
-date: 'PENDENTE'
+date: '2026-10-30'
 category: "Trail Running"
 excerpt: "Treinar desnível sem montanha é possível com subidas curtas, escadas, passadeira inclinada e força excêntrica. Vê como somar metros e preparar as descidas."
 seoTitle: "Treinar Desnível Sem Montanha: Guia Prático"

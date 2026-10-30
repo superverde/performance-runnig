@@ -1,6 +1,6 @@
 ---
 title: "Correr em Terreno Técnico Sem Cair"
-date: 'PENDENTE'
+date: '2026-10-30'
 category: "Trail Running"
 excerpt: "Correr em terreno técnico sem cair depende de onde olhas, de passos curtos e rápidos, de tornozelos fortes e de gerir a fadiga. Vê como treinar cada parte."
 seoTitle: "Correr em Terreno Técnico Sem Cair: Guia Prático"

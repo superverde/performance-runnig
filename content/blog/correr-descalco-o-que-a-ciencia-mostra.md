@@ -1,6 +1,6 @@
 ---
 title: "Correr Descalço: O Que a Ciência Mostra"
-date: 'PENDENTE'
+date: '2026-10-30'
 category: "Biomecânica"
 excerpt: "Correr descalço muda a forma como o pé toca no chão, mas não está provado que previna lesões. Vê o que dizem os estudos e como experimentar com segurança."
 seoTitle: "Correr Descalço: O Que a Ciência Realmente Mostra"
