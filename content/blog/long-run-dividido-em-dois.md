@@ -1,6 +1,6 @@
 ---
 title: "Long Run Dividido em Dois: Faz Sentido?"
-date: 'PENDENTE'
+date: '2026-10-31'
 category: "Treino"
 excerpt: "O long run dividido em duas corridas mantém o volume com menos carga por sessão, mas perde estímulos que só a corrida longa contínua dá. Vê quando compensa."
 seoTitle: "Long Run Dividido em Dois: Faz Sentido?"

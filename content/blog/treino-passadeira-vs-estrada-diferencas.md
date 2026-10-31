@@ -1,6 +1,6 @@
 ---
 title: "Treino em Passadeira vs. Estrada: As Diferenças Que Importam"
-date: 'PENDENTE'
+date: '2026-10-31'
 category: "Treino"
 excerpt: "Passadeira vs estrada: o que muda na fisiologia, na biomecânica e na perceção do esforço, e como usar a passadeira sem perder a especificidade da rua."
 seoTitle: "Passadeira vs Estrada: As Diferenças Que Importam"

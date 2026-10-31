@@ -1,6 +1,6 @@
 ---
 title: "Off-Season do Corredor: O Que Fazer na Época de Transição"
-date: 'PENDENTE'
+date: '2026-10-31'
 category: "Treino"
 excerpt: "A off-season do corredor serve para recuperar corpo e cabeça sem perder tudo o que construíste. Vê quanto tempo parar, o que manter e como recomeçar."
 seoTitle: "Off-Season do Corredor: O Que Fazer na Transição"
