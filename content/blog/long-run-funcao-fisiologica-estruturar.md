@@ -6,7 +6,14 @@ excerpt: "O long run é a base do treino de maratona. Vê a fisiologia do treino
 seoTitle: "Long Run: A Fisiologia do Treino Longo e Como o Fazer"
 keyword: "long run fisiologia"
 keywords: ["corrida longa benefícios", "treino longo maratona", "estruturar o long run"]
-readTime: 8
+readTime: 6
+faqs:
+  - q: "Qual é o principal objetivo fisiológico do long run?"
+    a: "Acumular tempo de esforço aeróbio contínuo, o que estimula adaptações como o aumento das mitocôndrias e dos capilares musculares e uma maior capacidade de oxidar gordura, poupando glicogénio a um mesmo ritmo. Também prepara músculos, tendões e cabeça para a duração da prova."
+  - q: "É melhor programar o long run por tempo ou por distância?"
+    a: "Para corredores de níveis diferentes, programar por tempo é muitas vezes mais justo, porque o esforço depende da duração. Na preparação específica para maratona, a distância e os blocos a ritmo de prova ganham mais peso."
+  - q: "Posso fazer o long run sem comer para queimar mais gordura?"
+    a: "Fazê-lo de vez em quando, em ritmo fácil e com orientação, é uma estratégia usada por alguns atletas, mas a evidência sobre benefícios no rendimento é limitada. Para a maioria dos corredores, ingerir 30 a 60 g de hidratos por hora em treinos longos é a opção mais segura e treina a nutrição de prova."
 ---
 
 ## Introdução
@@ -23,17 +30,17 @@ O long run típico dura entre 90 minutos e 3 horas, dependendo do nível do atle
 
 **Depleção progressiva de glicogénio muscular**
 
-A partir dos 60-90 minutos de corrida a intensidade moderada, as reservas de glicogénio muscular começam a diminuir significativamente. O organismo responde aumentando a mobilização e oxidação de ácidos gordos. Holloszy e Coyle (1984) demonstraram que o treino prolongado induz adaptações enzimáticas que aumentam a capacidade das mitocôndrias para oxidar gorduras — processo que reduz a taxa de utilização de glicogénio às mesmas intensidades absolutas.
+A partir dos 60-90 minutos de corrida a intensidade moderada, as reservas de glicogénio muscular começam a diminuir significativamente. O organismo responde aumentando a mobilização e oxidação de ácidos gordos. Holloszy e Coyle (1984) mostraram que o treino de resistência aumenta o conteúdo mitocondrial e a capacidade respiratória das fibras musculares, o que leva o músculo treinado a usar mais gordura e a gastar glicogénio e glicose mais devagar à mesma intensidade absoluta.
 
 Esta adaptação é central para o desempenho em maratona: um atleta mais eficiente na oxidação de gorduras preserva o glicogénio para as fases finais da corrida, evitando ou retardando o temido "muro" dos 30 km.
 
 **Aumento da densidade capilar e mitocondrial**
 
-O estímulo de volume elevado associado ao long run promove a formação de novos capilares em torno das fibras musculares (angiogénese) e o aumento da densidade de mitocôndrias. Ambas as adaptações melhoram a entrega de oxigénio e a capacidade de produzi-lo metabolicamente, resultando num aumento do patamar aeróbio sustentável.
+O estímulo de volume elevado associado ao long run promove a formação de novos capilares em torno das fibras musculares (angiogénese) e o aumento da densidade de mitocôndrias. Ambas as adaptações melhoram a entrega e a utilização de oxigénio pelo músculo, permitindo sustentar ritmos mais rápidos de forma aeróbia.
 
 **Fortalecimento progressivo de tecidos conjuntivos**
 
-Tendões, ligamentos e fáscias adaptam-se a cargas repetidas de forma muito mais lenta do que o músculo. O long run regular é essencial para que estas estruturas se fortaleçam de forma proporcional ao aumento do volume de treino, reduzindo o risco de lesões por uso excessivo. Hawley (2002) documentou que as adaptações nos tecidos conjuntivos requerem semanas a meses de estimulação consistente.
+Tendões, ligamentos e fáscias adaptam-se a cargas repetidas de forma muito mais lenta do que o músculo. Por isso, o aumento do long run deve ser gradual: dá tempo a estas estruturas para se adaptarem à duração crescente do esforço, em vez de as expor de repente a uma carga muito superior à habitual.
 
 **Adaptação psicológica e neurológica**
 
@@ -43,13 +50,13 @@ Correr durante 2 a 3 horas de forma controlada treina o sistema nervoso central 
 
 ## Como Estruturar o Long Run
 
-A variável mais importante no long run é a intensidade. A maioria dos investigadores e treinadores de elite concordam que a maior parte do treino longo deve ser executada a baixa intensidade — entre 65 e 75% da FCmax, o que corresponde a um ritmo no qual é possível manter uma conversa confortável.
+A variável mais importante no long run é a intensidade. A maioria dos treinadores concorda que a maior parte do treino longo deve ser executada a baixa intensidade — entre 65 e 75% da FCmax, o que corresponde a um ritmo no qual é possível manter uma conversa confortável.
 
-Achten e Jeukendrup (2003) demonstraram que a taxa máxima de oxidação de gorduras ocorre tipicamente a intensidades entre 62 e 73% do VO2max. Correr acima deste intervalo no long run significa que o organismo recorre progressivamente a glicogénio, anulando parcialmente o estímulo para desenvolver a eficiência metabólica a baixa intensidade.
+Em 55 homens treinados em resistência, Achten e Jeukendrup (2003) observaram que a taxa máxima de oxidação de gorduras ocorreu, em média, a cerca de 63% do VO2max, com grande variação individual; acima disso, a contribuição da gordura diminui e a do glicogénio aumenta. Correr o long run claramente acima do ritmo fácil gasta mais glicogénio e aumenta o custo de recuperação, sem que isso seja necessário para o objetivo principal deste treino.
 
 **Estruturas práticas para o long run**
 
-Existem várias abordagens comprovadas, consoante o objetivo e a fase da periodização:
+Existem várias abordagens usadas por treinadores, consoante o objetivo e a fase da periodização:
 
 *Long run uniforme*: Ritmo constante ao longo de toda a distância. Ideal para atletas em fase de base ou em semanas de carga moderada. Simples e eficaz para acumular volume.
 
@@ -59,7 +66,7 @@ Existem várias abordagens comprovadas, consoante o objetivo e a fase da periodi
 
 **Duração vs. distância**
 
-Para corredores com VO2max variável, é mais conveniente programar o long run em tempo do que em distância. Um corredor que faz a maratona em 3h30 e outro em 4h00 terão long runs com durações semelhantes (2h00-2h30), mas distâncias muito diferentes. O estímulo fisiológico está mais correlacionado com o tempo de esforço do que com os quilómetros percorridos.
+Para corredores de níveis diferentes, é muitas vezes mais conveniente programar o long run em tempo do que em distância. Um corredor que faz a maratona em 3h30 e outro em 4h00 terão long runs com durações semelhantes (2h00-2h30), mas distâncias muito diferentes. A carga para o organismo depende muito do tempo de esforço, e não apenas dos quilómetros percorridos.
 
 ---
 
@@ -71,15 +78,15 @@ O erro mais generalizado. Um long run executado a ritmo excessivo deixa o corred
 
 **Volume semanal excessivo concentrado no long run**
 
-O long run não deve representar mais de 30-35% do volume semanal total. Um corredor que corre 50 km por semana e faz um long run de 25 km está a criar um desequilíbrio que aumenta o risco de lesão sem incrementar proporcionalmente as adaptações.
+Como regra prática de treino (não um limite saído de estudos), o long run não deve representar mais de cerca de 30-35% do volume semanal total. Um corredor que corre 50 km por semana e faz um long run de 25 km está a criar um desequilíbrio que aumenta o risco de lesão sem incrementar proporcionalmente as adaptações.
 
 **Ignorar a nutrição durante o treino**
 
-Long runs superiores a 75-90 minutos requerem reposição de hidratos de carbono durante o esforço — tipicamente 30-60 g por hora. Treinar regularmente sem ingestão de hidratos de carbono pode ter valor para desenvolver a flexibilidade metabólica em atletas avançados (ver treino em jejum), mas não deve ser a norma para a maioria dos corredores.
+Em long runs superiores a 75-90 minutos, a ingestão de hidratos de carbono durante o esforço — tipicamente 30-60 g por hora em esforços de 1 a 2,5 horas — ajuda a manter o ritmo e treina a nutrição de prova (Thomas et al., 2016). Treinar ocasionalmente sem hidratos de carbono é uma estratégia usada por alguns atletas avançados, mas a evidência de benefício no rendimento é limitada e não deve ser a norma para a maioria dos corredores. Vê também o nosso artigo sobre [depleção de glicogénio e o «muro»](/blog/deplecao-glicogenio-maratona-wall).
 
 **Frequência excessiva**
 
-Um long run semanal é o padrão recomendado para a maioria dos atletas. Dois long runs por semana são usados apenas por atletas de elite em fases de carga especial, com supervisão de treinador experiente.
+Um long run semanal é o padrão recomendado para a maioria dos atletas. Um segundo treino longo na semana é normalmente reservado a corredores de volume elevado, e mesmo assim mais curto do que o principal.
 
 ---
 
@@ -95,12 +102,11 @@ Um long run semanal é o padrão recomendado para a maioria dos atletas. Dois lo
 
 ## Referências Científicas
 
-Holloszy, J. O., & Coyle, E. F. (1984). Adaptations of skeletal muscle to endurance exercise and their metabolic consequences. *Journal of Applied Physiology*, 56(4), 831–838. https://doi.org/10.1152/jappl.1984.56.4.831
+Holloszy, J. O., & Coyle, E. F. (1984). Adaptations of skeletal muscle to endurance exercise and their metabolic consequences. *Journal of Applied Physiology*.
 
 Achten, J., & Jeukendrup, A. E. (2003). Maximal fat oxidation during exercise in trained men. *International Journal of Sports Medicine*, 24(8), 603–608. https://doi.org/10.1055/s-2003-43265
 
-Hawley, J. A. (2002). Adaptations of skeletal muscle to prolonged, intense endurance training. *Clinical and Experimental Pharmacology and Physiology*, 29(3), 218–222. https://doi.org/10.1046/j.1440-1681.2002.03648.x
+Jeukendrup, A. E. (2011). Nutrition for endurance sports: marathon, triathlon, and road cycling. *Journal of Sports Sciences*, 29(S1), S91–S99.
 
-Jeukendrup, A. E. (2011). Nutrition for endurance sports: Marathon, triathlon, and road cycling. *Journal of Sports Sciences*, 29(Suppl 1), S91–S99. https://doi.org/10.1080/02640414.2011.610348
+Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: Nutrition and athletic performance. *Journal of the Academy of Nutrition and Dietetics*, 116(3), 501–528. https://doi.org/10.1016/j.jand.2015.12.006
 
-Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance: Can valid recommendations be given to runners and coaches based on current scientific knowledge? *Sports Medicine*, 37(10), 857–880. https://doi.org/10.2165/00007256-200737100-00003
