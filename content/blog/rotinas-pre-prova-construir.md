@@ -1,6 +1,6 @@
 ---
 title: "Rotinas Pré-Prova: Como Construir a Tua"
-date: 'PENDENTE'
+date: '2026-11-01'
 category: "Psicologia"
 excerpt: "Uma rotina pré-prova reduz decisões, controla a ansiedade e prepara o corpo para a partida. Vê o que diz a ciência e como construir a tua."
 seoTitle: "Rotina Pré-Prova: Como Construir a Tua"

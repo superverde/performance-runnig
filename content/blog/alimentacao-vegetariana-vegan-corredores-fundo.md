@@ -1,6 +1,6 @@
 ---
 title: "Corredores Vegetarianos e Veganos: Como Cobrir as Necessidades Nutricionais"
-date: 'PENDENTE'
+date: '2026-11-01'
 category: "Nutrição"
 excerpt: "Corredores vegetarianos e veganos podem render ao mais alto nível se planearem energia, proteína, ferro, B12, cálcio, vitamina D, iodo e ómega-3."
 seoTitle: "Corredores Vegetarianos e Veganos: Necessidades"

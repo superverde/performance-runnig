@@ -1,6 +1,6 @@
 ---
 title: "Proteína Antes de Dormir: Vale a Pena para Corredores?"
-date: 'PENDENTE'
+date: '2026-11-01'
 category: "Nutrição"
 excerpt: "A proteína antes de dormir aumenta a síntese proteica muscular durante a noite, mas o total diário pesa mais. Vê o que a ciência mostra e quando faz sentido."
 seoTitle: "Proteína Antes de Dormir: Vale a Pena?"
