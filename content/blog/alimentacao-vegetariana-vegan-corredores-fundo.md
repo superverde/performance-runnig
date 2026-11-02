@@ -6,12 +6,12 @@ excerpt: "Corredores vegetarianos e veganos podem render ao mais alto nível se 
 seoTitle: "Corredores Vegetarianos e Veganos: Necessidades"
 keyword: "corredores vegetarianos"
 keywords: ["corredor vegano", "dieta vegetariana corrida", "proteína vegetal atletas"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "Uma dieta vegetariana prejudica o rendimento na corrida?"
     a: "Os estudos disponíveis não mostram diferenças de desempenho entre dietas vegetarianas bem planeadas e dietas omnívoras. O risco está nas carências por falta de planeamento, não na dieta em si."
   - q: "Quanta proteína precisa um corredor vegano?"
-    a: "A recomendação geral para atletas é de 1,2 a 2,0 g/kg/dia. Num vegano, faz sentido apontar para a metade de cima deste intervalo e combinar fontes, porque as proteínas vegetais têm, em média, menos aminoácidos essenciais e menos leucina."
+    a: "A recomendação geral para atletas é de 1,2 a 2,0 g/kg/dia. Num vegano, faz sentido apontar para a parte de cima deste intervalo (cerca de 1,7 a 2,0 g/kg/dia) e combinar fontes, porque as proteínas vegetais têm, em média, menos aminoácidos essenciais."
   - q: "Um corredor vegano tem de tomar suplementos?"
     a: "A vitamina B12 é indispensável, porque não existe de forma fiável em alimentos vegetais não fortificados. Outros, como vitamina D, iodo, ómega-3 de algas ou ferro, dependem da alimentação e das análises, e devem ser decididos com um médico ou nutricionista."
 ---
@@ -26,7 +26,7 @@ O posicionamento conjunto da Academy of Nutrition and Dietetics, Dietitians of C
 
 ## 1. Energia: o primeiro ponto a falhar
 
-As dietas à base de plantas são ricas em fibra e pouco densas em energia. Isso sacia — e, para quem treina 6 a 10 horas por semana, pode significar comer menos do que se gasta sem dar por isso. Rogerson (2017) aponta este como um dos principais desafios dos atletas veganos.
+As dietas à base de plantas são ricas em fibra e pouco densas em energia. Isso sacia — e, para quem treina 6 a 10 horas por semana, pode significar comer menos do que se gasta sem dar por isso. Rogerson (2017) nota que atingir o balanço energético pode ser mais difícil para atletas veganos, sobretudo os de maior dimensão corporal.
 
 Comer pouco de forma crónica leva à baixa disponibilidade energética, com impacto na saúde óssea, hormonal e no rendimento. Se perdes peso sem querer, se andas sempre cansado ou, no caso das mulheres, se o ciclo menstrual se altera, lê o artigo sobre [RED-S em corredores](/blog/red-s-disponibilidade-energetica-corredores) e fala com um médico.
 
@@ -38,11 +38,11 @@ Comer pouco de forma crónica leva à baixa disponibilidade energética, com imp
 
 ## 2. Proteína: quantidade, qualidade e distribuição
 
-As recomendações gerais para atletas situam-se entre 1,2 e 2,0 g/kg/dia (Thomas et al., 2016). Para atletas veganos, Rogerson (2017) sugere apontar para a parte de cima do intervalo da ISSN (1,4–2,0 g/kg/dia).
+As recomendações gerais para atletas situam-se entre 1,2 e 2,0 g/kg/dia (Thomas et al., 2016). Para atletas veganos, Rogerson (2017) sugere subir para 1,7–2,0 g/kg/dia — a parte de cima do intervalo da ISSN (1,4–2,0 g/kg/dia).
 
-Porquê mais? Gorissen et al. (2018) analisaram isolados proteicos vegetais comerciais e verificaram que a maioria tem menos aminoácidos essenciais e menos leucina do que as proteínas animais, e que alguns são pobres em aminoácidos específicos — os cereais tendem a ter pouca lisina e as leguminosas pouca metionina. Os autores sublinham que **combinar fontes** compensa estes perfis.
+Porquê mais? Gorissen et al. (2018) analisaram isolados proteicos vegetais comerciais e verificaram que, em geral, têm menos aminoácidos essenciais do que as proteínas animais e, em média, menos lisina e metionina; o teor de leucina varia muito de fonte para fonte. De forma geral, os cereais são mais pobres em lisina e as leguminosas em metionina. Os autores sublinham que **combinar fontes** aproxima o perfil de aminoácidos do das proteínas animais.
 
-**Na prática, para um corredor de 65 kg** (1,6–1,8 g/kg ≈ 105–115 g/dia):
+**Na prática, para um corredor vegano de 65 kg** (1,7–2,0 g/kg ≈ 110–130 g/dia):
 
 - Distribui a proteína por 4–5 refeições — vê o artigo sobre [distribuição da proteína ao longo do dia](/blog/distribuicao-proteina-ao-longo-do-dia).
 - Inclui leguminosas (feijão, grão, lentilhas, ervilhas), soja (tofu, tempeh, bebida de soja), seitan, cereais integrais, frutos secos e sementes.
@@ -52,7 +52,7 @@ Porquê mais? Gorissen et al. (2018) analisaram isolados proteicos vegetais come
 
 ## 3. Ferro: o ponto crítico para quem corre
 
-O ferro é essencial para a hemoglobina e para o transporte de oxigénio, e os corredores — sobretudo as mulheres — já têm risco aumentado de défice (Sim et al., 2019). Nas dietas vegetarianas, o ferro é todo não-heme, que se absorve pior do que o ferro da carne e do peixe. Rogerson (2017) refere que o Institute of Medicine norte-americano estima que as necessidades dos vegetarianos são 1,8 vezes superiores às dos omnívoros, embora esse valor tenha sido contestado.
+O ferro é essencial para a hemoglobina e para o transporte de oxigénio, e os corredores — sobretudo as mulheres — já têm risco aumentado de défice (Sim et al., 2019). Nas dietas vegetarianas, o ferro é exclusivamente não-heme, que se absorve pior do que o ferro da carne e do peixe. Por isso, as referências do Institute of Medicine norte-americano consideram que os vegetarianos precisam de cerca de 1,8 vezes mais ferro do que os omnívoros, e Rogerson (2017) traduz isso em cerca de 14 mg/dia para homens e 33 mg/dia para mulheres vegetarianas — valores de referência para a alimentação, não doses de suplemento.
 
 **Na prática:**
 
@@ -78,7 +78,7 @@ Os ossos de um corredor estão sob carga constante, e as fraturas de stress são
 
 - **Iodo:** usa sal iodado (com moderação). As algas são uma fonte muito irregular e podem dar excesso.
 - **Zinco:** leguminosas, cereais integrais, sementes e frutos secos. Demolhar, germinar e fermentar (pão de massa-mãe, tempeh) reduz os fitatos e melhora a absorção.
-- **Ómega-3:** linhaça, chia e nozes dão ALA, mas o corpo converte muito pouco ALA em EPA e DHA (Rogerson, 2017). O óleo de microalgas é a fonte vegetal direta de DHA e EPA.
+- **Ómega-3:** linhaça, chia e nozes dão ALA, mas o corpo converte pouco ALA em EPA e DHA, os ómega-3 de cadeia longa que faltam nas dietas veganas. O óleo de microalgas é a fonte vegetal direta de DHA e EPA, e é a opção que Rogerson (2017) aponta quando é preciso suplementar.
 
 ## 7. Creatina: um caso especial
 

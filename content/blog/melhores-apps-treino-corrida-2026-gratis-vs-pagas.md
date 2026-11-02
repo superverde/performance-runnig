@@ -14,7 +14,7 @@ Os treinos de corrida tornaram-se uma parte importante da vida de muitos atletas
 
 ## Como Escolher: Critérios Que Importam
 
-Ao escolher uma aplicação de treino de corrida, é fundamental considerar vários critérios técnicos baseados em evidências científicas. O primeiro critério é a precisão dos dados de treino, incluindo a distância percorrida, a velocidade média e o consumo de oxigênio (VO2). Para isso, é essencial que a aplicação utilize sensores de movimento avançados, como GPS e acelerômetros, para capturar informações precisas sobre o teu desempenho.
+Ao escolher uma aplicação de treino de corrida, é fundamental considerar vários critérios técnicos baseados em evidências científicas. O primeiro critério é a precisão dos dados de treino, incluindo a distância percorrida, a velocidade média e o consumo de oxigénio (VO2). Para isso, é essencial que a aplicação utilize sensores de movimento avançados, como GPS e acelerômetros, para capturar informações precisas sobre o teu desempenho.
 
 Outro critério importante é a interface do utilizador (UI), que deve ser intuitiva e fácil de usar, mesmo para iniciantes. A UI deve permitir que tu configures os teus objetivos de treino, visualizes os teus progressos e gerencie os teus dados de treino de forma eficiente.
 

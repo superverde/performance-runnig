@@ -6,7 +6,7 @@ excerpt: "O long run dividido em duas corridas mantém o volume com menos carga 
 seoTitle: "Long Run Dividido em Dois: Faz Sentido?"
 keyword: "long run dividido"
 keywords: ["corrida longa em duas partes", "treino bi-diário", "long run"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Dividir o long run em dois treinos dá o mesmo resultado?"
     a: "Não exatamente. Mantém o volume semanal e grande parte do estímulo aeróbio, mas perde a fadiga acumulada do fim de uma corrida contínua, que é o que treina a resistência à fadiga, a gestão de energia e a cabeça para a fase final de uma maratona."
@@ -24,7 +24,7 @@ Antes de decidir se a divides, vale a pena perceber o que estás a treinar quand
 
 ### Adaptações aeróbias
 
-Volume prolongado a intensidade baixa estimula adaptações mitocondriais, capilarização e maior capacidade de usar gordura como combustível. Estas adaptações dependem sobretudo do **volume total** e do tempo a intensidade baixa — e grande parte delas é mantida mesmo que esse volume seja feito em duas sessões.
+Volume prolongado a intensidade baixa estimula adaptações mitocondriais, capilarização e maior capacidade de usar gordura como combustível. Estas adaptações dependem muito do **volume total** e do tempo a intensidade baixa, por isso é razoável esperar que grande parte delas se mantenha quando esse volume é feito em duas sessões — embora não haja estudos que comparem diretamente um long run dividido com um contínuo.
 
 ### Resistência à fadiga (durabilidade)
 
@@ -50,7 +50,7 @@ Se o objetivo da fase for somar volume aeróbio (base, regresso, preparação ge
 
 ### Um efeito metabólico na segunda sessão
 
-Se a segunda corrida começar com as reservas de glicogénio ainda parcialmente repostas, vais treinar com menos glicogénio — o princípio do *train low*. Em músculo de pessoas não treinadas, treinar duas vezes em dias alternados (a segunda sessão com glicogénio baixo) aumentou mais alguns marcadores de adaptação oxidativa e o tempo até à exaustão do que treinar uma vez por dia com o mesmo volume total (Hansen et al., 2005). Em ciclistas e triatletas treinados, Yeo et al. (2008) encontraram mais adaptações em marcadores musculares com o esquema de duas sessões em dias alternados, mas sem diferença clara no desempenho. Ou seja: o efeito existe nos marcadores, mas não está demonstrado que se traduza em provas mais rápidas, e estes estudos não testaram especificamente um long run dividido.
+Se a segunda corrida começar com as reservas de glicogénio ainda parcialmente repostas, vais treinar com menos glicogénio — o princípio do *train low*. Num estudo com sete homens não treinados, em que cada perna fez um esquema diferente de extensões do joelho durante 10 semanas, treinar duas vezes em dias alternados (a segunda sessão com glicogénio baixo) aumentou mais alguns marcadores de adaptação oxidativa e o tempo até à exaustão do que treinar uma vez por dia com o mesmo volume total (Hansen et al., 2005). Em ciclistas e triatletas treinados, Yeo et al. (2008) encontraram mais adaptações em marcadores musculares com o esquema de duas sessões em dias alternados, mas sem diferença no desempenho num contrarrelógio de 1 hora — e com pior capacidade de cumprir o treino intervalado feito com glicogénio baixo. Ou seja: o efeito existe nos marcadores, mas não está demonstrado que se traduza em provas mais rápidas, e estes estudos não testaram especificamente um long run dividido.
 
 ## Quando faz sentido dividir
 

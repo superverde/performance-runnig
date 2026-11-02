@@ -62,7 +62,7 @@ Na corrida falam-se de duas grandes estratégias de atenção:
 
 **Dissociação** — focar-te no exterior: paisagem, música, conversa, memórias. Tende a tornar o esforço menos penoso em atividades prolongadas de intensidade moderada.
 
-A revisão de Brick et al. (2014) propõe uma visão mais fina: o foco de atenção vai mudando ao longo do esforço, e o que importa é escolher o foco útil para cada momento — monitorizar o ritmo e o corpo quando é preciso decidir, distrair-te quando o esforço é monótono e controlado. Mais detalhes em [gerir a dor: associar ou dissociar](/blog/gestao-dor-corrida-dissociar-associar).
+A revisão de Brick et al. (2014) propõe uma visão mais fina: o foco de atenção muda ao longo do esforço, e o que importa é escolher o foco útil para cada momento — monitorizar o ritmo e o corpo quando é preciso decidir, distrair-te quando o esforço é monótono e controlado. Mais detalhes em [gerir a dor: associar ou dissociar](/blog/gestao-dor-corrida-dissociar-associar).
 
 ## Diferença entre «dói» e «estou a lesionar-me»
 

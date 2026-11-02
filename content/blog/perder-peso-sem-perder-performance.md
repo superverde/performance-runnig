@@ -9,7 +9,7 @@ keywords: ["emagrecer sem perder performance", "défice calórico corredor", "pe
 readTime: 6
 faqs:
   - q: "A que ritmo devo perder peso para não perder performance?"
-    a: "Um ritmo lento, de cerca de 0,5 a 1% do peso corporal por semana, é o mais seguro. Num estudo com atletas, perder 0,7% por semana preservou melhor a massa magra e a força do que perder 1,4%."
+    a: "Um ritmo lento, de cerca de 0,5 a 1% do peso corporal por semana, é o mais seguro. Num estudo com atletas de elite, quem perdeu cerca de 0,7% por semana ganhou massa magra, o que não aconteceu no grupo que tentou perder 1,4% por semana."
   - q: "Posso cortar os hidratos de carbono para emagrecer mais depressa?"
     a: "Não é boa ideia para um corredor. Os hidratos são o principal combustível dos treinos intensos; corta-os nos dias fáceis ou de descanso, mas mantém-nos antes e depois das sessões de qualidade."
   - q: "Quando devo procurar ajuda profissional?"
@@ -26,7 +26,7 @@ O risco tem nome: **défice energético relativo no desporto (REDs)**. Quando a 
 
 ## Regra 1 — perde devagar
 
-O estudo mais citado sobre a velocidade de perda em atletas comparou dois ritmos: 0,7% e 1,4% do peso corporal por semana, com quatro sessões de força semanais. Ambos os grupos perderam cerca de 5,5% do peso, mas só o grupo lento aumentou a massa magra e a força (Garthe et al., 2011).
+O estudo mais citado sobre a velocidade de perda em atletas de elite comparou dois ritmos-alvo: 0,7% e 1,4% do peso corporal por semana, com quatro sessões de força semanais (na prática, o grupo rápido perdeu cerca de 1% por semana). Ambos os grupos perderam cerca de 5,5% do peso, mas só o grupo lento aumentou a massa magra (cerca de 2%), e os autores concluíram que a perda lenta é a mais indicada para quem quer manter ou ganhar músculo e força enquanto emagrece (Garthe et al., 2011).
 
 Na prática, para um corredor de 70 kg, isto significa perder 0,35 a 0,7 kg por semana. É lento, mas é a forma de chegar ao fim com mais músculo, e não menos.
 
@@ -96,8 +96,8 @@ Nenhum tempo numa prova vale a tua saúde.
 
 ## Referências Científicas
 
-1. Garthe, I., Raastad, T., Refsnes, P. E., Koivisto, A., & Sundgot-Borgen, J. (2011). Effect of two different weight-loss rates on body composition and strength and power-related performance in elite athletes. *International Journal of Sport Nutrition and Exercise Metabolism*, 21(2), 97–104. https://doi.org/10.1123/ijsnem.21.2.97
+1. Garthe, I., Raastad, T., Refsnes, P. E., Koivisto, A., & Sundgot-Borgen, J. (2011). Effect of two different weight-loss rates on body composition and strength and power-related performance in elite athletes. *International Journal of Sport Nutrition and Exercise Metabolism*, 21(2), 97–104.
 2. Helms, E. R., Zinn, C., Rowlands, D. S., & Brown, S. R. (2014). A systematic review of dietary protein during caloric restriction in resistance trained lean athletes: A case for higher intakes. *International Journal of Sport Nutrition and Exercise Metabolism*, 24(2), 127–138. https://doi.org/10.1123/ijsnem.2013-0054
 3. Mettler, S., Mitchell, N., & Tipton, K. D. (2010). Increased protein intake reduces lean body mass loss during weight loss in athletes. *Medicine & Science in Sports & Exercise*, 42(2), 326–337. https://doi.org/10.1249/MSS.0b013e3181b2ef8e
-4. Mountjoy, M., Ackerman, K. E., Bailey, D. M., Burke, L. M., Constantini, N., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1098. https://doi.org/10.1136/bjsports-2023-106994
-5. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement: Nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852
+4. Mountjoy, M., Ackerman, K. E., Bailey, D. M., Burke, L. M., Constantini, N., et al. (2023). 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *British Journal of Sports Medicine*, 57(17), 1073–1097. https://doi.org/10.1136/bjsports-2023-106994
+5. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement: Nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568.

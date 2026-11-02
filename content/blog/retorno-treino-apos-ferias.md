@@ -43,7 +43,7 @@ Para evitar a perda de forma, a periodização de treino deve incluir ciclos de 
    - 1 sessão de subida: 10 × 30 s em colina, 90 s de retorno.  
    - 1 sessão longa: 10 km a 70 % FCM, focar na técnica de respiração.  
 
-Cada sessão deve incluir 10 min de aquecimento e 10 min de desaquecimento, com alongamentos dinâmicos. O monitoramento da FCM com smartwatch confiável ajuda a garantir que a carga não ultrapasse 85 % FCM nas primeiras duas semanas.  
+Cada sessão deve incluir 10 min de aquecimento e 10 min de desaquecimento, com alongamentos dinâmicos. O monitorização da FCM com smartwatch confiável ajuda a garantir que a carga não ultrapasse 85 % FCM nas primeiras duas semanas.  
 
 ## Erros Comuns  
 

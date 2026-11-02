@@ -35,7 +35,7 @@ As lentes de sol são classificadas em categorias de 0 (quase transparente) a 4 
 - **Montanha com muito sol, neve ou glaciar:** confirma se a lente chega à categoria 4. Atenção: lentes de categoria 4 não são adequadas para conduzir.
 
 ### 2. Proteção UV e certificação
-A proteção UV é uma propriedade do material e dos tratamentos da lente, não do efeito fotocromático. Confirma a indicação de proteção UV e a marcação CE. Evita óculos sem informação técnica.
+A proteção UV é uma propriedade do material e dos tratamentos da lente, não do efeito fotocromático. Confirma a indicação de proteção UV e a marcação CE. Evita óculos sem informação técnica. Isto pesa mais na montanha: a radiação UV aumenta com a altitude e é refletida pela neve fresca, e a exposição pode causar fotoqueratite (uma «queimadura» da córnea) a curto prazo e contribuir para cataratas a longo prazo. A Organização Mundial da Saúde recomenda óculos envolventes com 99–100% de proteção UVA e UVB.
 
 ### 3. Ajuste e estabilidade
 Os óculos não podem saltar nem escorregar com o suor. Procura plaquetas nasais e pontas das hastes em borracha (de preferência ajustáveis) e experimenta abanar a cabeça e correr uns metros na loja.
@@ -69,3 +69,8 @@ Testa os óculos com o boné, a fita ou o frontal que usas, e com os auriculares
 Para os critérios gerais de óculos de sol desportivos, vê [óculos de sol para corrida e trail](/blog/oculos-sol-corrida-trail-o-que-importa).
 
 👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- ISO — norma ISO 12312-1:2022, *Eye and face protection — Sunglasses and related eyewear — Part 1: Sunglasses for general use* (categorias de filtro 0 a 4): https://www.iso.org/standard/77321.html
+- Organização Mundial da Saúde — ficha informativa sobre radiação ultravioleta (efeitos nos olhos, altitude, neve e recomendação de óculos): https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation

@@ -6,7 +6,7 @@ excerpt: "Uma rotina pré-prova reduz decisões, controla a ansiedade e prepara 
 seoTitle: "Rotina Pré-Prova: Como Construir a Tua"
 keyword: "rotina pré-prova"
 keywords: ["ritual antes da prova", "preparação mental prova", "aquecimento pré-prova"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Uma rotina pré-prova melhora mesmo o rendimento?"
     a: "Uma meta-análise de 2024 encontrou efeitos positivos das rotinas pré-desempenho, tanto em condições normais como sob pressão. A maioria dos estudos foi feita em gestos técnicos como lançamentos ou o putt no golfe, por isso a aplicação à corrida é uma extrapolação razoável, não uma prova direta."
@@ -103,7 +103,7 @@ A melhor rotina pré-prova é a tua: construída com passos que têm uma funçã
 
 1. Rupprecht, A. G. O., Tran, U. S., & Gröpel, P. (2024). The effectiveness of pre-performance routines in sports: a meta-analysis. *International Review of Sport and Exercise Psychology*, 17(1), 39–64. https://doi.org/10.1080/1750984X.2021.1944271
 2. McGowan, C. J., Pyne, D. B., Thompson, K. G., & Rattray, B. (2015). Warm-Up Strategies for Sport and Exercise: Mechanisms and Applications. *Sports Medicine*, 45(11), 1523–1546. https://doi.org/10.1007/s40279-015-0376-x
-3. Brooks, A. W. (2014). Get excited: Reappraising pre-performance anxiety as excitement. *Journal of Experimental Psychology: General*, 143(3), 1144–1158. https://doi.org/10.1037/a0035325
+3. Brooks, A. W. (2014). Get excited: Reappraising pre-performance anxiety as excitement. *Journal of Experimental Psychology: General*, 143(3), 1144–1158.
 4. Hatzigeorgiadis, A., Zourbanos, N., Galanis, E., & Theodorakis, Y. (2011). Self-Talk and Sports Performance: A Meta-Analysis. *Perspectives on Psychological Science*, 6(4), 348–356. https://doi.org/10.1177/1745691611413136
 5. Blanchfield, A. W., Hardy, J., de Morree, H. M., Staiano, W., & Marcora, S. M. (2014). Talking yourself out of exhaustion: the effects of self-talk on endurance performance. *Medicine & Science in Sports & Exercise*, 46(5), 998–1007. https://doi.org/10.1249/MSS.0000000000000184
 6. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement. Nutrition and Athletic Performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852

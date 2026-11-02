@@ -10,7 +10,7 @@ readTime: 4
 
 A medida de VO2max no relógio GPS tem sido uma ferramenta popular para avaliar a capacidade aeróbica dos corredores. No entanto, a fiabilidade desta medida é um tema de debate.
 
-A medida de VO2max no relógio GPS é baseada na análise da frequência cardíaca e da taxa de oxigênio consumida durante o exercício. O relógio GPS calcula o VO2max com base num algoritmo que leva em conta a frequência cardíaca, a taxa de oxigênio consumida e o tempo de exercício. No entanto, a precisão desta medida pode ser influenciada por vários fatores, incluindo a acurácia do relógio GPS, a habilidade do corredor em fornecer dados precisos e a variabilidade individual da resposta ao exercício.
+A medida de VO2max no relógio GPS é baseada na análise da frequência cardíaca e da taxa de oxigénio consumida durante o exercício. O relógio GPS calcula o VO2max com base num algoritmo que leva em conta a frequência cardíaca, a taxa de oxigénio consumida e o tempo de exercício. No entanto, a precisão desta medida pode ser influenciada por vários fatores, incluindo a acurácia do relógio GPS, a habilidade do corredor em fornecer dados precisos e a variabilidade individual da resposta ao exercício.
 
 A base científica da medida de VO2max no relógio GPS está relacionada à teoria da resposta ao exercício. De acordo com a teoria, o VO2max está limitado pela capacidade da musculatura a oxigenar e utilizar os hidratos de carbono e gorduras como fontes de energia. O VO2max é determinado pela capacidade do coração a bombear sangue oxigenado para as células musculares e pela capacidade das células musculares a utilizar os hidratos de carbono e gorduras como fontes de energia.
 

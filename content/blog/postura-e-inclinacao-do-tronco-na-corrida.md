@@ -18,23 +18,23 @@ A inclinação do tronco durante a corrida é influenciada por vários fatores, 
 
 ### Ritmo lento
 
-Ao correr a um ritmo lento, a inclinação do tronco é mais vertical, com um ângulo médio de 13,6° (Kadaba et al., 1990). Isso é devido ao fato de que o corpo está a ser movido para frente e para trás, com o tronco a ser inclinado para cima para manter a estabilidade.
+Ao correr a um ritmo lento, a inclinação do tronco é mais vertical, com um ângulo médio de 13,6° (Kadaba et al., 1990). Isto deve-se ao facto de o corpo estar a ser movido para frente e para trás, com o tronco a ser inclinado para cima para manter a estabilidade.
 
 ### Ritmo moderado
 
-Ao correr a um ritmo moderado, a inclinação do tronco é mais horizontal, com um ângulo médio de 5,6° (Kadaba et al., 1990). Isso é devido ao fato de que o corpo está a ser movido mais rápido e com mais amplitude, o que exige uma maior inclinação do tronco para manter a estabilidade.
+Ao correr a um ritmo moderado, a inclinação do tronco é mais horizontal, com um ângulo médio de 5,6° (Kadaba et al., 1990). Isto deve-se ao facto de o corpo estar a ser movido mais rápido e com mais amplitude, o que exige uma maior inclinação do tronco para manter a estabilidade.
 
 ### Ritmo rápido
 
-Ao correr a um ritmo rápido, a inclinação do tronco é mais inclinada para trás, com um ângulo médio de -2,5° (Kadaba et al., 1990). Isso é devido ao fato de que o corpo está a ser movido muito rapidamente e com grande amplitude, o que exige uma inclinação do tronco para trás para manter a estabilidade.
+Ao correr a um ritmo rápido, a inclinação do tronco é mais inclinada para trás, com um ângulo médio de -2,5° (Kadaba et al., 1990). Isto deve-se ao facto de o corpo estar a ser movido muito rapidamente e com grande amplitude, o que exige uma inclinação do tronco para trás para manter a estabilidade.
 
 ### Terreno plano
 
-Ao correr em terreno plano, a inclinação do tronco é mais vertical, com um ângulo médio de 12,1° (Nigg et al., 1995). Isso é devido ao fato de que o corpo está a ser movido para frente e para trás, com o tronco a ser inclinado para cima para manter a estabilidade.
+Ao correr em terreno plano, a inclinação do tronco é mais vertical, com um ângulo médio de 12,1° (Nigg et al., 1995). Isto deve-se ao facto de o corpo estar a ser movido para frente e para trás, com o tronco a ser inclinado para cima para manter a estabilidade.
 
 ### Terreno inclinado
 
-Ao correr em terreno inclinado, a inclinação do tronco é mais horizontal, com um ângulo médio de 4,5° (Nigg et al., 1995). Isso é devido ao fato de que o corpo está a ser movido mais rápido e com mais amplitude em resposta à inclinação do terreno.
+Ao correr em terreno inclinado, a inclinação do tronco é mais horizontal, com um ângulo médio de 4,5° (Nigg et al., 1995). Isto deve-se ao facto de o corpo estar a ser movido mais rápido e com mais amplitude em resposta à inclinação do terreno.
 
 ## Erros de postura e lesões
 

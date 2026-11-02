@@ -31,7 +31,7 @@ Não existe evidência científica que defina um mínimo de lúmens para correr 
 
 ### 2. Autonomia e a norma ANSI/PLATO FL 1
 
-Os fabricantes medem a autonomia segundo a norma ANSI/PLATO FL 1, que mede o tempo até a luz cair para 10% do valor inicial. Na prática, a luz vai diminuindo ao longo desse tempo. Por isso:
+Os fabricantes medem a autonomia segundo a norma ANSI/PLATO FL 1, que mede o tempo até a luz cair para 10% do valor inicial. Na prática, a intensidade da luz diminui progressivamente ao longo desse tempo. Por isso:
 
 - Compara a autonomia no **modo que vais usar**, não no mínimo.
 - Para ultras, prefere baterias **substituíveis** ou que possam ser carregadas em andamento com uma bateria externa.

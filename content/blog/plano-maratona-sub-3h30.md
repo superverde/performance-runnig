@@ -6,12 +6,12 @@ excerpt: "Para correr a maratona sub 3h30 precisas de manter 4:58/km. Vê se est
 seoTitle: "Maratona Sub 3h30: Plano Realista de 16 Semanas"
 keyword: "maratona sub 3h30"
 keywords: ["plano maratona 3h30", "maratona em 3h30", "plano de treino maratona"]
-readTime: 8
+readTime: 9
 faqs:
   - q: "A que ritmo tenho de correr para fazer a maratona sub 3h30?"
     a: "3h30 nos 42,195 km corresponde a 4:58/km. Aponta para 4:55–4:57/km, porque quase nunca corres as tangentes perfeitas e o GPS costuma medir a mais."
   - q: "Que tempo na meia maratona preciso para tentar 3h30?"
-    a: "A fórmula de Riegel prevê cerca de 1h40:40 na meia para uma maratona de 3h30. Como muitos amadores perdem mais tempo na maratona do que as fórmulas preveem, uma meia em 1h38–1h40 é um filtro mais seguro."
+    a: "A fórmula de Riegel prevê cerca de 1h40:45 na meia para uma maratona de 3h30. Como muitos amadores perdem mais tempo na maratona do que as fórmulas preveem, uma meia em 1h38–1h40 é um filtro mais seguro."
   - q: "Quantos quilómetros por semana são precisos para a maratona sub 3h30?"
     a: "Para a maioria dos amadores, um ciclo entre 45 e 70 km semanais, com 4 a 5 treinos e corridas longas até 30–32 km, chega. Mais volume só ajuda se o teu corpo já o tolerar sem lesões."
 ---
@@ -20,7 +20,7 @@ Para correr a maratona sub 3h30 tens de manter 4:58/km durante 42,195 km — na 
 
 ## Estás pronto para a sub 3h30?
 
-A fórmula de Riegel (1981), a mais usada para comparar distâncias, estima que uma maratona em 3h30 equivale a cerca de **1h40:40 na meia maratona** e **45:40 nos 10 km**. O problema é que a maratona castiga mais do que as outras distâncias: com pouca base aeróbia ou sem uma estratégia de hidratos de carbono, muitos amadores ficam vários minutos aquém da previsão. Usa estas marcas como filtro:
+A fórmula de Riegel (1981), a mais usada para comparar distâncias, estima que uma maratona em 3h30 equivale a cerca de **1h40:45 na meia maratona** e **45:40 nos 10 km**. O problema é que a maratona castiga mais do que as outras distâncias: com pouca base aeróbia ou sem uma estratégia de hidratos de carbono, muitos amadores ficam vários minutos aquém da previsão. Usa estas marcas como filtro:
 
 - **Meia em 1h38–1h40 (ou 10 km em 44–45 min):** objetivo realista.
 - **Meia entre 1h40 e 1h43:** possível, mas só com um ciclo bem cumprido e um dia favorável.
@@ -68,7 +68,7 @@ Antes das sessões de terça faz 10–15 min de trote e 4 progressivos; no fim, 
 | 5 | 2×15 min limiar, rec. 3 min | 12 km com 6 km a RM | 8 km fácil | 24 km fácil | ~57 km |
 | 6 | 6×1200 m a 4:20, rec. 2:30 | 12 km fácil | 8 km fácil | 26 km fácil | ~59 km |
 | 7 | 3×12 min limiar, rec. 2 min | 14 km com 8 km a RM | 8 km fácil | 28 km, últimos 6 km a RM | ~63 km |
-| 8 | 8 km com 4×1 min rápido | 8 km fácil | 5 km fácil | Teste: prova de meia ou 10 km | ~40–47 km |
+| 8 | 8 km com 4×1 min rápido | 8 km fácil | 5 km fácil | Teste: prova de meia ou 10 km | ~36–46 km |
 | 9 | 5×1600 m a 4:22, rec. 3 min | 12 km fácil | 9 km fácil | 28 km fácil | ~63 km |
 | 10 | 2×20 min limiar, rec. 3 min | 15 km com 10 km a RM | 8 km fácil | 30 km fácil | ~68 km |
 | 11 | 6×1000 m a 4:20, rec. 2 min | 12 km fácil | 9 km fácil | 30 km, últimos 10 km a RM | ~63 km |
@@ -94,7 +94,7 @@ São os treinos mais específicos do plano: de 4 km na semana 2 até 12 km na se
 
 ### A corrida longa
 
-Sobe de 18 para 32 km, quase sempre fácil. Nas semanas 7, 11 e 14 termina com quilómetros a RM — aprender a manter o ritmo com as pernas já cansadas é o que separa uma segunda metade estável de um colapso aos 32 km. Não passes dos 32 km nem das 3 horas: o benefício extra raramente compensa a fadiga.
+Sobe de 18 para 32 km, quase sempre fácil. Nas semanas 7, 11 e 14 termina com quilómetros a RM — aprender a manter o ritmo com as pernas já cansadas é o que separa uma segunda metade estável de um colapso aos 32 km. Não passes dos 32 km; se o teu ritmo de longo for dos mais lentos da tabela, limita a corrida a cerca de 3 horas, mesmo que fiques um pouco aquém da distância. O benefício extra raramente compensa a fadiga.
 
 ### Limiar e VO₂max
 
@@ -102,7 +102,7 @@ Mantêm a velocidade «por cima» do RM, para que 4:57/km te pareça confortáve
 
 ## Hidratos de carbono: treina-os como treinas as pernas
 
-Numa prova de 3h30, o glicogénio muscular não chega sozinho. O consenso de Burke et al. (2011) recomenda, antes de provas acima de 90 minutos, uma carga de hidratos de 10–12 g por kg de peso por dia nas 36–48 horas anteriores, e durante esforços acima de 2h30 até 90 g por hora, usando misturas de glicose e frutose. Muitos amadores toleram bem 40–60 g por hora; chegar perto dos 90 g exige treino do intestino.
+Numa prova de 3h30, o glicogénio muscular não chega sozinho. A revisão de Burke et al. (2011), publicada no âmbito do consenso do Comité Olímpico Internacional sobre nutrição desportiva, recomenda, antes de provas acima de 90 minutos, uma carga de hidratos de 10–12 g por kg de peso por dia nas 36–48 horas anteriores. Durante o esforço, 30–60 g por hora é um alvo adequado, e provas acima de 2h30 podem beneficiar de até 90 g por hora, com misturas de glicose e frutose. Chegar perto dos 90 g exige treino do intestino; começa pelos 30–60 g e sobe aos poucos nos longos.
 
 Usa as corridas longas e os blocos a RM para testar géis, bebidas e horários. No dia da prova, não experimentes nada de novo. O artigo sobre [hidratos de carbono durante a maratona](/blog/carboidratos-durante-maratona-ciencia) aprofunda o tema.
 

@@ -13,7 +13,7 @@ faqs:
   - q: "As escadas substituem as subidas de trail?"
     a: "Em parte. Trabalham a força e o sistema cardiovascular de forma parecida com subidas muito inclinadas, mas o passo é fixo e o apoio é diferente. Usa-as como complemento, não como única forma de treinar desnível."
   - q: "Como preparo as pernas para as descidas sem montanha?"
-    a: "Com exercícios de força excêntrica para os quadríceps, descidas de escadas controladas e repetições em descidas curtas. Uma única exposição a exercício excêntrico já protege o músculo durante semanas, por isso começa cedo e progride devagar."
+    a: "Com exercícios de força excêntrica para os quadríceps, descidas de escadas controladas e repetições em descidas curtas. Uma primeira exposição a exercício excêntrico dá ao músculo uma proteção parcial contra o dano de sessões seguintes (efeito de carga repetida), por isso começa cedo e progride devagar."
 ---
 
 Treinar desnível sem montanha é possível: somas metros positivos com repetições em subidas curtas, escadas e passadeira inclinada, e preparas as descidas com força excêntrica e descidas controladas. O segredo é planear o desnível semanal como planeias os quilómetros — e não esquecer que, num trail, as descidas costumam destruir mais as pernas do que as subidas.
@@ -46,7 +46,7 @@ Escadarias públicas, bancadas de estádios ou as escadas de um prédio alto. Ca
 
 ### 3. Passadeira inclinada
 
-A passadeira permite manter uma inclinação constante durante muito tempo, algo raro na cidade. Andar a 5 km/h com 15% de inclinação corresponde a cerca de 740 m de desnível por hora. Dá para fazer sessões longas de «caminhada em subida», muito específicas para ultras. O artigo [simular trail na passadeira](/blog/corrida-esteira-inclinacao-simular-trail) tem sessões detalhadas.
+A passadeira permite manter uma inclinação constante durante muito tempo, algo raro na cidade. Andar a 5 km/h com 15% de inclinação corresponde, em teoria, a cerca de 740 m de desnível por hora (5 km × 0,15 ≈ 0,74–0,75 km); na prática, a calibração das passadeiras varia, por isso usa o valor como estimativa. Dá para fazer sessões longas de «caminhada em subida», muito específicas para ultras. O artigo [simular trail na passadeira](/blog/corrida-esteira-inclinacao-simular-trail) tem sessões detalhadas.
 
 Em subidas muito inclinadas, andar pode custar tanta ou menos energia do que correr: o custo energético de andar e de correr a subir aproxima-se à medida que a inclinação aumenta (Minetti et al., 2002). Treina as duas coisas — saber quando andar é uma competência de prova, explicada no artigo sobre [caminhada estratégica em subida](/blog/caminhada-estrategica-subida-trail).
 
@@ -63,13 +63,13 @@ A força não soma metros, mas prepara os músculos para os aguentar.
 
 ## Preparar as descidas: o ponto mais esquecido
 
-A boa notícia é que o músculo se adapta depressa ao trabalho excêntrico. Depois de uma primeira sessão que provoca dano, o músculo fica protegido durante semanas contra o dano de sessões semelhantes — é o chamado **efeito de carga repetida** (Hyldahl et al., 2017). Se a primeira grande descida que fazes for a da prova, apanhas o pior dano no pior momento.
+A boa notícia é que o músculo se adapta depressa ao trabalho excêntrico. Depois de uma primeira sessão que provoca dano, o músculo fica parcialmente protegido contra o dano de sessões semelhantes — é o chamado **efeito de carga repetida**, que resulta de adaptações neurais, mecânicas e da matriz extracelular (Hyldahl et al., 2017). Se a primeira grande descida que fazes for a da prova, apanhas o pior dano no pior momento.
 
 Como usar isto:
 
 - **Começa cedo.** Inclui descidas logo nas primeiras semanas da preparação, com volume baixo.
 - **Progride devagar.** A primeira sessão de descidas vai deixar-te dorido; as seguintes muito menos.
-- **Repete com regularidade.** Uma sessão por semana, ou de 10 em 10 dias, mantém a proteção.
+- **Repete com regularidade.** A proteção vai-se perdendo se deixares de expor o músculo a descidas; não há um intervalo ótimo definido, mas uma sessão por semana, ou de 10 em 10 dias, é uma forma prática de manter o estímulo.
 - **Usa descidas reais quando puderes**: as repetições em subida dão também repetições em descida, e as escadas ajudam. Para a técnica, lê o artigo sobre [descidas em trail](/blog/descidas-em-trail-tecnica-medo-e-prevencao-de-lesoes).
 
 ## Quanto desnível treinar

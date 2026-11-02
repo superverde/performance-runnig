@@ -62,5 +62,3 @@ Em qualquer caso, é crucial consultar um fisioterapeuta ou especialista em biom
 
 1. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms. *British Journal of Sports Medicine*, 49(20), 1290-1294. https://doi.org/10.1136/bjsports-2015-095054  
 2. Malisoux, L., Chambon, N., Delattre, N., Gueguen, N., Urhausen, A., & Theisen, D. (2016). Injury risk in runners using standard or motion control shoes: a randomised controlled trial. *British Journal of Sports Medicine*, 50(8), 481-487. https://doi.org/10.1136/bjsports-2015-094929
-
----

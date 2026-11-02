@@ -36,7 +36,7 @@ Esses dados reforçam a necessidade de estratégias de pacing, uso de calçado a
 - **Mapa e bússola** – Em caso de perda de sinal GPS.  
 - **Lanterna frontal** – Se a corrida ultrapassar o pôr‑do‑sol.  
 
-Esses itens constituem o “kit de sobrevivência” mínimo para qualquer trail a solo ou em equipe.
+Esses itens constituem o “kit de sobrevivência” mínimo para qualquer trail a solo ou em equipa.
 
 ## Erros Comuns  
 1. **Subestimar o Desgaste** – Não ajustar o ritmo após 10 km de subida pode levar a fadiga precoce.  

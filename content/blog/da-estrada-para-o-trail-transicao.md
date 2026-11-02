@@ -30,7 +30,7 @@ O custo energético da corrida aumenta de forma marcada com a inclinação. Em s
 
 ### Descer destrói as pernas
 
-A descer, os músculos — sobretudo os quadríceps — trabalham em contração excêntrica, a travar o corpo. Este tipo de esforço provoca mais dano muscular e mais fadiga neuromuscular do que a corrida em plano ou a subir (Vernillo et al., 2017; Giandolini et al., 2016). É a razão pela qual tantos estreantes chegam ao fim das provas de trail com as pernas «desfeitas», mesmo com boa forma aeróbia.
+A descer, os músculos — sobretudo os quadríceps — trabalham em contração excêntrica, a travar o corpo: na corrida em descida, a energia dissipada predomina sobre a energia produzida (Vernillo et al., 2017). As descidas prolongadas provocam dano muscular marcado (subidas acentuadas da creatina quinase e de marcadores inflamatórios no sangue) e uma fadiga neuromuscular específica, que a corrida em plano não provoca na mesma medida (Giandolini et al., 2016). É a razão pela qual tantos estreantes chegam ao fim das provas de trail com as pernas «desfeitas», mesmo com boa forma aeróbia.
 
 ### O terreno exige mais aos tornozelos e à atenção
 

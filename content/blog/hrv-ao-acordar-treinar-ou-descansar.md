@@ -40,7 +40,7 @@ Os relógios Garmin compatíveis calculam o estado da HRV com medições feitas 
 
 ## Porque não deves decidir por um único dia
 
-A HRV varia muito de dia para dia, mesmo sem mudanças no treino. Por isso, os investigadores recomendam usar a **média móvel de 7 dias** do ln rMSSD e não valores isolados (Plews et al., 2013). Num estudo com triatletas, medições feitas apenas uma vez por semana não detetaram as alterações associadas à sobrecarga, que só eram visíveis nas médias semanais (Le Meur et al., 2013).
+A HRV varia muito de dia para dia, mesmo sem mudanças no treino. Por isso, os investigadores recomendam usar a **média móvel de 7 dias** do ln rMSSD e não valores isolados (Plews et al., 2013). Num estudo com triatletas em sobrecarga, uma única medição por semana não detetou de forma fiável as alterações associadas à sobrecarga, que só eram visíveis nas médias semanais (Le Meur et al., 2013).
 
 ## Uma regra de decisão simples
 
@@ -63,7 +63,7 @@ A última linha surpreende muita gente: em atletas com sobrecarga, a HRV também
 ## O que dizem os estudos sobre treinar pela HRV
 
 - **Kiviniemi et al. (2007)** compararam, durante 4 semanas, um grupo que decidia os treinos intensos com base na HRV diária e outro que seguia um plano fixo. O grupo guiado pela HRV teve uma melhoria superior da velocidade máxima no teste.
-- **Vesterinen et al. (2016)** estudaram 40 corredores recreativos durante 8 semanas de treino intensivo. O grupo guiado pela HRV só fazia sessões moderadas ou intensas quando a média de 7 dias estava dentro do intervalo normal. Fez menos sessões duras (cerca de 13 contra 18) e melhorou os 3000 m em 2,1%, enquanto o grupo do plano fixo não teve uma melhoria significativa; o VO₂max melhorou nos dois.
+- **Vesterinen et al. (2016)** recrutaram 40 corredores recreativos (31 concluíram o estudo) para 8 semanas de treino intensivo. O grupo guiado pela HRV só fazia sessões moderadas ou intensas quando a média de 7 dias estava dentro do intervalo normal. Fez menos sessões duras (cerca de 13 contra 18) e melhorou os 3000 m em 2,1%, enquanto o grupo do plano fixo não teve uma melhoria significativa; o VO₂max melhorou nos dois.
 - **Manresa-Rocamora et al. (2021)**, numa meta-análise, concluíram que o treino guiado pela HRV tem uma vantagem pequena e não significativa no rendimento e na aptidão aeróbia, mas parece reduzir o número de respostas negativas ao treino.
 
 Repara num pormenor do estudo de Vesterinen: os corredores guiados pela HRV não treinaram menos no total — fizeram o mesmo volume, mas puseram as sessões duras nos dias em que o corpo estava recuperado e trocaram as restantes por treino fácil. É exatamente essa a utilidade prática da medição.
@@ -88,6 +88,6 @@ Resumindo: a HRV não faz milagres, mas ajuda-te a pôr as sessões duras nos di
 1. Kiviniemi, A. M., Hautala, A. J., Kinnunen, H., & Tulppo, M. P. (2007). Endurance training guided individually by daily heart rate variability measurements. *European Journal of Applied Physiology*, 101(6), 743–751.
 2. Le Meur, Y., Pichon, A., Schaal, K., Schmitt, L., Louis, J., Gueneron, J., Vidal, P. P., & Hausswirth, C. (2013). Evidence of parasympathetic hyperactivity in functionally overreached athletes. *Medicine & Science in Sports & Exercise*, 45(11), 2061–2071.
 3. Manresa-Rocamora, A., Sarabia, J. M., Javaloyes, A., Flatt, A. A., & Moya-Ramón, M. (2021). Heart rate variability-guided training for enhancing cardiac-vagal modulation, aerobic fitness, and endurance performance: A methodological systematic review with meta-analysis. *International Journal of Environmental Research and Public Health*, 18(19), 10299. https://doi.org/10.3390/ijerph181910299
-4. Plews, D. J., Laursen, P. B., Stanley, J., Kilding, A. E., & Buchheit, M. (2013). Training adaptation and heart rate variability in elite endurance athletes: Opening the door to effective monitoring. *Sports Medicine*.
+4. Plews, D. J., Laursen, P. B., Stanley, J., Kilding, A. E., & Buchheit, M. (2013). Training adaptation and heart rate variability in elite endurance athletes: Opening the door to effective monitoring. *Sports Medicine*, 43(9), 773–781.
 5. Plews, D. J., Laursen, P. B., Le Meur, Y., Hausswirth, C., Kilding, A. E., & Buchheit, M. (2014). Monitoring training with heart-rate variability: How much compliance is needed for valid assessment? *International Journal of Sports Physiology and Performance*, 9(5), 784–791. https://doi.org/10.1123/ijspp.2013-0455
 6. Vesterinen, V., Nummela, A., Heikura, I., Laine, T., Hynynen, E., Botella, J., & Häkkinen, K. (2016). Individual endurance training prescription with heart rate variability. *Medicine & Science in Sports & Exercise*, 48(7), 1347–1354. https://doi.org/10.1249/MSS.0000000000000910

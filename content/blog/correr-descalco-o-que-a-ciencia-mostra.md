@@ -6,14 +6,14 @@ excerpt: "Correr descalço muda a forma como o pé toca no chão, mas não está
 seoTitle: "Correr Descalço: O Que a Ciência Realmente Mostra"
 keyword: "correr descalço"
 keywords: ["corrida descalço", "barefoot running", "benefícios de correr descalço"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Correr descalço previne lesões?"
     a: "Não há evidência sólida de que previna lesões. Muda as cargas — menos no joelho, mais no pé, no tendão de Aquiles e nos gémeos —, e as revisões sistemáticas não encontraram provas suficientes de menos lesões."
   - q: "Correr descalço é mais económico?"
     a: "Não necessariamente. Quando se controlou o peso do calçado, correr com sapatilhas leves e amortecidas não foi mais caro, em energia, do que correr descalço."
   - q: "Como começo a correr descalço sem me lesionar?"
-    a: "Começa com poucos minutos em relva ou areia firme, uma a duas vezes por semana, e aumenta devagar ao longo de meses. Para se tiveres dor no pé, no tendão de Aquiles ou nos gémeos."
+    a: "Começa com poucos minutos em relva ou areia firme, uma a duas vezes por semana, e aumenta devagar ao longo de meses. Interrompe se tiveres dor no pé, no tendão de Aquiles ou nos gémeos."
 ---
 
 Correr descalço muda a forma como corres — passos mais curtos, maior cadência e apoio mais à frente do pé —, mas a ciência não mostra que previna lesões nem que te torne mais rápido. Desloca a carga do joelho para o pé, o tornozelo e os gémeos. Pode ser uma ferramenta útil em doses pequenas, mas a transição rápida para o descalço ou o minimalista tem riscos documentados.
@@ -43,7 +43,7 @@ Apoiar mais à frente reduz a carga no joelho, mas aumenta-a no tornozelo, no te
 Esta é a pergunta que interessa, e a resposta curta é: **não está provado**.
 
 - Uma revisão sistemática sobre os riscos e benefícios de correr descalço ou com calçado minimalista concluiu que a evidência é insuficiente para recomendar ou desaconselhar esta prática para prevenir lesões (Perkins et al., 2014).
-- Num ensaio controlado com corredores treinados que passaram a usar calçado minimalista durante 26 semanas, a dor e as lesões dependeram do peso corporal e do volume semanal: os corredores mais pesados e os que corriam mais quilómetros tiveram mais problemas com o calçado minimalista (Fuller et al., 2017).
+- Num ensaio controlado com corredores treinados que passaram a usar calçado minimalista durante 26 semanas, a dor e as lesões dependeram do peso corporal e do volume semanal: os corredores mais pesados e os que corriam mais quilómetros tiveram mais problemas com o calçado minimalista — o risco de lesão subiu acima de cerca de 71 kg e a dor aumentou de forma clinicamente relevante acima de 35 km por semana (Fuller et al., 2017).
 - Num estudo com ressonância magnética, corredores que fizeram uma transição de 10 semanas para calçado minimalista mostraram mais sinais de edema ósseo nos pés do que o grupo que manteve as sapatilhas habituais: 10 dos 19 corredores da transição tiveram aumento do edema em pelo menos um osso do pé, um sinal de stress ósseo que pode preceder uma fratura de stress (Ridge et al., 2013).
 
 Ou seja: o pé consegue adaptar-se, mas precisa de muito mais tempo do que a maioria dos corredores lhe dá. Os ossos, os tendões e os músculos do pé adaptam-se mais devagar do que o sistema cardiovascular — e é esse desfasamento que explica muitos problemas: o fôlego permite correr 10 km descalço muito antes de o pé estar preparado para isso.
@@ -90,9 +90,9 @@ O calçado minimalista (pouco amortecimento, drop baixo ou nulo, sola flexível)
 
 ## Referências Científicas
 
-1. Franz, J. R., Wierzbinski, C. M., & Kram, R. (2012). Metabolic cost of running barefoot versus shod: Is lighter better? *Medicine & Science in Sports & Exercise*, 44(8), 1519–1525. https://doi.org/10.1249/MSS.0b013e3182514a88
+1. Franz, J. R., Wierzbinski, C. M., & Kram, R. (2012). Metabolic cost of running barefoot versus shod: Is lighter better? *Medicine & Science in Sports & Exercise*, 44(8), 1519–1525.
 2. Fuller, J. T., Thewlis, D., Buckley, J. D., Brown, N. A. T., Hamill, J., & Tsiros, M. D. (2017). Body mass and weekly training distance influence the pain and injuries experienced by runners using minimalist shoes: A randomized controlled trial. *The American Journal of Sports Medicine*, 45(5), 1162–1170. https://doi.org/10.1177/0363546516682497
-3. Hall, J. P. L., Barton, C., Jones, P. R., & Morrissey, D. (2013). The biomechanical differences between barefoot and shod distance running: A systematic review and preliminary meta-analysis. *Sports Medicine*, 43(12), 1335–1353. https://doi.org/10.1007/s40279-013-0084-3
+3. Hall, J. P. L., Barton, C., Jones, P. R., & Morrissey, D. (2013). The biomechanical differences between barefoot and shod distance running: A systematic review and preliminary meta-analysis. *Sports Medicine*, 43(12), 1335–1353.
 4. Lieberman, D. E., Venkadesan, M., Werbel, W. A., Daoud, A. I., D'Andrea, S., Davis, I. S., Mang'Eni, R. O., & Pitsiladis, Y. (2010). Foot strike patterns and collision forces in habitually barefoot versus shod runners. *Nature*, 463(7280), 531–535. https://doi.org/10.1038/nature08723
 5. Perkins, K. P., Hanney, W. J., & Rothschild, C. E. (2014). The risks and benefits of running barefoot or in minimalist shoes: A systematic review. *Sports Health*, 6(6), 475–480. https://doi.org/10.1177/1941738114546846
-6. Ridge, S. T., Johnson, A. W., Mitchell, U. H., Hunter, I., Robinson, E., Rich, B. S. E., & Brown, S. D. (2013). Foot bone marrow edema after a 10-wk transition to minimalist running shoes. *Medicine & Science in Sports & Exercise*, 45(7), 1363–1368. https://doi.org/10.1249/MSS.0b013e3182874769
+6. Ridge, S. T., Johnson, A. W., Mitchell, U. H., Hunter, I., Robinson, E., Rich, B. S. E., & Brown, S. D. (2013). Foot bone marrow edema after a 10-wk transition to minimalist running shoes. *Medicine & Science in Sports & Exercise*, 45(7), 1363–1368.

@@ -6,7 +6,7 @@ excerpt: "A proteína antes de dormir aumenta a síntese proteica muscular duran
 seoTitle: "Proteína Antes de Dormir: Vale a Pena?"
 keyword: "proteína antes de dormir"
 keywords: ["caseína à noite", "proteína noturna", "recuperação muscular sono"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Comer proteína antes de dormir ajuda a recuperar?"
     a: "Os estudos mostram que a proteína tomada antes de dormir é digerida durante a noite e aumenta a síntese proteica muscular. O benefício para a recuperação e o rendimento em corredores ainda está pouco estudado, e o total diário de proteína continua a ser o fator principal."
@@ -28,7 +28,7 @@ A ideia da proteína antes de dormir é simples: dar ao músculo matéria-prima 
 
 ### A proteína é digerida durante o sono
 
-O estudo de referência é o de Res et al. (2012). Jovens fizeram treino de força ao fim do dia e, antes de dormir, tomaram 40 g de caseína ou um placebo. A proteína foi digerida e absorvida normalmente durante a noite, e a síntese proteica e o balanço proteico durante a noite foram mais favoráveis com proteína. Na revisão posterior do mesmo grupo, Snijders et al. (2019) resumem que a síntese proteica muscular durante a noite foi cerca de 22% mais alta com a proteína.
+O estudo de referência é o de Res et al. (2012). Jovens fizeram treino de força ao fim do dia e, antes de dormir, tomaram 40 g de caseína ou um placebo. A proteína foi digerida e absorvida normalmente durante a noite: a síntese proteica corporal total foi mais alta e o balanço proteico passou de ligeiramente negativo (placebo) a positivo (proteína). A síntese proteica muscular foi cerca de 22% mais alta com a proteína, uma diferença no limiar da significância estatística — o valor que a revisão posterior do mesmo grupo (Snijders et al., 2019) também destaca.
 
 ### A dose parece importar
 
@@ -36,7 +36,7 @@ A mesma revisão refere que um estudo com 30 g de caseína não mostrou um aumen
 
 ### Efeitos a longo prazo (em treino de força)
 
-Snijders et al. (2015) seguiram jovens durante 12 semanas de treino de força. Quem tomou 27,5 g de proteína antes de dormir ganhou mais massa e força muscular do que quem tomou um placebo sem proteína. A limitação principal: o grupo da proteína comeu **mais proteína no total**, por isso não se consegue separar o efeito do momento do efeito da quantidade. Estudos que compararam proteína à noite com a mesma proteína de manhã não encontraram diferenças significativas (Snijders et al., 2019).
+Snijders et al. (2015) seguiram jovens durante 12 semanas de treino de força. Quem tomou 27,5 g de proteína antes de dormir ganhou mais massa e força muscular do que quem tomou um placebo sem proteína. A limitação principal: o grupo da proteína comeu **mais proteína no total**, por isso não se consegue separar o efeito do momento do efeito da quantidade. Os dois estudos que compararam proteína à noite com a mesma proteína de manhã não encontraram diferenças significativas, embora os autores da revisão avisem que as amostras eram pequenas e não permitem conclusões firmes (Snijders et al., 2019).
 
 ### E na corrida?
 

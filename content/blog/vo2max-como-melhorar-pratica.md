@@ -18,9 +18,9 @@ hasVideo: true
 
 ## Base Científica
 
-O VO2max, ou capacidade aeróbica máxima, é um parâmetro fundamental para avaliar o desempenho aeróbico em atividades de resistência prolongada, como corrida, ciclismo e natação. É definido como a maior taxa de oxigênio consumido pelo corpo durante um esforço máximo e está diretamente relacionado à capacidade de transportar oxigênio para as células musculares. Diversos estudos têm investigado os mecanismos que influenciam a obtenção e manutenção de um VO2max elevado, destacando a importância do treino de alta intensidade e volume adequado.
+O VO2max, ou capacidade aeróbica máxima, é um parâmetro fundamental para avaliar o desempenho aeróbico em atividades de resistência prolongada, como corrida, ciclismo e natação. É definido como a maior taxa de oxigénio consumido pelo corpo durante um esforço máximo e está diretamente relacionado à capacidade de transportar oxigénio para as células musculares. Diversos estudos têm investigado os mecanismos que influenciam a obtenção e manutenção de um VO2max elevado, destacando a importância do treino de alta intensidade e volume adequado.
 
-De acordo com Bassett e Howley (2000), o VO2max é limitado pela capacidade de o corpo transportar oxigênio para as células musculares, que é influenciada pela frequência cardíaca máxima, pela capacidade de sangue transportar oxigênio (capacidade de oxigênio do sangue) e pela capacidade de músculos utilizarem oxigênio para produzir energia (capacidade de oxigênio muscular). Além disso, estudos como o de Jones e Carter (2000) mostram que o treino de alta intensidade é capaz de aumentar a capacidade de oxigênio muscular e a frequência cardíaca máxima, contribuindo para a melhoria do VO2max.
+De acordo com Bassett e Howley (2000), o VO2max é limitado pela capacidade de o corpo transportar oxigénio para as células musculares, que é influenciada pela frequência cardíaca máxima, pela capacidade de sangue transportar oxigénio (capacidade de oxigénio do sangue) e pela capacidade de músculos utilizarem oxigénio para produzir energia (capacidade de oxigénio muscular). Além disso, estudos como o de Jones e Carter (2000) mostram que o treino de alta intensidade é capaz de aumentar a capacidade de oxigénio muscular e a frequência cardíaca máxima, contribuindo para a melhoria do VO2max.
 
 ## Aplicação Prática
 
@@ -30,11 +30,11 @@ O treino de alta intensidade é uma ferramenta eficaz para melhorar o VO2max. De
 
 ### Treino de Intervalos
 
-O treino de intervalos é uma variante do treino de alta intensidade que consiste em realizar intervalos de alta intensidade seguidos de intervalos de recuperação. De acordo com Saltin e Astrand (1967), o treino de intervalos é capaz de aumentar a capacidade de oxigênio muscular e a frequência cardíaca máxima em atletas de resistência. Por exemplo, um treino de intervalos pode consistir em 8-12 intervalos de 200m a uma velocidade de 90% da velocidade máxima, com 200m de recuperação entre cada intervalo.
+O treino de intervalos é uma variante do treino de alta intensidade que consiste em realizar intervalos de alta intensidade seguidos de intervalos de recuperação. De acordo com Saltin e Astrand (1967), o treino de intervalos é capaz de aumentar a capacidade de oxigénio muscular e a frequência cardíaca máxima em atletas de resistência. Por exemplo, um treino de intervalos pode consistir em 8-12 intervalos de 200m a uma velocidade de 90% da velocidade máxima, com 200m de recuperação entre cada intervalo.
 
 ### Treino de Fadiga
 
-O treino de fadiga é uma técnica de treino que consiste em realizar um esforço prolongado a uma velocidade moderada, até a ocorrência de fadiga muscular. De acordo com Bassett e Howley (2000), o treino de fadiga é capaz de aumentar a capacidade de oxigênio muscular e a frequência cardíaca máxima em atletas de resistência. Por exemplo, um treino de fadiga pode consistir numa corrida de 30 minutos a uma velocidade de 70% da velocidade máxima.
+O treino de fadiga é uma técnica de treino que consiste em realizar um esforço prolongado a uma velocidade moderada, até a ocorrência de fadiga muscular. De acordo com Bassett e Howley (2000), o treino de fadiga é capaz de aumentar a capacidade de oxigénio muscular e a frequência cardíaca máxima em atletas de resistência. Por exemplo, um treino de fadiga pode consistir numa corrida de 30 minutos a uma velocidade de 70% da velocidade máxima.
 
 ## Erros Comuns
 

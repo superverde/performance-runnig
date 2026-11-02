@@ -26,7 +26,7 @@ Nos atletas veteranos, o rendimento em provas de endurance mantém-se quase est�
 
 ### A recuperação muscular pode ser mais lenta
 
-Duas revisões analisaram a recuperação em atletas mais velhos. A de Fell e Williams (2008) concluiu que o músculo envelhecido pode sofrer mais dano e recuperar mais devagar depois de exercício com contrações excêntricas — como as descidas e a corrida em geral —, embora os estudos nem sempre concordem. A de Borges et al. (2016) chegou a uma conclusão parecida em atletas veteranos: a recuperação depois de esforços intensos tende a ser mais lenta, e a perceção de recuperação também.
+Duas revisões analisaram a recuperação em atletas mais velhos. A de Fell e Williams (2008) concluiu que o músculo envelhecido pode sofrer mais dano e recuperar mais devagar depois de exercício com contrações excêntricas — como as descidas e a corrida em geral —, embora os estudos nem sempre concordem e muitos comparem idosos pouco ativos com jovens. A de Borges et al. (2016), centrada em atletas veteranos, foi mais cautelosa: pode haver um efeito da idade na cinética de recuperação, mas a evidência é limitada, e o efeito da idade sobre o rendimento e a recuperação pode ser menor do que se pensava — parte do declínio observado deve-se ao sedentarismo, não à idade em si.
 
 Dois pormenores importantes:
 
@@ -35,7 +35,7 @@ Dois pormenores importantes:
 
 ### O músculo responde menos à proteína
 
-Com a idade, o músculo precisa de doses maiores de proteína para a mesma resposta. Numa análise de estudos do mesmo laboratório, homens com cerca de 71 anos precisaram de cerca de 0,40 g/kg de proteína por refeição para maximizar a síntese de proteína muscular, contra cerca de 0,24 g/kg em homens com cerca de 22 anos (Moore et al., 2015). Aos 40 ou 50 anos a diferença é menor, mas a direção é a mesma.
+Com a idade, o músculo precisa de doses maiores de proteína para a mesma resposta. Numa análise de estudos do mesmo laboratório, homens com cerca de 71 anos precisaram de cerca de 0,40 g/kg de proteína por refeição para maximizar a síntese de proteína muscular, contra cerca de 0,24 g/kg em homens com cerca de 22 anos (Moore et al., 2015). São estimativas com bastante variabilidade, mas a tendência é consistente. Aos 40 ou 50 anos a diferença é menor, mas a direção é a mesma.
 
 ## Como ajustar o treino
 
@@ -65,7 +65,7 @@ A perda de massa e de força muscular acelera com a idade e o treino de força �
 
 ### 4. Proteína em todas as refeições, sobretudo depois do treino
 
-Uma revisão dedicada aos atletas de endurance veteranos recomenda doses maiores de proteína após o exercício do que as habituais para atletas jovens, para otimizar a reparação muscular (Doering et al., 2016). Na prática:
+Uma revisão dedicada aos atletas de endurance veteranos sugere que, em vez dos cerca de 20 g (0,25 g/kg) habitualmente recomendados a atletas jovens, os veteranos podem beneficiar de doses maiores de proteína após o exercício, ricas em leucina, para otimizar a reparação muscular (Doering et al., 2016). Combinando com os dados de Moore et al. (2015), na prática:
 
 - cerca de **0,4 g/kg por refeição** — 28 g para um corredor de 70 kg;
 - **3 a 4 refeições** com proteína ao longo do dia;
@@ -108,6 +108,6 @@ Os veteranos que treinam com regularidade mantêm um nível de forma muito acima
 
 1. Borges, N., Reaburn, P., Driller, M., & Argus, C. (2016). Age-related changes in performance and recovery kinetics in masters athletes: A narrative review. *Journal of Aging and Physical Activity*, 24(1), 149–157. https://doi.org/10.1123/japa.2015-0021
 2. Doering, T. M., Reaburn, P. R., Phillips, S. M., & Jenkins, D. G. (2016). Postexercise dietary protein strategies to maximize skeletal muscle repair and remodeling in masters endurance athletes: A review. *International Journal of Sport Nutrition and Exercise Metabolism*, 26(2), 168–178. https://doi.org/10.1123/ijsnem.2015-0102
-3. Fell, J., & Williams, A. D. (2008). The effect of aging on skeletal-muscle recovery from exercise: Possible implications for aging athletes. *Journal of Aging and Physical Activity*, 16(1), 97–115. https://doi.org/10.1123/japa.16.1.97
+3. Fell, J., & Williams, A. D. (2008). The effect of aging on skeletal-muscle recovery from exercise: Possible implications for aging athletes. *Journal of Aging and Physical Activity*, 16(1), 97–115.
 4. Moore, D. R., Churchward-Venne, T. A., Witard, O., Breen, L., Burd, N. A., Tipton, K. D., & Phillips, S. M. (2015). Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men. *The Journals of Gerontology: Series A*, 70(1), 57–62. https://doi.org/10.1093/gerona/glu103
 5. Tanaka, H., & Seals, D. R. (2008). Endurance exercise performance in Masters athletes: Age-associated changes and underlying physiological mechanisms. *The Journal of Physiology*, 586(1), 55–63. https://doi.org/10.1113/jphysiol.2007.141879

@@ -3,7 +3,7 @@ title: "Viajar para Competir: Gerir o Jet Lag"
 date: '2026-10-20'
 category: "Recuperação"
 excerpt: "Vais correr uma prova noutro fuso horário? Aprende a usar a luz, o sono, a cafeína e o treino para gerir o jet lag e chegar fresco à partida."
-readTime: 6
+readTime: 7
 keyword: "jet lag e competição"
 keywords: ["viajar para uma prova", "jet lag atletas", "competir no estrangeiro"]
 faqs:
@@ -90,3 +90,9 @@ A luz natural é muito mais intensa do que a iluminação de interiores, por iss
 - **Chegar em cima da hora** a uma prova do outro lado do mundo.
 
 Se mesmo assim dormires mal na véspera, não entres em pânico: tens estratégias para gerir o dia da prova em [noite mal dormida antes da prova](/blog/noite-mal-dormida-antes-da-prova). Para o dia a dia, vê também como [otimizar a qualidade do sono](/blog/sono-qualidade-atletas-otimizar).
+
+## Referências Científicas
+
+- Janse van Rensburg, D. C., Jansen van Rensburg, A., Fowler, P. M., Bender, A. M., Stevens, D., Sullivan, K. O., … Botha, T. (2021). Managing travel fatigue and jet lag in athletes: a review and consensus statement. *Sports Medicine*, 51(10), 2029–2050. https://doi.org/10.1007/s40279-021-01502-0
+- Reilly, T., Atkinson, G., Edwards, B., Waterhouse, J., Åkerstedt, T., Davenne, D., Lemmer, B., & Wirz-Justice, A. (2007). Coping with jet-lag: a position statement for the European College of Sport Science. *European Journal of Sport Science*, 7(1), 1–7. https://doi.org/10.1080/17461390701216823
+- Waterhouse, J., Reilly, T., Atkinson, G., & Edwards, B. (2007). Jet lag: trends and coping strategies. *The Lancet*, 369(9567), 1117–1129. https://doi.org/10.1016/S0140-6736(07)60529-7

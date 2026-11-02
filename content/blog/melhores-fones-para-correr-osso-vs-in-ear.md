@@ -20,7 +20,7 @@ Muitos corredores não dispensam música, podcasts ou as indicações do relógi
 ## Como funcionam
 
 ### Condução óssea e ouvido aberto
-Os auriculares de condução óssea assentam à frente da orelha, sobre o osso da face, e transmitem vibrações que o ouvido interno interpreta como som. Existem também modelos de «ouvido aberto» com pequenos altifalantes apontados para o canal auditivo, sem o tapar. Em ambos, o ouvido fica livre para os sons à tua volta. A marca mais conhecida em condução óssea para desporto é a Shokz.
+Os auriculares de condução óssea assentam à frente da orelha e transmitem vibrações através dos ossos do crânio até ao ouvido interno, sem passar pelo tímpano. Existem também modelos de «ouvido aberto» com pequenos altifalantes apontados para o canal auditivo, sem o tapar. Em ambos, o ouvido fica livre para os sons à tua volta. A marca mais conhecida em condução óssea para desporto é a Shokz.
 
 ### In-ear
 Os in-ear entram no canal auditivo com pontas de silicone ou espuma. Isolam o ruído exterior, dão graves mais fortes e, em muitos modelos, permitem cancelamento ativo de ruído. Vários têm também um «modo de transparência», que usa microfones para deixar entrar o som ambiente.
@@ -47,7 +47,7 @@ Os in-ear entram no canal auditivo com pontas de silicone ou espuma. Isolam o ru
 
 ## Segurança e saúde auditiva
 
-- **Volume moderado.** Música alta durante muito tempo pode danificar a audição, e um volume elevado reduz a tua atenção ao ambiente mesmo com auriculares de ouvido aberto. Se não consegues ouvir alguém a falar contigo ao lado, está demasiado alto.
+- **Volume moderado.** Música alta durante muito tempo pode danificar a audição — quanto mais alto o som e mais longa a exposição, maior o risco, segundo a Organização Mundial da Saúde, que sugere não passar de cerca de 60% do volume máximo do dispositivo. Um volume elevado reduz a tua atenção ao ambiente mesmo com auriculares de ouvido aberto. Se não consegues ouvir alguém a falar contigo ao lado, está demasiado alto.
 - **Estrada e noite.** Combina sempre com boa visibilidade e atenção redobrada — vê [segurança na corrida noturna em trail](/blog/trail-night-running-seguranca).
 - **Regulamentos de prova.** Algumas provas proíbem ou restringem auriculares. Confirma antes de te inscreveres.
 - **Higiene.** Limpa as pontas dos in-ear com regularidade, sobretudo depois de treinos com muito suor.
@@ -61,3 +61,9 @@ Os in-ear entram no canal auditivo com pontas de silicone ou espuma. Isolam o ru
 Antes de comprar, confirma na ficha técnica do fabricante a classificação IP, a autonomia e o peso do modelo atual, e experimenta o encaixe se possível.
 
 👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Fontes
+
+- Shokz — tecnologia de condução óssea e de ouvido aberto (página do fabricante): https://shokz.com/pages/technology
+- Organização Mundial da Saúde — perguntas e respostas sobre audição segura (*Deafness and hearing loss: safe listening*): https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening
+- IEC — classificações de proteção IP (norma IEC 60529): https://www.iec.ch/ip-ratings

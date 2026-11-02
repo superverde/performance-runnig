@@ -10,11 +10,11 @@ readTime: 4
 
 Repetições de 800m e 1000m: O Coração do Treino de VO2max
 
-A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das mais importantes, pois representa a capacidade máxima de o corpo utilizar oxigênio para produzir energia muscular. No entanto, alcançar e manter um alto nível de VO2max requer um treino específico e intensivo. Neste artigo, vamos explorar a importância das repetições de 800m e 1000m no treino de VO2max e como elas podem ser aplicadas numa rotina de treino.
+A corrida é um desporto que exige uma combinação de força muscular, velocidade e resistência cardiorrespiratória. Entre as diferentes capacidades que os atletas podem desenvolver, a VO2max é uma das mais importantes, pois representa a capacidade máxima de o corpo utilizar oxigénio para produzir energia muscular. No entanto, alcançar e manter um alto nível de VO2max requer um treino específico e intensivo. Neste artigo, vamos explorar a importância das repetições de 800m e 1000m no treino de VO2max e como elas podem ser aplicadas numa rotina de treino.
 
 As repetições de 800m e 1000m são uma forma de treino que envolve correr a uma distância fixa a uma intensidade alta, com intervalos de recuperação entre as repetições. Esta forma de treino é particularmente eficaz para melhorar a VO2max, pois permite que o atleta alcance uma intensidade alta e manter essa intensidade durante um período de tempo prolongado. Além disso, as repetições de 800m e 1000m também podem ajudar a melhorar a capacidade de recuperação entre as repetições, o que é fundamental para manter a intensidade durante todo o treino.
 
-O treino de VO2max é fundamental para qualquer atleta que deseje melhorar sua performance em corridas longas ou de resistência. A VO2max é a capacidade máxima de o corpo utilizar oxigênio para produzir energia muscular, e é diretamente relacionada com a capacidade de resistência de um atleta. Alguns estudos sugerem que o treino de VO2max pode melhorar a VO2max em até 20%, o que pode resultar em melhorias significativas na performance em corridas longas (Seiler, 2010).
+O treino de VO2max é fundamental para qualquer atleta que deseje melhorar sua performance em corridas longas ou de resistência. A VO2max é a capacidade máxima de o corpo utilizar oxigénio para produzir energia muscular, e é diretamente relacionada com a capacidade de resistência de um atleta. Alguns estudos sugerem que o treino de VO2max pode melhorar a VO2max em até 20%, o que pode resultar em melhorias significativas na performance em corridas longas (Seiler, 2010).
 
 ## Base Científica
 

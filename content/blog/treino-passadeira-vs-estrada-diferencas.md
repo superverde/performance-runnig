@@ -6,7 +6,7 @@ excerpt: "Passadeira vs estrada: o que muda na fisiologia, na biomecânica e na 
 seoTitle: "Passadeira vs Estrada: As Diferenças Que Importam"
 keyword: "passadeira vs estrada"
 keywords: ["correr na passadeira", "treino na passadeira", "diferenças passadeira e rua"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "Correr na passadeira é mais fácil do que na estrada?"
     a: "A ritmos lentos e moderados a diferença energética é pequena. A ritmos mais rápidos, a ausência de resistência do ar torna a passadeira ligeiramente mais económica, e por isso se usa muitas vezes 1% de inclinação para compensar."
@@ -22,7 +22,7 @@ A passadeira e a estrada são mais parecidas do que muitos corredores pensam: a 
 
 Na rua, avanças contra o ar. Na passadeira, o tapete move-se debaixo de ti e o corpo fica no mesmo sítio, por isso essa resistência desaparece. A ritmos lentos o efeito é pequeno, mas cresce com a velocidade.
 
-Foi isto que Jones e Doust (1996) mediram: compararam o consumo de oxigénio na passadeira, com várias inclinações, com o de corrida em pista ao ar livre. Concluíram que uma inclinação de **1%** era a que melhor reproduzia o custo energético da corrida no exterior, nas velocidades que testaram (aproximadamente entre 10,5 e 18 km/h). A ritmos mais lentos, a diferença entre 0% e 1% é pouco relevante.
+Foi isto que Jones e Doust (1996) mediram: compararam, em nove corredores treinados, o consumo de oxigénio na passadeira a 0%, 1%, 2% e 3% de inclinação com o de corrida numa estrada plana ao ar livre. Concluíram que uma inclinação de **1%** era a que melhor reproduzia o custo energético da corrida no exterior, nas velocidades que testaram (aproximadamente entre 10,5 e 18 km/h). Nas duas velocidades mais lentas (cerca de 10,5 e 12 km/h), o custo na estrada não diferiu significativamente do da passadeira a 0% nem a 1%: a ritmos lentos, a escolha entre as duas pesa pouco.
 
 Na prática:
 

@@ -49,7 +49,7 @@ Em casos refratários, a infiltração de corticoide pode ser considerada, mas a
 
 ## Protocolo/Conclusão  
 
-A prevenção começa com a avaliação biomecânica ao iniciar um programa de corrida. Corridores que apresentam pronação excessiva devem receber orientação sobre calçado e fortalecimento do tornozelo. O monitoramento da carga semanal e a adoção de pausas estratégicas são essenciais para evitar o desenvolvimento do neuroma de morton.  
+A prevenção começa com a avaliação biomecânica ao iniciar um programa de corrida. Corridores que apresentam pronação excessiva devem receber orientação sobre calçado e fortalecimento do tornozelo. O monitorização da carga semanal e a adoção de pausas estratégicas são essenciais para evitar o desenvolvimento do neuroma de morton.  
 
 Implementar o protocolo de redução de carga, terapia manual e fortalecimento pode reduzir a dor em até 70 % nos primeiros 6 semanas. Se a dor persistir, procure um fisioterapeuta especializado em medicina do desporto.  
 

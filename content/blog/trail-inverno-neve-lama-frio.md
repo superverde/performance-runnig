@@ -6,7 +6,7 @@ excerpt: "Treinar no inverno em trail exige ajustar ritmo, roupa, aquecimento e 
 seoTitle: "Treinar no Inverno: Neve, Lama e Frio no Trail"
 keyword: "treinar no inverno"
 keywords: ["correr com frio", "correr na neve", "trail no inverno"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "É perigoso correr com muito frio?"
     a: "Para a maioria das pessoas saudáveis, correr com frio é seguro com roupa adequada. O risco aumenta com vento, chuva, roupa molhada e paragens prolongadas; quem tem asma ou doença cardiovascular deve falar com o médico antes de treinar em frio intenso."

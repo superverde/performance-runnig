@@ -19,7 +19,7 @@ Num ultra trail de 8, 12 ou 24 horas, os géis sozinhos raramente chegam. Ao fim
 
 ## Primeiro, o objetivo: hidratos de carbono por hora
 
-O que mantém o ritmo num ultra é a ingestão regular de hidratos de carbono. As recomendações atuais para esforços longos apontam, de forma geral, para cerca de 60 g por hora, podendo chegar aos 90 g por hora em corredores que treinaram o intestino e usam misturas de glicose e frutose. Os sólidos não substituem esta lógica — são uma das formas de lá chegar.
+O que mantém o ritmo num ultra é a ingestão regular de hidratos de carbono. Para esforços de mais de 2,5–3 horas, as recomendações gerais de nutrição desportiva admitem até 90 g por hora, com misturas de vários tipos de hidratos (glicose e frutose) e um intestino treinado. Num ultra, porém, a tolerância gastrointestinal costuma ser o fator limitante: a posição da ISSN para ultramaratonas sugere, como ponto de partida, 150–400 kcal por hora, com 30–50 g de hidratos por hora, ajustados ao que cada corredor tolera. Muitos corredores bem treinados ingerem mais, mas só depois de o testarem em treino. Os sólidos não substituem esta lógica — são uma das formas de lá chegar.
 
 Na prática:
 
@@ -79,3 +79,8 @@ Os preços variam muito entre marcas e lojas; nas barras e gomas comerciais comp
 - **Confiar só na fome.** Num ultra, quando a fome aparece, muitas vezes já estás atrasado na ingestão.
 
 👉 **Vê a nossa seleção de equipamento em [performancerunning.pt/equipamento](/equipamento)**
+
+## Referências Científicas
+
+- Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine Joint Position Statement. Nutrition and athletic performance. *Medicine & Science in Sports & Exercise*, 48(3), 543–568.
+- Tiller, N. B., Roberts, J. D., Beasley, L., Chapman, S., Pinto, J. M., Smith, L., … Bannock, L. (2019). International Society of Sports Nutrition Position Stand: nutritional considerations for single-stage ultra-marathon training and racing. *Journal of the International Society of Sports Nutrition*, 16(1), 50. https://doi.org/10.1186/s12970-019-0312-9

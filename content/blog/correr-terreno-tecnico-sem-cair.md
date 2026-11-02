@@ -47,7 +47,7 @@ Uma passada curta mantém o pé debaixo do corpo e dá-te mais apoios para corri
 
 ### Levanta os pés
 
-Tropeçar é a causa mais comum de queda. Em terreno com raízes e pedras, exagera um pouco a elevação do joelho e do pé — gasta um pouco mais de energia, mas evita o tropeção. Com fadiga, a tendência é arrastar os pés: é aí que tens de estar mais atento.
+Tropeçar é uma das causas mais frequentes de queda. Em terreno com raízes e pedras, exagera um pouco a elevação do joelho e do pé — gasta um pouco mais de energia, mas evita o tropeção. Com fadiga, a tendência é arrastar os pés: é aí que tens de estar mais atento.
 
 ### Braços abertos para o equilíbrio
 
@@ -59,7 +59,7 @@ O instinto em descidas é inclinar o tronco para trás, mas isso põe o peso nos
 
 ## A fadiga muda tudo
 
-As quedas acumulam-se no fim das provas por uma razão: o equilíbrio piora com a fadiga. Num ultra de montanha de 330 km, os investigadores mediram o controlo postural dos atletas antes, durante e depois da prova, e encontraram alterações claras no equilíbrio durante e após a corrida (Degache et al., 2014). Além disso, os músculos cansados levantam menos o pé e reagem mais devagar.
+As quedas acumulam-se no fim das provas por uma razão: o equilíbrio piora com a fadiga. Num ultra de montanha de 330 km, os investigadores mediram o controlo postural de 18 atletas antes, durante e depois da prova: a meio e no fim, precisavam de mais tempo para estabilizar o corpo, sobretudo no plano lateral, e as oscilações aumentaram após a prova (Degache et al., 2014). Os autores atribuem esta perda de equilíbrio à fadiga, agravada pelo terreno instável, pelas subidas e descidas e pela altitude. É também plausível que músculos cansados levantem menos o pé e reajam mais devagar.
 
 O que fazer:
 
@@ -83,7 +83,7 @@ O que fazer:
 - Agachamento a uma perna, devagar, com o joelho alinhado.
 - Saltos laterais com aterragem estável num pé.
 
-Uma revisão sistemática de programas de treino neuromuscular — sobretudo equilíbrio e programas combinados — concluiu que reduzem o risco de entorses do tornozelo e de lesões do joelho em atletas (Hübscher et al., 2010). Os estudos foram feitos sobretudo em desportos coletivos, mas os tornozelos de um corredor de trail estão sujeitos a exigências semelhantes.
+Uma revisão sistemática de programas de treino neuromuscular — sobretudo equilíbrio e programas combinados — concluiu que tanto o treino de equilíbrio isolado como os programas combinados reduziram o risco de entorses do tornozelo, e que os programas combinados reduziram também as lesões agudas do joelho (Hübscher et al., 2010). Os estudos foram feitos sobretudo em desportos coletivos, mas os tornozelos de um corredor de trail estão sujeitos a exigências semelhantes.
 
 ### 2. Força dos tornozelos e pés
 

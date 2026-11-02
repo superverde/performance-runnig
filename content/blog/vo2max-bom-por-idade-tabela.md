@@ -39,7 +39,7 @@ A tabela abaixo mostra os valores típicos de VO2max por idade e sexo:
 
 Um erro comum é pensar que o VO2max é um indicador de desempenho e que um valor alto significa que o atleta é mais rápido ou eficiente. No entanto, como mencionado anteriormente, o VO2max é apenas um indicador de capacidade aeróbica e não aborda outros fatores importantes, como a capacidade anaeróbica e a força muscular.
 
-Além disso, outro erro comum é não considerar a variabilidade individual do VO2max. O VO2max pode variar significativamente entre indivíduos, mesmo dentro da mesma idade e sexo. Isso é devido a fatores como a genética, a saúde geral e o estilo de vida.
+Além disso, outro erro comum é não considerar a variabilidade individual do VO2max. O VO2max pode variar significativamente entre indivíduos, mesmo dentro da mesma idade e sexo. Isto deve-se a fatores como a genética, a saúde geral e o estilo de vida.
 
 ## Protocolo/Conclusão
 

@@ -11,13 +11,13 @@ readTime: 4
 
 ### Strides: O Exercício de 20 Segundos Que Melhora a Tua Eficiência
 
-Os atletas profissionais de corrida sabem que a eficiência é fundamental para alcançar performances ótimas. Isso inclui a capacidade de gerenciar o fluxo de oxigênio, manter um ritmo constante e evitar a fadiga prematura. No entanto, muitos treinadores e atletas ainda não conhecem o exercício de strides, que pode ser uma ferramenta poderosa para melhorar a eficiência em apenas 20 segundos.
+Os atletas profissionais de corrida sabem que a eficiência é fundamental para alcançar performances ótimas. Isso inclui a capacidade de gerir o fluxo de oxigénio, manter um ritmo constante e evitar a fadiga prematura. No entanto, muitos treinadores e atletas ainda não conhecem o exercício de strides, que pode ser uma ferramenta poderosa para melhorar a eficiência em apenas 20 segundos.
 
 O exercício de strides consiste em correr a uma velocidade alta por um curto período de tempo, geralmente entre 15 e 30 segundos. Em seguida, o atleta regressa a um ritmo mais confortável e repete o processo. Esta técnica é conhecida como "estrídios" e foi popularizada por alguns treinadores de elite da corrida. Embora seja um exercício simples, os estrídios podem ter um impacto significativo na forma como corremos e podem ajudar a reduzir a fadiga, melhorar a fluência e aumentar a eficiência.
 
 ### Base Científica
 
-A base científica para o exercício de strides está relacionada à capacidade do corpo para gerenciar o fluxo de oxigênio e combustível. Quando corremos a uma velocidade alta, o corpo precisa de uma grande quantidade de oxigênio para produzir energia. No entanto, ao correr a uma velocidade constante, o corpo pode se adaptar e melhorar a sua capacidade de gerenciar o fluxo de oxigênio. Isso pode ser alcançado através da estimulação do fluxo sanguíneo e da melhoria da capacidade de transporte de oxigênio nos músculos.
+A base científica para o exercício de strides está relacionada à capacidade do corpo para gerir o fluxo de oxigénio e combustível. Quando corremos a uma velocidade alta, o corpo precisa de uma grande quantidade de oxigénio para produzir energia. No entanto, ao correr a uma velocidade constante, o corpo pode se adaptar e melhorar a sua capacidade de gerir o fluxo de oxigénio. Isso pode ser alcançado através da estimulação do fluxo sanguíneo e da melhoria da capacidade de transporte de oxigénio nos músculos.
 
 Além disso, o exercício de strides pode também ajudar a melhorar a capacidade do corpo para armazenar e liberar energia. Quando corremos a uma velocidade alta, o corpo precisa de uma grande quantidade de energia para manter o movimento. Ao correr a uma velocidade constante, o corpo pode se adaptar e melhorar a sua capacidade de armazenar e liberar energia. Isso pode ser alcançado através da melhoria da capacidade de armazenamento de energia nos músculos e no fígado.
 
@@ -42,7 +42,7 @@ Para fazer o exercício de strides de forma eficaz, é importante começar com u
 
 ### Conclusão
 
-O exercício de strides é uma ferramenta poderosa para melhorar a eficiência em apenas 20 segundos. Ao correr a uma velocidade alta por um curto período de tempo, o corpo pode se adaptar e melhorar a sua capacidade de gerenciar o fluxo de oxigênio e combustível. Além disso, o exercício de strides pode também ajudar a melhorar a capacidade do corpo para armazenar e liberar energia. Com o exercício de strides, os atletas podem reduzir a fadiga, melhorar a fluência e aumentar a eficiência.
+O exercício de strides é uma ferramenta poderosa para melhorar a eficiência em apenas 20 segundos. Ao correr a uma velocidade alta por um curto período de tempo, o corpo pode se adaptar e melhorar a sua capacidade de gerir o fluxo de oxigénio e combustível. Além disso, o exercício de strides pode também ajudar a melhorar a capacidade do corpo para armazenar e liberar energia. Com o exercício de strides, os atletas podem reduzir a fadiga, melhorar a fluência e aumentar a eficiência.
 
 ### Referências Científicas
 

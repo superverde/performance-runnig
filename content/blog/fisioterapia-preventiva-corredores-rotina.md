@@ -15,7 +15,7 @@ faqs:
     a: "Não. A evidência mostra que o treino de força reduz lesões no desporto em geral, mas nos corredores os resultados de programas preventivos são mais modestos e inconsistentes. A gestão da carga de treino continua a ser o fator mais importante."
 ---
 
-A maioria dos corredores só conhece o fisioterapeuta depois de se lesionar. Faz sentido: quando nada dói, parece que não há nada para tratar. Mas as lesões na corrida são frequentes, sobretudo em quem está a começar, e muitas resultam de um desequilíbrio entre a carga de treino e a capacidade dos tecidos que se vai acumulando em silêncio. É aí que a fisioterapia preventiva pode ajudar — desde que tenhas expectativas realistas.
+A maioria dos corredores só conhece o fisioterapeuta depois de se lesionar. Faz sentido: quando nada dói, parece que não há nada para tratar. Mas as lesões na corrida são frequentes, sobretudo em quem está a começar, e muitas resultam de um desequilíbrio entre a carga de treino e a capacidade dos tecidos que se acumula em silêncio. É aí que a fisioterapia preventiva pode ajudar — desde que tenhas expectativas realistas.
 
 ## Quão frequentes são as lesões na corrida?
 

@@ -6,7 +6,7 @@ excerpt: "Treinar com pouco tempo não te impede de evoluir. Vê como distribuir
 seoTitle: "Treinar com Pouco Tempo: Plano de 4 Horas por Semana"
 keyword: "treinar com pouco tempo"
 keywords: ["4 horas por semana", "plano de corrida com pouco tempo", "treino eficiente"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "4 horas por semana chegam para melhorar na corrida?"
     a: "Sim. Para a maioria dos amadores, 4 horas bem distribuídas chegam para melhorar nos 5 e 10 km e para preparar uma meia maratona. Para a maratona é um mínimo, e com margem curta."
@@ -20,7 +20,7 @@ Com 4 horas por semana consegues treinar bem: chegam para melhorar nos 5 e 10 km
 
 ## O que 4 horas permitem (e o que não permitem)
 
-Quatro horas são cerca de 35 a 45 km por semana para a maioria dos amadores. É um volume que sustenta bons resultados em provas até à meia maratona. Para a maratona é o limite inferior: consegues terminá-la, mas para um objetivo de tempo ambicioso vais precisar de mais horas no bloco final.
+Descontando o tempo de força, quatro horas dão cerca de 3 a 3,5 horas de corrida, ou seja, uns 30 a 40 km por semana para a maioria dos amadores (depende do teu ritmo fácil). É um volume que sustenta bons resultados em provas até à meia maratona. Para a maratona é o limite inferior: consegues terminá-la, mas para um objetivo de tempo ambicioso vais precisar de mais horas no bloco final.
 
 Também do ponto de vista da saúde, o tempo não é desculpa. Num estudo de coorte com mais de 55 mil adultos, correr associou-se a menor mortalidade por todas as causas e cardiovascular, e o benefício já aparecia em quem corria menos de uma hora por semana, a ritmos lentos (Lee et al., 2014). Quatro horas é muito mais do que esse mínimo.
 
@@ -78,7 +78,7 @@ Os progressivos da quinta (acelerações de 15–20 segundos, com recuperação 
 
 ## Semanas em que nem 4 horas tens
 
-Há semanas de trabalho, de doença na família ou de viagens. A boa notícia é que a forma se perde mais devagar do que se ganha. Numa revisão sobre a dose mínima de exercício, Spiering et al. (2021) concluíram que a capacidade de resistência se mantém durante várias semanas com apenas duas sessões semanais, mesmo com o volume bastante reduzido, desde que a intensidade se mantenha. A força mantém-se com uma sessão por semana.
+Há semanas de trabalho, de doença na família ou de viagens. A boa notícia é que a forma se perde mais devagar do que se ganha. Numa revisão sobre a dose mínima de exercício, Spiering et al. (2021) concluíram que a capacidade de resistência se pode manter até cerca de 15 semanas com apenas duas sessões semanais, ou com o volume de cada sessão reduzido entre um e dois terços, desde que a intensidade se mantenha. Em adultos mais novos, a força mantém-se com uma sessão por semana; em pessoas mais velhas, manter a massa muscular pode exigir duas.
 
 Na prática: numa semana difícil, guarda a sessão de qualidade (mais curta) e a corrida longa (reduzida para 50–60 min). Corta primeiro os treinos fáceis.
 

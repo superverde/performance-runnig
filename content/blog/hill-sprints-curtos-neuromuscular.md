@@ -36,7 +36,7 @@ Na subida, a velocidade máxima que atinges é menor e o impacto de travagem tam
 
 ### Quase não geram fadiga
 
-Um esforço máximo de 8–10 segundos depende muito da fosfocreatina, uma reserva de energia que se gasta depressa mas se repõe em poucos minutos. Num estudo com sprints repetidos, a capacidade de repetir o esforço esteve ligada a quanto a fosfocreatina tinha recuperado entre sprints (Bogdanis et al., 1996). Com sprints curtos e recuperação completa, cada repetição sai com qualidade e a fadiga acumulada é pequena — por isso não te «roubam» energia para os treinos importantes.
+Um esforço máximo de 8–10 segundos depende muito da fosfocreatina, uma reserva de energia que se gasta depressa mas se repõe em poucos minutos. Num estudo com dois sprints de 30 segundos em bicicleta separados por 4 minutos, a potência recuperada no segundo sprint esteve ligada a quanto a fosfocreatina tinha sido reposta no intervalo (Bogdanis et al., 1996). Os teus sprints são muito mais curtos, por isso gastam menos fosfocreatina e recuperam-se ainda melhor. Com sprints curtos e recuperação completa, cada repetição sai com qualidade e a fadiga acumulada é pequena — por isso não te «roubam» energia para os treinos importantes.
 
 ## Como fazer hill sprints
 
@@ -111,4 +111,4 @@ Complementa com treino pliométrico se quiseres ir mais longe: o artigo sobre [f
 1. Barnes, K. R., Hopkins, W. G., McGuigan, M. R., & Kilding, A. E. (2013). Effects of different uphill interval-training programs on running economy and performance. *International Journal of Sports Physiology and Performance*, 8(6), 639–647. https://doi.org/10.1123/ijspp.8.6.639
 2. Bogdanis, G. C., Nevill, M. E., Boobis, L. H., & Lakomy, H. K. (1996). Contribution of phosphocreatine and aerobic metabolism to energy supply during repeated sprint exercise. *Journal of Applied Physiology*, 80(3), 876–884. https://doi.org/10.1152/jappl.1996.80.3.876
 3. Gottschall, J. S., & Kram, R. (2005). Ground reaction forces during downhill and uphill running. *Journal of Biomechanics*, 38(3), 445–452. https://doi.org/10.1016/j.jbiomech.2004.04.023
-4. Paavolainen, L., Häkkinen, K., Hämäläinen, I., Nummela, A., & Rusko, H. (1999). Explosive-strength training improves 5-km running time by improving running economy and muscle power. *Journal of Applied Physiology*, 86(5), 1527–1533.
+4. Paavolainen, L., Häkkinen, K., Hämäläinen, I., Nummela, A., & Rusko, H. (1999). Explosive-strength training improves 5-km running time by improving running economy and muscle power. *Journal of Applied Physiology*, 86(5), 1527–1533. https://doi.org/10.1152/jappl.1999.86.5.1527

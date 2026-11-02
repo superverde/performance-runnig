@@ -24,7 +24,7 @@ Os SF podem ocorrer em qualquer parte do corpo, mas são mais comuns em áreas d
 
 #### Tíbia
 
-A tíbia é a parte mais comum afetada por SF em corredores. Isso se deve ao fato de que a tíbia é submetida a um stress mecânico elevado durante a corrida, especialmente durante a fase de impacto (3).
+A tíbia é a parte mais comum afetada por SF em corredores. Isto deve-se ao facto de a tíbia ser submetida a um stress mecânico elevado durante a corrida, especialmente durante a fase de impacto (3).
 
 #### Metatarsos
 

@@ -42,7 +42,7 @@ Não é uma má sessão isolada: é um padrão ao longo de vários treinos.
 
 ## Sinal 2 — esforço e frequência cardíaca fora do habitual
 
-Com fadiga acumulada, a relação entre esforço percebido, ritmo e frequência cardíaca muda. Em atletas com overreaching, é comum a frequência cardíaca não subir tanto como o costume nas séries intensas, mesmo com a sensação de esforço muito alta. A frequência cardíaca em repouso e a [HRV](/blog/hrv-recuperacao-atletas-endurance) também podem alterar-se, em qualquer sentido: num estudo com triatletas em sobrecarga, a atividade parassimpática chegou a **aumentar**, e só a média semanal das medições mostrou a alteração (Le Meur et al., 2013).
+Com fadiga acumulada, a relação entre esforço percebido, ritmo e frequência cardíaca muda. Em atletas com overreaching, pode acontecer a frequência cardíaca não subir tanto como o costume nas séries intensas, mesmo com a sensação de esforço muito alta. A frequência cardíaca em repouso e a [HRV](/blog/hrv-recuperacao-atletas-endurance) também podem alterar-se, e nem sempre no sentido que esperas: num estudo com triatletas em sobrecarga, a frequência cardíaca em repouso **desceu** e a atividade parassimpática **aumentou**, e só a média semanal das medições diárias mostrou a alteração — medições isoladas, uma vez por semana, não a detetaram (Le Meur et al., 2013).
 
 **Como o detetar:** compara a frequência cardíaca e a sensação de esforço (escala 1–10) em treinos semelhantes. Se o esforço sobe e a frequência cardíaca «não responde», desconfia.
 
@@ -60,9 +60,9 @@ Seria de esperar que mais cansaço desse mais sono, mas muitas vezes acontece o 
 
 - **Dores musculares que se arrastam** mais de 2–3 dias depois de treinos que antes não as provocavam.
 - **Pernas «pesadas»** de forma permanente.
-- **Infeções respiratórias repetidas**, feridas que demoram a sarar.
+- **Infeções respiratórias repetidas** (constipações umas atrás das outras).
 
-A carga elevada sem recuperação suficiente está associada a mais queixas de doença e de lesão. Uma dor localizada que piora com a corrida — sobretudo num osso — não é fadiga: pode ser uma fratura de stress e deve ser vista por um profissional.
+As infeções frequentes estão entre os sinais descritos no consenso sobre sobretreino (Meeusen et al., 2013), e a carga elevada sem recuperação suficiente associa-se a mais queixas de doença e de lesão. Uma dor localizada que piora com a corrida — sobretudo num osso — não é fadiga: pode ser uma fratura de stress e deve ser vista por um profissional.
 
 ## O que fazer quando aparecem os sinais
 

@@ -20,7 +20,7 @@ No entanto, quando utilizada de forma adequada, a sauna pode ser um recurso vali
 
 A sauna é baseada no princípio de que a exposição a temperaturas elevadas pode causar uma resposta fisiológica que ajuda a melhorar a recuperação. Isso é chamado de "efeito termal". Quando o corpo é exposto a temperaturas elevadas, ele responde aumentando a produção de calor corporal, o que pode ajudar a reduzir a tensão muscular e melhorar a circulação sanguínea.
 
-Além disso, a sauna pode ajudar a reduzir a inflamação e a dor, o que é especialmente importante para os corredores que estão num estado de stress muscular contínuo. Isso é devido à capacidade da sauna de aumentar a produção de antioxidantes no corpo, que podem ajudar a neutralizar os radicais livres e reduzir a inflamação.
+Além disso, a sauna pode ajudar a reduzir a inflamação e a dor, o que é especialmente importante para os corredores que estão num estado de stress muscular contínuo. Isto deve-se à capacidade da sauna de aumentar a produção de antioxidantes no corpo, que podem ajudar a neutralizar os radicais livres e reduzir a inflamação.
 
 ## Aplicação Prática
 

@@ -14,9 +14,9 @@ A base aeróbica é o fundamento do treino de corrida, representando cerca de 80
 
 ## Base Científica
 
-A base científica da base aeróbica está relacionada à capacidade aeróbica, que é medida pela capacidade do corpo para utilizar oxigênio para produzir energia durante a atividade física. A capacidade aeróbica é influenciada pela quantidade de mitocôndrias presentes nas células musculares, que são responsáveis por produzir energia a partir do oxigênio. A base aeróbica é responsável por aumentar a quantidade de mitocôndrias nas células musculares, o que leva a uma melhoria na capacidade aeróbica.
+A base científica da base aeróbica está relacionada à capacidade aeróbica, que é medida pela capacidade do corpo para utilizar oxigénio para produzir energia durante a atividade física. A capacidade aeróbica é influenciada pela quantidade de mitocôndrias presentes nas células musculares, que são responsáveis por produzir energia a partir do oxigénio. A base aeróbica é responsável por aumentar a quantidade de mitocôndrias nas células musculares, o que leva a uma melhoria na capacidade aeróbica.
 
-Outro fator importante é a adaptação cardiovascular, que é responsável por melhorar a capacidade do coração e dos vasos sanguíneos para transportar oxigênio e nutrientes para as células musculares. A base aeróbica é fundamental para a adaptação cardiovascular, pois permite que o coração e os vasos sanguíneos sejam treinados para funcionar de forma mais eficiente durante a atividade física.
+Outro fator importante é a adaptação cardiovascular, que é responsável por melhorar a capacidade do coração e dos vasos sanguíneos para transportar oxigénio e nutrientes para as células musculares. A base aeróbica é fundamental para a adaptação cardiovascular, pois permite que o coração e os vasos sanguíneos sejam treinados para funcionar de forma mais eficiente durante a atividade física.
 
 ## Aplicação Prática
 

@@ -30,7 +30,7 @@ Nas provas de resistência, o efeito da hora do dia é menos claro do que nos es
 
 Nem todos temos o relógio interno à mesma hora. Há pessoas **matutinas** (deitam-se e acordam cedo, sentem-se melhor de manhã), **vespertinas** (o oposto) e intermédias.
 
-Num estudo com atletas, Facer-Childs e Brandstaetter (2015) avaliaram jogadores de hóquei em campo e de squash em testes de aptidão física feitos a seis horas diferentes do dia. O pico de rendimento dependeu do cronotipo e do tempo desde o despertar: os matutinos renderam mais cedo no dia e os vespertinos ao fim do dia. Nos atletas vespertinos, o rendimento no início da manhã chegou a ser cerca de 26% inferior ao do seu pico.
+Num estudo com atletas de competição, Facer-Childs e Brandstaetter (2015) aplicaram um teste de aptidão física a seis horas diferentes do dia. O pico de rendimento dependeu do cronotipo e, sobretudo, do tempo desde o despertar: em média, os matutinos renderam mais por volta do meio-dia e os vespertinos ao fim do dia. Ao longo do dia, o rendimento individual chegou a variar cerca de 26%, e os vespertinos foram os mais penalizados nos testes de manhã cedo.
 
 Implicação prática: **se és vespertino e treinas às 6h30 da manhã, não te compares com o teu rendimento das 19h.** E se és matutino, talvez as tuas melhores sessões sejam mesmo de manhã.
 
@@ -92,7 +92,7 @@ O pico fisiológico médio está ao fim da tarde, mas o cronotipo, o tempo desde
 
 ## Referências Científicas
 
-1. Chtourou, H., & Souissi, N. (2012). The effect of training at a specific time of day: A review. *Journal of Strength and Conditioning Research*, 26(7), 1984–2005. https://doi.org/10.1519/JSC.0b013e31825770a7
+1. Chtourou, H., & Souissi, N. (2012). The effect of training at a specific time of day: A review. *Journal of Strength and Conditioning Research*, 26(7), 1984–2005.
 2. Drust, B., Waterhouse, J., Atkinson, G., Edwards, B., & Reilly, T. (2005). Circadian rhythms in sports performance — an update. *Chronobiology International*, 22(1), 21–44. https://doi.org/10.1081/CBI-200041039
 3. Facer-Childs, E., & Brandstaetter, R. (2015). The impact of circadian phenotype and time since awakening on diurnal performance in athletes. *Current Biology*, 25(4), 518–522. https://doi.org/10.1016/j.cub.2014.12.036
 4. Stutz, J., Eiholzer, R., & Spengler, C. M. (2019). Effects of evening exercise on sleep in healthy participants: A systematic review and meta-analysis. *Sports Medicine*, 49(2), 269–287. https://doi.org/10.1007/s40279-018-1015-0

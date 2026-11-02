@@ -24,7 +24,7 @@ Uma época de corrida acumula meses de carga, provas e stress fora do treino. Me
 
 O consenso europeu e americano sobre sobretreino (Meeusen et al., 2013) descreve um contínuo que vai da fadiga funcional, normal e útil, até ao *overreaching* não funcional e à síndrome de sobretreino, em que a recuperação pode levar meses. Uma das estratégias de prevenção que os autores apontam é precisamente planear períodos de recuperação e não aumentar a carga de forma contínua. A transição no fim da época é o maior desses períodos.
 
-Na teoria da periodização, esta fase existe desde os modelos clássicos e mantém-se nos modelos por blocos: depois da fase de competição vem um período de transição que permite regenerar e preparar o ciclo seguinte (Issurin, 2010). Se queres ver como isto se encaixa no ano inteiro, lê o artigo sobre [periodizar a recuperação ao longo da época](/blog/periodizacao-recuperacao-macrociclo-anual).
+Na periodização tradicional, o ciclo anual divide-se em período preparatório, período competitivo e período de transição, este último destinado a regenerar e a preparar o ciclo seguinte; a revisão de Issurin (2010) descreve este modelo clássico e a sua evolução para a periodização por blocos. Se queres ver como isto se encaixa no ano inteiro, lê o artigo sobre [periodizar a recuperação ao longo da época](/blog/periodizacao-recuperacao-macrociclo-anual).
 
 ## O que perdes quando paras (e o que não perdes)
 
@@ -117,5 +117,5 @@ A off-season é uma fase de treino, não uma ausência dele. Umas semanas de car
 
 1. Mujika, I., & Padilla, S. (2000a). Detraining: Loss of Training-Induced Physiological and Performance Adaptations. Part I: Short Term Insufficient Training Stimulus. *Sports Medicine*, 30(2), 79–87. https://doi.org/10.2165/00007256-200030020-00002
 2. Mujika, I., & Padilla, S. (2000b). Detraining: Loss of Training-Induced Physiological and Performance Adaptations. Part II: Long Term Insufficient Training Stimulus. *Sports Medicine*, 30(3), 145–154. https://doi.org/10.2165/00007256-200030030-00001
-3. Issurin, V. B. (2010). New Horizons for the Methodology and Physiology of Training Periodization. *Sports Medicine*, 40(3), 189–206. https://doi.org/10.2165/11319770-000000000-00000
+3. Issurin, V. B. (2010). New Horizons for the Methodology and Physiology of Training Periodization. *Sports Medicine*, 40(3), 189–206.
 4. Meeusen, R., Duclos, M., Foster, C., Fry, A., Gleeson, M., Nieman, D., Raglin, J., Rietjens, G., Steinacker, J., & Urhausen, A. (2013). Prevention, diagnosis and treatment of the overtraining syndrome: Joint consensus statement of the European College of Sport Science (ECSS) and the American College of Sports Medicine (ACSM). *European Journal of Sport Science*, 13(1), 1–24. https://doi.org/10.1080/17461391.2012.730061

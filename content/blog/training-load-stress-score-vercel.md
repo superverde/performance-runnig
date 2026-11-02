@@ -16,7 +16,7 @@ faqs:
     a: "Não, pode‑se usar frequência cardíaca ou tempo em zona, mas a precisão aumenta com dados de potência."
 ---
 
-Para gerir a carga de treino com dados, combina‑se o monitoramento da carga absoluta (Training Load) com a análise dos parâmetros de adaptação (ATL e CTL) para ajustar volume e intensidade em ciclos de treino.  
+Para gerir a carga de treino com dados, combina‑se o monitorização da carga absoluta (Training Load) com a análise dos parâmetros de adaptação (ATL e CTL) para ajustar volume e intensidade em ciclos de treino.  
 A sinergia entre esses indicadores permite identificar quando o atleta está a acumular adaptação, quando está a saturar ou a entrar num estado de sobre‑carga, e, assim, planeia‑se o volume, a intensidade e o descanso de forma científica.
 
 A ciência do treino de endurance evoluiu rapidamente nos últimos anos, passando de meros registos de quilómetros a métricas baseadas em fisiologia e estatística. Os modelos de Training Stress Score (TSS) e os parâmetros de Acute Training Load (ATL) e Chronic Training Load (CTL) surgiram como ferramentas que traduzem a complexidade do esforço físico em números que podem ser comparados, monitorizados e ajustados ao longo do tempo.  

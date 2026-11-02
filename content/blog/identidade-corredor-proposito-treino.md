@@ -74,7 +74,7 @@ Os objetivos concretos dão direção ao treino — vê como os definir em [obje
 
 ## Conclusão
 
-A consistência não nasce de uma única decisão heroica. Nasce de um propósito que é teu, de uma identidade que se vai consolidando treino a treino e de um hábito que tira a decisão de cima da mesa. Começa pelo propósito, protege o hábito nos dias maus e deixa a identidade crescer com o tempo.
+A consistência não nasce de uma única decisão heroica. Nasce de um propósito que é teu, de uma identidade que se consolida treino a treino e de um hábito que tira a decisão de cima da mesa. Começa pelo propósito, protege o hábito nos dias maus e deixa a identidade crescer com o tempo.
 
 ## Referências Científicas
 

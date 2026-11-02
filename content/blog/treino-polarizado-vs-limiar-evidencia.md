@@ -77,7 +77,7 @@ Num estudo de 12 semanas com corredores de média distância, o grupo polarizado
 
 1. **Excesso de Volume em Zona 3**: Quando o volume de alta intensidade ultrapassa 30 % do total, a recuperação torna‑se insuficiente, aumentando o risco de lesões.  
 2. **Subestimar a Zona 1**: Reduzir a sessão de baixa intensidade a menos de 60 % do volume total pode limitar a base aeróbica, prejudicando a eficiência metabólica.  
-3. **Ignorar o Monitoramento de Lactato**: Sem medir a resposta lactática, o corredor pode subestimar a verdadeira carga de trabalho, levando a sobrecarga ou sub‑estimulação.  
+3. **Ignorar o Monitorização de Lactato**: Sem medir a resposta lactática, o corredor pode subestimar a verdadeira carga de trabalho, levando a sobrecarga ou sub‑estimulação.  
 4. **Não Ajustar a Intensidade ao Progresso**: Manter a mesma zona de 70–85 % FTP ao longo de todo o programa pode impedir adaptações, já que o limiar sobe com o tempo.  
 
 ## Protocolo/Conclusão

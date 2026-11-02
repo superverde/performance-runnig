@@ -6,7 +6,7 @@ excerpt: "Correr duas maratonas por ano é viável se periodizares bem: recupera
 seoTitle: "Duas Maratonas por Ano: Como Periodizar"
 keyword: "duas maratonas por ano"
 keywords: ["periodizar maratonas", "maratonas por ano", "intervalo entre maratonas"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Quanto tempo deve haver entre duas maratonas?"
     a: "Não há um intervalo mínimo validado cientificamente. Para correr as duas a fundo, a prática mais comum entre treinadores é deixar cerca de cinco a seis meses entre elas, o que permite recuperar, reconstruir a base e fazer um bloco específico completo."
@@ -127,4 +127,4 @@ Duas maratonas por ano funcionam quando cada uma tem o seu ciclo completo: recup
 2. Kellmann, M., Bertollo, M., Bosquet, L., et al. (2018). Recovery and Performance in Sport: Consensus Statement. *International Journal of Sports Physiology and Performance*, 13(2), 240–245. https://doi.org/10.1123/ijspp.2017-0759
 3. Bosquet, L., Montpetit, J., Arvisais, D., & Mujika, I. (2007). Effects of tapering on performance: a meta-analysis. *Medicine & Science in Sports & Exercise*, 39(8), 1358–1365. https://doi.org/10.1249/mss.0b013e31806010e0
 4. Doherty, C., Keogh, A., Davenport, J., Lawlor, A., Smyth, B., & Caulfield, B. (2020). An evaluation of the training determinants of marathon performance: A meta-analysis with meta-regression. *Journal of Science and Medicine in Sport*, 23(2), 182–188. https://doi.org/10.1016/j.jsams.2019.09.013
-5. Issurin, V. B. (2010). New Horizons for the Methodology and Physiology of Training Periodization. *Sports Medicine*, 40(3), 189–206. https://doi.org/10.2165/11319770-000000000-00000
+5. Issurin, V. B. (2010). New Horizons for the Methodology and Physiology of Training Periodization. *Sports Medicine*, 40(3), 189–206.
