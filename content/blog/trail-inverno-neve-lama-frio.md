@@ -1,6 +1,6 @@
 ---
 title: "Treinar no Inverno: Neve, Lama e Frio no Trail"
-date: 'PENDENTE'
+date: '2026-11-02'
 category: "Trail Running"
 excerpt: "Treinar no inverno em trail exige ajustar ritmo, roupa, aquecimento e segurança à neve, à lama e ao frio. Vê como adaptar os teus treinos."
 seoTitle: "Treinar no Inverno: Neve, Lama e Frio no Trail"

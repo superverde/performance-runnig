@@ -1,6 +1,6 @@
 ---
 title: "Duas Maratonas por Ano: Como Periodizar a Época"
-date: 'PENDENTE'
+date: '2026-11-02'
 category: "Treino"
 excerpt: "Correr duas maratonas por ano é viável se periodizares bem: recuperação, base, bloco específico e taper em cerca de seis meses. Vê como dividir a época."
 seoTitle: "Duas Maratonas por Ano: Como Periodizar"
