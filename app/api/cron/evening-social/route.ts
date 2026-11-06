@@ -135,37 +135,16 @@ async function jaPublicadoRecentemente(
   }
 }
 
-// Publica o link como primeiro comentário — mesmo racional do
-// app/api/social-post/route.ts (foto no post, link no comentário, para não
-// gastar a quota de publicações com link nem perder alcance).
-async function comentarComLink(postId: string, pageToken: string, link: string): Promise<void> {
-  try {
-    const res = await fetch(`https://graph.facebook.com/v19.0/${postId}/comments`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: `Artigo completo: ${link}`, access_token: pageToken }),
-    })
-    const data = await res.json()
-    if (!res.ok || data.error) {
-      console.warn(`[evening-social] Não foi possível comentar o link no post ${postId}: ${data.error?.message || res.status}`)
-    }
-  } catch (err) {
-    console.warn(`[evening-social] Falha ao comentar o link no post ${postId}:`, err)
-  }
-}
-
-function semLinkNoCorpo(message: string, link: string): string {
-  return message
-    .replace(new RegExp(`\\s*👉?\\s*${link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*`, 'g'), '\n')
-    .replace(/https?:\/\/(www\.)?performancerunning\.pt\S*/g, '')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim()
+// Garante que o link do artigo está no corpo da mensagem (a Groq às vezes
+// esquece-o). Se já lá estiver, não duplica.
+function comLinkNoCorpo(message: string, link: string): string {
+  return message.includes(link) ? message : `${message.trim()}\n\n👉 ${link}`
 }
 
 async function postToFacebook(
   message: string,
   link: string,
-  imageUrl: string,
+  _imageUrl: string,
   titulo: string
 ): Promise<PlatformResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
@@ -173,22 +152,28 @@ async function postToFacebook(
   if (!pageToken || !pageId) return { success: false, error: 'Credenciais Meta não configuradas' }
 
   try {
-    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, titulo)
+    const duplicado = (await jaPublicadoRecentemente(pageId, pageToken, link)) ??
+      (await jaPublicadoRecentemente(pageId, pageToken, titulo))
     if (duplicado) {
       console.warn(`[evening-social] Facebook: artigo já publicado hoje (post ${duplicado}) — ignorado para não duplicar`)
       return { success: true }
     }
 
-    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/photos`, {
+    // PUBLICAÇÃO COM LINK NO CORPO (cartão de pré-visualização clicável).
+    // Reposto a pedido do Pedro em 2026-11-06: de 2026-09-21 (commit 5e8fd16)
+    // a 2026-11-06 a página publicava foto + link no primeiro comentário, com
+    // base num suposto limite de 2 links/mês que nunca foi confirmado para
+    // esta página; o Pedro reportou que os resultados eram melhores com o
+    // link no post. Se o limite se confirmar, voltar a 5e8fd16.
+    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url: imageUrl, caption: semLinkNoCorpo(message, link), access_token: pageToken }),
+      body: JSON.stringify({ message: comLinkNoCorpo(message, link), link, access_token: pageToken }),
     })
     const data = await res.json()
     if (!res.ok || data.error) {
       return { success: false, error: data.error?.message || `HTTP ${res.status}` }
     }
-    await comentarComLink(data.post_id || data.id, pageToken, link)
     return { success: true }
   } catch (err) {
     return { success: false, error: String(err) }

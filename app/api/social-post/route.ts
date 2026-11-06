@@ -314,38 +314,16 @@ async function jaPublicadoRecentemente(
   }
 }
 
-// Publica o link como PRIMEIRO COMENTÁRIO da publicação. Ver o comentário
-// longo em postToFacebook para o porquê de o link não ir no corpo do post.
-async function comentarComLink(postId: string, pageToken: string, link: string): Promise<void> {
-  try {
-    const res = await fetch(`https://graph.facebook.com/v19.0/${postId}/comments`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: `Artigo completo: ${link}`, access_token: pageToken }),
-    })
-    const data = await res.json()
-    if (!res.ok || data.error) {
-      console.warn(`[social] Não foi possível comentar o link no post ${postId}: ${data.error?.message || res.status}`)
-    }
-  } catch (err) {
-    console.warn(`[social] Falha ao comentar o link no post ${postId}:`, err)
-  }
-}
-
-// Tira o link do corpo da mensagem — tanto o caption gerado pela Groq como o
-// de recurso o incluem no fim, e o objetivo agora é ele ir só no comentário.
-function semLinkNoCorpo(message: string, link: string): string {
-  return message
-    .replace(new RegExp(`\\s*👉?\\s*${link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*`, 'g'), '\n')
-    .replace(/https?:\/\/(www\.)?performancerunning\.pt\S*/g, '')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim()
+// Garante que o link do artigo está no corpo da mensagem (a Groq às vezes
+// esquece-o). Se já lá estiver, não duplica.
+function comLinkNoCorpo(message: string, link: string): string {
+  return message.includes(link) ? message : `${message.trim()}\n\n👉 ${link}`
 }
 
 async function postToFacebook(
   message: string,
   link: string,
-  imageUrl: string,
+  _imageUrl: string,
   titulo: string
 ): Promise<PostResult> {
   const pageToken = process.env.META_PAGE_ACCESS_TOKEN
@@ -356,34 +334,26 @@ async function postToFacebook(
   }
 
   try {
-    // Não voltar a publicar o mesmo artigo no mesmo dia. Compara pelo título,
-    // porque o link deixou de ir no corpo da mensagem (ver abaixo).
-    const duplicado = await jaPublicadoRecentemente(pageId, pageToken, titulo)
+    // Não voltar a publicar o mesmo artigo no mesmo dia. Compara pelo link
+    // (vai sempre no corpo) e, por segurança, pelo título.
+    const duplicado = (await jaPublicadoRecentemente(pageId, pageToken, link)) ??
+      (await jaPublicadoRecentemente(pageId, pageToken, titulo))
     if (duplicado) {
       console.warn(`[social-post] Facebook: artigo já publicado hoje (post ${duplicado}) — publicação ignorada para não duplicar`)
       return { platform: 'Facebook', success: true, id: duplicado }
     }
 
-    // FOTO + LINK NO PRIMEIRO COMENTÁRIO, em vez de publicação com link.
-    //
-    // Porquê (decidido em 2026-09-21): o Facebook reduz fortemente o alcance
-    // de publicações que levam links externos no corpo (≈0,06% de engagement
-    // contra ≈0,24% nas de imagem) e limita páginas sem Meta Verified a duas
-    // publicações orgânicas com link por mês — o que significa que esta
-    // página, a publicar 3 posts com link por dia, estava provavelmente a
-    // gastar a quota nos primeiros dois dias do mês e a sair com alcance
-    // quase nulo em todos os restantes. A orientação atual do próprio
-    // Facebook é pôr o link no primeiro comentário, que é a estratégia que
-    // já usamos nos grupos (ver app/grupos/page.tsx).
-    //
-    // O endpoint /photos devolve `post_id` (o id da publicação no feed),
-    // diferente de `id` (o id da foto) — é o `post_id` que serve para
-    // comentar.
-    const mensagemSemLink = semLinkNoCorpo(message, link)
-    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/photos`, {
+    // PUBLICAÇÃO COM LINK NO CORPO (cartão de pré-visualização clicável).
+    // Reposto a pedido do Pedro em 2026-11-06: de 2026-09-21 (commit 5e8fd16)
+    // a 2026-11-06 a página publicava foto + link no primeiro comentário, com
+    // base num suposto limite de 2 links/mês que nunca foi confirmado para
+    // esta página; o Pedro reportou que os resultados eram melhores com o
+    // link no post. Se o limite se confirmar, voltar a 5e8fd16.
+    const mensagem = comLinkNoCorpo(message, link)
+    const res = await fetch(`https://graph.facebook.com/v19.0/${pageId}/feed`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url: imageUrl, caption: mensagemSemLink, access_token: pageToken }),
+      body: JSON.stringify({ message: mensagem, link, access_token: pageToken }),
     })
 
     const data = await res.json()
@@ -394,7 +364,7 @@ async function postToFacebook(
       // antes de o marcar como falha (evita falsos negativos no log e
       // evita reenviar/duplicar se houver retry a montante).
       await new Promise(r => setTimeout(r, 1500))
-      const verifiedId = await verifyFacebookPost(pageId, pageToken, semLinkNoCorpo(message, link))
+      const verifiedId = await verifyFacebookPost(pageId, pageToken, mensagem)
       if (verifiedId) {
         console.warn(`[social-post] Facebook: resposta de erro ("${errMsg}") mas post confirmado criado (id ${verifiedId}) — tratado como sucesso`)
         return { platform: 'Facebook', success: true, id: verifiedId }
@@ -403,9 +373,7 @@ async function postToFacebook(
       return { platform: 'Facebook', success: false, error: errMsg }
     }
 
-    const postId = data.post_id || data.id
-    await comentarComLink(postId, pageToken, link)
-    return { platform: 'Facebook', success: true, id: postId }
+    return { platform: 'Facebook', success: true, id: data.id }
   } catch (err) {
     return { platform: 'Facebook', success: false, error: String(err) }
   }
