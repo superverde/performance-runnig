@@ -93,7 +93,7 @@ function buildFallbackCaptions(article: ArticlePayload): {
     x: `${article.title}\n\n${article.excerpt.slice(0, 120)}...\n\n🔗 ${link}\n\n${hashtags.split(' ').slice(0, 3).join(' ')}`,
     instagram: `${article.title}\n\n${article.excerpt}\n\n🔗 Link na bio — performancerunning.pt\n\n${hashtags}`,
     facebook: `📖 Novo artigo no Performance Running:\n\n${article.title}\n\n${article.excerpt}\n\n👉 ${link}`,
-    threads: `${article.title}\n\n${article.excerpt.slice(0, 170)}\n\n🔗 Link na bio`,
+    threads: `${article.title}\n\n${article.excerpt.slice(0, 170)}`,
   }
 }
 
@@ -166,7 +166,7 @@ Gera 4 posts DIFERENTES. Responde APENAS em JSON válido:
   "x": "post X/Twitter — máx 270 chars, hook forte, 1 facto surpreendente ou estatística, link, 3-4 hashtags",
   "instagram": "post Instagram — hook na 1ª linha, 3-5 frases de valor com palavras-chave do tema escritas no texto (não só nas hashtags), emoji moderado, CTA 'link na bio', as 4 hashtags dadas no fim numa linha separada",
   "facebook": "post Facebook — hook forte, 2-4 parágrafos com valor real, link completo no final, as 4 hashtags dadas no fim",
-  "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, termina sempre com '🔗 Link na bio' (nunca escrever o URL nem o domínio por extenso)"
+  "threads": "post Threads — tom casual e direto, insight surpreendente, máx 200 chars, sem URL nem 'link na bio' (o link do artigo é acrescentado automaticamente no fim)"
 }`
 
   // MIN_LEN + pick(): nunca deixar passar uma legenda vazia/curta demais
@@ -462,7 +462,23 @@ async function postToInstagram(caption: string, imageUrl: string): Promise<PostR
 
 // ── THREADS ───────────────────────────────────────────────────────────────────
 
-async function postToThreads(text: string): Promise<PostResult> {
+// Threads volta a levar o link do artigo (decidido em 2026-11-06, a pedido do
+// Pedro): o URL vai no fim do texto e também como link_attachment, para o
+// Threads mostrar o cartão de pré-visualização clicável. Antes (desde
+// 2026-08-31, commit 7096cc3) terminava com "Link na bio".
+function threadsComLink(text: string, link: string): string {
+  const limpo = text
+    .replace(/🔗?\s*link na bio\.?/gi, '')
+    .replace(/https?:\/\/(www\.)?performancerunning\.pt\S*/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+  // Limite do Threads: 500 caracteres no total.
+  const max = 500 - link.length - 5
+  const corpo = limpo.length > max ? limpo.slice(0, max - 1).trimEnd() + '…' : limpo
+  return `${corpo}\n\n🔗 ${link}`
+}
+
+async function postToThreads(text: string, link: string): Promise<PostResult> {
   // O token vem do Redis (renovado automaticamente pelo cron threads-refresh) e
   // so cai para a variavel de ambiente se ainda nao houver nada gravado.
   // Ver lib/threads-token.ts para o porque.
@@ -480,7 +496,8 @@ async function postToThreads(text: string): Promise<PostResult> {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         media_type: 'TEXT',
-        text,
+        text: threadsComLink(text, link),
+        link_attachment: link,
         topic_tag: 'Running Threads',
         access_token: accessToken,
       }),
@@ -578,7 +595,7 @@ export async function POST(req: NextRequest) {
     if (wants('x')) jobs.push(postToX(captions.x))
     if (wants('facebook')) jobs.push(postToFacebook(captions.facebook, articleUrl, image, title))
     if (wants('instagram')) jobs.push(postToInstagram(captions.instagram, image))
-    if (wants('threads')) jobs.push(postToThreads(captions.threads))
+    if (wants('threads')) jobs.push(postToThreads(captions.threads, articleUrl))
 
     // Publica em paralelo só as plataformas pedidas nesta chamada
     const results = await Promise.allSettled(jobs)
