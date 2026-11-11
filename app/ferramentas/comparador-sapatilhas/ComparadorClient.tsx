@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { sapatos, type SapatoProduto } from '@/lib/products'
+import { sapatos, linkCompra, type SapatoProduto } from '@/lib/products'
 import { trackedLink } from '@/lib/tracking'
 
 type Categoria = 'Todas' | SapatoProduto['categoria']
@@ -91,12 +91,12 @@ function ShoeCard({ shoe }: { shoe: SapatoProduto }) {
       </div>
 
       <a
-        href={trackedLink(shoe.name, shoe.link)}
+        href={trackedLink(shoe.name, linkCompra(shoe).url)}
         target="_blank"
-        rel="noopener noreferrer sponsored"
+        rel={linkCompra(shoe).rel}
         className="mt-auto block text-center px-4 py-2.5 bg-brand-green text-black font-black text-xs uppercase tracking-wide rounded-lg hover:bg-white transition-all"
       >
-        Ver em {shoe.loja}
+        Ver na {linkCompra(shoe).loja}
       </a>
     </div>
   )
@@ -180,7 +180,7 @@ export function ComparadorClient() {
         </div>
 
         <p className="text-[11px] text-white/30 mt-6">
-          Este site pode receber uma comissão de afiliado em compras feitas através dos links acima, sem custo adicional para ti.
+          Os links "Ver na i-Run" são de afiliado: podemos receber uma comissão em compras feitas através deles, sem custo adicional para ti. Os links para a Amazon não são de afiliado.
         </p>
 
       </div>

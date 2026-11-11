@@ -67,7 +67,7 @@ export default function PrivacidadePage() {
             <p>
               Não vendemos nem cedemos os teus dados a terceiros. Os emails da newsletter são
               geridos através de fornecedores de email com quem temos acordos de tratamento de
-              dados. Links de afiliados (ex.: Amazon) levam-te para sites externos com políticas
+              dados. Links de afiliados (ex.: i-Run) levam-te para sites externos com políticas
               de privacidade próprias.
             </p>
           </div>

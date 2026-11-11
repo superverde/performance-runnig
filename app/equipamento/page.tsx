@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight, Star, Footprints, Watch, HeartPulse, Zap, Package, Sparkles, type LucideIcon } from 'lucide-react'
 import { Redis } from '@upstash/redis'
-import { sapatos, relogios, sensoresFc, nutricao, acessorios, type SapatoProduto } from '@/lib/products'
+import { sapatos, relogios, sensoresFc, nutricao, acessorios, linkCompra, type SapatoProduto } from '@/lib/products'
 import { selectRotatingProducts, getCurrentRotationBucket } from '@/lib/rotation'
 import { trackedLink, toSlug } from '@/lib/tracking'
 
@@ -286,12 +286,12 @@ export default async function EquipamentoPage() {
 
               <div className="flex items-center gap-6 flex-wrap">
                 <a
-                  href={trackedLink(novidade.name, novidade.link)}
+                  href={trackedLink(novidade.name, linkCompra(novidade).url)}
                   target="_blank"
-                  rel="noopener noreferrer nofollow"
+                  rel={linkCompra(novidade).rel}
                   className="group/cta inline-flex items-center gap-2.5 text-sm font-black uppercase tracking-wider text-black bg-brand-green px-6 py-3.5 rounded-xl hover:bg-white transition-colors"
                 >
-                  Ver em {novidade.loja}
+                  Ver em {linkCompra(novidade).loja}
                   <ArrowUpRight size={16} className="transition-transform group-hover/cta:translate-x-0.5 group-hover/cta:-translate-y-0.5" />
                 </a>
                 <PriceTag preco={novidade.preco} verified={novidade.precoVerificado} className="text-brand-green font-black text-xl" />
@@ -364,12 +364,12 @@ export default async function EquipamentoPage() {
                     </div>
                   </div>
                   <a
-                    href={trackedLink(s.name, s.link)}
+                    href={trackedLink(s.name, linkCompra(s).url)}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel={linkCompra(s).rel}
                     className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2 rounded-lg hover:bg-white transition-colors"
                   >
-                    Ver preço em {s.loja} <ArrowUpRight size={12} />
+                    Ver na {linkCompra(s).loja} <ArrowUpRight size={12} />
                   </a>
                 </div>
               </article>
@@ -435,12 +435,12 @@ export default async function EquipamentoPage() {
                     </div>
                   </div>
                   <a
-                    href={trackedLink(r.name, r.link)}
+                    href={trackedLink(r.name, linkCompra(r).url)}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel={linkCompra(r).rel}
                     className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2 rounded-lg hover:bg-white transition-colors"
                   >
-                    Ver preço em {r.loja} <ArrowUpRight size={12} />
+                    Ver na {linkCompra(r).loja} <ArrowUpRight size={12} />
                   </a>
                 </div>
               </article>
@@ -518,12 +518,12 @@ export default async function EquipamentoPage() {
                   </div>
 
                   <a
-                    href={trackedLink(s.name, s.link)}
+                    href={trackedLink(s.name, linkCompra(s).url)}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel={linkCompra(s).rel}
                     className="mt-auto inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2.5 rounded-lg hover:bg-white transition-colors justify-center"
                   >
-                    Ver preço em {s.loja} <ArrowUpRight size={12} />
+                    Ver na {linkCompra(s).loja} <ArrowUpRight size={12} />
                   </a>
                 </div>
               </article>
@@ -601,12 +601,12 @@ export default async function EquipamentoPage() {
                   </div>
 
                   <a
-                    href={trackedLink(n.name, n.link)}
+                    href={trackedLink(n.name, linkCompra(n).url)}
                     target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    rel={linkCompra(n).rel}
                     className="mt-auto inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-black bg-brand-green px-4 py-2.5 rounded-lg hover:bg-white transition-colors justify-center"
                   >
-                    Ver preço em {n.loja} <ArrowUpRight size={12} />
+                    Ver na {linkCompra(n).loja} <ArrowUpRight size={12} />
                   </a>
                 </div>
               </article>
@@ -637,12 +637,12 @@ export default async function EquipamentoPage() {
                   <div className="flex items-center justify-between">
                     <PriceTag preco={a.preco} verified={a.precoVerificado} className="text-brand-green text-xs font-bold" />
                     <a
-                      href={trackedLink(a.name, a.link)}
+                      href={trackedLink(a.name, linkCompra(a).url)}
                       target="_blank"
-                      rel="noopener noreferrer nofollow"
+                      rel={linkCompra(a).rel}
                       className="inline-flex items-center gap-1 text-[10px] font-bold text-white/40 hover:text-brand-green transition-colors"
                     >
-                      Amazon <ArrowUpRight size={10} />
+                      {linkCompra(a).loja} <ArrowUpRight size={10} />
                     </a>
                   </div>
                 </div>
@@ -654,8 +654,9 @@ export default async function EquipamentoPage() {
         {/* ── Disclaimer ── */}
         <div className="border-t border-white/5 pt-8">
           <p className="text-[11px] text-white/20 leading-relaxed max-w-2xl">
-            <strong className="text-white/30">Transparência:</strong> Esta página contém links de afiliado Amazon.
-            Quando compras através destes links, recebemos uma pequena comissão sem custo adicional para ti.
+            <strong className="text-white/30">Transparência:</strong> Os botões "Ver na i-Run" são links de afiliado:
+            quando compras através deles, recebemos uma comissão sem custo adicional para ti. Os links para a Amazon
+            não são de afiliado e não nos dão qualquer comissão.
             As avaliações são independentes e baseadas em testes reais — nenhuma marca paga para aparecer aqui.
           </p>
           <div className="mt-4 flex gap-3 flex-wrap">

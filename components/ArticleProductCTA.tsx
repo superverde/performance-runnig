@@ -1,16 +1,17 @@
 import { ArrowUpRight } from 'lucide-react'
-import { sapatos, relogios, sensoresFc, nutricao, acessorios } from '@/lib/products'
+import { sapatos, relogios, sensoresFc, nutricao, acessorios, linkCompra } from '@/lib/products'
 import { trackedLink } from '@/lib/tracking'
 
-type Pick = { name: string; preco: string; img: string; link: string }
+type Pick = { name: string; preco: string; img: string; link: string; loja: string; afiliado: boolean; rel: string }
 
-function byName<T extends { name: string; preco: string; img: string; link: string }>(
+function byName<T extends { name: string; preco: string; img: string; link: string; loja?: string; linkIrun?: string }>(
   list: T[],
   name: string
 ): Pick | null {
   const found = list.find((p) => p.name === name)
   if (!found) return null
-  return { name: found.name, preco: found.preco, img: found.img, link: found.link }
+  const compra = linkCompra(found)
+  return { name: found.name, preco: found.preco, img: found.img, link: compra.url, loja: compra.loja, afiliado: compra.afiliado, rel: compra.rel }
 }
 
 const PICKS: Record<string, (Pick | null)[]> = {
@@ -41,7 +42,7 @@ export function ArticleProductCTA({ categorySlug }: { categorySlug: string }) {
             key={p.name}
             href={trackedLink(p.name, p.link)}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel={p.rel}
             className="group flex items-center gap-4 p-3 rounded-lg border border-white/10 bg-white/[0.02] hover:border-brand-green/40 hover:bg-brand-green/[0.06] transition-all"
           >
             <img src={p.img} alt={p.name} className="w-14 h-14 object-contain rounded-md bg-white/5 shrink-0" />
@@ -54,7 +55,9 @@ export function ArticleProductCTA({ categorySlug }: { categorySlug: string }) {
         ))}
       </div>
       <p className="mt-3 text-[11px] text-white/35">
-        Links de afiliado, podemos receber uma comissao sem custo extra para ti.{' '}
+        {picks.some((p) => p.afiliado)
+          ? 'Links i-Run de afiliado: podemos receber uma comissão sem custo extra para ti. '
+          : 'Links para lojas externas. '}
         <a href="/equipamento" className="underline hover:text-brand-green/70">Ver todo o equipamento &#8594;</a>
       </p>
     </div>
