@@ -68,7 +68,7 @@ const CATEGORIAS: Record<string, { label: string; description: string; hero: str
   },
   equipamento: {
     label: 'Equipamento',
-    description: 'Guias de compra e comparativos de equipamento de corrida — sapatilhas, relógios GPS, mochilas de trail e acessórios testados e analisados.',
+    description: 'Guias de compra e comparativos de equipamento de corrida — sapatilhas, relógios GPS, mochilas de trail e acessórios analisados.',
     hero: poolImg('photo-1595950653106-6c9ebd614d3a'),
   },
 }

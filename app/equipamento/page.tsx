@@ -12,7 +12,7 @@ export const revalidate = 21600
 export const metadata: Metadata = {
   title: 'Equipamento de Corrida — Reviews e Recomendações',
   description:
-    'Reviews honestas de equipamento de corrida: sapatos, relógios GPS, meias técnicas e acessórios. Testado e recomendado pela equipa Performance Running.',
+    'Análises de equipamento de corrida: sapatilhas, relógios GPS, sensores e acessórios, escolhidos com base nas especificações dos fabricantes e na evidência científica.',
   keywords: [
     'melhores sapatos corrida 2025', 'review sapatos trail', 'relógio GPS corrida',
     'equipamento corrida portugal', 'garmin forerunner review', 'hoka review',
@@ -226,7 +226,7 @@ export default async function EquipamentoPage() {
             EQUIPAMENTO
           </h1>
           <p className="text-white/50 max-w-xl text-sm leading-relaxed">
-            Testamos e avaliamos o equipamento mais relevante para corredores portugueses.
+            Selecionamos e analisamos o equipamento mais relevante para corredores portugueses.
             Sem patrocínios que influenciem as notas. Links de afiliado ajudam a manter o site gratuito.
           </p>
         </div>
@@ -305,7 +305,7 @@ export default async function EquipamentoPage() {
           <div className="mb-8">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-green font-mono mb-1">01</p>
             <h2 className="text-3xl font-black tracking-tight">Sapatos de Corrida</h2>
-            <p className="text-white/40 text-sm mt-1">Testados em estrada, pista e trilho. Avaliação independente.</p>
+            <p className="text-white/40 text-sm mt-1">Para estrada, pista e trilho. Avaliação independente.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {sapatos_r.map((s) => (
@@ -657,7 +657,7 @@ export default async function EquipamentoPage() {
             <strong className="text-white/30">Transparência:</strong> Os botões "Ver na i-Run" são links de afiliado:
             quando compras através deles, recebemos uma comissão sem custo adicional para ti. Os links para a Amazon
             não são de afiliado e não nos dão qualquer comissão.
-            As avaliações são independentes e baseadas em testes reais — nenhuma marca paga para aparecer aqui.
+            As avaliações são independentes e baseadas nas especificações dos fabricantes e na evidência científica, não em testes próprios — nenhuma marca paga para aparecer aqui.
           </p>
           <div className="mt-4 flex gap-3 flex-wrap">
             <Link href="/blog" className="text-xs text-white/30 hover:text-brand-green transition-colors">← Arquivo de Artigos</Link>
