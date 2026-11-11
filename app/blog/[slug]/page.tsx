@@ -8,6 +8,8 @@ import { ViewCounter } from '@/components/ViewCounter'
 import { BlogClient } from '@/components/BlogClient'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArticleContent } from '@/components/ArticleContent'
+import { IrunBloco } from '@/components/IrunBloco'
+import { produtosIrunPara } from '@/lib/irun'
 import { Sondagem } from '@/components/Sondagem'
 import { sondagemParaCategoria } from '@/lib/sondagens'
 
@@ -351,6 +353,11 @@ export default async function BlogSlugPage({ params }: Props) {
           originalContent={article.content}
           originalTitle={article.title}
           originalExcerpt={article.excerpt}
+          midSlot={
+            produtosIrunPara(article.category, 2, params.slug).length > 0
+              ? <IrunBloco categoria={article.category} semente={params.slug} />
+              : undefined
+          }
         />
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-brand-green transition-colors font-medium">

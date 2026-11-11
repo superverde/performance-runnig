@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { ArticleTranslate } from '@/components/ArticleTranslate'
 
 interface Props {
@@ -8,9 +8,27 @@ interface Props {
   originalContent: string
   originalTitle: string
   originalExcerpt: string
+  /** Bloco inserido a meio do artigo (ex.: parceiro i-Run). */
+  midSlot?: ReactNode
 }
 
-export function ArticleContent({ slug, originalContent, originalTitle, originalExcerpt }: Props) {
+/**
+ * Divide o HTML do artigo num <h2> perto do meio (nunca o primeiro nem o
+ * último, que costuma ser Referências), para inserir um bloco entre as partes.
+ */
+function dividirAMeio(html: string): [string, string] | null {
+  const pos: number[] = []
+  const re = /<h2[\s>]/g
+  let m: RegExpExecArray | null
+  while ((m = re.exec(html))) pos.push(m.index)
+  const candidatos = pos.slice(1, -1)
+  if (candidatos.length === 0) return null
+  const meio = html.length / 2
+  const corte = candidatos.reduce((a, b) => (Math.abs(b - meio) < Math.abs(a - meio) ? b : a))
+  return [html.slice(0, corte), html.slice(corte)]
+}
+
+export function ArticleContent({ slug, originalContent, originalTitle, originalExcerpt, midSlot }: Props) {
   const [content, setContent] = useState(originalContent)
   const [title, setTitle] = useState(originalTitle)
   const [excerpt, setExcerpt] = useState(originalExcerpt)
@@ -52,7 +70,24 @@ export function ArticleContent({ slug, originalContent, originalTitle, originalE
       )}
 
       {/* Conteúdo do artigo */}
-      <div className="prose" dangerouslySetInnerHTML={{ __html: content }} />
+      {(() => {
+        const partes = midSlot ? dividirAMeio(content) : null
+        if (!partes) {
+          return (
+            <>
+              <div className="prose" dangerouslySetInnerHTML={{ __html: content }} />
+              {midSlot}
+            </>
+          )
+        }
+        return (
+          <>
+            <div className="prose" dangerouslySetInnerHTML={{ __html: partes[0] }} />
+            {midSlot}
+            <div className="prose" dangerouslySetInnerHTML={{ __html: partes[1] }} />
+          </>
+        )
+      })()}
     </>
   )
 }

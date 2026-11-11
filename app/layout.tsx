@@ -5,6 +5,10 @@ import './globals.css'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { SocialBanner } from '@/components/SocialBanner'
+import { BlackFridayBar } from '@/components/BlackFridayBar'
+import { BLACK_FRIDAY } from '@/lib/irun-config'
+import fs from 'fs'
+import path from 'path'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { ScrollReveal } from '@/components/ScrollReveal'
@@ -125,6 +129,18 @@ const websiteLd = {
   },
 }
 
+/** Destino da faixa de Black Friday: o artigo, se já existir; senão o link de promoções da i-Run. */
+function blackFridayHref(): string | null {
+  try {
+    if (fs.existsSync(path.join(process.cwd(), 'content', 'blog', `${BLACK_FRIDAY.artigoSlug}.md`))) {
+      return `/blog/${BLACK_FRIDAY.artigoSlug}`
+    }
+  } catch {
+    // sem acesso ao disco: usa o link externo, se houver
+  }
+  return BLACK_FRIDAY.link || null
+}
+
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = getLocaleFromCookie()
   const messages = await getMessages(locale)
@@ -136,6 +152,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }} />
         <LocaleProvider locale={locale} messages={messages}>
           <ScrollReveal />
+          <BlackFridayBar href={blackFridayHref()} />
           <SocialBanner />
           <Navbar />
           <main>{children}</main>

@@ -6,6 +6,7 @@ import { getLatestArticles, getAllArticles, getTodayArticles, getVideoArticles }
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap, Play } from 'lucide-react'
+import { IrunDestaques } from '@/components/IrunDestaques'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 import type { Metadata } from 'next'
 
@@ -285,6 +286,9 @@ export default async function HomePage() {
           </div>
         </section>
       )}
+
+      {/* PARCEIRO i-Run (escondido enquanto não houver links) */}
+      <IrunDestaques />
 
       {/* CATEGORIAS */}
       <section className="relative py-20 border-t border-white/5 overflow-hidden"

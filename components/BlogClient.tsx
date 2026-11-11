@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, type ReactNode } from 'react'
 import { Search, X } from 'lucide-react'
 import { ArticleCard } from '@/components/ArticleCard'
 import type { ArticleMeta } from '@/lib/articles'
@@ -30,9 +30,11 @@ interface Props {
   heroTitle?: string
   heroDescription?: string
   heroBg?: string
+  /** Faixa de parceiro (i-Run) mostrada no topo da lista de artigos. */
+  faixa?: ReactNode
 }
 
-export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, heroDescription, heroBg }: Props) {
+export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, heroDescription, heroBg, faixa }: Props) {
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState(initialCategory)
   const [page, setPage] = useState(1)
@@ -183,6 +185,7 @@ export function BlogClient({ articles, initialCategory = 'Todos', heroTitle, her
 
       {/* ── ARTIGOS ── */}
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+        {faixa ? <div className="mb-8">{faixa}</div> : null}
         {/* Info / limpar */}
         <div className="flex items-center justify-between mb-8">
           <p className="text-white/30 text-xs font-mono">
