@@ -7,6 +7,7 @@ agachamento-corredores-como-fazer
 agasalho-maratona-descarte-estrategia
 alcool-recuperacao-desportiva-impacto
 alimentacao-vegetariana-vegan-corredores-fundo
+alongamento-estatico-dinamico-quando-usar
 alongamentos-antes-depois-correr
 alternativas-naturais-aos-geis
 altitude-hipoxia-efeitos-rendimento-estrategias
@@ -22,6 +23,7 @@ apple-watch-para-corredores-vale
 aquecimento-corrida-antes-prova-protocolo
 arm-swing-balanco-bracos-corrida
 arrefecimento-cool-down-importancia
+assimetrias-corrida-desequilibrios-bilaterais
 balancas-bioimpedancia-atletas-guia
 banho-gelo-quando-evitar-adaptacoes
 banho-gelo-recuperacao-corredores
@@ -137,6 +139,8 @@ fita-kinesiologia-corredores-como-quando-usar
 flexibilidade-tendao-aquiles-fascia-plantar-corrida
 flow-state-corrida-como-entrar
 foam-roller-miofascial-corrida
+forca-especifica-trail-running
+forca-maxima-vs-resistencia-corredores
 forca-reativa-plyometria-corrida
 forcas-impacto-corrida-aguentar
 fraqueza-gluteos-lesoes-corrida
@@ -155,6 +159,7 @@ gps-metricas-treino-dados-corredores
 gps-portateis-dedicados-vs-relogio-trail
 gut-training-estomago-corrida-longa
 hematocrito-hemoglobina-corrida
+hemoglobina-massa-total-endurance
 hidratacao-corrida-guia-cientifico
 hidratacao-eletrolitos-corrida-longa
 hidratacao-na-corrida-antes-durante-apos
@@ -165,8 +170,14 @@ hip-stability-quadril-corrida
 hiponatremia-corrida-prevencao
 hrv-ao-acordar-treinar-ou-descansar
 hrv-recuperacao-atletas-endurance
+humidade-vs-temperatura-performance
 identidade-corredor-proposito-treino
 imersao-em-agua-fria-beneficios-reais-e-limitacoes
+inclinacao-passadeira-1-porcento
+inclinacao-tronco-quanto-ideal
+intervalos-curtos-longos-vo2max
+intervalos-longos-vs-curtos-vo2max
+intervalos-vo2max-30-30-nordbeck
 isquiotibiais-prevenir-lesao
 jet-lag-viagem-competicao-protocolo
 joelheiras-tornozeleiras-corrida-prevencao-lesoes

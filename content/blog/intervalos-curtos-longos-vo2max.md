@@ -1,68 +1,90 @@
 ---
 title: "Intervalos Curtos vs. Longos: Qual Desenvolve Melhor o VO2max?"
-excerpt: "Um estudo de 2025 com corredores treinados compara intervalos curtos e intensos com intervalos longos tradicionais. O resultado vai surpreender-te."
+excerpt: "Um estudo de 2025 comparou séries curtas intensificadas com séries longas tradicionais no tempo acima de 90% do VO2max. Vê o que muda no teu treino."
 seoTitle: "Intervalos Curtos vs Longos: Qual Melhora Mais o VO2max"
 keyword: "intervalos curtos vs longos"
 keywords: ["treino de vo2max", "séries curtas ou longas", "intervalos para vo2max"]
 date: "2025-06-25"
 category: "Treino"
 readTime: 5
+faqs:
+  - q: "Porque é que o tempo acima de 90% do VO2max é tão usado para comparar sessões?"
+    a: "Porque se considera um dos principais estímulos para melhorar o VO2max. Não é o único fator, mas permite comparar formatos de séries de forma objetiva, medindo quanto tempo o consumo de oxigénio fica perto do máximo."
+  - q: "Então os intervalos curtos não servem para o VO2max?"
+    a: "Servem. Formatos como 15/15 ou 30/15 melhoraram o VO2max em vários estudos. O que a evidência mostra é que tornar as séries curtas cada vez mais rápidas, com recuperações mais curtas, não garante mais tempo perto do VO2max."
+  - q: "Quantas sessões de VO2max por semana devo fazer?"
+    a: "Para a maioria dos corredores amadores, uma a duas sessões de alta intensidade por semana chegam, dentro de um plano em que a maior parte do volume é fácil."
 ---
 
-A questão que divide treinadores: é melhor fazer intervalos curtos e muito intensos, ou intervalos longos a 90-95% do VO2max? Um estudo recente publicado no *PMC* (2025) testou exatamente isto — e os resultados foram surpreendentes.
+Há uma ideia intuitiva no treino de séries: se queres melhorar o VO₂max, corre mais depressa. Séries mais curtas, ritmos mais altos, recuperações mais curtas. Um estudo publicado em 2025 na *Frontiers in Sports and Active Living* pôs essa ideia à prova — e a resposta está no próprio título do artigo.
 
-## O estudo
+## O que o estudo comparou
 
-A investigação comparou dois protocolos de intervalos em corredores treinados:
+Mølmen et al. (2025) compararam, em corredores, dois tipos de sessão:
 
-**Protocolo A (curtos e intensificados)**: intervalos de 30-60 segundos a intensidade superior ao VO2max, com recuperações encurtadas
+- **Séries curtas «intensificadas»** – repetições curtas corridas mais depressa, com recuperações também mais curtas.
+- **Séries longas tradicionais** – repetições de vários minutos, ao ritmo habitual das sessões de VO₂max.
 
-**Protocolo B (longos tradicionais)**: intervalos de 4-8 minutos a ~90-95% do VO2max
+A variável principal foi o **tempo passado acima de 90 % do VO₂max**, um indicador muito usado para comparar o estímulo de diferentes sessões.
 
-O objetivo era medir o **tempo acima de 90% do VO2max** — que é o principal estímulo para as adaptações aeróbicas de topo.
+O resultado, como diz o título, foi que as séries curtas intensificadas ficaram aquém das séries longas tradicionais em tempo passado acima de 90 % do VO₂max. Correr mais depressa não se traduziu em mais tempo perto do máximo.
 
-**Resultado**: Os intervalos longos tradicionais geraram **mais tempo acima de 90% do VO2max** do que os curtos intensificados, apesar de estes serem mais intensos.
+## Porque é que isto acontece
 
-## Por que é que os intervalos longos funcionam melhor?
+O consumo de oxigénio não sobe instantaneamente. No início de cada repetição há uma fase de subida (a cinética do VO₂) que demora dezenas de segundos a minutos. Em séries muito curtas, parte de cada repetição é gasta nessa subida. Se a recuperação for demasiado curta ou o ritmo demasiado alto, a fadiga acumula-se e a sessão acaba mais cedo, ou o atleta tem de abrandar.
 
-A explicação fisiológica é intuitiva: com intervalos muito curtos, o sistema cardiovascular não tem tempo de atingir e manter intensidade cardiorrespiratória máxima. É como tentar aquecer um motor com acelerações de 5 segundos.
+Buchheit e Laursen (2013), na revisão que se tornou referência na programação de séries, explicam que o tempo perto do VO₂max depende da combinação de intensidade, duração das repetições, tipo e duração da recuperação e número de repetições. Não há uma variável que, sozinha, resolva a equação.
 
-Com intervalos de 4-8 minutos, o VO2 tem tempo de subir e manter-se próximo do máximo durante a maior parte do esforço.
+Vê mais sobre este mecanismo em [componente lenta do VO₂](/blog/componente-lenta-vo2-intensidade).
 
-## Os intervalos mais eficazes para VO2max
+## Isto quer dizer que só devo fazer séries longas?
 
-Com base na evidência atual, os formatos mais eficazes para estimular adaptações no VO2max:
+Não. É preciso ler o estudo pelo que ele mede. Mostra que uma forma específica de «intensificar» as séries curtas não aumenta o tempo acima de 90 % do VO₂max. Não mostra que os intervalos curtos sejam inúteis.
 
-**4×4 minutos a 90-95% da FC máxima**
-Com 3 minutos de recuperação ativa. Protocolo de Helgerud — um dos mais estudados. Aumentos de VO2max de 5-10% em 8 semanas em estudos controlados.
+Outros estudos mostram que séries curtas bem estruturadas funcionam:
 
-**5×5 minutos a ritmo de 5km pace**
-Versão ligeiramente mais longa. Muito usado em corredores de longa distância.
+- Helgerud et al. (2007) compararam quatro programas de 8 semanas em homens moderadamente treinados. Tanto o formato 15/15 (15 s rápidos, 15 s de recuperação ativa) como o 4×4 minutos, ambos a 90–95 % da frequência cardíaca máxima, melhoraram o VO₂max mais do que a corrida contínua lenta ou ao limiar.
+- Em ciclistas, Rønnestad et al. (2015) observaram melhores adaptações com séries curtas (30 s de esforço, 15 s de recuperação, em blocos) do que com séries longas com o mesmo esforço percebido.
 
-**Corrida contínua de 20-40 minutos a 85-90% FC máxima**
-Alternativa para quem tolera mal os intervalos. Menos eficaz que os intervalos para VO2max mas muito útil para o limiar de lactato.
+A mensagem coerente é esta: **as séries curtas funcionam quando a intensidade e as recuperações são escolhidas para manter o VO₂ elevado, não quando se tenta simplesmente correr o mais depressa possível.**
 
-## Quantas sessões por semana?
+## Como aplicar no teu treino
 
-**1-2 sessões de alta intensidade por semana** é o range suportado pela evidência para a maioria dos corredores. Mais do que 2 sessões semanais de alta intensidade tende a comprometer a recuperação sem acrescentar benefício adicional.
+### Formatos longos (base da sessão de VO₂max)
 
-O erro mais comum: fazer demasiado volume a intensidade média-alta, sem chegar nem ao "muito fácil" nem ao "verdadeiramente difícil".
+- **4×4 min** com 3 min de recuperação em trote, a um esforço que consegues manter de forma estável em todas as repetições (sensivelmente 90–95 % da frequência cardíaca máxima no fim de cada série).
+- **5×3 min** com 2–3 min de recuperação, para quem está a começar.
+- **4–6×5 min** para corredores com mais experiência.
 
-## Para que nível de corredor fazem sentido os intervalos?
+### Formatos curtos (bem doseados)
 
-Os intervalos de alta intensidade têm maior impacto quando:
-- Tens pelo menos 6 meses de base aeróbica consistente
-- Consegues correr 40+ minutos sem paragem
-- A tua frequência cardíaca de repouso já baixou visivelmente com o treino
+- **30/30** – 30 s rápidos, 30 s em trote, em 2–3 blocos de 6–10 repetições.
+- **30/15** – mais exigente; adequado a corredores com experiência em séries.
 
-Para iniciantes, o foco em volume de baixa intensidade é mais eficaz e mais seguro.
+A intensidade nas séries curtas deve permitir completar cada bloco com qualidade semelhante. Se as últimas repetições se arrastam, o ritmo estava demasiado alto ou a recuperação demasiado curta. Vê mais em [intervalos 30/30 e 60/60](/blog/intervalos-vo2max-30-30-nordbeck) e no artigo sobre [intervalos longos vs curtos](/blog/intervalos-longos-vs-curtos-vo2max).
+
+### Frequência
+
+Uma a duas sessões de alta intensidade por semana chegam para a maioria dos corredores amadores. O resto do volume deve ser fácil. Mais sessões intensas raramente compensam a fadiga acumulada.
+
+## Para quem fazem sentido
+
+As séries de VO₂max são úteis para quem já tem alguma base: corres de forma regular há vários meses e consegues fazer 40 minutos seguidos com conforto. Para quem está a começar, aumentar o volume de corrida fácil traz mais ganhos com menos risco.
+
+## Erros comuns
+
+- **Correr as primeiras repetições demasiado depressa** – encurta a sessão e reduz o tempo útil perto do VO₂max.
+- **Encurtar sempre as recuperações** – mais densidade não é sinónimo de mais estímulo.
+- **Fazer séries em todas as sessões** – a alta intensidade precisa de dias fáceis à volta.
+- **Ignorar o calor e o terreno** – em dias quentes ou em subida, regula pelo esforço e não pelo ritmo.
+
+## Conclusão
+
+O estudo de 2025 reforça uma lição antiga: mais rápido não é sempre melhor. Para acumular tempo perto do VO₂max, as séries longas tradicionais são uma aposta segura, e as séries curtas funcionam quando são doseadas para manter o consumo de oxigénio alto, não para bater recordes em cada repetição. Escolhe o formato que consegues completar com qualidade e mantém uma a duas sessões intensas por semana.
 
 ## Referências Científicas
 
-Mølmen, K. S., et al. (2025). Faster intervals, faster recoveries: Intensified short VO2max running intervals are inferior to traditional long intervals in terms of time spent above 90% VO2max. *PMC*, *11743937*. https://pmc.ncbi.nlm.nih.gov/articles/PMC11743937/
-
-Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, *39*(4), 665–671. https://doi.org/10.1249/mss.0b013e3180304570
-
-Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, *5*(3), 276–291. https://doi.org/10.1123/ijspp.5.3.276
-
-Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle. *Sports Medicine*, *43*(5), 313–338. https://doi.org/10.1007/s40279-013-0029-x
+1. Mølmen, K. S., et al. (2025). Faster intervals, faster recoveries: intensified short VO2max running intervals are inferior to traditional long intervals in terms of time spent above 90% VO2max. *Frontiers in Sports and Active Living*. https://doi.org/10.3389/fspor.2024.1507957
+2. Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671.
+3. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338.
+4. Rønnestad, B. R., et al. (2015). Short intervals induce superior training adaptations compared with long intervals in cyclists – an effort-matched approach. *Scandinavian Journal of Medicine & Science in Sports*, 25(2). https://doi.org/10.1111/sms.12165
