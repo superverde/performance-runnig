@@ -1,6 +1,6 @@
 ---
 title: "Desidratação de 2%: Quanto Custa na Prova"
-date: 'PENDENTE'
+date: '2026-11-14'
 category: "Fisiologia"
 excerpt: "A desidratação de 2% custa sempre rendimento? Vê o que a evidência diz sobre perda de peso por suor, calor e performance, e como usar o limite na prova."
 seoTitle: "Desidratação de 2%: Quanto Custa na Prova"

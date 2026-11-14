@@ -1,6 +1,6 @@
 ---
 title: "Treino dos Músculos Respiratórios: Funciona Mesmo na Corrida?"
-date: 'PENDENTE'
+date: '2026-11-14'
 category: "Treino"
 excerpt: "Treino dos músculos respiratórios: o que dizem as meta-análises, quem beneficia mais e como aplicar o treino inspiratório sem perder tempo nem dinheiro."
 seoTitle: "Treino dos Músculos Respiratórios: Funciona?"

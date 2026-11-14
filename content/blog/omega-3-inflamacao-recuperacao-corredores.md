@@ -1,6 +1,6 @@
 ---
 title: "Ómega-3 em Corredores: Inflamação, Recuperação e Dose Eficaz"
-date: 'PENDENTE'
+date: '2026-11-14'
 category: "Nutrição"
 excerpt: "Ómega-3 em corredores: o que a evidência diz sobre inflamação, dores musculares e rendimento, e que dose de EPA e DHA faz sentido para quem treina."
 seoTitle: "Ómega-3 em Corredores: Inflamação e Dose Eficaz"
