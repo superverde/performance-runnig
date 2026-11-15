@@ -1,6 +1,6 @@
 ---
 title: "Quantos Pares de Sapatilhas Precisas? O Que Diz a Ciência"
-date: 'PENDENTE'
+date: '2026-11-15'
 category: "Equipamento"
 excerpt: "Quantos pares de sapatilhas precisas para treinar bem? O que a ciência diz sobre rotação, lesões e desgaste, e como montar uma rotação simples e útil."
 seoTitle: "Quantos Pares de Sapatilhas Precisas? Rotação e Ciência"

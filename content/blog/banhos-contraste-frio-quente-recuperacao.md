@@ -1,6 +1,6 @@
 ---
 title: "Banhos de Contraste: Alternar Frio e Quente Funciona Mesmo?"
-date: 'PENDENTE'
+date: '2026-11-15'
 category: "Recuperação"
 excerpt: "Banhos de contraste: o que a evidência diz sobre alternar água fria e quente na recuperação, quando usar, que protocolo seguir e quando é melhor evitar."
 seoTitle: "Banhos de Contraste: Frio e Quente Funciona?"

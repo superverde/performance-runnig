@@ -1,6 +1,6 @@
 ---
 title: "Mobilidade da Anca em Corredores: As Limitações Mais Comuns"
-date: 'PENDENTE'
+date: '2026-11-15'
 category: "Biomecânica"
 excerpt: "Mobilidade da anca em corredores: as limitações mais comuns, como as testar em casa e os exercícios de mobilidade e força que melhoram a amplitude."
 seoTitle: "Mobilidade da Anca em Corredores: Limitações Comuns"
