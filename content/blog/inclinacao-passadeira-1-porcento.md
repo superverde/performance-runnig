@@ -23,7 +23,7 @@ Quando corres na rua, deslocas-te através do ar e tens de vencer a sua resistê
 
 Pugh (1970) foi dos primeiros a quantificar o custo energético da resistência do ar na corrida, comparando pista e passadeira, e mostrou que esse custo aumenta de forma acentuada com a velocidade.
 
-Jones e Doust (1996) testaram depois a solução prática. Mediram o consumo de oxigénio de corredores treinados ao ar livre e na passadeira com várias inclinações, a velocidades entre cerca de 10,5 e 18 km/h. A conclusão está no título do artigo: **uma inclinação de 1 % é a que melhor reproduz o custo energético da corrida ao ar livre** nesse intervalo de velocidades.
+Jones e Doust (1996) testaram depois a solução prática. Mediram o consumo de oxigénio de nove corredores treinados (habituados à passadeira) em estrada plana e na passadeira a 0, 1, 2 e 3 % de inclinação, a velocidades entre cerca de 10,5 e 18 km/h. A conclusão está no título do artigo: **uma inclinação de 1 % é a que melhor reproduz o custo energético da corrida ao ar livre** nesse intervalo de velocidades.
 
 ## O que isto significa (e o que não significa)
 
@@ -44,7 +44,7 @@ Como a resistência do ar cresce com o quadrado da velocidade, a ritmos fáceis 
 
 ## A passadeira não é só uma questão de inclinação
 
-A meta-análise de Miller et al. (2019), que reuniu estudos cruzados entre passadeira e corrida no solo, encontrou diferenças em algumas variáveis fisiológicas e de perceção do esforço entre os dois contextos, e Van Hooren et al. (2020), numa revisão sistemática sobre biomecânica, concluíram que a corrida em passadeira motorizada é, em grande parte, comparável à corrida no solo, embora com diferenças em algumas variáveis cinemáticas e cinéticas.
+A meta-análise de Miller et al. (2019), que reuniu 34 estudos cruzados entre passadeira e corrida no solo, concluiu que algumas variáveis diferem e outras não. Curiosamente, em esforços submáximos o consumo de oxigénio e o lactato foram, em média, mais baixos na passadeira tanto a 0 % como a 1 % — sinal de que o 1 % é uma boa aproximação, não uma equivalência perfeita para todos. Já a frequência cardíaca e o esforço percebido foram mais altos na passadeira a velocidades submáximas rápidas e mais baixos a velocidades lentas. Van Hooren et al. (2020), numa revisão sistemática sobre biomecânica, concluíram que a corrida em passadeira motorizada é, em grande parte, comparável à corrida no solo, embora com diferenças em algumas variáveis cinemáticas e cinéticas.
 
 Na prática, há mais coisas que mudam além do ar:
 
@@ -75,7 +75,7 @@ A regra do 1 % tem fundamento: compensa a resistência do ar que não existe na 
 
 ## Referências Científicas
 
-1. Jones, A. M., & Doust, J. H. (1996). A 1% treadmill grade most accurately reflects the energetic cost of outdoor running. *Journal of Sports Sciences*, 14(4), 321–327.
-2. Pugh, L. G. C. E. (1970). Oxygen intake in track and treadmill running with observations on the effect of air resistance. *The Journal of Physiology*, 207.
-3. Miller, J. R., et al. (2019). A systematic review and meta-analysis of crossover studies comparing physiological, perceptual and performance measures between treadmill and overground running. *Sports Medicine*.
-4. Van Hooren, B., et al. (2020). Is motorized treadmill running biomechanically comparable to overground running? A systematic review and meta-analysis of cross-over studies. *Sports Medicine*.
+1. Jones, A. M., & Doust, J. H. (1996). A 1% treadmill grade most accurately reflects the energetic cost of outdoor running. *Journal of Sports Sciences*, 14(4), 321–327. https://doi.org/10.1080/02640419608727717
+2. Pugh, L. G. C. E. (1970). Oxygen intake in track and treadmill running with observations on the effect of air resistance. *The Journal of Physiology*, 207(3), 823–835. https://doi.org/10.1113/jphysiol.1970.sp009097
+3. Miller, J. R., Van Hooren, B., Bishop, C., Buckley, J. D., Willy, R. W., & Fuller, J. T. (2019). A systematic review and meta-analysis of crossover studies comparing physiological, perceptual and performance measures between treadmill and overground running. *Sports Medicine*, 49(5). https://doi.org/10.1007/s40279-019-01087-9
+4. Van Hooren, B., et al. (2020). Is motorized treadmill running biomechanically comparable to overground running? A systematic review and meta-analysis of cross-over studies. *Sports Medicine*, 50(4), 785–813. https://doi.org/10.1007/s40279-019-01237-z

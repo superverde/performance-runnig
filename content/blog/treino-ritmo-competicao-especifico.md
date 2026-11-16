@@ -119,7 +119,7 @@ O ritmo de prova é o treino mais específico que tens, por isso deve crescer de
 
 ## Referências Científicas
 
-1. Haugen, T., Sandbakk, Ø., Seiler, S., & Tønnessen, E. (2022). The Training Characteristics of World-Class Distance Runners: An Integration of Scientific Literature and Results-Proven Practice. *Sports Medicine - Open*, 8, 46.
-2. Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance: can valid recommendations be given to runners and coaches based on current scientific knowledge? *Sports Medicine*, 37(10), 857–880.
-3. Kenneally, M., Casado, A., & Santos-Concejero, J. (2018). The Effect of Periodization and Training Intensity Distribution on Middle- and Long-Distance Running Performance: A Systematic Review. *International Journal of Sports Physiology and Performance*, 13(9), 1114–1121.
+1. Haugen, T., Sandbakk, Ø., Seiler, S., & Tønnessen, E. (2022). The Training Characteristics of World-Class Distance Runners: An Integration of Scientific Literature and Results-Proven Practice. *Sports Medicine - Open*, 8, 46. https://doi.org/10.1186/s40798-022-00438-7
+2. Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance: can valid recommendations be given to runners and coaches based on current scientific knowledge? *Sports Medicine*, 37(10), 857–880. https://doi.org/10.2165/00007256-200737100-00003
+3. Kenneally, M., Casado, A., & Santos-Concejero, J. (2018). The Effect of Periodization and Training Intensity Distribution on Middle- and Long-Distance Running Performance: A Systematic Review. *International Journal of Sports Physiology and Performance*, 13(9), 1114–1121. https://doi.org/10.1123/ijspp.2017-0327
 4. Jeukendrup, A. E. (2017). Training the Gut for Athletes. *Sports Medicine*, 47(Suppl 1), 101–110. https://doi.org/10.1007/s40279-017-0690-6

@@ -33,7 +33,7 @@ Imagina dois corredores com o mesmo plano: «rodagem de 12 km».
 - Corredor A, ritmo fácil de 5:00/km: 60 minutos.
 - Corredor B, ritmo fácil de 6:30/km: 78 minutos.
 
-O corredor B fica quase 30% mais tempo em esforço para «o mesmo treino». Somado ao longo de uma semana ou de um bloco, isto significa mais carga para quem, à partida, tem menos capacidade para a tolerar. Planear em minutos iguala o estímulo entre corredores de níveis diferentes.
+O corredor B fica 30% mais tempo em esforço para «o mesmo treino». Somado ao longo de uma semana ou de um bloco, isto significa mais carga para quem, à partida, tem menos capacidade para a tolerar. Planear em minutos iguala o estímulo entre corredores de níveis diferentes.
 
 ## Vantagens de treinar por tempo
 
@@ -46,7 +46,7 @@ O corredor B fica quase 30% mais tempo em esforço para «o mesmo treino». Soma
 
 - **Especificidade de prova.** Numa preparação para 10 km, meia maratona ou maratona, saber que já correste 18 km ou que fizeste 3 × 3 km ao ritmo de prova tem valor real, físico e psicológico.
 - **Comparação ao longo do tempo.** Repetir o mesmo percurso ou a mesma série em quilómetros permite ver a evolução do ritmo para o mesmo esforço.
-- **Progressão do volume.** O volume semanal em quilómetros é a métrica mais usada nos estudos sobre lesões. Nielsen et al. (2014) observaram, em corredores principiantes, que aumentos superiores a 30% na distância semanal ao longo de duas semanas se associaram a maior risco de algumas lesões ligadas ao volume. Vê também o artigo sobre a [regra dos 10%](/blog/progressao-volume-regra-10-porcento) e os seus limites.
+- **Progressão do volume.** O volume semanal em quilómetros é a métrica mais usada nos estudos sobre lesões. Nielsen et al. (2014) seguiram 874 corredores principiantes durante um ano: não houve diferenças no risco global de lesão, mas quem aumentou a distância semanal mais de 30% ao longo de duas semanas mostrou uma tendência para mais lesões ligadas ao volume (como dor patelofemoral ou síndrome da banda iliotibial). O estudo é exploratório e esta associação não atingiu significância estatística, mas os autores sugerem prudência com aumentos desta dimensão. Vê também o artigo sobre a [regra dos 10%](/blog/progressao-volume-regra-10-porcento) e os seus limites.
 - **Séries na pista.** Repetições de 400 m, 800 m ou 1000 m são naturalmente definidas por distância e permitem controlar o ritmo com precisão.
 
 ## Quando usar cada um
@@ -63,7 +63,7 @@ O corredor B fica quase 30% mais tempo em esforço para «o mesmo treino». Soma
 
 ## A corrida longa: o caso em que precisas dos dois
 
-A corrida longa é onde esta escolha mais pesa. Um plano de maratona que prescreve 32 km para todos ignora que um corredor de 3h00 os faz em cerca de 2h30 a 2h40 a ritmo fácil, enquanto um corredor de 4h30 pode precisar de mais de 3h30.
+A corrida longa é onde esta escolha mais pesa. Um plano de maratona que prescreve 32 km para todos ignora que um corredor de 3h00 os faz em cerca de 2h35 a 2h50 a ritmo fácil, enquanto um corredor de 4h30 pode precisar de mais de 3h30.
 
 Uma abordagem prudente e muito usada por treinadores é definir a longa em quilómetros, mas **com um limite de tempo**. Para muitos amadores, um teto entre 2h30 e 3h00 é um bom ponto de partida; acima disso, o custo em fadiga e recuperação tende a crescer mais do que o benefício. Não há um limite exato demonstrado em estudos, por isso ajusta-o à tua experiência e à forma como recuperas. O guia sobre [como fazer a corrida longa](/blog/long-run-como-fazer-corretamente) aprofunda este tema.
 
@@ -103,6 +103,6 @@ Não há uma unidade melhor em absoluto: há uma unidade melhor para cada sessã
 ## Referências Científicas
 
 1. Foster, C., Florhaug, J. A., Franklin, J., Gottschall, L., Hrovatin, L. A., Parker, S., Doleshal, P., & Dodge, C. (2001). A new approach to monitoring exercise training. *Journal of Strength and Conditioning Research*, 15(1), 109–115.
-2. Impellizzeri, F. M., Marcora, S. M., & Coutts, A. J. (2019). Internal and External Training Load: 15 Years On. *International Journal of Sports Physiology and Performance*, 14(2), 270–273.
-3. Nielsen, R. O., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Excessive progression in weekly running distance and risk of running-related injuries: an association which varies according to type of injury. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 739–747.
-4. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291.
+2. Impellizzeri, F. M., Marcora, S. M., & Coutts, A. J. (2019). Internal and External Training Load: 15 Years On. *International Journal of Sports Physiology and Performance*, 14(2), 270–273. https://doi.org/10.1123/ijspp.2018-0935
+3. Nielsen, R. O., Parner, E. T., Nohr, E. A., Sørensen, H., Lind, M., & Rasmussen, S. (2014). Excessive progression in weekly running distance and risk of running-related injuries: an association which varies according to type of injury. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 739–747. https://doi.org/10.2519/jospt.2014.5164
+4. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291. https://doi.org/10.1123/ijspp.5.3.276

@@ -5,14 +5,14 @@ category: "Biomecânica"
 excerpt: "Inclinação do tronco a correr: não há um ângulo ideal universal. Vê o que diz a evidência sobre economia e joelho, como te filmar e que erros evitar."
 keyword: "inclinação do tronco"
 keywords: ["postura na corrida", "inclinação para a frente a correr", "técnica de corrida"]
-readTime: 5
+readTime: 6
 faqs:
   - q: "Existe um ângulo de inclinação do tronco recomendado para correr?"
     a: "Não há um valor único validado para todos. A maioria dos corredores corre com uma ligeira inclinação para a frente, e a evidência sobre o efeito do ângulo na economia é limitada. O mais importante é evitar extremos e não colapsar com a fadiga."
   - q: "Posso usar um smartwatch para medir a inclinação do tronco?"
     a: "Não de forma fiável. A inclinação do tronco avalia-se melhor em vídeo de perfil; os sensores de pulso não medem a postura do tronco com precisão útil."
   - q: "Inclinar mais o tronco ajuda quem tem dor no joelho?"
-    a: "Pode ajudar. Um estudo mostrou que correr com o tronco mais fletido reduziu o stress na articulação patelofemoral, mas transfere trabalho para a anca e a zona lombar. Qualquer mudança deve ser gradual e, com dor, acompanhada por um fisioterapeuta."
+    a: "Pode ajudar. Um estudo mostrou que correr com o tronco mais fletido reduziu o stress na articulação patelofemoral, mas é provável que transfira trabalho para a anca e a zona lombar. Qualquer mudança deve ser gradual e, com dor, acompanhada por um fisioterapeuta."
 ---
 
 «Inclina-te para a frente a partir dos tornozelos.» É uma das instruções técnicas mais repetidas na corrida, e muitas vezes vem acompanhada de um número exato de graus. A verdade menos vendável é esta: não existe um ângulo ideal de tronco comprovado que sirva a qualquer corredor. Existem extremos a evitar, efeitos conhecidos sobre o joelho e a anca, e muita variação individual.
@@ -27,15 +27,15 @@ A grande maioria dos corredores corre com o tronco ligeiramente inclinado para a
 
 ### Economia de corrida: pouca evidência para um ângulo-alvo
 
-Moore (2016), numa revisão sobre os fatores biomecânicos modificáveis que afetam a economia de corrida, analisou variáveis como a frequência de passada, a oscilação vertical, o ângulo do joelho e a postura do tronco. A conclusão geral é que alguns fatores têm associações razoavelmente consistentes com a economia, mas, para a inclinação do tronco, a evidência é escassa e não permite definir um ângulo ótimo.
+Moore (2016), numa revisão sobre os fatores biomecânicos modificáveis que afetam a economia de corrida, identificou alguns fatores com associações razoavelmente consistentes — como correr perto do comprimento de passada preferido, ter menor oscilação vertical, manter o balanço dos braços e menor extensão da perna no fim do apoio. A inclinação do tronco não está entre esses fatores, e a autora recomenda prudência antes de prescrever uma «técnica económica» geral. Não há, portanto, base para definir um ângulo ótimo.
 
 Na prática, isto quer dizer que não deves perder tempo a perseguir «7 graus» ou «10 graus». Esses números não vêm de estudos que tenham demonstrado um ótimo.
 
 ### Joelho e anca: a inclinação muda onde está a carga
 
-Aqui a evidência é mais clara. Teng e Powers (2014) pediram a corredores que corressem com a postura habitual, com o tronco mais fletido e com o tronco mais ereto. Com mais flexão do tronco, o stress na articulação patelofemoral (entre a rótula e o fémur) diminuiu; com o tronco mais ereto, aumentou.
+Aqui a evidência é mais clara. Teng e Powers (2014) pediram a 24 corredores sem dor que corressem com a postura habitual, com o tronco mais fletido e com o tronco mais ereto. Com mais flexão do tronco, o stress na articulação patelofemoral (entre a rótula e o fémur) diminuiu; com o tronco mais ereto, aumentou.
 
-A explicação mecânica é simples: inclinar o tronco desloca o centro de massa para a frente, aproxima-o do joelho e reduz o trabalho dos extensores do joelho. Em contrapartida, aumenta a exigência sobre os extensores da anca (glúteos e isquiotibiais) e sobre os músculos das costas.
+A explicação mecânica é simples: inclinar o tronco desloca o centro de massa para a frente, aproxima-o do joelho e reduz o trabalho dos extensores do joelho. Em contrapartida, é de esperar que aumente a exigência sobre os extensores da anca (glúteos e isquiotibiais) e sobre os músculos das costas — algo que este estudo não mediu diretamente, mas que decorre da mecânica.
 
 Isto torna a inclinação do tronco uma ferramenta útil num caso concreto — corredores com dor patelofemoral —, desde que a anca e o tronco tenham força para aguentar a carga extra. Não é uma regra universal de técnica.
 
@@ -87,7 +87,7 @@ Se a tua passada aterra muito à frente do corpo, aumentar ligeiramente a cadên
 
 ## Conclusão
 
-A inclinação ideal do tronco é, para a maioria dos corredores, uma ligeira inclinação para a frente a partir do corpo inteiro, sem dobrar pela cintura e sem correr «para trás». A evidência não sustenta um ângulo exato para otimizar a economia, mas mostra que inclinar mais o tronco reduz a carga no joelho e aumenta a da anca. Filma-te, procura os extremos, treina a força do tronco e da anca e preocupa-te sobretudo em manter a postura quando estás cansado.
+A inclinação ideal do tronco é, para a maioria dos corredores, uma ligeira inclinação para a frente a partir do corpo inteiro, sem dobrar pela cintura e sem correr «para trás». A evidência não sustenta um ângulo exato para otimizar a economia, mas mostra que inclinar mais o tronco reduz a carga no joelho, provavelmente à custa de mais trabalho da anca. Filma-te, procura os extremos, treina a força do tronco e da anca e preocupa-te sobretudo em manter a postura quando estás cansado.
 
 ## Referências Científicas
 

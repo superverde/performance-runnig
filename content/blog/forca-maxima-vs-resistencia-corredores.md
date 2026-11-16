@@ -36,7 +36,7 @@ Rønnestad e Mujika (2014), numa revisão sobre a otimização da força para co
 
 ### Força pesada e fadiga
 
-Um dos dados mais interessantes é recente. Zanini et al. (2025), num ensaio controlado e aleatorizado em corredores masculinos bem treinados, verificaram que o treino de força melhorou a durabilidade da economia de corrida — ou seja, a capacidade de manter a economia depois de uma corrida prolongada — e a performance de alta intensidade em estado de fadiga. É exatamente o que interessa a quem corre meia maratona ou maratona: chegar ao fim sem que a técnica e o custo energético se degradem tanto.
+Um dos dados mais interessantes é recente. Zanini et al. (2025), num ensaio controlado e aleatorizado com 28 corredores masculinos bem treinados, verificaram que juntar à corrida 10 semanas de força e pliometria, duas vezes por semana, melhorou a durabilidade da economia de corrida — ou seja, a capacidade de manter a economia depois de uma corrida prolongada — e a performance de alta intensidade em estado de fadiga. É exatamente o que interessa a quem corre meia maratona ou maratona: chegar ao fim sem que a técnica e o custo energético se degradem tanto.
 
 ### E a resistência muscular?
 
@@ -91,4 +91,4 @@ Força máxima e resistência muscular não são opções equivalentes para um c
 1. Støren, Ø., Helgerud, J., Støa, E. M., & Hoff, J. (2008). Maximal strength training improves running economy in distance runners. *Medicine & Science in Sports & Exercise*, 40(6), 1087–1092. https://doi.org/10.1249/MSS.0b013e318168da2f
 2. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149.
 3. Rønnestad, B. R., & Mujika, I. (2014). Optimizing strength training for running and cycling endurance performance: a review. *Scandinavian Journal of Medicine & Science in Sports*, 24(4), 603–612. https://doi.org/10.1111/sms.12104
-4. Zanini, M., et al. (2025). Strength training improves running economy durability and fatigued high-intensity performance in well-trained male runners: a randomized control trial. *Medicine & Science in Sports & Exercise*.
+4. Zanini, M., Folland, J. P., Wu, H., & Blagrove, R. C. (2025). Strength training improves running economy durability and fatigued high-intensity performance in well-trained male runners: a randomized control trial. *Medicine & Science in Sports & Exercise*, 57(7), 1546–1558. https://doi.org/10.1249/MSS.0000000000003685

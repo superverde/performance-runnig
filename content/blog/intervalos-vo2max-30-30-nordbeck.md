@@ -1,11 +1,11 @@
 ---
-title: "30/30 e 60/60: Os Intervalos Que Mais Aumentam o VO2max"
+title: "30/30 e 60/60: Como Fazer Estes Intervalos de VO2max"
 date: '2026-09-09'
 category: "Treino"
-excerpt: "Os intervalos 30/30 e 60/60 permitem acumular muito tempo perto do VO2max. Vê a que ritmo os fazer, quantas repetições e como progredir com segurança."
+excerpt: "Os intervalos 30/30 e 60/60 permitem acumular tempo perto do VO2max. Vê a que ritmo os fazer, quantas repetições e como progredir com segurança."
 keyword: "intervalos 30/30"
 keywords: ["30/30 corrida", "60/60 intervalos", "intervalos vo2max"]
-readTime: 5
+readTime: 6
 faqs:
   - q: "Como devo aquecer antes de um treino 30/30?"
     a: "Faz 15 a 20 minutos de corrida fácil, alguns exercícios técnicos e 3 a 4 acelerações progressivas de 20 segundos. O objetivo é chegar à primeira repetição já com o corpo pronto para o ritmo rápido."
@@ -15,7 +15,7 @@ faqs:
     a: "Num dia de qualidade, com pelo menos um dia fácil antes e depois. Para a maioria dos corredores amadores, uma sessão por semana deste tipo chega, combinada com corrida fácil e, eventualmente, uma sessão de limiar."
 ---
 
-O 30/30 é um dos formatos de séries mais conhecidos do atletismo: 30 segundos rápidos, 30 segundos lentos, repetido várias vezes. O 60/60 é o seu «irmão mais velho». Os dois são populares por uma boa razão: bem feitos, permitem acumular muito tempo perto do VO₂max sem a dureza psicológica de séries de 5 minutos. Mas a forma de os fazer é muitas vezes mal explicada — e o erro mais comum é transformá-los em sprints.
+O 30/30 é um dos formatos de séries mais conhecidos do atletismo: 30 segundos rápidos, 30 segundos lentos, repetido várias vezes. O 60/60 é o seu «irmão mais velho». Os dois são populares por uma boa razão: bem feitos, permitem acumular bastante tempo perto do VO₂max — mais do que uma corrida contínua intensa — sem a dureza psicológica de séries de 5 minutos. Mas a forma de os fazer é muitas vezes mal explicada — e o erro mais comum é transformá-los em sprints.
 
 ## Porque funcionam
 
@@ -23,19 +23,23 @@ O 30/30 é um dos formatos de séries mais conhecidos do atletismo: 30 segundos 
 
 Quando alternas períodos curtos de esforço com recuperações curtas, o consumo de oxigénio não tem tempo de descer muito durante a recuperação. Depois das primeiras repetições, mantém-se elevado ao longo de toda a série.
 
-Billat et al. (2000) mostraram isto de forma direta. Compararam corrida intermitente — 30 segundos à velocidade associada ao VO₂max (vVO₂max) alternados com 30 segundos a 50 % dessa velocidade — com corrida contínua intensa mas submáxima. Com o formato 30/30, os corredores conseguiram manter-se no VO₂max durante mais tempo do que na corrida contínua.
+Billat et al. (2000) mostraram isto de forma direta. Em oito corredores de fundo, compararam corrida intermitente — 30 segundos à velocidade associada ao VO₂max (vVO₂max) alternados com 30 segundos a 50 % dessa velocidade — com corrida contínua intensa mas submáxima (cerca de 91 % da vVO₂max). Com o formato 30/30, os corredores mantiveram-se no VO₂max durante cerca de 7 min 51 s, contra cerca de 2 min 42 s na corrida contínua.
 
 ### O ritmo certo é a vVO₂max, não o sprint
 
 A chave está na intensidade: no estudo de Billat et al. (2000), as fases rápidas foram feitas à vVO₂max — um ritmo que se consegue manter apenas alguns minutos seguidos e que, para a maioria dos corredores, é mais rápido do que o ritmo de prova de 5 km. Não é o ritmo máximo de 30 segundos. Vê quanto tempo se aguenta a essa velocidade em [tempo limite à vVO₂max](/blog/tempo-limite-vvo2max-tlim).
 
-Buchheit e Laursen (2013) explicam que, em séries curtas, aumentar demasiado a intensidade acelera a fadiga e pode reduzir o tempo total perto do VO₂max. Mølmen et al. (2025) chegaram a uma conclusão compatível: séries curtas «intensificadas», mais rápidas e com recuperações mais curtas, acumularam menos tempo acima de 90 % do VO₂max do que séries longas tradicionais.
+Buchheit e Laursen (2013) explicam que, em séries curtas, aumentar demasiado a intensidade acelera a fadiga e pode reduzir o tempo total perto do VO₂max.
+
+### 30/30 ou séries longas?
+
+Há um dado recente que convém conhecer. Fleckenstein, Braunstein e Walter (2025) compararam, em 12 meio-fundistas altamente treinados, um 30/30 (24 × 30 s a 100 % da vVO₂max com 30 s a 55 %) com 4 × 3 min a 95 % da vVO₂max (com 3 min a 50 %). O 30/30 acumulou menos tempo acima de 90 % do VO₂max do que as séries de 3 minutos (cerca de 201 s contra 328 s). Ou seja: o 30/30 bate a corrida contínua intensa (Billat et al., 2000), mas numa sessão isolada não superou as séries longas clássicas. É um formato útil, não necessariamente o mais potente.
 
 Para saber estimar a tua vVO₂max, vê o artigo sobre [velocidade aeróbia máxima](/blog/velocidade-aerobia-maxima-vvo2max).
 
 ### E os ganhos de VO₂max?
 
-Os formatos curtos intermitentes melhoraram o VO₂max em estudos controlados. Helgerud et al. (2007) obtiveram ganhos com um formato 15/15 semelhantes aos do 4×4 minutos, ambos superiores à corrida contínua. Não há números mágicos garantidos: a resposta varia com o nível inicial, o volume e a duração do programa.
+Os formatos curtos intermitentes melhoraram o VO₂max em estudos controlados. Helgerud et al. (2007), em 8 semanas e com o mesmo trabalho total, obtiveram com um formato 15/15 ganhos de VO₂max (cerca de 5,5 %) comparáveis aos do 4×4 minutos (cerca de 7,2 %), ambos superiores aos da corrida contínua lenta ou ao limiar. Não há números mágicos garantidos: a resposta varia com o nível inicial, o volume e a duração do programa.
 
 ## Como fazer o 30/30
 
@@ -91,11 +95,11 @@ Exemplo de bloco de 6 semanas:
 
 ## Conclusão
 
-O 30/30 e o 60/60 são formatos excelentes para acumular tempo perto do VO₂max, desde que feitos ao ritmo certo — próximo da vVO₂max, não em sprint — e com recuperações em trote. Começa com volumes modestos, progride primeiro no número de repetições e mantém uma sessão por semana dentro de um plano em que a maior parte do volume é fácil.
+O 30/30 e o 60/60 são bons formatos para acumular tempo perto do VO₂max e um complemento útil às séries longas de 3 a 5 minutos, desde que feitos ao ritmo certo — próximo da vVO₂max, não em sprint — e com recuperações em trote. Começa com volumes modestos, progride primeiro no número de repetições e mantém uma sessão por semana dentro de um plano em que a maior parte do volume é fácil.
 
 ## Referências Científicas
 
-1. Billat, V. L., et al. (2000). Intermittent runs at the velocity associated with maximal oxygen uptake enables subjects to remain at maximal oxygen uptake for a longer time than intense but submaximal runs. *European Journal of Applied Physiology*, 81(3). https://doi.org/10.1007/s004210050029
-2. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338.
-3. Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671.
-4. Mølmen, K. S., et al. (2025). Faster intervals, faster recoveries: intensified short VO2max running intervals are inferior to traditional long intervals in terms of time spent above 90% VO2max. *Frontiers in Sports and Active Living*. https://doi.org/10.3389/fspor.2024.1507957
+1. Billat, V. L., et al. (2000). Intermittent runs at the velocity associated with maximal oxygen uptake enables subjects to remain at maximal oxygen uptake for a longer time than intense but submaximal runs. *European Journal of Applied Physiology*, 81(3), 188–196. https://doi.org/10.1007/s004210050029
+2. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338. https://doi.org/10.1007/s40279-013-0029-x
+3. Helgerud, J., Høydal, K., Wang, E., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671. https://doi.org/10.1249/mss.0b013e3180304570
+4. Fleckenstein, D., Braunstein, H., & Walter, N. (2025). Faster intervals, faster recoveries: intensified short VO2max running intervals are inferior to traditional long intervals in terms of time spent above 90% VO2max. *Frontiers in Sports and Active Living*, 6, 1507957. https://doi.org/10.3389/fspor.2024.1507957

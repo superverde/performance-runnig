@@ -6,7 +6,7 @@ excerpt: "Quantos pares de sapatilhas precisas para treinar bem? O que a ciênci
 seoTitle: "Quantos Pares de Sapatilhas Precisas? Rotação e Ciência"
 keyword: "quantos pares de sapatilhas"
 keywords: ["rotação de sapatilhas", "várias sapatilhas de corrida", "pares de sapatilhas corredor"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "Um corredor principiante precisa de mais do que um par de sapatilhas?"
     a: "Não é obrigatório. Com 2 a 3 treinos por semana, um bom par confortável chega. Um segundo par passa a fazer sentido quando o volume aumenta, quando treinas em pisos muito diferentes ou quando queres ter sempre um par seco."
@@ -24,12 +24,12 @@ A pergunta interessante não é «quantos», mas **para quê**. Cada par deve te
 
 ### O estudo de referência
 
-O trabalho mais citado sobre o tema é o de Malisoux e colaboradores (2015), no Luxemburgo. Seguiram 264 corredores recreativos durante 22 semanas e registaram todos os treinos, o calçado usado e as lesões. Os corredores que usavam **vários pares de sapatilhas em paralelo** tiveram um risco de lesão cerca de **39% inferior** ao dos que usavam sempre o mesmo par, depois de ajustar para outros fatores.
+O trabalho mais citado sobre o tema é o de Malisoux e colaboradores (2015), no Luxemburgo. Seguiram 264 corredores recreativos durante 22 semanas, que registaram numa plataforma online os treinos, o calçado usado, a prática de outros desportos e as lesões. Cerca de um terço (87 corredores) teve pelo menos uma lesão. Na análise ajustada, usar **mais do que um par de sapatilhas em paralelo** associou-se a um risco de lesão cerca de **39% inferior** (razão de risco de 0,614) ao de quem usava sempre o mesmo par. Uma lesão anterior, pelo contrário, associou-se a maior risco.
 
 Há duas cautelas importantes:
 
 - É um **estudo observacional**. Mostra uma associação, não uma relação de causa e efeito. Quem tem vários pares pode diferir de outras formas (experiência, cuidado com o treino, prática de outros desportos).
-- Os próprios autores notaram que a **prática de outras atividades desportivas** também se associava a menor risco, o que reforça a ideia de que a variação da carga, e não apenas o calçado, pode ser o que conta.
+- No mesmo estudo, **mais horas semanais de outros desportos** também se associaram a menor risco. Os autores interpretaram os dois resultados da mesma forma — variar a carga sobre o aparelho locomotor —, o que reforça a ideia de que a variação da carga, e não apenas o calçado, pode ser o que conta.
 
 ### Porque é que a rotação poderia ajudar
 
@@ -45,7 +45,7 @@ Isto liga-se a uma ideia mais ampla proposta por Nigg e colaboradores (2015): o 
 
 ## O desgaste: o que muda numa sapatilha usada
 
-Kong et al. (2009) compararam corredores com sapatilhas novas e com as mesmas sapatilhas depois de cerca de 200 milhas (aproximadamente 320 km) de uso. As alterações na mecânica da corrida e nas forças de impacto foram **pequenas**: o corpo ajustou-se ao desgaste. A conclusão prática é que não há um quilómetro mágico em que a sapatilha passa de boa a perigosa; o desgaste é gradual e o teu corpo adapta-se a ele.
+Kong et al. (2009) compararam 24 corredores com sapatilhas novas e com as mesmas sapatilhas depois de 200 milhas (cerca de 320 km) de uso, em três tipos de amortecimento. Com as sapatilhas gastas, o tempo de apoio aumentou e houve **pequenos ajustes** na posição do tronco e do tornozelo; os autores interpretaram-nos como uma adaptação para manter a carga externa semelhante. Não houve diferenças entre os três tipos de amortecimento. A conclusão prática é que não há um quilómetro mágico em que a sapatilha passa de boa a perigosa; o desgaste é gradual e o teu corpo adapta-se a ele.
 
 Com dois pares em rotação, cada um acumula menos quilómetros por semana. Isso tem duas consequências úteis:
 
@@ -82,7 +82,7 @@ Se o segundo par tiver um drop muito diferente do primeiro, faz a transição de
 
 ### 3. O par de competição (opcional)
 
-As sapatilhas de competição com espumas de alta resiliência e placa podem melhorar a economia de corrida. Hoogkamer et al. (2018) mediram, em laboratório, um custo energético em média cerca de 4% inferior com um protótipo deste tipo, em comparação com duas sapatilhas de competição tradicionais. São sapatilhas caras e, em geral, menos duráveis, por isso faz sentido reservá-las para provas e para alguns treinos-chave de ritmo de prova. Lê mais sobre isto em [placa de carbono nas sapatilhas](/blog/placa-de-carbono-sapatilhas-corrida).
+As sapatilhas de competição com espumas de alta resiliência e placa podem melhorar a economia de corrida. Hoogkamer et al. (2018) mediram, em laboratório, um custo energético em média cerca de 4% inferior com um protótipo deste tipo, em comparação com duas sapatilhas de competição tradicionais. São sapatilhas caras, por isso faz sentido reservá-las para provas e para alguns treinos-chave de ritmo de prova. Lê mais sobre isto em [placa de carbono nas sapatilhas](/blog/placa-de-carbono-sapatilhas-corrida).
 
 ## Regras práticas para a rotação
 
@@ -106,8 +106,8 @@ Um par chega para começar; dois pares diferentes são o ponto ideal para a maio
 
 ## Referências Científicas
 
-1. Malisoux, L., Ramesh, J., Mann, R., Seil, R., Urhausen, A., & Theisen, D. (2015). Can parallel use of different running shoes decrease running-related injury risk? *Scandinavian Journal of Medicine & Science in Sports*, 25(1), 110–115.
+1. Malisoux, L., Ramesh, J., Mann, R., Seil, R., Urhausen, A., & Theisen, D. (2015). Can parallel use of different running shoes decrease running-related injury risk? *Scandinavian Journal of Medicine & Science in Sports*, 25(1), 110–115. https://doi.org/10.1111/sms.12154
 2. Nigg, B. M., Baltich, J., Hoerzer, S., & Enders, H. (2015). Running shoes and running injuries: mythbusting and a proposal for two new paradigms: 'preferred movement path' and 'comfort filter'. *British Journal of Sports Medicine*, 49(20), 1290–1294. https://doi.org/10.1136/bjsports-2015-095054
-3. Theisen, D., Malisoux, L., Genin, J., Delattre, N., Seil, R., & Urhausen, A. (2014). Influence of midsole hardness of standard cushioned shoes on running-related injury risk. *British Journal of Sports Medicine*, 48(5), 371–376.
+3. Theisen, D., Malisoux, L., Genin, J., Delattre, N., Seil, R., & Urhausen, A. (2014). Influence of midsole hardness of standard cushioned shoes on running-related injury risk. *British Journal of Sports Medicine*, 48(5), 371–376. https://doi.org/10.1136/bjsports-2013-092613
 4. Kong, P. W., Candelaria, N. G., & Smith, D. R. (2009). Running in new and worn shoes: a comparison of three types of cushioning footwear. *British Journal of Sports Medicine*, 43(10), 745–749. https://doi.org/10.1136/bjsm.2008.047761
-5. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A Comparison of the Energetic Cost of Running in Marathon Racing Shoes. *Sports Medicine*, 48(4), 1009–1019.
+5. Hoogkamer, W., Kipp, S., Frank, J. H., Farina, E. M., Luo, G., & Kram, R. (2018). A Comparison of the Energetic Cost of Running in Marathon Racing Shoes. *Sports Medicine*, 48(4), 1009–1019. https://doi.org/10.1007/s40279-017-0811-2

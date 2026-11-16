@@ -20,9 +20,9 @@ As limitações de mobilidade da anca mais comuns em corredores são três: **po
 
 ## Porque é que a anca importa na corrida
 
-A anca é a articulação que mais contribui para a propulsão e para o controlo da passada. Em cada passo, passa de flexão (joelho à frente) para extensão (perna atrás, no fim do apoio) e controla a rotação e a inclinação da bacia. Se uma destas amplitudes está limitada, o corpo compensa: a bacia inclina-se mais para a frente, a coluna lombar arqueia ou a perna roda para fora.
+A anca é uma das articulações centrais da passada, tanto no movimento da perna como no controlo da bacia. Em cada passo, passa de flexão (joelho à frente) para extensão (perna atrás, no fim do apoio) e controla a rotação e a inclinação da bacia. Se uma destas amplitudes está limitada, o corpo compensa: a bacia inclina-se mais para a frente, a coluna lombar arqueia ou a perna roda para fora.
 
-Schache et al. (2000) estudaram a relação entre a inclinação anterior da bacia durante a corrida e medidas de extensão da anca, tanto em testes clínicos como na própria corrida. Uma das mensagens práticas é que a bacia e a anca funcionam em conjunto, e que um teste estático, feito na marquesa, não reflete na perfeição o que acontece a correr. Por isso, os testes servem para orientar o trabalho, não para diagnosticar a causa de uma dor.
+Schache et al. (2000) analisaram 14 atletas a correr em passadeira e encontraram uma relação entre a inclinação anterior da bacia e a extensão máxima da anca durante a corrida: quem estendia menos a anca no fim do apoio tendia a inclinar mais a bacia para a frente. Já a flexibilidade medida no teste de Thomas modificado, feito na marquesa, não se relacionou com nenhuma dessas medidas dinâmicas. A mensagem prática é que a bacia e a anca funcionam em conjunto, e que um teste estático não reflete o que acontece a correr. Por isso, os testes servem para orientar o trabalho, não para diagnosticar a causa de uma dor.
 
 Mobilidade não é o mesmo que estabilidade. Ter amplitude é inútil se não a controlares — e é por isso que este artigo complementa o de [estabilidade da anca](/blog/hip-stability-quadril-corrida).
 
@@ -56,7 +56,7 @@ Se algum destes testes provoca **dor** (e não apenas tensão), sobretudo na vir
 
 ## O que diz a ciência sobre mobilidade e lesões
 
-A meta-análise de Lauersen et al. (2014) sobre intervenções para prevenir lesões desportivas concluiu que o treino de força reduz o risco de lesão, enquanto o alongamento não mostrou efeito protetor. Behm et al. (2016) reviram os efeitos agudos do alongamento e concluíram que melhora a amplitude de movimento e que os eventuais efeitos negativos no rendimento são pequenos quando o alongamento é curto e integrado num aquecimento completo.
+A meta-análise de Lauersen et al. (2014) sobre intervenções para prevenir lesões desportivas concluiu que o treino de força reduziu as lesões para menos de um terço, enquanto o alongamento não mostrou efeito protetor. Behm et al. (2016) reviram os efeitos agudos do alongamento e concluíram que melhora a amplitude de movimento, que os efeitos negativos no rendimento são pequenos quando o alongamento estático é curto (menos de 60 segundos por grupo muscular) e seguido de atividade dinâmica, e que o alongamento estático não teve efeito claro nas lesões em geral nem nas de sobrecarga.
 
 Ou seja: melhorar a mobilidade da anca faz sentido quando uma limitação real interfere com a tua corrida ou com o teu treino de força, não como "seguro" universal contra lesões. Para mais detalhe sobre alongamentos estáticos e dinâmicos, vê [stretching e mobilidade: o que diz a evidência](/blog/stretching-mobilidade-evidencia-cientifica).
 
@@ -107,7 +107,7 @@ A anca rígida é comum em corredores, sobretudo em quem passa o dia sentado, ma
 
 ## Referências Científicas
 
-1. Schache, A. G., Blanch, P. D., & Murphy, A. T. (2000). Relation of anterior pelvic tilt during running to clinical and kinematic measures of hip extension. *British Journal of Sports Medicine*.
-2. Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877.
-3. Behm, D. G., Blazevich, A. J., Kay, A. D., & McHugh, M. (2016). Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: a systematic review. *Applied Physiology, Nutrition, and Metabolism*.
-4. Afonso, J., et al. (2021). Strength Training versus Stretching for Improving Range of Motion: A Systematic Review and Meta-Analysis. *Healthcare*, 9(4), 427. https://doi.org/10.3390/healthcare9040427
+1. Schache, A. G., Blanch, P. D., & Murphy, A. T. (2000). Relation of anterior pelvic tilt during running to clinical and kinematic measures of hip extension. *British Journal of Sports Medicine*, 34(4), 279–283.
+2. Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538
+3. Behm, D. G., Blazevich, A. J., Kay, A. D., & McHugh, M. (2016). Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: a systematic review. *Applied Physiology, Nutrition, and Metabolism*, 41(1), 1–11. https://doi.org/10.1139/apnm-2015-0235
+4. Afonso, J., Ramirez-Campillo, R., Moscão, J., Rocha, T., Zacca, R., Martins, A., Milheiro, A. A., Ferreira, J., Sarmento, H., & Clemente, F. M. (2021). Strength Training versus Stretching for Improving Range of Motion: A Systematic Review and Meta-Analysis. *Healthcare*, 9(4), 427. https://doi.org/10.3390/healthcare9040427

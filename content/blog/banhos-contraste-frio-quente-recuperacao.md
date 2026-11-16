@@ -6,7 +6,7 @@ excerpt: "Banhos de contraste: o que a evidência diz sobre alternar água fria 
 seoTitle: "Banhos de Contraste: Frio e Quente Funciona?"
 keyword: "banhos de contraste"
 keywords: ["água fria e quente recuperação", "terapia de contraste", "recuperação muscular corrida"]
-readTime: 6
+readTime: 7
 faqs:
   - q: "Os banhos de contraste são melhores do que o banho de gelo?"
     a: "A evidência não mostra uma vantagem clara de um sobre o outro. Ambos reduzem as dores musculares em comparação com não fazer nada. A escolha pode depender do que toleras melhor e do que tens disponível."
@@ -39,15 +39,15 @@ Bieuzen, Bleakley e Costello (2013) fizeram uma revisão sistemática com meta-a
 - reduziu as dores musculares nos dias seguintes;
 - ajudou a recuperar a força muscular mais depressa.
 
-Em comparação com outras estratégias (imersão em água fria, água quente, compressão, alongamentos, recuperação ativa), **não houve diferenças claras**. Os autores sublinharam a qualidade limitada de muitos estudos.
+Em comparação com outras estratégias (imersão em água fria, água quente, compressão, alongamentos, recuperação ativa), os autores encontraram **pouca evidência de que alguma fosse superior** — a exceção foi uma redução maior das dores do que com a imersão só em água quente em alguns momentos de avaliação. Os autores sublinharam que todos os 18 ensaios incluídos tinham risco de viés elevado, pelo que a evidência é limitada.
 
 ### Comparação com outros métodos
 
-Dupuy et al. (2018) compararam várias técnicas de recuperação numa meta-análise alargada. A massagem destacou-se para as dores musculares e para a perceção de fadiga, e outras técnicas — incluindo a imersão em água e a terapia de contraste — também reduziram as dores musculares, com efeitos variáveis. Se queres o enquadramento completo, vê o artigo sobre [DOMS e o que funciona](/blog/doms-dores-tardias-o-que-funciona).
+Dupuy et al. (2018) compararam várias técnicas de recuperação numa meta-análise alargada. A massagem destacou-se como a técnica mais eficaz para as dores musculares e para a perceção de fadiga. A terapia de contraste teve um efeito pequeno, mas significativo, nas dores musculares, e nenhum efeito claro na perceção de fadiga. Se queres o enquadramento completo, vê o artigo sobre [DOMS e o que funciona](/blog/doms-dores-tardias-o-que-funciona).
 
 ### Rendimento nos dias seguintes
 
-Versey et al. (2013) concluíram que as estratégias de imersão em água, incluindo o contraste, podem ajudar a recuperar o rendimento entre sessões próximas, mas os efeitos variam com o tipo de exercício, o protocolo e o intervalo até à sessão seguinte. Em corredores amadores, com 24 a 48 horas entre treinos exigentes, o benefício prático tende a ser pequeno.
+Versey et al. (2013) concluíram que as estratégias de imersão em água, incluindo o contraste, podem ajudar a recuperar o rendimento entre sessões próximas, mas os efeitos variam com o tipo de exercício, o protocolo e o intervalo até à sessão seguinte. Para o contraste, consideraram mais provável um benefício quando o tempo no quente e no frio é igual, com imersões curtas (cerca de 1 minuto) e até cerca de 15 minutos no total, e consideraram improvável que sessões mais longas deem mais benefício. Em corredores amadores, com 24 a 48 horas entre treinos exigentes, o benefício prático tende a ser pequeno.
 
 ## E as adaptações ao treino?
 
@@ -60,15 +60,15 @@ Não há estudos equivalentes suficientes sobre os banhos de contraste. Como inc
 
 ## Protocolo prático
 
-Os protocolos nos estudos variam bastante. Um formato representativo e seguro para corredores é:
+Os protocolos nos estudos variam bastante: na revisão de Bieuzen et al. (2013), a água fria estava entre 8 e 15 °C, a quente entre 35,5 e 45 °C, com 3 a 7 alternâncias e sessões de 6 a 24 minutos. Um formato dentro desses intervalos, alinhado com as recomendações de Versey et al. (2013) e prudente para corredores, é:
 
 | Parâmetro | Recomendação |
 |---|---|
 | Água fria | cerca de 10–15 °C |
 | Água quente | cerca de 38–40 °C (quente, mas confortável) |
-| Alternância | cerca de 1 minuto no frio e 1 a 2 minutos no quente |
-| Ciclos | 3 a 5 ciclos |
-| Duração total | cerca de 10–15 minutos |
+| Alternância | cerca de 1 minuto no frio e 1 minuto no quente (tempos iguais) |
+| Ciclos | 4 a 7 alternâncias |
+| Duração total | até cerca de 15 minutos |
 | Profundidade | pernas até à cintura ou às ancas |
 | Momento | nas primeiras horas depois do treino ou da prova |
 
@@ -109,7 +109,7 @@ Os banhos de contraste têm evidência de que reduzem as dores musculares e ajud
 
 ## Referências Científicas
 
-1. Bieuzen, F., Bleakley, C. M., & Costello, J. T. (2013). Contrast water therapy and exercise induced muscle damage: a systematic review and meta-analysis. *PLoS ONE*, 8(4), e62356.
-2. Versey, N. G., Halson, S. L., & Dawson, B. T. (2013). Water immersion recovery for athletes: effect on exercise performance and practical recommendations. *Sports Medicine*. https://doi.org/10.1007/s40279-013-0063-8
+1. Bieuzen, F., Bleakley, C. M., & Costello, J. T. (2013). Contrast water therapy and exercise induced muscle damage: a systematic review and meta-analysis. *PLoS ONE*, 8(4), e62356. https://doi.org/10.1371/journal.pone.0062356
+2. Versey, N. G., Halson, S. L., & Dawson, B. T. (2013). Water immersion recovery for athletes: effect on exercise performance and practical recommendations. *Sports Medicine*, 43, 1101–1130. https://doi.org/10.1007/s40279-013-0063-8
 3. Dupuy, O., Douzi, W., Theurot, D., Bosquet, L., & Dugué, B. (2018). An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: a systematic review with meta-analysis. *Frontiers in Physiology*, 9, 403. https://doi.org/10.3389/fphys.2018.00403
-4. Roberts, L. A., Raastad, T., Markworth, J. F., et al. (2015). Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training. *The Journal of Physiology*, 593(18), 4285–4301.
+4. Roberts, L. A., Raastad, T., Markworth, J. F., et al. (2015). Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training. *The Journal of Physiology*, 593(18), 4285–4301. https://doi.org/10.1113/JP270570

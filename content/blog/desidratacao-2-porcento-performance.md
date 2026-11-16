@@ -6,7 +6,7 @@ excerpt: "A desidratação de 2% custa sempre rendimento? Vê o que a evidência
 seoTitle: "Desidratação de 2%: Quanto Custa na Prova"
 keyword: "desidratação corrida"
 keywords: ["desidratação e performance", "perda de peso por suor", "hidratação em prova"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "Perder 2% do peso numa prova faz-me correr mais devagar?"
     a: "Não necessariamente. Em tempo fresco e quando bebes de acordo com a sede, perdas de 2 a 3% muitas vezes não têm impacto mensurável. No calor, e acima de cerca de 3 a 4%, a probabilidade de perder rendimento aumenta claramente."
@@ -32,13 +32,13 @@ O problema não é a fisiologia. É transformar um aviso prudente numa linha ver
 
 ### Os estudos de contrarrelógio
 
-Grande parte da investigação antiga media o desempenho com testes até à exaustão a uma intensidade fixa, em laboratório, muitas vezes sem ventilação realista e com atletas que sabiam que estavam desidratados. Goulet (2011) fez uma meta-análise apenas com estudos de **contrarrelógio** (em que o atleta tenta fazer o melhor tempo, como numa prova) e concluiu que perdas de peso induzidas pelo exercício até cerca de 4%, quando os atletas bebiam de acordo com a sede, não reduziram o desempenho em comparação com manter a hidratação.
+Grande parte da investigação antiga media o desempenho com testes até à exaustão a uma intensidade fixa, em laboratório, muitas vezes sem ventilação realista e com atletas que sabiam que estavam desidratados. Goulet (2011) fez uma meta-análise apenas com estudos de **contrarrelógio** (em que o atleta tenta fazer o melhor tempo, como numa prova), quase todos em ciclismo, e concluiu que perdas de peso induzidas pelo exercício até cerca de 4% não alteraram o desempenho em condições próximas das reais (com ventilação semelhante à do exterior), e que beber de acordo com a sede se associou a melhores resultados do que beber abaixo ou acima dela. A intensidade e a duração do esforço pesaram muito mais no resultado do que a desidratação. Convém lembrar que são dados de ciclismo: a extrapolação para a corrida é razoável, mas não direta.
 
 ### Os corredores mais rápidos perdem mais peso
 
-Zouhal et al. (2011) pesaram 643 participantes antes e depois de uma maratona e encontraram uma relação inversa entre a perda de peso e o tempo final: os corredores mais rápidos foram, em média, os que mais peso perderam. É um estudo observacional — não prova que desidratar te torna mais rápido; quem corre mais depressa produz mais calor e tem menos tempo e oportunidades para beber. Mas mostra que perdas acima de 2% são comuns em quem tem bons resultados.
+Zouhal et al. (2011) pesaram 643 participantes antes e depois da Maratona do Mont Saint-Michel (2009) e encontraram uma relação inversa entre a perda de peso e o tempo final: a perda média foi de 2,3%, mas quem terminou abaixo das 3 horas perdeu cerca de 3,1%, contra cerca de 1,8% em quem demorou mais de 4 horas. É um estudo observacional — não prova que desidratar te torna mais rápido; quem corre mais depressa produz mais calor e tem menos tempo e oportunidades para beber. Mas mostra que perdas acima de 2% são comuns em quem tem bons resultados.
 
-Na mesma linha, Beis et al. (2012) analisaram o comportamento de bebida de maratonistas de elite em competição e verificaram que bebiam relativamente pouco face às suas taxas de suor, o que sugere que terminam com perdas de peso bem acima dos 2%.
+Na mesma linha, Beis et al. (2012) analisaram em vídeo o comportamento de bebida de 10 maratonistas de elite em 13 maratonas internacionais. A ingestão estimada foi de cerca de 0,55 L por hora — dentro do intervalo recomendado pelo ACSM — mas as perdas de peso estimadas ficaram muito acima dos 2–3% (em média perto de 9%, uma estimativa indireta que deve ser lida com cautela). Mesmo assim, estes atletas estavam entre os mais rápidos do mundo.
 
 ### A perda de peso não é toda água
 
@@ -48,14 +48,14 @@ Há um ponto técnico que costuma ser esquecido. Durante uma maratona, parte do 
 
 Seria errado concluir que a desidratação não importa. Uma das críticas aos estudos favoráveis à tolerância é que os atletas sabiam se estavam a beber ou não, e a perceção de estar desidratado pode, só por si, afetar o esforço.
 
-Funnell et al. (2019) contornaram isso: desidrataram ciclistas treinados em cerca de 3% do peso e fizeram-nos pedalar no calor sem saberem se estavam desidratados (a água foi administrada por sonda, de forma oculta). O desempenho no contrarrelógio piorou de forma semelhante com e sem conhecimento da desidratação. Ou seja, **no calor, o efeito não é só psicológico**.
+Funnell et al. (2019) contornaram isso: 14 ciclistas treinados pedalaram 2 horas a 31 °C com restrição de líquidos, até uma perda de cerca de 3% do peso, e depois fizeram um contrarrelógio de cerca de 15 minutos. Num dos grupos, os ciclistas não sabiam se estavam desidratados (a água foi administrada por sonda nasogástrica, de forma oculta). O contrarrelógio foi cerca de 10–11% mais lento na condição desidratada, de forma semelhante com e sem conhecimento do estado de hidratação. Ou seja, **no calor, o efeito não é só psicológico**.
 
 Os dados combinados apontam para um quadro coerente:
 
 | Situação | Impacto provável de perder 2–3% |
 |---|---|
 | Tempo fresco, prova até ~1h30 | Pequeno ou nulo |
-| Tempo fresco, maratona, bebendo à sede | Geralmente pequeno |
+| Tempo fresco, maratona, a beber de acordo com a sede | Geralmente pequeno |
 | Calor, esforço prolongado | Provável perda de rendimento |
 | Perdas acima de ~4%, sobretudo no calor | Risco claro de abrandar e de problemas térmicos |
 
@@ -82,7 +82,7 @@ No calor, a desidratação e a temperatura somam-se. Reduz o ritmo-alvo, começa
 
 ### 4. Nunca ganhes peso
 
-O risco do outro extremo é mais perigoso. Beber muito acima do que suas — e terminar mais pesado do que partiste — é o principal fator de risco para a hiponatremia associada ao exercício. Por isso a regra útil tem dois lados: **limitar a perda e nunca ganhar peso**. A estratégia antes, durante e depois da prova está no artigo sobre [hidratação antes, durante e após a corrida](/blog/hidratacao-na-corrida-antes-durante-apos).
+O risco do outro extremo é mais perigoso. Beber muito acima do que suas — e terminar mais pesado do que partiste — é o principal fator de risco para a hiponatremia associada ao exercício: o consenso internacional (Hew-Butler et al., 2015) identifica o consumo excessivo de líquidos hipotónicos como a causa principal, e quase todos os casos sintomáticos ocorreram em atletas que mantiveram ou ganharam peso. Por isso a regra útil tem dois lados: **limitar a perda e nunca ganhar peso**. A estratégia antes, durante e depois da prova está no artigo sobre [hidratação antes, durante e após a corrida](/blog/hidratacao-na-corrida-antes-durante-apos).
 
 ## Erros comuns
 
@@ -99,8 +99,9 @@ O limite de 2% é um bom ponto de referência, mas não é uma fronteira mágica
 ## Referências Científicas
 
 1. Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., & Stachenfeld, N. S. (2007). American College of Sports Medicine position stand. Exercise and fluid replacement. *Medicine & Science in Sports & Exercise*, 39(2), 377–390.
-2. Cheuvront, S. N., & Kenefick, R. W. (2014). Dehydration: physiology, assessment, and performance effects. *Comprehensive Physiology*.
+2. Cheuvront, S. N., & Kenefick, R. W. (2014). Dehydration: physiology, assessment, and performance effects. *Comprehensive Physiology*, 4(1), 257–285. https://doi.org/10.1002/cphy.c130017
 3. Goulet, E. D. B. (2011). Effect of exercise-induced dehydration on time-trial exercise performance: a meta-analysis. *British Journal of Sports Medicine*, 45(14), 1149–1156. https://doi.org/10.1136/bjsm.2010.077966
-4. Zouhal, H., et al. (2011). Inverse relationship between percentage body weight change and finishing time in 643 forty-two-kilometre marathon runners. *British Journal of Sports Medicine*, 45(14), 1101–1105.
-5. Beis, L. Y., Wright-Whyte, M., Fudge, B., Noakes, T., & Pitsiladis, Y. P. (2012). Drinking behaviors of elite male runners during marathon competition. *Clinical Journal of Sport Medicine*.
-6. Funnell, M. P., Mears, S. A., Bergin-Taylor, K., & James, L. J. (2019). Blinded and unblinded hypohydration similarly impair cycling time trial performance in the heat in trained cyclists. *Journal of Applied Physiology*.
+4. Zouhal, H., et al. (2011). Inverse relationship between percentage body weight change and finishing time in 643 forty-two-kilometre marathon runners. *British Journal of Sports Medicine*, 45(14), 1101–1105. https://doi.org/10.1136/bjsm.2010.074641
+5. Beis, L. Y., Wright-Whyte, M., Fudge, B., Noakes, T., & Pitsiladis, Y. P. (2012). Drinking behaviors of elite male runners during marathon competition. *Clinical Journal of Sport Medicine*, 22(3), 254–261.
+6. Funnell, M. P., Mears, S. A., Bergin-Taylor, K., & James, L. J. (2019). Blinded and unblinded hypohydration similarly impair cycling time trial performance in the heat in trained cyclists. *Journal of Applied Physiology*, 126(4), 870–879. https://doi.org/10.1152/japplphysiol.01026.2018
+7. Hew-Butler, T., Rosner, M. H., Fowkes-Godek, S., et al. (2015). Statement of the Third International Exercise-Associated Hyponatremia Consensus Development Conference, Carlsbad, California, 2015. *Clinical Journal of Sport Medicine*, 25(4), 303–320. https://doi.org/10.1097/JSM.0000000000000221

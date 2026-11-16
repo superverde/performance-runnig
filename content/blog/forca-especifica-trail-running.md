@@ -3,7 +3,7 @@ title: "Força Específica para Trail Running"
 date: '2026-11-08'
 category: "Trail Running"
 excerpt: "Força para trail running: o que exigem as subidas e as descidas, que exercícios escolher e como encaixar duas sessões por semana no teu treino."
-readTime: 5
+readTime: 6
 keyword: "força para trail running"
 keywords: ["treino de força trail", "exercícios para trail", "força específica trail"]
 faqs:
@@ -30,7 +30,7 @@ O terreno também importa. A declaração de posição de Scheer et al. (2020) d
 
 ## O que diz a evidência sobre força e corrida
 
-A revisão sistemática de Blagrove et al. (2018) concluiu que o treino de força (cargas elevadas, pliometria ou combinações) melhora determinantes fisiológicos da performance em corredores de meio fundo e fundo, sobretudo a economia de corrida. Em atletas de ultra-endurance, Giovanelli et al. (2017) observaram que um programa combinado de força, exercícios explosivos e pliometria reduziu o custo energético da corrida.
+A revisão sistemática de Blagrove et al. (2018) concluiu que o treino de força (cargas elevadas, pliometria ou combinações) melhora determinantes fisiológicos da performance em corredores de meio fundo e fundo, sobretudo a economia de corrida. Em ultramaratonistas bem treinados, Giovanelli et al. (2017) observaram que 12 semanas de um programa combinado de força, exercícios explosivos e pliometria, feito em casa, reduziram o custo energético da corrida em cerca de 3 a 6 % (consoante a velocidade testada), sem alterações no grupo de controlo.
 
 Duas conclusões práticas saem daqui:
 
@@ -93,4 +93,4 @@ A força específica para trail assenta em três pilares: força pesada para sub
 1. Vernillo, G., Giandolini, M., Edwards, W. B., Morin, J. B., Samozino, P., Horvais, N., & Millet, G. Y. (2017). Biomechanics and physiology of uphill and downhill running. *Sports Medicine*, 47(4), 615–629. https://doi.org/10.1007/s40279-016-0605-y
 2. Scheer, V., et al. (2020). Defining off-road running: a position statement from the Ultra Sports Science Foundation. *International Journal of Sports Medicine*, 41(5), 275–284. https://doi.org/10.1055/a-1096-0980
 3. Blagrove, R. C., Howatson, G., & Hayes, P. R. (2018). Effects of strength training on the physiological determinants of middle- and long-distance running performance: a systematic review. *Sports Medicine*, 48(5), 1117–1149.
-4. Giovanelli, N., et al. (2017). Effects of strength, explosive and plyometric training on energy cost of running in ultra-endurance athletes. *European Journal of Sport Science*. https://doi.org/10.1080/17461391.2017.1305454
+4. Giovanelli, N., et al. (2017). Effects of strength, explosive and plyometric training on energy cost of running in ultra-endurance athletes. *European Journal of Sport Science*, 17(7), 805–813. https://doi.org/10.1080/17461391.2017.1305454

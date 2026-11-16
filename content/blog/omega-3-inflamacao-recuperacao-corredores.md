@@ -57,7 +57,7 @@ A mensagem é simples: **não esperes que o ómega-3 te tire minutos à maratona
 
 ### Para a saúde em geral
 
-A Autoridade Europeia para a Segurança dos Alimentos (EFSA) considera que, para adultos, cerca de 250 mg por dia de EPA e DHA são adequados para a população em geral. Na prática, isto consegue-se com **uma a duas refeições de peixe gordo por semana**.
+A Autoridade Europeia para a Segurança dos Alimentos (EFSA, 2010) considera que, para adultos, cerca de 250 mg por dia de EPA e DHA são adequados para a população em geral. Na prática, isto consegue-se com **uma a duas refeições de peixe gordo por semana**.
 
 ### Para a recuperação
 
@@ -114,3 +114,4 @@ O ómega-3 é um dos poucos suplementos com uma base biológica sólida para a r
 4. Thielecke, F., & Blannin, A. (2020). Omega-3 Fatty Acids for Sport Performance—Are They Equally Beneficial for Athletes and Amateurs? A Narrative Review. *Nutrients*, 12(12), 3712. https://doi.org/10.3390/nu12123712
 5. Maughan, R. J., Burke, L. M., Dvorak, J., et al. (2018). IOC consensus statement: dietary supplements and the high-performance athlete. *British Journal of Sports Medicine*, 52(7).
 6. EFSA Panel on Dietetic Products, Nutrition and Allergies (2012). Scientific Opinion on the Tolerable Upper Intake Level of eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA) and docosapentaenoic acid (DPA). *EFSA Journal*, 10(7), 2815.
+7. EFSA Panel on Dietetic Products, Nutrition and Allergies (2010). Scientific Opinion on Dietary Reference Values for fats, including saturated fatty acids, polyunsaturated fatty acids, monounsaturated fatty acids, trans fatty acids, and cholesterol. *EFSA Journal*, 8(3), 1461. https://doi.org/10.2903/j.efsa.2010.1461

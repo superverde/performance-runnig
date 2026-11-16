@@ -34,7 +34,7 @@ Illi et al. (2012) reuniram os ensaios controlados em pessoas saudáveis e concl
 
 - em pessoas com menor condição física;
 - em esforços mais longos;
-- em testes de contrarrelógio e de tempo até à exaustão, mais do que em testes incrementais.
+- em testes de carga constante (tempo até à exaustão) e incrementais intermitentes, mais do que nos testes incrementais clássicos.
 
 ### Atletas
 
@@ -77,7 +77,7 @@ O protocolo mais usado na investigação é simples:
 
 1. Senta-te ou fica de pé, com o tronco direito e os ombros descontraídos.
 2. Coloca o clipe nasal (se o dispositivo o incluir) e sela bem os lábios no bocal.
-3. Inspira com força e depressa, enchendo os pulmões ao máximo, expandindo o abdómen e as costelas inferiores.
+3. Inspira com força e depressa, até encheres os pulmões ao máximo, com o abdómen e as costelas inferiores a expandirem.
 4. Expira de forma lenta e passiva.
 5. Se começares a ficar tonto, faz uma pausa. É comum nas primeiras sessões.
 
@@ -114,7 +114,7 @@ O treino dos músculos respiratórios tem uma base fisiológica sólida e evidê
 
 ## Referências Científicas
 
-1. Romer, L. M., & Polkey, M. I. (2008). Exercise-induced respiratory muscle fatigue: implications for performance. *Journal of Applied Physiology*.
-2. Illi, S. K., Held, U., Frank, I., & Spengler, C. M. (2012). Effect of respiratory muscle training on exercise performance in healthy individuals: a systematic review and meta-analysis. *Sports Medicine*.
-3. HajGhanbari, B., et al. (2013). Effects of respiratory muscle training on performance in athletes: a systematic review with meta-analyses. *Journal of Strength and Conditioning Research*.
-4. Fernández-Lázaro, D., et al. (2021). Inspiratory Muscle Training Program Using the PowerBreath®: Does It Have Ergogenic Potential for Respiratory and/or Athletic Performance? A Systematic Review with Meta-Analysis. *International Journal of Environmental Research and Public Health*, 18(13), 6703. https://doi.org/10.3390/ijerph18136703
+1. Romer, L. M., & Polkey, M. I. (2008). Exercise-induced respiratory muscle fatigue: implications for performance. *Journal of Applied Physiology*, 104(3), 879–888. https://doi.org/10.1152/japplphysiol.01157.2007
+2. Illi, S. K., Held, U., Frank, I., & Spengler, C. M. (2012). Effect of respiratory muscle training on exercise performance in healthy individuals: a systematic review and meta-analysis. *Sports Medicine*, 42(8), 707–724.
+3. HajGhanbari, B., Yamabayashi, C., Buna, T. R., Coelho, J. D., Freedman, K. D., Morton, T. A., Palmer, S. A., Toy, M. A., Walsh, C., Sheel, A. W., & Reid, W. D. (2013). Effects of respiratory muscle training on performance in athletes: a systematic review with meta-analyses. *Journal of Strength and Conditioning Research*, 27(6), 1643–1663. https://doi.org/10.1519/JSC.0b013e318269f73f
+4. Fernández-Lázaro, D., Gallego-Gallego, D., Corchete, L. A., Fernández Zoppino, D., González-Bernal, J. J., García Gómez, B., & Mielgo-Ayuso, J. (2021). Inspiratory Muscle Training Program Using the PowerBreath®: Does It Have Ergogenic Potential for Respiratory and/or Athletic Performance? A Systematic Review with Meta-Analysis. *International Journal of Environmental Research and Public Health*, 18(13), 6703. https://doi.org/10.3390/ijerph18136703

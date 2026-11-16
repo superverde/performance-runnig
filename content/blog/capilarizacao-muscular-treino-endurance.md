@@ -12,7 +12,7 @@ faqs:
   - q: "Quais são os sinais de que os capilares musculares estão a melhorar?"
     a: "Redução da frequência cardíaca em repouso, menor sensação de fadiga em treinos de longa duração e recuperação mais rápida entre sessões são indicadores de melhor capilarização."
   - q: "É necessário usar equipamentos especiais para estimular a capilarização muscular?"
-    a: "Não, treinos de corrida em pista, trilha ou rua, combinados com intervalos de intensidade moderada, são suficientes para promover a adaptação capilar."
+    a: "Não, treinos de corrida em pista, trilho ou estrada, combinados com intervalos de intensidade moderada, são suficientes para promover a adaptação capilar."
 ---
 
 A capilarização muscular é a expansão dos capilares dentro dos músculos, permitindo maior entrega de oxigénio e nutrientes, o que sustenta a resistência em corridas de longa distância. Este processo, muitas vezes invisível, é fundamental para corredores que desejam melhorar o desempenho sem recorrer a suplementos ou equipamentos caros.

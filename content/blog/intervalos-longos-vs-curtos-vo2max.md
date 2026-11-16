@@ -5,7 +5,7 @@ category: "Treino"
 excerpt: "Intervalos longos vs curtos para o VO2max: o que mostram os estudos, quando as séries de 3 a 5 minutos rendem mais e quando as curtas fazem sentido."
 keyword: "intervalos longos vs curtos"
 keywords: ["séries longas vo2max", "treino intervalado", "séries para vo2max"]
-readTime: 5
+readTime: 6
 faqs:
   - q: "Os intervalos longos são sempre melhores do que os curtos para o VO2max?"
     a: "Não. Uma meta-análise associou maiores ganhos a séries de pelo menos 2 minutos, mas estudos controlados mostram que formatos curtos bem estruturados, como 15/15 ou 30/15, também melhoram o VO2max. O formato importa menos do que a qualidade e a consistência."
@@ -31,17 +31,19 @@ Wen et al. (2019) reuniram ensaios controlados e aleatorizados sobre diferentes 
 
 - séries longas (2 minutos ou mais);
 - volume elevado de trabalho por sessão (15 minutos ou mais de tempo intenso);
-- programas de duração moderada a longa (várias semanas).
+- programas de duração moderada a longa (4 a 12 semanas ou mais).
+
+Só estes formatos mostraram vantagem sobre o treino contínuo moderado. Ainda assim, a mesma meta-análise encontrou benefícios claros, face aos grupos de controlo, com séries curtas (30 s ou menos) e volumes baixos.
 
 ### Mas os formatos curtos também funcionam
 
-Helgerud et al. (2007) compararam quatro programas de 8 semanas: corrida contínua lenta, corrida ao limiar, 15/15 (15 s rápidos e 15 s de recuperação ativa) e 4×4 minutos com 3 minutos de recuperação. Os dois formatos intervalados, ambos a 90–95 % da frequência cardíaca máxima, melhoraram o VO₂max; a corrida contínua não.
+Helgerud et al. (2007) compararam quatro programas de 8 semanas: corrida contínua lenta, corrida ao limiar, 15/15 (15 s rápidos e 15 s de recuperação ativa) e 4×4 minutos com 3 minutos de recuperação. Os dois formatos intervalados, ambos a 90–95 % da frequência cardíaca máxima, melhoraram o VO₂max significativamente mais do que a corrida contínua lenta ou ao limiar, com o mesmo trabalho total.
 
-Em ciclistas treinados, Rønnestad et al. (2015) observaram melhores adaptações com séries curtas (blocos de 30 s de esforço e 15 s de recuperação) do que com séries de 5 minutos, com esforço percebido semelhante. Mais tarde, num estudo com ciclistas de elite, o mesmo grupo voltou a encontrar vantagens para as séries curtas (Rønnestad et al., 2020).
+Em ciclistas treinados, Rønnestad et al. (2015) observaram, ao fim de 10 semanas, maiores ganhos de VO₂max e de desempenho com séries curtas (blocos de 30 s de esforço e 15 s de recuperação) do que com séries longas, com esforço percebido semelhante. Mais tarde, num estudo de 3 semanas com ciclistas de elite, o mesmo grupo voltou a encontrar vantagens para as séries curtas na potência aeróbia máxima e no desempenho (Rønnestad et al., 2020).
 
 ### Atenção à forma de fazer as curtas
 
-Mølmen et al. (2025) mostraram que tornar as séries curtas mais rápidas e encurtar as recuperações pode ter o efeito contrário ao desejado: menos tempo acima de 90 % do VO₂max do que com séries longas tradicionais. Vê a análise completa em [intervalos curtos vs longos: o estudo de 2025](/blog/intervalos-curtos-longos-vo2max).
+Fleckenstein, Braunstein e Walter (2025) compararam, em 12 meio-fundistas altamente treinados, uma sessão de 24 × 30 s a 100 % da vVO₂max (com 30 s a 55 %) com outra de 4 × 3 min a 95 % da vVO₂max (com 3 min a 50 %). Apesar de mais rápidas, as séries curtas acumularam menos tempo acima de 90 % do VO₂max (cerca de 201 s contra 328 s). Correr mais depressa nas curtas não garante mais estímulo. Vê a análise completa em [intervalos curtos vs longos: o estudo de 2025](/blog/intervalos-curtos-longos-vo2max).
 
 ### A síntese
 
@@ -91,9 +93,9 @@ Os intervalos longos (3–5 minutos) são a escolha mais fiável para desenvolve
 
 ## Referências Científicas
 
-1. Wen, D., et al. (2019). Effects of different protocols of high intensity interval training for VO2max improvements in adults: a meta-analysis of randomised controlled trials. *Journal of Science and Medicine in Sport*.
-2. Helgerud, J., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671.
-3. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338.
-4. Rønnestad, B. R., et al. (2015). Short intervals induce superior training adaptations compared with long intervals in cyclists – an effort-matched approach. *Scandinavian Journal of Medicine & Science in Sports*, 25(2). https://doi.org/10.1111/sms.12165
+1. Wen, D., et al. (2019). Effects of different protocols of high intensity interval training for VO2max improvements in adults: a meta-analysis of randomised controlled trials. *Journal of Science and Medicine in Sport*, 22(8), 941–947. https://doi.org/10.1016/j.jsams.2019.01.013
+2. Helgerud, J., Høydal, K., Wang, E., et al. (2007). Aerobic high-intensity intervals improve VO2max more than moderate training. *Medicine & Science in Sports & Exercise*, 39(4), 665–671. https://doi.org/10.1249/mss.0b013e3180304570
+3. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338. https://doi.org/10.1007/s40279-013-0029-x
+4. Rønnestad, B. R., et al. (2015). Short intervals induce superior training adaptations compared with long intervals in cyclists – an effort-matched approach. *Scandinavian Journal of Medicine & Science in Sports*, 25(2), 143–151. https://doi.org/10.1111/sms.12165
 5. Rønnestad, B. R., et al. (2020). Superior performance improvements in elite cyclists following short-interval vs effort-matched long-interval training. *Scandinavian Journal of Medicine & Science in Sports*. https://doi.org/10.1111/sms.13627
-6. Mølmen, K. S., et al. (2025). Faster intervals, faster recoveries: intensified short VO2max running intervals are inferior to traditional long intervals in terms of time spent above 90% VO2max. *Frontiers in Sports and Active Living*. https://doi.org/10.3389/fspor.2024.1507957
+6. Fleckenstein, D., Braunstein, H., & Walter, N. (2025). Faster intervals, faster recoveries: intensified short VO2max running intervals are inferior to traditional long intervals in terms of time spent above 90% VO2max. *Frontiers in Sports and Active Living*, 6, 1507957. https://doi.org/10.3389/fspor.2024.1507957

@@ -37,7 +37,7 @@ Vê o mecanismo em detalhe no nosso artigo sobre [termorregulação na corrida](
 
 ### A humidade conta, e muito, quando está calor
 
-Maughan et al. (2012) mediram a capacidade de exercício prolongado a 30 °C com quatro níveis de humidade relativa (24, 40, 60 e 80 %). O tempo até à exaustão foi diminuindo à medida que a humidade subia, com os piores resultados nas condições mais húmidas. A mesma temperatura, com mais vapor de água no ar, resultou num esforço tolerado durante menos tempo.
+Maughan et al. (2012) mediram a capacidade de exercício prolongado em bicicleta (a 70 % do VO₂max) a 30 °C, com quatro níveis de humidade relativa (24, 40, 60 e 80 %). O tempo médio até à exaustão desceu de cerca de 68 minutos com 24 % de humidade para cerca de 46 minutos com 80 %, com diferenças significativas a partir dos 60 %. A mesma temperatura, com mais vapor de água no ar, resultou num esforço tolerado durante menos tempo.
 
 ### A temperatura conta mesmo sem humidade alta
 
@@ -82,7 +82,7 @@ A temperatura define quanto calor tens de perder; a humidade define se o consegu
 
 ## Referências Científicas
 
-1. Maughan, R. J., et al. (2012). Influence of relative humidity on prolonged exercise capacity in a warm environment. *European Journal of Applied Physiology*, 112(6). https://doi.org/10.1007/s00421-011-2206-7
+1. Maughan, R. J., Otani, H., & Watson, P. (2012). Influence of relative humidity on prolonged exercise capacity in a warm environment. *European Journal of Applied Physiology*, 112(6), 2313–2321. https://doi.org/10.1007/s00421-011-2206-7
 2. Ely, M. R., Cheuvront, S. N., Roberts, W. O., & Montain, S. J. (2007). Impact of weather on marathon-running performance. *Medicine & Science in Sports & Exercise*, 39(3), 487–493.
 3. Racinais, S., et al. (2015). Consensus recommendations on training and competing in the heat. *British Journal of Sports Medicine*, 49(18), 1164–1173.
 4. Lorenzo, S., Halliwill, J. R., Sawka, M. N., & Minson, C. T. (2010). Heat acclimation improves exercise performance. *Journal of Applied Physiology*, 109(4), 1140–1147.

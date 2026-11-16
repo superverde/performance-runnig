@@ -77,7 +77,7 @@ A massa total de hemoglobina é um dos fatores que mais limitam o VO₂max, mas 
 
 ## Referências Científicas
 
-1. Schmidt, W., & Prommer, N. (2010). Impact of alterations in total hemoglobin mass on VO2max. *Exercise and Sport Sciences Reviews*, 38(2), 68–75.
+1. Schmidt, W., & Prommer, N. (2010). Impact of alterations in total hemoglobin mass on VO2max. *Exercise and Sport Sciences Reviews*, 38(2), 68–75. https://doi.org/10.1097/JES.0b013e3181d4957a
 2. Gore, C. J., et al. (2013). Altitude training and haemoglobin mass from the optimised carbon monoxide rebreathing method determined by a meta-analysis. *British Journal of Sports Medicine*, 47(Suppl 1), i31–i39.
 3. Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance: the physiology of champions. *The Journal of Physiology*, 586(1), 35–44.
-4. Sim, M., et al. (2019). Iron considerations for the athlete: a narrative review. *European Journal of Applied Physiology*. https://doi.org/10.1007/s00421-019-04157-y
+4. Sim, M., et al. (2019). Iron considerations for the athlete: a narrative review. *European Journal of Applied Physiology*, 119(7), 1463–1478. https://doi.org/10.1007/s00421-019-04157-y

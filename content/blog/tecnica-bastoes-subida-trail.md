@@ -2,7 +2,7 @@
 title: "Técnica de Bastões na Subida"
 date: '2026-11-04'
 category: "Trail Running"
-excerpt: "Descobre como a técnica de bastões pode reduzir a carga muscular e melhorar a eficiência nas subidas de trail, otimizando o teu desempenho para corridas de longa distância."
+excerpt: "Descobre como a técnica de bastões pode reduzir a carga muscular e ajudar-te nas subidas de trail, sobretudo em provas de longa distância."
 readTime: 4
 keyword: "técnica de bastões"
 keywords: ["bastões trail", "usar bastões na subida", "bastões de corrida"]

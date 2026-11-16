@@ -41,7 +41,7 @@ A pirâmide aproveita as duas coisas: as séries longas no centro dão o estímu
 
 ### A recuperação conta
 
-Seiler e Hetlelid (2005) estudaram corredores bem treinados em sessões de 6 × 4 min com recuperações de 1, 2 e 4 minutos. Passar de 1 para 2 minutos permitiu manter uma intensidade mais alta, mas alongar para 4 minutos não trouxe ganho adicional relevante. Não é uma regra direta para pirâmides, mas reforça uma ideia prática: a recuperação deve ser suficiente para manter a qualidade, sem ser tão longa que o treino perca densidade.
+Seiler e Hetlelid (2005) estudaram corredores bem treinados em sessões de 6 × 4 min com recuperações de 1, 2 e 4 minutos. Passar de 1 para 2 minutos permitiu manter uma velocidade ligeiramente mais alta, mas alongar para 4 minutos não trouxe ganho adicional; quando escolheram livremente, os corredores recuperaram cerca de 2 minutos. Não é uma regra direta para pirâmides, mas reforça uma ideia prática: a recuperação deve ser suficiente para manter a qualidade, sem ser tão longa que o treino perca densidade.
 
 ## Como estruturar a tua pirâmide: passo a passo
 
@@ -121,6 +121,6 @@ As séries piramidais não são mágicas, mas são uma forma inteligente de junt
 ## Referências Científicas
 
 1. Billat, L. V. (2001). Interval training for performance: a scientific and empirical practice. Special recommendations for middle- and long-distance running. Part I: aerobic interval training. *Sports Medicine*, 31(1), 13–31.
-2. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338.
-3. Seiler, S., & Hetlelid, K. J. (2005). The impact of rest duration on work intensity and RPE during interval training. *Medicine & Science in Sports & Exercise*, 37(9), 1601–1607.
-4. Filipas, L., Bonato, M., Gallo, G., & Codella, R. (2022). Effects of 16 weeks of pyramidal and polarized training intensity distributions in well-trained endurance runners. *Scandinavian Journal of Medicine & Science in Sports*.
+2. Buchheit, M., & Laursen, P. B. (2013). High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis. *Sports Medicine*, 43(5), 313–338. https://doi.org/10.1007/s40279-013-0029-x
+3. Seiler, S., & Hetlelid, K. J. (2005). The impact of rest duration on work intensity and RPE during interval training. *Medicine & Science in Sports & Exercise*, 37(9), 1601–1607. https://doi.org/10.1249/01.mss.0000177560.18014.d8
+4. Filipas, L., Bonato, M., Gallo, G., & Codella, R. (2022). Effects of 16 weeks of pyramidal and polarized training intensity distributions in well-trained endurance runners. *Scandinavian Journal of Medicine & Science in Sports*, 32(3), 498–511. https://doi.org/10.1111/sms.14101

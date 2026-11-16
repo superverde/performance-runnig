@@ -37,7 +37,7 @@ A ISSN indica que doses de **3–6 mg por kg de peso corporal** melhoram o rendi
 
 **Recomendação prática:** começa por 3 mg/kg. Só sobe se, depois de várias experiências em treino, sentires que não notas efeito e toleras bem a cafeína.
 
-Tem também em conta a referência da Autoridade Europeia para a Segurança dos Alimentos: doses únicas até 200 mg e consumo diário até 400 mg não levantam preocupações de segurança em adultos saudáveis (EFSA, 2015). As doses usadas no desporto podem ultrapassar estes valores — mais um motivo para não exagerar e para somar toda a cafeína do dia (café da manhã, géis, bebidas).
+Tem também em conta a referência da Autoridade Europeia para a Segurança dos Alimentos: doses únicas até 200 mg e consumo diário até 400 mg não levantam preocupações de segurança em adultos saudáveis (EFSA, 2015). As doses usadas no desporto podem ultrapassar estes valores — mais um motivo para não exagerar e para somar toda a cafeína do dia (pequeno-almoço, géis, bebidas).
 
 ## Passo 2 — Escolher o momento
 

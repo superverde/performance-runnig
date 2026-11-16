@@ -3,7 +3,7 @@ title: "Assimetrias na Corrida: Quando os Dois Lados Não Trabalham Igual"
 date: '2026-11-06'
 category: "Biomecânica"
 excerpt: "Assimetrias na corrida são normais e raramente causam lesões. Vê o que diz a ciência, quando uma diferença entre lados merece atenção e como a trabalhar."
-readTime: 5
+readTime: 6
 keyword: "assimetrias na corrida"
 keywords: ["assimetria corrida", "desequilíbrio muscular corredor", "corrida assimétrica"]
 faqs:
@@ -27,17 +27,17 @@ A pergunta útil não é «tenho assimetria?» — tens. A pergunta é: **esta a
 
 ### Lesões: a associação é fraca
 
-A análise mais robusta até agora vem de Malisoux et al. (2024), que seguiram mais de 800 corredores amadores num ensaio aleatorizado e mediram, no início, as assimetrias em variáveis espácio-temporais (como tempo de contacto e de voo) e cinéticas (forças de impacto e de carga). Durante o acompanhamento, essas assimetrias **não aumentaram o risco de lesão nos membros inferiores**.
+A análise mais robusta até agora vem de Malisoux et al. (2024), que, numa análise secundária de um ensaio aleatorizado, seguiram 836 corredores amadores durante seis meses e mediram, no início, numa passadeira instrumentada, as assimetrias em variáveis espácio-temporais (como tempo de contacto e de voo) e cinéticas (forças de impacto e de carga). Durante o acompanhamento, essas assimetrias **não aumentaram o risco de lesão nos membros inferiores**.
 
 Isto não quer dizer que nenhuma assimetria importe. Quer dizer que pequenas diferenças medidas num corredor saudável não são, por si, um bom preditor de lesão — e que não vale a pena entrar em pânico com um 52/48 no relógio.
 
 ### Desempenho: resultados inconsistentes
 
-A revisão sistemática de Bishop, Turner e Read (2018) analisou a relação entre assimetrias entre membros e o desempenho físico e desportivo. Os resultados foram inconsistentes: alguns estudos associaram assimetrias maiores a pior desempenho em saltos ou mudanças de direção, outros não encontraram relação. Os autores sublinham que a forma como a assimetria é medida muda muito as conclusões.
+A revisão sistemática de Bishop, Turner e Read (2018) analisou a relação entre assimetrias entre membros e o desempenho físico e desportivo. As diferenças de força entre membros pareceram prejudicar o desempenho em saltos, remates e ciclismo, mas nas outras variáveis (mudanças de direção, sprint, equilíbrio) os resultados foram inconsistentes. Os autores sublinham que todos os estudos incluídos eram associativos, sem ensaios aleatorizados, pelo que não permitem concluir causa e efeito — e nenhum deles avaliou especificamente a performance em corrida de fundo.
 
 ### Custo energético: assimetrias grandes custam
 
-Beck, Azua e Grabowski (2018) pediram a corredores que corressem com assimetrias impostas no tempo de passo. Quanto maior a assimetria forçada, maior o gasto de energia. Isto sugere que uma assimetria grande — como a que pode surgir quando se protege uma perna dorida — tem um custo metabólico. Mas, num corredor saudável, a passada natural tende já a ser a mais económica para aquele corpo.
+Beck, Azua e Grabowski (2018) pediram a dez corredores saudáveis que corressem em passadeira, ao ritmo de um metrónomo, com assimetrias impostas no tempo de passo. Quanto maior a assimetria forçada, maior o gasto de energia: cada 10 % de assimetria no tempo de passo aumentou a potência metabólica em cerca de 3,5 %. Isto sugere que uma assimetria grande — como a que pode surgir quando se protege uma perna dorida — tem um custo metabólico. Os autores concluem que uma passada simétrica tende a ser a mais económica, mas o estudo impôs assimetrias artificiais; não mostra que as pequenas diferenças naturais de um corredor saudável lhe custem tempo.
 
 ## Quando a assimetria merece atenção
 
@@ -92,6 +92,6 @@ Assimetrias pequenas fazem parte da corrida de toda a gente e, no corredor saud�
 
 ## Referências Científicas
 
-1. Malisoux, L., et al. (2024). Gait asymmetry in spatiotemporal and kinetic variables does not increase running-related injury risk in lower limbs: a secondary analysis of a randomised trial including 800+ recreational runners. *BMJ Open Sport & Exercise Medicine*.
-2. Bishop, C., Turner, A., & Read, P. (2018). Effects of inter-limb asymmetries on physical and sports performance: a systematic review. *Journal of Sports Sciences*, 36(10).
-3. Beck, O. N., Azua, E. N., & Grabowski, A. M. (2018). Step time asymmetry increases metabolic energy expenditure during running. *European Journal of Applied Physiology*, 118(10).
+1. Malisoux, L., Gette, P., Delattre, N., Urhausen, A., & Theisen, D. (2024). Gait asymmetry in spatiotemporal and kinetic variables does not increase running-related injury risk in lower limbs: a secondary analysis of a randomised trial including 800+ recreational runners. *BMJ Open Sport & Exercise Medicine*, 10(1), e001787. https://doi.org/10.1136/bmjsem-2023-001787
+2. Bishop, C., Turner, A., & Read, P. (2018). Effects of inter-limb asymmetries on physical and sports performance: a systematic review. *Journal of Sports Sciences*, 36(10), 1135–1144. https://doi.org/10.1080/02640414.2017.1361894
+3. Beck, O. N., Azua, E. N., & Grabowski, A. M. (2018). Step time asymmetry increases metabolic energy expenditure during running. *European Journal of Applied Physiology*, 118(10), 2147–2154.
