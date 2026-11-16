@@ -1,6 +1,6 @@
 ---
 title: "Treinar por Tempo ou por Distância: Qual Faz Mais Sentido"
-date: 'PENDENTE'
+date: '2026-11-16'
 category: "Treino"
 excerpt: "Treinar por tempo ou distância? Vê o que muda na fisiologia e na carga, quando usar minutos e quando usar quilómetros, e como combinar os dois no teu plano."
 seoTitle: "Treinar por Tempo ou Distância: Qual Faz Mais Sentido"

@@ -1,6 +1,6 @@
 ---
 title: "Séries Piramidais: Como Estruturar a Sessão"
-date: 'PENDENTE'
+date: '2026-11-16'
 category: "Treino"
 excerpt: "Séries piramidais na corrida: como escolher distâncias, ritmos e recuperações, quanto volume fazer e exemplos de sessões para objetivos de 5 e 10 km."
 seoTitle: "Séries Piramidais na Corrida: Como Estruturar a Sessão"

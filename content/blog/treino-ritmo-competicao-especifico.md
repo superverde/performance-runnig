@@ -1,6 +1,6 @@
 ---
 title: "Treino ao Ritmo de Prova: Quanto e Quando"
-date: 'PENDENTE'
+date: '2026-11-16'
 category: "Treino"
 excerpt: "Treino ao ritmo de prova: quanto volume fazer em cada distância, em que fase da preparação o introduzir e como estruturar as sessões sem te esgotares."
 seoTitle: "Treino ao Ritmo de Prova: Quanto e Quando Fazer"
