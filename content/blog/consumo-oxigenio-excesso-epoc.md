@@ -1,6 +1,6 @@
 ---
 title: "EPOC: O Consumo de Oxigénio Depois do Treino"
-date: 'PENDENTE'
+date: '2026-11-17'
 category: "Fisiologia"
 excerpt: "O EPOC é o oxigénio extra que consomes depois do treino. Vê o que o provoca, quanto dura, quantas calorias vale de facto e o que significa para o teu treino."
 seoTitle: "EPOC: O Consumo de Oxigénio Depois do Treino"

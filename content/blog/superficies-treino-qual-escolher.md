@@ -1,6 +1,6 @@
 ---
 title: "Superfícies de Treino: Qual Escolher e Quando"
-date: 'PENDENTE'
+date: '2026-11-17'
 category: "Treino"
 excerpt: "Alcatrão, terra, relva, pista ou areia? O que a ciência diz sobre as superfícies de treino e como usar cada uma a favor do teu treino e da tua prova."
 seoTitle: "Superfícies de Treino: Qual Escolher e Quando"

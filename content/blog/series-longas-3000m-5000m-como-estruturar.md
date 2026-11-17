@@ -1,6 +1,6 @@
 ---
 title: "Séries Longas de 3000m a 5000m: Como Estruturar o Treino"
-date: 'PENDENTE'
+date: '2026-11-17'
 category: "Treino"
 excerpt: "Séries longas de 3000m a 5000m: a que ritmo as fazer, quantas repetições, que recuperação usar e como encaixá-las no plano de 10 km, meia e maratona."
 seoTitle: "Séries Longas de 3000m a 5000m: Como Estruturar"
