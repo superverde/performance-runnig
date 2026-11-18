@@ -2,6 +2,7 @@ import { ImageResponse } from 'next/og'
 import { NextRequest, NextResponse } from 'next/server'
 import { PNG } from 'pngjs'
 import jpeg from 'jpeg-js'
+import { toSlug } from '@/lib/tracking'
 import { CALENDARIO, diaDaCampanha, produtoCampanha, type DiaCampanha } from '@/lib/black-friday-campanha'
 
 /**
@@ -161,7 +162,12 @@ export async function GET(req: NextRequest) {
   const display = barlow ? 'Barlow' : fonte
 
   const produto = dia.produto ? produtoCampanha(dia.produto) : null
-  const foto = produto ? await fotoComoDataUri(produto.img) : null
+  // Primeiro a cópia guardada no próprio site (public/produtos/<slug>.jpg):
+  // o CDN da i-Run responde 403 aos servidores da Vercel. A i-Run fica só
+  // como recurso, para produtos ainda sem cópia local.
+  const foto = produto
+    ? (await fotoComoDataUri(`${SITE_URL}/produtos/${toSlug(produto.name)}.jpg`)) ?? (await fotoComoDataUri(produto.img))
+    : null
   if (req.nextUrl.searchParams.get('diag') === '1') {
     return NextResponse.json({ produto: produto?.name ?? null, foto: !!foto, estado: ultimoEstadoFoto })
   }
