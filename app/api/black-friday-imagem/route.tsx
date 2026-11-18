@@ -29,7 +29,11 @@ async function carregarFonte(familia: string, peso: number): Promise<ArrayBuffer
         headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36' },
       })
     ).text()
-    const url = css.match(/src: url\(([^)]+)\)/)?.[1]
+    // O CSS traz um ficheiro por alfabeto (cirílico, vietnamita, latin-ext,
+    // latin...). O latin básico vem em último: usar o primeiro deixava letras
+    // como o "A" sem glifo e o Satori trocava-as por outra fonte.
+    const urls = css.match(/src: url\([^)]+\)/g)?.map((m) => m.slice(9, -1)) ?? []
+    const url = urls[urls.length - 1]
     if (!url) return null
     const res = await fetch(url)
     return res.ok ? await res.arrayBuffer() : null
@@ -56,7 +60,7 @@ function Rodape({ fonte }: { fonte: string }) {
   )
 }
 
-function arteProduto(dia: DiaCampanha, fonte: string, display: string) {
+function arteProduto(dia: DiaCampanha, fonte: string, display: string, foto: string | null) {
   const p = dia.produto ? produtoCampanha(dia.produto) : null
   if (!p) return null
   return (
@@ -70,7 +74,7 @@ function arteProduto(dia: DiaCampanha, fonte: string, display: string) {
 
       <div style={{ display: 'flex', position: 'relative', marginTop: 40, width: W - 128, height: 640, backgroundColor: '#fff', borderRadius: 32, alignItems: 'center', justifyContent: 'center' }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={p.img} width={760} height={600} style={{ objectFit: 'contain' }} />
+        {foto ? <img src={foto} width={760} height={600} style={{ objectFit: 'contain' }} /> : null}
         {p.desconto ? (
           <div style={{ position: 'absolute', top: 28, left: 28, display: 'flex', backgroundColor: '#000', color: LIMA, fontFamily: display, fontSize: 96, lineHeight: 1, padding: '14px 26px', borderRadius: 20 }}>
             -{p.desconto}%
@@ -111,6 +115,22 @@ function arteGeral(dia: DiaCampanha, fonte: string, display: string) {
   )
 }
 
+/**
+ * Descarrega a foto da i-Run e devolve-a como data URI. O CDN da i-Run
+ * responde com "image/jpg" (tipo não normalizado), que o Satori rejeita —
+ * por isso a foto saía em branco quando era passada por URL.
+ */
+async function fotoComoDataUri(url: string): Promise<string | null> {
+  try {
+    const res = await fetch(url)
+    if (!res.ok) return null
+    const buf = Buffer.from(await res.arrayBuffer())
+    return `data:image/jpeg;base64,${buf.toString('base64')}`
+  } catch {
+    return null
+  }
+}
+
 function pngParaJpeg(png: Buffer): Buffer {
   const img = PNG.sync.read(png)
   return jpeg.encode({ data: img.data, width: img.width, height: img.height }, 88).data
@@ -128,7 +148,9 @@ export async function GET(req: NextRequest) {
   const fonte = inter ? 'Inter' : 'sans-serif'
   const display = barlow ? 'Barlow' : fonte
 
-  const arte = dia.tipo === 'produto' ? arteProduto(dia, fonte, display) : arteGeral(dia, fonte, display)
+  const produto = dia.produto ? produtoCampanha(dia.produto) : null
+  const foto = produto ? await fotoComoDataUri(produto.img) : null
+  const arte = dia.tipo === 'produto' ? arteProduto(dia, fonte, display, foto) : arteGeral(dia, fonte, display)
   if (!arte) return NextResponse.json({ error: 'Produto do dia sem link i-Run' }, { status: 404 })
 
   const resposta = new ImageResponse(arte, { width: W, height: H, fonts })
