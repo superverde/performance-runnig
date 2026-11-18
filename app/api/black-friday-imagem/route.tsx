@@ -144,12 +144,42 @@ async function fotoComoDataUri(url: string): Promise<string | null> {
   }
 }
 
+/** Versão 1200x630 para a pré-visualização do link (Facebook, grupos, WhatsApp). */
+function arteOg(fonte: string, display: string) {
+  return (
+    <div style={{ width: 1200, height: 630, display: 'flex', alignItems: 'center', backgroundColor: '#000', padding: 48, fontFamily: fonte }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`${SITE_URL}/parceiros/i-run-black-friday-2026-popup.png`} width={600} height={312} style={{ borderRadius: 24 }} />
+      <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 44, width: 460 }}>
+        <div style={{ display: 'flex', fontFamily: display, fontSize: 64, color: '#fff', lineHeight: 1 }}>O QUE VALE MESMO</div>
+        <div style={{ display: 'flex', fontFamily: display, fontSize: 64, color: LIMA, lineHeight: 1, marginTop: 6 }}>A PENA COMPRAR</div>
+        <div style={{ display: 'flex', fontSize: 26, color: 'rgba(255,255,255,0.7)', marginTop: 22, lineHeight: 1.35 }}>Guia de Black Friday 2026 para corredores: sapatilhas, relógios e acessórios.</div>
+        <div style={{ display: 'flex', fontSize: 26, color: '#fff', fontWeight: 700, marginTop: 30 }}>
+          PERFORMANCE<span style={{ color: '#00C896' }}>RUNNING</span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function pngParaJpeg(png: Buffer): Buffer {
   const img = PNG.sync.read(png)
   return jpeg.encode({ data: img.data, width: img.width, height: img.height }, 88).data
 }
 
 export async function GET(req: NextRequest) {
+  if (req.nextUrl.searchParams.get('formato') === 'og') {
+    const [i, b] = await Promise.all([carregarFonte('Inter', 700), carregarFonte('Barlow+Condensed', 800)])
+    const f = []
+    if (i) f.push({ name: 'Inter', data: i, weight: 700 as const, style: 'normal' as const })
+    if (b) f.push({ name: 'Barlow', data: b, weight: 800 as const, style: 'normal' as const })
+    const og = new ImageResponse(arteOg(i ? 'Inter' : 'sans-serif', b ? 'Barlow' : 'sans-serif'), { width: 1200, height: 630, fonts: f })
+    const png = Buffer.from(await og.arrayBuffer())
+    return new NextResponse(new Uint8Array(pngParaJpeg(png)), {
+      headers: { 'Content-Type': 'image/jpeg', 'Cache-Control': 'public, max-age=86400, s-maxage=86400' },
+    })
+  }
+
   const data = req.nextUrl.searchParams.get('data') ?? CALENDARIO[0].data
   const dia = diaDaCampanha(data)
   if (!dia) return NextResponse.json({ error: 'Data fora da campanha' }, { status: 404 })

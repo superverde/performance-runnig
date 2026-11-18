@@ -149,7 +149,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = await getArticleBySlug(params.slug)
   if (!article) return {}
 
-  const ogImage = categoryOgImages[article.category] ?? defaultOgImage
+  // Black Friday: pré-visualização própria (campanha i-Run + título) quando o
+  // link é partilhado no Facebook, nos grupos e no WhatsApp.
+  const ogImage =
+    params.slug === BLACK_FRIDAY.artigoSlug
+      ? `${SITE_URL}/api/black-friday-imagem?formato=og`
+      : categoryOgImages[article.category] ?? defaultOgImage
   const canonicalUrl = `${SITE_URL}/blog/${params.slug}`
 
   return {
