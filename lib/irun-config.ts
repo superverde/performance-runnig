@@ -6,7 +6,8 @@
  */
 
 /** Deep link Kwanko para a página inicial do i-run.pt. Vazio = faixas escondidas. */
-export const IRUN_LOJA_LINK = ''
+export const IRUN_LOJA_LINK =
+  'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2F'
 
 /** Faixa de Black Friday no topo do site (datas inclusivas, hora de Lisboa aprox.). */
 export const BLACK_FRIDAY = {
