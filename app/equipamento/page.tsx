@@ -74,7 +74,7 @@ function Stars({ n }: { n: number }) {
 
 /**
  * Imagem de produto com fallback estilizado.
- * Produtos novos ainda sem imagem Amazon confirmada (`img: ''`) mostram um
+ * Produtos novos ainda sem imagem confirmada (`img: ''`) mostram um
  * placeholder consistente com o tema do site em vez de uma imagem partida
  * ou incorreta — ver nota em lib/products.ts sobre o processo de confirmação.
  */
@@ -109,7 +109,7 @@ function ProductImage({
  * Preço do produto. Se `verified` for false (ver `precoVerificado` em
  * lib/products.ts), mostra uma etiqueta "Preço a confirmar" — nunca
  * apresenta uma estimativa de pesquisa como se fosse um preço confirmado
- * na Amazon.
+ * na loja.
  */
 function PriceTag({
   preco,
@@ -658,8 +658,8 @@ export default async function EquipamentoPage() {
         <div className="border-t border-white/5 pt-8">
           <p className="text-[11px] text-white/20 leading-relaxed max-w-2xl">
             <strong className="text-white/30">Transparência:</strong> Os botões "Ver na i-Run" são links de afiliado:
-            quando compras através deles, recebemos uma comissão sem custo adicional para ti. Os links para a Amazon
-            não são de afiliado e não nos dão qualquer comissão.
+            quando compras através deles, recebemos uma comissão sem custo adicional para ti. Os preços são indicativos
+            e mudam com promoções e stock: confirma sempre na loja.
             As avaliações são independentes e baseadas nas especificações dos fabricantes e na evidência científica, não em testes próprios — nenhuma marca paga para aparecer aqui.
           </p>
           <div className="mt-4 flex gap-3 flex-wrap">

@@ -180,7 +180,7 @@ export function ComparadorClient() {
         </div>
 
         <p className="text-[11px] text-white/30 mt-6">
-          Os links "Ver na i-Run" são de afiliado: podemos receber uma comissão em compras feitas através deles, sem custo adicional para ti. Os links para a Amazon não são de afiliado.
+          Os links "Ver na i-Run" são de afiliado: podemos receber uma comissão em compras feitas através deles, sem custo adicional para ti. Os preços são indicativos: confirma sempre na loja.
         </p>
 
       </div>
