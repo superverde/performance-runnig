@@ -5,6 +5,7 @@ import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { SocialBanner } from '@/components/SocialBanner'
 import { BlackFridayBar } from '@/components/BlackFridayBar'
+import { BlackFridayPopup } from '@/components/BlackFridayPopup'
 import { BLACK_FRIDAY } from '@/lib/irun-config'
 import fs from 'fs'
 import path from 'path'
@@ -152,6 +153,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <LocaleProvider locale={locale} messages={messages}>
           <ScrollReveal />
           <BlackFridayBar href={blackFridayHref()} />
+          <BlackFridayPopup />
           <SocialBanner />
           <Navbar />
           <main>{children}</main>
