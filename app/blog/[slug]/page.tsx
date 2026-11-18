@@ -348,9 +348,11 @@ export default async function BlogSlugPage({ params }: Props) {
         </div>
       </div>
 
+      {/* Black Friday: seleção a toda a largura, fora da coluna estreita do texto. */}
+      {params.slug === BLACK_FRIDAY.artigoSlug ? <BlackFridayDestaque variante="artigo" /> : null}
+
       {/* ── Article content ── */}
       <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
-        {params.slug === BLACK_FRIDAY.artigoSlug ? <BlackFridayDestaque variante="artigo" /> : null}
         <ArticleContent
           slug={params.slug}
           originalContent={article.content}

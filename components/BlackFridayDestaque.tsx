@@ -20,33 +20,59 @@ type Variante = 'home' | 'blog' | 'artigo'
 
 const ARTIGO_HREF = `/blog/${BLACK_FRIDAY.artigoSlug}`
 
-function GrelhaProdutos({ compacta = false }: { compacta?: boolean }) {
+function GrelhaProdutos() {
   const produtos = produtosBlackFriday()
   if (produtos.length === 0) return null
   return (
-    <ul className={`grid gap-3 ${compacta ? 'grid-cols-2 sm:grid-cols-3' : 'grid-cols-2 md:grid-cols-3 lg:grid-cols-6'}`}>
+    <ul className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
       {produtos.map((p) => (
         <li key={p.name}>
           <a
             href={trackedLink(p.name, p.url)}
             target="_blank"
             rel="noopener noreferrer sponsored"
-            className="group flex h-full flex-col rounded-xl border border-white/10 bg-white/[0.03] p-3 transition-all hover:-translate-y-0.5 hover:border-brand-green/60 hover:bg-brand-green/[0.06]"
+            className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#111] transition-all hover:-translate-y-1 hover:border-brand-green/60 hover:shadow-[0_12px_40px_rgba(0,200,150,0.15)]"
           >
-            <div className="mb-3 flex aspect-square items-center justify-center overflow-hidden rounded-lg bg-white">
-              {/* eslint-disable-next-line @next/next/no-img-element -- imagens externas da i-Run, pequenas e lazy */}
-              <img src={p.img} alt={p.name} loading="lazy" className="h-full w-full object-contain p-2 transition-transform group-hover:scale-105" />
+            {/* Fotografia a toda a largura do cartão: é o que vende o produto. */}
+            <div className="flex aspect-[4/3] items-center justify-center bg-white">
+              {/* eslint-disable-next-line @next/next/no-img-element -- imagens externas da i-Run, lazy */}
+              <img src={p.img} alt={p.name} loading="lazy" className="h-full w-full object-contain p-2 sm:p-4 transition-transform duration-300 group-hover:scale-105" />
             </div>
-            <p className="text-[10px] uppercase tracking-wider text-white/40">{p.tipo}</p>
-            <p className="mb-1 text-sm font-bold leading-snug text-white/90 group-hover:text-white">{p.name}</p>
-            <p className="mt-auto font-mono text-sm font-bold text-brand-green">{p.preco}</p>
-            <span className="mt-2 inline-flex items-center gap-1 text-[11px] font-black uppercase tracking-wider text-white/60 group-hover:text-brand-green">
-              Ver na i-Run <ArrowUpRight size={12} />
-            </span>
+            <div className="flex flex-1 flex-col p-3 sm:p-5">
+              <p className="text-[10px] uppercase tracking-wider text-white/40 sm:text-[11px]">{p.tipo}</p>
+              <p className="mb-2 text-sm font-bold leading-snug text-white sm:text-lg">{p.name}</p>
+              <p className="mt-auto font-mono text-lg font-black text-brand-green sm:text-2xl">{p.preco}</p>
+              <span className="mt-3 inline-flex items-center justify-center gap-1.5 rounded-xl bg-brand-green px-3 py-2.5 text-[11px] font-black uppercase tracking-wider text-black transition-colors group-hover:bg-white sm:text-xs">
+                Comprar na i-Run <ArrowUpRight size={14} />
+              </span>
+            </div>
           </a>
         </li>
       ))}
     </ul>
+  )
+}
+
+/**
+ * Logótipo oficial da i-Run (versão para fundo escuro), servido pelo próprio
+ * CDN da i-Run — o parceiro identificado de forma clara, sem o redesenhar.
+ */
+function LogoIrun({ className = 'h-9 sm:h-12' }: { className?: string }) {
+  return (
+    // eslint-disable-next-line @next/next/no-img-element -- SVG oficial do parceiro
+    <img src="https://static.i-run.fr/746/site_v2/img/logo-simple.svg" alt="i-Run" width={300} height={82} className={`w-auto ${className}`} />
+  )
+}
+
+function CabecalhoParceiro() {
+  return (
+    <div className="flex items-center gap-3 sm:gap-4">
+      <LogoIrun />
+      <span className="h-8 w-px bg-white/15 sm:h-10" />
+      <p className="text-[10px] font-bold uppercase leading-tight tracking-[0.2em] text-white/60 sm:text-xs">
+        Parceiro oficial<br /><span className="text-brand-green">Black Friday 2026</span>
+      </p>
+    </div>
   )
 }
 
@@ -72,7 +98,10 @@ export function BlackFridayDestaque({ variante }: { variante: Variante }) {
   if (variante === 'blog') {
     return (
       <div className="relative overflow-hidden rounded-2xl border border-brand-green/40 bg-gradient-to-r from-brand-green/[0.15] via-black to-black p-6 sm:p-8">
-        <p className="mb-2 font-mono text-[11px] font-bold uppercase tracking-[0.25em] text-brand-green">Black Friday 2026 · até 30 de novembro</p>
+        <div className="mb-4 flex flex-wrap items-center gap-3">
+          <LogoIrun className="h-8 sm:h-10" />
+          <p className="font-mono text-[11px] font-bold uppercase tracking-[0.25em] text-brand-green">Black Friday 2026 · até 30 de novembro</p>
+        </div>
         <p className="mb-5 max-w-2xl text-2xl font-black leading-tight text-white sm:text-3xl">O que vale mesmo a pena comprar para correr</p>
         <div className="flex flex-wrap items-center gap-3">
           <Link href={ARTIGO_HREF} className="inline-flex items-center gap-2 rounded-full bg-brand-green px-6 py-3 text-sm font-black text-black transition-all hover:bg-white">
@@ -87,14 +116,19 @@ export function BlackFridayDestaque({ variante }: { variante: Variante }) {
 
   if (variante === 'artigo') {
     return (
-      <aside className="not-prose mb-12 rounded-2xl border border-brand-green/40 bg-brand-green/[0.05] p-5 sm:p-6" aria-label="Seleção de Black Friday na i-Run">
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-          <p className="font-mono text-xs font-bold uppercase tracking-[0.2em] text-brand-green">As nossas escolhas · Black Friday</p>
-          <span className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] uppercase tracking-widest text-white/35">Parceiro · i-Run</span>
+      <aside className="relative overflow-hidden border-y border-brand-green/30 bg-black py-10 sm:py-14" aria-label="Seleção de Black Friday na i-Run">
+        <div className="pointer-events-none absolute -top-40 left-1/2 h-[400px] w-[800px] -translate-x-1/2 rounded-full bg-brand-green/10 blur-[140px]" />
+        <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-8 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <CabecalhoParceiro />
+            <BotaoLoja />
+          </div>
+          <h2 className="mb-6 font-display text-3xl leading-none text-white sm:text-5xl">
+            AS NOSSAS <span className="text-brand-green">ESCOLHAS</span>
+          </h2>
+          <GrelhaProdutos />
+          <p className="mt-6 text-[11px] text-white/35">{AVISO}</p>
         </div>
-        <GrelhaProdutos compacta />
-        <div className="mt-5"><BotaoLoja /></div>
-        <p className="mt-4 text-[11px] text-white/35">{AVISO}</p>
       </aside>
     )
   }
@@ -105,6 +139,7 @@ export function BlackFridayDestaque({ variante }: { variante: Variante }) {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
+            <div className="mb-6"><CabecalhoParceiro /></div>
             <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-brand-green/30 bg-brand-green/10 px-3.5 py-1.5 font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-brand-green">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-brand-green" />
               27 de novembro · até à Cyber Monday, 30 de novembro
