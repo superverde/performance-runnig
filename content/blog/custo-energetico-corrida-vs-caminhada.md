@@ -1,6 +1,6 @@
 ---
 title: "Correr vs Caminhar: O Custo Energético Real"
-date: 'PENDENTE'
+date: '2026-11-18'
 category: "Fisiologia"
 excerpt: "Correr vs caminhar: quanto gasta cada um por quilómetro e por minuto, porque a corrida custa mais e quando caminhar é a escolha mais inteligente."
 seoTitle: "Correr vs Caminhar: O Custo Energético Real"

@@ -1,6 +1,6 @@
 ---
 title: "Stress do Trabalho e Carga de Treino: Como Ajustar o Plano"
-date: 'PENDENTE'
+date: '2026-11-18'
 category: "Recuperação"
 excerpt: "O stress do trabalho soma-se à carga de treino e atrasa a recuperação. Vê o que diz a ciência e como ajustar o teu plano nas semanas mais exigentes."
 seoTitle: "Stress do Trabalho e Carga de Treino: Como Ajustar"

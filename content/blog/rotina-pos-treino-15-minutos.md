@@ -1,6 +1,6 @@
 ---
 title: "Rotina Pós-Treino de 15 Minutos: O Que Fazer Depois de Correr"
-date: 'PENDENTE'
+date: '2026-11-18'
 category: "Recuperação"
 excerpt: "Uma rotina pós-treino de 15 minutos com base na evidência: arrefecer, beber, comer, trocar de roupa e registar o treino para recuperares melhor."
 seoTitle: "Rotina Pós-Treino de 15 Minutos: O Que Fazer"
