@@ -6,6 +6,7 @@ import { sapatos, relogios, sensoresFc, nutricao, acessorios, linkCompra, type S
 import { selectRotatingProducts, getCurrentRotationBucket } from '@/lib/rotation'
 import { trackedLink, toSlug } from '@/lib/tracking'
 import { IrunFaixa } from '@/components/IrunFaixa'
+import { IrunMontra } from '@/components/IrunMontra'
 
 // Regenera a cada 6 horas — garante que a ordenação por clicks e a rotação de produtos ficam atualizadas
 export const revalidate = 21600
@@ -235,7 +236,11 @@ export default async function EquipamentoPage() {
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 space-y-20">
 
-        <IrunFaixa />
+        <div className="space-y-12">
+          <IrunFaixa />
+          <IrunMontra grupo="sapatilhas" />
+          <IrunMontra grupo="eletronica" />
+        </div>
 
         {/* ── Novidade do Dia ── */}
         <section className="relative rounded-3xl overflow-hidden border border-white/10 bg-white/[0.02]">

@@ -98,3 +98,22 @@ export function nomePorLinkIrun(url: string): string | null {
   if (url === IRUN_LOJA_LINK) return 'i-run-loja'
   return todos().find((p) => p.url === url)?.name ?? null
 }
+
+/** Marcas com mais de uma palavra, para separar marca e modelo nos cartões. */
+const MARCAS_COMPOSTAS = ['La Sportiva', 'New Balance', 'Black Diamond', 'Ta Energy']
+
+/** Separa "Nike Pegasus 41" em { marca: 'Nike', modelo: 'Pegasus 41' }. */
+export function marcaModelo(nome: string): { marca: string; modelo: string } {
+  const composta = MARCAS_COMPOSTAS.find((m) => nome.startsWith(m + ' '))
+  const marca = composta ?? nome.split(' ')[0]
+  return { marca, modelo: nome.slice(marca.length).trim() || nome }
+}
+
+/** Grupos de produtos para os carrosséis, ordenados pelo maior desconto da i-Run. */
+export function produtosCarrossel(grupo: 'sapatilhas' | 'eletronica' | 'acessorios'): IrunProduto[] {
+  const base =
+    grupo === 'sapatilhas' ? [...estrada(), ...competicao(), ...trail()]
+    : grupo === 'eletronica' ? eletronica()
+    : [...acess(), ...nutri()]
+  return [...base].sort((a, b) => (b.desconto ?? 0) - (a.desconto ?? 0))
+}
