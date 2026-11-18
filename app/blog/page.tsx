@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { getAllArticles } from '@/lib/articles'
 import { BlogClient } from '@/components/BlogClient'
 import { IrunFaixa } from '@/components/IrunFaixa'
+import { BlackFridayDestaque } from '@/components/BlackFridayDestaque'
 
 // Sem isto, o Next.js pre-renderiza esta pagina como estatica no build e ela
 // fica presa com a contagem de artigos de quando foi gerada pela ultima vez --
@@ -19,5 +20,5 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const articles = getAllArticles()
-  return <BlogClient articles={articles} faixa={<IrunFaixa />} />
+  return <BlogClient articles={articles} faixa={<div className="space-y-4"><BlackFridayDestaque variante="blog" /><IrunFaixa /></div>} />
 }

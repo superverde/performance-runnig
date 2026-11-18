@@ -9,6 +9,8 @@ import { BlogClient } from '@/components/BlogClient'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArticleContent } from '@/components/ArticleContent'
 import { IrunBloco } from '@/components/IrunBloco'
+import { BlackFridayDestaque } from '@/components/BlackFridayDestaque'
+import { BLACK_FRIDAY } from '@/lib/irun-config'
 import { produtosIrunPara } from '@/lib/irun'
 import { Sondagem } from '@/components/Sondagem'
 import { sondagemParaCategoria } from '@/lib/sondagens'
@@ -348,6 +350,7 @@ export default async function BlogSlugPage({ params }: Props) {
 
       {/* ── Article content ── */}
       <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-14">
+        {params.slug === BLACK_FRIDAY.artigoSlug ? <BlackFridayDestaque variante="artigo" /> : null}
         <ArticleContent
           slug={params.slug}
           originalContent={article.content}

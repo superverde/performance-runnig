@@ -3,6 +3,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import remarkHtml from 'remark-html'
+import { trackedLink } from '@/lib/tracking'
+import { nomePorLinkIrun } from '@/lib/irun'
 import { format } from 'date-fns'
 import { pt } from 'date-fns/locale'
 
@@ -201,6 +203,22 @@ function deaccentSlug(value: string): string {
  * já existiu, foi perdida numa reescrita, e sozinha não chegava porque
  * recebia o slug ainda percent-encoded).
  */
+/**
+ * Links de afiliado i-Run escritos no markdown dos artigos (deep links Kwanko,
+ * sln.i-run.pt) passam a contar cliques em /api/track-click e levam
+ * rel="sponsored" (exigência do Google para links pagos) e target="_blank".
+ * O nome do produto vem do inventário, para agrupar os cliques com os de
+ * /equipamento; se o link não estiver no inventário usa o texto do link.
+ */
+function marcarLinksAfiliado(html: string): string {
+  return html.replace(/<a href="(https:\/\/sln\.i-run\.pt\/[^"]+)">([\s\S]*?)<\/a>/g, (_m, href: string, texto: string) => {
+    const url = href.replace(/&#x26;|&amp;/g, '&')
+    const nome = nomePorLinkIrun(url) ?? (texto.replace(/<[^>]+>/g, '').trim() || 'i-run')
+    const destino = trackedLink(nome, url).replace(/&/g, '&amp;')
+    return `<a href="${destino}" target="_blank" rel="noopener noreferrer sponsored">${texto}</a>`
+  })
+}
+
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
   let filePath = path.join(ARTICLES_DIR, `${slug}.md`)
   if (!fs.existsSync(filePath)) {
@@ -219,7 +237,7 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
     const { data, content: mdContent } = matter(raw)
 
     const processed = await remark().use(remarkHtml, { sanitize: false }).process(mdContent)
-    const htmlContent = processed.toString()
+    const htmlContent = marcarLinksAfiliado(processed.toString())
 
     const wordCount = mdContent.split(/\s+/).length
     // Respect frontmatter readTime; fallback to word-count estimate

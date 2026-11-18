@@ -17,7 +17,9 @@
  */
 import { sapatos, relogios, sensoresFc, nutricao, acessorios } from '@/lib/products'
 
-export { IRUN_LOJA_LINK, BLACK_FRIDAY, SEM_PUBLICIDADE } from '@/lib/irun-config'
+import { BLACK_FRIDAY_DESTAQUES, IRUN_LOJA_LINK } from '@/lib/irun-config'
+
+export { IRUN_LOJA_LINK, BLACK_FRIDAY, BLACK_FRIDAY_DESTAQUES, SEM_PUBLICIDADE, blackFridayAtiva } from '@/lib/irun-config'
 
 export interface IrunProduto {
   name: string
@@ -75,4 +77,20 @@ export function produtosIrunPara(categoria: string, n = 2, semente = ''): IrunPr
   if (unicos.length <= n) return unicos
   const inicio = hash(semente) % unicos.length
   return Array.from({ length: n }, (_, i) => unicos[(inicio + i) % unicos.length])
+}
+
+/** Produtos de BLACK_FRIDAY_DESTAQUES, pela ordem definida, só os que têm deep link i-Run. */
+export function produtosBlackFriday(): IrunProduto[] {
+  const mapa = new Map(todos().map((p) => [p.name, p]))
+  return BLACK_FRIDAY_DESTAQUES.map((n) => mapa.get(n)).filter((p): p is IrunProduto => !!p)
+}
+
+/**
+ * Nome do produto (ou 'i-run-loja') a que pertence um deep link i-Run, para o
+ * tracking de cliques agrupar os cliques do mesmo produto sob a mesma chave,
+ * venham de /equipamento, dos blocos de parceiro ou do texto de um artigo.
+ */
+export function nomePorLinkIrun(url: string): string | null {
+  if (url === IRUN_LOJA_LINK) return 'i-run-loja'
+  return todos().find((p) => p.url === url)?.name ?? null
 }

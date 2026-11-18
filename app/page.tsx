@@ -7,6 +7,7 @@ import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArrowRight, ArrowUpRight, Zap, Play } from 'lucide-react'
 import { IrunDestaques } from '@/components/IrunDestaques'
+import { BlackFridayDestaque } from '@/components/BlackFridayDestaque'
 import { getLocaleFromCookie, getMessages } from '@/lib/locale-server'
 import type { Metadata } from 'next'
 
@@ -139,6 +140,9 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* BLACK FRIDAY — secção grande só entre BLACK_FRIDAY.inicio e .fim (lib/irun-config.ts). */}
+      <BlackFridayDestaque variante="home" />
 
       {/* VÍDEO — apresentação em vídeo (gerado com Synthesia) da filosofia de
           treino, logo a seguir ao hero para reforçar a credibilidade antes
