@@ -41,6 +41,11 @@ const SITE_URL = 'https://www.performancerunning.pt'
 // que already se aplicava às fotos da homepage (ver comentário em
 // app/page.tsx). Os ficheiros ainda têm de ser descarregados para
 // public/pool-images/ — ver scripts/download-new-pool-images.js.
+// 2026-11-18: retiradas da pool fotos que não tinham nada a ver com corrida —
+// um prédio de habitação (photo-1560347876, saiu num post do Facebook do
+// artigo "Rotina pós-treino de 15 minutos"), um microscópio, um teclado
+// iluminado, uma foto que não é de trail — e 6 cópias quase iguais da mesma
+// foto na Fisiologia. Confirmado a olho, foto a foto.
 export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
   'Treino': [
     'photo-1571019614242-c5c5dee9f50b',
@@ -73,12 +78,6 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1518611012118-696072aa579a',
     // NOVAS 2026-09-18
     'photo-1774050021301-831282cfc3a4',
-    'photo-1774050021147-a264e14a70e4',
-    'photo-1774050021270-c52bc454ba40',
-    'photo-1774050021229-feca39f78855',
-    'photo-1774050021155-f2c0fa1a9658',
-    'photo-1774050021349-d2024626b531',
-    'photo-1774050021668-51cb8d8b4537',
     'photo-1775400787974-548ca79ad3f0',
     'photo-1659366100463-9e29a63adcc2',
   ],
@@ -126,8 +125,6 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1541781774459-bb2af2f05b55',
     'photo-1544367567-0f2fcb009e0b',
     'photo-1519315901367-f34ff9154487',
-    'photo-1560347876-aeef00ee58a1',
-    'photo-1567427018141-0584cfcbf1b8',
     // NOVAS 2026-09-18
     'photo-1593431763017-c689a61b729a',
     'photo-1761839257789-20147513121a',
@@ -140,7 +137,6 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1464822759023-fed622ff2c3b',
     'photo-1456613820599-bfe244172af5',
     'photo-1530026405186-ed1f139313f8',
-    'photo-1590012314607-cda9d9b699ae',
     'photo-1610832958506-aa56368176cf',
     // NOVAS 2026-09-18
     'photo-1781696566918-82c911dfbe26',
@@ -188,7 +184,6 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1541534741688-6078c6bfb5c5',
     'photo-1648995361141-30676a75fd27',
     'photo-1542291026-7eec264c27ff',
-    'photo-1538481199705-c710c4e965fc',
     'photo-1600334089648-b0d9d3028eb2',
     // NOVAS 2026-09-18
     'photo-1709601415546-dcd24c912e56',
