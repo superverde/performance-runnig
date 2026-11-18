@@ -34,14 +34,22 @@ function GrelhaProdutos() {
             className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#111] transition-all hover:-translate-y-1 hover:border-brand-green/60 hover:shadow-[0_12px_40px_rgba(0,200,150,0.15)]"
           >
             {/* Fotografia a toda a largura do cartão: é o que vende o produto. */}
-            <div className="flex aspect-[4/3] items-center justify-center bg-white">
+            <div className="relative flex aspect-[4/3] items-center justify-center bg-white">
+              {p.desconto ? (
+                <span className="absolute left-2 top-2 z-10 rounded-lg bg-black px-2.5 py-1 font-display text-lg leading-none text-[#c8e100] shadow-lg sm:left-3 sm:top-3 sm:text-2xl">
+                  -{p.desconto}%
+                </span>
+              ) : null}
               {/* eslint-disable-next-line @next/next/no-img-element -- imagens externas da i-Run, lazy */}
               <img src={p.img} alt={p.name} loading="lazy" className="h-full w-full object-contain p-2 sm:p-4 transition-transform duration-300 group-hover:scale-105" />
             </div>
             <div className="flex flex-1 flex-col p-3 sm:p-5">
               <p className="text-[10px] uppercase tracking-wider text-white/40 sm:text-[11px]">{p.tipo}</p>
               <p className="mb-2 text-sm font-bold leading-snug text-white sm:text-lg">{p.name}</p>
-              <p className="mt-auto font-mono text-lg font-black text-brand-green sm:text-2xl">{p.preco}</p>
+              <p className="mt-auto flex flex-wrap items-baseline gap-x-2">
+                <span className="font-mono text-lg font-black text-brand-green sm:text-2xl">{p.preco}</span>
+                {p.pvp ? <span className="font-mono text-xs text-white/40 line-through sm:text-sm">{p.pvp} €</span> : null}
+              </p>
               <span className="mt-3 inline-flex items-center justify-center gap-1.5 rounded-xl bg-brand-green px-3 py-2.5 text-[11px] font-black uppercase tracking-wider text-black transition-colors group-hover:bg-white sm:text-xs">
                 Comprar na i-Run <ArrowUpRight size={14} />
               </span>
@@ -86,6 +94,34 @@ function BotaoLoja({ texto = 'Ver todas as promoções na i-Run' }: { texto?: st
       className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-bold text-white/80 transition-all hover:border-brand-green hover:text-white"
     >
       {texto} <ArrowUpRight size={15} />
+    </a>
+  )
+}
+
+/**
+ * Banner de Black Friday da própria i-Run (imagem da campanha "até -70%"
+ * do i-run.pt, enviada pelo Pedro a 2026-11-18), a abrir o artigo.
+ * Clicável para a loja, com tracking e rel="sponsored".
+ */
+export function BlackFridayBanner() {
+  if (!IRUN_LOJA_LINK || !blackFridayAtiva()) return null
+  return (
+    <a
+      href={trackedLink('i-run-black-friday-banner', IRUN_LOJA_LINK)}
+      target="_blank"
+      rel="noopener noreferrer sponsored"
+      className="group block overflow-hidden rounded-2xl border border-white/10 transition-all hover:border-brand-green/60 hover:shadow-[0_12px_40px_rgba(0,200,150,0.15)]"
+      aria-label="Black Friday na i-Run: até -70% de desconto — ver promoções"
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element -- banner estático em /public, dimensões fixas */}
+      <img
+        src="/parceiros/i-run-black-friday-2026.webp"
+        alt="Black Friday i-Run: até -70% de desconto em sapatilhas, relógios e auscultadores de corrida"
+        width={1164}
+        height={244}
+        fetchPriority="high"
+        className="block h-auto w-full transition-transform duration-500 group-hover:scale-[1.01]"
+      />
     </a>
   )
 }

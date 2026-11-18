@@ -33,7 +33,11 @@ export function IrunBloco({ categoria, semente = '', n = 2, titulo }: { categori
             <div className="min-w-0 flex-1">
               <p className="text-[10px] uppercase tracking-wider text-white/40">{p.tipo}</p>
               <p className="text-sm font-bold text-white/90 group-hover:text-white truncate">{p.name}</p>
-              <p className="text-xs text-brand-green font-mono">{p.preco}</p>
+              <p className="text-xs font-mono">
+                <span className="text-brand-green">{p.preco}</span>
+                {p.pvp ? <span className="ml-1.5 text-white/35 line-through">{p.pvp} €</span> : null}
+                {p.desconto ? <span className="ml-1.5 rounded bg-[#c8e100] px-1 font-bold text-black">-{p.desconto}%</span> : null}
+              </p>
             </div>
             <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-black uppercase tracking-wider text-black bg-brand-green px-3 py-2 rounded-lg group-hover:bg-white transition-colors">
               Ver na i-Run <ArrowUpRight size={12} />

@@ -28,6 +28,10 @@ export interface SapatoProduto {
   link: string
   /** Deep link i-Run gerado no painel Kwanko (campanha i-Run PT P79921). Quando existe, passa a ser o único botão de compra. */
   linkIrun?: string
+  /** Desconto mostrado pela própria i-Run na ficha ("Está a poupar N%"), lido a 2026-11-18. Só preencher com o valor da i-Run. */
+  desconto?: number
+  /** Preço de venda recomendado pela marca, em €, tal como aparece na ficha da i-Run (2026-11-18). */
+  pvp?: number
   loja: string
   bestseller?: boolean
   /**
@@ -53,6 +57,10 @@ export interface RelogioProduto {
   link: string
   /** Deep link i-Run gerado no painel Kwanko (campanha i-Run PT P79921). Quando existe, passa a ser o único botão de compra. */
   linkIrun?: string
+  /** Desconto mostrado pela própria i-Run na ficha ("Está a poupar N%"), lido a 2026-11-18. Só preencher com o valor da i-Run. */
+  desconto?: number
+  /** Preço de venda recomendado pela marca, em €, tal como aparece na ficha da i-Run (2026-11-18). */
+  pvp?: number
   loja: string
   bestseller?: boolean
 }
@@ -72,6 +80,10 @@ export interface SensorFcProduto {
   link: string
   /** Deep link i-Run gerado no painel Kwanko (campanha i-Run PT P79921). Quando existe, passa a ser o único botão de compra. */
   linkIrun?: string
+  /** Desconto mostrado pela própria i-Run na ficha ("Está a poupar N%"), lido a 2026-11-18. Só preencher com o valor da i-Run. */
+  desconto?: number
+  /** Preço de venda recomendado pela marca, em €, tal como aparece na ficha da i-Run (2026-11-18). */
+  pvp?: number
   loja: string
   porque: string
   bestseller?: boolean
@@ -92,6 +104,10 @@ export interface NutricaoProduto {
   link: string
   /** Deep link i-Run gerado no painel Kwanko (campanha i-Run PT P79921). Quando existe, passa a ser o único botão de compra. */
   linkIrun?: string
+  /** Desconto mostrado pela própria i-Run na ficha ("Está a poupar N%"), lido a 2026-11-18. Só preencher com o valor da i-Run. */
+  desconto?: number
+  /** Preço de venda recomendado pela marca, em €, tal como aparece na ficha da i-Run (2026-11-18). */
+  pvp?: number
   loja: string
   porque: string
   bestseller?: boolean
@@ -107,6 +123,10 @@ export interface AcessorioProduto {
   link: string
   /** Deep link i-Run gerado no painel Kwanko (campanha i-Run PT P79921). Quando existe, passa a ser o único botão de compra. */
   linkIrun?: string
+  /** Desconto mostrado pela própria i-Run na ficha ("Está a poupar N%"), lido a 2026-11-18. Só preencher com o valor da i-Run. */
+  desconto?: number
+  /** Preço de venda recomendado pela marca, em €, tal como aparece na ficha da i-Run (2026-11-18). */
+  pvp?: number
   bestseller?: boolean
 }
 
@@ -127,6 +147,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fhoka%2FClifton-10_fiche_144262.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fhoka%2FClifton-10_fiche_144262.html',
     loja: 'i-Run',
+    desconto: 26,
+    pvp: 160,
   },
   {
     name: 'On Cloudmonster 2',
@@ -143,6 +165,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fon-running%2FCloudmonster-2_fiche_136633.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fon-running%2FCloudmonster-2_fiche_136633.html',
     loja: 'i-Run',
+    desconto: 39,
+    pvp: 190,
   },
   {
     name: 'ASICS Novablast 5',
@@ -161,6 +185,8 @@ export const sapatos: SapatoProduto[] = [
     loja: 'i-Run',
     bestseller: true,
     novidade: 'Mais Vendido 2026',
+    desconto: 16,
+    pvp: 150,
   },
   {
     name: 'Nike Vomero Plus',
@@ -179,6 +205,8 @@ export const sapatos: SapatoProduto[] = [
     loja: 'i-Run',
     bestseller: true,
     novidade: 'Lançamento 2026',
+    desconto: 27,
+    pvp: 180,
   },
   {
     name: 'Nike Pegasus 41',
@@ -195,6 +223,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fnike%2FPegasus-41_fiche_141717.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fnike%2FPegasus-41_fiche_141717.html',
     loja: 'i-Run',
+    desconto: 20,
+    pvp: 140,
   },
   {
     name: 'Salomon Speedcross 6',
@@ -211,6 +241,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fsalomon%2FSpeedcross-6_fiche_141202.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fsalomon%2FSpeedcross-6_fiche_141202.html',
     loja: 'i-Run',
+    desconto: 20,
+    pvp: 150,
   },
   {
     name: 'HOKA Mafate 5',
@@ -229,6 +261,8 @@ export const sapatos: SapatoProduto[] = [
     loja: 'i-Run',
     bestseller: true,
     novidade: 'Líder Trail 2026',
+    desconto: 31,
+    pvp: 190,
   },
   {
     name: 'La Sportiva Bushido III',
@@ -245,6 +279,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fmulher%2Fcalcados%2Ftrail-running%2Fla-sportiva%2FBushido-III_fiche_139117.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fmulher%2Fcalcados%2Ftrail-running%2Fla-sportiva%2FBushido-III_fiche_139117.html',
     loja: 'i-Run',
+    desconto: 20,
+    pvp: 175,
   },
   {
     name: 'New Balance Fresh Foam X Hierro v9',
@@ -262,6 +298,8 @@ export const sapatos: SapatoProduto[] = [
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fnew-balance%2FFresh-Foam-X-Hierro-V9_fiche_143489.html',
     loja: 'i-Run',
     novidade: 'Em Alta 2026',
+    desconto: 26,
+    pvp: 160,
   },
   {
     name: 'Nike Vaporfly 3',
@@ -278,6 +316,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fnike%2FZoomX-Vaporfly-Next--3_fiche_139772.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fnike%2FZoomX-Vaporfly-Next--3_fiche_139772.html',
     loja: 'i-Run',
+    desconto: 48,
+    pvp: 260,
   },
   {
     name: 'Nike Alphafly 3',
@@ -296,6 +336,8 @@ export const sapatos: SapatoProduto[] = [
     loja: 'i-Run',
     bestseller: true,
     novidade: 'Topo de Gama 2026',
+    desconto: 29,
+    pvp: 310,
   },
   {
     name: 'Adidas Adizero Adios Pro 4',
@@ -313,6 +355,8 @@ export const sapatos: SapatoProduto[] = [
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fadidas%2Fadizero-Adios-Pro-4_fiche_142982.html',
     loja: 'i-Run',
     novidade: 'Nova Geração 2026',
+    desconto: 28,
+    pvp: 250,
   },
   {
     name: 'ASICS Novablast 6',
@@ -329,6 +373,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fasics%2FNovablast-6_fiche_147450.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fasics%2FNovablast-6_fiche_147450.html',
     loja: 'i-Run',
+    desconto: 21,
+    pvp: 160,
   },
   {
     name: 'Nike Pegasus 42',
@@ -361,6 +407,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fasics%2FGel-Nimbus-28_fiche_145675.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fasics%2FGel-Nimbus-28_fiche_145675.html',
     loja: 'i-Run',
+    desconto: 32,
+    pvp: 200,
   },
   {
     name: 'On Cloudmonster 3',
@@ -377,6 +425,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fon-running%2FCloudmonster-3_fiche_146463.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fon-running%2FCloudmonster-3_fiche_146463.html',
     loja: 'i-Run',
+    desconto: 28,
+    pvp: 200,
   },
   {
     name: 'HOKA Speedgoat 7',
@@ -393,6 +443,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fhoka%2FSpeedgoat-7_fiche_146376.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fhoka%2FSpeedgoat-7_fiche_146376.html',
     loja: 'i-Run',
+    desconto: 27,
+    pvp: 165,
   },
   {
     name: 'Saucony Peregrine 16',
@@ -409,6 +461,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fsaucony%2FPeregrine-16_fiche_145819.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Ftrail-running%2Fsaucony%2FPeregrine-16_fiche_145819.html',
     loja: 'i-Run',
+    desconto: 30,
+    pvp: 160,
   },
   {
     name: 'Saucony Endorphin Pro 5',
@@ -425,6 +479,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fsaucony%2FEndorphin-Pro-5_fiche_146484.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fsaucony%2FEndorphin-Pro-5_fiche_146484.html',
     loja: 'i-Run',
+    desconto: 30,
+    pvp: 270,
   },
   {
     name: 'Brooks Ghost Max 3',
@@ -441,6 +497,8 @@ export const sapatos: SapatoProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fbrooks%2FGhost-Max-3_fiche_145046.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fbrooks%2FGhost-Max-3_fiche_145046.html',
     loja: 'i-Run',
+    desconto: 26,
+    pvp: 160,
   },
 ]
 
@@ -460,6 +518,8 @@ export const relogios: RelogioProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fcoros%2FPace-3_fiche_133690.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fcoros%2FPace-3_fiche_133690.html',
     loja: 'i-Run',
+    desconto: 8,
+    pvp: 249,
   },
   {
     name: 'Coros Apex 2',
@@ -475,6 +535,8 @@ export const relogios: RelogioProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fcoros%2FApex-2_fiche_124643.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fcoros%2FApex-2_fiche_124643.html',
     loja: 'i-Run',
+    desconto: 25,
+    pvp: 399,
   },
   {
     name: 'Garmin Forerunner 55',
@@ -490,6 +552,8 @@ export const relogios: RelogioProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fgarmin%2FForerunner-55_fiche_107704.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fgarmin%2FForerunner-55_fiche_107704.html',
     loja: 'i-Run',
+    desconto: 20,
+    pvp: 199,
   },
   {
     name: 'COROS Pace 4',
@@ -520,6 +584,8 @@ export const relogios: RelogioProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fpolar%2FVantage-M3_fiche_142790.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fpolar%2FVantage-M3_fiche_142790.html',
     loja: 'i-Run',
+    desconto: 25,
+    pvp: 399,
   },
   {
     name: 'Polar Grit X2',
@@ -535,6 +601,8 @@ export const relogios: RelogioProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fpolar%2FGrit-X2_fiche_144870.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fpolar%2FGrit-X2_fiche_144870.html',
     loja: 'i-Run',
+    desconto: 25,
+    pvp: 479,
   },
   {
     name: 'COROS Apex 4',
@@ -571,6 +639,8 @@ export const sensoresFc: SensorFcProduto[] = [
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Fcintos-cardio%2Fpolar%2FH10-M-XXL_fiche_86142.html',
     loja: 'i-Run',
     porque: 'Se treinas por zonas de FC ou fazes testes de VO2max, o H10 é insubstituível. Os sensores de pulso têm erro de ±5-10% — o H10 tem ±1 bpm.',
+    desconto: 20,
+    pvp: 99,
   },
   {
     name: 'Polar Verity Sense',
@@ -588,6 +658,8 @@ export const sensoresFc: SensorFcProduto[] = [
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Fsensores%2Fpolar%2FVerity-Sense_fiche_131635.html',
     loja: 'i-Run',
     porque: 'A alternativa ao H10 para quem não quer cinta peitoral. Excelente para trail (movimento irregular) e natação.',
+    desconto: 10,
+    pvp: 99,
   },
   {
     name: 'Polar Pacer Pro',
@@ -605,6 +677,8 @@ export const sensoresFc: SensorFcProduto[] = [
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frelogios%2Fpolar%2FPacer-Pro_fiche_116503.html',
     loja: 'i-Run',
     porque: 'Para quem prefere o ecossistema Polar e quer Running Power + HRV num relógio leve e acessível.',
+    desconto: 42,
+    pvp: 349,
   },
   {
     name: 'COROS Sensor de frequência cardíaca',
@@ -844,6 +918,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: '8L com 1.5L de hidratação. Ajuste perfeito sem movimento. A escolha dos pros no trail.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fmochilas-de-hidratacao%2Fsalomon%2FActive-Skin-8_fiche_137827.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fmochilas-de-hidratacao%2Fsalomon%2FActive-Skin-8_fiche_137827.html',
+    desconto: 30,
+    pvp: 115,
   },
   {
     name: 'Buff Original',
@@ -855,6 +931,8 @@ export const acessorios: AcessorioProduto[] = [
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fgolas%2Fbuff%2FOriginal_fiche_124521.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fgolas%2Fbuff%2FOriginal_fiche_124521.html',
     bestseller: true,
+    desconto: 33,
+    pvp: 18,
   },
   {
     name: 'Oakley Radar EV Path',
@@ -865,6 +943,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Os óculos mais usados pela elite do atletismo mundial. Lente Prizm de alta definição e encaixe que não desliza mesmo com transpiração intensa.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Foculos%2Foakley%2FOculos-Radar-EV-Path-Prizm-Road_fiche_55909.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Foculos%2Foakley%2FOculos-Radar-EV-Path-Prizm-Road_fiche_55909.html',
+    desconto: 20,
+    pvp: 214,
   },
   {
     name: 'Black Diamond Distance Carbon Z',
@@ -875,6 +955,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Bastões de carbono ultraleves e dobráveis, essenciais em ultra trail com muito desnível — poupam energia significativa nas subidas longas.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fbastoes-de-caminhada%2Fblack-diamond%2FDistance-Carbon-Z_fiche_144035.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fbastoes-de-caminhada%2Fblack-diamond%2FDistance-Carbon-Z_fiche_144035.html',
+    desconto: 10,
+    pvp: 160,
   },
   {
     name: 'Compressport Pro Racing V4.0 Run High',
@@ -885,6 +967,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Meias técnicas de corrida da Compressport, com reforço na respirabilidade. As preferidas de muitos corredores para treinos longos e provas.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fmeias%2Fcompressport%2FPro-Racing-V-4.0-Run-High_fiche_113946.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fmeias%2Fcompressport%2FPro-Racing-V-4.0-Run-High_fiche_113946.html',
+    desconto: 35,
+    pvp: 20,
   },
   {
     name: 'Therabody Wave Roller',
@@ -895,6 +979,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Rolo de espuma de alta densidade com vibração e superfície em ondas. Para libertação miofascial no aquecimento e na recuperação.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frecuperacao-muscular%2Ftherabody%2FWave-Roller_fiche_103284.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frecuperacao-muscular%2Ftherabody%2FWave-Roller_fiche_103284.html',
+    desconto: 20,
+    pvp: 149,
   },
   {
     name: 'Therabody Theragun Prime Plus',
@@ -905,6 +991,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Massajador percussivo da Theragun que junta percussão e calor, com vários acessórios. Para soltar a musculatura antes do treino e acelerar a recuperação depois.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frecuperacao-muscular%2Ftherabody%2FTheragun-Prime-Plus_fiche_143369.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Frecuperacao-muscular%2Ftherabody%2FTheragun-Prime-Plus_fiche_143369.html',
+    desconto: 19,
+    pvp: 419,
   },
   {
     name: 'Petzl Iko Core',
@@ -915,6 +1003,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Lanterna frontal com a fita AirFit da Petzl, semi-rígida e muito fina, que fica estável na cabeça. Para treinos de trail ao amanhecer, ao fim do dia e provas noturnas.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Flanternas-frontais%2Fpetzl%2FIko-Core_fiche_97060.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Feletronica%2Flanternas-frontais%2Fpetzl%2FIko-Core_fiche_97060.html',
+    desconto: 40,
+    pvp: 90,
   },
   {
     name: 'Salomon Pulse',
@@ -925,6 +1015,8 @@ export const acessorios: AcessorioProduto[] = [
     desc: 'Cinto de trail leve, em malha perfurada e tecido elástico em quatro direções, para levar telemóvel, géis e chaves sem saltar.',
     link: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fcintos%2Fsalomon%2FPulse_fiche_137763.html',
     linkIrun: 'https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Facessorios%2Fcintos%2Fsalomon%2FPulse_fiche_137763.html',
+    desconto: 20,
+    pvp: 35,
   },
   {
     name: 'Sidas Creme anti-fricção',

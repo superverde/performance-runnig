@@ -27,14 +27,18 @@ export interface IrunProduto {
   img: string
   url: string
   tipo: string
+  /** Desconto indicado pela i-Run (%), se houver. */
+  desconto?: number
+  /** Preço recomendado pela marca (€), se a i-Run o indicar. */
+  pvp?: number
 }
 
-type Base = { name: string; preco: string; img: string; linkIrun?: string }
+type Base = { name: string; preco: string; img: string; linkIrun?: string; desconto?: number; pvp?: number }
 
 function comIrun<T extends Base>(list: T[], tipo: string): IrunProduto[] {
   return list
     .filter((p) => !!p.linkIrun)
-    .map((p) => ({ name: p.name, preco: p.preco, img: p.img, url: p.linkIrun as string, tipo }))
+    .map((p) => ({ name: p.name, preco: p.preco, img: p.img, url: p.linkIrun as string, tipo, desconto: p.desconto, pvp: p.pvp }))
 }
 
 const estrada = () => comIrun(sapatos.filter((s) => s.categoria === 'Estrada'), 'Sapatilha de estrada')

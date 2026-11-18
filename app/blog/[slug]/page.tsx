@@ -9,7 +9,7 @@ import { BlogClient } from '@/components/BlogClient'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ArticleContent } from '@/components/ArticleContent'
 import { IrunBloco } from '@/components/IrunBloco'
-import { BlackFridayDestaque } from '@/components/BlackFridayDestaque'
+import { BlackFridayDestaque, BlackFridayBanner } from '@/components/BlackFridayDestaque'
 import { BLACK_FRIDAY } from '@/lib/irun-config'
 import { produtosIrunPara } from '@/lib/irun'
 import { Sondagem } from '@/components/Sondagem'
@@ -305,8 +305,15 @@ export default async function BlogSlugPage({ params }: Props) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
 
+      {/* Black Friday: banner da campanha da i-Run logo no início da página do artigo. */}
+      {params.slug === BLACK_FRIDAY.artigoSlug ? (
+        <div className="mx-auto max-w-6xl px-4 pt-24 sm:px-6 lg:px-8">
+          <BlackFridayBanner />
+        </div>
+      ) : null}
+
       {/* ── Hero banner ── */}
-      <div className="relative pt-24 pb-14 overflow-hidden">
+      <div className={`relative ${params.slug === BLACK_FRIDAY.artigoSlug ? 'pt-10' : 'pt-24'} pb-14 overflow-hidden`}>
         <Image
           src={heroImgSrc}
           alt=""
