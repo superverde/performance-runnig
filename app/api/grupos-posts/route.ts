@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server'
 import { getAllArticles, getTodayArticles } from '@/lib/articles'
 import { pickCategoryImage } from '@/lib/images'
+import { blackFridayAtiva, hojeLisboa } from '@/lib/irun-config'
+import { postsGrupos, imagemDoDia, CALENDARIO } from '@/lib/black-friday-campanha'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -127,6 +129,23 @@ Já perderam tempo a seguir um conselho que não fazia sentido para o vosso trei
 #corridaportugal #runningportugal #corredoresportugal #performancerunning #running #runningcommunity #treinodecorrida #correr`
     ),
   })
+
+  // Black Friday (18 a 30/11/2026): publicações da campanha no topo da
+  // lista, prontas a copiar para os grupos — ver lib/black-friday-campanha.ts.
+  if (blackFridayAtiva()) {
+    const hoje = hojeLisboa()
+    const dataImagem = CALENDARIO.some((d) => d.data === hoje) ? hoje : CALENDARIO[0].data
+    const bf = postsGrupos(hoje).map((p) => ({
+      slot: 4,
+      hora: 'Black Friday',
+      titulo: p.titulo,
+      categoria: 'Black Friday',
+      link: p.link,
+      imagem: imagemDoDia(dataImagem),
+      texto: p.texto,
+    }))
+    posts.unshift(...bf)
+  }
 
   return NextResponse.json({ posts, date: now.toISOString().slice(0, 10) })
 }

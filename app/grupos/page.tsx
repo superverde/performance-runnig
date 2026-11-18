@@ -135,8 +135,8 @@ function PostCard({ post }: { post: Post }) {
   // Pedro — os resultados eram melhores com o link direto), por isso já
   // não é preciso colá-lo à parte no primeiro comentário.
 
-  const slots = ['🌅 Manhã', '☀️ Tarde', '🌙 Noite', '📬 Newsletter']
-  const cores = ['border-yellow-500/40', 'border-blue-500/40', 'border-purple-500/40', 'border-brand-green/40']
+  const slots = ['🌅 Manhã', '☀️ Tarde', '🌙 Noite', '📬 Newsletter', '🖤 Campanha']
+  const cores = ['border-yellow-500/40', 'border-blue-500/40', 'border-purple-500/40', 'border-brand-green/40', 'border-[#c8e100]/70']
 
   return (
     <div className={`bg-white/5 border ${cores[post.slot]} rounded-2xl p-6 space-y-4`}>
