@@ -120,13 +120,25 @@ function arteGeral(dia: DiaCampanha, fonte: string, display: string) {
  * responde com "image/jpg" (tipo não normalizado), que o Satori rejeita —
  * por isso a foto saía em branco quando era passada por URL.
  */
+let ultimoEstadoFoto = ''
+
 async function fotoComoDataUri(url: string): Promise<string | null> {
   try {
-    const res = await fetch(url)
+    // O CDN da i-Run recusa pedidos sem cabeçalhos de browser (proteção
+    // contra hotlinking): enviamos um User-Agent normal e a i-Run como Referer.
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36',
+        Referer: 'https://www.i-run.pt/',
+        Accept: 'image/jpeg,image/*;q=0.8',
+      },
+    })
+    ultimoEstadoFoto = `${res.status} ${res.headers.get('content-type') ?? ''}`
     if (!res.ok) return null
     const buf = Buffer.from(await res.arrayBuffer())
     return `data:image/jpeg;base64,${buf.toString('base64')}`
-  } catch {
+  } catch (err) {
+    ultimoEstadoFoto = `erro: ${String(err)}`
     return null
   }
 }
@@ -150,6 +162,9 @@ export async function GET(req: NextRequest) {
 
   const produto = dia.produto ? produtoCampanha(dia.produto) : null
   const foto = produto ? await fotoComoDataUri(produto.img) : null
+  if (req.nextUrl.searchParams.get('diag') === '1') {
+    return NextResponse.json({ produto: produto?.name ?? null, foto: !!foto, estado: ultimoEstadoFoto })
+  }
   const arte = dia.tipo === 'produto' ? arteProduto(dia, fonte, display, foto) : arteGeral(dia, fonte, display)
   if (!arte) return NextResponse.json({ error: 'Produto do dia sem link i-Run' }, { status: 404 })
 
