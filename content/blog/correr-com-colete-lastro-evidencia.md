@@ -1,6 +1,6 @@
 ---
 title: "Correr com Colete de Peso: O Que Diz a Ciência"
-date: 'PENDENTE'
+date: '2026-11-19'
 category: "Treino"
 excerpt: "Colete de peso na corrida: o que a evidência mostra sobre carga extra, economia e velocidade, os riscos para as pernas e as poucas formas de o usar bem."
 seoTitle: "Colete de Peso na Corrida: O Que Diz a Ciência"

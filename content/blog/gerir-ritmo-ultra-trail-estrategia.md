@@ -1,6 +1,6 @@
 ---
 title: "Ritmo em Ultra: Como Gerir o Esforço do Primeiro ao Último km"
-date: 'PENDENTE'
+date: '2026-11-19'
 category: "Trail Running"
 excerpt: "Gerir o ritmo num ultra trail é gerir esforço, não velocidade. Vê o que a ciência diz sobre pacing e como montar a tua estratégia de prova por secções."
 seoTitle: "Ritmo em Ultra: Estratégia de Pacing no Ultra Trail"

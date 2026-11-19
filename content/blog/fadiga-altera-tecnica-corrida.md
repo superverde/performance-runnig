@@ -1,6 +1,6 @@
 ---
 title: "Fadiga e Técnica de Corrida: Como o Cansaço Muda a Tua Passada"
-date: 'PENDENTE'
+date: '2026-11-19'
 category: "Biomecânica"
 excerpt: "O que a fadiga faz à técnica de corrida no fim de um treino ou prova, porque acontece e como treinar para manteres a passada quando as pernas pesam."
 seoTitle: "Fadiga e Técnica de Corrida: O Que Muda e Como Evitar"
