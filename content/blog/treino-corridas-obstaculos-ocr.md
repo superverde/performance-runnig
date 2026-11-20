@@ -1,6 +1,6 @@
 ---
 title: "Treino OCR: Como Preparar Corridas de Obstáculos"
-date: 'PENDENTE'
+date: '2026-11-20'
 category: "Treino"
 excerpt: "Treino OCR para corredores: como juntar corrida, força, pega e técnica de obstáculos numa semana realista e chegar inteiro à tua primeira prova de obstáculos."
 seoTitle: "Treino OCR: Como Preparar Corridas de Obstáculos"

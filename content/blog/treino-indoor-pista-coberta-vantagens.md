@@ -1,6 +1,6 @@
 ---
 title: "Treino em Pista Coberta: Vantagens Para o Meio Fundo"
-date: 'PENDENTE'
+date: '2026-11-20'
 category: "Treino"
 excerpt: "Treino em pista coberta no inverno: as vantagens para o meio fundo, o que muda numa pista de 200 m, sessões com parciais calculados e os cuidados nas curvas."
 seoTitle: "Treino em Pista Coberta: Vantagens Para o Meio Fundo"
