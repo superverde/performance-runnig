@@ -1,6 +1,6 @@
 ---
 title: "Suplementos Que a Maioria dos Corredores Não Precisa"
-date: 'PENDENTE'
+date: '2026-11-21'
 category: "Nutrição"
 excerpt: "BCAA, glutamina, multivitamínicos, queimadores de gordura e detox raramente servem ao corredor. Vê o que diz a evidência e quando um suplemento faz sentido."
 seoTitle: "Suplementos Desnecessários na Corrida: O Que Evitar"

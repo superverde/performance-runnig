@@ -1,6 +1,6 @@
 ---
 title: "Jejum Intermitente e Corrida: Riscos e Benefícios Reais"
-date: 'PENDENTE'
+date: '2026-11-21'
 category: "Nutrição"
 excerpt: "O jejum intermitente pode baixar o peso de um corredor sem piorar o rendimento, mas a evidência é curta e o risco de comer pouco é real."
 seoTitle: "Jejum Intermitente e Corrida: Riscos e Benefícios"

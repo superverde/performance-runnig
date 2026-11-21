@@ -1,6 +1,6 @@
 ---
 title: "Tempo Run Contínuo vs Fracionado: Qual Escolher"
-date: 'PENDENTE'
+date: '2026-11-21'
 category: "Treino"
 excerpt: "Tempo run contínuo ou fracionado? Vê quando usar cada formato, como progredir e exemplos com ritmos calculados para 10 km em 50:00 e meia em 1:45."
 seoTitle: "Tempo Run Contínuo vs Fracionado: Qual Escolher"
