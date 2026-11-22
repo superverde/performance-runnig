@@ -1,6 +1,6 @@
 ---
 title: "Primeira Prova de 100 Milhas: Preparação Física e Mental"
-date: 'PENDENTE'
+date: '2026-11-22'
 category: "Trail Running"
 excerpt: "Passar dos 100 km para as 100 milhas muda o treino, a comida, o sono e a cabeça. Vê o que tens de preparar para chegar inteiro aos 160 km."
 seoTitle: "Primeira Prova de 100 Milhas: Como Te Preparar"

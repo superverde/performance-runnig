@@ -1,6 +1,6 @@
 ---
 title: "Como Planear a Semana do Teu Recorde Pessoal"
-date: 'PENDENTE'
+date: '2026-11-22'
 category: "Treino"
 excerpt: "Na semana antes do recorde pessoal cortas volume, manténs a intensidade e não inventas. Vê o plano dia a dia para 5 km, 10 km e meia maratona."
 seoTitle: "Semana Antes do Recorde Pessoal: Plano Dia a Dia"
