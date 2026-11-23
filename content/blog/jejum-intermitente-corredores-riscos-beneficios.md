@@ -9,14 +9,14 @@ keywords: ["correr em jejum", "jejum intermitente atletas", "treino em jejum"]
 readTime: 8
 faqs:
   - q: "O jejum intermitente 16:8 piora o rendimento na corrida?"
-    a: "Nos poucos estudos com corredores treinados, oito semanas de alimentação com restrição horária 16:8 não alteraram o VO2pico, a economia de corrida nem o lactato. Os estudos são pequenos e quase só com homens, por isso a conclusão é provisória."
+    a: "Nos poucos estudos com corredores treinados, oito semanas de alimentação com restrição horária 16:8 não alteraram o consumo de oxigénio, a economia de corrida nem o lactato. Os estudos são pequenos e quase só com homens, por isso a conclusão é provisória."
   - q: "O jejum intermitente ajuda um corredor a perder gordura?"
     a: "Pode ajudar, sobretudo porque muitas pessoas acabam por comer menos quando encurtam a janela alimentar. Esse é também o principal risco: se a ingestão cair abaixo do que o treino exige, aparece a baixa disponibilidade energética."
   - q: "Posso treinar durante o Ramadão?"
     a: "Sim. As revisões indicam que a maioria das qualidades físicas é pouco afetada e que as quebras são modestas, sobretudo nos primeiros dias. Ajustar o horário dos treinos, as refeições e o sono ajuda muito a manter a qualidade do treino."
 ---
 
-O jejum intermitente não melhora o rendimento de um corredor, mas também não o destrói: nos poucos estudos com corredores treinados, comer numa janela de 8 horas durante 4 a 8 semanas baixou o peso ou a gordura corporal sem alterar o VO2pico nem a economia de corrida. O benefício real é, sobretudo, facilitar comer menos. O risco real é exatamente o mesmo: comer menos do que o treino exige, entrar em baixa disponibilidade energética e perder qualidade de treino e saúde.
+O jejum intermitente não melhora o rendimento de um corredor, mas também não o destrói: nos poucos estudos com corredores treinados, comer numa janela de 8 horas durante 4 a 8 semanas baixou o peso ou a gordura corporal sem alterar, quando foram medidos, o consumo de oxigénio nem a economia de corrida. O benefício real é, sobretudo, facilitar comer menos. O risco real é exatamente o mesmo: comer menos do que o treino exige, entrar em baixa disponibilidade energética e perder qualidade de treino e saúde.
 
 Este artigo trata o jejum intermitente como **padrão alimentar** — algo que fazes todos os dias ou todas as semanas. Se a tua dúvida é se deves fazer uma rodagem pontual antes do pequeno-almoço, lê antes o artigo sobre [treino em jejum](/blog/treino-jejum-mitos-evidencia-cientifica), que trata esse tema à parte.
 
@@ -34,7 +34,7 @@ Para um corredor, estas diferenças importam. No 16:8 podes beber água e escolh
 
 ### 16:8 em corredores de meio fundo e fundo
 
-O estudo mais direto foi feito por Brady e colegas (2021). Corredores de meio fundo e fundo do sexo masculino seguiram durante 8 semanas um padrão 16:8 ou a sua alimentação habitual, sem mudar o treino. Dos 23 distribuídos pelos grupos, 17 terminaram o estudo. O grupo 16:8 perdeu cerca de 1,9 kg a mais do que o grupo de controlo, e a ingestão energética declarada foi menor a meio e no fim do estudo. O VO2pico, a economia de corrida, o lactato e a frequência cardíaca durante o exercício não mudaram. Ou seja: o peso baixou, o rendimento nos testes manteve-se, e grande parte do efeito parece explicar-se por terem passado a comer menos.
+O estudo mais direto foi feito por Brady e colegas (2021). Corredores de meio fundo e fundo do sexo masculino seguiram durante 8 semanas um padrão 16:8 ou a sua alimentação habitual, sem mudar o treino. Dos 23 distribuídos pelos grupos, 17 terminaram o estudo. O grupo 16:8 perdeu cerca de 1,9 kg a mais do que o grupo de controlo, e a ingestão energética declarada foi menor a meio e no fim do estudo. O consumo de oxigénio, a economia de corrida, o lactato e a frequência cardíaca durante o exercício não mudaram. Ou seja: o peso baixou, o rendimento nos testes manteve-se, e grande parte do efeito parece explicar-se por terem passado a comer menos.
 
 ### 16:8 com a mesma ingestão
 

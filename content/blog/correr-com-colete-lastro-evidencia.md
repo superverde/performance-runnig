@@ -32,13 +32,13 @@ A revisão sistemática de **Macadam, Cronin e Simperingham (2017)** sobre "resi
 
 ### 1. Estímulos curtos no aquecimento
 
-O estudo mais citado sobre corredores de fundo é o de **Barnes et al. (2015)**. Corredores bem treinados fizeram um aquecimento com acelerações curtas a usar um colete pesado e, depois de o tirarem, realizaram um teste incremental. Em comparação com o aquecimento sem colete, a velocidade máxima atingida no teste melhorou, e os autores associaram esse efeito a uma maior rigidez do membro inferior e a melhor economia de corrida.
+O estudo mais citado sobre corredores de fundo é o de **Barnes et al. (2015)**. Onze corredores de fundo bem treinados fizeram, num desenho cruzado, um aquecimento que incluía seis acelerações de 10 segundos com um colete de 20% da massa corporal (ou sem colete, na condição de controlo). Depois de o tirarem e de 10 minutos de recuperação, realizaram um teste incremental. Com o colete no aquecimento, a velocidade máxima no teste subiu cerca de 2,9%, a rigidez da perna cerca de 20% e a economia de corrida cerca de 6%, e as alterações da rigidez explicaram a melhoria.
 
 É um efeito **agudo**, de potenciação: o colete é usado durante poucos minutos antes do esforço e retirado. Não é um estudo sobre treinar semanas com colete.
 
 ### 2. Carga durante o dia, sem correr com ela
 
-Num estudo clássico, **Bosco, Rusko e Hirvonen (1986)** pediram a atletas que usassem coletes com carga durante as atividades diárias ao longo de algumas semanas e observaram melhorias em testes de salto. A ideia de uma "hipergravidade" simulada é interessante, mas o estudo é antigo, pequeno e mediu sobretudo capacidades de salto — não rendimento em corrida de fundo.
+Num estudo clássico, **Bosco, Rusko e Hirvonen (1986)** pediram a velocistas que usassem, durante três semanas, coletes com 7 a 8% da massa corporal ao longo do dia (incluindo nos treinos) e observaram melhorias em testes de salto, ao contrário do grupo de controlo. A ideia de uma "hipergravidade" simulada é interessante, mas o estudo é antigo, pequeno (sete atletas por grupo), feito com velocistas e mediu sobretudo capacidades de salto — não rendimento em corrida de fundo.
 
 ### 3. Rodagens com colete: falta evidência
 
@@ -69,7 +69,7 @@ Inspirado no estudo de Barnes et al. (2015), um corredor experiente pode testar 
 2. 3 a 4 acelerações de 10–15 segundos com um colete leve, recuperação a caminhar.
 3. Tirar o colete, fazer 2 acelerações sem ele e começar a sessão.
 
-Experimenta primeiro num treino, nunca pela primeira vez numa prova. Se queres saber mais sobre acelerações curtas, lê o artigo sobre [strides](/blog/strides-corrida-eficiencia-velocidade).
+Nota que o estudo usou um colete de 20% da massa corporal em corredores bem treinados; um colete leve é uma opção de prudência para te habituares, mas não sabemos se produz o mesmo efeito. Experimenta primeiro num treino, nunca pela primeira vez numa prova. Se queres saber mais sobre acelerações curtas, lê o artigo sobre [strides](/blog/strides-corrida-eficiencia-velocidade).
 
 ### Força e saltos
 
@@ -93,6 +93,6 @@ O colete de peso não é um atalho para correr mais rápido. A evidência apoia 
 
 ## Referências Científicas
 
-1. Macadam, P., Cronin, J. B., & Simperingham, K. D. (2017). The Effects of Wearable Resistance Training on Metabolic, Kinematic and Kinetic Variables During Walking, Running, Sprint Running and Jumping: A Systematic Review. *Sports Medicine*, 47(5). https://doi.org/10.1007/s40279-016-0622-x
-2. Barnes, K. R., Hopkins, W. G., McGuigan, M. R., & Kilding, A. E. (2015). Warm-up with a weighted vest improves running performance via leg stiffness and running economy. *Journal of Science and Medicine in Sport*.
-3. Bosco, C., Rusko, H., & Hirvonen, J. (1986). The effect of extra-load conditioning on muscle performance in athletes. *Medicine and Science in Sports and Exercise*.
+1. Macadam, P., Cronin, J. B., & Simperingham, K. D. (2017). The Effects of Wearable Resistance Training on Metabolic, Kinematic and Kinetic Variables During Walking, Running, Sprint Running and Jumping: A Systematic Review. *Sports Medicine*, 47(5), 887–906. https://doi.org/10.1007/s40279-016-0622-x
+2. Barnes, K. R., Hopkins, W. G., McGuigan, M. R., & Kilding, A. E. (2015). Warm-up with a weighted vest improves running performance via leg stiffness and running economy. *Journal of Science and Medicine in Sport*, 18(1), 103–108.
+3. Bosco, C., Rusko, H., & Hirvonen, J. (1986). The effect of extra-load conditioning on muscle performance in athletes. *Medicine and Science in Sports and Exercise*, 18, 415–419.

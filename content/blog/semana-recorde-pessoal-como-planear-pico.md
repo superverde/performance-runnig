@@ -20,9 +20,9 @@ A semana antes do recorde pessoal não serve para ganhar forma: serve para a rev
 
 ## O que diz a ciência sobre o taper curto
 
-O taper é uma redução progressiva e não linear da carga de treino antes de uma competição, com o objetivo de dissipar a fadiga acumulada sem perder as adaptações. Na revisão de Mujika e Padilla (2003), a recomendação é manter a intensidade, reduzir o volume e não cortar a frequência em mais de cerca de 20%. Os ganhos de rendimento típicos rondam os 3%.
+O taper é uma redução progressiva e não linear da carga de treino antes de uma competição, com o objetivo de dissipar a fadiga acumulada sem perder as adaptações. Na revisão de Mujika e Padilla (2003), a recomendação é manter a intensidade, reduzir o volume (os autores apontam 60–90% em atletas treinados) e não cortar a frequência em mais de cerca de 20%. Os ganhos de rendimento típicos rondam os 3%.
 
-A meta-análise de Bosquet et al. (2007) chegou a uma conclusão parecida: os melhores resultados apareceram com tapers de duas semanas, com uma redução exponencial do volume de 41–60% e sem alterar a intensidade nem a frequência. Uma meta-análise mais recente em atletas de resistência, sobretudo corredores e ciclistas (Wang et al., 2023), encontrou melhorias no desempenho em contrarrelógio com tapers de até 7 dias, de 8–14 dias e de 15–21 dias, sempre que o volume caía 41–60% e a intensidade se mantinha.
+A meta-análise de Bosquet et al. (2007) chegou a uma conclusão parecida: os melhores resultados apareceram com tapers de duas semanas, com uma redução exponencial do volume de 41–60% e sem alterar a intensidade nem a frequência. Uma meta-análise mais recente em atletas de resistência, sobretudo corredores e ciclistas (Wang et al., 2023), encontrou melhorias no desempenho com tapers de até 7 dias, de 8–14 dias e de 15–21 dias, com o volume reduzido de forma progressiva em 41–60% e sem alterar a intensidade nem a frequência.
 
 Para provas de 5 a 21 km, isto significa que não precisas do taper de três semanas da maratona. Uma a duas semanas chegam. Se queres o detalhe das duas semanas, tens o artigo sobre o [taper de duas semanas](/blog/taper-duas-semanas-como-fazer). Aqui o foco é a última.
 

@@ -22,13 +22,13 @@ A melhor superfície de treino é a que **serve o objetivo da sessão**: o alcat
 
 ### O corpo adapta a rigidez das pernas
 
-Ferris, Louie e Farley (1998) puseram corredores a passar de uma superfície rígida para uma mais macia, sem aviso. Logo no primeiro apoio no novo piso, os corredores ajustaram a rigidez da perna: num piso mais macio, a perna fica mais rígida; num piso mais duro, mais complacente. O resultado é que o movimento do centro de massa se mantém quase igual, seja qual for a superfície.
+Ferris, Louie e Farley (1998) puseram corredores a correr em superfícies com rigidez muito diferente e verificaram que eles ajustam a rigidez da perna ao piso: num piso mais macio, a perna fica mais rígida; num piso mais duro, mais complacente. O resultado é que a mecânica da corrida (forças máximas, tempo de contacto, movimento do centro de massa) se mantém semelhante, seja qual for a superfície. Num estudo seguinte, Ferris, Liang e Farley (1999) mostraram que esse ajuste acontece logo no primeiro apoio num piso novo.
 
 Esta é a principal razão pela qual a intuição «piso duro = mais impacto» é demasiado simplista.
 
 ### As forças de impacto mudam pouco
 
-Dixon, Collop e Batt (2000) compararam a corrida em asfalto e em duas superfícies sintéticas mais macias. As forças de impacto máximas foram semelhantes entre superfícies, e os corredores mostraram ajustes na cinemática do membro inferior, sobretudo no joelho, com grande variação entre indivíduos. Não te deves fiar, portanto, na ideia de que trocar o alcatrão por um piso mais macio reduz automaticamente a carga sobre os tecidos.
+Dixon, Collop e Batt (2000) compararam a corrida em asfalto e em duas superfícies sintéticas mais macias. As forças de impacto máximas não diferiram de forma significativa entre superfícies; só a taxa de carga foi menor num dos pisos sintéticos (de borracha). Alguns corredores ajustaram a cinemática do membro inferior, por exemplo com mais flexão do joelho no apoio no piso menos amortecedor, com grande variação entre indivíduos. Não te deves fiar, portanto, na ideia de que trocar o alcatrão por um piso mais macio reduz automaticamente a carga sobre os tecidos.
 
 ### E as lesões?
 
@@ -39,7 +39,7 @@ A evidência que liga o tipo de piso ao risco de lesão é limitada e pouco cons
 O piso mexe mais com a energia do que com o impacto.
 
 - **Areia:** Lejeune, Willems e Heglund (1998) mediram um custo energético da corrida em areia solta cerca de **1,6 vezes** superior ao de um piso firme. A areia absorve energia que, num piso firme, seria devolvida, e obriga a mais trabalho muscular.
-- **Terreno irregular:** Voloshina e Ferris (2015) mostraram que correr numa superfície irregular aumentou o custo energético em cerca de **5%** em relação a uma superfície plana e regular, com mais variabilidade da passada e mais ativação de alguns músculos da perna.
+- **Terreno irregular:** Voloshina e Ferris (2015) mostraram que correr numa superfície irregular aumentou o custo energético em cerca de **5%** em relação a uma superfície plana e regular, com mais variabilidade do comprimento e da largura da passada, maior rigidez da perna e mais ativação de alguns músculos da coxa.
 
 Na prática: o mesmo ritmo numa superfície macia ou irregular é um esforço maior. Controla a intensidade pela frequência cardíaca e pela perceção de esforço, não só pelo ritmo.
 
@@ -122,7 +122,8 @@ A superfície ideal não existe em abstrato. O corpo adapta-se bem a pisos difer
 
 ## Referências Científicas
 
-1. Ferris, D. P., Louie, M., & Farley, C. T. (1998). Running in the real world: adjusting leg stiffness for different surfaces. *Proceedings of the Royal Society B: Biological Sciences*, 265(1400), 989–994.
-2. Dixon, S. J., Collop, A. C., & Batt, M. E. (2000). Surface effects on ground reaction forces and lower extremity kinematics in running. *Medicine & Science in Sports & Exercise*, 32(11), 1919–1926.
-3. Lejeune, T. M., Willems, P. A., & Heglund, N. C. (1998). Mechanics and energetics of human locomotion on sand. *Journal of Experimental Biology*, 201(13), 2071–2080.
-4. Voloshina, A. S., & Ferris, D. P. (2015). Biomechanics and energetics of running on uneven terrain. *Journal of Experimental Biology*, 218(5), 711–719.
+1. Ferris, D. P., Louie, M., & Farley, C. T. (1998). Running in the real world: adjusting leg stiffness for different surfaces. *Proceedings of the Royal Society B: Biological Sciences*, 265(1400), 989–994. https://doi.org/10.1098/rspb.1998.0388
+2. Ferris, D. P., Liang, K., & Farley, C. T. (1999). Runners adjust leg stiffness for their first step on a new running surface. *Journal of Biomechanics*, 32(8), 787–794. https://doi.org/10.1016/S0021-9290(99)00078-0
+3. Dixon, S. J., Collop, A. C., & Batt, M. E. (2000). Surface effects on ground reaction forces and lower extremity kinematics in running. *Medicine & Science in Sports & Exercise*, 32(11), 1919–1926. https://doi.org/10.1097/00005768-200011000-00016
+4. Lejeune, T. M., Willems, P. A., & Heglund, N. C. (1998). Mechanics and energetics of human locomotion on sand. *Journal of Experimental Biology*, 201(13), 2071–2080.
+5. Voloshina, A. S., & Ferris, D. P. (2015). Biomechanics and energetics of running on uneven terrain. *Journal of Experimental Biology*, 218(5), 711–719. https://doi.org/10.1242/jeb.106518

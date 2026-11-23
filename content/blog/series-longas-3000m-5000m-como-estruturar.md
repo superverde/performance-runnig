@@ -6,7 +6,7 @@ excerpt: "Séries longas de 3000m a 5000m: a que ritmo as fazer, quantas repeti�
 seoTitle: "Séries Longas de 3000m a 5000m: Como Estruturar"
 keyword: "séries longas corrida"
 keywords: ["séries de 3000m", "treino de séries 5000m", "séries longas maratona"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "A que ritmo devo fazer séries de 3000m?"
     a: "Para a maioria dos corredores, entre o ritmo de meia maratona e o ritmo de 15 km, ou seja, perto do limiar. Deves acabar a última série com a sensação de que ainda conseguias fazer mais uma."
@@ -16,7 +16,7 @@ faqs:
     a: "Sim. Feitas ao ritmo de maratona ou ligeiramente mais rápidas, permitem acumular muito tempo à intensidade da prova com menos desgaste do que um bloco contínuo, sobretudo na fase específica."
 ---
 
-As séries longas de 3000m a 5000m são repetições de 10 a 25 minutos feitas perto do limiar ou do ritmo de prova, separadas por recuperações curtas. Para estruturá-las bem precisas de três decisões: o ritmo (entre o de maratona e o de 10 km, conforme o objetivo), o volume total de qualidade (tipicamente 8 a 15 km em séries) e a recuperação (1 a 3 minutos de trote). Bem doseadas, são das sessões mais rentáveis para quem prepara 10 km, meia maratona ou maratona.
+As séries longas de 3000m a 5000m são repetições de 10 a 30 minutos feitas perto do limiar ou do ritmo de prova, separadas por recuperações curtas. Para estruturá-las bem precisas de três decisões: o ritmo (entre o de maratona e o limiar, conforme o objetivo), o volume total de qualidade (tipicamente 6 a 12 km em séries, ajustado ao teu volume semanal) e a recuperação (1 a 3 minutos de trote). Bem doseadas, são das sessões mais rentáveis para quem prepara 10 km, meia maratona ou maratona.
 
 ## O que treinam as séries longas
 
@@ -60,10 +60,10 @@ Se não tens uma marca recente, usa a perceção de esforço e a frequência car
 
 Para corredores amadores que fazem 30 a 60 km por semana, um intervalo sensato para a parte principal é:
 
-- **Sessão de limiar**: 8 a 12 km em séries (ex.: 3×3000m, 3×4000m, 2×5000m).
-- **Sessão específica de maratona**: 10 a 15 km em séries ao ritmo de prova (ex.: 3×5000m), apenas na fase específica e para quem já tem volume semanal consolidado.
+- **Sessão de limiar**: 6 a 10 km em séries (ex.: 2×3000m, 3×3000m, 2×4000m, 2×5000m). Com 30–40 km semanais, 2×3000m é um teto sensato; os 9–10 km de limiar ficam para quem já corre 50–60 km por semana.
+- **Sessão específica de maratona**: 10 a 15 km em séries ao ritmo de prova (ex.: 3×5000m), apenas na fase específica e para quem já tem volume semanal consolidado. Como o ritmo de maratona é mais lento do que o limiar, o volume tolerado é maior.
 
-Muitos treinadores usam como regra prática que o volume a intensidade de limiar numa sessão não ultrapasse cerca de 10% do volume semanal. Não é uma lei fisiológica, mas protege-te de transformar uma sessão de limiar numa prova.
+Uma regra prática popularizada por Jack Daniels é que o volume ao ritmo de limiar numa sessão ronde, no máximo, cerca de 10% do volume semanal; nas séries com pausas curtas, muitos treinadores aceitam um pouco mais. Não é uma lei fisiológica, mas protege-te de transformar uma sessão de limiar numa prova.
 
 ### Quanto recuperar
 
@@ -79,12 +79,12 @@ A recuperação é curta de propósito. O objetivo não é chegar ao início da 
 
 **Para 10 km (fase de desenvolvimento):**
 - 15 min aquecimento + 4 acelerações progressivas
-- 3×3000m ao ritmo de limiar, rec. 2 min de trote
+- 2×3000m (com menos de 40 km semanais) ou 3×3000m (com 50 km ou mais) ao ritmo de limiar, rec. 2 min de trote
 - 10 min de retorno à calma
 
 **Para meia maratona (fase específica):**
 - 15 min aquecimento
-- 3×4000m: a primeira ao ritmo de limiar, as duas seguintes ao ritmo-alvo da meia, rec. 2–3 min
+- 2×4000m ao ritmo-alvo da meia ou, com volume semanal consolidado, 3×4000m (a primeira ao ritmo de limiar, as duas seguintes ao ritmo-alvo da meia), rec. 2–3 min
 - 10 min de retorno à calma
 
 **Para maratona (6 a 10 semanas antes da prova):**
@@ -99,7 +99,7 @@ Se preparas uma maratona com objetivo de 3:30, encontras estas sessões integrad
 Progride uma variável de cada vez, a cada uma ou duas semanas:
 
 1. **Distância das séries**: 4×2000m → 3×3000m → 3×4000m → 2×5000m.
-2. **Volume total**: 9 km → 10–12 km em séries.
+2. **Volume total**: 6 km → 8–10 km em séries, se o teu volume semanal o suportar.
 3. **Recuperação**: de 3 min para 2 min, sem alterar o ritmo.
 4. **Especificidade**: aproximar o ritmo do ritmo-alvo da prova à medida que ela se aproxima.
 
@@ -107,7 +107,7 @@ Nunca aumentes o ritmo e o volume ao mesmo tempo. Nas semanas de descarga, reduz
 
 ## Onde encaixam na semana
 
-As séries longas são uma sessão de qualidade, por isso contam para o total de treino intenso da semana. A análise das distribuições de intensidade de atletas de resistência mostra que a maior parte do volume é feita a baixa intensidade, com uma fração menor de sessões duras (Seiler, 2010). Nos corredores de fundo de nível elevado, a revisão de Casado et al. (2022) descreve um elevado volume semanal, sobretudo a baixa intensidade, complementado por treino de limiar e intervalado.
+As séries longas são uma sessão de qualidade, por isso contam para o total de treino intenso da semana. A análise das distribuições de intensidade de atletas de resistência mostra que a maior parte do volume é feita a baixa intensidade, com uma fração menor de sessões duras (Seiler, 2010). Nos corredores de fundo de nível elevado, a revisão sistemática de Casado et al. (2022) descreve uma distribuição sobretudo piramidal (muito volume a baixa intensidade, menos ao limiar e ainda menos acima dele), com sessões de limiar e de intervalos usadas pelo menos uma vez por semana.
 
 Para um amador com 4 a 5 treinos por semana:
 
@@ -132,6 +132,6 @@ As séries longas de 3000m a 5000m são uma forma eficaz de acumular tempo perto
 ## Referências Científicas
 
 1. Billat, L. V. (2001). Interval training for performance: a scientific and empirical practice. Special recommendations for middle- and long-distance running. Part I: aerobic interval training. *Sports Medicine*, 31(1), 13–31.
-2. Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance: can valid recommendations be given to runners and coaches based on current scientific knowledge? *Sports Medicine*, 37(10), 857–880.
-3. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291.
-4. Casado, A., González-Mohíno, F., González-Ravé, J. M., & Foster, C. (2022). Training periodization, methods, intensity distribution, and volume in highly trained and elite distance runners: a systematic review. *International Journal of Sports Physiology and Performance*.
+2. Midgley, A. W., McNaughton, L. R., & Jones, A. M. (2007). Training to enhance the physiological determinants of long-distance running performance: can valid recommendations be given to runners and coaches based on current scientific knowledge? *Sports Medicine*, 37(10), 857–880. https://doi.org/10.2165/00007256-200737100-00003
+3. Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? *International Journal of Sports Physiology and Performance*, 5(3), 276–291. https://doi.org/10.1123/ijspp.5.3.276
+4. Casado, A., González-Mohíno, F., González-Ravé, J. M., & Foster, C. (2022). Training periodization, methods, intensity distribution, and volume in highly trained and elite distance runners: a systematic review. *International Journal of Sports Physiology and Performance*, 17(6), 820–833. https://doi.org/10.1123/ijspp.2021-0435

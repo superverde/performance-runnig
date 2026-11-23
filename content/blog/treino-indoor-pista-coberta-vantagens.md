@@ -20,7 +20,7 @@ O treino em pista coberta dá ao corredor de meio fundo o que o inverno costuma 
 
 ## O que muda numa pista coberta
 
-A pista coberta de referência tem **200 m por volta**. A World Athletics, que em 2023 passou a chamar "short track" (pista curta) às competições disputadas neste tipo de pista, organiza nelas o seu calendário de inverno e reconhece recordes próprios.
+A pista coberta de referência tem **200 m por volta**. Desde 1 de novembro de 2023, as regras da World Athletics passaram a designar por «short track» (pista curta) as provas disputadas em pistas de 200 m — cobertas ou não —, com recordes e rankings próprios; o que conta é a instalação, não o facto de a prova ser em pavilhão. Os campeonatos «indoor» continuam a existir e são o centro da época de inverno.
 
 Comparada com a pista exterior de 400 m:
 
@@ -41,7 +41,7 @@ Com uma referência a cada 200 m, controlas o ritmo com uma precisão que o GPS 
 
 ### 3. Menos frio nas vias aéreas
 
-Respirar ar muito frio e seco durante esforços intensos é um dos fatores associados à broncoconstrição induzida pelo exercício. A revisão sistemática com meta-análise de **Price et al. (2022)**, promovida por um grupo de consenso do Comité Olímpico Internacional, mostrou que a disfunção das vias aéreas inferiores é frequente em atletas. Treinar em ambiente interior pode ser útil nos dias mais frios para quem tem sintomas — mas o ar dos pavilhões também pode ser seco, e o diagnóstico e o tratamento são sempre assunto para o médico.
+Respirar ar muito frio e seco durante esforços intensos é um dos fatores associados à broncoconstrição induzida pelo exercício. A revisão sistemática com meta-análise de **Price et al. (2022)**, realizada por um subgrupo de um grupo de consenso do Comité Olímpico Internacional, estimou que cerca de um em cada cinco atletas tem disfunção das vias aéreas inferiores, com valores mais altos nos atletas de resistência de elite (cerca de 25%) — embora os estudos incluídos fossem muito heterogéneos. Treinar em ambiente interior pode ser útil nos dias mais frios para quem tem sintomas — mas o ar dos pavilhões também pode ser seco, e o diagnóstico e o tratamento são sempre assunto para o médico.
 
 ### 4. Competição de inverno
 
@@ -49,7 +49,7 @@ As provas em pista curta dão ao corredor de meio fundo objetivos de competiçã
 
 ## As curvas: o principal desafio
 
-Correr em curva altera a técnica. **Churchill, Salo e Trewartha (2015)** compararam o sprint máximo em curva e em reta e mostraram que a curva reduz a velocidade e altera a técnica, com a perna de dentro (a esquerda) e a de fora a desempenharem funções diferentes. O estudo foi feito numa curva de pista exterior e em sprint máximo; numa curva mais apertada, como a de uma pista coberta, é de esperar uma exigência maior, embora às velocidades do meio fundo o efeito seja menor do que num sprint.
+Correr em curva altera a técnica. **Churchill, Salo e Trewartha (2015)** compararam o sprint máximo em curva e em reta e mostraram que a curva reduziu a velocidade em cerca de 5% e alterou a técnica, com diferenças entre o passo da perna esquerda (a de dentro) e o da direita — os autores concluíram que as duas pernas podem ter funções diferentes na curva. O estudo foi feito numa curva de pista exterior e em sprint máximo; numa curva mais apertada, como a de uma pista coberta, é de esperar uma exigência maior, embora às velocidades do meio fundo o efeito seja menor do que num sprint.
 
 Na prática:
 
@@ -92,7 +92,7 @@ Para estruturar melhor séries mais longas, vê o artigo sobre [repetições de 
 
 ## Tática: o que a pista curta exige
 
-Nas provas de campeonato de meio fundo, o resultado depende muito da tática. A análise de **Hanley e Hettinga (2018)** sobre corredores de 800 m e 1500 m em Jogos Olímpicos e Campeonatos do Mundo mostrou que os campeões se destacam pela capacidade de correr de forma tática, adaptando-se ao ritmo da corrida em cada eliminatória, e não por seguirem um ritmo fixo. Numa pista de 200 m, com curvas apertadas e pouco espaço, o posicionamento conta ainda mais:
+Nas provas de campeonato de meio fundo, o resultado depende muito da tática. A análise de **Hanley e Hettinga (2018)** sobre corredores de 800 m e 1500 m em Jogos Olímpicos e Campeonatos do Mundo mostrou que a classificação na final estava associada à posição obtida nas eliminatórias e meias-finais, e não aos tempos: a maioria dos campeões (40 em 57) ganhou a sua eliminatória e a sua meia-final, mesmo quando bastava um lugar mais modesto, e só 18 fizeram o melhor tempo da época na final. Ou seja, os campeões correm para ganhar posições, não para cumprir um ritmo. Numa pista de 200 m, com curvas apertadas e pouco espaço, o posicionamento conta ainda mais:
 
 - **Evita correr muito tempo na segunda pista nas curvas**: percorres mais distância.
 - **Escolhe cedo a tua posição**: ultrapassar na reta é mais seguro do que na curva.
@@ -102,7 +102,7 @@ Nas provas de campeonato de meio fundo, o resultado depende muito da tática. A 
 
 - **Calçado**: confirma as regras da instalação sobre sapatilhas de pitões e o comprimento permitido. O guia sobre [spikes de atletismo](/blog/spikes-atletismo-como-escolher-guia) ajuda a escolher.
 - **Hidratação**: o ar interior pode ser quente e seco; leva água.
-- **Horários partilhados**: em sessões com muitos atletas, as pistas interiores ficam reservadas para quem corre mais rápido. Combina com o treinador e respeita as regras de circulação.
+- **Horários partilhados**: em sessões com muitos atletas, é habitual as pistas interiores ficarem para quem faz repetições rápidas. Combina com o treinador e respeita as regras de circulação.
 - **Jovens atletas**: a pista coberta é uma ótima ferramenta, mas o volume de séries rápidas deve respeitar a idade e a maturação. Vê o artigo sobre [treino de meio fundo em jovens](/blog/jovens-atletas-treino-meio-fundo-fundo).
 
 ## Conclusão
@@ -111,6 +111,6 @@ A pista coberta é uma das melhores ferramentas de inverno para o meio fundo: ga
 
 ## Referências Científicas
 
-1. Churchill, S. M., Salo, A. I. T., & Trewartha, G. (2015). The effect of the bend on technique and performance during maximal effort sprinting. *Sports Biomechanics*.
-2. Hanley, B., & Hettinga, F. J. (2018). Champions are racers, not pacers: an analysis of qualification patterns of Olympic and IAAF World Championship middle distance runners. *Journal of Sports Sciences*.
-3. Price, O. J., Sewry, N., Schwellnus, M., Backer, V., Reier-Nilsen, T., Bougault, V., Pedersen, L., Chenuel, B., Larsson, K., & Hull, J. H. (2022). Prevalence of lower airway dysfunction in athletes: a systematic review and meta-analysis by a subgroup of the IOC consensus group on «acute respiratory illness in the athlete». *British Journal of Sports Medicine*.
+1. Churchill, S. M., Salo, A. I. T., & Trewartha, G. (2015). The effect of the bend on technique and performance during maximal effort sprinting. *Sports Biomechanics*, 14(1), 106–121. https://doi.org/10.1080/14763141.2015.1024717
+2. Hanley, B., & Hettinga, F. J. (2018). Champions are racers, not pacers: an analysis of qualification patterns of Olympic and IAAF World Championship middle distance runners. *Journal of Sports Sciences*, 36(22), 2614–2620. https://doi.org/10.1080/02640414.2018.1472200
+3. Price, O. J., Sewry, N., Schwellnus, M., Backer, V., Reier-Nilsen, T., Bougault, V., Pedersen, L., Chenuel, B., Larsson, K., & Hull, J. H. (2022). Prevalence of lower airway dysfunction in athletes: a systematic review and meta-analysis by a subgroup of the IOC consensus group on «acute respiratory illness in the athlete». *British Journal of Sports Medicine*, 56(4), 213–222. https://doi.org/10.1136/bjsports-2021-104601

@@ -2,23 +2,23 @@
 title: "Black Friday 2026 para Corredores: O Que Vale Mesmo a Pena Comprar"
 date: '2026-11-18'
 category: "Equipamento"
-excerpt: "Guia de Black Friday 2026 para corredores: como distinguir um bom desconto, que sapatilhas, sensores e acessórios comprar na i-Run e os erros que te fazem gastar mal."
+excerpt: "Guia de Black Friday 2026 para corredores: como ver se um desconto é real, que sapatilhas, sensores e acessórios comprar na i-Run e que erros evitar."
 seoTitle: "Black Friday 2026 Corrida: Sapatilhas e Material a Comprar"
 keyword: "black friday sapatilhas de corrida"
 keywords: ["black friday corrida 2026", "promoções sapatilhas running", "black friday trail running"]
-readTime: 7
+readTime: 6
 faqs:
   - q: "Quando é a Black Friday de 2026?"
     a: "A Black Friday de 2026 é a 27 de novembro. Muitas lojas começam as promoções nos dias anteriores e prolongam-nas até à Cyber Monday, a 30 de novembro."
   - q: "Vale a pena comprar sapatilhas de competição na Black Friday?"
-    a: "Só se já tens uma prova-alvo e sabes que o modelo te serve. As sapatilhas com placa são caras e duram menos do que as de treino, por isso o desconto compensa sobretudo para quem as vai usar em prova."
+    a: "Só se já tens uma prova-alvo e sabes que o modelo te serve. As sapatilhas com placa são caras e costumam durar menos do que as de treino, por isso o desconto compensa sobretudo para quem as vai usar em prova."
   - q: "Comprar o modelo do ano anterior é boa ideia?"
     a: "Muitas vezes sim, mas confirma o preço: nem sempre a versão antiga é mais barata. Se a mudança entre versões for pequena e o teu tamanho estiver disponível, a versão anterior pode ser a melhor compra."
 ---
 
 ## Black Friday não é desculpa para comprar o que não precisas
 
-A Black Friday de 2026 cai a **27 de novembro**, e a Cyber Monday a **30 de novembro**. Muitas lojas, incluindo a i-Run, já começaram as promoções. É uma boa altura para renovar material, mas só se a compra fizer sentido para o teu treino. O desconto não torna boa uma sapatilha que não te serve.
+A Black Friday de 2026 cai a **27 de novembro**, e a Cyber Monday a **30 de novembro**. Muitas lojas antecipam as promoções para os dias anteriores. É uma boa altura para renovar material, mas só se a compra fizer sentido para o teu treino. O desconto não torna boa uma sapatilha que não te serve.
 
 Este guia ajuda-te a decidir **o que comprar, o que evitar e como perceber se um desconto é real**. Não testámos os produtos. A seleção baseia-se nas especificações dos fabricantes, na evidência sobre calçado de corrida e no que faz sentido para cada perfil de corredor.
 
@@ -26,7 +26,7 @@ Este guia ajuda-te a decidir **o que comprar, o que evitar e como perceber se um
 
 ### 1. Conforto primeiro, sempre
 
-A revisão de Nigg et al. (2015) propõe o **"filtro de conforto"**: escolher a sapatilha que te parece mais confortável é um critério razoável e simples para reduzir o risco de lesão. Sapatilha que magoa na loja não melhora com 100 km. Se não conheces o modelo, prefere lojas com devoluções fáceis. A i-Run aceita devoluções até 30 dias.
+A revisão de Nigg et al. (2015) propõe o **"filtro de conforto"**: escolher a sapatilha que te parece mais confortável é um critério simples e razoável para tentar reduzir o risco de lesão. É uma proposta dos autores, ainda com evidência limitada, mas o princípio é sensato: uma sapatilha que magoa na loja dificilmente melhora com 100 km. Se não conheces o modelo, prefere lojas com devoluções fáceis. A i-Run aceita devoluções até 30 dias.
 
 ### 2. Compra o que vais usar nos próximos meses
 
@@ -38,7 +38,7 @@ O preço riscado nem sempre é o preço a que o produto se vendia nas semanas an
 
 ## O truque das versões anteriores
 
-Quando sai uma nova versão, a anterior costuma baixar de preço. **Mas nem sempre, e às vezes a diferença é zero.** A 18 de novembro, na i-Run:
+Quando sai uma nova versão, a anterior baixa muitas vezes de preço. **Mas nem sempre, e às vezes a diferença é zero.** A 18 de novembro, na i-Run:
 
 - A [Nike Pegasus 41](https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fnike%2FPegasus-41_fiche_141717.html) estava a ~112 €, contra ~140 € da [Pegasus 42](https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fnike%2FPegasus-42_fiche_146443.html). Aqui a versão anterior compensa.
 - A [On Cloudmonster 2](https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fon-running%2FCloudmonster-2_fiche_136633.html) estava a ~115 €, contra ~143 € da [Cloudmonster 3](https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fon-running%2FCloudmonster-3_fiche_146463.html).
@@ -63,7 +63,7 @@ Preços indicativos na i-Run a 18 de novembro de 2026, versão de homem. Variam 
 - **[Adidas Adizero Adios Pro 4](https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fadidas%2Fadizero-Adios-Pro-4_fiche_142982.html) — ~179 €.** Meia maratona e maratona. Muito propulsiva em ritmo de prova, pouco versátil para treino.
 - **[Saucony Endorphin Pro 5](https://sln.i-run.pt/?P51383158DBBD1F1&redir=https%3A%2F%2Fwww.i-run.pt%2Fhomem%2Fcalcados%2Fcorrida%2Fsaucony%2FEndorphin-Pro-5_fiche_146484.html) — ~189 €.** Para maratonistas que querem placa com mais conforto. Equilíbrio entre resposta e amortecimento.
 
-As sapatilhas com placa de carbono e espumas de nova geração reduzem o custo energético da corrida face às sapatilhas de competição tradicionais (Hoogkamer et al., 2018). O ganho é real, mas só vale o investimento se as usares em prova.
+No estudo de Hoogkamer et al. (2018), um protótipo da Nike com placa de carbono e espuma de nova geração reduziu o custo energético da corrida em cerca de 4%, em média, face a duas sapatilhas de maratona tradicionais, com variação entre corredores. O ganho é real, mas só vale o investimento se as usares em prova.
 
 ### Trail
 

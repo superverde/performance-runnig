@@ -66,7 +66,7 @@ Na prática: uma rodagem fácil de 45 minutos produz um EPOC pequeno e curto. Um
 
 Aqui está o ponto em que a ideia popular mais se afasta da evidência. As revisões indicam que, depois de exercício aeróbio típico, o EPOC corresponde a uma fração relativamente pequena da energia gasta durante o próprio exercício (LaForgia et al., 2006). Mesmo nos protocolos mais intensos, o gasto adicional fica muito abaixo do da sessão.
 
-A revisão sistemática de Panissa et al. (2021) comparou o EPOC depois de exercício intervalado de alta intensidade e de exercício contínuo moderado. O EPOC tendeu a ser maior depois do intervalado, sobretudo com sprints, mas as diferenças absolutas no gasto energético foram modestas e dependeram muito dos protocolos comparados.
+A revisão sistemática de Panissa et al. (2021) comparou o EPOC depois de exercício intervalado de alta intensidade e de exercício contínuo moderado. Com 22 estudos incluídos, o gasto energético do EPOC foi maior depois do intervalado e dos sprints do que depois do contínuo moderado, e maior quando a medição se prolongava para lá das 3 horas. Mas as diferenças absolutas foram modestas — na ordem das dezenas de quilocalorias (aproximadamente 35 a 130 kJ, conforme o protocolo e a janela de medição) — e os autores sublinharam que os métodos dos estudos são pouco padronizados.
 
 Para um corredor, a conclusão útil é esta:
 
@@ -106,5 +106,5 @@ O EPOC é o preço metabólico que o corpo paga para regressar ao equilíbrio de
 
 1. Gaesser, G. A., & Brooks, G. A. (1984). Metabolic bases of excess post-exercise oxygen consumption: a review. *Medicine and Science in Sports and Exercise*, 16(1), 29–43.
 2. Børsheim, E., & Bahr, R. (2003). Effect of exercise intensity, duration and mode on post-exercise oxygen consumption. *Sports Medicine*, 33(14), 1037–1060. https://doi.org/10.2165/00007256-200333140-00002
-3. LaForgia, J., Withers, R. T., & Gore, C. J. (2006). Effects of exercise intensity and duration on the excess post-exercise oxygen consumption. *Journal of Sports Sciences*.
-4. Panissa, V. L. G., Fukuda, D. H., Staibano, V., Marques, M., & Franchini, E. (2021). Magnitude and duration of excess of post-exercise oxygen consumption between high-intensity interval and moderate-intensity continuous exercise: a systematic review. *Obesity Reviews*.
+3. LaForgia, J., Withers, R. T., & Gore, C. J. (2006). Effects of exercise intensity and duration on the excess post-exercise oxygen consumption. *Journal of Sports Sciences*, 24(12), 1247–1264.
+4. Panissa, V. L. G., Fukuda, D. H., Staibano, V., Marques, M., & Franchini, E. (2021). Magnitude and duration of excess of post-exercise oxygen consumption between high-intensity interval and moderate-intensity continuous exercise: a systematic review. *Obesity Reviews*, 22(1), e13099. https://doi.org/10.1111/obr.13099

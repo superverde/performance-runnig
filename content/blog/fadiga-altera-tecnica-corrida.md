@@ -22,11 +22,11 @@ A fadiga muda a tua técnica de corrida: à medida que o cansaço se acumula, a 
 
 Há várias revisões sistemáticas sobre o tema, e a conclusão comum é clara: correr até à fadiga altera a biomecânica, mas as alterações variam muito de estudo para estudo e de corredor para corredor.
 
-- **Winter, Gordon e Watt (2017)** reviram os estudos que analisaram a corrida em piso real (não na passadeira) antes e depois de protocolos de fadiga e encontraram alterações cinemáticas e cinéticas, com resultados muitas vezes contraditórios entre estudos.
-- **Apte et al. (2021)** juntaram estudos sobre a resposta do membro inferior à fadiga induzida pela corrida e sublinharam que o tipo de protocolo (intensidade, duração, passadeira ou exterior) e o nível do corredor condicionam muito o que se observa.
-- **Zandbergen et al. (2023)**, numa revisão com meta-análise de corrida em plano, encontraram alterações em várias variáveis cinemáticas com a fadiga, mas com grande heterogeneidade entre os estudos.
+- **Winter, Gordon e Watt (2017)** reviram os estudos que analisaram a corrida em piso real (não na passadeira) antes e depois de protocolos de fadiga. Encontraram apenas 12 estudos, de qualidade moderada, e concluíram que a evidência é limitada; as alterações mais relatadas foram a descida da velocidade e do comprimento da passada, a descida da cadência e mais rotação da parte superior do corpo.
+- **Apte et al. (2021)** juntaram 68 estudos sobre a resposta do membro inferior à fadiga induzida pela corrida e concluíram que quase todos os parâmetros biomecânicos são afetados: o tempo de contacto, o tempo de voo e a aceleração da tíbia tendem a aumentar, enquanto a cadência, a rigidez vertical e o pico da força vertical tendem a diminuir. A intensidade do protocolo e o local do teste (passadeira ou exterior) condicionam muito o que se observa.
+- **Zandbergen et al. (2023)**, numa revisão com meta-análise de corrida em plano, encontraram com a fadiga mais aceleração da tíbia, menos rigidez da perna e mais flexão do joelho no contacto inicial, com grande variação entre corredores — razão pela qual os autores recomendam analisar cada corredor individualmente.
 
-A experiência também pesa. **Maas et al. (2018)** compararam corredores principiantes com corredores de competição numa corrida até à exaustão e observaram que os principiantes mostravam alterações cinemáticas maiores com a fadiga. Em termos práticos: quanto mais treinado estás, mais estável tende a ser a tua passada quando o cansaço aparece.
+A experiência também pesa. **Maas et al. (2018)** compararam corredores principiantes com corredores de competição numa corrida em passadeira até à exaustão, ao ritmo da sua prova de 3200 m. Os principiantes mostraram alterações cinemáticas maiores; a inclinação do tronco para a frente, por exemplo, só aumentou neste grupo. Em termos práticos: quanto mais treinado estás, mais estável tende a ser a tua passada quando o cansaço aparece.
 
 ## As mudanças mais comuns que vais reconhecer
 
@@ -106,7 +106,7 @@ A fadiga muda a técnica de todos os corredores, dos principiantes aos de elite 
 
 ## Referências Científicas
 
-1. Winter, S., Gordon, S., & Watt, K. (2017). Effects of fatigue on kinematics and kinetics during overground running: a systematic review. *The Journal of Sports Medicine and Physical Fitness*.
-2. Apte, S., Prigent, G., Stöggl, T., Martínez, A., Snyder, C., Gremeaux-Bacchi, V., & Aminian, K. (2021). Biomechanical Response of the Lower Extremity to Running-Induced Acute Fatigue: A Systematic Review. *Frontiers in Physiology*, 12, 646042. https://doi.org/10.3389/fphys.2021.646042
-3. Zandbergen, M. A., Marotta, L., Bulthuis, R., Buurke, J. H., Veltink, P. H., & Reenalda, J. (2023). Effects of level running-induced fatigue on running kinematics: A systematic review and meta-analysis. *Gait & Posture*.
+1. Winter, S., Gordon, S., & Watt, K. (2017). Effects of fatigue on kinematics and kinetics during overground running: a systematic review. *The Journal of Sports Medicine and Physical Fitness*, 57(6), 887–899. https://doi.org/10.23736/S0022-4707.16.06339-8
+2. Apte, S., Prigent, G., Stöggl, T., Martínez, A., Snyder, C., Gremeaux-Bader, V., & Aminian, K. (2021). Biomechanical Response of the Lower Extremity to Running-Induced Acute Fatigue: A Systematic Review. *Frontiers in Physiology*, 12, 646042. https://doi.org/10.3389/fphys.2021.646042
+3. Zandbergen, M. A., Marotta, L., Bulthuis, R., Buurke, J. H., Veltink, P. H., & Reenalda, J. (2023). Effects of level running-induced fatigue on running kinematics: A systematic review and meta-analysis. *Gait & Posture*, 99, 60–75. https://doi.org/10.1016/j.gaitpost.2022.09.089
 4. Maas, E., De Bie, J., Vanfleteren, R., Hoogkamer, W., & Vanwanseele, B. (2018). Novice runners show greater changes in kinematics with fatigue compared with competitive runners. *Sports Biomechanics*. https://doi.org/10.1080/14763141.2017.1347193

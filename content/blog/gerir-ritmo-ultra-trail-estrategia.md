@@ -6,7 +6,7 @@ excerpt: "Gerir o ritmo num ultra trail é gerir esforço, não velocidade. Vê 
 seoTitle: "Ritmo em Ultra: Estratégia de Pacing no Ultra Trail"
 keyword: "ritmo em ultra"
 keywords: ["gestão de ritmo ultra trail", "estratégia de ultra", "pacing ultra"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "Num ultra devo tentar correr a velocidade constante?"
     a: "Não. Com subidas, descidas e piso técnico, a velocidade varia sempre. O que deves tentar manter estável é o esforço. Os estudos mostram que os corredores mais rápidos são os que perdem menos velocidade ao longo da prova, e isso consegue-se com um início contido."
@@ -22,15 +22,15 @@ Gerir o ritmo num ultra é gerir o esforço, não a velocidade: o objetivo é di
 
 ### Regularidade compensa
 
-**Suter et al. (2020)** analisaram os tempos de passagem de milhares de participantes do Ultra-Trail du Mont-Blanc entre 2008 e 2019. A conclusão está no título do estudo: um ritmo mais regular — menor variação de velocidade entre secções da prova — esteve associado a tempos finais mais rápidos.
+**Suter et al. (2020)** analisaram os tempos de passagem de 13 829 resultados do Ultra-Trail du Mont-Blanc entre 2008 e 2019. A conclusão está no título do estudo: um ritmo mais regular — menor variação de velocidade entre secções da prova — esteve associado a tempos finais mais rápidos.
 
 Atenção a um ponto importante: num percurso de montanha, "regular" não quer dizer velocidade igual em todo o lado. Quer dizer que o corredor não desperdiça energia cedo e não sofre uma quebra brutal no fim. Praticamente todos abrandam ao longo de um ultra; os melhores abrandam menos.
 
 ### O terreno muda tudo
 
-**Kerhervé et al. (2016)** estudaram o ritmo de corredores num ultra em terreno acidentado e mostraram que a velocidade dependia fortemente do declive de cada secção, o que obriga a pensar o ritmo por troços e não por média global.
+**Kerhervé et al. (2016)** seguiram com GPS 15 corredores num ultra de 173 km em terreno acidentado e analisaram a velocidade separadamente em plano, subida e descida. Todos abrandaram ao longo da prova nos três tipos de terreno, mas de forma diferente: em plano, a perda de velocidade concentrou-se sobretudo na primeira metade, enquanto a subir e a descer se distribuiu por toda a prova. Neste grupo pequeno, o tempo final não se relacionou com a perda de velocidade nem com o tempo parado — um lembrete de que estudos com poucos corredores não chegam para regras absolutas. A lição prática é outra: o ritmo comporta-se de forma diferente em cada tipo de terreno, por isso faz mais sentido pensá-lo por troços do que por uma média global.
 
-**Genitrini et al. (2022)** analisaram ultras de trail e concluíram que as **descidas** foram secções decisivas para o desempenho: os corredores mais rápidos distinguiram-se, em boa parte, pela capacidade de manter a velocidade a descer. Pernas destruídas pelas descidas da primeira metade não descem bem na segunda.
+**Genitrini et al. (2022)** analisaram mais de 16 000 participantes de várias edições do UTMB, da CCC e da Javelina (100 km e 100 milhas) e concluíram que as **descidas** foram secções decisivas para o desempenho: os corredores mais rápidos distinguiram-se, em boa parte, pela capacidade de manter a velocidade a descer, e essa diferença aumentou nas fases finais da prova. Entre os dez primeiros de cada sexo, porém, não houve diferenças de estratégia entre os mais e os menos rápidos. Pernas destruídas pelas descidas da primeira metade não descem bem na segunda.
 
 ## Porque é que o início rápido sai tão caro num ultra
 
@@ -89,7 +89,7 @@ Um objetivo realista seria pensar em tempos por secção a partir desses treinos
 
 Num ultra, minutos perdidos parado somam-se depressa. Antes de chegares ao posto, decide o que vais fazer: encher os soft flasks, comer, trocar de camada, sair. Leva uma lista mental curta. O artigo sobre [nutrição nos postos de abastecimento](/blog/nutricao-postos-abastecimento-ultra) ajuda-te a planear.
 
-Comer é parte da estratégia de ritmo. A posição da International Society of Sports Nutrition sobre ultramaratonas (Tiller et al., 2019) recomenda ingestão regular de hidratos de carbono ao longo da prova (na ordem dos 30 a 50 g por hora, mais se treinaste o intestino), além de líquidos e sódio ajustados às condições. Sem energia, nenhuma estratégia de ritmo resiste.
+Comer é parte da estratégia de ritmo. A posição da International Society of Sports Nutrition sobre ultramaratonas (Tiller et al., 2019) recomenda ingestão regular de hidratos de carbono ao longo da prova (na ordem dos 30 a 50 g por hora; o documento nota que atletas bem treinados toleram quantidades superiores), além de líquidos e sódio ajustados às condições. Sem energia, nenhuma estratégia de ritmo resiste.
 
 ## Erros clássicos de gestão de ritmo
 
@@ -112,4 +112,4 @@ A estratégia de ultra que funciona é quase aborrecida: começar contido, mante
 1. Suter, D., Sousa, C. V., Hill, L., Scheer, V., Nikolaidis, P. T., & Knechtle, B. (2020). Even Pacing Is Associated with Faster Finishing Times in Ultramarathon Distance Trail Running—The "Ultra-Trail du Mont Blanc" 2008–2019. *International Journal of Environmental Research and Public Health*, 17(19), 7074. https://doi.org/10.3390/ijerph17197074
 2. Kerhervé, H. A., Cole-Hunter, T., Wiegand, A. N., & Solomon, C. (2016). Pacing during an ultramarathon running event in hilly terrain. *PeerJ*, 4, e2591. https://doi.org/10.7717/peerj.2591
 3. Genitrini, M., Fritz, J., Stöggl, T., & Schwameder, H. (2022). Downhill Sections Are Crucial for Performance in Trail Running Ultramarathons—A Pacing Strategy Analysis. *Journal of Functional Morphology and Kinesiology*, 7(4), 103. https://doi.org/10.3390/jfmk7040103
-4. Tiller, N. B., Roberts, J. D., Beasley, L., et al. (2019). International Society of Sports Nutrition Position Stand: nutritional considerations for single-stage ultra-marathon training and racing. *Journal of the International Society of Sports Nutrition*, 16. https://doi.org/10.1186/s12970-019-0312-9
+4. Tiller, N. B., Roberts, J. D., Beasley, L., et al. (2019). International Society of Sports Nutrition Position Stand: nutritional considerations for single-stage ultra-marathon training and racing. *Journal of the International Society of Sports Nutrition*, 16, 50. https://doi.org/10.1186/s12970-019-0312-9

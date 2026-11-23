@@ -33,7 +33,7 @@ A investigação específica sobre OCR ainda é escassa, sobretudo estudos de ca
 
 ## Força e corrida podem conviver?
 
-Sim, com algumas regras. A meta-análise de **Wilson et al. (2012)** mostrou que juntar treino aeróbio ao treino de força pode atenuar os ganhos de força e potência, sobretudo com volumes e frequências aeróbias elevados. Mais recentemente, **Petré et al. (2021)** concluíram que o treino concorrente não prejudicou o desenvolvimento da força máxima em pessoas pouco ou moderadamente treinadas, mas pode limitá-lo em pessoas já muito treinadas em força.
+Sim, com algumas regras. A meta-análise de **Wilson et al. (2012)**, com 21 estudos, mostrou que juntar treino aeróbio ao treino de força pode atenuar os ganhos de massa muscular, força e potência, e que essa interferência depende da modalidade, da frequência e da duração do treino aeróbio — foi mais evidente quando o treino aeróbio era corrida e quando a frequência e a duração eram maiores. Mais recentemente, **Petré et al. (2021)** concluíram que o treino concorrente não prejudicou de forma significativa o desenvolvimento da força máxima dos membros inferiores em pessoas não treinadas ou moderadamente treinadas, mas teve um pequeno efeito negativo em pessoas treinadas — e, nestas, esse efeito surgiu quando força e resistência eram feitas na mesma sessão, não quando eram feitas em sessões separadas.
 
 Para um corredor amador que prepara uma prova OCR, a conclusão prática é tranquilizadora: consegues ficar mais forte enquanto manténs a corrida, desde que:
 
@@ -102,7 +102,7 @@ Progride devagar: aumenta primeiro o número de blocos do circuito e só depois 
 
 ## Lesões e segurança
 
-Os riscos mais evidentes neste tipo de prova são as quedas e entorses, os cortes e escoriações e os problemas causados pela água fria. A meta-análise de **Lauersen, Bertelsen e Andersen (2014)** mostrou que programas de treino de força reduzem de forma marcada o risco de lesões desportivas, o que reforça a importância das sessões de força. Se tiveres historial de entorses, inclui trabalho de equilíbrio e lê o artigo sobre [entorse do tornozelo](/blog/entorse-tornozelo-corredores-retorno-treino).
+Os riscos mais evidentes neste tipo de prova são as quedas e entorses, os cortes e escoriações e os problemas causados pela água fria. A meta-análise de **Lauersen, Bertelsen e Andersen (2014)**, que reuniu ensaios aleatorizados de prevenção de lesões, concluiu que os programas de treino de força foram os mais eficazes, reduzindo as lesões desportivas para menos de um terço, o que reforça a importância das sessões de força. Se tiveres historial de entorses, inclui trabalho de equilíbrio e lê o artigo sobre [entorse do tornozelo](/blog/entorse-tornozelo-corredores-retorno-treino).
 
 No dia da prova, aquece bem, protege as mãos e, em provas com água fria, tem roupa seca à espera na meta. Lê o regulamento: em muitas provas, falhar um obstáculo implica uma penalização (nas Spartan Race, por exemplo, uma série de burpees), e isso também se treina.
 
@@ -112,7 +112,7 @@ Um bom treino OCR não é uma sequência de treinos brutais: é corrida consiste
 
 ## Referências Científicas
 
-1. Wilson, J. M., Marin, P. J., Rhea, M. R., Wilson, S. M. C., Loenneke, J. P., & Anderson, J. C. (2012). Concurrent training: a meta-analysis examining interference of aerobic and resistance exercises. *Journal of Strength and Conditioning Research*.
-2. Petré, H., Hemmingsson, E., Rosdahl, H., & Psilander, N. (2021). Development of Maximal Dynamic Strength During Concurrent Resistance and Endurance Training in Untrained, Moderately Trained, and Trained Individuals: A Systematic Review and Meta-analysis. *Sports Medicine*. https://doi.org/10.1007/s40279-021-01426-9
-3. American College of Sports Medicine. (2009). American College of Sports Medicine position stand. Progression models in resistance training for healthy adults. *Medicine and Science in Sports and Exercise*.
-4. Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871.
+1. Wilson, J. M., Marin, P. J., Rhea, M. R., Wilson, S. M. C., Loenneke, J. P., & Anderson, J. C. (2012). Concurrent training: a meta-analysis examining interference of aerobic and resistance exercises. *Journal of Strength and Conditioning Research*, 26(8), 2293–2307. https://doi.org/10.1519/JSC.0b013e31823a3e2d
+2. Petré, H., Hemmingsson, E., Rosdahl, H., & Psilander, N. (2021). Development of maximal dynamic strength during concurrent resistance and endurance training in untrained, moderately trained, and trained individuals: a systematic review and meta-analysis. *Sports Medicine*, 51, 991–1010. https://doi.org/10.1007/s40279-021-01426-9
+3. American College of Sports Medicine. (2009). American College of Sports Medicine position stand. Progression models in resistance training for healthy adults. *Medicine and Science in Sports and Exercise*, 41(3), 687–708. https://doi.org/10.1249/MSS.0b013e3181915670
+4. Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials. *British Journal of Sports Medicine*, 48(11), 871–877. https://doi.org/10.1136/bjsports-2013-092538

@@ -32,7 +32,7 @@ Para um corredor, a tradução é simples: o treino é uma das fontes de carga, 
 
 ### O stress atrasa a recuperação
 
-Stults-Kolehmainen et al. (2014) avaliaram estudantes com diferentes níveis de stress crónico depois de uma sessão exigente de treino de força. Nos dias seguintes, os que relatavam mais stress recuperaram mais lentamente a função muscular e as sensações de energia, fadiga e dor. A sessão foi a mesma para todos; a diferença estava no contexto fora do treino.
+Stults-Kolehmainen et al. (2014) avaliaram 31 estudantes universitários com diferentes níveis de stress crónico depois de uma sessão exigente de força na prensa de pernas. Nos quatro dias seguintes, os que relatavam mais stress recuperaram mais lentamente a força máxima isométrica e as sensações de energia, fadiga e dor muscular. A sessão foi a mesma para todos; a diferença estava no contexto fora do treino.
 
 ### O stress muda os hábitos de exercício
 
@@ -122,9 +122,9 @@ O stress do trabalho entra na mesma conta que a carga de treino. Quando a vida a
 
 ## Referências Científicas
 
-1. McEwen, B. S. (1998). Protective and damaging effects of stress mediators. *New England Journal of Medicine*, 338(3), 171–179.
+1. McEwen, B. S. (1998). Protective and damaging effects of stress mediators. *New England Journal of Medicine*, 338(3), 171–179. https://doi.org/10.1056/NEJM199801153380307
 2. Stults-Kolehmainen, M. A., & Sinha, R. (2014). The effects of stress on physical activity and exercise. *Sports Medicine*, 44(1), 81–121. https://doi.org/10.1007/s40279-013-0090-5
-3. Stults-Kolehmainen, M. A., Bartholomew, J. B., & Sinha, R. (2014). Chronic psychological stress impairs recovery of muscular function and somatic sensations over a 96-hour period. *Journal of Strength and Conditioning Research*. https://doi.org/10.1519/JSC.0000000000000335
-4. Ivarsson, A., Johnson, U., Andersen, M. B., Tranaeus, U., Stenling, A., & Lindwall, M. (2017). Psychosocial factors and sport injuries: meta-analyses for prediction and prevention. *Sports Medicine*, 47(2), 353–365.
-5. Meeusen, R., Duclos, M., Foster, C., et al. (2013). Prevention, diagnosis, and treatment of the overtraining syndrome: joint consensus statement of the European College of Sport Science and the American College of Sports Medicine. *Medicine and Science in Sports and Exercise*, 45(1), 186–205.
+3. Stults-Kolehmainen, M. A., Bartholomew, J. B., & Sinha, R. (2014). Chronic psychological stress impairs recovery of muscular function and somatic sensations over a 96-hour period. *Journal of Strength and Conditioning Research*, 28(7), 2007–2017. https://doi.org/10.1519/JSC.0000000000000335
+4. Ivarsson, A., Johnson, U., Andersen, M. B., Tranaeus, U., Stenling, A., & Lindwall, M. (2017). Psychosocial factors and sport injuries: meta-analyses for prediction and prevention. *Sports Medicine*, 47(2), 353–365. https://doi.org/10.1007/s40279-016-0578-x
+5. Meeusen, R., Duclos, M., Foster, C., et al. (2013). Prevention, diagnosis, and treatment of the overtraining syndrome: joint consensus statement of the European College of Sport Science and the American College of Sports Medicine. *Medicine and Science in Sports and Exercise*, 45(1), 186–205. https://doi.org/10.1249/MSS.0b013e318279a10a
 6. Foster, C., Florhaug, J. A., Franklin, J., et al. (2001). A new approach to monitoring exercise training. *Journal of Strength and Conditioning Research*, 15(1), 109–115.

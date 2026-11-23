@@ -6,7 +6,7 @@ excerpt: "Uma rotina pós-treino de 15 minutos com base na evidência: arrefecer
 seoTitle: "Rotina Pós-Treino de 15 Minutos: O Que Fazer"
 keyword: "rotina pós-treino"
 keywords: ["depois de correr o que fazer", "recuperação pós-treino", "arrefecimento corrida"]
-readTime: 7
+readTime: 8
 faqs:
   - q: "O que devo fazer logo depois de correr?"
     a: "Depois de um treino intenso, abranda em vez de parar de repente, com 5 minutos de trote ou caminhada. A seguir, bebe, come algo com hidratos de carbono e proteína se o treino foi longo ou duro, troca de roupa e regista como correu a sessão."
@@ -89,7 +89,7 @@ Se te sobrar tempo, podes fazer 2 a 3 minutos de mobilidade suave para as ancas,
 
 ## E os outros métodos de recuperação?
 
-A meta-análise de Dupuy et al. (2018) comparou várias técnicas de recuperação e concluiu que a massagem foi a mais eficaz para reduzir as dores musculares tardias e a perceção de fadiga, com efeitos também para a compressão e para a imersão em água fria em alguns indicadores. O alongamento e a recuperação ativa tiveram efeitos pequenos ou inexistentes nesses marcadores.
+A meta-análise de Dupuy et al. (2018) comparou várias técnicas de recuperação e concluiu que a massagem foi a mais eficaz para reduzir as dores musculares tardias e a perceção de fadiga, com efeitos também para a compressão e para a imersão em água em alguns indicadores. A recuperação ativa reduziu as dores musculares, mas não a fadiga percebida nem os marcadores no sangue, e o alongamento não mostrou efeito nas dores nem na fadiga.
 
 Isto não significa que precisas de massagens depois de cada treino. Significa que, depois de provas ou de blocos de treino muito exigentes, estas ferramentas podem ser um complemento, nunca um substituto do sono, da alimentação e de uma carga de treino bem planeada. Para uma comparação mais completa, vê o [ranking dos métodos de recuperação](/blog/metodos-recuperacao-ranking-meta-analise).
 
@@ -118,6 +118,6 @@ Uma boa rotina pós-treino não precisa de ser longa nem sofisticada. Em 15 minu
 ## Referências Científicas
 
 1. Van Hooren, B., & Peake, J. M. (2018). Do we need a cool-down after exercise? A narrative review of the psychophysiological effects and the effects on performance, injuries and the long-term adaptive response. *Sports Medicine*, 48(7), 1575–1595. https://doi.org/10.1007/s40279-018-0916-2
-2. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement. Nutrition and athletic performance. *Medicine and Science in Sports and Exercise*, 48(3), 543–568.
-3. Jäger, R., Kerksick, C. M., Campbell, B. I., et al. (2017). International Society of Sports Nutrition position stand: protein and exercise. *Journal of the International Society of Sports Nutrition*, 14, 20.
+2. Thomas, D. T., Erdman, K. A., & Burke, L. M. (2016). American College of Sports Medicine joint position statement. Nutrition and athletic performance. *Medicine and Science in Sports and Exercise*, 48(3), 543–568. https://doi.org/10.1249/MSS.0000000000000852
+3. Jäger, R., Kerksick, C. M., Campbell, B. I., et al. (2017). International Society of Sports Nutrition position stand: protein and exercise. *Journal of the International Society of Sports Nutrition*, 14, 20. https://doi.org/10.1186/s12970-017-0177-8
 4. Dupuy, O., Douzi, W., Theurot, D., Bosquet, L., & Dugué, B. (2018). An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: a systematic review with meta-analysis. *Frontiers in Physiology*, 9, 403. https://doi.org/10.3389/fphys.2018.00403

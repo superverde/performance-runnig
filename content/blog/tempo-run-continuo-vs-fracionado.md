@@ -11,7 +11,7 @@ faqs:
   - q: "Qual é melhor, o tempo run contínuo ou o fracionado?"
     a: "Nenhum é superior em absoluto. O fracionado facilita acumular mais minutos ao ritmo certo com menos desgaste, e é melhor para aprender o ritmo. O contínuo treina a capacidade de manter o esforço sem pausas, útil para a meia maratona e a maratona. O ideal é usar os dois."
   - q: "Quanto tempo de recuperação devo fazer nos cruise intervals?"
-    a: "Recuperações curtas, de cerca de 1 minuto de trote para repetições de 1 km ou de 5–6 minutos, e de 1,5–2 minutos para repetições de 10–15 minutos. Se precisas de mais, provavelmente estás a correr depressa demais."
+    a: "Recuperações curtas: uma referência prática é cerca de 1 minuto de trote por cada 5 minutos de repetição, ou seja, 1 minuto para repetições de 1 km ou de 5–6 minutos e 2–3 minutos para repetições de 10–15 minutos. Se precisas de mais, provavelmente estás a correr depressa demais."
   - q: "A que ritmo faço o tempo run se o meu objetivo é 10 km em 50 minutos?"
     a: "O ritmo de prova é 5:00/km. Como o limiar corresponde, aproximadamente, ao ritmo que manterias numa prova de cerca de uma hora, o tempo run fica um pouco mais lento: cerca de 5:05–5:10/km."
 ---
@@ -27,16 +27,16 @@ O limiar que interessa aqui é o segundo — a intensidade mais alta a que o lac
 Os dois formatos trabalham essa intensidade. O que muda é a forma como o esforço se distribui:
 
 - No **contínuo**, o esforço acumula-se sem pausa. Nos últimos minutos, a mesma velocidade custa mais, e é fácil o ritmo «fugir» para cima ou para baixo.
-- No **fracionado**, cada repetição é curta o suficiente para o lactato não subir acima do limiar, e cada pausa é curta o suficiente para não «arrefeceres». Casado e colegas (2023), ao descreverem o treino de limiar fracionado usado por fundistas noruegueses de elite, explicam precisamente esta lógica: repetições curtas demais para o lactato ultrapassar o segundo limiar e recuperações que o deixam descer para perto do primeiro. Os autores notam que, tradicionalmente, o treino de limiar era feito em corrida contínua a velocidades absolutas mais baixas, e que o formato fracionado pode permitir correr um pouco mais depressa com a mesma intensidade metabólica.
+- No **fracionado**, cada repetição é curta o suficiente para o esforço não «derrapar» acima do limiar, e cada pausa é curta o suficiente para não «arrefeceres». Casado e colegas (2023) descreveram o treino de limiar fracionado guiado pelo lactato usado por fundistas de elite: o ritmo das repetições é ajustado a um alvo de lactato no sangue (tipicamente 2–4,5 mmol/L, medido a cada uma a três repetições), e o carácter intervalado permite atingir velocidades absolutas elevadas com uma intensidade metabólica relativamente controlada. Os autores propõem que esta intensidade provoca menos fadiga central e periférica do que esforços mais duros, o que facilitaria a recuperação entre sessões.
 
-O termo *cruise intervals* foi popularizado por Jack Daniels, que os propõe como alternativa ao tempo run contínuo, ao mesmo ritmo de limiar e com pausas curtas (Daniels, 2022).
+O termo *cruise intervals* foi popularizado por Jack Daniels, que os propõe como alternativa ao tempo run contínuo, ao mesmo ritmo de limiar e com pausas curtas — na ordem de 1 minuto por cada 5 minutos de corrida (Daniels, 2022).
 
 ## Comparação direta
 
 | | Contínuo | Fracionado (cruise intervals) |
 |---|---|---|
 | Formato típico | 20–30 min sem parar | 4–6 × 1 km, 3–5 × 6–10 min |
-| Recuperação | Nenhuma | Cerca de 1 min (até 2 min nas repetições mais longas) |
+| Recuperação | Nenhuma | Cerca de 1 min por cada 5 min de repetição |
 | Tempo total no limiar | Limitado pela fadiga e pela concentração | Mais fácil de aumentar |
 | Controlo do ritmo | Mais difícil | Mais fácil — cada repetição é um teste |
 | Custo de recuperação | Moderado | Provavelmente menor para o mesmo tempo total (hipótese fisiológica) |
@@ -87,7 +87,7 @@ Todas as sessões começam com 15–20 minutos de corrida fácil e algumas acele
 ### Corredor de meia em 1:45 (limiar 4:50–4:55/km)
 
 - **Fracionado:** 5 × 6 min a 4:50–4:55, com 1 min de trote. Cada repetição tem cerca de 1,2 km.
-- **Fracionado longo:** 3 × 10 min (cerca de 2,0–2,1 km cada), com 1 min 30 s de trote.
+- **Fracionado longo:** 3 × 10 min (cerca de 2,0–2,1 km cada), com 2 min de trote.
 - **Contínuo:** 25 min a 4:50–4:55/km, o que dá perto de 5,1 km.
 
 Na fase final da preparação, este corredor beneficia também de blocos ao **ritmo de prova** (4:59/km), mais longos e menos intensos do que o limiar — é a ponte para a meia. Vê como isso encaixa num [plano de treino de meia maratona](/blog/plano-treino-meia-maratona).
@@ -100,9 +100,9 @@ Pensada para amadores com três a cinco treinos por semana, uma sessão de limia
 |---|---|---|
 | 1 | 4 × 1 km, rec. 1 min | 5 × 6 min, rec. 1 min |
 | 2 | 5 × 1 km, rec. 1 min | 4 × 8 min, rec. 1 min 30 s |
-| 3 | 3 × 2 km, rec. 2 min | 3 × 10 min, rec. 1 min 30 s |
+| 3 | 3 × 2 km, rec. 2 min | 3 × 10 min, rec. 2 min |
 | 4 (alívio) | 20 min contínuos | 25 min contínuos |
-| 5 | 2 × 12 min, rec. 2 min | 2 × 15 min, rec. 2 min |
+| 5 | 2 × 12 min, rec. 2–3 min | 2 × 15 min, rec. 3 min |
 | 6 | 25 min contínuos | 30 min contínuos |
 
 A lógica: primeiro aumentas o **tempo total** no limiar com pausas curtas; depois alongas as repetições; por fim, juntas tudo num bloco contínuo. Se numa semana o ritmo não sai sem esforço de prova, repete a semana anterior em vez de avançares.

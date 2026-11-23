@@ -40,20 +40,20 @@ Há variação individual: a economia de corrida, a técnica, o calçado e o ter
 
 ### Caminhada
 
-Na caminhada, o custo por quilómetro não é constante: tem a forma de um «U». É mínimo a velocidades moderadas, por volta dos 4 a 5 km/h, e sobe tanto a velocidades muito lentas como a velocidades altas (Saibene & Minetti, 2003). No ponto mais económico, caminhar um quilómetro custa aproximadamente metade do que custa corrê-lo.
+Na caminhada, o custo por quilómetro não é constante: tem a forma de um «U». É mínimo a velocidades moderadas, por volta dos 4 a 5 km/h, e sobe tanto a velocidades muito lentas como a velocidades altas (Saibene & Minetti, 2003). No ponto mais económico, caminhar um quilómetro custa aproximadamente metade do que custa corrê-lo em gasto líquido, isto é, descontando a energia que gastarias de qualquer forma em repouso.
 
-Hall et al. (2004) mediram o gasto energético de adultos a caminhar e a correr e compararam-no com as equações de previsão habituais. O gasto líquido por distância foi maior a correr do que a caminhar, e as equações não acertaram igualmente em todas as situações, o que reforça que qualquer número de calorias é uma estimativa.
+Em gasto bruto (sem descontar o repouso), a diferença parece menor. Hall et al. (2004) mediram por calorimetria indireta 24 adultos a percorrer 1600 m a caminhar e a correr: correr custou cerca de 480 kJ e caminhar cerca de 340 kJ, ou seja, perto de 40% mais. Os autores compararam ainda estes valores com várias equações de previsão e verificaram que algumas sobrestimavam ou subestimavam o gasto, o que reforça que qualquer número de calorias é uma estimativa.
 
 ## Os números: por minuto
 
 Por unidade de tempo, a diferença é muito maior, porque a corrida cobre mais distância:
 
-| Atividade (70 kg) | Velocidade | Tempo para 5 km | Gasto aproximado |
-|---|---|---|---|
-| Caminhada | 5 km/h | 60 min | cerca de metade do da corrida |
-| Corrida fácil | 10 km/h (6:00/km) | 30 min | cerca de 350 kcal |
+| Atividade (70 kg) | Velocidade | Tempo para 5 km | Gasto bruto aproximado | Por minuto |
+|---|---|---|---|---|
+| Caminhada | 5 km/h | 60 min | cerca de 240 kcal | cerca de 4 kcal |
+| Corrida fácil | 10 km/h (6:00/km) | 30 min | cerca de 350 kcal | cerca de 12 kcal |
 
-Para gastar o mesmo que numa corrida de 30 minutos, precisas de caminhar bastante mais do que o dobro do tempo. É por isso que a corrida é tão eficiente para quem tem pouco tempo disponível.
+Os valores são estimativas: o da corrida resulta da regra de cerca de 1 kcal/kg/km, e o da caminhada da proporção medida por Hall et al. (2004) para a mesma distância. Por minuto, correr custa cerca de três vezes mais. Para gastar o mesmo que numa corrida de 30 minutos, precisas de caminhar perto de hora e meia. É por isso que a corrida é tão eficiente para quem tem pouco tempo disponível.
 
 ## O ponto de transição: quando correr fica mais barato
 
@@ -66,7 +66,7 @@ Daí uma consequência prática:
 
 ## Saúde: os benefícios dependem do gasto total
 
-Uma das perguntas mais comuns é se caminhar «vale» tanto como correr. Williams e Thompson (2013) analisaram dezenas de milhares de participantes de dois grandes estudos de coorte, um de corredores e outro de caminhantes. Para o mesmo gasto energético, as reduções do risco de hipertensão, colesterol elevado, diabetes e doença coronária foram semelhantes com caminhada e com corrida.
+Uma das perguntas mais comuns é se caminhar «vale» tanto como correr. Williams e Thompson (2013) analisaram cerca de 33 000 corredores e 16 000 caminhantes de dois grandes estudos de coorte norte-americanos, seguidos durante cerca de seis anos. Para o mesmo gasto energético, as reduções do risco de hipertensão, diabetes e doença coronária foram semelhantes com caminhada e com corrida, e no colesterol elevado a caminhada mostrou até uma vantagem ligeira.
 
 A mensagem é clara:
 
@@ -101,7 +101,7 @@ Correr custa mais do que caminhar, tanto por quilómetro como, sobretudo, por mi
 
 ## Referências Científicas
 
-1. Margaria, R., Cerretelli, P., Aghemo, P., & Sassi, G. (1963). Energy cost of running. *Journal of Applied Physiology*, 18, 367–370.
+1. Margaria, R., Cerretelli, P., Aghemo, P., & Sassi, G. (1963). Energy cost of running. *Journal of Applied Physiology*, 18(2), 367–370. https://doi.org/10.1152/jappl.1963.18.2.367
 2. Saibene, F., & Minetti, A. E. (2003). Biomechanical and physiological aspects of legged locomotion in humans. *European Journal of Applied Physiology*, 88(4–5), 297–316. https://doi.org/10.1007/s00421-002-0654-9
-3. Hall, C., Figueroa, A., Fernhall, B., & Kanaley, J. A. (2004). Energy expenditure of walking and running: comparison with prediction equations. *Medicine and Science in Sports and Exercise*, 36(12), 2128–2134.
+3. Hall, C., Figueroa, A., Fernhall, B., & Kanaley, J. A. (2004). Energy expenditure of walking and running: comparison with prediction equations. *Medicine and Science in Sports and Exercise*, 36(12), 2128–2134. https://doi.org/10.1249/01.MSS.0000147584.87788.0E
 4. Williams, P. T., & Thompson, P. D. (2013). Walking versus running for hypertension, cholesterol, and diabetes mellitus risk reduction. *Arteriosclerosis, Thrombosis, and Vascular Biology*, 33(5), 1085–1091.
