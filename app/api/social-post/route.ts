@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
-import { pickCategoryImage } from '@/lib/images'
+import { pickSocialImage } from '@/lib/images'
 import { hashtagsFor } from '@/lib/hashtags'
 import { redis } from '@/lib/redis'
 import { getThreadsAccessToken } from '@/lib/threads-token'
@@ -35,7 +35,8 @@ function isConfigured(value: string | undefined): boolean {
 // determinística pelo slug do artigo (mesmo artigo = mesma imagem em todas
 // as redes, artigos diferentes da mesma categoria já não colidem).
 function selectImage(slug: string, category: string): string {
-  return pickCategoryImage(category, slug, 1080)
+  // 2026-11-23: publicações usam fotos reais do Pedro (ver lib/images.ts)
+  return pickSocialImage(slug)
 }
 
 // ── CORREÇÃO PT-PT (pós-processamento determinístico, custo zero) ────────────
@@ -579,7 +580,9 @@ export async function POST(req: NextRequest) {
     }
 
     const articleUrl = `${SITE_URL}/blog/${slug}`
-    const image = coverImage || selectImage(slug, category)
+    // 2026-11-23: todas as publicações usam fotos reais do Pedro, mesmo que o
+    // artigo tenha coverImage própria (essa continua a ser usada no site).
+    const image = selectImage(slug, category)
 
     // Gera captions para todas as plataformas (barato manter mesmo quando só
     // publicamos numa, uma única chamada Groq já devolve as 4)

@@ -46,8 +46,63 @@ const SITE_URL = 'https://www.performancerunning.pt'
 // artigo "Rotina pós-treino de 15 minutos"), um microscópio, um teclado
 // iluminado, uma foto que não é de trail — e 6 cópias quase iguais da mesma
 // foto na Fisiologia. Confirmado a olho, foto a foto.
+// 2026-11-23 — FOTOS REAIS DO PEDRO (Maratona do Porto 2026, fotos digitais
+// compradas pelo próprio ao fotógrafo da prova). Pedido do Pedro: fotos reais
+// dele em vez de stock, para dar autenticidade e mais visualizações.
+//  - Site (cartões/hero dos artigos): recorte 3:2 em public/pool-images/,
+//    misturadas nas pools das categorias de corrida (Treino, Biomecânica,
+//    VO2max, Psicologia, Fisiologia). Nutrição, Recuperação, Lesões e Trail
+//    mantêm as fotos temáticas — uma foto de estrada não combina com esses temas.
+//  - Publicações (Facebook, Instagram, Threads, Pinterest, grupos, dica do
+//    meio-dia): recorte 4:5 em public/social-images/, usado em TODOS os posts
+//    via pickSocialImage/allSocialImages.
+const PEDRO_SITE_PHOTOS: string[] = [
+  'pedro-porto-863',
+  'pedro-porto-865',
+  'pedro-porto-867',
+  'pedro-porto-870',
+  'pedro-porto-872',
+  'pedro-porto-875',
+  'pedro-porto-880',
+  'pedro-porto-891',
+  'pedro-porto-892',
+  'pedro-porto-896',
+  'pedro-porto-898',
+  'pedro-porto-905',
+  'pedro-porto-910',
+  'pedro-porto-923',
+  'pedro-porto-924',
+  'pedro-porto-927',
+  'pedro-porto-935',
+  'pedro-porto-940',
+]
+
+const PEDRO_SOCIAL_PHOTOS: string[] = [
+  'pedro-porto-863',
+  'pedro-porto-865',
+  'pedro-porto-867',
+  'pedro-porto-870',
+  'pedro-porto-872',
+  'pedro-porto-875',
+  'pedro-porto-880',
+  'pedro-porto-883',
+  'pedro-porto-887',
+  'pedro-porto-891',
+  'pedro-porto-892',
+  'pedro-porto-896',
+  'pedro-porto-898',
+  'pedro-porto-905',
+  'pedro-porto-910',
+  'pedro-porto-923',
+  'pedro-porto-924',
+  'pedro-porto-927',
+  'pedro-porto-935',
+  'pedro-porto-940',
+]
+
 export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
   'Treino': [
+    ...PEDRO_SITE_PHOTOS,
     'photo-1571019614242-c5c5dee9f50b',
     'photo-1534438327276-14e5300c3a48',
     'photo-1571019613454-1cb2f99b2d8b',
@@ -70,6 +125,7 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1590333748338-d629e4564ad9',
   ],
   'Fisiologia': [
+    ...PEDRO_SITE_PHOTOS,
     'photo-1727094141271-9bea5bc8c757',
     'photo-1613936360976-8f35cf0e5461',
     'photo-1557800636-894a64c1696f',
@@ -103,6 +159,7 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1589733955941-5eeaf752f6dd',
   ],
   'Biomecânica': [
+    ...PEDRO_SITE_PHOTOS,
     'photo-1476480862126-209bfaa8edc8',
     'photo-1461897104016-0b3b00cc81ee',
     'photo-1524646349956-1590eacfa324',
@@ -167,6 +224,7 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1746806942505-7215c07810ae',
   ],
   'Psicologia': [
+    ...PEDRO_SITE_PHOTOS,
     'photo-1552674605-db6ffd4facb5',
     'photo-1513593771513-7b58b6c4af38',
     'photo-1551632811-561732d1e306',
@@ -181,6 +239,7 @@ export const CATEGORY_IMAGE_POOLS: Record<string, string[]> = {
     'photo-1769867627903-ca4c13b80701',
   ],
   'VO2max': [
+    ...PEDRO_SITE_PHOTOS,
     'photo-1541534741688-6078c6bfb5c5',
     'photo-1648995361141-30676a75fd27',
     'photo-1542291026-7eec264c27ff',
@@ -245,4 +304,24 @@ export function pickCategoryImage(category: string, seed: string, size = 1080): 
 export function allPoolImages(size = 1080): string[] {
   const ids = Object.values(CATEGORY_IMAGE_POOLS).flat()
   return ids.map(localImageUrl)
+}
+
+/** URL absoluto de uma foto 4:5 das publicações (public/social-images/). */
+function socialImageUrl(photoId: string): string {
+  return `${SITE_URL}/social-images/${photoId}.jpg`
+}
+
+/**
+ * Imagem para publicações nas redes sociais: uma foto real do Pedro (4:5),
+ * escolhida de forma determinística pelo `seed` (slug do artigo) — o mesmo
+ * artigo tem sempre a mesma foto em todas as redes e no painel /grupos.
+ * Independente da categoria: todas as publicações usam fotos reais.
+ */
+export function pickSocialImage(seed: string): string {
+  return socialImageUrl(PEDRO_SOCIAL_PHOTOS[hashString(seed) % PEDRO_SOCIAL_PHOTOS.length])
+}
+
+/** Todas as fotos das publicações — para rotação diária em posts sem artigo (dica do meio-dia). */
+export function allSocialImages(): string[] {
+  return PEDRO_SOCIAL_PHOTOS.map(socialImageUrl)
 }

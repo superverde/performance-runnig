@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 import { NextRequest, NextResponse } from 'next/server'
 import { getArticleBySlug } from '@/lib/articles'
-import { pickCategoryImage } from '@/lib/images'
+import { pickSocialImage } from '@/lib/images'
 
 /**
  * GET /api/pinterest-pin-image?slug=<slug-do-artigo>
@@ -78,7 +78,7 @@ export async function GET(req: NextRequest) {
   const title = article?.title ?? 'Ciência aplicada à corrida'
   const category = article?.category ?? 'Treino'
   const accent = CATEGORY_COLORS[category] ?? DEFAULT_COLOR
-  const backgroundUrl = pickCategoryImage(category, slug || 'default')
+  const backgroundUrl = pickSocialImage(slug || 'default')
 
   const [bold, regular] = await Promise.all([loadInterFont(700), loadInterFont(400)])
   const fonts = []

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
 import { getAllArticles } from '@/lib/articles'
-import { pickCategoryImage } from '@/lib/images'
+import { pickSocialImage } from '@/lib/images'
 import { hashtagsFor } from '@/lib/hashtags'
 import { redis } from '@/lib/redis'
 
@@ -298,7 +298,8 @@ export async function GET(req: NextRequest) {
     (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86_400_000
   )
   const article = allArticles[(dayOfYear + 1) % allArticles.length]
-  const image = article.coverImage ?? pickCategoryImage(article.category, article.slug, 1080)
+  // 2026-11-23: publicações usam fotos reais do Pedro (ver lib/images.ts)
+  const image = pickSocialImage(article.slug)
   const link = `${SITE_URL}/blog/${article.slug}`
 
   const captions = await generateEveningCaptions(article)

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { TwitterApi } from 'twitter-api-v2'
-import { allPoolImages } from '@/lib/images'
+import { allSocialImages } from '@/lib/images'
 
 const SITE_URL = 'https://www.performancerunning.pt'
 
@@ -172,7 +172,8 @@ async function postToX(text: string): Promise<boolean> {
 // Antes tinha só 7 imagens (uma por dia da semana, repetindo toda semana
 // para sempre). Agora usa a pool completa de 50 e roda por dia do ano —
 // só repete ao fim de ~50 dias em vez de 7.
-const TIP_IMAGES = allPoolImages(1080)
+// 2026-11-23: fotos reais do Pedro (ver lib/images.ts)
+const TIP_IMAGES = allSocialImages()
 
 export async function GET(req: NextRequest) {
   if (!isAuthorized(req)) {

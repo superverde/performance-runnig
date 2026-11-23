@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getAllArticles, getTodayArticles } from '@/lib/articles'
-import { pickCategoryImage } from '@/lib/images'
+import { pickSocialImage } from '@/lib/images'
 import { blackFridayAtiva, hojeLisboa } from '@/lib/irun-config'
 import { postsGrupos, imagemDoDia, CALENDARIO } from '@/lib/black-friday-campanha'
 
@@ -101,7 +101,7 @@ export async function GET() {
     // determinística por slug, por isso a imagem sugerida aqui para
     // partilha manual nos grupos é sempre a mesma que já foi publicada
     // automaticamente para o mesmo artigo. Ver [[project_imagens_publicacoes_pool_50]].
-    imagem: pickCategoryImage(article.category, article.slug),
+    imagem: pickSocialImage(article.slug),
   }))
 
   // Post evergreen (slot 3) — não depende dos artigos do dia, fica sempre
