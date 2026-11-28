@@ -1,6 +1,6 @@
 ---
 title: "Foco Atencional na Corrida: Pensar na Técnica ou Distrair-te?"
-date: 'PENDENTE'
+date: '2026-11-28'
 category: "Psicologia"
 excerpt: "Pensar no movimento enquanto corres pode torná-lo menos eficiente. Vê o que a ciência diz sobre foco atencional, associação e distração em esforços longos."
 keyword: "foco atencional"

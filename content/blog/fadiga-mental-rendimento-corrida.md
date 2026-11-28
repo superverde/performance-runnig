@@ -1,6 +1,6 @@
 ---
 title: "Fadiga Mental e Corrida: Como Cansar a Cabeça Prejudica as Pernas"
-date: 'PENDENTE'
+date: '2026-11-28'
 category: "Psicologia"
 excerpt: "A fadiga mental aumenta a perceção de esforço e reduz o rendimento, mesmo com as pernas frescas. Vê o que a ciência mostra e como proteger as tuas sessões."
 keyword: "fadiga mental"

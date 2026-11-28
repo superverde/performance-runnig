@@ -1,6 +1,6 @@
 ---
 title: "Aterragem no Calcanhar ou no Antepé: O Que a Evidência Realmente Mostra"
-date: 'PENDENTE'
+date: '2026-11-28'
 category: "Biomecânica"
 excerpt: "Será que deves mudar o teu padrão de aterragem? Vê o que dizem os estudos sobre calcanhar, antepé, forças de impacto, lesões e economia de corrida."
 keyword: "padrão de aterragem"
